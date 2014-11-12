@@ -4066,8 +4066,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>One way to obtain a &lt;c0&gt;FileCollection&lt;/c0&gt; instance is to use the &lt;a1&gt;&lt;c2&gt;Project.files()&lt;/c2&gt;&lt;/a1&gt; method.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T145349Z" creationid="msdx" creationdate="20141112T145349Z">
-        <seg>使用&lt;a1&gt;&lt;c2&gt;Project.files()&lt;/c2&gt;&lt;/a1&gt;方法是获取一个&lt;c0&gt;FileCollection&lt;/c0&gt;的其中一个方法。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T145357Z" creationid="msdx" creationdate="20141112T145349Z">
+        <seg>使用&lt;a1&gt;&lt;c2&gt;Project.files()&lt;/c2&gt;&lt;/a1&gt;方法是获取一个&lt;c0&gt;FileCollection&lt;/c0&gt;实例的其中一个方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4624,6 +4624,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c4&gt;files()&lt;/c4&gt; method accepts any type of object as its parameters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T145542Z" creationid="msdx" creationdate="20141112T145542Z">
+        <seg>这个&lt;c4&gt;Files()&lt;/c4&gt;方法接受任何类型的对象作为其参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c7&gt;file()&lt;/c7&gt; method also understands URLs, such as &lt;c8&gt;file:/some/path.xml&lt;/c8&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T143325Z" creationid="msdx" creationdate="20141112T143325Z">
@@ -5092,6 +5100,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065342Z" creationid="msdx" creationdate="20141108T065342Z">
         <seg>因此，当未知的属性被设置时，Gradle不会构建失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These are evaluated relative to the project directory, as per the &lt;c5&gt;file()&lt;/c5&gt; method, described in &lt;a6&gt;Section 16.1, “Locating files”&lt;/a6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T145544Z" creationid="msdx" creationdate="20141112T145544Z">
+        <seg>These are evaluated relative to the project directory, as per the &lt;c5&gt;file()&lt;/c5&gt; method, described in &lt;a6&gt;Section 16.1, “Locating files”&lt;/a6&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5972,6 +5988,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T142819Z" creationid="msdx" creationdate="20141112T043528Z">
         <seg>您可以把任何对象传递给&lt;c0&gt;file()&lt;/c0&gt;方法，而它将尝试将其转换为一个绝对路径的&lt;c1&gt;File&lt;/c1&gt;对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can pass this method any number of objects, which are then converted into a set of &lt;c3&gt;File&lt;/c3&gt; objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T145528Z" creationid="msdx" creationdate="20141112T145528Z">
+        <seg>你可以向这个方法传入任意个对象，而它们会被转换为一组 &lt;c3&gt;File&lt;/c3&gt; 对象。</seg>
       </tuv>
     </tu>
     <tu>
