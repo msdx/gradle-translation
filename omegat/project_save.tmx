@@ -142,6 +142,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/file/FileCollection.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T144830Z" creationid="msdx" creationdate="20141112T144830Z">
+        <seg>../javadoc/org/gradle/api/file/FileCollection.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/tasks/StopExecutionException.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T021050Z" creationid="msdx" creationdate="20141111T021050Z">
@@ -818,6 +826,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T125316Z" creationid="msdx" creationdate="20141111T125316Z">
         <seg>16.1. 定位文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16.2. File collections</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T144829Z" creationid="msdx" creationdate="20141112T144829Z">
+        <seg>16.2..文件集合</seg>
       </tuv>
     </tu>
     <tu>
@@ -1662,6 +1678,14 @@ Transforming source file.</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T061316Z" creationid="msdx" creationdate="20141111T061316Z">
         <seg>&gt; gradle transform
 :transform UP-TO-DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;e0&gt;file collection&lt;/e0&gt; is simply a set of files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T145002Z" creationid="msdx" creationdate="20141112T144931Z">
+        <seg>一个&lt;e0&gt;文件集合&lt;/e0&gt;只是表示一组文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3740,6 +3764,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T144749Z" creationid="msdx" creationdate="20141112T144326Z">
         <seg>由于&lt;c2&gt;file()&lt;/c2&gt;方法总是去计算所提供的路径相对于项目目录的路径，最好是使用&lt;c1&gt;new File(somePath)&lt;/c1&gt;，因为它是一个固定的路径，而不会因为用户运行Gradle的具体工作目录而改变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is represented by the &lt;a1&gt;&lt;c2&gt;FileCollection&lt;/c2&gt;&lt;/a1&gt; interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T144942Z" creationid="msdx" creationdate="20141112T144942Z">
+        <seg>It is represented by the &lt;a1&gt;&lt;c2&gt;FileCollection&lt;/c2&gt;&lt;/a1&gt; interface.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6254,6 +6286,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060326Z" creationid="msdx" creationdate="20141111T060326Z">
         <seg>def name = mountain.name[&lt;s5&gt;0&lt;/s5&gt;].text()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T144838Z" creationid="msdx" creationdate="20141112T144838Z">
+        <seg>dependency_management.html#sub:configurations</seg>
       </tuv>
     </tu>
     <tu>
