@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:file(java.lang.Object)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T043529Z" creationid="msdx" creationdate="20141112T043529Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:file(java.lang.Object)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Script.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044531Z" creationid="msdx" creationdate="20141108T044531Z">
@@ -1236,6 +1244,28 @@ configurations.runtime.each { File f -&gt; println f }</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T061357Z" creationid="msdx" creationdate="20141108T061357Z">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Using a relative path&lt;/s0&gt;
+File configFile = file(&lt;s1&gt;'src/config.xml'&lt;/s1&gt;)
+
+&lt;s2&gt;// Using an absolute path&lt;/s2&gt;
+configFile = file(configFile.absolutePath)
+
+&lt;s3&gt;// Using a File object with a relative path&lt;/s3&gt;
+configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s5&gt;))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T043524Z" creationid="msdx" creationdate="20141112T043524Z">
+        <seg>&lt;s0&gt;// Using a relative path&lt;/s0&gt;
+File configFile = file(&lt;s1&gt;'src/config.xml'&lt;/s1&gt;)
+
+&lt;s2&gt;// Using an absolute path&lt;/s2&gt;
+configFile = file(configFile.absolutePath)
+
+&lt;s3&gt;// Using a File object with a relative path&lt;/s3&gt;
+configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s5&gt;))</seg>
       </tuv>
     </tu>
     <tu>
@@ -5498,6 +5528,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Usually, you would pass it a &lt;c2&gt;String&lt;/c2&gt; or &lt;c3&gt;File&lt;/c3&gt; instance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T043533Z" creationid="msdx" creationdate="20141112T043533Z">
+        <seg>Usually, you would pass it a &lt;c2&gt;String&lt;/c2&gt; or &lt;c3&gt;File&lt;/c3&gt; instance.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Version 1.12</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161608Z" creationid="msdx" creationdate="20141109T161608Z">
@@ -5814,6 +5852,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T043445Z" creationid="msdx" creationdate="20141111T125325Z">
         <seg>你可以使用&lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt;方法来找到一个相对于项目目录的文件 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can pass any object to the &lt;c0&gt;file()&lt;/c0&gt; method, and it will attempt to convert the value to an absolute &lt;c1&gt;File&lt;/c1&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T043528Z" creationid="msdx" creationdate="20141112T043528Z">
+        <seg>You can pass any object to the &lt;c0&gt;file()&lt;/c0&gt; method, and it will attempt to convert the value to an absolute &lt;c1&gt;File&lt;/c1&gt; object.</seg>
       </tuv>
     </tu>
     <tu>
