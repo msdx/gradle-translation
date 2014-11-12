@@ -1722,6 +1722,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A file collection is iterable, and can be converted to a number of other types using the &lt;c0&gt;as&lt;/c0&gt; operator.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155653Z" creationid="msdx" creationdate="20141112T155548Z">
+        <seg>一个文件集合是可迭代的，并且可以使用&lt;c0&gt;as&lt;/c0&gt;操作符转换为其他类型的对象集合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A shortcut task definition</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162411Z" creationid="msdx" creationdate="20141109T162355Z">
@@ -3036,6 +3044,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044352Z" creationid="msdx" creationdate="20141108T044352Z">
         <seg>File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FileCollection collection = files(&lt;s0&gt;'src/file1.txt'&lt;/s0&gt;, &lt;s1&gt;new&lt;/s1&gt; File(&lt;s2&gt;'src/file2.txt'&lt;/s2&gt;), [&lt;s3&gt;'src/file3.txt'&lt;/s3&gt;, &lt;s4&gt;'src/file4.txt'&lt;/s4&gt;])</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155529Z" creationid="msdx" creationdate="20141112T155529Z">
+        <seg>FileCollection collection = files(&lt;s0&gt;'src/file1.txt'&lt;/s0&gt;, &lt;s1&gt;new&lt;/s1&gt; File(&lt;s2&gt;'src/file2.txt'&lt;/s2&gt;), [&lt;s3&gt;'src/file3.txt'&lt;/s3&gt;, &lt;s4&gt;'src/file4.txt'&lt;/s4&gt;])</seg>
       </tuv>
     </tu>
     <tu>
@@ -5860,6 +5876,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T015024Z" creationid="msdx" creationdate="20141111T015024Z">
         <seg>你可以向你的任务添加描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also add 2 file collections together using the &lt;c1&gt;+&lt;/c1&gt; operator, or subtract one file collection from another using the &lt;c2&gt;-&lt;/c2&gt; operator.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155551Z" creationid="msdx" creationdate="20141112T155551Z">
+        <seg>You can also add 2 file collections together using the &lt;c1&gt;+&lt;/c1&gt; operator, or subtract one file collection from another using the &lt;c2&gt;-&lt;/c2&gt; operator.</seg>
       </tuv>
     </tu>
     <tu>
