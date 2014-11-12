@@ -1272,6 +1272,16 @@ configurations.runtime.each { File f -&gt; println f }</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Iterate over the files in the collection&lt;/s0&gt;
+collection.each {File file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155846Z" creationid="msdx" creationdate="20141112T155846Z">
+        <seg>&lt;s0&gt;// Iterate over the files in the collection&lt;/s0&gt;
+collection.each {File file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Using a relative path&lt;/s0&gt;
 File configFile = file(&lt;s1&gt;'src/config.xml'&lt;/s1&gt;)
 
@@ -2930,8 +2940,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Example 16.3. Using a file collection</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T160912Z" creationid="msdx" creationdate="20141111T160912Z">
-        <seg>Example 16.3. Using a file collection</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155902Z" creationid="msdx" creationdate="20141111T160912Z">
+        <seg>示例 16.3. 使用一个文件集合</seg>
       </tuv>
     </tu>
     <tu>
@@ -3444,6 +3454,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162328Z" creationid="msdx" creationdate="20141109T162328Z">
         <seg>Hello world</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are some examples of what you can do with a file collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155843Z" creationid="msdx" creationdate="20141112T155843Z">
+        <seg>这里是一些使用文件集合的例子。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5882,8 +5900,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>You can also add 2 file collections together using the &lt;c1&gt;+&lt;/c1&gt; operator, or subtract one file collection from another using the &lt;c2&gt;-&lt;/c2&gt; operator.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155551Z" creationid="msdx" creationdate="20141112T155551Z">
-        <seg>You can also add 2 file collections together using the &lt;c1&gt;+&lt;/c1&gt; operator, or subtract one file collection from another using the &lt;c2&gt;-&lt;/c2&gt; operator.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155814Z" creationid="msdx" creationdate="20141112T155551Z">
+        <seg>您还可以使用&lt;c1&gt;+&lt;/c1&gt;运算符把两个文件集合相加，或使用&lt;c2&gt;-&lt;/c2&gt;运算符减去一个文件集合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5924,6 +5942,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T150811Z" creationid="msdx" creationdate="20141112T150811Z">
         <seg>你也可以将集合，迭代变量，map和数组传递给&lt;c7&gt;files()&lt;/c7&gt;方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also pass the &lt;c0&gt;files()&lt;/c0&gt; method a closure or a &lt;c1&gt;Callable&lt;/c1&gt; instance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155907Z" creationid="msdx" creationdate="20141112T155907Z">
+        <seg>You can also pass the &lt;c0&gt;files()&lt;/c0&gt; method a closure or a &lt;c1&gt;Callable&lt;/c1&gt; instance.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7236,6 +7262,40 @@ taskX.finalizedBy taskY</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151103Z" creationid="msdx" creationdate="20141109T151103Z">
         <seg>println envProjectProp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println file.name
+}
+
+&lt;s1&gt;// Convert the collection to various types&lt;/s1&gt;
+Set set = collection.files
+Set set2 = collection as Set
+List list = collection as List
+String path = collection.asPath
+File file = collection.singleFile
+File file2 = collection as File
+
+&lt;s2&gt;// Add and subtract collections&lt;/s2&gt;
+def union = collection + files(&lt;s3&gt;'src/file3.txt'&lt;/s3&gt;)
+def different = collection - files(&lt;s4&gt;'src/file3.txt'&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155904Z" creationid="msdx" creationdate="20141112T155904Z">
+        <seg>println file.name
+}
+
+&lt;s1&gt;// Convert the collection to various types&lt;/s1&gt;
+Set set = collection.files
+Set set2 = collection as Set
+List list = collection as List
+String path = collection.asPath
+File file = collection.singleFile
+File file2 = collection as File
+
+&lt;s2&gt;// Add and subtract collections&lt;/s2&gt;
+def union = collection + files(&lt;s3&gt;'src/file3.txt'&lt;/s3&gt;)
+def different = collection - files(&lt;s4&gt;'src/file3.txt'&lt;/s4&gt;)</seg>
       </tuv>
     </tu>
     <tu>
