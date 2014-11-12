@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.7" segtype="sentence" srclang="EN-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="EN-US">
+        <seg>10.1. Building a WAR file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T084909Z" creationid="msdx" creationdate="20141030T084909Z">
+        <seg>10.1. 构建一个WAR文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>10.2. Running your web application</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T091033Z" creationid="msdx" creationdate="20141030T091033Z">
+        <seg>10.2.运行您的 web 应用程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>10.3. Summary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T095653Z" creationid="msdx" creationdate="20141030T095653Z">
+        <seg>10.3.摘要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.1. Features</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034425Z" creationid="msdx" creationdate="20141101T034417Z">
+        <seg>2.1. 特性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>9.1. A basic Groovy project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T062227Z" creationid="msdx" creationdate="20141030T061526Z">
+        <seg>9.1. 一个基本的Groovy project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>9.2. Summary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065644Z" creationid="msdx" creationdate="20141030T065520Z">
+        <seg>9.2. 摘要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Previous&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;Contents&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;Next&lt;/a4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T040034Z" creationid="msdx" creationdate="20141030T040034Z">
+        <seg>&lt;a0&gt;上一章&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;目录&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;下一章&lt;/a4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/groovy/quickstart&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T063505Z" creationid="msdx" creationdate="20141030T061718Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注意：&lt;/e1&gt;&lt;/s0&gt; 此例子的代码可以在Gradle的二进制文件或源码中的 &lt;c2&gt;samples/groovy/quickstart&lt;/c2&gt; 里看到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/webApplication/quickstart&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085559Z" creationid="msdx" creationdate="20141030T085447Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注：&lt;/e1&gt;&lt;/s0&gt;此例子代码可以在Gradle的二进制文件或源码当中的&lt;c2&gt;samples/webApplication/quickstart&lt;/c2&gt;里找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add your own new language elements or enhance the existing ones.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T035422Z" creationid="msdx" creationdate="20141101T035422Z">
+        <seg>你可以添加新的语言元素，或增强现有的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Appendix E. Existing IDE Support and how to cope without it</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034203Z" creationid="msdx" creationdate="20141101T034203Z">
+        <seg>Appendix E. Existing IDE Support and how to cope without it</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At the heart of Gradle lies a rich extensible Domain Specific Language (DSL) based on Groovy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034940Z" creationid="msdx" creationdate="20141101T034940Z">
+        <seg>Gradle 的核心在于基于Groovy的丰富而可扩展的域描述语言（DSL）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because a Groovy project &lt;s0&gt;&lt;e1&gt;is&lt;/e1&gt;&lt;/s0&gt; a Java project, whatever you can do with a Java project, you can also do with a Groovy project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065956Z" creationid="msdx" creationdate="20141030T065956Z">
+        <seg>因为一个Groovy项目 &lt;s0&gt;&lt;e1&gt;是&lt;/e1&gt;&lt;/s0&gt; 一个Java项目， 你可以将其作为是一个Java项目，或是一个Groovy项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 1. Introduction</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034309Z" creationid="msdx" creationdate="20141101T034309Z">
+        <seg>第一章. 介绍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 10. Web Application Quickstart</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T071137Z" creationid="msdx" creationdate="20141030T071137Z">
+        <seg>Chapter 10. Web 应用程序快速入门</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 11. Using the Gradle Command-Line</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T100128Z" creationid="msdx" creationdate="20141030T071206Z">
+        <seg>第十一章. 使用Gradle命令行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 12. Using the Gradle Graphical User Interface</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T100240Z" creationid="msdx" creationdate="20141030T100240Z">
+        <seg>第十二章. 使用Gradle图形用户界面</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 17. Using Ant from Gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T034613Z" creationid="msdx" creationdate="20141030T034613Z">
+        <seg>Chapter 17. Using Ant from Gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 2. Overview</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034254Z" creationid="msdx" creationdate="20141101T034231Z">
+        <seg>第二章. 概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 28. The Jetty Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T035211Z" creationid="msdx" creationdate="20141030T035211Z">
+        <seg>Chapter 28. The Jetty Plugin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 3. Tutorials</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034408Z" creationid="msdx" creationdate="20141101T034408Z">
+        <seg>第三章. 教程说明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 30. The CodeNarc Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T035043Z" creationid="msdx" creationdate="20141030T035043Z">
+        <seg>Chapter 30. The CodeNarc Plugin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 42. The Announce Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T034804Z" creationid="msdx" creationdate="20141030T034804Z">
+        <seg>Chapter 42. The Announce Plugin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 43. The Build Announcements Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T032941Z" creationid="msdx" creationdate="20141030T032941Z">
+        <seg>Microsoft Translator的客户ID或客户Secret不可用。请参阅 OmegaT 手册查看相关说明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 45. The Application Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T034937Z" creationid="msdx" creationdate="20141030T034937Z">
+        <seg>Chapter 45. The Application Plugin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 51. Publishing artifacts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034159Z" creationid="msdx" creationdate="20141101T034159Z">
+        <seg>Chapter 51. Publishing artifacts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 9. Groovy Quickstart</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T041136Z" creationid="msdx" creationdate="20141030T035211Z">
+        <seg>第九章. Groovy快速入门</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Declarative builds and build-by-convention</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034420Z" creationid="msdx" creationdate="20141101T034420Z">
+        <seg>Declarative builds and build-by-convention</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>DocBook XSL Stylesheets V1.75.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T071138Z" creationid="msdx" creationdate="20141030T071138Z">
+        <seg>DocBook XSL Stylesheets V1.75.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Even more, this declarative language is extensible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T035250Z" creationid="msdx" creationdate="20141101T035250Z">
+        <seg>并且，这种声明性的语言是可以扩展的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 10.2. Running web application with Jetty plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T094211Z" creationid="msdx" creationdate="20141030T094211Z">
+        <seg>Example 10.2. Running web application with Jetty plugin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 9.3. Groovy example - complete build file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065502Z" creationid="msdx" creationdate="20141030T065502Z">
+        <seg>Example 9.3. Groovy example - complete build file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For our sample, we will use Groovy 2.2.0 from the public Maven repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065340Z" creationid="msdx" creationdate="20141030T065340Z">
+        <seg>下面例子中，我们会使用Maven中央仓库中的Groovy 2.2.0版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle User Guide</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T071145Z" creationid="msdx" creationdate="20141030T071145Z">
+        <seg>Gradle User Guide</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle provides two plugins for web application development: the War plugin and the Jetty plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T084650Z" creationid="msdx" creationdate="20141030T084650Z">
+        <seg>Gradle 为web应用程序开发提供了两个插件：War插件和Jetty插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle pushes declarative builds to the next level by providing declarative language elements that you can assemble as you like.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T035135Z" creationid="msdx" creationdate="20141101T035123Z">
+        <seg>Gradle 通过提供可以如你所愿去组合的声明性的语言元素，将声明性构建推向下级。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle will look for the source files to include in the WAR file in &lt;c2&gt;src/main/webapp&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085806Z" creationid="msdx" creationdate="20141030T085806Z">
+        <seg>Gradle会在 &lt;c2&gt;src/main/webapp&lt;/c2&gt;中查找源文件，并将它们包含进WAR文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Groovy web applications</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085904Z" creationid="msdx" creationdate="20141030T085904Z">
+        <seg>Groovy web程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is a list of some of Gradle's features.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034449Z" creationid="msdx" creationdate="20141101T034417Z">
+        <seg>以下是Gradle的一些特性列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is our complete build file:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065447Z" creationid="msdx" creationdate="20141030T065447Z">
+        <seg>这里是我们完成的构建文件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In every other respect, a Groovy project is identical to a Java project, which we have already seen in &lt;a1&gt;Chapter 7, &lt;i2&gt;Java Quickstart&lt;/i2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T070345Z" creationid="msdx" creationdate="20141030T061216Z">
+        <seg>在其他各方面，Groovy项目与我们在&lt;a1&gt;第七章&lt;i2&gt;Java快速入门&lt;/i2&gt;&lt;/a1&gt;中所看到的Java项目几乎相同 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It provides utmost flexibility to adapt Gradle to your unique needs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T124555Z" creationid="msdx" creationdate="20141101T124546Z">
+        <seg>它提供了最大限度的灵活性，以满足你对Gradle的特殊需求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Language for dependency based programming</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T124327Z" creationid="msdx" creationdate="20141101T035531Z">
+        <seg>基于编程的依赖语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's look at an example.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T061605Z" creationid="msdx" creationdate="20141030T061605Z">
+        <seg>让我们来看一个例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt; will compile, test and JAR your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065615Z" creationid="msdx" creationdate="20141030T065509Z">
+        <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt;将会对你的项目进行编译，测试和打包成jar。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt; will compile, test and WAR your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085726Z" creationid="msdx" creationdate="20141030T085726Z">
+        <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt;将会执行编译，测试和把你的项目打包为WAR包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle jettyRun&lt;/c1&gt;&lt;/s0&gt; will run your web application in an embedded Jetty web container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T094344Z" creationid="msdx" creationdate="20141030T094344Z">
+        <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle jettyRun&lt;/c1&gt;&lt;/s0&gt; 将会在一个嵌入式Jetty web容器中运行您的web应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Running &lt;s2&gt;&lt;c3&gt;gradle jettyRunWar&lt;/c3&gt;&lt;/s2&gt; will build the WAR file, and then run it in an embedded web container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T094528Z" creationid="msdx" creationdate="20141030T094528Z">
+        <seg>运行 &lt;s2&gt;&lt;c3&gt;gradle jettyRunWar&lt;/c3&gt;&lt;/s2&gt;会构建WAR文件，然后在一个嵌入式的web容器中运行它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Structure your build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T124603Z" creationid="msdx" creationdate="20141101T124603Z">
+        <seg>构建结构化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TODO: which url, configure port, uses source files in place and can edit your files and reload.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T095645Z" creationid="msdx" creationdate="20141030T095036Z">
+        <seg>待添加：哪个URL，配置端口，使用源文件的 地方，可编辑你的文件，以及重新加载。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c1&gt;compile&lt;/c1&gt; configuration inherits this dependency, so the groovy libraries will be included in classpath when compiling Groovy and Java source.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065243Z" creationid="msdx" creationdate="20141030T065240Z">
+        <seg> &lt;c1&gt;编译&lt;/c1&gt; 配置继承了这个依赖,从而在编译Groovy和Java源代码时，groovy库也会被包含在类路径中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Groovy plugin extends the &lt;c0&gt;compile&lt;/c0&gt; task to look for source files in directory &lt;c1&gt;src/main/groovy&lt;/c1&gt;, and the &lt;c2&gt;compileTest&lt;/c2&gt; task to look for test source files in directory &lt;c3&gt;src/test/groovy&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T064057Z" creationid="msdx" creationdate="20141030T064057Z">
+        <seg>Groovy插件继承了 &lt;c0&gt;compile&lt;/c0&gt; task ， &lt;c1&gt;src/main/groovy&lt;/c1&gt;目录中查找源文件；还有 &lt;c2&gt;compileTest&lt;/c2&gt; task，在&lt;c3&gt;src/test/groovy&lt;/c3&gt;目录中查找测试的源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Jetty plugin extends the War plugin to allow you to deploy your web application to an embedded Jetty web container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T084854Z" creationid="msdx" creationdate="20141030T084822Z">
+        <seg>Jetty插件扩展了War插件以允许你部署你的web应用程序到嵌入式Jetty web窗口中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The War plugin extends the Java plugin to build a WAR file for your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T084722Z" creationid="msdx" creationdate="20141030T084722Z">
+        <seg>War插件扩展了Java插件来为你的项目构建WAR文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The appropriate groovy libraries will be added to the WAR file for you.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T090909Z" creationid="msdx" creationdate="20141030T090852Z">
+        <seg>它将为你把适当的groovy库添加到WAR文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The compile tasks use joint compilation for these directories, which means they can contain a mixture of java and groovy source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T064548Z" creationid="msdx" creationdate="20141030T064131Z">
+        <seg>这些编译任务对这些目录使用了联合编译，这意味着它们可以同时包含java和groovy源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The declarative language lies on top of a general purpose task graph, which you can fully leverage in your builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T124440Z" creationid="msdx" creationdate="20141101T124440Z">
+        <seg>声明性语言位于通用任务图的顶层，你可以在构建中充分发挥。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The suppleness and richness of Gradle finally allows you to apply common design principles to your build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T124838Z" creationid="msdx" creationdate="20141101T124838Z">
+        <seg>Gradle的灵活和丰富性最终能够让你将觉的设计原则应用到你的构建当中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This also applies the Java plugin to your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085628Z" creationid="msdx" creationdate="20141030T085628Z">
+        <seg>它同样会将Java插件应用到你项目中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This also applies the War plugin to your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T094303Z" creationid="msdx" creationdate="20141030T094303Z">
+        <seg>它会把War插件也应用到你的项目中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This chapter describes a very simple Groovy project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065750Z" creationid="msdx" creationdate="20141030T065750Z">
+        <seg>这一章描述了一个很简单的Groovy项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This chapter introduces some of the Gradle's support for web applications.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T071550Z" creationid="msdx" creationdate="20141030T071550Z">
+        <seg>这一章主要介绍Gradle对Web程序的一些支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This chapter is a work in progress.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T074043Z" creationid="msdx" creationdate="20141030T071411Z">
+        <seg>此章节还在完善中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This plugin extends the Java plugin to add Groovy compilation capabilities to your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T061137Z" creationid="msdx" creationdate="20141030T040304Z">
+        <seg>该插件扩展了Java插件，对你的项目增加了Groovy的编译功能.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will also apply the Java plugin to the project, if it has not already been applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T062257Z" creationid="msdx" creationdate="20141030T062217Z">
+        <seg>这段代码同时会将Java插件应用到project中，如果Java插件还没被应用的话。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Those elements also provide build-by-convention support for Java, Groovy, OSGi, Web and Scala projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T035228Z" creationid="msdx" creationdate="20141101T035228Z">
+        <seg>这些元素同样也为 Java, Groovy, OSGi, Web 和 Scala 项目提供了基于约定的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Thus providing concise, maintainable and comprehensible builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T035508Z" creationid="msdx" creationdate="20141101T035508Z">
+        <seg>因此，它提供了简明、可维护和易理解的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To build a Groovy project, you use the &lt;e0&gt;Groovy plugin&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T041058Z" creationid="msdx" creationdate="20141030T040256Z">
+        <seg>要构建一个Groovy项目，你需要使用&lt;e0&gt;Groovy插件&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To build a WAR file, you apply the War plugin to your project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085435Z" creationid="msdx" creationdate="20141030T085047Z">
+        <seg>要构建一个WAR文件，你需要在你的项目当中应用War插件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To run your web application, you apply the Jetty plugin to your project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T091050Z" creationid="msdx" creationdate="20141030T091050Z">
+        <seg>若要运行您的 web 应用程序，您要将 Jetty 插件应用于您的项目：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the Groovy plugin, add the following to your build file:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T061653Z" creationid="msdx" creationdate="20141030T061640Z">
+        <seg>要使用Groovy插件，你需要在构建脚本文件当中添加以下内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the groovy compilation tasks, you must also declare the Groovy version to use and where to find the Groovy libraries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T064833Z" creationid="msdx" creationdate="20141030T064833Z">
+        <seg>要使用groovy编译任务，还必须声明要使用的Groovy版本以及从哪里获取Groovy库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Usually, a real project will require more than this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065822Z" creationid="msdx" creationdate="20141030T065822Z">
+        <seg>通常情况下，一个真实的项目所需要的不止于此。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can combine multiple plugins in a single project, so you can use the War and Groovy plugins together to build a Groovy based web application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T090650Z" creationid="msdx" creationdate="20141030T090650Z">
+        <seg>你可以在单个project中组合多个插件，因此你可以一起使用War和Groovy插件来构建一个基于Groovy的web应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can find more sample Java projects in the &lt;c4&gt;samples/webApplication&lt;/c4&gt; directory in the Gradle distribution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T095946Z" creationid="msdx" creationdate="20141030T095946Z">
+        <seg>你可以在Gradle的 &lt;c4&gt;samples/webApplication&lt;/c4&gt; 目录中找到更多的Java 的示例项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can find out more about the Groovy plugin in &lt;a0&gt;Chapter 24, &lt;i1&gt;The Groovy Plugin&lt;/i1&gt;&lt;/a0&gt;, and you can find more sample Groovy projects in the &lt;c2&gt;samples/groovy&lt;/c2&gt; directory in the Gradle distribution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T070249Z" creationid="msdx" creationdate="20141030T070249Z">
+        <seg>你可以在 &lt;a0&gt;第24章 &lt;i1&gt;Groovy插件&lt;/i1&gt;&lt;/a0&gt;中了解更多关于Groovy 插件的内容，或在Gradle的 &lt;c2&gt;samples/groovy&lt;/c2&gt;目录中找到更多的Groovy project的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can find out more about the War plugin in &lt;a0&gt;Chapter 26, &lt;i1&gt;The War Plugin&lt;/i1&gt;&lt;/a0&gt; and the Jetty plugin in &lt;a2&gt;Chapter 28, &lt;i3&gt;The Jetty Plugin&lt;/i3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T095829Z" creationid="msdx" creationdate="20141030T095829Z">
+        <seg>你可以在 &lt;a0&gt;第26章， &lt;i1&gt;War插件&lt;/i1&gt;&lt;/a0&gt; 和在&lt;a2&gt;第28章 &lt;i3&gt;Jetty插件&lt;/i3&gt;&lt;/a2&gt;.中了解到更多有关War插件和Jetty插件的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You do this by adding a dependency to the &lt;c0&gt;groovy&lt;/c0&gt; configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065053Z" creationid="msdx" creationdate="20141030T065053Z">
+        <seg>你可以通过在&lt;c0&gt;groovy&lt;/c0&gt;配置中添加依赖来完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your compiled classes, and their runtime dependencies are also included in the WAR file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085852Z" creationid="msdx" creationdate="20141030T085852Z">
+        <seg>已编译的类文件和他们的运行时依赖也会被包含在WAR文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your project can contain Groovy source code, Java source code, or a mix of the two.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T061208Z" creationid="msdx" creationdate="20141030T040323Z">
+        <seg>你的项目可以包含Groovy源码，Java源码，或者两者都包含。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'eclipse'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'groovy'&lt;/s1&gt;
+
+repositories {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065503Z" creationid="msdx" creationdate="20141030T065503Z">
+        <seg>apply plugin: &lt;s0&gt;'eclipse'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'groovy'&lt;/s1&gt;
+
+repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'jetty'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T094212Z" creationid="msdx" creationdate="20141030T094212Z">
+        <seg>apply plugin: &lt;s0&gt;'jetty'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>base.css</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T033818Z" creationid="msdx" creationdate="20141030T033818Z">
+        <seg>base.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065503Z" creationid="msdx" creationdate="20141030T065503Z">
+        <seg>build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile &lt;s2&gt;'org.codehaus.groovy:groovy-all:2.2.0'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065506Z" creationid="msdx" creationdate="20141030T065506Z">
+        <seg>compile &lt;s2&gt;'org.codehaus.groovy:groovy-all:2.2.0'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>docs.css</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T033829Z" creationid="msdx" creationdate="20141030T033829Z">
+        <seg>docs.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>groovy_plugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T070002Z" creationid="msdx" creationdate="20141030T070002Z">
+        <seg>groovy_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>introduction.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034300Z" creationid="msdx" creationdate="20141101T034300Z">
+        <seg>introduction.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mavenCentral()
+}
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065504Z" creationid="msdx" creationdate="20141030T065504Z">
+        <seg>mavenCentral()
+}
+
+dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testCompile &lt;s3&gt;'junit:junit:4.11'&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065507Z" creationid="msdx" creationdate="20141030T065507Z">
+        <seg>testCompile &lt;s3&gt;'junit:junit:4.11'&lt;/s3&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tutorial_gradle_command_line.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T071201Z" creationid="msdx" creationdate="20141030T071201Z">
+        <seg>tutorial_gradle_command_line.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tutorial_groovy_projects.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T071153Z" creationid="msdx" creationdate="20141030T071153Z">
+        <seg>tutorial_groovy_projects.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tutorials.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034311Z" creationid="msdx" creationdate="20141101T034311Z">
+        <seg>tutorials.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>userguide.css</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T035422Z" creationid="msdx" creationdate="20141030T035422Z">
+        <seg>userguide.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>userguide.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T071142Z" creationid="msdx" creationdate="20141030T071142Z">
+        <seg>userguide.html</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
