@@ -1556,6 +1556,26 @@ hello from other script</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q list
+Contents of src
+src/dir1
+src/file1.txt
+Contents of src2
+src2/dir1
+src2/dir2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160903Z" creationid="msdx" creationdate="20141112T160903Z">
+        <seg>&gt; gradle -q list
+Contents of src
+src/dir1
+src/file1.txt
+Contents of src2
+src2/dir1
+src2/dir2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q myTask
 I am not affected</seg>
       </tuv>
@@ -4506,6 +4526,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some other types of things you can pass to &lt;c0&gt;files()&lt;/c0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160904Z" creationid="msdx" creationdate="20141112T160904Z">
+        <seg>Some other types of things you can pass to &lt;c0&gt;files()&lt;/c0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sometimes you want to have a task whose behavior depends on a large or infinite number value range of parameters.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T065033Z" creationid="msdx" creationdate="20141111T064239Z">
@@ -5404,8 +5432,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>This is called when the contents of the collection are queried, and its return value is converted to a set of &lt;c2&gt;File&lt;/c2&gt; instances.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160547Z" creationid="msdx" creationdate="20141112T160434Z">
-        <seg>它会在查询集合内容，并且它的返回值被转换为&lt;c2&gt;文件&lt;/c2&gt;实例集时被调用。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160901Z" creationid="msdx" creationdate="20141112T160434Z">
+        <seg>它会在查询集合内容，并且它的返回值被转换为一组&lt;c2&gt;文件&lt;/c2&gt;实例时被调用。</seg>
       </tuv>
     </tu>
     <tu>
