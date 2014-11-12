@@ -4032,6 +4032,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Otherwise, a &lt;c6&gt;File&lt;/c6&gt; instance is constructed by prepending the project directory path to the supplied path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T143148Z" creationid="msdx" creationdate="20141112T143148Z">
+        <seg>否则，会通过先计算所提供的路径相对于项目目录路径的结果来构造&lt;c6&gt;File&lt;/c6&gt;实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Our example task was defined using an action closure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060729Z" creationid="msdx" creationdate="20141111T060729Z">
