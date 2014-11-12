@@ -3738,8 +3738,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>It is preferable to using &lt;c1&gt;new File(somePath)&lt;/c1&gt;, as &lt;c2&gt;file()&lt;/c2&gt; always evaluates the supplied path relative to the project directory, which is fixed, rather than the current working directory, which can change depending on how the user runs Gradle.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T144326Z" creationid="msdx" creationdate="20141112T144326Z">
-        <seg>It is preferable to using &lt;c1&gt;new File(somePath)&lt;/c1&gt;, as &lt;c2&gt;file()&lt;/c2&gt; always evaluates the supplied path relative to the project directory, which is fixed, rather than the current working directory, which can change depending on how the user runs Gradle.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T144749Z" creationid="msdx" creationdate="20141112T144326Z">
+        <seg>由于&lt;c2&gt;file()&lt;/c2&gt;方法总是去计算所提供的路径相对于项目目录的路径，最好是使用&lt;c1&gt;new File(somePath)&lt;/c1&gt;，因为它是一个固定的路径，而不会因为用户运行Gradle的具体工作目录而改变。</seg>
       </tuv>
     </tu>
     <tu>
