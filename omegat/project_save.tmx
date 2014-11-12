@@ -3736,6 +3736,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is preferable to using &lt;c1&gt;new File(somePath)&lt;/c1&gt;, as &lt;c2&gt;file()&lt;/c2&gt; always evaluates the supplied path relative to the project directory, which is fixed, rather than the current working directory, which can change depending on how the user runs Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T144326Z" creationid="msdx" creationdate="20141112T144326Z">
+        <seg>It is preferable to using &lt;c1&gt;new File(somePath)&lt;/c1&gt;, as &lt;c2&gt;file()&lt;/c2&gt; always evaluates the supplied path relative to the project directory, which is fixed, rather than the current working directory, which can change depending on how the user runs Gradle.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is usually our favorite.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T092449Z" creationid="msdx" creationdate="20141110T092449Z">
