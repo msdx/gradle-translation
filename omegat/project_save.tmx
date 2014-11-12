@@ -3102,6 +3102,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>FileCollection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160944Z" creationid="msdx" creationdate="20141112T160944Z">
+        <seg>FileCollection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>FileCollection collection = files(&lt;s0&gt;'src/file1.txt'&lt;/s0&gt;, &lt;s1&gt;new&lt;/s1&gt; File(&lt;s2&gt;'src/file2.txt'&lt;/s2&gt;), [&lt;s3&gt;'src/file3.txt'&lt;/s3&gt;, &lt;s4&gt;'src/file4.txt'&lt;/s4&gt;])</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155529Z" creationid="msdx" creationdate="20141112T155529Z">
@@ -4622,6 +4630,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
+        <seg>Task</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task Tree</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T031112Z" creationid="msdx" creationdate="20141108T031112Z">
@@ -4666,6 +4682,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T131116Z" creationid="msdx" creationdate="20141110T131116Z">
         <seg>任务排序还是一个&lt;a0&gt;孵化中&lt;/a0&gt;的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TaskOutputs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161108Z" creationid="msdx" creationdate="20141112T161108Z">
+        <seg>TaskOutputs</seg>
       </tuv>
     </tu>
     <tu>
@@ -5006,6 +5030,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The output files of the TaskOutputs are included in the file collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161128Z" creationid="msdx" creationdate="20141112T161128Z">
+        <seg>TaskOutputs 的输出文件会被包含在文件集合内。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The output files of the task are included in the file collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161108Z" creationid="msdx" creationdate="20141112T161108Z">
+        <seg>任务的输出文件会被包含在文件集合内。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The predicate is evaluated just before the task is due to be executed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T020952Z" creationid="msdx" creationdate="20141111T020913Z">
@@ -5224,8 +5264,16 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>These are flattened and the contents converted to &lt;c8&gt;File&lt;/c8&gt; instances.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T151716Z" creationid="msdx" creationdate="20141112T151716Z">
-        <seg>它们的内容会转换为 &lt;c8&gt;File&lt;/c8&gt; 实例。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161013Z" creationid="msdx" creationdate="20141112T151716Z">
+        <seg>它们会被展开，并且内容会转换为 &lt;c8&gt;File&lt;/c8&gt; 实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These are flattened and the contents included in the file collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161047Z" creationid="msdx" creationdate="20141112T160955Z">
+        <seg>它们会被展开，并且内容会被包含在文件集合内。</seg>
       </tuv>
     </tu>
     <tu>
