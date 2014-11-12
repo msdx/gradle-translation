@@ -1262,6 +1262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Create a file collection using a closure&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160737Z" creationid="msdx" creationdate="20141112T160737Z">
+        <seg>&lt;s0&gt;// Create a file collection using a closure&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
       </tuv>
@@ -2946,6 +2954,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.4. Implementing a file collection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160730Z" creationid="msdx" creationdate="20141112T160730Z">
+        <seg>示例 16.4. 实现一个文件集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -3054,6 +3070,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044352Z" creationid="msdx" creationdate="20141108T044352Z">
         <seg>File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File srcDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160731Z" creationid="msdx" creationdate="20141112T160731Z">
+        <seg>File srcDir</seg>
       </tuv>
     </tu>
     <tu>
@@ -4218,6 +4242,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q list&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160754Z" creationid="msdx" creationdate="20141112T160754Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q list&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q myTask&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055302Z" creationid="msdx" creationdate="20141111T055302Z">
@@ -5354,6 +5386,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is a simple way to 'implement' the &lt;c4&gt;FileCollection&lt;/c4&gt; interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160715Z" creationid="msdx" creationdate="20141112T160715Z">
+        <seg>这是 “实现” &lt;c4&gt;FileCollection&lt;/c4&gt;接口的简单方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is a stand alone user interface that can be launched with the &lt;s0&gt;&lt;s1&gt;--gui&lt;/s1&gt;&lt;/s0&gt; option.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T145754Z" creationid="msdx" creationdate="20141105T145754Z">
@@ -6384,6 +6424,32 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>collection = files { srcDir.listFiles() }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160738Z" creationid="msdx" creationdate="20141112T160738Z">
+        <seg>collection = files { srcDir.listFiles() }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>collection.collect { relativePath(it) }.sort().each { println it }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160740Z" creationid="msdx" creationdate="20141112T160740Z">
+        <seg>collection.collect { relativePath(it) }.sort().each { println it }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>collection.collect { relativePath(it) }.sort().each { println it }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160746Z" creationid="msdx" creationdate="20141112T160746Z">
+        <seg>collection.collect { relativePath(it) }.sort().each { println it }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile &lt;s2&gt;'org.codehaus.groovy:groovy-all:2.2.0'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065506Z" creationid="msdx" creationdate="20141030T065506Z">
@@ -7138,6 +7204,14 @@ taskY.shouldRunAfter taskX</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;"Contents of $srcDir.name"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160739Z" creationid="msdx" creationdate="20141112T160739Z">
+        <seg>println &lt;s2&gt;"Contents of $srcDir.name"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s2&gt;'lib1'&lt;/s2&gt;
 }
 
@@ -7216,6 +7290,14 @@ taskX.finalizedBy taskY</seg>
 }
 
 taskX.finalizedBy taskY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s4&gt;"Contents of $srcDir.name"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160741Z" creationid="msdx" creationdate="20141112T160741Z">
+        <seg>println &lt;s4&gt;"Contents of $srcDir.name"&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7414,6 +7496,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T050710Z" creationid="msdx" creationdate="20141108T050710Z">
         <seg>springVersion = &lt;s1&gt;"3.1.0.RELEASE"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDir = file(&lt;s1&gt;'src'&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160739Z" creationid="msdx" creationdate="20141112T160739Z">
+        <seg>srcDir = file(&lt;s1&gt;'src'&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDir = file(&lt;s3&gt;'src2'&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160740Z" creationid="msdx" creationdate="20141112T160740Z">
+        <seg>srcDir = file(&lt;s3&gt;'src2'&lt;/s3&gt;)</seg>
       </tuv>
     </tu>
     <tu>
