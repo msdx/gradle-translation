@@ -4034,8 +4034,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Otherwise, a &lt;c6&gt;File&lt;/c6&gt; instance is constructed by prepending the project directory path to the supplied path.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T143148Z" creationid="msdx" creationdate="20141112T143148Z">
-        <seg>否则，会通过先计算所提供的路径相对于项目目录路径的结果来构造&lt;c6&gt;File&lt;/c6&gt;实例。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T143239Z" creationid="msdx" creationdate="20141112T143148Z">
+        <seg>否则，会通过先计算所提供的路径相对于项目目录的相对路径来构造&lt;c6&gt;File&lt;/c6&gt;实例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4548,6 +4548,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065243Z" creationid="msdx" creationdate="20141030T065240Z">
         <seg> &lt;c1&gt;编译&lt;/c1&gt; 配置继承了这个依赖,从而在编译Groovy和Java源代码时，groovy库也会被包含在类路径中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c7&gt;file()&lt;/c7&gt; method also understands URLs, such as &lt;c8&gt;file:/some/path.xml&lt;/c8&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T143325Z" creationid="msdx" creationdate="20141112T143325Z">
+        <seg>这个&lt;c7&gt;file ()&lt;/c7&gt;方法也可以识别URL，例如是&lt;c8&gt;file:/some/path.xml&lt;/c8&gt;。</seg>
       </tuv>
     </tu>
     <tu>
