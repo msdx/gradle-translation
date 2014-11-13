@@ -1454,6 +1454,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;baseName&lt;/c1&gt;&lt;/e0&gt;-&lt;e2&gt;&lt;c3&gt;appendix&lt;/c3&gt;&lt;/e2&gt;-&lt;e4&gt;&lt;c5&gt;version&lt;/c5&gt;&lt;/e4&gt;-&lt;e6&gt;&lt;c7&gt;classifier&lt;/c7&gt;&lt;/e6&gt;.&lt;e8&gt;&lt;c9&gt;extension&lt;/c9&gt;&lt;/e8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155825Z" creationid="msdx" creationdate="20141113T155825Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;baseName&lt;/c1&gt;&lt;/e0&gt;-&lt;e2&gt;&lt;c3&gt;appendix&lt;/c3&gt;&lt;/e2&gt;-&lt;e4&gt;&lt;c5&gt;version&lt;/c5&gt;&lt;/e4&gt;-&lt;e6&gt;&lt;c7&gt;classifier&lt;/c7&gt;&lt;/e6&gt;.&lt;e8&gt;&lt;c9&gt;extension&lt;/c9&gt;&lt;/e8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;destinationDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;archiveName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155931Z" creationid="msdx" creationdate="20141113T155931Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;destinationDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;archiveName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044426Z" creationid="msdx" creationdate="20141108T044426Z">
@@ -2016,6 +2032,16 @@ customName-1.0.zip</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155548Z" creationid="msdx" creationdate="20141113T155548Z">
         <seg>&gt; gradle -q myZip
 customName-1.0.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q myZip
+gradle-wrapper-1.0-src.zip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155804Z" creationid="msdx" creationdate="20141113T155804Z">
+        <seg>&gt; gradle -q myZip
+gradle-wrapper-1.0-src.zip</seg>
       </tuv>
     </tu>
     <tu>
@@ -2958,6 +2984,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Default value</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155810Z" creationid="msdx" creationdate="20141113T155810Z">
+        <seg>默认值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Defines the root directory of your Gradle project (typically where build.gradle is located).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T160914Z" creationid="msdx" creationdate="20141105T160914Z">
@@ -2978,6 +3012,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163609Z" creationid="msdx" creationdate="20141109T163609Z">
         <seg>依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Depends on the archive type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160001Z" creationid="msdx" creationdate="20141113T160001Z">
+        <seg>依赖于归档类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Description</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155813Z" creationid="msdx" creationdate="20141113T155813Z">
+        <seg>描述</seg>
       </tuv>
     </tu>
     <tu>
@@ -4334,6 +4384,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If any of these properties is empty the trailing &lt;c0&gt;-&lt;/c0&gt; is not added to the name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155912Z" creationid="msdx" creationdate="20141113T155912Z">
+        <seg>如果这些属性中的任何一个为空，那后面的&lt;c0&gt;-&lt;/c0&gt;不会被添加到该名称中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the argument is a task, the output files (i.e. the files the task creates) of the task are copied and the task is automatically added as a dependency of the &lt;c2&gt;Copy&lt;/c2&gt; task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130824Z" creationid="msdx" creationdate="20141113T130824Z">
@@ -4682,6 +4740,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131524Z" creationid="msdx" creationdate="20141113T131524Z">
         <seg>它是与任务一样的工作方式，尽管它有一些主要的限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>JARs and WARs are generated into &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;project.buildDir&lt;/c2&gt;&lt;/e1&gt;/libraries&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160046Z" creationid="msdx" creationdate="20141113T160032Z">
+        <seg>JAR包和 WAR包会生成到 &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;project.buildDir&lt;/c2&gt;&lt;/e1&gt;/libraries&lt;/c0&gt;中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5194,6 +5260,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162322Z" creationid="msdx" creationdate="20141109T162322Z">
         <seg>Projects 和 tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Property name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155807Z" creationid="msdx" creationdate="20141113T155807Z">
+        <seg>属性名称</seg>
       </tuv>
     </tu>
     <tu>
@@ -5774,6 +5848,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The absolute path of the generated archive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155940Z" creationid="msdx" creationdate="20141113T155940Z">
+        <seg>生成的归档文件的绝对路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The absolute path of the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044253Z" creationid="msdx" creationdate="20141108T044253Z">
@@ -5794,6 +5876,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T150542Z" creationid="msdx" creationdate="20141113T150008Z">
         <seg>归档任务与&lt;c0&gt;Copy&lt;/c0&gt;任务的工作方式一样，并且实现了相同的&lt;c1&gt;CopySpec&lt;/c1&gt;接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The base file name of the generated archive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155926Z" creationid="msdx" creationdate="20141113T155926Z">
+        <seg>生成的归档文件的基本文件名</seg>
       </tuv>
     </tu>
     <tu>
@@ -7510,6 +7600,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ZIPs and TARs are generated into &lt;c3&gt;&lt;e4&gt;&lt;c5&gt;project.buildDir&lt;/c5&gt;&lt;/e4&gt;/distributions&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160101Z" creationid="msdx" creationdate="20141113T160040Z">
+        <seg>ZIP文件和 TAR文件会生成到 &lt;c3&gt;&lt;e4&gt;&lt;c5&gt;project.buildDir&lt;/c5&gt;&lt;/e4&gt;/distributions&lt;/c3&gt;中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ant</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044451Z" creationid="msdx" creationdate="20141108T044451Z">
@@ -7522,6 +7620,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124440Z" creationid="msdx" creationdate="20141111T124440Z">
         <seg>ant.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>appendix = &lt;s3&gt;'wrapper'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155759Z" creationid="msdx" creationdate="20141113T155759Z">
+        <seg>appendix = &lt;s3&gt;'wrapper'&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7630,6 +7736,22 @@ task myZip(type: Zip) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T094212Z" creationid="msdx" creationdate="20141030T094212Z">
         <seg>apply plugin: &lt;s0&gt;'jetty'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>archiveName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155819Z" creationid="msdx" creationdate="20141113T155819Z">
+        <seg>archiveName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>archivePath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155927Z" creationid="msdx" creationdate="20141113T155927Z">
+        <seg>archivePath</seg>
       </tuv>
     </tu>
     <tu>
@@ -7768,6 +7890,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T093714Z" creationid="msdx" creationdate="20141109T093714Z">
         <seg>classesDir.mkdirs()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classifier = &lt;s4&gt;'src'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155802Z" creationid="msdx" creationdate="20141113T155802Z">
+        <seg>classifier = &lt;s4&gt;'src'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7920,6 +8050,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060330Z" creationid="msdx" creationdate="20141111T060330Z">
         <seg>destFile.text = &lt;s9&gt;"$name -&gt; ${height}\n"&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>destinationDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155941Z" creationid="msdx" creationdate="20141113T155941Z">
+        <seg>destinationDir</seg>
       </tuv>
     </tu>
     <tu>
@@ -8166,6 +8304,20 @@ println relativePath(myZip.archivePath)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130950Z" creationid="msdx" creationdate="20141113T130950Z">
         <seg>from &lt;s3&gt;'src/staging/index.html'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;s5&gt;'somedir'&lt;/s5&gt;
+}
+
+println myZip.archiveName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155803Z" creationid="msdx" creationdate="20141113T155803Z">
+        <seg>from &lt;s5&gt;'somedir'&lt;/s5&gt;
+}
+
+println myZip.archiveName</seg>
       </tuv>
     </tu>
     <tu>
