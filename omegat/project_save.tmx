@@ -158,6 +158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.compile.JavaCompile.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122857Z" creationid="msdx" creationdate="20141113T122857Z">
+        <seg>../dsl/org.gradle.api.tasks.compile.JavaCompile.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/AntBuilder.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044455Z" creationid="msdx" creationdate="20141108T044455Z">
@@ -894,6 +902,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>16.5. Specifying a set of input files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122856Z" creationid="msdx" creationdate="20141113T122856Z">
+        <seg>16.5. 指定一组输入文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161850Z" creationid="msdx" creationdate="20141109T161850Z">
@@ -1306,6 +1322,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044426Z" creationid="msdx" creationdate="20141108T044426Z">
         <seg>&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/build</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Create a ZIP file tree using path&lt;/s0&gt;
+FileTree zip = zipTree(&lt;s1&gt;'someFile.zip'&lt;/s1&gt;)
+
+&lt;s2&gt;// Create a TAR file tree using path&lt;/s2&gt;
+FileTree tar = tarTree(&lt;s3&gt;'someFile.tar'&lt;/s3&gt;)
+
+&lt;s4&gt;//tar tree attempts to guess the compression based on the file extension&lt;/s4&gt;
+&lt;s5&gt;//however if you must specify the compression explicitly you can:&lt;/s5&gt;
+FileTree someTar = tarTree(resources.gzip(&lt;s6&gt;'someTar.ext'&lt;/s6&gt;))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122848Z" creationid="msdx" creationdate="20141113T122848Z">
+        <seg>&lt;s0&gt;// Create a ZIP file tree using path&lt;/s0&gt;
+FileTree zip = zipTree(&lt;s1&gt;'someFile.zip'&lt;/s1&gt;)
+
+&lt;s2&gt;// Create a TAR file tree using path&lt;/s2&gt;
+FileTree tar = tarTree(&lt;s3&gt;'someFile.tar'&lt;/s3&gt;)
+
+&lt;s4&gt;//tar tree attempts to guess the compression based on the file extension&lt;/s4&gt;
+&lt;s5&gt;//however if you must specify the compression explicitly you can:&lt;/s5&gt;
+FileTree someTar = tarTree(resources.gzip(&lt;s6&gt;'someTar.ext'&lt;/s6&gt;))</seg>
       </tuv>
     </tu>
     <tu>
@@ -3334,6 +3374,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, the &lt;a0&gt;&lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt; task has a &lt;c2&gt;source&lt;/c2&gt; property, which defines the source files to compile.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122938Z" creationid="msdx" creationdate="20141113T122938Z">
+        <seg>例如， &lt;a0&gt; &lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt;任务有一个&lt;c2&gt;source&lt;/c2&gt;属性，定义了要编译的源代码文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, the keyword style does not work in expressions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T022949Z" creationid="msdx" creationdate="20141110T021240Z">
@@ -4162,6 +4210,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162512Z" creationid="msdx" creationdate="20141109T162512Z">
         <seg>操纵现有任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many objects in Gradle have properties which accept a set of input files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122920Z" creationid="msdx" creationdate="20141113T122920Z">
+        <seg>Gradle 中的许多对象都有一个接受一组输入文件的属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6430,6 +6486,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can set the value of this property using any of the types supported by the &lt;a3&gt;files()&lt;/a3&gt; method, which was shown above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123137Z" creationid="msdx" creationdate="20141113T123137Z">
+        <seg>你可以使用上面所示的&lt;a3&gt;files()&lt;/a3&gt;方法所支持的任意类型的对象设置此属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can toggle the filter via the Filter button.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T151214Z" creationid="msdx" creationdate="20141105T151214Z">
@@ -8622,6 +8686,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T155950Z" creationid="msdx" creationdate="20141109T155950Z">
         <seg>working_with_files.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>working_with_files.html#sec:file_collections</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122858Z" creationid="msdx" creationdate="20141113T122858Z">
+        <seg>working_with_files.html#sec:file_collections</seg>
       </tuv>
     </tu>
     <tu>
