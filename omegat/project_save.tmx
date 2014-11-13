@@ -910,6 +910,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>16.6. Copying files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123643Z" creationid="msdx" creationdate="20141113T123643Z">
+        <seg>16.6. 复制文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161850Z" creationid="msdx" creationdate="20141109T161850Z">
@@ -1326,6 +1334,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Add some source directories use String paths&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123632Z" creationid="msdx" creationdate="20141113T123632Z">
+        <seg>&lt;s0&gt;// Add some source directories use String paths&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Create a ZIP file tree using path&lt;/s0&gt;
 FileTree zip = zipTree(&lt;s1&gt;'someFile.zip'&lt;/s1&gt;)
 
@@ -1418,6 +1434,16 @@ collection.each {File file -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Use a File object to specify the source directory&lt;/s0&gt;
+compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123333Z" creationid="msdx" creationdate="20141113T123333Z">
+        <seg>&lt;s0&gt;// Use a File object to specify the source directory&lt;/s0&gt;
+compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Using a relative path&lt;/s0&gt;
 File configFile = file(&lt;s1&gt;'src/config.xml'&lt;/s1&gt;)
 
@@ -1484,6 +1510,14 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124203Z" creationid="msdx" creationdate="20141111T124203Z">
         <seg>&lt;s0&gt;[&lt;a1&gt;7&lt;/a1&gt;]&lt;/s0&gt;你可能会想，为什么既不导入&lt;c2&gt;StopExecutionException&lt;/c2&gt;也没有通过其完全限定名来访问它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s11&gt;// Use the contents of each zip file in the src dir&lt;/s11&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123339Z" creationid="msdx" creationdate="20141113T123339Z">
+        <seg>&lt;s11&gt;// Use the contents of each zip file in the src dir&lt;/s11&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1556,10 +1590,26 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s3&gt;// Add a source directory using a File object&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123633Z" creationid="msdx" creationdate="20141113T123633Z">
+        <seg>&lt;s3&gt;// Add a source directory using a File object&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s4&gt;if&lt;/s4&gt; (classesDir.isDirectory()) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T093716Z" creationid="msdx" creationdate="20141109T093716Z">
         <seg>&lt;s4&gt;if&lt;/s4&gt; (classesDir.isDirectory()) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s5&gt;// Add some source directories using a closure&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123634Z" creationid="msdx" creationdate="20141113T123634Z">
+        <seg>&lt;s5&gt;// Add some source directories using a closure&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1972,6 +2022,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054144Z" creationid="msdx" creationdate="20141108T054144Z">
         <seg>此外，通过将&lt;c3&gt;ext.purpose&lt;/c3&gt;设置为&lt;c4&gt;null&lt;/c4&gt;（&lt;c5&gt;null&lt;/c5&gt;是一个允许的值），一个名为&lt;c2&gt;purpose&lt;/c2&gt;的属性被添加到每个源码集（source set）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Again, this method accepts any of the types supported by the &lt;a0&gt;files()&lt;/a0&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123615Z" creationid="msdx" creationdate="20141113T123615Z">
+        <seg>再者，这个方法接受&lt;a0&gt;files()&lt;/a0&gt;方法所支持的任何类型的参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3142,6 +3200,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.8. Specifying a set of files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123307Z" creationid="msdx" creationdate="20141113T123307Z">
+        <seg>示例 16.8. 指定一组文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.9. Specifying a set of files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123629Z" creationid="msdx" creationdate="20141113T123629Z">
+        <seg>示例 16.9. 指定一组文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -3698,6 +3772,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155843Z" creationid="msdx" creationdate="20141112T155843Z">
         <seg>这里是一些使用文件集合的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are some examples:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123300Z" creationid="msdx" creationdate="20141113T123300Z">
+        <seg>这里有一些例子：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5790,6 +5872,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means you can set the property using, for example, a &lt;c4&gt;File&lt;/c4&gt;, &lt;c5&gt;String&lt;/c5&gt;, collection, &lt;c6&gt;FileCollection&lt;/c6&gt; or even a closure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123257Z" creationid="msdx" creationdate="20141113T123257Z">
+        <seg>这意味着您可以通过如&lt;c4&gt;File&lt;/c4&gt;、&lt;c5&gt;String&lt;/c5&gt;、 集合、 &lt;c6&gt;FileCollection&lt;/c6&gt;对象，或甚至是一个闭包来设置此属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means you can, for example, create a &lt;c0&gt;FileCollection&lt;/c0&gt; that represents files which will be created in the future by, say, some task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161518Z" creationid="msdx" creationdate="20141112T161518Z">
@@ -6090,6 +6180,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065822Z" creationid="msdx" creationdate="20141030T065822Z">
         <seg>通常情况下，一个真实的项目所需要的不止于此。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Usually, there is a method with the same name as the property, which appends to the set of files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123540Z" creationid="msdx" creationdate="20141113T123344Z">
+        <seg>通常情况下，有一个与属性相同名称的方法，可以追加这个文件集合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6502,6 +6600,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use the &lt;a0&gt;&lt;c1&gt;Copy&lt;/c1&gt;&lt;/a0&gt; task to copy files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123644Z" creationid="msdx" creationdate="20141113T123644Z">
+        <seg>You can use the &lt;a0&gt;&lt;c1&gt;Copy&lt;/c1&gt;&lt;/a0&gt; task to copy files.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use the &lt;c0&gt;onlyIf()&lt;/c0&gt; method to attach a predicate to a task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T020400Z" creationid="msdx" creationdate="20141111T020313Z">
@@ -6830,6 +6936,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123631Z" creationid="msdx" creationdate="20141113T123631Z">
+        <seg>compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def dest = &lt;s0&gt;"dest"&lt;/s0&gt;
 
 task copy(type: Copy) {</seg>
@@ -6994,6 +7108,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T065727Z" creationid="msdx" creationdate="20141111T065727Z">
         <seg>feature_lifecycle.html#sec:incubating_state</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>file(&lt;s12&gt;'src'&lt;/s12&gt;).listFiles().findAll {it.name.endsWith(&lt;s13&gt;'.zip'&lt;/s13&gt;)}.collect { zipTree(it) }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123340Z" creationid="msdx" creationdate="20141113T123340Z">
+        <seg>file(&lt;s12&gt;'src'&lt;/s12&gt;).listFiles().findAll {it.name.endsWith(&lt;s13&gt;'.zip'&lt;/s13&gt;)}.collect { zipTree(it) }</seg>
       </tuv>
     </tu>
     <tu>
@@ -7936,6 +8058,104 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T050715Z" creationid="msdx" creationdate="20141108T050715Z">
         <seg>purpose = &lt;s3&gt;"production"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source &lt;s1&gt;'src/main/java'&lt;/s1&gt;, &lt;s2&gt;'src/main/groovy'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123633Z" creationid="msdx" creationdate="20141113T123633Z">
+        <seg>source &lt;s1&gt;'src/main/java'&lt;/s1&gt;, &lt;s2&gt;'src/main/groovy'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source = &lt;s3&gt;'src/main/java'&lt;/s3&gt;
+}
+
+&lt;s4&gt;// Use a collection to specify multiple source directories&lt;/s4&gt;
+compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123335Z" creationid="msdx" creationdate="20141113T123335Z">
+        <seg>source = &lt;s3&gt;'src/main/java'&lt;/s3&gt;
+}
+
+&lt;s4&gt;// Use a collection to specify multiple source directories&lt;/s4&gt;
+compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source = [&lt;s5&gt;'src/main/java'&lt;/s5&gt;, &lt;s6&gt;'../shared/java'&lt;/s6&gt;]
+}
+
+&lt;s7&gt;// Use a FileCollection (or FileTree in this case) to specify the source files&lt;/s7&gt;
+compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123336Z" creationid="msdx" creationdate="20141113T123336Z">
+        <seg>source = [&lt;s5&gt;'src/main/java'&lt;/s5&gt;, &lt;s6&gt;'../shared/java'&lt;/s6&gt;]
+}
+
+&lt;s7&gt;// Use a FileCollection (or FileTree in this case) to specify the source files&lt;/s7&gt;
+compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source = file(&lt;s1&gt;'src/main/java'&lt;/s1&gt;)
+}
+
+&lt;s2&gt;// Use a String path to specify the source directory&lt;/s2&gt;
+compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123334Z" creationid="msdx" creationdate="20141113T123334Z">
+        <seg>source = file(&lt;s1&gt;'src/main/java'&lt;/s1&gt;)
+}
+
+&lt;s2&gt;// Use a String path to specify the source directory&lt;/s2&gt;
+compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source = fileTree(dir: &lt;s8&gt;'src/main/java'&lt;/s8&gt;).matching { include &lt;s9&gt;'org/gradle/api/**'&lt;/s9&gt; }
+}
+
+&lt;s10&gt;// Using a closure to specify the source files.&lt;/s10&gt;
+compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123337Z" creationid="msdx" creationdate="20141113T123337Z">
+        <seg>source = fileTree(dir: &lt;s8&gt;'src/main/java'&lt;/s8&gt;).matching { include &lt;s9&gt;'org/gradle/api/**'&lt;/s9&gt; }
+}
+
+&lt;s10&gt;// Using a closure to specify the source files.&lt;/s10&gt;
+compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source = {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123338Z" creationid="msdx" creationdate="20141113T123338Z">
+        <seg>source = {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source file(&lt;s4&gt;'../shared/java'&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123634Z" creationid="msdx" creationdate="20141113T123634Z">
+        <seg>source file(&lt;s4&gt;'../shared/java'&lt;/s4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source { file(&lt;s6&gt;'src/test/'&lt;/s6&gt;).listFiles() }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123635Z" creationid="msdx" creationdate="20141113T123635Z">
+        <seg>source { file(&lt;s6&gt;'src/test/'&lt;/s6&gt;).listFiles() }
+}</seg>
       </tuv>
     </tu>
     <tu>
