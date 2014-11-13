@@ -4938,8 +4938,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Secondly, the &lt;c0&gt;copy()&lt;/c0&gt; method can not honor task dependencies when a task is used as a copy source (i.e. as an argument to &lt;c1&gt;from()&lt;/c1&gt;) because it's a method and not a task.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T132322Z" creationid="msdx" creationdate="20141113T131801Z">
-        <seg>第二，当一个任务被用作复制源（即作为 &lt;c1&gt;from()&lt;/c1&gt; 的参数）时，&lt;c0&gt;copy()&lt;c1&gt; 方法不能对其进行任务依赖，因为它是一个方法，而不是一个任务。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T133919Z" creationid="msdx" creationdate="20141113T131801Z">
+        <seg>第二，&lt;c0&gt;copy()&lt;c1&gt; 方法不能用于任务依赖，当一个任务被用作复制源（即作为 &lt;c1&gt;from()&lt;/c1&gt; 的参数）的时候，因为它是一个方法，而不是一个任务。</seg>
       </tuv>
     </tu>
     <tu>
