@@ -1030,6 +1030,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>16.8.1. Archive naming</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T154626Z" creationid="msdx" creationdate="20141113T154626Z">
+        <seg>16.8.1. 归档命名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>16.8. Creating archives</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145507Z" creationid="msdx" creationdate="20141113T145507Z">
@@ -1998,6 +2006,20 @@ I am not affected</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055304Z" creationid="msdx" creationdate="20141111T055304Z">
         <seg>&gt; gradle -q myTask
 I am not affected</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q myZip
+zipProject-1.0.zip
+build/distributions
+build/distributions/zipProject-1.0.zip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T154747Z" creationid="msdx" creationdate="20141113T154747Z">
+        <seg>&gt; gradle -q myZip
+zipProject-1.0.zip
+build/distributions
+build/distributions/zipProject-1.0.zip</seg>
       </tuv>
     </tu>
     <tu>
@@ -3534,6 +3556,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.20. Creation of ZIP archive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T154733Z" creationid="msdx" creationdate="20141113T154733Z">
+        <seg>示例 16.20. 创建 ZIP 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 16.3. Using a file collection</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155902Z" creationid="msdx" creationdate="20141111T160912Z">
@@ -5014,6 +5044,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q myZip&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T154746Z" creationid="msdx" creationdate="20141113T154746Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q myZip&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q pingServer1&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T065011Z" creationid="msdx" creationdate="20141111T065011Z">
@@ -5766,6 +5804,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default name for a generated archive is &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;projectName&lt;/c2&gt;&lt;/e1&gt;-&lt;e3&gt;&lt;c4&gt;version&lt;/c4&gt;&lt;/e3&gt;.&lt;e5&gt;&lt;c6&gt;type&lt;/c6&gt;&lt;/e5&gt;&lt;/c0&gt; For example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T154718Z" creationid="msdx" creationdate="20141113T154718Z">
+        <seg>生成的归档的默认名称是&lt;c0&gt;&lt;e1&gt;&lt;c2&gt;projectName&lt;/c2&gt;&lt;/e1&gt;-&lt;e3&gt;&lt;c4&gt;version&lt;/c4&gt;&lt;/e3&gt;.&lt;e5&gt;&lt;c6&gt;type&lt;/c6&gt;&lt;/e5&gt;&lt;/c0&gt;。举个例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The directory containing the build script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044359Z" creationid="msdx" creationdate="20141108T044359Z">
@@ -6146,6 +6192,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044944Z" creationid="msdx" creationdate="20141108T044944Z">
         <seg>它们只在定义它们的范围内可以被访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This adds a &lt;c0&gt;Zip&lt;/c0&gt; archive task with the name &lt;c1&gt;myZip&lt;/c1&gt; which produces ZIP file &lt;c2&gt;zipProject-1.0.zip&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155032Z" creationid="msdx" creationdate="20141113T154751Z">
+        <seg>它添加了一个名称为&lt;c1&gt;myZip&lt;/c1&gt;的&lt;c0&gt;ZIP&lt;/c0&gt;归档任务，产生 ZIP 文件 &lt;c2&gt;zipProject 1.0.zip&lt;/c2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7110,6 +7164,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can filter the contents of file, rename files, and all the other things you can do with a copy spec.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T154555Z" creationid="msdx" creationdate="20141113T154555Z">
+        <seg>您可以通过一个复制规范来筛选文件的内容、 重命名文件和进行其他你可以做的事情。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can find more sample Java projects in the &lt;c4&gt;samples/webApplication&lt;/c4&gt; directory in the Gradle distribution.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T095946Z" creationid="msdx" creationdate="20141030T095946Z">
@@ -7424,6 +7486,22 @@ task zip(type: Zip) {</seg>
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
 
 task zip(type: Zip) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+version = &lt;s1&gt;1.0&lt;/s1&gt;
+
+task myZip(type: Zip) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T154734Z" creationid="msdx" creationdate="20141113T154734Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+version = &lt;s1&gt;1.0&lt;/s1&gt;
+
+task myZip(type: Zip) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -7912,6 +7990,24 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130949Z" creationid="msdx" creationdate="20141113T130949Z">
         <seg>from &lt;s1&gt;'src/main/webapp'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;s2&gt;'somedir'&lt;/s2&gt;
+}
+
+println myZip.archiveName
+println relativePath(myZip.destinationDir)
+println relativePath(myZip.archivePath)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T154735Z" creationid="msdx" creationdate="20141113T154735Z">
+        <seg>from &lt;s2&gt;'somedir'&lt;/s2&gt;
+}
+
+println myZip.archiveName
+println relativePath(myZip.destinationDir)
+println relativePath(myZip.archivePath)</seg>
       </tuv>
     </tu>
     <tu>
