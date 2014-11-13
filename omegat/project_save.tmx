@@ -3264,6 +3264,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.13. Copying files using the copy() method without up-to-date check</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131755Z" creationid="msdx" creationdate="20141113T131755Z">
+        <seg>示例 16.13. 使用没有最新状态检查的 copy() 方法复制文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 16.2. Creating a file collection</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155005Z" creationid="msdx" creationdate="20141112T155005Z">
@@ -3492,6 +3500,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T070134Z" creationid="msdx" creationdate="20141111T065820Z">
         <seg>析构器任务是一个 &lt;e0&gt;孵化中&lt;/e0&gt; 的功能 (请参阅 &lt;a1&gt; C.1.2 章节， “Incubating”&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>First, the &lt;c2&gt;copy()&lt;/c2&gt; is not incremental (see &lt;a3&gt;Section 15.9, “Skipping tasks that are up-to-date”&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131721Z" creationid="msdx" creationdate="20141113T131721Z">
+        <seg>首先， &lt;c2&gt;copy()&lt;/c2&gt;不能进行增量操作（见&lt;a3&gt;15.9章节，"跳过处于最新状态的任务"&lt;/a3&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4320,6 +4336,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It works the same way as the task with some major limitations though.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131524Z" creationid="msdx" creationdate="20141113T131524Z">
+        <seg>它是与任务一样的工作方式，尽管它有一些主要的限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>JVM options</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162152Z" creationid="msdx" creationdate="20141109T162152Z">
@@ -4908,6 +4932,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T012001Z" creationid="msdx" creationdate="20141110T152504Z">
         <seg>其次，当使用并行执行，并且一个任务的所有依赖项除了任务应该在之后运行之外所有条件已满足，那么这个任务将会运行，不管它的“应该在之后运行”的依赖项是否已经运行了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Secondly, the &lt;c0&gt;copy()&lt;/c0&gt; method can not honor task dependencies when a task is used as a copy source (i.e. as an argument to &lt;c1&gt;from()&lt;/c1&gt;) because it's a method and not a task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131801Z" creationid="msdx" creationdate="20141113T131801Z">
+        <seg>Secondly, the &lt;c0&gt;copy()&lt;/c0&gt; method can not honor task dependencies when a task is used as a copy source (i.e. as an argument to &lt;c1&gt;from()&lt;/c1&gt;) because it's a method and not a task.</seg>
       </tuv>
     </tu>
     <tu>
@@ -7184,6 +7216,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>copy {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131756Z" creationid="msdx" creationdate="20141113T131756Z">
+        <seg>copy {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def dest = &lt;s0&gt;"dest"&lt;/s0&gt;
 
 task copy(type: Copy) {</seg>
@@ -8574,6 +8614,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T100017Z" creationid="msdx" creationdate="20141110T100017Z">
         <seg>task copy(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task copyMethod &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131756Z" creationid="msdx" creationdate="20141113T131756Z">
+        <seg>task copyMethod &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
