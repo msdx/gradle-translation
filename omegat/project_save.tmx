@@ -1646,6 +1646,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s3&gt;// Copy the output of copyTask&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134202Z" creationid="msdx" creationdate="20141113T134202Z">
+        <seg>&lt;s3&gt;// Copy the output of copyTask&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s4&gt;// Copy the output of a task&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130951Z" creationid="msdx" creationdate="20141113T130951Z">
@@ -2238,6 +2246,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T014850Z" creationid="msdx" creationdate="20141111T014850Z">
         <seg>如之前所述，如果“应该在之后运行”的排序规则引入了排序循环，那么它将会被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As such, if you are using the &lt;c2&gt;copy()&lt;/c2&gt; method as part of a task action, you must explicitly declare all inputs and outputs in order to get the correct behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134119Z" creationid="msdx" creationdate="20141113T134119Z">
+        <seg>因此，如果您在任务的action里面使用&lt;c2&gt;copy()&lt;/c2&gt;方法，必须显式声明所有的输入和输出以得到正确的行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3272,6 +3288,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.14. Copying files using the copy() method with up-to-date check</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134158Z" creationid="msdx" creationdate="20141113T134158Z">
+        <seg>示例 16.14. 使用有最新状态检查的 copy() 方法复制文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 16.2. Creating a file collection</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155005Z" creationid="msdx" creationdate="20141112T155005Z">
@@ -4288,6 +4312,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is preferable to use the &lt;c0&gt;Copy&lt;/c0&gt; task wherever possible, as it support incremental building and task dependency inference without any extra effort on your part.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134207Z" creationid="msdx" creationdate="20141113T134207Z">
+        <seg>It is preferable to use the &lt;c0&gt;Copy&lt;/c0&gt; task wherever possible, as it support incremental building and task dependency inference without any extra effort on your part.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is preferable to using &lt;c1&gt;new File(somePath)&lt;/c1&gt;, as &lt;c2&gt;file()&lt;/c2&gt; always evaluates the supplied path relative to the project directory, which is fixed, rather than the current working directory, which can change depending on how the user runs Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T144749Z" creationid="msdx" creationdate="20141112T144326Z">
@@ -4938,8 +4970,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Secondly, the &lt;c0&gt;copy()&lt;/c0&gt; method can not honor task dependencies when a task is used as a copy source (i.e. as an argument to &lt;c1&gt;from()&lt;/c1&gt;) because it's a method and not a task.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T133919Z" creationid="msdx" creationdate="20141113T131801Z">
-        <seg>第二，&lt;c0&gt;copy()&lt;c1&gt; 方法不能用于任务依赖，当一个任务被用作复制源（即作为 &lt;c1&gt;from()&lt;/c1&gt; 的参数）的时候，因为它是一个方法，而不是一个任务。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134400Z" creationid="msdx" creationdate="20141113T131801Z">
+        <seg>第二，&lt;c0&gt;copy()&lt;/c0&gt;方法不能用于任务依赖，当一个任务被用作复制源（即作为 &lt;c1&gt;from()&lt;/c1&gt; 的参数）的时候，因为它是一个方法，而不是一个任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7224,6 +7256,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>custom_tasks.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134204Z" creationid="msdx" creationdate="20141113T134204Z">
+        <seg>custom_tasks.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def dest = &lt;s0&gt;"dest"&lt;/s0&gt;
 
 task copy(type: Copy) {</seg>
@@ -7322,6 +7362,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060323Z" creationid="msdx" creationdate="20141111T060323Z">
         <seg>doLast {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>doLast{</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134202Z" creationid="msdx" creationdate="20141113T134202Z">
+        <seg>doLast{</seg>
       </tuv>
     </tu>
     <tu>
@@ -7638,6 +7686,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>inputs.file copyTask &lt;s0&gt;// up-to-date check for inputs, plus add copyTask as dependency&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134159Z" creationid="msdx" creationdate="20141113T134159Z">
+        <seg>inputs.file copyTask &lt;s0&gt;// up-to-date check for inputs, plus add copyTask as dependency&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>inputs.file srcFile</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T061312Z" creationid="msdx" creationdate="20141111T061312Z">
@@ -7732,6 +7788,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T015510Z" creationid="msdx" creationdate="20141111T015510Z">
         <seg>into &lt;s2&gt;'target'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into &lt;s4&gt;'some-dir'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134203Z" creationid="msdx" creationdate="20141113T134203Z">
+        <seg>into &lt;s4&gt;'some-dir'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7864,6 +7928,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152440Z" creationid="msdx" creationdate="20141109T152440Z">
         <seg>other.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>outputs.dir &lt;s1&gt;'some-dir'&lt;/s1&gt; &lt;s2&gt;// up-to-date check for outputs&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134159Z" creationid="msdx" creationdate="20141113T134159Z">
+        <seg>outputs.dir &lt;s1&gt;'some-dir'&lt;/s1&gt; &lt;s2&gt;// up-to-date check for outputs&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8622,6 +8694,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131756Z" creationid="msdx" creationdate="20141113T131756Z">
         <seg>task copyMethod &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task copyMethodWithExplicitDependencies{</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134158Z" creationid="msdx" creationdate="20141113T134158Z">
+        <seg>task copyMethodWithExplicitDependencies{</seg>
       </tuv>
     </tu>
     <tu>
