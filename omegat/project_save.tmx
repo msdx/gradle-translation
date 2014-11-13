@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.Sync.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143959Z" creationid="msdx" creationdate="20141113T143959Z">
+        <seg>../dsl/org.gradle.api.tasks.Sync.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.compile.JavaCompile.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122857Z" creationid="msdx" creationdate="20141113T122857Z">
@@ -970,6 +978,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123643Z" creationid="msdx" creationdate="20141113T123643Z">
         <seg>16.6. 复制文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16.7. Using the &lt;c0&gt;Sync&lt;/c0&gt; task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143943Z" creationid="msdx" creationdate="20141113T143943Z">
+        <seg>16.7. 使用&lt;c0&gt;Sync&lt;/c0&gt;任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -2114,8 +2130,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>A copy spec inherits its destination path, include patterns, exclude patterns, copy actions, name mappings and filters.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143831Z" creationid="msdx" creationdate="20141113T141351Z">
-        <seg>一个复制规范继承其目标路径，包含模式，排除模式，复制操作，名称映射和筛选器。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143851Z" creationid="msdx" creationdate="20141113T141351Z">
+        <seg>一个复制规范继承其目标路径，包含模式，排除模式，复制操作，名称映射和过滤器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7558,6 +7574,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>exclude &lt;s1&gt;'**/*staging*'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143852Z" creationid="msdx" creationdate="20141113T143852Z">
+        <seg>exclude &lt;s1&gt;'**/*staging*'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>exclude { details -&gt; details.file.name.endsWith(&lt;s4&gt;'.html'&lt;/s4&gt;) &amp;&amp; details.file.text.contains(&lt;s5&gt;'staging'&lt;/s5&gt;) }
 }</seg>
       </tuv>
@@ -7712,6 +7736,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from configurations.runtime</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143854Z" creationid="msdx" creationdate="20141113T143854Z">
+        <seg>from configurations.runtime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from copyTask</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130952Z" creationid="msdx" creationdate="20141113T130952Z">
@@ -7732,6 +7764,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130956Z" creationid="msdx" creationdate="20141113T130956Z">
         <seg>from zipTree(&lt;s7&gt;'src/main/assets.zip'&lt;/s7&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from(&lt;s2&gt;'src/dist'&lt;/s2&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143853Z" creationid="msdx" creationdate="20141113T143853Z">
+        <seg>from(&lt;s2&gt;'src/dist'&lt;/s2&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -7864,6 +7904,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>include &lt;s3&gt;'**/*.html'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143853Z" creationid="msdx" creationdate="20141113T143853Z">
+        <seg>include &lt;s3&gt;'**/*.html'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>include &lt;s3&gt;'**/*.jsp'&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131124Z" creationid="msdx" creationdate="20141113T131124Z">
@@ -7964,6 +8012,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>into &lt;s0&gt;'build/explodedWar'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143852Z" creationid="msdx" creationdate="20141113T143852Z">
+        <seg>into &lt;s0&gt;'build/explodedWar'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>into &lt;s1&gt;'build/explodedWar'&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131123Z" creationid="msdx" creationdate="20141113T131123Z">
@@ -8030,6 +8086,14 @@ tree.visit {element -&gt;</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130957Z" creationid="msdx" creationdate="20141113T130957Z">
         <seg>into { getDestDir() }
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into(&lt;s4&gt;'libs'&lt;/s4&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143854Z" creationid="msdx" creationdate="20141113T143854Z">
+        <seg>into(&lt;s4&gt;'libs'&lt;/s4&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -9054,6 +9118,14 @@ myCopy {</seg>
         <seg>task myCopy(type: Copy)
 
 myCopy {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task nestedSpecs(type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143851Z" creationid="msdx" creationdate="20141113T143851Z">
+        <seg>task nestedSpecs(type: Copy) {</seg>
       </tuv>
     </tu>
     <tu>
