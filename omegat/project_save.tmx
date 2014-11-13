@@ -4314,8 +4314,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>It is preferable to use the &lt;c0&gt;Copy&lt;/c0&gt; task wherever possible, as it support incremental building and task dependency inference without any extra effort on your part.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134207Z" creationid="msdx" creationdate="20141113T134207Z">
-        <seg>It is preferable to use the &lt;c0&gt;Copy&lt;/c0&gt; task wherever possible, as it support incremental building and task dependency inference without any extra effort on your part.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T135103Z" creationid="msdx" creationdate="20141113T134207Z">
+        <seg>在可能的情况下，最好是使用&lt;c0&gt;Copy&lt;/c0&gt;任务，因为它支持增量构建和任务依赖关系推理，而不需要你额外付出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5208,6 +5208,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That is, the copy method is intended to be used by custom tasks (see &lt;a4&gt;Chapter 57, &lt;i5&gt;Writing Custom Task Classes&lt;/i5&gt;&lt;/a4&gt;) that need to copy files as part of their function.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T135328Z" creationid="msdx" creationdate="20141113T135328Z">
+        <seg>That is, the copy method is intended to be used by custom tasks (see &lt;a4&gt;Chapter 57, &lt;i5&gt;Writing Custom Task Classes&lt;/i5&gt;&lt;/a4&gt;) that need to copy files as part of their function.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The 'should run after' ordering rule is similar but less strict as it will be ignored in two situations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T152303Z" creationid="msdx" creationdate="20141110T152221Z">
@@ -5252,6 +5260,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065243Z" creationid="msdx" creationdate="20141030T065240Z">
         <seg> &lt;c1&gt;编译&lt;/c1&gt; 配置继承了这个依赖,从而在编译Groovy和Java源代码时，groovy库也会被包含在类路径中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c1&gt;copy()&lt;/c1&gt; method can be used to copy files as &lt;s2&gt;&lt;e3&gt;part&lt;/e3&gt;&lt;/s2&gt; of a task's implementation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T135151Z" creationid="msdx" creationdate="20141113T135151Z">
+        <seg>&lt;c1&gt;copy()&lt;/c1&gt;方法作为一个任务执行的&lt;s2&gt;&lt;e3&gt;部分&lt;/e3&gt;&lt;/s2&gt;来复制文件。</seg>
       </tuv>
     </tu>
     <tu>
