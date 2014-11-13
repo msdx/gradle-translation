@@ -942,6 +942,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>16.6.1. Renaming files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140648Z" creationid="msdx" creationdate="20141113T140648Z">
+        <seg>16.6.1. 重命名文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16.6.2. Filtering files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140725Z" creationid="msdx" creationdate="20141113T140725Z">
+        <seg>16.6. 过滤文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>16.6. Copying files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123643Z" creationid="msdx" creationdate="20141113T123643Z">
@@ -1606,6 +1622,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Use a closure to map the file name&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140712Z" creationid="msdx" creationdate="20141113T140712Z">
+        <seg>&lt;s2&gt;// Use a closure to map the file name&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;// do something&lt;/s2&gt;
 }
 task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
@@ -1682,6 +1706,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130953Z" creationid="msdx" creationdate="20141113T130953Z">
         <seg>&lt;s5&gt;// Copy the output of a task using Task outputs explicitly.&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s5&gt;// Use a regular expression to map the file name&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140714Z" creationid="msdx" creationdate="20141113T140714Z">
+        <seg>&lt;s5&gt;// Use a regular expression to map the file name&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3296,6 +3328,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.15. Renaming files as they are copied</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140745Z" creationid="msdx" creationdate="20141113T140710Z">
+        <seg>示例 16.15. 重命名复制的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.16. Filtering files as they are copied</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140734Z" creationid="msdx" creationdate="20141113T140734Z">
+        <seg>Example 16.16. Filtering files as they are copied</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 16.2. Creating a file collection</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155005Z" creationid="msdx" creationdate="20141112T155005Z">
@@ -4196,6 +4244,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T143155Z" creationid="msdx" creationdate="20141110T142923Z">
         <seg>在某些情况下，控制两个任务的执行的&lt;s0&gt;&lt;e1&gt;顺序&lt;/e1&gt;&lt;/s0&gt;，而不引入这些任务之间的显式依赖，是很有用的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In such a scenario, the custom task should sufficiently declare the inputs/outputs relevant to the copy action.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140639Z" creationid="msdx" creationdate="20141113T140639Z">
+        <seg>在这种情况下，自定义任务应充分声明与复制操作有关的输入/输出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7474,6 +7530,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>fileName.replace(&lt;s3&gt;'-staging-'&lt;/s3&gt;, &lt;s4&gt;''&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140713Z" creationid="msdx" creationdate="20141113T140713Z">
+        <seg>fileName.replace(&lt;s3&gt;'-staging-'&lt;/s3&gt;, &lt;s4&gt;''&lt;/s4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from &lt;s0&gt;'resources'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T092538Z" creationid="msdx" creationdate="20141110T092538Z">
@@ -8540,6 +8604,32 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>rename &lt;s6&gt;'(.+)-staging-(.+)'&lt;/s6&gt;, &lt;s7&gt;'$1$2'&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140715Z" creationid="msdx" creationdate="20141113T140715Z">
+        <seg>rename &lt;s6&gt;'(.+)-staging-(.+)'&lt;/s6&gt;, &lt;s7&gt;'$1$2'&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rename { String fileName -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140712Z" creationid="msdx" creationdate="20141113T140712Z">
+        <seg>rename { String fileName -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rename(/(.+)-staging-(.+)/, &lt;s8&gt;'$1$2'&lt;/s8&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140715Z" creationid="msdx" creationdate="20141113T140715Z">
+        <seg>rename(/(.+)-staging-(.+)/, &lt;s8&gt;'$1$2'&lt;/s8&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>source &lt;s1&gt;'src/main/java'&lt;/s1&gt;, &lt;s2&gt;'src/main/groovy'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123633Z" creationid="msdx" creationdate="20141113T123633Z">
@@ -8838,6 +8928,14 @@ myCopy {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151100Z" creationid="msdx" creationdate="20141109T151100Z">
         <seg>task printProps &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task rename(type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140710Z" creationid="msdx" creationdate="20141113T140710Z">
+        <seg>task rename(type: Copy) {</seg>
       </tuv>
     </tu>
     <tu>
