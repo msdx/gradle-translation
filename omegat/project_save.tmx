@@ -4086,6 +4086,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here is an example which maintains a copy of the project's runtime dependencies in the &lt;c0&gt;build/libs&lt;/c0&gt; directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145414Z" creationid="msdx" creationdate="20141113T145414Z">
+        <seg>这里是一个例子，维护在&lt;c0&gt;build/libs&lt;/c0&gt;目录中的项目运行时依赖的副本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here is another example:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130921Z" creationid="msdx" creationdate="20141113T130921Z">
@@ -6078,6 +6086,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can be useful for doing things such as installing your application, creating an exploded copy of your archives, or maintaining a copy of the project's dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145312Z" creationid="msdx" creationdate="20141113T145312Z">
+        <seg>这可以用来做一些事情，比如安装你的应用程序、 创建你的归档文件的exploded副本，或维护项目的依赖项的副本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This chapter describes a very simple Groovy project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065750Z" creationid="msdx" creationdate="20141030T065750Z">
@@ -6706,6 +6722,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T123248Z" creationid="msdx" creationdate="20141110T122709Z">
         <seg>在计算依赖时，闭包会被传入正在计算依赖的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When it executes, it copies the source files into the destination directory, and then removes any files from the destination directory which it did not copy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T144733Z" creationid="msdx" creationdate="20141113T144733Z">
+        <seg>当它执行时，它会将源文件复制到目标目录中，然后从目标目录移除所有不是它复制的文件。</seg>
       </tuv>
     </tu>
     <tu>
