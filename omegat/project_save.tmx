@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:copy(groovy.lang.Closure)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131125Z" creationid="msdx" creationdate="20141113T131125Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:copy(groovy.lang.Closure)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:file(java.lang.Object)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T043529Z" creationid="msdx" creationdate="20141112T043529Z">
@@ -1366,6 +1374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Copy everything under src/main/webapp&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130948Z" creationid="msdx" creationdate="20141113T130948Z">
+        <seg>&lt;s0&gt;// Copy everything under src/main/webapp&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Create a ZIP file tree using path&lt;/s0&gt;
 FileTree zip = zipTree(&lt;s1&gt;'someFile.zip'&lt;/s1&gt;)
 
@@ -1582,6 +1598,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Copy a single file&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130949Z" creationid="msdx" creationdate="20141113T130949Z">
+        <seg>&lt;s2&gt;// Copy a single file&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;// do something&lt;/s2&gt;
 }
 task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
@@ -1622,6 +1646,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s4&gt;// Copy the output of a task&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130951Z" creationid="msdx" creationdate="20141113T130951Z">
+        <seg>&lt;s4&gt;// Copy the output of a task&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s4&gt;if&lt;/s4&gt; (classesDir.isDirectory()) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T093716Z" creationid="msdx" creationdate="20141109T093716Z">
@@ -1634,6 +1666,22 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123634Z" creationid="msdx" creationdate="20141113T123634Z">
         <seg>&lt;s5&gt;// Add some source directories using a closure&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s5&gt;// Copy the output of a task using Task outputs explicitly.&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130953Z" creationid="msdx" creationdate="20141113T130953Z">
+        <seg>&lt;s5&gt;// Copy the output of a task using Task outputs explicitly.&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s6&gt;// Copy the contents of a Zip file&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130955Z" creationid="msdx" creationdate="20141113T130955Z">
+        <seg>&lt;s6&gt;// Copy the contents of a Zip file&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1652,6 +1700,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T145631Z" creationid="msdx" creationdate="20141109T141951Z">
         <seg>&lt;s6&gt;[&lt;a7&gt;6&lt;/a7&gt;]&lt;/s6&gt;如果环境属性遵循&lt;c8&gt;ORG_GRADLE_PROJECT_&lt;e9&gt;&lt;c10&gt;propertyName&lt;/c10&gt;&lt;/e9&gt;= somevalue&lt;/c8&gt;的模式，这里的&lt;c11&gt;propertyName&lt;/c11&gt;会被添加到您的项目对象中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s8&gt;// Determine the destination directory later&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130957Z" creationid="msdx" creationdate="20141113T130957Z">
+        <seg>&lt;s8&gt;// Determine the destination directory later&lt;/s8&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3192,6 +3248,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.11. Specifying copy task source files and destination directory</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130946Z" creationid="msdx" creationdate="20141113T130946Z">
+        <seg>示例 16.11. 指定复制任务的源文件和目标目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.12. Selecting the files to copy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131120Z" creationid="msdx" creationdate="20141113T131120Z">
+        <seg>示例 16.12. 选择要复制的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 16.2. Creating a file collection</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155005Z" creationid="msdx" creationdate="20141112T155005Z">
@@ -3832,6 +3904,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here is another example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130921Z" creationid="msdx" creationdate="20141113T130921Z">
+        <seg>这里是另一个示例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here is our complete build file:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065447Z" creationid="msdx" creationdate="20141030T065447Z">
@@ -3916,6 +3996,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T150302Z" creationid="msdx" creationdate="20141109T150254Z">
         <seg>如果此类文件中的属性有一个&lt;c1&gt;systemProp.&lt;/c1&gt;的前缀，该属性和它的值会被添加到系统属性，且不带此前缀。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the argument is a task, the output files (i.e. the files the task creates) of the task are copied and the task is automatically added as a dependency of the &lt;c2&gt;Copy&lt;/c2&gt; task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130824Z" creationid="msdx" creationdate="20141113T130824Z">
+        <seg>如果参数是一个任务，那么任务的输出文件 （即该任务创建的文件）会被复制，并且该任务会自动添加为&lt;c2&gt;Copy&lt;/c2&gt;任务的依赖项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5082,8 +5170,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>The &lt;c0&gt;from()&lt;/c0&gt; method accepts any of the arguments that the &lt;a1&gt;files()&lt;/a1&gt; method does.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124455Z" creationid="msdx" creationdate="20141113T124455Z">
-        <seg>&lt;c0&gt;From()&lt;/c0&gt;方法接受和&lt;a1&gt;files()&lt;/a1&gt;方法一样的任何参数。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130838Z" creationid="msdx" creationdate="20141113T124455Z">
+        <seg>&lt;c0&gt;from()&lt;/c0&gt;方法接受和&lt;a1&gt;files()&lt;/a1&gt;方法一样的任何参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5108,6 +5196,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T162055Z" creationid="msdx" creationdate="20141112T162055Z">
         <seg>&lt;c3&gt;FileTree&lt;/c3&gt;接口继承自&lt;c4&gt;FileCollection&lt;/c4&gt;，所以你可以用对待文件集合一样的方式来对待文件树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c3&gt;into()&lt;/c3&gt; accepts any of the arguments that the &lt;a4&gt;file()&lt;/a4&gt; method does.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130917Z" creationid="msdx" creationdate="20141113T130834Z">
+        <seg>&lt;c0&gt;into()&lt;/c0&gt;方法接受和&lt;a1&gt;files()&lt;/a1&gt;方法一样的任何参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6560,6 +6656,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also use the &lt;a0&gt;&lt;c1&gt;Project.copy()&lt;/c1&gt;&lt;/a0&gt; method to copy files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131147Z" creationid="msdx" creationdate="20141113T131132Z">
+        <seg>此外，你也可以使用&lt;a0&gt;&lt;c1&gt;Project.copy()&lt;/c1&gt;&lt;/a0&gt;方法来复制文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also visit the contents of the tree, and select a sub-tree using Ant-style patterns:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120348Z" creationid="msdx" creationdate="20141113T120303Z">
@@ -6684,6 +6788,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T155515Z" creationid="msdx" creationdate="20141105T155503Z">
         <seg>你可以根据自己的喜好，对收藏夹进行排序，甚至可以把它们导出到磁盘，并在其他地方导入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can select the files to copy using Ant-style include or exclude patterns, or using a closure:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131107Z" creationid="msdx" creationdate="20141113T130959Z">
+        <seg>您可以使用 Ant 风格的包含或排除模式，或使用一个闭包，来选择要复制的文件：</seg>
       </tuv>
     </tu>
     <tu>
@@ -7208,6 +7320,16 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>exclude { details -&gt; details.file.name.endsWith(&lt;s4&gt;'.html'&lt;/s4&gt;) &amp;&amp; details.file.text.contains(&lt;s5&gt;'staging'&lt;/s5&gt;) }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131124Z" creationid="msdx" creationdate="20141113T131124Z">
+        <seg>exclude { details -&gt; details.file.name.endsWith(&lt;s4&gt;'.html'&lt;/s4&gt;) &amp;&amp; details.file.text.contains(&lt;s5&gt;'staging'&lt;/s5&gt;) }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ext.destDir = &lt;s1&gt;new&lt;/s1&gt; File(buildDir, &lt;s2&gt;'generated'&lt;/s2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060322Z" creationid="msdx" creationdate="20141111T060322Z">
@@ -7276,6 +7398,46 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T015509Z" creationid="msdx" creationdate="20141111T015509Z">
         <seg>from &lt;s1&gt;'resources'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;s1&gt;'src/main/webapp'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130949Z" creationid="msdx" creationdate="20141113T130949Z">
+        <seg>from &lt;s1&gt;'src/main/webapp'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;s3&gt;'src/staging/index.html'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130950Z" creationid="msdx" creationdate="20141113T130950Z">
+        <seg>from &lt;s3&gt;'src/staging/index.html'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from copyTask</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130952Z" creationid="msdx" creationdate="20141113T130952Z">
+        <seg>from copyTask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from copyTaskWithPatterns.outputs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130953Z" creationid="msdx" creationdate="20141113T130953Z">
+        <seg>from copyTaskWithPatterns.outputs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from zipTree(&lt;s7&gt;'src/main/assets.zip'&lt;/s7&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130956Z" creationid="msdx" creationdate="20141113T130956Z">
+        <seg>from zipTree(&lt;s7&gt;'src/main/assets.zip'&lt;/s7&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -7378,6 +7540,14 @@ tree = fileTree(dir: &lt;s17&gt;'src'&lt;/s17&gt;, include: &lt;s18&gt;'**/*.jav
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>include &lt;s2&gt;'**/*.html'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131123Z" creationid="msdx" creationdate="20141113T131123Z">
+        <seg>include &lt;s2&gt;'**/*.html'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>include &lt;s2&gt;'org/gradle/api/**'&lt;/s2&gt;
 }
 
@@ -7396,6 +7566,14 @@ FileTree sum = tree + fileTree(dir: &lt;s4&gt;'src/test'&lt;/s4&gt;)
 
 &lt;s5&gt;// Visit the elements of the tree&lt;/s5&gt;
 tree.visit {element -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include &lt;s3&gt;'**/*.jsp'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131124Z" creationid="msdx" creationdate="20141113T131124Z">
+        <seg>include &lt;s3&gt;'**/*.jsp'&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7484,6 +7662,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>into &lt;s1&gt;'build/explodedWar'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131123Z" creationid="msdx" creationdate="20141113T131123Z">
+        <seg>into &lt;s1&gt;'build/explodedWar'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>into &lt;s1&gt;'build/explodedWar'&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -7515,6 +7701,16 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T045152Z" creationid="msdx" creationdate="20141108T045152Z">
         <seg>into dest
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into { getDestDir() }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130957Z" creationid="msdx" creationdate="20141113T130957Z">
+        <seg>into { getDestDir() }
 }</seg>
       </tuv>
     </tu>
@@ -7596,6 +7792,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T165025Z" creationid="msdx" creationdate="20141109T165025Z">
         <seg>more_about_tasks.html#N10CBF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>more_about_tasks.html#sec:up_to_date_checks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131127Z" creationid="msdx" creationdate="20141113T131127Z">
+        <seg>more_about_tasks.html#sec:up_to_date_checks</seg>
       </tuv>
     </tu>
     <tu>
@@ -8330,6 +8534,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task anotherCopyTask(type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130947Z" creationid="msdx" creationdate="20141113T130947Z">
+        <seg>task anotherCopyTask(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task compile &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T054822Z" creationid="msdx" creationdate="20141111T054822Z">
@@ -8370,6 +8582,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124407Z" creationid="msdx" creationdate="20141113T124407Z">
         <seg>task copyTask(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task copyTaskWithPatterns(type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131122Z" creationid="msdx" creationdate="20141113T131122Z">
+        <seg>task copyTaskWithPatterns(type: Copy) {</seg>
       </tuv>
     </tu>
     <tu>
