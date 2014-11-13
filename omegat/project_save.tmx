@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:copySpec(groovy.lang.Closure)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160721Z" creationid="msdx" creationdate="20141113T160721Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:copySpec(groovy.lang.Closure)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:file(java.lang.Object)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T043529Z" creationid="msdx" creationdate="20141112T043529Z">
@@ -1034,6 +1042,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T154626Z" creationid="msdx" creationdate="20141113T154626Z">
         <seg>16.8.1. 归档命名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16.8.2. Sharing content between multiple archives</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160721Z" creationid="msdx" creationdate="20141113T160721Z">
+        <seg>16.8.2. 共享多个归档之间的内容</seg>
       </tuv>
     </tu>
     <tu>
@@ -3012,6 +3028,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163609Z" creationid="msdx" creationdate="20141109T163609Z">
         <seg>依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Depends on the archive type, and for TAR files, the compression type as well: &lt;c0&gt;zip&lt;/c0&gt;, &lt;c1&gt;jar&lt;/c1&gt;, &lt;c2&gt;war&lt;/c2&gt;, &lt;c3&gt;tar&lt;/c3&gt;, &lt;c4&gt;tgz&lt;/c4&gt; or &lt;c5&gt;tbz2&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160615Z" creationid="msdx" creationdate="20141113T160615Z">
+        <seg>依赖于归档的类型，用于TAR文件，可以是以下压缩类型： &lt;c0&gt;zip&lt;/c0&gt;, &lt;c1&gt;jar&lt;/c1&gt;, &lt;c2&gt;war&lt;/c2&gt;, &lt;c3&gt;tar&lt;/c3&gt;, &lt;c4&gt;tgz&lt;/c4&gt; or &lt;c5&gt;tbz2&lt;/c5&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5992,6 +6016,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The extension of the archive file name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160705Z" creationid="msdx" creationdate="20141113T160705Z">
+        <seg>归档文件的名称中的扩展名称部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The first time you run a build for a project, Gradle creates a &lt;c0&gt;.gradle&lt;/c0&gt; directory in which it puts the compiled script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T153317Z" creationid="msdx" creationdate="20141109T153317Z">
@@ -7488,6 +7520,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use the &lt;a0&gt;&lt;c1&gt;Project.copySpec()&lt;/c1&gt;&lt;/a0&gt; method to share content between archives.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160753Z" creationid="msdx" creationdate="20141113T160753Z">
+        <seg>你可以使用&lt;a0&gt;&lt;c1&gt;Project.copySpec()&lt;/c1&gt;&lt;/a0&gt;方法在归档之间共享内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use the &lt;c0&gt;onlyIf()&lt;/c0&gt; method to attach a predicate to a task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T020400Z" creationid="msdx" creationdate="20141111T020313Z">
@@ -7864,6 +7904,14 @@ task myZip(type: Zip) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163600Z" creationid="msdx" creationdate="20141109T163600Z">
         <seg>artifact_dependencies_tutorial.html#configurations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifact_management.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160754Z" creationid="msdx" creationdate="20141113T160754Z">
+        <seg>artifact_management.html</seg>
       </tuv>
     </tu>
     <tu>
