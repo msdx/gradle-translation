@@ -174,10 +174,50 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.bundling.Jar.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145509Z" creationid="msdx" creationdate="20141113T145509Z">
+        <seg>../dsl/org.gradle.api.tasks.bundling.Jar.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.bundling.Tar.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145509Z" creationid="msdx" creationdate="20141113T145509Z">
+        <seg>../dsl/org.gradle.api.tasks.bundling.Tar.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.bundling.War.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145509Z" creationid="msdx" creationdate="20141113T145509Z">
+        <seg>../dsl/org.gradle.api.tasks.bundling.War.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.bundling.Zip.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145508Z" creationid="msdx" creationdate="20141113T145508Z">
+        <seg>../dsl/org.gradle.api.tasks.bundling.Zip.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.compile.JavaCompile.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122857Z" creationid="msdx" creationdate="20141113T122857Z">
         <seg>../dsl/org.gradle.api.tasks.compile.JavaCompile.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.plugins.ear.Ear.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145510Z" creationid="msdx" creationdate="20141113T145510Z">
+        <seg>../dsl/org.gradle.plugins.ear.Ear.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -986,6 +1026,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143943Z" creationid="msdx" creationdate="20141113T143943Z">
         <seg>16.7. 使用&lt;c0&gt;Sync&lt;/c0&gt;任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16.8. Creating archives</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145507Z" creationid="msdx" creationdate="20141113T145507Z">
+        <seg>16.8. 创建归档文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -2160,6 +2208,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A project can have as many as JAR archives as you want.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145558Z" creationid="msdx" creationdate="20141113T145558Z">
+        <seg>一个项目可以有你所想要的一样多的 JAR 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A shortcut task definition</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162411Z" creationid="msdx" creationdate="20141109T162355Z">
@@ -2340,6 +2396,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034203Z" creationid="msdx" creationdate="20141101T034203Z">
         <seg>Appendix E. Existing IDE Support and how to cope without it</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Archives are created using the various archive tasks: &lt;a0&gt;&lt;c1&gt;Zip&lt;/c1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;c3&gt;Tar&lt;/c3&gt;&lt;/a2&gt;, &lt;a4&gt;&lt;c5&gt;Jar&lt;/c5&gt;&lt;/a4&gt;, &lt;a6&gt;&lt;c7&gt;War&lt;/c7&gt;&lt;/a6&gt;, and &lt;a8&gt;&lt;c9&gt;Ear&lt;/c9&gt;&lt;/a8&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145707Z" creationid="msdx" creationdate="20141113T145707Z">
+        <seg>使用各种归档任务可以创建以下的归档文件： &lt;a0&gt;&lt;c1&gt;Zip&lt;/c1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;c3&gt;Tar&lt;/c3&gt;&lt;/a2&gt;, &lt;a4&gt;&lt;c5&gt;Jar&lt;/c5&gt;&lt;/a4&gt;, &lt;a6&gt;&lt;c7&gt;War&lt;/c7&gt;&lt;/a6&gt;, and &lt;a8&gt;&lt;c9&gt;Ear&lt;/c9&gt;&lt;/a8&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -3434,6 +3498,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T141626Z" creationid="msdx" creationdate="20141113T141626Z">
         <seg>示例 16.17. 嵌套的复制规范</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.18. Using the Sync task to copy dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145436Z" creationid="msdx" creationdate="20141113T145436Z">
+        <seg>示例 16.18. 使用同步任务复制依赖项</seg>
       </tuv>
     </tu>
     <tu>
@@ -6854,6 +6926,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also add WAR, ZIP and TAR archives to your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145631Z" creationid="msdx" creationdate="20141113T145631Z">
+        <seg>您也可以将WAR、 ZIP 和TAG文件添加到您的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also add properties directly to your project object via the &lt;c0&gt;-P&lt;/c0&gt; command line option.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T141157Z" creationid="msdx" creationdate="20141109T141157Z">
@@ -8044,6 +8124,16 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>into &lt;s0&gt;"$buildDir/libs"&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145437Z" creationid="msdx" creationdate="20141113T145437Z">
+        <seg>into &lt;s0&gt;"$buildDir/libs"&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>into &lt;s0&gt;'build/explodedWar'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143852Z" creationid="msdx" creationdate="20141113T143852Z">
@@ -9122,6 +9212,14 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T021014Z" creationid="msdx" creationdate="20141111T021014Z">
         <seg>task hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task libs(type: Sync) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145436Z" creationid="msdx" creationdate="20141113T145436Z">
+        <seg>task libs(type: Sync) {</seg>
       </tuv>
     </tu>
     <tu>
