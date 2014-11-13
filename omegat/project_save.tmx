@@ -958,6 +958,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>16.6.3. Using the &lt;c0&gt;CopySpec&lt;/c0&gt; class</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140910Z" creationid="msdx" creationdate="20141113T140910Z">
+        <seg>16.6.3. 使用&lt;c0&gt;CopySpec&lt;/c0&gt;类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>16.6. Copying files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123643Z" creationid="msdx" creationdate="20141113T123643Z">
@@ -1570,6 +1578,36 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.tools.ant.filters.FixCrLfFilter
+&lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
+
+task filter(type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140842Z" creationid="msdx" creationdate="20141113T140842Z">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.tools.ant.filters.FixCrLfFilter
+&lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
+
+task filter(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s10&gt;// Use a closure to filter each line&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140853Z" creationid="msdx" creationdate="20141113T140853Z">
+        <seg>&lt;s10&gt;// Use a closure to filter each line&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s11&gt;"[$line]"&lt;/s11&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140854Z" creationid="msdx" creationdate="20141113T140854Z">
+        <seg>&lt;s11&gt;"[$line]"&lt;/s11&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s11&gt;// Use the contents of each zip file in the src dir&lt;/s11&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123339Z" creationid="msdx" creationdate="20141113T123339Z">
@@ -1686,6 +1724,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s4&gt;// Substitute property references in files&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140844Z" creationid="msdx" creationdate="20141113T140844Z">
+        <seg>&lt;s4&gt;// Substitute property references in files&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s4&gt;if&lt;/s4&gt; (classesDir.isDirectory()) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T093716Z" creationid="msdx" creationdate="20141109T093716Z">
@@ -1740,6 +1786,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T145631Z" creationid="msdx" creationdate="20141109T141951Z">
         <seg>&lt;s6&gt;[&lt;a7&gt;6&lt;/a7&gt;]&lt;/s6&gt;如果环境属性遵循&lt;c8&gt;ORG_GRADLE_PROJECT_&lt;e9&gt;&lt;c10&gt;propertyName&lt;/c10&gt;&lt;/e9&gt;= somevalue&lt;/c8&gt;的模式，这里的&lt;c11&gt;propertyName&lt;/c11&gt;会被添加到您的项目对象中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s7&gt;// Use some of the filters provided by Ant&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140847Z" creationid="msdx" creationdate="20141113T140847Z">
+        <seg>&lt;s7&gt;// Use some of the filters provided by Ant&lt;/s7&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2712,6 +2766,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Copy specs form a hierarchy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T141050Z" creationid="msdx" creationdate="20141113T141050Z">
+        <seg>Copy specs form a hierarchy.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copyright © 2007-2012 Hans Dockter, Adam Murdoch</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161621Z" creationid="msdx" creationdate="20141109T161621Z">
@@ -3338,8 +3400,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Example 16.16. Filtering files as they are copied</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140734Z" creationid="msdx" creationdate="20141113T140734Z">
-        <seg>Example 16.16. Filtering files as they are copied</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140841Z" creationid="msdx" creationdate="20141113T140734Z">
+        <seg>示例 16.16. 过滤要复制的文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -7490,6 +7552,22 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>expand(copyright: &lt;s5&gt;'2009'&lt;/s5&gt;, version: &lt;s6&gt;'2.3.1'&lt;/s6&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140844Z" creationid="msdx" creationdate="20141113T140844Z">
+        <seg>expand(copyright: &lt;s5&gt;'2009'&lt;/s5&gt;, version: &lt;s6&gt;'2.3.1'&lt;/s6&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>expand(project.properties)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140845Z" creationid="msdx" creationdate="20141113T140845Z">
+        <seg>expand(project.properties)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ext.destDir = &lt;s1&gt;new&lt;/s1&gt; File(buildDir, &lt;s2&gt;'generated'&lt;/s2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060322Z" creationid="msdx" creationdate="20141111T060322Z">
@@ -7538,6 +7616,30 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>filter { String line -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140854Z" creationid="msdx" creationdate="20141113T140854Z">
+        <seg>filter { String line -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>filter(FixCrLfFilter)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140847Z" creationid="msdx" creationdate="20141113T140847Z">
+        <seg>filter(FixCrLfFilter)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>filter(ReplaceTokens, tokens: [copyright: &lt;s8&gt;'2009'&lt;/s8&gt;, version: &lt;s9&gt;'2.3.1'&lt;/s9&gt;])</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140852Z" creationid="msdx" creationdate="20141113T140852Z">
+        <seg>filter(ReplaceTokens, tokens: [copyright: &lt;s8&gt;'2009'&lt;/s8&gt;, version: &lt;s9&gt;'2.3.1'&lt;/s9&gt;])</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from &lt;s0&gt;'resources'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T092538Z" creationid="msdx" creationdate="20141110T092538Z">
@@ -7574,6 +7676,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130949Z" creationid="msdx" creationdate="20141113T130949Z">
         <seg>from &lt;s1&gt;'src/main/webapp'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;s2&gt;'src/main/webapp'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140843Z" creationid="msdx" creationdate="20141113T140843Z">
+        <seg>from &lt;s2&gt;'src/main/webapp'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7868,6 +7978,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T015510Z" creationid="msdx" creationdate="20141111T015510Z">
         <seg>into &lt;s2&gt;'target'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into &lt;s3&gt;'build/explodedWar'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140843Z" creationid="msdx" creationdate="20141113T140843Z">
+        <seg>into &lt;s3&gt;'build/explodedWar'&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
