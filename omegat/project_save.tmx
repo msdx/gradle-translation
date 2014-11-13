@@ -1294,6 +1294,36 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Create a file tree with a base directory&lt;/s0&gt;
+FileTree tree = fileTree(dir: &lt;s1&gt;'src/main'&lt;/s1&gt;)
+
+&lt;s2&gt;// Add include and exclude patterns to the tree&lt;/s2&gt;
+tree.include &lt;s3&gt;'**/*.java'&lt;/s3&gt;
+tree.exclude &lt;s4&gt;'**/Abstract*'&lt;/s4&gt;
+
+&lt;s5&gt;// Create a tree using path&lt;/s5&gt;
+tree = fileTree(&lt;s6&gt;'src'&lt;/s6&gt;).include(&lt;s7&gt;'**/*.java'&lt;/s7&gt;)
+
+&lt;s8&gt;// Create a tree using closure&lt;/s8&gt;
+tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120221Z" creationid="msdx" creationdate="20141113T120221Z">
+        <seg>&lt;s0&gt;// Create a file tree with a base directory&lt;/s0&gt;
+FileTree tree = fileTree(dir: &lt;s1&gt;'src/main'&lt;/s1&gt;)
+
+&lt;s2&gt;// Add include and exclude patterns to the tree&lt;/s2&gt;
+tree.include &lt;s3&gt;'**/*.java'&lt;/s3&gt;
+tree.exclude &lt;s4&gt;'**/Abstract*'&lt;/s4&gt;
+
+&lt;s5&gt;// Create a tree using path&lt;/s5&gt;
+tree = fileTree(&lt;s6&gt;'src'&lt;/s6&gt;).include(&lt;s7&gt;'**/*.java'&lt;/s7&gt;)
+
+&lt;s8&gt;// Create a tree using closure&lt;/s8&gt;
+tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
       </tuv>
@@ -3010,6 +3040,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160730Z" creationid="msdx" creationdate="20141112T160730Z">
         <seg>示例 16.4. 实现一个文件集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.5. Creating a file tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120219Z" creationid="msdx" creationdate="20141113T120219Z">
+        <seg>示例 16.5. 创建一个文件树</seg>
       </tuv>
     </tu>
     <tu>
@@ -6374,6 +6412,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You use a file tree in the same way you use a file collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120300Z" creationid="msdx" creationdate="20141113T120300Z">
+        <seg>你可以像使用一个文件集合的方式一样来使用一个文件树对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You would use 'should run after' rule when ordering preference for faster feedback, where the ordering is helpful but not strictly required.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T012210Z" creationid="msdx" creationdate="20141111T005440Z">
@@ -6896,6 +6942,26 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T150124Z" creationid="msdx" creationdate="20141105T150124Z">
         <seg>img/guiTaskTree.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include &lt;s10&gt;'**/*.java'&lt;/s10&gt;
+}
+
+&lt;s11&gt;// Create a tree using a map&lt;/s11&gt;
+tree = fileTree(dir: &lt;s12&gt;'src'&lt;/s12&gt;, include: &lt;s13&gt;'**/*.java'&lt;/s13&gt;)
+tree = fileTree(dir: &lt;s14&gt;'src'&lt;/s14&gt;, includes: [&lt;s15&gt;'**/*.java'&lt;/s15&gt;, &lt;s16&gt;'**/*.xml'&lt;/s16&gt;])
+tree = fileTree(dir: &lt;s17&gt;'src'&lt;/s17&gt;, include: &lt;s18&gt;'**/*.java'&lt;/s18&gt;, exclude: &lt;s19&gt;'**/*test*/**'&lt;/s19&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120223Z" creationid="msdx" creationdate="20141113T120223Z">
+        <seg>include &lt;s10&gt;'**/*.java'&lt;/s10&gt;
+}
+
+&lt;s11&gt;// Create a tree using a map&lt;/s11&gt;
+tree = fileTree(dir: &lt;s12&gt;'src'&lt;/s12&gt;, include: &lt;s13&gt;'**/*.java'&lt;/s13&gt;)
+tree = fileTree(dir: &lt;s14&gt;'src'&lt;/s14&gt;, includes: [&lt;s15&gt;'**/*.java'&lt;/s15&gt;, &lt;s16&gt;'**/*.xml'&lt;/s16&gt;])
+tree = fileTree(dir: &lt;s17&gt;'src'&lt;/s17&gt;, include: &lt;s18&gt;'**/*.java'&lt;/s18&gt;, exclude: &lt;s19&gt;'**/*test*/**'&lt;/s19&gt;)</seg>
       </tuv>
     </tu>
     <tu>
