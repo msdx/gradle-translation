@@ -6338,8 +6338,24 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>When an argument resolves to a directory, everything under that directory (but not the directory itself) is recursively copied into the destination directory.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124522Z" creationid="msdx" creationdate="20141113T124522Z">
-        <seg>When an argument resolves to a directory, everything under that directory (but not the directory itself) is recursively copied into the destination directory.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130444Z" creationid="msdx" creationdate="20141113T124522Z">
+        <seg>当参数解析为一个目录时，该目录下的所有文件（不包含目录本身） 都会递归复制到目标目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When an argument resolves to a file, that file is copied into the destination directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130456Z" creationid="msdx" creationdate="20141113T130456Z">
+        <seg>当参数解析为一个文件时，该文件会复制到目标目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When an argument resolves to a non-existing file, that argument is ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130515Z" creationid="msdx" creationdate="20141113T130515Z">
+        <seg>当参数解析为一个不存在的文件时，参数会被忽略。</seg>
       </tuv>
     </tu>
     <tu>
