@@ -1962,6 +1962,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A copy spec is represented by the &lt;a2&gt;&lt;c3&gt;CopySpec&lt;/c3&gt;&lt;/a2&gt; interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124233Z" creationid="msdx" creationdate="20141113T124233Z">
+        <seg>一个复制规范通过 &lt;a2&gt;&lt;c3&gt;CopySpec&lt;/c3&gt;&lt;/a2&gt; 接口来表示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A description for the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044345Z" creationid="msdx" creationdate="20141108T044345Z">
@@ -3172,6 +3180,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T160817Z" creationid="msdx" creationdate="20141111T160817Z">
         <seg>示例 16.1. 查找文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.10. Copying files using the copy task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124405Z" creationid="msdx" creationdate="20141113T124405Z">
+        <seg>示例 16.10. 使用copy任务复制文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -5088,6 +5104,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c4&gt;Copy&lt;/c4&gt; task implements this interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124244Z" creationid="msdx" creationdate="20141113T124244Z">
+        <seg>&lt;c4&gt;Copy&lt;/c4&gt;任务实现了此接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c4&gt;files()&lt;/c4&gt; method accepts any type of object as its parameters.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T145542Z" creationid="msdx" creationdate="20141112T145542Z">
@@ -6080,10 +6104,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To specify the destination directory, use the &lt;a7&gt;&lt;c8&gt;CopySpec.into()&lt;/c8&gt;&lt;/a7&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124338Z" creationid="msdx" creationdate="20141113T124338Z">
+        <seg>使用&lt;a7&gt;&lt;c8&gt;CopySpec.into()&lt;/c8&gt;&lt;/a7&gt;方法使用目标目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use Gradle's up-to-date checking, you need to declare the inputs and outputs of the task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T061102Z" creationid="msdx" creationdate="20141111T060919Z">
         <seg>若要使用 Gradle 的最新状态（up-to-date）检查，您需要声明这个任务的输入和输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the &lt;c0&gt;Copy&lt;/c0&gt; task, you must provide a set of source files to copy, and a destination directory to copy the files to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124047Z" creationid="msdx" creationdate="20141113T124047Z">
+        <seg>若要使用&lt;c0&gt;Copy&lt;/c0&gt;任务，您必须提供用于复制的源文件和目标目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6656,6 +6696,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You do all this using a &lt;e1&gt;copy spec&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124144Z" creationid="msdx" creationdate="20141113T124144Z">
+        <seg>你可以使用一个&lt;e1&gt;复制规范&lt;/e1&gt;来做这些。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You do this by adding a dependency to the &lt;c0&gt;groovy&lt;/c0&gt; configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065053Z" creationid="msdx" creationdate="20141030T065053Z">
@@ -6696,10 +6744,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You may also specify how to transform the files as they are copied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124121Z" creationid="msdx" creationdate="20141113T124121Z">
+        <seg>您还可以在复制文件的时候指定如何转换文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You often need to locate the tasks that you have defined in the build file, for example, to configure them or use them for dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T080533Z" creationid="msdx" creationdate="20141110T023442Z">
         <seg>你经常需要在构建文件中查找你所定义的任务，例如，为了去配置或是依赖它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You specify the source files using the &lt;a5&gt;&lt;c6&gt;CopySpec.from()&lt;/c6&gt;&lt;/a5&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124344Z" creationid="msdx" creationdate="20141113T124305Z">
+        <seg>你可以使用&lt;a5&gt;&lt;c6&gt;CopySpec.from()&lt;/c6&gt;&lt;/a5&gt;方法指定源文件，</seg>
       </tuv>
     </tu>
     <tu>
@@ -7160,6 +7224,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from &lt;s0&gt;'src/main/webapp'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124407Z" creationid="msdx" creationdate="20141113T124407Z">
+        <seg>from &lt;s0&gt;'src/main/webapp'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from &lt;s1&gt;"source"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T045151Z" creationid="msdx" creationdate="20141108T045151Z">
@@ -7376,6 +7448,16 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162148Z" creationid="msdx" creationdate="20141109T162148Z">
         <seg>installation.html#N10160</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into &lt;s1&gt;'build/explodedWar'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124408Z" creationid="msdx" creationdate="20141113T124408Z">
+        <seg>into &lt;s1&gt;'build/explodedWar'&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -8248,6 +8330,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T100017Z" creationid="msdx" creationdate="20141110T100017Z">
         <seg>task copy(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task copyTask(type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124407Z" creationid="msdx" creationdate="20141113T124407Z">
+        <seg>task copyTask(type: Copy) {</seg>
       </tuv>
     </tu>
     <tu>
