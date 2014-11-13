@@ -5864,6 +5864,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The appendix portion of the archive file name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160346Z" creationid="msdx" creationdate="20141113T160311Z">
+        <seg>归档文件的名称中的附录部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The appropriate groovy libraries will be added to the WAR file for you.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T090909Z" creationid="msdx" creationdate="20141030T090852Z">
@@ -5888,10 +5896,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The base name portion of the archive file name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160356Z" creationid="msdx" creationdate="20141113T160252Z">
+        <seg>归档文件的名称中的基本名称部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The build continues with executing the next task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T054745Z" creationid="msdx" creationdate="20141111T054745Z">
         <seg>构建会继续执行下一个任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The classifier portion of the archive file name,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160417Z" creationid="msdx" creationdate="20141113T160417Z">
+        <seg>归档文件的名称中的分类部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5956,6 +5980,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044359Z" creationid="msdx" creationdate="20141108T044359Z">
         <seg>包含生成脚本的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The directory to generate the archive into</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160141Z" creationid="msdx" creationdate="20141113T160141Z">
+        <seg>存放生成的归档文件的目录</seg>
       </tuv>
     </tu>
     <tu>
@@ -6172,6 +6204,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T020421Z" creationid="msdx" creationdate="20141111T020421Z">
         <seg>如果断言结果为 true，才会执行任务的操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The version portion of the archive file name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160404Z" creationid="msdx" creationdate="20141113T160404Z">
+        <seg>归档文件的名称中的版本部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7624,6 +7664,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>appendix</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160253Z" creationid="msdx" creationdate="20141113T160253Z">
+        <seg>appendix</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>appendix = &lt;s3&gt;'wrapper'&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155759Z" creationid="msdx" creationdate="20141113T155759Z">
@@ -7828,6 +7876,14 @@ task myZip(type: Zip) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>baseName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160146Z" creationid="msdx" creationdate="20141113T160146Z">
+        <seg>baseName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>baseName = &lt;s3&gt;'customName'&lt;/s3&gt;
 }
 
@@ -7890,6 +7946,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T093714Z" creationid="msdx" creationdate="20141109T093714Z">
         <seg>classesDir.mkdirs()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classifier</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160405Z" creationid="msdx" creationdate="20141113T160405Z">
+        <seg>classifier</seg>
       </tuv>
     </tu>
     <tu>
@@ -8158,6 +8222,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060321Z" creationid="msdx" creationdate="20141111T060321Z">
         <seg>ext.srcFile = file(&lt;s0&gt;'mountains.xml'&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>extension</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160418Z" creationid="msdx" creationdate="20141113T160418Z">
+        <seg>extension</seg>
       </tuv>
     </tu>
     <tu>
@@ -8806,6 +8878,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>null</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160253Z" creationid="msdx" creationdate="20141113T160253Z">
+        <seg>null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>other.gradle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152440Z" creationid="msdx" creationdate="20141109T152440Z">
@@ -9386,6 +9466,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T122311Z" creationid="msdx" creationdate="20141110T122311Z">
         <seg>project(&lt;s0&gt;'projectA'&lt;/s0&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160154Z" creationid="msdx" creationdate="20141113T160154Z">
+        <seg>project.name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160358Z" creationid="msdx" creationdate="20141113T160358Z">
+        <seg>project.version</seg>
       </tuv>
     </tu>
     <tu>
