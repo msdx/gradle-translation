@@ -2011,6 +2011,16 @@ I am not affected</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>&gt; gradle -q myZip
+customName-1.0.zip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155548Z" creationid="msdx" creationdate="20141113T155548Z">
+        <seg>&gt; gradle -q myZip
+customName-1.0.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q myZip
 zipProject-1.0.zip
 build/distributions
 build/distributions/zipProject-1.0.zip</seg>
@@ -3560,6 +3570,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T154733Z" creationid="msdx" creationdate="20141113T154733Z">
         <seg>示例 16.20. 创建 ZIP 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.21. Configuration of archive task - custom archive name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155544Z" creationid="msdx" creationdate="20141113T155544Z">
+        <seg>示例 16.21. 配置归档任务-自定义归档名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.22. Configuration of archive task - appendix &amp; classifier</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155754Z" creationid="msdx" creationdate="20141113T155600Z">
+        <seg>示例 16.22. 配置归档任务 - appendix &amp; classifier</seg>
       </tuv>
     </tu>
     <tu>
@@ -6188,6 +6214,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These are listed below in &lt;a0&gt;Table 16.1, “Archive tasks - naming properties”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155425Z" creationid="msdx" creationdate="20141113T155425Z">
+        <seg>它们在以下的&lt;a0&gt;表 16.1，"存档任务-命名属性"&lt;/a0&gt;中列出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These can be complex commands (anything that's legal to Gradle) and you can provide them with a display name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T154608Z" creationid="msdx" creationdate="20141105T154449Z">
@@ -7244,6 +7278,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can further customize the archive names:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155608Z" creationid="msdx" creationdate="20141113T155556Z">
+        <seg>您可以进一步自定义存档名称：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can locate a file relative to the project directory using the &lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T043445Z" creationid="msdx" creationdate="20141111T125325Z">
@@ -7336,6 +7378,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120455Z" creationid="msdx" creationdate="20141113T120455Z">
         <seg>您可以使用档案的内容，如 ZIP 或者 TAR 文件，作为一个文件树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can, for example, change the name of the archive:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155513Z" creationid="msdx" creationdate="20141113T155513Z">
+        <seg>你可以，比方说，更改归档文件的名称：</seg>
       </tuv>
     </tu>
     <tu>
@@ -7546,6 +7596,36 @@ task myZip(type: Zip) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+archivesBaseName = &lt;s1&gt;'gradle'&lt;/s1&gt;
+version = &lt;s2&gt;1.0&lt;/s2&gt;
+
+task myZip(type: Zip) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155614Z" creationid="msdx" creationdate="20141113T155614Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+archivesBaseName = &lt;s1&gt;'gradle'&lt;/s1&gt;
+version = &lt;s2&gt;1.0&lt;/s2&gt;
+
+task myZip(type: Zip) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+version = &lt;s1&gt;1.0&lt;/s1&gt;
+
+task myZip(type: Zip) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155545Z" creationid="msdx" creationdate="20141113T155545Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+version = &lt;s1&gt;1.0&lt;/s1&gt;
+
+task myZip(type: Zip) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'jetty'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T094212Z" creationid="msdx" creationdate="20141030T094212Z">
@@ -7622,6 +7702,20 @@ task myZip(type: Zip) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T033818Z" creationid="msdx" creationdate="20141030T033818Z">
         <seg>base.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>baseName = &lt;s3&gt;'customName'&lt;/s3&gt;
+}
+
+println myZip.archiveName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155547Z" creationid="msdx" creationdate="20141113T155547Z">
+        <seg>baseName = &lt;s3&gt;'customName'&lt;/s3&gt;
+}
+
+println myZip.archiveName</seg>
       </tuv>
     </tu>
     <tu>
@@ -8030,6 +8124,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130949Z" creationid="msdx" creationdate="20141113T130949Z">
         <seg>from &lt;s1&gt;'src/main/webapp'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;s2&gt;'somedir'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155546Z" creationid="msdx" creationdate="20141113T155546Z">
+        <seg>from &lt;s2&gt;'somedir'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
