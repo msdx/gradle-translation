@@ -86,6 +86,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:tarTree(java.lang.Object)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120412Z" creationid="msdx" creationdate="20141113T120412Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:tarTree(java.lang.Object)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:zipTree(java.lang.Object)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120411Z" creationid="msdx" creationdate="20141113T120411Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:zipTree(java.lang.Object)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Script.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044531Z" creationid="msdx" creationdate="20141108T044531Z">
@@ -870,6 +886,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>16.4. Using the contents of an archive as a file tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120410Z" creationid="msdx" creationdate="20141113T120410Z">
+        <seg>16.4. 使用归档文件的内容作为文件树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161850Z" creationid="msdx" creationdate="20141109T161850Z">
@@ -1330,6 +1354,16 @@ configurations.runtime.each { File f -&gt; println f }</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T061357Z" creationid="msdx" creationdate="20141108T061357Z">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Iterate over the contents of a tree&lt;/s0&gt;
+tree.each {File file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120357Z" creationid="msdx" creationdate="20141113T120357Z">
+        <seg>&lt;s0&gt;// Iterate over the contents of a tree&lt;/s0&gt;
+tree.each {File file -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3048,6 +3082,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120219Z" creationid="msdx" creationdate="20141113T120219Z">
         <seg>示例 16.5. 创建一个文件树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.6. Using a file tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120355Z" creationid="msdx" creationdate="20141113T120355Z">
+        <seg>示例 16.6. 使用文件树</seg>
       </tuv>
     </tu>
     <tu>
@@ -6380,10 +6422,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use the contents of an archive, such as a ZIP or TAR file, as a file tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120455Z" creationid="msdx" creationdate="20141113T120455Z">
+        <seg>您可以使用档案的内容，如 ZIP 或者 TAR 文件，作为一个文件树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You do this by adding a dependency to the &lt;c0&gt;groovy&lt;/c0&gt; configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065053Z" creationid="msdx" creationdate="20141030T065053Z">
         <seg>你可以通过在&lt;c0&gt;groovy&lt;/c0&gt;配置中添加依赖来完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You do this using the &lt;a0&gt;&lt;c1&gt;Project.zipTree()&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Project.tarTree()&lt;/c3&gt;&lt;/a2&gt; methods.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120525Z" creationid="msdx" creationdate="20141113T120525Z">
+        <seg>你可以通过使用&lt;a0&gt;&lt;c1&gt;Project.zipTree()&lt;/c1&gt;&lt;/a0&gt;和&lt;a2&gt;&lt;c3&gt;Project.tarTree()&lt;/c3&gt;&lt;/a2&gt;方法来实现这一过程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6970,6 +7028,28 @@ tree = fileTree(dir: &lt;s17&gt;'src'&lt;/s17&gt;, include: &lt;s18&gt;'**/*.jav
 tree = fileTree(dir: &lt;s12&gt;'src'&lt;/s12&gt;, include: &lt;s13&gt;'**/*.java'&lt;/s13&gt;)
 tree = fileTree(dir: &lt;s14&gt;'src'&lt;/s14&gt;, includes: [&lt;s15&gt;'**/*.java'&lt;/s15&gt;, &lt;s16&gt;'**/*.xml'&lt;/s16&gt;])
 tree = fileTree(dir: &lt;s17&gt;'src'&lt;/s17&gt;, include: &lt;s18&gt;'**/*.java'&lt;/s18&gt;, exclude: &lt;s19&gt;'**/*test*/**'&lt;/s19&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include &lt;s2&gt;'org/gradle/api/**'&lt;/s2&gt;
+}
+
+&lt;s3&gt;// Add trees together&lt;/s3&gt;
+FileTree sum = tree + fileTree(dir: &lt;s4&gt;'src/test'&lt;/s4&gt;)
+
+&lt;s5&gt;// Visit the elements of the tree&lt;/s5&gt;
+tree.visit {element -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120400Z" creationid="msdx" creationdate="20141113T120400Z">
+        <seg>include &lt;s2&gt;'org/gradle/api/**'&lt;/s2&gt;
+}
+
+&lt;s3&gt;// Add trees together&lt;/s3&gt;
+FileTree sum = tree + fileTree(dir: &lt;s4&gt;'src/test'&lt;/s4&gt;)
+
+&lt;s5&gt;// Visit the elements of the tree&lt;/s5&gt;
+tree.visit {element -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7582,6 +7662,16 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s6&gt;"$element.relativePath =&gt; $element.file"&lt;/s6&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120401Z" creationid="msdx" creationdate="20141113T120401Z">
+        <seg>println &lt;s6&gt;"$element.relativePath =&gt; $element.file"&lt;/s6&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s6&gt;'I am not affected'&lt;/s6&gt;
 }</seg>
       </tuv>
@@ -7614,6 +7704,22 @@ taskX.finalizedBy taskY</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151103Z" creationid="msdx" creationdate="20141109T151103Z">
         <seg>println envProjectProp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println file
+}
+
+&lt;s1&gt;// Filter a tree&lt;/s1&gt;
+FileTree filtered = tree.matching {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120359Z" creationid="msdx" creationdate="20141113T120359Z">
+        <seg>println file
+}
+
+&lt;s1&gt;// Filter a tree&lt;/s1&gt;
+FileTree filtered = tree.matching {</seg>
       </tuv>
     </tu>
     <tu>
