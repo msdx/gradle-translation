@@ -2440,6 +2440,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As with the &lt;c2&gt;Copy&lt;/c2&gt; task, you specify the input files using the &lt;c3&gt;from()&lt;/c3&gt; method, and can optionally specify where they end up in the archive using the &lt;c4&gt;into()&lt;/c4&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T150517Z" creationid="msdx" creationdate="20141113T150517Z">
+        <seg>As with the &lt;c2&gt;Copy&lt;/c2&gt; task, you specify the input files using the &lt;c3&gt;from()&lt;/c3&gt; method, and can optionally specify where they end up in the archive using the &lt;c4&gt;into()&lt;/c4&gt; method.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At the heart of Gradle lies a rich extensible Domain Specific Language (DSL) based on Groovy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034940Z" creationid="msdx" creationdate="20141101T034940Z">
@@ -3506,6 +3514,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145436Z" creationid="msdx" creationdate="20141113T145436Z">
         <seg>示例 16.18. 使用同步任务复制依赖项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.19. Creating a ZIP archive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145755Z" creationid="msdx" creationdate="20141113T145755Z">
+        <seg>示例 16.19. 创建一个 ZIP 文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -5598,6 +5614,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java plugin adds a number of default values for the archive tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145838Z" creationid="msdx" creationdate="20141113T145838Z">
+        <seg>Java 插件对归档任务添加了一些默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Jetty plugin extends the War plugin to allow you to deploy your web application to an embedded Jetty web container.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T084854Z" creationid="msdx" creationdate="20141030T084822Z">
@@ -5682,6 +5706,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T090909Z" creationid="msdx" creationdate="20141030T090852Z">
         <seg>它将为你把适当的groovy库添加到WAR文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The archive tasks all work exactly the same way as the &lt;c0&gt;Copy&lt;/c0&gt; task, and implement the same &lt;c1&gt;CopySpec&lt;/c1&gt; interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T150542Z" creationid="msdx" creationdate="20141113T150008Z">
+        <seg>归档任务与&lt;c0&gt;Copy&lt;/c0&gt;任务的工作方式一样，并且实现了相同的&lt;c1&gt;CopySpec&lt;/c1&gt;接口。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6098,6 +6130,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122555Z" creationid="msdx" creationdate="20141113T122517Z">
         <seg>这些方法返回一个&lt;c4&gt;FileTree&lt;/c4&gt;实例，您可以像使用任何其他文件树或文件集合一样使用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They all work the same way, so let's look at how you create a ZIP file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T150045Z" creationid="msdx" creationdate="20141113T145740Z">
+        <seg>他们的工作方式都一样，所以让我们看看如何创建一个 ZIP 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6846,6 +6886,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Why are you using the Java plugin?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145808Z" creationid="msdx" creationdate="20141113T145808Z">
+        <seg>为什么要用 Java 插件？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With the &lt;c0&gt;-D&lt;/c0&gt; command line option you can pass a system property to the JVM which runs Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T075831Z" creationid="msdx" creationdate="20141109T073926Z">
@@ -7174,6 +7222,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use the archive tasks without using the Java plugin, if you like.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145942Z" creationid="msdx" creationdate="20141113T145842Z">
+        <seg>如果你愿意，使用归档任务时可以不需要Java插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use the contents of an archive, such as a ZIP or TAR file, as a file tree.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120455Z" creationid="msdx" creationdate="20141113T120455Z">
@@ -7258,6 +7314,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120306Z" creationid="msdx" creationdate="20141113T120300Z">
         <seg>你可以像使用一个文件集合的方式一样来使用一个文件树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You will need to provide values for some additional properties.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T150016Z" creationid="msdx" creationdate="20141113T145958Z">
+        <seg>您需要提供一些值给附加的属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7348,6 +7412,18 @@ repositories {</seg>
 apply plugin: &lt;s1&gt;'groovy'&lt;/s1&gt;
 
 repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+task zip(type: Zip) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145755Z" creationid="msdx" creationdate="20141113T145755Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+task zip(type: Zip) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -7824,6 +7900,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from &lt;s1&gt;'src/dist'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145755Z" creationid="msdx" creationdate="20141113T145755Z">
+        <seg>from &lt;s1&gt;'src/dist'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from &lt;s1&gt;'src/main/webapp'&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130949Z" creationid="msdx" creationdate="20141113T130949Z">
@@ -8208,6 +8292,14 @@ tree.visit {element -&gt;</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130957Z" creationid="msdx" creationdate="20141113T130957Z">
         <seg>into { getDestDir() }
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into(&lt;s2&gt;'libs'&lt;/s2&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145756Z" creationid="msdx" creationdate="20141113T145756Z">
+        <seg>into(&lt;s2&gt;'libs'&lt;/s2&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
