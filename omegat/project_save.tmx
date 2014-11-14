@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N113E2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T141737Z" creationid="msdx" creationdate="20141114T141737Z">
+        <seg>#ftn.N113E2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>'build' never runs before 'clean'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T144040Z" creationid="msdx" creationdate="20141110T144040Z">
@@ -1724,6 +1732,14 @@ task filter(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T054823Z" creationid="msdx" creationdate="20141111T054823Z">
         <seg>&lt;s1&gt;// Here you would put arbitrary conditions in real life.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s1&gt;[&lt;a2&gt;8&lt;/a2&gt;]&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T142101Z" creationid="msdx" creationdate="20141114T142101Z">
+        <seg>&lt;s1&gt;[&lt;a2&gt;8&lt;/a2&gt;]&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3912,6 +3928,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finally, since build scripts are Groovy scripts, you can always execute an Ant build as an external process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T141947Z" creationid="msdx" creationdate="20141114T141947Z">
+        <seg>最后，由于构建脚本是 Groovy 脚本，所以您始终可以作为一个外部进程来执行 Ant 构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>First, the &lt;c2&gt;copy()&lt;/c2&gt; is not incremental (see &lt;a3&gt;Section 15.9, “Skipping tasks that are up-to-date”&lt;/a3&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131721Z" creationid="msdx" creationdate="20141113T131721Z">
@@ -4060,6 +4084,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T062850Z" creationid="msdx" creationdate="20141111T061606Z">
         <seg>对于任务的输出并不是文件的场景，或者是更复杂的场景， &lt;a2&gt; &lt;c3&gt;TaskOutputs.upToDateWhen()&lt;/c3&gt;&lt;/a2&gt;方法允许您以编程方式计算任务的输出是否应该被判断为最新状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For this layer Gradle provides integration simply by relying on Groovy, and the fantastic &lt;c3&gt;AntBuilder&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T141736Z" creationid="msdx" creationdate="20141114T141448Z">
+        <seg>这一层 Gradle 单靠 Groovy 和不可思议的 &lt;c3&gt;AntBuilder&lt;/c3&gt;，对其提供了集成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6256,6 +6288,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The second layer of Ant is its wealth of Ant tasks and types, like &lt;c0&gt;javac&lt;/c0&gt;, &lt;c1&gt;copy&lt;/c1&gt; or &lt;c2&gt;jar&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T141307Z" creationid="msdx" creationdate="20141114T141307Z">
+        <seg>Ant 的第二层是其丰富的 Ant 任务和类型，如&lt;c0&gt;javac&lt;/c0&gt;、&lt;c1&gt;copy&lt;/c1&gt;或&lt;c2&gt;jar&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The separation that Ant does between tasks and targets is not done by Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T123750Z" creationid="msdx" creationdate="20141111T123747Z">
@@ -7594,8 +7634,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>You can then use the targets of your Ant build as if they were Gradle tasks.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T140930Z" creationid="msdx" creationdate="20141114T140930Z">
-        <seg>You can then use the targets of your Ant build as if they were Gradle tasks.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T141231Z" creationid="msdx" creationdate="20141114T140930Z">
+        <seg>然后你可以使用你的 Ant 构建中的target，就好像它们是 Gradle 任务一样。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7764,6 +7804,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T012210Z" creationid="msdx" creationdate="20141111T005440Z">
         <seg>当倾向于更快的反馈时，会使用“应该在之后运行”的规则，因为这种排序很有帮助但要求不严格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your build script may contain statements like:&lt;c0&gt;"ant clean compile".execute()&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T142059Z" creationid="msdx" creationdate="20141114T142059Z">
+        <seg>你的构建脚本可能包含有类似这样的语句：&lt;c0&gt;"ant clean compile".execute()&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
