@@ -3804,6 +3804,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 17.2. Passing nested text to an Ant task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T154711Z" creationid="msdx" creationdate="20141115T154711Z">
+        <seg>Example 17.2. Passing nested text to an Ant task</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -4776,6 +4784,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T053941Z" creationid="msdx" creationdate="20141108T051409Z">
         <seg>在此示例中， 一个&lt;c0&gt;ext&lt;/c0&gt;代码块将两个额外属性添加到&lt;c1&gt;project&lt;/c1&gt;对象中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this example, we pass the message for the &lt;c0&gt;echo&lt;/c0&gt; task as nested text:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T154637Z" creationid="msdx" creationdate="20141115T154637Z">
+        <seg>In this example, we pass the message for the &lt;c0&gt;echo&lt;/c0&gt; task as nested text:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7948,6 +7964,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You pass nested elements to an Ant task inside a closure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T154720Z" creationid="msdx" creationdate="20141115T154720Z">
+        <seg>You pass nested elements to an Ant task inside a closure.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You pass nested text to an Ant task by passing it as a parameter of the task method call.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T154521Z" creationid="msdx" creationdate="20141115T154521Z">
+        <seg>You pass nested text to an Ant task by passing it as a parameter of the task method call.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You specify the source files using the &lt;a5&gt;&lt;c6&gt;CopySpec.from()&lt;/c6&gt;&lt;/a5&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124344Z" creationid="msdx" creationdate="20141113T124305Z">
@@ -8036,6 +8068,16 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ant.echo(&lt;s0&gt;'hello from Ant'&lt;/s0&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T154712Z" creationid="msdx" creationdate="20141115T154712Z">
+        <seg>ant.echo(&lt;s0&gt;'hello from Ant'&lt;/s0&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ant.echo(message: greeting)
 }</seg>
       </tuv>
@@ -8050,6 +8092,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124440Z" creationid="msdx" creationdate="20141111T124440Z">
         <seg>ant.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.zip(destfile: &lt;s0&gt;'archive.zip'&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T154729Z" creationid="msdx" creationdate="20141115T154729Z">
+        <seg>ant.zip(destfile: &lt;s0&gt;'archive.zip'&lt;/s0&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
