@@ -2202,6 +2202,26 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle hello
+:hello
+[ant:echo] hello from Ant
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153419Z" creationid="msdx" creationdate="20141115T153419Z">
+        <seg>&gt; gradle hello
+:hello
+[ant:echo] hello from Ant
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle hello -PskipHello
 :hello SKIPPED
 
@@ -2588,8 +2608,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Below is an example which executes the &lt;c3&gt;echo&lt;/c3&gt; task.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153256Z" creationid="msdx" creationdate="20141115T153256Z">
-        <seg>Below is an example which executes the &lt;c3&gt;echo&lt;/c3&gt; task.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153329Z" creationid="msdx" creationdate="20141115T153256Z">
+        <seg>下面是执行 &lt;c3&gt;echo&lt;/c3&gt; 任务的例子。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3776,6 +3796,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 17.1. Using an Ant task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153407Z" creationid="msdx" creationdate="20141115T153407Z">
+        <seg>示例 17.1. 使用 Ant 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -4066,8 +4094,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>For example, you execute the Ant &lt;c1&gt;echo&lt;/c1&gt; task by calling the &lt;c2&gt;ant.echo()&lt;/c2&gt; method.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153152Z" creationid="msdx" creationdate="20141115T153152Z">
-        <seg>例如，你可以通过调用&lt;c2&gt;ant.echo()&lt;/c2&gt;方法执行 Ant 的 &lt;c1&gt;each&lt;/c1&gt; 任务。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153307Z" creationid="msdx" creationdate="20141115T153152Z">
+        <seg>例如，你可以通过调用&lt;c2&gt;ant.echo()&lt;/c2&gt;方法执行 Ant 的 &lt;c1&gt;echo&lt;/c1&gt; 任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5128,6 +5156,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notice that we can also mix Groovy code and the Ant task markup.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153344Z" creationid="msdx" creationdate="20141115T153344Z">
+        <seg>请注意我们还可以混合使用 Groovy 代码和 Ant 任务标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now, Gradle knows which files to check to determine whether the task is up-to-date or not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T061357Z" creationid="msdx" creationdate="20141111T061318Z">
@@ -5384,6 +5420,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle hello&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153417Z" creationid="msdx" creationdate="20141115T153417Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle hello&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle transform&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060343Z" creationid="msdx" creationdate="20141111T060343Z">
@@ -5636,6 +5680,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044234Z" creationid="msdx" creationdate="20141108T044234Z">
         <seg>String</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>String greeting = &lt;s0&gt;'hello from Ant'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153407Z" creationid="msdx" creationdate="20141115T153407Z">
+        <seg>String greeting = &lt;s0&gt;'hello from Ant'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6684,6 +6736,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T035847Z" creationid="msdx" creationdate="20141108T035847Z">
         <seg>这种构建语言基于 Groovy 中，并进行了一些补充，使其易于描述构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be extremely powerful.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153358Z" creationid="msdx" creationdate="20141115T153358Z">
+        <seg>这将会非常强大。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7972,6 +8032,16 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044451Z" creationid="msdx" creationdate="20141108T044451Z">
         <seg>ant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.echo(message: greeting)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153410Z" creationid="msdx" creationdate="20141115T153410Z">
+        <seg>ant.echo(message: greeting)
+}</seg>
       </tuv>
     </tu>
     <tu>
