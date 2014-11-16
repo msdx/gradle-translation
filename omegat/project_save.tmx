@@ -3820,6 +3820,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 17.4. Using an Ant type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011226Z" creationid="msdx" creationdate="20141116T011226Z">
+        <seg>示例 17.4. 使用 Ant 类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -4760,6 +4768,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T013145Z" creationid="msdx" creationdate="20141111T013145Z">
         <seg>在上面的例子中，它仍有可能执行&lt;c0&gt;taskY&lt;/c0&gt;而不会导致&lt;c1&gt;taskX&lt;/c1&gt;也运行：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the following example, we create an Ant &lt;c0&gt;path&lt;/c0&gt; object, then iterate over the contents of it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011213Z" creationid="msdx" creationdate="20141116T011213Z">
+        <seg>在以下示例中，我们创建一个 Ant 的 &lt;c0&gt;path&lt;/c0&gt;对象，然后循环访问它的内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8548,6 +8564,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def path = ant.path {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011226Z" creationid="msdx" creationdate="20141116T011226Z">
+        <seg>def path = ant.path {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependency_management.html#sub:configurations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T144838Z" creationid="msdx" creationdate="20141112T144838Z">
@@ -8750,6 +8774,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140713Z" creationid="msdx" creationdate="20141113T140713Z">
         <seg>fileName.replace(&lt;s3&gt;'-staging-'&lt;/s3&gt;, &lt;s4&gt;''&lt;/s4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fileset(dir: &lt;s0&gt;'libs'&lt;/s0&gt;, includes: &lt;s1&gt;'*.jar'&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011227Z" creationid="msdx" creationdate="20141116T011227Z">
+        <seg>fileset(dir: &lt;s0&gt;'libs'&lt;/s0&gt;, includes: &lt;s1&gt;'*.jar'&lt;/s1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -8988,6 +9020,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044426Z" creationid="msdx" creationdate="20141108T044426Z">
         <seg>group</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://groovy.codehaus.org/Using+Ant+from+Groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011230Z" creationid="msdx" creationdate="20141116T011230Z">
+        <seg>http://groovy.codehaus.org/Using+Ant+from+Groovy</seg>
       </tuv>
     </tu>
     <tu>
@@ -9454,6 +9494,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>path.list().each {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011228Z" creationid="msdx" creationdate="20141116T011228Z">
+        <seg>path.list().each {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>pos = &lt;s0&gt;new&lt;/s0&gt; java.text.FieldPosition(&lt;s1&gt;10&lt;/s1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T153041Z" creationid="msdx" creationdate="20141109T153041Z">
@@ -9908,6 +9956,14 @@ def different = collection - files(&lt;s4&gt;'src/file3.txt'&lt;/s4&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151101Z" creationid="msdx" creationdate="20141109T151101Z">
         <seg>println gradlePropertiesProp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println it</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011229Z" creationid="msdx" creationdate="20141116T011229Z">
+        <seg>println it</seg>
       </tuv>
     </tu>
     <tu>
