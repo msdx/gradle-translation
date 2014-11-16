@@ -3836,6 +3836,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 17.5. Using a custom Ant task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060205Z" creationid="msdx" creationdate="20141116T060205Z">
+        <seg>示例 17.5. 使用自定义 Ant 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -7878,8 +7886,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>You can then refer to the custom Ant task as you would a built-in Ant task.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T020147Z" creationid="msdx" creationdate="20141116T020147Z">
-        <seg>You can then refer to the custom Ant task as you would a built-in Ant task.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060159Z" creationid="msdx" creationdate="20141116T020147Z">
+        <seg>然后，您可以像引用内置的 Ant 任务一样引用自定义 Ant 任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8148,6 +8156,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ant.checkstyle(config: &lt;s3&gt;'checkstyle.xml'&lt;/s3&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060208Z" creationid="msdx" creationdate="20141116T060208Z">
+        <seg>ant.checkstyle(config: &lt;s3&gt;'checkstyle.xml'&lt;/s3&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ant.echo(&lt;s0&gt;'hello from Ant'&lt;/s0&gt;)
 }</seg>
       </tuv>
@@ -8172,6 +8188,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124440Z" creationid="msdx" creationdate="20141111T124440Z">
         <seg>ant.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.taskdef(resource: &lt;s0&gt;'checkstyletask.properties'&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060206Z" creationid="msdx" creationdate="20141116T060206Z">
+        <seg>ant.taskdef(resource: &lt;s0&gt;'checkstyletask.properties'&lt;/s0&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -8494,6 +8518,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>classpath {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060206Z" creationid="msdx" creationdate="20141116T060206Z">
+        <seg>classpath {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>collection = files { srcDir.listFiles() }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160738Z" creationid="msdx" creationdate="20141112T160738Z">
@@ -8600,6 +8632,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011226Z" creationid="msdx" creationdate="20141116T011226Z">
         <seg>def path = ant.path {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:how_to_declare_your_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060209Z" creationid="msdx" creationdate="20141116T060209Z">
+        <seg>dependency_management.html#sec:how_to_declare_your_dependencies</seg>
       </tuv>
     </tu>
     <tu>
@@ -8818,10 +8858,26 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>fileset(dir: &lt;s1&gt;'libs'&lt;/s1&gt;, includes: &lt;s2&gt;'*.jar'&lt;/s2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060207Z" creationid="msdx" creationdate="20141116T060207Z">
+        <seg>fileset(dir: &lt;s1&gt;'libs'&lt;/s1&gt;, includes: &lt;s2&gt;'*.jar'&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>fileset(dir: &lt;s1&gt;'src'&lt;/s1&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T162754Z" creationid="msdx" creationdate="20141115T162754Z">
         <seg>fileset(dir: &lt;s1&gt;'src'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fileset(dir: &lt;s4&gt;'src'&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060208Z" creationid="msdx" creationdate="20141116T060208Z">
+        <seg>fileset(dir: &lt;s4&gt;'src'&lt;/s4&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -10254,6 +10310,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130947Z" creationid="msdx" creationdate="20141113T130947Z">
         <seg>task anotherCopyTask(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task check &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060205Z" creationid="msdx" creationdate="20141116T060205Z">
+        <seg>task check &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
