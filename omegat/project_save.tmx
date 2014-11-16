@@ -1102,6 +1102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>17.4. API</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062723Z" creationid="msdx" creationdate="20141116T062723Z">
+        <seg>17.4. API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161850Z" creationid="msdx" creationdate="20141109T161850Z">
@@ -1694,6 +1702,14 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062047Z" creationid="msdx" creationdate="20141116T062047Z">
         <seg>&lt;s0&gt;&lt;echo&gt;&lt;/s0&gt;buildDir = ${buildDir}&lt;s1&gt;&lt;/echo&gt;&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;path&lt;/s0&gt; &lt;s1&gt;id&lt;/s1&gt;=&lt;s2&gt;"antPath"&lt;/s2&gt; &lt;s3&gt;location&lt;/s3&gt;=&lt;s4&gt;"libs"&lt;/s4&gt;&lt;s5&gt;/&gt;&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062719Z" creationid="msdx" creationdate="20141116T062719Z">
+        <seg>&lt;s0&gt;&lt;path&lt;/s0&gt; &lt;s1&gt;id&lt;/s1&gt;=&lt;s2&gt;"antPath"&lt;/s2&gt; &lt;s3&gt;location&lt;/s3&gt;=&lt;s4&gt;"libs"&lt;/s4&gt;&lt;s5&gt;/&gt;&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4058,6 +4074,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 17.15. Getting an Ant reference</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062719Z" creationid="msdx" creationdate="20141116T062719Z">
+        <seg>示例 17.15. 获取 Ant 引用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 17.2. Passing nested text to an Ant task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T154955Z" creationid="msdx" creationdate="20141115T154711Z">
@@ -6330,6 +6354,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Ant integration is provided by &lt;a0&gt;&lt;c1&gt;AntBuilder&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062726Z" creationid="msdx" creationdate="20141116T062726Z">
+        <seg>The Ant integration is provided by &lt;a0&gt;&lt;c1&gt;AntBuilder&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Ant properties are also available as a Map which you can change.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061823Z" creationid="msdx" creationdate="20141116T061406Z">
@@ -6910,6 +6942,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T080654Z" creationid="msdx" creationdate="20141110T080654Z">
         <seg>对这样的情况，有很多种方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are several ways to get an Ant reference:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062703Z" creationid="msdx" creationdate="20141116T062703Z">
+        <seg>有几种方法可以获取 Ant 引用：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10572,6 +10612,16 @@ println ant.properties[&lt;s0&gt;'antProp'&lt;/s0&gt;]</seg>
         <seg>println ant.antProp
 println ant.properties.antProp
 println ant.properties[&lt;s0&gt;'antProp'&lt;/s0&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println ant.references.antPath
+println ant.references[&lt;s0&gt;'antPath'&lt;/s0&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062720Z" creationid="msdx" creationdate="20141116T062720Z">
+        <seg>println ant.references.antPath
+println ant.references[&lt;s0&gt;'antPath'&lt;/s0&gt;]</seg>
       </tuv>
     </tu>
     <tu>
