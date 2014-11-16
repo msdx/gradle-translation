@@ -1690,10 +1690,26 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;echo&gt;&lt;/s0&gt;buildDir = ${buildDir}&lt;s1&gt;&lt;/echo&gt;&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062047Z" creationid="msdx" creationdate="20141116T062047Z">
+        <seg>&lt;s0&gt;&lt;echo&gt;&lt;/s0&gt;buildDir = ${buildDir}&lt;s1&gt;&lt;/echo&gt;&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;project&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060915Z" creationid="msdx" creationdate="20141116T060915Z">
         <seg>&lt;s0&gt;&lt;project&gt;&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;property&lt;/s0&gt; &lt;s1&gt;name&lt;/s1&gt;=&lt;s2&gt;"antProp"&lt;/s2&gt; &lt;s3&gt;value&lt;/s3&gt;=&lt;s4&gt;"a property defined in an Ant build"&lt;/s4&gt;&lt;s5&gt;/&gt;&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062232Z" creationid="msdx" creationdate="20141116T062232Z">
+        <seg>&lt;s0&gt;&lt;property&lt;/s0&gt; &lt;s1&gt;name&lt;/s1&gt;=&lt;s2&gt;"antProp"&lt;/s2&gt; &lt;s3&gt;value&lt;/s3&gt;=&lt;s4&gt;"a property defined in an Ant build"&lt;/s4&gt;&lt;s5&gt;/&gt;&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2776,6 +2792,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061950Z" creationid="msdx" creationdate="20141116T061950Z">
         <seg>下面是一些如何做到这一点的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Below are some examples.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062221Z" creationid="msdx" creationdate="20141116T062215Z">
+        <seg>下面是一些例子。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4006,6 +4030,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062002Z" creationid="msdx" creationdate="20141116T062002Z">
         <seg>示例 17.12. Ant 属性设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 17.13. Getting an Ant property</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062231Z" creationid="msdx" creationdate="20141116T062218Z">
+        <seg>示例 17.13. 获取 Ant 属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -5346,6 +5378,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Many Ant tasks set properties when they execute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062129Z" creationid="msdx" creationdate="20141116T062129Z">
+        <seg>许多 Ant 任务在执行时会设置一些属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Many objects in Gradle have properties which accept a set of input files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122920Z" creationid="msdx" creationdate="20141113T122920Z">
@@ -6282,6 +6322,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Ant properties are also available as a Map.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062213Z" creationid="msdx" creationdate="20141116T062213Z">
+        <seg>Ant 属性也可作为一个 Map。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Command Line tab is place to execute a single Gradle command directly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T160049Z" creationid="msdx" creationdate="20141105T160049Z">
@@ -6846,6 +6894,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T080654Z" creationid="msdx" creationdate="20141110T080654Z">
         <seg>对这样的情况，有很多种方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are several ways to get the value of these properties.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062137Z" creationid="msdx" creationdate="20141116T062137Z">
+        <seg>有几种方法来获取这些属性值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8154,6 +8210,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can get the property directly from the &lt;c0&gt;AntBuilder&lt;/c0&gt; instance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062201Z" creationid="msdx" creationdate="20141116T062201Z">
+        <seg>你可以直接从&lt;c0&gt;AntBuilder&lt;/c0&gt;实例获得属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can locate a file relative to the project directory using the &lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T043445Z" creationid="msdx" creationdate="20141111T125325Z">
@@ -8502,6 +8566,20 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044451Z" creationid="msdx" creationdate="20141108T044451Z">
         <seg>ant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.buildDir = buildDir
+ant.properties.buildDir = buildDir
+ant.properties[&lt;s0&gt;'buildDir'&lt;/s0&gt;] = buildDir
+ant.property(name: &lt;s1&gt;'buildDir'&lt;/s1&gt;, location: buildDir)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062046Z" creationid="msdx" creationdate="20141116T062046Z">
+        <seg>ant.buildDir = buildDir
+ant.properties.buildDir = buildDir
+ant.properties[&lt;s0&gt;'buildDir'&lt;/s0&gt;] = buildDir
+ant.property(name: &lt;s1&gt;'buildDir'&lt;/s1&gt;, location: buildDir)</seg>
       </tuv>
     </tu>
     <tu>
@@ -10446,6 +10524,18 @@ taskX.finalizedBy taskY</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151105Z" creationid="msdx" creationdate="20141109T151105Z">
         <seg>println System.properties[&lt;s0&gt;'system'&lt;/s0&gt;]
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println ant.antProp
+println ant.properties.antProp
+println ant.properties[&lt;s0&gt;'antProp'&lt;/s0&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062233Z" creationid="msdx" creationdate="20141116T062233Z">
+        <seg>println ant.antProp
+println ant.properties.antProp
+println ant.properties[&lt;s0&gt;'antProp'&lt;/s0&gt;]</seg>
       </tuv>
     </tu>
     <tu>
