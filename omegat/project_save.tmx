@@ -1936,6 +1936,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s12&gt;if&lt;/s12&gt; (result.failure != null) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154820Z" creationid="msdx" creationdate="20141116T154820Z">
+        <seg>&lt;s12&gt;if&lt;/s12&gt; (result.failure != null) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;// Here you would put arbitrary conditions in real life.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T054823Z" creationid="msdx" creationdate="20141111T054823Z">
@@ -2084,6 +2092,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s4&gt;public&lt;/s4&gt; &lt;s5&gt;void&lt;/s5&gt; beforeExecute(Task task) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154816Z" creationid="msdx" creationdate="20141116T154816Z">
+        <seg>&lt;s4&gt;public&lt;/s4&gt; &lt;s5&gt;void&lt;/s5&gt; beforeExecute(Task task) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s5&gt;// Add some source directories using a closure&lt;/s5&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123634Z" creationid="msdx" creationdate="20141113T123634Z">
@@ -2168,6 +2184,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s7&gt;public&lt;/s7&gt; &lt;s8&gt;void&lt;/s8&gt; afterExecute(Task task, TaskState state) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154818Z" creationid="msdx" creationdate="20141116T154818Z">
+        <seg>&lt;s7&gt;public&lt;/s7&gt; &lt;s8&gt;void&lt;/s8&gt; afterExecute(Task task, TaskState state) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s8&gt;// Determine the destination directory later&lt;/s8&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130957Z" creationid="msdx" creationdate="20141113T130957Z">
@@ -2182,6 +2206,46 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061145Z" creationid="msdx" creationdate="20141116T061145Z">
         <seg>&lt;s9&gt;&lt;/target&gt;&lt;/s9&gt;
 &lt;s10&gt;&lt;/project&gt;&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s9&gt;public&lt;/s9&gt; &lt;s10&gt;void&lt;/s10&gt; buildFinished(BuildResult result) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154819Z" creationid="msdx" creationdate="20141116T154819Z">
+        <seg>&lt;s9&gt;public&lt;/s9&gt; &lt;s10&gt;void&lt;/s10&gt; buildFinished(BuildResult result) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -I init.gradle build
+[compile]
+compiling source
+
+[testCompile]
+compiling test source
+
+[test]
+running unit tests
+
+[build]
+
+build completed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154831Z" creationid="msdx" creationdate="20141116T154831Z">
+        <seg>&gt; gradle -I init.gradle build
+[compile]
+compiling source
+
+[testCompile]
+compiling test source
+
+[test]
+running unit tests
+
+[build]
+
+build completed</seg>
       </tuv>
     </tu>
     <tu>
@@ -2968,6 +3032,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062221Z" creationid="msdx" creationdate="20141116T062215Z">
         <seg>下面是一些例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Below is an example init script which changes how task execution and build completion is logged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154805Z" creationid="msdx" creationdate="20141116T154618Z">
+        <seg>下面是一个示例，在 init 脚本中修改任务执行和构建完成的日志打印。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4418,6 +4490,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 18.6. Customizing what Gradle logs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154814Z" creationid="msdx" creationdate="20141116T154814Z">
+        <seg>示例 18.6 的例子. 自定义 Gradle 日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -5818,6 +5898,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Logging for the other interfaces is left untouched.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T155109Z" creationid="msdx" creationdate="20141116T155109Z">
+        <seg>其他接口的日志记录是不变的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Manipulating existing tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162512Z" creationid="msdx" creationdate="20141109T162512Z">
@@ -6142,6 +6230,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060729Z" creationid="msdx" creationdate="20141111T060729Z">
         <seg>我们的示例任务被用一个操作（action）闭包来定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -I init.gradle build&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154830Z" creationid="msdx" creationdate="20141116T154830Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -I init.gradle build&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -7972,8 +8068,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>This is accessible from a build script, or an init script, or via the embedding API.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154217Z" creationid="msdx" creationdate="20141116T154217Z">
-        <seg>它可以在构建脚本，或初始化脚本，或通过内嵌的 API 访问。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154741Z" creationid="msdx" creationdate="20141116T154217Z">
+        <seg>它可以在构建脚本，或 init 脚本，或通过内嵌的 API 访问。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8638,6 +8734,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060755Z" creationid="msdx" creationdate="20141116T060755Z">
         <seg>当您导入一个 Ant 构建时，每个 Ant 目标被视为一个 Gradle 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you register a logger, only the logging for the interfaces that it implements is replaced.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T155025Z" creationid="msdx" creationdate="20141116T155025Z">
+        <seg>当你注册一个logger时，只能替换它实现的接口的日志记录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9354,6 +9458,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Your logger can implement any of the listener interfaces listed below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154912Z" creationid="msdx" creationdate="20141116T154835Z">
+        <seg>你的logger可以实现下面列出的任何监听器接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Your project can contain Groovy source code, Java source code, or a mix of the two.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T061208Z" creationid="msdx" creationdate="20141030T040323Z">
@@ -9796,6 +9908,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044403Z" creationid="msdx" creationdate="20141108T044403Z">
         <seg>buildDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build_lifecycle.html#build_lifecycle_events</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154833Z" creationid="msdx" creationdate="20141116T154833Z">
+        <seg>build_lifecycle.html#build_lifecycle_events</seg>
       </tuv>
     </tu>
     <tu>
@@ -10602,6 +10722,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>init.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154814Z" creationid="msdx" creationdate="20141116T154814Z">
+        <seg>init.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>inputs.file copyTask &lt;s0&gt;// up-to-date check for inputs, plus add copyTask as dependency&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134159Z" creationid="msdx" creationdate="20141113T134159Z">
@@ -11200,6 +11328,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s11&gt;'build completed'&lt;/s11&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154819Z" creationid="msdx" creationdate="20141116T154819Z">
+        <seg>println &lt;s11&gt;'build completed'&lt;/s11&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;"hello"&lt;/s1&gt;
 }
 
@@ -11446,6 +11582,14 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s6&gt;"[$task.name]"&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154817Z" creationid="msdx" creationdate="20141116T154817Z">
+        <seg>println &lt;s6&gt;"[$task.name]"&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s6&gt;'I am not affected'&lt;/s6&gt;
 }</seg>
       </tuv>
@@ -11606,6 +11750,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154818Z" creationid="msdx" creationdate="20141116T154818Z">
+        <seg>println()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println(&lt;s0&gt;'I am the new one.'&lt;/s0&gt;)
 }</seg>
       </tuv>
@@ -11702,6 +11854,14 @@ println project.name</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140715Z" creationid="msdx" creationdate="20141113T140715Z">
         <seg>rename(/(.+)-staging-(.+)/, &lt;s8&gt;'$1$2'&lt;/s8&gt;)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>result.failure.printStackTrace()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154821Z" creationid="msdx" creationdate="20141116T154821Z">
+        <seg>result.failure.printStackTrace()</seg>
       </tuv>
     </tu>
     <tu>
@@ -12566,6 +12726,18 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044441Z" creationid="msdx" creationdate="20141108T044441Z">
         <seg>未指定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>useLogger(&lt;s0&gt;new&lt;/s0&gt; CustomEventLogger())
+
+&lt;s1&gt;class&lt;/s1&gt; CustomEventLogger &lt;s2&gt;extends&lt;/s2&gt; BuildAdapter &lt;s3&gt;implements&lt;/s3&gt; TaskExecutionListener {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154815Z" creationid="msdx" creationdate="20141116T154815Z">
+        <seg>useLogger(&lt;s0&gt;new&lt;/s0&gt; CustomEventLogger())
+
+&lt;s1&gt;class&lt;/s1&gt; CustomEventLogger &lt;s2&gt;extends&lt;/s2&gt; BuildAdapter &lt;s3&gt;implements&lt;/s3&gt; TaskExecutionListener {</seg>
       </tuv>
     </tu>
     <tu>
