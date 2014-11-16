@@ -1698,6 +1698,14 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;path&lt;/s0&gt; &lt;s1&gt;refid&lt;/s1&gt;=&lt;s2&gt;"classpath"&lt;/s2&gt;&lt;s3&gt;/&gt;&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062651Z" creationid="msdx" creationdate="20141116T062651Z">
+        <seg>&lt;s0&gt;&lt;path&lt;/s0&gt; &lt;s1&gt;refid&lt;/s1&gt;=&lt;s2&gt;"classpath"&lt;/s2&gt;&lt;s3&gt;/&gt;&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;project&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060915Z" creationid="msdx" creationdate="20141116T060915Z">
@@ -4038,6 +4046,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062231Z" creationid="msdx" creationdate="20141116T062218Z">
         <seg>示例 17.13. 获取 Ant 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 17.14. Setting an Ant reference</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062647Z" creationid="msdx" creationdate="20141116T062647Z">
+        <seg>示例 17.14. Ant 引用设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -6914,6 +6930,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are several ways to set an Ant reference:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062633Z" creationid="msdx" creationdate="20141116T062633Z">
+        <seg>有几种方法可以设置 Ant 引用：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are several ways you can define the dependencies of a task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T100107Z" creationid="msdx" creationdate="20141110T100020Z">
@@ -8660,6 +8684,18 @@ task intro(dependsOn: hello) &lt;&lt; {</seg>
         <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;
 
 task intro(dependsOn: hello) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.path(id: &lt;s0&gt;'classpath'&lt;/s0&gt;, location: &lt;s1&gt;'libs'&lt;/s1&gt;)
+ant.references.classpath = ant.path(location: &lt;s2&gt;'libs'&lt;/s2&gt;)
+ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;'libs'&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062648Z" creationid="msdx" creationdate="20141116T062648Z">
+        <seg>ant.path(id: &lt;s0&gt;'classpath'&lt;/s0&gt;, location: &lt;s1&gt;'libs'&lt;/s1&gt;)
+ant.references.classpath = ant.path(location: &lt;s2&gt;'libs'&lt;/s2&gt;)
+ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;'libs'&lt;/s4&gt;)</seg>
       </tuv>
     </tu>
     <tu>
