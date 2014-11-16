@@ -1142,6 +1142,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>18.3. Logging from external tools and libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130627Z" creationid="msdx" creationdate="20141116T130627Z">
+        <seg>18.3. 使用外部工具和库记录日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161850Z" creationid="msdx" creationdate="20141109T161850Z">
@@ -1860,6 +1868,22 @@ task filter(type: Copy) {</seg>
 &lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
 
 task filter(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.slf4j.Logger
+&lt;s1&gt;import&lt;/s1&gt; org.slf4j.LoggerFactory
+
+Logger slf4jLogger = LoggerFactory.getLogger(&lt;s2&gt;'some-logger'&lt;/s2&gt;)
+slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130534Z" creationid="msdx" creationdate="20141116T130534Z">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.slf4j.Logger
+&lt;s1&gt;import&lt;/s1&gt; org.slf4j.LoggerFactory
+
+Logger slf4jLogger = LoggerFactory.getLogger(&lt;s2&gt;'some-logger'&lt;/s2&gt;)
+slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4322,6 +4346,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 18.3. Using SLF4J to write log messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130533Z" creationid="msdx" creationdate="20141116T130533Z">
+        <seg>示例 18.3. 使用 SLF4J 编写日志消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -6398,6 +6430,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163007Z" creationid="msdx" creationdate="20141109T163007Z">
         <seg>简洁写法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Simply use an SLF4J logger.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130333Z" creationid="msdx" creationdate="20141116T130333Z">
+        <seg>只需使用一个 SLF4J 的logger对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8628,8 +8668,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>You can also hook into Gradle's logging system from within other classes used in the build (classes from the &lt;c0&gt;buildSrc&lt;/c0&gt; directory for example).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T125946Z" creationid="msdx" creationdate="20141116T125946Z">
-        <seg>You can also hook into Gradle's logging system from within other classes used in the build (classes from the &lt;c0&gt;buildSrc&lt;/c0&gt; directory for example).</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130304Z" creationid="msdx" creationdate="20141116T125946Z">
+        <seg>您也可以在构建脚本中通过其他使用的类挂钩到 Gradle 的日志系统中（例如 &lt;c0&gt;buildSrc&lt;/c0&gt; 目录中的类）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8958,6 +8998,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120455Z" creationid="msdx" creationdate="20141113T120455Z">
         <seg>您可以使用档案的内容，如 ZIP 或者 TAR 文件，作为一个文件树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use this logger the same way as you use the provided logger in the build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130521Z" creationid="msdx" creationdate="20141116T130521Z">
+        <seg>你可以在构建脚本中，用与内置的logger同样的方式使用这个logger。</seg>
       </tuv>
     </tu>
     <tu>
