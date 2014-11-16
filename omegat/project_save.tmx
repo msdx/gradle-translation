@@ -4378,6 +4378,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 18.4. Configuring standard output capture</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T150300Z" creationid="msdx" creationdate="20141116T150300Z">
+        <seg>示例 18.4. 配置标准输出捕获</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -10724,6 +10732,16 @@ logger.lifecycle(&lt;s3&gt;'A lifecycle info log message.'&lt;/s3&gt;)
 logger.info(&lt;s4&gt;'An info log message.'&lt;/s4&gt;)
 logger.debug(&lt;s5&gt;'A debug log message.'&lt;/s5&gt;)
 logger.trace(&lt;s6&gt;'A trace log message.'&lt;/s6&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>logging.captureStandardOutput LogLevel.INFO
+println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T150313Z" creationid="msdx" creationdate="20141116T150313Z">
+        <seg>logging.captureStandardOutput LogLevel.INFO
+println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
