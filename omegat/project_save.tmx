@@ -5698,6 +5698,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>No stacktraces are printed to the console in case of a build error (e.g. a compile error).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T103752Z" creationid="msdx" creationdate="20141116T103552Z">
+        <seg>构建错误（如编译错误）时没有栈跟踪打印到控制台。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that "&lt;c0&gt;B.mustRunAfter(A)&lt;/c0&gt;" or "&lt;c1&gt;B.shouldRunAfter(A)&lt;/c1&gt;" does not imply any execution dependency between the tasks:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T013921Z" creationid="msdx" creationdate="20141111T013914Z">
@@ -5854,6 +5862,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T043819Z" creationid="msdx" creationdate="20141108T043819Z">
         <seg>只有当您定义的属性或方法&lt;c4&gt;Project&lt;/c4&gt;对象的一个成员相同名字时，你才需要使用&lt;c5&gt;project&lt;/c5&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Only in case of internal exceptions will stacktraces be printed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T103821Z" creationid="msdx" creationdate="20141116T103812Z">
+        <seg>只有在内部异常的情况下才打印栈跟踪。</seg>
       </tuv>
     </tu>
     <tu>
