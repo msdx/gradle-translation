@@ -1094,6 +1094,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>17.3. Ant properties and references</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061157Z" creationid="msdx" creationdate="20141116T061157Z">
+        <seg>17.3. Ant 属性和引用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161850Z" creationid="msdx" creationdate="20141109T161850Z">
@@ -1768,6 +1776,14 @@ task filter(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;&lt;target&lt;/s1&gt; &lt;s2&gt;name&lt;/s2&gt;=&lt;s3&gt;"hello"&lt;/s3&gt; &lt;s4&gt;depends&lt;/s4&gt;=&lt;s5&gt;"intro"&lt;/s5&gt;&lt;s6&gt;&gt;&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061143Z" creationid="msdx" creationdate="20141116T061143Z">
+        <seg>&lt;s1&gt;&lt;target&lt;/s1&gt; &lt;s2&gt;name&lt;/s2&gt;=&lt;s3&gt;"hello"&lt;/s3&gt; &lt;s4&gt;depends&lt;/s4&gt;=&lt;s5&gt;"intro"&lt;/s5&gt;&lt;s6&gt;&gt;&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;&lt;target&lt;/s1&gt; &lt;s2&gt;name&lt;/s2&gt;=&lt;s3&gt;"hello"&lt;/s3&gt;&lt;s4&gt;&gt;&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060915Z" creationid="msdx" creationdate="20141116T060915Z">
@@ -1976,10 +1992,28 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s7&gt;&lt;echo&gt;&lt;/s7&gt;Hello, from Ant&lt;s8&gt;&lt;/echo&gt;&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061145Z" creationid="msdx" creationdate="20141116T061145Z">
+        <seg>&lt;s7&gt;&lt;echo&gt;&lt;/s7&gt;Hello, from Ant&lt;s8&gt;&lt;/echo&gt;&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s8&gt;// Determine the destination directory later&lt;/s8&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130957Z" creationid="msdx" creationdate="20141113T130957Z">
         <seg>&lt;s8&gt;// Determine the destination directory later&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s9&gt;&lt;/target&gt;&lt;/s9&gt;
+&lt;s10&gt;&lt;/project&gt;&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061145Z" creationid="msdx" creationdate="20141116T061145Z">
+        <seg>&lt;s9&gt;&lt;/target&gt;&lt;/s9&gt;
+&lt;s10&gt;&lt;/project&gt;&lt;/s10&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2274,6 +2308,28 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>&gt; gradle hello
 :hello
+[ant:echo] Hello, from Ant
+Hello, from Gradle
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061047Z" creationid="msdx" creationdate="20141116T061047Z">
+        <seg>&gt; gradle hello
+:hello
+[ant:echo] Hello, from Ant
+Hello, from Gradle
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle hello
+:hello
 [ant:echo] hello from Ant
 
 BUILD SUCCESSFUL
@@ -2284,6 +2340,30 @@ Total time: 1 secs</seg>
         <seg>&gt; gradle hello
 :hello
 [ant:echo] hello from Ant
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle hello
+:intro
+Hello, from Gradle
+:hello
+[ant:echo] Hello, from Ant
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061147Z" creationid="msdx" creationdate="20141116T061147Z">
+        <seg>&gt; gradle hello
+:intro
+Hello, from Gradle
+:hello
+[ant:echo] Hello, from Ant
 
 BUILD SUCCESSFUL
 
@@ -3906,6 +3986,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 17.11. Ant target that depends on Gradle task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061142Z" creationid="msdx" creationdate="20141116T061142Z">
+        <seg>示例 17.11. 依赖于 Gradle 任务的 Ant 目标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 17.2. Passing nested text to an Ant task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T154955Z" creationid="msdx" creationdate="20141115T154711Z">
@@ -5006,6 +5094,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T092423Z" creationid="msdx" creationdate="20141110T092423Z">
         <seg>它也保留了上下文，且可以说是可读性最强的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is also possible for an Ant target to depend on a Gradle task:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061125Z" creationid="msdx" creationdate="20141116T061125Z">
+        <seg>它也可以用于一个依赖于 Gradle 任务的 Ant 目标：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6730,6 +6826,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are several ways to set an Ant property, so that the property can be used by Ant tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061236Z" creationid="msdx" creationdate="20141116T061236Z">
+        <seg>有几种方法来设置 Ant 属性，以便使该属性被 Ant 任务使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are several ways you can define the dependencies of a task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T100107Z" creationid="msdx" creationdate="20141110T100020Z">
@@ -8066,6 +8170,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can set the property directly on the &lt;c0&gt;AntBuilder&lt;/c0&gt; instance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061246Z" creationid="msdx" creationdate="20141116T061246Z">
+        <seg>你可以直接在&lt;c0&gt;AntBuilder&lt;/c0&gt;实例上设置属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can set the value of this property using any of the types supported by the &lt;a3&gt;files()&lt;/a3&gt; method, which was shown above.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123137Z" creationid="msdx" creationdate="20141113T123137Z">
@@ -8402,6 +8514,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060914Z" creationid="msdx" creationdate="20141116T060914Z">
         <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;
+
+hello &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061046Z" creationid="msdx" creationdate="20141116T061046Z">
+        <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;
+
+hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;
+
+task intro &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061142Z" creationid="msdx" creationdate="20141116T061142Z">
+        <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;
+
+task intro &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
