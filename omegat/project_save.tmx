@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/logging/LoggingManager.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131052Z" creationid="msdx" creationdate="20141116T131052Z">
+        <seg>../javadoc/org/gradle/api/logging/LoggingManager.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/tasks/StopExecutionException.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T021050Z" creationid="msdx" creationdate="20141111T021050Z">
@@ -2980,6 +2988,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Both have their own logging system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130719Z" creationid="msdx" creationdate="20141116T130719Z">
+        <seg>它们都有自己的日志系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Build Script Basics</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162257Z" creationid="msdx" creationdate="20141109T162257Z">
@@ -4874,6 +4890,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle redirects their logging output into the Gradle logging system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130809Z" creationid="msdx" creationdate="20141116T130809Z">
+        <seg>Gradle 将其日志输出重定向到 Gradle 的日志系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle supports &lt;e2&gt;enhanced tasks&lt;/e2&gt;, that is, tasks which have their own properties and methods.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T160613Z" creationid="msdx" creationdate="20141109T160613Z">
@@ -5454,6 +5478,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T122524Z" creationid="msdx" creationdate="20141110T122444Z">
         <seg>您可以使用一个&lt;c0&gt;Task&lt;/c0&gt;对象而不是任务名称来定义依赖，如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Internally, Gradle uses Ant and Ivy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130707Z" creationid="msdx" creationdate="20141116T130707Z">
+        <seg>Gradle 内部使用 Ant 和 Ivy。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7410,6 +7442,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are many tools out there which still use standard output for logging.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131106Z" creationid="msdx" creationdate="20141116T131106Z">
+        <seg>有很多的工具仍然在使用标准输出日志记录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are several ways to get an Ant reference:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062703Z" creationid="msdx" creationdate="20141116T062703Z">
@@ -7470,6 +7510,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T145609Z" creationid="msdx" creationdate="20141110T145609Z">
         <seg>有两种排序规则是可用的："&lt;s0&gt;&lt;e1&gt;必须在之后运行&lt;/e1&gt;&lt;/s0&gt;"和"&lt;s2&gt;&lt;e3&gt;应该在之后运行&lt;/e3&gt;&lt;/s2&gt;"。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is a 1:1 mapping from the Ant/Ivy log levels to the Gradle log levels, except the Ant/Ivy &lt;c0&gt;TRACE&lt;/c0&gt; log level, which is mapped to Gradle &lt;c1&gt;DEBUG&lt;/c1&gt; log level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130959Z" creationid="msdx" creationdate="20141116T130816Z">
+        <seg>从 Ant/Ivy 的日志级别到 Gradle 的日志级别是一对一的映射，除了 Ant/Ivy 的 &lt;c0&gt;TRACE&lt;/c0&gt;级别之外，它是映射到Gradle 的 &lt;c1&gt;DEBUG&lt;/c1&gt; 级别的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7910,6 +7958,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044735Z" creationid="msdx" creationdate="20141108T044735Z">
         <seg>这意味着所有由该&lt;c2&gt;Script&lt;/c2&gt;接口声明的属性和方法在您的脚本中是可用的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means the default Gradle log level will not show any Ant/Ivy output unless it is an error or a warning.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131051Z" creationid="msdx" creationdate="20141116T131051Z">
+        <seg>这意味着默认情况下， Gradle 日志级别将不会显示任何 Ant/Ivy 的输出，除非是错误或警告信息。</seg>
       </tuv>
     </tu>
     <tu>
