@@ -2916,6 +2916,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Below is an example of how this is used in the build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T125902Z" creationid="msdx" creationdate="20141116T125902Z">
+        <seg>下面是关于如何在构建脚本中使用它的示例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Below is an example which adds a dependency from &lt;c1&gt;projectA:taskX&lt;/c1&gt; to &lt;c2&gt;projectB:taskY&lt;/c2&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T122235Z" creationid="msdx" creationdate="20141110T122235Z">
@@ -4302,6 +4310,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T122537Z" creationid="msdx" creationdate="20141116T122537Z">
         <seg>示例18.1. 使用标准输出写日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 18.2. Writing your own log messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T125913Z" creationid="msdx" creationdate="20141116T125913Z">
+        <seg>示例 18.2. 编写自己的日志消息</seg>
       </tuv>
     </tu>
     <tu>
@@ -7746,6 +7762,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This interface extends the SLF4J &lt;c3&gt;Logger&lt;/c3&gt; interface and adds a few Gradle specific methods to it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T125840Z" creationid="msdx" creationdate="20141116T125840Z">
+        <seg>该接口扩展自 SLF4J的 &lt;c3&gt;Logger&lt;/c3&gt;接口，并添加了几个 Gradle 的特有方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is a redundancy and not very nice to read.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T092243Z" creationid="msdx" creationdate="20141110T092243Z">
@@ -8598,6 +8622,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T081010Z" creationid="msdx" creationdate="20141109T081010Z">
         <seg>此外，您也可以通过属性文件向您的project对象添加属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also hook into Gradle's logging system from within other classes used in the build (classes from the &lt;c0&gt;buildSrc&lt;/c0&gt; directory for example).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T125946Z" creationid="msdx" creationdate="20141116T125946Z">
+        <seg>You can also hook into Gradle's logging system from within other classes used in the build (classes from the &lt;c0&gt;buildSrc&lt;/c0&gt; directory for example).</seg>
       </tuv>
     </tu>
     <tu>
@@ -10544,6 +10576,26 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161531Z" creationid="msdx" creationdate="20141112T161531Z">
         <seg>java_plugin.html#sec:source_sets</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>logger.quiet(&lt;s0&gt;'An info log message which is always logged.'&lt;/s0&gt;)
+logger.error(&lt;s1&gt;'An error log message.'&lt;/s1&gt;)
+logger.warn(&lt;s2&gt;'A warning log message.'&lt;/s2&gt;)
+logger.lifecycle(&lt;s3&gt;'A lifecycle info log message.'&lt;/s3&gt;)
+logger.info(&lt;s4&gt;'An info log message.'&lt;/s4&gt;)
+logger.debug(&lt;s5&gt;'A debug log message.'&lt;/s5&gt;)
+logger.trace(&lt;s6&gt;'A trace log message.'&lt;/s6&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T125915Z" creationid="msdx" creationdate="20141116T125915Z">
+        <seg>logger.quiet(&lt;s0&gt;'An info log message which is always logged.'&lt;/s0&gt;)
+logger.error(&lt;s1&gt;'An error log message.'&lt;/s1&gt;)
+logger.warn(&lt;s2&gt;'A warning log message.'&lt;/s2&gt;)
+logger.lifecycle(&lt;s3&gt;'A lifecycle info log message.'&lt;/s3&gt;)
+logger.info(&lt;s4&gt;'An info log message.'&lt;/s4&gt;)
+logger.debug(&lt;s5&gt;'A debug log message.'&lt;/s5&gt;)
+logger.trace(&lt;s6&gt;'A trace log message.'&lt;/s6&gt;)</seg>
       </tuv>
     </tu>
     <tu>
