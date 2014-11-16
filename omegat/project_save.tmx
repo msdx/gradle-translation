@@ -4386,6 +4386,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 18.5. Configuring standard output capture for a task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T150933Z" creationid="msdx" creationdate="20141116T150933Z">
+        <seg>示例 18.5. 对任务配置标准输出捕获</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -8162,6 +8170,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To change the log level for standard out or error during task execution, tasks also provide a &lt;a0&gt;&lt;c1&gt;LoggingManager&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T150915Z" creationid="msdx" creationdate="20141116T150915Z">
+        <seg>为能在任务执行过程中更改标准输出或错误的日志级别，task也提供了一个 &lt;a0&gt;&lt;c1&gt;LoggingManager&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To create a &lt;c1&gt;Copy&lt;/c1&gt; task for your build, you can declare in your build script:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T090208Z" creationid="msdx" creationdate="20141110T090208Z">
@@ -9938,6 +9954,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>doFirst {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T150936Z" creationid="msdx" creationdate="20141116T150936Z">
+        <seg>doFirst {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>doLast {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060323Z" creationid="msdx" creationdate="20141111T060323Z">
@@ -10736,6 +10760,14 @@ logger.trace(&lt;s6&gt;'A trace log message.'&lt;/s6&gt;)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>logging.captureStandardOutput LogLevel.INFO</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T150935Z" creationid="msdx" creationdate="20141116T150935Z">
+        <seg>logging.captureStandardOutput LogLevel.INFO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>logging.captureStandardOutput LogLevel.INFO
 println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
@@ -10996,6 +11028,14 @@ task(copy, type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T122540Z" creationid="msdx" creationdate="20141116T122540Z">
         <seg>println &lt;s0&gt;'A message which is logged at QUIET level'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'A task message which is logged at INFO level'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T150936Z" creationid="msdx" creationdate="20141116T150936Z">
+        <seg>println &lt;s0&gt;'A task message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11880,6 +11920,14 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T070220Z" creationid="msdx" creationdate="20141108T070220Z">
         <seg>task list &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task logInfo {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T150934Z" creationid="msdx" creationdate="20141116T150934Z">
+        <seg>task logInfo {</seg>
       </tuv>
     </tu>
     <tu>
