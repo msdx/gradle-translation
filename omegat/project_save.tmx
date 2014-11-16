@@ -3044,6 +3044,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, Gradle redirects standard output to the &lt;c0&gt;QUIET&lt;/c0&gt; log level and standard error to the &lt;c1&gt;ERROR&lt;/c1&gt; level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131153Z" creationid="msdx" creationdate="20141116T131153Z">
+        <seg>默认情况下，Gradle 将标准输出重定向到&lt;c0&gt;QUIET&lt;/c0&gt;日志级别，把标准错误输出重写向到 &lt;c1&gt;ERROR&lt;/c1&gt; 级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By requiring special syntax for adding a property, Gradle can fail fast when an attempt is made to set a (predefined or extra) property but the property is misspelled or does not exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054756Z" creationid="msdx" creationdate="20141108T054756Z">
@@ -7298,6 +7306,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The project object provides a &lt;a2&gt;&lt;c3&gt;LoggingManager&lt;/c3&gt;&lt;/a2&gt;, which allows you to change the log levels that standard out or error are redirected to when your build script is evaluated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131251Z" creationid="msdx" creationdate="20141116T131251Z">
+        <seg>The project object provides a &lt;a2&gt;&lt;c3&gt;LoggingManager&lt;/c3&gt;&lt;/a2&gt;, which allows you to change the log levels that standard out or error are redirected to when your build script is evaluated.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The properties file in the user's home directory has precedence over property files in the project directories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T142433Z" creationid="msdx" creationdate="20141109T140928Z">
@@ -7710,6 +7726,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T160455Z" creationid="msdx" creationdate="20141105T160445Z">
         <seg>它也对要添加到收藏夹的命令提供了先去尝试的地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This behavior is configurable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131207Z" creationid="msdx" creationdate="20141116T131207Z">
+        <seg>这种行为是可配置的。</seg>
       </tuv>
     </tu>
     <tu>
