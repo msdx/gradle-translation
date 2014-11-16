@@ -302,6 +302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/logging/Logger.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T122541Z" creationid="msdx" creationdate="20141116T122541Z">
+        <seg>../javadoc/org/gradle/api/logging/Logger.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/tasks/StopExecutionException.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T021050Z" creationid="msdx" creationdate="20141111T021050Z">
@@ -4290,6 +4298,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 18.1. Using stdout to write log messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T122537Z" creationid="msdx" creationdate="20141116T122537Z">
+        <seg>示例18.1. 使用标准输出写日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -4790,6 +4806,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T035135Z" creationid="msdx" creationdate="20141101T035123Z">
         <seg>Gradle 通过提供可以如你所愿去组合的声明性的语言元素，将声明性构建推向下级。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle redirects anything written to standard output to it's logging system at the &lt;c0&gt;QUIET&lt;/c0&gt; log level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T122505Z" creationid="msdx" creationdate="20141116T122505Z">
+        <seg>Gradle 会把写到标准输出的所有内容重定向到它的日志系统的 &lt;c0&gt;QUIET&lt;/c0&gt; 级别中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10758,6 +10782,14 @@ task(copy, type: Copy) {</seg>
 }
 
 task(copy, type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'A message which is logged at QUIET level'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T122540Z" creationid="msdx" creationdate="20141116T122540Z">
+        <seg>println &lt;s0&gt;'A message which is logged at QUIET level'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
