@@ -5402,6 +5402,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here're all situations in which we fork a new daemon process:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152707Z" creationid="msdx" creationdate="20141117T152707Z">
+        <seg>以下是我们fork一个新的守护进程的所有情况：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hidden tasks show up in red.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T153711Z" creationid="msdx" creationdate="20141105T153630Z">
@@ -5508,8 +5516,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If the daemon process is currently busy running some job, a brand new daemon process will be started.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152634Z" creationid="msdx" creationdate="20141117T152634Z">
-        <seg>If the daemon process is currently busy running some job, a brand new daemon process will be started.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152753Z" creationid="msdx" creationdate="20141117T152634Z">
+        <seg>如果该守护进程当前正忙于运行一些作业，将启动一个全新的守护进程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6886,6 +6894,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T144021Z" creationid="msdx" creationdate="20141117T144021Z">
         <seg>敏捷的 up-to-date 检查：使用本地文件系统修改通知（例如，通过 jdk7 nio.2）预先执行 up-to-date 分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So even if there is some idle daemon waiting for build requests but you happen to run build with a different java home then a brand new daemon will be forked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152846Z" creationid="msdx" creationdate="20141117T152846Z">
+        <seg>So even if there is some idle daemon waiting for build requests but you happen to run build with a different java home then a brand new daemon will be forked.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8988,8 +9004,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>We fork a separate daemon process per java home.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152635Z" creationid="msdx" creationdate="20141117T152635Z">
-        <seg>We fork a separate daemon process per java home.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152850Z" creationid="msdx" creationdate="20141117T152635Z">
+        <seg>对每个java home，我们会fork一个单独的守护进程。</seg>
       </tuv>
     </tu>
     <tu>
