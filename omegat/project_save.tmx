@@ -4866,6 +4866,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example we will not fork a new daemon if a some system property has changed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T153120Z" creationid="msdx" creationdate="20141117T153120Z">
+        <seg>例如，如果某些系统属性已经更改，我们不会fork一个新的守护进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, &lt;a3&gt;dependency configurations&lt;/a3&gt; implement &lt;c4&gt;FileCollection&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T145249Z" creationid="msdx" creationdate="20141112T145249Z">
@@ -5422,6 +5430,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T154111Z" creationid="msdx" creationdate="20141105T154111Z">
         <seg>隐藏选择的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However if -Xmx memory setting change or some fundamental immutable system property changes (e.g. file.encoding) then new daemon will be forked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T153242Z" creationid="msdx" creationdate="20141117T153242Z">
+        <seg>然而，如果-Xmx 内存设置更改了，或一些基本的不变的系统属性更改了 （例如 file.encoding），那么将fork新的守护进程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6900,8 +6916,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>So even if there is some idle daemon waiting for build requests but you happen to run build with a different java home then a brand new daemon will be forked.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152846Z" creationid="msdx" creationdate="20141117T152846Z">
-        <seg>So even if there is some idle daemon waiting for build requests but you happen to run build with a different java home then a brand new daemon will be forked.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T153005Z" creationid="msdx" creationdate="20141117T152846Z">
+        <seg>所以即使有一些闲置的守护进程等待构建请求，但你碰巧通过不同的 java HOME 运行构建，那么一个全新的守护进程将会被fork。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8998,6 +9014,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T132801Z" creationid="msdx" creationdate="20141117T131823Z">
         <seg>我们准备了几个守护进程非常有用的用例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We fork a separate daemon process if the jvm arguments for the build are sufficiently different.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T153038Z" creationid="msdx" creationdate="20141117T153038Z">
+        <seg>如果用于构建的jvm的参数足够不同，我们会fork一个单独的守护进程。</seg>
       </tuv>
     </tu>
     <tu>
