@@ -5554,6 +5554,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you try using the daemon for your local builds it's going to be hard for you to go back to regular use of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T142229Z" creationid="msdx" creationdate="20141117T142229Z">
+        <seg>如果你尝试在你的本地构建中使用守护进程的话，它会变得让你很难回到正常的 Gradle 使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If your build script relies on optional properties the user might set for example in a gradle.properties file, you need to check for existence before you can access them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151857Z" creationid="msdx" creationdate="20141109T151840Z">
@@ -5630,6 +5638,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T071639Z" creationid="msdx" creationdate="20141114T071520Z">
         <seg>事实上，你会发现在 Gradle 中使用 Ant 任务比使用 Ant 的XML 格式更容易也更强大。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In general, snappy behavior of the build tool is always handy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T142044Z" creationid="msdx" creationdate="20141117T142044Z">
+        <seg>一般情况下，构建工具的敏捷行为总是可以派上用场。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7298,6 +7314,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Tooling API (see &lt;a0&gt;Chapter 62, &lt;i1&gt;Embedding Gradle&lt;/i1&gt;&lt;/a0&gt;) uses the daemon all the time, e.g. you cannot officially use the Tooling API without the daemon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T142652Z" creationid="msdx" creationdate="20141117T142441Z">
+        <seg>Tooling API (参见 &lt;a0&gt;第六十二章， &lt;i1&gt;嵌入 Gradle &lt;/i1&gt;&lt;/a0&gt;) 在整个过程当中都使用守护进程。如，你无法在没有守护进程时正式地使用 Tooling API。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The UI displays 4 tabs along the top and an output window along the bottom.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T150940Z" creationid="msdx" creationdate="20141105T150825Z">
@@ -8318,6 +8342,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044735Z" creationid="msdx" creationdate="20141108T044735Z">
         <seg>这意味着所有由该&lt;c2&gt;Script&lt;/c2&gt;接口声明的属性和方法在您的脚本中是可用的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that whenever you are using the STS Gradle plugin for Eclipse or the Gradle support in Intellij IDEA, you're already using the Gradle Daemon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T142452Z" creationid="msdx" creationdate="20141117T142452Z">
+        <seg>This means that whenever you are using the STS Gradle plugin for Eclipse or the Gradle support in Intellij IDEA, you're already using the Gradle Daemon.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10416,6 +10448,14 @@ sourceSets {</seg>
 sourceSets.all { ext.purpose = null }
 
 sourceSets {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>embedding.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T142230Z" creationid="msdx" creationdate="20141117T142230Z">
+        <seg>embedding.html</seg>
       </tuv>
     </tu>
     <tu>
