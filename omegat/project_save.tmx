@@ -3068,6 +3068,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At the moment daemon is coupled with particular version of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T153412Z" creationid="msdx" creationdate="20141117T153412Z">
+        <seg>在这一刻，守护进程会被加上 Gradle 的特定版本号。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because a Groovy project &lt;s0&gt;&lt;e1&gt;is&lt;/e1&gt;&lt;/s0&gt; a Java project, whatever you can do with a Java project, you can also do with a Groovy project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065956Z" creationid="msdx" creationdate="20141030T065956Z">
@@ -8518,6 +8526,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044735Z" creationid="msdx" creationdate="20141108T044735Z">
         <seg>这意味着所有由该&lt;c2&gt;Script&lt;/c2&gt;接口声明的属性和方法在您的脚本中是可用的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that even if some daemon is idle but you are running the build with a different version of Gradle, a new daemon will be started.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T153451Z" creationid="msdx" creationdate="20141117T153451Z">
+        <seg>这意味着即使一些守护进程处于空闲状态，但您正在运行的构建与 Gradle 不同版本，也将启动一个新的守护进程。</seg>
       </tuv>
     </tu>
     <tu>
