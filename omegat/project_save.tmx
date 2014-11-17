@@ -6946,6 +6946,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Subsequent invocations of the gradle command will reuse the daemon, avoiding the startup costs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T151722Z" creationid="msdx" creationdate="20141117T151722Z">
+        <seg>Gradle 命令的后续调用将重用该守护进程，以避免启动开销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Such a task might be nicer to configure than an Ant task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T123934Z" creationid="msdx" creationdate="20141111T123934Z">
@@ -7478,6 +7486,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160356Z" creationid="msdx" creationdate="20141113T160252Z">
         <seg>归档文件的名称中的基本名称部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The basic idea is that the gradle command forks a daemon process, which performs the actual build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T151625Z" creationid="msdx" creationdate="20141117T151625Z">
+        <seg>基本的思想是， gradle 命令会fork一个守护进程，用于执行实际的构建。</seg>
       </tuv>
     </tu>
     <tu>
