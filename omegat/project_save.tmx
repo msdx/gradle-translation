@@ -4842,6 +4842,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For exact details on when exactly new daemon process is forked read the dedicated section below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152309Z" creationid="msdx" creationdate="20141117T152013Z">
+        <seg>关于fork一个完全新的守护进程的具体细节，请阅读下面的专题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example if you run a build on a continuous integration server where you have no admin rights for the &lt;s3&gt;&lt;e4&gt;machine&lt;/e4&gt;&lt;/s3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T141856Z" creationid="msdx" creationdate="20141109T141543Z">
@@ -6894,6 +6902,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160933Z" creationid="msdx" creationdate="20141112T160904Z">
         <seg>你可以向&lt;c0&gt;files()&lt;/c0&gt;传入一些其他类型的对象：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sometimes we cannot use an existing daemon because it is busy or its java version or jvm arguments are different.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T151833Z" creationid="msdx" creationdate="20141117T151833Z">
+        <seg>有时我们不能使用现有的守护进程，是因为它正忙或其 java 版本或 jvm 参数不同。</seg>
       </tuv>
     </tu>
     <tu>
