@@ -5650,6 +5650,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have a problem with your build, try temporarily disabling the daemon (you can pass the command line switch &lt;c0&gt;--no-daemon&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141118T100309Z" creationid="msdx" creationdate="20141118T100309Z">
+        <seg>如果你有一个问题与您的生成，请尝试暂时禁用该守护进程 （您可以通过使用命令行开关&lt;c0&gt;— — 没有守护进程&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you run Gradle with the &lt;c1&gt;--recompile-scripts&lt;/c1&gt; option, the cached script is discarded and the script is compiled and stored in the cache.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T153746Z" creationid="msdx" creationdate="20141109T153623Z">
@@ -6978,6 +6986,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some ways of troubleshooting the Gradle daemon:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141118T100318Z" creationid="msdx" creationdate="20141118T100234Z">
+        <seg>以下是有关 Gradle 守护进程的故障排除的一些方面：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sometimes we cannot use an existing daemon because it is busy or its java version or jvm arguments are different.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T151833Z" creationid="msdx" creationdate="20141117T151833Z">
@@ -7910,6 +7926,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T141307Z" creationid="msdx" creationdate="20141114T141307Z">
         <seg>Ant 的第二层是其丰富的 Ant 任务和类型，如&lt;c0&gt;javac&lt;/c0&gt;、&lt;c1&gt;copy&lt;/c1&gt;或&lt;c2&gt;jar&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The section contains information on how to configure certain behavior of the daemon (including turning on the daemon by default) in a more 'persistent' way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141118T100149Z" creationid="msdx" creationdate="20141118T100149Z">
+        <seg>这一章节包含了有关如何以一种“持久化”的方式配置某些行为（包括在默认情况下打开守护进程）的信息。</seg>
       </tuv>
     </tu>
     <tu>
