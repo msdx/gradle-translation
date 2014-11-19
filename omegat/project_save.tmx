@@ -7842,6 +7842,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following properties can be used to configure the Gradle build environment:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153523Z" creationid="msdx" creationdate="20141119T153523Z">
+        <seg>下面的属性可以用于配置 Gradle 构建环境：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following table lists a few of the commonly used ones.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044124Z" creationid="msdx" creationdate="20141108T044124Z">
@@ -11030,6 +11038,22 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from &lt;c0&gt;gradle.properties&lt;/c0&gt; located in &lt;c1&gt;gradle user home&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153444Z" creationid="msdx" creationdate="20141119T153421Z">
+        <seg>位于&lt;c1&gt;gradle 用户主目录&lt;/c1&gt;的&lt;c0&gt;gradle.properties&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;c0&gt;gradle.properties&lt;/c0&gt; located in project build dir.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153441Z" creationid="msdx" creationdate="20141119T153324Z">
+        <seg>位于项目构建目录的&lt;c0&gt;gradle.properties&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from &lt;s0&gt;'resources'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T092538Z" creationid="msdx" creationdate="20141110T092538Z">
@@ -11154,6 +11178,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130953Z" creationid="msdx" creationdate="20141113T130953Z">
         <seg>from copyTaskWithPatterns.outputs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from system properties, e.g. when &lt;c0&gt;-Dsome.property&lt;/c0&gt; is used in the command line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153508Z" creationid="msdx" creationdate="20141119T153436Z">
+        <seg>系统属性，例如当在命令行中使用 &lt;c0&gt;-Dsome.property&lt;/c0&gt; 时。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11756,6 +11788,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160253Z" creationid="msdx" creationdate="20141113T160253Z">
         <seg>null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.gradle.daemon</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153525Z" creationid="msdx" creationdate="20141119T153525Z">
+        <seg>org.gradle.daemon</seg>
       </tuv>
     </tu>
     <tu>
