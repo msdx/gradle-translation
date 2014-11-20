@@ -5026,6 +5026,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For local developer builds this is our favorite property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153652Z" creationid="msdx" creationdate="20141119T153652Z">
+        <seg>对于本地开发者的构建而言，这是我们最喜欢的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more advanced uses, you can define a task dependency using a closure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T122649Z" creationid="msdx" creationdate="20141110T122649Z">
@@ -7090,6 +7098,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specifies the java home for the Gradle build process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T051201Z" creationid="msdx" creationdate="20141120T051201Z">
+        <seg>Specifies the java home for the Gradle build process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Stack Trace Output</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T160930Z" creationid="msdx" creationdate="20141105T160930Z">
@@ -7774,6 +7790,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155209Z" creationid="msdx" creationdate="20141113T155209Z">
         <seg>归档的默认名称可以通过项目属性 &lt;c3&gt;archivesBaseName&lt;/c3&gt; 来更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The developer environment is optimized for speed and feedback so we nearly always run Gradle jobs with the daemon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153853Z" creationid="msdx" creationdate="20141119T153753Z">
+        <seg>开发人员的环境在速度和反馈上会优化，所以我们几乎总是使用守护进程运行 Gradle 作业。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9186,6 +9210,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We don't run CI builds with the daemon (i.e. a long running process) as the CI environment is optimized for consistency and reliability.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T051158Z" creationid="msdx" creationdate="20141119T153839Z">
+        <seg>由于 CI 环境在一致性和可靠性上的优化，我们不通过守护进程运行 CI 构建（即长时间运行进程） 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We fork a separate daemon process if the jvm arguments for the build are sufficiently different.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T153038Z" creationid="msdx" creationdate="20141117T153038Z">
@@ -9326,6 +9358,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T014703Z" creationid="msdx" creationdate="20141111T014655Z">
         <seg>当&lt;c0&gt;--continue&lt;/c0&gt;参数运行时，可能会是&lt;c2&gt;A&lt;/c2&gt;执行失败后&lt;c1&gt;B&lt;/c1&gt;执行了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When set to &lt;c0&gt;true&lt;/c0&gt; the Gradle daemon is to run the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153604Z" creationid="msdx" creationdate="20141119T153604Z">
+        <seg>当设置为&lt;c0&gt;true&lt;/c0&gt; 时，Gradle 守护进程会运行构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11796,6 +11836,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153525Z" creationid="msdx" creationdate="20141119T153525Z">
         <seg>org.gradle.daemon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.gradle.java.home</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T051200Z" creationid="msdx" creationdate="20141120T051200Z">
+        <seg>org.gradle.java.home</seg>
       </tuv>
     </tu>
     <tu>
