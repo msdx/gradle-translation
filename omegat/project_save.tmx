@@ -1278,6 +1278,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>20.1.1. Forked java processes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T053834Z" creationid="msdx" creationdate="20141120T053834Z">
+        <seg>20.1.1. Forked java 进程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>20.1. Configuring the build environment via gradle.properties</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T031610Z" creationid="msdx" creationdate="20141119T031610Z">
@@ -6282,6 +6290,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Many settings (like the java version and maximum heap size) can only be specified when launching a new JVM for the build process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T053837Z" creationid="msdx" creationdate="20141120T053837Z">
+        <seg>Many settings (like the java version and maximum heap size) can only be specified when launching a new JVM for the build process.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Meaning</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T103048Z" creationid="msdx" creationdate="20141116T103048Z">
@@ -6540,8 +6556,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Only relevant projects are configured which results in faster builds for large multi-projects.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T053036Z" creationid="msdx" creationdate="20141120T053036Z">
-        <seg>使得在大型多项目中更快地构建。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T053745Z" creationid="msdx" creationdate="20141120T053036Z">
+        <seg>只适用于相关的项目被配置为在大型多项目中更快地构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9378,6 +9394,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When configured, Gradle will run in incubating parallel mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T053823Z" creationid="msdx" creationdate="20141120T053823Z">
+        <seg>如果配置了这一个，Gradle 将在孵化的并行模式下运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When creating the simple task, you have to set the &lt;c1&gt;overwrite&lt;/c1&gt; property to true.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T020224Z" creationid="msdx" creationdate="20141111T020147Z">
@@ -11932,6 +11956,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T051940Z" creationid="msdx" creationdate="20141120T051940Z">
         <seg>org.gradle.jvmargs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.gradle.parallel</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T053747Z" creationid="msdx" creationdate="20141120T053747Z">
+        <seg>org.gradle.parallel</seg>
       </tuv>
     </tu>
     <tu>
