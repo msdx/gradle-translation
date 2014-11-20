@@ -8778,6 +8778,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means that Gradle must launch a separate JVM process to execute the build after parsing the various &lt;c0&gt;gradle.properties&lt;/c0&gt; files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T081859Z" creationid="msdx" creationdate="20141120T081853Z">
+        <seg>这意味着 Gradle 在分析了各种&lt;c0&gt;gradle.properties&lt;/c0&gt;文件之后，必须启动一个单独的 JVM 进程，以执行构建操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means that all of the properties and methods declared by the &lt;c2&gt;Script&lt;/c2&gt; interface are available in your script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044735Z" creationid="msdx" creationdate="20141108T044735Z">
@@ -9446,6 +9454,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T014703Z" creationid="msdx" creationdate="20141111T014655Z">
         <seg>当&lt;c0&gt;--continue&lt;/c0&gt;参数运行时，可能会是&lt;c2&gt;A&lt;/c2&gt;执行失败后&lt;c1&gt;B&lt;/c1&gt;执行了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When running with the daemon, a JVM with the correct parameters is started once and reused for each daemon build execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T081855Z" creationid="msdx" creationdate="20141120T081855Z">
+        <seg>When running with the daemon, a JVM with the correct parameters is started once and reused for each daemon build execution.</seg>
       </tuv>
     </tu>
     <tu>
