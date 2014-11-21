@@ -4706,6 +4706,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 20.1. Configuring an HTTP proxy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141740Z" creationid="msdx" creationdate="20141121T141740Z">
+        <seg>示例 20.1. 配置 HTTP 代理服务器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 20.2. Configuring an HTTPS proxy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141803Z" creationid="msdx" creationdate="20141121T141803Z">
+        <seg>示例 20.2. 配置 HTTPS 代理服务器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -8274,6 +8290,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are separate settings for HTTPS.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141755Z" creationid="msdx" creationdate="20141121T141755Z">
+        <seg>对于 HTTPS 有单独的设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are several ways to get an Ant reference:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062703Z" creationid="msdx" creationdate="20141116T062703Z">
@@ -9342,6 +9366,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T132801Z" creationid="msdx" creationdate="20141117T131823Z">
         <seg>我们准备了几个守护进程非常有用的用例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We could not find a good overview for all possible proxy settings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141809Z" creationid="msdx" creationdate="20141121T141809Z">
+        <seg>We could not find a good overview for all possible proxy settings.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11484,10 +11516,26 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://download.oracle.com/javase/6/docs/technotes/guides/net/properties.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141807Z" creationid="msdx" creationdate="20141121T141807Z">
+        <seg>http://download.oracle.com/javase/6/docs/technotes/guides/net/properties.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://groovy.codehaus.org/Using+Ant+from+Groovy</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011230Z" creationid="msdx" creationdate="20141116T011230Z">
         <seg>http://groovy.codehaus.org/Using+Ant+from+Groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://svn.apache.org/viewvc/ant/core/trunk/src/main/org/apache/tools/ant/util/ProxySetup.java?view=markup&amp;pathrev=556977</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141806Z" creationid="msdx" creationdate="20141121T141806Z">
+        <seg>http://svn.apache.org/viewvc/ant/core/trunk/src/main/org/apache/tools/ant/util/ProxySetup.java?view=markup&amp;pathrev=556977</seg>
       </tuv>
     </tu>
     <tu>
@@ -12936,6 +12984,38 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160740Z" creationid="msdx" creationdate="20141112T160740Z">
         <seg>srcDir = file(&lt;s3&gt;'src2'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>systemProp.http.proxyHost=www.somehost.org
+systemProp.http.proxyPort=8080
+systemProp.http.proxyUser=userid
+systemProp.http.proxyPassword=password
+systemProp.http.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141741Z" creationid="msdx" creationdate="20141121T141741Z">
+        <seg>systemProp.http.proxyHost=www.somehost.org
+systemProp.http.proxyPort=8080
+systemProp.http.proxyUser=userid
+systemProp.http.proxyPassword=password
+systemProp.http.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>systemProp.https.proxyHost=www.somehost.org
+systemProp.https.proxyPort=8080
+systemProp.https.proxyUser=userid
+systemProp.https.proxyPassword=password
+systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141804Z" creationid="msdx" creationdate="20141121T141804Z">
+        <seg>systemProp.https.proxyHost=www.somehost.org
+systemProp.https.proxyPort=8080
+systemProp.https.proxyUser=userid
+systemProp.https.proxyPassword=password
+systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
       </tuv>
     </tu>
     <tu>
