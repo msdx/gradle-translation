@@ -9378,6 +9378,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When Gradle is executed without the daemon, then a new JVM must be launched for every build execution, unless the JVM launched by the Gradle start script happens to have the same parameters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T140737Z" creationid="msdx" creationdate="20141121T140737Z">
+        <seg>当不通过守护进程执行 Gradle 时，在每次构建执行中都必须启动一个新的 JVM ，除非 JVM 是由 Gradle 启动脚本启动的，并且恰好具有相同的参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When an argument resolves to a directory, everything under that directory (but not the directory itself) is recursively copied into the destination directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130444Z" creationid="msdx" creationdate="20141113T124522Z">
