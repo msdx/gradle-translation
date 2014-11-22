@@ -78,6 +78,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:apply(java.util.Map)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T161837Z" creationid="msdx" creationdate="20141122T161837Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:apply(java.util.Map)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:copy(groovy.lang.Closure)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131125Z" creationid="msdx" creationdate="20141113T131125Z">
@@ -370,6 +378,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131052Z" creationid="msdx" creationdate="20141116T131052Z">
         <seg>../javadoc/org/gradle/api/logging/LoggingManager.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/plugins/JavaPlugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162033Z" creationid="msdx" creationdate="20141122T162033Z">
+        <seg>../javadoc/org/gradle/api/plugins/JavaPlugin.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -1314,6 +1330,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141218Z" creationid="msdx" creationdate="20141121T141218Z">
         <seg>20.2. 通过代理访问网站</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>21.1. Applying plugins</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T161836Z" creationid="msdx" creationdate="20141122T161836Z">
+        <seg>21.1. 应用插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -4754,6 +4778,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 21.1. Applying a plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162030Z" creationid="msdx" creationdate="20141122T162030Z">
+        <seg>示例 21.1. 应用插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -6018,6 +6050,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this chapter we will discuss how to use plugins and the terminology and concepts surrounding plugins.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T161831Z" creationid="msdx" creationdate="20141122T161831Z">
+        <seg>在这一章中，我们将讨论如何使用插件以及术语和插件相关的概念。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this example, an &lt;c0&gt;ext&lt;/c0&gt; block adds two extra properties to the &lt;c1&gt;project&lt;/c1&gt; object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T053941Z" creationid="msdx" creationdate="20141108T051409Z">
@@ -6940,8 +6980,16 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Plugins add new tasks (e.g. &lt;a2&gt;&lt;c3&gt;JavaCompile&lt;/c3&gt;&lt;/a2&gt;), domain objects (e.g. &lt;a4&gt;&lt;c5&gt;SourceSet&lt;/c5&gt;&lt;/a4&gt;), conventions (e.g. main Java source is located at &lt;c6&gt;src/main/java&lt;/c6&gt;) as well as extending core objects and objects from other plugins.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T161411Z" creationid="msdx" creationdate="20141122T161411Z">
-        <seg>Plugins add new tasks (e.g. &lt;a2&gt;&lt;c3&gt;JavaCompile&lt;/c3&gt;&lt;/a2&gt;), domain objects (e.g. &lt;a4&gt;&lt;c5&gt;SourceSet&lt;/c5&gt;&lt;/a4&gt;), conventions (e.g. main Java source is located at &lt;c6&gt;src/main/java&lt;/c6&gt;) as well as extending core objects and objects from other plugins.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T161737Z" creationid="msdx" creationdate="20141122T161411Z">
+        <seg>插件添加了新任务 （例如&lt;a2&gt;&lt;c3&gt;JavaCompile&lt;/c3&gt;&lt;/a2&gt;），域对象 （例如&lt;a4&gt;&lt;c5&gt;SourceSet&lt;/c5&gt;&lt;/a4&gt;），约定（例如主要的 Java 源代码是位于&lt;c6&gt;src/main/java&lt;/c6&gt;），以及扩展的核心对象和其他插件的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins are said to be &lt;s0&gt;&lt;e1&gt;applied&lt;/e1&gt;&lt;/s0&gt;, which is done via the &lt;a2&gt;&lt;c3&gt;Project.apply()&lt;/c3&gt;&lt;/a2&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162024Z" creationid="msdx" creationdate="20141122T161842Z">
+        <seg>插件都认为是被&lt;s0&gt;&lt;e1&gt;应用&lt;/e1&gt;&lt;/s0&gt;，通过&lt;a2&gt;&lt;c3&gt;Project.apply()&lt;/c3&gt;&lt;/a2&gt;方法来完成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10666,6 +10714,14 @@ repositories {</seg>
 apply plugin: &lt;s1&gt;'groovy'&lt;/s1&gt;
 
 repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162031Z" creationid="msdx" creationdate="20141122T162031Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
