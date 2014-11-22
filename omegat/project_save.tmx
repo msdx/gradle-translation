@@ -4794,6 +4794,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 21.3. Applying a plugin by type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162533Z" creationid="msdx" creationdate="20141122T162533Z">
+        <seg>示例 21.3. 通过类型应用插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -5774,6 +5782,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T063720Z" creationid="msdx" creationdate="20141111T063720Z">
         <seg>如果新的快照和前一次的快照一样，Gradle 会假定这些输出是最新状态的并跳过该任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the plugin has previously been applied, any further applications will have no effect.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162758Z" creationid="msdx" creationdate="20141122T162758Z">
+        <seg>如果以前已应用该插件，任何进一步的应用程序将没有任何效果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7610,6 +7626,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thanks to Gradle's default imports (see &lt;a0&gt;Appendix E, &lt;i1&gt;Existing IDE Support and how to cope without it&lt;/i1&gt;&lt;/a0&gt;) you could also write:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162523Z" creationid="msdx" creationdate="20141122T162523Z">
+        <seg>由于 Gradle 的默认导入 （见&lt;a0&gt;附录 E，&lt;i1&gt;现有的 IDE 支持和如何应对不支持的情况&lt;/i1&gt;&lt;/a0&gt;），您还可以这样写：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That is, a plugin can be applied multiple times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162732Z" creationid="msdx" creationdate="20141122T162732Z">
+        <seg>也就是说，一个插件可以被应用多次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That is, only &lt;c3&gt;systemProp.&lt;/c3&gt; in the root project's &lt;c4&gt;gradle.properties&lt;/c4&gt; file will be set as system properties.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T150946Z" creationid="msdx" creationdate="20141109T150946Z">
@@ -7918,6 +7950,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160346Z" creationid="msdx" creationdate="20141113T160311Z">
         <seg>归档文件的名称中的附录部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The application of plugins is &lt;s0&gt;&lt;e1&gt;idempotent&lt;/e1&gt;&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162706Z" creationid="msdx" creationdate="20141122T162706Z">
+        <seg>插件程序是&lt;s0&gt;&lt;e1&gt;幂等的&lt;/e1&gt;&lt;/s0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10820,6 +10860,14 @@ task myZip(type: Zip) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T094212Z" creationid="msdx" creationdate="20141030T094212Z">
         <seg>apply plugin: &lt;s0&gt;'jetty'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: JavaPlugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162533Z" creationid="msdx" creationdate="20141122T162533Z">
+        <seg>apply plugin: JavaPlugin</seg>
       </tuv>
     </tu>
     <tu>
