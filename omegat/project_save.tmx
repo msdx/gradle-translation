@@ -4786,6 +4786,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 21.2. Applying a plugin by type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162339Z" creationid="msdx" creationdate="20141122T162339Z">
+        <seg>示例 21.2. 通过类型应用插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -6010,6 +6018,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the above case, we are using the short name ‘&lt;c0&gt;java&lt;/c0&gt;’ to apply the &lt;a1&gt;&lt;c2&gt;JavaPlugin&lt;/c2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162208Z" creationid="msdx" creationdate="20141122T162208Z">
+        <seg>在上述例子中，我们使用短名称&lt;c0&gt;java&lt;/c0&gt;去应用&lt;a1&gt;&lt;c2&gt;JavaPlugin&lt;/c2&gt;&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the examples above, it is still possible to execute &lt;c0&gt;taskY&lt;/c0&gt; without causing &lt;c1&gt;taskX&lt;/c1&gt; to run:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T013145Z" creationid="msdx" creationdate="20141111T013145Z">
@@ -6982,6 +6998,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T161737Z" creationid="msdx" creationdate="20141122T161411Z">
         <seg>插件添加了新任务 （例如&lt;a2&gt;&lt;c3&gt;JavaCompile&lt;/c3&gt;&lt;/a2&gt;），域对象 （例如&lt;a4&gt;&lt;c5&gt;SourceSet&lt;/c5&gt;&lt;/a4&gt;），约定（例如主要的 Java 源代码是位于&lt;c6&gt;src/main/java&lt;/c6&gt;），以及扩展的核心对象和其他插件的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins advertise a short name for themselves.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162147Z" creationid="msdx" creationdate="20141122T162147Z">
+        <seg>插件都有表示它们自己的一个短名称。.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9530,6 +9554,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We could also have used the following syntax:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162227Z" creationid="msdx" creationdate="20141122T162227Z">
+        <seg>我们还可以使用下面的语法：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We could not find a good overview for all possible proxy settings.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T142319Z" creationid="msdx" creationdate="20141121T141809Z">
@@ -10788,6 +10820,14 @@ task myZip(type: Zip) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T094212Z" creationid="msdx" creationdate="20141030T094212Z">
         <seg>apply plugin: &lt;s0&gt;'jetty'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: org.gradle.api.plugins.JavaPlugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162340Z" creationid="msdx" creationdate="20141122T162340Z">
+        <seg>apply plugin: org.gradle.api.plugins.JavaPlugin</seg>
       </tuv>
     </tu>
     <tu>
