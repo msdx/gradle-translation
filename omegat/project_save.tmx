@@ -2606,6 +2606,16 @@ build/resources/main</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q show
+build/output/classes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154213Z" creationid="msdx" creationdate="20141123T154213Z">
+        <seg>&gt; gradle -q show
+build/output/classes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q taskX
 lib1
 lib2
@@ -4882,6 +4892,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151128Z" creationid="msdx" creationdate="20141123T151128Z">
         <seg>示例 21.4. 通过插件添加任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 21.5. Changing plugin defaults</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154207Z" creationid="msdx" creationdate="20141123T154207Z">
+        <seg>示例 21.5. 更改插件的默认设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -9182,6 +9200,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is an example of convention-over-configuration via a &lt;s3&gt;&lt;e4&gt;reasonable default&lt;/e4&gt;&lt;/s3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154141Z" creationid="msdx" creationdate="20141123T154141Z">
+        <seg>这是通过一个&lt;s3&gt;&lt;e4&gt;合理的默认&lt;/e4&gt;&lt;/s3&gt;的约定优于配置的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is called when the contents of the collection are queried, and its return value is converted to a set of &lt;c2&gt;File&lt;/c2&gt; instances.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160901Z" creationid="msdx" creationdate="20141112T160434Z">
@@ -9770,6 +9796,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T132801Z" creationid="msdx" creationdate="20141117T131823Z">
         <seg>我们准备了几个守护进程非常有用的用例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We can change this property simply by giving it a new value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154156Z" creationid="msdx" creationdate="20141123T154156Z">
+        <seg>我们可以简单地通过给它一个新的值来更改此属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10982,6 +11016,22 @@ repositories {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162031Z" creationid="msdx" creationdate="20141122T162031Z">
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+compileJava.destinationDir = file(&lt;s1&gt;"$buildDir/output/classes"&lt;/s1&gt;)
+
+task show &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154211Z" creationid="msdx" creationdate="20141123T154211Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+compileJava.destinationDir = file(&lt;s1&gt;"$buildDir/output/classes"&lt;/s1&gt;)
+
+task show &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -13226,6 +13276,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151130Z" creationid="msdx" creationdate="20141123T151130Z">
         <seg>println relativePath(compileJava.destinationDir)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println relativePath(compileJava.destinationDir)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154212Z" creationid="msdx" creationdate="20141123T154212Z">
+        <seg>println relativePath(compileJava.destinationDir)
+}</seg>
       </tuv>
     </tu>
     <tu>
