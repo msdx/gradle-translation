@@ -8014,6 +8014,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java plugin defaults this property to point to &lt;c2&gt;build/classes/main&lt;/c2&gt; in the project directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T153850Z" creationid="msdx" creationdate="20141123T153850Z">
+        <seg>Java 插件默认此属性指向项目目录中的&lt;c2&gt;build/classes/main&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Java plugin has added a &lt;c0&gt;compileJava&lt;/c0&gt; task and a &lt;c1&gt;processResources&lt;/c1&gt; task to the project and configured the &lt;c2&gt;destinationDir&lt;/c2&gt; property of both of these tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151300Z" creationid="msdx" creationdate="20141123T151143Z">
@@ -9834,6 +9842,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044315Z" creationid="msdx" creationdate="20141108T040249Z">
         <seg>我们之前说在 Gradle 中构建脚本定义了一个项目（project）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We saw in the example above that the Java plugins adds a task named &lt;c0&gt;compileJava&lt;/c0&gt; that has a property named &lt;c1&gt;destinationDir&lt;/c1&gt; (that configures where the compiled Java source should be placed).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T153755Z" creationid="msdx" creationdate="20141123T153755Z">
+        <seg>在上面的示例中我们看到，Java 插件添加了一个任务，名字为&lt;c0&gt;compileJava&lt;/c0&gt;  ，有一个名为&lt;c1&gt;destinationDir&lt;/c1&gt; 的属性（即配置编译的 Java 代码存放的地方）。</seg>
       </tuv>
     </tu>
     <tu>
