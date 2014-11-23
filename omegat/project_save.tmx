@@ -2586,6 +2586,18 @@ Pinging: Server1</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q show
+build/classes/main
+build/resources/main</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151139Z" creationid="msdx" creationdate="20141123T151139Z">
+        <seg>&gt; gradle -q show
+build/classes/main
+build/resources/main</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q taskX
 lib1
 lib2
@@ -2974,8 +2986,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Add new properties and methods to existing type via extensions.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T150958Z" creationid="msdx" creationdate="20141123T150958Z">
-        <seg>Add new properties and methods to existing type via extensions.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151114Z" creationid="msdx" creationdate="20141123T150958Z">
+        <seg>通过扩展对现有类型添加新的属性和方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4858,6 +4870,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 21.4. Tasks added by a plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151128Z" creationid="msdx" creationdate="20141123T151128Z">
+        <seg>示例 21.4. 通过插件添加任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -6450,6 +6470,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's check this out:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151120Z" creationid="msdx" creationdate="20141123T151120Z">
+        <seg>让我们来看看：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's have a look at an example.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060230Z" creationid="msdx" creationdate="20141111T060230Z">
@@ -6990,6 +7018,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T050744Z" creationid="msdx" creationdate="20141108T050740Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q printProperties&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q show&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151139Z" creationid="msdx" creationdate="20141123T151139Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q show&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -7950,6 +7986,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145838Z" creationid="msdx" creationdate="20141113T145838Z">
         <seg>Java 插件对归档任务添加了一些默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java plugin has added a &lt;c0&gt;compileJava&lt;/c0&gt; task and a &lt;c1&gt;processResources&lt;/c1&gt; task to the project and configured the &lt;c2&gt;destinationDir&lt;/c2&gt; property of both of these tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151143Z" creationid="msdx" creationdate="20141123T151143Z">
+        <seg>The Java plugin has added a &lt;c0&gt;compileJava&lt;/c0&gt; task and a &lt;c1&gt;processResources&lt;/c1&gt; task to the project and configured the &lt;c2&gt;destinationDir&lt;/c2&gt; property of both of these tasks.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10904,6 +10948,18 @@ repositories {</seg>
       <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
 
+task show &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151129Z" creationid="msdx" creationdate="20141123T151129Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+task show &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
 task zip(type: Zip) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145755Z" creationid="msdx" creationdate="20141113T145755Z">
@@ -13121,6 +13177,24 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152810Z" creationid="msdx" creationdate="20141109T152810Z">
         <seg>println pos.endIndex
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println relativePath(compileJava.destinationDir)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151130Z" creationid="msdx" creationdate="20141123T151130Z">
+        <seg>println relativePath(compileJava.destinationDir)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println relativePath(processResources.destinationDir)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151130Z" creationid="msdx" creationdate="20141123T151130Z">
+        <seg>println relativePath(processResources.destinationDir)
 }</seg>
       </tuv>
     </tu>
