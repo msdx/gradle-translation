@@ -8042,8 +8042,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>The Java plugin adds the concept of &lt;s0&gt;&lt;e1&gt;source sets&lt;/e1&gt;&lt;/s0&gt; (see &lt;a2&gt;&lt;c3&gt;SourceSet&lt;/c3&gt;&lt;/a2&gt;) to describe the aspects of a set of source, one aspect being where the class files should be written to when it is compiled.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154319Z" creationid="msdx" creationdate="20141123T154319Z">
-        <seg>The Java plugin adds the concept of &lt;s0&gt;&lt;e1&gt;source sets&lt;/e1&gt;&lt;/s0&gt; (see &lt;a2&gt;&lt;c3&gt;SourceSet&lt;/c3&gt;&lt;/a2&gt;) to describe the aspects of a set of source, one aspect being where the class files should be written to when it is compiled.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T073624Z" creationid="msdx" creationdate="20141123T154319Z">
+        <seg>Java 插件添加了&lt;s0&gt;&lt;e1&gt; source sets&lt;/e1&gt;&lt;/s0&gt; 的概念 （见&lt;a2&gt;&lt;c3&gt;SourceSet&lt;/c3&gt;&lt;/a2&gt;） 来描述的源文件集的各个方面，其中一个方面是在编译的时候这些类文件应该被写到哪个地方。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8060,6 +8060,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151300Z" creationid="msdx" creationdate="20141123T151143Z">
         <seg>Java 插件已经向项目添加了 &lt;c0&gt;compileJava&lt;/c0&gt;任务和&lt;c1&gt;processResources&lt;/c1&gt;任务，并且配置了这两个任务的&lt;c2&gt;destinationDir&lt;/c2&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java plugin maps the &lt;c4&gt;destinationDir&lt;/c4&gt; property of the &lt;c5&gt;compileJava&lt;/c5&gt; task to this aspect of the source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T073834Z" creationid="msdx" creationdate="20141124T073712Z">
+        <seg>Java 插件将&lt;c5&gt;compileJava&lt;/c5&gt;任务的&lt;c4&gt;destinationDir&lt;/c4&gt;属性映射到源文件集的这一个方面。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9820,6 +9828,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154156Z" creationid="msdx" creationdate="20141123T154156Z">
         <seg>我们可以简单地通过给它一个新的值来更改此属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We can change where the class files are written via the source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T073757Z" creationid="msdx" creationdate="20141124T073757Z">
+        <seg>我们可以通过source set 修改写入类文件的位置。</seg>
       </tuv>
     </tu>
     <tu>
