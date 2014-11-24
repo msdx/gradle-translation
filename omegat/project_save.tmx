@@ -3034,6 +3034,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Added a new domain object type: &lt;a0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T074017Z" creationid="msdx" creationdate="20141124T074017Z">
+        <seg>添加了一个新的域对象类型： &lt;a0&gt; &lt;c1&gt;SourceSet&lt;/c1&gt; &lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, a property named &lt;c2&gt;purpose&lt;/c2&gt; is added to each source set by setting &lt;c3&gt;ext.purpose&lt;/c3&gt; to &lt;c4&gt;null&lt;/c4&gt; (&lt;c5&gt;null&lt;/c5&gt; is a permissible value).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054144Z" creationid="msdx" creationdate="20141108T054144Z">
@@ -3758,6 +3766,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163403Z" creationid="msdx" creationdate="20141109T163403Z">
         <seg>使用 DAG 配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configured a &lt;c0&gt;main&lt;/c0&gt; source set with default (i.e. conventional) values for properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T074134Z" creationid="msdx" creationdate="20141124T074134Z">
+        <seg>通过属性的默认（即常规）配置了 &lt;c0&gt;main&lt;/c0&gt; 源码集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4900,6 +4916,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154207Z" creationid="msdx" creationdate="20141123T154207Z">
         <seg>示例 21.5. 更改插件的默认设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 21.6. Plugin convention object</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T073952Z" creationid="msdx" creationdate="20141124T073952Z">
+        <seg>示例 21.6. 插件中的约定对象</seg>
       </tuv>
     </tu>
     <tu>
@@ -6188,6 +6212,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162208Z" creationid="msdx" creationdate="20141122T162208Z">
         <seg>在上述例子中，我们使用短名称&lt;c0&gt;java&lt;/c0&gt;去应用&lt;a1&gt;&lt;c2&gt;JavaPlugin&lt;/c2&gt;&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the example above, we applied the Java plugin which, among other things, did the following:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T074010Z" creationid="msdx" creationdate="20141124T074010Z">
+        <seg>在上面的示例中，我们应用 Java 插件，除其他外，还做了下列操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -11062,6 +11094,22 @@ task show &lt;&lt; {</seg>
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
 
 compileJava.destinationDir = file(&lt;s1&gt;"$buildDir/output/classes"&lt;/s1&gt;)
+
+task show &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+sourceSets.main.output.classesDir = file(&lt;s1&gt;"$buildDir/output/classes"&lt;/s1&gt;)
+
+task show &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T073954Z" creationid="msdx" creationdate="20141124T073954Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+sourceSets.main.output.classesDir = file(&lt;s1&gt;"$buildDir/output/classes"&lt;/s1&gt;)
 
 task show &lt;&lt; {</seg>
       </tuv>
