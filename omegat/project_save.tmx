@@ -3828,8 +3828,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Consider the case where another task is to consume the classes files.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T093931Z" creationid="msdx" creationdate="20141124T093931Z">
-        <seg>考虑一下另一种让类文件消失的任务的情况。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T094244Z" creationid="msdx" creationdate="20141124T093931Z">
+        <seg>考虑一下另一种consume类文件的任务的情况。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6036,6 +6036,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T143029Z" creationid="msdx" creationdate="20141112T143029Z">
         <seg>如果这个路径是一个绝对路径，它会用于构构一个&lt;c5&gt;File&lt;/c5&gt;实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If this task is configured to use the value from &lt;c0&gt;sourceSets.main.output.classesDir&lt;/c0&gt;, then changing it in this location will update both the &lt;c1&gt;compileJava&lt;/c1&gt; task and this other consumer task whenever it is changed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T094217Z" creationid="msdx" creationdate="20141124T094217Z">
+        <seg>如果这个任务使用&lt;c0&gt;sourceSets.main.output.classesDir&lt;/c0&gt;的值来配置，那么修改了这个位置的值，无论它是什么时候被修改，将同时更新&lt;c1&gt;compileJava&lt;/c1&gt;任务和这一个consumer任务。。</seg>
       </tuv>
     </tu>
     <tu>
