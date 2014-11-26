@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>-</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120903Z" creationid="msdx" creationdate="20141126T120903Z">
+        <seg>-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Project.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T040006Z" creationid="msdx" creationdate="20141108T040006Z">
@@ -1374,6 +1382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>22.1. Language plugins</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120655Z" creationid="msdx" creationdate="20141126T120655Z">
+        <seg>22.1. 语言插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162018Z" creationid="msdx" creationdate="20141109T162018Z">
@@ -1786,6 +1802,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T104046Z" creationid="msdx" creationdate="20141116T104046Z">
         <seg>&lt;c0&gt;-s&lt;/c0&gt; or &lt;c1&gt;--stacktrace&lt;/c1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;java&lt;/c0&gt;, &lt;c1&gt;groovy-base&lt;/c1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T121042Z" creationid="msdx" creationdate="20141126T121042Z">
+        <seg>&lt;c0&gt;java&lt;/c0&gt;, &lt;c1&gt;groovy-base&lt;/c1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3058,6 +3082,22 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adds Java compilation, testing and bundling capabilities to a project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120948Z" creationid="msdx" creationdate="20141126T120948Z">
+        <seg>向一个项目添加 Java 编译、 测试和捆绑的能力。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds support for building Groovy projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T121056Z" creationid="msdx" creationdate="20141126T121056Z">
+        <seg>添加构建 Groovy 项目的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Again, this method accepts any of the types supported by the &lt;a0&gt;files()&lt;/a0&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123615Z" creationid="msdx" creationdate="20141113T123615Z">
@@ -3294,6 +3334,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T052427Z" creationid="msdx" creationdate="20141120T052427Z">
         <seg>目前的内存上的默认设置很大方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Automatically applies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120846Z" creationid="msdx" creationdate="20141126T120846Z">
+        <seg>自动应用</seg>
       </tuv>
     </tu>
     <tu>
@@ -6560,6 +6608,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It serves as the basis for many of the other Gradle plugins.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T121027Z" creationid="msdx" creationdate="20141126T121027Z">
+        <seg>它是很多其他 Gradle 插件的基础服务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It works the same way as the task with some major limitations though.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131524Z" creationid="msdx" creationdate="20141113T131524Z">
@@ -7312,6 +7368,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plugin Id</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120830Z" creationid="msdx" creationdate="20141126T120759Z">
+        <seg>插件 Id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plugins add new tasks (e.g. &lt;a2&gt;&lt;c3&gt;JavaCompile&lt;/c3&gt;&lt;/a2&gt;), domain objects (e.g. &lt;a4&gt;&lt;c5&gt;SourceSet&lt;/c5&gt;&lt;/a4&gt;), conventions (e.g. main Java source is located at &lt;c6&gt;src/main/java&lt;/c6&gt;) as well as extending core objects and objects from other plugins.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T161737Z" creationid="msdx" creationdate="20141122T161411Z">
@@ -7556,6 +7620,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141159Z" creationid="msdx" creationdate="20141121T141159Z">
         <seg>更多详细信息，请参阅&lt;a2&gt;第十九章， &lt;i3&gt;Gradle 守护进程&lt;/i3&gt;&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See also &lt;a0&gt;Chapter 7, &lt;i1&gt;Java Quickstart&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T121041Z" creationid="msdx" creationdate="20141126T121041Z">
+        <seg>另请参阅&lt;a0&gt;第 7 章， &lt;i1&gt;Java 快速入门&lt;/i1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7844,6 +7916,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T071031Z" creationid="msdx" creationdate="20141116T071031Z">
         <seg>表 18.3. 栈跟踪的命令行选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 22.1. Language plugins</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120756Z" creationid="msdx" creationdate="20141126T120756Z">
+        <seg>表 22.1. 语言插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -8840,6 +8920,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are a number of plugins included in the Gradle distribution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120628Z" creationid="msdx" creationdate="20141126T120628Z">
+        <seg>Gradle 的发行包中有大量的插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are a number of properties which you can set on an archive task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155349Z" creationid="msdx" creationdate="20141113T155349Z">
@@ -9048,6 +9136,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These are listed below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120649Z" creationid="msdx" creationdate="20141126T120649Z">
+        <seg>如下列所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These can be complex commands (anything that's legal to Gradle) and you can provide them with a display name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T154608Z" creationid="msdx" creationdate="20141105T154449Z">
@@ -9076,6 +9172,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122555Z" creationid="msdx" creationdate="20141113T122517Z">
         <seg>这些方法返回一个&lt;c4&gt;FileTree&lt;/c4&gt;实例，您可以像使用任何其他文件树或文件集合一样使用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These plugins add support for various languages which can be compiled for and executed in the JVM.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120750Z" creationid="msdx" creationdate="20141126T120750Z">
+        <seg>这些插件添加了让各种语言可以被编译和在JVM执行的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10300,6 +10404,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162241Z" creationid="msdx" creationdate="20141109T162241Z">
         <seg>解决问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Works with</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120900Z" creationid="msdx" creationdate="20141126T120900Z">
+        <seg>与何一起</seg>
       </tuv>
     </tu>
     <tu>
@@ -12214,6 +12326,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T121042Z" creationid="msdx" creationdate="20141126T121042Z">
+        <seg>groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>groovy_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T070002Z" creationid="msdx" creationdate="20141030T070002Z">
@@ -12586,6 +12706,22 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161842Z" creationid="msdx" creationdate="20141109T161842Z">
         <seg>introduction.html#N10048</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120902Z" creationid="msdx" creationdate="20141126T120902Z">
+        <seg>java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java-base</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120902Z" creationid="msdx" creationdate="20141126T120902Z">
+        <seg>java-base</seg>
       </tuv>
     </tu>
     <tu>
