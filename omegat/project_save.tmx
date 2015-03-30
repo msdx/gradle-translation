@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.7" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.8" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -3282,6 +3282,22 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adding a description to a task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141030Z" creationid="Administrator" creationdate="20150330T141030Z">
+        <seg>向任务中添加描述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding dependencies to a task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141013Z" creationid="Administrator" creationdate="20150330T141013Z">
+        <seg>向任务添加依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, a property named &lt;c2&gt;purpose&lt;/c2&gt; is added to each source set by setting &lt;c3&gt;ext.purpose&lt;/c3&gt; to &lt;c4&gt;null&lt;/c4&gt; (&lt;c5&gt;null&lt;/c5&gt; is a permissible value).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054144Z" creationid="msdx" creationdate="20141108T054144Z">
@@ -4178,6 +4194,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configuring tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T140954Z" creationid="Administrator" creationdate="20150330T140954Z">
+        <seg>配置任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuring the project using an external build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T164941Z" creationid="msdx" creationdate="20141109T164941Z">
@@ -4240,10 +4264,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Copying files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141156Z" creationid="Administrator" creationdate="20150330T141156Z">
+        <seg>复制文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copyright © 2007-2012 Hans Dockter, Adam Murdoch</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161621Z" creationid="msdx" creationdate="20141109T161621Z">
         <seg>版权所有 © 2007-2012 Hans Dockter, Adam Murdoch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creating archives</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141212Z" creationid="Administrator" creationdate="20150330T141212Z">
+        <seg>创建归档文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -4332,6 +4372,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T160914Z" creationid="msdx" creationdate="20141105T160914Z">
         <seg>定义了你的 Gradle 项目（通常是 build.gradle 所在的位置）的根目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Defining tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T140947Z" creationid="Administrator" creationdate="20150330T140947Z">
+        <seg>定义任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -5432,10 +5480,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>File collections</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141138Z" creationid="Administrator" creationdate="20150330T141138Z">
+        <seg>文件集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>File srcDir</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160731Z" creationid="msdx" creationdate="20141112T160731Z">
         <seg>File srcDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File trees</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141141Z" creationid="Administrator" creationdate="20150330T141141Z">
+        <seg>文件树</seg>
       </tuv>
     </tu>
     <tu>
@@ -5460,6 +5524,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T070251Z" creationid="msdx" creationdate="20141111T070251Z">
         <seg>即使最终的任务执行失败，析构器任务也会被执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finalizer tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141106Z" creationid="Administrator" creationdate="20150330T141106Z">
+        <seg>析构器任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -7048,6 +7120,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Locating files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141135Z" creationid="Administrator" creationdate="20150330T141135Z">
+        <seg>查找文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Locating tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T140950Z" creationid="Administrator" creationdate="20150330T140950Z">
+        <seg>定位任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Logging for the other interfaces is left untouched.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T155109Z" creationid="msdx" creationdate="20141116T155109Z">
@@ -7388,6 +7476,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061032Z" creationid="msdx" creationdate="20141116T061032Z">
         <seg>或者，您可以将行为添加到 Ant 目标中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ordering tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141021Z" creationid="Administrator" creationdate="20150330T141021Z">
+        <seg>任务排序</seg>
       </tuv>
     </tu>
     <tu>
@@ -7800,6 +7896,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Replacing tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141034Z" creationid="Administrator" creationdate="20150330T141034Z">
+        <seg>替换任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163629Z" creationid="msdx" creationdate="20141109T163629Z">
@@ -7984,6 +8088,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Skipping tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141042Z" creationid="Administrator" creationdate="20150330T141042Z">
+        <seg>跳过任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Skipping tasks that are up-to-date</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141053Z" creationid="Administrator" creationdate="20150330T141053Z">
+        <seg>跳过处于最新状态的任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Snappy up-to-date checks: use native file system change notifications (e.g. via jdk7 nio.2) to preemptively perform up-to-date analysis.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T144021Z" creationid="msdx" creationdate="20141117T144021Z">
@@ -8076,6 +8196,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T051948Z" creationid="msdx" creationdate="20141120T051948Z">
         <seg>指定用于该守护进程的 jvmargs。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifying a set of input files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141153Z" creationid="Administrator" creationdate="20150330T141153Z">
+        <seg>指定一组输入文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -8276,6 +8404,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T131116Z" creationid="msdx" creationdate="20141110T131116Z">
         <seg>任务排序还是一个&lt;a0&gt;孵化中&lt;/a0&gt;的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Task rules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141057Z" creationid="Administrator" creationdate="20150330T141057Z">
+        <seg>任务规则</seg>
       </tuv>
     </tu>
     <tu>
@@ -10288,6 +10424,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using the &lt;c0&gt;Sync&lt;/c0&gt; task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141204Z" creationid="Administrator" creationdate="20150330T141204Z">
+        <seg>使用&lt;c0&gt;Sync&lt;/c0&gt;任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using the Gradle Command-Line</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163824Z" creationid="msdx" creationdate="20141109T163824Z">
@@ -10300,6 +10444,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T055032Z" creationid="msdx" creationdate="20141108T031048Z">
         <seg>使用Gradle 图形用户界面</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using the contents of an archive as a file tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141150Z" creationid="Administrator" creationdate="20150330T141150Z">
+        <seg>使用归档文件的内容作为文件树</seg>
       </tuv>
     </tu>
     <tu>
@@ -10708,6 +10860,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T100039Z" creationid="msdx" creationdate="20141124T095513Z">
         <seg>如果没有这一点，在上面的例子中，我们将不得不重新配置需要使用类文件的每个对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Working With Files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141113Z" creationid="Administrator" creationdate="20150330T141113Z">
+        <seg>使用文件</seg>
       </tuv>
     </tu>
     <tu>
