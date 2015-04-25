@@ -3514,6 +3514,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adds the standard lifecycle tasks and configures reasonable defaults for the archive tasks:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T041156Z" creationid="Administrator" creationdate="20150425T041156Z">
+        <seg>添加标准的生命周期任务，并为归档任务默认进行合理的配置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>After importing to eclipse your war/ear projects should be configured to work with WTP.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T035147Z" creationid="Administrator" creationdate="20150425T035147Z">
@@ -3726,6 +3734,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134119Z" creationid="msdx" creationdate="20141113T134119Z">
         <seg>因此，如果您在任务的action里面使用&lt;c2&gt;copy()&lt;/c2&gt;方法，必须显式声明所有的输入和输出以得到正确的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As such, these plugins are not documented in the user guide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T040945Z" creationid="Administrator" creationdate="20150425T040945Z">
+        <seg>因此，这些插件都不在用户指南中记录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6520,6 +6536,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, be aware that they are not yet considered part of Gradle's public API.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T040908Z" creationid="Administrator" creationdate="20150425T040908Z">
+        <seg>然而，请注意它们都不被认为是 Gradle 公共 API 的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, it will print a warning.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065349Z" creationid="msdx" creationdate="20141108T065349Z">
@@ -8728,6 +8752,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 22.7. Base plugins</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T041005Z" creationid="Administrator" creationdate="20150425T041005Z">
+        <seg>表 22.7. 基本插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -10036,6 +10068,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T150045Z" creationid="msdx" creationdate="20141113T145740Z">
         <seg>他们的工作方式都一样，所以让我们看看如何创建一个 ZIP 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They are available for you to use in your build files, and are listed here for completeness.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T040837Z" creationid="Administrator" creationdate="20150425T040837Z">
+        <seg>它们可供你在你的构建文件中使用，并在此处完整列出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11896,6 +11936,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You might refer to their API documentation to learn more about them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T040958Z" creationid="Administrator" creationdate="20150425T040958Z">
+        <seg>您可能会引用他们的 API 文档，以了解更多关于它们的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You often need to locate the tasks that you have defined in the build file, for example, to configure them or use them for dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T080533Z" creationid="msdx" creationdate="20141110T023442Z">
@@ -12012,6 +12060,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160101Z" creationid="msdx" creationdate="20141113T160040Z">
         <seg>ZIP文件和 TAR文件会生成到 &lt;c3&gt;&lt;e4&gt;&lt;c5&gt;project.buildDir&lt;/c5&gt;&lt;/e4&gt;/distributions&lt;/c3&gt;中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>adds build &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt; tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T041215Z" creationid="Administrator" creationdate="20150425T041215Z">
+        <seg>添加构建 &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;任务。</seg>
       </tuv>
     </tu>
     <tu>
