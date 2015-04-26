@@ -2070,6 +2070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;compile&lt;/c0&gt;, &lt;c1&gt;compileTest&lt;/c1&gt;, plus all tasks which produce the test runtime classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004821Z" creationid="Administrator" creationdate="20150426T004821Z">
+        <seg>&lt;c0&gt;compile&lt;/c0&gt;， &lt;c1&gt;compileTest&lt;/c1&gt;，再加上所有产生测试运行时类路径的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;compile&lt;/c0&gt;, plus all tasks which produce the test compile classpath.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004358Z" creationid="Administrator" creationdate="20150426T004358Z">
@@ -2082,6 +2090,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T174735Z" creationid="Administrator" creationdate="20150425T174735Z">
         <seg>&lt;c0&gt;compileJava&lt;/c0&gt;和&lt;c1&gt;processResources&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;compileTestJava&lt;/c0&gt; and &lt;c1&gt;processTestResources&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004531Z" creationid="Administrator" creationdate="20150426T004531Z">
+        <seg>&lt;c0&gt;compileTestJava&lt;/c0&gt;和&lt;c1&gt;processTestResources&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3866,10 +3882,26 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assembles the JAR file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004711Z" creationid="Administrator" creationdate="20150426T004711Z">
+        <seg>组装 JAR 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assembles the production classes directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T174951Z" creationid="Administrator" creationdate="20150425T174823Z">
         <seg>组装生产的类目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assembles the test classes directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004702Z" creationid="Administrator" creationdate="20150426T004702Z">
+        <seg>组装测试的类目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4442,6 +4474,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compiles test Java source files using javac.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004449Z" creationid="Administrator" creationdate="20150426T004449Z">
+        <seg>使用 javac 编译 Java 的测试源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configure by DAG</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163403Z" creationid="msdx" creationdate="20141109T163403Z">
@@ -4542,6 +4582,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T175142Z" creationid="Administrator" creationdate="20150425T174719Z">
         <seg>把生产资源文件拷贝到生产的类目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copies test resources into the test classes directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004522Z" creationid="Administrator" creationdate="20150426T004522Z">
+        <seg>把测试的资源文件拷贝到测试的类目录中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4684,6 +4732,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T140947Z" creationid="Administrator" creationdate="20150330T140947Z">
         <seg>定义任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deletes the output files produced by the specified task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005222Z" creationid="Administrator" creationdate="20150426T005222Z">
+        <seg>删除由指定的任务所产生的输出文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deletes the project build directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005151Z" creationid="Administrator" creationdate="20150426T005151Z">
+        <seg>删除项目的build目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6228,6 +6292,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T150124Z" creationid="msdx" creationdate="20141105T150124Z">
         <seg>GUI Task Tree</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates API documentation for the production Java source, using Javadoc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004742Z" creationid="Administrator" creationdate="20150426T004742Z">
+        <seg>使用 Javadoc 生成生产的 Java 源代码的API文档</seg>
       </tuv>
     </tu>
     <tu>
@@ -8488,6 +8560,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Runs the unit tests using JUnit or TestNG.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004846Z" creationid="Administrator" creationdate="20150426T004846Z">
+        <seg>使用 JUnit 或 TestNG运行单元测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Secondly when using parallel execution and all dependencies of a task have been satisfied apart from should run after then this task will be run regardless of weather its 'should run after' dependencies have been run or not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T012001Z" creationid="msdx" creationdate="20141110T152504Z">
@@ -8692,6 +8772,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T174800Z" creationid="Administrator" creationdate="20150425T174800Z">
         <seg>一些插件添加了额外的编译任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some plugins add additional test compilation tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004545Z" creationid="Administrator" creationdate="20150426T004545Z">
+        <seg>一些插件添加了额外的测试编译任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9984,6 +10072,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The tasks which produce the artifacts in the &lt;c0&gt;archives&lt;/c0&gt; configuration, including &lt;c1&gt;jar&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005010Z" creationid="Administrator" creationdate="20150426T005010Z">
+        <seg>该任务将使用&lt;c0&gt;archives&lt;/c0&gt;的配置生成构件，包括&lt;c1&gt;jar&lt;/c1&gt;文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The value can be set to either &lt;c0&gt;jdk&lt;/c0&gt; or &lt;c1&gt;jre&lt;/c1&gt; location, however, depending on what does your build do, &lt;c2&gt;jdk&lt;/c2&gt; is safer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T051921Z" creationid="msdx" creationdate="20141120T051921Z">
@@ -11156,6 +11252,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162135Z" creationid="msdx" creationdate="20141109T162135Z">
         <seg>解压</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uploads the artifacts in the &lt;c0&gt;archives&lt;/c0&gt; configuration, including the JAR file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005118Z" creationid="Administrator" creationdate="20150426T005118Z">
+        <seg>使用&lt;c0&gt;archives&lt;/c0&gt;配置上传包括 JAR 文件的构件。</seg>
       </tuv>
     </tu>
     <tu>
