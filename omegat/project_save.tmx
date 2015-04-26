@@ -1654,10 +1654,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.4.1. Changing the project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083534Z" creationid="Administrator" creationdate="20150426T083534Z">
+        <seg>23.4.1. 更改项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.4. Project layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T082958Z" creationid="Administrator" creationdate="20150426T082958Z">
         <seg>23.4. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>23.5. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083835Z" creationid="Administrator" creationdate="20150426T083835Z">
+        <seg>23.5. 依赖管理</seg>
       </tuv>
     </tu>
     <tu>
@@ -3450,6 +3466,22 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additional dependencies for compiling tests.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084246Z" creationid="Administrator" creationdate="20150426T084246Z">
+        <seg>用于编译测试的其他依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Additional dependencies for running tests only.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084313Z" creationid="Administrator" creationdate="20150426T084313Z">
+        <seg>只用于运行测试的其他依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, a property named &lt;c2&gt;purpose&lt;/c2&gt; is added to each source set by setting &lt;c3&gt;ext.purpose&lt;/c3&gt; to &lt;c4&gt;null&lt;/c4&gt; (&lt;c5&gt;null&lt;/c5&gt; is a permissible value).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054144Z" creationid="msdx" creationdate="20141108T054144Z">
@@ -3894,6 +3926,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145707Z" creationid="msdx" creationdate="20141113T145707Z">
         <seg>使用各种归档任务可以创建以下的归档文件： &lt;a0&gt;&lt;c1&gt;Zip&lt;/c1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;c3&gt;Tar&lt;/c3&gt;&lt;/a2&gt;, &lt;a4&gt;&lt;c5&gt;Jar&lt;/c5&gt;&lt;/a4&gt;, &lt;a6&gt;&lt;c7&gt;War&lt;/c7&gt;&lt;/a6&gt;, and &lt;a8&gt;&lt;c9&gt;Ear&lt;/c9&gt;&lt;/a8&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Artifacts (e.g. jars) produced by this project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084331Z" creationid="Administrator" creationdate="20150426T084331Z">
+        <seg>由本项目生产的构件（如jar包）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4562,6 +4602,22 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compile time dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084154Z" creationid="Administrator" creationdate="20150426T084154Z">
+        <seg>编译时依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compile time dependencies for the given source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084848Z" creationid="Administrator" creationdate="20150426T084848Z">
+        <seg>给定源集的编译时依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compiles production Java source files using javac.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T174626Z" creationid="Administrator" creationdate="20150425T174626Z">
@@ -4654,6 +4710,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T094429Z" creationid="msdx" creationdate="20141124T093931Z">
         <seg>考虑一下另一种消费类文件的任务的情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Contains the artifacts and dependencies required by this project at runtime.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084630Z" creationid="Administrator" creationdate="20150426T084630Z">
+        <seg>包含本项目运行时所需要的构件和依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5888,6 +5952,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.2. Custom Java source layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083815Z" creationid="Administrator" creationdate="20150426T083815Z">
+        <seg>示例 23.2. 自定义Java 源代码布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -5924,6 +5996,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163830Z" creationid="msdx" creationdate="20141109T163830Z">
         <seg>执行多个任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extends</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084120Z" creationid="Administrator" creationdate="20150426T084120Z">
+        <seg>继承自</seg>
       </tuv>
     </tu>
     <tu>
@@ -6004,6 +6084,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T082919Z" creationid="Administrator" creationdate="20150426T082919Z">
         <seg>图23.1. Java插件 ​​- 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Figure 23.2. Java plugin - dependency configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084640Z" creationid="Administrator" creationdate="20150426T084640Z">
+        <seg>图23.2. Java插件 ​​- 依赖配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -6172,6 +6260,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005705Z" creationid="Administrator" creationdate="20150426T005705Z">
         <seg>对于每个你添加到该项目中的源集，Java 插件将添加以下的编译任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For each source set you add to the project, the Java plugins adds the following dependency configurations:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084749Z" creationid="Administrator" creationdate="20150426T084749Z">
+        <seg>对于每个你添加到项目中的源集，Java插件都会添加以下的依赖配置：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6832,6 +6928,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here is a brief example which changes the main Java and resource source directories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083749Z" creationid="Administrator" creationdate="20150426T083749Z">
+        <seg>这里是如何更改main Java 和资源源目录的一个简短的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here is a list of some of Gradle's features.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034449Z" creationid="msdx" creationdate="20141101T034417Z">
@@ -7472,6 +7576,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It assigns those configurations to tasks such as &lt;c0&gt;compileJava&lt;/c0&gt; and &lt;c1&gt;test&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084045Z" creationid="Administrator" creationdate="20150426T084045Z">
+        <seg>它对一些任务指定了这些配置，如&lt;c0&gt;compileJava&lt;/c0&gt;和&lt;c1&gt;test&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It can do things such as:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T150842Z" creationid="msdx" creationdate="20141123T150842Z">
@@ -7628,6 +7740,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163425Z" creationid="msdx" creationdate="20141109T163425Z">
         <seg>Java 快速入门</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Java plugin - dependency configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084650Z" creationid="Administrator" creationdate="20150426T084650Z">
+        <seg>Java插件 ​​- 依赖配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -8792,6 +8912,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Runtime dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084207Z" creationid="Administrator" creationdate="20150426T084207Z">
+        <seg>运行时依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Runtime time dependencies for the given source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084857Z" creationid="Administrator" creationdate="20150426T084857Z">
+        <seg>给定源集的运行时依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Secondly when using parallel execution and all dependencies of a task have been satisfied apart from should run after then this task will be run regardless of weather its 'should run after' dependencies have been run or not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T012001Z" creationid="msdx" creationdate="20141110T152504Z">
@@ -9328,6 +9464,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 23.5. Java plugin - dependency configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084055Z" creationid="Administrator" creationdate="20150426T084055Z">
+        <seg>表23.5. Java插件 ​​- 依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 23.6. Java plugin - source set dependency configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084805Z" creationid="Administrator" creationdate="20150426T084805Z">
+        <seg>表23.6. Java插件 ​​- 源集依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -9704,6 +9856,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java plugin adds a number of dependency configurations to your project, as shown below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083929Z" creationid="Administrator" creationdate="20150426T083929Z">
+        <seg>Java插件向项目添加了许多依赖配置，如下图所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Java plugin adds a number of tasks to your project, as shown below.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T174017Z" creationid="Administrator" creationdate="20150425T174017Z">
@@ -10028,6 +10188,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T124440Z" creationid="msdx" creationdate="20141101T124440Z">
         <seg>声明性语言位于通用任务图的顶层，你可以在构建中充分发挥。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default configuration used by a project dependency on this project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084553Z" creationid="Administrator" creationdate="20150426T084456Z">
+        <seg>本项目上的默认项目依赖配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11104,6 +11272,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is discussed in more detail in the following sections.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083637Z" creationid="Administrator" creationdate="20150426T083637Z">
+        <seg>这一点将在以下各节中详细讨论。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is expressed as &lt;c4&gt;taskB.mustRunAfter(taskA)&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T152101Z" creationid="msdx" creationdate="20141110T152054Z">
@@ -11612,6 +11788,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161439Z" creationid="msdx" creationdate="20141105T161253Z">
         <seg>使用自定义的 Gradle 执行器  - 高级功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Used by tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084146Z" creationid="Administrator" creationdate="20150426T084146Z">
+        <seg>在哪些任务中使用</seg>
       </tuv>
     </tu>
     <tu>
@@ -12612,6 +12796,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155513Z" creationid="msdx" creationdate="20141113T155513Z">
         <seg>你可以，比方说，更改归档文件的名称：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You configure the project layout by configuring the appropriate source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083611Z" creationid="Administrator" creationdate="20150426T083611Z">
+        <seg>你可以通过配置适当的源集，来配置项目的布局。</seg>
       </tuv>
     </tu>
     <tu>
