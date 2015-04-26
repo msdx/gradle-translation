@@ -2086,6 +2086,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;compile&lt;e1&gt;&lt;c2&gt;SourceSet&lt;/c2&gt;&lt;/e1&gt;Java&lt;/c0&gt; and &lt;c3&gt;process&lt;e4&gt;&lt;c5&gt;SourceSet&lt;/c5&gt;&lt;/e4&gt;Resources&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005858Z" creationid="Administrator" creationdate="20150426T005858Z">
+        <seg>&lt;c0&gt;compile&lt;e1&gt;&lt;c2&gt;SourceSet&lt;/c2&gt;&lt;/e1&gt;Java&lt;/c0&gt; 和 &lt;c3&gt;process&lt;e4&gt;&lt;c5&gt;SourceSet&lt;/c5&gt;&lt;/e4&gt;Resources&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;compileJava&lt;/c0&gt; and &lt;c1&gt;processResources&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T174735Z" creationid="Administrator" creationdate="20150425T174735Z">
@@ -3650,6 +3658,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All archive tasks in the project, including &lt;c0&gt;jar&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010127Z" creationid="Administrator" creationdate="20150426T010127Z">
+        <seg>项目中的所有归档项目，包括&lt;c0&gt;jar&lt;/c0&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All enhanced objects in Gradle's domain model can hold extra user-defined properties.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T050420Z" creationid="msdx" creationdate="20141108T045410Z">
@@ -3694,6 +3710,22 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T174230Z" creationid="Administrator" creationdate="20150425T174230Z">
         <seg>产生编译类路径中的所有任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All tasks which produce the source set's compile classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005749Z" creationid="Administrator" creationdate="20150426T005749Z">
+        <seg>所有产生源集编译类路径的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All verification tasks in the project, including &lt;c0&gt;test&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010303Z" creationid="Administrator" creationdate="20150426T010303Z">
+        <seg>项目中的所有检查项目，包括&lt;c0&gt;test&lt;/c0&gt;任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3882,10 +3914,26 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assembles all the archives in the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010236Z" creationid="Administrator" creationdate="20150426T010236Z">
+        <seg>组装项目中所有的归类文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assembles the JAR file</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004711Z" creationid="Administrator" creationdate="20150426T004711Z">
         <seg>组装 JAR 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assembles the given source set's classes directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005946Z" creationid="Administrator" creationdate="20150426T005946Z">
+        <seg>组装给定源集的类目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4482,6 +4530,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compiles the given source set's Java source files using javac.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005823Z" creationid="Administrator" creationdate="20150426T005823Z">
+        <seg>使用 javac 编译给定的源集中的 Java 源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configure by DAG</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163403Z" creationid="msdx" creationdate="20141109T163403Z">
@@ -4590,6 +4646,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004522Z" creationid="Administrator" creationdate="20150426T004522Z">
         <seg>把测试的资源文件拷贝到测试的类目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copies the given source set's resources into the classes directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005839Z" creationid="Administrator" creationdate="20150426T005839Z">
+        <seg>把给定的源集的资源文件拷贝到类目录中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6040,10 +6104,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For each source set you add to the project, the Java plugin adds the following compilation tasks:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005705Z" creationid="Administrator" creationdate="20150426T005705Z">
+        <seg>对于每个你添加到该项目中的源集，Java 插件将添加以下的编译任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For exact details on when exactly new daemon process is forked read the dedicated section below.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152309Z" creationid="msdx" creationdate="20141117T152013Z">
         <seg>关于fork一个完全新的守护进程的具体细节，请阅读下面的专题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example &lt;c0&gt;cleanJar&lt;/c0&gt; will delete the JAR file created by the &lt;c1&gt;jar&lt;/c1&gt; task, and &lt;c2&gt;cleanTest&lt;/c2&gt; will delete the test results created by the &lt;c3&gt;test&lt;/c3&gt; task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005641Z" creationid="Administrator" creationdate="20150426T005641Z">
+        <seg>例如， &lt;c0&gt;cleanJar&lt;/c0&gt;将删除由&lt;c1&gt;jar&lt;/c1&gt;任务中所创建的 JAR 文件，&lt;c2&gt;cleanTest&lt;/c2&gt;将删除由&lt;c3&gt;test&lt;/c3&gt;任务所创建的测试结果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8768,6 +8848,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some plugins add additional archive tasks to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010158Z" creationid="Administrator" creationdate="20150426T010158Z">
+        <seg>某些插件还向项目添加额外的归档任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some plugins add additional compilation tasks for the source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005936Z" creationid="Administrator" creationdate="20150426T005923Z">
+        <seg>某些插件还为源集添加了额外的编译任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some plugins add additional compilation tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T174800Z" creationid="Administrator" creationdate="20150425T174800Z">
@@ -8780,6 +8876,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004545Z" creationid="Administrator" creationdate="20150426T004545Z">
         <seg>一些插件添加了额外的测试编译任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some plugins add additional verification tasks to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010314Z" creationid="Administrator" creationdate="20150426T010314Z">
+        <seg>某些插件还向项目添加额外的检查任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9052,6 +9156,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T174036Z" creationid="Administrator" creationdate="20150425T174036Z">
         <seg>表 23.1. Java 插件-任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 23.2. Java plugin - source set tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005713Z" creationid="Administrator" creationdate="20150426T005713Z">
+        <seg>表 23.2. Java 插件-源集任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 23.3. Java plugin - lifecycle tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010037Z" creationid="Administrator" creationdate="20150426T010037Z">
+        <seg>表 23.3. Java 插件-生命周期任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -9428,6 +9548,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T073624Z" creationid="msdx" creationdate="20141123T154319Z">
         <seg>Java 插件添加了&lt;s0&gt;&lt;e1&gt; source sets&lt;/e1&gt;&lt;/s0&gt; 的概念 （见&lt;a2&gt;&lt;c3&gt;SourceSet&lt;/c3&gt;&lt;/a2&gt;） 来描述的源文件集的各个方面，其中一个方面是在编译的时候这些类文件应该被写到哪个地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java plugin also adds a number of tasks which form a lifecycle for the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010018Z" creationid="Administrator" creationdate="20150426T010018Z">
+        <seg>Java 插件还增加了大量的任务构成该项目的生命周期：</seg>
       </tuv>
     </tu>
     <tu>
