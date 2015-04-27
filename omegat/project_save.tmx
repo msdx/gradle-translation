@@ -5280,6 +5280,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each test process executes only a single test at a time, so you generally don't need to do anything special to your tests to take advantage of this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T141116Z" creationid="Administrator" creationdate="20150427T141116Z">
+        <seg>每个测试进程只执行一次一个单一的测试，所以你一般不需要对你的测试做任何的配置来利用这一点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each time after that, before the task is executed, Gradle takes a new snapshot of the inputs and outputs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T063621Z" creationid="msdx" creationdate="20141111T063621Z">
@@ -10232,6 +10240,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;maxParallelForks&lt;/c0&gt; property specifies the maximum number of test processes to run at any given time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T141204Z" creationid="Administrator" creationdate="20150427T141204Z">
+        <seg>&lt;c0&gt;MaxParallelForks&lt;/c0&gt;属性指定在给定的时间可以运行的测试进程的最大数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;test&lt;/c0&gt; task is an instance of &lt;a1&gt;&lt;c2&gt;Test&lt;/c2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T140237Z" creationid="Administrator" creationdate="20150427T140237Z">
@@ -10828,6 +10844,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084553Z" creationid="Administrator" creationdate="20150426T084456Z">
         <seg>本项目上的默认项目依赖配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default is 1, that is, do not execute the tests in parallel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T141233Z" creationid="Administrator" creationdate="20150427T141233Z">
+        <seg>它的默认值是 1，也就是说，不并行执行测试。</seg>
       </tuv>
     </tu>
     <tu>
