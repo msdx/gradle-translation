@@ -1694,6 +1694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.7.2. Defining new source sets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T053301Z" creationid="Administrator" creationdate="20150427T053301Z">
+        <seg>23.7.2. 定义新的源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.7. Working with source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050419Z" creationid="Administrator" creationdate="20150427T050419Z">
@@ -6064,6 +6072,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.5. Defining a source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T053341Z" creationid="Administrator" creationdate="20150427T053341Z">
+        <seg>示例 23.5. 定义一个源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -7108,6 +7124,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152707Z" creationid="msdx" creationdate="20141117T152707Z">
         <seg>以下是我们fork一个新的守护进程的所有情况：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here's an example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T053332Z" creationid="Administrator" creationdate="20150427T053332Z">
+        <seg>下面是一个示例：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9314,16 +9338,16 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Some plugins, such as the Groovy plugin, add additional Java source files to this collection.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T052945Z" creationid="Administrator" creationdate="20150427T052945Z">
-        <seg>其他插件，如Groovy 插件，会从该集合中排除其他类型的文件。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T053234Z" creationid="Administrator" creationdate="20150427T052945Z">
+        <seg>有些插件，如Groovy 插件，会从该集合中增加其他的Java源文件。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Some plugins, such as the Groovy plugin, add additional source files to this collection.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T053041Z" creationid="Administrator" creationdate="20150427T053041Z">
-        <seg>一些插件，如Groovy 插件，会从该集合中排除其他类型的文件。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T053216Z" creationid="Administrator" creationdate="20150427T053041Z">
+        <seg>有些插件，如Groovy 插件，会从该集合中增加其他的源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12052,6 +12076,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T090208Z" creationid="msdx" creationdate="20141110T090208Z">
         <seg>若要创建&lt;c1&gt;Copy&lt;/c1&gt;任务，您可以在构建脚本中声明：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To define a new source set, you simply reference it in the &lt;c0&gt;sourceSets { }&lt;/c0&gt; block.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T053322Z" creationid="Administrator" creationdate="20150427T053322Z">
+        <seg>要定义一个新的源集，你只需在&lt;c0&gt;sourceSets {}&lt;/c0&gt;块中引用它。</seg>
       </tuv>
     </tu>
     <tu>
