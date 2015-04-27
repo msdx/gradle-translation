@@ -1686,6 +1686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.7.1. Source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051128Z" creationid="Administrator" creationdate="20150427T051128Z">
+        <seg>23.7.1. 源集属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.7. Working with source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050419Z" creationid="Administrator" creationdate="20150427T050419Z">
@@ -6008,6 +6016,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.4. Configuring the source directories of a source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051101Z" creationid="Administrator" creationdate="20150427T051101Z">
+        <seg>示例 23.4. 配置源集的源代码目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -6994,8 +7010,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Here is an example which configures the main Java and resources directories:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051046Z" creationid="Administrator" creationdate="20150427T051046Z">
-        <seg>下面是一个配置main Java 和资源目录的例子：</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051105Z" creationid="Administrator" creationdate="20150427T051046Z">
+        <seg>下面是一个配置main 的 Java 和资源目录的例子：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9576,6 +9592,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 23.9. Java plugin - source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051240Z" creationid="Administrator" creationdate="20150427T051240Z">
+        <seg>表 23.9. Java 插件 - 源集属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -10048,6 +10072,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java source files of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051700Z" creationid="Administrator" creationdate="20150427T051700Z">
+        <seg>该源集的Java源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Jetty plugin extends the War plugin to allow you to deploy your web application to an embedded Jetty web container.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T084854Z" creationid="msdx" creationdate="20141030T084822Z">
@@ -10240,6 +10272,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The classpath to use when compiling the source files of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051645Z" creationid="Administrator" creationdate="20150427T051601Z">
+        <seg>该类路径在编译该源集的源文件时使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The classpath to use when executing the classes of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051635Z" creationid="Administrator" creationdate="20150427T051635Z">
+        <seg>该类路径在执行该源集的类时使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The closure is passed the task as a parameter, and should return true if the task should execute and false if the task should be skipped.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T020824Z" creationid="msdx" creationdate="20141111T020824Z">
@@ -10392,6 +10440,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The directory to generate the classes of this source set into.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051535Z" creationid="Administrator" creationdate="20150427T051513Z">
+        <seg>要生成的该源集的类的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The directory to generate the resources of this source set into.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051528Z" creationid="Administrator" creationdate="20150427T051528Z">
+        <seg>要生成的该源集的资源的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The directory to generate the test report into.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045502Z" creationid="Administrator" creationdate="20150427T045134Z">
@@ -10476,6 +10540,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044124Z" creationid="msdx" creationdate="20141108T044124Z">
         <seg>下表列出了常用的几个属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following table lists some of the important properties of a source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051157Z" creationid="Administrator" creationdate="20150427T051157Z">
+        <seg>下表列出了一些重要的源集属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10592,6 +10664,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the source set, used to identify it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051402Z" creationid="Administrator" creationdate="20150427T051402Z">
+        <seg>用来确定一个源集的源集名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The next time you run this build, Gradle uses the compiled script, if the script has not changed since it was compiled.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T153457Z" creationid="msdx" creationdate="20141109T153441Z">
@@ -10636,6 +10716,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161128Z" creationid="msdx" creationdate="20141112T161128Z">
         <seg>TaskOutputs 的输出文件会被包含在文件集合内。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The output files of the source set, containing its compiled classes and resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051430Z" creationid="Administrator" creationdate="20150427T051430Z">
+        <seg>源集的输出文件，包含它编译过的类和资源。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12844,6 +12932,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T072534Z" creationid="Administrator" creationdate="20150425T072534Z">
         <seg>你可以在&lt;a0&gt;维基&lt;/a0&gt;上找到外部插件的列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can find more details in the API documentation for &lt;a0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051227Z" creationid="Administrator" creationdate="20150427T051227Z">
+        <seg>你可以在&lt;a0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/a0&gt;的 API 文档中查看更多的详细信息。</seg>
       </tuv>
     </tu>
     <tu>
