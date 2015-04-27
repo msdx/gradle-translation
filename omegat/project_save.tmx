@@ -1638,6 +1638,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.10. Resources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134512Z" creationid="Administrator" creationdate="20150427T134512Z">
+        <seg>23.10. 资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>23.11. CompileJava</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134842Z" creationid="Administrator" creationdate="20150427T134842Z">
+        <seg>23.11. CompileJava</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.2. Source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T073944Z" creationid="Administrator" creationdate="20150425T073900Z">
@@ -1720,8 +1736,8 @@
       <tuv lang="EN-US">
         <seg>23.9. Clean</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134154Z" creationid="Administrator" creationdate="20150427T134154Z">
-        <seg>239. 清理</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134505Z" creationid="Administrator" creationdate="20150427T134154Z">
+        <seg>23.9. 清理</seg>
       </tuv>
     </tu>
     <tu>
@@ -4342,6 +4358,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045758Z" creationid="Administrator" creationdate="20150427T045758Z">
         <seg>可以使用字符串或数字来设置，例如&lt;c2&gt;"1.5"&lt;/c2&gt;或&lt;c3&gt;1.5&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Can set using anything described in &lt;a1&gt;Section 16.1, “Locating files”&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134811Z" creationid="Administrator" creationdate="20150427T134811Z">
+        <seg>可以使用&lt;a1&gt; 16.1 章节，“查找文件”&lt;/a1&gt;中所讲到的任何一种方式来设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7792,6 +7816,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It adds an instance for each source set in the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134618Z" creationid="Administrator" creationdate="20150427T134618Z">
+        <seg>它为该project里的每个源集添加一个实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It allows Gradle to provide conciseness through convention-over-configuration and sensible defaults yet not require complete reconfiguration if a conventional default needs to be changed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T110947Z" creationid="msdx" creationdate="20141124T095238Z">
@@ -9416,6 +9448,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some of the most common configuration options are shown below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134955Z" creationid="Administrator" creationdate="20150427T134950Z">
+        <seg>一些最常见的配置选项如下所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some other types of things you can pass to &lt;c0&gt;files()&lt;/c0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160933Z" creationid="msdx" creationdate="20141112T160904Z">
@@ -9764,6 +9804,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134436Z" creationid="Administrator" creationdate="20150427T134436Z">
         <seg>表 23.11. Java 插件 - Clean 性能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 23.12. Java plugin - ProcessResources properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134714Z" creationid="Administrator" creationdate="20150427T134714Z">
+        <seg>表 23.12. Java 插件-ProcessResources 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 23.13. Java plugin - Compile properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135008Z" creationid="Administrator" creationdate="20150427T135008Z">
+        <seg>表 23.13. Java 插件- Compile属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -10224,6 +10280,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java plugin adds a &lt;a0&gt;&lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt; instance for each source set in the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134934Z" creationid="Administrator" creationdate="20150427T134934Z">
+        <seg>Java 插件为该project里的每个源集添加一个&lt;a0&gt;&lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt;实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Java plugin adds a number of convention properties to the project, shown below.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T085550Z" creationid="Administrator" creationdate="20150426T085550Z">
@@ -10324,6 +10388,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T073834Z" creationid="msdx" creationdate="20141124T073712Z">
         <seg>Java 插件将&lt;c5&gt;compileJava&lt;/c5&gt;任务的&lt;c4&gt;destinationDir&lt;/c4&gt;属性映射到源文件集的这一个方面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java plugin uses the &lt;a0&gt;&lt;c1&gt;Copy&lt;/c1&gt;&lt;/a0&gt; task for resource handling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134546Z" creationid="Administrator" creationdate="20150427T134546Z">
+        <seg>Java 插件使用&lt;a0&gt;&lt;c1&gt;Copy&lt;/c1&gt;&lt;/a0&gt;任务进行资源的处理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13292,6 +13364,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T095829Z" creationid="msdx" creationdate="20141030T095829Z">
         <seg>你可以在 &lt;a0&gt;第26章， &lt;i1&gt;War插件&lt;/i1&gt;&lt;/a0&gt; 和在&lt;a2&gt;第28章 &lt;i3&gt;Jetty插件&lt;/i3&gt;&lt;/a2&gt;.中了解到更多有关War插件和Jetty插件的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can find out more about the copy task in &lt;a2&gt;Section 16.6, “Copying files”&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134707Z" creationid="Administrator" creationdate="20150427T134707Z">
+        <seg>你可以在&lt;a2&gt;16.6章节，“复制文件”&lt;/a2&gt;中找到关于copy任务的更多信息。</seg>
       </tuv>
     </tu>
     <tu>
