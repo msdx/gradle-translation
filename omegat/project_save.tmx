@@ -10256,6 +10256,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The directory to generate libraries into.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045215Z" creationid="Administrator" creationdate="20150427T045215Z">
+        <seg>该目录用于存放</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The directory to generate reports into.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T090024Z" creationid="Administrator" creationdate="20150426T090024Z">
@@ -10264,10 +10272,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The directory to generate test result .xml files into.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045103Z" creationid="Administrator" creationdate="20150427T045103Z">
+        <seg>测试报告的.xml文件将在此目录中生成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The directory to generate the archive into</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160141Z" creationid="msdx" creationdate="20141113T160141Z">
         <seg>存放生成的归档文件的目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The directory to generate the test report into.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045134Z" creationid="Administrator" creationdate="20150427T045134Z">
+        <seg>测试报告将在此目录中生成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10384,10 +10408,34 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the directory to generate libraries into, relative to the build directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045158Z" creationid="Administrator" creationdate="20150427T045158Z">
+        <seg>相对于build目录的目录名称，该目录用于存放生成的类库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name of the directory to generate reports into, relative to the build directory.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T090027Z" creationid="Administrator" creationdate="20150426T085942Z">
-        <seg>用于存放生成报告，相对于build目录的目录名称。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T044930Z" creationid="Administrator" creationdate="20150426T085942Z">
+        <seg>相对于build目录的目录名称，该目录用于存放生成的报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the directory to generate test result .xml files into, relative to the build directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045024Z" creationid="Administrator" creationdate="20150427T045024Z">
+        <seg>相对于build目录的目录名称，该目录用于存放生成的报告的.xml 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the directory to generate the test report into, relative to the reports directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045122Z" creationid="Administrator" creationdate="20150427T045122Z">
+        <seg>相对于build目录的目录名称，测试报告将在此目录中生成。</seg>
       </tuv>
     </tu>
     <tu>
