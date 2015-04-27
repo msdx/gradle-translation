@@ -3746,6 +3746,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All &lt;c0&gt;.java&lt;/c0&gt; files of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T052931Z" creationid="Administrator" creationdate="20150427T052931Z">
+        <seg>该源集的所有&lt;c0&gt;.java&lt;/c0&gt; 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All archive tasks in the project, including &lt;c0&gt;jar&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010127Z" creationid="Administrator" creationdate="20150426T010127Z">
@@ -3790,6 +3798,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T093017Z" creationid="msdx" creationdate="20141124T093017Z">
         <seg>所有这一切都发生在&lt;c0&gt;apply plugin: "java"&lt;/c0&gt;这一步过程中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All source files of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T053018Z" creationid="Administrator" creationdate="20150427T053018Z">
+        <seg>该源集的所有源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4766,6 +4782,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T052424Z" creationid="Administrator" creationdate="20150427T052424Z">
         <seg>仅包含Java源文件目录里的&lt;c0&gt;.java&lt;/c0&gt;文件，并排除其他所有文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Contains only resources, and excludes any &lt;c0&gt;.java&lt;/c0&gt; files found in the resource source directories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T052729Z" creationid="Administrator" creationdate="20150427T052708Z">
+        <seg>仅包含资源文件，并且排除在资源源目录中找到的所有 &lt;c0&gt;.java&lt;/c0&gt; 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8408,6 +8432,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Other plugins, such as the Groovy plugin, exclude additional types of files from this collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T052948Z" creationid="Administrator" creationdate="20150427T052809Z">
+        <seg>其他插件，如Groovy 插件，会从该集合中排除其他类型的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise Gradle throws an exception, saying that a task with such a name already exists.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T020246Z" creationid="msdx" creationdate="20141111T020240Z">
@@ -9276,6 +9308,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010439Z" creationid="Administrator" creationdate="20150426T010314Z">
         <seg>某些插件还向项目添加额外的核查任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some plugins, such as the Groovy plugin, add additional Java source files to this collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T052945Z" creationid="Administrator" creationdate="20150427T052945Z">
+        <seg>其他插件，如Groovy 插件，会从该集合中排除其他类型的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some plugins, such as the Groovy plugin, add additional source files to this collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T053041Z" creationid="Administrator" creationdate="20150427T053041Z">
+        <seg>一些插件，如Groovy 插件，会从该集合中排除其他类型的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10872,6 +10920,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The source directories containing the resources of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T052901Z" creationid="Administrator" creationdate="20150427T052901Z">
+        <seg>该源目录包含了此源集的资源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The source set container works pretty much the same way as other containers, such as &lt;c4&gt;tasks&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050716Z" creationid="Administrator" creationdate="20150427T050716Z">
@@ -11556,6 +11612,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055327Z" creationid="msdx" creationdate="20141111T055323Z">
         <seg>如果您使用由 Gradle 提供的任务，那么此功能将非常有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This include all resource files and all Java source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T053031Z" creationid="Administrator" creationdate="20150427T053031Z">
+        <seg>包含所有的资源文件和Java源文件。</seg>
       </tuv>
     </tu>
     <tu>
