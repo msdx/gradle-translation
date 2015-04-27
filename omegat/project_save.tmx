@@ -1702,6 +1702,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.7.3. Some source set examples</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133254Z" creationid="Administrator" creationdate="20150427T133246Z">
+        <seg>23.7.3. 一些源集的范例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.7. Working with source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050419Z" creationid="Administrator" creationdate="20150427T050419Z">
@@ -3482,10 +3490,26 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adding a JAR containing the classes of a source set:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133345Z" creationid="Administrator" creationdate="20150427T133345Z">
+        <seg>添加一个包含了源集的类的JAR包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Adding a description to a task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141030Z" creationid="Administrator" creationdate="20150330T141030Z">
         <seg>向任务中添加描述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding a test suite to run the tests in a source set:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133518Z" creationid="Administrator" creationdate="20150427T133518Z">
+        <seg>添加一个测试套件以运行一个源集里的测试</seg>
       </tuv>
     </tu>
     <tu>
@@ -6048,6 +6072,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.10. Running tests in a source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133541Z" creationid="Administrator" creationdate="20150427T133541Z">
+        <seg>示例 23.10. 运行源集里的测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 23.2. Custom Java source layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083815Z" creationid="Administrator" creationdate="20150426T083815Z">
@@ -6076,6 +6108,38 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T053341Z" creationid="Administrator" creationdate="20150427T053341Z">
         <seg>示例 23.5. 定义一个源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.6. Defining source set dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133011Z" creationid="Administrator" creationdate="20150427T133011Z">
+        <seg>示例 23.6. 定义源集依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.7. Compiling a source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133224Z" creationid="Administrator" creationdate="20150427T133224Z">
+        <seg>示例 23.7. 编译源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.8. Assembling a JAR for a source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133423Z" creationid="Administrator" creationdate="20150427T133423Z">
+        <seg>示例 23.8. 为一个源集装配一个JAR文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.9. Generating the Javadoc for a source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133446Z" creationid="Administrator" creationdate="20150427T133446Z">
+        <seg>示例 23.9. 为一个源集生成 Javadoc：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6464,6 +6528,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, for a source set called &lt;c1&gt;intTest&lt;/c1&gt;, you can run &lt;s2&gt;&lt;c3&gt;gradle intTestClasses&lt;/c3&gt;&lt;/s2&gt; to compile the int test classes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133209Z" creationid="Administrator" creationdate="20150427T133209Z">
+        <seg>例如，对于一个被叫做&lt;c1&gt;intTest&lt;/c1&gt;的源集，你可以运行&lt;s2&gt;&lt;c3&gt;gradle intTestClasses&lt;/c3&gt;&lt;/s2&gt;来编译 int 测试类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, the &lt;a0&gt;&lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt; task has a &lt;c2&gt;source&lt;/c2&gt; property, which defines the source files to compile.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122938Z" creationid="msdx" creationdate="20141113T122938Z">
@@ -6692,6 +6764,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T035504Z" creationid="Administrator" creationdate="20150425T035504Z">
         <seg>生成关于Gradle构建中有用的信息的报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generating Javadoc for a source set:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133436Z" creationid="Administrator" creationdate="20150427T133436Z">
+        <seg>为一个源集生成 Javadoc：</seg>
       </tuv>
     </tu>
     <tu>
@@ -7848,6 +7928,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It supports the core javadoc options and the options of the standard doclet described in the &lt;a3&gt;reference documentation&lt;/a3&gt; of the Javadoc executable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133821Z" creationid="Administrator" creationdate="20150427T133821Z">
+        <seg>它支持核心的 javadoc 参数选项，以及在Javadoc可执行文件的&lt;a3&gt;参考文档&lt;/a3&gt;中描述的标准 doclet 参数选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It works the same way as the task with some major limitations though.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131524Z" creationid="msdx" creationdate="20141113T131524Z">
@@ -8652,6 +8740,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153417Z" creationid="msdx" creationdate="20141115T153417Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle hello&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle intTestClasses&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133232Z" creationid="Administrator" creationdate="20150427T133232Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle intTestClasses&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -9888,6 +9984,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;javadoc&lt;/c0&gt; task is an instance of &lt;a1&gt;&lt;c2&gt;Javadoc&lt;/c2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133640Z" creationid="Administrator" creationdate="20150427T133640Z">
+        <seg>&lt;c0&gt;Javadoc&lt;/c0&gt;任务是&lt;a1&gt;&lt;c2&gt;Javadoc&lt;/c2&gt;&lt;/a1&gt;的一个实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c1&gt;-D&lt;/c1&gt; option of the &lt;s2&gt;&lt;s3&gt;gradle&lt;/s3&gt;&lt;/s2&gt; command has the same effect as the &lt;c4&gt;-D&lt;/c4&gt; option of the &lt;s5&gt;&lt;s6&gt;java&lt;/s6&gt;&lt;/s5&gt; command.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T075935Z" creationid="msdx" creationdate="20141109T075935Z">
@@ -10092,6 +10196,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T073624Z" creationid="msdx" creationdate="20141123T154319Z">
         <seg>Java 插件添加了&lt;s0&gt;&lt;e1&gt; source sets&lt;/e1&gt;&lt;/s0&gt; 的概念 （见&lt;a2&gt;&lt;c3&gt;SourceSet&lt;/c3&gt;&lt;/a2&gt;） 来描述的源文件集的各个方面，其中一个方面是在编译的时候这些类文件应该被写到哪个地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java plugin also adds a number of tasks which assemble the classes for the source set, as shown in &lt;a0&gt;Table 23.2, “Java plugin - source set tasks”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133125Z" creationid="Administrator" creationdate="20150427T133125Z">
+        <seg>Java 插件还添加了大量的任务，用于组装源集的类，如&lt;a0&gt;表 23.2，“Java 插件 - 源设置任务”&lt;/a0&gt;所示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12696,6 +12808,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you define a new source set, the Java plugin adds some dependency configurations for the source set, as shown in &lt;a0&gt;Table 23.6, “Java plugin - source set dependency configurations”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T132936Z" creationid="Administrator" creationdate="20150427T132936Z">
+        <seg>当您定义一个新的源集时，Java 插件会为该源集添加一些依赖配置，如&lt;a0&gt;表 23.6，“Java 插件 - 源集依赖项配置”&lt;/a0&gt;所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you import an Ant build, each Ant target is treated as a Gradle task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060755Z" creationid="msdx" creationdate="20141116T060755Z">
@@ -13300,6 +13420,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120455Z" creationid="msdx" creationdate="20141113T120455Z">
         <seg>您可以使用档案的内容，如 ZIP 或者 TAR 文件，作为一个文件树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use these configurations to define the compile and runtime dependencies of the source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T132956Z" creationid="Administrator" creationdate="20150427T132956Z">
+        <seg>你可以使用这些配置来定义源集的编译和运行时的依赖。</seg>
       </tuv>
     </tu>
     <tu>
