@@ -4906,6 +4906,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Conversely, Gradle's direct compiler integration (see above) will reuse the same compiler process as much as possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135927Z" creationid="Administrator" creationdate="20150427T135927Z">
+        <seg>相反，Gradle 的直接编译器集成 （见上文） 将尽可能多地重用相同的编译器进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copies of this document may be made for your own use and for distribution to others, provided that you do not charge any fee for such copies and further provided that each copy contains this Copyright Notice, whether distributed in print or electronically.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T164334Z" creationid="msdx" creationdate="20141109T161737Z">
@@ -7700,6 +7708,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162208Z" creationid="msdx" creationdate="20141122T162208Z">
         <seg>在上述例子中，我们使用短名称&lt;c0&gt;java&lt;/c0&gt;去应用&lt;a1&gt;&lt;c2&gt;JavaPlugin&lt;/c2&gt;&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the case of the Ant javac task, this means that a new process will be forked for each compile task, which can slow down compilation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135858Z" creationid="Administrator" creationdate="20150427T135858Z">
+        <seg>在 Ant javac 任务中，这意味着将会为每一个compile任务fork一个新的进程，而这将会使编译变慢。</seg>
       </tuv>
     </tu>
     <tu>
