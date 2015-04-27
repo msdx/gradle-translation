@@ -4322,6 +4322,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, the Java compiler runs in the Gradle process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135535Z" creationid="Administrator" creationdate="20150427T135535Z">
+        <seg>默认情况下，Java 编译器在 Gradle 过程中运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By requiring special syntax for adding a property, Gradle can fail fast when an attempt is made to set a (predefined or extra) property but the property is misspelled or does not exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054756Z" creationid="msdx" creationdate="20141108T054756Z">
@@ -7592,6 +7600,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In a future Gradle release, this will become the default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135519Z" creationid="Administrator" creationdate="20150427T135519Z">
+        <seg>在未来的 Gradle 版本中，将把它作为默认设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In a multi project build, &lt;c2&gt;systemProp.&lt;/c2&gt; properties set in any project except the root will be ignored.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T150501Z" creationid="msdx" creationdate="20141109T150451Z">
@@ -9344,6 +9360,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setting &lt;c0&gt;options.fork&lt;/c0&gt; to &lt;c1&gt;true&lt;/c1&gt; causes compilation to occur in a separate process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135610Z" creationid="Administrator" creationdate="20150427T135610Z">
+        <seg>将&lt;c0&gt;options.fork&lt;/c0&gt;设置为&lt;c1&gt;true&lt;/c1&gt;将会使编译出现在一个单独的进程中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Setting &lt;c0&gt;options.useAnt&lt;/c0&gt; to &lt;c1&gt;false&lt;/c1&gt; activates Gradle's direct compiler integration, bypassing the Ant task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135452Z" creationid="Administrator" creationdate="20150427T135452Z">
+        <seg>将&lt;c0&gt;options.useAnt&lt;/c0&gt;设置为&lt;c1&gt;false&lt;/c1&gt;将绕过 Ant 任务，而激活 Gradle 的直接编译器集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting it to &lt;c2&gt;false&lt;/c2&gt; prevents the execution of any of the task's actions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055733Z" creationid="msdx" creationdate="20141111T055659Z">
@@ -10636,6 +10668,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T123500Z" creationid="msdx" creationdate="20141110T123437Z">
         <seg>这个闭包应该返回一个 &lt;c0&gt;Task&lt;/c0&gt; 对象或是&lt;c1&gt;Task&lt;/c1&gt; 对象的集合，返回值会被作为这个任务的依赖项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The compile task delegates to Ant's javac task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135401Z" creationid="Administrator" creationdate="20150427T135401Z">
+        <seg>compile任务委派了Ant 的 javac 任务。</seg>
       </tuv>
     </tu>
     <tu>
