@@ -1686,6 +1686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.7. Working with source sets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050419Z" creationid="Administrator" creationdate="20150427T050419Z">
+        <seg>23.7. 使用源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162018Z" creationid="msdx" creationdate="20141109T162018Z">
@@ -10720,6 +10728,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The source set container works pretty much the same way as other containers, such as &lt;c4&gt;tasks&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050716Z" creationid="Administrator" creationdate="20150427T050716Z">
+        <seg>源集容器的使用方式几乎与其他容器一样，例如&lt;c4&gt;tasks&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The suppleness and richness of Gradle finally allows you to apply common design principles to your build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T124838Z" creationid="msdx" creationdate="20141101T124838Z">
@@ -10984,6 +11000,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is also a &lt;c3&gt;sourceSets { }&lt;/c3&gt; script block, which you can pass a closure to configure the source set container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050628Z" creationid="Administrator" creationdate="20150427T050628Z">
+        <seg>除此之后，还有一个&lt;c3&gt;sourceSets {}&lt;/c3&gt;的脚本块，可以传入一个闭包来配置源集容器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is also a filter so that uncommon tasks can be hidden.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T151134Z" creationid="msdx" creationdate="20141105T151134Z">
@@ -11132,6 +11156,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T030746Z" creationid="Administrator" creationdate="20150425T030746Z">
         <seg>以下这些插件提供了一些与各种运行时技术的集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These properties are provided by convention objects of type &lt;a0&gt;&lt;c1&gt;JavaPluginConvention&lt;/c1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;c3&gt;BasePluginConvention&lt;/c3&gt;&lt;/a2&gt; and &lt;a4&gt;&lt;c5&gt;ReportingBasePluginConvention&lt;/c5&gt;&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050405Z" creationid="Administrator" creationdate="20150427T050405Z">
+        <seg>这些属性由&lt;a0&gt;&lt;c1&gt;JavaPluginConvention&lt;/c1&gt;&lt;/a0&gt;， &lt;a2&gt; &lt;c3&gt;BasePluginConvention&lt;/c3&gt;&lt;/a2&gt;和&lt;a4&gt;&lt;c5&gt;ReportingBasePluginConvention&lt;/c5&gt;&lt;/a4&gt;这些类型的常规对象提供。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11412,6 +11444,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T125840Z" creationid="msdx" creationdate="20141116T125840Z">
         <seg>该接口扩展自 SLF4J的 &lt;c3&gt;Logger&lt;/c3&gt;接口，并添加了几个 Gradle 的特有方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is a container for the project's source sets, of type &lt;a1&gt;&lt;c2&gt;SourceSetContainer&lt;/c2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050526Z" creationid="Administrator" creationdate="20150427T050526Z">
+        <seg>这是项目的源集的容器，它的类型是 &lt;a1&gt; &lt;c2&gt;SourceSetContainer&lt;/c2&gt;&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12564,6 +12604,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T082149Z" creationid="msdx" creationdate="20141110T081714Z">
         <seg>您可以从任何项目中，使用&lt;c0&gt;tasks.getByPath()&lt;/c0&gt;方法获取任务路径并且通过这个路径来访问任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can access the source sets of a project using the &lt;c0&gt;sourceSets&lt;/c0&gt; property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050501Z" creationid="Administrator" creationdate="20150427T050501Z">
+        <seg>你可以使用&lt;c0&gt;sourceSets&lt;/c0&gt;属性访问项目的源集。</seg>
       </tuv>
     </tu>
     <tu>
