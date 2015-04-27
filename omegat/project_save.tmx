@@ -4258,6 +4258,22 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Can also set using a String or Number, e.g. &lt;c2&gt;'1.5'&lt;/c2&gt; or &lt;c3&gt;1.5&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045922Z" creationid="Administrator" creationdate="20150427T045922Z">
+        <seg>可以使用字符串或数字来设置，例如&lt;c2&gt;"1.5"&lt;/c2&gt;或&lt;c3&gt;1.5&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Can also set using a String or a Number, e.g. &lt;c2&gt;'1.5'&lt;/c2&gt; or &lt;c3&gt;1.5&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045758Z" creationid="Administrator" creationdate="20150427T045758Z">
+        <seg>可以使用字符串或数字来设置，例如&lt;c2&gt;"1.5"&lt;/c2&gt;或&lt;c3&gt;1.5&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Changing what Gradle logs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141513Z" creationid="Administrator" creationdate="20150330T141513Z">
@@ -4726,6 +4742,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084630Z" creationid="Administrator" creationdate="20150426T084630Z">
         <seg>包含本项目运行时所需要的构件和依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Contains the project's source sets.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045731Z" creationid="Administrator" creationdate="20150427T045731Z">
+        <seg>包含项目的源集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7776,6 +7800,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Java version compatibility to use when compiling Java source.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045851Z" creationid="Administrator" creationdate="20150427T045851Z">
+        <seg>当编译Java源代码时所使用的Java版本兼容性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Java version to generate classes for.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045931Z" creationid="Administrator" creationdate="20150427T045931Z">
+        <seg>要生成的类的 Java 版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Just enter whatever you would normally enter after 'gradle' on the command line.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141211T030824Z" creationid="msdx" creationdate="20141105T160336Z">
@@ -8052,6 +8092,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083139Z" creationid="Administrator" creationdate="20150426T083139Z">
         <seg>这些目录都不需要一定存在，或者是里面有什么内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Not null</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045721Z" creationid="Administrator" creationdate="20150427T045721Z">
+        <seg>非空</seg>
       </tuv>
     </tu>
     <tu>
@@ -9496,6 +9544,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 23.8. Java plugin - other properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045707Z" creationid="Administrator" creationdate="20150427T045707Z">
+        <seg>表 23.8. Java 插件 - 其他属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -10120,6 +10176,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The basename to use for archives, such as JAR or ZIP files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050020Z" creationid="Administrator" creationdate="20150427T050020Z">
+        <seg>像JAR或ZIP文件这样的构件的basename</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The basic idea is that the gradle command forks a daemon process, which performs the actual build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T151625Z" creationid="msdx" creationdate="20141117T151625Z">
@@ -10256,26 +10320,42 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The directory to generate distributions into.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045519Z" creationid="Administrator" creationdate="20150427T045519Z">
+        <seg>要发布的文件将生成到此目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The directory to generate documentation into.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045603Z" creationid="Administrator" creationdate="20150427T045603Z">
+        <seg>要生成文档的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The directory to generate libraries into.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045215Z" creationid="Administrator" creationdate="20150427T045215Z">
-        <seg>该目录用于存放</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045318Z" creationid="Administrator" creationdate="20150427T045215Z">
+        <seg>类库将生成到此目录中。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The directory to generate reports into.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T090024Z" creationid="Administrator" creationdate="20150426T090024Z">
-        <seg>该目录用于存放生成报告。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045406Z" creationid="Administrator" creationdate="20150426T090024Z">
+        <seg>报告将生成到此目录。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The directory to generate test result .xml files into.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045103Z" creationid="Administrator" creationdate="20150427T045103Z">
-        <seg>测试报告的.xml文件将在此目录中生成。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045439Z" creationid="Administrator" creationdate="20150427T045103Z">
+        <seg>测试报告的.xml文件将生成到此目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10290,8 +10370,16 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>The directory to generate the test report into.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045134Z" creationid="Administrator" creationdate="20150427T045134Z">
-        <seg>测试报告将在此目录中生成。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045502Z" creationid="Administrator" creationdate="20150427T045134Z">
+        <seg>测试报告生成到此目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The directory to use to cache source dependency information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045651Z" creationid="Administrator" creationdate="20150427T045651Z">
+        <seg>该目录用于缓存源代码的依赖信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10392,6 +10480,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The manifest to include in all JAR files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050058Z" creationid="Administrator" creationdate="20150427T050058Z">
+        <seg>要包括的所有 JAR 文件的清单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The method call returns the Ant data type, which you can then use directly in your build script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011039Z" creationid="msdx" creationdate="20141116T011039Z">
@@ -10408,34 +10504,58 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the directory to generate distributions into, relative to the build directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045340Z" creationid="Administrator" creationdate="20150427T045340Z">
+        <seg>相对于build目录的目录名称，发布的文件将生成到此目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the directory to generate documentation into, relative to the build directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045531Z" creationid="Administrator" creationdate="20150427T045531Z">
+        <seg>相对于build目录的目录名称，文档将生成到此目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name of the directory to generate libraries into, relative to the build directory.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045158Z" creationid="Administrator" creationdate="20150427T045158Z">
-        <seg>相对于build目录的目录名称，该目录用于存放生成的类库。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045305Z" creationid="Administrator" creationdate="20150427T045158Z">
+        <seg>相对于build目录的目录名称，类库将生成到此目录中。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The name of the directory to generate reports into, relative to the build directory.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T044930Z" creationid="Administrator" creationdate="20150426T085942Z">
-        <seg>相对于build目录的目录名称，该目录用于存放生成的报告。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045352Z" creationid="Administrator" creationdate="20150426T085942Z">
+        <seg>相对于build目录的目录名称，报告将生成到此目录。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The name of the directory to generate test result .xml files into, relative to the build directory.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045024Z" creationid="Administrator" creationdate="20150427T045024Z">
-        <seg>相对于build目录的目录名称，该目录用于存放生成的报告的.xml 文件。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045424Z" creationid="Administrator" creationdate="20150427T045024Z">
+        <seg>相对于build目录的目录名称，测试报告的.xml文件将生成到此目录。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The name of the directory to generate the test report into, relative to the reports directory.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045122Z" creationid="Administrator" creationdate="20150427T045122Z">
-        <seg>相对于build目录的目录名称，测试报告将在此目录中生成。</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045453Z" creationid="Administrator" creationdate="20150427T045122Z">
+        <seg>相对于build目录的目录名称，测试报告将生成到此目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the directory to use to cache source dependency information, relative to the build directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045638Z" creationid="Administrator" creationdate="20150427T045638Z">
+        <seg>相对于build目录的目录名称，该目录用于缓存源代码的依赖信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12000,6 +12120,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Value of the current used JVM</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045816Z" creationid="Administrator" creationdate="20150427T045816Z">
+        <seg>当前JVM所使用的值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Version 1.12</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161608Z" creationid="msdx" creationdate="20141109T161608Z">
@@ -13132,6 +13260,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T070714Z" creationid="Administrator" creationdate="20150425T070714Z">
         <seg>添加上传&lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>an empty manifest</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050033Z" creationid="Administrator" creationdate="20150427T050033Z">
+        <seg>一个空的清单</seg>
       </tuv>
     </tu>
     <tu>
