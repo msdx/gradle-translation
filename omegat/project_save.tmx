@@ -710,6 +710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/java/archives/ManifestMergeDetails.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145619Z" creationid="msdx" creationdate="20150428T145619Z">
+        <seg>../javadoc/org/gradle/api/java/archives/ManifestMergeDetails.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/logging/Logger.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T122541Z" creationid="msdx" creationdate="20141116T122541Z">
@@ -3354,6 +3362,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s4&gt;if&lt;/s4&gt; (details.baseValue != details.mergeValue) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145617Z" creationid="msdx" creationdate="20150428T145617Z">
+        <seg>&lt;s4&gt;if&lt;/s4&gt; (details.baseValue != details.mergeValue) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s4&gt;public&lt;/s4&gt; &lt;s5&gt;void&lt;/s5&gt; beforeExecute(Task task) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154816Z" creationid="msdx" creationdate="20141116T154816Z">
@@ -3390,6 +3406,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060916Z" creationid="msdx" creationdate="20141116T060916Z">
         <seg>&lt;s5&gt;&lt;echo&gt;&lt;/s5&gt;Hello, from Ant&lt;s6&gt;&lt;/echo&gt;&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s5&gt;if&lt;/s5&gt; (details.key == &lt;s6&gt;'foo'&lt;/s6&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145618Z" creationid="msdx" creationdate="20150428T145618Z">
+        <seg>&lt;s5&gt;if&lt;/s5&gt; (details.key == &lt;s6&gt;'foo'&lt;/s6&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -6980,6 +7004,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.17. Separate MANIFEST.MF for a particular archive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145615Z" creationid="msdx" creationdate="20150428T145615Z">
+        <seg>示例 23.17. 指定archive的单独MANIFEST.MF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 23.2. Custom Java source layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083815Z" creationid="Administrator" creationdate="20150426T083815Z">
@@ -9408,6 +9440,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083246Z" creationid="msdx" creationdate="20150428T083246Z">
         <seg>Manifest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Manifest are merged in the order they are declared by the &lt;c0&gt;from&lt;/c0&gt; statement.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145620Z" creationid="msdx" creationdate="20150428T145620Z">
+        <seg>Manifest are merged in the order they are declared by the &lt;c0&gt;from&lt;/c0&gt; statement.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12508,6 +12548,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The other manifests might be either described by a file path or, like in the example above, by a reference to another &lt;c1&gt;Manifest&lt;/c1&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145536Z" creationid="msdx" creationdate="20150428T145536Z">
+        <seg>其他的manifest可能使用文件路径来描述，像上面的例子，使用对另一个&lt;c1&gt;Manifest&lt;/c1&gt;对象的引用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The other results currently cannot be disabled.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T142151Z" creationid="msdx" creationdate="20150428T142151Z">
@@ -15116,6 +15164,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can merge other manifests into any &lt;c0&gt;Manifest&lt;/c0&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145414Z" creationid="msdx" creationdate="20150428T145414Z">
+        <seg>你可以把其他的manifest 合并到任何一个&lt;c0&gt;Manifest&lt;/c0&gt;对象中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can pass any object to the &lt;c0&gt;file()&lt;/c0&gt; method, and it will attempt to convert the value to an absolute &lt;c1&gt;File&lt;/c1&gt; object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T142819Z" creationid="msdx" creationdate="20141112T043528Z">
@@ -16150,6 +16206,14 @@ task myZip(type: Zip) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>attributes key1: &lt;s0&gt;'value1'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145616Z" creationid="msdx" creationdate="20150428T145616Z">
+        <seg>attributes key1: &lt;s0&gt;'value1'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>attributes(&lt;s0&gt;"Implementation-Title"&lt;/s0&gt;: &lt;s1&gt;"Gradle"&lt;/s1&gt;, &lt;s2&gt;"Implementation-Version"&lt;/s2&gt;: version)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145225Z" creationid="msdx" creationdate="20150428T145225Z">
@@ -16800,6 +16864,22 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>details.exclude()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145618Z" creationid="msdx" creationdate="20150428T145618Z">
+        <seg>details.exclude()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>details.value = baseValue</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145617Z" creationid="msdx" creationdate="20150428T145617Z">
+        <seg>details.value = baseValue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dir</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083441Z" creationid="msdx" creationdate="20150428T083441Z">
@@ -16900,6 +16980,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083242Z" creationid="msdx" creationdate="20150428T083242Z">
         <seg>docsDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>eachEntry { details -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145617Z" creationid="msdx" creationdate="20150428T145617Z">
+        <seg>eachEntry { details -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17348,6 +17436,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from sharedManifest, &lt;s1&gt;'src/config/basemanifest.txt'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145616Z" creationid="msdx" creationdate="20150428T145616Z">
+        <seg>from sharedManifest, &lt;s1&gt;'src/config/basemanifest.txt'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from sourceSets.intTest.output
 }</seg>
       </tuv>
@@ -17370,6 +17466,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130956Z" creationid="msdx" creationdate="20141113T130956Z">
         <seg>from zipTree(&lt;s7&gt;'src/main/assets.zip'&lt;/s7&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from(&lt;s2&gt;'src/config/javabasemanifest.txt'&lt;/s2&gt;, &lt;s3&gt;'src/config/libbasemanifest.txt'&lt;/s3&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145616Z" creationid="msdx" creationdate="20150428T145616Z">
+        <seg>from(&lt;s2&gt;'src/config/javabasemanifest.txt'&lt;/s2&gt;, &lt;s3&gt;'src/config/libbasemanifest.txt'&lt;/s3&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -20120,6 +20224,14 @@ systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130947Z" creationid="msdx" creationdate="20141113T130947Z">
         <seg>task anotherCopyTask(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task barJar(type: Jar) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145615Z" creationid="msdx" creationdate="20150428T145615Z">
+        <seg>task barJar(type: Jar) {</seg>
       </tuv>
     </tu>
     <tu>
