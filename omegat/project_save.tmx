@@ -6408,6 +6408,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>File-level test selection does not support many interesting scenarios that are possible with test-level filtering.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T022213Z" creationid="Administrator" creationdate="20150428T022213Z">
+        <seg>file-level 的测试选择不支持的很多有趣的情况，都可以用 test-level 过滤来做到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>FileCollection</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160944Z" creationid="msdx" creationdate="20141112T160944Z">
@@ -6420,6 +6428,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155529Z" creationid="msdx" creationdate="20141112T155529Z">
         <seg>FileCollection collection = files(&lt;s0&gt;'src/file1.txt'&lt;/s0&gt;, &lt;s1&gt;new&lt;/s1&gt; File(&lt;s2&gt;'src/file2.txt'&lt;/s2&gt;), [&lt;s3&gt;'src/file3.txt'&lt;/s3&gt;, &lt;s4&gt;'src/file4.txt'&lt;/s4&gt;])</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Filtering at the level of specific test methods; executing a single test method</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T022430Z" creationid="Administrator" creationdate="20150428T022411Z">
+        <seg>在指定的测试的方法级别上进行过滤；执行单个测试方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Filtering based on custom annotations (future)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T022542Z" creationid="Administrator" creationdate="20150428T022542Z">
+        <seg>基于自定义注解（以后实现）进行过滤</seg>
       </tuv>
     </tu>
     <tu>
@@ -9612,6 +9636,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134955Z" creationid="Administrator" creationdate="20150427T134950Z">
         <seg>一些最常见的配置选项如下所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some of them Gradle handles now and some will be satisfied in the future releases:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T022319Z" creationid="Administrator" creationdate="20150428T022319Z">
+        <seg>这些场景中，有一些Gradle现在就可以处理，而有一些则将在未来得到实现：</seg>
       </tuv>
     </tu>
     <tu>
