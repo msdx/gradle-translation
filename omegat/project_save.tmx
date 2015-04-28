@@ -1662,6 +1662,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.12.2. Debugging</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015418Z" creationid="Administrator" creationdate="20150428T015418Z">
+        <seg>23.12.2. 调试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.2. Source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T073944Z" creationid="Administrator" creationdate="20150425T073900Z">
@@ -9392,6 +9400,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;&lt;c2&gt;TestLoggingContainer&lt;/c2&gt;&lt;/a1&gt; for how to tune test logging to your preferences.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015414Z" creationid="Administrator" creationdate="20150428T015414Z">
+        <seg>请参阅&lt;a1&gt;&lt;c2&gt;TestLoggingContainer&lt;/c2&gt;&lt;/a1&gt;，查看如何把你的测试日志打印调整为你的偏好设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Chapter 19, &lt;i3&gt;The Gradle Daemon&lt;/i3&gt;&lt;/a2&gt; for more details.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141159Z" creationid="msdx" creationdate="20141121T141159Z">
@@ -11524,6 +11540,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T014914Z" creationid="Administrator" creationdate="20150428T013313Z">
         <seg>测试进程程会为其将&lt;c0&gt;org.gradle.test.worker&lt;/c0&gt;系统属性设置为一个唯一标识符，这个标识符可以用于文件名称或其他资源标识符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The test task provides a &lt;a0&gt;&lt;c1&gt;Test.getDebug()&lt;/c1&gt;&lt;/a0&gt; property that can be set to launch to make the JVM wait for a debugger to attach to port 5005 before proceeding with test execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015719Z" creationid="Administrator" creationdate="20150428T015719Z">
+        <seg>test任务提供了一个&lt;a0&gt;&lt;c1&gt;Test.getDebug()&lt;/c1&gt;&lt;/a0&gt;属性，可以设置为启动，使JVM在执行测试之前，等待一个debugger连接到它的5005端口上。</seg>
       </tuv>
     </tu>
     <tu>
