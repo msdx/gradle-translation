@@ -1902,10 +1902,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.12.8. Convention values</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144333Z" creationid="msdx" creationdate="20150428T144333Z">
+        <seg>23.12.8. 常规值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.12. Test</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083448Z" creationid="msdx" creationdate="20150428T083448Z">
         <seg>23.12. Test</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>23.13. Jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144402Z" creationid="msdx" creationdate="20150428T144402Z">
+        <seg>23.13. Jar</seg>
       </tuv>
     </tu>
     <tu>
@@ -7756,6 +7772,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Given a parameterized test method named &lt;c0&gt;aParameterizedTestMethod&lt;/c0&gt; that takes two parameters, it will be reported with the name: &lt;c1&gt;aParameterizedTestMethod(toStringValueOfParam1, toStringValueOfParam2)&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144147Z" creationid="msdx" creationdate="20150428T144147Z">
+        <seg>给定一个带有两个参数，名为&lt;c0&gt;aParameterizedTestMethod&lt;/c0&gt;参数化测试方法，它将使用名称这个名称进行报告 ：&lt;c1&gt;aParameterizedTestMethod(toStringValueOfParam1, toStringValueOfParam2)&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle User Guide</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T031304Z" creationid="msdx" creationdate="20141030T071145Z">
@@ -9264,6 +9288,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T092703Z" creationid="msdx" creationdate="20141110T092629Z">
         <seg>该例子的第 3 行只是&lt;c2&gt;tasks.getByName()&lt;/c2&gt;方法的简洁写法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>List&lt;File&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144359Z" creationid="msdx" creationdate="20150428T144359Z">
+        <seg>List&lt;File&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11012,6 +11044,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 23.14. Java plugin - test properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144354Z" creationid="msdx" creationdate="20150428T144354Z">
+        <seg>表 23.14. Java 插件 - test属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Table 23.2. Java plugin - source set tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005713Z" creationid="Administrator" creationdate="20150426T005713Z">
@@ -11372,6 +11412,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;jar&lt;/c0&gt; task creates a JAR file containing the class files and resources of the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144442Z" creationid="msdx" creationdate="20150428T144404Z">
+        <seg>&lt;c0&gt;Jar&lt;/c0&gt;任务创建一个包含类文件和项目资源的 JAR 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;javadoc&lt;/c0&gt; task is an instance of &lt;a1&gt;&lt;c2&gt;Javadoc&lt;/c2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133640Z" creationid="Administrator" creationdate="20150427T133640Z">
@@ -11568,6 +11616,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T064057Z" creationid="msdx" creationdate="20141030T064057Z">
         <seg>Groovy插件继承了 &lt;c0&gt;compile&lt;/c0&gt; task ， &lt;c1&gt;src/main/groovy&lt;/c1&gt;目录中查找源文件；还有 &lt;c2&gt;compileTest&lt;/c2&gt; task，在&lt;c3&gt;src/test/groovy&lt;/c3&gt;目录中查找测试的源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The JAR file is declared as an artifact in the &lt;c1&gt;archives&lt;/c1&gt; dependency configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144519Z" creationid="msdx" creationdate="20150428T144406Z">
+        <seg>JAR 文件在&lt;c1&gt;archives&lt;/c1&gt;依赖配置中被声明为一个构件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13556,6 +13612,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This makes identifying the parameter values for a particular iteration easy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144321Z" creationid="msdx" creationdate="20150428T144321Z">
+        <seg>这使得在特定的迭代过程，很容易确定参数值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means that Gradle must launch a separate JVM process to execute the build after parsing the various &lt;c0&gt;gradle.properties&lt;/c0&gt; files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T081859Z" creationid="msdx" creationdate="20141120T081853Z">
@@ -13584,6 +13648,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T143752Z" creationid="msdx" creationdate="20150428T143752Z">
         <seg>这意味着，如果一个给定的测试类被多个test任务所执行，那么测试报告将包括那个类的所有执行结果，但它难以区分那个类的每次执行和它们的输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that the JAR is available in the classpath of a dependent project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144617Z" creationid="msdx" creationdate="20150428T144617Z">
+        <seg>这意味着这个JAR文件被包含在一个依赖它的项目的类路径中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19736,6 +19808,30 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sourceSets.test.java.srcDirs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144359Z" creationid="msdx" creationdate="20150428T144359Z">
+        <seg>sourceSets.test.java.srcDirs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceSets.test.output.classesDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144356Z" creationid="msdx" creationdate="20150428T144356Z">
+        <seg>sourceSets.test.output.classesDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceSets.test.runtimeClasspath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144358Z" creationid="msdx" creationdate="20150428T144358Z">
+        <seg>sourceSets.test.runtimeClasspath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>springVersion = &lt;s1&gt;"3.1.0.RELEASE"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T050710Z" creationid="msdx" creationdate="20141108T050710Z">
@@ -20268,6 +20364,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>testClassesDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144355Z" creationid="msdx" creationdate="20150428T144355Z">
+        <seg>testClassesDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>testClassesDir = sourceSets.intTest.output.classesDir</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083432Z" creationid="msdx" creationdate="20150428T083432Z">
@@ -20330,6 +20434,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083232Z" creationid="msdx" creationdate="20150428T083232Z">
         <seg>testRuntime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testSrcDirs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144358Z" creationid="msdx" creationdate="20150428T144358Z">
+        <seg>testSrcDirs</seg>
       </tuv>
     </tu>
     <tu>
@@ -20910,6 +21022,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155235Z" creationid="msdx" creationdate="20141113T155235Z">
         <seg>working_with_files.html#archiveTasksNamingProperties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>working_with_files.html#sec:archives</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144403Z" creationid="msdx" creationdate="20150428T144403Z">
+        <seg>working_with_files.html#sec:archives</seg>
       </tuv>
     </tu>
     <tu>
