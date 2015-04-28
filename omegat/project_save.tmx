@@ -3954,6 +3954,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An exception is thrown if no tests can be found for a particular subproject.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035944Z" creationid="Administrator" creationdate="20150428T035944Z">
+        <seg>如果在一个特定的子项目中，找不到测试用例，那么将会抛出异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And the &lt;a0&gt;&lt;c1&gt;Project&lt;/c1&gt;&lt;/a0&gt; interface is your starting point for accessing everything in the Gradle API.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T041035Z" creationid="msdx" creationdate="20141108T041035Z">
@@ -7572,6 +7580,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035632Z" creationid="Administrator" creationdate="20150428T035632Z">
         <seg>如果这个模式无法找到任何测试，那么将会抛出一个异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If tests of more than one subproject are executed, the pattern is applied to each subproject.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035831Z" creationid="Administrator" creationdate="20150428T035831Z">
+        <seg>如果执行了一个以上的子项目的测试，该模式会被应用于每一个子项目中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12556,6 +12572,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T064058Z" creationid="msdx" creationdate="20141111T064055Z">
         <seg>这是不相关的任务可以在不互相干扰的情况下共用一个输出目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is to shield you from false security.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035744Z" creationid="Administrator" creationdate="20150428T035744Z">
+        <seg>这是为了使你不会误以为测试通过。</seg>
       </tuv>
     </tu>
     <tu>
