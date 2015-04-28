@@ -1694,6 +1694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.12.6. Test grouping</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T082059Z" creationid="Administrator" creationdate="20150428T082059Z">
+        <seg>23.12.6. 测试分组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.2. Source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T073944Z" creationid="Administrator" creationdate="20150425T073900Z">
@@ -6872,6 +6880,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For include this is &lt;c2&gt;"**/*Tests.class", "**/*Test.class"&lt;/c2&gt; and the for exclude it is &lt;c3&gt;"**/Abstract*.class"&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T082053Z" creationid="Administrator" creationdate="20150428T082053Z">
+        <seg>对于 include 的默认值是 &lt;c2&gt;"**/*Tests.class"， "**/*Test.class"&lt;/c2&gt;，而对于exclude它的默认值是 &lt;c3&gt;"**/Abstract*.class"&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For local developer builds this is our favorite property.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153652Z" creationid="msdx" creationdate="20141119T153652Z">
@@ -8372,6 +8388,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160046Z" creationid="msdx" creationdate="20141113T160032Z">
         <seg>JAR包和 WAR包会生成到 &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;project.buildDir&lt;/c2&gt;&lt;/e1&gt;/libraries&lt;/c0&gt;中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>JUnit and TestNG allows sophisticated groupings of test methods.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T082136Z" creationid="Administrator" creationdate="20150428T082136Z">
+        <seg>JUnit 和 TestNG 可以对测试方法进行复杂的分组。</seg>
       </tuv>
     </tu>
     <tu>
