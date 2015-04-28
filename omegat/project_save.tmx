@@ -1672,8 +1672,8 @@
       <tuv lang="EN-US">
         <seg>23.12.3. Test filtering</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015805Z" creationid="Administrator" creationdate="20150428T015805Z">
-        <seg>23.12.3. 测试筛选</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T021658Z" creationid="Administrator" creationdate="20150428T015805Z">
+        <seg>23.12.3. 测试过滤</seg>
       </tuv>
     </tu>
     <tu>
@@ -6424,6 +6424,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Filtering is a different mechanism than test class inclusion / exclusion that will be described in the next few paragraphs (&lt;c0&gt;-Dtest.single&lt;/c0&gt;, &lt;c1&gt;test.include&lt;/c1&gt; and friends).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T021943Z" creationid="Administrator" creationdate="20150428T021943Z">
+        <seg>过滤，相对于测试类的包含或排除，是一个不同的机制。它将在接下来的段落中进行描述（&lt;c0&gt;-Dtest.single&lt;/c0&gt;， &lt;c1&gt;test.include&lt;/c1&gt;和friends）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Finalizer task will be executed even if the finalized task fails.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T070251Z" creationid="msdx" creationdate="20141111T070251Z">
@@ -11140,6 +11148,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T113121Z" creationid="msdx" creationdate="20141116T113121Z">
         <seg>打印全栈的跟踪信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The latter is based on files, e.g. the physical location of the test implementation class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T022014Z" creationid="Administrator" creationdate="20150428T022008Z">
+        <seg>后者基于文件，比如测试实现类的物理位置。</seg>
       </tuv>
     </tu>
     <tu>
