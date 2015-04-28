@@ -182,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N128BD</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082905Z" creationid="msdx" creationdate="20150428T082905Z">
+        <seg>#ftn.N128BD</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#installation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T141011Z" creationid="msdx" creationdate="20141127T141011Z">
@@ -2522,6 +2530,14 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;10&lt;/a1&gt;]&lt;/s0&gt; The test groups that should be included or excluded from the test execution can be configured in the test task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083121Z" creationid="msdx" creationdate="20150428T083121Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;10&lt;/a1&gt;]&lt;/s0&gt;应从测试执行中include或exclude的测试组，可以在test任务中配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;] &lt;/s0&gt;As of Gradle 1.0-milestone-9, using &lt;c2&gt;ext&lt;/c2&gt; to add extra properties is strongly encouraged but not yet enforced.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065302Z" creationid="msdx" creationdate="20141108T065302Z">
@@ -2564,8 +2580,8 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
       <tuv lang="EN-US">
         <seg>&lt;s0&gt;[&lt;a1&gt;9&lt;/a1&gt;]&lt;/s0&gt; The &lt;c2&gt;test&lt;/c2&gt; task allows the specification of the JUnit categories you want to include and exclude.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082401Z" creationid="msdx" creationdate="20150428T082401Z">
-        <seg>&lt;s0&gt;[&lt;a1&gt;9&lt;/a1&gt;]&lt;/s0&gt; The &lt;c2&gt;test&lt;/c2&gt; task allows the specification of the JUnit categories you want to include and exclude.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082846Z" creationid="msdx" creationdate="20150428T082401Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;9&lt;/a1&gt;]&lt;/s0&gt; &lt;c2&gt;test&lt;/c2&gt;任务可以实现一个规范，让你include和exclude 想要的 JUnit 类别。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6304,6 +6320,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.12. JUnit Categories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082901Z" creationid="msdx" creationdate="20150428T082901Z">
+        <seg>示例 23.12. JUnit 类别</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.13. Grouping TestNG tests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083148Z" creationid="msdx" creationdate="20150428T083148Z">
+        <seg>示例 23.13. 对TestNG 测试分组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 23.2. Custom Java source layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083815Z" creationid="Administrator" creationdate="20150426T083815Z">
@@ -7924,6 +7956,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T102827Z" creationid="msdx" creationdate="20141116T102827Z">
         <seg>在&lt;a1&gt;表 18.3，“栈跟踪的命令行选项”&lt;/a1&gt;中，你可以看到影响栈跟踪日志的命令行开关。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In TestNG you can specify different test groups.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082928Z" creationid="msdx" creationdate="20150428T082928Z">
+        <seg>在 TestNG 中你可以指定不同的测试组。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11052,6 +11092,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T151029Z" creationid="msdx" creationdate="20141105T151029Z">
         <seg>任务树显示了所有项目和它们的任务的层次结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The TestNG framework has a quite similar concept.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082923Z" creationid="msdx" creationdate="20150428T082907Z">
+        <seg>TestNG 框架有一个非常相似的概念。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15544,6 +15592,22 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>excludeCategories &lt;s1&gt;'org.gradle.junit.CategoryB'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082903Z" creationid="msdx" creationdate="20150428T082903Z">
+        <seg>excludeCategories &lt;s1&gt;'org.gradle.junit.CategoryB'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>excludeGroups &lt;s0&gt;'integrationTests'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083148Z" creationid="msdx" creationdate="20150428T083148Z">
+        <seg>excludeGroups &lt;s0&gt;'integrationTests'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>expand(copyright: &lt;s5&gt;'2009'&lt;/s5&gt;, version: &lt;s6&gt;'2.3.1'&lt;/s6&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140844Z" creationid="msdx" creationdate="20141113T140844Z">
@@ -16096,6 +16160,22 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T162755Z" creationid="msdx" creationdate="20141115T162755Z">
         <seg>include(name: &lt;s2&gt;'**.xml'&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>includeCategories &lt;s0&gt;'org.gradle.junit.CategoryA'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082902Z" creationid="msdx" creationdate="20150428T082902Z">
+        <seg>includeCategories &lt;s0&gt;'org.gradle.junit.CategoryA'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>includeGroups &lt;s1&gt;'unitTests'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083149Z" creationid="msdx" creationdate="20150428T083149Z">
+        <seg>includeGroups &lt;s1&gt;'unitTests'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17918,6 +17998,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>test {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082901Z" creationid="msdx" creationdate="20150428T082901Z">
+        <seg>test {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>testCompile &lt;s3&gt;'junit:junit:4.11'&lt;/s3&gt;
 }</seg>
       </tuv>
@@ -18336,6 +18424,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>useJUnit {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082902Z" creationid="msdx" creationdate="20150428T082902Z">
+        <seg>useJUnit {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>useLogger(&lt;s0&gt;new&lt;/s0&gt; CustomEventLogger())
 
 &lt;s1&gt;class&lt;/s1&gt; CustomEventLogger &lt;s2&gt;extends&lt;/s2&gt; BuildAdapter &lt;s3&gt;implements&lt;/s3&gt; TaskExecutionListener {</seg>
@@ -18344,6 +18440,14 @@ task lib1 &lt;&lt; {</seg>
         <seg>useLogger(&lt;s0&gt;new&lt;/s0&gt; CustomEventLogger())
 
 &lt;s1&gt;class&lt;/s1&gt; CustomEventLogger &lt;s2&gt;extends&lt;/s2&gt; BuildAdapter &lt;s3&gt;implements&lt;/s3&gt; TaskExecutionListener {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>useTestNG {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083148Z" creationid="msdx" creationdate="20150428T083148Z">
+        <seg>useTestNG {</seg>
       </tuv>
     </tu>
     <tu>
