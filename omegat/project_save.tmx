@@ -1686,6 +1686,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.12.5. Test detection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T040258Z" creationid="Administrator" creationdate="20150428T040258Z">
+        <seg>23.12.5. 测试检测</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.2. Source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T073944Z" creationid="Administrator" creationdate="20150425T073900Z">
@@ -3922,6 +3930,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternatively you can specify the fully qualified task name to be executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T040215Z" creationid="Administrator" creationdate="20150428T040215Z">
+        <seg>或者你可以指定要执行的任务的完整限定名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, an &lt;c1&gt;ext&lt;/c1&gt; block can be used to add multiple properties at once.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T050644Z" creationid="msdx" creationdate="20141108T050644Z">
@@ -5428,6 +5444,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055546Z" creationid="msdx" creationdate="20141111T055546Z">
         <seg>每一项任务有一个默认值为&lt;c1&gt;true&lt;/c1&gt;的&lt;c0&gt;enabled&lt;/c0&gt;标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Examples:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T040227Z" creationid="Administrator" creationdate="20150428T040227Z">
+        <seg>示例：</seg>
       </tuv>
     </tu>
     <tu>
@@ -7892,6 +7916,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T143155Z" creationid="msdx" creationdate="20141110T142923Z">
         <seg>在某些情况下，控制两个任务的执行的&lt;s0&gt;&lt;e1&gt;顺序&lt;/e1&gt;&lt;/s0&gt;，而不引入这些任务之间的显式依赖，是很有用的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In such a case you can use the path notation of the pattern, so that the pattern is applied only to the test task of a specific subproject.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T040133Z" creationid="Administrator" creationdate="20150428T040133Z">
+        <seg>在这种情况下你可以使用路径标记法的模式，这样该模式就会只应用于特定的子项目的测试任务中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13780,6 +13812,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160359Z" creationid="msdx" creationdate="20141112T155907Z">
         <seg>你也可以向&lt;c0&gt;files()&lt;/c0&gt;方法传一个闭包或一个&lt;c1&gt;Callable&lt;/c1&gt;实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also specify multiple patterns.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T040224Z" creationid="Administrator" creationdate="20150428T040224Z">
+        <seg>你还可以指定多个模式。</seg>
       </tuv>
     </tu>
     <tu>
