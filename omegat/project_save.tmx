@@ -4810,6 +4810,30 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Class or a super class contain a method annotated with &lt;c0&gt;@Test&lt;/c0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T041106Z" creationid="Administrator" creationdate="20150428T041106Z">
+        <seg>类或超类含有一个带&lt;c0&gt;@Test&lt;/c0&gt;注解的方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Class or a super class extends &lt;c0&gt;TestCase&lt;/c0&gt; or &lt;c1&gt;GroovyTestCase&lt;/c1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T041022Z" creationid="Administrator" creationdate="20150428T041022Z">
+        <seg>类或超类继承自&lt;c0&gt;TestCase&lt;/c0&gt;或&lt;c1&gt;GroovyTestCase&lt;/c1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Class or a super class is annotated with &lt;c0&gt;@RunWith&lt;/c0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T041044Z" creationid="Administrator" creationdate="20150428T041044Z">
+        <seg>类或超类使用了&lt;c0&gt;@RunWith&lt;/c0&gt;进行注解</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Command Line</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T031133Z" creationid="msdx" creationdate="20141108T031133Z">
@@ -5196,6 +5220,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163609Z" creationid="msdx" creationdate="20141109T163609Z">
         <seg>依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Depending on the test framework used (JUnit / TestNG) the test class detection uses different criteria.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T040856Z" creationid="Administrator" creationdate="20150428T040856Z">
+        <seg>根据所使用的测试框架 （JUnit 或 TestNG），会使用不同的标准进行测试类的检测。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7584,6 +7616,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If any of the following criteria match, the class is considered to be a JUnit test class:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T041001Z" creationid="Administrator" creationdate="20150428T041001Z">
+        <seg>如果满足以下的任何一个条件，这个类就被认为是一个 JUnit 测试类：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If any of these properties is empty the trailing &lt;c0&gt;-&lt;/c0&gt; is not added to the name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155912Z" creationid="msdx" creationdate="20141113T155912Z">
@@ -8668,6 +8708,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T013921Z" creationid="msdx" creationdate="20141111T013914Z">
         <seg>请注意"&lt;c0&gt;B.mustRunAfter(A)&lt;/c0&gt;"或"&lt;c1&gt;B.shouldRunAfter(A)&lt;/c1&gt;"并不意味着这些任务之间的任何执行上的依赖关系：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that abstract classes are not executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T041207Z" creationid="Administrator" creationdate="20150428T041207Z">
+        <seg>请注意，抽象类不会被执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13540,6 +13588,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T063355Z" creationid="msdx" creationdate="20141108T063355Z">
         <seg>当方法的最后一个参数是一个闭包时，你可以把闭包放在方法调用之后：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When using JUnit, we scan for both JUnit 3 and 4 test classes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T040928Z" creationid="Administrator" creationdate="20150428T040928Z">
+        <seg>当使用 JUnit 时，我们扫描 JUnit 3 和 4 的测试类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When using TestNG, we scan for methods annotated with &lt;c0&gt;@Test&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T041153Z" creationid="Administrator" creationdate="20150428T041153Z">
+        <seg>当使用 TestNG 时，我们扫描所有带有&lt;c0&gt;@Test&lt;/c0&gt;注解的方法。</seg>
       </tuv>
     </tu>
     <tu>
