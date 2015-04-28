@@ -4778,6 +4778,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Command line option "--tests" is provided to conveniently set the test filter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T023048Z" creationid="Administrator" creationdate="20150428T023048Z">
+        <seg>提供了“--tests”的命令行选项，以方便地设置测试过滤器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compile time dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084154Z" creationid="Administrator" creationdate="20150426T084154Z">
@@ -6448,6 +6456,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Filtering based on some custom runtime rule, e.g. particular value of a system property or some static state (future)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T022805Z" creationid="Administrator" creationdate="20150428T022805Z">
+        <seg>基于一些自定义的运行时的规则进行过滤，例如某个系统属性或一些静态的特定值（以后实现）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Filtering based on test hierarchy; executing all tests that extend ceratain base class (future)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T022711Z" creationid="Administrator" creationdate="20150428T022639Z">
+        <seg>基于测试层次结构进行过滤 ；执行所有继承了某一基类（以后实现） 的测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Filtering is a different mechanism than test class inclusion / exclusion that will be described in the next few paragraphs (&lt;c0&gt;-Dtest.single&lt;/c0&gt;, &lt;c1&gt;test.include&lt;/c1&gt; and friends).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T021943Z" creationid="Administrator" creationdate="20150428T021943Z">
@@ -6844,6 +6868,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T141736Z" creationid="msdx" creationdate="20141114T141448Z">
         <seg>这一层 Gradle 单靠 Groovy 和不可思议的 &lt;c3&gt;AntBuilder&lt;/c3&gt;，对其提供了集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fully qualified class name or fully qualified method name is supported, e.g. "org.gradle.SomeTest", "org.gradle.SomeTest.someMethod"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T022956Z" creationid="Administrator" creationdate="20150428T022956Z">
+        <seg>支持完整的限定类名称或完整的限定的方法名称，例如“org.gradle.SomeTest”、“org.gradle.SomeTest.someMethod”</seg>
       </tuv>
     </tu>
     <tu>
@@ -9642,8 +9674,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Some of them Gradle handles now and some will be satisfied in the future releases:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T022319Z" creationid="Administrator" creationdate="20150428T022319Z">
-        <seg>这些场景中，有一些Gradle现在就可以处理，而有一些则将在未来得到实现：</seg>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T022647Z" creationid="Administrator" creationdate="20150428T022319Z">
+        <seg>以下这些场景中，有一些Gradle现在就可以处理，而有一些则将在未来得到实现：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10220,6 +10252,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015031Z" creationid="Administrator" creationdate="20150428T015031Z">
         <seg>test 会始终执行它检测到的每一个测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Test filtering feature has following characteristic:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T022846Z" creationid="Administrator" creationdate="20150428T022846Z">
+        <seg>测试过滤功能具有以下的特征：</seg>
       </tuv>
     </tu>
     <tu>
@@ -13364,6 +13404,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145808Z" creationid="msdx" creationdate="20141113T145808Z">
         <seg>为什么要用 Java 插件？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Wildcard '*' is supported for matching any characters</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T023019Z" creationid="Administrator" creationdate="20150428T023019Z">
+        <seg>通配符 “*” 支付匹配任何字符</seg>
       </tuv>
     </tu>
     <tu>
