@@ -11456,6 +11456,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The test process sets the &lt;c0&gt;org.gradle.test.worker&lt;/c0&gt; system property to a unique identifier for that test process, which you can use, for example, in files names or other resource identifiers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T013313Z" creationid="Administrator" creationdate="20150428T013313Z">
+        <seg>测试进程程会为其将&lt;c0&gt;org.gradle.test.worker&lt;/c0&gt;系统属性设置为一个唯一标识符，这个标识符可以在文件名称或其他资源标识符中使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The value can be set to either &lt;c0&gt;jdk&lt;/c0&gt; or &lt;c1&gt;jre&lt;/c1&gt; location, however, depending on what does your build do, &lt;c2&gt;jdk&lt;/c2&gt; is safer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T051921Z" creationid="msdx" creationdate="20141120T051921Z">
@@ -13644,6 +13652,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123137Z" creationid="msdx" creationdate="20141113T123137Z">
         <seg>你可以使用上面所示的&lt;a3&gt;files()&lt;/a3&gt;方法所支持的任意类型的对象设置此属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can specify that test processes should be restarted after it has executed a certain number of test classes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T013402Z" creationid="Administrator" creationdate="20150428T013402Z">
+        <seg>你可以指定在执行了一定数量的测试类之后，重启那个测试进程。</seg>
       </tuv>
     </tu>
     <tu>
