@@ -1942,6 +1942,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.14. Uploading</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T151512Z" creationid="msdx" creationdate="20150428T151512Z">
+        <seg>23.14. 上传</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.2. Source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T073944Z" creationid="Administrator" creationdate="20150425T073900Z">
@@ -7012,6 +7020,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.18. Separate MANIFEST.MF for a particular archive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T151507Z" creationid="msdx" creationdate="20150428T151507Z">
+        <seg>示例 23.18. 指定archive的单独 MANIFEST.MF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 23.2. Custom Java source layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083815Z" creationid="Administrator" creationdate="20150426T083815Z">
@@ -9024,6 +9040,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061125Z" creationid="msdx" creationdate="20141116T061125Z">
         <seg>它也可以用于一个依赖于 Gradle 任务的 Ant 目标：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is done lazily, either when generating the jar, or by calling &lt;c4&gt;writeTo&lt;/c4&gt; or &lt;c5&gt;effectiveManifest&lt;/c5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T151403Z" creationid="msdx" creationdate="20150428T151403Z">
+        <seg>它是懒执行的，不管是对于生成一个jar包，还是调用了 &lt;c4&gt;writeTo&lt;/c4&gt; 或者 &lt;c5&gt;effectiveManifest&lt;/c5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12428,6 +12452,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The merge is not immediately triggered by the from statement.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T151321Z" creationid="msdx" creationdate="20150428T151321Z">
+        <seg>这个合并操作不会在from语句中就马上被触发。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The method call returns the Ant data type, which you can then use directly in your build script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011039Z" creationid="msdx" creationdate="20141116T011039Z">
@@ -15060,6 +15092,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can easily write a manifest to disk.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T151444Z" creationid="msdx" creationdate="20150428T151444Z">
+        <seg>你可以很轻松地把一个manifest写入磁盘中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can even apply other scripts from the external script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152349Z" creationid="msdx" creationdate="20141109T152349Z">
@@ -15136,6 +15176,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T155215Z" creationid="msdx" creationdate="20141116T155215Z">
         <seg>你可以在&lt;a0&gt; 55.6章节，“在构建脚本中响应生命周期”&lt;/a0&gt;参阅更多有关监听器接口的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can fully customize the merge behavior by adding &lt;c1&gt;eachEntry&lt;/c1&gt; actions in which you have access to a &lt;a2&gt;&lt;c3&gt;ManifestMergeDetails&lt;/c3&gt;&lt;/a2&gt; instance for each entry of the resulting manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T151256Z" creationid="msdx" creationdate="20150428T151256Z">
+        <seg>你可以通过添加&lt;c1&gt;eachEntry&lt;/c1&gt; action 来完全自定义合并行为，它可以让你对每一项生成的manifest 访问它的一个&lt;a2&gt;&lt;c3&gt;ManifestMergeDetails&lt;/c3&gt;&lt;/a2&gt;实例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18298,6 +18346,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145224Z" creationid="msdx" creationdate="20150428T145224Z">
         <seg>jar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jar.manifest.writeTo(&lt;s0&gt;"$buildDir/mymanifest.mf"&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T151508Z" creationid="msdx" creationdate="20150428T151508Z">
+        <seg>jar.manifest.writeTo(&lt;s0&gt;"$buildDir/mymanifest.mf"&lt;/s0&gt;)</seg>
       </tuv>
     </tu>
     <tu>
