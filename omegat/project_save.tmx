@@ -4330,6 +4330,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, a concise message will be logged for every failed test.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015248Z" creationid="Administrator" creationdate="20150428T015248Z">
+        <seg>默认情况下，对于每个失败的测试都只会打印一个简洁的消息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, the Java compiler runs in the Gradle process.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135535Z" creationid="Administrator" creationdate="20150427T135535Z">
@@ -8080,6 +8088,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It stops the build afterwards if &lt;c1&gt;ignoreFailures&lt;/c1&gt; is false and there are failing tests.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015104Z" creationid="Administrator" creationdate="20150428T015104Z">
+        <seg>如果&lt;c1&gt;ignoreFailures&lt;/c1&gt;为 false，并且有测试不通过，那它会停止继续构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It supports the core javadoc options and the options of the standard doclet described in the &lt;a3&gt;reference documentation&lt;/a3&gt; of the Javadoc executable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133821Z" creationid="Administrator" creationdate="20150427T133821Z">
@@ -10128,6 +10144,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Test always executes every test that it detects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015031Z" creationid="Administrator" creationdate="20150428T015031Z">
+        <seg>test 会始终执行它检测到的每一个测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Test resources</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083443Z" creationid="Administrator" creationdate="20150426T083443Z">
@@ -10260,6 +10284,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T140237Z" creationid="Administrator" creationdate="20150427T140237Z">
         <seg>&lt;c0&gt;test&lt;/c0&gt;任务是&lt;a1&gt;&lt;c2&gt;Test&lt;/c2&gt;&lt;/a1&gt;的一个实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;testLogging&lt;/c0&gt; property allows to configure which test events are going to be logged and at which detail level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015219Z" creationid="Administrator" creationdate="20150428T015219Z">
+        <seg>&lt;c0&gt;testLogging&lt;/c0&gt;属性可以配置哪些测试事件需要记录，并且使用什么样的日志级别。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10884,6 +10916,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155209Z" creationid="msdx" creationdate="20141113T155209Z">
         <seg>归档的默认名称可以通过项目属性 &lt;c3&gt;archivesBaseName&lt;/c3&gt; 来更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default value of &lt;c2&gt;ignoreFailures&lt;/c2&gt; is false.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015115Z" creationid="Administrator" creationdate="20150428T015115Z">
+        <seg>&lt;c2&gt;IgnoreFailures&lt;/c2&gt;的默认值为 false。</seg>
       </tuv>
     </tu>
     <tu>
