@@ -8476,6 +8476,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the based manifest and the merged manifest both define values for the same key, the merged manifest wins by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T150938Z" creationid="msdx" creationdate="20150428T150938Z">
+        <seg>如果基本的manifest和要合并的manifest都定义了同一个key的值，那么默认情况下会采用要合并的manifest的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the daemon process is currently busy running some job, a brand new daemon process will be started.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152753Z" creationid="msdx" creationdate="20141117T152634Z">
