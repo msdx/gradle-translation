@@ -1920,8 +1920,8 @@
       <tuv lang="EN-US">
         <seg>23.13.1. Manifest</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145020Z" creationid="msdx" creationdate="20150428T145020Z">
-        <seg>23.13.1. 清单</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145132Z" creationid="msdx" creationdate="20150428T145020Z">
+        <seg>23.13.1. Manifest</seg>
       </tuv>
     </tu>
     <tu>
@@ -6028,6 +6028,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each jar or war object has a &lt;c0&gt;manifest&lt;/c0&gt; property with a separate instance of &lt;a1&gt;&lt;c2&gt;Manifest&lt;/c2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145129Z" creationid="msdx" creationdate="20150428T145129Z">
+        <seg>每个 jar 或war 对象都有一个单独的&lt;a1&gt;&lt;c2&gt;Manifest&lt;/c2&gt;&lt;/a1&gt;实例的&lt;c0&gt;manifest&lt;/c0&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each task has an &lt;c0&gt;inputs&lt;/c0&gt; and &lt;c1&gt;outputs&lt;/c1&gt; property, which you use to declare the inputs and outputs of the task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T061143Z" creationid="msdx" creationdate="20141111T061143Z">
@@ -6952,6 +6960,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T142808Z" creationid="msdx" creationdate="20150428T142808Z">
         <seg>示例 23.14. 为多个子项目创建一个单元测试报告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.15. Customization of MANIFEST.MF</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145223Z" creationid="msdx" creationdate="20150428T145223Z">
+        <seg>示例 23.15. 自定义的MANIFEST.MF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.16. Creating a manifest object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145341Z" creationid="msdx" creationdate="20150428T145341Z">
+        <seg>示例 23.16. 创建一个manifest 对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14548,6 +14572,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When the archive is generated, a corresponding &lt;c3&gt;MANIFEST.MF&lt;/c3&gt; file is written into the archive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145209Z" creationid="msdx" creationdate="20150428T145209Z">
+        <seg>当生成archive时，相应的&lt;c3&gt;MANIFEST.MF&lt;/c3&gt;文件也会被写入进去。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the command line option is used, the inclusion filters declared in the build script are ignored.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T023342Z" creationid="Administrator" creationdate="20150428T023342Z">
@@ -14948,6 +14980,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can create stand alone instances of a &lt;c0&gt;Manifest&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145251Z" creationid="msdx" creationdate="20150428T145251Z">
+        <seg>您可以创建一个单独的&lt;c0&gt;Manifest&lt;/c0&gt;实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can disable the HTML test report using the &lt;a0&gt;&lt;c1&gt;Test.setTestReport()&lt;/c1&gt;&lt;/a0&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T142123Z" creationid="msdx" creationdate="20150428T142123Z">
@@ -15208,6 +15248,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T071514Z" creationid="msdx" creationdate="20141114T071514Z">
         <seg>您可以在你的 Gradle 构建中，使用单独的 Ant 任务或整个 Ant 构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use that for example, to share manifest information between jars.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145328Z" creationid="msdx" creationdate="20150428T145328Z">
+        <seg>它可以用于共享两个jar包的manifest 信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16102,6 +16150,26 @@ task myZip(type: Zip) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>attributes(&lt;s0&gt;"Implementation-Title"&lt;/s0&gt;: &lt;s1&gt;"Gradle"&lt;/s1&gt;, &lt;s2&gt;"Implementation-Version"&lt;/s2&gt;: version)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145225Z" creationid="msdx" creationdate="20150428T145225Z">
+        <seg>attributes(&lt;s0&gt;"Implementation-Title"&lt;/s0&gt;: &lt;s1&gt;"Gradle"&lt;/s1&gt;, &lt;s2&gt;"Implementation-Version"&lt;/s2&gt;: version)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>attributes(&lt;s0&gt;"Implementation-Title"&lt;/s0&gt;: &lt;s1&gt;"Gradle"&lt;/s1&gt;, &lt;s2&gt;"Implementation-Version"&lt;/s2&gt;: version)
+}
+task fooJar(type: Jar) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145342Z" creationid="msdx" creationdate="20150428T145342Z">
+        <seg>attributes(&lt;s0&gt;"Implementation-Title"&lt;/s0&gt;: &lt;s1&gt;"Gradle"&lt;/s1&gt;, &lt;s2&gt;"Implementation-Version"&lt;/s2&gt;: version)
+}
+task fooJar(type: Jar) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>base</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104859Z" creationid="msdx" creationdate="20150428T104859Z">
@@ -16976,6 +17044,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ext.sharedManifest = manifest {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145342Z" creationid="msdx" creationdate="20150428T145342Z">
+        <seg>ext.sharedManifest = manifest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ext.srcFile = file(&lt;s0&gt;'mountains.xml'&lt;/s0&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060321Z" creationid="msdx" creationdate="20141111T060321Z">
@@ -17260,6 +17336,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130953Z" creationid="msdx" creationdate="20141113T130953Z">
         <seg>from copyTaskWithPatterns.outputs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from sharedManifest</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145343Z" creationid="msdx" creationdate="20150428T145343Z">
+        <seg>from sharedManifest</seg>
       </tuv>
     </tu>
     <tu>
@@ -18098,6 +18182,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>jar {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145224Z" creationid="msdx" creationdate="20150428T145224Z">
+        <seg>jar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>java</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120902Z" creationid="msdx" creationdate="20141126T120902Z">
@@ -18332,6 +18424,22 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083246Z" creationid="msdx" creationdate="20150428T083246Z">
         <seg>manifest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>manifest = project.manifest {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145343Z" creationid="msdx" creationdate="20150428T145343Z">
+        <seg>manifest = project.manifest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>manifest {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145224Z" creationid="msdx" creationdate="20150428T145224Z">
+        <seg>manifest {</seg>
       </tuv>
     </tu>
     <tu>
