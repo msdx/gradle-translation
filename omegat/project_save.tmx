@@ -7568,6 +7568,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no tests with this pattern can be found an exception is thrown.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035632Z" creationid="Administrator" creationdate="20150428T035632Z">
+        <seg>如果这个模式无法找到任何测试，那么将会抛出一个异常。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the &lt;c0&gt;DEBUG&lt;/c0&gt; log level is chosen, truncated stacktraces are always printed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T104044Z" creationid="msdx" creationdate="20141116T104044Z">
@@ -10564,6 +10572,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T143325Z" creationid="msdx" creationdate="20141112T143325Z">
         <seg>这个&lt;c7&gt;file ()&lt;/c7&gt;方法也可以识别URL，例如是&lt;c8&gt;file:/some/path.xml&lt;/c8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;e6&gt;&lt;c7&gt;taskName&lt;/c7&gt;&lt;/e6&gt; can be a full multi-project path like ":sub1:sub2:test" or just the task name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035419Z" creationid="Administrator" creationdate="20150428T035419Z">
+        <seg>这个&lt;e6&gt;&lt;c7&gt;taskName&lt;/c7&gt;&lt;/e6&gt; 可以是一个完整的多项目路径，比如“sub1:sub2:test”，或者仅是一个任务名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;e8&gt;&lt;c9&gt;testNamePattern&lt;/c9&gt;&lt;/e8&gt; will be used to form an include pattern of "**/testNamePattern*.class".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035612Z" creationid="Administrator" creationdate="20150428T035612Z">
+        <seg>&lt;e8&gt;&lt;c9&gt;testNamePattern&lt;/c9&gt;&lt;/e8&gt;将用于形成一个“**/testNamePattern*.class”的包含模式。</seg>
       </tuv>
     </tu>
     <tu>
