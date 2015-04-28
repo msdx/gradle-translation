@@ -10224,6 +10224,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;forkEvery&lt;/c0&gt; property specifies the maximum number of test classes to execute in a test process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T013816Z" creationid="Administrator" creationdate="20150428T013816Z">
+        <seg>&lt;c0&gt;forkEvery&lt;/c0&gt;属性指定了要在测试进程中执行的测试类的最大数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;from()&lt;/c0&gt; method accepts any of the arguments that the &lt;a1&gt;files()&lt;/a1&gt; method does.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130838Z" creationid="msdx" creationdate="20141113T124455Z">
@@ -10852,6 +10860,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T141233Z" creationid="Administrator" creationdate="20150427T141233Z">
         <seg>它的默认值是 1，也就是说，不并行执行测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default is to execute an unlimited number of tests in each test process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T013900Z" creationid="Administrator" creationdate="20150428T013900Z">
+        <seg>默认是每个测试进程中执行的测试数量无限。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11948,6 +11964,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T035847Z" creationid="msdx" creationdate="20141108T035847Z">
         <seg>这种构建语言基于 Groovy 中，并进行了一些补充，使其易于描述构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be a useful alternative to giving your test process a very large heap.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T013746Z" creationid="Administrator" creationdate="20150428T013746Z">
+        <seg>这是一个很有用的替代方案，让你的测试进程可以有很大的堆内存。</seg>
       </tuv>
     </tu>
     <tu>
