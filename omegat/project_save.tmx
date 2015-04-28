@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.1.9_1" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.4" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -7616,6 +7616,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If &lt;c1&gt;scanForTestClasses&lt;/c1&gt; is disabled and no include or exclude patterns are specified, the respective defaults are used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T081955Z" creationid="Administrator" creationdate="20150428T081955Z">
+        <seg>如果&lt;c1&gt;scanForTestClasses&lt;/c1&gt;为disabled，并且没有指定 include或exclude模式，则使用各自的默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a property in such a file has the prefix &lt;c1&gt;systemProp.&lt;/c1&gt; the property and its value are added to the system properties, without the prefix.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T150302Z" creationid="msdx" creationdate="20141109T150254Z">
@@ -7924,6 +7932,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151423Z" creationid="msdx" creationdate="20141109T151423Z">
         <seg>如果此属性不存在，则会引发异常，并且构建失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In case you don't want to use the test class detection, you can disable it by setting &lt;c0&gt;scanForTestClasses&lt;/c0&gt; to false.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T081814Z" creationid="Administrator" creationdate="20150428T081814Z">
+        <seg>如果你不想要使用测试类检测，可以通过设置&lt;c0&gt;scanForTestClasses&lt;/c0&gt;为 false 来禁用它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12884,6 +12900,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T062257Z" creationid="msdx" creationdate="20141030T062217Z">
         <seg>这段代码同时会将Java插件应用到project中，如果Java插件还没被应用的话。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will make the test task only use the includes / excludes to find test classes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T081854Z" creationid="Administrator" creationdate="20150428T081854Z">
+        <seg>这将使test任务只使用includes / excludes 来找到测试类。</seg>
       </tuv>
     </tu>
     <tu>
