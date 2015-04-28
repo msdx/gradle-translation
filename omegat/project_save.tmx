@@ -1678,6 +1678,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.12.4. Single test execution via System Properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035202Z" creationid="Administrator" creationdate="20150428T035202Z">
+        <seg>23.12.4. 通过系统属性执行单一的测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.2. Source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T073944Z" creationid="Administrator" creationdate="20150425T073900Z">
@@ -9600,6 +9608,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setting a system property of &lt;e0&gt;&lt;c1&gt;taskName.single&lt;/c1&gt;&lt;/e0&gt; = &lt;e2&gt;&lt;c3&gt;testNamePattern&lt;/c3&gt;&lt;/e2&gt; will only execute tests that match the specified &lt;e4&gt;&lt;c5&gt;testNamePattern&lt;/c5&gt;&lt;/e4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035328Z" creationid="Administrator" creationdate="20150428T035328Z">
+        <seg>设置一个 &lt;e0&gt;&lt;c1&gt;taskName.single&lt;/c1&gt;&lt;/e0&gt; = &lt;e2&gt;&lt;c3&gt;testNamePattern&lt;/c3&gt;&lt;/e2&gt; 的系统属性将会只执行匹配 &lt;e4&gt;&lt;c5&gt;testNamePattern&lt;/c5&gt;&lt;/e4&gt;的那些测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setting it to &lt;c2&gt;false&lt;/c2&gt; prevents the execution of any of the task's actions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055733Z" creationid="msdx" creationdate="20141111T055659Z">
@@ -12604,6 +12620,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161518Z" creationid="msdx" creationdate="20141112T161518Z">
         <seg>这意味着您可以，比如创建一个&lt;c0&gt;FileCollection&lt;/c0&gt; 对象而里面的文件会在以后才创建，比方说在一些任务中才创建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This mechanism has been superseded by 'Test Filtering', described above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035229Z" creationid="Administrator" creationdate="20150428T035229Z">
+        <seg>这种机制已经被上述的“测试过滤”所取代。</seg>
       </tuv>
     </tu>
     <tu>
