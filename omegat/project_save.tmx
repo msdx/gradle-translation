@@ -3420,8 +3420,8 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       <tuv lang="EN-US">
         <seg>&lt;s3&gt;[&lt;a4&gt;11&lt;/a4&gt;]&lt;/s3&gt; None of these directories need to exist or have anything in them; the Groovy plugin will simply compile whatever it finds.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T074832Z" creationid="msdx" creationdate="20150429T074832Z">
-        <seg>&lt;s3&gt;[&lt;a4&gt;11&lt;/a4&gt;]&lt;/s3&gt; None of these directories need to exist or have anything in them; the Groovy plugin will simply compile whatever it finds.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075101Z" creationid="msdx" creationdate="20150429T074832Z">
+        <seg>&lt;s3&gt;[&lt;a4&gt;11&lt;/a4&gt;]&lt;/s3&gt;这些目录不一定得存在或是里面包含有什么内容；Groovy 的插件只会进行编译，而不管它发现什么。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9732,6 +9732,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>May also contain Java sources for joint compilation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075126Z" creationid="msdx" creationdate="20150429T075126Z">
+        <seg>此外可能包含联合编译的 Java 源代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Meaning</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T103048Z" creationid="msdx" creationdate="20141116T103048Z">
@@ -10480,6 +10488,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162121Z" creationid="msdx" creationdate="20141109T162121Z">
         <seg>系统要求</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Production Groovy sources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075116Z" creationid="msdx" creationdate="20150429T075116Z">
+        <seg>Production Groovy 源代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11584,6 +11600,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083218Z" creationid="msdx" creationdate="20150428T083218Z">
         <seg>Test</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Test Groovy sources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075137Z" creationid="msdx" creationdate="20150429T075137Z">
+        <seg>Test Groovy 源代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20500,6 +20524,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>src/&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;/groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075139Z" creationid="msdx" creationdate="20150429T075139Z">
+        <seg>src/&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;/groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>src/&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;/java</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083229Z" creationid="msdx" creationdate="20150428T083229Z">
@@ -20516,6 +20548,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>src/main/groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075102Z" creationid="msdx" creationdate="20150429T075102Z">
+        <seg>src/main/groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>src/main/java</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083228Z" creationid="msdx" creationdate="20150428T083228Z">
@@ -20528,6 +20568,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083229Z" creationid="msdx" creationdate="20150428T083229Z">
         <seg>src/main/resources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>src/test/groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075127Z" creationid="msdx" creationdate="20150429T075127Z">
+        <seg>src/test/groovy</seg>
       </tuv>
     </tu>
     <tu>
