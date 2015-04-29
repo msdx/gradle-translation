@@ -7268,6 +7268,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 24.3. Configuration of Groovy dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075939Z" creationid="msdx" creationdate="20150429T075939Z">
+        <seg>示例 24.3. Groovy 的依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 24.4. Configuration of Groovy test dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T080015Z" creationid="msdx" creationdate="20150429T080015Z">
+        <seg>示例 24.4. 配置Groovy 测试依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -8660,6 +8676,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If Groovy is only used for test code, the Groovy dependency should be added to the &lt;c0&gt;testCompile&lt;/c0&gt; configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075957Z" creationid="msdx" creationdate="20150429T075957Z">
+        <seg>如果 Groovy 仅用于测试代码，Groovy 的依赖应该被添加到&lt;c0&gt;testCompile&lt;/c0&gt;配置中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If Groovy is used for production code, the Groovy dependency should be added to the &lt;c0&gt;compile&lt;/c0&gt; configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075928Z" creationid="msdx" creationdate="20150429T075928Z">
+        <seg>如果 Groovy 用于production 代码，Groovy 依赖应该添加到&lt;c0&gt;compile&lt;/c0&gt;配置中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a property in such a file has the prefix &lt;c1&gt;systemProp.&lt;/c1&gt; the property and its value are added to the system properties, without the prefix.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T150302Z" creationid="msdx" creationdate="20141109T150254Z">
@@ -9436,6 +9468,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It will also be used to get hold of the Groovy compiler and Groovydoc tool, respectively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075855Z" creationid="msdx" creationdate="20150429T075855Z">
+        <seg>它还将用于分别获取Groovy 编译器及 Groovydoc 工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It works the same way as the task with some major limitations though.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131524Z" creationid="msdx" creationdate="20141113T131524Z">
@@ -9840,6 +9880,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011000Z" creationid="msdx" creationdate="20141115T154824Z">
         <seg>嵌套元素的定义方式与任务相同，通过调用与我们要定义的元素一样的名字的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Nevertheless, Groovy projects need to explicitly declare a Groovy dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075747Z" creationid="msdx" creationdate="20150429T075719Z">
+        <seg>然而，Groovy 项目需要显式地声明一个 Groovy 依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13844,6 +13892,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This dependency will then be used on compile and runtime class paths.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075808Z" creationid="msdx" creationdate="20150429T075808Z">
+        <seg>这个依赖会在编译和运行的类路径时用到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This description is for example displayed when executing &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T015454Z" creationid="msdx" creationdate="20141111T015031Z">
@@ -17210,6 +17266,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083232Z" creationid="msdx" creationdate="20150428T083232Z">
         <seg>default</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T080015Z" creationid="msdx" creationdate="20150429T080015Z">
+        <seg>dependencies {</seg>
       </tuv>
     </tu>
     <tu>
@@ -21172,6 +21236,16 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083231Z" creationid="msdx" creationdate="20150428T083231Z">
         <seg>testCompile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testCompile &lt;s0&gt;"org.codehaus.groovy:groovy-all:2.2.0"&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T080016Z" creationid="msdx" creationdate="20150429T080016Z">
+        <seg>testCompile &lt;s0&gt;"org.codehaus.groovy:groovy-all:2.2.0"&lt;/s0&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
