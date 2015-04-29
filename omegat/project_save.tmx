@@ -158,6 +158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#N12A9E</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094736Z" creationid="msdx" creationdate="20150429T094736Z">
+        <seg>#N12A9E</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#ftn.N10B28</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054401Z" creationid="msdx" creationdate="20141108T054401Z">
@@ -2766,6 +2774,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;groovy&lt;/c0&gt; configuration if non-empty; Groovy library found on &lt;c1&gt;classpath&lt;/c1&gt; otherwise</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094735Z" creationid="msdx" creationdate="20150429T094548Z">
+        <seg>如果&lt;c0&gt;groovy&lt;/c0&gt; 配置不为空，则为该配置；否则为 &lt;c1&gt;classpath&lt;/c1&gt; 中找到的 Groovy 库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;java&lt;/c0&gt;, &lt;c1&gt;distribution&lt;/c1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104801Z" creationid="msdx" creationdate="20150428T104801Z">
@@ -2922,6 +2938,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083445Z" creationid="msdx" creationdate="20150428T083445Z">
         <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;.compileClasspath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;.groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094544Z" creationid="msdx" creationdate="20150429T094544Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;.groovy</seg>
       </tuv>
     </tu>
     <tu>
@@ -8038,8 +8062,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>For most projects, this is the better choice than the Ant-based compiler.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094411Z" creationid="msdx" creationdate="20150429T094411Z">
-        <seg>For most projects, this is the better choice than the Ant-based compiler.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094454Z" creationid="msdx" creationdate="20150429T094411Z">
+        <seg>对于大多数项目而言，这相比基于 Ant 编译器，是个更好的选择。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11764,6 +11788,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 24.6. Groovy plugin - GroovyCompile properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094540Z" creationid="msdx" creationdate="20150429T094507Z">
+        <seg>表 24.6. Groovy 插件 - GroovyCompile 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -12176,6 +12208,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T145542Z" creationid="msdx" creationdate="20141112T145542Z">
         <seg>这个&lt;c4&gt;Files()&lt;/c4&gt;方法接受任何类型的对象作为其参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c6&gt;GroovyCompile&lt;/c6&gt; task supports most configuration options of the official Groovy compiler.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094525Z" creationid="msdx" creationdate="20150429T094505Z">
+        <seg>&lt;c6&gt;GroovyCompile&lt;/c6&gt; task 支持官方的 Groovy 编译器的大多数配置选项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18588,6 +18628,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>groovyClasspath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094545Z" creationid="msdx" creationdate="20150429T094545Z">
+        <seg>groovyClasspath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>groovy_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T070002Z" creationid="msdx" creationdate="20141030T070002Z">
@@ -18680,6 +18728,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104851Z" creationid="msdx" creationdate="20150428T104851Z">
         <seg>http://findbugs.sourceforge.net</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://gant.codehaus.org</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094737Z" creationid="msdx" creationdate="20150429T094737Z">
+        <seg>http://gant.codehaus.org</seg>
       </tuv>
     </tu>
     <tu>
