@@ -5822,6 +5822,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Contains all &lt;c0&gt;.groovy&lt;/c0&gt; and &lt;c1&gt;.java&lt;/c1&gt; files found in the Groovy source directories, and excludes all other types of files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T093135Z" creationid="msdx" creationdate="20150429T093135Z">
+        <seg>包含在 Groovy 源目录中找到的所有的&lt;c0&gt;.groovy&lt;/c0&gt;和&lt;c1&gt;.java&lt;/c1&gt;文件，并排除所有其他类型的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Contains only &lt;c0&gt;.java&lt;/c0&gt; files found in the Java source directories, and excludes all other files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T052424Z" creationid="Administrator" creationdate="20150427T052424Z">
@@ -9892,6 +9900,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>May also contain Java source files for joint compilation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T093413Z" creationid="msdx" creationdate="20150429T093413Z">
+        <seg>此外可能还包含用于联合编译的 Java 源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>May also contain Java sources for joint compilation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075126Z" creationid="msdx" creationdate="20150429T075126Z">
@@ -12236,6 +12252,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Groovy source files of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T093104Z" creationid="msdx" creationdate="20150429T093104Z">
+        <seg>该source set 中的 Groovy 源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The JAR file is declared as an artifact in the &lt;c1&gt;archives&lt;/c1&gt; dependency configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144519Z" creationid="msdx" creationdate="20150428T144406Z">
@@ -13288,6 +13312,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T123839Z" creationid="msdx" creationdate="20141111T123839Z">
         <seg>简单的 Gradle 任务就像 Ant 的目标，而增强的 Gradle 任务还包括 Ant 任务方面的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The source directories containing the Groovy source files of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T093355Z" creationid="msdx" creationdate="20150429T093155Z">
+        <seg>源目录包含该 source set 中的 Groovy 源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16284,6 +16316,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/groovy]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T093154Z" creationid="msdx" creationdate="20150429T093154Z">
+        <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/groovy]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/java]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083419Z" creationid="msdx" creationdate="20150428T083419Z">
@@ -16312,6 +16352,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T070714Z" creationid="Administrator" creationdate="20150425T070714Z">
         <seg>添加上传&lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>allGroovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T093413Z" creationid="msdx" creationdate="20150429T093413Z">
+        <seg>allGroovy</seg>
       </tuv>
     </tu>
     <tu>
@@ -18408,6 +18456,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104804Z" creationid="msdx" creationdate="20150428T104804Z">
         <seg>groovy-base</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>groovy.srcDirs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T093152Z" creationid="msdx" creationdate="20150429T093152Z">
+        <seg>groovy.srcDirs</seg>
       </tuv>
     </tu>
     <tu>
