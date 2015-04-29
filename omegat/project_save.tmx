@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N12E35</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152740Z" creationid="msdx" creationdate="20150429T152740Z">
+        <seg>#ftn.N12E35</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#installation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T141011Z" creationid="msdx" creationdate="20141127T141011Z">
@@ -2222,6 +2230,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>25.4. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152740Z" creationid="msdx" creationdate="20150429T152740Z">
+        <seg>25.4. 依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162018Z" creationid="msdx" creationdate="20141109T162018Z">
@@ -3450,6 +3466,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060915Z" creationid="msdx" creationdate="20141116T060915Z">
         <seg>&lt;s1&gt;&lt;target&lt;/s1&gt; &lt;s2&gt;name&lt;/s2&gt;=&lt;s3&gt;"hello"&lt;/s3&gt;&lt;s4&gt;&gt;&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s1&gt;[&lt;a2&gt;12&lt;/a2&gt;]&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152831Z" creationid="msdx" creationdate="20150429T152831Z">
+        <seg>&lt;s1&gt;[&lt;a2&gt;12&lt;/a2&gt;]&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7532,6 +7556,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 25.2. Custom Scala source layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152728Z" creationid="msdx" creationdate="20150429T152728Z">
+        <seg>示例 24.2. 自定义 Scala 源文件布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 25.3. Declaring a Scala dependency for production code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152944Z" creationid="msdx" creationdate="20150429T152944Z">
+        <seg>示例 25.3. 为production 代码定义一个Scala 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -8972,6 +9012,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If Scala is only used for test code, the &lt;c0&gt;scala-library&lt;/c0&gt; dependency should be added to the &lt;c1&gt;testCompile&lt;/c1&gt; configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T153016Z" creationid="msdx" creationdate="20150429T153016Z">
+        <seg>如果 Scala 仅用于测试代码， &lt;c0&gt;scala-library&lt;/c0&gt;依赖应被添加到&lt;c1&gt;testCompile&lt;/c1&gt;配置中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If Scala is used for production code, the &lt;c0&gt;scala-library&lt;/c0&gt; dependency should be added to the &lt;c1&gt;compile&lt;/c1&gt; configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152924Z" creationid="msdx" creationdate="20150429T152924Z">
+        <seg>如果 Scala 用于production 代码， &lt;c0&gt;scala-library&lt;/c0&gt; 依赖应该添加到&lt;c1&gt;compile&lt;/c1&gt;的配置中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a &lt;c0&gt;groovy(-indy)&lt;/c0&gt; Jar is found on &lt;c1&gt;classpath&lt;/c1&gt;, and the project has at least one repository declared, a corresponding &lt;c2&gt;groovy(-indy)&lt;/c2&gt; repository dependency will be added to &lt;c3&gt;groovyClasspath&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T092108Z" creationid="msdx" creationdate="20150429T092108Z">
@@ -9788,6 +9844,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It will also be used to get hold of the Scala compiler and Scaladoc tool, respectively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152829Z" creationid="msdx" creationdate="20150429T152829Z">
+        <seg>它还将用于分别获取Scala 编译器及 Scaladoc 工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It works the same way as the task with some major limitations though.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131524Z" creationid="msdx" creationdate="20141113T131524Z">
@@ -9912,6 +9976,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075333Z" creationid="msdx" creationdate="20150429T075333Z">
         <seg>和 Java 插件一样，Groovy 插件允许把 Groovy 的production 和test 的源文件配置为自定义的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Just like the Java plugin, the Scala plugin allows to configure custom locations for Scala production and test sources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152709Z" creationid="msdx" creationdate="20150429T152709Z">
+        <seg>和 Java 插件一样，Scala 插件允许把 Scala 的production 和test 的源文件配置为自定义的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11200,6 +11272,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152445Z" creationid="msdx" creationdate="20150429T152445Z">
         <seg>Scala 插件-任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scala projects need to declare a &lt;c0&gt;scala-library&lt;/c0&gt; dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152803Z" creationid="msdx" creationdate="20150429T152803Z">
+        <seg>Scala 项目需要声明一个&lt;c0&gt;scala-library&lt;/c0&gt;依赖项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17730,6 +17810,16 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile &lt;s0&gt;'org.scala-lang:scala-library:2.9.1'&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152946Z" creationid="msdx" creationdate="20150429T152946Z">
+        <seg>compile &lt;s0&gt;'org.scala-lang:scala-library:2.9.1'&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile &lt;s2&gt;'org.codehaus.groovy:groovy-all:2.2.0'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065506Z" creationid="msdx" creationdate="20141030T065506Z">
@@ -21176,6 +21266,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>scala {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152730Z" creationid="msdx" creationdate="20150429T152730Z">
+        <seg>scala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>scala-base</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104931Z" creationid="msdx" creationdate="20150428T104931Z">
@@ -21580,10 +21678,26 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>srcDirs = [&lt;s0&gt;'src/scala'&lt;/s0&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152731Z" creationid="msdx" creationdate="20150429T152731Z">
+        <seg>srcDirs = [&lt;s0&gt;'src/scala'&lt;/s0&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>srcDirs = [&lt;s1&gt;'test/groovy'&lt;/s1&gt;]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075355Z" creationid="msdx" creationdate="20150429T075355Z">
         <seg>srcDirs = [&lt;s1&gt;'test/groovy'&lt;/s1&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDirs = [&lt;s1&gt;'test/scala'&lt;/s1&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152731Z" creationid="msdx" creationdate="20150429T152731Z">
+        <seg>srcDirs = [&lt;s1&gt;'test/scala'&lt;/s1&gt;]</seg>
       </tuv>
     </tu>
     <tu>
