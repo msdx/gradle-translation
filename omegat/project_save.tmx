@@ -7284,6 +7284,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 24.5. Configuration of bundled Groovy dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T080608Z" creationid="msdx" creationdate="20150429T080608Z">
+        <seg>示例 24.5. 配置捆绑的 Groovy 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -9936,6 +9944,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T041207Z" creationid="Administrator" creationdate="20150428T041207Z">
         <seg>请注意，抽象类不会被执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that different Gradle versions ship with different Groovy versions; as such, using &lt;c1&gt;localGroovy()&lt;/c1&gt; is less safe then declaring a regular Groovy dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T080533Z" creationid="msdx" creationdate="20150429T080533Z">
+        <seg>注意，不同 Gradle 版本附带的 Groovy 版本不同；因此，声明一个固定的 Groovy 依赖要比使用&lt;c1&gt;localGroovy()&lt;/c1&gt;更安全一些。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17094,6 +17110,16 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065506Z" creationid="msdx" creationdate="20141030T065506Z">
         <seg>compile &lt;s2&gt;'org.codehaus.groovy:groovy-all:2.2.0'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile localGroovy()
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T080609Z" creationid="msdx" creationdate="20150429T080609Z">
+        <seg>compile localGroovy()
+}</seg>
       </tuv>
     </tu>
     <tu>
