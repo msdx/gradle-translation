@@ -2102,10 +2102,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>24.3.1. Changing the project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075208Z" creationid="msdx" creationdate="20150429T075208Z">
+        <seg>24.3.1. 更改项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>24.3. Project layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T071810Z" creationid="msdx" creationdate="20150429T071757Z">
         <seg>24.3. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>24.4. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075404Z" creationid="msdx" creationdate="20150429T075404Z">
+        <seg>24.4. 依赖管理</seg>
       </tuv>
     </tu>
     <tu>
@@ -4982,6 +4998,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because Gradle's build language is based on Groovy, and parts of Gradle are implemented in Groovy, Gradle already ships with a Groovy library (1.8.6 as of Gradle 1.6).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075636Z" creationid="msdx" creationdate="20150429T075405Z">
+        <seg>由于 Gradle 的构建语言基于 Groovy 的，且部分的 Groovy 使用 Groovy 实现，因此 Gradle 已经带有了一个 Groovy 库 （截至 Gradle 1.6所带的 Groovy 库的版本是 1.8.6）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because a Groovy project &lt;s0&gt;&lt;e1&gt;is&lt;/e1&gt;&lt;/s0&gt; a Java project, whatever you can do with a Java project, you can also do with a Groovy project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141210T061256Z" creationid="msdx" creationdate="20141030T065956Z">
@@ -7236,6 +7260,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 24.2. Custom Groovy source layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075353Z" creationid="msdx" creationdate="20150429T075353Z">
+        <seg>示例 24.2. 自定义 Groovy 自定义源文件布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -8312,6 +8344,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T062828Z" creationid="msdx" creationdate="20141108T062816Z">
         <seg>Groovy 提供了一些定义&lt;c0&gt;List&lt;/c0&gt;和&lt;c1&gt;Map&lt;/c1&gt;实例的快捷写法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Groovy sources for the given source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075156Z" creationid="msdx" creationdate="20150429T075156Z">
+        <seg>给定的source set 的 Groovy 源代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9512,6 +9552,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141211T030824Z" creationid="msdx" creationdate="20141105T160336Z">
         <seg>你只需要输入命令行中你经常在“Gradle”后面输入的命令即可。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Just like the Java plugin, the Groovy plugin allows to configure custom locations for Groovy production and test sources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075333Z" creationid="msdx" creationdate="20150429T075333Z">
+        <seg>和 Java 插件一样，Groovy 插件允许把 Groovy 的production 和test 的源文件配置为自定义的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18052,6 +18100,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>groovy {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075353Z" creationid="msdx" creationdate="20150429T075353Z">
+        <seg>groovy {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>groovy-base</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104804Z" creationid="msdx" creationdate="20150428T104804Z">
@@ -20632,6 +20688,22 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083442Z" creationid="msdx" creationdate="20150428T083442Z">
         <seg>srcDirs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDirs = [&lt;s0&gt;'src/groovy'&lt;/s0&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075354Z" creationid="msdx" creationdate="20150429T075354Z">
+        <seg>srcDirs = [&lt;s0&gt;'src/groovy'&lt;/s0&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDirs = [&lt;s1&gt;'test/groovy'&lt;/s1&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075355Z" creationid="msdx" creationdate="20150429T075355Z">
+        <seg>srcDirs = [&lt;s1&gt;'test/groovy'&lt;/s1&gt;]</seg>
       </tuv>
     </tu>
     <tu>
