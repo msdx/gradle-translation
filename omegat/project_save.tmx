@@ -590,6 +590,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.scala.ScalaCompile.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145448Z" creationid="msdx" creationdate="20150429T145448Z">
+        <seg>../dsl/org.gradle.api.tasks.scala.ScalaCompile.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.scala.ScalaDoc.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145512Z" creationid="msdx" creationdate="20150429T145512Z">
+        <seg>../dsl/org.gradle.api.tasks.scala.ScalaDoc.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.testing.Test.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083217Z" creationid="msdx" creationdate="20150428T083217Z">
@@ -2178,6 +2194,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145008Z" creationid="msdx" creationdate="20150429T145008Z">
         <seg>25.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>25.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145412Z" creationid="msdx" creationdate="20150429T145341Z">
+        <seg>25.2. 任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -5822,6 +5846,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compiles production Scala source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145459Z" creationid="msdx" creationdate="20150429T145459Z">
+        <seg>编译production 的 Scala 源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compiles test Groovy source files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T071434Z" creationid="msdx" creationdate="20150429T071434Z">
@@ -5838,6 +5870,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compiles test Scala source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145505Z" creationid="msdx" creationdate="20150429T145505Z">
+        <seg>编译test 的 Scala 的源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compiles the given source set's Groovy source files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T071453Z" creationid="msdx" creationdate="20150429T071437Z">
@@ -5850,6 +5890,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005823Z" creationid="Administrator" creationdate="20150426T005823Z">
         <seg>使用 javac 编译给定的源集中的 Java 源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compiles the given source set's Scala source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145511Z" creationid="msdx" creationdate="20150429T145511Z">
+        <seg>编译给定的source set 里的 Scala 源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7452,6 +7500,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 25.1. Using the Scala plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145324Z" creationid="msdx" creationdate="20150429T145324Z">
+        <seg>示例 25.1. 使用 Scala 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -8176,6 +8232,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004742Z" creationid="Administrator" creationdate="20150426T004742Z">
         <seg>使用 Javadoc 生成生产的 Java 源代码的API文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates API documentation for the production Scala source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145519Z" creationid="msdx" creationdate="20150429T145519Z">
+        <seg>为production 里的 Scala 源文件生成 API 文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11084,6 +11148,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ScalaCompile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145449Z" creationid="msdx" creationdate="20150429T145449Z">
+        <seg>ScalaCompile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ScalaDoc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145514Z" creationid="msdx" creationdate="20150429T145514Z">
+        <seg>scaladoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Secondly when using parallel execution and all dependencies of a task have been satisfied apart from should run after then this task will be run regardless of weather its 'should run after' dependencies have been run or not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T012001Z" creationid="msdx" creationdate="20141110T152504Z">
@@ -11832,6 +11912,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094540Z" creationid="msdx" creationdate="20150429T094507Z">
         <seg>表 24.6. Groovy 插件 - GroovyCompile 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 25.1. Scala plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145445Z" creationid="msdx" creationdate="20150429T145445Z">
+        <seg>表 25.1. Scala 插件 - 任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -12616,6 +12704,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T164847Z" creationid="msdx" creationdate="20141109T164847Z">
         <seg>Project API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Scala plugin adds the following dependencies to tasks added by the Java plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145533Z" creationid="msdx" creationdate="20150429T145533Z">
+        <seg>Scala 插件向 Java 插件所加入的 tasks 添加了以下的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Scala plugin adds the following tasks to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145404Z" creationid="msdx" creationdate="20150429T145404Z">
+        <seg>Scala 的插件向project 中添加了以下任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16990,6 +17094,14 @@ task myZip(type: Zip) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'scala'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145324Z" creationid="msdx" creationdate="20150429T145324Z">
+        <seg>apply plugin: &lt;s0&gt;'scala'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: JavaPlugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162533Z" creationid="msdx" creationdate="20141122T162533Z">
@@ -17572,6 +17684,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;Scala</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145506Z" creationid="msdx" creationdate="20150429T145506Z">
+        <seg>compile&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;Scala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compileClasspath</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083252Z" creationid="msdx" creationdate="20150428T083252Z">
@@ -17596,6 +17716,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compileScala</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145447Z" creationid="msdx" creationdate="20150429T145447Z">
+        <seg>compileScala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compileTestGroovy</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T071419Z" creationid="msdx" creationdate="20150429T071419Z">
@@ -17608,6 +17736,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083213Z" creationid="msdx" creationdate="20150428T083213Z">
         <seg>compileTestJava</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compileTestScala</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145459Z" creationid="msdx" creationdate="20150429T145459Z">
+        <seg>compileTestScala</seg>
       </tuv>
     </tu>
     <tu>
@@ -20948,6 +21084,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T121119Z" creationid="msdx" creationdate="20141126T121119Z">
         <seg>scala_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>scaladoc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145512Z" creationid="msdx" creationdate="20150429T145512Z">
+        <seg>scaladoc</seg>
       </tuv>
     </tu>
     <tu>
