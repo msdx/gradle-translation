@@ -2158,6 +2158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>24.8. GroovyCompile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094143Z" creationid="msdx" creationdate="20150429T094143Z">
+        <seg>24.8. GroovyCompile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162018Z" creationid="msdx" creationdate="20141109T162018Z">
@@ -4464,16 +4472,16 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Adds all &lt;c0&gt;.java&lt;/c0&gt; files found in the Groovy source directories.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094037Z" creationid="msdx" creationdate="20150429T094037Z">
-        <seg>Adds all &lt;c0&gt;.java&lt;/c0&gt; files found in the Groovy source directories.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094123Z" creationid="msdx" creationdate="20150429T094037Z">
+        <seg>添加在 Groovy 源目录中找到的所有&lt;c0&gt;.java&lt;/c0&gt;文件。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Adds all source files found in the Groovy source directories.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094056Z" creationid="msdx" creationdate="20150429T094056Z">
-        <seg>Adds all source files found in the Groovy source directories.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094141Z" creationid="msdx" creationdate="20150429T094056Z">
+        <seg>添加在 Groovy 的源目录中找到的所有源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8024,6 +8032,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T150713Z" creationid="msdx" creationdate="20141123T150713Z">
         <seg>关于编写自己的插件的详细信息，请参阅&lt;a0&gt; 58章节，&lt;i1&gt;编写自定义插件&lt;/i1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For most projects, this is the better choice than the Ant-based compiler.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094411Z" creationid="msdx" creationdate="20150429T094411Z">
+        <seg>For most projects, this is the better choice than the Ant-based compiler.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12260,6 +12276,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Groovy plugin adds a &lt;a0&gt;&lt;c1&gt;GroovyCompile&lt;/c1&gt;&lt;/a0&gt; task for each source set in the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094234Z" creationid="msdx" creationdate="20150429T094146Z">
+        <seg>Java 插件向 project 里的每个source set 添加了一个&lt;a0&gt;&lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt; task。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Groovy plugin adds the following convention properties to each source set in the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T092449Z" creationid="msdx" creationdate="20150429T092449Z">
@@ -13464,6 +13488,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T082745Z" creationid="Administrator" creationdate="20150426T082745Z">
         <seg>该任务由Base插件添加，并由Java插件隐式实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The task type extends the &lt;c2&gt;JavaCompile&lt;/c2&gt; task (see &lt;a3&gt;Section 23.11, “CompileJava”&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094315Z" creationid="msdx" creationdate="20150429T094315Z">
+        <seg>这个task 的类型继承自&lt;c2&gt;JavaCompile&lt;/c2&gt; task（见&lt;a3&gt;第 23.11 节，“CompileJava”&lt;/a3&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14912,6 +14944,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T060948Z" creationid="msdx" creationdate="20141108T060948Z">
         <seg>了解构建语言是如何工作的，将有助于你编写构建脚本，特别是当你开始写自定义插件和任务的时候。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unless &lt;c4&gt;groovyOptions.useAnt&lt;/c4&gt; is set to &lt;c5&gt;true&lt;/c5&gt;, Gradle's native Groovy compiler integration is used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094418Z" creationid="msdx" creationdate="20150429T094408Z">
+        <seg>除非&lt;c4&gt;groovyOptions.useAnt&lt;/c4&gt;设置为&lt;c5&gt;true&lt;/c5&gt;，否则将使用 Gradle 集成的本地的 Groovy 编译器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19306,6 +19346,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083425Z" creationid="msdx" creationdate="20150428T083425Z">
         <seg>java_plugin.html#java_source_set_tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java_plugin.html#sec:compile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094144Z" creationid="msdx" creationdate="20150429T094144Z">
+        <seg>java_plugin.html#sec:compile</seg>
       </tuv>
     </tu>
     <tu>
