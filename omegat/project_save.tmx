@@ -3418,6 +3418,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s3&gt;[&lt;a4&gt;11&lt;/a4&gt;]&lt;/s3&gt; None of these directories need to exist or have anything in them; the Groovy plugin will simply compile whatever it finds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T074832Z" creationid="msdx" creationdate="20150429T074832Z">
+        <seg>&lt;s3&gt;[&lt;a4&gt;11&lt;/a4&gt;]&lt;/s3&gt; None of these directories need to exist or have anything in them; the Groovy plugin will simply compile whatever it finds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s4&gt;// Copy the output of a task&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130951Z" creationid="msdx" creationdate="20141113T130951Z">
@@ -4650,6 +4658,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005749Z" creationid="Administrator" creationdate="20150426T005749Z">
         <seg>所有产生源集编译类路径的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All the Groovy source directories can contain Groovy &lt;s1&gt;&lt;e2&gt;and&lt;/e2&gt;&lt;/s1&gt; Java code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T074837Z" creationid="msdx" creationdate="20150429T074749Z">
+        <seg>所有 Groovy 的源目录都可以包含 Groovy&lt;s1&gt;&lt;e2&gt;和&lt;/e2&gt;&lt;/s1&gt;Java 代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12128,6 +12144,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083221Z" creationid="Administrator" creationdate="20150426T083221Z">
         <seg>Java插件将会进行编译，不管它发现什么，并处理缺少的任何东西。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java source directories may only contain Java source code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T074839Z" creationid="msdx" creationdate="20150429T074805Z">
+        <seg>Java 源目录只能包含 Java 源代码。</seg>
       </tuv>
     </tu>
     <tu>
