@@ -2206,6 +2206,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>25.3.1. Changing the project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152651Z" creationid="msdx" creationdate="20150429T152651Z">
+        <seg>25.3.1. 更改项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>25.3. Project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152451Z" creationid="msdx" creationdate="20150429T152451Z">
+        <seg>25.3. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162018Z" creationid="msdx" creationdate="20141109T162018Z">
@@ -4826,6 +4842,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T074837Z" creationid="msdx" creationdate="20150429T074749Z">
         <seg>所有 Groovy 的源目录都可以包含 Groovy&lt;s1&gt;&lt;e2&gt;和&lt;/e2&gt;&lt;/s1&gt;Java 代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All the Scala source directories can contain Scala &lt;s0&gt;&lt;e1&gt;and&lt;/e1&gt;&lt;/s0&gt; Java code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152518Z" creationid="msdx" creationdate="20150429T152518Z">
+        <seg>所有 Scala 的源目录都可以包含 Scala&lt;s1&gt;&lt;e2&gt;和&lt;/e2&gt;&lt;/s1&gt;Java 代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7660,6 +7684,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Figure 25.1. Scala plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152441Z" creationid="msdx" creationdate="20150429T152441Z">
+        <seg>图 25.1. Scala 插件-任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>File</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044352Z" creationid="msdx" creationdate="20141108T044352Z">
@@ -10204,6 +10236,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>None of these directories need to exist or have anything in them; the Scala plugin will simply compile whatever it finds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152610Z" creationid="msdx" creationdate="20150429T152553Z">
+        <seg>这些目录不一定是存在的，或是里面包含有什么内容；Scala 插件只会进行编译，而不管它发现什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Not null</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045721Z" creationid="Administrator" creationdate="20150427T045721Z">
@@ -10908,6 +10948,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Production Scala sources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152619Z" creationid="msdx" creationdate="20150429T152619Z">
+        <seg>Production Scala 源代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Production resources</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083418Z" creationid="Administrator" creationdate="20150426T083418Z">
@@ -11144,6 +11192,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084857Z" creationid="Administrator" creationdate="20150426T084857Z">
         <seg>给定源集的运行时依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scala plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152445Z" creationid="msdx" creationdate="20150429T152445Z">
+        <seg>Scala 插件-任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scala sources for the given source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152644Z" creationid="msdx" creationdate="20150429T152644Z">
+        <seg>给定的source set 的 Scala 源代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11924,6 +11988,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 25.2. Scala plugin - additional task dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152428Z" creationid="msdx" creationdate="20150429T152428Z">
+        <seg>表 24.2. Scala感觉 插件 - 额外的task 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 25.3. Scala plugin - project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152604Z" creationid="msdx" creationdate="20150429T152604Z">
+        <seg>表 25.3. Scala 插件 - 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -12064,6 +12144,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083439Z" creationid="Administrator" creationdate="20150426T083439Z">
         <seg>Java 测试源代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Test Scala sources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152632Z" creationid="msdx" creationdate="20150429T152632Z">
+        <seg>Test Scala 源代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12720,6 +12808,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145404Z" creationid="msdx" creationdate="20150429T145404Z">
         <seg>Scala 的插件向project 中添加了以下任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Scala plugin assumes the project layout shown below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152500Z" creationid="msdx" creationdate="20150429T152500Z">
+        <seg>Scala 插件会假定如下所示的项目布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19092,6 +19188,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>img/scalaPluginTasks.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152446Z" creationid="msdx" creationdate="20150429T152446Z">
+        <seg>img/scalaPluginTasks.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>include &lt;s10&gt;'**/*.java'&lt;/s10&gt;
 }
 
@@ -21356,6 +21460,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>src/&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;/scala</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152633Z" creationid="msdx" creationdate="20150429T152633Z">
+        <seg>src/&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;/scala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>src/main/groovy</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075102Z" creationid="msdx" creationdate="20150429T075102Z">
@@ -21380,6 +21492,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>src/main/scala</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152612Z" creationid="msdx" creationdate="20150429T152612Z">
+        <seg>src/main/scala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>src/test/groovy</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075127Z" creationid="msdx" creationdate="20150429T075127Z">
@@ -21400,6 +21520,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083229Z" creationid="msdx" creationdate="20150428T083229Z">
         <seg>src/test/resources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>src/test/scala</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152620Z" creationid="msdx" creationdate="20150429T152620Z">
+        <seg>src/test/scala</seg>
       </tuv>
     </tu>
     <tu>
