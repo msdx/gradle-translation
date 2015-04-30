@@ -2222,6 +2222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>25.10. Incremental compilation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160101Z" creationid="msdx" creationdate="20150430T160101Z">
+        <seg>25.10. 增量编译</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>25.2. Tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145412Z" creationid="msdx" creationdate="20150429T145341Z">
@@ -5446,6 +5454,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By compiling only classes whose source code has changed since the previous compilation, and classes affected by these changes, incremental compilation can significantly reduce Scala compilation time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160102Z" creationid="msdx" creationdate="20150430T160102Z">
+        <seg>By compiling only classes whose source code has changed since the previous compilation, and classes affected by these changes, incremental compilation can significantly reduce Scala compilation time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default it scans all &lt;c1&gt;.class&lt;/c1&gt; files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T040558Z" creationid="Administrator" creationdate="20150428T040558Z">
@@ -7704,6 +7720,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155213Z" creationid="msdx" creationdate="20150430T155213Z">
         <seg>示例 25.5. 启用 Fast Scala Compiler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 25.6. Adjusting memory settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160053Z" creationid="msdx" creationdate="20150430T160043Z">
+        <seg>示例 25.6. 调整内存设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -10368,6 +10392,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T103048Z" creationid="msdx" creationdate="20141116T103048Z">
         <seg>意义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Memory settings for the external process default to the JVM's defaults.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160021Z" creationid="msdx" creationdate="20150430T160021Z">
+        <seg>外部过程默认使用JVM 的的默认内存设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13204,6 +13236,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Zinc based compiler (&lt;c4&gt;scalaCompileOptions.useAnt = false&lt;/c4&gt;) will leverage the Gradle compiler daemon, and does so by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155946Z" creationid="msdx" creationdate="20150430T155946Z">
+        <seg>基于 Zinc 的编译器 (&lt;c4&gt;scalaCompileOptions.useAnt = false&lt;/c4&gt;) 将利用 Gradle 编译器守护进程，且默认情况下也是这样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The absolute path of the generated archive.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155940Z" creationid="msdx" creationdate="20141113T155940Z">
@@ -15336,6 +15376,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T035508Z" creationid="msdx" creationdate="20141101T035508Z">
         <seg>因此，它提供了简明、可维护和易理解的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To adjust memory settings, configure &lt;c0&gt;scalaCompileOptions.forkOptions&lt;/c0&gt; as needed:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160040Z" creationid="msdx" creationdate="20150430T160040Z">
+        <seg>如果要调整内存设置，请根据需要配置&lt;c0&gt;scalaCompileOptions.forkOptions&lt;/c0&gt; ：</seg>
       </tuv>
     </tu>
     <tu>
@@ -18246,6 +18294,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configure(scalaCompileOptions.forkOptions) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160054Z" creationid="msdx" creationdate="20150430T160054Z">
+        <seg>configure(scalaCompileOptions.forkOptions) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>configures reasonable default values for all archive tasks (e.g. tasks that inherit from &lt;a0&gt;&lt;c1&gt;AbstractArchiveTask&lt;/c1&gt;&lt;/a0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T070908Z" creationid="Administrator" creationdate="20150425T070908Z">
@@ -20168,6 +20224,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>jvmArgs = [&lt;s1&gt;'-XX:MaxPermSize=512m'&lt;/s1&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160055Z" creationid="msdx" creationdate="20150430T160055Z">
+        <seg>jvmArgs = [&lt;s1&gt;'-XX:MaxPermSize=512m'&lt;/s1&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>libs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083240Z" creationid="msdx" creationdate="20150428T083240Z">
@@ -20336,6 +20400,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104758Z" creationid="msdx" creationdate="20150428T104758Z">
         <seg>maven_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>memoryMaximumSize = &lt;s0&gt;'1g'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160055Z" creationid="msdx" creationdate="20150430T160055Z">
+        <seg>memoryMaximumSize = &lt;s0&gt;'1g'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -22440,6 +22512,14 @@ task lib1 &lt;&lt; {</seg>
 }
 
 task lib1 &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tasks.withType(ScalaCompile) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160054Z" creationid="msdx" creationdate="20150430T160054Z">
+        <seg>tasks.withType(ScalaCompile) {</seg>
       </tuv>
     </tu>
     <tu>
