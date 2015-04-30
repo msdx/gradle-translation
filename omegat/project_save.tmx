@@ -494,6 +494,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.ScalaSourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154908Z" creationid="msdx" creationdate="20150430T154908Z">
+        <seg>../dsl/org.gradle.api.tasks.ScalaSourceSet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.SourceSet.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T142848Z" creationid="msdx" creationdate="20141121T142848Z">
@@ -2250,6 +2258,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154655Z" creationid="msdx" creationdate="20150430T154655Z">
         <seg>25.6. 公约属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>25.7. Source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154720Z" creationid="msdx" creationdate="20150430T154720Z">
+        <seg>25.7. source set 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>25.8. Fast Scala Compiler</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155004Z" creationid="msdx" creationdate="20150430T155004Z">
+        <seg>25.8. 快速的 Scala 编译器</seg>
       </tuv>
     </tu>
     <tu>
@@ -4606,10 +4630,26 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adds all &lt;c0&gt;.java&lt;/c0&gt; files found in the Scala source directories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154946Z" creationid="msdx" creationdate="20150430T154946Z">
+        <seg>添加在 Scala 源目录中找到的所有&lt;c0&gt;.java&lt;/c0&gt;文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Adds all source files found in the Groovy source directories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094141Z" creationid="msdx" creationdate="20150429T094056Z">
         <seg>添加在 Groovy 的源目录中找到的所有源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds all source files found in the Scala source directories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154952Z" creationid="msdx" creationdate="20150430T154952Z">
+        <seg>添加在 Scala 的源目录中找到的所有源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4810,6 +4850,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T093538Z" creationid="msdx" creationdate="20150429T093538Z">
         <seg>该source set 中的所有 Groovy 源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All Scala source files of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154854Z" creationid="msdx" creationdate="20150430T154854Z">
+        <seg>该source set 中的所有 Scala 源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6054,6 +6102,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Contains all &lt;c0&gt;.scala&lt;/c0&gt; and &lt;c1&gt;.java&lt;/c1&gt; files found in the Scala source directories, and excludes all other types of files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154829Z" creationid="msdx" creationdate="20150430T154829Z">
+        <seg>包含在 Scala 源目录中找到的所有的&lt;c0&gt;.scala&lt;/c0&gt;和&lt;c1&gt;.java&lt;/c1&gt;文件，并排除所有其他类型的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Contains only &lt;c0&gt;.java&lt;/c0&gt; files found in the Java source directories, and excludes all other files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T052424Z" creationid="Administrator" creationdate="20150427T052424Z">
@@ -6074,6 +6130,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T093601Z" creationid="msdx" creationdate="20150429T093601Z">
         <seg>包含在 Groovy 源目录中找到的所有的&lt;c0&gt;.groovy&lt;/c0&gt;文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Contains only the &lt;c0&gt;.scala&lt;/c0&gt; files found in the Scala source directories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154907Z" creationid="msdx" creationdate="20150430T154907Z">
+        <seg>包含在 Scala 源目录中找到的所有的&lt;c0&gt;.scala&lt;/c0&gt;文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12132,6 +12196,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 25.4. Scala plugin - source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154754Z" creationid="msdx" creationdate="20150430T154754Z">
+        <seg>表 25.4. Scala 插件 - source set 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 25.5. Scala plugin - source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154937Z" creationid="msdx" creationdate="20150430T154937Z">
+        <seg>表 25.5. Scala 插件 - source set 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -12924,6 +13004,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Scala plugin adds the following convention properties to each source set in the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154737Z" creationid="msdx" creationdate="20150430T154737Z">
+        <seg>Scala 的插件向 project 的每一个source set 添加了下列的公约属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Scala plugin adds the following dependencies to tasks added by the Java plugin.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145533Z" creationid="msdx" creationdate="20150429T145533Z">
@@ -12940,6 +13028,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Scala plugin also modifies some source set properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154921Z" creationid="msdx" creationdate="20150430T154921Z">
+        <seg>Scala 的插件还修改了一些 source set 的属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Scala plugin assumes the project layout shown below.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152500Z" creationid="msdx" creationdate="20150429T152500Z">
@@ -12950,8 +13046,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>The Scala plugin does not add any convention properties to the project.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154701Z" creationid="msdx" creationdate="20150430T154701Z">
-        <seg>Groovy 的插件没有向 project 添加任何的常规属性。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154713Z" creationid="msdx" creationdate="20150430T154701Z">
+        <seg>Scala 插件没有向 project 添加任何的公约属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12960,6 +13056,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T144817Z" creationid="msdx" creationdate="20150429T144422Z">
         <seg>Scala 的插件继承自 Java 插件并添加了对 Scala 项目的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Scala source files of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154808Z" creationid="msdx" creationdate="20150430T154808Z">
+        <seg>该source set 中的 Scala 源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13876,6 +13980,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The source directories containing the Scala source files of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154839Z" creationid="msdx" creationdate="20150430T154839Z">
+        <seg>源目录包含该 source set 中的 Scala 源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The source directories containing the resources of this source set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T052901Z" creationid="Administrator" creationdate="20150427T052901Z">
@@ -14304,6 +14416,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T154608Z" creationid="msdx" creationdate="20141105T154449Z">
         <seg>这些命令可以是复杂的命令（只要它们符合 Gradle 的语法），你可以给它们设置一个显示名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These convention properties are provided by a convention object of type &lt;a0&gt;&lt;c1&gt;ScalaSourceSet&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154917Z" creationid="msdx" creationdate="20150430T154917Z">
+        <seg>这些属性由一个&lt;a0&gt;&lt;c1&gt;ScalaSourceSet&lt;/c1&gt;&lt;/a0&gt; 的约定对象提供。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16924,6 +17044,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/scala]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154831Z" creationid="msdx" creationdate="20150430T154831Z">
+        <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/scala]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>adds build &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt; tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T041215Z" creationid="Administrator" creationdate="20150425T041215Z">
@@ -16952,6 +17080,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083421Z" creationid="msdx" creationdate="20150428T083421Z">
         <seg>allJava</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>allScala</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154839Z" creationid="msdx" creationdate="20150430T154839Z">
+        <seg>allScala</seg>
       </tuv>
     </tu>
     <tu>
@@ -19278,6 +19414,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://www.scala-lang.org/docu/files/tools/fsc.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155005Z" creationid="msdx" creationdate="20150430T155005Z">
+        <seg>http://www.scala-lang.org/docu/files/tools/fsc.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://www.sonarsource.org</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104919Z" creationid="msdx" creationdate="20150428T104919Z">
@@ -21358,6 +21502,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104931Z" creationid="msdx" creationdate="20150428T104931Z">
         <seg>scala-base</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>scala.srcDirs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154830Z" creationid="msdx" creationdate="20150430T154830Z">
+        <seg>scala.srcDirs</seg>
       </tuv>
     </tu>
     <tu>
