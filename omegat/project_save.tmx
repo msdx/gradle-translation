@@ -310,6 +310,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(It does detect changes to the compile class path itself.) This makes it less suitable for multi-project builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155541Z" creationid="msdx" creationdate="20150430T155541Z">
+        <seg>(它本身不会去检测编译类路径的更改。）这使得它不太适合于多项目的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>-</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120903Z" creationid="msdx" creationdate="20141126T120903Z">
@@ -2274,6 +2282,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155122Z" creationid="msdx" creationdate="20150430T155004Z">
         <seg>25.8. Fast Scala Compiler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>25.9. Compiling in external process</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155557Z" creationid="msdx" creationdate="20150430T155557Z">
+        <seg>25.9. 在外部进程中编译</seg>
       </tuv>
     </tu>
     <tu>
@@ -12708,6 +12724,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Ant based compiler (&lt;c2&gt;scalaCompileOptions.useAnt = true&lt;/c2&gt;) will fork a new process for every &lt;c3&gt;ScalaCompile&lt;/c3&gt; task, and does not fork by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155854Z" creationid="msdx" creationdate="20150430T155854Z">
+        <seg>基于 Ant 的编译器 (&lt;c2&gt;scalaCompileOptions.useAnt = true&lt;/c2&gt;) 将为每个&lt;c3&gt;ScalaCompile&lt;/c3&gt;任务fork 一个新进程，而默认情况下它不进行fork。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Ant integration is provided by &lt;a0&gt;&lt;c1&gt;AntBuilder&lt;/c1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T063027Z" creationid="msdx" creationdate="20141116T062726Z">
@@ -13424,6 +13448,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015115Z" creationid="Administrator" creationdate="20150428T015115Z">
         <seg>&lt;c2&gt;IgnoreFailures&lt;/c2&gt;的默认值为 false。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The details of forking depend on which compiler is used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155725Z" creationid="msdx" creationdate="20150430T155725Z">
+        <seg>fork 的详细情况依赖于所使用的编译器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15904,6 +15936,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163533Z" creationid="msdx" creationdate="20141109T163533Z">
         <seg>什么是依赖管理？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When &lt;c0&gt;scalaCompileOptions.fork&lt;/c0&gt; is set to &lt;c1&gt;true&lt;/c1&gt;, compilation will take place in an external process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155622Z" creationid="msdx" creationdate="20150430T155622Z">
+        <seg>当&lt;c0&gt;scalaCompileOptions.fork&lt;/c0&gt;设置为&lt;c1&gt;true&lt;/c1&gt;时，编译会在外部进程中进行。</seg>
       </tuv>
     </tu>
     <tu>
