@@ -5750,6 +5750,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, all Java and Scala code under &lt;c0&gt;src/main/scala&lt;/c0&gt; will participate in joint compilation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155211Z" creationid="msdx" creationdate="20150501T155211Z">
+        <seg>默认情况下，在&lt;c0&gt;src/main/scala&lt;/c0&gt; 下的所有 Java 和 Scala 代码都会进行联合编译。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, the Java compiler runs in the Gradle process.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135535Z" creationid="Administrator" creationdate="20150427T135535Z">
@@ -9796,6 +9804,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In a multi-project build, analysis files are passed on to downstream &lt;c1&gt;ScalaCompile&lt;/c1&gt; tasks to enable incremental compilation across project boundaries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155605Z" creationid="msdx" creationdate="20150501T155605Z">
+        <seg>In a multi-project build, analysis files are passed on to downstream &lt;c1&gt;ScalaCompile&lt;/c1&gt; tasks to enable incremental compilation across project boundaries.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In addition to supporting a traditional command line interface, Gradle offers a graphical user interface.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T145924Z" creationid="msdx" creationdate="20141105T145546Z">
@@ -10000,6 +10016,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T143323Z" creationid="msdx" creationdate="20141114T143323Z">
         <seg>在构建脚本中，Gradle 提供了一个名为 &lt;c0&gt;ant&lt;/c0&gt; 的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Incremental compilation requires dependency analysis of the source code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155428Z" creationid="msdx" creationdate="20150501T155306Z">
+        <seg>增量编译需要源代码的相关性分析。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14356,6 +14380,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The results of this analysis are stored in the file designated by &lt;c0&gt;scalaCompileOptions.incrementalOptions.analysisFile&lt;/c0&gt; (which has a sensible default).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155600Z" creationid="msdx" creationdate="20150501T155513Z">
+        <seg>解析结果进入由 &lt;c0&gt;scalaCompileOptions.incrementalOptions.analysisFile&lt;/c0&gt; 所指定的文件（它有一个合理的默认值）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The return value can be an object of any of the types supported by the &lt;c3&gt;files()&lt;/c3&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160650Z" creationid="msdx" creationdate="20141112T160650Z">
@@ -16592,6 +16624,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T150123Z" creationid="msdx" creationdate="20141109T150123Z">
         <seg>通过&lt;c0&gt;gradle.properties&lt;/c0&gt;文件，你还可以设置系统属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With the Zinc based compiler, even Java code will be compiled incrementally.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155245Z" creationid="msdx" creationdate="20150501T155245Z">
+        <seg>使用基于 Zinc 的编译器时，即使是 Java 代码也将会进行增量编译。</seg>
       </tuv>
     </tu>
     <tu>
