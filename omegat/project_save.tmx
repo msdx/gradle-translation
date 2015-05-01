@@ -10428,6 +10428,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Just like Gradle's Ant based compiler, the Zinc based compiler supports joint compilation of Java and Scala code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155133Z" creationid="msdx" creationdate="20150501T155133Z">
+        <seg>就像Gradle 上基于Ant 的编译器一样，基于 Zinc 的编译器支持 Java 和 Scala 代码的联合编译。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Just like the Java plugin, the Groovy plugin allows to configure custom locations for Groovy production and test sources.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075333Z" creationid="msdx" creationdate="20150429T075333Z">
@@ -11632,6 +11640,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T051939Z" creationid="msdx" creationdate="20141120T051939Z">
         <seg>如果该设置未指定，将使用合理的默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Regardless of which Zinc version is used, Zinc will always use the Scala compiler found on the &lt;c2&gt;scalaTools&lt;/c2&gt; configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155052Z" creationid="msdx" creationdate="20150501T155052Z">
+        <seg>无论使用哪一个 Zinc 版本，Zinc 都是使用在&lt;c2&gt;scalaTools&lt;/c2&gt;配置上找到的 Scala 编译器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15784,6 +15800,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011850Z" creationid="msdx" creationdate="20141116T011850Z">
         <seg>要使自定义任务在您的构建中可用，你可以使用Ant 任务 &lt;c0&gt;taskdef&lt;/c0&gt;（通常更容易） 或&lt;c1&gt;typedef&lt;/c1&gt;，就像在&lt;c2&gt;build.xml&lt;/c2&gt;文件中一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To override the Zinc version that Gradle uses by default, add an explicit Zinc dependency (for example &lt;c1&gt;zinc "com.typesafe.zinc:zinc:0.1.4"&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T154842Z" creationid="msdx" creationdate="20150501T154842Z">
+        <seg>如果要重写 Gradle 默认情况下使用的 Zinc 版本，请添加一个显式的 Zinc 依赖项 （例如&lt;c1&gt;zinc "com.typesafe.zinc:zinc:0.1.4"&lt;/c1&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
