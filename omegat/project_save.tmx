@@ -1952,8 +1952,8 @@
       <tuv lang="EN-US">
         <seg>18.3. Logging from external tools and libraries</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130627Z" creationid="msdx" creationdate="20141116T130627Z">
-        <seg>18.3. 使用外部工具和库记录日志</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T034124Z" creationid="msdx" creationdate="20141116T130627Z">
+        <seg>18.3. 使用外部的工具和类库来记录日志</seg>
       </tuv>
     </tu>
     <tu>
@@ -5368,8 +5368,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Any log messages which your build classes write using these logging toolkits will be redirected to Gradle's logging system.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T152826Z" creationid="msdx" creationdate="20141116T152826Z">
-        <seg>你生成的类使用这些日志记录工具输出的任何日志消息，都将被重定向到 Gradle 的日志系统。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T034505Z" creationid="msdx" creationdate="20141116T152826Z">
+        <seg>你所构建的类使用这些日志记录工具输出的任何日志消息，都将被重定向到 Gradle 的日志系统。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14238,8 +14238,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>The project object provides a &lt;a2&gt;&lt;c3&gt;LoggingManager&lt;/c3&gt;&lt;/a2&gt;, which allows you to change the log levels that standard out or error are redirected to when your build script is evaluated.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131859Z" creationid="msdx" creationdate="20141116T131251Z">
-        <seg>Project对象提供了一个&lt;a2&gt;&lt;c3&gt;LoggingManager&lt;/c3&gt;&lt;/a2&gt;，它允许您在计算构建脚本时，修改标准输出和错误重定向的日志级别。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T034354Z" creationid="msdx" creationdate="20141116T131251Z">
+        <seg>Project对象提供了一个&lt;a2&gt;&lt;c3&gt;LoggingManager&lt;/c3&gt;&lt;/a2&gt;，它可以在评估构建脚本时，修改标准输出和错误重定向的日志级别。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14574,8 +14574,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>There are many tools out there which still use standard output for logging.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131106Z" creationid="msdx" creationdate="20141116T131106Z">
-        <seg>有很多的工具仍然在使用标准输出日志记录。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T034239Z" creationid="msdx" creationdate="20141116T131106Z">
+        <seg>有很多的工具仍然在使用标准输出进行日志记录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16678,8 +16678,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>You can also hook into Gradle's logging system from within other classes used in the build (classes from the &lt;c0&gt;buildSrc&lt;/c0&gt; directory for example).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130304Z" creationid="msdx" creationdate="20141116T125946Z">
-        <seg>您也可以在构建脚本中通过其他使用的类挂钩到 Gradle 的日志系统中（例如 &lt;c0&gt;buildSrc&lt;/c0&gt; 目录中的类）。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T033839Z" creationid="msdx" creationdate="20141116T125946Z">
+        <seg>您也可以在构建脚本中通过其他使用的类 hook 到 Gradle 的日志系统中（例如 &lt;c0&gt;buildSrc&lt;/c0&gt; 目录中的类）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17166,8 +17166,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>You can use this logger the same way as you use the provided logger in the build script.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130521Z" creationid="msdx" creationdate="20141116T130521Z">
-        <seg>你可以在构建脚本中，用与内置的logger同样的方式使用这个logger。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T034009Z" creationid="msdx" creationdate="20141116T130521Z">
+        <seg>你可以在构建脚本中，以与内置的logger 相同的方式来使用这个logger。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17270,8 +17270,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>You might do this, for example, if you want to customize the UI in some way - to log more or less information, or to change the formatting.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T153100Z" creationid="msdx" creationdate="20141116T153100Z">
-        <seg>你可以这样做，例如，如果您想要以某种方式自定义 UI ——以输出更多或更少的信息，或修改日志格式</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T034607Z" creationid="msdx" creationdate="20141116T153100Z">
+        <seg>你可以这样，比如，如果您想要以某种方式自定义 UI ——以输出更多或更少的信息，或修改日志格式，</seg>
       </tuv>
     </tu>
     <tu>
