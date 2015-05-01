@@ -5720,8 +5720,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>By compiling only classes whose source code has changed since the previous compilation, and classes affected by these changes, incremental compilation can significantly reduce Scala compilation time.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160102Z" creationid="msdx" creationdate="20150430T160102Z">
-        <seg>By compiling only classes whose source code has changed since the previous compilation, and classes affected by these changes, incremental compilation can significantly reduce Scala compilation time.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T153725Z" creationid="msdx" creationdate="20150430T160102Z">
+        <seg>增量编译是只编译那些源代码在上一次编译之后有修改的类，及那些受这些修改影响到的类，它可以大大减少 Scala 的编译时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10152,6 +10152,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161234Z" creationid="msdx" creationdate="20141112T161234Z">
         <seg>要注意的一个地方是，一个文件集合的内容是缓计算的，它只在需要的时候才计算。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is particularly effective when frequently compiling small code increments, as is often done at development time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T153543Z" creationid="msdx" creationdate="20150501T153543Z">
+        <seg>It is particularly effective when frequently compiling small code increments, as is often done at development time.</seg>
       </tuv>
     </tu>
     <tu>
