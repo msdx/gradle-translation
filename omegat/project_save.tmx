@@ -8364,6 +8364,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For &lt;c2&gt;ScalaCompile&lt;/c2&gt; tasks added by the Scala plugin, no configuration is necessary to make this work.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155738Z" creationid="msdx" creationdate="20150501T155725Z">
+        <seg>对于由 Scala 插件添加的&lt;c2&gt;ScalaCompile&lt;/c2&gt;任务，无需对这一点进行配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a complete list of supported Javadoc options consult the API documentation of the following classes: &lt;a4&gt;&lt;c5&gt;CoreJavadocOptions&lt;/c5&gt;&lt;/a4&gt; and &lt;a6&gt;&lt;c7&gt;StandardJavadocDocletOptions&lt;/c7&gt;&lt;/a6&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133940Z" creationid="Administrator" creationdate="20150427T133940Z">
@@ -8680,6 +8688,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T134149Z" creationid="msdx" creationdate="20141109T093732Z">
         <seg>对于多项目构建，您可以将&lt;c4&gt;gradle.properties&lt;/c4&gt;文件放在任何子项目的目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For other &lt;c3&gt;ScalaCompile&lt;/c3&gt; tasks, &lt;c4&gt;scalaCompileOptions.incrementalOptions.publishedCode&lt;/c4&gt; needs to be configured to point to the classes folder or Jar archive by which the code is passed on to compile class paths of downstream &lt;c5&gt;ScalaCompile&lt;/c5&gt; tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155734Z" creationid="msdx" creationdate="20150501T155734Z">
+        <seg>For other &lt;c3&gt;ScalaCompile&lt;/c3&gt; tasks, &lt;c4&gt;scalaCompileOptions.incrementalOptions.publishedCode&lt;/c4&gt; needs to be configured to point to the classes folder or Jar archive by which the code is passed on to compile class paths of downstream &lt;c5&gt;ScalaCompile&lt;/c5&gt; tasks.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9806,8 +9822,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>In a multi-project build, analysis files are passed on to downstream &lt;c1&gt;ScalaCompile&lt;/c1&gt; tasks to enable incremental compilation across project boundaries.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155605Z" creationid="msdx" creationdate="20150501T155605Z">
-        <seg>In a multi-project build, analysis files are passed on to downstream &lt;c1&gt;ScalaCompile&lt;/c1&gt; tasks to enable incremental compilation across project boundaries.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155648Z" creationid="msdx" creationdate="20150501T155605Z">
+        <seg>在多项目构建中，分析文件被传递给下游的&lt;c1&gt;ScalaCompile&lt;/c1&gt;任务，以启用跨项目的增量编译。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14382,8 +14398,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>The results of this analysis are stored in the file designated by &lt;c0&gt;scalaCompileOptions.incrementalOptions.analysisFile&lt;/c0&gt; (which has a sensible default).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155600Z" creationid="msdx" creationdate="20150501T155513Z">
-        <seg>解析结果进入由 &lt;c0&gt;scalaCompileOptions.incrementalOptions.analysisFile&lt;/c0&gt; 所指定的文件（它有一个合理的默认值）</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155609Z" creationid="msdx" creationdate="20150501T155513Z">
+        <seg>解析结果进入由 &lt;c0&gt;scalaCompileOptions.incrementalOptions.analysisFile&lt;/c0&gt; 所指定的文件（它有一个合理的默认值）。</seg>
       </tuv>
     </tu>
     <tu>
