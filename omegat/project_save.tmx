@@ -7996,6 +7996,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 25.7. Activating the Zinc based compiler</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T154307Z" creationid="msdx" creationdate="20150501T154307Z">
+        <seg>示例 25.7. 激活基于 Zinc 编译器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -8016,6 +8024,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065502Z" creationid="msdx" creationdate="20141030T065502Z">
         <seg>Example 9.3. Groovy example - complete build file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Except where noted in the&lt;a0&gt;API documentation&lt;/a0&gt;, the Zinc based compiler supports exactly the same configuration options as the Ant based compiler.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T154353Z" creationid="msdx" creationdate="20150501T154353Z">
+        <seg>除非在&lt;a0&gt;API 文档&lt;/a0&gt;中另有说明，否则基于 Zinc 的据编译器支持与基于 Ant 的编译器完全相同的配置选项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10828,6 +10844,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note, however, that the Zinc compiler requires Java 6 or higher to run.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T154444Z" creationid="msdx" creationdate="20150501T154422Z">
+        <seg>但是，要注意的是，Zinc 编译器需要 Java 6 或其以上版本来运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note: if you specify a stack trace level on either the Command Line or Favorites tab, it will override this stack trace level.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161104Z" creationid="msdx" creationdate="20141105T161104Z">
@@ -13428,6 +13452,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Scala plugin now supports incremental compilation by integrating with &lt;a0&gt;Zinc&lt;/a0&gt;, a standalone version of &lt;a1&gt;sbt&lt;/a1&gt;'s incremental Scala compiler.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T154142Z" creationid="msdx" creationdate="20150501T154142Z">
+        <seg>Scala 插件现在通过集成 &lt;a0&gt;Zinc&lt;/a0&gt; 来支持增量编译， 它是&lt;a1&gt;sbt&lt;/a1&gt;增量 Scala 编译器的一个单机版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Scala source files of this source set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154808Z" creationid="msdx" creationdate="20150430T154808Z">
@@ -15404,6 +15436,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means that Gradle itself has to be run with Java 6 or higher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T154440Z" creationid="msdx" creationdate="20150501T154440Z">
+        <seg>这意味着 Gradle 本身要使用 Java 6 或其以上版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means that Gradle must launch a separate JVM process to execute the build after parsing the various &lt;c0&gt;gradle.properties&lt;/c0&gt; files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T081859Z" creationid="msdx" creationdate="20141120T081853Z">
@@ -15776,6 +15816,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124338Z" creationid="msdx" creationdate="20141113T124338Z">
         <seg>使用&lt;a7&gt;&lt;c8&gt;CopySpec.into()&lt;/c8&gt;&lt;/a7&gt;方法使用目标目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To switch the &lt;c2&gt;ScalaCompile&lt;/c2&gt; task from the default Ant based compiler to the new Zinc based compiler, set &lt;c3&gt;scalaCompileOptions.useAnt&lt;/c3&gt; to &lt;c4&gt;false&lt;/c4&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T154253Z" creationid="msdx" creationdate="20150501T154253Z">
+        <seg>若要把&lt;c2&gt;ScalaCompile&lt;/c2&gt;任务从默认的基于 Ant 的编译器切换为新的基于 Zinc 的编译器，需要将 &lt;c3&gt;scalaCompileOptions.useAnt&lt;/c3&gt;设置为&lt;c4&gt;false&lt;/c4&gt;：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19790,6 +19838,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://gradle.org/docs/current/dsl/org.gradle.api.tasks.scala.ScalaCompile.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T154310Z" creationid="msdx" creationdate="20150501T154310Z">
+        <seg>http://gradle.org/docs/current/dsl/org.gradle.api.tasks.scala.ScalaCompile.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://groovy.codehaus.org/Using+Ant+from+Groovy</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011230Z" creationid="msdx" creationdate="20141116T011230Z">
@@ -22111,6 +22167,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155215Z" creationid="msdx" creationdate="20150430T155215Z">
         <seg>scalaCompileOptions.daemonServer = &lt;s1&gt;"localhost:4243"&lt;/s1&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>scalaCompileOptions.useAnt = false
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T154308Z" creationid="msdx" creationdate="20150501T154308Z">
+        <seg>scalaCompileOptions.useAnt = false
 }</seg>
       </tuv>
     </tu>
