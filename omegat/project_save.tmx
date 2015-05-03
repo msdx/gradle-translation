@@ -3784,6 +3784,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;13&lt;/a1&gt;] &lt;/s0&gt;The &lt;c2&gt;runtime&lt;/c2&gt; configuration extends the &lt;c3&gt;compile&lt;/c3&gt; configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T094036Z" creationid="msdx" creationdate="20150503T094036Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;13&lt;/a1&gt;]&lt;/s0&gt;&lt;c2&gt;runtime&lt;/c2&gt;配置继承自&lt;c3&gt;compile&lt;/c3&gt;配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;] &lt;/s0&gt;As of Gradle 1.0-milestone-9, using &lt;c2&gt;ext&lt;/c2&gt; to add extra properties is strongly encouraged but not yet enforced.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065302Z" creationid="msdx" creationdate="20141108T065302Z">
@@ -6144,8 +6152,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Chapter 28. The Jetty Plugin</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T035211Z" creationid="msdx" creationdate="20141030T035211Z">
-        <seg>Chapter 28. The Jetty Plugin</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T094141Z" creationid="msdx" creationdate="20141030T035211Z">
+        <seg>第二十八章. Jetty 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -10300,6 +10308,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It adds a default EAR archive task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T094310Z" creationid="msdx" creationdate="20150503T094310Z">
+        <seg>它添加了一个默认的EAR archive task。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It adds an instance for each source set in the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134618Z" creationid="Administrator" creationdate="20150427T134618Z">
@@ -10392,6 +10408,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T085836Z" creationid="msdx" creationdate="20150503T085836Z">
         <seg>它禁用了 Java 插件生成默认的 JAR archive，并添加了一个默认的 WAR archive 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It doesn't require the Java plugin, but for projects that also use the Java plugin it disables the default JAR archive generation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T094402Z" creationid="msdx" creationdate="20150503T094402Z">
+        <seg>它不需要 Java 插件，但是对于使用了 Java 插件的项目，它将禁用默认的 JAR archive 的生成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11238,8 +11262,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Of course one can configure the different file-sets with a closure to define excludes and includes.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T093821Z" creationid="msdx" creationdate="20150503T093821Z">
-        <seg>Of course one can configure the different file-sets with a closure to define excludes and includes.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T094010Z" creationid="msdx" creationdate="20150503T093821Z">
+        <seg>当然，你可以用一个定义了excludes 和 includes 的闭包来配置不同的文件集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13456,6 +13480,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T160049Z" creationid="msdx" creationdate="20141105T160049Z">
         <seg>命令行选项卡是直接执行单个的 Gradle 命令的地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Ear plugin adds support for assembling web application EAR files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T094222Z" creationid="msdx" creationdate="20150503T094121Z">
+        <seg>Ear 插件添加了用于组装 web 应用程序的 EAR 文件的支持。</seg>
       </tuv>
     </tu>
     <tu>
