@@ -2486,6 +2486,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>25.11. Eclipse Integration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T081849Z" creationid="msdx" creationdate="20150503T081849Z">
+        <seg>25.11. eclipse 集成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>25.12. IntelliJ IDEA Integration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T082050Z" creationid="msdx" creationdate="20150503T082050Z">
+        <seg>25.12. IntelliJ 集成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>25.2. Tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145412Z" creationid="msdx" creationdate="20150429T145341Z">
@@ -6854,8 +6870,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Due to the overhead of dependency analysis, a clean compilation or a compilation after a larger code change may take longer than with the Ant based compiler.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T080600Z" creationid="msdx" creationdate="20150503T080600Z">
-        <seg>Due to the overhead of dependency analysis, a clean compilation or a compilation after a larger code change may take longer than with the Ant based compiler.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T081116Z" creationid="msdx" creationdate="20150503T080600Z">
+        <seg>由于依赖分析的系统开销，一次干净的编译或在代码有了较大的更改之后的编译，可能花费的时间要长于使用基于 Ant 的编译器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8376,6 +8392,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155738Z" creationid="msdx" creationdate="20150501T155725Z">
         <seg>对于由 Scala 插件添加的&lt;c2&gt;ScalaCompile&lt;/c2&gt;任务，无需对这一点进行配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For CI builds and release builds, we currently recommend to use the Ant based compiler.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T081143Z" creationid="msdx" creationdate="20150503T080820Z">
+        <seg>对于 CI 构建和版本的构建中，我们目前推荐使用基于 Ant 的编译器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10076,6 +10100,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instead, we plan to enhance Gradle's own compiler daemon to stay alive across Gradle invocations, reusing the same Scala compiler.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T081647Z" creationid="msdx" creationdate="20150503T081629Z">
+        <seg>相反，我们打算加强 Gradle 自己的编译器守护进程，使得在跨 Gradle 调用时继续存活，利用同一个 Scala 编译器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Internally, Gradle uses Ant and Ivy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130707Z" creationid="msdx" creationdate="20141116T130707Z">
@@ -10860,6 +10892,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that Zinc's Nailgun based daemon mode is not supported.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T081255Z" creationid="msdx" creationdate="20150503T081255Z">
+        <seg>注意现在 Zinc 基于守护进程模式的Nailgun 还不支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that abstract classes are not executed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T041207Z" creationid="Administrator" creationdate="20150428T041207Z">
@@ -10878,8 +10918,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Note that if &lt;c6&gt;publishedCode&lt;/c6&gt; is not set correctly, downstream tasks may not recompile code affected by upstream changes, leading to incorrect compilation results.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T080456Z" creationid="msdx" creationdate="20150503T080456Z">
-        <seg>Note that if &lt;c6&gt;publishedCode&lt;/c6&gt; is not set correctly, downstream tasks may not recompile code affected by upstream changes, leading to incorrect compilation results.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T080817Z" creationid="msdx" creationdate="20150503T080456Z">
+        <seg>注意，如果&lt;c6&gt;publishedCode&lt;/c6&gt;设置不正确，上游代码发生变化时下游任务可能不会重新编译代码，导致编译结果不正确。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12224,6 +12264,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T071125Z" creationid="Administrator" creationdate="20150425T071125Z">
         <seg>特别是，归档任务的&lt;c8&gt;destinationDir&lt;/c8&gt;、 &lt;c9&gt;baseName&lt;/c9&gt;和&lt;c10&gt;version&lt;/c10&gt;属性被预先配置了默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifically, the plugin adds a Scala facet and a Scala compiler library that matches the Scala version on the project's class path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T082123Z" creationid="msdx" creationdate="20150503T082123Z">
+        <seg>Specifically, the plugin adds a Scala facet and a Scala compiler library that matches the Scala version on the project's class path.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifically, the plugin adds a Scala nature and dependency container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T082041Z" creationid="msdx" creationdate="20150503T082041Z">
+        <seg>具体而言，该插件添加一个 Scala 性质和依赖的容器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15436,6 +15492,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is expected to yield another significant speedup for Scala compilation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T081842Z" creationid="msdx" creationdate="20150503T081636Z">
+        <seg>这将会为 Scala 编译带来另一个方面上的明显加速。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is expressed as &lt;c4&gt;taskB.mustRunAfter(taskA)&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T152101Z" creationid="msdx" creationdate="20141110T152054Z">
@@ -16520,6 +16584,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153604Z" creationid="msdx" creationdate="20141119T153604Z">
         <seg>当设置为&lt;c0&gt;true&lt;/c0&gt; 时，Gradle 守护进程会运行构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the Eclipse plugin encounters a Scala project, it adds additional configuration to make the project work with Scala IDE out of the box.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T081956Z" creationid="msdx" creationdate="20150503T081956Z">
+        <seg>当 Eclipse 插件遇到 Scala 项目时，它将添加额外的配置，使得项目能够在使用 Scala IDE 时开箱即用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the IDEA plugin encounters a Scala project, it adds additional configuration to make the project work with IDEA out of the box.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T082121Z" creationid="msdx" creationdate="20150503T082121Z">
+        <seg>当 IDEA 插件遇到 Scala 项目时，它将添加额外的配置，使得项目能够在使用 IDEA 时开箱即用。</seg>
       </tuv>
     </tu>
     <tu>
