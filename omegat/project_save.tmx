@@ -6852,6 +6852,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Due to the overhead of dependency analysis, a clean compilation or a compilation after a larger code change may take longer than with the Ant based compiler.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T080600Z" creationid="msdx" creationdate="20150503T080600Z">
+        <seg>Due to the overhead of dependency analysis, a clean compilation or a compilation after a larger code change may take longer than with the Ant based compiler.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dynamic tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162458Z" creationid="msdx" creationdate="20141109T162458Z">
@@ -10868,6 +10876,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that if &lt;c6&gt;publishedCode&lt;/c6&gt; is not set correctly, downstream tasks may not recompile code affected by upstream changes, leading to incorrect compilation results.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T080456Z" creationid="msdx" creationdate="20150503T080456Z">
+        <seg>Note that if &lt;c6&gt;publishedCode&lt;/c6&gt; is not set correctly, downstream tasks may not recompile code affected by upstream changes, leading to incorrect compilation results.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that if a task has an output directory specified, any files added to that directory since the last time it was executed are ignored and will NOT cause the task to be out of date.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T064006Z" creationid="msdx" creationdate="20141111T063742Z">
@@ -13278,8 +13294,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>The Java plugin adds Java compilation, testing and bundling capabilities to a project.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T073525Z" creationid="Administrator" creationdate="20150425T073525Z">
-        <seg>Java 插件向一个项目添加了 Java 编译、 测试和 bundling 的能力。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T080556Z" creationid="Administrator" creationdate="20150425T073525Z">
+        <seg>Java 插件向project 添加了 Java 编译、 测试和捆绑的能力。</seg>
       </tuv>
     </tu>
     <tu>
