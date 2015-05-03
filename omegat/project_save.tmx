@@ -15948,6 +15948,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Those configurations have the same scope as the respective &lt;c2&gt;compile&lt;/c2&gt; and &lt;c3&gt;runtime&lt;/c3&gt; configurations, except that they are not added to the WAR archive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T091028Z" creationid="msdx" creationdate="20150503T091028Z">
+        <seg>虽然它们有各自的&lt;c2&gt;compile&lt;/c2&gt;和&lt;c3&gt;runtime&lt;/c3&gt;配置，但这些配置有相同的作用域，只是它们不会添加到 WAR 文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Those elements also provide build-by-convention support for Java, Groovy, OSGi, Web and Scala projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T035228Z" creationid="msdx" creationdate="20141101T035228Z">
