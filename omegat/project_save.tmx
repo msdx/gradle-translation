@@ -238,6 +238,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N130DF</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092354Z" creationid="msdx" creationdate="20150503T092354Z">
+        <seg>#ftn.N130DF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#installation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T141011Z" creationid="msdx" creationdate="20141127T141011Z">
@@ -482,6 +490,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083247Z" creationid="msdx" creationdate="20150428T083247Z">
         <seg>../dsl/org.gradle.api.plugins.ReportingBasePluginConvention.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.WarPluginConvention.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092327Z" creationid="msdx" creationdate="20150503T092327Z">
+        <seg>../dsl/org.gradle.api.plugins.WarPluginConvention.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2614,6 +2630,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>26.5. Convention properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092115Z" creationid="msdx" creationdate="20150503T092115Z">
+        <seg>26.5. 公约属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>26.6. War</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092353Z" creationid="msdx" creationdate="20150503T092353Z">
+        <seg>26.6. War</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162018Z" creationid="msdx" creationdate="20141109T162018Z">
@@ -3370,6 +3402,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083440Z" creationid="msdx" creationdate="20150428T083440Z">
         <seg>&lt;e0&gt;&lt;c1&gt;docsDir&lt;/c1&gt;&lt;/e0&gt;/javadoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;webAppDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092315Z" creationid="msdx" creationdate="20150503T092315Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;webAppDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9812,6 +9852,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you don't want this transitive behavior, simply declare your &lt;c11&gt;provided&lt;/c11&gt; dependencies like &lt;c12&gt;commons-httpclient:commons-httpclient:3.0@jar&lt;/c12&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092101Z" creationid="msdx" creationdate="20150503T091943Z">
+        <seg>如果你不想要这种传递行为，只是把&lt;c11&gt;provided&lt;/c11&gt;依赖声明成和&lt;c12&gt;commons-httpclient:commons-httpclient:3.0@jar&lt;/c12&gt;一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you edit them, you are given options to "Always Show Live Output." This only applies if you have 'Only Show Output When Errors Occur'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T155832Z" creationid="msdx" creationdate="20141105T155832Z">
@@ -12844,6 +12892,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 26.4. War plugin - directory properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092124Z" creationid="msdx" creationdate="20150503T092124Z">
+        <seg>表26.4. War插件 ​​- 目录属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -14044,6 +14100,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default behavior of the War task is to copy the content of &lt;c0&gt;src/main/webapp&lt;/c0&gt; to the root of the archive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092356Z" creationid="msdx" creationdate="20150503T092356Z">
+        <seg>The default behavior of the War task is to copy the content of &lt;c0&gt;src/main/webapp&lt;/c0&gt; to the root of the archive.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default configuration used by a project dependency on this project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084553Z" creationid="Administrator" creationdate="20150426T084456Z">
@@ -14460,6 +14524,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the web application source directory, relative to the project directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092314Z" creationid="msdx" creationdate="20150503T092132Z">
+        <seg>web 应用程序源目录的名称，是一个相对于项目目录的目录名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The next time you run this build, Gradle uses the compiled script, if the script has not changed since it was compiled.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T153457Z" creationid="msdx" creationdate="20141109T153441Z">
@@ -14860,6 +14932,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The web application source directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092326Z" creationid="msdx" creationdate="20150503T092326Z">
+        <seg>Web 应用程序的源目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then you could move your dependency declarations from the Ant script to your build file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T142726Z" creationid="msdx" creationdate="20141114T142726Z">
@@ -15208,6 +15288,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T030746Z" creationid="Administrator" creationdate="20150425T030746Z">
         <seg>以下这些插件提供了一些与各种运行时技术的集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These properties are provided by a &lt;a0&gt;&lt;c1&gt;WarPluginConvention&lt;/c1&gt;&lt;/a0&gt; convention object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092346Z" creationid="msdx" creationdate="20150503T092329Z">
+        <seg>这些属性由一个&lt;a0&gt;&lt;c1&gt;WarPluginConvention&lt;/c1&gt;&lt;/a0&gt;公约对象提供。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24116,6 +24204,22 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104800Z" creationid="msdx" creationdate="20150428T104800Z">
         <seg>war_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>webAppDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092314Z" creationid="msdx" creationdate="20150503T092314Z">
+        <seg>webAppDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>webAppDirName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092125Z" creationid="msdx" creationdate="20150503T092125Z">
+        <seg>webAppDirName</seg>
       </tuv>
     </tu>
     <tu>
