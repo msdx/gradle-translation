@@ -10342,8 +10342,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>It is important to note that those &lt;c4&gt;provided&lt;/c4&gt; configurations work transitively.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T091211Z" creationid="msdx" creationdate="20150503T091211Z">
-        <seg>要特别注意，这些&lt;c4&gt;provided&lt;/c4&gt;配置有传递性。</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T091604Z" creationid="msdx" creationdate="20150503T091211Z">
+        <seg>要特别注意，这些&lt;c4&gt;provided&lt;/c4&gt;配置的传递使用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15752,6 +15752,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T071240Z" creationid="msdx" creationdate="20150429T071240Z">
         <seg>这样一来，我们就能够在项目中使用最适合的语言，并且在有需要的情况下用其他的语言重写其中的任何类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means neither &lt;c7&gt;httpclient&lt;/c7&gt; nor &lt;c8&gt;commons-codec&lt;/c8&gt; is added to your WAR, even if &lt;c9&gt;commons-codec&lt;/c9&gt; were an explicit dependency of your &lt;c10&gt;compile&lt;/c10&gt; configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T091518Z" creationid="msdx" creationdate="20150503T091518Z">
+        <seg>这意味着 &lt;c7&gt;httpclient&lt;/c7&gt; 和 &lt;c8&gt;commons-codec&lt;/c8&gt; 都不会添加到你的 WAR 中，即使 &lt;c9&gt;commons-codec&lt;/c9&gt; 是 &lt;c10&gt;compile&lt;/c10&gt; 配置上的一个显示依赖。</seg>
       </tuv>
     </tu>
     <tu>
