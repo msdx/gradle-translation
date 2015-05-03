@@ -2582,6 +2582,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>26.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T085841Z" creationid="msdx" creationdate="20150503T085841Z">
+        <seg>26.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>26.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T085909Z" creationid="msdx" creationdate="20150503T085909Z">
+        <seg>26.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>26.3. Project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090117Z" creationid="msdx" creationdate="20150503T090106Z">
+        <seg>26.3. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>26.4. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090147Z" creationid="msdx" creationdate="20150503T090147Z">
+        <seg>26.4. 依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162018Z" creationid="msdx" creationdate="20141109T162018Z">
@@ -5534,6 +5566,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assembles the application WAR file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T085958Z" creationid="msdx" creationdate="20150503T085942Z">
+        <seg>组装应用程序 WAR 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assembles the artifacts in the specified configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T082706Z" creationid="Administrator" creationdate="20150426T082706Z">
@@ -8060,6 +8100,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 26.1. Using the War plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T085859Z" creationid="msdx" creationdate="20150503T085859Z">
+        <seg>示例 26.1. 使用War 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -8224,6 +8272,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152441Z" creationid="msdx" creationdate="20150429T152441Z">
         <seg>图 25.1. Scala 插件-任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Figure 26.1. War plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090049Z" creationid="msdx" creationdate="20150503T090049Z">
+        <seg>图 26.1. War 插件 - tasks</seg>
       </tuv>
     </tu>
     <tu>
@@ -10232,6 +10288,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T080845Z" creationid="msdx" creationdate="20150429T080845Z">
         <seg>它也可以获取自本地中可能检入版本控制的&lt;c0&gt;lib&lt;/c0&gt;目录：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It disables the default JAR archive generation of the Java plugin and adds a default WAR archive task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T085836Z" creationid="msdx" creationdate="20150503T085836Z">
+        <seg>它禁用了 Java 插件生成默认的 JAR archive，并添加了一个默认的 WAR archive 任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12740,6 +12804,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 26.1. War plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T085928Z" creationid="msdx" creationdate="20150503T085928Z">
+        <seg>表 26.1. War 插件 - 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 26.2. War plugin - additional task dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090028Z" creationid="msdx" creationdate="20150503T090028Z">
+        <seg>表 26.2. War 插件 - 额外的task 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 26.3. War plugin - project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090126Z" creationid="msdx" creationdate="20150503T090126Z">
+        <seg>表 26.3. War 插件 - 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -13688,6 +13776,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T150940Z" creationid="msdx" creationdate="20141105T150825Z">
         <seg>在Gradle的用户界面（UI）中，上面是4个选项卡，下面则是输出窗口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The War plugin adds the following dependencies to tasks added by the Java plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090014Z" creationid="msdx" creationdate="20150503T090014Z">
+        <seg>War 插件向 Java 插件所加入的 tasks 添加了以下的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The War plugin adds the following tasks to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T085918Z" creationid="msdx" creationdate="20150503T085918Z">
+        <seg>War 插件向project 中添加了以下任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The War plugin adds two dependency configurations: &lt;c0&gt;providedCompile&lt;/c0&gt; and &lt;c1&gt;providedRuntime&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090223Z" creationid="msdx" creationdate="20150503T090151Z">
+        <seg>War 插件添加了两个依赖配置： &lt;c0&gt;providedCompile&lt;/c0&gt;和&lt;c1&gt;providedRuntime&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16076,6 +16188,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use the War plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T085846Z" creationid="msdx" creationdate="20150503T085846Z">
+        <seg>要使用 War 的插件，请在构建脚本中包含以下语句：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use the classpath configuration, use the &lt;c0&gt;asPath&lt;/c0&gt; property of the custom configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060557Z" creationid="msdx" creationdate="20141116T060557Z">
@@ -16356,6 +16476,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>War</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T085939Z" creationid="msdx" creationdate="20150503T085939Z">
+        <seg>War</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>War plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090102Z" creationid="msdx" creationdate="20150503T090102Z">
+        <seg>War 插件 - tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Warning messages</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T070729Z" creationid="msdx" creationdate="20141116T070729Z">
@@ -16488,6 +16624,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163743Z" creationid="msdx" creationdate="20141109T163743Z">
         <seg>Web 应用程序快速入门</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Web application sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090144Z" creationid="msdx" creationdate="20150503T090144Z">
+        <seg>Web 应用程序源代码</seg>
       </tuv>
     </tu>
     <tu>
@@ -18186,6 +18330,14 @@ task myZip(type: Zip) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145324Z" creationid="msdx" creationdate="20150429T145324Z">
         <seg>apply plugin: &lt;s0&gt;'scala'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'war'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T085901Z" creationid="msdx" creationdate="20150503T085901Z">
+        <seg>apply plugin: &lt;s0&gt;'war'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -20242,6 +20394,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152446Z" creationid="msdx" creationdate="20150429T152446Z">
         <seg>img/scalaPluginTasks.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>img/warPluginTasks.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090104Z" creationid="msdx" creationdate="20150503T090104Z">
+        <seg>img/warPluginTasks.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -22726,6 +22886,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152612Z" creationid="msdx" creationdate="20150429T152612Z">
         <seg>src/main/scala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>src/main/webapp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090128Z" creationid="msdx" creationdate="20150503T090128Z">
+        <seg>from &lt;s1&gt;'src/main/webapp'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
