@@ -510,6 +510,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.jetty.JettyRun.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150216Z" creationid="msdx" creationdate="20150504T150216Z">
+        <seg>../dsl/org.gradle.api.plugins.jetty.JettyRun.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.jetty.JettyRunWar.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150421Z" creationid="msdx" creationdate="20150504T150421Z">
+        <seg>../dsl/org.gradle.api.plugins.jetty.JettyRunWar.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.jetty.JettyStop.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150446Z" creationid="msdx" creationdate="20150504T150446Z">
+        <seg>../dsl/org.gradle.api.plugins.jetty.JettyStop.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.Copy.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T090224Z" creationid="msdx" creationdate="20141110T090224Z">
@@ -2730,6 +2754,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T143326Z" creationid="msdx" creationdate="20150504T143326Z">
         <seg>27.8. 使用自定义的描述符文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>28.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150127Z" creationid="msdx" creationdate="20150504T150127Z">
+        <seg>28.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>28.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150155Z" creationid="msdx" creationdate="20150504T150155Z">
+        <seg>28.2. 任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -8380,6 +8420,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 28.1. Using the Jetty plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150151Z" creationid="msdx" creationdate="20150504T150151Z">
+        <seg>示例 28.1. 使用 Jetty 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -8552,6 +8600,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090049Z" creationid="msdx" creationdate="20150503T090049Z">
         <seg>图 26.1. War 插件 - tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Figure 28.1. Jetty plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150512Z" creationid="msdx" creationdate="20150504T150512Z">
+        <seg>图 28.1. Jetty 插件 - 任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -10924,6 +10980,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>JettyRun</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150216Z" creationid="msdx" creationdate="20150504T150216Z">
+        <seg>jettyRun</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>JettyRunWar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150422Z" creationid="msdx" creationdate="20150504T150422Z">
+        <seg>jettyRunWar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>JettyStop</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150447Z" creationid="msdx" creationdate="20150504T150447Z">
+        <seg>jettyStop</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Just enter whatever you would normally enter after 'gradle' on the command line.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141211T030824Z" creationid="msdx" creationdate="20141105T160336Z">
@@ -12788,6 +12868,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Starts a Jetty instance and deploys the WAR to it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150444Z" creationid="msdx" creationdate="20150504T150444Z">
+        <seg>启动 Jetty 实例并将部署上 WAR 包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Starts a Jetty instance and deploys the exploded web application to it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150420Z" creationid="msdx" creationdate="20150504T150218Z">
+        <seg>启动 Jetty 实例并将部署上 exploded web 应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Stops the Jetty instance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150450Z" creationid="msdx" creationdate="20150504T150450Z">
+        <seg>停止 Jetty 实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>String</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044234Z" creationid="msdx" creationdate="20141108T044234Z">
@@ -13240,6 +13344,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141340Z" creationid="msdx" creationdate="20150504T141340Z">
         <seg>表27.4. Ear插件 ​​- 目录属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 28.1. Jetty plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150213Z" creationid="msdx" creationdate="20150504T150213Z">
+        <seg>表 28.1. Jetty 插件 - 任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -14060,10 +14172,18 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Jetty plugin defines the following tasks:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150201Z" creationid="msdx" creationdate="20150504T150201Z">
+        <seg>Jetty 插件定义了以下任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Jetty plugin extends the War plugin to add tasks which allow you to deploy your web application to a Jetty web container embedded in the build.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T143907Z" creationid="msdx" creationdate="20150504T143907Z">
-        <seg>The Jetty plugin extends the War plugin to add tasks which allow you to deploy your web application to a Jetty web container embedded in the build.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150123Z" creationid="msdx" creationdate="20150504T143907Z">
+        <seg>Jetty 插件继承自 War 插件，并添加一些任务，这些任务可以让你在构建时部署你的 web 应用程序到一个 Jetty 的 web 嵌入式容器中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16752,6 +16872,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T073622Z" creationid="Administrator" creationdate="20150425T073622Z">
         <seg>要使用 Java 插件，请在构建脚本中加入：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the Jetty plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150134Z" creationid="msdx" creationdate="20150504T150134Z">
+        <seg>要使用 Jetty 的插件，请在构建脚本中包含以下语句：</seg>
       </tuv>
     </tu>
     <tu>
@@ -21758,6 +21886,30 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104757Z" creationid="msdx" creationdate="20150428T104757Z">
         <seg>jetty</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jettyRun</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150215Z" creationid="msdx" creationdate="20150504T150215Z">
+        <seg>jettyRun</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jettyRunWar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150420Z" creationid="msdx" creationdate="20150504T150420Z">
+        <seg>jettyRunWar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jettyStop</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150445Z" creationid="msdx" creationdate="20150504T150445Z">
+        <seg>jettyStop</seg>
       </tuv>
     </tu>
     <tu>
