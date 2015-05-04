@@ -2718,6 +2718,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>27.7. Customizing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142829Z" creationid="msdx" creationdate="20150504T142829Z">
+        <seg>27.7. 自定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162018Z" creationid="msdx" creationdate="20141109T162018Z">
@@ -3974,6 +3982,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s13&gt;// also modify the generated deployment descriptor accordingly&lt;/s13&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142900Z" creationid="msdx" creationdate="20150504T142900Z">
+        <seg>&lt;s13&gt;// also modify the generated deployment descriptor accordingly&lt;/s13&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;// Disable the test report for the individual test task&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083546Z" creationid="msdx" creationdate="20150428T083546Z">
@@ -4078,6 +4094,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;//following dependencies will become the ear modules and placed in the ear root&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142849Z" creationid="msdx" creationdate="20150504T142849Z">
+        <seg>&lt;s2&gt;//following dependencies will become the ear modules and placed in the ear root&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;//include all tests from package&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083455Z" creationid="msdx" creationdate="20150428T083455Z">
@@ -4150,6 +4174,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140844Z" creationid="msdx" creationdate="20141113T140844Z">
         <seg>&lt;s4&gt;// Substitute property references in files&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s4&gt;//following dependencies will become ear libs and placed in a dir configured via libDirName property&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142850Z" creationid="msdx" creationdate="20150504T142850Z">
+        <seg>&lt;s4&gt;//following dependencies will become ear libs and placed in a dir configured via libDirName property&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -5482,6 +5514,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010446Z" creationid="Administrator" creationdate="20150426T010303Z">
         <seg>项目中的所有核查项目，包括&lt;c0&gt;test&lt;/c0&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also have a look at &lt;a0&gt;&lt;c1&gt;Ear&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142820Z" creationid="msdx" creationdate="20150504T142820Z">
+        <seg>另请参阅 &lt;a0&gt;&lt;c1&gt;Ear&lt;/c1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8324,6 +8364,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 27.2. Customization of ear plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142848Z" creationid="msdx" creationdate="20150504T142848Z">
+        <seg>示例 26.2. ear 插件的自定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -10104,6 +10152,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144753Z" creationid="msdx" creationdate="20150428T144753Z">
         <seg>如果你把你的项目上传到仓库，这个JAR 文件会被声明为依赖描述符的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your &lt;c1&gt;application&lt;/c1&gt; directory doesn't contain a &lt;c2&gt;META-INF/application.xml&lt;/c2&gt; deployment descriptor then one will be generated for you.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142806Z" creationid="msdx" creationdate="20150504T142806Z">
+        <seg>如果你的&lt;c1&gt;application&lt;/c1&gt;目录没有包含&lt;c2&gt;META-INF/application.xml&lt;/c2&gt;部署描述符，那么将会为你生成一个。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17612,6 +17668,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also use customization options that the &lt;a0&gt;&lt;c1&gt;Ear&lt;/c1&gt;&lt;/a0&gt; task provides, such as &lt;c2&gt;from&lt;/c2&gt; and &lt;c3&gt;metaInf&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142906Z" creationid="msdx" creationdate="20150504T142906Z">
+        <seg>You can also use customization options that the &lt;a0&gt;&lt;c1&gt;Ear&lt;/c1&gt;&lt;/a0&gt; task provides, such as &lt;c2&gt;from&lt;/c2&gt; and &lt;c3&gt;metaInf&lt;/c3&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also use strings for the task names:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T022741Z" creationid="msdx" creationdate="20141110T021721Z">
@@ -18630,6 +18694,14 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>appDirName &lt;s9&gt;'src/main/app'&lt;/s9&gt;  &lt;s10&gt;// use application metadata found in this folder&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142855Z" creationid="msdx" creationdate="20150504T142855Z">
+        <seg>appDirName &lt;s9&gt;'src/main/app'&lt;/s9&gt;  &lt;s10&gt;// use application metadata found in this folder&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>appendix</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160253Z" creationid="msdx" creationdate="20141113T160253Z">
@@ -18650,6 +18722,14 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104754Z" creationid="msdx" creationdate="20150428T104754Z">
         <seg>application</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>applicationName = &lt;s17&gt;"customear"&lt;/s17&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142900Z" creationid="msdx" creationdate="20150504T142900Z">
+        <seg>applicationName = &lt;s17&gt;"customear"&lt;/s17&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18694,6 +18774,24 @@ ext {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T094446Z" creationid="msdx" creationdate="20150503T094446Z">
         <seg>apply plugin: &lt;s0&gt;'ear'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'ear'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'java'&lt;/s1&gt;
+
+repositories { mavenCentral() }
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142848Z" creationid="msdx" creationdate="20150504T142848Z">
+        <seg>apply plugin: &lt;s0&gt;'ear'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'java'&lt;/s1&gt;
+
+repositories { mavenCentral() }
+
+dependencies {</seg>
       </tuv>
     </tu>
     <tu>
@@ -19780,10 +19878,30 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>deploy project(&lt;s3&gt;':war'&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142849Z" creationid="msdx" creationdate="20150504T142849Z">
+        <seg>deploy project(&lt;s3&gt;':war'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>deploymentDescriptor</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141717Z" creationid="msdx" creationdate="20150504T141717Z">
         <seg>deploymentDescriptor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>deploymentDescriptor {  &lt;s14&gt;// custom entries for application.xml:&lt;/s14&gt;
+&lt;s15&gt;//      fileName = "application.xml"  // same as the default value&lt;/s15&gt;
+&lt;s16&gt;//      version = "6"  // same as the default value&lt;/s16&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142900Z" creationid="msdx" creationdate="20150504T142900Z">
+        <seg>deploymentDescriptor {  &lt;s14&gt;// custom entries for application.xml:&lt;/s14&gt;
+&lt;s15&gt;//      fileName = "application.xml"  // same as the default value&lt;/s15&gt;
+&lt;s16&gt;//      version = "6"  // same as the default value&lt;/s16&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19800,6 +19918,20 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T015507Z" creationid="msdx" creationdate="20141111T015507Z">
         <seg>description &lt;s0&gt;'Copies the resource directory to the target directory.'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>description = &lt;s20&gt;"My customized EAR for the Gradle documentation"&lt;/s20&gt;  &lt;s21&gt;// defaults to project.description&lt;/s21&gt;
+&lt;s22&gt;//      libraryDirectory = "APP-INF/lib"  // not needed, because setting libDirName above did this for us&lt;/s22&gt;
+&lt;s23&gt;//      module("my.jar", "java")  // wouldn't deploy since my.jar isn't a deploy dependency&lt;/s23&gt;
+&lt;s24&gt;//      webModule("my.war", "/")  // wouldn't deploy since my.war isn't a deploy dependency&lt;/s24&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142901Z" creationid="msdx" creationdate="20150504T142901Z">
+        <seg>description = &lt;s20&gt;"My customized EAR for the Gradle documentation"&lt;/s20&gt;  &lt;s21&gt;// defaults to project.description&lt;/s21&gt;
+&lt;s22&gt;//      libraryDirectory = "APP-INF/lib"  // not needed, because setting libDirName above did this for us&lt;/s22&gt;
+&lt;s23&gt;//      module("my.jar", "java")  // wouldn't deploy since my.jar isn't a deploy dependency&lt;/s23&gt;
+&lt;s24&gt;//      webModule("my.war", "/")  // wouldn't deploy since my.war isn't a deploy dependency&lt;/s24&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19856,6 +19988,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083441Z" creationid="msdx" creationdate="20150428T083441Z">
         <seg>dir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>displayName = &lt;s18&gt;"Custom Ear"&lt;/s18&gt;  &lt;s19&gt;// defaults to project.name&lt;/s19&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142901Z" creationid="msdx" creationdate="20150504T142901Z">
+        <seg>displayName = &lt;s18&gt;"Custom Ear"&lt;/s18&gt;  &lt;s19&gt;// defaults to project.name&lt;/s19&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19976,6 +20116,20 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104754Z" creationid="msdx" creationdate="20150428T104754Z">
         <seg>ear_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>earlib group: &lt;s5&gt;'log4j'&lt;/s5&gt;, name: &lt;s6&gt;'log4j'&lt;/s6&gt;, version: &lt;s7&gt;'1.2.15'&lt;/s7&gt;, ext: &lt;s8&gt;'jar'&lt;/s8&gt;
+}
+
+ear {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142851Z" creationid="msdx" creationdate="20150504T142851Z">
+        <seg>earlib group: &lt;s5&gt;'log4j'&lt;/s5&gt;, name: &lt;s6&gt;'log4j'&lt;/s6&gt;, version: &lt;s7&gt;'1.2.15'&lt;/s7&gt;, ext: &lt;s8&gt;'jar'&lt;/s8&gt;
+}
+
+ear {</seg>
       </tuv>
     </tu>
     <tu>
@@ -21140,6 +21294,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>initializeInOrder = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142901Z" creationid="msdx" creationdate="20150504T142901Z">
+        <seg>initializeInOrder = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>inputs.file copyTask &lt;s0&gt;// up-to-date check for inputs, plus add copyTask as dependency&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134159Z" creationid="msdx" creationdate="20141113T134159Z">
@@ -21588,6 +21750,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141507Z" creationid="msdx" creationdate="20150504T141507Z">
         <seg>libDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>libDirName &lt;s11&gt;'APP-INF/lib'&lt;/s11&gt;  &lt;s12&gt;// put dependency libraries into APP-INF/lib inside the generated EAR;&lt;/s12&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142900Z" creationid="msdx" creationdate="20150504T142900Z">
+        <seg>libDirName &lt;s11&gt;'APP-INF/lib'&lt;/s11&gt;  &lt;s12&gt;// put dependency libraries into APP-INF/lib inside the generated EAR;&lt;/s12&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -23002,6 +23172,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>provider.asNode().appendNode(&lt;s28&gt;"data-source"&lt;/s28&gt;, &lt;s29&gt;"my/data/source"&lt;/s29&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142903Z" creationid="msdx" creationdate="20150504T142903Z">
+        <seg>provider.asNode().appendNode(&lt;s28&gt;"data-source"&lt;/s28&gt;, &lt;s29&gt;"my/data/source"&lt;/s29&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>publishing_ivy.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104801Z" creationid="msdx" creationdate="20150428T104801Z">
@@ -23262,6 +23440,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145512Z" creationid="msdx" creationdate="20150429T145512Z">
         <seg>scaladoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>securityRole &lt;s25&gt;"admin"&lt;/s25&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142901Z" creationid="msdx" creationdate="20150504T142901Z">
+        <seg>securityRole &lt;s25&gt;"admin"&lt;/s25&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>securityRole &lt;s26&gt;"superadmin"&lt;/s26&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142902Z" creationid="msdx" creationdate="20150504T142902Z">
+        <seg>securityRole &lt;s26&gt;"superadmin"&lt;/s26&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -24843,6 +25037,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141209T074227Z" creationid="msdx" creationdate="20141209T074227Z">
         <seg>windows-resources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>withXml { provider -&gt; &lt;s27&gt;// add a custom node to the XML&lt;/s27&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142902Z" creationid="msdx" creationdate="20150504T142902Z">
+        <seg>withXml { provider -&gt; &lt;s27&gt;// add a custom node to the XML&lt;/s27&gt;</seg>
       </tuv>
     </tu>
     <tu>
