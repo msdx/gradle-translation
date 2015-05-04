@@ -710,6 +710,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.plugins.ear.EarPluginConvention.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142436Z" creationid="msdx" creationdate="20150504T142436Z">
+        <seg>../dsl/org.gradle.plugins.ear.EarPluginConvention.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/BuildListener.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T155216Z" creationid="msdx" creationdate="20141116T155216Z">
@@ -2698,6 +2706,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141328Z" creationid="msdx" creationdate="20150504T141328Z">
         <seg>27.5. 公约属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>27.6. Ear</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142456Z" creationid="msdx" creationdate="20150504T142456Z">
+        <seg>27.6. Ear</seg>
       </tuv>
     </tu>
     <tu>
@@ -9980,6 +9996,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If this file already exists in the &lt;c1&gt;appDirName/META-INF&lt;/c1&gt; then the existing file contents will be used and the explicit configuration in the &lt;c2&gt;ear.deploymentDescriptor&lt;/c2&gt; will be ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142435Z" creationid="msdx" creationdate="20150504T142435Z">
+        <seg>如果此文件已存在于&lt;c1&gt;appDirName/META-INF&lt;/c1&gt;，那么会使用这个已存在的文件的内容，而 &lt;c2&gt;ear.deploymentDescriptor&lt;/c2&gt;中的显式配置将被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If this is not the behaviour you want for some reason, consider using &lt;a0&gt;&lt;c1&gt;TaskOutputs.upToDateWhen()&lt;/c1&gt;&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T064150Z" creationid="msdx" creationdate="20141111T064141Z">
@@ -14380,6 +14404,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default behavior of the Ear task is to copy the content of &lt;c0&gt;src/main/application&lt;/c0&gt; to the root of the archive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142628Z" creationid="msdx" creationdate="20150504T142628Z">
+        <seg>Ear task 的默认行为是将&lt;c0&gt;src/main/application&lt;/c0&gt;的内容复制到archive 的根目录下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default behavior of the War task is to copy the content of &lt;c0&gt;src/main/webapp&lt;/c0&gt; to the root of the archive.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T093338Z" creationid="msdx" creationdate="20150503T092356Z">
@@ -15592,6 +15624,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T030746Z" creationid="Administrator" creationdate="20150425T030746Z">
         <seg>以下这些插件提供了一些与各种运行时技术的集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These properties are provided by a &lt;a0&gt;&lt;c1&gt;EarPluginConvention&lt;/c1&gt;&lt;/a0&gt; convention object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142450Z" creationid="msdx" creationdate="20150504T142450Z">
+        <seg>这些属性由一个&lt;a0&gt;&lt;c1&gt;EarPluginConvention&lt;/c1&gt;&lt;/a0&gt; 公约对象提供。</seg>
       </tuv>
     </tu>
     <tu>
