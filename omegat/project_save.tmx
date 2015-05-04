@@ -14708,6 +14708,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the application source directory, relative to the project directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141506Z" creationid="msdx" creationdate="20150504T141506Z">
+        <seg>相对于项目目录的应用程序源目录名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name of the archive can also be changed at any time later on.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155244Z" creationid="msdx" creationdate="20141113T155232Z">
@@ -14768,6 +14776,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045638Z" creationid="Administrator" creationdate="20150427T045638Z">
         <seg>相对于build目录的目录名称，该目录用于缓存源代码的依赖信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the lib directory inside the generated EAR.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141539Z" creationid="msdx" creationdate="20150504T141539Z">
+        <seg>生成的 EAR 文件里的 lib 目录名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19708,6 +19724,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>deploymentDescriptor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141717Z" creationid="msdx" creationdate="20150504T141717Z">
+        <seg>deploymentDescriptor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044337Z" creationid="msdx" creationdate="20141108T044337Z">
@@ -21496,6 +21520,22 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>lib</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141507Z" creationid="msdx" creationdate="20150504T141507Z">
+        <seg>into(&lt;s2&gt;'libs'&lt;/s2&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>libDirName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141507Z" creationid="msdx" creationdate="20150504T141507Z">
+        <seg>libDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>libs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083240Z" creationid="msdx" creationdate="20150428T083240Z">
@@ -21956,6 +21996,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T053747Z" creationid="msdx" creationdate="20141120T053747Z">
         <seg>org.gradle.parallel</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.gradle.plugins.ear.descriptor.DeploymentDescriptor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141727Z" creationid="msdx" creationdate="20150504T141727Z">
+        <seg>org.gradle.plugins.ear.descriptor.DeploymentDescriptor</seg>
       </tuv>
     </tu>
     <tu>
