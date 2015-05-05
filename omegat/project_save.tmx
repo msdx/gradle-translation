@@ -2830,6 +2830,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>29.3. Project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T132539Z" creationid="msdx" creationdate="20150505T132539Z">
+        <seg>29.3. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>29.4. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T132642Z" creationid="msdx" creationdate="20150505T132642Z">
+        <seg>29.4. 依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162018Z" creationid="msdx" creationdate="20141109T162018Z">
@@ -5494,6 +5510,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All Checkstyle tasks, including &lt;c0&gt;checkstyleMain&lt;/c0&gt; and &lt;c1&gt;checkstyleTest&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T132536Z" creationid="msdx" creationdate="20150505T132536Z">
+        <seg>所有 Checkstyle tasks，包括&lt;c0&gt;checkstyleMain&lt;/c0&gt;和&lt;c1&gt;checkstyleTest&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All Groovy source files of this source set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T093538Z" creationid="msdx" creationdate="20150429T093538Z">
@@ -6626,6 +6650,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T024703Z" creationid="msdx" creationdate="20150505T024703Z">
         <seg>checkstyle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Checkstyle configuration file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T132639Z" creationid="msdx" creationdate="20150505T132639Z">
+        <seg>Checkstyle 配置文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -13500,6 +13532,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 29.2. Checkstyle plugin - additional task dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T132521Z" creationid="msdx" creationdate="20150505T132521Z">
+        <seg>表 29.2. Checkstyle 插件 - 额外的task 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 29.3. Checkstyle plugin - project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T132634Z" creationid="msdx" creationdate="20150505T132634Z">
+        <seg>表 29.3. Checkstyle 插件 - 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -13996,10 +14044,34 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Checkstyle plugin adds the following dependencies to tasks defined by the Java plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T132510Z" creationid="msdx" creationdate="20150505T132510Z">
+        <seg>Checkstyle 插件向 Java 插件所加入的 tasks 添加了以下的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Checkstyle plugin adds the following dependency configurations:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T132724Z" creationid="msdx" creationdate="20150505T132724Z">
+        <seg>Checkstyle 插件添加了下列的依赖配置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Checkstyle plugin adds the following tasks to the project:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T024648Z" creationid="msdx" creationdate="20150505T024648Z">
         <seg>Checkstyle 插件向project 中添加了以下tasks：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Checkstyle plugin expects the following project layout:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T132624Z" creationid="msdx" creationdate="20150505T132624Z">
+        <seg>Checkstyle 插件预计是以下的项目布局：</seg>
       </tuv>
     </tu>
     <tu>
@@ -20092,6 +20164,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145459Z" creationid="msdx" creationdate="20150429T145459Z">
         <seg>compileTestScala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>config/checkstyle/checkstyle.xml</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T132636Z" creationid="msdx" creationdate="20150505T132636Z">
+        <seg>config/checkstyle/checkstyle.xml</seg>
       </tuv>
     </tu>
     <tu>
