@@ -830,6 +830,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.testing.jacoco.plugins.JacocoPluginExtension.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130435Z" creationid="msdx" creationdate="20150506T130435Z">
+        <seg>../dsl/org.gradle.testing.jacoco.plugins.JacocoPluginExtension.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/BuildListener.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T155216Z" creationid="msdx" creationdate="20141116T155216Z">
@@ -3082,6 +3090,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130018Z" creationid="msdx" creationdate="20150506T130018Z">
         <seg>34.1. 入门</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>34.2. Configuring the JaCoCo Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130434Z" creationid="msdx" creationdate="20150506T130434Z">
+        <seg>34.2.  配置 JaCoCo 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -6414,6 +6430,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, a HTML report is generated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130428Z" creationid="msdx" creationdate="20150506T130428Z">
+        <seg>默认情况下，会生成一个 HTML 报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, a concise message will be logged for every failed test.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015248Z" creationid="Administrator" creationdate="20150428T015248Z">
@@ -8876,6 +8900,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 34.1. Applying the JaCoCo plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130227Z" creationid="msdx" creationdate="20150506T130227Z">
+        <seg>示例 34.1. 应用 JaCoCo 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -10488,6 +10520,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T033346Z" creationid="msdx" creationdate="20141116T104044Z">
         <seg>如果选择 &lt;c0&gt;DEBUG&lt;/c0&gt; 日志级别，则总是输出截断后的栈跟踪信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the Java plugin is also applied to your project, a new task named &lt;c0&gt;jacocoTestReport&lt;/c0&gt; is created that depends on the &lt;c1&gt;test&lt;/c1&gt; task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130350Z" creationid="msdx" creationdate="20150506T130244Z">
+        <seg>如果 Java 插件也被应用于你的项目，那么会创建一个名为&lt;c0&gt;jacocoTestReport&lt;/c0&gt;的新任务，该新任务依赖于&lt;c1&gt;test&lt;/c1&gt;任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14980,6 +15020,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The JaCoCo plugin adds a project extension named &lt;c0&gt;jacoco&lt;/c0&gt; of type &lt;a1&gt;&lt;c2&gt;JacocoPluginExtension&lt;/c2&gt;&lt;/a1&gt;, which allows configuring defaults for JaCoCo usage in your build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130438Z" creationid="msdx" creationdate="20150506T130438Z">
+        <seg>The JaCoCo plugin adds a project extension named &lt;c0&gt;jacoco&lt;/c0&gt; of type &lt;a1&gt;&lt;c2&gt;JacocoPluginExtension&lt;/c2&gt;&lt;/a1&gt;, which allows configuring defaults for JaCoCo usage in your build.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The JaCoCo plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T125910Z" creationid="msdx" creationdate="20150505T135939Z">
@@ -16304,6 +16352,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124241Z" creationid="msdx" creationdate="20141111T124241Z">
         <seg>原因是，Gradle 会向您的脚本添加默认的一些导入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The report is available at &lt;c2&gt;&lt;e3&gt;&lt;c4&gt;$buildDir&lt;/c4&gt;&lt;/e3&gt;/reports/jacoco/test&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130420Z" creationid="msdx" creationdate="20150506T130420Z">
+        <seg>该报告可以在 &lt;c2&gt;&lt;e3&gt;&lt;c4&gt;$buildDir&lt;/c4&gt;&lt;/e3&gt;/reports/jacoco/test&lt;/c2&gt; 中看到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17832,6 +17888,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060440Z" creationid="msdx" creationdate="20141116T060440Z">
         <seg>要做到这一点，你需要定义一个自定义配置的类路径中，然后将一些依赖项添加到配置中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To get started, apply the JaCoCo plugin to the project you want to calculate code coverage for.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130208Z" creationid="msdx" creationdate="20150506T130208Z">
+        <seg>要想开始，请将 JaCoCo 插件应用于你想要计算代码覆盖率的项目中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20074,6 +20138,14 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T153044Z" creationid="msdx" creationdate="20141109T153044Z">
         <seg>apply from: &lt;s3&gt;'other.gradle'&lt;/s3&gt;, to: pos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;"jacoco"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130229Z" creationid="msdx" creationdate="20150506T130229Z">
+        <seg>apply plugin: &lt;s0&gt;"jacoco"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
