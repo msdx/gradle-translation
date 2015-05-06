@@ -854,6 +854,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.testing.jacoco.plugins.JacocoTaskExtension.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132017Z" creationid="msdx" creationdate="20150506T132017Z">
+        <seg>../dsl/org.gradle.testing.jacoco.plugins.JacocoTaskExtension.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.testing.jacoco.tasks.JacocoReport.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T131639Z" creationid="msdx" creationdate="20150506T131639Z">
@@ -1098,6 +1106,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083436Z" creationid="msdx" creationdate="20150428T083436Z">
         <seg>../javadoc/org/gradle/external/javadoc/StandardJavadocDocletOptions.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/process/JavaForkOptions.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132326Z" creationid="msdx" creationdate="20150506T132326Z">
+        <seg>../javadoc/org/gradle/process/JavaForkOptions.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -3142,6 +3158,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>34.4. JaCoCo specific task configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132017Z" creationid="msdx" creationdate="20150506T132017Z">
+        <seg>34.4. JaCoCo 的特定任务配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162027Z" creationid="msdx" creationdate="20141109T162027Z">
@@ -3810,6 +3834,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155155Z" creationid="msdx" creationdate="20150430T155155Z">
         <seg>&lt;c1&gt;fsc&lt;/c1&gt;运行在一个单独的进程中，并且可以显著地提高编译速度。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;$buildDir&lt;/c1&gt;&lt;/e0&gt;/jacoco</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132307Z" creationid="msdx" creationdate="20150506T132307Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;$buildDir&lt;/c1&gt;&lt;/e0&gt;/jacoco</seg>
       </tuv>
     </tu>
     <tu>
@@ -8956,6 +8988,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 34.3. Configuring test task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T131959Z" creationid="msdx" creationdate="20150506T131959Z">
+        <seg>示例 34.3. 配置测试任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 34.4. Configuring test task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132253Z" creationid="msdx" creationdate="20150506T132253Z">
+        <seg>示例 34.4. 配置测试任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -11244,6 +11292,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It implements the standard Gradle type &lt;a2&gt;&lt;c3&gt;Reporting&lt;/c3&gt;&lt;/a2&gt; and exposes a report container of type &lt;a4&gt;&lt;c5&gt;JacocoReportsContainer&lt;/c5&gt;&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T131951Z" creationid="msdx" creationdate="20150506T131951Z">
+        <seg>它实现了标准的 Gradle 类型&lt;a2&gt;&lt;c3&gt;Reporting&lt;/c3&gt;&lt;/a2&gt;，并呈现了一个&lt;a4&gt;&lt;c5&gt;JacocoReportsContainer&lt;/c5&gt;&lt;/a4&gt;类型的报告容器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is also possible for an Ant target to depend on a Gradle task:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061125Z" creationid="msdx" creationdate="20141116T061125Z">
@@ -12520,6 +12576,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060343Z" creationid="msdx" creationdate="20141111T060343Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle transform&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output.FILE</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132321Z" creationid="msdx" creationdate="20150506T132321Z">
+        <seg>Output.FILE</seg>
       </tuv>
     </tu>
     <tu>
@@ -14260,6 +14324,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 34.2. Default values of the JaCoCo Task extension</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132305Z" creationid="msdx" creationdate="20150506T132305Z">
+        <seg>表 34.2. JaCoCo 任务扩展的默认值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -15096,6 +15168,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T134152Z" creationid="msdx" creationdate="20150505T134107Z">
         <seg>JDepend 插件使用&lt;a0&gt;JDepend&lt;/a0&gt;对项目的源文件执行质量检查，并从检查结果中生成报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The JaCoCo plugin adds a &lt;a0&gt;&lt;c1&gt;JacocoTaskExtension&lt;/c1&gt;&lt;/a0&gt; extension to all tasks of type &lt;a2&gt;&lt;c3&gt;Test&lt;/c3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132121Z" creationid="msdx" creationdate="20150506T132020Z">
+        <seg>JaCoCo 插件添加了一个&lt;a0&gt;&lt;c1&gt;JacocoTaskExtension&lt;/c1&gt;&lt;/a0&gt;扩展到&lt;a2&gt;&lt;c3&gt;Test&lt;/c3&gt;&lt;/a2&gt;类型的所有任务中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17380,6 +17460,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This extension allows the configuration of the JaCoCo specific properties of the test task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132242Z" creationid="msdx" creationdate="20150506T132242Z">
+        <seg>该扩展允许配置 JaCoCo 中的测试任务的一些特定属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This feature is helpful if you work with tasks provided by Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055327Z" creationid="msdx" creationdate="20141111T055323Z">
@@ -18860,6 +18948,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While all tasks of type &lt;a0&gt;&lt;c1&gt;Test&lt;/c1&gt;&lt;/a0&gt; are automatically enhanced to provide coverage information when the &lt;c2&gt;java&lt;/c2&gt; plugin has been applied, any task that implements &lt;a3&gt;&lt;c4&gt;JavaForkOptions&lt;/c4&gt;&lt;/a3&gt; can be enhanced by the JaCoCo plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132327Z" creationid="msdx" creationdate="20150506T132327Z">
+        <seg>While all tasks of type &lt;a0&gt;&lt;c1&gt;Test&lt;/c1&gt;&lt;/a0&gt; are automatically enhanced to provide coverage information when the &lt;c2&gt;java&lt;/c2&gt; plugin has been applied, any task that implements &lt;a3&gt;&lt;c4&gt;JavaForkOptions&lt;/c4&gt;&lt;/a3&gt; can be enhanced by the JaCoCo plugin.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>While it's possible to configure these in your local environment via GRADLE_OPTS or JAVA_OPTS, certain settings like JVM memory settings, Java home, daemon on/off can be more useful if they can versioned with the project in your VCS so that the entire team can work with consistent environment.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T152950Z" creationid="msdx" creationdate="20141119T064744Z">
@@ -19884,6 +19980,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>[]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132309Z" creationid="msdx" creationdate="20150506T132309Z">
+        <seg>[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>address</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132322Z" creationid="msdx" creationdate="20150506T132322Z">
+        <seg>address</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>adds build &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt; tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T041215Z" creationid="Administrator" creationdate="20150425T041215Z">
@@ -20162,6 +20274,22 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142855Z" creationid="msdx" creationdate="20150504T142855Z">
         <seg>appDirName &lt;s9&gt;'src/main/app'&lt;/s9&gt;  &lt;s10&gt;// use application metadata found in this folder&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>append</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132307Z" creationid="msdx" creationdate="20150506T132307Z">
+        <seg>append</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>append = false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132254Z" creationid="msdx" creationdate="20150506T132254Z">
+        <seg>append = false</seg>
       </tuv>
     </tu>
     <tu>
@@ -20628,6 +20756,14 @@ task fooJar(type: Jar) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>auto-generated</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132320Z" creationid="msdx" creationdate="20150506T132320Z">
+        <seg>auto-generated</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>base</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104859Z" creationid="msdx" creationdate="20150428T104859Z">
@@ -20872,6 +21008,22 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T122700Z" creationid="msdx" creationdate="20141126T122700Z">
         <seg>chrome=1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classDumpFile = file(&lt;s1&gt;"$buildDir/jacoco/classpathdumps"&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132255Z" creationid="msdx" creationdate="20150506T132255Z">
+        <seg>classDumpFile = file(&lt;s1&gt;"$buildDir/jacoco/classpathdumps"&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classDumpPath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132323Z" creationid="msdx" creationdate="20150506T132323Z">
+        <seg>classDumpPath</seg>
       </tuv>
     </tu>
     <tu>
@@ -21264,6 +21416,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>csv.enabled false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132001Z" creationid="msdx" creationdate="20150506T132001Z">
+        <seg>csv.enabled false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>cunit</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104923Z" creationid="msdx" creationdate="20150428T104923Z">
@@ -21536,6 +21696,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>destPath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132307Z" creationid="msdx" creationdate="20150506T132307Z">
+        <seg>destPath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>destinationDir</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155941Z" creationid="msdx" creationdate="20141113T155941Z">
@@ -21548,6 +21716,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T142810Z" creationid="msdx" creationdate="20150428T142810Z">
         <seg>destinationDir = file(&lt;s2&gt;"$buildDir/reports/allTests"&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>destinationFile = file(&lt;s0&gt;"$buildDir/jacoco/jacocoTest.exec"&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132254Z" creationid="msdx" creationdate="20150506T132254Z">
+        <seg>destinationFile = file(&lt;s0&gt;"$buildDir/jacoco/jacocoTest.exec"&lt;/s0&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -21680,6 +21856,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dumpOnExit</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132321Z" creationid="msdx" creationdate="20150506T132321Z">
+        <seg>dumpOnExit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>eachEntry { details -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145617Z" creationid="msdx" creationdate="20150428T145617Z">
@@ -21768,6 +21952,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>enabled</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132306Z" creationid="msdx" creationdate="20150506T132306Z">
+        <seg>enabled</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>endIndex = &lt;s3&gt;5&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152808Z" creationid="msdx" creationdate="20141109T152808Z">
@@ -21810,10 +22002,26 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>excludeClassLoaders</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132314Z" creationid="msdx" creationdate="20150506T132314Z">
+        <seg>excludeClassLoaders</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>excludeGroups &lt;s0&gt;'integrationTests'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083148Z" creationid="msdx" creationdate="20150428T083148Z">
         <seg>excludeGroups &lt;s0&gt;'integrationTests'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>excludes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132309Z" creationid="msdx" creationdate="20150506T132309Z">
+        <seg>excludes</seg>
       </tuv>
     </tu>
     <tu>
@@ -21862,6 +22070,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160418Z" creationid="msdx" creationdate="20141113T160418Z">
         <seg>extension</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132324Z" creationid="msdx" creationdate="20150506T132324Z">
+        <seg>false</seg>
       </tuv>
     </tu>
     <tu>
@@ -22488,6 +22704,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>html.destination &lt;s0&gt;"${buildDir}/jacocoHtml"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132002Z" creationid="msdx" creationdate="20150506T132002Z">
+        <seg>html.destination &lt;s0&gt;"${buildDir}/jacocoHtml"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://checkstyle.sourceforge.net/index.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104804Z" creationid="msdx" creationdate="20150428T104804Z">
@@ -22736,6 +22960,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>img/jacocoHtmlReport.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132003Z" creationid="msdx" creationdate="20150506T132003Z">
+        <seg>img/jacocoHtmlReport.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>img/javaPluginConfigurations.png</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083233Z" creationid="msdx" creationdate="20150428T083233Z">
@@ -22906,6 +23138,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083455Z" creationid="msdx" creationdate="20150428T083455Z">
         <seg>includeTestsMatching &lt;s5&gt;"*IntegTest"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>includes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132308Z" creationid="msdx" creationdate="20150506T132308Z">
+        <seg>includes</seg>
       </tuv>
     </tu>
     <tu>
@@ -23194,6 +23434,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>jacocoTestReport {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132000Z" creationid="msdx" creationdate="20150506T132000Z">
+        <seg>jacocoTestReport {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>jacoco_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104924Z" creationid="msdx" creationdate="20150428T104924Z">
@@ -23406,6 +23654,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104756Z" creationid="msdx" creationdate="20150428T104756Z">
         <seg>jetty_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jmx</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132323Z" creationid="msdx" creationdate="20150506T132323Z">
+        <seg>jmx</seg>
       </tuv>
     </tu>
     <tu>
@@ -24102,6 +24358,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104854Z" creationid="msdx" creationdate="20150428T104854Z">
         <seg>pmd_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>port</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132322Z" creationid="msdx" creationdate="20150506T132322Z">
+        <seg>port</seg>
       </tuv>
     </tu>
     <tu>
@@ -24960,6 +25224,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>reports {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132000Z" creationid="msdx" creationdate="20150506T132000Z">
+        <seg>reports</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>reports.html.enabled = false</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083544Z" creationid="msdx" creationdate="20150428T083544Z">
@@ -25170,6 +25442,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142902Z" creationid="msdx" creationdate="20150504T142902Z">
         <seg>securityRole &lt;s26&gt;"superadmin"&lt;/s26&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sessionId</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132320Z" creationid="msdx" creationdate="20150506T132320Z">
+        <seg>sessionId</seg>
       </tuv>
     </tu>
     <tu>
@@ -26221,6 +26501,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132306Z" creationid="msdx" creationdate="20150506T132306Z">
+        <seg>true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>tutorial_gradle_command_line.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T071201Z" creationid="msdx" creationdate="20141030T071201Z">
@@ -26927,6 +27215,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T164840Z" creationid="msdx" creationdate="20141109T164840Z">
         <seg>writing_build_scripts.html#sec:project_api</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>xml.enabled false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132001Z" creationid="msdx" creationdate="20150506T132001Z">
+        <seg>xml.enabled false</seg>
       </tuv>
     </tu>
     <tu>
