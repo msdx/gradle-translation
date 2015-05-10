@@ -870,6 +870,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarDatabase.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143858Z" creationid="msdx" creationdate="20150510T143858Z">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarRootModel.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarProject.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143859Z" creationid="msdx" creationdate="20150510T143859Z">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarRootModel.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarRootModel.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143857Z" creationid="msdx" creationdate="20150510T143857Z">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarRootModel.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarServer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143858Z" creationid="msdx" creationdate="20150510T143858Z">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarRootModel.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/BuildListener.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T155216Z" creationid="msdx" creationdate="20141116T155216Z">
@@ -3774,6 +3806,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>35.2. Analyzing Multi-Project Builds</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T144131Z" creationid="msdx" creationdate="20150510T144131Z">
+        <seg>35.2. 分析多项目构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162027Z" creationid="msdx" creationdate="20141109T162027Z">
@@ -6646,6 +6686,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternatively, some or all connection settings can be set from the command line (see &lt;a0&gt;Section 35.6, “Configuring Sonar Settings from the Command Line”&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143749Z" creationid="msdx" creationdate="20150510T143657Z">
+        <seg>或者，可以从命令行设置某些或全部的连接设置 （见&lt;a0&gt;第 35.6 节，“从命令行配置 Sonar 设置”&lt;/a0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, the properties can be specified in a gradle.properties file, either in the build's root directory or in the Gradle home directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141512Z" creationid="msdx" creationdate="20141121T141512Z">
@@ -6930,6 +6978,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004702Z" creationid="Administrator" creationdate="20150426T004702Z">
         <seg>组装测试的类目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At a minimum, the Sonar plugin has to be applied to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143407Z" creationid="msdx" creationdate="20150510T143407Z">
+        <seg>最低要求是必须配置 Sonar 插件应用于该project。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9784,6 +9840,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T135807Z" creationid="msdx" creationdate="20150506T135807Z">
         <seg>示例 34.6. 由 applicationCodeCoverageReport 生成的覆盖率报告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.1. Applying the Sonar plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143421Z" creationid="msdx" creationdate="20150510T143421Z">
+        <seg>示例 35.1. 配置使用 Sonar 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.2. Configuring Sonar connection settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143648Z" creationid="msdx" creationdate="20150510T143648Z">
+        <seg>示例 35.2. 配置 Sonar 连接设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.3. Configuring Sonar project settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143855Z" creationid="msdx" creationdate="20150510T143855Z">
+        <seg>示例 35.3. 配置 Sonar project 设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -13765,6 +13845,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Project settings determine how the project is going to be analyzed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143815Z" creationid="msdx" creationdate="20150510T143815Z">
+        <seg>Project 设置会决定这个项目将如何进行分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ProjectEvaluationListener</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T155219Z" creationid="msdx" creationdate="20141116T155219Z">
@@ -14281,6 +14369,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T034907Z" creationid="Administrator" creationdate="20150425T034907Z">
         <seg>另请参阅&lt;a1&gt;第 7 章，&lt;i2&gt;Java 快速入门&lt;/i2&gt;&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See their API documentation for further information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T144120Z" creationid="msdx" creationdate="20150510T144120Z">
+        <seg>可以查阅它们的API 文档以了解更多信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15685,6 +15781,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;sonar&lt;/c0&gt;, &lt;c1&gt;server&lt;/c1&gt;, &lt;c2&gt;database&lt;/c2&gt;, and &lt;c3&gt;project&lt;/c3&gt; blocks in the examples above configure objects of type &lt;a4&gt;&lt;c5&gt;SonarRootModel&lt;/c5&gt;&lt;/a4&gt;, &lt;a6&gt;&lt;c7&gt;SonarServer&lt;/c7&gt;&lt;/a6&gt;, &lt;a8&gt;&lt;c9&gt;SonarDatabase&lt;/c9&gt;&lt;/a8&gt;, and &lt;a10&gt;&lt;c11&gt;SonarProject&lt;/c11&gt;&lt;/a10&gt;, respectively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T144101Z" creationid="msdx" creationdate="20150510T143901Z">
+        <seg>在上面的例子中，&lt;c0&gt;sonar&lt;/c0&gt;，&lt;c1&gt;server&lt;/c1&gt;，&lt;c2&gt;database&lt;/c2&gt;和&lt;c3&gt;project&lt;/c3&gt; 块分别配置的是&lt;a4&gt;&lt;c5&gt;SonarRootModel&lt;/c5&gt;&lt;/a4&gt;， &lt;a6&gt;&lt;c7&gt;SonarServer&lt;/c7&gt;&lt;/a6&gt;， &lt;a8&gt;&lt;c9&gt;SonarDatabase&lt;/c9&gt;&lt;/a8&gt;及 &lt;a10&gt;&lt;c11&gt;SonarProject&lt;/c11&gt;&lt;/a10&gt;类型的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;sonarAnalyze&lt;/c0&gt; task is a standalone task that needs to be executed explicitly and doesn't depend on any other tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143046Z" creationid="msdx" creationdate="20150510T143046Z">
@@ -16661,6 +16765,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Sonar plugin is capable of analyzing a whole project hierarchy at once.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T144133Z" creationid="msdx" creationdate="20150510T144133Z">
+        <seg>The Sonar plugin is capable of analyzing a whole project hierarchy at once.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Sonar plugin provides integration with &lt;a0&gt;Sonar&lt;/a0&gt;, a web-based platform for monitoring code quality.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T142730Z" creationid="msdx" creationdate="20150508T131726Z">
@@ -17017,6 +17129,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084553Z" creationid="Administrator" creationdate="20150426T084456Z">
         <seg>本项目上的默认项目依赖配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default configuration works well for analyzing standard Java projects and can be customized in many ways.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143833Z" creationid="msdx" creationdate="20150510T143833Z">
+        <seg>默认配置非常适合于分析标准 Java 项目，并可以在许多方面进行自定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19501,6 +19621,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unless Sonar is run locally and with default settings, it is necessary to configure connection settings for the Sonar server and database.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143638Z" creationid="msdx" creationdate="20150510T143505Z">
+        <seg>除非 Sonar 是在本地上运行，并且有默认的配置，否则有必要配置Sonar 服务器及数据库的连接设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unless a task's &lt;c0&gt;groovyClasspath&lt;/c0&gt; is configured explicitly, the Groovy (base) plugin will try to infer it from the task's &lt;c1&gt;classpath&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T091621Z" creationid="msdx" creationdate="20150429T091621Z">
@@ -21589,6 +21717,14 @@ ext {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;"sonar"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143422Z" creationid="msdx" creationdate="20150510T143422Z">
+        <seg>apply plugin: &lt;s0&gt;"sonar"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'checkstyle'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T151750Z" creationid="msdx" creationdate="20150504T151750Z">
@@ -22377,6 +22513,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>coberturaReportPath = file(&lt;s0&gt;"$buildDir/cobertura.xml"&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143856Z" creationid="msdx" creationdate="20150510T143856Z">
+        <seg>coberturaReportPath = file(&lt;s0&gt;"$buildDir/cobertura.xml"&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>codenarc</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104804Z" creationid="msdx" creationdate="20150428T104804Z">
@@ -22693,6 +22837,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134204Z" creationid="msdx" creationdate="20141113T134204Z">
         <seg>custom_tasks.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>database {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143650Z" creationid="msdx" creationdate="20150510T143650Z">
+        <seg>database {</seg>
       </tuv>
     </tu>
     <tu>
@@ -23101,6 +23253,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083242Z" creationid="msdx" creationdate="20150428T083242Z">
         <seg>docsDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>driverClassName = &lt;s2&gt;"com.mysql.jdbc.Driver"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143651Z" creationid="msdx" creationdate="20150510T143651Z">
+        <seg>driverClassName = &lt;s2&gt;"com.mysql.jdbc.Driver"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -25811,6 +25971,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>password = &lt;s4&gt;"very clever"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143652Z" creationid="msdx" creationdate="20150510T143652Z">
+        <seg>password = &lt;s4&gt;"very clever"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044249Z" creationid="msdx" creationdate="20141108T044249Z">
@@ -26613,6 +26781,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143855Z" creationid="msdx" creationdate="20150510T143855Z">
+        <seg>project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project(&lt;s0&gt;':projectA'&lt;/s0&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T082153Z" creationid="msdx" creationdate="20141110T082153Z">
@@ -27119,6 +27295,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>server {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143649Z" creationid="msdx" creationdate="20150510T143649Z">
+        <seg>server {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sessionId</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132320Z" creationid="msdx" creationdate="20150506T132320Z">
@@ -27151,6 +27335,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sonar {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143649Z" creationid="msdx" creationdate="20150510T143649Z">
+        <seg>sonar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sonar-runner</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104925Z" creationid="msdx" creationdate="20150428T104925Z">
@@ -27163,6 +27355,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104900Z" creationid="msdx" creationdate="20150428T104900Z">
         <seg>sonar_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar_plugin.html#sec:sonar_command_line_parameters</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143654Z" creationid="msdx" creationdate="20150510T143654Z">
+        <seg>sonar_plugin.html#sec:sonar_command_line_parameters</seg>
       </tuv>
     </tu>
     <tu>
@@ -28656,6 +28856,22 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>url = &lt;s0&gt;"http://my.server.com"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143650Z" creationid="msdx" creationdate="20150510T143650Z">
+        <seg>url = &lt;s0&gt;"http://my.server.com"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url = &lt;s1&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143651Z" creationid="msdx" creationdate="20150510T143651Z">
+        <seg>url = &lt;s1&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>useJUnit {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082902Z" creationid="msdx" creationdate="20150428T082902Z">
@@ -28696,6 +28912,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T071142Z" creationid="msdx" creationdate="20141030T071142Z">
         <seg>userguide.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>username = &lt;s3&gt;"Fred Flintstone"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143651Z" creationid="msdx" creationdate="20150510T143651Z">
+        <seg>username = &lt;s3&gt;"Fred Flintstone"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
