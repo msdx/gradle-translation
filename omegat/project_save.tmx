@@ -3766,6 +3766,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>35.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143237Z" creationid="msdx" creationdate="20150510T143237Z">
+        <seg>35.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162027Z" creationid="msdx" creationdate="20141109T162027Z">
@@ -6746,6 +6754,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T063505Z" creationid="msdx" creationdate="20141108T041242Z">
         <seg>在构建脚本中，你所访问的任何一个属性，如果在构建脚本里&lt;s0&gt;&lt;e1&gt;未定义&lt;/e1&gt;&lt;/s0&gt;，它也会被委托给&lt;c2&gt;Project&lt;/c2&gt;对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Apart from source code, the task also analyzes class files and test result files (if available).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143115Z" creationid="msdx" creationdate="20150510T143115Z">
+        <seg>除了源代码之外，该 task 还分析了类文件和测试结果文件（如果有）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10188,6 +10204,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For best results, it is therefore recommended to run a full build before the analysis.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143146Z" creationid="msdx" creationdate="20150510T143146Z">
+        <seg>为获得最佳结果，建议在分析前运行一次完整的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For command line usage take a look dedicated section in &lt;a0&gt;Appendix D, &lt;i1&gt;Gradle Command Line&lt;/i1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141118T095745Z" creationid="msdx" creationdate="20141118T095745Z">
@@ -11712,6 +11736,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155648Z" creationid="msdx" creationdate="20150501T155605Z">
         <seg>在多项目构建中，分析文件被传递给下游的&lt;c1&gt;ScalaCompile&lt;/c1&gt;任务，以启用跨项目的增量编译。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In a typical setup, analysis would be performed once per day on a build server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143228Z" creationid="msdx" creationdate="20150510T143228Z">
+        <seg>在典型的设置中，会每天在构建服务器上运行一次分析。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15653,6 +15685,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;sonarAnalyze&lt;/c0&gt; task is a standalone task that needs to be executed explicitly and doesn't depend on any other tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143046Z" creationid="msdx" creationdate="20150510T143046Z">
+        <seg>&lt;c0&gt;SonarAnalyze&lt;/c0&gt; task 是一项需要显式执行的独立任务，不依赖于任何其他 task。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;test&lt;/c0&gt; task is an instance of &lt;a1&gt;&lt;c2&gt;Test&lt;/c2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T140237Z" creationid="Administrator" creationdate="20150427T140237Z">
@@ -17521,6 +17561,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T151827Z" creationid="msdx" creationdate="20150504T151827Z">
         <seg>该插件向你的项目添加了大量的执行质量检查的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The plugin is based on the &lt;a2&gt;Sonar Runner&lt;/a2&gt; and requires Sonar 2.11 or higher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T142949Z" creationid="msdx" creationdate="20150510T142949Z">
+        <seg>该插件基于&lt;a2&gt;Sonar Runner&lt;/a2&gt;，并要求是 Sonar 2.11 或更高的版本。</seg>
       </tuv>
     </tu>
     <tu>
