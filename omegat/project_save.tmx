@@ -6056,8 +6056,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>A list of available Sonar properties can be found in the &lt;a0&gt;Sonar documentation&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101431Z" creationid="msdx" creationdate="20150512T101431Z">
-        <seg>A list of available Sonar properties can be found in the &lt;a0&gt;Sonar documentation&lt;/a0&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101914Z" creationid="msdx" creationdate="20150512T101431Z">
+        <seg>Sonar 的可用属性的列表可以在&lt;a0&gt;Sonar 文档&lt;/a0&gt;中找到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13305,6 +13305,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T080533Z" creationid="msdx" creationdate="20150429T080533Z">
         <seg>注意，不同 Gradle 版本附带的 Groovy 版本不同；因此，声明一个固定的 Groovy 依赖要比使用&lt;c1&gt;localGroovy()&lt;/c1&gt;更安全一些。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that for most of these properties, the Sonar plugin's object model has an equivalent property, and it isn't necessary to use a &lt;c1&gt;withGlobalProperties&lt;/c1&gt; or &lt;c2&gt;withProjectProperties&lt;/c2&gt; hook.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T102026Z" creationid="msdx" creationdate="20150512T102026Z">
+        <seg>注意，对于大多数的这些属性，Sonar 插件的对象模型具有等效的属性，且没有必要使用&lt;c1&gt;withGlobalProperties&lt;/c1&gt;或&lt;c2&gt;withProjectProperties&lt;/c2&gt;的hook。</seg>
       </tuv>
     </tu>
     <tu>
