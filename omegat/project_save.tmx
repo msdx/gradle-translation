@@ -7846,6 +7846,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Common values can be set from a parent build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091319Z" creationid="msdx" creationdate="20150512T091319Z">
+        <seg>共同的值可以在父构建脚本中进行设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compile time dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084154Z" creationid="Administrator" creationdate="20150426T084154Z">
@@ -8544,6 +8552,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145129Z" creationid="msdx" creationdate="20150428T145129Z">
         <seg>每个 jar 或war 对象都有一个单独的&lt;a1&gt;&lt;c2&gt;Manifest&lt;/c2&gt;&lt;/a1&gt;实例的&lt;c0&gt;manifest&lt;/c0&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each project in the hierarchy has its own project configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091256Z" creationid="msdx" creationdate="20150512T091256Z">
+        <seg>层次结构中的每个项目都有其自身的项目配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9864,6 +9880,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143855Z" creationid="msdx" creationdate="20150510T143855Z">
         <seg>示例 35.3. 配置 Sonar project 设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.4. Global configuration in a multi-project build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091237Z" creationid="msdx" creationdate="20150512T091237Z">
+        <seg>示例 35.4. 在多项目构建中的全局配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -12265,6 +12289,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T094402Z" creationid="msdx" creationdate="20150503T094402Z">
         <seg>它不需要 Java 插件，但是对于使用了 Java 插件的项目，它将禁用默认的 JAR archive 的生成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It holds all global configuration, most importantly server and database connection settings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091221Z" creationid="msdx" creationdate="20150512T091221Z">
+        <seg>它拥有所有全局配置，最重要的服务器和数据库的连接设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15785,6 +15817,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T141204Z" creationid="Administrator" creationdate="20150427T141204Z">
         <seg>&lt;c0&gt;MaxParallelForks&lt;/c0&gt;属性指定在给定的时间可以运行的测试进程的最大数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;sonar&lt;/c0&gt; block in that project configures an object of type &lt;a1&gt;&lt;c2&gt;SonarRootModel&lt;/c2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091139Z" creationid="msdx" creationdate="20150512T091139Z">
+        <seg>在该project 中的&lt;c0&gt;sonar&lt;/c0&gt; 块配置的是一个&lt;a1&gt;&lt;c2&gt;SonarRootModel&lt;/c2&gt;&lt;/a1&gt;类型的对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21757,6 +21797,18 @@ ext {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;"sonar"&lt;/s0&gt;
+
+sonar {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091237Z" creationid="msdx" creationdate="20150512T091237Z">
+        <seg>apply plugin: &lt;s0&gt;"sonar"&lt;/s0&gt;
+
+sonar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'checkstyle'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T151750Z" creationid="msdx" creationdate="20150504T151750Z">
@@ -23292,6 +23344,14 @@ task copy(type: Copy) {</seg>
         <seg>driverClassName = &lt;s2&gt;"com.mysql.jdbc.Driver"&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143651Z" creationid="msdx" creationdate="20150510T143651Z">
+        <seg>driverClassName = &lt;s2&gt;"com.mysql.jdbc.Driver"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>driverClassName = &lt;s3&gt;"com.mysql.jdbc.Driver"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091239Z" creationid="msdx" creationdate="20150512T091239Z">
         <seg>driverClassName = &lt;s2&gt;"com.mysql.jdbc.Driver"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
@@ -26006,6 +26066,14 @@ war {</seg>
         <seg>password = &lt;s4&gt;"very clever"&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143652Z" creationid="msdx" creationdate="20150510T143652Z">
+        <seg>password = &lt;s4&gt;"very clever"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>password = &lt;s5&gt;"very clever"&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091240Z" creationid="msdx" creationdate="20150512T091240Z">
         <seg>password = &lt;s4&gt;"very clever"&lt;/s4&gt;</seg>
       </tuv>
     </tu>
@@ -28896,9 +28964,25 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>url = &lt;s1&gt;"http://my.server.com"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091238Z" creationid="msdx" creationdate="20150512T091238Z">
+        <seg>url = &lt;s0&gt;"http://my.server.com"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>url = &lt;s1&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143651Z" creationid="msdx" creationdate="20150510T143651Z">
+        <seg>url = &lt;s1&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url = &lt;s2&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091239Z" creationid="msdx" creationdate="20150512T091239Z">
         <seg>url = &lt;s1&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
@@ -28951,6 +29035,14 @@ task lib1 &lt;&lt; {</seg>
         <seg>username = &lt;s3&gt;"Fred Flintstone"&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143651Z" creationid="msdx" creationdate="20150510T143651Z">
+        <seg>username = &lt;s3&gt;"Fred Flintstone"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>username = &lt;s4&gt;"Fred Flintstone"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091239Z" creationid="msdx" creationdate="20150512T091239Z">
         <seg>username = &lt;s3&gt;"Fred Flintstone"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
