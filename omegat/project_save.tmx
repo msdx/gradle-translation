@@ -894,6 +894,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarProperty.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092754Z" creationid="msdx" creationdate="20150512T092754Z">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarRootModel.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarRootModel.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143857Z" creationid="msdx" creationdate="20150510T143857Z">
@@ -3830,6 +3838,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>35.4. Analyzing languages other than Java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092545Z" creationid="msdx" creationdate="20150512T092545Z">
+        <seg>35.4. 分析非 Java 语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>35.5. Setting Custom Sonar Properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092753Z" creationid="msdx" creationdate="20150512T092753Z">
+        <seg>35.5. 设置自定义的 Sonar 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162027Z" creationid="msdx" creationdate="20141109T162027Z">
@@ -6222,6 +6246,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additional source sets can be added as needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092512Z" creationid="msdx" creationdate="20150512T092512Z">
+        <seg>根据需要，可以添加额外的 source sets。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, a property named &lt;c2&gt;purpose&lt;/c2&gt; is added to each source set by setting &lt;c3&gt;ext.purpose&lt;/c3&gt; to &lt;c4&gt;null&lt;/c4&gt; (&lt;c5&gt;null&lt;/c5&gt; is a permissible value).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054144Z" creationid="msdx" creationdate="20141108T054144Z">
@@ -6902,6 +6934,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As of Sonar 3.4, only one language per project can be analyzed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092659Z" creationid="msdx" creationdate="20150512T092659Z">
+        <seg>截至 Sonar 3.4，每个项目只可以分析一种语言。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As such, if you are using the &lt;c2&gt;copy()&lt;/c2&gt; method as part of a task action, you must explicitly declare all inputs and outputs in order to get the correct behavior.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134119Z" creationid="msdx" creationdate="20141113T134119Z">
@@ -7282,6 +7322,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135535Z" creationid="Administrator" creationdate="20150427T135535Z">
         <seg>默认情况下，Java 编译器在 Gradle 过程中运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, the Sonar plugin will analyze the production sources in the &lt;c0&gt;main&lt;/c0&gt; source set and the test sources in the &lt;c1&gt;test&lt;/c1&gt; source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092351Z" creationid="msdx" creationdate="20150512T092351Z">
+        <seg>默认情况下，Sonar 插件将分析&lt;c0&gt;main&lt;/c0&gt; source set 里的生产源文件，以及&lt;c1&gt;test&lt;/c1&gt; source sets 里的测试源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8724,6 +8772,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Eventually, most configuration is passed to the Sonar code analyzer in the form of key-value pairs known as Sonar properties.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092757Z" creationid="msdx" creationdate="20150512T092757Z">
+        <seg>Eventually, most configuration is passed to the Sonar code analyzer in the form of key-value pairs known as Sonar properties.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every task has also an &lt;c0&gt;enabled&lt;/c0&gt; flag which defaults to &lt;c1&gt;true&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055546Z" creationid="msdx" creationdate="20141111T055546Z">
@@ -9892,6 +9948,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 35.10. Analyzing languages other than Java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092636Z" creationid="msdx" creationdate="20150512T092636Z">
+        <seg>示例 35.10. 分析非 Java 语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 35.2. Configuring Sonar connection settings</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143648Z" creationid="msdx" creationdate="20150510T143648Z">
@@ -9944,6 +10008,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092112Z" creationid="msdx" creationdate="20150512T092112Z">
         <seg>示例 35.8. 使用属性语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.9. Analyzing custom source sets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092527Z" creationid="msdx" creationdate="20150512T092527Z">
+        <seg>示例 35.9. 分析自定义的Source Sets</seg>
       </tuv>
     </tu>
     <tu>
@@ -19349,6 +19421,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This works independent of the project's source directory layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092502Z" creationid="msdx" creationdate="20150512T092502Z">
+        <seg>它的分析独立于项目的源目录布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This yields a hierarchical view in the Sonar web interface with aggregated metrics and the ability to drill down into subprojects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T085241Z" creationid="msdx" creationdate="20150512T085241Z">
@@ -19425,6 +19505,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T085348Z" creationid="msdx" creationdate="20150512T085348Z">
         <seg>要分析项目的层次结构， 需要把 Sonar 插件应用于层次结构的最顶层项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To analyze code written in a language other than Java, install the corresponding &lt;a0&gt;Sonar plugin&lt;/a0&gt;, and set &lt;c1&gt;sonar.project.language&lt;/c1&gt; accordingly:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092626Z" creationid="msdx" creationdate="20150512T092549Z">
+        <seg>要分析非 Java 语言编写的代码，请安装相应的&lt;a0&gt;Sonar 插件&lt;/a0&gt;，并相应地设置&lt;c1&gt;sonar.project.language&lt;/c1&gt; ：</seg>
       </tuv>
     </tu>
     <tu>
@@ -21185,6 +21273,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155513Z" creationid="msdx" creationdate="20141113T155513Z">
         <seg>你可以，比方说，更改归档文件的名称：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can, however, set a different language for each project in a multi-project build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092737Z" creationid="msdx" creationdate="20150512T092737Z">
+        <seg>不过，在多项目构建中你可以为不同的项目设置不同的语言。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24637,6 +24733,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://www.sonarsource.com/products/plugins/languages/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092546Z" creationid="msdx" creationdate="20150512T092546Z">
+        <seg>http://www.sonarsource.com/products/plugins/languages/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://www.sonarsource.org</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104919Z" creationid="msdx" creationdate="20150428T104919Z">
@@ -25571,6 +25675,16 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160055Z" creationid="msdx" creationdate="20150430T160055Z">
         <seg>jvmArgs = [&lt;s1&gt;'-XX:MaxPermSize=512m'&lt;/s1&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>language = &lt;s0&gt;"grvy"&lt;/s0&gt; &lt;s1&gt;// set language to Groovy&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092637Z" creationid="msdx" creationdate="20150512T092637Z">
+        <seg>language = &lt;s0&gt;"grvy"&lt;/s0&gt; &lt;s1&gt;// set language to Groovy&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -27595,6 +27709,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sonar.project {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092528Z" creationid="msdx" creationdate="20150512T092528Z">
+        <seg>sonar.project {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sonar_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104900Z" creationid="msdx" creationdate="20150428T104900Z">
@@ -27739,6 +27861,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083245Z" creationid="msdx" creationdate="20150428T083245Z">
         <seg>sourceCompatibility</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceDirs += sourceSets.custom.allSource.srcDirs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092528Z" creationid="msdx" creationdate="20150512T092528Z">
+        <seg>sourceDirs += sourceSets.custom.allSource.srcDirs</seg>
       </tuv>
     </tu>
     <tu>
@@ -28599,6 +28729,16 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T093820Z" creationid="msdx" creationdate="20150503T093820Z">
         <seg>testCompile &lt;s3&gt;'junit:junit:4.11'&lt;/s3&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testDirs += sourceSets.integTest.allSource.srcDirs
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092528Z" creationid="msdx" creationdate="20150512T092528Z">
+        <seg>testDirs += sourceSets.integTest.allSource.srcDirs
 }</seg>
       </tuv>
     </tu>
