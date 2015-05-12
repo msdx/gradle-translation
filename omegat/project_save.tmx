@@ -6766,6 +6766,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Another typical per-project configuration is the programming language to be analyzed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091918Z" creationid="msdx" creationdate="20150512T091918Z">
+        <seg>另一种典型的各个项目配置是要进行分析的编程语言。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Ant can be divided into two layers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T135614Z" creationid="msdx" creationdate="20141114T071759Z">
@@ -9904,6 +9912,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091354Z" creationid="msdx" creationdate="20150512T091354Z">
         <seg>示例 35.5. 多项目构建中的共同项目配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.6. Individual project configuration in a multi-project build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091737Z" creationid="msdx" creationdate="20150512T091737Z">
+        <seg>示例 35.6. 多项目构建中的单独项目配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.7. Configuring the language to be analyzed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092002Z" creationid="msdx" creationdate="20150512T092002Z">
+        <seg>示例 35.7. 配置语言分析</seg>
       </tuv>
     </tu>
     <tu>
@@ -13117,6 +13141,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that Sonar can only analyze one language per project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091943Z" creationid="msdx" creationdate="20150512T091943Z">
+        <seg>注意，Sonar 只能分析每个项目的一种语言。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that Zinc's Nailgun based daemon mode is not supported.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T081255Z" creationid="msdx" creationdate="20150503T081255Z">
@@ -14545,6 +14577,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130333Z" creationid="msdx" creationdate="20141116T130333Z">
         <seg>只需使用一个 SLF4J 的logger对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Skipped projects will not be displayed in the Sonar web interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091723Z" creationid="msdx" creationdate="20150512T091723Z">
+        <seg>跳过的项目将不会显示在 Sonar 的 web 界面中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25511,6 +25551,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>language = &lt;s1&gt;"groovy"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092010Z" creationid="msdx" creationdate="20150512T092010Z">
+        <seg>language = &lt;s1&gt;"groovy"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>lib</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141507Z" creationid="msdx" creationdate="20150504T141507Z">
@@ -26929,6 +26977,22 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project(&lt;s0&gt;":project1"&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091737Z" creationid="msdx" creationdate="20150512T091737Z">
+        <seg>project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project(&lt;s0&gt;":project2"&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092003Z" creationid="msdx" creationdate="20150512T092003Z">
+        <seg>project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project(&lt;s0&gt;':projectA'&lt;/s0&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T082153Z" creationid="msdx" creationdate="20141110T082153Z">
@@ -27463,6 +27527,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104859Z" creationid="msdx" creationdate="20150428T104859Z">
         <seg>signing_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>skip = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091738Z" creationid="msdx" creationdate="20150512T091738Z">
+        <seg>skip = true</seg>
       </tuv>
     </tu>
     <tu>
