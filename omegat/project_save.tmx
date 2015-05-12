@@ -5230,6 +5230,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// non-String values are automatically converted to Strings&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101339Z" creationid="msdx" creationdate="20150512T101339Z">
+        <seg>&lt;s2&gt;// non-String values are automatically converted to Strings&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;//following dependencies will become the ear modules and placed in the ear root&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142849Z" creationid="msdx" creationdate="20150504T142849Z">
@@ -6042,6 +6050,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155653Z" creationid="msdx" creationdate="20141112T155548Z">
         <seg>一个文件集合是可迭代的，并且可以使用&lt;c0&gt;as&lt;/c0&gt;操作符转换为其他类型的对象集合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A list of available Sonar properties can be found in the &lt;a0&gt;Sonar documentation&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101431Z" creationid="msdx" creationdate="20150512T101431Z">
+        <seg>A list of available Sonar properties can be found in the &lt;a0&gt;Sonar documentation&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9956,6 +9972,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 35.11. Setting custom global properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101337Z" creationid="msdx" creationdate="20150512T101337Z">
+        <seg>示例 35.11. 设置自定义的全局属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.12. Setting custom project properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101426Z" creationid="msdx" creationdate="20150512T101426Z">
+        <seg>示例 35.12. 设置自定义的项目属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 35.2. Configuring Sonar connection settings</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143648Z" creationid="msdx" creationdate="20150510T143648Z">
@@ -10668,6 +10700,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For global Sonar properties, use the &lt;c0&gt;withGlobalProperties&lt;/c0&gt; hook on &lt;a1&gt;&lt;c2&gt;SonarRootModel&lt;/c2&gt;&lt;/a1&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101317Z" creationid="msdx" creationdate="20150512T101303Z">
+        <seg>对于全局的 Sonar 属性，可以使用&lt;a1&gt;&lt;c2&gt;SonarRootModel&lt;/c2&gt;&lt;/a1&gt;上的 &lt;c0&gt;withGlobalProperties&lt;/c0&gt; hook：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For grouping JUnit test classes and methods JUnit 4.8 introduces the concept of categories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082505Z" creationid="msdx" creationdate="20150428T082358Z">
@@ -10776,6 +10816,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065340Z" creationid="msdx" creationdate="20141030T065340Z">
         <seg>下面例子中，我们会使用Maven中央仓库中的Groovy 2.2.0版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For per-project Sonar properties, use the &lt;c0&gt;withProjectProperties&lt;/c0&gt; hook on &lt;a1&gt;&lt;c2&gt;SonarProject&lt;/c2&gt;&lt;/a1&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101409Z" creationid="msdx" creationdate="20150512T101409Z">
+        <seg>对于每个项目的 Sonar 属性，使用&lt;a1&gt;&lt;c2&gt;SonarProject&lt;/c2&gt;&lt;/a1&gt;上的&lt;c0&gt;withProjectProperties&lt;/c0&gt; hook：</seg>
       </tuv>
     </tu>
     <tu>
@@ -24621,6 +24669,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://docs.codehaus.org/display/SONAR/Analysis+Parameters</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101430Z" creationid="msdx" creationdate="20150512T101430Z">
+        <seg>http://docs.codehaus.org/display/SONAR/Analysis+Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://docs.codehaus.org/display/SONAR/Analyzing+with+Sonar+Runner</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150507T065259Z" creationid="msdx" creationdate="20150507T065259Z">
@@ -27235,6 +27291,42 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>props[&lt;s0&gt;"some.global.property"&lt;/s0&gt;] = &lt;s1&gt;"some value"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101338Z" creationid="msdx" creationdate="20150512T101338Z">
+        <seg>props[&lt;s0&gt;"some.global.property"&lt;/s0&gt;] = &lt;s1&gt;"some value"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>props[&lt;s0&gt;"some.project.property"&lt;/s0&gt;] = &lt;s1&gt;"some value"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101429Z" creationid="msdx" creationdate="20150512T101429Z">
+        <seg>props[&lt;s0&gt;"some.project.property"&lt;/s0&gt;] = &lt;s1&gt;"some value"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>props[&lt;s3&gt;"other.global.property"&lt;/s3&gt;] = [&lt;s4&gt;"foo"&lt;/s4&gt;, &lt;s5&gt;"bar"&lt;/s5&gt;, &lt;s6&gt;"baz"&lt;/s6&gt;]
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101340Z" creationid="msdx" creationdate="20150512T101340Z">
+        <seg>props[&lt;s3&gt;"other.global.property"&lt;/s3&gt;] = [&lt;s4&gt;"foo"&lt;/s4&gt;, &lt;s5&gt;"bar"&lt;/s5&gt;, &lt;s6&gt;"baz"&lt;/s6&gt;]
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>props[&lt;s3&gt;"other.project.property"&lt;/s3&gt;] = [&lt;s4&gt;"foo"&lt;/s4&gt;, &lt;s5&gt;"bar"&lt;/s5&gt;, &lt;s6&gt;"baz"&lt;/s6&gt;]
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101430Z" creationid="msdx" creationdate="20150512T101430Z">
+        <seg>props[&lt;s3&gt;"other.global.property"&lt;/s3&gt;] = [&lt;s4&gt;"foo"&lt;/s4&gt;, &lt;s5&gt;"bar"&lt;/s5&gt;, &lt;s6&gt;"baz"&lt;/s6&gt;]
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>providedCompile &lt;s4&gt;"javax.servlet:servlet-api:2.5"&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T093818Z" creationid="msdx" creationdate="20150503T093818Z">
@@ -27737,6 +27829,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092528Z" creationid="msdx" creationdate="20150512T092528Z">
         <seg>sonar.project {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.project.withProjectProperties { props -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101428Z" creationid="msdx" creationdate="20150512T101428Z">
+        <seg>sonar.project.withProjectProperties { props -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.withGlobalProperties { props -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101338Z" creationid="msdx" creationdate="20150512T101338Z">
+        <seg>sonar.withGlobalProperties { props -&gt;</seg>
       </tuv>
     </tu>
     <tu>
