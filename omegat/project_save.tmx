@@ -630,6 +630,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.sonar.SonarAnalyze.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054214Z" creationid="msdx" creationdate="20150513T054214Z">
+        <seg>../dsl/org.gradle.api.plugins.sonar.SonarAnalyze.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.reporting.Reporting.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T131640Z" creationid="msdx" creationdate="20150506T131640Z">
@@ -3862,6 +3870,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>35.7. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054151Z" creationid="msdx" creationdate="20150513T054151Z">
+        <seg>35.7. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162027Z" creationid="msdx" creationdate="20141109T162027Z">
@@ -6814,6 +6830,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Analyzes a project hierarchy and stores the results in the Sonar database.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054246Z" creationid="msdx" creationdate="20150513T054217Z">
+        <seg>分析项目层次结构，并将结果存储在 Sonar 数据库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And the &lt;a0&gt;&lt;c1&gt;Project&lt;/c1&gt;&lt;/a0&gt; interface is your starting point for accessing everything in the Gradle API.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T041035Z" creationid="msdx" creationdate="20141108T041035Z">
@@ -7682,6 +7706,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T140341Z" creationid="msdx" creationdate="20150506T140341Z">
         <seg>第三十六章. Sonar Runner 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 37. The OSGi Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054331Z" creationid="msdx" creationdate="20150513T054331Z">
+        <seg>第三十七章. OSGi 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -10004,6 +10036,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 35.13. Implementing custom command line properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054035Z" creationid="msdx" creationdate="20150513T054035Z">
+        <seg>示例 35.13. 实现自定义命令行属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 35.2. Configuring Sonar connection settings</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143648Z" creationid="msdx" creationdate="20150510T143648Z">
@@ -11596,6 +11636,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, keep in mind that it is usually best to keep configuration in the build script and under source control.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054147Z" creationid="msdx" creationdate="20150513T054147Z">
+        <seg>然而，请记住，通常最好是配置在构建脚本中，并在代码控制下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, the &lt;c0&gt;compileJava&lt;/c0&gt; task is likely to not be the only task that needs to know where the class files are.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154308Z" creationid="msdx" creationdate="20141123T154308Z">
@@ -11936,6 +11984,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141118T100446Z" creationid="msdx" creationdate="20141118T100309Z">
         <seg>如果你的构建有问题，请尝试暂时禁用守护进程 （您可以通过使用命令行开关&lt;c0&gt;--no-daemon&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need to set other properties from the command line, you can use system properties to do so:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054023Z" creationid="msdx" creationdate="20150513T054023Z">
+        <seg>如果你需要从命令行设置其他属性，你可以使用系统属性来做：</seg>
       </tuv>
     </tu>
     <tu>
@@ -14957,6 +15013,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>SonarAnalyze</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054216Z" creationid="msdx" creationdate="20150513T054216Z">
+        <seg>sonarAnalyze</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Source set properties</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150509T131933Z" creationid="msdx" creationdate="20150509T131933Z">
@@ -15705,6 +15769,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T135959Z" creationid="msdx" creationdate="20150506T135959Z">
         <seg>表34.4. JaCoCo 插件 ​​- 依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 35.1. Sonar plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054212Z" creationid="msdx" creationdate="20150513T054212Z">
+        <seg>表 35.1. 声纳插件 - 任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -17077,6 +17149,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Sonar plugin adds the following tasks to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054202Z" creationid="msdx" creationdate="20150513T054202Z">
+        <seg>Sonar 插件向project 中添加了以下任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Sonar plugin is capable of analyzing a whole project hierarchy at once.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T084941Z" creationid="msdx" creationdate="20150510T144133Z">
@@ -17097,6 +17177,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T142730Z" creationid="msdx" creationdate="20150508T131726Z">
         <seg>Sonar 插件提供了对 &lt;a0&gt;Sonar&lt;/a0&gt;，一个基于 web 的代码质量监测平台的集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Sonar runner plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054337Z" creationid="msdx" creationdate="20150513T054337Z">
+        <seg>-The Sonar runner plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24455,6 +24543,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>gradle sonarAnalyze --server.url=http://sonar.mycompany.com --database.password=myPassword --verbose</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053953Z" creationid="msdx" creationdate="20150513T053953Z">
+        <seg>gradle sonarAnalyze --server.url=http://sonar.mycompany.com --database.password=myPassword --verbose</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>gradle test --tests *IntegTest</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083458Z" creationid="msdx" creationdate="20150428T083458Z">
@@ -25861,6 +25957,16 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092010Z" creationid="msdx" creationdate="20150512T092010Z">
         <seg>language = &lt;s1&gt;"groovy"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>language = System.getProperty(&lt;s0&gt;"sonar.language"&lt;/s0&gt;, &lt;s1&gt;"java"&lt;/s1&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054036Z" creationid="msdx" creationdate="20150513T054036Z">
+        <seg>language = System.getProperty(&lt;s0&gt;"sonar.language"&lt;/s0&gt;, &lt;s1&gt;"java"&lt;/s1&gt;)
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -27957,6 +28063,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101338Z" creationid="msdx" creationdate="20150512T101338Z">
         <seg>sonar.withGlobalProperties { props -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonarAnalyze</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054213Z" creationid="msdx" creationdate="20150513T054213Z">
+        <seg>sonarAnalyze</seg>
       </tuv>
     </tu>
     <tu>
