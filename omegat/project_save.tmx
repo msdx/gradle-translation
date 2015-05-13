@@ -7230,6 +7230,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Before executing the &lt;c0&gt;sonarRunner&lt;/c0&gt; task, all tasks producing output to be analysed by Sonar need to be executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T061900Z" creationid="msdx" creationdate="20150513T061900Z">
+        <seg>在执行&lt;c0&gt;sonarRunner&lt;/c0&gt;任务前，所有产生输出以用于 Sonar 分析的需要都需要被执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Below are some examples of how to do this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061950Z" creationid="msdx" creationdate="20141116T061950Z">
@@ -19965,6 +19973,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To meet these needs, the plugins adds a task dependency from &lt;c1&gt;sonarRunner&lt;/c1&gt; on &lt;c2&gt;test&lt;/c2&gt; if the &lt;c3&gt;java&lt;/c3&gt; plugin is applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T061933Z" creationid="msdx" creationdate="20150513T061933Z">
+        <seg>To meet these needs, the plugins adds a task dependency from &lt;c1&gt;sonarRunner&lt;/c1&gt; on &lt;c2&gt;test&lt;/c2&gt; if the &lt;c3&gt;java&lt;/c3&gt; plugin is applied.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To override the Zinc version that Gradle uses by default, add an explicit Zinc dependency (for example &lt;c1&gt;zinc "com.typesafe.zinc:zinc:0.1.4"&lt;/c1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T154842Z" creationid="msdx" creationdate="20150501T154842Z">
@@ -20209,6 +20225,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T085401Z" creationid="msdx" creationdate="20150512T085401Z">
         <seg>通常（但不是一定）会是根项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typically, these are compile tasks, test tasks, and code coverage tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T061938Z" creationid="msdx" creationdate="20150513T061930Z">
+        <seg>通常情况下，它们是编译任务、测试任务和代码覆盖任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21801,6 +21825,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T143101Z" creationid="msdx" creationdate="20150428T143101Z">
         <seg>你应该注意到，&lt;c0&gt;TestReport&lt;/c0&gt;类型组合了多个测试任务的结果，并且需要聚合各个测试类的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You should now be able to browse the analysis results.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T061723Z" creationid="msdx" creationdate="20150513T061723Z">
+        <seg>你现在应该能够看到分析结果了。</seg>
       </tuv>
     </tu>
     <tu>
