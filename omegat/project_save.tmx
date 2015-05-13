@@ -16,8 +16,8 @@
       <tuv lang="EN-US">
         <seg>"$project.group:$project.name" (for root project of analysed hierarchy; left to Sonar Runner otherwise)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065246Z" creationid="msdx" creationdate="20150513T065246Z">
-        <seg>"$project.group:$project.name" (for root project of analysed hierarchy; left to Sonar Runner otherwise)</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065559Z" creationid="msdx" creationdate="20150513T065246Z">
+        <seg>"$project.group:$project.name" （所分析的层次结构的根项目，否则留给 Sonar Runner 处理）</seg>
       </tuv>
     </tu>
     <tu>
@@ -28467,6 +28467,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sonar.binaries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065654Z" creationid="msdx" creationdate="20150513T065654Z">
+        <seg>sonar.binaries</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sonar.dynamicAnalysis</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065250Z" creationid="msdx" creationdate="20150513T065250Z">
@@ -28487,6 +28495,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065357Z" creationid="msdx" creationdate="20150513T065357Z">
         <seg>sonar.java.target</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065708Z" creationid="msdx" creationdate="20150513T065708Z">
+        <seg>sonar.libraries</seg>
       </tuv>
     </tu>
     <tu>
@@ -28543,6 +28559,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065248Z" creationid="msdx" creationdate="20150513T065248Z">
         <seg>sonar.projectVersion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065601Z" creationid="msdx" creationdate="20150513T065601Z">
+        <seg>sonar.sources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.tests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065640Z" creationid="msdx" creationdate="20150513T065640Z">
+        <seg>sonar.tests</seg>
       </tuv>
     </tu>
     <tu>
@@ -28785,10 +28817,42 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sourceSets.main.allSource.srcDirs (filtered to only include existing directories)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065638Z" creationid="msdx" creationdate="20150513T065638Z">
+        <seg>sourceSets.main.allSource.srcDirs（过滤为只包含存在的目录）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sourceSets.main.output + sourceSets.main.compileClasspath</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083438Z" creationid="msdx" creationdate="20150428T083438Z">
         <seg>sourceSets.main.output + sourceSets.main.compileClasspath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceSets.main.runtimeClasspath (filtered to only include directories)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065707Z" creationid="msdx" creationdate="20150513T065707Z">
+        <seg>sourceSets.main.runtimeClasspath （过滤为只包含存在的目录）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceSets.main.runtimeClasspath (filtering to only include files; &lt;c0&gt;rt.jar&lt;/c0&gt; added if necessary)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065814Z" creationid="msdx" creationdate="20150513T065814Z">
+        <seg>sourceSets.main.runtimeClasspath (filtering to only include files; &lt;c0&gt;rt.jar&lt;/c0&gt; added if necessary)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceSets.test.allSource.srcDirs (filtered to only include existing directories)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065653Z" creationid="msdx" creationdate="20150513T065653Z">
+        <seg>sourceSets.test.allSource.srcDirs（过滤为只包含存在的目录）</seg>
       </tuv>
     </tu>
     <tu>
