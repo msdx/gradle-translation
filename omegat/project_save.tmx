@@ -6200,8 +6200,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>A typical base line configuration includes connection settings for the Sonar server and database.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T062624Z" creationid="msdx" creationdate="20150513T062624Z">
-        <seg> A typical base line configuration includes connection settings for the Sonar server and database.</seg>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T063329Z" creationid="msdx" creationdate="20150513T062624Z">
+        <seg>一个典型的基线配置包括了Sonar 服务器和数据库的连接设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10212,6 +10212,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 36.2. Configuring Sonar connection settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T063355Z" creationid="msdx" creationdate="20150513T063355Z">
+        <seg>示例 36.2. 配置 Sonar 连接设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -10624,6 +10632,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T081143Z" creationid="msdx" creationdate="20150503T080820Z">
         <seg>对于 CI 构建和版本的构建中，我们目前推荐使用基于 Ant 的编译器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a complete list of standard Sonar properties, consult the &lt;a0&gt;Sonar documentation&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T063400Z" creationid="msdx" creationdate="20150513T063400Z">
+        <seg>For a complete list of standard Sonar properties, consult the &lt;a0&gt;Sonar documentation&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27717,10 +27733,42 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>property &lt;s0&gt;"sonar.host.url"&lt;/s0&gt;, &lt;s1&gt;"http://my.server.com"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T063356Z" creationid="msdx" creationdate="20150513T063356Z">
+        <seg>property &lt;s0&gt;"sonar.host.url"&lt;/s0&gt;, &lt;s1&gt;"http://my.server.com"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>property &lt;s2&gt;"sonar.jdbc.url"&lt;/s2&gt;, &lt;s3&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T122707Z" creationid="msdx" creationdate="20141126T122707Z">
         <seg>property &lt;s2&gt;"sonar.jdbc.url"&lt;/s2&gt;, &lt;s3&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>property &lt;s4&gt;"sonar.jdbc.driverClassName"&lt;/s4&gt;, &lt;s5&gt;"com.mysql.jdbc.Driver"&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T063357Z" creationid="msdx" creationdate="20150513T063357Z">
+        <seg>property &lt;s4&gt;"sonar.jdbc.driverClassName"&lt;/s4&gt;, &lt;s5&gt;"com.mysql.jdbc.Driver"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>property &lt;s6&gt;"sonar.jdbc.username"&lt;/s6&gt;, &lt;s7&gt;"Fred Flintstone"&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T063358Z" creationid="msdx" creationdate="20150513T063358Z">
+        <seg>property &lt;s6&gt;"sonar.jdbc.username"&lt;/s6&gt;, &lt;s7&gt;"Fred Flintstone"&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>property &lt;s8&gt;"sonar.jdbc.password"&lt;/s8&gt;, &lt;s9&gt;"very clever"&lt;/s9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T063358Z" creationid="msdx" creationdate="20150513T063358Z">
+        <seg>property &lt;s8&gt;"sonar.jdbc.password"&lt;/s8&gt;, &lt;s9&gt;"very clever"&lt;/s9&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -28311,6 +28359,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054213Z" creationid="msdx" creationdate="20150513T054213Z">
         <seg>sonarAnalyze</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonarProperties {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T063356Z" creationid="msdx" creationdate="20150513T063356Z">
+        <seg>sonarProperties {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonarRunner {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T063355Z" creationid="msdx" creationdate="20150513T063355Z">
+        <seg>sonarRunner {</seg>
       </tuv>
     </tu>
     <tu>
