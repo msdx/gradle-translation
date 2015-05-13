@@ -6670,6 +6670,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All of Gradle's scripting features can be leveraged to configure Sonar Runner as needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T055919Z" creationid="msdx" creationdate="20150513T055919Z">
+        <seg>根据需要，可以利用 Gradle 脚本的所有特性去配置 Sonar Runner。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All of Gradle's tasks share a common API and you can create dependencies between them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T123916Z" creationid="msdx" creationdate="20141111T123916Z">
@@ -8672,6 +8680,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T081116Z" creationid="msdx" creationdate="20150503T080600Z">
         <seg>由于依赖分析的系统开销，一次干净的编译或在代码有了较大的更改之后的编译，可能花费的时间要长于使用基于 Ant 的编译器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dynamic configuration from Gradle build scripts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T055834Z" creationid="msdx" creationdate="20150513T055834Z">
+        <seg>通过 Gradle 构建脚本动态配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -17337,6 +17353,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155946Z" creationid="msdx" creationdate="20150430T155946Z">
         <seg>基于 Zinc 的编译器 (&lt;c4&gt;scalaCompileOptions.useAnt = false&lt;/c4&gt;) 将利用 Gradle 编译器守护进程，且默认情况下也是这样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ability to execute the Sonar Runner via a regular Gradle task makes it available anywhere Gradle is available (developer build, CI server, etc.), without the need to download, setup, and maintain a Sonar Runner installation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T055822Z" creationid="msdx" creationdate="20150513T055822Z">
+        <seg>可以通过一个正规的 Gradle 任务来执行 Sonar Runner，这使得在任何 Gradle 可用的地方，它都可以用（开发人员构建，CI 服务器等），而无需下载，安装，和维护 Sonar Runner 的安装。</seg>
       </tuv>
     </tu>
     <tu>
