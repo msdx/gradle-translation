@@ -6118,6 +6118,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A task parameter will override any corresponding value set in the build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053932Z" creationid="msdx" creationdate="20150513T053825Z">
+        <seg>任务参数将覆盖任何在构建脚本中设置的相应值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A task that aggregates the results of all tasks of a particular type: eg.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T145334Z" creationid="msdx" creationdate="20141110T145038Z">
@@ -11432,6 +11440,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083749Z" creationid="Administrator" creationdate="20150426T083749Z">
         <seg>这里是如何更改main Java 和资源源目录的一个简短的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is a complete example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053943Z" creationid="msdx" creationdate="20150513T053943Z">
+        <seg>下面是一个完整的例子：</seg>
       </tuv>
     </tu>
     <tu>
@@ -17653,6 +17669,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following properties can alternatively be set from the command line, as task parameters of the &lt;c0&gt;sonarAnalyze&lt;/c0&gt; task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053813Z" creationid="msdx" creationdate="20150513T053813Z">
+        <seg>下面的属性或者可以从命令行中或者是作为&lt;c0&gt;sonarAnalyze&lt;/c0&gt;任务的任务参数这两种方式之一来设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following properties can be used to configure the Gradle build environment:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153523Z" creationid="msdx" creationdate="20141119T153523Z">
@@ -23229,6 +23253,38 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>database.driverClassName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053935Z" creationid="msdx" creationdate="20150513T053935Z">
+        <seg>database.driverClassName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>database.password</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053935Z" creationid="msdx" creationdate="20150513T053935Z">
+        <seg>database.password</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>database.url</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053935Z" creationid="msdx" creationdate="20150513T053935Z">
+        <seg>database.url</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>database.username</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053935Z" creationid="msdx" creationdate="20150513T053935Z">
+        <seg>database.username</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def dest = &lt;s0&gt;"dest"&lt;/s0&gt;
 
 task copy(type: Copy) {</seg>
@@ -24097,6 +24153,14 @@ dependencies {</seg>
 }
 
 dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>forceAnalysis</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053936Z" creationid="msdx" creationdate="20150513T053936Z">
+        <seg>forceAnalysis</seg>
       </tuv>
     </tu>
     <tu>
@@ -27793,10 +27857,34 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>server.url</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053933Z" creationid="msdx" creationdate="20150513T053933Z">
+        <seg>server.url</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sessionId</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132320Z" creationid="msdx" creationdate="20150506T132320Z">
         <seg>sessionId</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>showSql</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053936Z" creationid="msdx" creationdate="20150513T053936Z">
+        <seg>showSql</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>showSqlResults</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053936Z" creationid="msdx" creationdate="20150513T053936Z">
+        <seg>showSqlResults</seg>
       </tuv>
     </tu>
     <tu>
@@ -29500,6 +29588,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T144724Z" creationid="msdx" creationdate="20141110T144311Z">
         <seg>验证在开始发布的工作前有一个正确的证书。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>verbose</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053936Z" creationid="msdx" creationdate="20150513T053936Z">
+        <seg>verbose</seg>
       </tuv>
     </tu>
     <tu>
