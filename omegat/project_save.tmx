@@ -4062,6 +4062,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>36.4. Analyzing Multi-Project Builds</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T152059Z" creationid="msdx" creationdate="20150514T152048Z">
+        <seg>36.4. 分析多项目构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162027Z" creationid="msdx" creationdate="20141109T162027Z">
@@ -7042,6 +7050,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054246Z" creationid="msdx" creationdate="20150513T054217Z">
         <seg>分析项目层次结构，并将结果存储在 Sonar 数据库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Analyzing a project hierarchy also takes less time than analyzing each project separately.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T152303Z" creationid="msdx" creationdate="20150514T152303Z">
+        <seg>分析一个项目的层次结果还可以比单独分析每个项目花费更省时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17565,6 +17581,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Sonar Runner is capable of analyzing whole project hierarchies at once.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T152120Z" creationid="msdx" creationdate="20150514T152120Z">
+        <seg>Sonar Runner 插件能够一次分析整个项目的层次结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Sonar Runner plugin adds a &lt;a0&gt;&lt;c1&gt;SonarRunner&lt;/c1&gt;&lt;/a0&gt; extension to the project, which allows to configure the Sonar Runner via key/value pairs known as &lt;e2&gt;Sonar properties&lt;/e2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T062827Z" creationid="msdx" creationdate="20150513T062621Z">
@@ -20117,6 +20141,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This yields a hierarchical view in the Sonar web interface, with aggregated metrics and the ability to drill down into subprojects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T152136Z" creationid="msdx" creationdate="20150514T152136Z">
+        <seg>它能够在 Sonar 的 web 界面生成一个层次图，该层次图包含了综合的指标且能够深入到子项目中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Those configurations have the same scope as the respective &lt;c2&gt;compile&lt;/c2&gt; and &lt;c3&gt;runtime&lt;/c3&gt; configurations, except that they are not added to the WAR archive.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T091028Z" creationid="msdx" creationdate="20150503T091028Z">
@@ -20177,6 +20209,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160040Z" creationid="msdx" creationdate="20150430T160040Z">
         <seg>如果要调整内存设置，请根据需要配置&lt;c0&gt;scalaCompileOptions.forkOptions&lt;/c0&gt; ：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To analyze a project hierarchy, apply the Sonar Runner plugin to the root project of the hierarchy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T152324Z" creationid="msdx" creationdate="20150514T152324Z">
+        <seg>要分析一个项目的层次结构， 需要把 Sonar Runner 插件应用于层次结构的最顶层项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20537,6 +20577,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044209Z" creationid="msdx" creationdate="20141108T044209Z">
         <seg>类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Typically (but not necessarily) this will be the root project of the Gradle build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T152401Z" creationid="msdx" creationdate="20150514T152401Z">
+        <seg>通常（但不是一定）会是这个 Gradle 构建的根项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28771,6 +28819,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sonar.junit.reportsPath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T152044Z" creationid="msdx" creationdate="20150514T152044Z">
+        <seg>sonar.junit.reportsPath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sonar.libraries</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065708Z" creationid="msdx" creationdate="20150513T065708Z">
@@ -29873,6 +29929,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083237Z" creationid="msdx" creationdate="20150428T083237Z">
         <seg>test-results</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>test.testResultsDir (if the directory exists)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T152043Z" creationid="msdx" creationdate="20150514T152043Z">
+        <seg>test.testResultsDir （如果该目录存在）</seg>
       </tuv>
     </tu>
     <tu>
