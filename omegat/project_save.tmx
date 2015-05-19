@@ -4070,6 +4070,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>36.5. Analyzing Custom Source Sets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150519T124746Z" creationid="msdx" creationdate="20150519T124746Z">
+        <seg>36.5. 分析自定义的Source Sets</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162027Z" creationid="msdx" creationdate="20141109T162027Z">
@@ -10436,6 +10444,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 36.5. Individual configuration settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150519T124644Z" creationid="msdx" creationdate="20150519T124644Z">
+        <seg>示例 36.5. 个别配置设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 36.6. Skipping analysis of a project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150519T124736Z" creationid="msdx" creationdate="20150519T124736Z">
+        <seg>示例 36.6. 跳过项目分析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -14593,6 +14617,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143815Z" creationid="msdx" creationdate="20150510T143815Z">
         <seg>Project 设置会决定这个项目将如何进行分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Project-specific information is configured in the &lt;c0&gt;sonarRunner&lt;/c0&gt; block of the corresponding project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150519T124637Z" creationid="msdx" creationdate="20150519T124534Z">
+        <seg>特定项目的信息在对应的 project 的&lt;c0&gt;sonarRunner&lt;/c0&gt;块中配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18809,6 +18841,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T123839Z" creationid="msdx" creationdate="20141111T123839Z">
         <seg>简单的 Gradle 任务就像 Ant 的目标，而增强的 Gradle 任务还包括 Ant 任务方面的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The skip Sonar analysis for a particular subproject, set &lt;c0&gt;sonarRunner.skipProject&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150519T124728Z" creationid="msdx" creationdate="20150519T124728Z">
+        <seg>对于一个特定的子项目，要跳过 Sonar 分析，可以设置&lt;c0&gt;sonarRunner.skipProject&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28245,6 +28285,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>property &lt;s1&gt;"sonar.language"&lt;/s1&gt;, &lt;s2&gt;"grvy"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150519T124645Z" creationid="msdx" creationdate="20150519T124645Z">
+        <seg>property &lt;s1&gt;"sonar.language"&lt;/s1&gt;, &lt;s2&gt;"grvy"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>property &lt;s2&gt;"sonar.jdbc.url"&lt;/s2&gt;, &lt;s3&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T122707Z" creationid="msdx" creationdate="20141126T122707Z">
@@ -28807,6 +28855,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091738Z" creationid="msdx" creationdate="20150512T091738Z">
         <seg>skip = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>skipProject = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="msdx" changedate="20150519T124737Z" creationid="msdx" creationdate="20150519T124737Z">
+        <seg>skipProject = true</seg>
       </tuv>
     </tu>
     <tu>
