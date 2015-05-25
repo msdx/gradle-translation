@@ -15573,6 +15573,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sonar Properties can also be set from the command line, by setting a system property named exactly like the Sonar property in question.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T233644Z" creationid="haohang" creationdate="20150525T233644Z">
+        <seg>Sonar 属性也可以从命令行中设置，通过设置一个系统属性，名称就像正在考虑中的 Sonar 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>SonarAnalyze</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054216Z" creationid="msdx" creationdate="20150513T054216Z">
@@ -19705,6 +19713,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145312Z" creationid="msdx" creationdate="20141113T145312Z">
         <seg>这可以用来做一些事情，比如安装你的应用程序、 创建你的归档文件的exploded副本，或维护项目的依赖项的副本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be useful when dealing with sensitive information (e.g. credentials), environment information, or for ad-hoc configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T233805Z" creationid="haohang" creationdate="20150525T233805Z">
+        <seg>当处理敏感信息 （例如证件），环境信息，或点对点配置时，这会非常有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25387,6 +25403,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053953Z" creationid="msdx" creationdate="20150513T053953Z">
         <seg>gradle sonarAnalyze --server.url=http://sonar.mycompany.com --database.password=myPassword --verbose</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle sonarRunner -Dsonar.host.url=http://sonar.mycompany.com -Dsonar.jdbc.password=myPassword -Dsonar.verbose=true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T233823Z" creationid="haohang" creationdate="20150525T233823Z">
+        <seg>gradle sonarRunner -Dsonar.host.url=http://sonar.mycompany.com -Dsonar.jdbc.password=myPassword -Dsonar.verbose=true</seg>
       </tuv>
     </tu>
     <tu>
