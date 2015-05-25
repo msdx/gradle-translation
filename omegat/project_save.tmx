@@ -4102,6 +4102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>36.9. Executing Sonar Runner in a separate process</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T234409Z" creationid="haohang" creationdate="20150525T234409Z">
+        <seg>36.9. 在一个单独的进程中执行 Sonar Runner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162027Z" creationid="msdx" creationdate="20141109T162027Z">
@@ -6242,6 +6250,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161626Z" creationid="msdx" creationdate="20141112T161626Z">
         <seg>&lt;e0&gt;文件树&lt;/e0&gt;是按层次结构排序的文件集合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Sonar property value set via a system property overrides any value set in a build script (for the same property).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T234241Z" creationid="haohang" creationdate="20150525T234241Z">
+        <seg>通过一个系统属性设置的 Sonar 属性值将覆盖构建脚本中设置的任何值（同样的属性名称）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8872,6 +8888,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150509T131644Z" creationid="msdx" creationdate="20150509T131644Z">
         <seg>依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Depending on project size, the Sonar Runner may require a lot of memory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T234427Z" creationid="haohang" creationdate="20150525T234427Z">
+        <seg>根据项目大小，Sonar Runner 可能需要大量的内存。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21317,6 +21341,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When analyzing a project hierarchy, values set via system properties apply to the root project of the analyzed hierarchy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T234342Z" creationid="haohang" creationdate="20150525T234250Z">
+        <seg>当分析项目的层次结构时，通过系统属性设置的值应用于所分析层次结构的根项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When configured, Gradle will run in incubating parallel mode.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T053823Z" creationid="msdx" creationdate="20141120T053823Z">
@@ -21505,6 +21537,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T135425Z" creationid="msdx" creationdate="20150506T132327Z">
         <seg>虽然&lt;a0&gt;&lt;c1&gt;Test&lt;/c1&gt;&lt;/a0&gt;的所有任务会在&lt;c2&gt;java&lt;/c2&gt;插件被配置使用时会自动增强以提供覆盖率信息，但是任何实现了&lt;a3&gt;&lt;c4&gt;JavaForkOptions&lt;/c4&gt;&lt;/a3&gt;的任务都可以通过 JaCoCo 插件得到增强。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While certainly useful at times, we do recommend to keep the bulk of the configuration in a (versioned) build script, readily available to everyone.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T234201Z" creationid="haohang" creationdate="20150525T234201Z">
+        <seg>虽然有时当然很有用，但我们建议在 （版本控制的）构建脚本中，能够方便地让每个人都保持大部分的配置。</seg>
       </tuv>
     </tu>
     <tu>
