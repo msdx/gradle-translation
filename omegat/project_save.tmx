@@ -6790,6 +6790,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>After the sonarProperties block has been evaluated, values are converted to Strings as follows: Collection values are (recursively) converted to comma-separated Strings, and all other values are converted by calling their &lt;c3&gt;toString()&lt;/c3&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T233042Z" creationid="haohang" creationdate="20150525T233042Z">
+        <seg>SonarProperties 块在经过评估后，这些值值被转换为字符串，如下所示： 集合的值（递归） 转换为以逗号分隔的字符串，其他所有的值通过调用其&lt;c3&gt;tostring ()&lt;/c3&gt;方法进行转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Again, this method accepts any of the types supported by the &lt;a0&gt;files()&lt;/a0&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123615Z" creationid="msdx" creationdate="20141113T123615Z">
@@ -20457,6 +20465,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060440Z" creationid="msdx" creationdate="20141116T060440Z">
         <seg>要做到这一点，你需要定义一个自定义配置的类路径中，然后将一些依赖项添加到配置中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To facilitate their manipulation, values still have their "idiomatic" type (&lt;c1&gt;File&lt;/c1&gt;, &lt;c2&gt;List&lt;/c2&gt;, etc.).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T232935Z" creationid="haohang" creationdate="20150525T232935Z">
+        <seg>为了方便它们的操作，这些值值仍然使用它们惯用的类型 （&lt;c1&gt;File&lt;/c1&gt;，&lt;c2&gt;List&lt;/c2&gt;等）。</seg>
       </tuv>
     </tu>
     <tu>
