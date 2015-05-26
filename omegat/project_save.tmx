@@ -5618,6 +5618,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s3&gt;'org.mycomp.package1'&lt;/s3&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064441Z" creationid="haohang" creationdate="20150526T064441Z">
+        <seg>&lt;s3&gt;'org.mycomp.package1'&lt;/s3&gt;,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s3&gt;// Add a source directory using a File object&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123633Z" creationid="msdx" creationdate="20141113T123633Z">
@@ -5646,6 +5654,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075101Z" creationid="msdx" creationdate="20150429T074832Z">
         <seg>&lt;s3&gt;[&lt;a4&gt;11&lt;/a4&gt;]&lt;/s3&gt;这些目录不一定得存在或是里面包含有什么内容；Groovy 的插件只会进行编译，而不管它发现什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s4&gt;'org.mycomp.package2'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064442Z" creationid="haohang" creationdate="20150526T064442Z">
+        <seg>&lt;s4&gt;'org.mycomp.package2'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7574,6 +7590,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Based on this the &lt;s0&gt;&lt;e1&gt;Import-Package&lt;/e1&gt;&lt;/s0&gt; and the &lt;s2&gt;&lt;e3&gt;Export-Package&lt;/e3&gt;&lt;/s2&gt; values of the OSGi Manifest are calculated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064137Z" creationid="haohang" creationdate="20150526T064137Z">
+        <seg>并基于此计算 OSGi Manifest 中&lt;s0&gt;&lt;e1&gt;Import-Package&lt;/e1&gt;&lt;/s0&gt;和&lt;s2&gt;&lt;e3&gt;Export-Package&lt;/e3&gt;&lt;/s2&gt;的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because Gradle's build language is based on Groovy, and parts of Gradle are implemented in Groovy, Gradle already ships with a Groovy library (1.8.6 as of Gradle 1.6).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075636Z" creationid="msdx" creationdate="20150429T075405Z">
@@ -7666,6 +7690,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T061242Z" creationid="msdx" creationdate="20141111T061242Z">
         <seg>下面，我们修改了我们的示例，声明它将 XML 源文件作为输入，并产生输出到一个目标目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beside the explicit properties of the &lt;c6&gt;OsgiManifest&lt;/c6&gt; object you can add instructions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064534Z" creationid="haohang" creationdate="20150526T064345Z">
+        <seg>在 &lt;c6&gt;OsgiManifest&lt;/c6&gt; 对象的显式属性旁边，你可以添加instructions。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10668,6 +10700,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 37.2. Configuration of OSGi MANIFEST.MF file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064436Z" creationid="haohang" creationdate="20150526T064436Z">
+        <seg>示例 37.2. OSGi MANIFEST.MF 文件配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -12488,6 +12528,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T150938Z" creationid="msdx" creationdate="20150428T150938Z">
         <seg>如果基本的manifest和要合并的manifest都定义了同一个key的值，那么默认情况下会采用要合并的manifest的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the classpath contains jars with an OSGi bundle, the bundle information is used to specify version information for the &lt;s4&gt;&lt;e5&gt;Import-Package&lt;/e5&gt;&lt;/s4&gt; value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064259Z" creationid="haohang" creationdate="20150526T064259Z">
+        <seg>如果 classpath 中包含了 jar 包和 OSGi bundle，bundle 信息会被用来指定 &lt;s4&gt;&lt;e5&gt;Import-Package&lt;/e5&gt;&lt;/s4&gt;的值的版本信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18669,6 +18717,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The first argument of the instruction call is the key of the property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064621Z" creationid="haohang" creationdate="20150526T064448Z">
+        <seg>instruction 调用的第一个参数是属性的键。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The first layer is the Ant language.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T071818Z" creationid="msdx" creationdate="20141114T071818Z">
@@ -18985,6 +19041,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T014532Z" creationid="msdx" creationdate="20141111T014359Z">
         <seg>排序规则仅在这两项任务计划执行时起作用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The other arguments form the value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064647Z" creationid="haohang" creationdate="20150526T064647Z">
+        <seg>其他参数构成了它的值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19873,6 +19937,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T040837Z" creationid="Administrator" creationdate="20150425T040837Z">
         <seg>它们可供你在你的构建文件中使用，并在此处完整列出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They are joined by Gradle with the &lt;c0&gt;,&lt;/c0&gt; separator.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064723Z" creationid="haohang" creationdate="20150526T064723Z">
+        <seg>他们由 Gradle 使用&lt;c0&gt;,&lt;/c0&gt;分隔符连接。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26611,6 +26683,46 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>instruction &lt;s11&gt;'Bundle-Vendor'&lt;/s11&gt;, &lt;s12&gt;'MyCompany'&lt;/s12&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064446Z" creationid="haohang" creationdate="20150526T064446Z">
+        <seg>~instruction &lt;s5&gt;'Bundle-Vendor'&lt;/s5&gt;, &lt;s6&gt;'MyCompany'&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>instruction &lt;s2&gt;'Private-Package'&lt;/s2&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064440Z" creationid="haohang" creationdate="20150526T064440Z">
+        <seg>instruction &lt;s2&gt;'Private-Package'&lt;/s2&gt;,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>instruction &lt;s5&gt;'Bundle-Vendor'&lt;/s5&gt;, &lt;s6&gt;'MyCompany'&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064442Z" creationid="haohang" creationdate="20150526T064442Z">
+        <seg>instruction &lt;s5&gt;'Bundle-Vendor'&lt;/s5&gt;, &lt;s6&gt;'MyCompany'&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>instruction &lt;s7&gt;'Bundle-Description'&lt;/s7&gt;, &lt;s8&gt;'Platform2: Metrics 2 Measures Framework'&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064443Z" creationid="haohang" creationdate="20150526T064443Z">
+        <seg>instruction &lt;s7&gt;'Bundle-Description'&lt;/s7&gt;, &lt;s8&gt;'Platform2: Metrics 2 Measures Framework'&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>instruction &lt;s9&gt;'Bundle-DocURL'&lt;/s9&gt;, &lt;s10&gt;'http://www.mycompany.com'&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064444Z" creationid="haohang" creationdate="20150526T064444Z">
+        <seg>instruction &lt;s9&gt;'Bundle-DocURL'&lt;/s9&gt;, &lt;s10&gt;'http://www.mycompany.com'&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>intTest
 }</seg>
       </tuv>
@@ -27417,6 +27529,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>manifest = osgiManifest {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064445Z" creationid="haohang" creationdate="20150526T064445Z">
+        <seg>manifest = osgiManifest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>manifest = project.manifest {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145343Z" creationid="msdx" creationdate="20150428T145343Z">
@@ -27429,6 +27549,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145224Z" creationid="msdx" creationdate="20150428T145224Z">
         <seg>manifest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>manifest { &lt;s0&gt;// the manifest of the default jar is of type OsgiManifest&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064438Z" creationid="haohang" creationdate="20150526T064438Z">
+        <seg>manifest { &lt;s0&gt;// the manifest of the default jar is of type OsgiManifest&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -27647,6 +27775,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044233Z" creationid="msdx" creationdate="20141108T044233Z">
         <seg>name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name = &lt;s1&gt;'overwrittenSpecialOsgiName'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064439Z" creationid="haohang" creationdate="20150526T064439Z">
+        <seg>name = &lt;s1&gt;'overwrittenSpecialOsgiName'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -31714,6 +31850,18 @@ task testReport(type: TestReport) {</seg>
 }
 
 task testReport(type: TestReport) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+task fooJar(type: Jar) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064444Z" creationid="haohang" creationdate="20150526T064444Z">
+        <seg>}
+}
+task fooJar(type: Jar) {</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
