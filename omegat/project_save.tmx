@@ -4126,6 +4126,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>37.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004241Z" creationid="haohang" creationdate="20150526T004241Z">
+        <seg>37.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>37.2. Implicitly applied plugins</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004326Z" creationid="haohang" creationdate="20150526T004305Z">
+        <seg>37.2. 隐式应用插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162027Z" creationid="msdx" creationdate="20141109T162027Z">
@@ -7250,6 +7266,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T034203Z" creationid="msdx" creationdate="20141101T034203Z">
         <seg>Appendix E. Existing IDE Support and how to cope without it</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Applies the Java base plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004318Z" creationid="haohang" creationdate="20150526T004318Z">
+        <seg>Applies the Java base plugin.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10588,6 +10612,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 37.1. Using the OSGi plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004303Z" creationid="haohang" creationdate="20150526T004303Z">
+        <seg>示例 37.1. 使用 OSGi 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -12376,6 +12408,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130350Z" creationid="msdx" creationdate="20150506T130244Z">
         <seg>如果 Java 插件也被应用于你的项目，那么会创建一个名为&lt;c0&gt;jacocoTestReport&lt;/c0&gt;的新任务，该新任务依赖于&lt;c1&gt;test&lt;/c1&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the Java plugins is applied, the OSGi plugin replaces the manifest object of the default jar with an &lt;c6&gt;OsgiManifest&lt;/c6&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004113Z" creationid="haohang" creationdate="20150526T004113Z">
+        <seg>如果应用了 Java 插件，OSGi 插件将把默认 jar 的 manifest 对象替换为一个&lt;c6&gt;OsgiManifest&lt;/c6&gt;对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17685,6 +17725,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The OSGi plugin makes heavy use of Peter Kriens &lt;a0&gt;BND tool&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004232Z" creationid="haohang" creationdate="20150526T004232Z">
+        <seg>OSGi 插件使 Peter Kriens &lt;a0&gt;BND tool&lt;/a0&gt; 大量使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The OSGi plugin provides a factory method to create an &lt;a0&gt;&lt;c1&gt;OsgiManifest&lt;/c1&gt;&lt;/a0&gt; object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T003850Z" creationid="haohang" creationdate="20150526T003850Z">
@@ -18953,6 +19001,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124241Z" creationid="msdx" creationdate="20141111T124241Z">
         <seg>原因是，Gradle 会向您的脚本添加默认的一些导入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The replaced manifest is merged into the new one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004139Z" creationid="haohang" creationdate="20150526T004139Z">
+        <seg>被替换的manifest 会被合并到新的对象单中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20817,6 +20873,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150134Z" creationid="msdx" creationdate="20150504T150134Z">
         <seg>要使用 Jetty 的插件，请在构建脚本中包含以下语句：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the OSGi plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004254Z" creationid="haohang" creationdate="20150526T004254Z">
+        <seg>要使用 OSGi 插件，请在构建脚本中包含以下语句：</seg>
       </tuv>
     </tu>
     <tu>
@@ -23339,6 +23403,14 @@ task myZip(type: Zip) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T094212Z" creationid="msdx" creationdate="20141030T094212Z">
         <seg>apply plugin: &lt;s0&gt;'jetty'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'osgi'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004304Z" creationid="haohang" creationdate="20150526T004304Z">
+        <seg>apply plugin: &lt;s0&gt;'osgi'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -25969,6 +26041,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T063338Z" creationid="msdx" creationdate="20141116T063338Z">
         <seg>http://www.antlr.org/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.aqute.biz/Code/Bnd</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004140Z" creationid="haohang" creationdate="20150526T004140Z">
+        <seg>http://www.aqute.biz/Code/Bnd</seg>
       </tuv>
     </tu>
     <tu>
