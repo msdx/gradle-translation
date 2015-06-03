@@ -6678,10 +6678,26 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adds Groovy configuration to &lt;c0&gt;.project&lt;/c0&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003813Z" creationid="haohang" creationdate="20150603T003813Z">
+        <seg>将 Groovy 配置添加到&lt;c0&gt;.project&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Adds Java compilation, testing and bundling capabilities to a project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120948Z" creationid="msdx" creationdate="20141126T120948Z">
         <seg>向一个项目添加 Java 编译、 测试和捆绑的能力。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds Java configuration to &lt;c0&gt;.project&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003756Z" creationid="haohang" creationdate="20150603T003756Z">
+        <seg>将 Java 配置添加到&lt;c0&gt;.project&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6698,6 +6714,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141209T074223Z" creationid="msdx" creationdate="20141209T074223Z">
         <seg>向项目中添加 Objective-C++ 源代码编译功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds Scala support to &lt;c0&gt;.project&lt;/c0&gt; and &lt;c1&gt;.classpath&lt;/c1&gt; files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003830Z" creationid="haohang" creationdate="20150603T003830Z">
+        <seg>添加 Scala 支持到&lt;c0&gt;.project&lt;/c0&gt;和&lt;c1&gt;.classpath&lt;/c1&gt;文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6738,6 +6762,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154952Z" creationid="msdx" creationdate="20150430T154952Z">
         <seg>添加在 Scala 的源目录中找到的所有源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds ear application support to &lt;c0&gt;.project&lt;/c0&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003916Z" creationid="haohang" creationdate="20150603T003905Z">
+        <seg>将 ear 应用程序支持添加到&lt;c0&gt;.project&lt;/c0&gt;文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6906,6 +6938,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T041156Z" creationid="Administrator" creationdate="20150425T041156Z">
         <seg>添加标准的生命周期任务，并为归档任务默认进行合理的配置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds web application support to &lt;c0&gt;.project&lt;/c0&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003840Z" creationid="haohang" creationdate="20150603T003840Z">
+        <seg>将 web 应用程序支持添加到&lt;c0&gt;.project&lt;/c0&gt;文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11620,6 +11660,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generates &lt;c1&gt;.classpath&lt;/c1&gt; and JDT settings file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003800Z" creationid="haohang" creationdate="20150603T003800Z">
+        <seg>生成&lt;c1&gt;.classpath&lt;/c1&gt;和 JDT 设置文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generates API documentation for the production Groovy source files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T071516Z" creationid="msdx" creationdate="20150429T071516Z">
@@ -11640,6 +11688,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145519Z" creationid="msdx" creationdate="20150429T145519Z">
         <seg>为production 里的 Scala 源文件生成 API 文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates WTP settings files only if &lt;c1&gt;eclipse-wtp&lt;/c1&gt; plugin was applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003910Z" creationid="haohang" creationdate="20150603T003903Z">
+        <seg>仅当&lt;c1&gt;eclipse-wtp&lt;/c1&gt;插件被应用时生成 WTP 设置文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11672,6 +11728,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T035254Z" creationid="Administrator" creationdate="20150425T035254Z">
         <seg>生成&lt;a0&gt;Intellij IDEA IDE&lt;/a0&gt;所用到的文件，从而使项目能够导入到 IDEA。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates minimal &lt;c0&gt;.project&lt;/c0&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003747Z" creationid="haohang" creationdate="20150603T003747Z">
+        <seg>生成最小的&lt;c0&gt;.project&lt;/c0&gt;文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11984,6 +12048,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085806Z" creationid="msdx" creationdate="20141030T085806Z">
         <seg>Gradle会在 &lt;c2&gt;src/main/webapp&lt;/c2&gt;中查找源文件，并将它们包含进WAR文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003803Z" creationid="haohang" creationdate="20150603T003803Z">
+        <seg>Groovy</seg>
       </tuv>
     </tu>
     <tu>
@@ -13581,6 +13653,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003751Z" creationid="haohang" creationdate="20150603T003751Z">
+        <seg>Java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Java Quickstart</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163425Z" creationid="msdx" creationdate="20141109T163425Z">
@@ -14081,6 +14161,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T103752Z" creationid="msdx" creationdate="20141116T103552Z">
         <seg>构建错误（如编译错误）时没有栈跟踪打印到控制台。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>None</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003619Z" creationid="haohang" creationdate="20150603T003619Z">
+        <seg>None</seg>
       </tuv>
     </tu>
     <tu>
@@ -15377,6 +15465,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084857Z" creationid="Administrator" creationdate="20150426T084857Z">
         <seg>给定源集的运行时依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scala</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003815Z" creationid="haohang" creationdate="20150603T003815Z">
+        <seg>Scala</seg>
       </tuv>
     </tu>
     <tu>
