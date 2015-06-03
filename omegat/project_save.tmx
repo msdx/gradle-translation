@@ -4190,6 +4190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>38.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T004107Z" creationid="haohang" creationdate="20150603T004107Z">
+        <seg>38.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162027Z" creationid="msdx" creationdate="20141109T162027Z">
@@ -10752,6 +10760,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064436Z" creationid="haohang" creationdate="20150526T064436Z">
         <seg>示例 37.2. OSGi MANIFEST.MF 文件配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 38.1. Using the Eclipse plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T004131Z" creationid="haohang" creationdate="20150603T004131Z">
+        <seg>示例 38.1. 使用 Eclipse 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -17533,10 +17549,26 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Eclipse plugin adds a number of tasks to your projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T004215Z" creationid="haohang" creationdate="20150603T004136Z">
+        <seg>Eclipse 插件向你的projects 添加了大量的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Eclipse plugin generates files that are used by the &lt;a0&gt;Eclipse IDE&lt;/a0&gt;, thus making it possible to import the project into Eclipse (&lt;s1&gt;File&lt;/s1&gt; - &lt;s2&gt;Import...&lt;/s2&gt; - &lt;s3&gt;Existing Projects into Workspace&lt;/s3&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T002903Z" creationid="haohang" creationdate="20150603T002903Z">
         <seg>Eclipse 插件生成&lt;a0&gt;Eclipse IDE&lt;/a0&gt;所使用的文件，从而让项目能够导入 Eclipse （&lt;s1&gt;File&lt;/s1&gt; - &lt;s2&gt;Import...&lt;/s2&gt; - &lt;s3&gt;Existing Projects into Workspace&lt;/s3&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Eclipse plugin is open to customization and provides a standardized set of hooks for adding and removing content from the generated files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T004051Z" creationid="haohang" creationdate="20150603T004051Z">
+        <seg>Eclipse 插件是开放的，以定制和提供一套标准化的钩，用于添加和删除生成的文件的内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19041,6 +19073,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T065958Z" creationid="msdx" creationdate="20141116T065958Z">
         <seg>日志是构建工具的主要界面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The main tasks that you will use are the &lt;c0&gt;eclipse&lt;/c0&gt; and &lt;c1&gt;cleanEclipse&lt;/c1&gt; tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T004141Z" creationid="haohang" creationdate="20150603T004141Z">
+        <seg>The main tasks that you will use are the &lt;c0&gt;eclipse&lt;/c0&gt; and &lt;c1&gt;cleanEclipse&lt;/c1&gt; tasks.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21217,6 +21257,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T094435Z" creationid="msdx" creationdate="20150503T094435Z">
         <seg>要使用 Ear 的插件，请在构建脚本中包含以下语句：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the Eclipse plugin, include this in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T004122Z" creationid="haohang" creationdate="20150603T004122Z">
+        <seg>要使用 Eclipse 插件，请在构建脚本中包含以下语句：</seg>
       </tuv>
     </tu>
     <tu>
@@ -23655,6 +23703,14 @@ apply plugin: &lt;s1&gt;'java'&lt;/s1&gt;
 repositories { mavenCentral() }
 
 dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'eclipse'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T004133Z" creationid="haohang" creationdate="20150603T004133Z">
+        <seg>apply plugin: &lt;s0&gt;'eclipse'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
