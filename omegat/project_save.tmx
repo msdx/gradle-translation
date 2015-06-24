@@ -17245,6 +17245,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 38.4. Advanced configuration hooks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105207Z" creationid="haohang" creationdate="20150624T105207Z">
+        <seg>表 38.4. 高级的配置hook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -17567,8 +17575,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The &lt;c0&gt;beforeMerged&lt;/c0&gt; hook is executed with a domain object representing the existing file</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T104603Z" creationid="haohang" creationdate="20150624T104603Z">
-        <seg>&lt;c0&gt;beforeMerged&lt;/c0&gt;的 hook 会通过一个表示现有文件的域对象执行</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105028Z" creationid="haohang" creationdate="20150624T104603Z">
+        <seg>&lt;c0&gt;beforeMerged&lt;/c0&gt;的 hook 会随着一个表示现有文件的域对象执行</seg>
       </tuv>
     </tu>
     <tu>
@@ -17671,16 +17679,16 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The &lt;c0&gt;whenMerged&lt;/c0&gt; hook is executed with a domain object representing contents of the file to be persisted</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T104757Z" creationid="haohang" creationdate="20150624T104757Z">
-        <seg>&lt;c0&gt;whenMerged&lt;/c0&gt;的 hook 会通过一个表示持久化的域对象来执行</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105018Z" creationid="haohang" creationdate="20150624T104757Z">
+        <seg>&lt;c0&gt;whenMerged&lt;/c0&gt;的 hook 会随着一个表示持久化的域对象执行</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>The &lt;c0&gt;withXml&lt;/c0&gt; hook is executed with a raw representation of the XML that will be persisted</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T104806Z" creationid="haohang" creationdate="20150624T104806Z">
-        <seg>The &lt;c0&gt;withXml&lt;/c0&gt; hook is executed with a raw representation of the XML that will be persisted</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105114Z" creationid="haohang" creationdate="20150624T104806Z">
+        <seg>&lt;c0&gt;withXml&lt;/c0&gt;的 hook 会随着一个表示将被持久化的XML的 raw 执行</seg>
       </tuv>
     </tu>
     <tu>
@@ -19397,6 +19405,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The final XML is persisted</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105139Z" creationid="haohang" creationdate="20150624T105139Z">
+        <seg>最终的 XML 被持久化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The first argument of the instruction call is the key of the property.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064621Z" creationid="haohang" creationdate="20150526T064448Z">
@@ -19481,6 +19497,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T051157Z" creationid="Administrator" creationdate="20150427T051157Z">
         <seg>下表列出了一些重要的源集属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following table lists the domain object used for each of the Eclipse model types:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105152Z" creationid="haohang" creationdate="20150624T105152Z">
+        <seg>下表列出了用于每个 Eclipse 模型类型的域对象：</seg>
       </tuv>
     </tu>
     <tu>
