@@ -17565,6 +17565,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;beforeMerged&lt;/c0&gt; hook is executed with a domain object representing the existing file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T104603Z" creationid="haohang" creationdate="20150624T104603Z">
+        <seg>&lt;c0&gt;beforeMerged&lt;/c0&gt;的 hook 会通过一个表示现有文件的域对象执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;clean&lt;/c0&gt; task is an instance of &lt;a1&gt;&lt;c2&gt;Delete&lt;/c2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134305Z" creationid="Administrator" creationdate="20150427T134305Z">
@@ -17657,6 +17665,22 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015219Z" creationid="Administrator" creationdate="20150428T015219Z">
         <seg>&lt;c0&gt;testLogging&lt;/c0&gt;属性可以配置哪些测试事件需要记录，并且使用什么样的日志级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;whenMerged&lt;/c0&gt; hook is executed with a domain object representing contents of the file to be persisted</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T104757Z" creationid="haohang" creationdate="20150624T104757Z">
+        <seg>&lt;c0&gt;whenMerged&lt;/c0&gt;的 hook 会通过一个表示持久化的域对象来执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;withXml&lt;/c0&gt; hook is executed with a raw representation of the XML that will be persisted</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T104806Z" creationid="haohang" creationdate="20150624T104806Z">
+        <seg>The &lt;c0&gt;withXml&lt;/c0&gt; hook is executed with a raw representation of the XML that will be persisted</seg>
       </tuv>
     </tu>
     <tu>
@@ -19337,6 +19361,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045651Z" creationid="Administrator" creationdate="20150427T045651Z">
         <seg>该目录用于缓存源代码的依赖信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The existing content is merged with the configuration inferred from the Gradle build or defined explicitly in the eclipse DSL</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T104725Z" creationid="haohang" creationdate="20150624T104604Z">
+        <seg>从 Gradle 构建推断出来或在 eclipse DSL 中显示定义的配置会与现有的内容合并在一起</seg>
       </tuv>
     </tu>
     <tu>
