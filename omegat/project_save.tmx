@@ -4302,6 +4302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>38.4.1.1. Disabling merging with a complete overwrite</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T103221Z" creationid="haohang" creationdate="20150624T103221Z">
+        <seg>38.4.1.1. 禁用完全覆盖的合并</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>38.4.1. Merging</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T101125Z" creationid="haohang" creationdate="20150624T101125Z">
@@ -8806,6 +8814,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Complete overwrite works equally well for individual files, for example by executing &lt;s0&gt;&lt;c1&gt; gradle cleanEclipseClasspath eclipseClasspath&lt;/c1&gt;&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T103416Z" creationid="haohang" creationdate="20150624T103416Z">
+        <seg>完全覆盖同样可以用于个人文件，例如通过执行&lt;s0&gt;&lt;c1&gt;gradle cleanEclipseClasspath eclipseClasspath&lt;/c1&gt;&lt;/s0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T151915Z" creationid="msdx" creationdate="20150514T151915Z">
@@ -13128,6 +13144,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144753Z" creationid="msdx" creationdate="20150428T144753Z">
         <seg>如果你把你的项目上传到仓库，这个JAR 文件会被声明为依赖描述符的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to make this the default behavior, add &lt;c2&gt;tasks.eclipse.dependsOn(cleanEclipse)&lt;/c2&gt; to your build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T103321Z" creationid="haohang" creationdate="20150624T103321Z">
+        <seg>如果你想要让它成为默认行为，请将&lt;c2&gt;tasks.eclipse.dependsOn(cleanEclipse)&lt;/c2&gt;添加到构建脚本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19837,6 +19861,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The remaining sections will be left as-is.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T103155Z" creationid="haohang" creationdate="20150624T103155Z">
+        <seg>剩余的部分则不变。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The replaced manifest is merged into the new one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004139Z" creationid="haohang" creationdate="20150526T004139Z">
@@ -21125,6 +21157,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This makes it unnecessary to execute the clean task explicitly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T103340Z" creationid="haohang" creationdate="20150624T103340Z">
+        <seg>这样一来，我们就没有必要显式执行 clean 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means neither &lt;c7&gt;httpclient&lt;/c7&gt; nor &lt;c8&gt;commons-codec&lt;/c8&gt; is added to your WAR, even if &lt;c9&gt;commons-codec&lt;/c9&gt; were an explicit dependency of your &lt;c10&gt;compile&lt;/c10&gt; configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T091518Z" creationid="msdx" creationdate="20150503T091518Z">
@@ -21497,6 +21537,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T150915Z" creationid="msdx" creationdate="20141116T150915Z">
         <seg>为能在任务执行过程中更改标准输出或错误的日志级别，task也提供了一个 &lt;a0&gt;&lt;c1&gt;LoggingManager&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To completely overwrite existing Eclipse files, execute a clean task together with its corresponding generation task, for example &lt;s0&gt;&lt;c1&gt;gradle cleanEclipse eclipse&lt;/c1&gt;&lt;/s0&gt; (in that order).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T103257Z" creationid="haohang" creationdate="20150624T103257Z">
+        <seg>若要完全覆盖现有 Eclipse 文件，请执行clean任务和其相应的生成任务，例如&lt;s0&gt;&lt;c1&gt;gradle cleanEclipse eclipse&lt;/c1&gt; &lt;/s0&gt; (按此顺序)。</seg>
       </tuv>
     </tu>
     <tu>
