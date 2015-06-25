@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(In the case of dependency entries, this is also the default behavior.) Other sections of the &lt;c1&gt;.classpath&lt;/c1&gt; file will be either left as-is or merged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065611Z" creationid="haohang" creationdate="20150625T065611Z">
+        <seg>(对于依赖项，这也是默认行为。)其他部分的&lt;c1&gt;.classpath&lt;/c1&gt;文件将会被合并或者保留。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(It does detect changes to the compile class path itself.) This makes it less suitable for multi-project builds.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155541Z" creationid="msdx" creationdate="20150430T155541Z">
@@ -4370,6 +4378,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105433Z" creationid="haohang" creationdate="20150624T105433Z">
         <seg>38.4.2.1. 部分重写现有内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>38.4.2.2. Modifying the fully populated domain objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065838Z" creationid="haohang" creationdate="20150625T065838Z">
+        <seg>38.4.2.2. 修改完全填充的域对象</seg>
       </tuv>
     </tu>
     <tu>
@@ -11128,6 +11144,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064924Z" creationid="haohang" creationdate="20150625T064842Z">
         <seg>示例 38.2. 部分覆盖 Classpath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 38.3. Partial Overwrite for Project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065701Z" creationid="haohang" creationdate="20150625T065701Z">
+        <seg>示例 38.3. 部分覆盖项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -20149,6 +20173,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The same could be done for the natures in the &lt;c2&gt;.project&lt;/c2&gt; file:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065746Z" creationid="haohang" creationdate="20150625T065641Z">
+        <seg>对&lt;c2&gt;.project&lt;/c2&gt;文件中的natures的处理也是一样：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The same hooks can be used to add additional properties which aren't covered by the plugin's object model.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T100837Z" creationid="msdx" creationdate="20150512T100837Z">
@@ -26275,6 +26307,14 @@ ear {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>eclipse.project.file.beforeMerged { project -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065750Z" creationid="haohang" creationdate="20150625T065750Z">
+        <seg>eclipse.project.file.beforeMerged { project -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>eclipse.wtp.component</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T022456Z" creationid="haohang" creationdate="20150624T022456Z">
@@ -30025,6 +30065,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160154Z" creationid="msdx" creationdate="20141113T160154Z">
         <seg>project.name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.natures.clear()
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065752Z" creationid="haohang" creationdate="20150625T065752Z">
+        <seg>project.natures.clear()
+}</seg>
       </tuv>
     </tu>
     <tu>
