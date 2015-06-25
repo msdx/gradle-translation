@@ -4414,6 +4414,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>39.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071709Z" creationid="haohang" creationdate="20150625T071709Z">
+        <seg>39.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>39.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071835Z" creationid="haohang" creationdate="20150625T071835Z">
+        <seg>39.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162027Z" creationid="msdx" creationdate="20141109T162027Z">
@@ -6970,6 +6986,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003756Z" creationid="haohang" creationdate="20150603T003756Z">
         <seg>将 Java 配置添加到&lt;c0&gt;.project&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds Java configuration to the module and project files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071551Z" creationid="haohang" creationdate="20150625T071551Z">
+        <seg>将 Java 配置添加到模块和项目文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11204,6 +11228,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 39.1. Using the IDEA plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071739Z" creationid="haohang" creationdate="20150625T071739Z">
+        <seg>示例 39.1. 使用 IDEA 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -14909,6 +14941,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notice that &lt;c0&gt;clean&lt;/c0&gt; does not depend on &lt;c1&gt;cleanIdeaWorkspace&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T072136Z" creationid="haohang" creationdate="20150625T071850Z">
+        <seg>请注意，&lt;c0&gt;clean&lt;/c0&gt;并不依赖于&lt;c1&gt;cleanIdeaWorkspace&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Notice that Gradle executes this task a second time, and does not skip the task even though nothing has changed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060618Z" creationid="msdx" creationdate="20141111T060350Z">
@@ -15017,6 +15057,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054351Z" creationid="msdx" creationdate="20141108T054318Z">
         <seg>一旦属性被添加，他们就可以像预定的属性一样被读取和设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One focus of the IDEA plugin is to be open to customization.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071636Z" creationid="haohang" creationdate="20150625T071636Z">
+        <seg>IDEA 插件的重点之一是对自定义项较为开放。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18469,6 +18517,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The IDEA plugin adds a number of tasks to your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071753Z" creationid="haohang" creationdate="20150625T071753Z">
+        <seg>IDEA 插件向你的project 添加了大量的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The IDEA plugin adds the tasks shown below to a project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071842Z" creationid="haohang" creationdate="20150625T071842Z">
+        <seg>IDEA 插件向一个 project 添加了如下所示的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The IDEA plugin generates files that are used by &lt;a0&gt;IntelliJ IDEA&lt;/a0&gt;, thus making it possible to open the project from IDEA (&lt;s1&gt;File&lt;/s1&gt; - &lt;s2&gt;Open Project&lt;/s2&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071359Z" creationid="haohang" creationdate="20150625T070621Z">
@@ -19869,6 +19933,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The main tasks that you will use are the &lt;c0&gt;idea&lt;/c0&gt; and &lt;c1&gt;cleanIdea&lt;/c1&gt; tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071832Z" creationid="haohang" creationdate="20150625T071832Z">
+        <seg>您将使用的主要任务是 &lt;c0&gt;idea&lt;/c0&gt; 和 &lt;c1&gt;cleanIdea&lt;/c1&gt; 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The manifest to include in all JAR files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050058Z" creationid="Administrator" creationdate="20150427T050058Z">
@@ -20137,6 +20209,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T100530Z" creationid="haohang" creationdate="20150624T100530Z">
         <seg>该插件提供一个 DSL，用于配置把该 project 的Eclipse 视图做成模型的模型对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The plugin provides a standardized set of hooks for adding and removing content from the generated files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071706Z" creationid="haohang" creationdate="20150625T071706Z">
+        <seg>该插件提供了一套标准化的 hooks 用于添加和删除生成的文件的内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22153,6 +22233,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T071306Z" creationid="msdx" creationdate="20150429T071306Z">
         <seg>要使用 Groovy 的插件，请在构建脚本中包含以下语句：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the IDEA plugin, include this in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071723Z" creationid="haohang" creationdate="20150625T071723Z">
+        <seg>要使用 IDEA 插件，请在构建脚本中包含以下语句：</seg>
       </tuv>
     </tu>
     <tu>
@@ -24649,6 +24737,14 @@ eclipse.wtp.facet.file.withXml { provider -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104613Z" creationid="msdx" creationdate="20150428T104613Z">
         <seg>apply plugin: &lt;s0&gt;'groovy'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'idea'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071741Z" creationid="haohang" creationdate="20150625T071741Z">
+        <seg>apply plugin: &lt;s0&gt;'idea'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
