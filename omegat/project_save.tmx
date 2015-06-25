@@ -13684,6 +13684,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you manually define a path variable pointing to the Gradle dependency cache, IDEA will automatically replace the absolute dependency paths with this path variable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T092229Z" creationid="haohang" creationdate="20150625T092229Z">
+        <seg>如果您手动定义路径变量来指向 Gradle 依赖缓存，IDEA 会自动把绝对依赖路径替换为此路径变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you need to set other properties from the command line, you can use system properties to do so:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054023Z" creationid="msdx" creationdate="20150513T054023Z">
@@ -13720,6 +13728,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144753Z" creationid="msdx" creationdate="20150428T144753Z">
         <seg>如果你把你的项目上传到仓库，这个JAR 文件会被声明为依赖描述符的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you use such a path variable, you need to configure this path variable via &lt;c0&gt;idea.pathVariables&lt;/c0&gt;, so that it can do a proper merge without creating duplicates.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T092334Z" creationid="haohang" creationdate="20150625T092334Z">
+        <seg>如果你使用这种路径变量，您需要通过 &lt;c0&gt;idea.pathVariables&lt;/c0&gt; 配置此路径变量，以便它可以做适当的合并而不会重复创建。</seg>
       </tuv>
     </tu>
     <tu>
