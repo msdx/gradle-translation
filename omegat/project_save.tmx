@@ -4390,6 +4390,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>38.4.2.3. Modifying the XML representation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T070010Z" creationid="haohang" creationdate="20150625T070010Z">
+        <seg>38.4.2.3. 修改 XML 的表示形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>38.4.2. Hooking into the generation lifecycle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T103508Z" creationid="haohang" creationdate="20150624T103508Z">
@@ -7522,6 +7530,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141512Z" creationid="msdx" creationdate="20141121T141512Z">
         <seg>或者，可以在构建的根目录或 Gradle 主目录中的 gradle.properties 文件中指定这些属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although Groovy's XML support makes up for a lot, this approach is less convenient than manipulating the domain objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T070042Z" creationid="haohang" creationdate="20150625T070042Z">
+        <seg>Although Groovy's XML support makes up for a lot, this approach is less convenient than manipulating the domain objects.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11156,6 +11172,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 38.4. Export Dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065953Z" creationid="haohang" creationdate="20150625T065953Z">
+        <seg>示例 38.4. 导出依赖项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -12776,6 +12800,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130921Z" creationid="msdx" creationdate="20141113T130921Z">
         <seg>这里是另一个示例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is how you would export all the dependencies of an Eclipse project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065946Z" creationid="haohang" creationdate="20150625T065946Z">
+        <seg>下面的例子展示了如何导出一个 Eclipse 项目的所有依赖项：</seg>
       </tuv>
     </tu>
     <tu>
@@ -14905,6 +14937,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T072903Z" creationid="msdx" creationdate="20141109T072903Z">
         <seg>当然，你可以在这些任务的开始加入&lt;c0&gt;mkdir&lt;/c0&gt;来解决这个问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Often this is the preferred way to customize Eclipse files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065906Z" creationid="haohang" creationdate="20150625T065906Z">
+        <seg>通常，这是自定义 Eclipse 文件的首选的方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17821,6 +17861,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;whenMerged&lt;/c0&gt; hook allows to manipulate the fully populated domain objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065857Z" creationid="haohang" creationdate="20150625T065857Z">
+        <seg>&lt;c0&gt;WhenMerged&lt;/c0&gt; hook 允许操作完全填充的域对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;whenMerged&lt;/c0&gt; hook is executed with a domain object representing contents of the file to be persisted</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105018Z" creationid="haohang" creationdate="20150624T104757Z">
@@ -17833,6 +17881,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105114Z" creationid="haohang" creationdate="20150624T104806Z">
         <seg>&lt;c0&gt;withXml&lt;/c0&gt;的 hook 会随着一个表示将被持久化的XML的 raw 执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;withXml&lt;/c0&gt;hook allows to manipulate the in-memory XML representation just before the file gets written to disk.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T070144Z" creationid="haohang" creationdate="20150625T070144Z">
+        <seg>&lt;c0&gt;WithXml&lt;/c0&gt; hook 允许在文件写入到磁盘之前，操纵内存中的 XML 的表示形式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25273,6 +25329,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060206Z" creationid="msdx" creationdate="20141116T060206Z">
         <seg>classpath {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classpath.entries.findAll { entry -&gt; entry.kind == &lt;s0&gt;'lib'&lt;/s0&gt; }*.exported = false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065955Z" creationid="haohang" creationdate="20150625T065955Z">
+        <seg>classpath.entries.findAll { entry -&gt; entry.kind == &lt;s0&gt;'lib'&lt;/s0&gt; }*.exported = false</seg>
       </tuv>
     </tu>
     <tu>
@@ -32786,6 +32850,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163810Z" creationid="msdx" creationdate="20141109T163810Z">
         <seg>web_project_tutorial.html#N10760</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>whenMerged { classpath -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065954Z" creationid="haohang" creationdate="20150625T065954Z">
+        <seg>whenMerged { classpath -&gt;</seg>
       </tuv>
     </tu>
     <tu>
