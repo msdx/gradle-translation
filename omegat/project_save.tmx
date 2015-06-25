@@ -7536,8 +7536,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Although Groovy's XML support makes up for a lot, this approach is less convenient than manipulating the domain objects.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T070042Z" creationid="haohang" creationdate="20150625T070042Z">
-        <seg>Although Groovy's XML support makes up for a lot, this approach is less convenient than manipulating the domain objects.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T070338Z" creationid="haohang" creationdate="20150625T070042Z">
+        <seg>尽管 Groovy 的 XML 支持对其有很大作用，但这种方法比起操纵域对象依然不大方便 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8714,6 +8714,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T031220Z" creationid="msdx" creationdate="20141119T031220Z">
         <seg>Chapter 61. The Gradle Wrapper</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 62. Embedding Gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T070519Z" creationid="haohang" creationdate="20150625T070519Z">
+        <seg>第六十二章. 嵌入 Gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -11180,6 +11188,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 38.5. Customizing the XML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T070448Z" creationid="haohang" creationdate="20150625T070448Z">
+        <seg>示例 38.5. 自定义 XML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -13513,6 +13529,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150507T065257Z" creationid="msdx" creationdate="20150507T065257Z">
         <seg>尤其是因为只有 Sonar Runner 插件支持
 Sonar 3.4 及更高的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In return, you get total control over the generated file, including sections not modeled by the domain objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T070437Z" creationid="haohang" creationdate="20150625T070437Z">
+        <seg>作为回报，你可以对生成的文件进行全面的控制，包括未由域对象建模的那些部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24561,6 +24585,18 @@ repositories {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'eclipse-wtp'&lt;/s0&gt;
+
+eclipse.wtp.facet.file.withXml { provider -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T070449Z" creationid="haohang" creationdate="20150625T070449Z">
+        <seg>apply plugin: &lt;s0&gt;'eclipse-wtp'&lt;/s0&gt;
+
+eclipse.wtp.facet.file.withXml { provider -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'findbugs'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T133622Z" creationid="msdx" creationdate="20150505T133622Z">
@@ -30343,6 +30379,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142903Z" creationid="msdx" creationdate="20150504T142903Z">
         <seg>provider.asNode().appendNode(&lt;s28&gt;"data-source"&lt;/s28&gt;, &lt;s29&gt;"my/data/source"&lt;/s29&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>provider.asNode().fixed.find { it.&lt;s1&gt;@facet&lt;/s1&gt; == &lt;s2&gt;'jst.java'&lt;/s2&gt; }.&lt;s3&gt;@facet&lt;/s3&gt; = &lt;s4&gt;'jst2.java'&lt;/s4&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T070451Z" creationid="haohang" creationdate="20150625T070451Z">
+        <seg>provider.asNode().fixed.find { it.&lt;s1&gt;@facet&lt;/s1&gt; == &lt;s2&gt;'jst.java'&lt;/s2&gt; }.&lt;s3&gt;@facet&lt;/s3&gt; = &lt;s4&gt;'jst2.java'&lt;/s4&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
