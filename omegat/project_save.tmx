@@ -6582,6 +6582,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A &lt;a0&gt;complete overwrite&lt;/a0&gt; causes all existing content to be discarded, thereby losing any changes made directly in the IDE.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064559Z" creationid="haohang" creationdate="20150625T064559Z">
+        <seg>一个&lt;a0&gt;完全覆盖&lt;/a0&gt;会导致现有的所有内容被丢弃，从而丢失在 IDE 中直接做的任何修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A &lt;e0&gt;file collection&lt;/e0&gt; is simply a set of files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T145002Z" creationid="msdx" creationdate="20141112T144931Z">
@@ -7482,6 +7490,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143749Z" creationid="msdx" creationdate="20150510T143657Z">
         <seg>或者，可以从命令行设置某些或全部的连接设置 （见&lt;a0&gt;第 35.6 节，“从命令行配置 Sonar 设置”&lt;/a0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alternatively, the &lt;c1&gt;beforeMerged&lt;/c1&gt; hook makes it possible to overwrite just certain parts of the existing content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064649Z" creationid="haohang" creationdate="20150625T064649Z">
+        <seg>另外， &lt;c1&gt;beforeMerged&lt;/c1&gt; hook 可以实现只覆盖现有的某些部分的内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11104,6 +11120,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T004131Z" creationid="haohang" creationdate="20150603T004131Z">
         <seg>示例 38.1. 使用 Eclipse 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 38.2. Partial Overwrite for Classpath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064842Z" creationid="haohang" creationdate="20150625T064842Z">
+        <seg>示例 38.2. Partial Overwrite for Classpath</seg>
       </tuv>
     </tu>
     <tu>
@@ -19553,6 +19577,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T123841Z" creationid="msdx" creationdate="20141110T123841Z">
         <seg>下面的示例是从&lt;c2&gt;taskX&lt;/c2&gt;加入了项目中所有名称以&lt;c3&gt;lib&lt;/c3&gt;开头的任务的依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following example removes all existing dependencies from the &lt;c2&gt;Classpath&lt;/c2&gt; domain object:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064814Z" creationid="haohang" creationdate="20150625T064814Z">
+        <seg>下面的示例从&lt;c2&gt;Classpath&lt;/c2&gt;域对象中删除现有的所有依赖关系:</seg>
       </tuv>
     </tu>
     <tu>
