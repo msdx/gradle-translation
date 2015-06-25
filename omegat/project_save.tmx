@@ -4494,6 +4494,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>39.4.1.1. Disabling merging with a complete overwrite</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073353Z" creationid="haohang" creationdate="20150625T073353Z">
+        <seg>39.4.1.1. 禁用完整覆盖的合并</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>39.4.1. Merging</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073330Z" creationid="haohang" creationdate="20150625T073330Z">
+        <seg>39.4.1. 合并</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>39.4. Customizing the generated files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T072734Z" creationid="haohang" creationdate="20150625T072734Z">
@@ -13182,8 +13198,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>IDEA plugin provides hooks and behavior for customizing the generated content.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T072736Z" creationid="haohang" creationdate="20150625T072736Z">
-        <seg>IDEA plugin provides hooks and behavior for customizing the generated content.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073119Z" creationid="haohang" creationdate="20150625T072736Z">
+        <seg>IDEA 插件提供了一些 hook 和行，用于自定义生成的内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16465,6 +16481,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T103131Z" creationid="haohang" creationdate="20150624T102854Z">
         <seg>已存在的Eclipse 文件的部分，也是生成的目标内容，将会被修改或覆盖，具体取决于特定的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sections of existing IDEA files that are also the target of generated content will be amended or overwritten, depending on the particular section.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073342Z" creationid="haohang" creationdate="20150625T073342Z">
+        <seg>已存在的 IDEA 文件的部分，也是生成的目标内容，将会被修改或覆盖，具体取决于特定的部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20805,6 +20829,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The tasks recognize existing IDEA files, and merge them with the generated content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073325Z" creationid="haohang" creationdate="20150625T073325Z">
+        <seg>该任务会识别现有的 IDEA 文件，并将它们与生成的内容进行合并。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The tasks which produce the artifacts in configuration &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T082623Z" creationid="Administrator" creationdate="20150426T082623Z">
@@ -20865,6 +20897,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092326Z" creationid="msdx" creationdate="20150503T092326Z">
         <seg>Web 应用程序的源目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The workspace file can effectively only be manipulated via the &lt;c0&gt;withXml&lt;/c0&gt; hook because its corresponding domain object is essentially empty.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073249Z" creationid="haohang" creationdate="20150625T073249Z">
+        <seg>工作区文件可以有效地只通过&lt;c0&gt;withXml&lt;/c0&gt; hook 来操作，因为其相应的域对象实际上是空的。</seg>
       </tuv>
     </tu>
     <tu>
