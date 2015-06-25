@@ -558,6 +558,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.antlr.AntlrTask.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T094930Z" creationid="haohang" creationdate="20150625T094930Z">
+        <seg>../dsl/org.gradle.api.plugins.antlr.AntlrTask.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.plugins.jetty.JettyPluginConvention.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T151348Z" creationid="msdx" creationdate="20150504T151348Z">
@@ -4654,6 +4662,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>40.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T094910Z" creationid="haohang" creationdate="20150625T094910Z">
+        <seg>40.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>40.3. Project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095117Z" creationid="haohang" creationdate="20150625T095117Z">
+        <seg>40.3. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162153Z" creationid="msdx" creationdate="20141109T162153Z">
@@ -6998,6 +7022,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ANTLR grammar files for the given source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095202Z" creationid="haohang" creationdate="20150625T095202Z">
+        <seg>对于给定的source set 的 ANTLR 语法文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>API</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T030407Z" creationid="msdx" creationdate="20150501T030407Z">
@@ -7874,6 +7906,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044459Z" creationid="msdx" creationdate="20141108T044459Z">
         <seg>AntBuilder</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>AntlrTask</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T094931Z" creationid="haohang" creationdate="20150625T094931Z">
+        <seg>AntlrTask</seg>
       </tuv>
     </tu>
     <tu>
@@ -11476,6 +11516,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 40.1. Using the ANTLR plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T094905Z" creationid="haohang" creationdate="20150625T094905Z">
+        <seg>示例 40.1. 使用 ANTLR 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -12616,6 +12664,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T004815Z" creationid="haohang" creationdate="20150603T004610Z">
         <seg>只有当&lt;c1&gt;eclipse-wtp&lt;/c1&gt;插件应用的时候，生成 &lt;c0&gt;.settings/org.eclipse.wst.common.project.facet.core.xml&lt;/c0&gt; 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates the source files for all ANTLR grammars for the given source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095057Z" creationid="haohang" creationdate="20150625T095057Z">
+        <seg>为给定的 source set 的所有 ANTLR 语法生成源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates the source files for all production ANTLR grammars.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095015Z" creationid="haohang" creationdate="20150625T095015Z">
+        <seg>为所有生产 ANTLR 语法生成源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates the source files for all test ANTLR grammars.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095026Z" creationid="haohang" creationdate="20150625T095026Z">
+        <seg>为所有测试 ANTLR 语法生成源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16029,6 +16101,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Production ANTLR grammar files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095142Z" creationid="haohang" creationdate="20150625T095142Z">
+        <seg>生产 ANTLR 语法文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Production Groovy sources.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075116Z" creationid="msdx" creationdate="20150429T075116Z">
@@ -17989,6 +18069,30 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 40.1. ANTLR plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T094927Z" creationid="haohang" creationdate="20150625T094927Z">
+        <seg>表 40.1. ANTLR 插件 - 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 40.2. ANTLR plugin - additional task dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095113Z" creationid="haohang" creationdate="20150625T095113Z">
+        <seg>表 40.2. ANTLR 插件 - 附加的任务依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 40.3. ANTLR plugin - project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095131Z" creationid="haohang" creationdate="20150625T095131Z">
+        <seg>表 40.3. ANTLR 插件 - 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -18121,6 +18225,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083218Z" creationid="msdx" creationdate="20150428T083218Z">
         <seg>Test</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Test ANTLR grammar files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095149Z" creationid="haohang" creationdate="20150625T095149Z">
+        <seg>测试 ANTLR 语法文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18553,6 +18665,22 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035612Z" creationid="Administrator" creationdate="20150428T035612Z">
         <seg>&lt;e8&gt;&lt;c9&gt;testNamePattern&lt;/c9&gt;&lt;/e8&gt;将用于形成一个“**/testNamePattern*.class”的包含模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ANTLR plugin adds a number of tasks to your project, as shown below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T094916Z" creationid="haohang" creationdate="20150625T094916Z">
+        <seg>ANTLR 插件向你的项目添加了大量的任务，如下所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ANTLR plugin adds the following dependencies to tasks added by the Java plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095104Z" creationid="haohang" creationdate="20150625T095104Z">
+        <seg>ANTLR 插件向 Java 插件所加入的 tasks 添加了以下的依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25225,6 +25353,14 @@ sonar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'antlr'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T094906Z" creationid="haohang" creationdate="20150625T094906Z">
+        <seg>apply plugin: &lt;s0&gt;'antlr'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'checkstyle'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T151750Z" creationid="msdx" creationdate="20150504T151750Z">
@@ -27815,6 +27951,30 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T022747Z" creationid="msdx" creationdate="20141110T022747Z">
         <seg>from(file(&lt;s3&gt;'srcDir'&lt;/s3&gt;))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>generate&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;GrammarSource</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095026Z" creationid="haohang" creationdate="20150625T095026Z">
+        <seg>generate&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;GrammarSource</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>generateGrammarSource</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T094928Z" creationid="haohang" creationdate="20150625T094928Z">
+        <seg>generateGrammarSource</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>generateTestGrammarSource</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095016Z" creationid="haohang" creationdate="20150625T095016Z">
+        <seg>generateTestGrammarSource</seg>
       </tuv>
     </tu>
     <tu>
@@ -32201,6 +32361,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>src/&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;/antlr</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095150Z" creationid="haohang" creationdate="20150625T095150Z">
+        <seg>src/&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;/antlr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>src/&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;/groovy</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075139Z" creationid="msdx" creationdate="20150429T075139Z">
@@ -32229,6 +32397,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152633Z" creationid="msdx" creationdate="20150429T152633Z">
         <seg>src/&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;/scala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>src/main/antlr</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095132Z" creationid="haohang" creationdate="20150625T095132Z">
+        <seg>src/main/antlr</seg>
       </tuv>
     </tu>
     <tu>
@@ -32277,6 +32453,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090128Z" creationid="msdx" creationdate="20150503T090128Z">
         <seg>from &lt;s1&gt;'src/main/webapp'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>src/test/antlr</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095142Z" creationid="haohang" creationdate="20150625T095142Z">
+        <seg>src/test/antlr</seg>
       </tuv>
     </tu>
     <tu>
