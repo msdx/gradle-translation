@@ -4550,6 +4550,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>39.4.2.2. Modifying the fully populated domain objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074126Z" creationid="haohang" creationdate="20150625T074126Z">
+        <seg>39.4.2.2. 修改完全填充的域对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>39.4.2.3. Modifying the XML representation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074617Z" creationid="haohang" creationdate="20150625T074617Z">
+        <seg>39.4.2.3. 修改 XML 的表示形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>39.4.2. Hooking into the generation lifecycle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073550Z" creationid="haohang" creationdate="20150625T073550Z">
@@ -4562,6 +4578,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T072734Z" creationid="haohang" creationdate="20150625T072734Z">
         <seg>39.4. 自定义生成的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>39.5. Further things to consider</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074641Z" creationid="haohang" creationdate="20150625T074641Z">
+        <seg>39.5. 进一步要考虑的事项</seg>
       </tuv>
     </tu>
     <tu>
@@ -11420,6 +11444,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 39.3. Partial Overwrite for Project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074116Z" creationid="haohang" creationdate="20150625T074116Z">
+        <seg>示例 39.3. 部分覆盖项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 39.4. Export Dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074611Z" creationid="haohang" creationdate="20150625T074611Z">
+        <seg>示例 39.4. 导出依赖项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 39.5. Customizing the XML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074623Z" creationid="haohang" creationdate="20150625T074623Z">
+        <seg>示例 39.5. 自定义 XML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -13112,6 +13160,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065946Z" creationid="haohang" creationdate="20150625T065946Z">
         <seg>下面的例子展示了如何导出一个 Eclipse 项目的所有依赖项：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is how you would export all the dependencies of an IDEA module:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074605Z" creationid="haohang" creationdate="20150625T074605Z">
+        <seg>下面的例子展示了如何导出一个 IDEA 模块的所有依赖项：</seg>
       </tuv>
     </tu>
     <tu>
@@ -15329,6 +15385,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065906Z" creationid="haohang" creationdate="20150625T065906Z">
         <seg>通常，这是自定义 Eclipse 文件的首选的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Often this is the preferred way to customize IDEA files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074553Z" creationid="haohang" creationdate="20150625T074553Z">
+        <seg>通常，这是自定义 IDEA 文件的首选方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20565,6 +20629,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The paths of the dependencies in the generated IDEA files are absolute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074643Z" creationid="haohang" creationdate="20150625T074643Z">
+        <seg>The paths of the dependencies in the generated IDEA files are absolute.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The plugin adds a &lt;c1&gt;sonarAnalyze&lt;/c1&gt; task that analyzes the project to which the plugin is applied, as well as its subprojects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T142846Z" creationid="msdx" creationdate="20150509T132916Z">
@@ -25611,6 +25683,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>beforeMerged { project -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074117Z" creationid="haohang" creationdate="20150625T074117Z">
+        <seg>beforeMerged { project -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>beginIndex = &lt;s0&gt;1&lt;/s0&gt;;
 endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
@@ -28321,6 +28401,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>idea.project.ipr {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074116Z" creationid="haohang" creationdate="20150625T074116Z">
+        <seg>idea.project.ipr {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>idea.workspace</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T072717Z" creationid="haohang" creationdate="20150625T072717Z">
@@ -29611,6 +29699,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>module.dependencies*.exported = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074614Z" creationid="haohang" creationdate="20150625T074614Z">
+        <seg>module.dependencies*.exported = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>module.dependencies.clear()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073923Z" creationid="haohang" creationdate="20150625T073923Z">
@@ -30873,6 +30969,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project.modulePaths.clear()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074118Z" creationid="haohang" creationdate="20150625T074118Z">
+        <seg>project.modulePaths.clear()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160154Z" creationid="msdx" creationdate="20141113T160154Z">
@@ -31101,6 +31205,14 @@ println project.name</seg>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T070451Z" creationid="haohang" creationdate="20150625T070451Z">
         <seg>provider.asNode().fixed.find { it.&lt;s1&gt;@facet&lt;/s1&gt; == &lt;s2&gt;'jst.java'&lt;/s2&gt; }.&lt;s3&gt;@facet&lt;/s3&gt; = &lt;s4&gt;'jst2.java'&lt;/s4&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>provider.node.component.find { it.&lt;s0&gt;@name&lt;/s0&gt; == &lt;s1&gt;'VcsDirectoryMappings'&lt;/s1&gt; }.mapping.&lt;s2&gt;@vcs&lt;/s2&gt; = &lt;s3&gt;'Git'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074625Z" creationid="haohang" creationdate="20150625T074625Z">
+        <seg>provider.node.component.find { it.&lt;s0&gt;@name&lt;/s0&gt; == &lt;s1&gt;'VcsDirectoryMappings'&lt;/s1&gt; }.mapping.&lt;s2&gt;@vcs&lt;/s2&gt; = &lt;s3&gt;'Git'&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -33620,10 +33732,26 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>whenMerged { module -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074612Z" creationid="haohang" creationdate="20150625T074612Z">
+        <seg>whenMerged { module -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>windows-resources</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141209T074227Z" creationid="msdx" creationdate="20141209T074227Z">
         <seg>windows-resources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>withXml { provider -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074624Z" creationid="haohang" creationdate="20150625T074624Z">
+        <seg>withXml { provider -&gt;</seg>
       </tuv>
     </tu>
     <tu>
