@@ -11126,8 +11126,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Example 38.2. Partial Overwrite for Classpath</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064842Z" creationid="haohang" creationdate="20150625T064842Z">
-        <seg>示例 38.2. Partial Overwrite for Classpath</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064924Z" creationid="haohang" creationdate="20150625T064842Z">
+        <seg>示例 38.2. 部分覆盖 Classpath</seg>
       </tuv>
     </tu>
     <tu>
@@ -20109,6 +20109,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The resulting &lt;c0&gt;.classpath&lt;/c0&gt; file will only contain Gradle-generated dependency entries, but not any other dependency entries that may have been present in the original file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065508Z" creationid="haohang" creationdate="20150625T064932Z">
+        <seg>生成的&lt;c0&gt;.classpath&lt;/c0&gt;文件将只包含 Gradle 生成的依赖项，而没有其他可能存在于原始文件的依赖项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The results are stored in the Sonar database.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T142905Z" creationid="msdx" creationdate="20150510T142905Z">
@@ -24863,6 +24871,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>beforeMerged { classpath -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064926Z" creationid="haohang" creationdate="20150625T064926Z">
+        <seg>beforeMerged { classpath -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>beginIndex = &lt;s0&gt;1&lt;/s0&gt;;
 endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
@@ -25225,6 +25241,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060206Z" creationid="msdx" creationdate="20141116T060206Z">
         <seg>classpath {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classpath.entries.removeAll { entry -&gt; entry.kind == &lt;s0&gt;'lib'&lt;/s0&gt; || entry.kind == &lt;s1&gt;'var'&lt;/s1&gt; }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064928Z" creationid="haohang" creationdate="20150625T064928Z">
+        <seg>classpath.entries.removeAll { entry -&gt; entry.kind == &lt;s0&gt;'lib'&lt;/s0&gt; || entry.kind == &lt;s1&gt;'var'&lt;/s1&gt; }</seg>
       </tuv>
     </tu>
     <tu>
@@ -26223,6 +26247,14 @@ ear {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T022415Z" creationid="haohang" creationdate="20150624T022415Z">
         <seg>eclipse.classpath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>eclipse.classpath.file {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064926Z" creationid="haohang" creationdate="20150625T064926Z">
+        <seg>eclipse.classpath.file {</seg>
       </tuv>
     </tu>
     <tu>
