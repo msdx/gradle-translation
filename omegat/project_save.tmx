@@ -4694,6 +4694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>40.6. Source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T102700Z" creationid="haohang" creationdate="20150625T102700Z">
+        <seg>40.6. Source set 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162153Z" creationid="msdx" creationdate="20141109T162153Z">
@@ -9370,6 +9378,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T094429Z" creationid="msdx" creationdate="20141124T093931Z">
         <seg>考虑一下另一种消费类文件的任务的情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Contains all &lt;c0&gt;.g&lt;/c0&gt; found in the ANTLR source directories, and excludes all other types of files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T102848Z" creationid="haohang" creationdate="20150625T102848Z">
+        <seg>包含在 ANTLR 源目录中找到的所有的&lt;c0&gt;.g&lt;/c0&gt;，并排除所有其他类型的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18117,6 +18133,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 40.4. ANTLR plugin - source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T102736Z" creationid="haohang" creationdate="20150625T102736Z">
+        <seg>表 40.4. ANTLR 插件 - source set 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -18693,6 +18717,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The ANTLR grammar files of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T102808Z" creationid="haohang" creationdate="20150625T102755Z">
+        <seg>给定的source set 的 ANTLR 语法文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The ANTLR plugin adds a number of tasks to your project, as shown below.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T094916Z" creationid="haohang" creationdate="20150625T094916Z">
@@ -18713,6 +18745,22 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095104Z" creationid="haohang" creationdate="20150625T095104Z">
         <seg>ANTLR 插件向 Java 插件所加入的 tasks 添加了以下的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ANTLR plugin adds the following properties to each source set in the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T102725Z" creationid="haohang" creationdate="20150625T102725Z">
+        <seg>ANTLR 插件向 project 的每一个source set 添加了下列属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ANTLR plugin does not add any convention properties.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T102649Z" creationid="haohang" creationdate="20150625T102649Z">
+        <seg>ANTLR 插件不会添加任何约定属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21105,6 +21153,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150519T124728Z" creationid="msdx" creationdate="20150519T124728Z">
         <seg>对于一个特定的子项目，要跳过 Sonar 分析，可以设置&lt;c0&gt;sonarRunner.skipProject&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The source directories containing the ANTLR grammar files of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T102927Z" creationid="haohang" creationdate="20150625T102927Z">
+        <seg>该源目录包含该 source set 中的 ANTLR 语法文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24917,6 +24973,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/antlr]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T102901Z" creationid="haohang" creationdate="20150625T102901Z">
+        <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/antlr]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/groovy]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T093154Z" creationid="msdx" creationdate="20150429T093154Z">
@@ -25229,6 +25293,14 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095740Z" creationid="haohang" creationdate="20150625T095740Z">
         <seg>antlr &lt;s0&gt;'antlr:antlr:2.7.7'&lt;/s0&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>antlr.srcDirs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T102849Z" creationid="haohang" creationdate="20150625T102849Z">
+        <seg>antlr.srcDirs</seg>
       </tuv>
     </tu>
     <tu>
