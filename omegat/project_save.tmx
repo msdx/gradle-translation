@@ -374,6 +374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(In the case of dependency entries, this is also the default behavior.) Other sections of the module file will be either left as-is or merged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074004Z" creationid="haohang" creationdate="20150625T074004Z">
+        <seg>(对于依赖项，这也是默认行为。)其他部分的模块文件将会被保留或合并。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(It does detect changes to the compile class path itself.) This makes it less suitable for multi-project builds.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155541Z" creationid="msdx" creationdate="20150430T155541Z">
@@ -1146,6 +1154,30 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105405Z" creationid="haohang" creationdate="20150624T105405Z">
         <seg>../groovydoc/org/gradle/plugins/ide/eclipse/model/WtpFacet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/plugins/ide/idea/model/Module.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073731Z" creationid="haohang" creationdate="20150625T073731Z">
+        <seg>../groovydoc/org/gradle/plugins/ide/idea/model/Module.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/plugins/ide/idea/model/Project.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073723Z" creationid="haohang" creationdate="20150625T073723Z">
+        <seg>../groovydoc/org/gradle/plugins/ide/idea/model/Project.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/plugins/ide/idea/model/Workspace.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073754Z" creationid="haohang" creationdate="20150625T073754Z">
+        <seg>../groovydoc/org/gradle/plugins/ide/idea/model/Workspace.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -4506,6 +4538,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073330Z" creationid="haohang" creationdate="20150625T073330Z">
         <seg>39.4.1. 合并</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>39.4.2.1. Partial overwrite of existing content</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073807Z" creationid="haohang" creationdate="20150625T073807Z">
+        <seg>39.4.2.1. 部分重写现有内容</seg>
       </tuv>
     </tu>
     <tu>
@@ -11372,6 +11412,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 39.2. Partial Overwrite for Module</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073919Z" creationid="haohang" creationdate="20150625T073919Z">
+        <seg>示例 39.2. 部分覆盖模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -14949,6 +14997,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Module</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073751Z" creationid="haohang" creationdate="20150625T073751Z">
+        <seg>Module</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>More about Tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T165013Z" creationid="msdx" creationdate="20141109T165013Z">
@@ -18309,6 +18365,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c1&gt;beforeMerged&lt;/c1&gt; hook makes it possible to overwrite just certain parts of the existing content.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073901Z" creationid="haohang" creationdate="20150625T073901Z">
+        <seg>&lt;c1&gt;beforeMerged&lt;/c1&gt; hook 可以实现只覆盖现有的某些部分的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c1&gt;compile&lt;/c1&gt; configuration inherits this dependency, so the groovy libraries will be included in classpath when compiling Groovy and Java source.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065243Z" creationid="msdx" creationdate="20141030T065240Z">
@@ -20101,6 +20165,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following example removes all existing dependencies from the &lt;c2&gt;Module&lt;/c2&gt; domain object:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073908Z" creationid="haohang" creationdate="20150625T073908Z">
+        <seg>下面的示例从&lt;c2&gt;Module&lt;/c2&gt;域对象中删除现有的所有依赖关系:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following examples show several different ways to achieve the same configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T091936Z" creationid="msdx" creationdate="20141110T091936Z">
@@ -20661,6 +20733,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The resulting module file will only contain Gradle-generated dependency entries, but not any other dependency entries that may have been present in the original file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073940Z" creationid="haohang" creationdate="20150625T073940Z">
+        <seg>生成的模块文件将只包含 Gradle 生成的依赖项，而没有其他可能存在于原始文件的依赖项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The results are stored in the Sonar database.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T142905Z" creationid="msdx" creationdate="20150510T142905Z">
@@ -20689,6 +20769,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160650Z" creationid="msdx" creationdate="20141112T160650Z">
         <seg>这个闭包或Callable实例的返回值可以是&lt;c3&gt;files()&lt;/c3&gt;方法所支持的任何类型的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The same could be done for the module paths in the project file:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074107Z" creationid="haohang" creationdate="20150625T074107Z">
+        <seg>对项目文件中的模块路径的处理也是一样：</seg>
       </tuv>
     </tu>
     <tu>
@@ -23597,6 +23685,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Workspace</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073757Z" creationid="haohang" creationdate="20150625T073757Z">
+        <seg>Workspace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Writing Build Scripts</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T031200Z" creationid="msdx" creationdate="20141108T031200Z">
@@ -25503,6 +25599,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064926Z" creationid="haohang" creationdate="20150625T064926Z">
         <seg>beforeMerged { classpath -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>beforeMerged { module -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073922Z" creationid="haohang" creationdate="20150625T073922Z">
+        <seg>beforeMerged { module -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -28201,6 +28305,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>idea.module.iml {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073921Z" creationid="haohang" creationdate="20150625T073921Z">
+        <seg>idea.module.iml {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>idea.project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T072700Z" creationid="haohang" creationdate="20150625T072700Z">
@@ -29495,6 +29607,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T080913Z" creationid="msdx" creationdate="20150429T080913Z">
         <seg>module(&lt;s5&gt;'org.apache.ant:ant:1.9.3'&lt;/s5&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>module.dependencies.clear()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073923Z" creationid="haohang" creationdate="20150625T073923Z">
+        <seg>module.dependencies.clear()</seg>
       </tuv>
     </tu>
     <tu>
