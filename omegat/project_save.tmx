@@ -14012,6 +14012,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In contrast to the command line reports, the report plugin generates the reports into a file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150626T095722Z" creationid="haohang" creationdate="20150626T095722Z">
+        <seg>与命令行报告相比，报告插件将报告生成到一个文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In every other respect, a Groovy project is identical to a Java project, which we have already seen in &lt;a1&gt;Chapter 7, &lt;i2&gt;Java Quickstart&lt;/i2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T070345Z" creationid="msdx" creationdate="20141030T061216Z">
@@ -19645,6 +19653,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Project report plugin adds some tasks to your project which generate reports containing useful information about your build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150626T095308Z" creationid="haohang" creationdate="20150626T095308Z">
+        <seg>项目报告插件将一些任务添加到项目中，用于生成包含有关构建的有用信息的报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Scala Plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150509T131946Z" creationid="msdx" creationdate="20150509T131946Z">
@@ -21573,6 +21589,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is also an aggregating task that depends on all report tasks added by the plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150626T095859Z" creationid="haohang" creationdate="20150626T095859Z">
+        <seg>这里也有一个聚合的任务，它依赖于由该插件添加的所有的报告任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is an alternative syntax for defining tasks, which you may prefer to use:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T023119Z" creationid="msdx" creationdate="20141110T022749Z">
@@ -22673,6 +22697,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T041506Z" creationid="Administrator" creationdate="20150425T041506Z">
         <seg>这些任务组装成属于指定配置的构件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Those tasks generate exactly the same content as the command line reports triggered by &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt;, &lt;s2&gt;&lt;c3&gt;gradle dependencies&lt;/c3&gt;&lt;/s2&gt; and &lt;s4&gt;&lt;c5&gt;gradle properties&lt;/c5&gt;&lt;/s4&gt; (see &lt;a6&gt;Section 11.6, “Obtaining information about your build”&lt;/a6&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150626T095654Z" creationid="haohang" creationdate="20150626T095654Z">
+        <seg>这些任务生成内容，与由&lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt;， &lt;s2&gt; &lt;c3&gt;gradle dependencies&lt;/c3&gt;&lt;/s2&gt;和&lt;s4&gt;&lt;c5&gt;gradle properties&lt;/c5&gt;&lt;/s4&gt;触发的命令行报告的内容完全相同（见&lt;a6&gt;第 11.6 节，“获取有关您的构建的信息”&lt;/a6&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
