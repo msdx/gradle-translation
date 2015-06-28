@@ -5582,6 +5582,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;reportsDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;projectReportDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T062025Z" creationid="haohang" creationdate="20150628T062025Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;reportsDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;projectReportDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;.compileClasspath</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083445Z" creationid="msdx" creationdate="20150428T083445Z">
@@ -7026,6 +7034,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101914Z" creationid="msdx" creationdate="20150512T101431Z">
         <seg>Sonar 的可用属性的列表可以在&lt;a0&gt;Sonar 文档&lt;/a0&gt;中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A one element set with the project the plugin was applied to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061856Z" creationid="haohang" creationdate="20150628T061856Z">
+        <seg>一个元素集合，用于保存将要应用该插件的project</seg>
       </tuv>
     </tu>
     <tu>
@@ -20925,10 +20941,18 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the directory to generate the project report into, relative to the reports directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T062020Z" creationid="haohang" creationdate="20150628T062020Z">
+        <seg>生成报告的目录名称，它是相对于reports目录的相对路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name of the directory to generate the test report into, relative to the reports directory.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045453Z" creationid="Administrator" creationdate="20150427T045122Z">
-        <seg>相对于build目录的目录名称，测试报告将生成到此目录。</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T062049Z" creationid="Administrator" creationdate="20150427T045122Z">
+        <seg>相对于reports目录的目录名称，测试报告将生成到此目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21193,6 +21217,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061553Z" creationid="haohang" creationdate="20150628T061553Z">
         <seg>项目报告插件不需要任何特定的项目布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The projects to generate the reports for.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061914Z" creationid="haohang" creationdate="20150628T061914Z">
+        <seg>要生成报告的projects。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31649,6 +31681,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061532Z" creationid="haohang" creationdate="20150628T061532Z">
         <seg>projectReport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>projectReportDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T062021Z" creationid="haohang" creationdate="20150628T062021Z">
+        <seg>projectReportDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>projectReportDirName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061916Z" creationid="haohang" creationdate="20150628T061916Z">
+        <seg>projectReportDirName</seg>
       </tuv>
     </tu>
     <tu>
