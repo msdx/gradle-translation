@@ -11796,6 +11796,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 43.2. Using the build announcements plugin from an init script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091800Z" creationid="haohang" creationdate="20150628T091800Z">
+        <seg>示例 43.2. 在 init 脚本中使用构建通知插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -14168,6 +14176,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073520Z" creationid="haohang" creationdate="20150625T073520Z">
         <seg>如果你想要让它成为默认行为，请将&lt;c2&gt;tasks.idea.dependsOn(cleanIdea)&lt;/c2&gt;添加到构建脚本中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you want to tweak where the announcements go, you can configure the &lt;a0&gt;announce&lt;/a0&gt; plugin to change the local announcer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091724Z" creationid="haohang" creationdate="20150628T091724Z">
+        <seg>如果您想要调整公告的位置，你可以配置 &lt;a0&gt;announce&lt;/a0&gt; 插件来更改本地的announcer。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24765,6 +24781,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also apply the plugin from an init script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091735Z" creationid="haohang" creationdate="20150628T091735Z">
+        <seg>你还可以从一个 init 脚本应用这个插件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also configure arbitrary objects using an external script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152914Z" creationid="msdx" creationdate="20141109T152914Z">
@@ -26137,6 +26161,16 @@ sonar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091629Z" creationid="haohang" creationdate="20150628T091629Z">
         <seg>apply plugin: &lt;s0&gt;'build-announcements'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'build-announcements'&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091821Z" creationid="haohang" creationdate="20150628T091821Z">
+        <seg>apply plugin: &lt;s0&gt;'build-announcements'&lt;/s0&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -32511,6 +32545,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154821Z" creationid="msdx" creationdate="20141116T154821Z">
         <seg>result.failure.printStackTrace()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rootProject {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091801Z" creationid="haohang" creationdate="20150628T091801Z">
+        <seg>rootProject {</seg>
       </tuv>
     </tu>
     <tu>
