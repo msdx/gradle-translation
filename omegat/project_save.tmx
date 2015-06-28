@@ -838,6 +838,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.diagnostics.PropertyReportTask.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061522Z" creationid="haohang" creationdate="20150628T061522Z">
+        <seg>../dsl/org.gradle.api.tasks.diagnostics.PropertyReportTask.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.diagnostics.TaskReportTask.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061527Z" creationid="haohang" creationdate="20150628T061527Z">
+        <seg>../dsl/org.gradle.api.tasks.diagnostics.TaskReportTask.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.javadoc.Groovydoc.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T071455Z" creationid="msdx" creationdate="20150429T071455Z">
@@ -4734,6 +4750,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>41.3. Project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061544Z" creationid="haohang" creationdate="20150628T061544Z">
+        <seg>41.3. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>41.4. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061557Z" creationid="haohang" creationdate="20150628T061557Z">
+        <seg>41.4. 依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>41.5. Convention properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061655Z" creationid="haohang" creationdate="20150628T061655Z">
+        <seg>41.5. 约定属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162153Z" creationid="msdx" creationdate="20141109T162153Z">
@@ -5298,6 +5338,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004531Z" creationid="Administrator" creationdate="20150426T004531Z">
         <seg>&lt;c0&gt;compileTestJava&lt;/c0&gt;和&lt;c1&gt;processTestResources&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;dependencyReport&lt;/c0&gt;, &lt;c1&gt;propertyReport&lt;/c1&gt;, &lt;c2&gt;taskReport&lt;/c2&gt;, &lt;c3&gt;htmlDependencyReport&lt;/c3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061534Z" creationid="haohang" creationdate="20150628T061534Z">
+        <seg>&lt;c0&gt;dependencyReport&lt;/c0&gt;, &lt;c1&gt;propertyReport&lt;/c1&gt;, &lt;c2&gt;taskReport&lt;/c2&gt;, &lt;c3&gt;htmlDependencyReport&lt;/c3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12628,6 +12676,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generates all project reports.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061540Z" creationid="haohang" creationdate="20150628T061540Z">
+        <seg>生成所有项目报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates an HTML dependency and dependency insight report for the project or a set of projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061513Z" creationid="haohang" creationdate="20150628T061513Z">
+        <seg>对项目或项目集生成 HTML 依赖和依赖透视报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generates an IDEA module file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071447Z" creationid="haohang" creationdate="20150625T071447Z">
@@ -12752,6 +12816,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061234Z" creationid="haohang" creationdate="20150628T061234Z">
         <seg>生成项目依赖项报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates the project property report.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061526Z" creationid="haohang" creationdate="20150628T061526Z">
+        <seg>生成项目属性报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates the project task report.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061531Z" creationid="haohang" creationdate="20150628T061531Z">
+        <seg>生成项目任务报告。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16325,6 +16405,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PropertyReportTask</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061522Z" creationid="haohang" creationdate="20150628T061522Z">
+        <seg>PropertyReportTask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Provide the authentication domain via the &lt;c0&gt;http.auth.ntlm.domain&lt;/c0&gt; system property.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T142750Z" creationid="msdx" creationdate="20141121T142750Z">
@@ -16985,6 +17073,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T142735Z" creationid="msdx" creationdate="20141121T142735Z">
         <seg>将&lt;c0&gt;http.proxyUser&lt;/c0&gt;系统属性设置为一个这样的值：&lt;c1&gt;&lt;e2&gt;&lt;c3&gt;域&lt;/c3&gt;&lt;/e2&gt;/&lt;e4&gt;&lt;c5&gt;用户名&lt;/c5&gt;&lt;/e4&gt;&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set&lt;Project&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061734Z" creationid="haohang" creationdate="20150628T061734Z">
+        <seg>Set&lt;Project&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18213,6 +18309,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 41.2. Project report plugin - convention properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061714Z" creationid="haohang" creationdate="20150628T061714Z">
+        <seg>表 41.2. 项目报告插件 - 约定属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161048Z" creationid="msdx" creationdate="20141112T161048Z">
@@ -18321,6 +18425,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161108Z" creationid="msdx" creationdate="20141112T161108Z">
         <seg>TaskOutputs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TaskReportTask</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061528Z" creationid="haohang" creationdate="20150628T061528Z">
+        <seg>TaskReportTask</seg>
       </tuv>
     </tu>
     <tu>
@@ -21053,10 +21165,34 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The project report defines the following convention properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061705Z" creationid="haohang" creationdate="20150628T061705Z">
+        <seg>项目报告定义以下约定属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The project report plugin defines the following tasks:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061113Z" creationid="haohang" creationdate="20150628T061113Z">
         <seg>项目报告插件定义了以下任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The project report plugin does not define any dependency configurations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061648Z" creationid="haohang" creationdate="20150628T061648Z">
+        <seg>项目报告插件没有定义任何的依赖配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The project report plugin does not require any particular project layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061553Z" creationid="haohang" creationdate="20150628T061553Z">
+        <seg>项目报告插件不需要任何特定的项目布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31509,10 +31645,26 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>projectReport</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061532Z" creationid="haohang" creationdate="20150628T061532Z">
+        <seg>projectReport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project_reports_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T063335Z" creationid="msdx" creationdate="20141116T063335Z">
         <seg>project_reports_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061719Z" creationid="haohang" creationdate="20150628T061719Z">
+        <seg>projects</seg>
       </tuv>
     </tu>
     <tu>
@@ -31593,6 +31745,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T063358Z" creationid="msdx" creationdate="20150513T063358Z">
         <seg>property &lt;s8&gt;"sonar.jdbc.password"&lt;/s8&gt;, &lt;s9&gt;"very clever"&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>propertyReport</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061514Z" creationid="haohang" creationdate="20150628T061514Z">
+        <seg>propertyReport</seg>
       </tuv>
     </tu>
     <tu>
@@ -33285,6 +33445,14 @@ myCopy {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T065001Z" creationid="msdx" creationdate="20141111T065001Z">
         <seg>task(taskName) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>taskReport</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061526Z" creationid="haohang" creationdate="20150628T061526Z">
+        <seg>taskReport</seg>
       </tuv>
     </tu>
     <tu>
