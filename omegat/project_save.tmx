@@ -4806,6 +4806,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>43.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091558Z" creationid="haohang" creationdate="20150628T091558Z">
+        <seg>43.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162153Z" creationid="msdx" creationdate="20141109T162153Z">
@@ -9080,8 +9088,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Chapter 43. The Build Announcements Plugin</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063332Z" creationid="msdx" creationdate="20141030T032941Z">
-        <seg>第四十三章. Build Announcements 插件</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091428Z" creationid="msdx" creationdate="20141030T032941Z">
+        <seg>第四十三章. 构建公告插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -11776,6 +11784,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063533Z" creationid="haohang" creationdate="20150628T063533Z">
         <seg>示例 42.3. 使用 announce 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 43.1. Using the build announcements plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091628Z" creationid="haohang" creationdate="20150628T091628Z">
+        <seg>示例 43.1. 使用构建公告插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -18781,6 +18797,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That's it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091635Z" creationid="haohang" creationdate="20150628T091635Z">
+        <seg>就是这样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The 'should run after' ordering rule is similar but less strict as it will be ignored in two situations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T152303Z" creationid="msdx" creationdate="20141110T152221Z">
@@ -20473,6 +20497,22 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T151625Z" creationid="msdx" creationdate="20141117T151625Z">
         <seg>基本的思想是， gradle 命令会fork一个守护进程，用于执行实际的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The build announcements plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091419Z" creationid="haohang" creationdate="20150628T091419Z">
+        <seg>构建公告插件目前仍然是&lt;a0&gt;孵化&lt;/a0&gt;状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The build announcements plugin uses the &lt;a0&gt;announce&lt;/a0&gt; plugin to send local announcements on important events in the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091555Z" creationid="haohang" creationdate="20150628T091555Z">
+        <seg>构建公告插件使用 &lt;a0&gt;announce&lt;/a0&gt; 插件发送构建过程中一些重要事件上的本地公告。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23597,6 +23637,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use the build announcements plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091618Z" creationid="haohang" creationdate="20150628T091618Z">
+        <seg>要使用构建公告插件，请在生成脚本中包括:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use the classpath configuration, use the &lt;c0&gt;asPath&lt;/c0&gt; property of the custom configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060557Z" creationid="msdx" creationdate="20141116T060557Z">
@@ -26081,6 +26129,14 @@ sonar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T094906Z" creationid="haohang" creationdate="20150625T094906Z">
         <seg>apply plugin: &lt;s0&gt;'antlr'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'build-announcements'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091629Z" creationid="haohang" creationdate="20150628T091629Z">
+        <seg>apply plugin: &lt;s0&gt;'build-announcements'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
