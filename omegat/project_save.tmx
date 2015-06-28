@@ -9040,16 +9040,16 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Chapter 42. The Announce Plugin</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T062412Z" creationid="msdx" creationdate="20141030T034804Z">
-        <seg>第四十二章. 公告插件</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063231Z" creationid="msdx" creationdate="20141030T034804Z">
+        <seg>第四十二章. Announce插件</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Chapter 43. The Build Announcements Plugin</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T062619Z" creationid="msdx" creationdate="20141030T032941Z">
-        <seg>第四十三章. 构建公告插件</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063332Z" creationid="msdx" creationdate="20141030T032941Z">
+        <seg>第四十三章. Build Announcements 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -11708,6 +11708,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 42.1. Using the announce plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063407Z" creationid="haohang" creationdate="20150628T063022Z">
+        <seg>示例 42.1. 使用 announce 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 42.2. Configure the announce plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063403Z" creationid="haohang" creationdate="20150628T063115Z">
+        <seg>示例 42.2. 配置 announce 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 42.3. Using the announce plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063533Z" creationid="haohang" creationdate="20150628T063533Z">
+        <seg>示例 42.3. 使用 announce 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -12048,6 +12072,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T070134Z" creationid="msdx" creationdate="20141111T065820Z">
         <seg>析构器任务是一个 &lt;e0&gt;孵化中&lt;/e0&gt; 的功能 (请参阅 &lt;a1&gt; C.1.2 章节， “Incubating”&lt;/a1&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finally, send announcements with the &lt;c0&gt;announce&lt;/c0&gt; method:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063526Z" creationid="haohang" creationdate="20150628T063526Z">
+        <seg>最后，使用&lt;c0&gt;announce&lt;/c0&gt;方法发送公告：</seg>
       </tuv>
     </tu>
     <tu>
@@ -15461,6 +15493,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Next, configure your notification service(s) of choice (see table below for which configuration properties are available):</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063107Z" creationid="haohang" creationdate="20150628T063107Z">
+        <seg>接下来，配置你所选择的通知服务（要使用哪一个配置属性可以参见下表）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>No stacktrace options</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T103051Z" creationid="msdx" creationdate="20141116T103051Z">
@@ -18705,6 +18745,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083931Z" creationid="msdx" creationdate="20150428T083505Z">
         <seg>&lt;c0&gt;test&lt;/c0&gt;任务默认情况下会生成以下结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;announce&lt;/c0&gt; method takes two String arguments: The message to be sent, and the notification service to be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063617Z" creationid="haohang" creationdate="20150628T063617Z">
+        <seg>&lt;c0&gt;announce&lt;/c0&gt; 方法有两个 String 参数: 要被发送的消息，以及要使用的通知服务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23431,8 +23479,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>To use the announce plugin, apply it to your build script:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T062854Z" creationid="haohang" creationdate="20150628T062854Z">
-        <seg>To use the announce plugin, apply it to your build script:</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063420Z" creationid="haohang" creationdate="20150628T062854Z">
+        <seg>要使用 announce 插件，请在构建脚本中包含以下语句：</seg>
       </tuv>
     </tu>
     <tu>
@@ -25469,6 +25517,32 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>announce {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063126Z" creationid="haohang" creationdate="20150628T063126Z">
+        <seg>announce {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>announce.announce(&lt;s1&gt;"helloWorld completed!"&lt;/s1&gt;, &lt;s2&gt;"twitter"&lt;/s2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063537Z" creationid="haohang" creationdate="20150628T063537Z">
+        <seg>announce.announce(&lt;s1&gt;"helloWorld completed!"&lt;/s1&gt;, &lt;s2&gt;"twitter"&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>announce.announce(&lt;s3&gt;"helloWorld completed!"&lt;/s3&gt;, &lt;s4&gt;"local"&lt;/s4&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063538Z" creationid="haohang" creationdate="20150628T063538Z">
+        <seg>announce.announce(&lt;s3&gt;"helloWorld completed!"&lt;/s3&gt;, &lt;s4&gt;"local"&lt;/s4&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>announce_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104802Z" creationid="msdx" creationdate="20150428T104802Z">
@@ -25847,6 +25921,14 @@ sonar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T060745Z" creationid="msdx" creationdate="20150513T060745Z">
         <seg>apply plugin: &lt;s0&gt;"sonar-runner"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'announce'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063022Z" creationid="haohang" creationdate="20150628T063022Z">
+        <seg>apply plugin: &lt;s0&gt;'announce'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -30841,6 +30923,16 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>password = &lt;s1&gt;'myPassword'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063506Z" creationid="haohang" creationdate="20150628T063506Z">
+        <seg>password = &lt;s1&gt;'myPassword'&lt;/s1&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>password = &lt;s4&gt;"very clever"&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143652Z" creationid="msdx" creationdate="20150510T143652Z">
@@ -30997,6 +31089,20 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152807Z" creationid="msdx" creationdate="20141109T152807Z">
         <seg>pos = configure(&lt;s0&gt;new&lt;/s0&gt; java.text.FieldPosition(&lt;s1&gt;10&lt;/s1&gt;)) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;"Hello, world!"&lt;/s0&gt;
+}  
+
+helloWorld.doLast {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063535Z" creationid="haohang" creationdate="20150628T063535Z">
+        <seg>println &lt;s0&gt;"Hello, world!"&lt;/s0&gt;
+}  
+
+helloWorld.doLast {</seg>
       </tuv>
     </tu>
     <tu>
@@ -33459,6 +33565,14 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task helloWorld &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063534Z" creationid="haohang" creationdate="20150628T063534Z">
+        <seg>task helloWorld &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task intTest(type: Test) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083431Z" creationid="msdx" creationdate="20150428T083431Z">
@@ -34360,6 +34474,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T071142Z" creationid="msdx" creationdate="20141030T071142Z">
         <seg>userguide.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>username = &lt;s0&gt;'myId'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063505Z" creationid="haohang" creationdate="20150628T063505Z">
+        <seg>username = &lt;s0&gt;'myId'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
