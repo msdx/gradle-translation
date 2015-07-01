@@ -11916,6 +11916,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 44.3. Configuring the main distribution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T032437Z" creationid="haohang" creationdate="20150701T032437Z">
+        <seg>示例 44.3. 配置 main distribution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -24997,6 +25005,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can add additional files by configuring the &lt;a3&gt;&lt;c4&gt;Distribution&lt;/c4&gt;&lt;/a3&gt; object that is part of the container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T032421Z" creationid="haohang" creationdate="20150701T032421Z">
+        <seg>你可以通过配置作为窗口一部分的 &lt;a3&gt;&lt;c4&gt;Distribution&lt;/c4&gt;&lt;/a3&gt; 对象，来添加额外的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also add 2 file collections together using the &lt;c1&gt;+&lt;/c1&gt; operator, or subtract one file collection from another using the &lt;c2&gt;-&lt;/c2&gt; operator.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155814Z" creationid="msdx" creationdate="20141112T155551Z">
@@ -26465,6 +26481,18 @@ sonar {</seg>
       <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'distribution'&lt;/s0&gt;
 
+distributions {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T032500Z" creationid="haohang" creationdate="20150701T032500Z">
+        <seg>apply plugin: &lt;s0&gt;'distribution'&lt;/s0&gt;
+
+distributions {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'distribution'&lt;/s0&gt;
+
 version = &lt;s1&gt;'1.2'&lt;/s1&gt;
 distributions {</seg>
       </tuv>
@@ -26933,6 +26961,14 @@ task fooJar(type: Jar) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160146Z" creationid="msdx" creationdate="20141113T160146Z">
         <seg>baseName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>baseName = &lt;s1&gt;'someName'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T032508Z" creationid="haohang" creationdate="20150701T032508Z">
+        <seg>baseName = &lt;s1&gt;'someName'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -27729,6 +27765,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T070908Z" creationid="Administrator" creationdate="20150425T070908Z">
         <seg>为所有归档任务配置合适的默认值（比如从&lt;a0&gt;&lt;c1&gt;AbstractArchiveTask&lt;/c1&gt;&lt;/a0&gt;继承来任务）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>contents {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T032508Z" creationid="haohang" creationdate="20150701T032508Z">
+        <seg>contents {</seg>
       </tuv>
     </tu>
     <tu>
@@ -29077,6 +29121,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130956Z" creationid="msdx" creationdate="20141113T130956Z">
         <seg>from zipTree(&lt;s7&gt;'src/main/assets.zip'&lt;/s7&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from { &lt;s2&gt;'src/readme'&lt;/s2&gt; }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T032509Z" creationid="haohang" creationdate="20150701T032509Z">
+        <seg>from { &lt;s2&gt;'src/readme'&lt;/s2&gt; }</seg>
       </tuv>
     </tu>
     <tu>
