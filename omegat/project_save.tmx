@@ -14573,6 +14573,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the example above, the content of the "&lt;c0&gt;src/readme&lt;/c0&gt;" directory will be included in the distribution (along with the files in the "&lt;c1&gt;src/dist/main&lt;/c1&gt;" directory which are added by default).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T034347Z" creationid="haohang" creationdate="20150701T034233Z">
+        <seg>在上面的示例中，”&lt;c0&gt;src/readme&lt;/c0&gt;“目录的内容将被包含进 distribution（与默认添加的”&lt;c1&gt;src/dist/main&lt;/c1&gt;“目录中的文件一起）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the example above, we &lt;s1&gt;&lt;e2&gt;changed&lt;/e2&gt;&lt;/s1&gt; the desired location of the class files after this conventional configuration had been performed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T093240Z" creationid="msdx" creationdate="20141124T093240Z">
@@ -19013,6 +19021,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The "&lt;c0&gt;baseName&lt;/c0&gt;" property has also been changed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T034415Z" creationid="haohang" creationdate="20150701T034415Z">
+        <seg>”&lt;c0&gt;baseName&lt;/c0&gt;“属性也被修改了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The 'should run after' ordering rule is similar but less strict as it will be ignored in two situations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T152303Z" creationid="msdx" creationdate="20141110T152221Z">
@@ -23377,6 +23393,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T062257Z" creationid="msdx" creationdate="20141030T062217Z">
         <seg>这段代码同时会将Java插件应用到project中，如果Java插件还没被应用的话。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will cause the distribution archives to be created with a different name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T034510Z" creationid="haohang" creationdate="20150701T034510Z">
+        <seg>这将导致分发的 archives 以不同的名字创建。</seg>
       </tuv>
     </tu>
     <tu>
