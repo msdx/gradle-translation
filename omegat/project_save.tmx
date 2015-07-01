@@ -1302,6 +1302,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/distribution/Distribution.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031650Z" creationid="haohang" creationdate="20150701T031650Z">
+        <seg>../javadoc/org/gradle/api/distribution/Distribution.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/execution/TaskActionListener.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T155223Z" creationid="msdx" creationdate="20141116T155223Z">
@@ -4834,6 +4842,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T030753Z" creationid="haohang" creationdate="20150701T030753Z">
         <seg>44.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>44.3. Distribution contents</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031649Z" creationid="haohang" creationdate="20150701T031649Z">
+        <seg>44.3. 分发内容</seg>
       </tuv>
     </tu>
     <tu>
@@ -11884,6 +11900,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 44.2. Adding extra distributions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031248Z" creationid="haohang" creationdate="20150701T031248Z">
+        <seg>示例 44.2. 添加额外的分发</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -13160,6 +13184,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144147Z" creationid="msdx" creationdate="20150428T144147Z">
         <seg>给定一个带有两个参数，名为&lt;c0&gt;aParameterizedTestMethod&lt;/c0&gt;参数化测试方法，它将使用名称这个名称进行报告 ：&lt;c1&gt;aParameterizedTestMethod(toStringValueOfParam1, toStringValueOfParam2)&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Given that the project name is "&lt;c0&gt;myproject&lt;/c0&gt;" and version "&lt;c1&gt;1.2&lt;/c1&gt;", running "&lt;s2&gt;&lt;c3&gt;gradle customDistZip&lt;/c3&gt;&lt;/s2&gt;" will produce a ZIP file named "&lt;c4&gt;myproject-custom-1.2.zip&lt;/c4&gt;".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031441Z" creationid="haohang" creationdate="20150701T031417Z">
+        <seg>给定项目的名称为“&lt;c0&gt;myproject&lt;/c0&gt;”，版本为“&lt;c1&gt;1.2&lt;/c1&gt;”，运行“&lt;s2&gt;&lt;c3&gt;gradle customDistZip&lt;/c3&gt;&lt;/s2&gt;”将会产生一个名字为”&lt;c4&gt;myproject-custom-1.2.zip&lt;/c4&gt;“的 ZIP 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16977,6 +17009,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T144711Z" creationid="msdx" creationdate="20141110T144219Z">
         <seg>在构建中尽早进行构建验证：如，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Running "&lt;s0&gt;&lt;c1&gt;gradle installCustomDist&lt;/c1&gt;&lt;/s0&gt;" will install the distribution contents into "&lt;c2&gt;&lt;e3&gt;&lt;c4&gt;$buildDir&lt;/c4&gt;&lt;/e3&gt;/install/custom&lt;/c2&gt;".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031642Z" creationid="haohang" creationdate="20150701T031419Z">
+        <seg>运行”&lt;s0&gt;&lt;c1&gt;gradle installCustomDist&lt;/c1&gt;&lt;/s0&gt;“将会把分发内容安装到”&lt;c2&gt;&lt;e3&gt;&lt;c4&gt;$buildDir&lt;/c4&gt;&lt;/e3&gt;/install/custom&lt;/c2&gt;“。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23309,6 +23349,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This will add following tasks to the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031310Z" creationid="haohang" creationdate="20150701T031258Z">
+        <seg>这将向项目添加下列任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This will also apply the Java plugin to the project, if it has not already been applied.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T062257Z" creationid="msdx" creationdate="20141030T062217Z">
@@ -26407,6 +26455,20 @@ sonar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'distribution'&lt;/s0&gt;
+
+version = &lt;s1&gt;'1.2'&lt;/s1&gt;
+distributions {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031249Z" creationid="haohang" creationdate="20150701T031249Z">
+        <seg>apply plugin: &lt;s0&gt;'distribution'&lt;/s0&gt;
+
+version = &lt;s1&gt;'1.2'&lt;/s1&gt;
+distributions {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'ear'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T094446Z" creationid="msdx" creationdate="20150503T094446Z">
@@ -27699,6 +27761,32 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104923Z" creationid="msdx" creationdate="20150428T104923Z">
         <seg>cunit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>custom {}
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031256Z" creationid="haohang" creationdate="20150701T031256Z">
+        <seg>custom {}
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>customDistTar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031311Z" creationid="haohang" creationdate="20150701T031311Z">
+        <seg>customDistTar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>customDistZip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031310Z" creationid="haohang" creationdate="20150701T031310Z">
+        <seg>customDistZip</seg>
       </tuv>
     </tu>
     <tu>
@@ -30017,6 +30105,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031239Z" creationid="haohang" creationdate="20150701T031239Z">
         <seg>install&lt;e0&gt;&lt;c1&gt;${distribution.name.capitalize()}&lt;/c1&gt;&lt;/e0&gt;Dist</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>installCustomDist</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031312Z" creationid="haohang" creationdate="20150701T031312Z">
+        <seg>installCustomDist</seg>
       </tuv>
     </tu>
     <tu>
