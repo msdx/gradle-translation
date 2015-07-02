@@ -7838,6 +7838,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All files stored in &lt;c0&gt;src/dist&lt;/c0&gt; will be added to the root of the distribution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104348Z" creationid="haohang" creationdate="20150702T104348Z">
+        <seg>All files stored in &lt;c0&gt;src/dist&lt;/c0&gt; will be added to the root of the distribution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All of Gradle's scripting features can be leveraged to configure Sonar Runner as needed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T055919Z" creationid="msdx" creationdate="20150513T055919Z">
@@ -13496,6 +13504,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085806Z" creationid="msdx" creationdate="20141030T085806Z">
         <seg>Gradle会在 &lt;c2&gt;src/main/webapp&lt;/c2&gt;中查找源文件，并将它们包含进WAR文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle will take care of building the application classes, along with their runtime dependencies, and starting the application with the correct classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104207Z" creationid="haohang" creationdate="20150702T104207Z">
+        <seg>Gradle 将会处理好构建的应用程序的类，以及它们的运行时依赖，还有使用正确的类路径启动应用程序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21125,6 +21141,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The distribution will package up the runtime dependencies of the application along with some OS specific start scripts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104346Z" creationid="haohang" creationdate="20150702T104346Z">
+        <seg>分发的内容将会把这个程序的运行时依赖和一些操作系统特定的启动脚本打包在一起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The existing content is merged with the configuration inferred from the Gradle build or defined explicitly in the eclipse DSL</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T104725Z" creationid="haohang" creationdate="20150624T104604Z">
@@ -21681,6 +21705,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T030058Z" creationid="haohang" creationdate="20150701T025913Z">
         <seg>本插件向 project 添加了一个名为“&lt;c0&gt;distributions&lt;/c0&gt;” 的 &lt;a1&gt;&lt;c2&gt;DistributionContainer&lt;/c2&gt;&lt;/a1&gt; 类型的扩展。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The plugin can also build a distribution for your application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104304Z" creationid="haohang" creationdate="20150702T104304Z">
+        <seg>该插件还可以生成你的应用程序的分发文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25417,6 +25449,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062201Z" creationid="msdx" creationdate="20141116T062201Z">
         <seg>你可以直接从&lt;c0&gt;AntBuilder&lt;/c0&gt;实例获得属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can launch the application in debug mode with &lt;s2&gt;&lt;c3&gt;gradle run --debug-jvm&lt;/c3&gt;&lt;/s2&gt; (see &lt;a4&gt;&lt;c5&gt;JavaExec.setDebug()&lt;/c5&gt;&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104251Z" creationid="haohang" creationdate="20150702T104251Z">
+        <seg>你可以通过&lt;s2&gt;&lt;c3&gt;gradle run --debug-jvm&lt;/c3&gt; &lt;/s2&gt; 在调试模式下启动该应用程序(见&lt;a4&gt;&lt;c5&gt;JavaExec.setDebug()&lt;/c5&gt;&lt;/a4&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
