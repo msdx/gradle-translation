@@ -1430,6 +1430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/tasks/JavaExec.html#setDebug(boolean)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T103936Z" creationid="haohang" creationdate="20150702T103936Z">
+        <seg>../javadoc/org/gradle/api/tasks/JavaExec.html#setDebug(boolean)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/tasks/SourceSetContainer.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083244Z" creationid="msdx" creationdate="20150428T083244Z">
@@ -11932,6 +11940,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 45.1. Using the application plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T103847Z" creationid="haohang" creationdate="20150702T103847Z">
+        <seg>示例 45.1. 使用应用程序插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 45.2. Configure the application main class</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T103934Z" creationid="haohang" creationdate="20150702T103934Z">
+        <seg>示例 45.2. 配置应用程序的主类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -22189,6 +22213,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then, you can run the application by running &lt;s0&gt;&lt;c1&gt;gradle run&lt;/c1&gt;&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104012Z" creationid="haohang" creationdate="20150702T104012Z">
+        <seg>然后，你可以通过执行 &lt;s0&gt;&lt;c1&gt;gradle run&lt;/c1&gt;&lt;/s0&gt; 来运行这个应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are 2 ways that you can provide the domain for authenticating to a NTLM proxy:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T142537Z" creationid="msdx" creationdate="20141121T142537Z">
@@ -23637,6 +23669,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To define the main-class for the application you have to set the &lt;c0&gt;mainClassName&lt;/c0&gt; property as shown below</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T103922Z" creationid="haohang" creationdate="20150702T103922Z">
+        <seg>若要为应用程序定义 main-class，你必须如下所示设置&lt;c0&gt;mainClassName&lt;/c0&gt;属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To do this, you need to define a custom configuration for the classpath, then add some dependencies to the configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060440Z" creationid="msdx" creationdate="20141116T060440Z">
@@ -23937,6 +23977,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063420Z" creationid="haohang" creationdate="20150628T062854Z">
         <seg>要使用 announce 插件，请在构建脚本中包含以下语句：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the application plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T103839Z" creationid="haohang" creationdate="20150702T103839Z">
+        <seg>要使用这个应用程序插件，请在构建脚本中包含以下语句：</seg>
       </tuv>
     </tu>
     <tu>
@@ -26815,6 +26863,14 @@ task myZip(type: Zip) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162340Z" creationid="msdx" creationdate="20141122T162340Z">
         <seg>apply plugin: org.gradle.api.plugins.JavaPlugin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin:&lt;s0&gt;'application'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T103847Z" creationid="haohang" creationdate="20150702T103847Z">
+        <seg>apply plugin:&lt;s0&gt;'application'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -31131,6 +31187,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T050712Z" creationid="msdx" creationdate="20141108T050712Z">
         <seg>main {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mainClassName = &lt;s0&gt;"org.gradle.sample.Main"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T103935Z" creationid="haohang" creationdate="20150702T103935Z">
+        <seg>mainClassName = &lt;s0&gt;"org.gradle.sample.Main"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
