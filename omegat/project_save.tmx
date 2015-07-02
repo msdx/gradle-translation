@@ -7840,8 +7840,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>All files stored in &lt;c0&gt;src/dist&lt;/c0&gt; will be added to the root of the distribution.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104348Z" creationid="haohang" creationdate="20150702T104348Z">
-        <seg>All files stored in &lt;c0&gt;src/dist&lt;/c0&gt; will be added to the root of the distribution.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104440Z" creationid="haohang" creationdate="20150702T104348Z">
+        <seg>所有存储在 &lt;c0&gt;src/dist&lt;/c0&gt; 的文件都将添加到 distribution 的根目录中</seg>
       </tuv>
     </tu>
     <tu>
@@ -14376,6 +14376,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142806Z" creationid="msdx" creationdate="20150504T142806Z">
         <seg>如果你的&lt;c1&gt;application&lt;/c1&gt;目录没有包含&lt;c2&gt;META-INF/application.xml&lt;/c2&gt;部署描述符，那么将会为你生成一个。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your Java application requires a specific set of JVM settings or system properties, you can configure the &lt;c0&gt;applicationDefaultJvmArgs&lt;/c0&gt; property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104727Z" creationid="haohang" creationdate="20150702T104727Z">
+        <seg>如果你的 Java 应用程序需要一组特定的 JVM 设置或系统属性，你可以配置&lt;c0&gt;applicationDefaultJvmArgs&lt;/c0&gt;属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25537,6 +25545,22 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T030749Z" creationid="haohang" creationdate="20150701T030655Z">
         <seg>你可以运行“&lt;s0&gt;&lt;c1&gt;gradle installDist&lt;/c1&gt;&lt;/s0&gt;”来组装这些分发内容，解压到“&lt;c2&gt;&lt;e3&gt;&lt;c4&gt;$buildDir&lt;/c4&gt;&lt;/e3&gt;/install/&lt;e5&gt;&lt;c6&gt;main&lt;/c6&gt;&lt;/e5&gt;&lt;/c2&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can run &lt;s1&gt;&lt;c2&gt;gradle installApp&lt;/c2&gt;&lt;/s1&gt; to create an image of the application in &lt;c3&gt;build/install/&lt;e4&gt;&lt;c5&gt;projectName&lt;/c5&gt;&lt;/e4&gt;&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104630Z" creationid="haohang" creationdate="20150702T104621Z">
+        <seg>您可以运行&lt;s1&gt;&lt;c2&gt;gradle installApp&lt;/c2&gt;&lt;/s1&gt;，在 &lt;c3&gt;build/install/&lt;e4&gt;&lt;c5&gt;projectName&lt;/c5&gt;&lt;/e4&gt;&lt;/c3&gt; 中创建一张应用程序的图像。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can run &lt;s6&gt;&lt;c7&gt;gradle distZip&lt;/c7&gt;&lt;/s6&gt; to create a ZIP containing the distribution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104700Z" creationid="haohang" creationdate="20150702T104623Z">
+        <seg>你可以运行&lt;s6&gt;&lt;c7&gt;gradle distZip&lt;/c7&gt;&lt;/s6&gt; 把 distrubution 打包成一个 ZIP 文件。</seg>
       </tuv>
     </tu>
     <tu>
