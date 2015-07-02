@@ -758,6 +758,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.JavaExec.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105010Z" creationid="haohang" creationdate="20150702T105010Z">
+        <seg>../dsl/org.gradle.api.tasks.JavaExec.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.ScalaSourceSet.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154908Z" creationid="msdx" creationdate="20150430T154908Z">
@@ -794,6 +802,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083218Z" creationid="msdx" creationdate="20150428T083218Z">
         <seg>../dsl/org.gradle.api.tasks.Upload.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.application.CreateStartScripts.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105016Z" creationid="haohang" creationdate="20150702T105016Z">
+        <seg>../dsl/org.gradle.api.tasks.application.CreateStartScripts.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -4870,6 +4886,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>45.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104919Z" creationid="haohang" creationdate="20150702T104919Z">
+        <seg>45.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>45.3. Convention properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105200Z" creationid="haohang" creationdate="20150702T105200Z">
+        <seg>45.3. 约定属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162153Z" creationid="msdx" creationdate="20141109T162153Z">
@@ -5498,6 +5530,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T072246Z" creationid="haohang" creationdate="20150625T072246Z">
         <seg>&lt;c0&gt;ideaProject&lt;/c0&gt;, &lt;c1&gt;ideaModule&lt;/c1&gt;, &lt;c2&gt;ideaWorkspace&lt;/c2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;jar&lt;/c0&gt;, &lt;c1&gt;startScripts&lt;/c1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105053Z" creationid="haohang" creationdate="20150702T105053Z">
+        <seg>&lt;c0&gt;jar&lt;/c0&gt;, &lt;c1&gt;startScripts&lt;/c1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9860,6 +9900,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CreateStartScripts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105019Z" creationid="haohang" creationdate="20150702T105019Z">
+        <seg>CreateStartScripts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creates OS specific scripts to run the project as a JVM application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105051Z" creationid="haohang" creationdate="20150702T105051Z">
+        <seg>创建操作系统特定的脚本来把该项目作为一个 JVM 应用程序运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Creates a TAR archive of the distribution contents</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031238Z" creationid="haohang" creationdate="20150701T031238Z">
@@ -9872,6 +9928,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T030851Z" creationid="haohang" creationdate="20150701T030851Z">
         <seg>创建分发内容的 ZIP 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creates a full distribution TAR archive including runtime libraries and OS specific scripts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105155Z" creationid="haohang" creationdate="20150702T105155Z">
+        <seg>创建包含了运行时库和操作系统特定的脚本的完整分发 TAR 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creates a full distribution ZIP archive including runtime libraries and OS specific scripts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105148Z" creationid="haohang" creationdate="20150702T105148Z">
+        <seg>创建包含了运行时库和操作系统特定的脚本的完整分发 ZIP 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11960,6 +12032,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T103934Z" creationid="haohang" creationdate="20150702T103934Z">
         <seg>示例 45.2. 配置应用程序的主类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 45.3. Configure default JVM settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104913Z" creationid="haohang" creationdate="20150702T104913Z">
+        <seg>示例 45.3. 配置默认 JVM 设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -14789,6 +14869,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Installs the application into a specified directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105100Z" creationid="haohang" creationdate="20150702T105100Z">
+        <seg>将应用程序安装到指定的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Instead of using a task name, you can define a dependency using a &lt;c0&gt;Task&lt;/c0&gt; object, as shown in this example:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T122524Z" creationid="msdx" creationdate="20141110T122444Z">
@@ -15345,6 +15433,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083211Z" creationid="msdx" creationdate="20150428T083211Z">
         <seg>JavaCompile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>JavaExec</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105012Z" creationid="haohang" creationdate="20150702T105012Z">
+        <seg>JavaExec</seg>
       </tuv>
     </tu>
     <tu>
@@ -17957,6 +18053,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Starts the application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105014Z" creationid="haohang" creationdate="20150702T105014Z">
+        <seg>启动应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Stops the Jetty instance.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T150450Z" creationid="msdx" creationdate="20150504T150450Z">
@@ -18805,6 +18909,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 45.1. Application plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104951Z" creationid="haohang" creationdate="20150702T104951Z">
+        <seg>表 45.1. 应用程序插件 - 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tar</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T030853Z" creationid="haohang" creationdate="20150701T030853Z">
@@ -19513,6 +19625,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062213Z" creationid="msdx" creationdate="20141116T062213Z">
         <seg>Ant 属性也可作为一个 Map。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Application plugin adds the following tasks to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104928Z" creationid="haohang" creationdate="20150702T104928Z">
+        <seg>应用程序插件向 project 中添加了以下任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20745,6 +20865,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162818Z" creationid="msdx" creationdate="20141122T162706Z">
         <seg>插件的应用是&lt;s0&gt;&lt;e1&gt;幂等的&lt;/e1&gt;&lt;/s0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The application plugin adds some properties to the project, which you can use to configure its behaviour.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105251Z" creationid="haohang" creationdate="20150702T105251Z">
+        <seg>该应用程序插件将一些属性添加到 project 中，以用于配置其行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22489,6 +22617,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065342Z" creationid="msdx" creationdate="20141108T065342Z">
         <seg>因此，当未知的属性被设置时，Gradle不会构建失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These JVM arguments are applied to the &lt;c1&gt;run&lt;/c1&gt; task and also considered in the generated start scripts of your distribution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104903Z" creationid="haohang" creationdate="20150702T104903Z">
+        <seg>这些 JVM 参数会被应用于&lt;c1&gt;run&lt;/c1&gt; 任务，以及生成的 distrubution 的启动脚本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26483,6 +26619,14 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>applicationDefaultJvmArgs = [&lt;s0&gt;"-Dgreeting.language=en"&lt;/s0&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104915Z" creationid="haohang" creationdate="20150702T104915Z">
+        <seg>applicationDefaultJvmArgs = [&lt;s0&gt;"-Dgreeting.language=en"&lt;/s0&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>applicationName = &lt;s17&gt;"customear"&lt;/s17&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142900Z" creationid="msdx" creationdate="20150504T142900Z">
@@ -30337,6 +30481,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>installApp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105052Z" creationid="haohang" creationdate="20150702T105052Z">
+        <seg>installApp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>installCustomDist</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031312Z" creationid="haohang" creationdate="20150701T031312Z">
@@ -33137,6 +33289,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>run</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105009Z" creationid="haohang" creationdate="20150702T105009Z">
+        <seg>run</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>run.exec</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T135830Z" creationid="msdx" creationdate="20150506T135830Z">
@@ -34191,6 +34351,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150509T131602Z" creationid="msdx" creationdate="20150509T131602Z">
         <seg>standard_plugins.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>startScripts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105015Z" creationid="haohang" creationdate="20150702T105015Z">
+        <seg>startScripts</seg>
       </tuv>
     </tu>
     <tu>
