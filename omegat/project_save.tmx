@@ -5126,6 +5126,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>8.1. What is dependency management?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100752Z" creationid="haohang" creationdate="20150703T100752Z">
+        <seg>8.1. 什么是依赖管理？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>8.2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163536Z" creationid="msdx" creationdate="20141109T163536Z">
@@ -6310,6 +6318,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;new&lt;/s1&gt; File(docs, &lt;s2&gt;"readme.txt"&lt;/s2&gt;).write(&lt;s3&gt;"Read me!"&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100427Z" creationid="haohang" creationdate="20150703T100427Z">
+        <seg>&lt;s1&gt;new&lt;/s1&gt; File(docs, &lt;s2&gt;"readme.txt"&lt;/s2&gt;).write(&lt;s3&gt;"Read me!"&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;throw&lt;/s1&gt; &lt;s2&gt;new&lt;/s2&gt; RuntimeException()
 }
 task taskY &lt;&lt; {</seg>
@@ -6946,6 +6962,36 @@ Total time: 1 secs</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055753Z" creationid="msdx" creationdate="20141111T055753Z">
         <seg>&gt; gradle disableMe
 :disableMe SKIPPED
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle distZip
+:createDocs
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar
+:startScripts
+:distZip
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100713Z" creationid="haohang" creationdate="20150703T100713Z">
+        <seg>&gt; gradle distZip
+:createDocs
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar
+:startScripts
+:distZip
 
 BUILD SUCCESSFUL
 
@@ -8866,6 +8912,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054756Z" creationid="msdx" creationdate="20141108T054756Z">
         <seg>通过添加属性所要求特殊的语法，Gradle 可以在你试图设置 （预定义的或额外的） 的属性，但该属性拼写错误或不存在时 fail fast。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By specifying that the distribution should include the task's output files (see &lt;a0&gt;Section 15.9.1, “Declaring a task's inputs and outputs”&lt;/a0&gt;), Gradle knows that the task that produces the files must be invoked before the distribution can be assembled and will take care of this for you.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100647Z" creationid="haohang" creationdate="20150703T100440Z">
+        <seg>通过指定分布包应包括的任务的输出文件 （见&lt;a0&gt;15.9.1章，“声明任务的输入和输出”&lt;/a0&gt;），Gradle 将知道在组装 distribution 前哪些生产文件的任务必须被调用，并且会为你处理好。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12060,6 +12114,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 45.4. Include output from other tasks in the application distribution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100421Z" creationid="haohang" creationdate="20150703T100421Z">
+        <seg>示例 45.4. 在应用程序的分发中包含其他任务的输出文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 45.5. Automatically creating files for distribution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100700Z" creationid="haohang" creationdate="20150703T100700Z">
+        <seg>示例 45.5. 自动创建用于分发的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -14500,6 +14570,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If your project generates files to be included in the distribution, e.g. documentation, you can add these files to the distribution by adding to the &lt;c0&gt;applicationDistribution&lt;/c0&gt; copy spec.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100401Z" creationid="haohang" creationdate="20150703T100401Z">
+        <seg>如果你的项目生成的文件中要在 distrubution 中，例如文档，你可以通过把它们添加到&lt;c0&gt;applicationDistribution&lt;/c0&gt;复制规范，来将这些文件添加到 distribution 中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If your proxy requires NTLM authentication, you may need to provide the authentication domain as well as the username and password.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T142430Z" creationid="msdx" creationdate="20141121T142415Z">
@@ -16577,6 +16655,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055757Z" creationid="msdx" creationdate="20141111T055749Z">
         <seg>&lt;s0&gt; &lt;c1&gt;Gradle disableMe&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle distZip&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100710Z" creationid="haohang" creationdate="20150703T100710Z">
+        <seg>&lt;s0&gt; &lt;c1&gt;gradle distZip&lt;/c1&gt;&lt;/s0&gt;的输出</seg>
       </tuv>
     </tu>
     <tu>
@@ -23061,6 +23147,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This chapter introduces some of the basics of dependency management in Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T101013Z" creationid="haohang" creationdate="20150703T100715Z">
+        <seg>本章介绍了 Gradle 依赖管理的一些基础知识。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This chapter introduces the basics of the Gradle command-line.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141212T070815Z" creationid="msdx" creationdate="20141212T070736Z">
@@ -28279,6 +28373,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def docs = file(&lt;s0&gt;"$buildDir/docs"&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100424Z" creationid="haohang" creationdate="20150703T100424Z">
+        <seg>def docs = file(&lt;s0&gt;"$buildDir/docs"&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def height = mountain.height[&lt;s6&gt;0&lt;/s6&gt;].text()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060328Z" creationid="msdx" creationdate="20141111T060328Z">
@@ -28671,6 +28773,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T033829Z" creationid="msdx" creationdate="20141030T033829Z">
         <seg>docs.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>docs.mkdirs()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100425Z" creationid="haohang" creationdate="20150703T100425Z">
+        <seg>docs.mkdirs()</seg>
       </tuv>
     </tu>
     <tu>
@@ -30751,6 +30861,16 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>into &lt;s4&gt;"docs"&lt;/s4&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100432Z" creationid="haohang" creationdate="20150703T100432Z">
+        <seg>into &lt;s4&gt;"docs"&lt;/s4&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>into &lt;s4&gt;'some-dir'&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134203Z" creationid="msdx" creationdate="20141113T134203Z">
@@ -31697,6 +31817,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>more_about_tasks.html#sec:task_inputs_outputs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100435Z" creationid="haohang" creationdate="20150703T100435Z">
+        <seg>more_about_tasks.html#sec:task_inputs_outputs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>more_about_tasks.html#sec:the_idea_behind_gradle_tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T030359Z" creationid="msdx" creationdate="20150501T030359Z">
@@ -31933,6 +32061,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T061314Z" creationid="msdx" creationdate="20141111T061314Z">
         <seg>outputs.dir destDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>outputs.dir docs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100424Z" creationid="haohang" creationdate="20150703T100424Z">
+        <seg>outputs.dir docs</seg>
       </tuv>
     </tu>
     <tu>
@@ -34567,6 +34703,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task createDocs {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100422Z" creationid="haohang" creationdate="20150703T100422Z">
+        <seg>task createDocs {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task disableMe &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055744Z" creationid="msdx" creationdate="20141111T055744Z">
@@ -35980,6 +36124,20 @@ sourceSets.all {</seg>
 
 &lt;s2&gt;// Iterate over the source sets&lt;/s2&gt;
 sourceSets.all {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+applicationDistribution.from(createDocs) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100429Z" creationid="haohang" creationdate="20150703T100429Z">
+        <seg>}
+}
+
+applicationDistribution.from(createDocs) {</seg>
       </tuv>
     </tu>
     <tu>
