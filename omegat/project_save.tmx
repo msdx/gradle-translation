@@ -7352,8 +7352,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Above copying the starting scripts to the &lt;c5&gt;bin&lt;/c5&gt; dir and necessary jars to &lt;c6&gt;lib&lt;/c6&gt; in the distribution, all of the files from the &lt;c7&gt;src/dist&lt;/c7&gt; directory are also copied.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T054702Z" creationid="haohang" creationdate="20150703T054702Z">
-        <seg>Above copying the starting scripts to the &lt;c5&gt;bin&lt;/c5&gt; dir and necessary jars to &lt;c6&gt;lib&lt;/c6&gt; in the distribution, all of the files from the &lt;c7&gt;src/dist&lt;/c7&gt; directory are also copied.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100214Z" creationid="haohang" creationdate="20150703T054702Z">
+        <seg>以上在 distribution 中将启动脚本复制到&lt;c5&gt;bin&lt;/c5&gt;目录，并且将必要的 jar 文件复制到&lt;c6&gt;lib&lt;/c6&gt;目录，所有在&lt;c7&gt;src/dist&lt;/c7&gt;目录的文件也会被复制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23623,8 +23623,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>This specification is used by the &lt;c3&gt;installApp&lt;/c3&gt; and &lt;c4&gt;distZip&lt;/c4&gt; tasks as the specification of what is to be include in the distribution.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T033752Z" creationid="haohang" creationdate="20150703T033752Z">
-        <seg>This specification is used by the &lt;c3&gt;installApp&lt;/c3&gt; and &lt;c4&gt;distZip&lt;/c4&gt; tasks as the specification of what is to be include in the distribution.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100012Z" creationid="haohang" creationdate="20150703T033752Z">
+        <seg>这个描述在 &lt;c3&gt;installApp&lt;/c3&gt; 和 &lt;c4&gt;distZip&lt;/c4&gt; 任务中会用到，作为这个distribution 都包含了什么内容的描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23929,6 +23929,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T153142Z" creationid="msdx" creationdate="20141109T153142Z">
         <seg>为了提高响应速度，默认情况下 Gradle 会缓存所有已编译的脚本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To include any static files in the distribution, simply arrange them in the &lt;c8&gt;src/dist&lt;/c8&gt; directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100243Z" creationid="haohang" creationdate="20150703T100243Z">
+        <seg>如果要在 distribution 中包括任何的静态文件，只需要把它们放在&lt;c8&gt;src/dist&lt;/c8&gt;目录。</seg>
       </tuv>
     </tu>
     <tu>
