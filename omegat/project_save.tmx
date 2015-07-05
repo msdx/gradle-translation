@@ -4910,6 +4910,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>46.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150705T084511Z" creationid="haohang" creationdate="20150705T084511Z">
+        <seg>46.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162153Z" creationid="msdx" creationdate="20141109T162153Z">
@@ -12126,6 +12134,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100700Z" creationid="haohang" creationdate="20150703T100700Z">
         <seg>示例 45.5. 自动创建用于分发的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 46.1. Using the java library distribution plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150705T084550Z" creationid="haohang" creationdate="20150705T084550Z">
+        <seg>示例 46.1. 使用 Java 库分发插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 46.2. Configure the distribution name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150705T084601Z" creationid="haohang" creationdate="20150705T084601Z">
+        <seg>示例 46.2. 配置分发的名称</seg>
       </tuv>
     </tu>
     <tu>
@@ -20299,6 +20323,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java library distribution plugin adds support for building a distribution ZIP for a Java library.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150705T084424Z" creationid="haohang" creationdate="20150705T084424Z">
+        <seg>Java 库分布插件为一个 Java library 添加了构建一个分发 ZIP 的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Java library distribution plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T140159Z" creationid="msdx" creationdate="20150506T140159Z">
@@ -21375,6 +21407,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045651Z" creationid="Administrator" creationdate="20150427T045651Z">
         <seg>该目录用于缓存源代码的依赖信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The distribution contains the JAR file for the library and its dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150705T084508Z" creationid="haohang" creationdate="20150705T084508Z">
+        <seg>该分发包含了 library 和它的依赖的 JAR 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23987,6 +24027,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To define the name for the distribution you have to set the &lt;c0&gt;baseName&lt;/c0&gt; property as shown below:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150705T084552Z" creationid="haohang" creationdate="20150705T084552Z">
+        <seg>To define the name for the distribution you have to set the &lt;c0&gt;baseName&lt;/c0&gt; property as shown below:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To do this, you need to define a custom configuration for the classpath, then add some dependencies to the configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060440Z" creationid="msdx" creationdate="20141116T060440Z">
@@ -24231,6 +24279,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T134200Z" creationid="msdx" creationdate="20150505T134200Z">
         <seg>要使用 JDepend 插件，请在构建脚本中包含以下语句：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the Java library distribution plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150705T084524Z" creationid="haohang" creationdate="20150705T084524Z">
+        <seg>要使用 Java 分发插件，请在构建脚本中加入：</seg>
       </tuv>
     </tu>
     <tu>
@@ -27145,6 +27201,14 @@ task myZip(type: Zip) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java-library-distribution'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150705T084551Z" creationid="haohang" creationdate="20150705T084551Z">
+        <seg>apply plugin: &lt;s0&gt;'java-library-distribution'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'jdepend'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T134208Z" creationid="msdx" creationdate="20150505T134208Z">
@@ -27415,6 +27479,14 @@ task fooJar(type: Jar) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160146Z" creationid="msdx" creationdate="20141113T160146Z">
         <seg>baseName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>baseName = &lt;s0&gt;'my-name'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150705T084611Z" creationid="haohang" creationdate="20150705T084611Z">
+        <seg>baseName = &lt;s0&gt;'my-name'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -28717,6 +28789,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083242Z" creationid="msdx" creationdate="20150428T083242Z">
         <seg>distributions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>distributions {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150705T084608Z" creationid="haohang" creationdate="20150705T084608Z">
+        <seg>distributions {</seg>
       </tuv>
     </tu>
     <tu>
@@ -31579,6 +31659,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T103935Z" creationid="haohang" creationdate="20150702T103935Z">
         <seg>mainClassName = &lt;s0&gt;"org.gradle.sample.Main"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>main{</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150705T084609Z" creationid="haohang" creationdate="20150705T084609Z">
+        <seg>main{</seg>
       </tuv>
     </tu>
     <tu>
