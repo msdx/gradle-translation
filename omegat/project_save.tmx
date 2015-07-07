@@ -4958,6 +4958,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>47.3. Build init types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T074734Z" creationid="haohang" creationdate="20150707T074734Z">
+        <seg>47.3. 多个构建初始化类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162153Z" creationid="msdx" creationdate="20141109T162153Z">
@@ -7960,6 +7968,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010127Z" creationid="Administrator" creationdate="20150426T010127Z">
         <seg>项目中的所有归档项目，包括&lt;c0&gt;jar&lt;/c0&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All build setup types include the setup of the Gradle Wrapper.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T074654Z" creationid="haohang" creationdate="20150707T074654Z">
+        <seg>所有构建安装类型都包括 Gradle Wrapper 的安装。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12834,6 +12850,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, it will infer a type value of "&lt;c1&gt;pom&lt;/c1&gt;" if it finds a &lt;c2&gt;pom.xml&lt;/c2&gt; to convert to a Gradle build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T074414Z" creationid="haohang" creationdate="20150707T074414Z">
+        <seg>例如，如果它发现&lt;c2&gt;pom.xml&lt;/c2&gt;，它将推断一个“&lt;c1&gt;pom&lt;/c1&gt;”的类型值，以转换为 Gradle 构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, setting the &lt;c0&gt;skip&lt;/c0&gt; property to &lt;c1&gt;true&lt;/c1&gt; prevents a project (and its subprojects) from being analyzed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091705Z" creationid="msdx" creationdate="20150512T091705Z">
@@ -12870,6 +12894,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T022949Z" creationid="msdx" creationdate="20141110T021240Z">
         <seg>例如，在表达式中不能用这种关键字风格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, to create a Java library project simply execute: &lt;c3&gt;gradle init --type java-library&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T074237Z" creationid="haohang" creationdate="20150707T074237Z">
+        <seg>例如，要创建一个 Java library 项目，只需执行: &lt;c3&gt;gradle init --type java-library&lt;/c3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14306,6 +14338,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a &lt;c0&gt;--type&lt;/c0&gt; parameter is not supplied, Gradle will attempt to infer the type from the environment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T074323Z" creationid="haohang" creationdate="20150707T074323Z">
+        <seg>如果没有提供 &lt;c0&gt;--type&lt;/c0&gt; 参数，Gradle 将尝试从当前环境来推断类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a &lt;c0&gt;groovy(-indy)&lt;/c0&gt; Jar is found on &lt;c1&gt;classpath&lt;/c1&gt;, and the project has at least one repository declared, a corresponding &lt;c2&gt;groovy(-indy)&lt;/c2&gt; repository dependency will be added to &lt;c3&gt;groovyClasspath&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T092108Z" creationid="msdx" creationdate="20150429T092108Z">
@@ -14470,6 +14510,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T063306Z" creationid="msdx" creationdate="20141111T063227Z">
         <seg>如果任务成功完成，Gradle 将对输出进行一次快照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the type could not be inferred, the type "&lt;c0&gt;basic&lt;/c0&gt;" will be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T074559Z" creationid="haohang" creationdate="20150707T074502Z">
+        <seg>如果无法推断类型，将使用“&lt;c0&gt;basic&lt;/c0&gt;”类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22687,6 +22735,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015719Z" creationid="Administrator" creationdate="20150428T015719Z">
         <seg>test任务提供了一个&lt;a0&gt;&lt;c1&gt;Test.getDebug()&lt;/c1&gt;&lt;/a0&gt;属性，可以设置为启动，使JVM在执行测试之前，等待一个debugger连接到它的5005端口上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The type is specified by supplying a &lt;c2&gt;--type&lt;/c2&gt; argument value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T074101Z" creationid="haohang" creationdate="20150707T074101Z">
+        <seg>类型通过提供一个 &lt;c2&gt;--type&lt;/c2&gt; 参数值指定。</seg>
       </tuv>
     </tu>
     <tu>
