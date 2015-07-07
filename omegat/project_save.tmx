@@ -4974,6 +4974,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>47.3.3. "&lt;c0&gt;scala-library&lt;/c0&gt;"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094320Z" creationid="haohang" creationdate="20150707T094320Z">
+        <seg>47.3.3. “&lt;c0&gt;scala-library&lt;/c0&gt;”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>47.3. Build init types</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T074825Z" creationid="haohang" creationdate="20150707T074734Z">
@@ -9900,6 +9908,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Contains a sample class and unit test, if there are no existing source or test files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094311Z" creationid="haohang" creationdate="20150707T094311Z">
+        <seg>如果不存在源文件或测试文件，会包含一个示例类和单元测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Contains all &lt;c0&gt;.g&lt;/c0&gt; found in the ANTLR source directories, and excludes all other types of files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T102848Z" creationid="haohang" creationdate="20150625T102848Z">
@@ -14010,6 +14026,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Has directories in the conventional locations for source code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094234Z" creationid="haohang" creationdate="20150707T094234Z">
+        <seg>在源代码中的约定位置有目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Have a look at &lt;a0&gt;&lt;c1&gt;TaskContainer&lt;/c1&gt;&lt;/a0&gt; for more options for locating tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T082612Z" creationid="msdx" creationdate="20141110T082202Z">
@@ -15419,6 +15443,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It has the following features:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094124Z" creationid="haohang" creationdate="20150707T094124Z">
+        <seg>它具有以下特点：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It holds all global configuration, most importantly server and database connection settings.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091221Z" creationid="msdx" creationdate="20150512T091221Z">
@@ -15591,6 +15623,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124038Z" creationid="msdx" creationdate="20141111T124017Z">
         <seg>它充分利用了类型系统，更具有表现力而且易于维护。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It must be explicitly specified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094117Z" creationid="haohang" creationdate="20150707T094117Z">
+        <seg>它必须显式指定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19659,10 +19699,26 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The "&lt;c0&gt;java-library&lt;/c0&gt;" build init type is not inferable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094114Z" creationid="haohang" creationdate="20150707T094114Z">
+        <seg>“&lt;c0&gt;Java-library&lt;/c0&gt;”构建初始化类型不是可推断的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The "&lt;c0&gt;pom&lt;/c0&gt;" type can be used to convert an Apache Maven build to a Gradle build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T081827Z" creationid="haohang" creationdate="20150707T081827Z">
         <seg>“&lt;c0&gt;pom&lt;/c0&gt;”类型可以被用于把 Apache Maven 构建转换为 Gradle 构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The "&lt;c0&gt;scala-library&lt;/c0&gt;" build init type is not inferable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094333Z" creationid="haohang" creationdate="20150707T094333Z">
+        <seg>“&lt;c0&gt;scala-library&lt;/c0&gt;”构建初始化类型不是可推断的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25091,10 +25147,50 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Uses &lt;a0&gt;JUnit&lt;/a0&gt; for testing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094202Z" creationid="haohang" creationdate="20150707T094202Z">
+        <seg>使用&lt;a0&gt;JUnit&lt;/a0&gt;测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uses Scala 2.10</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094353Z" creationid="haohang" creationdate="20150707T094353Z">
+        <seg>使用 Scala 2.10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Uses effective POM and effective settings (support for POM inheritance, dependency management, properties)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T093331Z" creationid="haohang" creationdate="20150707T093331Z">
         <seg>使用有效的 POM 和有效设置（支持 POM 继承、 依赖管理、 属性）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uses the " &lt;c0&gt;mavenCentral()&lt;/c0&gt; dependency repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094155Z" creationid="haohang" creationdate="20150707T094155Z">
+        <seg>使用“&lt;c0&gt;mavenCentral()&lt;/c0&gt;”依赖仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uses the "&lt;c0&gt;java&lt;/c0&gt;" plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094134Z" creationid="haohang" creationdate="20150707T094134Z">
+        <seg>使用“&lt;c0&gt;java&lt;/c0&gt;”插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uses the "&lt;c0&gt;scala&lt;/c0&gt;" plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094348Z" creationid="haohang" creationdate="20150707T094348Z">
+        <seg>使用“&lt;c0&gt;scala&lt;/c0&gt;”插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -30689,6 +30785,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://junit.org</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094156Z" creationid="haohang" creationdate="20150707T094156Z">
+        <seg>http://junit.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://manpages.ubuntu.com/manpages/gutsy/man1/notify-send.1.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T062801Z" creationid="haohang" creationdate="20150628T062801Z">
@@ -30789,6 +30893,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T155005Z" creationid="msdx" creationdate="20150430T155005Z">
         <seg>http://www.scala-lang.org/docu/files/tools/fsc.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.scalatest.org</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094355Z" creationid="haohang" creationdate="20150707T094355Z">
+        <seg>http://www.scalatest.org</seg>
       </tuv>
     </tu>
     <tu>
