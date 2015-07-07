@@ -13610,6 +13610,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle plugins typically need to be &lt;e0&gt;applied&lt;/e0&gt; to a project before they can be used (see &lt;a1&gt;Section 21.1, “Applying plugins”&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T071049Z" creationid="haohang" creationdate="20150707T071040Z">
+        <seg>Gradle 插件通常需要被&lt;e0&gt;应用&lt;/e0&gt;于 project 中才可以使用（见&lt;a1&gt;第 21.1节，"应用插件"&lt;/a1&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle properties and system properties</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T164931Z" creationid="msdx" creationdate="20141109T164931Z">
@@ -15439,6 +15447,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015104Z" creationid="Administrator" creationdate="20150428T015104Z">
         <seg>如果&lt;c1&gt;ignoreFailures&lt;/c1&gt;为 false，并且有测试不通过，那它会停止继续构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It supports creating brand new projects of different types as well as converting existing builds (e.g. An Apache Maven build) to be Gradle builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T071001Z" creationid="haohang" creationdate="20150707T071001Z">
+        <seg>它支持创建不同类型的全新项目，以及将现有的构建 (如 Apache Maven 构建) 转换成 Gradle 构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19843,6 +19859,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Build Init plugin is an automatically applied plugin, which means you do not need to apply it explicitly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T071131Z" creationid="haohang" creationdate="20150707T071042Z">
+        <seg>构建初始化插件是一个自动应用的插件，这意味着您不需要显式地应用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Build Init plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T070705Z" creationid="haohang" creationdate="20150707T070705Z">
@@ -20111,6 +20135,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T133604Z" creationid="msdx" creationdate="20150505T133604Z">
         <seg>FindBugs 插件使用&lt;a0&gt;FindBugs&lt;/a0&gt;对项目的 Java 源文件执行质量检查，并从检查结果中生成报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gradle Build Init plugin can be used to bootstrap the process of creating a new Gradle build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T070837Z" creationid="haohang" creationdate="20150707T070837Z">
+        <seg>Gradle 构建初始化插件可以用于引导创建一个新的 Gradle 构建的过程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22851,6 +22883,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is no need to create a “stub” &lt;c3&gt;build.gradle&lt;/c3&gt; file in order to apply the plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T071243Z" creationid="haohang" creationdate="20150707T071243Z">
+        <seg>There is no need to create a “stub” &lt;c3&gt;build.gradle&lt;/c3&gt; file in order to apply the plugin.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Therefore you can't use the &lt;c5&gt;-P&lt;/c5&gt; option.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T141907Z" creationid="msdx" creationdate="20141109T141839Z">
@@ -24487,6 +24527,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T064833Z" creationid="msdx" creationdate="20141030T064833Z">
         <seg>要使用groovy编译任务，还必须声明要使用的Groovy版本以及从哪里获取Groovy库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the plugin, simply execute the task named &lt;c2&gt;init&lt;/c2&gt; where you would like to create the Gradle build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T071253Z" creationid="haohang" creationdate="20150707T071240Z">
+        <seg>如果要使用该插件，只需要在你想要的地方，执行名为&lt;c2&gt;init&lt;/c2&gt; 的任务，就可以创建 Gradle 构建。</seg>
       </tuv>
     </tu>
     <tu>
