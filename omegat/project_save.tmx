@@ -5006,6 +5006,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>48.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012639Z" creationid="haohang" creationdate="20150710T012639Z">
+        <seg>48.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>48.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012905Z" creationid="haohang" creationdate="20150710T012905Z">
+        <seg>48.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162153Z" creationid="msdx" creationdate="20141109T162153Z">
@@ -6948,6 +6964,22 @@ Pinging: Server1</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T065022Z" creationid="msdx" creationdate="20141111T065022Z">
         <seg>&gt; gradle -q pingServer1
 Pinging: Server1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q printProperties
+3.1.0.RELEASE
+build@master.org
+main
+plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012944Z" creationid="haohang" creationdate="20150710T012944Z">
+        <seg>&gt; gradle -q printProperties
+3.1.0.RELEASE
+build@master.org
+main
+plugin</seg>
       </tuv>
     </tu>
     <tu>
@@ -19459,6 +19491,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 48.1. Wrapper plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012927Z" creationid="haohang" creationdate="20150710T012927Z">
+        <seg>表 48.1. Wrapper 插件 - 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tar</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T030853Z" creationid="haohang" creationdate="20150701T030853Z">
@@ -23059,6 +23099,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The wrapper plugin adds the following tasks to the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012913Z" creationid="haohang" creationdate="20150710T012913Z">
+        <seg>Wrapper 插件向project 中添加了以下任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The wrapper plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T095218Z" creationid="msdx" creationdate="20150503T094854Z">
@@ -23631,6 +23679,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T160455Z" creationid="msdx" creationdate="20141105T160445Z">
         <seg>它也对要添加到收藏夹的命令提供了先去尝试的地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This applies the plugin if no task named &lt;c2&gt;wrapper&lt;/c2&gt; is already defined in the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012903Z" creationid="haohang" creationdate="20150710T012903Z">
+        <seg>如果在构建中已没有定义名为 &lt;c2&gt;wrapper&lt;/c2&gt; 的任务，将会应用该插件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25983,6 +26039,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T012755Z" creationid="msdx" creationdate="20141111T012610Z">
         <seg>目前使用这些规则仍有可能出现&lt;c0&gt;taskA&lt;/c0&gt;执行而&lt;c1&gt;taskB&lt;/c1&gt; 没有执行，或者&lt;c0&gt;taskB&lt;/c0&gt;执行而&lt;c1&gt;taskA&lt;/c1&gt; 没有执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Without modifying the &lt;c0&gt;build.gradle&lt;/c0&gt; file, the wrapper plugin can be auto-applied to the rootproject of the current build by running &lt;c1&gt;gradle wrapper&lt;/c1&gt; from the commandline.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012800Z" creationid="haohang" creationdate="20150710T012800Z">
+        <seg>不需要修改&lt;c0&gt;build.gradle&lt;/c0&gt;文件，该 wrapper 插件可以通过从命令行运行&lt;c1&gt;gradle wrapper&lt;/c1&gt;，自动应用到当前构建的 rootproject 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32963,6 +33027,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>plugin {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012934Z" creationid="haohang" creationdate="20150710T012934Z">
+        <seg>plugin {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>plugins.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T031528Z" creationid="msdx" creationdate="20141119T031528Z">
@@ -33545,6 +33617,14 @@ println ant.references[&lt;s0&gt;'antPath'&lt;/s0&gt;]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println emailNotification</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012940Z" creationid="haohang" creationdate="20150710T012940Z">
+        <seg>println emailNotification</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println envProjectProp</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151103Z" creationid="msdx" creationdate="20141109T151103Z">
@@ -33701,6 +33781,14 @@ println project.name</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151130Z" creationid="msdx" creationdate="20141123T151130Z">
         <seg>println relativePath(processResources.destinationDir)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println springVersion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012939Z" creationid="haohang" creationdate="20150710T012939Z">
+        <seg>println springVersion</seg>
       </tuv>
     </tu>
     <tu>
@@ -34135,6 +34223,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T050715Z" creationid="msdx" creationdate="20141108T050715Z">
         <seg>purpose = &lt;s3&gt;"production"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>purpose = &lt;s4&gt;"test"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012931Z" creationid="haohang" creationdate="20150710T012931Z">
+        <seg>purpose = &lt;s4&gt;"test"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>purpose = &lt;s5&gt;"production"&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012937Z" creationid="haohang" creationdate="20150710T012937Z">
+        <seg>purpose = &lt;s5&gt;"production"&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -35039,6 +35143,16 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T152030Z" creationid="msdx" creationdate="20150513T065814Z">
         <seg>sourceSets.main.runtimeClasspath （过滤为仅包括文件 ；如果有必要会加上 &lt;c0&gt;rt.jar&lt;/c0&gt;）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceSets.matching { it.purpose == &lt;s6&gt;"production"&lt;/s6&gt; }.each { println it.name }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012941Z" creationid="haohang" creationdate="20150710T012941Z">
+        <seg>sourceSets.matching { it.purpose == &lt;s6&gt;"production"&lt;/s6&gt; }.each { println it.name }
+}</seg>
       </tuv>
     </tu>
     <tu>
