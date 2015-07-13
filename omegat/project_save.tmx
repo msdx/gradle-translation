@@ -718,10 +718,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.reporting.GenerateBuildDashboard.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100312Z" creationid="haohang" creationdate="20150713T100312Z">
+        <seg>../dsl/org.gradle.api.reporting.GenerateBuildDashboard.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.reporting.Reporting.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T131640Z" creationid="msdx" creationdate="20150506T131640Z">
         <seg>../dsl/org.gradle.api.reporting.Reporting.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.reporting.ReportingExtension.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100450Z" creationid="haohang" creationdate="20150713T100450Z">
+        <seg>../dsl/org.gradle.api.reporting.ReportingExtension.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -5026,6 +5042,38 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T095144Z" creationid="haohang" creationdate="20150713T095144Z">
         <seg>49.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>49.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100235Z" creationid="haohang" creationdate="20150713T100235Z">
+        <seg>49.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>49.3. Project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100337Z" creationid="haohang" creationdate="20150713T100337Z">
+        <seg>49.3. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>49.4. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100430Z" creationid="haohang" creationdate="20150713T100430Z">
+        <seg>49.4. 依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>49.5. Configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100449Z" creationid="haohang" creationdate="20150713T100443Z">
+        <seg>49.5. 配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -12970,6 +13018,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, &lt;s2&gt;&lt;c3&gt;gradle buildDashboard build&lt;/c3&gt;&lt;/s2&gt; will generate a dashboard for all of the reporting tasks that are dependents of the &lt;c4&gt;build&lt;/c4&gt; task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100232Z" creationid="haohang" creationdate="20150713T100232Z">
+        <seg>例如， &lt;s2&gt; &lt;c3&gt;gradle buildDashboard build&lt;/c3&gt;&lt;/s2&gt; 将为 &lt;c4&gt;build&lt;/c4&gt;任务 所依赖的所有报告任务生成一个 dashboard。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, a Groovy class can extend a Java class that in turn extends a Groovy class.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T071147Z" creationid="msdx" creationdate="20150429T071147Z">
@@ -13346,6 +13402,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>GenerateBuildDashboard</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100334Z" creationid="haohang" creationdate="20150713T100334Z">
+        <seg>GenerateBuildDashboard</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>GenerateEclipseClasspath</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T004452Z" creationid="haohang" creationdate="20150603T004452Z">
@@ -13508,8 +13572,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Generates build dashboard report.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T040041Z" creationid="Administrator" creationdate="20150425T040041Z">
-        <seg>生成构建的主控面板的报表。</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100408Z" creationid="Administrator" creationdate="20150425T040041Z">
+        <seg>生成 build dashboard 报告。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15823,6 +15887,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152829Z" creationid="msdx" creationdate="20150429T152829Z">
         <seg>它还将用于分别获取Scala 编译器及 Scaladoc 工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It will only aggregate the reporting tasks that are independently being executed as part of the build run.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T095746Z" creationid="haohang" creationdate="20150713T095746Z">
+        <seg>它只聚合作为构建的一部分正在独立运行的报告任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19539,6 +19611,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 49.1. Build Dashboard plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100309Z" creationid="haohang" creationdate="20150713T100309Z">
+        <seg>表 49.1. Build Dashboard 插件 - 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tar</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T030853Z" creationid="haohang" creationdate="20150701T030853Z">
@@ -20315,10 +20395,34 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Build Dashboard plugin adds the following task to the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100248Z" creationid="haohang" creationdate="20150713T100248Z">
+        <seg>Build Dashboard 插件向项目中添加以下任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Build Dashboard plugin can be used to generate a single HTML dashboard that provides a single point of access to all of the reports generated by a build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T095141Z" creationid="haohang" creationdate="20150710T013225Z">
         <seg>Build Dashboard 插件可以用于生成单个 HTML dashboard，提供对由构建生成的所有报告的单点访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Build Dashboard plugin does not define any dependency configurations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100441Z" creationid="haohang" creationdate="20150713T100441Z">
+        <seg>Build Dashboard 插件没有定义任何的依赖配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Build Dashboard plugin does not require any particular project layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100426Z" creationid="haohang" creationdate="20150713T100339Z">
+        <seg>Build Dashboard 插件不需要任何特定的项目布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24747,6 +24851,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To generate the build dashboard, simply include the &lt;c1&gt;buildDashboard&lt;/c1&gt; task in the list of tasks to execute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100107Z" creationid="haohang" creationdate="20150713T100107Z">
+        <seg>如果要生成 build dashboard，只需在要执行的任务列表中包含 &lt;c1&gt;buildDashboard&lt;/c1&gt; 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To get started, apply the JaCoCo plugin to the project you want to calculate code coverage for.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130208Z" creationid="msdx" creationdate="20150506T130208Z">
@@ -26611,6 +26723,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can influence the location of build dashboard plugin generation via &lt;a0&gt;&lt;c1&gt;ReportingExtension&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100620Z" creationid="haohang" creationdate="20150713T100620Z">
+        <seg>你可以通过 &lt;a0&gt;&lt;c1&gt;ReportingExtension&lt;/c1&gt;&lt;/a0&gt; 修改 build dashboard 插件生成内容的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can launch the application in debug mode with &lt;s2&gt;&lt;c3&gt;gradle run --debug-jvm&lt;/c3&gt;&lt;/s2&gt; (see &lt;a4&gt;&lt;c5&gt;JavaExec.setDebug()&lt;/c5&gt;&lt;/a4&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104251Z" creationid="haohang" creationdate="20150702T104251Z">
@@ -28447,6 +28567,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083228Z" creationid="msdx" creationdate="20150428T083228Z">
         <seg>build&lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>buildDashboard</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100310Z" creationid="haohang" creationdate="20150713T100310Z">
+        <seg>buildDashboard</seg>
       </tuv>
     </tu>
     <tu>
