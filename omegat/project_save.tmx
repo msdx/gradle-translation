@@ -6208,6 +6208,22 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Full Compatibility with Maven and Ivy&lt;/e1&gt;&lt;/s0&gt;: If you have defined dependencies in a Maven POM or an Ivy file, Gradle provide seamless integration with a range of popular build tools.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T021629Z" creationid="haohang" creationdate="20150716T021629Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;完全兼容 Maven 和 Ivy &lt;/e1&gt;&lt;/s0&gt;：如果你已经在 Maven POM 文件或 Ivy 文件中定义了依赖，Gradle 提供了一系列受欢迎的构建工具可以进行无缝集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Integration with existing dependency management infrastructure&lt;/e1&gt;&lt;/s0&gt;: Gradle is compatible with both Maven and Ivy repositories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T021716Z" creationid="haohang" creationdate="20150716T021716Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;与现有依赖管理基础结构的集成&lt;/e1&gt;&lt;/s0&gt;：Gradle 兼容 Maven 和 Ivy 仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/groovy/quickstart&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T063505Z" creationid="msdx" creationdate="20141030T061718Z">
@@ -14998,6 +15014,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144753Z" creationid="msdx" creationdate="20150428T144753Z">
         <seg>如果你把你的项目上传到仓库，这个JAR 文件会被声明为依赖描述符的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you use Archiva, Nexus, or Artifactory, Gradle is 100% compatible with all repository formats.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T021758Z" creationid="haohang" creationdate="20150716T021758Z">
+        <seg>如果你使用 Archiva， Nexus，或者是 Artifactory, Gradle 100% 兼容所有仓库的格式。</seg>
       </tuv>
     </tu>
     <tu>
