@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(But, once you've migrated, it might be a good idea to move away from a .classpath file and use Gradle's dependency management features directly.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T045300Z" creationid="haohang" creationdate="20150716T045250Z">
+        <seg>（但是，一旦你已经迁移，远离 .classpath 文件，直接使用 Gradle 的依赖管理功能会是一个好主意。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(In the case of dependency entries, this is also the default behavior.) Other sections of the &lt;c1&gt;.classpath&lt;/c1&gt; file will be either left as-is or merged.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T065611Z" creationid="haohang" creationdate="20150625T065611Z">
@@ -5106,6 +5114,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T035935Z" creationid="haohang" creationdate="20150716T035850Z">
         <seg>50.1.1. 为了迁移的灵活的依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.1.2. Dependency management and Java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T045309Z" creationid="haohang" creationdate="20150716T045309Z">
+        <seg>50.1.2. 依赖管理和 Java</seg>
       </tuv>
     </tu>
     <tu>
@@ -10946,6 +10962,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Even if your project is using a custom dependency management system or something like an Eclipse .classpath file as master data for dependency management, it is very easy to write a Gradle plugin to use this data in Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T045145Z" creationid="haohang" creationdate="20150716T045130Z">
+        <seg>即使你的项目使用一个自定义的依赖管理系统，或者是一些像 Eclipse 作为依赖管理的主数据的 .classpath 文件，那么可以很容易地写一个 Gradle 插件在 Gradle 中使用此数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Even more, this declarative language is extensible.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T035250Z" creationid="msdx" creationdate="20141101T035250Z">
@@ -13294,6 +13318,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153652Z" creationid="msdx" creationdate="20141119T153652Z">
         <seg>对于本地开发者的构建而言，这是我们最喜欢的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For migration purposes this is a common technique with Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T045207Z" creationid="haohang" creationdate="20150716T045137Z">
+        <seg>出于迁移的目的，这是在 Gradle 中的一种常用技术。</seg>
       </tuv>
     </tu>
     <tu>
