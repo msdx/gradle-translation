@@ -10164,6 +10164,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Consider the Gradle project itself, while Gradle only has a few direct, first-level dependencies, when Gradle is compiled it needs more that one hundred dependencies on the classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150720T061540Z" creationid="haohang" creationdate="20150720T061540Z">
+        <seg>考虑 Gradle 项目本身，虽然 Gradle 仅有几个直接的第一级依赖，当 编译 Gradle 时在它的类路径上会需要超过一百个的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Consider the case where another task is to consume the classes files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T094429Z" creationid="msdx" creationdate="20141124T093931Z">
@@ -17119,6 +17127,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160831Z" creationid="msdx" creationdate="20141113T160831Z">
         <seg>你经常会想要发布一个归档文件，这样就可从另一个项目中使用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On a far larger scale, Enterprise projects using Spring, Hibernate, and other libraries, alongside hundreds or thousands of internal projects can have very large dependency trees.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150720T061641Z" creationid="haohang" creationdate="20150720T061641Z">
+        <seg>On a far larger scale, Enterprise projects using Spring, Hibernate, and other libraries, alongside hundreds or thousands of internal projects can have very large dependency trees.</seg>
       </tuv>
     </tu>
     <tu>
