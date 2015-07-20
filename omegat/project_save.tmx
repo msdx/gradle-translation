@@ -15242,6 +15242,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to get rid of a first level dependency you really can't be sure which other jars you should remove.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150720T065154Z" creationid="haohang" creationdate="20150720T065154Z">
+        <seg>如果你想要摆脱第一级的依赖，你不能真正确定还有哪些 jar 文件你是需要删除的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to make this the default behavior, add &lt;c2&gt;tasks.eclipse.dependsOn(cleanEclipse)&lt;/c2&gt; to your build script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T103321Z" creationid="haohang" creationdate="20150624T103321Z">
