@@ -15122,6 +15122,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you don't model your dependencies as a hierarchical tree of first-level and second-level dependencies it is very easy to quickly lose control over an assembled mess of unstructured dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150720T061334Z" creationid="haohang" creationdate="20150720T061334Z">
+        <seg>如果你不把你的依赖作为层次结构树的第一级和第二级依赖的模型，那么在对未组织的依赖进行混乱的组装之后，就会很容易地失去控制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you don't want this transitive behavior, simply declare your &lt;c11&gt;provided&lt;/c11&gt; dependencies like &lt;c12&gt;commons-httpclient:commons-httpclient:3.0@jar&lt;/c12&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092101Z" creationid="msdx" creationdate="20150503T091943Z">
