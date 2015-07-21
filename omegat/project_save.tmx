@@ -6272,6 +6272,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;If you think version conflicts don't happen to you, think again.&lt;/e1&gt;&lt;/s0&gt; It is very common for different first-level dependencies to rely on a range of different overlapping versions for other dependencies, and the JVM doesn't yet offer an easy way to have different versions of the same jar in the classpath (see &lt;a2&gt;Section 50.1.2, “Dependency management and Java”&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T060735Z" creationid="haohang" creationdate="20150721T060735Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;If you think version conflicts don't happen to you, think again.&lt;/e1&gt;&lt;/s0&gt; It is very common for different first-level dependencies to rely on a range of different overlapping versions for other dependencies, and the JVM doesn't yet offer an easy way to have different versions of the same jar in the classpath (see &lt;a2&gt;Section 50.1.2, “Dependency management and Java”&lt;/a2&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Integration with existing dependency management infrastructure&lt;/e1&gt;&lt;/s0&gt;: Gradle is compatible with both Maven and Ivy repositories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T021716Z" creationid="haohang" creationdate="20150716T021716Z">
