@@ -5150,6 +5150,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.2.3. Resolve version conflicts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T054138Z" creationid="haohang" creationdate="20150721T054138Z">
+        <seg>50.2.3. 解决版本冲突的问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.2. Dependency Management Best Practices</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T083446Z" creationid="haohang" creationdate="20150716T083446Z">
@@ -14174,6 +14182,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T020259Z" creationid="msdx" creationdate="20141111T020259Z">
         <seg>Gradle 提供多种方式来跳过任务的执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle offers you different ways to express first-level and transitive dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T053943Z" creationid="haohang" creationdate="20150721T053943Z">
+        <seg>Gradle 向你提供了不同的方式来表达第一级的和传递的依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24923,6 +24939,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This mystery jar was a necessary transitive, fourth-level dependency that was easy to miss because no one had bothered to use managed transitive dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T053914Z" creationid="haohang" creationdate="20150721T053914Z">
+        <seg>这个神秘的 jar 包是一个必需传递的，第四级的依赖，很容易被忽略，因为没有人会费心去使用托管的传递依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This override always forces the output to be shown.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T155956Z" creationid="msdx" creationdate="20141105T155956Z">
@@ -26767,6 +26791,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T090847Z" creationid="haohang" creationdate="20150628T090847Z">
         <seg>Windows, Mac OS X, Ubuntu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With Gradle you can mix and match approaches; for example, you could store your jars in an SCM without XML descriptor files and still use transitive dependency management.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T054126Z" creationid="haohang" creationdate="20150721T054126Z">
+        <seg>通过 Gradle 你可以混合使用和适配一些方法；例如，你可以在 SCM 中存储你的 jar 包，而不需要 XML 描述符文件，并且仍然使用传递依赖管理。</seg>
       </tuv>
     </tu>
     <tu>
