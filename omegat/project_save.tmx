@@ -15186,6 +15186,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you don't use transitive dependency management, version conflicts are undetected and the often accidental order of the classpath will determine what version of a dependency will win.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T054515Z" creationid="haohang" creationdate="20150721T054515Z">
+        <seg>如果你不使用传递依赖管理，版本冲突没被发现，那么在类路径中无法预测的顺序，将导致不知道会使用哪一个版本的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you don't want this transitive behavior, simply declare your &lt;c11&gt;provided&lt;/c11&gt; dependencies like &lt;c12&gt;commons-httpclient:commons-httpclient:3.0@jar&lt;/c12&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092101Z" creationid="msdx" creationdate="20150503T091943Z">
