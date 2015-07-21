@@ -15442,6 +15442,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In a large project with 30 submodules, adding a dependency to a subproject changed the order of a classpath, swapping Spring 2.5 for an older 2.4 version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T055545Z" creationid="haohang" creationdate="20150721T055545Z">
+        <seg>在一个有30个子模块的大型项目中，向子项目添加的一个依赖改变了类路径的顺序， Spring 2.5 与老的 2.4 版本的顺序被交换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In a multi project build, &lt;c2&gt;systemProp.&lt;/c2&gt; properties set in any project except the root will be ignored.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T150501Z" creationid="msdx" creationdate="20141109T150451Z">
@@ -26767,6 +26775,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T152950Z" creationid="msdx" creationdate="20141119T064744Z">
         <seg>当可以通过 GRADLE_OPTS 或 JAVA_OPTS 在你的本地环境中配置这些选项时，如果某些设置如 JVM 内存设置， Java home， 守护进程的开/关，它们可以和你的项目在你的版本控制系统中被版本化的话，将会更有用，这样整个团队就可以使用一致的环境了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While the build continued to work, developers were starting to notice all sorts of surprising (and surprisingly awful) bugs in production.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T055631Z" creationid="haohang" creationdate="20150721T055631Z">
+        <seg>虽然可以继续构建，开发者已经开始注意到在生产中出现了各种令人惊讶（和惊人可怕）的 bug。</seg>
       </tuv>
     </tu>
     <tu>
