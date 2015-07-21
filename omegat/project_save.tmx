@@ -6274,8 +6274,8 @@ sourceSets {</seg>
       <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;If you think version conflicts don't happen to you, think again.&lt;/e1&gt;&lt;/s0&gt; It is very common for different first-level dependencies to rely on a range of different overlapping versions for other dependencies, and the JVM doesn't yet offer an easy way to have different versions of the same jar in the classpath (see &lt;a2&gt;Section 50.1.2, “Dependency management and Java”&lt;/a2&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T060735Z" creationid="haohang" creationdate="20150721T060735Z">
-        <seg>&lt;s0&gt;&lt;e1&gt;If you think version conflicts don't happen to you, think again.&lt;/e1&gt;&lt;/s0&gt; It is very common for different first-level dependencies to rely on a range of different overlapping versions for other dependencies, and the JVM doesn't yet offer an easy way to have different versions of the same jar in the classpath (see &lt;a2&gt;Section 50.1.2, “Dependency management and Java”&lt;/a2&gt;).</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T061329Z" creationid="haohang" creationdate="20150721T060735Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;如果你觉得你不会发生版本冲突，再想想。&lt;/e1&gt; &lt;/s0&gt;不同的第一级依赖，依赖于一系列不同的重叠版本的其他依赖，这种情况是很常见的，而 JVM 还不能提供简单的方法，使得能在类路径中让相同的 jar 包可以有不同的版本（请参阅&lt;a2&gt;第 50.1.2 节，“依赖管理和 Java”&lt;/a2&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14198,6 +14198,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T020259Z" creationid="msdx" creationdate="20141111T020259Z">
         <seg>Gradle 提供多种方式来跳过任务的执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle offers the following conflict resolution strategies:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T061307Z" creationid="haohang" creationdate="20150721T061307Z">
+        <seg>Gradle offers the following conflict resolution strategies:</seg>
       </tuv>
     </tu>
     <tu>
