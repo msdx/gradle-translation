@@ -15226,6 +15226,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you haven't had to deal with the curse of conflicting versions of jars on a classpath, here is a small anecdote of the fun that awaits you.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T055320Z" creationid="haohang" creationdate="20150721T055320Z">
+        <seg>如果你还没有处理过在类路径中 jar 包版本冲突的麻烦，这里有一个小趣闻等着你。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you manually define a path variable pointing to the Gradle dependency cache, IDEA will automatically replace the absolute dependency paths with this path variable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T092229Z" creationid="haohang" creationdate="20150625T092229Z">
@@ -17223,6 +17231,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150720T064248Z" creationid="haohang" creationdate="20150720T061641Z">
         <seg>在更大的规模上，使用 Spring，Hibernate和其他的库，旁边数百或数千个内部项目的企业应用，也有非常大的依赖树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On a large project with many developers changing dependencies, successful builds will be few and far between as the order of dependencies may directly affect whether a build succeeds or fails (or whether a bug appears or disappears in production).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T055135Z" creationid="haohang" creationdate="20150721T055135Z">
+        <seg>对于许多开发人员都会更改依赖的大型项目，成功的构建将会少之又少，因为依赖的顺序可能会直接影响到构建是否成功（或者在产品中是否会出现一个 bug）。</seg>
       </tuv>
     </tu>
     <tu>
