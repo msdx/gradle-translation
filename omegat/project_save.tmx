@@ -15218,6 +15218,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you try to manage transitive dependencies yourself, the end of the story is that your build becomes brittle: no one dares to change your dependencies because the risk of breaking the build is too high.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T011734Z" creationid="haohang" creationdate="20150721T011734Z">
+        <seg>如果你尝试自己管理传递依赖，最终的结果是你的构建会变得很脆弱：没有人敢去改变你的依赖，因为破坏构建的风险太高。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you try using the daemon for your local builds it's going to be hard for you to go back to regular use of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T142229Z" creationid="msdx" creationdate="20141117T142229Z">
