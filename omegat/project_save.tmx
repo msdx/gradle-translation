@@ -7620,6 +7620,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A dynamic version can be either a version range (e.g. &lt;c2&gt;2.+&lt;/c2&gt;) or it can be a placeholder for the latest version available (e.g. &lt;c3&gt;latest.integration&lt;/c3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T011437Z" creationid="haohang" creationdate="20150722T011437Z">
+        <seg>一个动态的版本可以是一个版本范围（例如&lt;c2&gt;2.+&lt;/c2&gt;），也可以是表示可用的最新版本的占位符（例如&lt;c3&gt;latest.integration&lt;/c3&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A file collection is iterable, and can be converted to a number of other types using the &lt;c0&gt;as&lt;/c0&gt; operator.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T155653Z" creationid="msdx" creationdate="20141112T155548Z">
@@ -8556,6 +8564,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternatively, sometimes the module you request can change over time, even for the same version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T011515Z" creationid="haohang" creationdate="20150722T011515Z">
+        <seg>另外，你请求的模块随着时间推移，即使是同一版本，有时也可能改变了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, the &lt;c1&gt;beforeMerged&lt;/c1&gt; hook makes it possible to overwrite just certain parts of the existing content.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064649Z" creationid="haohang" creationdate="20150625T064649Z">
@@ -8600,6 +8616,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T123038Z" creationid="msdx" creationdate="20141111T123031Z">
         <seg>这样的资源的一个例子是，一个 web 容器会在集成测试任务前开始，并且在之后关闭，即使有些测试失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An example of this type of &lt;s0&gt;&lt;e1&gt;changing module&lt;/e1&gt;&lt;/s0&gt; is a Maven &lt;c2&gt;SNAPSHOT&lt;/c2&gt; module, which always points at the latest artifact published.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T011518Z" creationid="haohang" creationdate="20150722T011518Z">
+        <seg>An example of this type of &lt;s0&gt;&lt;e1&gt;changing module&lt;/e1&gt;&lt;/s0&gt; is a Maven &lt;c2&gt;SNAPSHOT&lt;/c2&gt; module, which always points at the latest artifact published.</seg>
       </tuv>
     </tu>
     <tu>
