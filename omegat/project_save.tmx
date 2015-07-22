@@ -518,6 +518,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.artifacts.ConfigurationContainer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075618Z" creationid="haohang" creationdate="20150722T075618Z">
+        <seg>../dsl/org.gradle.api.artifacts.ConfigurationContainer.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.artifacts.ResolutionStrategy.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T061625Z" creationid="haohang" creationdate="20150721T061625Z">
@@ -7676,6 +7684,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A project's configurations are managed by a &lt;c0&gt;configurations&lt;/c0&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075655Z" creationid="haohang" creationdate="20150722T075655Z">
+        <seg>一个项目的配置被一个 &lt;c0&gt;configurations&lt;/c0&gt; 对象所管理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A proper build system has to be designed to be flexible, and Gradle can handle any situation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T035726Z" creationid="haohang" creationdate="20150716T035726Z">
@@ -12782,6 +12798,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T095211Z" creationid="haohang" creationdate="20150713T095211Z">
         <seg>示例 49.1 使用 Build Dashboard 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.1. Definition of a configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075821Z" creationid="haohang" creationdate="20150722T075821Z">
+        <seg>示例 50.1. 一个配置的定义</seg>
       </tuv>
     </tu>
     <tu>
@@ -22563,6 +22587,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The closure you pass to the configurations object is applied against its API.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075735Z" creationid="haohang" creationdate="20150722T075735Z">
+        <seg>你传给这个 configurations 对象的闭包会通过它对应的 API 被应用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The compile task delegates to Ant's javac task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135401Z" creationid="Administrator" creationdate="20150427T135401Z">
@@ -25099,6 +25131,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is very handy for example for adding dependencies not needed for building or testing your software (e.g. additional JDBC drivers to be shipped with your distribution).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075617Z" creationid="haohang" creationdate="20150722T075617Z">
+        <seg>这是非常方便的，例如添加依赖时不需要构建或测试你的软件（比如，将会与发布的软件一起的额外的 JDBC 驱动程序）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This launching of an extra JVM on every build execution is quite expensive, which is why we highly recommend that you use the Gradle Daemon if you are specifying &lt;c0&gt;org.gradle.java.home&lt;/c0&gt; or &lt;c1&gt;org.gradle.jvmargs&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141132Z" creationid="msdx" creationdate="20141121T141132Z">
@@ -25555,6 +25595,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To access a configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075846Z" creationid="haohang" creationdate="20150722T075846Z">
+        <seg>如果要访问配置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To accommodate that place the &lt;c2&gt;META-INF/application.xml&lt;/c2&gt; in the right place inside your source folders (see the &lt;c3&gt;appDirName&lt;/c3&gt; property).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T143748Z" creationid="msdx" creationdate="20150504T143748Z">
@@ -25655,6 +25703,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T092224Z" creationid="haohang" creationdate="20150721T092224Z">
         <seg>为了解决版本冲突问题，报告依赖关系图也是很有帮助的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To define a configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075808Z" creationid="haohang" creationdate="20150722T075808Z">
+        <seg>定义一个配置：</seg>
       </tuv>
     </tu>
     <tu>
@@ -25767,6 +25823,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064756Z" creationid="haohang" creationdate="20150526T064756Z">
         <seg>要了解更多关于 instructions 的信息，可以看看&lt;a1&gt;BND tool&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To learn more about this API have a look at &lt;a1&gt;&lt;c2&gt;ConfigurationContainer&lt;/c2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075753Z" creationid="haohang" creationdate="20150722T075753Z">
+        <seg>要了解更多关于此 API 的内容，可以看看&lt;a1&gt;&lt;c2&gt;ConfigurationContainer&lt;/c2&gt;&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30077,6 +30141,16 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083215Z" creationid="msdx" creationdate="20150428T083215Z">
         <seg>compile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075824Z" creationid="haohang" creationdate="20150722T075824Z">
+        <seg>compile
+}</seg>
       </tuv>
     </tu>
     <tu>
