@@ -7628,6 +7628,46 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A dependency on a set of files on the local filesystem.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080441Z" creationid="haohang" creationdate="20150722T080441Z">
+        <seg>对本地文件系统中的一些文件的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dependency on an external module in some repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080427Z" creationid="haohang" creationdate="20150722T080346Z">
+        <seg>对一些仓库中的外部模块的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dependency on an external module, where the artifacts are located in some repository but the module meta-data is specified by the local build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080603Z" creationid="haohang" creationdate="20150722T080603Z">
+        <seg>对外部模块的依赖，该块部模块的 artifacts 存储于一些仓库中，但是模块的元数据由本地构建指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dependency on another project in the same build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080416Z" creationid="haohang" creationdate="20150722T080416Z">
+        <seg>在同一个构建中对另一个项目的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dependency on the API of the current Gradle version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080646Z" creationid="haohang" creationdate="20150722T080646Z">
+        <seg>对当前的 Gradle 版本的 API 的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A deployment descriptor with sensible defaults named &lt;c0&gt;application.xml&lt;/c0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142107Z" creationid="msdx" creationdate="20150504T142107Z">
@@ -10024,6 +10064,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150509T131753Z" creationid="msdx" creationdate="20150509T131753Z">
         <seg>Clean</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Client module dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080449Z" creationid="haohang" creationdate="20150722T080449Z">
+        <seg>客户端模块依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -13066,6 +13114,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>File dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080431Z" creationid="haohang" creationdate="20150722T080431Z">
+        <seg>文件依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>File srcDir</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160731Z" creationid="msdx" creationdate="20141112T160731Z">
@@ -14238,6 +14294,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031441Z" creationid="haohang" creationdate="20150701T031417Z">
         <seg>给定项目的名称为“&lt;c0&gt;myproject&lt;/c0&gt;”，版本为“&lt;c1&gt;1.2&lt;/c1&gt;”，运行“&lt;s2&gt;&lt;c3&gt;gradle customDistZip&lt;/c3&gt;&lt;/s2&gt;”将会产生一个名字为”&lt;c4&gt;myproject-custom-1.2.zip&lt;/c4&gt;“的 ZIP 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle API dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080634Z" creationid="haohang" creationdate="20150722T080634Z">
+        <seg>Gradle API 依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -18175,6 +18239,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044200Z" creationid="msdx" creationdate="20141108T044200Z">
         <seg>Project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Project dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080355Z" creationid="haohang" creationdate="20150722T080355Z">
+        <seg>项目依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -28371,6 +28443,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You use this kind of dependency when you want to override the meta-data for the module.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080626Z" creationid="haohang" creationdate="20150722T080626Z">
+        <seg>当你想要重写模块的元数据时，你可以使用这种类型的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You use this to declare the ANTLR dependency that you wish to use.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095538Z" creationid="haohang" creationdate="20150625T095538Z">
@@ -30727,6 +30807,22 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:api_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080630Z" creationid="haohang" creationdate="20150722T080630Z">
+        <seg>dependency_management.html#sub:api_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:client_module_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080442Z" creationid="haohang" creationdate="20150722T080442Z">
+        <seg>dependency_management.html#sub:client_module_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependency_management.html#sub:configurations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T144838Z" creationid="msdx" creationdate="20141112T144838Z">
@@ -30743,10 +30839,26 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:file_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080428Z" creationid="haohang" creationdate="20150722T080428Z">
+        <seg>dependency_management.html#sub:file_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependency_management.html#sub:module_dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080039Z" creationid="haohang" creationdate="20150722T080039Z">
         <seg>dependency_management.html#sub:module_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:project_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080348Z" creationid="haohang" creationdate="20150722T080348Z">
+        <seg>dependency_management.html#sub:project_dependencies</seg>
       </tuv>
     </tu>
     <tu>
