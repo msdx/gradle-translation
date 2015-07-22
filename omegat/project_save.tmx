@@ -9316,6 +9316,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, Gradle caches dynamic versions and changing modules for 24 hours.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T012344Z" creationid="haohang" creationdate="20150722T012344Z">
+        <seg>默认情况下，Gradle 对动态版本和变化模块的缓存时间是24小时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, Gradle redirects standard output to the &lt;c0&gt;QUIET&lt;/c0&gt; log level and standard error to the &lt;c1&gt;ERROR&lt;/c1&gt; level.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131153Z" creationid="msdx" creationdate="20141116T131153Z">
@@ -26947,6 +26955,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you resolve a &lt;s6&gt;&lt;e7&gt;changing module&lt;/e7&gt;&lt;/s6&gt;, the artifacts are named using the version you requested, but the underlying artifacts may change over time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T012307Z" creationid="haohang" creationdate="20150722T012307Z">
+        <seg>当你解析一个&lt;s6&gt;&lt;e7&gt;变化模块&lt;/e7&gt;&lt;/s6&gt;时，这个 artifacts 使用你请求的版本进行命名，但下层的 artifacts 可能随时会有变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Where does this method come from?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T040115Z" creationid="msdx" creationdate="20141108T040115Z">
@@ -27679,6 +27695,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145414Z" creationid="msdx" creationdate="20150428T145414Z">
         <seg>你可以把其他的manifest 合并到任何一个&lt;c0&gt;Manifest&lt;/c0&gt;对象中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can override the default cache modes using &lt;a0&gt;command line options&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T012411Z" creationid="haohang" creationdate="20150722T012411Z">
+        <seg>你可以使用&lt;a0&gt;命令行选项&lt;/a0&gt;重写默认的缓存模式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30481,6 +30505,22 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T013140Z" creationid="haohang" creationdate="20150710T013140Z">
         <seg>dependency_management.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:cache_command_line_options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T012309Z" creationid="haohang" creationdate="20150722T012309Z">
+        <seg>dependency_management.html#sec:cache_command_line_options</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:controlling_caching</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T012310Z" creationid="haohang" creationdate="20150722T012310Z">
+        <seg>dependency_management.html#sec:controlling_caching</seg>
       </tuv>
     </tu>
     <tu>
