@@ -5206,6 +5206,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4. How to declare your dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075957Z" creationid="haohang" creationdate="20150722T075957Z">
+        <seg>50.4. 如何声明依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -12804,8 +12812,24 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Example 50.1. Definition of a configuration</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075821Z" creationid="haohang" creationdate="20150722T075821Z">
-        <seg>示例 50.1. 一个配置的定义</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075858Z" creationid="haohang" creationdate="20150722T075821Z">
+        <seg>示例 50.1. 配置的定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.2. Accessing a configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075909Z" creationid="haohang" creationdate="20150722T075909Z">
+        <seg>示例 50.2. 访问配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.3. Configuration of a configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075929Z" creationid="haohang" creationdate="20150722T075929Z">
+        <seg>示例 50.3. 配置一个配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -12894,6 +12918,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163619Z" creationid="msdx" creationdate="20141109T163619Z">
         <seg>外部依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>External module dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080059Z" creationid="haohang" creationdate="20150722T080043Z">
+        <seg>外部模块依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -20331,6 +20363,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 50.1. Dependency types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080038Z" creationid="haohang" creationdate="20150722T080038Z">
+        <seg>表 50.1. 依赖类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tar</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T030853Z" creationid="haohang" creationdate="20150701T030853Z">
@@ -24147,6 +24187,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are several different types of dependencies that you can declare:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080029Z" creationid="haohang" creationdate="20150722T080029Z">
+        <seg>你可以声明几种不同类型的依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are several ways to get an Ant reference:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T062703Z" creationid="msdx" creationdate="20141116T062703Z">
@@ -25683,6 +25731,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To configure a configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075920Z" creationid="haohang" creationdate="20150722T075920Z">
+        <seg>配置一个配置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To configure an existing source set, you simply use one of the above access methods to set the properties of the source set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050845Z" creationid="Administrator" creationdate="20150427T050845Z">
@@ -25709,8 +25765,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>To define a configuration:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075808Z" creationid="haohang" creationdate="20150722T075808Z">
-        <seg>定义一个配置：</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075852Z" creationid="haohang" creationdate="20150722T075808Z">
+        <seg>如果要定义配置：</seg>
       </tuv>
     </tu>
     <tu>
@@ -30687,6 +30743,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:module_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080039Z" creationid="haohang" creationdate="20150722T080039Z">
+        <seg>dependency_management.html#sub:module_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependsOn pingServer1, pingServer2
 }</seg>
       </tuv>
@@ -30737,6 +30801,24 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T015507Z" creationid="msdx" creationdate="20141111T015507Z">
         <seg>description &lt;s0&gt;'Copies the resource directory to the target directory.'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>description = &lt;s0&gt;'compile classpath'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075930Z" creationid="haohang" creationdate="20150722T075930Z">
+        <seg>description = &lt;s0&gt;'compile classpath'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>description = &lt;s1&gt;'compile classpath'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075939Z" creationid="haohang" creationdate="20150722T075939Z">
+        <seg>description = &lt;s1&gt;'compile classpath'&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -31361,6 +31443,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060321Z" creationid="msdx" creationdate="20141111T060321Z">
         <seg>ext.srcFile = file(&lt;s0&gt;'mountains.xml'&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>extendsFrom compile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075936Z" creationid="haohang" creationdate="20150722T075936Z">
+        <seg>extendsFrom compile</seg>
       </tuv>
     </tu>
     <tu>
@@ -34963,6 +35053,16 @@ println ant.references[&lt;s0&gt;'antPath'&lt;/s0&gt;]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println configurations.compile.name
+println configurations[&lt;s0&gt;'compile'&lt;/s0&gt;].name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075910Z" creationid="haohang" creationdate="20150722T075910Z">
+        <seg>println configurations.compile.name
+println configurations[&lt;s0&gt;'compile'&lt;/s0&gt;].name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println emailNotification</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012940Z" creationid="haohang" creationdate="20150710T012940Z">
@@ -35775,6 +35875,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T093819Z" creationid="msdx" creationdate="20150503T093819Z">
         <seg>runtime &lt;s7&gt;":runtime:1.0"&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075935Z" creationid="haohang" creationdate="20150722T075935Z">
+        <seg>runtime {</seg>
       </tuv>
     </tu>
     <tu>
@@ -37476,6 +37584,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>transitive = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075931Z" creationid="haohang" creationdate="20150722T075931Z">
+        <seg>transitive = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>troubleshooting.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T154055Z" creationid="msdx" creationdate="20141109T154055Z">
@@ -38486,6 +38602,18 @@ task testReport(type: TestReport) {</seg>
 }
 
 task testReport(type: TestReport) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+configurations.compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075937Z" creationid="haohang" creationdate="20150722T075937Z">
+        <seg>}
+}
+configurations.compile {</seg>
       </tuv>
     </tu>
     <tu>
