@@ -15282,6 +15282,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no such module descriptor file exists, Gradle looks for a file called &lt;c3&gt;hibernate-3.0.5.jar&lt;/c3&gt; to retrieve.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035405Z" creationid="haohang" creationdate="20150724T035405Z">
+        <seg>如果不存在这样的模块描述符文件，Gradle 会查找一个&lt;c3&gt;hibernate-3.0.5.jar&lt;/c3&gt;来检索文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no tests with this pattern can be found an exception is thrown.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035632Z" creationid="Administrator" creationdate="20150428T035632Z">
@@ -15294,6 +15302,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T092342Z" creationid="haohang" creationdate="20150716T092342Z">
         <seg>如果有人让你看 20 个 jar 文件，你更喜欢哪一种？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If such a module descriptor file exists, it is parsed and the artifacts of this module (e.g. &lt;c2&gt;hibernate-3.0.5.jar&lt;/c2&gt;) as well as its dependencies (e.g. cglib) are downloaded.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035301Z" creationid="haohang" creationdate="20150724T035301Z">
+        <seg>如果存在此类模块描述符文件，它会进行分析，并下载此模块的 artifacts （例如&lt;c2&gt;hibernate-3.0.5.jar&lt;/c2&gt;）以及其依赖项（例如 cglib）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15494,6 +15510,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060126Z" creationid="msdx" creationdate="20141111T055925Z">
         <seg>如果您使用 Gradle 自带的任务，如 Java 插件所添加的任务的话，你可能已经注意到 Gradle 将跳过处于最新状态的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you declare a module dependency, Gradle looks for a corresponding module descriptor file (&lt;c0&gt;pom.xml&lt;/c0&gt; or &lt;c1&gt;ivy.xml&lt;/c1&gt;) in the repositories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035152Z" creationid="haohang" creationdate="20150724T035152Z">
+        <seg>如果你定义了一个模块依赖，Gradle 会在仓库中查找相应的模块描述符文件（&lt;c0&gt;pom.xml&lt;/c0&gt;或&lt;c1&gt;ivy.xml&lt;/c1&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
