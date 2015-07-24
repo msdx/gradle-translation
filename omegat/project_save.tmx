@@ -5222,6 +5222,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4.1.1. Depending on modules with multiple artifacts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035708Z" creationid="haohang" creationdate="20150724T035636Z">
+        <seg>50.4.1.1. 依赖有多个 artifacts 的模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.4.1. External module dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080837Z" creationid="haohang" creationdate="20150722T080837Z">
@@ -8964,6 +8972,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As mentioned earlier, a Maven module has only one artifact.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035733Z" creationid="haohang" creationdate="20150724T035733Z">
+        <seg>正如前面提到的，一个 Maven 模块都只有一个 artifact。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As of Sonar 3.4, only one language per project can be analyzed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092659Z" creationid="msdx" creationdate="20150512T092659Z">
@@ -11086,6 +11102,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T070713Z" creationid="msdx" creationdate="20141116T070713Z">
         <seg>ERROR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each artifact can have a different set of dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035634Z" creationid="haohang" creationdate="20150724T035634Z">
+        <seg>每个 artifact 可以有一组不同的依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15284,8 +15308,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If no such module descriptor file exists, Gradle looks for a file called &lt;c3&gt;hibernate-3.0.5.jar&lt;/c3&gt; to retrieve.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035405Z" creationid="haohang" creationdate="20150724T035405Z">
-        <seg>如果不存在这样的模块描述符文件，Gradle 会查找一个&lt;c3&gt;hibernate-3.0.5.jar&lt;/c3&gt;来检索文件。</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035537Z" creationid="haohang" creationdate="20150724T035405Z">
+        <seg>如果不存在这样的模块描述符文件，Gradle 会查找一个&lt;c3&gt;hibernate-3.0.5.jar&lt;/c3&gt; 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15762,6 +15786,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Gradle and Ivy, a module can have multiple artifacts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035620Z" creationid="haohang" creationdate="20150724T035620Z">
+        <seg>在 Gradle 和 Ivy 中，一个模块可以具有多个 artifacts。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Gradle dependencies are grouped into configurations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075138Z" creationid="haohang" creationdate="20150722T075058Z">
@@ -15774,6 +15806,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T073915Z" creationid="haohang" creationdate="20150716T073915Z">
         <seg>在 Java 中，没有标准的方法来告诉 JVM 你使用的是 3.0.5 版本的 Hibernate，也没有标准的方法来表明 &lt;c0&gt;foo-1.0.jar&lt;/c0&gt; 依赖于 &lt;c1&gt;bar-2.0.jar&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Maven, a module can have one and only one artifact.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035603Z" creationid="haohang" creationdate="20150724T035603Z">
+        <seg>在 Maven 中，一个模块仅能有一个 artifact。</seg>
       </tuv>
     </tu>
     <tu>
