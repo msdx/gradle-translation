@@ -8756,6 +8756,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An artifact only notation creates a module dependency which downloads only the artifact file with the specified extension.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T034643Z" creationid="haohang" creationdate="20150731T034643Z">
+        <seg>一个 artifact only notation 创建了一个模块依赖，它只下载指定扩展名的 artifact 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An example of such resource is a web container started before an integration test task and which should be always shut down, even if some of the tests fail.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T123038Z" creationid="msdx" creationdate="20141111T123031Z">
@@ -12994,6 +13002,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.5. Artifact only notation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T034554Z" creationid="haohang" creationdate="20150731T034554Z">
+        <seg>示例 505. Artifact only notation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -14612,8 +14628,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Gradle provides an &lt;s2&gt;&lt;e3&gt;artifact only&lt;/e3&gt;&lt;/s2&gt; notation for those use cases - simply prefix the extension that you want to be downloaded with &lt;c4&gt;'@'&lt;/c4&gt; sign:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T033856Z" creationid="haohang" creationdate="20150731T033856Z">
-        <seg>Gradle 提供了一个 &lt;s2&gt;&lt;e3&gt;artifact only&lt;/e3&gt;&lt;/s2&gt; notation 用于这些案例情况—— simply prefix the extension that you want to be downloaded with &lt;c4&gt;'@'&lt;/c4&gt; sign:</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T034535Z" creationid="haohang" creationdate="20150731T033856Z">
+        <seg>Gradle 提供了一个 &lt;s2&gt;&lt;e3&gt;artifact only&lt;/e3&gt;&lt;/s2&gt; notation 用于这些案例情况——只是对你想要下载的扩展前加个 &lt;c4&gt;'@'&lt;/c4&gt; 标志：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36367,6 +36383,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>runtime &lt;s0&gt;"org.groovy:groovy:2.2.0@jar"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T034555Z" creationid="haohang" creationdate="20150731T034555Z">
+        <seg>runtime &lt;s0&gt;"org.groovy:groovy:2.2.0@jar"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runtime &lt;s3&gt;'org.springframework:spring-core:2.5'&lt;/s3&gt;, &lt;s4&gt;'org.springframework:spring-aop:2.5'&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T102832Z" creationid="haohang" creationdate="20150722T102832Z">
@@ -36395,6 +36419,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T102850Z" creationid="haohang" creationdate="20150722T102850Z">
         <seg>runtime group: &lt;s12&gt;'org.hibernate'&lt;/s12&gt;, name: &lt;s13&gt;'hibernate'&lt;/s13&gt;, version: &lt;s14&gt;'3.0.5'&lt;/s14&gt;, transitive: true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime group: &lt;s1&gt;'org.groovy'&lt;/s1&gt;, name: &lt;s2&gt;'groovy'&lt;/s2&gt;, version: &lt;s3&gt;'2.2.0'&lt;/s3&gt;, ext: &lt;s4&gt;'jar'&lt;/s4&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T034556Z" creationid="haohang" creationdate="20150731T034556Z">
+        <seg>runtime group: &lt;s1&gt;'org.groovy'&lt;/s1&gt;, name: &lt;s2&gt;'groovy'&lt;/s2&gt;, version: &lt;s3&gt;'2.2.0'&lt;/s3&gt;, ext: &lt;s4&gt;'jar'&lt;/s4&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
