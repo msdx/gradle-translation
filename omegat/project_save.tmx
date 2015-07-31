@@ -13042,6 +13042,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.6. Dependency with classifier</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T100858Z" creationid="haohang" creationdate="20150731T100858Z">
+        <seg>示例 50.6. 使用 classifier 的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -26395,6 +26403,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To retrieve classified dependencies from a Maven repository you can write:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T100841Z" creationid="haohang" creationdate="20150731T100841Z">
+        <seg>如果你想从一个 Maven 仓库中获取 classified 依赖项，你可以这样写：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To run your web application, you apply the Jetty plugin to your project:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T091050Z" creationid="msdx" creationdate="20141030T091050Z">
@@ -30739,6 +30755,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile &lt;s0&gt;"org.gradle.test.classifiers:service:1.0:jdk15@jar"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T100858Z" creationid="haohang" creationdate="20150731T100858Z">
+        <seg>compile &lt;s0&gt;"org.gradle.test.classifiers:service:1.0:jdk15@jar"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile &lt;s0&gt;'org.codehaus.groovy:groovy-all:2.2.0'&lt;/s0&gt;
 }</seg>
       </tuv>
@@ -34913,6 +34937,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152440Z" creationid="msdx" creationdate="20141109T152440Z">
         <seg>other.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>otherConf group: &lt;s1&gt;'org.gradle.test.classifiers'&lt;/s1&gt;, name: &lt;s2&gt;'service'&lt;/s2&gt;, version: &lt;s3&gt;'1.0'&lt;/s3&gt;, classifier: &lt;s4&gt;'jdk14'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T100900Z" creationid="haohang" creationdate="20150731T100900Z">
+        <seg>otherConf group: &lt;s1&gt;'org.gradle.test.classifiers'&lt;/s1&gt;, name: &lt;s2&gt;'service'&lt;/s2&gt;, version: &lt;s3&gt;'1.0'&lt;/s3&gt;, classifier: &lt;s4&gt;'jdk14'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
