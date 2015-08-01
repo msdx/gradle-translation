@@ -16110,6 +16110,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to exclude a transitive dependency from all your configurations you can use the Groovy spread-dot operator to express this in a concise way, as shown in the example.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T100438Z" creationid="haohang" creationdate="20150801T100422Z">
+        <seg>如果你想要从你的所有配置中排除传递依赖，你可以用简明的方式，使用 Groovy 的 spread-dot 运算符来表示，如这个例子所示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to get rid of a first level dependency you really can't be sure which other jars you should remove.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150720T065154Z" creationid="haohang" creationdate="20150720T065154Z">
@@ -27875,6 +27883,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T020224Z" creationid="msdx" creationdate="20141111T020147Z">
         <seg>当创建这个简单的任务时，您必须将&lt;c1&gt;overwrite&lt;/c1&gt;属性设置为 true。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When defining an exclude, you can specify either only the organization or only the module name or both.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T100629Z" creationid="haohang" creationdate="20150801T100427Z">
+        <seg>在定义一个 exclude 时，你可以只指定 organization 或者 module 名称，或者是两者都指定。</seg>
       </tuv>
     </tu>
     <tu>
