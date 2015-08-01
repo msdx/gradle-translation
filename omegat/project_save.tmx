@@ -1414,6 +1414,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/ProjectDependency.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092525Z" creationid="haohang" creationdate="20150801T092525Z">
+        <seg>../javadoc/org/gradle/api/artifacts/ProjectDependency.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/distribution/Distribution.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031650Z" creationid="haohang" creationdate="20150701T031650Z">
@@ -5290,6 +5298,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092017Z" creationid="haohang" creationdate="20150801T092017Z">
         <seg>50.4.3. 项目依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.4.4. File dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092619Z" creationid="haohang" creationdate="20150801T092619Z">
+        <seg>50.4.4. 文件依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -13130,6 +13146,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.9. Project dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092518Z" creationid="haohang" creationdate="20150801T092518Z">
+        <seg>50.9. 项目依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -13374,6 +13398,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141138Z" creationid="Administrator" creationdate="20150330T141138Z">
         <seg>文件集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File dependencies allow you to directly add a set of files to a configuration, without first adding them to a repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092827Z" creationid="haohang" creationdate="20150801T092827Z">
+        <seg>文件依赖允许你直接将一组文件添加到配置中，而不用先将它们添加到存储库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13994,6 +14026,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more information see the API documentation for &lt;a0&gt;&lt;c1&gt;ProjectDependency&lt;/c1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092533Z" creationid="haohang" creationdate="20150801T092533Z">
+        <seg>详细信息请参阅&lt;a0&gt;&lt;c1&gt;ProjectDependency&lt;/c1&gt;&lt;/a0&gt;的 API 文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more information, see the Ivy reference for &lt;c1&gt;ivy.xml&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150730T032816Z" creationid="haohang" creationdate="20150730T032816Z">
@@ -14078,6 +14118,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T132909Z" creationid="msdx" creationdate="20141117T132909Z">
         <seg>对于一些工作流，用户会多次调用 Gradle，以执行少量的相对快速的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For the latter you can declare &lt;e0&gt;Project Dependencies&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092511Z" creationid="haohang" creationdate="20150801T092511Z">
+        <seg>对于后者，你可以声明&lt;e0&gt;项目依赖&lt;/e0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17607,6 +17655,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163459Z" creationid="msdx" creationdate="20141109T163459Z">
         <seg>Java 的多项目构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multi-project builds are discussed in&lt;a0&gt;Chapter 56, &lt;i1&gt;Multi-project Builds&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092613Z" creationid="haohang" creationdate="20150801T092613Z">
+        <seg>多项目构建将在&lt;a0&gt;第 56 章，&lt;i1&gt;多项目生成&lt;/i1&gt;&lt;/a0&gt;中进行详述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30993,6 +31049,16 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile project(&lt;s0&gt;':shared'&lt;/s0&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092519Z" creationid="haohang" creationdate="20150801T092519Z">
+        <seg>compile project(&lt;s0&gt;':shared'&lt;/s0&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123631Z" creationid="msdx" creationdate="20141113T123631Z">
@@ -34971,6 +35037,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060326Z" creationid="msdx" creationdate="20141111T060326Z">
         <seg>mountains.mountain.each { mountain -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi_project_builds.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092535Z" creationid="haohang" creationdate="20150801T092535Z">
+        <seg>multi_project_builds.html</seg>
       </tuv>
     </tu>
     <tu>
