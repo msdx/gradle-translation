@@ -14666,6 +14666,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle distinguishes between external dependencies and dependencies on projects which are part of the same multi-project build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092449Z" creationid="haohang" creationdate="20150801T092449Z">
+        <seg>对于多项目构建，Gradle 能区分外部依赖与作为多项目构建的一部分的某个项目上的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle has no idea what the closure does and cannot automatically figure out whether the task is up-to-date or not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060845Z" creationid="msdx" creationdate="20141111T060845Z">
