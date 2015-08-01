@@ -8626,8 +8626,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>All attributes for a dependency are optional, except the name.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103114Z" creationid="haohang" creationdate="20150801T103114Z">
-        <seg>一个依赖的所有属性都是可选的，除了名字。</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103457Z" creationid="haohang" creationdate="20150801T103114Z">
+        <seg>一个依赖的所有属性都是可选的，除了 name。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16230,6 +16230,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you work for example with Maven repositories, you need to define the group, name and version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103502Z" creationid="haohang" creationdate="20150801T103413Z">
+        <seg>例如，如果你使用 Maven 仓库，你需要定义group，name 和 version。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you work with filesystem repositories you might only need the name or the name and the version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103534Z" creationid="haohang" creationdate="20150801T103534Z">
+        <seg>如果你使用文件系统仓库，你可能只需要 name 或 name 和 version。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If your &lt;c1&gt;application&lt;/c1&gt; directory doesn't contain a &lt;c2&gt;META-INF/application.xml&lt;/c2&gt; deployment descriptor then one will be generated for you.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142806Z" creationid="msdx" creationdate="20150504T142806Z">
@@ -16939,6 +16955,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T095025Z" creationid="haohang" creationdate="20150707T095025Z">
         <seg>它将创建一个示例&lt;c1&gt;build.gradle&lt;/c1&gt;文件，并包含注释和链接以帮助你开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It depends on the repository type, which information is need for actually finding the dependencies in the repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103434Z" creationid="haohang" creationdate="20150801T103242Z">
+        <seg>这取决于仓库类型，这些信息实际上需要用于在仓库中找到这个依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19731,6 +19755,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T064406Z" creationid="msdx" creationdate="20150513T064406Z">
         <seg>有关更多信息，请参见&lt;a0&gt;第35.6节，“从命令行配置 Sonar 设置”&lt;/a0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Section 50.6, “Repositories”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103354Z" creationid="haohang" creationdate="20150801T103354Z">
+        <seg>请参阅&lt;a0&gt; 50.6 节，“仓库”&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
