@@ -542,6 +542,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.artifacts.Configuration.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094950Z" creationid="haohang" creationdate="20150801T094950Z">
+        <seg>../dsl/org.gradle.api.artifacts.Configuration.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.artifacts.ConfigurationContainer.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075618Z" creationid="haohang" creationdate="20150722T075618Z">
@@ -570,6 +578,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094515Z" creationid="haohang" creationdate="20150801T094515Z">
         <seg>../dsl/org.gradle.api.artifacts.dsl.DependencyHandler.html#org.gradle.api.artifacts.dsl.DependencyHandler:gradleApi()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.artifacts.dsl.DependencyHandler.html#org.gradle.api.artifacts.dsl.DependencyHandler:localGroovy()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094707Z" creationid="haohang" creationdate="20150801T094707Z">
+        <seg>../dsl/org.gradle.api.artifacts.dsl.DependencyHandler.html#org.gradle.api.artifacts.dsl.DependencyHandler:localGroovy()</seg>
       </tuv>
     </tu>
     <tu>
@@ -1410,6 +1426,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091430Z" creationid="haohang" creationdate="20150801T091430Z">
         <seg>../javadoc/org/gradle/api/artifacts/ClientModule.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/Dependency.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094948Z" creationid="haohang" creationdate="20150801T094948Z">
+        <seg>../javadoc/org/gradle/api/artifacts/Dependency.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -5322,6 +5346,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094514Z" creationid="haohang" creationdate="20150801T094514Z">
         <seg>50.4.5. Gradle API 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.4.6. Local Groovy Dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094706Z" creationid="haohang" creationdate="20150801T094706Z">
+        <seg>50.4.6. 本地 Groovy 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.4.7. Excluding transitive dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094852Z" creationid="haohang" creationdate="20150801T094852Z">
+        <seg>50.4.7. 排除传递依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -13134,6 +13174,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.12. Gradle API dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094657Z" creationid="haohang" creationdate="20150801T094657Z">
+        <seg>示例 50.12. Gradle API 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.13. Gradle's Groovy dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094842Z" creationid="haohang" creationdate="20150801T094842Z">
+        <seg>示例 50.13. Gradle 的 Groovy 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.14. Excluding transitive dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094941Z" creationid="haohang" creationdate="20150801T094941Z">
+        <seg>示例 50.14. 排除传递依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.2. Accessing a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075909Z" creationid="haohang" creationdate="20150722T075909Z">
@@ -15898,6 +15962,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035152Z" creationid="haohang" creationdate="20150724T035152Z">
         <seg>如果你定义了一个模块依赖，Gradle 会在仓库中查找相应的模块描述符文件（&lt;c0&gt;pom.xml&lt;/c0&gt;或&lt;c1&gt;ivy.xml&lt;/c1&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you define an exclude for a particular configuration, the excluded transitive dependency will be filtered for all dependencies when resolving this configuration or any inheriting configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094951Z" creationid="haohang" creationdate="20150801T094951Z">
+        <seg>If you define an exclude for a particular configuration, the excluded transitive dependency will be filtered for all dependencies when resolving this configuration or any inheriting configuration.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25951,6 +26023,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is useful when you are developing custom Gradle tasks or plugins in Groovy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094821Z" creationid="haohang" creationdate="20150801T094821Z">
+        <seg>当你在开发自定义 Gradle 任务或在 Groovy 中的插件时将会很有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is useful when you are developing custom Gradle tasks or plugins.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094648Z" creationid="haohang" creationdate="20150801T094648Z">
+        <seg>当你在开发自定义 Gradle 任务或插件时将会很有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is very handy for example for adding dependencies not needed for building or testing your software (e.g. additional JDBC drivers to be shipped with your distribution).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075617Z" creationid="haohang" creationdate="20150722T075617Z">
@@ -28535,6 +28623,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can declare a dependency on the API of the current version of Gradle by using the &lt;a0&gt;&lt;c1&gt;DependencyHandler.gradleApi()&lt;/c1&gt;&lt;/a0&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094632Z" creationid="haohang" creationdate="20150801T094632Z">
+        <seg>你可以通过使用&lt;a0&gt;&lt;c1&gt;DependencyHandler.gradleApi()&lt;/c1&gt;&lt;/a0&gt;方法，来声明一个当前的 Gradle 版本的 API 上的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can declare a dependency on the Groovy that is distributed with Gradle by using the &lt;a0&gt;&lt;c1&gt;DependencyHandler.localGroovy()&lt;/c1&gt;&lt;/a0&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094806Z" creationid="haohang" creationdate="20150801T094806Z">
+        <seg>可以通过使用&lt;a0&gt;&lt;c1&gt;DependencyHandler.localGroovy()&lt;/c1&gt;&lt;/a0&gt;方法，来声明对与 Gradle 一起发布的 Groovy 的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can declare which tasks produce the files for a file dependency.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094359Z" creationid="haohang" creationdate="20150801T094359Z">
@@ -28579,6 +28683,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152349Z" creationid="msdx" creationdate="20141109T152349Z">
         <seg>您甚至可以在外部脚本中应用其他脚本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can exclude a &lt;s0&gt;&lt;e1&gt;transitive&lt;/e1&gt;&lt;/s0&gt; dependency either by configuration or by dependency:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094927Z" creationid="haohang" creationdate="20150801T094927Z">
+        <seg>通过配置或者是通过依赖，你可以排除一个&lt;s0&gt;&lt;e1&gt;传递&lt;/e1&gt;&lt;/s0&gt;依赖：</seg>
       </tuv>
     </tu>
     <tu>
@@ -29419,6 +29531,20 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T070714Z" creationid="Administrator" creationdate="20150425T070714Z">
         <seg>添加上传&lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>all*.exclude group: &lt;s1&gt;'org.gradle.test.excludes'&lt;/s1&gt;, module: &lt;s2&gt;'reports'&lt;/s2&gt;
+}
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094943Z" creationid="haohang" creationdate="20150801T094943Z">
+        <seg>all*.exclude group: &lt;s1&gt;'org.gradle.test.excludes'&lt;/s1&gt;, module: &lt;s2&gt;'reports'&lt;/s2&gt;
+}
+
+dependencies {</seg>
       </tuv>
     </tu>
     <tu>
@@ -31147,6 +31273,16 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile gradleApi()
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094658Z" creationid="haohang" creationdate="20150801T094658Z">
+        <seg>compile gradleApi()
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile localGroovy()
 }</seg>
       </tuv>
@@ -31187,6 +31323,22 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123631Z" creationid="msdx" creationdate="20141113T123631Z">
         <seg>compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile(&lt;s3&gt;"org.gradle.test.excludes:api:1.0"&lt;/s3&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094944Z" creationid="haohang" creationdate="20150801T094944Z">
+        <seg>compile(&lt;s3&gt;"org.gradle.test.excludes:api:1.0"&lt;/s3&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile.exclude module: &lt;s0&gt;'commons'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094942Z" creationid="haohang" creationdate="20150801T094942Z">
+        <seg>compile.exclude module: &lt;s0&gt;'commons'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -32329,6 +32481,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143852Z" creationid="msdx" creationdate="20141113T143852Z">
         <seg>exclude &lt;s1&gt;'**/*staging*'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>exclude module: &lt;s4&gt;'shared'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094945Z" creationid="haohang" creationdate="20150801T094945Z">
+        <seg>exclude module: &lt;s4&gt;'shared'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
