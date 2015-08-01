@@ -1398,6 +1398,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/ClientModule.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091430Z" creationid="haohang" creationdate="20150801T091430Z">
+        <seg>../javadoc/org/gradle/api/artifacts/ClientModule.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/artifacts/ExternalModuleDependency.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T102909Z" creationid="haohang" creationdate="20150722T102909Z">
@@ -5270,6 +5278,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4.2. Client module dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091230Z" creationid="haohang" creationdate="20150801T091230Z">
+        <seg>50.4.2. 客户端模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.4. How to declare your dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075957Z" creationid="haohang" creationdate="20150722T075957Z">
@@ -7238,6 +7254,30 @@ src/file1.txt
 Contents of src2
 src2/dir1
 src2/dir2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q listJars
+hibernate-core-3.6.7.Final.jar
+antlr-2.7.6.jar
+commons-collections-3.1.jar
+dom4j-1.6.1.jar
+hibernate-commons-annotations-3.2.0.Final.jar
+hibernate-jpa-2.0-api-1.0.1.Final.jar
+jta-1.1.jar
+slf4j-api-1.6.1.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091218Z" creationid="haohang" creationdate="20150801T091218Z">
+        <seg>&gt; gradle -q listJars
+hibernate-core-3.6.7.Final.jar
+antlr-2.7.6.jar
+commons-collections-3.1.jar
+dom4j-1.6.1.jar
+hibernate-commons-annotations-3.2.0.Final.jar
+hibernate-jpa-2.0-api-1.0.1.Final.jar
+jta-1.1.jar
+slf4j-api-1.6.1.jar</seg>
       </tuv>
     </tu>
     <tu>
@@ -9476,6 +9516,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But Gradle does not look for an XML descriptor to figure them out but gets the information from the build file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091626Z" creationid="haohang" creationdate="20150801T091626Z">
+        <seg>但 Gradle 不会去查找一个 XML 描述符来找出它的依赖，而是从构建文件中获取信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>But Gradle takes the concept of tasks further.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T160554Z" creationid="msdx" creationdate="20141109T160427Z">
@@ -10200,6 +10248,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150509T131753Z" creationid="msdx" creationdate="20150509T131753Z">
         <seg>Clean</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Client module dependencies allow to declare &lt;s0&gt;&lt;e1&gt;transitive&lt;/e1&gt;&lt;/s0&gt; dependencies directly in the build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091314Z" creationid="haohang" creationdate="20150801T091314Z">
+        <seg>客户端模块依赖允许直接在构建脚本中声明&lt;s0&gt;&lt;e1&gt;传递&lt;/e1&gt;&lt;/s0&gt;依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13058,6 +13114,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.8. Client module dependencies - transitive dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091419Z" creationid="haohang" creationdate="20150801T091419Z">
+        <seg>示例 50.8. 客户端模块依赖 - 传递依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -14866,6 +14930,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Groovy itself has dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091532Z" creationid="haohang" creationdate="20150801T091532Z">
+        <seg>Groovy 本身具有依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Groovy plugin - tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T071744Z" creationid="msdx" creationdate="20150429T071744Z">
@@ -14982,6 +15054,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T093636Z" creationid="msdx" creationdate="20150503T093550Z">
         <seg>另请参阅 &lt;a0&gt;&lt;c1&gt;War&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Have also a look at the API documentation: &lt;a0&gt;&lt;c1&gt;ClientModule&lt;/c1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091719Z" creationid="haohang" creationdate="20150801T091700Z">
+        <seg>可以看一看 API 文档：&lt;a0&gt; &lt;c1&gt;ClientModule&lt;/c1&gt; &lt;/a0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -16175,6 +16255,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135858Z" creationid="Administrator" creationdate="20150427T135858Z">
         <seg>在 Ant javac 任务中，这意味着将会为每一个compile任务fork一个新的进程，而这将会使编译变慢。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the current release client modules have one limitation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091741Z" creationid="haohang" creationdate="20150801T091741Z">
+        <seg>在当前版本客户端模块有一个缺陷。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18159,6 +18247,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160754Z" creationid="msdx" creationdate="20141112T160754Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q list&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q listJars&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091217Z" creationid="haohang" creationdate="20150801T091217Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q listJars&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -23219,6 +23315,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The dependencies of a client module can be normal module dependencies or artifact dependencies or another client module.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091659Z" creationid="haohang" creationdate="20150801T091659Z">
+        <seg>一个客户端模块的依赖可以是正常的模块依赖，或者是 artifact 依赖项或是另一个客户端模块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The desired artifact belongs to a configuration other than &lt;c0&gt;default&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150730T035145Z" creationid="haohang" creationdate="20150730T035145Z">
@@ -25051,6 +25155,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>They are a replacement for a module descriptor in an external repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091407Z" creationid="haohang" creationdate="20150801T091407Z">
+        <seg>它们是外部库的模块描述符的替代者。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>They are available for you to use in your build files, and are listed here for completeness.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T040837Z" creationid="Administrator" creationdate="20150425T040837Z">
@@ -25351,6 +25463,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T091841Z" creationid="msdx" creationdate="20141110T090306Z">
         <seg>上面的代码创建了一个什么都没做的复制任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This declares a dependency on Groovy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091526Z" creationid="haohang" creationdate="20150801T091453Z">
+        <seg>这里定义了一个对 Groovy 的依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31169,6 +31289,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependencies &lt;s5&gt;"org.apache.ant:ant-launcher:1.9.3@jar"&lt;/s5&gt;, &lt;s6&gt;"org.apache.ant:ant-junit:1.9.3"&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091427Z" creationid="haohang" creationdate="20150801T091427Z">
+        <seg>dependencies &lt;s5&gt;"org.apache.ant:ant-launcher:1.9.3@jar"&lt;/s5&gt;, &lt;s6&gt;"org.apache.ant:ant-junit:1.9.3"&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T080015Z" creationid="msdx" creationdate="20150429T080015Z">
@@ -31205,6 +31333,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T093819Z" creationid="msdx" creationdate="20150503T093819Z">
         <seg>dependency &lt;s3&gt;":providedCompile-transitive:1.0@jar"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency(&lt;s1&gt;"commons-cli:commons-cli:1.0"&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091423Z" creationid="haohang" creationdate="20150801T091423Z">
+        <seg>dependency(&lt;s1&gt;"commons-cli:commons-cli:1.0"&lt;/s1&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -34619,6 +34755,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>module(group: &lt;s2&gt;'org.apache.ant'&lt;/s2&gt;, name: &lt;s3&gt;'ant'&lt;/s3&gt;, version: &lt;s4&gt;'1.9.3'&lt;/s4&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091426Z" creationid="haohang" creationdate="20150801T091426Z">
+        <seg>module(group: &lt;s2&gt;'org.apache.ant'&lt;/s2&gt;, name: &lt;s3&gt;'ant'&lt;/s3&gt;, version: &lt;s4&gt;'1.9.3'&lt;/s4&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>module.dependencies*.exported = true</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074614Z" creationid="haohang" creationdate="20150625T074614Z">
@@ -36539,6 +36683,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>runtime module(&lt;s0&gt;"org.codehaus.groovy:groovy-all:2.2.0"&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091420Z" creationid="haohang" creationdate="20150801T091420Z">
+        <seg>runtime module(&lt;s0&gt;"org.codehaus.groovy:groovy-all:2.2.0"&lt;/s0&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runtime {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075935Z" creationid="haohang" creationdate="20150722T075935Z">
@@ -38272,6 +38424,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T131554Z" creationid="msdx" creationdate="20150506T131554Z">
         <seg>toolVersion = &lt;s0&gt;"0.6.2.201302030002"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>transitive = false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091424Z" creationid="haohang" creationdate="20150801T091424Z">
+        <seg>transitive = false</seg>
       </tuv>
     </tu>
     <tu>
