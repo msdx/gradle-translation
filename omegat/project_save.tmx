@@ -5382,6 +5382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4.9. Dependency configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103725Z" creationid="haohang" creationdate="20150801T103725Z">
+        <seg>50.4.9. 依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.4. How to declare your dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075957Z" creationid="haohang" creationdate="20150722T075957Z">
@@ -6814,6 +6822,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;"commons-cli:commons-cli:1.0@jar"&lt;/s1&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103703Z" creationid="haohang" creationdate="20150801T103703Z">
+        <seg>&lt;s1&gt;"commons-cli:commons-cli:1.0@jar"&lt;/s1&gt;,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;// Disable the test report for the individual test task&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083546Z" creationid="msdx" creationdate="20150428T083546Z">
@@ -6886,6 +6902,18 @@ task taskY &lt;&lt; {</seg>
         <seg>&lt;s1&gt;throw&lt;/s1&gt; &lt;s2&gt;new&lt;/s2&gt; RuntimeException()
 }
 task taskY &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;"org.apache.ant:ant:1.9.3@jar"&lt;/s2&gt;]
+List hibernate = [&lt;s3&gt;'org.hibernate:hibernate:3.0.5@jar'&lt;/s3&gt;, &lt;s4&gt;'somegroup:someorg:1.0@jar'&lt;/s4&gt;]
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103704Z" creationid="haohang" creationdate="20150801T103704Z">
+        <seg>&lt;s2&gt;"org.apache.ant:ant:1.9.3@jar"&lt;/s2&gt;]
+List hibernate = [&lt;s3&gt;'org.hibernate:hibernate:3.0.5@jar'&lt;/s3&gt;, &lt;s4&gt;'somegroup:someorg:1.0@jar'&lt;/s4&gt;]
+dependencies {</seg>
       </tuv>
     </tu>
     <tu>
@@ -13238,6 +13266,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.15. Optional attributes of dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103548Z" creationid="haohang" creationdate="20150801T103548Z">
+        <seg>示例 50.15. 依赖的可选属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.16. Collections and arrays of dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103700Z" creationid="haohang" creationdate="20150801T103700Z">
+        <seg>示例 50.16. 依赖的集合和数组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.2. Accessing a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075909Z" creationid="haohang" creationdate="20150722T075909Z">
@@ -16326,6 +16370,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Gradle a dependency can have different configurations (as your project can have different configurations).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103727Z" creationid="haohang" creationdate="20150801T103727Z">
+        <seg>In Gradle a dependency can have different configurations (as your project can have different configurations).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Gradle and Ivy, a module can have multiple artifacts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035620Z" creationid="haohang" creationdate="20150724T035620Z">
@@ -17651,6 +17703,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T092703Z" creationid="msdx" creationdate="20141110T092629Z">
         <seg>该例子的第 3 行只是&lt;c2&gt;tasks.getByName()&lt;/c2&gt;方法的简洁写法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>List groovy = [&lt;s0&gt;"org.codehaus.groovy:groovy-all:2.2.0@jar"&lt;/s0&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103702Z" creationid="haohang" creationdate="20150801T103702Z">
+        <seg>List groovy = [&lt;s0&gt;"org.codehaus.groovy:groovy-all:2.2.0@jar"&lt;/s0&gt;,</seg>
       </tuv>
     </tu>
     <tu>
@@ -28679,6 +28739,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also assign collections or arrays of dependency notations to a configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103635Z" creationid="haohang" creationdate="20150801T103635Z">
+        <seg>你也可以向一个配置指定依赖 notations 的集合或数组：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also configure arbitrary objects using an external script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152914Z" creationid="msdx" creationdate="20141109T152914Z">
@@ -37287,6 +37355,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>runtime &lt;s0&gt;":junit:4.10"&lt;/s0&gt;, &lt;s1&gt;":testng"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103549Z" creationid="haohang" creationdate="20150801T103549Z">
+        <seg>runtime &lt;s0&gt;":junit:4.10"&lt;/s0&gt;, &lt;s1&gt;":testng"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runtime &lt;s0&gt;"org.groovy:groovy:2.2.0@jar"&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T034555Z" creationid="haohang" creationdate="20150731T034555Z">
@@ -37329,6 +37405,16 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>runtime groovy, hibernate
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103705Z" creationid="haohang" creationdate="20150801T103705Z">
+        <seg>runtime groovy, hibernate
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runtime group: &lt;s0&gt;'org.springframework'&lt;/s0&gt;, name: &lt;s1&gt;'spring-core'&lt;/s1&gt;, version: &lt;s2&gt;'2.5'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T102830Z" creationid="haohang" creationdate="20150722T102830Z">
@@ -37359,6 +37445,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091420Z" creationid="haohang" creationdate="20150801T091420Z">
         <seg>runtime module(&lt;s0&gt;"org.codehaus.groovy:groovy-all:2.2.0"&lt;/s0&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime name: &lt;s2&gt;'testng'&lt;/s2&gt; 
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103550Z" creationid="haohang" creationdate="20150801T103550Z">
+        <seg>runtime name: &lt;s2&gt;'testng'&lt;/s2&gt; 
+}</seg>
       </tuv>
     </tu>
     <tu>
