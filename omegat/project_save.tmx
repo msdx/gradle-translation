@@ -566,6 +566,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.artifacts.dsl.DependencyHandler.html#org.gradle.api.artifacts.dsl.DependencyHandler:gradleApi()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094515Z" creationid="haohang" creationdate="20150801T094515Z">
+        <seg>../dsl/org.gradle.api.artifacts.dsl.DependencyHandler.html#org.gradle.api.artifacts.dsl.DependencyHandler:gradleApi()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.distribution.DistributionContainer.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T025859Z" creationid="haohang" creationdate="20150701T025859Z">
@@ -5310,6 +5318,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4.5. Gradle API Dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094514Z" creationid="haohang" creationdate="20150801T094514Z">
+        <seg>50.4.5. Gradle API 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.4. How to declare your dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075957Z" creationid="haohang" creationdate="20150722T075957Z">
@@ -7278,6 +7294,18 @@ src/file1.txt
 Contents of src2
 src2/dir1
 src2/dir2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q list
+compiling classes
+classpath = [classes]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094505Z" creationid="haohang" creationdate="20150801T094505Z">
+        <seg>&gt; gradle -q list
+compiling classes
+classpath = [classes]</seg>
       </tuv>
     </tu>
     <tu>
@@ -13098,6 +13126,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.11. Generated file dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094451Z" creationid="haohang" creationdate="20150801T094451Z">
+        <seg>示例 50.11. 生成文件依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.2. Accessing a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075909Z" creationid="haohang" creationdate="20150722T075909Z">
@@ -15374,6 +15410,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T040908Z" creationid="Administrator" creationdate="20150425T040908Z">
         <seg>然而，请注意它们都不被认为是 Gradle 公共 API 的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, file dependencies are included in transitive project dependencies within the same build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094253Z" creationid="haohang" creationdate="20150801T094253Z">
+        <seg>然而，文件依赖会被包含在同一个构建的传递项目依赖里。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26027,6 +26071,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means they cannot be used outside the current build, but they can be used with the same build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094334Z" creationid="haohang" creationdate="20150801T094334Z">
+        <seg>这意味着它们不能在当前的构建外使用，但它们可以在同一个构建中使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means you can manipulate and execute the Ant targets in exactly the same way as Gradle tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060900Z" creationid="msdx" creationdate="20141116T060900Z">
@@ -28483,6 +28535,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can declare which tasks produce the files for a file dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094359Z" creationid="haohang" creationdate="20150801T094359Z">
+        <seg>你可以声明哪些任务将产生作为文件依赖的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can disable the HTML test report using the &lt;a0&gt;&lt;c1&gt;Test.setTestReport()&lt;/c1&gt;&lt;/a0&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T142123Z" creationid="msdx" creationdate="20150428T142123Z">
@@ -29063,6 +29123,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T060306Z" creationid="haohang" creationdate="20150721T060306Z">
         <seg>你也可能想要了解版本冲突用到的地方，并且在你的整个组织中统一一个指定版本的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You might do this when, for example, the files are generated by the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094442Z" creationid="haohang" creationdate="20150801T094442Z">
+        <seg>例如，你可以在通过构建生成文件的时候这样做。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30611,6 +30679,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>builtBy &lt;s1&gt;'compile'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094453Z" creationid="haohang" creationdate="20150801T094453Z">
+        <seg>builtBy &lt;s1&gt;'compile'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>c</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141209T074046Z" creationid="msdx" creationdate="20141209T074046Z">
@@ -31059,6 +31135,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065506Z" creationid="msdx" creationdate="20141030T065506Z">
         <seg>compile &lt;s2&gt;'org.codehaus.groovy:groovy-all:2.2.0'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile files(&lt;s0&gt;"$buildDir/classes"&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094452Z" creationid="haohang" creationdate="20150801T094452Z">
+        <seg>compile files(&lt;s0&gt;"$buildDir/classes"&lt;/s0&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -35793,6 +35877,20 @@ taskY.shouldRunAfter taskX</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;'compiling classes'&lt;/s2&gt;
+}
+
+task list(dependsOn: configurations.compile) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094500Z" creationid="haohang" creationdate="20150801T094500Z">
+        <seg>println &lt;s2&gt;'compiling classes'&lt;/s2&gt;
+}
+
+task list(dependsOn: configurations.compile) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s2&gt;'lib1'&lt;/s2&gt;
 }
 
@@ -35843,6 +35941,16 @@ taskZ.shouldRunAfter taskX</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060324Z" creationid="msdx" creationdate="20141111T060324Z">
         <seg>println &lt;s3&gt;"Transforming source file."&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;"classpath = ${configurations.compile.collect {File file -&gt; file.name}}"&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094503Z" creationid="haohang" creationdate="20150801T094503Z">
+        <seg>println &lt;s3&gt;"classpath = ${configurations.compile.collect {File file -&gt; file.name}}"&lt;/s3&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -39592,6 +39700,20 @@ project(&lt;s3&gt;'projectB'&lt;/s3&gt;) {</seg>
 }
 
 project(&lt;s3&gt;'projectB'&lt;/s3&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+task compile &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094457Z" creationid="haohang" creationdate="20150801T094457Z">
+        <seg>}
+}
+
+task compile &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
