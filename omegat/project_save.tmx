@@ -9416,6 +9416,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Bear in mind that for some of those use cases there are better solutions than exclusions!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101622Z" creationid="haohang" creationdate="20150801T101622Z">
+        <seg>记住，对于其中一些用例，有着比排除更好的解决方案！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because Gradle's build language is based on Groovy, and parts of Gradle are implemented in Groovy, Gradle already ships with a Groovy library (1.8.6 as of Gradle 1.6).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075636Z" creationid="msdx" creationdate="20150429T075405Z">
@@ -15326,6 +15334,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are the some exemplary reasons why one might want to exclude a transitive dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101531Z" creationid="haohang" creationdate="20150801T101531Z">
+        <seg>下面是为什么可能想要排除传递依赖的一些原因。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here is a brief example which changes the main Java and resource source directories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083749Z" creationid="Administrator" creationdate="20150426T083749Z">
@@ -17163,6 +17179,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T133821Z" creationid="Administrator" creationdate="20150427T133821Z">
         <seg>它支持核心的 javadoc 参数选项，以及在Javadoc可执行文件的&lt;a3&gt;参考文档&lt;/a3&gt;中描述的标准 doclet 参数选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It turns out that in majority of cases you want to use the per-configuration exclusion.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101440Z" creationid="haohang" creationdate="20150801T101440Z">
+        <seg>事实证明，在大多数情况下你想要排除每一个配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23595,6 +23619,30 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091659Z" creationid="haohang" creationdate="20150801T091659Z">
         <seg>一个客户端模块的依赖可以是正常的模块依赖，或者是 artifact 依赖项或是另一个客户端模块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The dependency is not available in any of remote repositories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101730Z" creationid="haohang" creationdate="20150801T101651Z">
+        <seg>在任何的远程仓库中这个依赖都不可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The dependency is not needed for runtime.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101740Z" creationid="haohang" creationdate="20150801T101740Z">
+        <seg>在运行时不需要这个依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The dependency is undesired due to licensing reasons.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101715Z" creationid="haohang" creationdate="20150801T101642Z">
+        <seg>由于许可证的原因而让依赖不受欢迎。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31931,6 +31979,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080348Z" creationid="haohang" creationdate="20150722T080348Z">
         <seg>dependency_management.html#sub:project_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:version_conflicts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101744Z" creationid="haohang" creationdate="20150801T101744Z">
+        <seg>dependency_management.html#sub:version_conflicts</seg>
       </tuv>
     </tu>
     <tu>
