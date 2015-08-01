@@ -5286,6 +5286,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4.3. Project dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092017Z" creationid="haohang" creationdate="20150801T092017Z">
+        <seg>50.4.3. 项目依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.4. How to declare your dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075957Z" creationid="haohang" creationdate="20150722T075957Z">
@@ -14866,6 +14874,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle uploads the jars of your project to the company repository together with the XML descriptor file of the dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091859Z" creationid="haohang" creationdate="20150801T091859Z">
+        <seg>Gradle 会将你的项目的 jar 包以及这仆依赖的 XML 描述文件上传到公司仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle uses this for &lt;e1&gt;configuration closures&lt;/e1&gt;, where the &lt;c2&gt;delegate&lt;/c2&gt; object is set to the object to be configured.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065107Z" creationid="msdx" creationdate="20141108T063831Z">
@@ -15886,6 +15902,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T021758Z" creationid="haohang" creationdate="20150716T021758Z">
         <seg>如果你使用 Archiva， Nexus，或者是 Artifactory, Gradle 100% 兼容所有仓库的格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you use client modules the dependency declaration in the XML descriptor file is not correct.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091944Z" creationid="haohang" creationdate="20150801T091944Z">
+        <seg>如果你使用了客户端模块，在 XML 描述符文件中的依赖声明就会不正确。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17271,6 +17295,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T143431Z" creationid="msdx" creationdate="20150504T143328Z">
         <seg>假设你已经有了&lt;c0&gt;application.xml&lt;/c0&gt; ，并且想要使用它而不是去配置&lt;c1&gt;ear.deploymentDescriptor&lt;/c1&gt;代码段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's say your project is a library and you want this library to be uploaded to your company's Maven or Ivy repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091818Z" creationid="haohang" creationdate="20150801T091818Z">
+        <seg>假设你的项目是一个库，你想要这个库上传到你公司的 Maven 或Ivy 仓库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27455,6 +27487,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T023929Z" creationid="Administrator" creationdate="20150428T023929Z">
         <seg>我们将会继续改进测试过滤的API，并添加更多种类的过滤器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We will improve this in a future release of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092012Z" creationid="haohang" creationdate="20150801T092012Z">
+        <seg>我们将在未来版本的 Gradle 修正这一点。</seg>
       </tuv>
     </tu>
     <tu>
