@@ -14318,6 +14318,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generally, one can exclude transitive dependencies that are either not required by runtime or that are guaranteed to be available on the target environment/platform.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101325Z" creationid="haohang" creationdate="20150801T101325Z">
+        <seg>一般来说，可以被排除的传递依赖，在运行时并不需要，或者是保证在目标环境或平台上可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>GenerateBuildDashboard</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T100334Z" creationid="haohang" creationdate="20150713T100334Z">
@@ -17921,8 +17929,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>Not every transitive dependency can be excluded - some transitive dependencies might be essential for correct runtime behavior of the application.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T100738Z" creationid="haohang" creationdate="20150801T100738Z">
-        <seg>Not every transitive dependency can be excluded - some transitive dependencies might be essential for correct runtime behavior of the application.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101157Z" creationid="haohang" creationdate="20150801T100738Z">
+        <seg>不是每个传递依赖都可以被排除 — — 一些传递依赖可能是应用程序能正确运行的必要条件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19827,6 +19835,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163007Z" creationid="msdx" creationdate="20141109T163007Z">
         <seg>简洁写法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Should you exclude per-dependency or per-configuration?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101342Z" creationid="haohang" creationdate="20150801T101342Z">
+        <seg>你应排除每个依赖或每个配置吗？</seg>
       </tuv>
     </tu>
     <tu>
