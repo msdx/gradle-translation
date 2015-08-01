@@ -9416,6 +9416,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Basically, in most of the cases excluding the transitive dependency should be done per configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T102115Z" creationid="haohang" creationdate="20150801T102115Z">
+        <seg>基本上，在大多数情况下对每一个配置都是排除传递依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Bear in mind that for some of those use cases there are better solutions than exclusions!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101622Z" creationid="haohang" creationdate="20150801T101622Z">
@@ -14242,6 +14250,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T132909Z" creationid="msdx" creationdate="20141117T132909Z">
         <seg>对于一些工作流，用户会多次调用 Gradle，以执行少量的相对快速的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For that use case please refer to &lt;a0&gt;Section 50.2.3, “Resolve version conflicts”&lt;/a0&gt; and the documentation on &lt;a1&gt;&lt;c2&gt;ResolutionStrategy&lt;/c2&gt;&lt;/a1&gt; for a potentially better solution to the problem.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T102035Z" creationid="haohang" creationdate="20150801T102035Z">
+        <seg>使用这个案例，请参考&lt;a0&gt;第 50.2.3 节，“解决版本冲突”&lt;/a0&gt;和关于&lt;a1&gt;&lt;c2&gt;ResolutionStrategy&lt;/c2&gt;&lt;/a1&gt;文档，以了解这个问题潜在的更好的解决方案。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23619,6 +23635,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091659Z" creationid="haohang" creationdate="20150801T091659Z">
         <seg>一个客户端模块的依赖可以是正常的模块依赖，或者是 artifact 依赖项或是另一个客户端模块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The dependency has a version that conflicts with a desired version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101805Z" creationid="haohang" creationdate="20150801T101805Z">
+        <seg>这个依赖有一个版本与所需要的版本冲突。</seg>
       </tuv>
     </tu>
     <tu>
