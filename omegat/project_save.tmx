@@ -9022,8 +9022,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>As can be seen in the first line above, classifiers can be used together with artifact only notation.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T100710Z" creationid="haohang" creationdate="20150731T100710Z">
-        <seg>As can be seen in the first line above, classifiers can be used together with artifact only notation.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091110Z" creationid="haohang" creationdate="20150731T100710Z">
+        <seg>如上面的第一行所示，classifiers 可以与artifact only notation 一起使用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13050,6 +13050,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.7. Iterating over a configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091157Z" creationid="haohang" creationdate="20150801T091157Z">
+        <seg>示例 50.7. 遍历一个配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -16629,8 +16637,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>It is easy to iterate over the dependency artifacts of a configuration:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T100716Z" creationid="haohang" creationdate="20150731T100716Z">
-        <seg>It is easy to iterate over the dependency artifacts of a configuration:</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091143Z" creationid="haohang" creationdate="20150731T100716Z">
+        <seg>它可以轻松地遍历一个配置的依赖 artifacts：</seg>
       </tuv>
     </tu>
     <tu>
@@ -30937,6 +30945,16 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configurations.compile.each { File file -&gt; println file.name }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091159Z" creationid="haohang" creationdate="20150801T091159Z">
+        <seg>configurations.compile.each { File file -&gt; println file.name }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>configure(scalaCompileOptions.forkOptions) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160054Z" creationid="msdx" creationdate="20150430T160054Z">
@@ -37889,6 +37907,14 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T070220Z" creationid="msdx" creationdate="20141108T070220Z">
         <seg>task list &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task listJars &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091159Z" creationid="haohang" creationdate="20150801T091159Z">
+        <seg>task listJars &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
