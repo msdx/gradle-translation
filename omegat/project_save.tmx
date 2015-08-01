@@ -1446,6 +1446,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/ModuleDependency.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T102952Z" creationid="haohang" creationdate="20150801T102952Z">
+        <seg>../javadoc/org/gradle/api/artifacts/ModuleDependency.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/artifacts/ProjectDependency.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092525Z" creationid="haohang" creationdate="20150801T092525Z">
@@ -5366,6 +5374,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4.8. Optional attributes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103051Z" creationid="haohang" creationdate="20150801T103051Z">
+        <seg>50.4.8. 可选属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.4. How to declare your dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075957Z" creationid="haohang" creationdate="20150722T075957Z">
@@ -8604,6 +8620,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010127Z" creationid="Administrator" creationdate="20150426T010127Z">
         <seg>项目中的所有归档项目，包括&lt;c0&gt;jar&lt;/c0&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All attributes for a dependency are optional, except the name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103114Z" creationid="haohang" creationdate="20150801T103114Z">
+        <seg>一个依赖的所有属性都是可选的，除了名字。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13974,6 +13998,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example, some other dependency, which does not have any exclude rules, might pull in that unwanted transitive dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T102944Z" creationid="haohang" creationdate="20150801T102944Z">
+        <seg>例如，某些其他的依赖，并没有任何排除规则，可能会带上那个多余的传递依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, the &lt;a0&gt;&lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt; task has a &lt;c2&gt;source&lt;/c2&gt; property, which defines the source files to compile.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122938Z" creationid="msdx" creationdate="20141113T122938Z">
@@ -16961,8 +16993,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>It is also more accurate because a per-dependency exclude rule does not guarantee the given transitive dependency does not show up in the configuration.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T102450Z" creationid="haohang" creationdate="20150801T102450Z">
-        <seg>It is also more accurate because a per-dependency exclude rule does not guarantee the given transitive dependency does not show up in the configuration.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T102918Z" creationid="haohang" creationdate="20150801T102450Z">
+        <seg>它也更准确，因为每个依赖排除规则并不能保证给定的传递依赖不会显示在配置中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18419,6 +18451,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T040558Z" creationid="haohang" creationdate="20150716T040558Z">
         <seg>其他的构建系统在迁移之前需要对这种方法进行大量的替换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Other examples of the dependency exclusions can be found in the reference for &lt;a0&gt;&lt;c1&gt;ModuleDependency&lt;/c1&gt;&lt;/a0&gt; or &lt;a2&gt;&lt;c3&gt;DependencyHandler&lt;/c3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103044Z" creationid="haohang" creationdate="20150801T103044Z">
+        <seg>其他相关依赖关系排除的示例，可以参考 &lt;a0&gt; &lt;c1&gt;ModuleDependency&lt;/c1&gt;&lt;/a0&gt;或&lt;a2&gt;&lt;c3&gt;DependencyHandler&lt;/c3&gt;&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31955,6 +31995,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060209Z" creationid="msdx" creationdate="20141116T060209Z">
         <seg>dependency_management.html#sec:how_to_declare_your_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103053Z" creationid="haohang" creationdate="20150801T103053Z">
+        <seg>dependency_management.html#sec:repositories</seg>
       </tuv>
     </tu>
     <tu>
