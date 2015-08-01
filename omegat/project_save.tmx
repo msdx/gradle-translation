@@ -13090,6 +13090,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.10. File dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094145Z" creationid="haohang" creationdate="20150801T094145Z">
+        <seg>示例 50.10. 文件依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.2. Accessing a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075909Z" creationid="haohang" creationdate="20150722T075909Z">
@@ -13406,6 +13414,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092827Z" creationid="haohang" creationdate="20150801T092827Z">
         <seg>文件依赖允许你直接将一组文件添加到配置中，而不用先将它们添加到存储库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File dependencies are not included in the published dependency descriptor for your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094217Z" creationid="haohang" creationdate="20150801T094217Z">
+        <seg>文件依赖项不会包含在你的项目的发布的依赖描述中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26371,6 +26387,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To add some files as a dependency for a configuration, you simply pass a &lt;a0&gt;file collection&lt;/a0&gt; as a dependency:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094136Z" creationid="haohang" creationdate="20150801T094136Z">
+        <seg>如果想添加一些文件作为配置的依赖，你只需要传一个&lt;a0&gt;文件集合&lt;/a0&gt;作为依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To adjust memory settings, configure &lt;c0&gt;scalaCompileOptions.forkOptions&lt;/c0&gt; as needed:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160040Z" creationid="msdx" creationdate="20150430T160040Z">
@@ -36791,6 +36815,24 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T093819Z" creationid="msdx" creationdate="20150503T093819Z">
         <seg>runtime &lt;s7&gt;":runtime:1.0"&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime fileTree(dir: &lt;s2&gt;'libs'&lt;/s2&gt;, include: &lt;s3&gt;'*.jar'&lt;/s3&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094146Z" creationid="haohang" creationdate="20150801T094146Z">
+        <seg>runtime fileTree(dir: &lt;s2&gt;'libs'&lt;/s2&gt;, include: &lt;s3&gt;'*.jar'&lt;/s3&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime files(&lt;s0&gt;'libs/a.jar'&lt;/s0&gt;, &lt;s1&gt;'libs/b.jar'&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094146Z" creationid="haohang" creationdate="20150801T094146Z">
+        <seg>runtime files(&lt;s0&gt;'libs/a.jar'&lt;/s0&gt;, &lt;s1&gt;'libs/b.jar'&lt;/s1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
