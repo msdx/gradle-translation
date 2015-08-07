@@ -7416,6 +7416,18 @@ tuna</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q files
+orca-1.0.jar
+seal-2.0.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034750Z" creationid="haohang" creationdate="20150807T034750Z">
+        <seg>&gt; gradle -q files
+orca-1.0.jar
+seal-2.0.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q groupPing
 Pinging: Server1
 Pinging: Server2</seg>
@@ -13440,6 +13452,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.22. Configuration.files with spec</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034741Z" creationid="haohang" creationdate="20150807T034741Z">
+        <seg>示例 50.22. 指定的 Configuration.files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.3. Configuration of a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075929Z" creationid="haohang" creationdate="20150722T075929Z">
@@ -18869,6 +18889,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034417Z" creationid="haohang" creationdate="20150807T034417Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q dependencies&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q files&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034750Z" creationid="haohang" creationdate="20150807T034750Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q files&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -32111,6 +32139,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configurations.sealife.files { dep -&gt; dep.name == &lt;s0&gt;'orca'&lt;/s0&gt; }.each { file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034743Z" creationid="haohang" creationdate="20150807T034743Z">
+        <seg>configurations.sealife.files { dep -&gt; dep.name == &lt;s0&gt;'orca'&lt;/s0&gt; }.each { file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>configurations.sealife.files.each { file -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034609Z" creationid="haohang" creationdate="20150807T034609Z">
@@ -39163,6 +39199,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055744Z" creationid="msdx" creationdate="20141111T055744Z">
         <seg>task disableMe &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task files &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034742Z" creationid="haohang" creationdate="20150807T034742Z">
+        <seg>task files &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
