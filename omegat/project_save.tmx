@@ -13866,6 +13866,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For dependencies from a Maven repository, the default configuration is the only available one anyway.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032611Z" creationid="haohang" creationdate="20150807T032611Z">
+        <seg>对于 Maven 存储库的依赖，至少默认配置是唯一可用的一个。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For each extra distribution set you add to the project, the distribution plugin adds the following tasks:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031122Z" creationid="haohang" creationdate="20150701T030943Z">
@@ -16106,6 +16114,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you don't specify anything explicitly, Gradle uses the default configuration of the dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032438Z" creationid="haohang" creationdate="20150807T032438Z">
+        <seg>如果你不显式指定任何东西，Gradle 会使用依赖的默认配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you don't use transitive dependency management, version conflicts are undetected and the often accidental order of the classpath will determine what version of a dependency will win.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T054515Z" creationid="haohang" creationdate="20150721T054515Z">
@@ -16372,8 +16388,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>In Gradle a dependency can have different configurations (as your project can have different configurations).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103727Z" creationid="haohang" creationdate="20150801T103727Z">
-        <seg>In Gradle a dependency can have different configurations (as your project can have different configurations).</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032420Z" creationid="haohang" creationdate="20150801T103727Z">
+        <seg>在 Gradle ，一个依赖可以有不同的配置 (就像你的项目可以有不同的配置)。</seg>
       </tuv>
     </tu>
     <tu>
