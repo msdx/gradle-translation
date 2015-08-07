@@ -13494,6 +13494,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.24. Configuration.copy vs. Configuration.files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T041226Z" creationid="haohang" creationdate="20150807T041226Z">
+        <seg>示例 50.24. Configuration.copy 与 Configuration.files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.3. Configuration of a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075929Z" creationid="haohang" creationdate="20150722T075929Z">
@@ -16734,6 +16742,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In case of version conflicts between dependencies of the subset and dependencies not belonging to the subset the resolve result might be different.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T041214Z" creationid="haohang" creationdate="20150807T041214Z">
+        <seg>在子集的依赖和不属于子集的依赖之间，存在版本冲突的情况下，解析的结果可能会有所不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In case this property does not exists, an exception is thrown and the build fails.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151423Z" creationid="msdx" creationdate="20141109T151423Z">
@@ -18931,6 +18947,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T015905Z" creationid="msdx" creationdate="20141111T015905Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q copy&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q copyVsFiles&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T041255Z" creationid="haohang" creationdate="20150807T041255Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q copyVsFiles&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -32253,10 +32277,26 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configurations.sealife.copyRecursive { dep -&gt; dep.name == &lt;s0&gt;'orca'&lt;/s0&gt; }.each { file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T041230Z" creationid="haohang" creationdate="20150807T041230Z">
+        <seg>configurations.sealife.copyRecursive { dep -&gt; dep.name == &lt;s0&gt;'orca'&lt;/s0&gt; }.each { file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>configurations.sealife.files { dep -&gt; dep.name == &lt;s0&gt;'orca'&lt;/s0&gt; }.each { file -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034743Z" creationid="haohang" creationdate="20150807T034743Z">
         <seg>configurations.sealife.files { dep -&gt; dep.name == &lt;s0&gt;'orca'&lt;/s0&gt; }.each { file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.sealife.files { dep -&gt; dep.name == &lt;s1&gt;'orca'&lt;/s1&gt; }.each { file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T041232Z" creationid="haohang" creationdate="20150807T041232Z">
+        <seg>configurations.sealife.files { dep -&gt; dep.name == &lt;s1&gt;'orca'&lt;/s1&gt; }.each { file -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -39305,6 +39345,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131122Z" creationid="msdx" creationdate="20141113T131122Z">
         <seg>task copyTaskWithPatterns(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task copyVsFiles &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T041227Z" creationid="haohang" creationdate="20150807T041227Z">
+        <seg>task copyVsFiles &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
