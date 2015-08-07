@@ -8146,6 +8146,22 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A pre-configured repository that looks for dependencies in Bintray's JCenter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094212Z" creationid="haohang" creationdate="20150807T094212Z">
+        <seg>A pre-configured repository that looks for dependencies in Bintray's JCenter.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A pre-configured repository that looks for dependencies in Maven Central.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094223Z" creationid="haohang" creationdate="20150807T094157Z">
+        <seg>一个会在 Maven 中央仓中查找依赖的预配置仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A project can have as many as JAR archives as you want.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145558Z" creationid="msdx" creationdate="20141113T145558Z">
@@ -9102,6 +9118,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T070338Z" creationid="haohang" creationdate="20150625T070042Z">
         <seg>尽管 Groovy 的 XML 支持对其有很大作用，但这种方法比起操纵域对象依然不大方便 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although module meta-data and module artifacts must be located in the same repository, it is possible to compose a single repository of multiple URLs, giving multiple locations to search for meta-data files and jar files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094044Z" creationid="haohang" creationdate="20150807T094044Z">
+        <seg>虽然模块的元数据和模块 artifacts 必须位于同一仓库，但也有可能单个仓库有多个 Url，给多个位置去搜索元数据文件和 jar 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18209,6 +18233,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Maven JCenter repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094204Z" creationid="haohang" creationdate="20150807T094204Z">
+        <seg>Maven JCenter 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maven central repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094122Z" creationid="haohang" creationdate="20150807T094122Z">
+        <seg>Maven 中央仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>May also contain Java source files for joint compilation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T093413Z" creationid="msdx" creationdate="20150429T093413Z">
@@ -21741,6 +21781,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080038Z" creationid="haohang" creationdate="20150722T080038Z">
         <seg>表 50.1. 依赖类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 50.2. Repository types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094108Z" creationid="haohang" creationdate="20150807T094108Z">
+        <seg>表 50.2. 仓库类型</seg>
       </tuv>
     </tu>
     <tu>
@@ -25733,6 +25781,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080029Z" creationid="haohang" creationdate="20150722T080029Z">
         <seg>你可以声明几种不同类型的依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are several different types of repositories you can declare:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094100Z" creationid="haohang" creationdate="20150807T094100Z">
+        <seg>有几种不同类型的存储库可以声明：</seg>
       </tuv>
     </tu>
     <tu>
@@ -32849,6 +32905,22 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080726Z" creationid="haohang" creationdate="20150722T080726Z">
         <seg>dependency_management.html#sub:groovy_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:maven_central</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094110Z" creationid="haohang" creationdate="20150807T094110Z">
+        <seg>dependency_management.html#sub:maven_central</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:maven_jcenter</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094158Z" creationid="haohang" creationdate="20150807T094158Z">
+        <seg>dependency_management.html#sub:maven_jcenter</seg>
       </tuv>
     </tu>
     <tu>
