@@ -8396,8 +8396,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Additionally Gradle provides various convenience method to add pre-configured repositories.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091546Z" creationid="haohang" creationdate="20150807T091546Z">
-        <seg>Additionally Gradle provides various convenience method to add pre-configured repositories.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T093616Z" creationid="haohang" creationdate="20150807T091546Z">
+        <seg>另外，Gradle 提供了各种方便的方法来添加预配置的仓库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16020,6 +16020,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T081955Z" creationid="Administrator" creationdate="20150428T081955Z">
         <seg>如果&lt;c1&gt;scanForTestClasses&lt;/c1&gt;为disabled，并且没有指定 include或exclude模式，则使用各自的默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If Gradle finds a module descriptor in a particular repository, it will attempt to download all of the artifacts for that module from &lt;s0&gt;&lt;e1&gt;the same repository&lt;/e1&gt;&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T093754Z" creationid="haohang" creationdate="20150807T093754Z">
+        <seg>如果 Gradle 在特定仓库中查找模块描述符，它将尝试从&lt;s0&gt;&lt;e1&gt;同一仓库中&lt;/e1&gt;&lt;/s0&gt;下载该模块的所有 artifacts。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30053,6 +30061,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124121Z" creationid="msdx" creationdate="20141113T124121Z">
         <seg>您还可以在复制文件的时候指定如何转换文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may configure any number of repositories, each of which is treated independently by Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T093711Z" creationid="haohang" creationdate="20150807T093711Z">
+        <seg>您可以配置任意数量的仓库，每一个都会被Gradle 独立处理。</seg>
       </tuv>
     </tu>
     <tu>
