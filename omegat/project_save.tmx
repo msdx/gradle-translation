@@ -1462,6 +1462,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/ResolvableDependencies.html#getResolutionResult()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T033056Z" creationid="haohang" creationdate="20150807T033056Z">
+        <seg>../javadoc/org/gradle/api/artifacts/ResolvableDependencies.html#getResolutionResult()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/result/ResolutionResult.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T033058Z" creationid="haohang" creationdate="20150807T033058Z">
+        <seg>../javadoc/org/gradle/api/artifacts/result/ResolutionResult.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/distribution/Distribution.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031650Z" creationid="haohang" creationdate="20150701T031650Z">
@@ -5322,6 +5338,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080837Z" creationid="haohang" creationdate="20150722T080837Z">
         <seg>50.4.1. 外部模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.4.10. Dependency reports</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032810Z" creationid="haohang" creationdate="20150807T032810Z">
+        <seg>50.4.10. 依赖报告</seg>
       </tuv>
     </tu>
     <tu>
@@ -13282,6 +13306,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.17. Dependency configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032717Z" creationid="haohang" creationdate="20150807T032717Z">
+        <seg>示例 50.17. 依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.18. Dependency configurations for project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032800Z" creationid="haohang" creationdate="20150807T032754Z">
+        <seg>示例 50.18. 项目的依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.2. Accessing a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075909Z" creationid="haohang" creationdate="20150722T075909Z">
@@ -16294,6 +16334,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103502Z" creationid="haohang" creationdate="20150801T103413Z">
         <seg>例如，如果你使用 Maven 仓库，你需要定义group，name 和 version。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you work with Ivy repositories and want to declare a non-default configuration for your dependency you have to use the map notation and declare:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032706Z" creationid="haohang" creationdate="20150807T032706Z">
+        <seg>如果你使用 Ivy 存储库，并且想要为你的依赖定义一个非默认配置，就要使用 map 标记法并且声明：</seg>
       </tuv>
     </tu>
     <tu>
@@ -20055,6 +20103,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003105Z" creationid="haohang" creationdate="20150603T003105Z">
         <seg>从 1.0-里程碑-4 开始，WTP-generating 代码被重构为一个单独的插件，叫做&lt;c0&gt;eclipse-wtp&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since Gradle 1.2 there is also a new programmatic API to access the resolved dependency information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T033138Z" creationid="haohang" creationdate="20150807T033138Z">
+        <seg>从 Gradle 1.2 起，有一个新的编程 API 用于访问解析的依赖信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26947,6 +27003,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To do the same for project dependencies you need to declare:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032744Z" creationid="haohang" creationdate="20150807T032744Z">
+        <seg>同样的项目依赖，你需要声明：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To do this, you need to define a custom configuration for the classpath, then add some dependencies to the configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060440Z" creationid="msdx" creationdate="20141116T060440Z">
@@ -28523,6 +28587,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With the help of the Project report plugin (see &lt;a1&gt;Chapter 41, &lt;i2&gt;The Project Report Plugin&lt;/i2&gt;&lt;/a1&gt;) such a report can be created by your build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T033055Z" creationid="haohang" creationdate="20150807T032917Z">
+        <seg>通过使用 Project report 插件（参阅 &lt;a1&gt;第 41 章， &lt;i2&gt;Project Report 插件&lt;/i2&gt;&lt;/a1&gt;），在构建中可以创建一个这样的报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With the map notation you can define all properties.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T034930Z" creationid="haohang" creationdate="20150724T034930Z">
@@ -29079,6 +29151,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155608Z" creationid="msdx" creationdate="20141113T155556Z">
         <seg>您可以进一步自定义存档名称：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can generate dependency reports from the command line (see &lt;a0&gt;Section 11.6.4, “Listing project dependencies”&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032854Z" creationid="haohang" creationdate="20150807T032854Z">
+        <seg>你可以从命令行生成依赖报告 （参阅 &lt;a0&gt;第11.6.4节，“列出项目依赖”&lt;/a0&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31606,6 +31686,16 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092519Z" creationid="haohang" creationdate="20150801T092519Z">
         <seg>compile project(&lt;s0&gt;':shared'&lt;/s0&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile project(path: &lt;s0&gt;':api'&lt;/s0&gt;, configuration: &lt;s1&gt;'spi'&lt;/s1&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032801Z" creationid="haohang" creationdate="20150807T032801Z">
+        <seg>compile project(path: &lt;s0&gt;':api'&lt;/s0&gt;, configuration: &lt;s1&gt;'spi'&lt;/s1&gt;)
 }</seg>
       </tuv>
     </tu>
@@ -37431,6 +37521,16 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>runtime group: &lt;s0&gt;'org.somegroup'&lt;/s0&gt;, name: &lt;s1&gt;'somedependency'&lt;/s1&gt;, version: &lt;s2&gt;'1.0'&lt;/s2&gt;, configuration: &lt;s3&gt;'someConfiguration'&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032719Z" creationid="haohang" creationdate="20150807T032719Z">
+        <seg>runtime group: &lt;s0&gt;'org.somegroup'&lt;/s0&gt;, name: &lt;s1&gt;'somedependency'&lt;/s1&gt;, version: &lt;s2&gt;'1.0'&lt;/s2&gt;, configuration: &lt;s3&gt;'someConfiguration'&lt;/s3&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runtime group: &lt;s0&gt;'org.springframework'&lt;/s0&gt;, name: &lt;s1&gt;'spring-core'&lt;/s1&gt;, version: &lt;s2&gt;'2.5'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T102830Z" creationid="haohang" creationdate="20150722T102830Z">
@@ -39288,6 +39388,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T164808Z" creationid="msdx" creationdate="20141109T164808Z">
         <seg>tutorial_gradle_command_line.html#N10952</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tutorial_gradle_command_line.html#para:commandline_dependency_report</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032812Z" creationid="haohang" creationdate="20150807T032812Z">
+        <seg>tutorial_gradle_command_line.html#para:commandline_dependency_report</seg>
       </tuv>
     </tu>
     <tu>
