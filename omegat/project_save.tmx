@@ -5422,6 +5422,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.5. Working with dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034203Z" creationid="haohang" creationdate="20150807T034203Z">
+        <seg>50.5. 使用依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -5998,6 +6006,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;dependencies&lt;/c0&gt; returns only the dependencies belonging explicitly to the configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034507Z" creationid="haohang" creationdate="20150807T034422Z">
+        <seg>&lt;c0&gt;dependencies&lt;/c0&gt;返回只明确属于配置的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;dependencyReport&lt;/c0&gt;, &lt;c1&gt;propertyReport&lt;/c1&gt;, &lt;c2&gt;taskReport&lt;/c2&gt;, &lt;c3&gt;htmlDependencyReport&lt;/c3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061534Z" creationid="haohang" creationdate="20150628T061534Z">
@@ -6106,6 +6122,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105249Z" creationid="haohang" creationdate="20150624T105249Z">
         <seg>&lt;c0&gt;withXml { arg -&gt; }&lt;/c0&gt; 参数类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c1&gt;allDependencies&lt;/c1&gt; includes the dependencies from extended configurations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034532Z" creationid="haohang" creationdate="20150807T034532Z">
+        <seg>&lt;c1&gt;allDependencies&lt;/c1&gt;包括了扩展配置的依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7302,6 +7326,24 @@ systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q allFiles
+orca-1.0.jar
+shark-1.0.jar
+tuna-1.0.jar
+herring-1.0.jar
+seal-2.0.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034620Z" creationid="haohang" creationdate="20150807T034620Z">
+        <seg>&gt; gradle -q allFiles
+orca-1.0.jar
+shark-1.0.jar
+tuna-1.0.jar
+herring-1.0.jar
+seal-2.0.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q check
 projectApi
 projectApi</seg>
@@ -7342,6 +7384,34 @@ I am the new one.</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T015907Z" creationid="msdx" creationdate="20141111T015907Z">
         <seg>&gt; gradle -q copy
 I am the new one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q dependencies
+albatros
+
+albatros
+orca
+shark
+tuna
+
+albatros
+shark
+tuna</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034419Z" creationid="haohang" creationdate="20150807T034419Z">
+        <seg>&gt; gradle -q dependencies
+albatros
+
+albatros
+orca
+shark
+tuna
+
+albatros
+shark
+tuna</seg>
       </tuv>
     </tu>
     <tu>
@@ -11586,6 +11656,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enabling the build logic to make decisions based on the content of the dependency graph.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034153Z" creationid="haohang" creationdate="20150807T034153Z">
+        <seg>启用使构建逻辑基于依赖树的内容来决定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Enabling this option hides any output when a task is executed unless the build fails.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161218Z" creationid="msdx" creationdate="20141105T161218Z">
@@ -13330,10 +13408,34 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.19. Configuration.copy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034238Z" creationid="haohang" creationdate="20150807T034238Z">
+        <seg>示例 50.19. Configuration.copy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.2. Accessing a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075909Z" creationid="haohang" creationdate="20150722T075909Z">
         <seg>示例 50.2. 访问配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.20. Accessing declared dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034353Z" creationid="haohang" creationdate="20150807T034353Z">
+        <seg>示例 50.20. 访问声明依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.21. Configuration.files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034606Z" creationid="haohang" creationdate="20150807T034606Z">
+        <seg>示例 50.21. Configuration.files</seg>
       </tuv>
     </tu>
     <tu>
@@ -14398,6 +14500,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T102035Z" creationid="haohang" creationdate="20150801T102035Z">
         <seg>使用这个案例，请参考&lt;a0&gt;第 50.2.3 节，“解决版本冲突”&lt;/a0&gt;和关于&lt;a1&gt;&lt;c2&gt;ResolutionStrategy&lt;/c2&gt;&lt;/a1&gt;文档，以了解这个问题潜在的更好的解决方案。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For the examples below we have the following dependencies setup:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034228Z" creationid="haohang" creationdate="20150807T034228Z">
+        <seg>下面的示例我们使用以下依赖设置：</seg>
       </tuv>
     </tu>
     <tu>
@@ -18715,6 +18825,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q allFiles&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034618Z" creationid="haohang" creationdate="20150807T034618Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q allFiles&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q check&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T043154Z" creationid="msdx" creationdate="20141108T043154Z">
@@ -18743,6 +18861,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T015905Z" creationid="msdx" creationdate="20141111T015905Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q copy&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q dependencies&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034417Z" creationid="haohang" creationdate="20150807T034417Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q dependencies&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -20335,6 +20461,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T151833Z" creationid="msdx" creationdate="20141117T151833Z">
         <seg>有时我们不能使用现有的守护进程，是因为它正忙或其 java 版本或 jvm 参数不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sometimes you want the library files of a subset of the configuration dependencies (e.g. of a single dependency).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034719Z" creationid="haohang" creationdate="20150807T034719Z">
+        <seg>有时你想要配置依赖的某个子集（例如单个依赖）的 library 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23875,6 +24009,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The dependencies have the following transitive dependencies:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034312Z" creationid="haohang" creationdate="20150807T034312Z">
+        <seg>这些依赖有以下的传递依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The dependencies of a client module can be normal module dependencies or artifact dependencies or another client module.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091659Z" creationid="haohang" creationdate="20150801T091659Z">
@@ -27091,6 +27233,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To get the library files of the configuration dependencies you can do:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034557Z" creationid="haohang" creationdate="20150807T034557Z">
+        <seg>要获得配置依赖的library文件，你可以这样：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To have access to the complete API, either with the map or with the string notation, you can assign a single dependency to a configuration together with a closure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035107Z" creationid="haohang" creationdate="20150724T035107Z">
@@ -29499,6 +29649,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use the configuration to access the declared dependencies or a subset of those:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034344Z" creationid="haohang" creationdate="20150807T034344Z">
+        <seg>你可以使用配置来访问它们的声明依赖或其中一个子集：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use the contents of an archive, such as a ZIP or TAR file, as a file tree.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120455Z" creationid="msdx" creationdate="20141113T120455Z">
@@ -29997,6 +30155,38 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083422Z" creationid="msdx" creationdate="20150428T083422Z">
         <seg>allSource</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>alllife
+}
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034240Z" creationid="haohang" creationdate="20150807T034240Z">
+        <seg>alllife
+}
+
+dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>alllife &lt;s3&gt;"air.birds:albatros:1.0"&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034244Z" creationid="haohang" creationdate="20150807T034244Z">
+        <seg>alllife &lt;s3&gt;"air.birds:albatros:1.0"&lt;/s3&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>alllife configurations.sealife</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034242Z" creationid="haohang" creationdate="20150807T034242Z">
+        <seg>alllife configurations.sealife</seg>
       </tuv>
     </tu>
     <tu>
@@ -31885,12 +32075,46 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configurations.alllife.allDependencies.each { dep -&gt; println dep.name }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034359Z" creationid="haohang" creationdate="20150807T034359Z">
+        <seg>configurations.alllife.allDependencies.each { dep -&gt; println dep.name }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.alllife.allDependencies.findAll { dep -&gt; dep.name != &lt;s0&gt;'orca'&lt;/s0&gt; }.each { dep -&gt; println dep.name }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034400Z" creationid="haohang" creationdate="20150807T034400Z">
+        <seg>configurations.alllife.allDependencies.findAll { dep -&gt; dep.name != &lt;s0&gt;'orca'&lt;/s0&gt; }.each { dep -&gt; println dep.name }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.alllife.dependencies.each { dep -&gt; println dep.name }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034358Z" creationid="haohang" creationdate="20150807T034358Z">
+        <seg>configurations.alllife.dependencies.each { dep -&gt; println dep.name }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>configurations.compile.each { File file -&gt; println file.name }
 }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091159Z" creationid="haohang" creationdate="20150801T091159Z">
         <seg>configurations.compile.each { File file -&gt; println file.name }
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.sealife.files.each { file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034609Z" creationid="haohang" creationdate="20150807T034609Z">
+        <seg>configurations.sealife.files.each { file -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -35859,6 +36083,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>orca-1.0 -&gt; seal-1.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034314Z" creationid="haohang" creationdate="20150807T034314Z">
+        <seg>orca-1.0 -&gt; seal-1.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>org.gradle.configureondemand</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T052427Z" creationid="msdx" creationdate="20141120T052427Z">
@@ -36729,6 +36961,14 @@ FileTree filtered = tree.matching {</seg>
 
 &lt;s1&gt;// Filter a tree&lt;/s1&gt;
 FileTree filtered = tree.matching {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println file.name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034610Z" creationid="haohang" creationdate="20150807T034610Z">
+        <seg>println file.name</seg>
       </tuv>
     </tu>
     <tu>
@@ -37843,6 +38083,22 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sealife</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034239Z" creationid="haohang" creationdate="20150807T034239Z">
+        <seg>sealife</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sealife &lt;s0&gt;"sea.mammals:orca:1.0"&lt;/s0&gt;, &lt;s1&gt;"sea.fish:shark:1.0"&lt;/s1&gt;, &lt;s2&gt;"sea.fish:tuna:1.0"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034241Z" creationid="haohang" creationdate="20150807T034241Z">
+        <seg>sealife &lt;s0&gt;"sea.mammals:orca:1.0"&lt;/s0&gt;, &lt;s1&gt;"sea.fish:shark:1.0"&lt;/s1&gt;, &lt;s2&gt;"sea.fish:tuna:1.0"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>securityRole &lt;s25&gt;"admin"&lt;/s25&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142901Z" creationid="msdx" creationdate="20150504T142901Z">
@@ -37887,6 +38143,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132320Z" creationid="msdx" creationdate="20150506T132320Z">
         <seg>sessionId</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>shark-1.0 -&gt; seal-2.0, tuna-1.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034313Z" creationid="haohang" creationdate="20150807T034313Z">
+        <seg>shark-1.0 -&gt; seal-2.0, tuna-1.0</seg>
       </tuv>
     </tu>
     <tu>
@@ -38779,6 +39043,14 @@ systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task allFiles &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034607Z" creationid="haohang" creationdate="20150807T034607Z">
+        <seg>task allFiles &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task anotherCopyTask(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130947Z" creationid="msdx" creationdate="20141113T130947Z">
@@ -38875,6 +39147,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100422Z" creationid="haohang" creationdate="20150703T100422Z">
         <seg>task createDocs {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task dependencies &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034356Z" creationid="haohang" creationdate="20150807T034356Z">
+        <seg>task dependencies &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -39404,6 +39684,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132306Z" creationid="msdx" creationdate="20150506T132306Z">
         <seg>true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tuna-1.0 -&gt; herring-1.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034315Z" creationid="haohang" creationdate="20150807T034315Z">
+        <seg>tuna-1.0 -&gt; herring-1.0</seg>
       </tuv>
     </tu>
     <tu>
