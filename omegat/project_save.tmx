@@ -7978,6 +7978,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Maven repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095629Z" creationid="haohang" creationdate="20150807T095629Z">
+        <seg>一个 Maven 仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Sonar property value set via a system property overrides any value set in a build script (for the same property).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T234241Z" creationid="haohang" creationdate="20150525T234241Z">
@@ -8148,8 +8156,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>A pre-configured repository that looks for dependencies in Bintray's JCenter.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094212Z" creationid="haohang" creationdate="20150807T094212Z">
-        <seg>A pre-configured repository that looks for dependencies in Bintray's JCenter.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095555Z" creationid="haohang" creationdate="20150807T094212Z">
+        <seg>一个会在 Bintray 的 Jcenter 查找依赖的预配置仓库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8158,6 +8166,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094223Z" creationid="haohang" creationdate="20150807T094157Z">
         <seg>一个会在 Maven 中央仓中查找依赖的预配置仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A pre-configured repository that looks for dependencies in the local Maven repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095616Z" creationid="haohang" creationdate="20150807T095616Z">
+        <seg>一个会在本地 Maven 仓库中查找依赖的预配置仓库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9146,6 +9162,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An Ivy repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095700Z" creationid="haohang" creationdate="20150807T095700Z">
+        <seg>一个 Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An artifact only notation creates a module dependency which downloads only the artifact file with the specified extension.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T035208Z" creationid="haohang" creationdate="20150731T034643Z">
@@ -10038,6 +10062,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T045758Z" creationid="Administrator" creationdate="20150427T045758Z">
         <seg>可以使用字符串或数字来设置，例如&lt;c2&gt;"1.5"&lt;/c2&gt;或&lt;c3&gt;1.5&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Can be located on the local filesystem or at some remote location.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095649Z" creationid="haohang" creationdate="20150807T095649Z">
+        <seg>可以位于本地文件系统上，或在某个远程的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14072,6 +14104,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flat directory repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095712Z" creationid="haohang" creationdate="20150807T095712Z">
+        <seg>Flat 目录仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For 3rd party plugins however, you need to make the plugins available to the build classpath.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T134835Z" creationid="msdx" creationdate="20141123T134835Z">
@@ -17729,6 +17769,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Ivy repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095655Z" creationid="haohang" creationdate="20150807T095655Z">
+        <seg>Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Ivy's dependency descriptor (&lt;c0&gt;ivy.xml&lt;/c0&gt;) can declare multiple artifacts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T042927Z" creationid="haohang" creationdate="20150724T042927Z">
@@ -18245,6 +18293,22 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094122Z" creationid="haohang" creationdate="20150807T094122Z">
         <seg>Maven 中央仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maven local repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095601Z" creationid="haohang" creationdate="20150807T095601Z">
+        <seg>Maven 本地仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095622Z" creationid="haohang" creationdate="20150807T095622Z">
+        <seg>Maven 仓库</seg>
       </tuv>
     </tu>
     <tu>
@@ -32845,10 +32909,26 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:flat_dir_resolver</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095702Z" creationid="haohang" creationdate="20150807T095702Z">
+        <seg>dependency_management.html#sec:flat_dir_resolver</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependency_management.html#sec:how_to_declare_your_dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060209Z" creationid="msdx" creationdate="20141116T060209Z">
         <seg>dependency_management.html#sec:how_to_declare_your_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:ivy_repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095651Z" creationid="haohang" creationdate="20150807T095651Z">
+        <seg>dependency_management.html#sec:ivy_repositories</seg>
       </tuv>
     </tu>
     <tu>
@@ -32921,6 +33001,22 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T094158Z" creationid="haohang" creationdate="20150807T094158Z">
         <seg>dependency_management.html#sub:maven_jcenter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:maven_local</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095556Z" creationid="haohang" creationdate="20150807T095556Z">
+        <seg>dependency_management.html#sub:maven_local</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:maven_repo</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095617Z" creationid="haohang" creationdate="20150807T095617Z">
+        <seg>dependency_management.html#sub:maven_repo</seg>
       </tuv>
     </tu>
     <tu>
