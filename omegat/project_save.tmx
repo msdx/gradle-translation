@@ -5430,6 +5430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6. Repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091333Z" creationid="haohang" creationdate="20150807T091333Z">
+        <seg>50.6. 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -8386,6 +8394,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Additionally Gradle provides various convenience method to add pre-configured repositories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091546Z" creationid="haohang" creationdate="20150807T091546Z">
+        <seg>Additionally Gradle provides various convenience method to add pre-configured repositories.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Additionally, a property named &lt;c2&gt;purpose&lt;/c2&gt; is added to each source set by setting &lt;c3&gt;ext.purpose&lt;/c3&gt; to &lt;c4&gt;null&lt;/c4&gt; (&lt;c5&gt;null&lt;/c5&gt; is a permissible value).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054144Z" creationid="msdx" creationdate="20141108T054144Z">
@@ -10030,6 +10046,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094053Z" creationid="msdx" creationdate="20150429T094028Z">
         <seg>修改的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Changing its state or the state of one of its dependencies will cause an exception.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091205Z" creationid="haohang" creationdate="20150807T091205Z">
+        <seg>如果去修改它的状态，或者是它的某个依赖的状态，将会引发一个异常。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15376,6 +15400,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle repository management, based on Apache Ivy, gives you a lot of freedom regarding repository layout and retrieval policies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091542Z" creationid="haohang" creationdate="20150807T091542Z">
+        <seg>Gradle 仓库管理，基于 Apache Ivy，为你提供了有关仓库布局和获取策略的许多自由。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle supports &lt;e2&gt;enhanced tasks&lt;/e2&gt;, that is, tasks which have their own properties and methods.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T160613Z" creationid="msdx" creationdate="20141109T160613Z">
@@ -18693,6 +18725,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T122734Z" creationid="msdx" creationdate="20141111T070356Z">
         <seg>另一方面，如果最终的任务什么都不做的话，比如由于失败的任务依赖项或如果它被认为是最新的状态，析构任务不会执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once a configuration is resolved it is immutable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091056Z" creationid="haohang" creationdate="20150807T091056Z">
+        <seg>一旦一个配置被解析，那它就是不可变的了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24057,6 +24097,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The copied configuration is in the unresolved state and can be freshly resolved.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091255Z" creationid="haohang" creationdate="20150807T091255Z">
+        <seg>这个复制的配置处于未解析的状态，并且可以被刷新解析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The copied configuration only has &lt;c8&gt;orca&lt;/c8&gt; as a dependency and therefore there is no version conflict and &lt;c9&gt;seal-1.0&lt;/c9&gt; is returned as a transitive dependency.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091027Z" creationid="haohang" creationdate="20150807T091027Z">
@@ -27473,6 +27521,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To learn more about the API of the configuration class see the API documentation: &lt;a0&gt;&lt;c1&gt;Configuration&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091327Z" creationid="haohang" creationdate="20150807T091327Z">
+        <seg>想了解更多关于这个配置类的API，可以参阅它的 API 文档：&lt;a0&gt;&lt;c1&gt;Configuration&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To learn more about the available instructions have a look at the &lt;a1&gt;BND tool&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064756Z" creationid="haohang" creationdate="20150526T064756Z">
@@ -29325,6 +29381,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120348Z" creationid="msdx" creationdate="20141113T120303Z">
         <seg>你也可以使用Ant风格的模式来访问文件树的内容或选择一个子树：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can always copy a resolved configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091221Z" creationid="haohang" creationdate="20150807T091221Z">
+        <seg>你可以永远复制一个解析了的配置。</seg>
       </tuv>
     </tu>
     <tu>
