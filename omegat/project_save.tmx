@@ -15584,6 +15584,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle uses the same logic as Maven to identify the location of your local Maven cache.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052559Z" creationid="haohang" creationdate="20150909T052559Z">
+        <seg>Gradle 使用与 Maven 相同的逻辑来标识你本地的 Maven 缓存的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle uses this for &lt;e1&gt;configuration closures&lt;/e1&gt;, where the &lt;c2&gt;delegate&lt;/c2&gt; object is set to the object to be configured.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065107Z" creationid="msdx" creationdate="20141108T063831Z">
@@ -16228,6 +16236,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154635Z" creationid="msdx" creationdate="20150430T154635Z">
         <seg>如果在&lt;c1&gt;classpath&lt;/c1&gt;中找到&lt;c0&gt;scala-library&lt;/c0&gt; Jar ，并且该项目已经在至少一个仓库中声明了它，那么相应的&lt;c2&gt;scala-compiler&lt;/c2&gt;的仓库依赖将添加到&lt;c3&gt;scalaClasspath&lt;/c3&gt;中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a local repository location is defined in a &lt;c0&gt;settings.xml&lt;/c0&gt;, this location will be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052631Z" creationid="haohang" creationdate="20150909T052631Z">
+        <seg>如果在&lt;c0&gt;settings.xml&lt;/c0&gt;中定义一个本地仓库的位置，那么这个位置将会被使用。</seg>
       </tuv>
     </tu>
     <tu>
