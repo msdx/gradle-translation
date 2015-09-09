@@ -5454,6 +5454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6.4. Maven repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052845Z" creationid="haohang" creationdate="20150909T052845Z">
+        <seg>50.6.4. Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.6. Repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091333Z" creationid="haohang" creationdate="20150807T091333Z">
@@ -13672,6 +13680,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.28. Adding custom Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052925Z" creationid="haohang" creationdate="20150909T052925Z">
+        <seg>示例 50.28. 添加一个自定义的 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.29. Adding additional Maven repositories for JAR files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053107Z" creationid="haohang" creationdate="20150909T053107Z">
+        <seg>示例 50.29. 为 JAR 文件添加额外的 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.3. Configuration of a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075929Z" creationid="haohang" creationdate="20150722T075929Z">
@@ -14228,6 +14252,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T140045Z" creationid="msdx" creationdate="20141117T140045Z">
         <seg>对以上各种工作流来说，让调用 Gradle 的启动成本尽可能小会很重要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For adding a custom Maven repository you can do:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052909Z" creationid="haohang" creationdate="20150909T052909Z">
+        <seg>要添加一个自定义的 Maven 仓库，你可以如下操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16292,6 +16324,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T070035Z" creationid="msdx" creationdate="20141116T070035Z">
         <seg>如果日志太多，真正的警告和问题容易被隐藏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no &lt;c9&gt;settings.xml&lt;/c9&gt; is available, Gradle uses the default location &lt;c10&gt;&lt;e11&gt;&lt;c12&gt;USER_HOME&lt;/c12&gt;&lt;/e11&gt;/.m2/repository&lt;/c10&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052837Z" creationid="haohang" creationdate="20150909T052837Z">
+        <seg>如果没有&lt;c9&gt;settings.xml&lt;/c9&gt;可用，Gradle 将使用默认的位置&lt;c10&gt;&lt;e11&gt;&lt;c12&gt;USER_HOME&lt;/c12&gt;&lt;/e11&gt;/.m2/repository&lt;/c10&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20841,6 +20881,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sometimes a repository will have the POMs published to one location, and the JARs and other artifacts published at another location.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053028Z" creationid="haohang" creationdate="20150909T053028Z">
+        <seg>有时候，一个仓库会出现 POM 文件发布在一个地方，而 JAR 文件和其他构件发布在另一个地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sometimes we cannot use an existing daemon because it is busy or its java version or jvm arguments are different.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T151833Z" creationid="msdx" creationdate="20141117T151833Z">
@@ -22589,6 +22637,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T040548Z" creationid="haohang" creationdate="20150807T040548Z">
         <seg>&lt;c1&gt;copyRecursive&lt;/c1&gt;方法将复制所有依赖，包括扩展配置的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c1&gt;settings.xml&lt;/c1&gt; in &lt;c2&gt;&lt;e3&gt;&lt;c4&gt;USER_HOME&lt;/c4&gt;&lt;/e3&gt;/.m2&lt;/c2&gt; takes precedence over the &lt;c5&gt;settings.xml&lt;/c5&gt; in &lt;c6&gt;&lt;e7&gt;&lt;c8&gt;M2_HOME&lt;/c8&gt;&lt;/e7&gt;/conf&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052823Z" creationid="haohang" creationdate="20150909T052823Z">
+        <seg>在&lt;c2&gt;&lt;e3&gt;&lt;c4&gt;USER_HOME&lt;/c4&gt;&lt;/e3&gt;/.m2&lt;/c2&gt; 的&lt;c1&gt;settings.xml&lt;/c1&gt; 比在 &lt;c6&gt; &lt;e7&gt; &lt;c8&gt;M2_HOME&lt;/c8&gt;&lt;/e7&gt;/conf&lt;/c6&gt;的&lt;c5&gt;settings.xml&lt;/c5&gt;优先。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27645,6 +27701,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T053322Z" creationid="Administrator" creationdate="20150427T053322Z">
         <seg>要定义一个新的源集，你只需在&lt;c0&gt;sourceSets {}&lt;/c0&gt;块中引用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To define such a repository, you can do:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053043Z" creationid="haohang" creationdate="20150909T053043Z">
+        <seg>要定义一个这样的仓库，你可以这样：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36427,6 +36491,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>maven {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052927Z" creationid="haohang" creationdate="20150909T052927Z">
+        <seg>maven {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>maven-publish</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104802Z" creationid="msdx" creationdate="20150428T104802Z">
@@ -40810,6 +40882,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083218Z" creationid="msdx" creationdate="20150428T083218Z">
         <seg>uploadArchives</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url &lt;s0&gt;"http://repo.mycompany.com/maven2"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052930Z" creationid="haohang" creationdate="20150909T052930Z">
+        <seg>url &lt;s0&gt;"http://repo.mycompany.com/maven2"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
