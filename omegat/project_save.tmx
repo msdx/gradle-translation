@@ -5454,6 +5454,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6.4.1. Accessing password protected Maven repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053258Z" creationid="haohang" creationdate="20150909T053258Z">
+        <seg>50.6.4.1. 访问密码保护的 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.6.4. Maven repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052845Z" creationid="haohang" creationdate="20150909T052845Z">
@@ -6522,6 +6530,14 @@ collection.each {File file -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Look for POMs and artifacts, such as JARs, here&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053115Z" creationid="haohang" creationdate="20150909T053115Z">
+        <seg>&lt;s0&gt;// Look for POMs and artifacts, such as JARs, here&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Use a File object to specify the source directory&lt;/s0&gt;
 compile {</seg>
       </tuv>
@@ -7026,6 +7042,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130949Z" creationid="msdx" creationdate="20141113T130949Z">
         <seg>&lt;s2&gt;// Copy a single file&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Look for artifacts here if not found at the above location&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053117Z" creationid="haohang" creationdate="20150909T053117Z">
+        <seg>&lt;s2&gt;// Look for artifacts here if not found at the above location&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13704,6 +13728,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.30. Accessing password protected Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053438Z" creationid="haohang" creationdate="20150909T053438Z">
+        <seg>示例 50.30. 访问密码保护的 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.4. Module dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T102829Z" creationid="haohang" creationdate="20150722T102829Z">
@@ -15632,6 +15664,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle will look at the first URL for the POM and the JAR.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053159Z" creationid="haohang" creationdate="20150909T053159Z">
+        <seg>Gradle 将会在第一个URL中查找 POM 和 JAR 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle will look for the source files to include in the WAR file in &lt;c2&gt;src/main/webapp&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085806Z" creationid="msdx" creationdate="20141030T085806Z">
@@ -16380,6 +16420,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T033346Z" creationid="msdx" creationdate="20141116T104044Z">
         <seg>如果选择 &lt;c0&gt;DEBUG&lt;/c0&gt; 日志级别，则总是输出截断后的栈跟踪信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the JAR can't be found there, the artifact URLs are used to look for JARs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053237Z" creationid="haohang" creationdate="20150909T053237Z">
+        <seg>如果那里找不到 JAR，就会用 artifact URLs 来查找 JAR 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27545,6 +27593,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To access a Maven repository which uses basic authentication, you specify the username and password to use when you define the repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053415Z" creationid="haohang" creationdate="20150909T053415Z">
+        <seg>要访问一个使用基本的身份验证的 Maven 仓库，当你在定义该仓库时要指定使用的用户名和密码：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To access a configuration:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075846Z" creationid="haohang" creationdate="20150722T075846Z">
@@ -31635,6 +31691,22 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>artifactUrls &lt;s3&gt;"http://repo.mycompany.com/jars"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053118Z" creationid="haohang" creationdate="20150909T053118Z">
+        <seg>artifactUrls &lt;s3&gt;"http://repo.mycompany.com/jars"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifactUrls &lt;s4&gt;"http://repo.mycompany.com/jars2"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053119Z" creationid="haohang" creationdate="20150909T053119Z">
+        <seg>artifactUrls &lt;s4&gt;"http://repo.mycompany.com/jars2"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifact_dependencies_tutorial.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161446Z" creationid="msdx" creationdate="20141105T161446Z">
@@ -32795,6 +32867,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141209T074117Z" creationid="msdx" creationdate="20141209T074117Z">
         <seg>cpp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>credentials {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053440Z" creationid="haohang" creationdate="20150909T053440Z">
+        <seg>credentials {</seg>
       </tuv>
     </tu>
     <tu>
@@ -37009,6 +37089,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>password &lt;s1&gt;'password'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053441Z" creationid="haohang" creationdate="20150909T053441Z">
+        <seg>password &lt;s1&gt;'password'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>password = &lt;s1&gt;'myPassword'&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -40894,6 +40982,22 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>url &lt;s1&gt;"http://repo2.mycompany.com/maven2"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053116Z" creationid="haohang" creationdate="20150909T053116Z">
+        <seg>url &lt;s1&gt;"http://repo2.mycompany.com/maven2"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url &lt;s2&gt;"http://repo.mycompany.com/maven2"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053444Z" creationid="haohang" creationdate="20150909T053444Z">
+        <seg>url &lt;s2&gt;"http://repo.mycompany.com/maven2"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>url = &lt;s0&gt;"http://my.server.com"&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143650Z" creationid="msdx" creationdate="20150510T143650Z">
@@ -40966,6 +41070,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T071142Z" creationid="msdx" creationdate="20141030T071142Z">
         <seg>userguide.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>username &lt;s0&gt;'user'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053440Z" creationid="haohang" creationdate="20150909T053440Z">
+        <seg>username &lt;s0&gt;'user'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
