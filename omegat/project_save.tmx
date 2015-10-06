@@ -11768,6 +11768,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each &lt;c0&gt;artifact&lt;/c0&gt; or &lt;c1&gt;ivy&lt;/c1&gt; specified for a repository adds an &lt;s2&gt;&lt;e3&gt;additional&lt;/e3&gt;&lt;/s2&gt; pattern to use.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T111402Z" creationid="95" creationdate="20151006T111402Z">
+        <seg>Each &lt;c0&gt;artifact&lt;/c0&gt; or &lt;c1&gt;ivy&lt;/c1&gt; specified for a repository adds an &lt;s2&gt;&lt;e3&gt;additional&lt;/e3&gt;&lt;/s2&gt; pattern to use.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each artifact can have a different set of dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035634Z" creationid="haohang" creationdate="20150724T035634Z">
@@ -13812,6 +13820,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T111051Z" creationid="95" creationdate="20151006T111051Z">
         <seg>示例50.34. 使用 Maven 兼容布局的 Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.35. Ivy repository with custom patterns</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T111343Z" creationid="95" creationdate="20151006T111343Z">
+        <seg>示例 50.35. 自定义模式的 Ivy 仓库</seg>
       </tuv>
     </tu>
     <tu>
@@ -27905,6 +27921,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To define an Ivy repository which fetches Ivy files and artifacts from different locations, you can use the pattern layout with separate patterns to use to locate the Ivy files and artifacts:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T111329Z" creationid="95" creationdate="20151006T111329Z">
+        <seg>若要定义一个从不同的位置获取 Ivy 文件和 artifacts 的 Ivy 仓库，您可以使用模式布局，每个单独的模式用于定位到 Ivy 文件和 artifacts：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To define an Ivy repository with a non-standard layout, you can define a pattern layout for the repository:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T110614Z" creationid="95" creationdate="20151006T110614Z">
@@ -31851,6 +31875,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>artifact &lt;s2&gt;"3rd-party-artifacts/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T111345Z" creationid="95" creationdate="20151006T111345Z">
+        <seg>artifact &lt;s2&gt;"3rd-party-artifacts/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifact &lt;s2&gt;"[module]/[revision]/[type]/[artifact].[ext]"&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T110641Z" creationid="95" creationdate="20151006T110641Z">
@@ -31863,6 +31895,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T111052Z" creationid="95" creationdate="20151006T111052Z">
         <seg>artifact &lt;s2&gt;"[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifact &lt;s3&gt;"company-artifacts/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T111347Z" creationid="95" creationdate="20151006T111347Z">
+        <seg>artifact &lt;s3&gt;"company-artifacts/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -36051,6 +36091,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161842Z" creationid="msdx" creationdate="20141109T161842Z">
         <seg>introduction.html#N10048</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ivy &lt;s4&gt;"ivy-files/[organisation]/[module]/[revision]/ivy.xml"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T111348Z" creationid="95" creationdate="20151006T111348Z">
+        <seg>ivy &lt;s4&gt;"ivy-files/[organisation]/[module]/[revision]/ivy.xml"&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
