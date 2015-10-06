@@ -1734,6 +1734,28 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>// Maven2 layout (if a repository is marked as Maven2 compatible, the organization (group) is split into subfolders according to the dots.)
+someroot/[organisation]/[module]/[revision]/[module]-[revision].[ext]
+
+// Typical layout for an Ivy repository (the organization is not split into subfolder)
+someroot/[organisation]/[module]/[revision]/[type]s/[artifact].[ext]
+
+// Simple layout (the organization is not used, no nested folders.)
+someroot/[artifact]-[revision].[ext]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T134609Z" creationid="95" creationdate="20151006T134609Z">
+        <seg>// Maven2 layout (if a repository is marked as Maven2 compatible, the organization (group) is split into subfolders according to the dots.)
+someroot/[organisation]/[module]/[revision]/[module]-[revision].[ext]
+
+// Typical layout for an Ivy repository (the organization is not split into subfolder)
+someroot/[organisation]/[module]/[revision]/[type]s/[artifact].[ext]
+
+// Simple layout (the organization is not used, no nested folders.)
+someroot/[artifact]-[revision].[ext]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161837Z" creationid="msdx" creationdate="20141109T161837Z">
@@ -13896,6 +13918,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.39. Definition of a custom repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T134736Z" creationid="95" creationdate="20151006T134705Z">
+        <seg>示例 50.39. 自定义仓库的定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.4. Module dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T102829Z" creationid="haohang" creationdate="20150722T102829Z">
@@ -16088,6 +16118,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here are some examples: &lt;s1&gt;[&lt;a2&gt;16&lt;/a2&gt;]&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T134713Z" creationid="95" creationdate="20151006T134549Z">
+        <seg>这里有一些例子：&lt;s1&gt;[&lt;a2&gt;16&lt;/a2&gt;]&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here are some situations where this matters:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150730T034803Z" creationid="haohang" creationdate="20150730T034515Z">
@@ -17252,6 +17290,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T081814Z" creationid="Administrator" creationdate="20150428T081814Z">
         <seg>如果你不想要使用测试类检测，可以通过设置&lt;c0&gt;scanForTestClasses&lt;/c0&gt;为 false 来禁用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In contrast to Maven, where this path is fixed, with Gradle you can define a pattern that defines what the path will look like.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T134540Z" creationid="95" creationdate="20151006T134540Z">
+        <seg>相比于固定路径的 Maven，使用 Gradle 你可以定义一个模式，该模式定义了路径的样子。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27905,6 +27951,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To add any kind of repository (you can pretty easy write your own ones) you can do:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T134702Z" creationid="95" creationdate="20151006T134702Z">
+        <seg>要添加任何一种仓库 (你可以很简单地编写你自己的) ，你可以：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To add some files as a dependency for a configuration, you simply pass a &lt;a0&gt;file collection&lt;/a0&gt; as a dependency:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094136Z" creationid="haohang" creationdate="20150801T094136Z">
@@ -32043,6 +32097,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>artifactPattern &lt;s1&gt;"$projectDir/repo/[organisation]/[module]-[revision](-[classifier]).[ext]"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T134715Z" creationid="95" creationdate="20151006T134715Z">
+        <seg>artifactPattern &lt;s1&gt;"$projectDir/repo/[organisation]/[module]-[revision](-[classifier]).[ext]"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifactUrls &lt;s3&gt;"http://repo.mycompany.com/jars"&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053118Z" creationid="haohang" creationdate="20150909T053118Z">
@@ -35249,6 +35311,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061235Z" creationid="haohang" creationdate="20150628T061235Z">
         <seg>htmlDependencyReport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://ant.apache.org/ivy/history/latest-milestone/settings/resolvers.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T134739Z" creationid="95" creationdate="20151006T134739Z">
+        <seg>http://ant.apache.org/ivy/history/latest-milestone/settings/resolvers.html</seg>
       </tuv>
     </tu>
     <tu>
