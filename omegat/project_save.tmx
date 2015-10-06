@@ -5502,6 +5502,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6.6.3. Defining different artifact and Ivy file locations for an Ivy repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T111142Z" creationid="95" creationdate="20151006T111142Z">
+        <seg>50.6.6.3. 为一个 Ivy 仓库定义不同的 artifact 和 Ivy 文件位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.6.6. Ivy repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T110337Z" creationid="95" creationdate="20151006T110337Z">
@@ -13800,6 +13808,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.34. Ivy repository with Maven compatible layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T111051Z" creationid="95" creationdate="20151006T111051Z">
+        <seg>示例50.34. 使用 Maven 兼容布局的 Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.4. Module dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T102829Z" creationid="haohang" creationdate="20150722T102829Z">
@@ -14604,6 +14620,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T022949Z" creationid="msdx" creationdate="20141110T021240Z">
         <seg>例如，在表达式中不能用这种关键字风格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the organisation &lt;c0&gt;my.company&lt;/c0&gt; would then be represented as &lt;c1&gt;my/company&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T111037Z" creationid="95" creationdate="20151006T111037Z">
+        <seg>例如，组织&lt;c0&gt;my.company&lt;/c0&gt;将表示为&lt;c1&gt;my/company&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19229,6 +19253,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T102829Z" creationid="msdx" creationdate="20141116T102829Z">
         <seg>选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Optionally, a repository with pattern layout can have its 'organisation' part laid out in Maven style, with forward slashes replacing dots as separators.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T111017Z" creationid="95" creationdate="20151006T111017Z">
+        <seg>作为可选的功能，一个使用模式布局的仓库可以有它自己的以Maven 风格奠定的“组织”部分，该部分使用斜杠替换点作为分隔符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31827,6 +31859,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>artifact &lt;s2&gt;"[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T111052Z" creationid="95" creationdate="20151006T111052Z">
+        <seg>artifact &lt;s2&gt;"[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifactUrls &lt;s3&gt;"http://repo.mycompany.com/jars"&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053118Z" creationid="haohang" creationdate="20150909T053118Z">
@@ -36679,6 +36719,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T071013Z" creationid="msdx" creationdate="20141116T071013Z">
         <seg>logging.html#stacktraces</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>m2compatible = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T111055Z" creationid="95" creationdate="20151006T111055Z">
+        <seg>m2compatible = true</seg>
       </tuv>
     </tu>
     <tu>
