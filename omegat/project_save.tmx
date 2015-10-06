@@ -590,6 +590,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.artifacts.repositories.IvyArtifactRepository.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110444Z" creationid="95" creationdate="20151006T110444Z">
+        <seg>../dsl/org.gradle.api.artifacts.repositories.IvyArtifactRepository.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.distribution.DistributionContainer.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T025859Z" creationid="haohang" creationdate="20150701T025859Z">
@@ -5474,6 +5482,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150910T011839Z" creationid="haohang" creationdate="20150910T011749Z">
         <seg>50.6.5. 平面的目录仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.6.6.1. Defining custom patterns for an Ivy repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110538Z" creationid="95" creationdate="20151006T110538Z">
+        <seg>50.6.6.1. 为一个 Ivy 存储库定义自定义的模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.6.6. Ivy repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110337Z" creationid="95" creationdate="20151006T110337Z">
+        <seg>50.6.6. Ivy 存储库</seg>
       </tuv>
     </tu>
     <tu>
@@ -13752,6 +13776,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.32. Ivy repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110439Z" creationid="95" creationdate="20151006T110439Z">
+        <seg>示例 50.32. Ivy存储库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.33. Ivy repository with pattern layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110627Z" creationid="95" creationdate="20151006T110627Z">
+        <seg>示例 50.33. Ivy 仓库模式布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.4. Module dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T102829Z" creationid="haohang" creationdate="20150722T102829Z">
@@ -20501,6 +20541,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T133906Z" creationid="msdx" creationdate="20150505T133906Z">
         <seg>请参阅&lt;a0&gt;&lt;c1&gt;FindBugsExtension&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;&lt;c1&gt;IvyArtifactRepository&lt;/c1&gt;&lt;/a0&gt; for details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110451Z" creationid="95" creationdate="20151006T110451Z">
+        <seg>详细信息请参阅&lt;a0&gt;&lt;c1&gt;IvyArtifactRepository&lt;/c1&gt; &lt;/a0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27817,6 +27865,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To define an Ivy repository with a non-standard layout, you can define a pattern layout for the repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110614Z" creationid="95" creationdate="20151006T110614Z">
+        <seg>若要定义非标准布局的 Ivy 仓库，你可以定义一个仓库模式布局：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To define such a repository, you can do:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053043Z" creationid="haohang" creationdate="20150909T053043Z">
@@ -28053,6 +28109,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T061102Z" creationid="msdx" creationdate="20141111T060919Z">
         <seg>若要使用 Gradle 的最新状态（up-to-date）检查，您需要声明这个任务的输入和输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use an Ivy repository with a standard layout:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110426Z" creationid="95" creationdate="20151006T110426Z">
+        <seg>使用一个标准布局的 Ivy 存储库：</seg>
       </tuv>
     </tu>
     <tu>
@@ -31743,6 +31807,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083245Z" creationid="msdx" creationdate="20150428T083245Z">
         <seg>archivesBaseName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifact &lt;s2&gt;"[module]/[revision]/[type]/[artifact].[ext]"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110641Z" creationid="95" creationdate="20151006T110641Z">
+        <seg>artifact &lt;s2&gt;"[module]/[revision]/[type]/[artifact].[ext]"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -35935,6 +36007,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ivy {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110441Z" creationid="95" creationdate="20151006T110441Z">
+        <seg>ivy {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ivy-publish</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104801Z" creationid="msdx" creationdate="20150428T104801Z">
@@ -36409,6 +36489,22 @@ dependencies {</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T054036Z" creationid="msdx" creationdate="20150513T054036Z">
         <seg>language = System.getProperty(&lt;s0&gt;"sonar.language"&lt;/s0&gt;, &lt;s1&gt;"java"&lt;/s1&gt;)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>layout &lt;s1&gt;"maven"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110443Z" creationid="95" creationdate="20151006T110443Z">
+        <seg>layout &lt;s1&gt;"maven"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>layout &lt;s1&gt;"pattern"&lt;/s1&gt;, {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110640Z" creationid="95" creationdate="20151006T110640Z">
+        <seg>layout &lt;s1&gt;"pattern"&lt;/s1&gt;, {</seg>
       </tuv>
     </tu>
     <tu>
@@ -41066,6 +41162,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052930Z" creationid="haohang" creationdate="20150909T052930Z">
         <seg>url &lt;s0&gt;"http://repo.mycompany.com/maven2"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url &lt;s0&gt;"http://repo.mycompany.com/repo"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T110442Z" creationid="95" creationdate="20151006T110442Z">
+        <seg>url &lt;s0&gt;"http://repo.mycompany.com/repo"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
