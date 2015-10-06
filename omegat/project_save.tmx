@@ -5526,6 +5526,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6.7. Working with repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133349Z" creationid="95" creationdate="20151006T133349Z">
+        <seg>50.6.7. 使用仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.6. Repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091333Z" creationid="haohang" creationdate="20150807T091333Z">
@@ -13836,6 +13844,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T111343Z" creationid="95" creationdate="20151006T111343Z">
         <seg>示例 50.35. 自定义模式的 Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.36. Ivy repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133230Z" creationid="95" creationdate="20151006T133230Z">
+        <seg>示例 50.36. Ivy存储库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.37. Accessing a repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133418Z" creationid="95" creationdate="20151006T133418Z">
+        <seg>示例 50.37. 访问一个仓库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.38. Configuration of a repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133448Z" creationid="95" creationdate="20151006T133448Z">
+        <seg>示例 50.38. 仓库配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -27785,6 +27817,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To access a repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133403Z" creationid="95" creationdate="20151006T133403Z">
+        <seg>若要访问一个仓库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To access an Ivy repository which uses basic authentication, you specify the username and password to use when you define the repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133223Z" creationid="95" creationdate="20151006T133223Z">
+        <seg>要访问一个使用基本的身份验证的 Ivy 仓库，当你在定义该仓库时要指定使用的用户名和密码：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To accommodate that place the &lt;c2&gt;META-INF/application.xml&lt;/c2&gt; in the right place inside your source folders (see the &lt;c3&gt;appDirName&lt;/c3&gt; property).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T143748Z" creationid="msdx" creationdate="20150504T143748Z">
@@ -27893,6 +27941,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075920Z" creationid="haohang" creationdate="20150722T075920Z">
         <seg>配置一个配置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To configure a repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133431Z" creationid="95" creationdate="20151006T133431Z">
+        <seg>要配置一个仓库：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33723,10 +33779,28 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dirs &lt;s1&gt;'lib'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133454Z" creationid="95" creationdate="20151006T133454Z">
+        <seg>dirs &lt;s1&gt;'lib'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dirs &lt;s1&gt;'lib1'&lt;/s1&gt;, &lt;s2&gt;'lib2'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150910T012123Z" creationid="haohang" creationdate="20150910T012123Z">
         <seg>dirs &lt;s1&gt;'lib1'&lt;/s1&gt;, &lt;s2&gt;'lib2'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dirs &lt;s2&gt;'lib'&lt;/s2&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133506Z" creationid="95" creationdate="20151006T133506Z">
+        <seg>dirs &lt;s2&gt;'lib'&lt;/s2&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -36135,6 +36209,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ivyPattern &lt;s0&gt;"$projectDir/repo/[organisation]/[module]-ivy-[revision].xml"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133502Z" creationid="95" creationdate="20151006T133502Z">
+        <seg>ivyPattern &lt;s0&gt;"$projectDir/repo/[organisation]/[module]-ivy-[revision].xml"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>jacoco</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104924Z" creationid="msdx" creationdate="20150428T104924Z">
@@ -36685,6 +36767,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>localRepository {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133452Z" creationid="95" creationdate="20151006T133452Z">
+        <seg>localRepository {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>logger.quiet(&lt;s0&gt;'An info log message which is always logged.'&lt;/s0&gt;)
 logger.error(&lt;s1&gt;'An error log message.'&lt;/s1&gt;)
 logger.warn(&lt;s2&gt;'A warning log message.'&lt;/s2&gt;)
@@ -37145,6 +37235,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>name &lt;s0&gt;'localRepository'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133449Z" creationid="95" creationdate="20151006T133449Z">
+        <seg>name &lt;s0&gt;'localRepository'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>name = &lt;s1&gt;'overwrittenSpecialOsgiName'&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064439Z" creationid="haohang" creationdate="20150526T064439Z">
@@ -37397,6 +37495,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053441Z" creationid="haohang" creationdate="20150909T053441Z">
         <seg>password &lt;s1&gt;'password'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>password &lt;s2&gt;'password'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133237Z" creationid="95" creationdate="20151006T133237Z">
+        <seg>password &lt;s2&gt;'password'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -38247,6 +38353,22 @@ println project.name</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151130Z" creationid="msdx" creationdate="20141123T151130Z">
         <seg>println relativePath(processResources.destinationDir)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println repositories.localRepository.name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133420Z" creationid="95" creationdate="20151006T133420Z">
+        <seg>println repositories.localRepository.name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println repositories[&lt;s0&gt;'localRepository'&lt;/s0&gt;].name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133421Z" creationid="95" creationdate="20151006T133421Z">
+        <seg>println repositories[&lt;s0&gt;'localRepository'&lt;/s0&gt;].name</seg>
       </tuv>
     </tu>
     <tu>
@@ -41294,6 +41416,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>url &lt;s0&gt;'http://repo.mycompany.com'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133233Z" creationid="95" creationdate="20151006T133233Z">
+        <seg>url &lt;s0&gt;'http://repo.mycompany.com'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>url &lt;s1&gt;"http://repo2.mycompany.com/maven2"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053116Z" creationid="haohang" creationdate="20150909T053116Z">
@@ -41390,6 +41520,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053440Z" creationid="haohang" creationdate="20150909T053440Z">
         <seg>username &lt;s0&gt;'user'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>username &lt;s1&gt;'user'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133235Z" creationid="95" creationdate="20151006T133235Z">
+        <seg>username &lt;s1&gt;'user'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -41914,6 +42052,30 @@ configurations.compile {</seg>
         <seg>}
 }
 configurations.compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+repositories {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133451Z" creationid="95" creationdate="20151006T133451Z">
+        <seg>}
+}
+repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+repositories.localRepository {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151006T133504Z" creationid="95" creationdate="20151006T133504Z">
+        <seg>}
+}
+repositories.localRepository {</seg>
       </tuv>
     </tu>
     <tu>
