@@ -5580,6 +5580,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.7. How dependency resolution works</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T022618Z" creationid="95" creationdate="20151007T022618Z">
+        <seg>50.7. 依赖解析的工作原理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -9378,8 +9386,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>An overview of which Resolvers are offered by Ivy and thus also by Gradle can be found &lt;a0&gt;here&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151007T022029Z" creationid="95" creationdate="20151007T022029Z">
-        <seg>An overview of which Resolvers are offered by Ivy and thus also by Gradle can be found &lt;a0&gt;here&lt;/a0&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T022500Z" creationid="95" creationdate="20151007T022029Z">
+        <seg>其中由 Ivy （也因此由 Gradle ）提供解析器的，它的概述可以在&lt;a0&gt;这里&lt;/a0&gt;找到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15818,6 +15826,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T160613Z" creationid="msdx" creationdate="20141109T160613Z">
         <seg>Gradle 支持&lt;e2&gt;增强的任务&lt;/e2&gt;，也就是，有自己的属性和方法的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle takes your dependency declarations and repository definitions and attempts to download all of your dependencies by a process called &lt;s0&gt;&lt;e1&gt;dependency resolution&lt;/e1&gt;&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T022620Z" creationid="95" creationdate="20151007T022620Z">
+        <seg>Gradle takes your dependency declarations and repository definitions and attempts to download all of your dependencies by a process called &lt;s0&gt;&lt;e1&gt;dependency resolution&lt;/e1&gt;&lt;/s0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -29723,6 +29739,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T054126Z" creationid="haohang" creationdate="20150721T054126Z">
         <seg>通过 Gradle 你可以混合使用和适配一些方法；例如，你可以在 SCM 中存储你的 jar 包，而不需要 XML 描述符文件，并且仍然使用传递依赖管理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With Gradle you just don't configure them via XML but directly via their API.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T022547Z" creationid="95" creationdate="20151007T022547Z">
+        <seg>通过Gradle，你只是不用通过XML来配置它们，而是通过它们的API。</seg>
       </tuv>
     </tu>
     <tu>
