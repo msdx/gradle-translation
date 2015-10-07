@@ -14486,6 +14486,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For Maven repositories, this is done using the &lt;c2&gt;maven-metadata.xml&lt;/c2&gt; file, while for Ivy repositories this is done by directory listing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T023708Z" creationid="95" creationdate="20151007T023708Z">
+        <seg>对于 Maven 仓库，是通过&lt;c2&gt;maven metadata.xml&lt;/c2&gt;文件来实现，而对于 Ivy 存储库，则是通过目录列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a complete list of standard Sonar properties, consult the &lt;a0&gt;Sonar documentation&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T064254Z" creationid="msdx" creationdate="20150513T063400Z">
@@ -16754,6 +16762,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151007T023623Z" creationid="95" creationdate="20151007T023623Z">
         <seg>如果依赖被声明为一个动态版本（像&lt;c0&gt;1.+&lt;/c0&gt;），Gradle 将会把它解析到在仓库中的最新的可用的静态版本（如&lt;c1&gt;1.2&lt;/c1&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the module descriptor is a POM file that has a parent POM declared, Gradle will recursively attempt to resolve each of the parent modules for the POM.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T023842Z" creationid="95" creationdate="20151007T023842Z">
+        <seg>如果模块描述符是一个具有的父 POM 文件声明的 POM 文件，Gradle 将以递归方式尝试为该 POM 文件解析每个父模块。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19363,6 +19379,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091056Z" creationid="haohang" creationdate="20150807T091056Z">
         <seg>一旦一个配置被解析，那它就是不可变的了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once each repository has been inspected for the module, Gradle will choose the 'best' one to use.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T023928Z" creationid="95" creationdate="20151007T023928Z">
+        <seg>一旦已为该模块检查了每个仓库，Gradle 将会选择使用“最好”的一个。</seg>
       </tuv>
     </tu>
     <tu>
