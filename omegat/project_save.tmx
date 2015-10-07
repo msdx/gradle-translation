@@ -9944,6 +9944,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Below is a brief outline of how this process works.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T023128Z" creationid="95" creationdate="20151007T023128Z">
+        <seg>下面是这个进程的工作原理的简要概述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Below is an example init script which changes how task execution and build completion is logged.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154805Z" creationid="msdx" creationdate="20141116T154618Z">
@@ -11882,6 +11890,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T134257Z" creationid="95" creationdate="20151006T134257Z">
         <seg>每个仓库都可以有其自己的布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each repository is inspected in order, searching first for a &lt;s2&gt;&lt;e3&gt;module descriptor&lt;/e3&gt;&lt;/s2&gt; file (POM or Ivy file) that indicates the presence of that module.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T023251Z" creationid="95" creationdate="20151007T023251Z">
+        <seg>每个仓库按顺序进行检查，首先查找指示该模块存在的&lt;s2&gt;&lt;e3&gt;模块描述符&lt;/e3&gt;&lt;/s2&gt;文件（POM 或 Ivy 文件）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15526,6 +15542,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Given a required dependency, Gradle first attempts to resolve the &lt;s0&gt;&lt;e1&gt;module&lt;/e1&gt;&lt;/s0&gt; for that dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T023203Z" creationid="95" creationdate="20151007T023203Z">
+        <seg>给出所需的依赖项，Gradle 首先尝试为该依赖解析&lt;s0&gt;&lt;e1&gt;模块&lt;/e1&gt;&lt;/s0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Given that the project name is "&lt;c0&gt;myproject&lt;/c0&gt;" and version "&lt;c1&gt;1.2&lt;/c1&gt;", running "&lt;s2&gt;&lt;c3&gt;gradle customDistZip&lt;/c3&gt;&lt;/s2&gt;" will produce a ZIP file named "&lt;c4&gt;myproject-custom-1.2.zip&lt;/c4&gt;".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031441Z" creationid="haohang" creationdate="20150701T031417Z">
@@ -15832,8 +15856,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Gradle takes your dependency declarations and repository definitions and attempts to download all of your dependencies by a process called &lt;s0&gt;&lt;e1&gt;dependency resolution&lt;/e1&gt;&lt;/s0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151007T022620Z" creationid="95" creationdate="20151007T022620Z">
-        <seg>Gradle takes your dependency declarations and repository definitions and attempts to download all of your dependencies by a process called &lt;s0&gt;&lt;e1&gt;dependency resolution&lt;/e1&gt;&lt;/s0&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T023054Z" creationid="95" creationdate="20151007T022620Z">
+        <seg>Gradle 将获取你的依赖声明和仓库定义，并通过一个称为&lt;s0&gt;&lt;e1&gt;依赖项解析&lt;/e1&gt;&lt;/s0&gt;的进程尝试下载所有依赖项。</seg>
       </tuv>
     </tu>
     <tu>
