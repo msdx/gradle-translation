@@ -16638,6 +16638,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no module descriptor is found, Gradle will search for the presence of the primary &lt;s4&gt;&lt;e5&gt;module artifact&lt;/e5&gt;&lt;/s4&gt; file indicating that the module exists in the repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T023518Z" creationid="95" creationdate="20151007T023518Z">
+        <seg>如果没有找到模块描述符，Gradle 将搜索表示模块存在于存储库中的主要&lt;s4&gt;&lt;e5&gt;模块 artifact&lt;/e5&gt;&lt;/s4&gt;文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no such module descriptor file exists, Gradle looks for a file called &lt;c3&gt;hibernate-3.0.5.jar&lt;/c3&gt; to retrieve.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035537Z" creationid="haohang" creationdate="20150724T035405Z">
@@ -16738,6 +16746,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152753Z" creationid="msdx" creationdate="20141117T152634Z">
         <seg>如果该守护进程当前正忙于运行一些作业，将启动一个全新的守护进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the dependency is declared as a dynamic version (like &lt;c0&gt;1.+&lt;/c0&gt;), Gradle will resolve this to the newest available static version (like &lt;c1&gt;1.2&lt;/c1&gt;) in the repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151007T023623Z" creationid="95" creationdate="20151007T023623Z">
+        <seg>如果依赖被声明为一个动态版本（像&lt;c0&gt;1.+&lt;/c0&gt;），Gradle 将会把它解析到在仓库中的最新的可用的静态版本（如&lt;c1&gt;1.2&lt;/c1&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
