@@ -14118,6 +14118,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.41. Using a custom versioning scheme</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070651Z" creationid="95" creationdate="20151115T070651Z">
+        <seg>示例 50.41. 使用自定义的版本方案</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.5. Artifact only notation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T034554Z" creationid="haohang" creationdate="20150731T034554Z">
@@ -23079,6 +23087,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The 'default' version is resolved to a specific version via a dependency resolve rule, which looks up the version in a corporate catalog of approved modules.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070543Z" creationid="95" creationdate="20151115T070543Z">
+        <seg>这个“default”版本通过一个依赖解析规则被解析为一个特定的版本，这个规则将在一个核准模块的公司中查找该版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The 'should run after' ordering rule is similar but less strict as it will be ignored in two situations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T152303Z" creationid="msdx" creationdate="20141110T152221Z">
@@ -28115,6 +28131,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150720T060754Z" creationid="haohang" creationdate="20150720T060550Z">
         <seg>这种递归模式传递依赖的结果是，在一个依赖树中，会包含你的项目的第一级依赖、第二级依赖，等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This rule implementation can be neatly encapsulated in a corporate plugin, and shared across all builds within the organisation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070632Z" creationid="95" creationdate="20151115T070632Z">
+        <seg>该规则实现可以整齐地封装在一个公司的插件中，并在组织内和所有构建共享。</seg>
       </tuv>
     </tu>
     <tu>
