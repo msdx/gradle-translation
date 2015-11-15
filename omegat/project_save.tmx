@@ -5614,8 +5614,8 @@ someroot/[artifact]-[revision].[ext]</seg>
       <tuv lang="EN-US">
         <seg>50.8.2.3. Blacklisting a particular version with a replacement</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151115T055649Z" creationid="95" creationdate="20151115T055649Z">
-        <seg>50.8.2.3. Blacklisting a particular version with a replacement</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070725Z" creationid="95" creationdate="20151115T055649Z">
+        <seg>50.8.2.3. 黑名单替换特定版本</seg>
       </tuv>
     </tu>
     <tu>
@@ -7054,6 +7054,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.version == &lt;s1&gt;'default'&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070652Z" creationid="95" creationdate="20151115T070652Z">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.version == &lt;s1&gt;'default'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.tools.ant.filters.FixCrLfFilter
 &lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
 
@@ -7288,6 +7296,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;//some custom logic that resolves the default version into a specific version&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070656Z" creationid="95" creationdate="20151115T070656Z">
+        <seg>&lt;s2&gt;//some custom logic that resolves the default version into a specific version&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;[&lt;a3&gt;7&lt;/a3&gt;]&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055457Z" creationid="msdx" creationdate="20141111T055457Z">
@@ -7304,6 +7320,16 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
         <seg>&lt;s2&gt;if&lt;/s2&gt; (true) { &lt;s3&gt;throw&lt;/s3&gt; &lt;s4&gt;new&lt;/s4&gt; StopExecutionException() }
 }
 task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s3&gt;"1.0"&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070658Z" creationid="95" creationdate="20151115T070658Z">
+        <seg>&lt;s3&gt;"1.0"&lt;/s3&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -17622,6 +17648,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In example below, imagine that version &lt;c0&gt;1.2.1&lt;/c0&gt; contains important fixes and should always be used in preference to &lt;c1&gt;1.2&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070923Z" creationid="95" creationdate="20151115T070923Z">
+        <seg>In example below, imagine that version &lt;c0&gt;1.2.1&lt;/c0&gt; contains important fixes and should always be used in preference to &lt;c1&gt;1.2&lt;/c1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In fact, you will find that it's far easier and more powerful using Ant tasks in a Gradle build script, than it is to use Ant's XML format.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T071639Z" creationid="msdx" creationdate="20141114T071520Z">
@@ -19695,6 +19729,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One example of a broken module is one that declares a dependency on a library that cannot be found in any of the public repositories, but there are many other reasons why a particular module version is unwanted and a different version is preferred.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070735Z" creationid="95" creationdate="20151115T070735Z">
+        <seg>One example of a broken module is one that declares a dependency on a library that cannot be found in any of the public repositories, but there are many other reasons why a particular module version is unwanted and a different version is preferred.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One focus of the IDEA plugin is to be open to customization.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071636Z" creationid="haohang" creationdate="20150625T071636Z">
@@ -21217,8 +21259,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Section 50.8.2.3, “Blacklisting a particular version with a replacement”&lt;/a2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151115T055825Z" creationid="95" creationdate="20151115T055302Z">
-        <seg>请参阅&lt;a2&gt;50.8.2.3 节，“通过替换把指定版本列入黑名单”&lt;/a2&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070734Z" creationid="95" creationdate="20151115T055302Z">
+        <seg>请参阅&lt;a2&gt;50.8.2.3 节，“黑名单替换指定版本”&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27419,6 +27461,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145312Z" creationid="msdx" creationdate="20141113T145312Z">
         <seg>这可以用来做一些事情，比如安装你的应用程序、 创建你的归档文件的exploded副本，或维护项目的依赖项的副本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can be useful if a certain dependency version is broken and should not be used, where a dependency resolve rule causes this version to be replaced with a known good version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070922Z" creationid="95" creationdate="20151115T070700Z">
+        <seg>如果某个依赖的版本坏了，并且不应该被使用，这个机制将非常有用。一个依赖解析规则将会使这个版本被替换为一个已知的好的版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33939,6 +33989,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def version = findDefaultVersionInCatalog(details.requested.group, details.requested.name)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070653Z" creationid="95" creationdate="20151115T070653Z">
+        <seg>def version = findDefaultVersionInCatalog(details.requested.group, details.requested.name)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>default</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083232Z" creationid="msdx" creationdate="20150428T083232Z">
@@ -34381,6 +34439,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T061534Z" creationid="95" creationdate="20151115T061534Z">
         <seg>details.useVersion &lt;s2&gt;'1.4'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>details.useVersion version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070654Z" creationid="95" creationdate="20151115T070654Z">
+        <seg>details.useVersion version</seg>
       </tuv>
     </tu>
     <tu>
@@ -42616,6 +42682,20 @@ applicationDistribution.from(createDocs) {</seg>
 }
 
 applicationDistribution.from(createDocs) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+def findDefaultVersionInCatalog(String group, String name) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T070655Z" creationid="95" creationdate="20151115T070655Z">
+        <seg>}
+}
+
+def findDefaultVersionInCatalog(String group, String name) {</seg>
       </tuv>
     </tu>
     <tu>
