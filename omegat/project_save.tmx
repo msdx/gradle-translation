@@ -5596,10 +5596,26 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.8.2.3. Blacklisting a particular version with a replacement</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T055649Z" creationid="95" creationdate="20151115T055649Z">
+        <seg>50.8.2.3. Blacklisting a particular version with a replacement</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.8.2. Using dependency resolve rules</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T055311Z" creationid="95" creationdate="20151115T055311Z">
         <seg>50.8.2. 使用依赖解析规则</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.8.3. Enabling Ivy dynamic resolve mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T055635Z" creationid="95" creationdate="20151115T055635Z">
+        <seg>50.8.3. 启用 Ivy 动态解析模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -8284,6 +8300,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080827Z" creationid="haohang" creationdate="20150722T080827Z">
         <seg>对当前的 Gradle 所使用的 Groovy 版本的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dependency resolve rule is executed for each resolved dependency, and offers a powerful api for manipulating a requested dependency prior to that dependency being resolved.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T055618Z" creationid="95" creationdate="20151115T055618Z">
+        <seg>一个依赖解析规则为每一个解析依赖执行，并提供功能强大的 api 用于在解析依赖之前处理这个依赖的请求。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11666,6 +11690,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T092200Z" creationid="haohang" creationdate="20150721T092200Z">
         <seg>依赖解析规则是一个在 Gradle 1.4 引进的&lt;a0&gt;孵化中&lt;/a0&gt;的功能，让你可以对特定的依赖细粒度地控制所选定的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dependency resolve rules provide a mechanism for blacklisting a particular version of a dependency and providing a replacement version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T055745Z" creationid="95" creationdate="20151115T055745Z">
+        <seg>依赖解析规则提供了一个机制，用于把一个依赖的指定版本列入黑名单，并提供一个替代的版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16002,6 +16034,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104207Z" creationid="haohang" creationdate="20150702T104207Z">
         <seg>Gradle 将会处理好构建的应用程序的类，以及它们的运行时依赖，还有使用正确的类路径启动应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle's Ivy repository implementations support the equivalent to Ivy's dynamic resolve mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T055648Z" creationid="95" creationdate="20151115T055648Z">
+        <seg>Gradle's Ivy repository implementations support the equivalent to Ivy's dynamic resolve mode.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21033,8 +21073,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>See &lt;a2&gt;Section 50.8.2.3, “Blacklisting a particular version with a replacement”&lt;/a2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151115T055302Z" creationid="95" creationdate="20151115T055302Z">
-        <seg>请参阅&lt;a2&gt;50.8.2.3 节，“通过替换把特定版本列入黑名单”&lt;/a2&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T055825Z" creationid="95" creationdate="20151115T055302Z">
+        <seg>请参阅&lt;a2&gt;50.8.2.3 节，“通过替换把指定版本列入黑名单”&lt;/a2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
