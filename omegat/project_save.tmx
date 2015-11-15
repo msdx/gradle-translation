@@ -11766,6 +11766,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dependency resolve rules provide a neat implementation of this pattern:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T065317Z" creationid="95" creationdate="20151115T065317Z">
+        <seg>依赖解析规则提供了这种模式的整洁的实现：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dependency resolve rules provide a very powerful way to control the dependency resolution process, and can be used to implement all sorts of advanced patterns in dependency management.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T060210Z" creationid="95" creationdate="20151115T060059Z">
@@ -17691,6 +17699,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T053942Z" creationid="95" creationdate="20151115T053942Z">
         <seg>然而，在某些情况下，会有必要调整依赖解析，以确保你的构建能得到正确的依赖关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In some corporate environments, the list of module versions that can be declared in gradle builds is maintained and audited externally.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T065215Z" creationid="95" creationdate="20151115T065215Z">
+        <seg>在一些企业的环境中，可以声明在 gradle 构建中的模块版本列表，是在外部维护和审核的。</seg>
       </tuv>
     </tu>
     <tu>
