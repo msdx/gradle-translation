@@ -6316,6 +6316,22 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;module-a&lt;/c0&gt; depends on &lt;c1&gt;releasable-unit:part-one:1.0&lt;/c1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061022Z" creationid="95" creationdate="20151115T061022Z">
+        <seg>&lt;c0&gt;module-a&lt;/c0&gt; 依赖于 &lt;c1&gt;releasable-unit:part-one:1.0&lt;/c1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;module-b&lt;/c0&gt; depends on &lt;c1&gt;releasable-unit:part-two:1.1&lt;/c1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061101Z" creationid="95" creationdate="20151115T061101Z">
+        <seg>&lt;c0&gt;module-a&lt;/c0&gt; 依赖于 &lt;c1&gt;releasable-unit:part-one:1.0&lt;/c1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;output&lt;/c0&gt; + &lt;c1&gt;runtime&lt;e2&gt;&lt;c3&gt;SourceSet&lt;/c3&gt;&lt;/e2&gt;&lt;/c1&gt; configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083416Z" creationid="msdx" creationdate="20150428T083257Z">
@@ -10170,8 +10186,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>But it is easy for transitive dependency resolution to violate this contract.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151115T060813Z" creationid="95" creationdate="20151115T060813Z">
-        <seg>但</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061013Z" creationid="95" creationdate="20151115T060813Z">
+        <seg>但传递依赖解析会很容易破坏这种协议。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18073,8 +18089,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>It does not make sense to use libraries from different releasable units together.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151115T060742Z" creationid="95" creationdate="20151115T060742Z">
-        <seg>而一起使用来自不同的可发布单位的库，也不会有意义</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T060918Z" creationid="95" creationdate="20151115T060742Z">
+        <seg>而一起使用来自不同的可发布单位的库，也不会有意义。</seg>
       </tuv>
     </tu>
     <tu>
