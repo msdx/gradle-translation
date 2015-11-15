@@ -8378,6 +8378,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A couple of examples are shown below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091335Z" creationid="95" creationdate="20151115T091335Z">
+        <seg>下面展示了几个例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A dependency of a first level dependency might also be a first level dependency itself, or it might be a transitive dependency of yet another first level dependency.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T011234Z" creationid="haohang" creationdate="20150721T011234Z">
@@ -17032,6 +17040,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the &lt;c4&gt;revConstraint&lt;/c4&gt; attribute is not present, the &lt;c5&gt;rev&lt;/c5&gt; attribute is used instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091225Z" creationid="95" creationdate="20151115T091225Z">
+        <seg>如果不存在&lt;c4&gt;revConstraint&lt;/c4&gt;属性，则使用&lt;c5&gt;rev&lt;/c5&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the JAR can't be found there, the artifact URLs are used to look for JARs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053237Z" creationid="haohang" creationdate="20150909T053237Z">
@@ -17724,6 +17740,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150626T095722Z" creationid="haohang" creationdate="20150626T095722Z">
         <seg>与命令行报告相比，报告插件将报告生成到一个文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In dynamic resolve mode, Gradle will instead prefer the &lt;c2&gt;revConstraint&lt;/c2&gt; attribute over the &lt;c3&gt;rev&lt;/c3&gt; attribute for a given dependency definition.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091218Z" creationid="95" creationdate="20151115T091218Z">
+        <seg>在动态解析模式中，Gradle 将优先使用&lt;c2&gt;revConstraint&lt;/c2&gt;属性来代替&lt;c3&gt;rev&lt;/c3&gt;属性，用于一个给定的依赖定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19451,8 +19475,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>Normally, Gradle will use the &lt;c0&gt;rev&lt;/c0&gt; attribute for each dependency definition included in an &lt;c1&gt;ivy.xml&lt;/c1&gt; file.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151115T090646Z" creationid="95" creationdate="20151115T090646Z">
-        <seg>Normally, Gradle will use the &lt;c0&gt;rev&lt;/c0&gt; attribute for each dependency definition included in an &lt;c1&gt;ivy.xml&lt;/c1&gt; file.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091053Z" creationid="95" creationdate="20151115T090646Z">
+        <seg>通常情况下，Gradle 将&lt;c0&gt;rev&lt;/c0&gt;属性用于在&lt;c1&gt;ivy.xml&lt;/c1&gt;文件中包含的每个依赖定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28797,6 +28821,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060440Z" creationid="msdx" creationdate="20141116T060440Z">
         <seg>要做到这一点，你需要定义一个自定义配置的类路径中，然后将一些依赖项添加到配置中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To enable dynamic resolve mode, you need to set the appropriate option on the repository definition.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091326Z" creationid="95" creationdate="20151115T091326Z">
+        <seg>若要启用动态解析模式，你需要在仓库定义进行合适的设置。</seg>
       </tuv>
     </tu>
     <tu>
