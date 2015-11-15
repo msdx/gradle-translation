@@ -5644,6 +5644,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.8.4. Component metadata rules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091523Z" creationid="95" creationdate="20151115T091523Z">
+        <seg>50.8.4. 组件元数据规则</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.8. Fine-tuning the dependency resolution process</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T053827Z" creationid="95" creationdate="20151115T053827Z">
@@ -6616,6 +6624,16 @@ someroot/[artifact]-[revision].[ext]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123632Z" creationid="msdx" creationdate="20141113T123632Z">
         <seg>&lt;s0&gt;// Add some source directories use String paths&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Can enable dynamic resolve mode when you define the repository&lt;/s0&gt;
+repositories {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091450Z" creationid="95" creationdate="20151115T091450Z">
+        <seg>&lt;s0&gt;// Can enable dynamic resolve mode when you define the repository&lt;/s0&gt;
+repositories {</seg>
       </tuv>
     </tu>
     <tu>
@@ -12120,6 +12138,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each module (also called &lt;s0&gt;&lt;e1&gt;component&lt;/e1&gt;&lt;/s0&gt;) has metadata associated with it, such as its group, name, version, dependencies, and so on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091619Z" creationid="95" creationdate="20151115T091619Z">
+        <seg>每个模块（也称为&lt;s0&gt;&lt;e1&gt;组件&lt;/e1&gt;&lt;/s0&gt;）都有相关的元数据上，像它的组，名称，版本，依赖，等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each project in the hierarchy has its own project configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091256Z" creationid="msdx" creationdate="20150512T091256Z">
@@ -14244,6 +14270,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T090639Z" creationid="95" creationdate="20151115T090639Z">
         <seg>示例 50.43. 在解析中更改依赖组及名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.44. Enabling dynamic resolve mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091449Z" creationid="95" creationdate="20151115T091449Z">
+        <seg>示例 50.44. 启用动态解析模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -18465,6 +18499,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is not available for Maven repositories, or custom Ivy &lt;c0&gt;DependencyResolver&lt;/c0&gt; implementations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091434Z" creationid="95" creationdate="20151115T091402Z">
+        <seg>它不能用于 Maven 仓库，或自定义的 Ivy &lt;c0&gt;DependencyResolver&lt;/c0&gt;实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is only able to be used if there is a valid "&lt;c1&gt;pom.xml&lt;/c1&gt;" file in the directory that the &lt;c2&gt;init&lt;/c2&gt; task is invoked in.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T092512Z" creationid="haohang" creationdate="20150707T083616Z">
@@ -19265,6 +19307,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Metadata rules allow certain parts of a module's metadata to be manipulated from within the build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091714Z" creationid="95" creationdate="20151115T091714Z">
+        <seg>元数据规则允许模块的元数据在构建脚本中被操纵。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Metadata to generate a deployment descriptor file, e.g. &lt;c0&gt;application.xml&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142211Z" creationid="msdx" creationdate="20150504T142211Z">
@@ -19549,6 +19599,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T080533Z" creationid="msdx" creationdate="20150429T080533Z">
         <seg>注意，不同 Gradle 版本附带的 Groovy 版本不同；因此，声明一个固定的 Groovy 依赖要比使用&lt;c1&gt;localGroovy()&lt;/c1&gt;更安全一些。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that dynamic resolve mode is only available for Gradle's Ivy repositories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091410Z" creationid="95" creationdate="20151115T091400Z">
+        <seg>注意，动态解析模式只对 Gradle 的 Ivy 仓库有效。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28237,6 +28295,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035229Z" creationid="Administrator" creationdate="20150428T035229Z">
         <seg>这种机制已经被上述的“测试过滤”所取代。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This metadata typically originates in the module's descriptor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091638Z" creationid="95" creationdate="20151115T091638Z">
+        <seg>这个元数据通常来源于模块的描述符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39837,6 +39903,24 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>resolve.dynamicMode = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091454Z" creationid="95" creationdate="20151115T091454Z">
+        <seg>resolve.dynamicMode = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>resolve.dynamicMode = true
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091500Z" creationid="95" creationdate="20151115T091500Z">
+        <seg>resolve.dynamicMode = true
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>resources</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083420Z" creationid="msdx" creationdate="20150428T083420Z">
@@ -42320,6 +42404,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>url &lt;s1&gt;"http://repo.mycompany.com/repo"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091454Z" creationid="95" creationdate="20151115T091454Z">
+        <seg>url &lt;s1&gt;"http://repo.mycompany.com/repo"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>url &lt;s1&gt;"http://repo2.mycompany.com/maven2"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053116Z" creationid="haohang" creationdate="20150909T053116Z">
@@ -42836,6 +42928,22 @@ task lib1 &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T122321Z" creationid="msdx" creationdate="20141110T122321Z">
         <seg>}
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+&lt;s2&gt;// Can use a rule instead to enable (or disable) dynamic resolve mode for all repositories&lt;/s2&gt;
+repositories.withType(IvyArtifactRepository) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T091456Z" creationid="95" creationdate="20151115T091456Z">
+        <seg>}
+}
+
+&lt;s2&gt;// Can use a rule instead to enable (or disable) dynamic resolve mode for all repositories&lt;/s2&gt;
+repositories.withType(IvyArtifactRepository) {</seg>
       </tuv>
     </tu>
     <tu>
