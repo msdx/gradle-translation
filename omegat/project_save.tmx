@@ -19473,6 +19473,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that this is different from a forced version as described above, in that any other versions of this module would not be affected.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T085605Z" creationid="95" creationdate="20151115T085605Z">
+        <seg>注意，这与上面描述的强制使用一个版本不同，这个模块的其他版本将不受影响。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note, however, that the Zinc compiler requires Java 6 or higher to run.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T154444Z" creationid="msdx" creationdate="20150501T154422Z">
@@ -28029,6 +28037,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T143752Z" creationid="msdx" creationdate="20150428T143752Z">
         <seg>这意味着，如果一个给定的测试类被多个test任务所执行，那么测试报告将包括那个类的所有执行结果，但它难以区分那个类的每次执行和它们的输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that the 'newest' conflict resolution strategy would still select version &lt;c4&gt;1.3&lt;/c4&gt; if this version was also pulled transitively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T085607Z" creationid="95" creationdate="20151115T085607Z">
+        <seg>This means that the 'newest' conflict resolution strategy would still select version &lt;c4&gt;1.3&lt;/c4&gt; if this version was also pulled transitively.</seg>
       </tuv>
     </tu>
     <tu>
