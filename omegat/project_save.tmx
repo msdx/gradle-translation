@@ -5604,6 +5604,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.8.2.2. Implement a custom versioning scheme</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061610Z" creationid="95" creationdate="20151115T061610Z">
+        <seg>50.8.2.2. 实现一个自定义的版本方案</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.8.2.3. Blacklisting a particular version with a replacement</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T055649Z" creationid="95" creationdate="20151115T055649Z">
@@ -7038,6 +7046,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.group == &lt;s1&gt;'org.gradle'&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061533Z" creationid="95" creationdate="20151115T061533Z">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.group == &lt;s1&gt;'org.gradle'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.tools.ant.filters.FixCrLfFilter
 &lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
 
@@ -8244,6 +8260,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163435Z" creationid="msdx" creationdate="20141109T163435Z">
         <seg>一个基本的 Java 项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A build depending on both &lt;c0&gt;module-a&lt;/c0&gt; and &lt;c1&gt;module-b&lt;/c1&gt; will obtain different versions of libraries within the releasable unit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061243Z" creationid="95" creationdate="20151115T061243Z">
+        <seg>一个依赖于&lt;c0&gt;module-a&lt;/c0&gt;和&lt;c1&gt;module-b&lt;/c1&gt;的构建，将在可发布单位内获得这个库的不同版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11726,6 +11750,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dependency resolve rules give you the power to enforce releasable units in your build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061327Z" creationid="95" creationdate="20151115T061327Z">
+        <seg>依赖解析规则使你能够在构建中强制指定可发布的单位。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dependency resolve rules provide a mechanism for blacklisting a particular version of a dependency and providing a replacement version.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T055745Z" creationid="95" creationdate="20151115T055745Z">
@@ -14066,6 +14098,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T102829Z" creationid="haohang" creationdate="20150722T102829Z">
         <seg>示例 50.4. 模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.40. Forcing consistent version for a group of libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061530Z" creationid="95" creationdate="20151115T061530Z">
+        <seg>示例 50.40. 强制一个组的所有库使用一致的版本</seg>
       </tuv>
     </tu>
     <tu>
@@ -17354,6 +17394,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T142430Z" creationid="msdx" creationdate="20141121T142415Z">
         <seg>如果您的代理服务器需要 NTLM 身份验证，您可能需要提供验证域，以及用户名和密码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Imagine a releasable unit defined by all libraries that have 'org.gradle' group.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061441Z" creationid="95" creationdate="20151115T061441Z">
+        <seg>想象一下，一个可发布的单位，由有“org.gradle” 组的所有库定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29519,6 +29567,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We can force all of these libraries to use a consistent version:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061508Z" creationid="95" creationdate="20151115T061445Z">
+        <seg>我们可以强制所有这些库使用一致的版本：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We could also have used the following syntax:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162227Z" creationid="msdx" creationdate="20141122T162227Z">
@@ -33529,6 +33585,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configurations.all {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061530Z" creationid="95" creationdate="20151115T061530Z">
+        <seg>configurations.all {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>configurations.alllife.allDependencies.each { dep -&gt; println dep.name }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034359Z" creationid="haohang" creationdate="20150807T034359Z">
@@ -34261,6 +34325,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145618Z" creationid="msdx" creationdate="20150428T145618Z">
         <seg>details.exclude()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>details.useVersion &lt;s2&gt;'1.4'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061534Z" creationid="95" creationdate="20151115T061534Z">
+        <seg>details.useVersion &lt;s2&gt;'1.4'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -39455,6 +39527,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104652Z" creationid="msdx" creationdate="20150428T104652Z">
         <seg>repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>resolutionStrategy.eachDependency { DependencyResolveDetails details -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T061531Z" creationid="95" creationdate="20151115T061531Z">
+        <seg>resolutionStrategy.eachDependency { DependencyResolveDetails details -&gt;</seg>
       </tuv>
     </tu>
     <tu>
