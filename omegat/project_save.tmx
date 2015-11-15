@@ -15110,6 +15110,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Force versions can also be used to deal with rogue metadata of transitive dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T054442Z" creationid="95" creationdate="20151115T054442Z">
+        <seg>强制版本也可以用于处理传递依赖所带来的流氓元数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Forcing a module version tells Gradle to always use a specific version for given dependency (transitive or not), overriding any version specified in a published module descriptor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T054304Z" creationid="95" creationdate="20151115T054304Z">
+        <seg>强制一个模块的版本，是告诉 Gradle 对于指定的依赖（不管是否传递依赖），始终使用一个特定的版本，而覆盖在发布的模块描述符中所指定的任何版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>From a complex enterprise application written in Java depending on hundreds of open source libraries to the simplest Clojure application depending on a handful of libraries, approaches to dependency management vary widely and can depend on the target technology, the method of application deployment, and the nature of the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T091729Z" creationid="haohang" creationdate="20150716T084304Z">
@@ -27175,6 +27191,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can be very useful when tackling version conflicts - for more information see &lt;a0&gt;Section 50.2.3, “Resolve version conflicts”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T054349Z" creationid="95" creationdate="20151115T054349Z">
+        <seg>当解决版本冲突时，这可能非常有用——有关详细信息请参阅&lt;a0&gt;第 50.2.3 节，“解决版本冲突”&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This change was requested by Eclipse users who take advantage of &lt;c3&gt;war&lt;/c3&gt; or &lt;c4&gt;ear&lt;/c4&gt; plugin but they don't use Eclipse WTP.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003326Z" creationid="haohang" creationdate="20150603T003326Z">
@@ -33767,6 +33791,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150910T012138Z" creationid="haohang" creationdate="20150910T012138Z">
         <seg>dependency_management.html#para:dependencies_with_empty_attributes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:blacklisting_version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T054351Z" creationid="95" creationdate="20151115T054351Z">
+        <seg>dependency_management.html#sec:blacklisting_version</seg>
       </tuv>
     </tu>
     <tu>
