@@ -5588,6 +5588,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.8. Fine-tuning the dependency resolution process</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T053827Z" creationid="95" creationdate="20151115T053827Z">
+        <seg>50.8. 微调依赖解析过程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -9092,6 +9100,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152336Z" creationid="msdx" creationdate="20141109T152336Z">
         <seg>Gradle 构建语言的所有内容在外部脚本中也可以使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All of the artifacts for the module are then requested from the &lt;s0&gt;&lt;e1&gt;same repository&lt;/e1&gt;&lt;/s0&gt; that was chosen in the process above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T053831Z" creationid="95" creationdate="20151115T053546Z">
+        <seg>然后这个模块的所有artifact将从上面的过程所选择的 &lt;s0&gt;&lt;e1&gt;同一个仓库&lt;/e1&gt;&lt;/s0&gt; 中请求。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29625,8 +29641,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>When the dependency is declared by a static version and a module descriptor file is found in a repository, there is no need to continue searching later repositories and the remainder of the process is short-circuited.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151007T024345Z" creationid="95" creationdate="20151007T024210Z">
-        <seg>当依赖由一个静态版本来声明，并且在仓库中找到模块描述符文件时，没有必要继续搜索后面的仓库，这个过程的其余部分是短路的。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151115T053701Z" creationid="95" creationdate="20151007T024210Z">
+        <seg>当依赖由一个静态版本来声明，并且在仓库中找到模块描述符文件时，将不会再继续搜索后面的仓库，这个过程的其余部分是短路的。</seg>
       </tuv>
     </tu>
     <tu>
