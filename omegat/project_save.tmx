@@ -5732,6 +5732,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.9.3. Fine-tuned control over dependency caching</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T154725Z" creationid="95" creationdate="20151129T154725Z">
+        <seg>50.9.3. 依赖缓存的微调控制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.9. The dependency cache</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T041856Z" creationid="95" creationdate="20151129T041856Z">
@@ -10580,6 +10588,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, Gradle caches dynamic versions for 24 hours.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T154836Z" creationid="95" creationdate="20151129T154836Z">
+        <seg>默认情况下，Gradle 缓存动态版本的时间为 24 小时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, Gradle redirects standard output to the &lt;c0&gt;QUIET&lt;/c0&gt; log level and standard error to the &lt;c1&gt;ERROR&lt;/c1&gt; level.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131153Z" creationid="msdx" creationdate="20141116T131153Z">
@@ -14510,6 +14526,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T041817Z" creationid="95" creationdate="20151129T041817Z">
         <seg>示例 50.46. 自定义状态模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.47. Dynamic version cache control</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T154959Z" creationid="95" creationdate="20151129T154948Z">
+        <seg>示例 50.47. 动态版本缓存控制</seg>
       </tuv>
     </tu>
     <tu>
@@ -28563,6 +28587,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is done by comparing published SHA1 values in the repository with the SHA1 values for existing downloaded artifacts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T154654Z" creationid="95" creationdate="20151129T154654Z">
+        <seg>这是通过比较发布在仓库中的 SHA1 值和现在已经下载好的工件的 SHA1 值来完成的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is done using the following criteria:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151007T024000Z" creationid="95" creationdate="20151007T024000Z">
@@ -29327,6 +29359,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085435Z" creationid="msdx" creationdate="20141030T085047Z">
         <seg>要构建一个WAR文件，你需要在你的项目当中应用War插件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To change how long Gradle will cache the resolved version for a dynamic version, use:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T154947Z" creationid="95" creationdate="20151129T154947Z">
+        <seg>如果要改变Gradle对解析一个动态版本的缓存时间，可以使用：</seg>
       </tuv>
     </tu>
     <tu>
@@ -31687,6 +31727,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T155215Z" creationid="msdx" creationdate="20141116T155215Z">
         <seg>你可以在&lt;a0&gt; 55.6章节，“在构建脚本中响应生命周期”&lt;/a0&gt;参阅更多有关监听器接口的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can fine-tune certain aspects of caching using the &lt;c0&gt;ResolutionStrategy&lt;/c0&gt; for a configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T154822Z" creationid="95" creationdate="20151129T154822Z">
+        <seg>你可以在一个配置中通过使用&lt;c0&gt;ResolutionStrategy&lt;/c0&gt;对缓存的某些方面进行微调。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40573,6 +40621,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104652Z" creationid="msdx" creationdate="20150428T104652Z">
         <seg>repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>resolutionStrategy.cacheDynamicVersionsFor &lt;s0&gt;10&lt;/s0&gt;, &lt;s1&gt;'minutes'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T155000Z" creationid="95" creationdate="20151129T155000Z">
+        <seg>resolutionStrategy.cacheDynamicVersionsFor &lt;s0&gt;10&lt;/s0&gt;, &lt;s1&gt;'minutes'&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
