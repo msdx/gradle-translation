@@ -17146,6 +17146,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a candidate artifact has been downloaded by Maven, Gradle will use this artifact if it can be verified to match the checksum declared by the remote server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T152302Z" creationid="95" creationdate="20151129T152302Z">
+        <seg>如果一个候选的构件已经通过 Maven 下载，并且如果它可以和远程服务器定义的校验和匹配，Gradle 将使用这个构件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a local repository location is defined in a &lt;c0&gt;settings.xml&lt;/c0&gt;, this location will be used.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052631Z" creationid="haohang" creationdate="20150909T052631Z">
