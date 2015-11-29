@@ -8516,6 +8516,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A module's status and status scheme are taken into consideration when a &lt;c0&gt;latest&lt;/c0&gt; version selector is resolved.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T013527Z" creationid="95" creationdate="20151129T013527Z">
+        <seg>一个模块的状态以及状态模式，会在解析 &lt;c0&gt;latest&lt;/c0&gt; 版本选择器时考虑到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A one element set with the project the plugin was applied to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061856Z" creationid="haohang" creationdate="20150628T061856Z">
@@ -17050,6 +17058,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If not specified in the (Ivy) descriptor, the status defaults to &lt;c7&gt;integration&lt;/c7&gt; for Ivy modules and Maven snapshot modules, and &lt;c8&gt;release&lt;/c8&gt; for Maven modules that aren't snapshots.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T013408Z" creationid="95" creationdate="20151129T013408Z">
+        <seg>如果没有在（Ivy）描述符中指定，Ivy 模块和 Maven snapshot模块的状态默认为&lt;c7&gt;integration&lt;/c7&gt; ，不是snapshot 的 Maven 模块则默认为&lt;c8&gt;release&lt;/c8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If someone asks you to look at a collection of 20 jar files, which would you prefer?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T092342Z" creationid="haohang" creationdate="20150716T092342Z">
@@ -21947,6 +21963,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specifically, &lt;c1&gt;latest.someStatus&lt;/c1&gt; will resolve to the highest module version that has status &lt;c2&gt;someStatus&lt;/c2&gt; or a more mature status.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T013646Z" creationid="95" creationdate="20151129T013646Z">
+        <seg>具体而言，&lt;c1&gt;latest.someStatus&lt;/c1&gt; 将会解析成有着&lt;c2&gt;someStatus&lt;/c2&gt; 或更成熟状态的最高的模块版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Specifically, &lt;c8&gt;destinationDir&lt;/c8&gt;, &lt;c9&gt;baseName&lt;/c9&gt; and &lt;c10&gt;version&lt;/c10&gt; properties of the archive tasks are preconfigured with defaults.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T071125Z" creationid="Administrator" creationdate="20150425T071125Z">
@@ -25501,8 +25525,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The default status scheme, ordered from least to most mature status, is &lt;c2&gt;integration&lt;/c2&gt;, &lt;c3&gt;milestone&lt;/c3&gt;, &lt;c4&gt;release&lt;/c4&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151129T012740Z" creationid="95" creationdate="20151129T012326Z">
-        <seg>默认状态模式，从最不成熟到最成熟的状态排序，分别是&lt;c2&gt;integration&lt;/c2&gt;、&lt;c3&gt;milestone&lt;/c3&gt;、&lt;c4&gt;release&lt;/c4&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T013705Z" creationid="95" creationdate="20151129T012326Z">
+        <seg>默认状态模式，按状态的成熟程度排序，分别是&lt;c2&gt;integration&lt;/c2&gt;、&lt;c3&gt;milestone&lt;/c3&gt;、&lt;c4&gt;release&lt;/c4&gt;。</seg>
       </tuv>
     </tu>
     <tu>
