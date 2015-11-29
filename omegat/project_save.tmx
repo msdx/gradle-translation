@@ -10012,6 +10012,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As well as considering artifacts downloaded from a different repository, Gradle will also attempt to reuse artifacts found in the local Maven Repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T151548Z" creationid="95" creationdate="20151129T151548Z">
+        <seg>同时考虑构件从不同的仓库下载，Gradle 还将试图重用本地 Maven 库中发现的构件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As with the &lt;c2&gt;Copy&lt;/c2&gt; task, you specify the input files using the &lt;c3&gt;from()&lt;/c3&gt; method, and can optionally specify where they end up in the archive using the &lt;c4&gt;into()&lt;/c4&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T154506Z" creationid="msdx" creationdate="20141113T150517Z">
@@ -17334,6 +17342,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T151348Z" creationid="95" creationdate="20151129T151348Z">
         <seg>如果校验和可以获取到，并且如果已经存在具有相同 id 和校验和的构件，则不会再去下载这个构件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the checksum cannot be retrieved from the remote server, the artifact will be downloaded (and ignored if it matches an existing artifact).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T151434Z" creationid="95" creationdate="20151129T151434Z">
+        <seg>如果校验和不能从远程服务器检索，构件将被下载（并且忽略它所匹配的现有的构件）。</seg>
       </tuv>
     </tu>
     <tu>
