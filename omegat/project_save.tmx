@@ -5716,6 +5716,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.9.2.2. Refresh</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T153839Z" creationid="95" creationdate="20151129T153839Z">
+        <seg>50.9.2.2. 刷新</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.9.2. Command line options to override caching</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T153600Z" creationid="95" creationdate="20151129T153600Z">
@@ -8620,6 +8628,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A fresh resolve will be performed against all configured repositories, with dynamic versions recalculated, modules refreshed, and artifacts downloaded.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T154300Z" creationid="95" creationdate="20151129T154300Z">
+        <seg>对所有已配置的仓库执行新的解析，通过重新计算动态版本，模块刷新，以及下载构件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A list of available Sonar properties can be found in the &lt;a0&gt;Sonar documentation&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101914Z" creationid="msdx" creationdate="20150512T101431Z">
@@ -10192,6 +10208,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T090411Z" creationid="95" creationdate="20151115T090411Z">
         <seg>有时一个完全不同的模块可以作为请求的模块依赖的替代者。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At times, the Gradle Dependency Cache can be out of sync with the actual state of the configured repositories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T153855Z" creationid="95" creationdate="20151129T153855Z">
+        <seg>有时，Gradle 依赖缓存可能与已配置的仓库的实际状态不同步。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17306,6 +17330,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If required modules are not present in the dependency cache, build execution will fail.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T153835Z" creationid="95" creationdate="20151129T153835Z">
+        <seg>如果所需的模块在依赖缓存中不存在，构建执行将会失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If someone asks you to look at a collection of 20 jar files, which would you prefer?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T092342Z" creationid="haohang" creationdate="20150716T092342Z">
@@ -20803,6 +20835,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Perhaps a repository was initially misconfigured, or perhaps a "non-changing" module was published incorrectly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T153950Z" creationid="95" creationdate="20151129T153950Z">
+        <seg>也许一个存储库的最初配置不正确，或许是一个“无改变”的模块被不正确地发布。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Periodically garbage collect the Gradle caches.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T151301Z" creationid="msdx" creationdate="20141117T151301Z">
@@ -23711,6 +23751,22 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T140629Z" creationid="Administrator" creationdate="20150427T140629Z">
         <seg>&lt;a0&gt;&lt;c1&gt;Test&lt;/c1&gt;&lt;/a0&gt;任务的 API 可以让你控制什么时候开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;--offline&lt;/c0&gt; command line switch tells Gradle to always use dependency modules from the cache, regardless if they are due to be checked again.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T153719Z" creationid="95" creationdate="20151129T153719Z">
+        <seg>&lt;c0&gt;--offline&lt;/c0&gt; 命令行开机告诉 Gradle 总是从缓存中使用依赖模块，无论它们是否被再次检查。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;--refresh-dependencies&lt;/c0&gt; option tells Gradle to ignore all cached entries for resolved modules and artifacts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T154130Z" creationid="95" creationdate="20151129T154014Z">
+        <seg>&lt;c0&gt;--refresh-dependencies&lt;/c0&gt; 选项告诉 Gradle 在解析模块和构件时忽略所有缓存条目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29555,6 +29611,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To refresh all dependencies in the dependency cache, use the &lt;c0&gt;--refresh-dependencies&lt;/c0&gt; option on the command line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T154010Z" creationid="95" creationdate="20151129T154010Z">
+        <seg>要刷新依赖缓存中的所有依赖项，请使用&lt;c0&gt;--refresh-dependencies&lt;/c0&gt;命令行选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To retrieve classified dependencies from a Maven repository you can write:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T100841Z" creationid="haohang" creationdate="20150731T100841Z">
@@ -30695,6 +30759,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T014703Z" creationid="msdx" creationdate="20141111T014655Z">
         <seg>当&lt;c0&gt;--continue&lt;/c0&gt;参数运行时，可能会是&lt;c2&gt;A&lt;/c2&gt;执行失败后&lt;c1&gt;B&lt;/c1&gt;执行了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When running with offline, Gradle will never attempt to access the network to perform dependency resolution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T153751Z" creationid="95" creationdate="20151129T153751Z">
+        <seg>在使用离线运行时，Gradle 将不会尝试访问网络来执行依赖解析。</seg>
       </tuv>
     </tu>
     <tu>
