@@ -11970,6 +11970,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dependency resolution will fail if the required artifacts are not available in any repository specified by the build, regardless whether the local cache has retrieved this artifact from a different repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T150837Z" creationid="95" creationdate="20151129T150837Z">
+        <seg>如果所需的构件，在构建所指定的任何仓库中都没有找到的话，依赖解析将会失败，无论本地缓存是否从一个其他的仓库中取回这个构件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dependency resolve rules are an &lt;a0&gt;incubating&lt;/a0&gt; feature introduced in Gradle 1.4 which give you fine-grained control over the version selected for a particular dependency.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T092200Z" creationid="haohang" creationdate="20150721T092200Z">
@@ -21155,6 +21163,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Repository independence allows builds to be isolated from each other in an advanced way that no build tool has done before.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T151004Z" creationid="95" creationdate="20151129T151004Z">
+        <seg>仓库独立允许构建之间用一种先进方法的方法彼此隔离，以前没有构建工具能做到这样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Requires the notify-send package to be installed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T065651Z" creationid="haohang" creationdate="20150628T065651Z">
@@ -28855,6 +28871,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T062257Z" creationid="msdx" creationdate="20141030T062217Z">
         <seg>这段代码同时会将Java插件应用到project中，如果Java插件还没被应用的话。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will always involve a remote lookup on the repository, however in many cases no download will be required (see&lt;a2&gt;Section 50.9.1.3, “Artifact reuse”&lt;/a2&gt;, below).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T150650Z" creationid="95" creationdate="20151129T150650Z">
+        <seg>这将始终涉及到存储库中的远程查找，然而，在许多情况下都没有下载的需要（见&lt;a2&gt;第 50.9.1.3 节，“构件重用”&lt;/a2&gt;下文）、。</seg>
       </tuv>
     </tu>
     <tu>
