@@ -5660,6 +5660,38 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.9.1.1. Separate metadata cache</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T043934Z" creationid="95" creationdate="20151129T043905Z">
+        <seg>50.9.1.1. 单独的元数据缓存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.9.1.2. Repository caches are independent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T045617Z" creationid="95" creationdate="20151129T045617Z">
+        <seg>50.9.1.2. 仓库缓存是独立的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.9.1. Key features of the Gradle dependency cache</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T043918Z" creationid="95" creationdate="20151129T043901Z">
+        <seg>50.9.1. Gradle 依赖缓存的主要特点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.9. The dependency cache</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041856Z" creationid="95" creationdate="20151129T041856Z">
+        <seg>50.9. 依赖缓存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -7230,6 +7262,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;if&lt;/s1&gt; (details.id.group == &lt;s2&gt;"air.birds"&lt;/s2&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041820Z" creationid="95" creationdate="20151129T041820Z">
+        <seg>&lt;s1&gt;if&lt;/s1&gt; (details.id.group == &lt;s2&gt;"air.birds"&lt;/s2&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;if&lt;/s1&gt; (taskName.startsWith(&lt;s2&gt;"ping"&lt;/s2&gt;)) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T064959Z" creationid="msdx" creationdate="20141111T064959Z">
@@ -7898,6 +7938,30 @@ classpath = [classes]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q listBirds
+albatros-2.0.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041840Z" creationid="95" creationdate="20151129T041840Z">
+        <seg>&gt; gradle -q listBirds
+albatros-2.0.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q listFish
+tuna-1.5.jar
+
+tuna-1.4.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041654Z" creationid="95" creationdate="20151129T041654Z">
+        <seg>&gt; gradle -q listFish
+tuna-1.5.jar
+
+tuna-1.4.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q listJars
 hibernate-core-3.6.7.Final.jar
 antlr-2.7.6.jar
@@ -8364,6 +8428,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A binary store of resolved module meta-data, including the results of resolving dynamic versions, module descriptors, and artifacts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T042820Z" creationid="95" creationdate="20151129T042820Z">
+        <seg>解析的模块元数据的二进制存储，包括解析动态版本、 模块描述符和构件的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A build depending on both &lt;c0&gt;module-a&lt;/c0&gt; and &lt;c1&gt;module-b&lt;/c1&gt; will obtain different versions of libraries within the releasable unit.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T061243Z" creationid="95" creationdate="20151115T061243Z">
@@ -8500,6 +8572,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A file-based store of downloaded artifacts, including binaries like jars as well as raw downloaded meta-data like POM files and Ivy files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T042341Z" creationid="95" creationdate="20151129T042322Z">
+        <seg>一个基于文件的下载构件存储，包括像jars这样的二进制文件，以及像 POM 文件以及 Ivy 文件这样的原始下载的元数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A list of available Sonar properties can be found in the &lt;a0&gt;Sonar documentation&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T101914Z" creationid="msdx" creationdate="20150512T101431Z">
@@ -8584,6 +8664,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T035726Z" creationid="haohang" creationdate="20150716T035726Z">
         <seg>一个正确的构建系统必须被设计得很灵活，而 Gradle 可以应付任何情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A repository is identified by its URL, type and layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T045721Z" creationid="95" creationdate="20151129T045704Z">
+        <seg>一个仓库由它的 URL、类型和布局来区分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9832,6 +9920,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091110Z" creationid="haohang" creationdate="20150731T100710Z">
         <seg>如上面的第一行所示，classifiers 可以与artifact only notation 一起使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As described above, for each repository there is a separate metadata cache.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T045631Z" creationid="95" creationdate="20151129T045631Z">
+        <seg>如上文所述，每个仓库是一个单独的元数据缓存。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12402,6 +12498,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Every entry in the metadata cache includes a record of the repository that provided the information as well as a timestamp that can be used for cache expiry.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T045601Z" creationid="95" creationdate="20151129T045443Z">
+        <seg>每个元数据缓存中的条目包括了一条存储库中提供的信息，以及可用于缓存到期的时间戳的记录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every task has also an &lt;c0&gt;enabled&lt;/c0&gt; flag which defaults to &lt;c1&gt;true&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055546Z" creationid="msdx" creationdate="20141111T055546Z">
@@ -14298,6 +14402,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.45. 'Latest' version selector</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041616Z" creationid="95" creationdate="20151129T041531Z">
+        <seg>示例 50.45，“Latest”版本选择器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.46. Custom status scheme</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041817Z" creationid="95" creationdate="20151129T041817Z">
+        <seg>示例 50.46. 自定义状态模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.5. Artifact only notation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T034554Z" creationid="haohang" creationdate="20150731T034554Z">
@@ -15140,8 +15260,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>For example, with the default status scheme in place, &lt;c3&gt;latest.integration&lt;/c3&gt; will select the highest module version regardless of its status (because &lt;c4&gt;integration&lt;/c4&gt; is the least mature status), whereas &lt;c5&gt;latest.release&lt;/c5&gt; will select the highest module version with status &lt;c6&gt;release&lt;/c6&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151129T020649Z" creationid="95" creationdate="20151129T020649Z">
-        <seg>For example, with the default status scheme in place, &lt;c3&gt;latest.integration&lt;/c3&gt; will select the highest module version regardless of its status (because &lt;c4&gt;integration&lt;/c4&gt; is the least mature status), whereas &lt;c5&gt;latest.release&lt;/c5&gt; will select the highest module version with status &lt;c6&gt;release&lt;/c6&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041529Z" creationid="95" creationdate="20151129T020649Z">
+        <seg>例如，在适当的位置使用默认的状态模式，&lt;c3&gt;latest.integration&lt;/c3&gt;将选择最高的模块版本，不论其状态（因为&lt;c4&gt;integration&lt;/c4&gt;是成熟度最低的状态），而&lt;c5&gt;latest.release&lt;/c5&gt;将选择&lt;c6&gt;release&lt;/c6&gt;状态的最高模块版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16026,6 +16146,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle contains a highly sophisticated dependency caching mechanism, which seeks to minimise the number of remote requests made in dependency resolution, while striving to guarantee that the results of dependency resolution are correct and reproducible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T042117Z" creationid="95" creationdate="20151129T042117Z">
+        <seg>Gradle 包含了一个高度复杂的依赖缓存机制，该机制力求减少依赖解析中的远程请求，同时努力保证依赖解析结果的正确及可再生性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle default</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T131630Z" creationid="msdx" creationdate="20150506T131621Z">
@@ -16070,6 +16198,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144016Z" creationid="msdx" creationdate="20150428T144016Z">
         <seg>Gradle 会在这个方法的执行报告中包含进它的参数值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle keeps a record of various aspects of dependency resolution in binary format in the metadata cache.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T044809Z" creationid="95" creationdate="20151129T043908Z">
+        <seg>Gradle 以二进制格式在元数据缓存中保留了依赖解析的各方面的记录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16682,6 +16818,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here is what this looks like in code:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041554Z" creationid="95" creationdate="20151129T041156Z">
+        <seg>这里是在代码中的表现：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here our task generates several output files from a source XML file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060250Z" creationid="msdx" creationdate="20141111T060250Z">
@@ -16974,6 +17118,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052631Z" creationid="haohang" creationdate="20150909T052631Z">
         <seg>如果在&lt;c0&gt;settings.xml&lt;/c0&gt;中定义一个本地仓库的位置，那么这个位置将会被使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a module or artifact has not been previously resolved from &lt;s0&gt;&lt;e1&gt;this repository&lt;/e1&gt;&lt;/s0&gt;, Gradle will attempt to resolve the module against the repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T045705Z" creationid="95" creationdate="20151129T045705Z">
+        <seg>If a module or artifact has not been previously resolved from &lt;s0&gt;&lt;e1&gt;this repository&lt;/e1&gt;&lt;/s0&gt;, Gradle will attempt to resolve the module against the repository.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17806,6 +17958,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150626T095722Z" creationid="haohang" creationdate="20150626T095722Z">
         <seg>与命令行报告相比，报告插件将报告生成到一个文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In doing so, Gradle enables reliable and reproducible enterprise builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T043856Z" creationid="95" creationdate="20151129T043856Z">
+        <seg>在此过程中，Gradle 实现了可靠和可重复的的企业构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20291,6 +20451,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q listBirds&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041838Z" creationid="95" creationdate="20151129T041838Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q listBirds&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q listFish&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041652Z" creationid="95" creationdate="20151129T041652Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q listFish&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q listJars&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091217Z" creationid="haohang" creationdate="20150801T091217Z">
@@ -21559,6 +21735,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T034616Z" creationid="Administrator" creationdate="20150425T034616Z">
         <seg>在构建的生命周期中，把本地公告中有关你感兴趣的事件发送到你的桌面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Separating the storage of downloaded artifacts from the cache metadata permits us to do some very powerful things with our cache that would be difficult with a transparent, file-only cache layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T043225Z" creationid="95" creationdate="20151129T043225Z">
+        <seg>从下载的构件的存储中分享出缓存的元数据，将允许我们使用缓存做一些非常有用的东西，而如果使用一个透明的只有文件的缓存布局则会很困难。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23771,6 +23955,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;s0&gt;&lt;e1&gt;absence&lt;/e1&gt;&lt;/s0&gt; of a particular module or artifact in a particular repository, eliminating repeated attempts to access a resource that does not exist.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T045439Z" creationid="95" creationdate="20151129T045305Z">
+        <seg>在特定的仓库中&lt;s0&gt;&lt;e1&gt;缺少的&lt;/e1&gt;&lt;/s0&gt;特定模块或工件，避免反复地尝试访问不存在的资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The ANTLR grammar files of this source set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T102808Z" creationid="haohang" creationdate="20150625T102755Z">
@@ -24247,6 +24439,22 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T164838Z" creationid="msdx" creationdate="20141109T164838Z">
         <seg>Gradle 构建语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gradle cache does not allow the local cache to hide problems and creating mysterious and difficult to debug behavior that has been a challenge with many build tools.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T043546Z" creationid="95" creationdate="20151129T043546Z">
+        <seg>Gradle 缓存中不允许本地缓存隐藏问题和，以及一直是许多构建工具的挑战的创造神秘及难以调试的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gradle dependency cache consists of 2 key types of storage:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T042151Z" creationid="95" creationdate="20151129T042119Z">
+        <seg>Gradle 依赖缓存包含 2 个主要类型的存储：</seg>
       </tuv>
     </tu>
     <tu>
@@ -25987,6 +26195,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The information stored in the metadata cache includes:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T044820Z" creationid="95" creationdate="20151129T044820Z">
+        <seg>存储在元数据缓存中的信息包括：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The key to pass to Jetty when requesting it to stop.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T151348Z" creationid="msdx" creationdate="20150504T151348Z">
@@ -26223,6 +26439,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T092314Z" creationid="msdx" creationdate="20150503T092132Z">
         <seg>web 应用程序源目录的名称，是一个相对于项目目录的目录名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The next example demonstrates &lt;c0&gt;latest&lt;/c0&gt; selectors based on a custom status scheme declared in a module metadata rule:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041803Z" creationid="95" creationdate="20151129T041803Z">
+        <seg>下一个示例演示了基于在一个模块的元数据规则中声明的自定义状态模式的&lt;c0&gt;latest&lt;/c0&gt;选择器：</seg>
       </tuv>
     </tu>
     <tu>
@@ -26571,10 +26795,34 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The resolved artifact metadata for a particular artifact, including a pointer to the downloaded artifact file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T045218Z" creationid="95" creationdate="20151129T045041Z">
+        <seg>对于特定构件的解析后的构件元数据，包括指向下载的构件工件的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The resolved module metadata for a particular module, including module artifacts and module dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T045032Z" creationid="95" creationdate="20151129T045032Z">
+        <seg>对于特定模块的解析后的模块元数据，包括模块构件和模块依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The resources of this source set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T052616Z" creationid="Administrator" creationdate="20150427T052616Z">
         <seg>此源集的资源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The result of resolving a dynamic version (e.g. &lt;c0&gt;1.+&lt;/c0&gt;) to a concrete version (e.g. &lt;c1&gt;1.2&lt;/c1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T044929Z" creationid="95" creationdate="20151129T044929Z">
+        <seg>解析一个动态版本（例如&lt;c0&gt;1.+&lt;/c0&gt;）到一个具体的版本（例如&lt;c1&gt;1.2&lt;/c1&gt;）的结果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26751,6 +26999,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050716Z" creationid="Administrator" creationdate="20150427T050716Z">
         <seg>源集容器的使用方式几乎与其他容器一样，例如&lt;c4&gt;tasks&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The storage path for a downloaded artifact includes the SHA1 checksum, meaning that 2 artifacts with the same name but different content can easily be cached.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T042727Z" creationid="95" creationdate="20151129T042324Z">
+        <seg>下载的构件的存储路径包括了 SHA1 校验和，意味着 2 个具有相同名称但内容不同的构件可以很容易地被缓存。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28399,6 +28655,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T053914Z" creationid="haohang" creationdate="20150721T053914Z">
         <seg>这个神秘的 jar 包是一个必需传递的，第四级的依赖，很容易被忽略，因为没有人会费心去使用托管的传递依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This new behavior is implemented in a bandwidth and storage efficient way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T043618Z" creationid="95" creationdate="20151129T043618Z">
+        <seg>这一新行为通过带宽和存储空间的有效途径被实现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33965,6 +34229,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>components {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041818Z" creationid="95" creationdate="20151129T041818Z">
+        <seg>components {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>config/checkstyle/checkstyle.xml</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T132636Z" creationid="msdx" creationdate="20150505T132636Z">
@@ -33977,6 +34249,36 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T133420Z" creationid="msdx" creationdate="20150505T133420Z">
         <seg>config/codenarc/codenarc.xml</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>config1 &lt;s0&gt;"sea.fish:tuna:latest.integration"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041617Z" creationid="95" creationdate="20151129T041617Z">
+        <seg>config1 &lt;s0&gt;"sea.fish:tuna:latest.integration"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>config2 &lt;s1&gt;"sea.fish:tuna:latest.release"&lt;/s1&gt;
+}
+
+task listFish &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041618Z" creationid="95" creationdate="20151129T041618Z">
+        <seg>config2 &lt;s1&gt;"sea.fish:tuna:latest.release"&lt;/s1&gt;
+}
+
+task listFish &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>config3 &lt;s0&gt;"air.birds:albatros:latest.silver"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041818Z" creationid="95" creationdate="20151129T041818Z">
+        <seg>config3 &lt;s0&gt;"air.birds:albatros:latest.silver"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -34044,6 +34346,34 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091159Z" creationid="haohang" creationdate="20150801T091159Z">
         <seg>configurations.compile.each { File file -&gt; println file.name }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.config1.each { println it.name }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041619Z" creationid="95" creationdate="20151129T041619Z">
+        <seg>configurations.config1.each { println it.name }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.config2.each { println it.name}
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041643Z" creationid="95" creationdate="20151129T041643Z">
+        <seg>configurations.config2.each { println it.name}
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.config3.each { println it.name }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041825Z" creationid="95" creationdate="20151129T041825Z">
+        <seg>configurations.config3.each { println it.name }
 }</seg>
       </tuv>
     </tu>
@@ -34503,6 +34833,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:cache_artifact_reuse</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T045619Z" creationid="95" creationdate="20151129T045619Z">
+        <seg>dependency_management.html#sub:cache_artifact_reuse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependency_management.html#sub:client_module_dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080442Z" creationid="haohang" creationdate="20150722T080442Z">
@@ -34737,6 +35075,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145618Z" creationid="msdx" creationdate="20150428T145618Z">
         <seg>details.exclude()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>details.statusScheme = [&lt;s3&gt;"bronze"&lt;/s3&gt;, &lt;s4&gt;"silver"&lt;/s4&gt;, &lt;s5&gt;"gold"&lt;/s5&gt;, &lt;s6&gt;"platinum"&lt;/s6&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041821Z" creationid="95" creationdate="20151129T041821Z">
+        <seg>details.statusScheme = [&lt;s3&gt;"bronze"&lt;/s3&gt;, &lt;s4&gt;"silver"&lt;/s4&gt;, &lt;s5&gt;"gold"&lt;/s5&gt;, &lt;s6&gt;"platinum"&lt;/s6&gt;]</seg>
       </tuv>
     </tu>
     <tu>
@@ -34987,6 +35333,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132321Z" creationid="msdx" creationdate="20150506T132321Z">
         <seg>dumpOnExit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>eachComponent { ComponentMetadataDetails details -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041819Z" creationid="95" creationdate="20151129T041819Z">
+        <seg>eachComponent { ComponentMetadataDetails details -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -43110,6 +43464,20 @@ task groupPing {</seg>
 }
 
 task groupPing {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+task listBirds &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151129T041822Z" creationid="95" creationdate="20151129T041822Z">
+        <seg>}
+}
+
+task listBirds &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
