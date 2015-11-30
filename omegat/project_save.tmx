@@ -14546,6 +14546,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.48. Changing module cache control</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151130T032620Z" creationid="haohang" creationdate="20151130T032620Z">
+        <seg>示例 50.48. 变化模块的缓存控制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.5. Artifact only notation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T034554Z" creationid="haohang" creationdate="20150731T034554Z">
@@ -29371,6 +29379,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To change how long Gradle will cache the meta-data and artifacts for a changing module, use:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151130T032414Z" creationid="haohang" creationdate="20151130T032414Z">
+        <seg>要修改 Gradle 对变化模块的元数据和构件的缓存时间，请使用：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To change how long Gradle will cache the resolved version for a dynamic version, use:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T154947Z" creationid="95" creationdate="20151129T154947Z">
@@ -40629,6 +40645,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104652Z" creationid="msdx" creationdate="20150428T104652Z">
         <seg>repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>resolutionStrategy.cacheChangingModulesFor &lt;s0&gt;4&lt;/s0&gt;, &lt;s1&gt;'hours'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151130T032622Z" creationid="haohang" creationdate="20151130T032622Z">
+        <seg>resolutionStrategy.cacheChangingModulesFor &lt;s0&gt;4&lt;/s0&gt;, &lt;s1&gt;'hours'&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
