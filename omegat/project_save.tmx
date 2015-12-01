@@ -10628,6 +10628,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But you can of course still use Maven2 repo and your custom repository as a repository for &lt;s2&gt;&lt;e3&gt;jars only&lt;/e3&gt;&lt;/s2&gt; and still enjoy &lt;s4&gt;&lt;e5&gt;transitive&lt;/e5&gt;&lt;/s4&gt; dependency management.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063725Z" creationid="haohang" creationdate="20151201T063725Z">
+        <seg>但你当然也可以仍然使用 Maven2 仓库和你自定义的存储库，作为&lt;s2&gt;&lt;e3&gt;只放 jars&lt;/e3&gt;&lt;/s2&gt;和依然使用&lt;s4&gt;&lt;e5&gt;传递&lt;/e5&gt;&lt;/s4&gt;依赖管理的仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By caching artifacts based on their SHA1 checksum, Gradle is able to maintain multiple versions of the same artifact.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T153007Z" creationid="95" creationdate="20151129T152920Z">
@@ -15330,6 +15338,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example you can use a shared flat directory without XML descriptors and yet you can have full transitive dependency management as described above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063459Z" creationid="haohang" creationdate="20151201T063459Z">
+        <seg>例如你可以使用一个共享平面目录，而不包括如上所述可以有完全的传递依赖管理的XML 描述符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example, &lt;a3&gt;dependency configurations&lt;/a3&gt; implement &lt;c4&gt;FileCollection&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T145249Z" creationid="msdx" creationdate="20141112T145249Z">
@@ -18022,6 +18038,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151857Z" creationid="msdx" creationdate="20141109T151840Z">
         <seg>如果您的构建脚本依赖于一些可选属性，而这些属性用户可能在比如 gradle.properties 文件中设置，您就需要在访问它们之前先检查它们是否存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your main concern is bad metadata in the POM file and maintaining custom XML descriptors, &lt;s0&gt;&lt;e1&gt;Client Modules&lt;/e1&gt;&lt;/s0&gt; offer an alternative.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063605Z" creationid="haohang" creationdate="20151201T063605Z">
+        <seg>如果你主要关心的是 POM 文件和维护的自定义 XML 描述符中的元数据不正确，&lt;s0&gt;&lt;e1&gt;客户端模块&lt;/e1&gt;&lt;/s0&gt;提供了一种替代方案。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32383,6 +32407,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083611Z" creationid="Administrator" creationdate="20150426T083611Z">
         <seg>你可以通过配置适当的源集，来配置项目的布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You could also have a mixed strategy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063508Z" creationid="haohang" creationdate="20151201T063508Z">
+        <seg>你也可以使用混合策略。</seg>
       </tuv>
     </tu>
     <tu>
