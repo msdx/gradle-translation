@@ -10580,6 +10580,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But even here the flexibility of Gradle can make your life easier.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063110Z" creationid="haohang" creationdate="20151201T063110Z">
+        <seg>但即使是这样， Gradle 的灵活性也可以使你的生活更轻松。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>But for example open source projects don't usually have a host for those products.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T061014Z" creationid="haohang" creationdate="20151201T061014Z">
@@ -17738,6 +17746,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are working with a distributed version control system like Git you probably don't want to use the version control system to store libraries as people check out the whole history.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063043Z" creationid="haohang" creationdate="20151201T063043Z">
+        <seg>如果您是使用像 Git 一样的分布式版本控制系统，由于人们会检出整个历史，你可能不想使用版本控制系统来保存这些库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you declare a module dependency, Gradle looks for a corresponding module descriptor file (&lt;c0&gt;pom.xml&lt;/c0&gt; or &lt;c1&gt;ivy.xml&lt;/c1&gt;) in the repositories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035152Z" creationid="haohang" creationdate="20150724T035152Z">
@@ -20927,6 +20943,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T062548Z" creationid="msdx" creationdate="20141108T062440Z">
         <seg>调用方法时括号是可选的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>People can check out such a project from svn and have everything necessary to build it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T062926Z" creationid="haohang" creationdate="20151201T062926Z">
+        <seg>人们可以从 svn 检出这样一个项目，并且具体必要的一切，来构建它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32215,6 +32239,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060418Z" creationid="msdx" creationdate="20141116T060418Z">
         <seg>你可以使用 Gradle 的依赖管理组合类路径，以用于自定义任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use either client module dependencies to express the dependency relations, or artifact dependencies in case a first level dependency has no transitive dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T062812Z" creationid="haohang" creationdate="20151201T062812Z">
+        <seg>您可以使用客户端模块依赖，或者是工件依赖来表达依赖关系，后者的情况中第一级依赖是没有传递依赖的。</seg>
       </tuv>
     </tu>
     <tu>
