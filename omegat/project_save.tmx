@@ -10620,6 +10620,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But the draw-back is, that for the Gradle dependency management all dependencies are considered first level dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T064755Z" creationid="haohang" creationdate="20151201T064755Z">
+        <seg>但缺点是，对于 Gradle 依赖管理而言，所有的依赖都被认为是第一级依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>But this is kind of bloated.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T072948Z" creationid="msdx" creationdate="20141109T072925Z">
@@ -26263,6 +26271,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T033340Z" creationid="haohang" creationdate="20150807T033340Z">
         <seg>依赖报告（见前面一段）正是使用此 API。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The dependency reports don't show your real dependency graph and the &lt;c1&gt;compile&lt;/c1&gt; task uses all dependencies, not just the first level dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T064834Z" creationid="haohang" creationdate="20151201T064834Z">
+        <seg>依赖报告不会显示你真正的依赖关系图，并且&lt;c1&gt;compile&lt;/c1&gt;任务会使用所有的依赖，而不只是第一级依赖。</seg>
       </tuv>
     </tu>
     <tu>
