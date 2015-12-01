@@ -5308,6 +5308,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.10.1. Implicit transitive dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063844Z" creationid="haohang" creationdate="20151201T063844Z">
+        <seg>50.10.1. 隐式传递依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.10. Strategies for transitive dependency management</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151130T032658Z" creationid="haohang" creationdate="20151130T032658Z">
@@ -15786,6 +15794,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the jars and the correct POMs you still use the remote repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063836Z" creationid="haohang" creationdate="20151201T063836Z">
+        <seg>对于这些jar 和不正确的 POMs，你依然要使用远程仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For the latter you can declare &lt;e0&gt;Project Dependencies&lt;/e0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092511Z" creationid="haohang" creationdate="20150801T092511Z">
@@ -20575,6 +20591,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092949Z" creationid="haohang" creationdate="20150801T092907Z">
         <seg>或者是你如果不想使用任何仓库来存储你的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Or you can only provide client modules for POMs with bad metadata.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063808Z" creationid="haohang" creationdate="20151201T063808Z">
+        <seg>或者，你可以只为元数字不正确的 POMs 提供客户端模块。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27939,6 +27963,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is another way to deal with transitive dependencies &lt;s0&gt;&lt;e1&gt;without&lt;/e1&gt;&lt;/s0&gt; XML descriptor files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063920Z" creationid="haohang" creationdate="20151201T063920Z">
+        <seg>还有另外一种方法，用于处理&lt;s0&gt;&lt;e1&gt;没有&lt;/e1&gt;&lt;/s0&gt;XML 描述符文件的传递依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is no need to create a “stub” &lt;c3&gt;build.gradle&lt;/c3&gt; file in order to apply the plugin.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T071413Z" creationid="haohang" creationdate="20150707T071243Z">
@@ -30835,6 +30867,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We mention it for the sake of completeness and comparison with other build tools.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T064025Z" creationid="haohang" creationdate="20151201T064025Z">
+        <seg>我们提到它是为了完整性，以及和其他构建工具进行比较。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We plan to add much more to the existing reports and create additional ones in future releases of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150626T100211Z" creationid="haohang" creationdate="20150626T100211Z">
@@ -31887,6 +31927,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152023Z" creationid="msdx" creationdate="20141109T152023Z">
         <seg>你可以通过使用方法&lt;c0&gt;hasProperty('propertyName')&lt;/c0&gt; 来进行检查，它返回&lt;c1&gt;true&lt;/c1&gt;或&lt;c2&gt;false&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can do this with Gradle, but we don't recommend it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063939Z" creationid="haohang" creationdate="20151201T063939Z">
+        <seg>你可以使用 Gradle 来做，但我们不推荐它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35373,6 +35421,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150910T012138Z" creationid="haohang" creationdate="20150910T012138Z">
         <seg>dependency_management.html#para:dependencies_with_empty_attributes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#para:notation_collections</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T064026Z" creationid="haohang" creationdate="20151201T064026Z">
+        <seg>dependency_management.html#para:notation_collections</seg>
       </tuv>
     </tu>
     <tu>
