@@ -5830,8 +5830,8 @@ someroot/[artifact]-[revision].[ext]</seg>
       <tuv lang="EN-US">
         <seg>51.3.1. Archive task artifacts</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151226T090217Z" creationid="95" creationdate="20151226T085533Z">
-        <seg>51.3.1. 存档任务构件</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T090810Z" creationid="95" creationdate="20151226T085533Z">
+        <seg>51.3.1. Archive task artifacts</seg>
       </tuv>
     </tu>
     <tu>
@@ -14834,6 +14834,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 51.1. Defining an artifact using an archive task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T090853Z" creationid="95" creationdate="20151226T090853Z">
+        <seg>示例 51.1. 使用archive 任务定义一个构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -19183,6 +19191,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161234Z" creationid="msdx" creationdate="20141112T161234Z">
         <seg>要注意的一个地方是，一个文件集合的内容是缓计算的，它只在需要的时候才计算。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is important to note that the custom archives you are creating as part of your build are not automatically assigned to any configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091003Z" creationid="95" creationdate="20151226T091003Z">
+        <seg>重点注意：你所创建的作为构建中的一部分的自定义archives，不会自动地指向任何的配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32627,6 +32643,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use an archive task to define an artifact:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T090821Z" creationid="95" creationdate="20151226T090800Z">
+        <seg>你可以使用一个archive任务来定义构件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use either client module dependencies to express the dependency relations, or artifact dependencies in case a first level dependency has no transitive dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T062812Z" creationid="haohang" creationdate="20151201T062812Z">
@@ -34129,6 +34153,16 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083232Z" creationid="msdx" creationdate="20150428T083232Z">
         <seg>archives</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>archives myJar
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T090908Z" creationid="95" creationdate="20151226T090908Z">
+        <seg>archives myJar
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -43053,6 +43087,18 @@ myCopy {</seg>
         <seg>task myCopy(type: Copy)
 
 myCopy {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task myJar(type: Jar)
+
+artifacts {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T090855Z" creationid="95" creationdate="20151226T090855Z">
+        <seg>task myJar(type: Jar)
+
+artifacts {</seg>
       </tuv>
     </tu>
     <tu>
