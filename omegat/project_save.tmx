@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.5_1" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.5.3" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -24435,6 +24435,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c1&gt;archives&lt;/c1&gt; configuration is the standard configuration to assign your artifacts to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T085120Z" creationid="95" creationdate="20151226T085120Z">
+        <seg>&lt;c1&gt;archives&lt;/c1&gt; 配置是一个指定你的构件的标准配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c1&gt;beforeMerged&lt;/c1&gt; hook makes it possible to overwrite just certain parts of the existing content.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073901Z" creationid="haohang" creationdate="20150625T073901Z">
@@ -25423,6 +25431,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083009Z" creationid="Administrator" creationdate="20150426T083009Z">
         <seg>Java 插件会假定如下所示的项目布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java plugin automatically assigns the default jar to this configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T085156Z" creationid="95" creationdate="20151226T085156Z">
+        <seg>Java 插件会自动地把默认的 jar 文件指定到这个配置中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30565,8 +30581,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>Two of the configurations are relevant for the usage with artifacts.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151221T141758Z" creationid="95" creationdate="20151221T141758Z">
-        <seg>Two of the configurations are relevant for the usage with artifacts.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T085036Z" creationid="95" creationdate="20151221T141758Z">
+        <seg>这两个配置都与构件的使用有关。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31175,6 +31191,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092012Z" creationid="haohang" creationdate="20150801T092012Z">
         <seg>我们将在未来版本的 Gradle 修正这一点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We will talk more about the &lt;c2&gt;runtime&lt;/c2&gt; configuration in &lt;a3&gt;Section 51.5, “More about project libraries”&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T085255Z" creationid="95" creationdate="20151226T085255Z">
+        <seg>我们将在&lt;a3&gt; 51.5 节，“详谈项目库”&lt;/a3&gt;中更多地对&lt;c2&gt;runtime&lt;/c2&gt;配置进行讨论。</seg>
       </tuv>
     </tu>
     <tu>
