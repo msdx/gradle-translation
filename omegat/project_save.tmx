@@ -5836,6 +5836,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>51.3.2. File artifacts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091026Z" creationid="95" creationdate="20151226T091026Z">
+        <seg>51.3.2. 文件构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>51.3. Declaring artifacts</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151226T085505Z" creationid="95" creationdate="20151226T085505Z">
@@ -14842,6 +14850,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 51.2. Defining an artifact using a file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091050Z" creationid="95" creationdate="20151226T091050Z">
+        <seg>示例 51.2. 使用文件定义构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 51.3. Customizing an artifact</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091156Z" creationid="95" creationdate="20151226T091156Z">
+        <seg>示例 51.3. 自定义构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -16870,6 +16894,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065107Z" creationid="msdx" creationdate="20141108T063831Z">
         <seg>Gradle 在&lt;e1&gt;配置闭包&lt;/e1&gt;中使用到它，把&lt;c2&gt;委托&lt;/c2&gt;对象设置为被配置的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle will figure out the properties of the artifact based on the name of the file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091141Z" creationid="95" creationdate="20151226T091141Z">
+        <seg>Gradle将基于文件的名字找出构件的属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27003,6 +27035,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The map must include a &lt;c0&gt;file&lt;/c0&gt; entry that defines the file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091307Z" creationid="95" creationdate="20151226T091307Z">
+        <seg>The map must include a &lt;c0&gt;file&lt;/c0&gt; entry that defines the file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The merge is not immediately triggered by the from statement.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T151321Z" creationid="msdx" creationdate="20150428T151321Z">
@@ -28159,6 +28199,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T030738Z" creationid="msdx" creationdate="20141119T030738Z">
         <seg>默认情况下位于 Gradle 用户主目录有一个守护进程的日志文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is a map-based syntax for defining an artifact using a file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091310Z" creationid="95" creationdate="20151226T091301Z">
+        <seg>有一个基于map的语法来一个构件使用文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32115,6 +32163,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also use a file to define an artifact:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091036Z" creationid="95" creationdate="20151226T091036Z">
+        <seg>你也可以使用一个文件来定义构件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also use customization options that the &lt;a0&gt;&lt;c1&gt;Ear&lt;/c1&gt;&lt;/a0&gt; task provides, such as &lt;c2&gt;from&lt;/c2&gt; and &lt;c3&gt;metaInf&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T143311Z" creationid="msdx" creationdate="20150504T142906Z">
@@ -32207,6 +32263,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145251Z" creationid="msdx" creationdate="20150428T145251Z">
         <seg>您可以创建一个单独的&lt;c0&gt;Manifest&lt;/c0&gt;实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can customize these properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091147Z" creationid="95" creationdate="20151226T091147Z">
+        <seg>你可以自定义这些属性：</seg>
       </tuv>
     </tu>
     <tu>
@@ -32855,6 +32919,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T160251Z" creationid="msdx" creationdate="20141109T160143Z">
         <seg>之后您还学习了如何将其他行为添加到这些任务中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You have to explicitly do this assignment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091016Z" creationid="95" creationdate="20151226T091016Z">
+        <seg>你必须进行显示的指定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34167,6 +34239,24 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>archives someFile
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091055Z" creationid="95" creationdate="20151226T091055Z">
+        <seg>archives someFile
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>archives(myTask.destFile) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091158Z" creationid="95" creationdate="20151226T091158Z">
+        <seg>archives(myTask.destFile) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>archivesBaseName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083245Z" creationid="msdx" creationdate="20150428T083245Z">
@@ -34615,6 +34705,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094453Z" creationid="haohang" creationdate="20150801T094453Z">
         <seg>builtBy &lt;s1&gt;'compile'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>builtBy myTask</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091200Z" creationid="95" creationdate="20151226T091200Z">
+        <seg>builtBy myTask</seg>
       </tuv>
     </tu>
     <tu>
@@ -35651,6 +35749,18 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def someFile = file(&lt;s0&gt;'build/somefile.txt'&lt;/s0&gt;)
+
+artifacts {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091054Z" creationid="95" creationdate="20151226T091054Z">
+        <seg>def someFile = file(&lt;s0&gt;'build/somefile.txt'&lt;/s0&gt;)
+
+artifacts {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def version = findDefaultVersionInCatalog(details.requested.group, details.requested.name)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T070653Z" creationid="95" creationdate="20151115T070653Z">
@@ -36061,6 +36171,20 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060325Z" creationid="msdx" creationdate="20141111T060325Z">
         <seg>destDir.mkdirs()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>destFile = file(&lt;s0&gt;'build/somefile.txt'&lt;/s0&gt;)
+}
+
+artifacts {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091157Z" creationid="95" creationdate="20151226T091157Z">
+        <seg>destFile = file(&lt;s0&gt;'build/somefile.txt'&lt;/s0&gt;)
+}
+
+artifacts {</seg>
       </tuv>
     </tu>
     <tu>
@@ -39689,6 +39813,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>name &lt;s1&gt;'my-artifact'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091159Z" creationid="95" creationdate="20151226T091159Z">
+        <seg>name &lt;s1&gt;'my-artifact'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>name = &lt;s1&gt;'overwrittenSpecialOsgiName'&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T064439Z" creationid="haohang" creationdate="20150526T064439Z">
@@ -43103,6 +43235,14 @@ artifacts {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task myTask(type:  MyTaskType) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091157Z" creationid="95" creationdate="20151226T091157Z">
+        <seg>task myTask(type:  MyTaskType) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task nestedSpecs(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143851Z" creationid="msdx" creationdate="20141113T143851Z">
@@ -43868,6 +44008,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T065604Z" creationid="haohang" creationdate="20150628T065604Z">
         <seg>twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>type &lt;s2&gt;'text'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091159Z" creationid="95" creationdate="20151226T091159Z">
+        <seg>type &lt;s2&gt;'text'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
