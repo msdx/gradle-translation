@@ -5852,6 +5852,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>51.4. Publishing artifacts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091522Z" creationid="95" creationdate="20151226T091522Z">
+        <seg>51.4 发布构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -10740,6 +10748,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But before you can do an upload, you have to configure the upload task and define where to publish the artifacts to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091639Z" creationid="95" creationdate="20151226T091639Z">
+        <seg>但是在你可以上传之前，你必须配置上传任务，并定义发布这些构件的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>But even here the flexibility of Gradle can make your life easier.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063110Z" creationid="haohang" creationdate="20151201T063110Z">
@@ -14866,6 +14882,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 51.4. Map syntax for defining an artifact using a file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091503Z" creationid="95" creationdate="20151226T091437Z">
+        <seg>示例 51.4. 基于map的语法定义一个文件构件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -18542,6 +18566,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151220T123616Z" creationid="95" creationdate="20151220T123616Z">
         <seg>事实上，配置可以同时包含构件和依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In fact, some of those repositories allow only for artifact downloading.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091803Z" creationid="95" creationdate="20151226T091803Z">
+        <seg>实际上，有些仓库只允许下载构件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27035,10 +27067,18 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The map may include other artifact properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091410Z" creationid="95" creationdate="20151226T091410Z">
+        <seg>这个map可能包含其他的构件属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The map must include a &lt;c0&gt;file&lt;/c0&gt; entry that defines the file.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091307Z" creationid="95" creationdate="20151226T091307Z">
-        <seg>The map must include a &lt;c0&gt;file&lt;/c0&gt; entry that defines the file.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091337Z" creationid="95" creationdate="20151226T091307Z">
+        <seg>这个 map 必须包含一个定义文件的 &lt;c0&gt;file&lt;/c0&gt; 条目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27543,6 +27583,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130420Z" creationid="msdx" creationdate="20150506T130420Z">
         <seg>该报告可以在 &lt;c2&gt;&lt;e3&gt;&lt;c4&gt;$buildDir&lt;/c4&gt;&lt;/e3&gt;/reports/jacoco/test&lt;/c2&gt; 中看到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The repositories you have defined (as described in &lt;a0&gt;Section 50.6, “Repositories”&lt;/a0&gt;) are not automatically used for uploading.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091735Z" creationid="95" creationdate="20151226T091735Z">
+        <seg>你所定义的仓库（&lt;a0&gt;第 50.6 节，“仓库”&lt;/a0&gt;所描述的）并不会自动地用于上传。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28205,8 +28253,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>There is a map-based syntax for defining an artifact using a file.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091310Z" creationid="95" creationdate="20151226T091301Z">
-        <seg>有一个基于map的语法来一个构件使用文件。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091443Z" creationid="95" creationdate="20151226T091301Z">
+        <seg>有一个基于map的语法来定义一个构件使用文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31219,6 +31267,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We have said that there is a specific upload task for each configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091610Z" creationid="95" creationdate="20151226T091524Z">
+        <seg>我们说过，每一个配置都有一个特定的上传任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We mention it for the sake of completeness and comparison with other build tools.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T064025Z" creationid="haohang" creationdate="20151201T064025Z">
@@ -34225,6 +34281,16 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083232Z" creationid="msdx" creationdate="20150428T083232Z">
         <seg>archives</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>archives file: generate.destFile, name: &lt;s1&gt;'my-artifact'&lt;/s1&gt;, type: &lt;s2&gt;'text'&lt;/s2&gt;, builtBy: generate
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091510Z" creationid="95" creationdate="20151226T091510Z">
+        <seg>archives file: generate.destFile, name: &lt;s1&gt;'my-artifact'&lt;/s1&gt;, type: &lt;s2&gt;'text'&lt;/s2&gt;, builtBy: generate
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -43075,6 +43141,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034742Z" creationid="haohang" creationdate="20150807T034742Z">
         <seg>task files &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task generate(type:  MyTaskType) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T091459Z" creationid="95" creationdate="20151226T091459Z">
+        <seg>task generate(type:  MyTaskType) {</seg>
       </tuv>
     </tu>
     <tu>
