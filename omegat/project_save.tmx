@@ -10204,6 +10204,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As described in &lt;a0&gt;Section 50.6.8, “More about Ivy resolvers”&lt;/a0&gt;, you can use all the Ivy resolvers suitable for the purpose of uploading.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T092644Z" creationid="95" creationdate="20151226T092644Z">
+        <seg>如&lt;a0&gt;50.6.8节，“更多关于Ivy解析器的信息”&lt;/a0&gt;中所述，你可以使用符合上传的所有Ivy解析器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As mentioned before 'should run after' ordering rule will be ignored if it introduces an ordering cycle:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T014850Z" creationid="msdx" creationdate="20141111T014850Z">
@@ -10310,8 +10318,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>As you can see, you can either use a reference to an existing repository or create a new repository.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151226T092101Z" creationid="95" creationdate="20151226T092101Z">
-        <seg>As you can see, you can either use a reference to an existing repository or create a new repository.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T092542Z" creationid="95" creationdate="20151226T092101Z">
+        <seg>正如你所见，你可以使用一个现有的仓库的引用，或者创建一个新的仓库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10880,6 +10888,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131153Z" creationid="msdx" creationdate="20141116T131153Z">
         <seg>默认情况下，Gradle 将标准输出重定向到&lt;c0&gt;QUIET&lt;/c0&gt;日志级别，把标准错误输出重写向到 &lt;c1&gt;ERROR&lt;/c1&gt; 级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, Gradle will upload to the pattern defined by the &lt;c0&gt;url&lt;/c0&gt; parameter, combined with the optional &lt;c1&gt;layout&lt;/c1&gt; parameter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T092842Z" creationid="95" creationdate="20151226T092842Z">
+        <seg>默认情况下，Gradle 将上传到由&lt;c0&gt;url&lt;/c0&gt;参数以及可选的&lt;c1&gt;layout&lt;/c1&gt;参数所联合定义的模式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17678,6 +17694,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T054925Z" creationid="95" creationdate="20151115T054925Z">
         <seg>如果传递依赖有质量较差的元数据，导致了依赖解析时的问题时，你可以强制 Gradle 对于这一依赖使用一个较新的，固定的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If an upload repository is defined with multiple patterns, Gradle must choose a pattern to use for uploading each file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T092743Z" creationid="95" creationdate="20151226T092656Z">
+        <seg>如果一个上传仓库中定义了多个模式，Gradle 必须为每个文件选择上传模式。</seg>
       </tuv>
     </tu>
     <tu>
