@@ -5860,6 +5860,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>51.5. More about project libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T093131Z" creationid="95" creationdate="20151226T093131Z">
+        <seg>51.5. 更多关于项目库的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -17746,6 +17754,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no &lt;c2&gt;url&lt;/c2&gt; parameter is supplied, then Gradle will use the first defined &lt;c3&gt;artifactPattern&lt;/c3&gt; for uploading, or the first defined &lt;c4&gt;ivyPattern&lt;/c4&gt; for uploading Ivy files, if this is set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T093005Z" creationid="95" creationdate="20151226T093005Z">
+        <seg>如果没有提供&lt;c2&gt;url&lt;/c2&gt;参数，Gradle 将使用第一个定义的&lt;c3&gt;artifactPattern&lt;/c3&gt;来上传，或者对于上传Ivy文件而言，将使用第一个定义的&lt;c4&gt;ivyPattern&lt;/c4&gt;，如果这个参数有设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no &lt;c9&gt;settings.xml&lt;/c9&gt; is available, Gradle uses the default location &lt;c10&gt;&lt;e11&gt;&lt;c12&gt;USER_HOME&lt;/c12&gt;&lt;/e11&gt;/.m2/repository&lt;/c10&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052837Z" creationid="haohang" creationdate="20150909T052837Z">
@@ -18350,6 +18366,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100401Z" creationid="haohang" creationdate="20150703T100401Z">
         <seg>如果你的项目生成的文件中要在 distrubution 中，例如文档，你可以通过把它们添加到&lt;c0&gt;applicationDistribution&lt;/c0&gt;复制规范，来将这些文件添加到 distribution 中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your project is supposed to be used as a library, you need to define what are the artifacts of this library and what are the dependencies of these artifacts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T093139Z" creationid="95" creationdate="20151226T093139Z">
+        <seg>If your project is supposed to be used as a library, you need to define what are the artifacts of this library and what are the dependencies of these artifacts.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30899,6 +30923,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Uploading to a Maven repository is described in &lt;a0&gt;Section 52.6, “Interacting with Maven repositories”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T093111Z" creationid="95" creationdate="20151226T093111Z">
+        <seg>关于上传到Maven仓库的内容，在&lt;a0&gt;52.6节，“与Maven仓库的交互”&lt;/a0&gt;中描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Uploads the artifacts in the &lt;c0&gt;archives&lt;/c0&gt; configuration, including the JAR file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005118Z" creationid="Administrator" creationdate="20150426T005118Z">
@@ -39727,6 +39759,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104758Z" creationid="msdx" creationdate="20150428T104758Z">
         <seg>maven_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>maven_plugin.html#uploading_to_maven_repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151226T093006Z" creationid="95" creationdate="20151226T093006Z">
+        <seg>maven_plugin.html#uploading_to_maven_repositories</seg>
       </tuv>
     </tu>
     <tu>
