@@ -18372,8 +18372,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If your project is supposed to be used as a library, you need to define what are the artifacts of this library and what are the dependencies of these artifacts.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151226T093139Z" creationid="95" creationdate="20151226T093139Z">
-        <seg>If your project is supposed to be used as a library, you need to define what are the artifacts of this library and what are the dependencies of these artifacts.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151227T152412Z" creationid="95" creationdate="20151226T093139Z">
+        <seg>如果你的项目是作为一个库使用，你需要定义这个库的构件是什么，以及这些构件的依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20695,6 +20695,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T094010Z" creationid="msdx" creationdate="20150503T093821Z">
         <seg>当然，你可以用一个定义了excludes 和 includes 的闭包来配置不同的文件集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Of course this is fully customizable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151227T152531Z" creationid="95" creationdate="20151227T152531Z">
+        <seg>当然，这是可完全自定义的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25543,6 +25551,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134934Z" creationid="Administrator" creationdate="20150427T134934Z">
         <seg>Java 插件为该project里的每个源集添加一个&lt;a0&gt;&lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt;实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java plugin adds a &lt;c0&gt;runtime&lt;/c0&gt; configuration for this purpose, with the implicit assumption that the &lt;c1&gt;runtime&lt;/c1&gt; dependencies are the dependencies of the artifact you want to publish.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151227T152522Z" creationid="95" creationdate="20151227T152522Z">
+        <seg>Java 插件已经为此添加了一个&lt;c0&gt;runtime&lt;/c0&gt;配置，它隐式的假设&lt;c1&gt;runtime&lt;/c1&gt;依赖项是你想要发布的构件的依赖。</seg>
       </tuv>
     </tu>
     <tu>
