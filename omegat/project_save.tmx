@@ -8622,8 +8622,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>A Gradle dependency offers the &lt;c0&gt;configuration&lt;/c0&gt; property to declare this.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151227T155503Z" creationid="95" creationdate="20151227T155503Z">
-        <seg>A Gradle dependency offers the &lt;c0&gt;configuration&lt;/c0&gt; property to declare this.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151227T155552Z" creationid="95" creationdate="20151227T155503Z">
+        <seg>一个Gradle依赖提供了&lt;c0&gt;configuration&lt;/c0&gt; 属性来声明它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17828,8 +17828,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If someone wants to use your project as a library, she simply needs to declare on which configuration of the dependency to depend on.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20151227T155429Z" creationid="95" creationdate="20151227T155429Z">
-        <seg>如果其他人想要把你的项目作为一个库使用，她只需要在依赖配置上声明这个依赖。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151227T155618Z" creationid="95" creationdate="20151227T155429Z">
+        <seg>如果其他人想要把你的项目作为一个库使用，她只需要在依赖配置上声明，使她的项目依赖你的库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18014,6 +18014,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142435Z" creationid="msdx" creationdate="20150504T142435Z">
         <seg>如果此文件已存在于&lt;c1&gt;appDirName/META-INF&lt;/c1&gt;，那么会使用这个已存在的文件的内容，而 &lt;c2&gt;ear.deploymentDescriptor&lt;/c2&gt;中的显式配置将被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If this is not specified, the &lt;c1&gt;default&lt;/c1&gt; configuration is used (see &lt;a2&gt;Section 50.4.9, “Dependency configurations”&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20151227T155734Z" creationid="95" creationdate="20151227T155734Z">
+        <seg>如果它没有指定，则会使用&lt;c1&gt;default&lt;/c1&gt; 配置（参阅&lt;a2&gt;第 50.4.9节，“依赖配置”&lt;/a2&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
