@@ -12626,6 +12626,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Deploying to a Maven repository is only half the fun if you don't have a POM. Fortunately Gradle can generate this POM for you using the dependency information it has.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160104T153501Z" creationid="95" creationdate="20160104T153501Z">
+        <seg>Deploying to a Maven repository is only half the fun if you don't have a POM. Fortunately Gradle can generate this POM for you using the dependency information it has.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Deploys your web application to a Jetty web container embedded in the build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T031550Z" creationid="Administrator" creationdate="20150425T031550Z">
@@ -18838,6 +18846,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T071446Z" creationid="95" creationdate="20151115T070923Z">
         <seg>在下面的示例中，想象版本&lt;c0&gt;1.2.1&lt;/c0&gt;包含了重要的修复程序，并应始终优先于&lt;c1&gt;1.2&lt;/c1&gt;使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In fact, Gradle's deployment is 100 percent Maven compatible as we use the native Maven Ant tasks under the hood.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160104T153457Z" creationid="95" creationdate="20160104T153457Z">
+        <seg>事实上，Gradle 的部署是 100%兼容 Maven的，因为我们在hood下使用的是本地的 Maven Ant 任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29507,6 +29523,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This includes all Maven metadata manipulation and works also for Maven snapshots.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160104T153408Z" creationid="95" creationdate="20160104T153408Z">
+        <seg>这包括所有的 Maven 元数据操纵，并且 Maven snapshot一样可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This includes all build scripts, initialization scripts, and other scripts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T153200Z" creationid="msdx" creationdate="20141109T153200Z">
@@ -32303,6 +32327,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T042902Z" creationid="haohang" creationdate="20150724T042902Z">
         <seg>而使用 Gradle 或Ivy的话，情况就不同了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With Gradle you can deploy to remote Maven repositories or install to your local Maven repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160104T153312Z" creationid="95" creationdate="20160104T153312Z">
+        <seg>通过 Gradle你可以部署到远程 Maven 仓库，或者是安装到你的本地 Maven 仓库。</seg>
       </tuv>
     </tu>
     <tu>
