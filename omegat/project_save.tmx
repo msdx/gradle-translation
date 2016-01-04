@@ -15114,6 +15114,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 52.3. Upload of file to remote Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160104T154205Z" creationid="95" creationdate="20160104T154205Z">
+        <seg>示例 52.3. 上传文件到远程 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -20123,6 +20131,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's assume your project produces just the default jar file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160104T154139Z" creationid="95" creationdate="20160104T154139Z">
+        <seg>让我们假设你的项目只是产生默认的 jar 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's check this out:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151120Z" creationid="msdx" creationdate="20141123T151120Z">
@@ -20911,6 +20927,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T134333Z" creationid="95" creationdate="20151006T134333Z">
         <seg>现在 Gradle 是如何发现它在存储库中的?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now you want to deploy this jar file to a remote Maven repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160104T154150Z" creationid="95" creationdate="20160104T154150Z">
+        <seg>现在你想要将这个 jar 文件部署到远程 Maven 仓库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34743,6 +34767,18 @@ task myZip(type: Zip) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'maven'&lt;/s0&gt;
+
+uploadArchives {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160104T154207Z" creationid="95" creationdate="20160104T154207Z">
+        <seg>apply plugin: &lt;s0&gt;'maven'&lt;/s0&gt;
+
+uploadArchives {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'osgi'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004304Z" creationid="haohang" creationdate="20150526T004304Z">
@@ -40273,6 +40309,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>mavenDeployer {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160104T154208Z" creationid="95" creationdate="20160104T154208Z">
+        <seg>mavenDeployer {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>mavenLocal()
 }</seg>
       </tuv>
@@ -42301,6 +42345,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104652Z" creationid="msdx" creationdate="20150428T104652Z">
         <seg>repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>repository(url: &lt;s1&gt;"file://localhost/tmp/myRepo/"&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160104T154225Z" creationid="95" creationdate="20160104T154225Z">
+        <seg>repository(url: &lt;s1&gt;"file://localhost/tmp/myRepo/"&lt;/s1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
