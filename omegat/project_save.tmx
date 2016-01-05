@@ -25003,6 +25003,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;groupId&lt;/c0&gt;, &lt;c1&gt;artifactId&lt;/c1&gt;, &lt;c2&gt;version&lt;/c2&gt; and &lt;c3&gt;packaging&lt;/c3&gt; elements used for the POM default to the values shown in the table below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T143814Z" creationid="95" creationdate="20160105T143814Z">
+        <seg>下表展示了用于POM的&lt;c0&gt;groupId&lt;/c0&gt;，&lt;c1&gt;artifactId&lt;/c1&gt;，&lt;c2&gt;version&lt;/c2&gt;和&lt;c3&gt;packaging&lt;/c3&gt;元素的默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;init&lt;/c0&gt; supports different build setup &lt;e1&gt;types&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T073554Z" creationid="haohang" creationdate="20150707T073554Z">
@@ -32287,6 +32295,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T100629Z" creationid="haohang" creationdate="20150801T100427Z">
         <seg>在定义一个 exclude 时，你可以只指定 organization 或者 module 名称，或者是两者都指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When deploying an artifact to a Maven repository, Gradle automatically generates a POM for it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T143645Z" creationid="95" creationdate="20160105T143645Z">
+        <seg>当部署一个artifact 到一个 Maven 库时，Gradle 会自动为它生成一个POM。</seg>
       </tuv>
     </tu>
     <tu>
