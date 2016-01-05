@@ -1566,6 +1566,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/maven/MavenDeployer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141855Z" creationid="95" creationdate="20160105T141855Z">
+        <seg>../javadoc/org/gradle/api/artifacts/maven/MavenDeployer.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/artifacts/maven/MavenPom.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T152823Z" creationid="95" creationdate="20160104T152823Z">
@@ -5960,6 +5968,14 @@ someroot/[artifact]-[revision].[ext]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T154111Z" creationid="95" creationdate="20160104T154111Z">
         <seg>52.6.2. 部署到 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>52.6.3. Installing to the local repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141921Z" creationid="95" creationdate="20160105T141921Z">
+        <seg>52.6.3. Installing to the local repository</seg>
       </tuv>
     </tu>
     <tu>
@@ -13018,6 +13034,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Element</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141848Z" creationid="95" creationdate="20160105T141848Z">
+        <seg>元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Enables new incubating mode that makes Gradle selective when configuring projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T052554Z" creationid="msdx" creationdate="20141120T052554Z">
@@ -18034,6 +18058,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no snapshot repository is defined, releases and snapshots are both deployed to the &lt;c0&gt;repository&lt;/c0&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141752Z" creationid="95" creationdate="20160105T141752Z">
+        <seg>如果没有定义任何snapshot 仓库，release和snapshot都将部署到&lt;c0&gt;repository&lt;/c0&gt;元素中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no such module descriptor file exists, Gradle looks for a file called &lt;c3&gt;hibernate-3.0.5.jar&lt;/c3&gt; to retrieve.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035537Z" creationid="haohang" creationdate="20150724T035405Z">
@@ -18750,6 +18782,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T073915Z" creationid="haohang" creationdate="20150716T073915Z">
         <seg>在 Java 中，没有标准的方法来告诉 JVM 你使用的是 3.0.5 版本的 Hibernate，也没有标准的方法来表明 &lt;c0&gt;foo-1.0.jar&lt;/c0&gt; 依赖于 &lt;c1&gt;bar-2.0.jar&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Maven you can define repositories and optionally snapshot repositories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141656Z" creationid="95" creationdate="20160105T141644Z">
+        <seg>在 Maven 中你可以定义仓库和snapshot仓库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20299,6 +20339,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141826Z" creationid="95" creationdate="20160105T141826Z">
+        <seg>第三方库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Like dependencies, artifacts are grouped by configurations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151220T123559Z" creationid="95" creationdate="20151220T123559Z">
@@ -20511,6 +20559,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095622Z" creationid="haohang" creationdate="20150807T095622Z">
         <seg>Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MavenDeployer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141859Z" creationid="95" creationdate="20160105T141859Z">
+        <seg>MavenDeployer</seg>
       </tuv>
     </tu>
     <tu>
@@ -21379,6 +21435,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Otherwise snapshots are deployed to the &lt;c1&gt;snapshotRepository&lt;/c1&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141816Z" creationid="95" creationdate="20160105T141816Z">
+        <seg>否则，snapshots将部署到&lt;c1&gt;snapshotRepository&lt;/c1&gt;元素中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise the script gets compiled and the new version is stored in the cache.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T153544Z" creationid="msdx" creationdate="20141109T153544Z">
@@ -22063,6 +22127,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061522Z" creationid="haohang" creationdate="20150628T061522Z">
         <seg>PropertyReportTask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141818Z" creationid="95" creationdate="20160105T141818Z">
+        <seg>协议</seg>
       </tuv>
     </tu>
     <tu>
@@ -35259,6 +35331,14 @@ task fooJar(type: Jar) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>authentication</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141905Z" creationid="95" creationdate="20160105T141905Z">
+        <seg>authentication</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>authentication(userName: &lt;s2&gt;"me"&lt;/s2&gt;, password: &lt;s3&gt;"myPassword"&lt;/s3&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T134856Z" creationid="95" creationdate="20160105T134856Z">
@@ -37827,6 +37907,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141839Z" creationid="95" creationdate="20160105T141839Z">
+        <seg>file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>file(&lt;s12&gt;'src'&lt;/s12&gt;).listFiles().findAll {it.name.endsWith(&lt;s13&gt;'.zip'&lt;/s13&gt;)}.collect { zipTree(it) }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123340Z" creationid="msdx" creationdate="20141113T123340Z">
@@ -38243,6 +38331,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ftp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141833Z" creationid="95" creationdate="20160105T141833Z">
+        <seg>ftp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>generate&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;GrammarSource</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095026Z" creationid="haohang" creationdate="20150625T095026Z">
@@ -38625,6 +38721,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141826Z" creationid="95" creationdate="20160105T141826Z">
+        <seg>http</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://ant.apache.org/ivy/history/latest-milestone/concept.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T070440Z" creationid="haohang" creationdate="20151201T070440Z">
@@ -38805,6 +38909,38 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T062801Z" creationid="haohang" creationdate="20150628T062801Z">
         <seg>http://manpages.ubuntu.com/manpages/gutsy/man1/notify-send.1.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://maven.apache.org/ant-tasks/apidocs/org/apache/maven/artifact/ant/Authentication.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141907Z" creationid="95" creationdate="20160105T141907Z">
+        <seg>http://maven.apache.org/ant-tasks/apidocs/org/apache/maven/artifact/ant/Authentication.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://maven.apache.org/ant-tasks/apidocs/org/apache/maven/artifact/ant/Proxy.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141914Z" creationid="95" creationdate="20160105T141914Z">
+        <seg>http://maven.apache.org/ant-tasks/apidocs/org/apache/maven/artifact/ant/Proxy.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://maven.apache.org/ant-tasks/apidocs/org/apache/maven/artifact/ant/RemoteRepository.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141903Z" creationid="95" creationdate="20160105T141903Z">
+        <seg>http://maven.apache.org/ant-tasks/apidocs/org/apache/maven/artifact/ant/RemoteRepository.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://maven.apache.org/ant-tasks/apidocs/org/apache/maven/artifact/ant/RepositoryPolicy.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141910Z" creationid="95" creationdate="20160105T141910Z">
+        <seg>http://maven.apache.org/ant-tasks/apidocs/org/apache/maven/artifact/ant/RepositoryPolicy.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -40895,6 +41031,78 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>org.apache.maven.artifact.ant.Authentication</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141908Z" creationid="95" creationdate="20160105T141908Z">
+        <seg>org.apache.maven.artifact.ant.Authentication</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.maven.artifact.ant.Proxy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141915Z" creationid="95" creationdate="20160105T141915Z">
+        <seg>org.apache.maven.artifact.ant.Proxy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.maven.artifact.ant.RemoteRepository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141904Z" creationid="95" creationdate="20160105T141904Z">
+        <seg>org.apache.maven.artifact.ant.RemoteRepository</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.maven.artifact.ant.RepositoryPolicy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141910Z" creationid="95" creationdate="20160105T141910Z">
+        <seg>org.apache.maven.artifact.ant.RepositoryPolicy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.maven.wagon:wagon-ftp:2.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141834Z" creationid="95" creationdate="20160105T141834Z">
+        <seg>org.apache.maven.wagon:wagon-ftp:2.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.maven.wagon:wagon-http:2.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141829Z" creationid="95" creationdate="20160105T141829Z">
+        <seg>org.apache.maven.wagon:wagon-http:2.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.maven.wagon:wagon-ssh-external:2.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141832Z" creationid="95" creationdate="20160105T141832Z">
+        <seg>org.apache.maven.wagon:wagon-ssh-external:2.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.maven.wagon:wagon-ssh:2.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141831Z" creationid="95" creationdate="20160105T141831Z">
+        <seg>org.apache.maven.wagon:wagon-ssh:2.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.maven.wagon:wagon-webdav:1.0-beta-2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141835Z" creationid="95" creationdate="20160105T141835Z">
+        <seg>org.apache.maven.wagon:wagon-webdav:1.0-beta-2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>org.gradle.configureondemand</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T052427Z" creationid="msdx" creationdate="20141120T052427Z">
@@ -42411,6 +42619,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>proxy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141913Z" creationid="95" creationdate="20160105T141913Z">
+        <seg>proxy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>publishing_ivy.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104801Z" creationid="msdx" creationdate="20150428T104801Z">
@@ -42447,6 +42663,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012937Z" creationid="haohang" creationdate="20150710T012937Z">
         <seg>purpose = &lt;s5&gt;"production"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>releases</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141908Z" creationid="95" creationdate="20160105T141908Z">
+        <seg>releases</seg>
       </tuv>
     </tu>
     <tu>
@@ -42569,6 +42793,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141901Z" creationid="95" creationdate="20160105T141901Z">
+        <seg>repository</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>repository(url: &lt;s1&gt;"file://localhost/tmp/myRepo/"&lt;/s1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T154225Z" creationid="95" creationdate="20160104T154225Z">
@@ -42667,6 +42899,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154821Z" creationid="msdx" creationdate="20141116T154821Z">
         <seg>result.failure.printStackTrace()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>root</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141853Z" creationid="95" creationdate="20160105T141853Z">
+        <seg>root</seg>
       </tuv>
     </tu>
     <tu>
@@ -43153,6 +43393,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150519T124737Z" creationid="msdx" creationdate="20150519T124737Z">
         <seg>skipProject = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>snapshotRepository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141916Z" creationid="95" creationdate="20160105T141916Z">
+        <seg>snapshotRepository</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>snapshots</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141912Z" creationid="95" creationdate="20160105T141912Z">
+        <seg>snapshots</seg>
       </tuv>
     </tu>
     <tu>
@@ -43849,6 +44105,22 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152731Z" creationid="msdx" creationdate="20150429T152731Z">
         <seg>srcDirs = [&lt;s1&gt;'test/scala'&lt;/s1&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ssh</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141830Z" creationid="95" creationdate="20160105T141830Z">
+        <seg>ssh</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ssh-external</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141831Z" creationid="95" creationdate="20160105T141831Z">
+        <seg>ssh-external</seg>
       </tuv>
     </tu>
     <tu>
@@ -45496,6 +45768,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163810Z" creationid="msdx" creationdate="20141109T163810Z">
         <seg>web_project_tutorial.html#N10760</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>webdav</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T141834Z" creationid="95" creationdate="20160105T141834Z">
+        <seg>webdav</seg>
       </tuv>
     </tu>
     <tu>
