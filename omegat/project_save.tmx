@@ -7730,6 +7730,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;[&lt;a3&gt;19&lt;/a3&gt;]&lt;/s2&gt; For example to use the ssh protocol you can do:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134836Z" creationid="95" creationdate="20160105T134836Z">
+        <seg>&lt;s2&gt;[&lt;a3&gt;19&lt;/a3&gt;]&lt;/s2&gt; 举个例子，要使用ssh协议，你可以：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;[&lt;a3&gt;7&lt;/a3&gt;]&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055457Z" creationid="msdx" creationdate="20141111T055457Z">
@@ -15138,6 +15146,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 52.4. Upload of file via SSH</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134847Z" creationid="95" creationdate="20160105T134847Z">
+        <seg>示例 52.4. 通过 SSH 上传文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -19125,8 +19141,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>In this case the native Maven code we delegate to needs additional libraries.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134435Z" creationid="95" creationdate="20160105T134435Z">
-        <seg>在这种情况下，我们将必须委派本地的Maven代码给额外的库。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134615Z" creationid="95" creationdate="20160105T134435Z">
+        <seg>在这种情况下，我们必须将委派本地的Maven代码给第三方库实现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26685,8 +26701,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The available protocols and the corresponding libraries are listed in &lt;a1&gt;Table 52.3, “Protocol jars for Maven deployment”&lt;/a1&gt; (those libraries have again transitive dependencies which have transitive dependencies).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134524Z" creationid="95" creationdate="20160105T134524Z">
-        <seg>&lt;a1&gt;表 52.3. “Maven 部署的协议jar”&lt;/a1&gt;中列出了可用的协议和相应的库 (这些库又有具有传递性依赖关系的传递依赖)。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134817Z" creationid="95" creationdate="20160105T134524Z">
+        <seg>&lt;a1&gt;表 52.3. “Maven 部署的协议jar”&lt;/a1&gt;列出了可用的协议以及相应的库（这些库又有具有传递依赖，而这些依赖也有其自己的传递依赖）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35171,6 +35187,14 @@ task fooJar(type: Jar) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>authentication(userName: &lt;s2&gt;"me"&lt;/s2&gt;, password: &lt;s3&gt;"myPassword"&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134856Z" creationid="95" creationdate="20160105T134856Z">
+        <seg>authentication(userName: &lt;s2&gt;"me"&lt;/s2&gt;, password: &lt;s3&gt;"myPassword"&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>auto-generated</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132320Z" creationid="msdx" creationdate="20150506T132320Z">
@@ -36141,6 +36165,14 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configuration = configurations.deployerJars</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134854Z" creationid="95" creationdate="20160105T134854Z">
+        <seg>configuration = configurations.deployerJars</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>configurations {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060529Z" creationid="msdx" creationdate="20141116T060529Z">
@@ -36845,6 +36877,34 @@ artifacts {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142849Z" creationid="msdx" creationdate="20150504T142849Z">
         <seg>deploy project(&lt;s3&gt;':war'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>deployerJars
+}
+
+repositories {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134850Z" creationid="95" creationdate="20160105T134850Z">
+        <seg>deployerJars
+}
+
+repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>deployerJars &lt;s0&gt;"org.apache.maven.wagon:wagon-ssh:2.2"&lt;/s0&gt;
+}
+
+uploadArchives {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134852Z" creationid="95" creationdate="20160105T134852Z">
+        <seg>deployerJars &lt;s0&gt;"org.apache.maven.wagon:wagon-ssh:2.2"&lt;/s0&gt;
+}
+
+uploadArchives {</seg>
       </tuv>
     </tu>
     <tu>
@@ -40399,6 +40459,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>maven_plugin.html#deployerConfig</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134857Z" creationid="95" creationdate="20160105T134857Z">
+        <seg>maven_plugin.html#deployerConfig</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>maven_plugin.html#sub:dependency_mapping</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151228T152803Z" creationid="95" creationdate="20151228T152803Z">
@@ -42421,10 +42489,26 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>repositories.mavenDeployer {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134853Z" creationid="95" creationdate="20160105T134853Z">
+        <seg>repositories.mavenDeployer {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>repository(url: &lt;s1&gt;"file://localhost/tmp/myRepo/"&lt;/s1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T154225Z" creationid="95" creationdate="20160104T154225Z">
         <seg>repository(url: &lt;s1&gt;"file://localhost/tmp/myRepo/"&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>repository(url: &lt;s1&gt;"scp://repos.mycompany.com/releases"&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160105T134855Z" creationid="95" creationdate="20160105T134855Z">
+        <seg>repository(url: &lt;s1&gt;"scp://repos.mycompany.com/releases"&lt;/s1&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
