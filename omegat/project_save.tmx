@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#N15521</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145717Z" creationid="95" creationdate="20160106T145717Z">
+        <seg>#N15521</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#ftn.N10B28</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054401Z" creationid="msdx" creationdate="20141108T054401Z">
@@ -21995,6 +22003,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Per-configuration excludes are also included in the Maven POM, if they are convertible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145716Z" creationid="95" creationdate="20160106T145716Z">
+        <seg>每一个configuration的排除规则如果可以被转换的话，也会包含在Maven POM中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Performs a full build of the project and all projects it depends on.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T011435Z" creationid="Administrator" creationdate="20150426T011435Z">
@@ -23735,6 +23751,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T151722Z" creationid="msdx" creationdate="20141117T151722Z">
         <seg>Gradle 命令的后续调用将重用该守护进程，以避免启动开销。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Such a conversion is possible if in the Gradle exclude rule the group as well as the module name is specified (as Maven needs both in contrast to Ivy).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145637Z" creationid="95" creationdate="20160106T145637Z">
+        <seg>如果 Gradle 排除规则中group和module名字被指定的话（相比于Ivy，Maven对这两个都需要），这种转换是可能的。</seg>
       </tuv>
     </tu>
     <tu>
