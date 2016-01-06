@@ -19179,6 +19179,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In such a case you need to generate multiple POMs. In such a case you have to explicitly declare each artifact you want to publish to a Maven repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144127Z" creationid="95" creationdate="20160106T144127Z">
+        <seg>在这种情况下，你需要生成多个 POMs。在这种情况下，你必须显式声明你想要发布到一个 Maven 仓库的每一个构件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In such a scenario, the custom task should sufficiently declare the inputs/outputs relevant to the copy action.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140639Z" creationid="msdx" creationdate="20141113T140639Z">
@@ -24987,6 +24995,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;a0&gt;&lt;c1&gt;MavenDeployer&lt;/c1&gt;&lt;/a0&gt; and the MavenInstaller both provide an API for this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144151Z" creationid="95" creationdate="20160106T144151Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;MavenDeployer&lt;/c1&gt;&lt;/a0&gt;和 MavenInstaller 都为此提供了一个 API：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;a0&gt;&lt;c1&gt;SonarProperty&lt;/c1&gt;&lt;/a0&gt; annotations in the API documentation show how properties of the plugin's object model get mapped to the corresponding Sonar properties.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T100338Z" creationid="msdx" creationdate="20150512T100338Z">
@@ -30175,6 +30191,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T160735Z" creationid="msdx" creationdate="20141109T160730Z">
         <seg>这是真正的与你所使用的 Ant 目标（target）的不同之处。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is reflected in the structure of the Maven POM. We think there are many situations where it makes sense to have more than one artifact per project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144028Z" creationid="95" creationdate="20160106T144028Z">
+        <seg>这也反映在 Maven POM 的结构中。我们认为在很多情况下，有意义一个项目有超多一个的构件。</seg>
       </tuv>
     </tu>
     <tu>
