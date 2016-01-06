@@ -12778,6 +12778,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Different configurations can be mapped to one or different scopes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145057Z" creationid="95" creationdate="20160106T145057Z">
+        <seg>不同的configurations可以映射到一个或不同的scopes。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Directory</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083244Z" creationid="Administrator" creationdate="20150426T083244Z">
@@ -15218,6 +15226,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 52.10. Accessing a mapping configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145326Z" creationid="95" creationdate="20160106T145326Z">
+        <seg>示例 52.10. 访问映射配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 52.2. Creating a stand alone pom.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T152809Z" creationid="95" creationdate="20160104T152809Z">
@@ -17090,6 +17106,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle exclude rules are converted to Maven excludes if possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145402Z" creationid="95" creationdate="20160106T145402Z">
+        <seg>如果有可能，Gradle排除的规则会被转换为Maven excludes。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle has no idea what the closure does and cannot automatically figure out whether the task is up-to-date or not.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060845Z" creationid="msdx" creationdate="20141111T060845Z">
@@ -17510,6 +17534,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094234Z" creationid="haohang" creationdate="20150707T094234Z">
         <seg>在源代码中的约定位置有目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Have a look at &lt;a0&gt;&lt;c1&gt;Conf2ScopeMappingContainer&lt;/c1&gt;&lt;/a0&gt; to learn more.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145305Z" creationid="95" creationdate="20160106T145305Z">
+        <seg>你可以参考&lt;a0&gt;&lt;c1&gt;Conf2ScopeMappingContainer&lt;/c1&gt;&lt;/a0&gt;来了解更多的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20859,6 +20891,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most of the time you don't need to touch this and you can safely skip this section.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144913Z" creationid="95" creationdate="20160106T144913Z">
+        <seg>大多数情况下你不需要去接触它，并且你可以安全地跳过本节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Multi-project Java build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163459Z" creationid="msdx" creationdate="20141109T163459Z">
@@ -21391,6 +21431,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054351Z" creationid="msdx" creationdate="20141108T054318Z">
         <seg>一旦属性被添加，他们就可以像预定的属性一样被读取和设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One can assign also a priority to a particular configuration-to-scope mapping.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145242Z" creationid="95" creationdate="20160106T145136Z">
+        <seg>一个configuration可以指定到一个特定的 configuration-to-scope 映射的优先级。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26509,8 +26557,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The Maven plugin configures the default mapping between the Gradle configurations added by the Java and War plugin and the Maven scopes.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144848Z" creationid="95" creationdate="20160106T144848Z">
-        <seg>Maven 插件配置了由Java插件和War插件添加的Gradle configurations 与Maven sropes之间的默认映射。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145031Z" creationid="95" creationdate="20160106T144848Z">
+        <seg>Maven 插件配置了由Java插件和War插件添加的Gradle configurations 与Maven scopes之间的默认映射。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27935,6 +27983,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151226T091337Z" creationid="95" creationdate="20151226T091307Z">
         <seg>这个 map 必须包含一个定义文件的 &lt;c0&gt;file&lt;/c0&gt; 条目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The mapping works like the following.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144954Z" creationid="95" creationdate="20160106T144954Z">
+        <seg>映射过程像下面所示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30907,6 +30963,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To access the mapping configuration you can say:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145314Z" creationid="95" creationdate="20160106T145314Z">
+        <seg>要访问映射配置，你可以：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To accommodate that place the &lt;c2&gt;META-INF/application.xml&lt;/c2&gt; in the right place inside your source folders (see the &lt;c3&gt;appDirName&lt;/c3&gt; property).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T143748Z" creationid="msdx" creationdate="20150504T143748Z">
@@ -33663,6 +33727,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T043445Z" creationid="msdx" creationdate="20141111T125325Z">
         <seg>你可以使用&lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt;方法来找到一个相对于项目目录的文件 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can map a configuration to one and only one scope.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145037Z" creationid="95" creationdate="20160106T145026Z">
+        <seg>你可以把一个configuration映射到一个并且只能是一个scope上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42473,6 +42545,16 @@ println ant.references[&lt;s0&gt;'antPath'&lt;/s0&gt;]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println conf2ScopeMappings.mappings
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145331Z" creationid="95" creationdate="20160106T145331Z">
+        <seg>println conf2ScopeMappings.mappings
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println configurations.compile.name
 println configurations[&lt;s0&gt;'compile'&lt;/s0&gt;].name</seg>
       </tuv>
@@ -45051,6 +45133,14 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T150934Z" creationid="msdx" creationdate="20141116T150934Z">
         <seg>task logInfo {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task mappings &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T145327Z" creationid="95" creationdate="20160106T145327Z">
+        <seg>task mappings &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
