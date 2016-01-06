@@ -6748,6 +6748,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c4&gt;archiveTask.baseName&lt;/c4&gt; defaults to &lt;c5&gt;project.archivesBaseName&lt;/c5&gt; which in turn defaults to &lt;c6&gt;project.name&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T141949Z" creationid="95" creationdate="20160106T141949Z">
+        <seg>&lt;c4&gt;archiveTask.baseName&lt;/c4&gt;默认为&lt;c5&gt;project.archivesBaseName&lt;/c5&gt;，后者默认为&lt;c6&gt;project.name&lt;/c6&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;&lt;c1&gt;$buildDir&lt;/c1&gt;&lt;/e0&gt;/jacoco</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132307Z" creationid="msdx" creationdate="20150506T132307Z">
@@ -17700,8 +17708,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Here, &lt;c0&gt;uploadTask&lt;/c0&gt; and &lt;c1&gt;archiveTask&lt;/c1&gt; refer to the tasks used for uploading and generating the archive, respectively (for example &lt;c2&gt;uploadArchives&lt;/c2&gt; and &lt;c3&gt;jar&lt;/c3&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160105T144144Z" creationid="95" creationdate="20160105T144144Z">
-        <seg>Here, &lt;c0&gt;uploadTask&lt;/c0&gt; and &lt;c1&gt;archiveTask&lt;/c1&gt; refer to the tasks used for uploading and generating the archive, respectively (for example &lt;c2&gt;uploadArchives&lt;/c2&gt; and &lt;c3&gt;jar&lt;/c3&gt;).</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T141902Z" creationid="95" creationdate="20160105T144144Z">
+        <seg>在这里， &lt;c0&gt;uploadTask&lt;/c0&gt;和&lt;c1&gt;archiveTask&lt;/c1&gt;分别指向上传和分别生成archive的任务（例如&lt;c2&gt;uploadArchives&lt;/c2&gt;和&lt;c3&gt;jar&lt;/c3&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
