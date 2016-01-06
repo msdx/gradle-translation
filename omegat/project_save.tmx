@@ -30779,6 +30779,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To add additional content to the POM, the &lt;c0&gt;pom.project&lt;/c0&gt; builder can be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T142813Z" creationid="95" creationdate="20160106T142739Z">
+        <seg>如果要向 POM 添加其他的内容，可以使用&lt;c0&gt;pom.project&lt;/c0&gt; 生成器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To add another bean elements to its parent, you use a closure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T135220Z" creationid="95" creationdate="20160105T135220Z">
@@ -32839,6 +32847,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T012755Z" creationid="msdx" creationdate="20141111T012610Z">
         <seg>目前使用这些规则仍有可能出现&lt;c0&gt;taskA&lt;/c0&gt;执行而&lt;c1&gt;taskB&lt;/c1&gt; 没有执行，或者&lt;c0&gt;taskB&lt;/c0&gt;执行而&lt;c1&gt;taskA&lt;/c1&gt; 没有执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With this builder, any element listed in the &lt;a1&gt;Maven POM reference&lt;/a1&gt; can be added.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T142919Z" creationid="95" creationdate="20160106T142919Z">
+        <seg>通过这个生成器，&lt;a1&gt;Maven POM 参考&lt;/a1&gt;中列出的任何元素都可以被添加进来。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39121,6 +39137,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://maven.apache.org/pom.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T142736Z" creationid="95" creationdate="20160106T142736Z">
+        <seg>http://maven.apache.org/pom.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://pmd.sourceforge.net</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104856Z" creationid="msdx" creationdate="20150428T104856Z">
@@ -41649,6 +41673,22 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>pom.artifactId = &lt;s2&gt;'myMavenName'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T142734Z" creationid="95" creationdate="20160106T142734Z">
+        <seg>pom.artifactId = &lt;s2&gt;'myMavenName'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pom.version = &lt;s1&gt;'1.0Maven'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T142733Z" creationid="95" creationdate="20160106T142733Z">
+        <seg>pom.version = &lt;s1&gt;'1.0Maven'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>pomDir</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151228T152713Z" creationid="95" creationdate="20151228T152713Z">
@@ -42989,6 +43029,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T141901Z" creationid="95" creationdate="20160105T141901Z">
         <seg>repository</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>repository(url: &lt;s0&gt;"file://localhost/tmp/myRepo/"&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T142732Z" creationid="95" creationdate="20160106T142732Z">
+        <seg>repository(url: &lt;s0&gt;"file://localhost/tmp/myRepo/"&lt;/s0&gt;)</seg>
       </tuv>
     </tu>
     <tu>
