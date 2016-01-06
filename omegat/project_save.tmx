@@ -1582,6 +1582,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/maven/PomFilterContainer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144236Z" creationid="95" creationdate="20160106T144236Z">
+        <seg>../javadoc/org/gradle/api/artifacts/maven/PomFilterContainer.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/artifacts/result/ResolutionResult.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T033058Z" creationid="haohang" creationdate="20150807T033058Z">
@@ -5984,6 +5992,14 @@ someroot/[artifact]-[revision].[ext]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T143550Z" creationid="95" creationdate="20160106T143523Z">
         <seg>52.6.4.1. 一个项目多个构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>52.6.4.2. Dependency mapping</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144506Z" creationid="95" creationdate="20160106T144506Z">
+        <seg>52.6.4.2. 依赖映射</seg>
       </tuv>
     </tu>
     <tu>
@@ -12906,6 +12922,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each filter has a POM associated with it which you can configure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144438Z" creationid="95" creationdate="20160106T144438Z">
+        <seg>每个过滤器都有一个你可以进行配置的POM与它关联。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each jar or war object has a &lt;c0&gt;manifest&lt;/c0&gt; property with a separate instance of &lt;a1&gt;&lt;c2&gt;Manifest&lt;/c2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145129Z" creationid="msdx" creationdate="20150428T145129Z">
@@ -15246,6 +15270,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T143448Z" creationid="95" creationdate="20160106T143448Z">
         <seg>示例 52.8. Maven installer 的自定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 52.9. Generation of multiple poms</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144206Z" creationid="95" creationdate="20160106T144206Z">
+        <seg>示例 52.9. 多个 poms 的生成</seg>
       </tuv>
     </tu>
     <tu>
@@ -29931,6 +29963,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This filter defines a boolean expression for which Gradle artifact it accepts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144418Z" creationid="95" creationdate="20160106T144418Z">
+        <seg>这个过滤器为每一个它接受的 Gradle 构件定义了一个布尔表达式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This format is supported by many other tools, such as CI servers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T084059Z" creationid="msdx" creationdate="20150428T084059Z">
@@ -31279,6 +31319,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075753Z" creationid="haohang" creationdate="20150722T075753Z">
         <seg>要了解更多关于此 API 的内容，可以看看&lt;a1&gt;&lt;c2&gt;ConfigurationContainer&lt;/c2&gt;&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To learn more about this have a look at &lt;a0&gt;&lt;c1&gt;PomFilterContainer&lt;/c1&gt;&lt;/a0&gt; and its associated classes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144459Z" creationid="95" creationdate="20160106T144459Z">
+        <seg>要了解更多关于它的信息，你可以看一下&lt;a0&gt;&lt;c1&gt;PomFilterContainer&lt;/c1&gt;&lt;/a0&gt;和其关联的类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34131,6 +34179,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You need to declare a filter for each artifact you want to publish.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144338Z" creationid="95" creationdate="20160106T144338Z">
+        <seg>你需要为你想发布的每一个构件声明一个过滤器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You often need to locate the tasks that you have defined in the build file, for example, to configure them or use them for dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T080533Z" creationid="msdx" creationdate="20141110T023442Z">
@@ -34407,6 +34463,22 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151226T092052Z" creationid="95" creationdate="20151226T092052Z">
         <seg>add project.repositories.fileRepo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>addFilter(&lt;s1&gt;'api'&lt;/s1&gt;) {artifact, file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144207Z" creationid="95" creationdate="20160106T144207Z">
+        <seg>addFilter(&lt;s1&gt;'api'&lt;/s1&gt;) {artifact, file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>addFilter(&lt;s3&gt;'service'&lt;/s3&gt;) {artifact, file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144209Z" creationid="95" creationdate="20160106T144209Z">
+        <seg>addFilter(&lt;s3&gt;'service'&lt;/s3&gt;) {artifact, file -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -35459,6 +35531,22 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T111347Z" creationid="95" creationdate="20151006T111347Z">
         <seg>artifact &lt;s3&gt;"company-artifacts/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifact.name == &lt;s2&gt;'api'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144208Z" creationid="95" creationdate="20160106T144208Z">
+        <seg>artifact.name == &lt;s2&gt;'api'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifact.name == &lt;s4&gt;'service'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144210Z" creationid="95" creationdate="20160106T144210Z">
+        <seg>artifact.name == &lt;s4&gt;'service'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -41789,6 +41877,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T152812Z" creationid="95" creationdate="20160104T152812Z">
         <seg>pom {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pom(&lt;s5&gt;'api'&lt;/s5&gt;).version = &lt;s6&gt;'mySpecialMavenVersion'&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T144211Z" creationid="95" creationdate="20160106T144211Z">
+        <seg>pom(&lt;s5&gt;'api'&lt;/s5&gt;).version = &lt;s6&gt;'mySpecialMavenVersion'&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
