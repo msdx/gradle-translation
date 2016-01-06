@@ -15218,6 +15218,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 52.6. Builder style customization of pom</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143104Z" creationid="95" creationdate="20160106T143104Z">
+        <seg>示例 52.6. pom 的生成器类型自定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 52.7. Modifying auto-generated content</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143204Z" creationid="95" creationdate="20160106T143204Z">
+        <seg>示例 52.7. 修改自动生成的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 52.8. Customization of Maven installer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143448Z" creationid="95" creationdate="20160106T143448Z">
+        <seg>示例 52.8. Maven installer 的自定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -18514,6 +18538,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have more than one artifact to publish, things work a little bit differently.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143257Z" creationid="95" creationdate="20160106T143218Z">
+        <seg>如果你有超过一个的artifact 要发布，那么要做的事情就会有些不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you haven't had to deal with the curse of conflicting versions of jars on a classpath, here is a small anecdote of the fun that awaits you.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T055320Z" creationid="haohang" creationdate="20150721T055320Z">
@@ -21035,6 +21067,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note: &lt;c0&gt;groupId&lt;/c0&gt;, &lt;c1&gt;artifactId&lt;/c1&gt;, &lt;c2&gt;version&lt;/c2&gt;, and &lt;c3&gt;packaging&lt;/c3&gt; should always be set directly on the &lt;c4&gt;pom&lt;/c4&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143154Z" creationid="95" creationdate="20160106T143154Z">
+        <seg>注：&lt;c0&gt;groupId&lt;/c0&gt;，&lt;c1&gt;artifactId&lt;/c1&gt;，&lt;c2&gt;version&lt;/c2&gt;和&lt;c3&gt;packaging&lt;/c3&gt;应该始终直接在&lt;c4&gt;pom&lt;/c4&gt;对象上设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note: if you specify a stack trace level on either the Command Line or Favorites tab, it will override this stack trace level.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161104Z" creationid="msdx" creationdate="20141105T161104Z">
@@ -22999,6 +23039,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T144120Z" creationid="msdx" creationdate="20150510T144120Z">
         <seg>可以查阅它们的API 文档以了解更多信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See&lt;a0&gt;Section 52.6.4.1, “Multiple artifacts per project”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143309Z" creationid="95" creationdate="20160106T143309Z">
+        <seg>请参阅&lt;a0&gt;第 52.6.4.1 节，“每个项目的多个工件”&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30955,6 +31003,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To customize the settings for the Maven installer (see&lt;a0&gt;Section 52.6.3, “Installing to the local repository”&lt;/a0&gt;), you can do:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143436Z" creationid="95" creationdate="20160106T143436Z">
+        <seg>要为 Maven installer（见&lt;a0&gt;第 52.6.3 条，“安装到本地资源库”&lt;/a0&gt;) 自定义设置，你可以：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To customize these you can do:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T142702Z" creationid="95" creationdate="20160106T142702Z">
@@ -34295,6 +34351,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T102846Z" creationid="haohang" creationdate="20150722T102837Z">
         <seg>[group: &lt;s8&gt;'org.springframework'&lt;/s8&gt;, name: &lt;s9&gt;'spring-aop'&lt;/s9&gt;, version: &lt;s10&gt;'2.5'&lt;/s10&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[installer, deployer]*.pom*.whenConfigured {pom -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143207Z" creationid="95" creationdate="20160106T143207Z">
+        <seg>[installer, deployer]*.pom*.whenConfigured {pom -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -39687,6 +39751,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>install {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143450Z" creationid="95" creationdate="20160106T143450Z">
+        <seg>install {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>install&lt;e0&gt;&lt;c1&gt;${distribution.name.capitalize()}&lt;/c1&gt;&lt;/e0&gt;Dist</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031239Z" creationid="haohang" creationdate="20150701T031239Z">
@@ -40891,6 +40963,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>maven_plugin.html#sub:multiple_artifacts_per_project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143214Z" creationid="95" creationdate="20160106T143214Z">
+        <seg>maven_plugin.html#sub:multiple_artifacts_per_project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>maven_plugin.html#uploading_to_maven_repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151226T093006Z" creationid="95" creationdate="20151226T093006Z">
@@ -41673,10 +41753,44 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>pom.artifactId = &lt;s1&gt;'myName'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143458Z" creationid="95" creationdate="20160106T143458Z">
+        <seg>pom.artifactId = &lt;s1&gt;'myName'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>pom.artifactId = &lt;s2&gt;'myMavenName'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T142734Z" creationid="95" creationdate="20160106T142734Z">
         <seg>pom.artifactId = &lt;s2&gt;'myMavenName'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pom.dependencies.find {dep -&gt; dep.groupId == &lt;s0&gt;'group3'&lt;/s0&gt; &amp;&amp; dep.artifactId == &lt;s1&gt;'runtime'&lt;/s1&gt; }.optional = true
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143213Z" creationid="95" creationdate="20160106T143213Z">
+        <seg>pom.dependencies.find {dep -&gt; dep.groupId == &lt;s0&gt;'group3'&lt;/s0&gt; &amp;&amp; dep.artifactId == &lt;s1&gt;'runtime'&lt;/s1&gt; }.optional = true
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pom.project {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143106Z" creationid="95" creationdate="20160106T143106Z">
+        <seg>pom.project {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pom.version = &lt;s0&gt;'1.0Maven'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143453Z" creationid="95" creationdate="20160106T143453Z">
+        <seg>pom.version = &lt;s0&gt;'1.0Maven'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -43021,6 +43135,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T134853Z" creationid="95" creationdate="20160105T134853Z">
         <seg>repositories.mavenDeployer {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>repositories.mavenInstaller {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160106T143451Z" creationid="95" creationdate="20160106T143451Z">
+        <seg>repositories.mavenInstaller {</seg>
       </tuv>
     </tu>
     <tu>
