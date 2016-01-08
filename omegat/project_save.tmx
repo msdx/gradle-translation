@@ -1868,6 +1868,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>// Use Java 6's console to read from the console (no good for a CI environment)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152904Z" creationid="95" creationdate="20160108T152904Z">
+        <seg>// Use Java 6's console to read from the console (no good for a CI environment)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161837Z" creationid="msdx" creationdate="20141109T161837Z">
@@ -6040,6 +6048,14 @@ someroot/[artifact]-[revision].[ext]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160108T151155Z" creationid="95" creationdate="20160108T151155Z">
         <seg>53.2. 签名凭证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>53.3. Specifying what to sign</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152956Z" creationid="95" creationdate="20160108T152925Z">
+        <seg>53.3. 指定要签名的内容</seg>
       </tuv>
     </tu>
     <tu>
@@ -12212,6 +12228,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Console console = System.console()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152906Z" creationid="95" creationdate="20160108T152906Z">
+        <seg>Console console = System.console()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Contains a sample class and unit test, if there are no existing source or test files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094311Z" creationid="haohang" creationdate="20150707T094311Z">
@@ -18308,8 +18332,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If specifying this information in the user &lt;c0&gt;gradle.properties&lt;/c0&gt; file is not feasible for your environment, you can source the information however you need to and set the project properties manually.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152538Z" creationid="95" creationdate="20160108T152538Z">
-        <seg>If specifying this information in the user &lt;c0&gt;gradle.properties&lt;/c0&gt; file is not feasible for your environment, you can source the information however you need to and set the project properties manually.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152848Z" creationid="95" creationdate="20160108T152538Z">
+        <seg>如果在用户的&lt;c0&gt;gradle.properties&lt;/c0&gt;文件中指定的信息不适合你的环境，你可以提供这些信息，但你需要手动设置项目的属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34817,6 +34841,30 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>allprojects { ext."signing.keyId" = id }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152919Z" creationid="95" creationdate="20160108T152919Z">
+        <seg>allprojects { ext."signing.keyId" = id }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>allprojects { ext."signing.password" = password }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152920Z" creationid="95" creationdate="20160108T152920Z">
+        <seg>allprojects { ext."signing.password" = password }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>allprojects { ext."signing.secretKeyRingFile" = file }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152919Z" creationid="95" creationdate="20160108T152919Z">
+        <seg>allprojects { ext."signing.secretKeyRingFile" = file }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>an empty manifest</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050033Z" creationid="Administrator" creationdate="20150427T050033Z">
@@ -37093,6 +37141,22 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>console.printf "\nThanks.\n\n"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152921Z" creationid="95" creationdate="20160108T152921Z">
+        <seg>console.printf "\nThanks.\n\n"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>console.printf "\n\nWe have to sign some things in this build.\n\nPlease enter your signing details.\n\n"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152907Z" creationid="95" creationdate="20160108T152907Z">
+        <seg>console.printf "\n\nWe have to sign some things in this build.\n\nPlease enter your signing details.\n\n"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>contents {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T032508Z" creationid="haohang" creationdate="20150701T032508Z">
@@ -37259,10 +37323,26 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def file = console.readLine("PGP Secret Key Ring File (absolute path): ")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152917Z" creationid="95" creationdate="20160108T152917Z">
+        <seg>def file = console.readLine("PGP Secret Key Ring File (absolute path): ")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def height = mountain.height[&lt;s6&gt;0&lt;/s6&gt;].text()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060328Z" creationid="msdx" creationdate="20141111T060328Z">
         <seg>def height = mountain.height[&lt;s6&gt;0&lt;/s6&gt;].text()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def id = console.readLine("PGP Key Id: ")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152908Z" creationid="95" creationdate="20160108T152908Z">
+        <seg>def id = console.readLine("PGP Key Id: ")</seg>
       </tuv>
     </tu>
     <tu>
@@ -37279,6 +37359,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060326Z" creationid="msdx" creationdate="20141111T060326Z">
         <seg>def name = mountain.name[&lt;s5&gt;0&lt;/s5&gt;].text()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def password = console.readPassword("PGP Private Key Password: ")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152918Z" creationid="95" creationdate="20160108T152918Z">
+        <seg>def password = console.readPassword("PGP Private Key Password: ")</seg>
       </tuv>
     </tu>
     <tu>
@@ -39881,6 +39969,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>if (taskGraph.allTasks.any { it instanceof Sign }) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152851Z" creationid="95" creationdate="20160108T152851Z">
+        <seg>if (taskGraph.allTasks.any { it instanceof Sign }) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>img/groovyPluginTasks.png</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T071745Z" creationid="msdx" creationdate="20150429T071745Z">
@@ -39949,6 +40045,18 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T090104Z" creationid="msdx" creationdate="20150503T090104Z">
         <seg>img/warPluginTasks.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>import org.gradle.plugins.signing.Sign
+
+gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152850Z" creationid="95" creationdate="20160108T152850Z">
+        <seg>import org.gradle.plugins.signing.Sign
+
+gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
       </tuv>
     </tu>
     <tu>
