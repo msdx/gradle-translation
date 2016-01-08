@@ -17034,6 +17034,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Given the personal and private nature of these values, a good practice is to store them in the user &lt;c3&gt;gradle.properties&lt;/c3&gt; file (described in &lt;a4&gt;Section 14.2, “Gradle properties and system properties”&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152512Z" creationid="95" creationdate="20160108T152512Z">
+        <seg>鉴于这些值的个人和私人性质，一个好的做法是将它们保存在用户的&lt;c3&gt;gradle.properties&lt;/c3&gt;文件（&lt;a4&gt;第14.2 节，“Gradle 属性和系统属性”&lt;/a4&gt;中所述）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle API dependency</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080634Z" creationid="haohang" creationdate="20150722T080634Z">
@@ -18294,6 +18302,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151227T155618Z" creationid="95" creationdate="20151227T155429Z">
         <seg>如果其他人想要把你的项目作为一个库使用，她只需要在依赖配置上声明，使她的项目依赖你的库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If specifying this information in the user &lt;c0&gt;gradle.properties&lt;/c0&gt; file is not feasible for your environment, you can source the information however you need to and set the project properties manually.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152538Z" creationid="95" creationdate="20160108T152538Z">
+        <seg>If specifying this information in the user &lt;c0&gt;gradle.properties&lt;/c0&gt; file is not feasible for your environment, you can source the information however you need to and set the project properties manually.</seg>
       </tuv>
     </tu>
     <tu>
@@ -44141,6 +44157,18 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104859Z" creationid="msdx" creationdate="20150428T104859Z">
         <seg>signing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>signing.keyId=24875D73
+signing.password=secret
+signing.secretKeyRingFile=/Users/me/.gnupg/secring.gpg</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160108T152514Z" creationid="95" creationdate="20160108T152514Z">
+        <seg>signing.keyId=24875D73
+signing.password=secret
+signing.secretKeyRingFile=/Users/me/.gnupg/secring.gpg</seg>
       </tuv>
     </tu>
     <tu>
