@@ -6068,6 +6068,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>53.3.2. Signing Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072608Z" creationid="95" creationdate="20160109T072608Z">
+        <seg>53.3.2. 签名任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>53.3. Specifying what to sign</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160108T152956Z" creationid="95" creationdate="20160108T152925Z">
@@ -8822,6 +8830,32 @@ Total time: 1 secs</seg>
 [ant:echo] Hello, from Ant
 :intro
 Hello, from Gradle
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle signArchives
+:compileJava
+:processResources
+:classes
+:jar
+:signArchives
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072552Z" creationid="95" creationdate="20160109T072552Z">
+        <seg>&gt; gradle signArchives
+:compileJava
+:processResources
+:classes
+:jar
+:signArchives
 
 BUILD SUCCESSFUL
 
@@ -19355,6 +19389,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In some cases the artifact that you need to sign may not be part of a configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072615Z" creationid="95" creationdate="20160109T072615Z">
+        <seg>In some cases the artifact that you need to sign may not be part of a configuration.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In some cases, however, it can be necessary to tweak dependency resolution to ensure that your build receives exactly the right dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T053942Z" creationid="95" creationdate="20151115T053942Z">
@@ -22087,6 +22129,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061020Z" creationid="msdx" creationdate="20141116T061020Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle intro&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle signArchives&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072547Z" creationid="95" creationdate="20160109T072547Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle signArchives&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
