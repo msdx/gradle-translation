@@ -15436,6 +15436,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 53.4. Signing a task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T073058Z" creationid="95" creationdate="20160109T073058Z">
+        <seg>53.4. 签名一个任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -19391,8 +19399,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>In some cases the artifact that you need to sign may not be part of a configuration.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072615Z" creationid="95" creationdate="20160109T072615Z">
-        <seg>In some cases the artifact that you need to sign may not be part of a configuration.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072925Z" creationid="95" creationdate="20160109T072615Z">
+        <seg>在某些情况下，你需要签名的artifact 可能不是配置的一部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19569,6 +19577,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T141948Z" creationid="msdx" creationdate="20141109T141948Z">
         <seg>在这种情况下，您可以在项目管理部分 （对普通用户不可见） 添加一个环境属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this case you can directly sign the task that produces the artifact to sign.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T073050Z" creationid="95" creationdate="20160109T073050Z">
+        <seg>在这种情况下，你可以直接签名生成了要签名的artifact 的任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31109,6 +31125,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This will create a task (of type &lt;a0&gt;&lt;c1&gt;Sign&lt;/c1&gt;&lt;/a0&gt;) in your project named “&lt;c2&gt;signStuffZip&lt;/c2&gt;”, that will build the input task's archive (if needed) and then sign it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T073124Z" creationid="95" creationdate="20160109T073124Z">
+        <seg>This will create a task (of type &lt;a0&gt;&lt;c1&gt;Sign&lt;/c1&gt;&lt;/a0&gt;) in your project named “&lt;c2&gt;signStuffZip&lt;/c2&gt;”, that will build the input task's archive (if needed) and then sign it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This will make the test task only use the includes / excludes to find test classes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T081854Z" creationid="Administrator" creationdate="20150428T081854Z">
@@ -36181,6 +36205,14 @@ task fooJar(type: Jar) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>baseName = &lt;s0&gt;"stuff"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T073059Z" creationid="95" creationdate="20160109T073059Z">
+        <seg>baseName = &lt;s0&gt;"stuff"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>baseName = &lt;s0&gt;'my-name'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150705T084611Z" creationid="haohang" creationdate="20150705T084611Z">
@@ -38983,6 +39015,20 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T045151Z" creationid="msdx" creationdate="20141108T045151Z">
         <seg>from &lt;s1&gt;"source"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;s1&gt;"src/stuff"&lt;/s1&gt;
+}
+
+signing {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T073101Z" creationid="95" creationdate="20160109T073101Z">
+        <seg>from &lt;s1&gt;"src/stuff"&lt;/s1&gt;
+}
+
+signing {</seg>
       </tuv>
     </tu>
     <tu>
@@ -44409,6 +44455,16 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sign stuffZip
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T073103Z" creationid="95" creationdate="20160109T073103Z">
+        <seg>sign stuffZip
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>signing</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104859Z" creationid="msdx" creationdate="20150428T104859Z">
@@ -45681,6 +45737,14 @@ artifacts {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140710Z" creationid="msdx" creationdate="20141113T140710Z">
         <seg>task rename(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task stuffZip (type: Zip) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T073059Z" creationid="95" creationdate="20160109T073059Z">
+        <seg>task stuffZip (type: Zip) {</seg>
       </tuv>
     </tu>
     <tu>
