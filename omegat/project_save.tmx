@@ -1326,6 +1326,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.plugins.signing.Sign.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072234Z" creationid="95" creationdate="20160109T072234Z">
+        <seg>../dsl/org.gradle.plugins.signing.Sign.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.testing.jacoco.plugins.JacocoPluginExtension.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130435Z" creationid="msdx" creationdate="20150506T130435Z">
@@ -15378,6 +15386,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 53.2. Signing a configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072230Z" creationid="95" creationdate="20160109T072230Z">
+        <seg>53.3.2. 签名一个配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 53.3. Signing a configuration output</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072533Z" creationid="95" creationdate="20160109T072533Z">
+        <seg>示例 53.3. 签署一个配置的输出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -16174,6 +16198,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T122938Z" creationid="msdx" creationdate="20141113T122938Z">
         <seg>例如， &lt;a0&gt; &lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt;任务有一个&lt;c2&gt;source&lt;/c2&gt;属性，定义了要编译的源代码文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the &lt;a0&gt;Java plugin&lt;/a0&gt; configures a jar to built and this jar artifact is added to the &lt;c1&gt;archives&lt;/c1&gt; configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072126Z" creationid="95" creationdate="20160109T072126Z">
+        <seg>例如， &lt;a0&gt;Java 插件&lt;/a0&gt;配置了构建一个jar文件，并且把 jar 文件添加到&lt;c1&gt;archives&lt;/c1&gt;配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28827,6 +28859,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The signature files will be placed alongside the artifacts being signed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072522Z" creationid="95" creationdate="20160109T072522Z">
+        <seg>签名文件将和被签名的artifacts放在一起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The signing plugin adds the ability to digitally sign built files and artifacts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160108T150522Z" creationid="95" creationdate="20160106T145927Z">
@@ -31011,6 +31051,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This will create a task (of type &lt;a0&gt;&lt;c1&gt;Sign&lt;/c1&gt;&lt;/a0&gt;) in your project named “&lt;c2&gt;signArchives&lt;/c2&gt;”, that will build any &lt;c3&gt;archives&lt;/c3&gt; artifacts (if needed) and then generate signatures for them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072447Z" creationid="95" creationdate="20160109T072242Z">
+        <seg>这将在你的项目中创建一个名为“&lt;c2&gt;signArchives&lt;/c2&gt;”的任务（&lt;a0&gt;&lt;c1&gt;Sign&lt;/c1&gt;&lt;/a0&gt;类型），这个任务会构建任何&lt;c3&gt;archives&lt;/c3&gt;的artifacts（如果需要），然后为它们生成签名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This will make the test task only use the includes / excludes to find test classes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T081854Z" creationid="Administrator" creationdate="20150428T081854Z">
@@ -32359,6 +32407,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T055032Z" creationid="msdx" creationdate="20141108T031048Z">
         <seg>使用Gradle 图形用户界面</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using the Signing DSL, you can specify that all of the artifacts of this configuration should be signed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072217Z" creationid="95" creationdate="20160109T072217Z">
+        <seg>使用Signing DSL，你可以指定这个配置的所有 artifacts 都应该被签名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44293,10 +44349,28 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sign configurations.archives
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072233Z" creationid="95" creationdate="20160109T072233Z">
+        <seg>sign configurations.archives
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>signing</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104859Z" creationid="msdx" creationdate="20150428T104859Z">
         <seg>signing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>signing {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160109T072231Z" creationid="95" creationdate="20160109T072231Z">
+        <seg>signing {</seg>
       </tuv>
     </tu>
     <tu>
