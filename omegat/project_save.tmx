@@ -8864,6 +8864,26 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle signStuffZip
+:stuffZip
+:signStuffZip
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T140544Z" creationid="95" creationdate="20160126T140544Z">
+        <seg>&gt; gradle signStuffZip
+:stuffZip
+:signStuffZip
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle transform
 :transform
 Transforming source file.</seg>
@@ -15444,6 +15464,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 53.5. Signing a task output</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T140528Z" creationid="95" creationdate="20160126T140528Z">
+        <seg>示例 53.5. 签名一个任务的输出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -15968,6 +15996,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151130T051515Z" creationid="haohang" creationdate="20151130T051515Z">
         <seg>对一个新的版本，你总是要创建新的 XML 描述符和目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a task to be “signable”, it must produce an archive of some type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T140635Z" creationid="95" creationdate="20160126T140635Z">
+        <seg>一个“可签名”的任务，必须输出某种类型的archive。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22153,6 +22189,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160109T072547Z" creationid="95" creationdate="20160109T072547Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle signArchives&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle signStuffZip&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T140542Z" creationid="95" creationdate="20160126T140542Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle signStuffZip&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -28925,6 +28969,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The signature file will be placed alongside the artifact being signed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T140514Z" creationid="95" creationdate="20160126T140514Z">
+        <seg>签名文件将和被签名的 artifact 放在一起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The signature files will be placed alongside the artifacts being signed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160109T072522Z" creationid="95" creationdate="20160109T072522Z">
@@ -31127,8 +31179,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>This will create a task (of type &lt;a0&gt;&lt;c1&gt;Sign&lt;/c1&gt;&lt;/a0&gt;) in your project named “&lt;c2&gt;signStuffZip&lt;/c2&gt;”, that will build the input task's archive (if needed) and then sign it.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160109T073124Z" creationid="95" creationdate="20160109T073124Z">
-        <seg>This will create a task (of type &lt;a0&gt;&lt;c1&gt;Sign&lt;/c1&gt;&lt;/a0&gt;) in your project named “&lt;c2&gt;signStuffZip&lt;/c2&gt;”, that will build the input task's archive (if needed) and then sign it.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T140449Z" creationid="95" creationdate="20160109T073124Z">
+        <seg>这将在您的项目创建一个名为“&lt;c2&gt;signStuffZip&lt;/c2&gt;”的（&lt;a0&gt;&lt;c1&gt;Sign&lt;/c1&gt;&lt;/a0&gt;类型） 的任务，这个任务会构建输入任务的archive（如果需要），并进行签字。</seg>
       </tuv>
     </tu>
     <tu>
