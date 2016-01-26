@@ -1334,6 +1334,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.plugins.signing.SigningExtension.html#org.gradle.plugins.signing.SigningExtension:signPom(org.gradle.api.artifacts.maven.MavenDeployment, groovy.lang.Closure)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T144649Z" creationid="95" creationdate="20160126T144649Z">
+        <seg>../dsl/org.gradle.plugins.signing.SigningExtension.html#org.gradle.plugins.signing.SigningExtension:signPom(org.gradle.api.artifacts.maven.MavenDeployment, groovy.lang.Closure)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.testing.jacoco.plugins.JacocoPluginExtension.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130435Z" creationid="msdx" creationdate="20150506T130435Z">
@@ -6104,6 +6112,14 @@ someroot/[artifact]-[revision].[ext]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160126T143736Z" creationid="95" creationdate="20160126T143736Z">
         <seg>53.4. 发布签名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>53.5. Signing POM files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T144649Z" creationid="95" creationdate="20160126T144649Z">
+        <seg>53.5. 签名 POM 文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -30897,6 +30913,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means that if you want to upload your signatures to your distribution repository along with the artifacts you simply execute the &lt;c2&gt;uploadArchives&lt;/c2&gt; task as normal.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T144609Z" creationid="95" creationdate="20160126T144609Z">
+        <seg>这意味着，如果你想要将你的签名以及artifacts上传到你的分布仓库中，正常来讲你只需要执行&lt;c2&gt;uploadArchives&lt;/c2&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means that the 'newest' conflict resolution strategy would still select version &lt;c4&gt;1.3&lt;/c4&gt; if this version was also pulled transitively.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T085744Z" creationid="95" creationdate="20151115T085607Z">
@@ -33089,6 +33113,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When deploying signatures for your artifacts to a Maven repository, you will also want to sign the published POM file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T144654Z" creationid="95" creationdate="20160126T144654Z">
+        <seg>When deploying signatures for your artifacts to a Maven repository, you will also want to sign the published POM file.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When developing a web application, where the application is assembled many times.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T135332Z" creationid="msdx" creationdate="20141117T133019Z">
@@ -33163,8 +33195,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>When specifying what is to be signed via the Signing DSL, the resultant signature artifacts are automatically added to the &lt;c0&gt;signatures&lt;/c0&gt; and &lt;c1&gt;archives&lt;/c1&gt; dependency configurations.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160126T144425Z" creationid="95" creationdate="20160126T143830Z">
-        <seg>当通过 Signing DSL指定什么要被签名的时候，生成的signature会自动地加入到 &lt;c0&gt;signatures&lt;/c0&gt; 和 &lt;c1&gt;archives&lt;/c1&gt; 的依赖配置。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T144455Z" creationid="95" creationdate="20160126T143830Z">
+        <seg>当通过 Signing DSL指定什么要被签名的时候，生成的signature会自动地加入到 &lt;c0&gt;signatures&lt;/c0&gt; 和 &lt;c1&gt;archives&lt;/c1&gt; 的依赖配置中。</seg>
       </tuv>
     </tu>
     <tu>
