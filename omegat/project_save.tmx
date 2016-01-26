@@ -6100,6 +6100,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>53.4. Publishing the signatures</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T143736Z" creationid="95" creationdate="20160126T143736Z">
+        <seg>53.4. 发布签名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -10934,6 +10942,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T233206Z" creationid="haohang" creationdate="20150525T233206Z">
         <seg>因为&lt;c0&gt;sonarProperties&lt;/c0&gt;块的评估是惰性的，Gradle 的对象模型的属性可以在块中被安全地引用，而无需担心它们还没有被赋值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because we are inspecting the task graph to determine if we are going to be publishing, we must set the &lt;c0&gt;signing.required&lt;/c0&gt; property to a closure to defer the evaluation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T143638Z" creationid="95" creationdate="20160126T142639Z">
+        <seg>由于我们正在检查任务图，以确定是否打算发布，我们必须将&lt;c0&gt;signing.required&lt;/c0&gt;属性设置为一个闭包以推迟evaluation。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19683,8 +19699,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>In this example, we only want to require signing if we are building a release version and we are going to publish it.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160126T141430Z" creationid="95" creationdate="20160126T141430Z">
-        <seg>In this example, we only want to require signing if we are building a release version and we are going to publish it.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T142545Z" creationid="95" creationdate="20160126T141430Z">
+        <seg>在此示例中，我们只想要在我们构建一个我们即将去发布的发布版本的时候，才进行签名。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23357,6 +23373,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T053647Z" creationid="msdx" creationdate="20141120T053647Z">
         <seg>请参阅&lt;a0&gt; 56.1.1.1蘵，“配置 on demand”&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a1&gt;&lt;c2&gt;SigningExtension.setRequired()&lt;/c2&gt;&lt;/a1&gt; for more information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T143716Z" creationid="95" creationdate="20160126T143716Z">
+        <seg>更多的信息，请参阅&lt;a1&gt;&lt;c2&gt;SigningExtension.setRequired()&lt;/c2&gt; &lt;/a1&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
