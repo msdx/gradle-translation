@@ -15536,6 +15536,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 53.7. Signing a POM for deployment</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T145256Z" creationid="95" creationdate="20160126T145256Z">
+        <seg>示例 53.7. 为部署签名 POM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -29081,6 +29089,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The signing plugin adds a &lt;c0&gt;signing.signPom()&lt;/c0&gt; (see: &lt;a1&gt;&lt;c2&gt;SigningExtension.signPom()&lt;/c2&gt;&lt;/a1&gt;) method that can be used in the &lt;c3&gt;beforeDeployment()&lt;/c3&gt; block in your upload task configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T145230Z" creationid="95" creationdate="20160126T145230Z">
+        <seg>签名插件添加了一个&lt;c0&gt;signing.signPom()&lt;/c0&gt; （请参见： &lt;a1&gt; &lt;c2&gt;SigningExtension.signPom()&lt;/c2&gt;&lt;/a1&gt;）方法，这个方法可以在你的上传任务配置的&lt;c3&gt;beforeDeployment()&lt;/c3&gt;块中使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The signing plugin adds the ability to digitally sign built files and artifacts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160108T150522Z" creationid="95" creationdate="20160106T145927Z">
@@ -33115,8 +33131,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>When deploying signatures for your artifacts to a Maven repository, you will also want to sign the published POM file.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160126T144654Z" creationid="95" creationdate="20160126T144654Z">
-        <seg>When deploying signatures for your artifacts to a Maven repository, you will also want to sign the published POM file.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T145112Z" creationid="95" creationdate="20160126T144654Z">
+        <seg>当为你的artifacts部署签名到 Maven 仓库时，你还想签名发布的 POM 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33189,6 +33205,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T092211Z" creationid="msdx" creationdate="20150512T092104Z">
         <seg>当一次只设置一个属性时，等效属性的语法更加简洁：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When signing is not required and the POM cannot be signed due to insufficient configuration (i.e. no credentials for signing) then the &lt;c0&gt;signPom()&lt;/c0&gt; method will silently do nothing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T145300Z" creationid="95" creationdate="20160126T145300Z">
+        <seg>When signing is not required and the POM cannot be signed due to insufficient configuration (i.e. no credentials for signing) then the &lt;c0&gt;signPom()&lt;/c0&gt; method will silently do nothing.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36419,6 +36443,14 @@ println myZip.archiveName</seg>
 }
 
 println myZip.archiveName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>beforeDeployment { MavenDeployment deployment -&gt; signing.signPom(deployment) }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160126T145258Z" creationid="95" creationdate="20160126T145258Z">
+        <seg>beforeDeployment { MavenDeployment deployment -&gt; signing.signPom(deployment) }</seg>
       </tuv>
     </tu>
     <tu>
