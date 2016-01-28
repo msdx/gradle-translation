@@ -1166,6 +1166,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.Executable.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153603Z" creationid="95" creationdate="20160128T153603Z">
+        <seg>../dsl/org.gradle.nativebinaries.Executable.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.Library.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153603Z" creationid="95" creationdate="20160128T153603Z">
+        <seg>../dsl/org.gradle.nativebinaries.Library.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.NativeBinary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153604Z" creationid="95" creationdate="20160128T153604Z">
+        <seg>../dsl/org.gradle.nativebinaries.NativeBinary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.plugins.ear.Ear.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145510Z" creationid="msdx" creationdate="20141113T145510Z">
@@ -1842,6 +1866,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083436Z" creationid="msdx" creationdate="20150428T083436Z">
         <seg>../javadoc/org/gradle/external/javadoc/StandardJavadocDocletOptions.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/language/base/FunctionalSourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153606Z" creationid="95" creationdate="20160128T153606Z">
+        <seg>../javadoc/org/gradle/language/base/FunctionalSourceSet.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -6124,6 +6156,22 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.1. Tool chain support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T152548Z" creationid="95" creationdate="20160128T152548Z">
+        <seg>54.1. 工具链支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>54.2. Component model</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153602Z" creationid="95" creationdate="20160128T153602Z">
+        <seg>54.2. 组件模型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -9202,6 +9250,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A native binary project defines a set of &lt;a0&gt;&lt;c1&gt;Executable&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Library&lt;/c3&gt;&lt;/a2&gt; components, each of which Gradle maps to a number of &lt;a4&gt;&lt;c5&gt;NativeBinary&lt;/c5&gt;&lt;/a4&gt; outputs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153607Z" creationid="95" creationdate="20160128T153607Z">
+        <seg>A native binary project defines a set of &lt;a0&gt;&lt;c1&gt;Executable&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Library&lt;/c3&gt;&lt;/a2&gt; components, each of which Gradle maps to a number of &lt;a4&gt;&lt;c5&gt;NativeBinary&lt;/c5&gt;&lt;/a4&gt; outputs.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A one element set with the project the plugin was applied to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061856Z" creationid="haohang" creationdate="20150628T061856Z">
@@ -10254,6 +10310,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141512Z" creationid="msdx" creationdate="20141121T141512Z">
         <seg>或者，可以在构建的根目录或 Gradle 主目录中的 gradle.properties 文件中指定这些属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alternatively, you can configure the tool chains directly, as described in the `Native Binary Variants` section, below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153337Z" creationid="95" creationdate="20160128T153247Z">
+        <seg>或者，你可以直接配置工具链，就如下面的“原生二进制变种”中描述的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11974,6 +12038,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141308Z" creationid="Administrator" creationdate="20150330T141308Z">
         <seg>选择一个日志级别</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clang</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153346Z" creationid="95" creationdate="20160128T153346Z">
+        <seg>Clang</seg>
       </tuv>
     </tu>
     <tu>
@@ -16808,6 +16880,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>GCC</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153344Z" creationid="95" creationdate="20160128T153344Z">
+        <seg>GCC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>GUI Setup</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T160751Z" creationid="msdx" creationdate="20141105T160751Z">
@@ -17436,6 +17516,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T020259Z" creationid="msdx" creationdate="20141111T020259Z">
         <seg>Gradle 提供多种方式来跳过任务的执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle offers the ability to execute the same build using different tool chains.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153029Z" creationid="95" creationdate="20160128T153029Z">
+        <seg>Gradle 提供了使用不同的工具链执行相同的构建的能力。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20865,6 +20953,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Linux</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153342Z" creationid="95" creationdate="20160128T153342Z">
+        <seg>Linux</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>List groovy = [&lt;s0&gt;"org.codehaus.groovy:groovy-all:2.2.0@jar"&lt;/s0&gt;,</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103702Z" creationid="haohang" creationdate="20150801T103702Z">
@@ -21141,6 +21237,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150526T004647Z" creationid="haohang" creationdate="20150526T004647Z">
         <seg>方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MinGW</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153548Z" creationid="95" creationdate="20160128T153548Z">
+        <seg>MinGW</seg>
       </tuv>
     </tu>
     <tu>
@@ -21517,6 +21621,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T154351Z" creationid="msdx" creationdate="20141105T154351Z">
         <seg>注意：该操作需要 Java 1.6 或更高的版本，并且要求在你的操作系统中关联 gradle 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153341Z" creationid="95" creationdate="20160128T153341Z">
+        <seg>备注</seg>
       </tuv>
     </tu>
     <tu>
@@ -26385,6 +26497,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Gradle support for building native binaries is currently &lt;a0&gt;incubating&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T151723Z" creationid="95" creationdate="20160128T151723Z">
+        <seg>Gradle 对构建原生二进制文件的支持目前还是&lt;a0&gt;孵化&lt;/a0&gt;阶段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Gradle wrapper plugin allows the generation of Gradle wrapper files by adding a &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt; task, that generates all files needed to run the build using the Gradle Wrapper.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012520Z" creationid="haohang" creationdate="20150707T095200Z">
@@ -28217,6 +28337,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following tool chains are supported:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153326Z" creationid="95" creationdate="20160128T153326Z">
+        <seg>支持以下的工具链：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The former is used to locate classes referenced by the source code, and will typically contain &lt;c4&gt;scala-library&lt;/c4&gt; along with other libraries.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154452Z" creationid="msdx" creationdate="20150430T154452Z">
@@ -29341,6 +29469,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T051921Z" creationid="msdx" creationdate="20141120T051921Z">
         <seg>这个值可以设置为&lt;c0&gt;jdk&lt;/c0&gt;或&lt;c1&gt;jre&lt;/c1&gt;的位置，不过，根据你的构建所做的，选择 &lt;c2&gt;jdk&lt;/c2&gt;会更安全。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The various native binary plugins add support for building native software components from C++, C, Objective-C, Objective-C++ and Assembler sources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T151845Z" creationid="95" creationdate="20160128T151845Z">
+        <seg>不同的原生二进制插件添加了对从C++，C，Objective-C，Objective-C++以及汇编源文件构建原生软件组件的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32257,6 +32393,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tool Chain</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153339Z" creationid="95" creationdate="20160128T153339Z">
+        <seg>工具链</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Top level element that enables configuration of the Eclipse plugin in a DSL-friendly fashion</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T022353Z" creationid="msdx" creationdate="20150620T034249Z">
@@ -32625,6 +32769,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using Clang distributed with XCode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153450Z" creationid="95" creationdate="20160128T153450Z">
+        <seg>使用 XCode 中的 Clang。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using GCC distributed with XCode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153439Z" creationid="95" creationdate="20160128T153439Z">
+        <seg>使用 XCode 中的 GCC。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using custom descriptor file</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T151813Z" creationid="msdx" creationdate="20150514T151813Z">
@@ -32757,6 +32917,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T034911Z" creationid="haohang" creationdate="20150724T034845Z">
         <seg>通过 string 标记法，你可以定义一个属性的子集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Visual C++</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153452Z" creationid="95" creationdate="20160128T153452Z">
+        <seg>Visual C++</seg>
       </tuv>
     </tu>
     <tu>
@@ -33409,6 +33577,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While many excellent build tools exist for this space of software development, Gradle offers developers it's trademark power and flexibility together with the dependency management practices more traditionally found in the JVM development space.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T152540Z" creationid="95" creationdate="20160128T152004Z">
+        <seg>虽然对于这种软件开发的空间，已经有许多优秀的构建工具存在，但是Gradle 向开发人员提供的是它的强大特征和灵活性，以及在依赖管理实践上，在JVM开发空间上更为传统的发现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>While the build continued to work, developers were starting to notice all sorts of surprising (and surprisingly awful) bugs in production.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T055631Z" creationid="haohang" creationdate="20150721T055631Z">
@@ -33477,6 +33653,30 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T065612Z" creationid="haohang" creationdate="20150628T065612Z">
         <seg>Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Windows XP and later, Visual C++ 2010 and later.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153521Z" creationid="95" creationdate="20160128T153521Z">
+        <seg>Windows XP及以上，Visual C++ 2010 及以上版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Windows XP and later, using GCC distributed with Cygwin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153546Z" creationid="95" creationdate="20160128T153546Z">
+        <seg>Windows XP及以上，使用Cygwin的GCC。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Windows XP and later.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153557Z" creationid="95" creationdate="20160128T153557Z">
+        <seg>Windows XP 及以上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34013,6 +34213,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152207Z" creationid="msdx" creationdate="20141109T152207Z">
         <seg>您可以使用外部构建脚本来配置当前项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can control which tool chain will be used to build by changing the operating system PATH to include the desired tool chain compiler.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153146Z" creationid="95" creationdate="20160128T153146Z">
+        <seg>你可以通过更改操作系统的PATH让其包含所需的工具链编译器，来控制使用哪个工具链。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39885,6 +40093,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://clang.llvm.org</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153345Z" creationid="95" creationdate="20160128T153345Z">
+        <seg>http://clang.llvm.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://clarkware.com/software/JDepend.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104853Z" creationid="msdx" creationdate="20150428T104853Z">
@@ -39969,6 +40185,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094737Z" creationid="msdx" creationdate="20150429T094737Z">
         <seg>http://gant.codehaus.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://gcc.gnu.org/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153343Z" creationid="95" creationdate="20160128T153343Z">
+        <seg>http://gcc.gnu.org/</seg>
       </tuv>
     </tu>
     <tu>
@@ -40177,6 +40401,22 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104852Z" creationid="msdx" creationdate="20150428T104852Z">
         <seg>http://www.jetbrains.com/idea/index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.microsoft.com/visualstudio/en-us</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153451Z" creationid="95" creationdate="20160128T153451Z">
+        <seg>http://www.microsoft.com/visualstudio/en-us</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.mingw.org/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153547Z" creationid="95" creationdate="20160128T153547Z">
+        <seg>http://www.mingw.org/</seg>
       </tuv>
     </tu>
     <tu>
