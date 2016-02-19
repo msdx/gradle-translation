@@ -13192,6 +13192,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each &lt;c3&gt;library&lt;/c3&gt; component can produce at least one &lt;a4&gt;&lt;c5&gt;SharedLibraryBinary&lt;/c5&gt;&lt;/a4&gt; and at least one &lt;a6&gt;&lt;c7&gt;StaticLibraryBinary&lt;/c7&gt;&lt;/a6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065306Z" creationid="haohang" creationdate="20160219T065306Z">
+        <seg>每个&lt;c3&gt;library&lt;/c3&gt;组件可以产生至少一个&lt;a4&gt;&lt;c5&gt;SharedLibraryBinary&lt;/c5&gt;&lt;/a4&gt;和至少一个&lt;a6&gt;&lt;c7&gt;StaticLibraryBinary&lt;/c7&gt;&lt;/a6&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each artifact can have a different set of dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035634Z" creationid="haohang" creationdate="20150724T035634Z">
@@ -15636,6 +15644,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160126T145256Z" creationid="95" creationdate="20160126T145256Z">
         <seg>示例 53.7. 为部署签名 POM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.1. Defining a library component</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065328Z" creationid="haohang" creationdate="20160219T065316Z">
+        <seg>示例 54.1. 定义一个库组件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.2. Defining executable components</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065424Z" creationid="haohang" creationdate="20160219T065424Z">
+        <seg>示例 54.2. 定义可执行组件</seg>
       </tuv>
     </tu>
     <tu>
@@ -19564,6 +19588,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T142044Z" creationid="msdx" creationdate="20141117T142044Z">
         <seg>一般情况下，构建工具的敏捷行为总是可以派上用场。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In many cases, more than one native binary can be produced for a component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065539Z" creationid="haohang" creationdate="20160219T065451Z">
+        <seg>在许多情况下，一个组件可以产生超过一个的原生二进制文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31737,6 +31769,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To build an executable binary, an &lt;a0&gt;&lt;c1&gt;Executable&lt;/c1&gt;&lt;/a0&gt; component is added to the &lt;c2&gt;executables&lt;/c2&gt; container and associated with a set of sources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065417Z" creationid="haohang" creationdate="20160219T065417Z">
+        <seg>为构建一个可执行的二进制，&lt;a0&gt;&lt;c1&gt;Executable&lt;/c1&gt;&lt;/a0&gt;组件添加到&lt;c2&gt;executables&lt;/c2&gt;容器中，并与源码集相关联。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To build either a static or shared native library binary, a &lt;a0&gt;&lt;c1&gt;Library&lt;/c1&gt;&lt;/a0&gt; component is added to the &lt;c2&gt;libraries&lt;/c2&gt; container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065251Z" creationid="haohang" creationdate="20160219T065251Z">
+        <seg>为构建一个静态或共享的原生库二进制文件，一个&lt;a0&gt;&lt;c1&gt;Library&lt;/c1&gt;&lt;/a0&gt;组件将添加到&lt;c2&gt;libraries&lt;/c2&gt;容器中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To change how long Gradle will cache the meta-data and artifacts for a changing module, use:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151130T032414Z" creationid="haohang" creationdate="20151130T032414Z">
@@ -39153,6 +39201,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>executables {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065425Z" creationid="haohang" creationdate="20160219T065425Z">
+        <seg>executables {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>executionData run</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T135604Z" creationid="msdx" creationdate="20150506T135604Z">
@@ -40057,6 +40113,16 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T065613Z" creationid="haohang" creationdate="20150628T065613Z">
         <seg>growl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>hello {}
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065322Z" creationid="haohang" creationdate="20160219T065322Z">
+        <seg>hello {}
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41803,6 +41869,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>libraries {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065319Z" creationid="haohang" creationdate="20160219T065319Z">
+        <seg>libraries {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>libs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083240Z" creationid="msdx" creationdate="20150428T083240Z">
@@ -41981,6 +42055,16 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T050712Z" creationid="msdx" creationdate="20141108T050712Z">
         <seg>main {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>main {}
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065432Z" creationid="haohang" creationdate="20160219T065432Z">
+        <seg>main {}
+}</seg>
       </tuv>
     </tu>
     <tu>
