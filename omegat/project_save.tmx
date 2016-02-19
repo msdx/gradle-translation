@@ -6188,6 +6188,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.3. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T070039Z" creationid="haohang" creationdate="20160219T070039Z">
+        <seg>54.3. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -11146,6 +11154,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Binary variants are discussed in detail below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065922Z" creationid="haohang" creationdate="20160219T065922Z">
+        <seg>下面将详细讨论二进制 variant。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Bintray also supports sharing approved artifacts though the &lt;a3&gt;JCenter&lt;/a3&gt; public repository to provide a single resolution address for all popular OSS java artifacts (see &lt;a4&gt;Section 50.6.2, “Maven JCenter repository”&lt;/a4&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T062326Z" creationid="haohang" creationdate="20151201T062326Z">
@@ -13236,6 +13252,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T091619Z" creationid="95" creationdate="20151115T091619Z">
         <seg>每个模块（也称为&lt;s0&gt;&lt;e1&gt;组件&lt;/e1&gt;&lt;/s0&gt;）都有相关的元数据上，像它的组，名称，版本，依赖，等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each native binary produced for a component is referred to as &lt;c0&gt;variant&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065859Z" creationid="haohang" creationdate="20160219T065819Z">
+        <seg>组件所产生的每个原生二进制称为&lt;c0&gt;variant&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29989,6 +30013,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120649Z" creationid="msdx" creationdate="20141126T120649Z">
         <seg>如下列所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These binaries may vary based on the tool chain used to build, the compiler/linker flags supplied, the dependencies provided, or additional source files provided.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065753Z" creationid="haohang" creationdate="20160219T065753Z">
+        <seg>基于构建所使用的工具链，提供的编译器/链接器标志，提供的依赖或其他源文件，这些二进制文件可能会发生变化。</seg>
       </tuv>
     </tu>
     <tu>
