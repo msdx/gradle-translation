@@ -1166,6 +1166,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.language.cpp.CppSourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082845Z" creationid="haohang" creationdate="20160219T082845Z">
+        <seg>../dsl/org.gradle.language.cpp.CppSourceSet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.Executable.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160128T153603Z" creationid="95" creationdate="20160128T153603Z">
@@ -6212,6 +6220,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.4.1. C++ sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082800Z" creationid="haohang" creationdate="20160219T082800Z">
+        <seg>54.4.1. C++ 源代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.4. Core language support: C, C++, Assembler, Objective-C and Objective-C++</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T081305Z" creationid="haohang" creationdate="20160219T081305Z">
@@ -9354,6 +9370,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A native binary project will contain one or more named &lt;c0&gt;FunctionalSourceSet&lt;/c0&gt; instances (eg 'main', 'test', etc), each of which can contain &lt;c1&gt;LanguageSourceSet&lt;/c1&gt;s containing C++, C, Assembler, Objective-C or Objective-C++ source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082804Z" creationid="haohang" creationdate="20160219T082747Z">
+        <seg>一个原生二进制project 将包含一个或多个叫做&lt;c0&gt;FunctionalSourceSet&lt;/c0&gt;的实例（如"main"，"test"等），其中每一个都可以包含含有C++，C，Assembler，Objective-C或Objective-C++源代码的&lt;c1&gt;LanguageSourceSet&lt;/c1&gt;s。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A one element set with the project the plugin was applied to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061856Z" creationid="haohang" creationdate="20150628T061856Z">
@@ -11566,6 +11590,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T152231Z" creationid="msdx" creationdate="20141110T152003Z">
         <seg>通过使用 “ 必须在之后运行”的排序规则，您可以指定 &lt;c0&gt;taskB&lt;/c0&gt; 必须总是运行在 &lt;c1&gt;taskA&lt;/c1&gt; 之后，无论&lt;c2&gt;taskA&lt;/c2&gt;和&lt;c3&gt;taskB&lt;/c3&gt;这两个任务在什么时候被调度执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C++ language support is provided by means of the &lt;c0&gt;'cpp'&lt;/c0&gt; plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082834Z" creationid="haohang" creationdate="20160219T082834Z">
+        <seg>&lt;c0&gt;'cpp'&lt;/c0&gt; 插件提供了C++ 语言的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15764,6 +15796,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065424Z" creationid="haohang" creationdate="20160219T065424Z">
         <seg>示例 54.2. 定义可执行组件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.3. The 'cpp' plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082843Z" creationid="haohang" creationdate="20160219T082843Z">
+        <seg>示例 54.3. cpp 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -36205,6 +36245,14 @@ sonar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T133100Z" creationid="msdx" creationdate="20150505T133100Z">
         <seg>apply plugin: &lt;s0&gt;'codenarc'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'cpp'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082844Z" creationid="haohang" creationdate="20160219T082844Z">
+        <seg>apply plugin: &lt;s0&gt;'cpp'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
