@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.5.3" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.5_1" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -9252,8 +9252,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>A native binary project defines a set of &lt;a0&gt;&lt;c1&gt;Executable&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Library&lt;/c3&gt;&lt;/a2&gt; components, each of which Gradle maps to a number of &lt;a4&gt;&lt;c5&gt;NativeBinary&lt;/c5&gt;&lt;/a4&gt; outputs.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160128T153607Z" creationid="95" creationdate="20160128T153607Z">
-        <seg>A native binary project defines a set of &lt;a0&gt;&lt;c1&gt;Executable&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Library&lt;/c3&gt;&lt;/a2&gt; components, each of which Gradle maps to a number of &lt;a4&gt;&lt;c5&gt;NativeBinary&lt;/c5&gt;&lt;/a4&gt; outputs.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T064641Z" creationid="95" creationdate="20160128T153607Z">
+        <seg>一个原生二进制project定义了一组&lt;a0&gt;&lt;c1&gt;Executable&lt;/c1&gt;&lt;/a0&gt;和&lt;a2&gt;&lt;c3&gt;Library&lt;/c3&gt;&lt;/a2&gt;组件，每一个的 Gradle 都映射大量的&lt;a4&gt;&lt;c5&gt;NativeBinary&lt;/c5&gt;&lt;/a4&gt;输出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16212,6 +16212,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T032611Z" creationid="haohang" creationdate="20150807T032611Z">
         <seg>对于 Maven 存储库的依赖，至少默认配置是唯一可用的一个。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For each &lt;c6&gt;executable&lt;/c6&gt; or &lt;c7&gt;library&lt;/c7&gt; defined, Gradle adds a &lt;a8&gt;&lt;c9&gt;FunctionalSourceSet&lt;/c9&gt;&lt;/a8&gt; with the same name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T064713Z" creationid="haohang" creationdate="20160219T064713Z">
+        <seg>对于每个定义的&lt;c6&gt;executable&lt;/c6&gt;或&lt;c7&gt;library&lt;/c7&gt;，Gradle 添加了具有相同名称的&lt;a8&gt;&lt;c9&gt;FunctionalSourceSet&lt;/c9&gt; &lt;/a8&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
