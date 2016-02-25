@@ -11538,6 +11538,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, for any named component the &lt;a2&gt;&lt;c3&gt;CppSourceSet&lt;/c3&gt;&lt;/a2&gt; contains &lt;c4&gt;.cpp&lt;/c4&gt; source files in &lt;c5&gt;src/${name}/cpp&lt;/c5&gt;, and header files in &lt;c6&gt;src/${name}/headers&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T084810Z" creationid="haohang" creationdate="20160225T084810Z">
+        <seg>默认情况下，对于任何命名的组件，&lt;a2&gt;&lt;c3&gt;CppSourceSet&lt;/c3&gt;&lt;/a2&gt;包含了在&lt;c5&gt;src/${name}/cpp&lt;/c5&gt;中的&lt;c4&gt;.cpp&lt;/c4&gt;源文件，和在&lt;c6&gt;src/${name}/headers&lt;/c6&gt;中的头文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, the Java compiler runs in the Gradle process.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135535Z" creationid="Administrator" creationdate="20150427T135535Z">
@@ -11604,8 +11612,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>C++ sources to be included in a native binary are provided via a &lt;a0&gt;&lt;c1&gt;CppSourceSet&lt;/c1&gt;&lt;/a0&gt;, which defines a set of C++ source files and optionally a set of exported header files (for a library).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T094016Z" creationid="haohang" creationdate="20160219T094016Z">
-        <seg>C++ sources to be included in a native binary are provided via a &lt;a0&gt;&lt;c1&gt;CppSourceSet&lt;/c1&gt;&lt;/a0&gt;, which defines a set of C++ source files and optionally a set of exported header files (for a library).</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T084555Z" creationid="haohang" creationdate="20160219T094016Z">
+        <seg>把 C++ 源码包含到原生二进制文件中，是通过一个 &lt;a0&gt;&lt;c1&gt;CppSourceSet&lt;/c1&gt;&lt;/a0&gt;来实现的，它定义了一个C++源文件集以及（可选的）一个可导出的头文件（用于library）集</seg>
       </tuv>
     </tu>
     <tu>
