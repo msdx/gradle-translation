@@ -15824,6 +15824,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.4. C++ source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T085514Z" creationid="haohang" creationdate="20160225T085514Z">
+        <seg>示例 54.4. C++ 源代码集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -33921,6 +33929,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While the &lt;c0&gt;cpp&lt;/c0&gt; plugin defines these default locations for each &lt;a1&gt;&lt;c2&gt;CppSourceSet&lt;/c2&gt;&lt;/a1&gt;, it is possible to extend or override these defaults to allow for a different project layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T085455Z" creationid="haohang" creationdate="20160225T085455Z">
+        <seg>而&lt;c0&gt;cpp&lt;/c0&gt;插件为每个&lt;a1&gt;&lt;c2&gt;CppSourceSet&lt;/c2&gt;&lt;/a1&gt;定义了这些默认的位置，且可以扩展或重写这些默认值使能够成为不同的项目布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>While the build continued to work, developers were starting to notice all sorts of surprising (and surprisingly awful) bugs in production.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T055631Z" creationid="haohang" creationdate="20150721T055631Z">
@@ -38123,6 +38139,14 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>cpp {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T085519Z" creationid="haohang" creationdate="20160225T085519Z">
+        <seg>cpp {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>credentials {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053440Z" creationid="haohang" creationdate="20150909T053440Z">
@@ -41083,6 +41107,14 @@ tree = fileTree(dir: &lt;s17&gt;'src'&lt;/s17&gt;, include: &lt;s18&gt;'**/*.jav
 tree = fileTree(dir: &lt;s12&gt;'src'&lt;/s12&gt;, include: &lt;s13&gt;'**/*.java'&lt;/s13&gt;)
 tree = fileTree(dir: &lt;s14&gt;'src'&lt;/s14&gt;, includes: [&lt;s15&gt;'**/*.java'&lt;/s15&gt;, &lt;s16&gt;'**/*.xml'&lt;/s16&gt;])
 tree = fileTree(dir: &lt;s17&gt;'src'&lt;/s17&gt;, include: &lt;s18&gt;'**/*.java'&lt;/s18&gt;, exclude: &lt;s19&gt;'**/*test*/**'&lt;/s19&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include &lt;s1&gt;"**/*.cpp"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T085545Z" creationid="haohang" creationdate="20160225T085545Z">
+        <seg>include &lt;s1&gt;"**/*.cpp"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -45711,6 +45743,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>source {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T085523Z" creationid="haohang" creationdate="20160225T085523Z">
+        <seg>source {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>source { file(&lt;s6&gt;'src/test/'&lt;/s6&gt;).listFiles() }
 }</seg>
       </tuv>
@@ -45849,6 +45889,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144358Z" creationid="msdx" creationdate="20150428T144358Z">
         <seg>sourceSets.test.runtimeClasspath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sources {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T085517Z" creationid="haohang" creationdate="20160225T085517Z">
+        <seg>sources {</seg>
       </tuv>
     </tu>
     <tu>
@@ -45993,6 +46041,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T152620Z" creationid="msdx" creationdate="20150429T152620Z">
         <seg>src/test/scala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDir &lt;s0&gt;"src/source"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T085529Z" creationid="haohang" creationdate="20160225T085529Z">
+        <seg>srcDir &lt;s0&gt;"src/source"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
