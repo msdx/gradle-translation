@@ -16368,6 +16368,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a library named 'main', files in &lt;c0&gt;src/main/headers&lt;/c0&gt; are considered the “public” or “exported” headers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T085745Z" creationid="haohang" creationdate="20160225T085640Z">
+        <seg>对于名字为“main”的library， &lt;c0&gt;src/main/headers&lt;/c0&gt;中的文件都被视为"公共"或"导出"的头文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a new version, you have always to create the new XML descriptor and the directories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151130T051515Z" creationid="haohang" creationdate="20151130T051515Z">
@@ -18228,6 +18236,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091719Z" creationid="haohang" creationdate="20150801T091700Z">
         <seg>可以看一看 API 文档：&lt;a0&gt; &lt;c1&gt;ClientModule&lt;/c1&gt; &lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Header files that should not be exported (but are used internally) should be placed inside the &lt;c1&gt;src/main/cpp&lt;/c1&gt; directory (though be aware that such header files should always be referenced in a manner relative to the file including them).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T085731Z" creationid="haohang" creationdate="20160225T085731Z">
+        <seg>Header files that should not be exported (but are used internally) should be placed inside the &lt;c1&gt;src/main/cpp&lt;/c1&gt; directory (though be aware that such header files should always be referenced in a manner relative to the file including them).</seg>
       </tuv>
     </tu>
     <tu>
