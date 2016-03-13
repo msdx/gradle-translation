@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="3.5_1" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.5.3" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -1162,6 +1162,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T071554Z" creationid="haohang" creationdate="20150707T071554Z">
         <seg>../dsl/org.gradle.buildinit.tasks.InitBuild.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.language.assembler.AssemblerSourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160313T053832Z" creationid="95" creationdate="20160313T053832Z">
+        <seg>../dsl/org.gradle.language.assembler.AssemblerSourceSet.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -6244,6 +6252,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.4.3. Assembler sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160313T053703Z" creationid="95" creationdate="20160313T053625Z">
+        <seg>54.4.3. 汇编代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.4. Core language support: C, C++, Assembler, Objective-C and Objective-C++</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T081305Z" creationid="haohang" creationdate="20160219T081305Z">
@@ -10930,6 +10946,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assembler sources to be included in a native binary are provided via a &lt;a0&gt;&lt;c1&gt;AssemblerSourceSet&lt;/c1&gt;&lt;/a0&gt;, which defines a set of Assembler source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160313T053926Z" creationid="95" creationdate="20160313T053926Z">
+        <seg>把汇编源码包含到原生二进制文件中，是通过一个 &lt;a0&gt;&lt;c1&gt;AssemblerSourceSet&lt;/c1&gt;&lt;/a0&gt;来实现的，它定义了一个汇编源文件集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assembles all the archives in the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010236Z" creationid="Administrator" creationdate="20150426T010236Z">
@@ -11006,6 +11030,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T004702Z" creationid="Administrator" creationdate="20150426T004702Z">
         <seg>组装测试的类目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assembly language support is provided by means of the &lt;c0&gt;'assembler'&lt;/c0&gt; plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160313T053829Z" creationid="95" creationdate="20160313T053829Z">
+        <seg>&lt;c0&gt;“assembler”&lt;/c0&gt; 插件提供了汇编语言的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15884,6 +15916,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T090543Z" creationid="haohang" creationdate="20160225T090543Z">
         <seg>示例 54.4. C 源代码集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.7. The 'assembler' plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160313T053811Z" creationid="95" creationdate="20160313T053811Z">
+        <seg>示例 54.3. assembler 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -36323,6 +36363,14 @@ sonar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T094906Z" creationid="haohang" creationdate="20150625T094906Z">
         <seg>apply plugin: &lt;s0&gt;'antlr'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'assembler'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160313T053831Z" creationid="95" creationdate="20160313T053831Z">
+        <seg>apply plugin: &lt;s0&gt;'assembler'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
