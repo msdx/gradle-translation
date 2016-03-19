@@ -1198,6 +1198,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.language.objectivecpp.ObjectiveCppSourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115450Z" creationid="95" creationdate="20160319T115450Z">
+        <seg>../dsl/org.gradle.language.objectivecpp.ObjectiveCppSourceSet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.Executable.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160128T153603Z" creationid="95" creationdate="20160128T153603Z">
@@ -6276,10 +6284,26 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.4.5. Objective-C++ sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115355Z" creationid="95" creationdate="20160319T115355Z">
+        <seg>54.4.5. Objective-C++ 源码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.4. Core language support: C, C++, Assembler, Objective-C and Objective-C++</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T081305Z" creationid="haohang" creationdate="20160219T081305Z">
         <seg>544.核心语言支持: C、C++、汇编，Objective-C和Objective-C++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>54.5. Configuring the compiler, assembler and linker</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115547Z" creationid="95" creationdate="20160319T115547Z">
+        <seg>54.5. 配置编译器，汇编器和连接器</seg>
       </tuv>
     </tu>
     <tu>
@@ -11626,6 +11650,22 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, for any named component the &lt;a2&gt;&lt;c3&gt;ObjectiveCSourceSet&lt;/c3&gt;&lt;/a2&gt; contains &lt;c4&gt;.m&lt;/c4&gt; source files under &lt;c5&gt;src/${name}/objectiveC&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115342Z" creationid="95" creationdate="20160319T115342Z">
+        <seg>默认情况下，对于任何命名的组件，&lt;a2&gt;&lt;c3&gt;ObjectiveCSourceSet&lt;/c3&gt;&lt;/a2&gt;包含了在&lt;c5&gt;src/${name}/objectiveC&lt;/c5&gt;中的&lt;c4&gt;.m&lt;/c4&gt;源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, for any named component the &lt;a2&gt;&lt;c3&gt;ObjectiveCppSourceSet&lt;/c3&gt;&lt;/a2&gt; contains &lt;c4&gt;.mm&lt;/c4&gt; source files under &lt;c5&gt;src/${name}/objectiveCpp&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115520Z" creationid="95" creationdate="20160319T115520Z">
+        <seg>默认情况下，对于任何命名的组件，&lt;a2&gt;&lt;c3&gt;ObjectiveCppSourceSet&lt;/c3&gt;&lt;/a2&gt;包含了在&lt;c5&gt;src/${name}/objectiveCpp&lt;/c5&gt;中的&lt;c4&gt;.mm&lt;/c4&gt;源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, the Java compiler runs in the Gradle process.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135535Z" creationid="Administrator" creationdate="20150427T135535Z">
@@ -15956,6 +15996,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160319T115137Z" creationid="95" creationdate="20160319T115137Z">
         <seg>示例 54.8. “objective-c”插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.9. The 'objective-cpp' plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115442Z" creationid="95" creationdate="20160319T115442Z">
+        <seg>示例 54.9. “objective-cpp” 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -22173,6 +22221,30 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160319T115110Z" creationid="95" creationdate="20160319T115110Z">
         <seg>&lt;c0&gt;'objective-c'&lt;/c0&gt; 插件提供了Objective-C 语言的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Objective-C sources to be included in a native binary are provided via a &lt;a0&gt;&lt;c1&gt;ObjectiveCSourceSet&lt;/c1&gt;&lt;/a0&gt;, which defines a set of Objective-C source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115327Z" creationid="95" creationdate="20160319T115327Z">
+        <seg>把Objective-C源码包含到原生二进制文件中，是通过一个 &lt;a0&gt;&lt;c1&gt;ObjectiveCSourceSet&lt;/c1&gt;&lt;/a0&gt;来实现的，它定义了一个Objective-C源文件集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Objective-C++ language support is provided by means of the &lt;c0&gt;'objective-cpp'&lt;/c0&gt; plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115417Z" creationid="95" creationdate="20160319T115417Z">
+        <seg>&lt;c0&gt;'objective-cpp'&lt;/c0&gt; 插件提供了Objective-C++ 语言的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Objective-C++ sources to be included in a native binary are provided via a &lt;a0&gt;&lt;c1&gt;ObjectiveCppSourceSet&lt;/c1&gt;&lt;/a0&gt;, which defines a set of Objective-C++ source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115508Z" creationid="95" creationdate="20160319T115508Z">
+        <seg>把Objective-C++源码包含到原生二进制文件中，是通过一个 &lt;a0&gt;&lt;c1&gt;ObjectiveCppSourceSet&lt;/c1&gt;&lt;/a0&gt;来实现的，它定义了一个Objective-C++源文件集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36749,6 +36821,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160319T115138Z" creationid="95" creationdate="20160319T115138Z">
         <seg>apply plugin: &lt;s0&gt;'objective-c'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'objective-cpp'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115450Z" creationid="95" creationdate="20160319T115450Z">
+        <seg>apply plugin: &lt;s0&gt;'objective-cpp'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
