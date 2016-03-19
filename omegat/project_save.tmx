@@ -1190,6 +1190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.language.objectivec.ObjectiveCSourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115139Z" creationid="95" creationdate="20160319T115139Z">
+        <seg>../dsl/org.gradle.language.objectivec.ObjectiveCSourceSet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.Executable.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160128T153603Z" creationid="95" creationdate="20160128T153603Z">
@@ -6256,6 +6264,14 @@ someroot/[artifact]-[revision].[ext]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160313T053703Z" creationid="95" creationdate="20160313T053625Z">
         <seg>54.4.3. 汇编代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>54.4.4. Objective-C sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115055Z" creationid="95" creationdate="20160319T115055Z">
+        <seg>54.4.4. Objective-C 源码</seg>
       </tuv>
     </tu>
     <tu>
@@ -11586,6 +11602,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, for any named component the &lt;a2&gt;&lt;c3&gt;AssemblerSourceSet&lt;/c3&gt;&lt;/a2&gt; contains &lt;c4&gt;.s&lt;/c4&gt; source files under &lt;c5&gt;src/${name}/asm&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115045Z" creationid="95" creationdate="20160319T115045Z">
+        <seg>默认情况下，对于任何命名的组件，&lt;a2&gt;&lt;c3&gt;AssemblerSourceSet&lt;/c3&gt;&lt;/a2&gt;包含了在&lt;c5&gt;src/${name}/asm&lt;/c5&gt;中的&lt;c4&gt;.s&lt;/c4&gt;源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, for any named component the &lt;a2&gt;&lt;c3&gt;CSourceSet&lt;/c3&gt;&lt;/a2&gt; contains &lt;c4&gt;.c&lt;/c4&gt; source files in &lt;c5&gt;src/${name}/c&lt;/c5&gt;, and header files in &lt;c6&gt;src/${name}/headers&lt;/c6&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T090527Z" creationid="haohang" creationdate="20160225T090527Z">
@@ -15924,6 +15948,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160313T053811Z" creationid="95" creationdate="20160313T053811Z">
         <seg>示例 54.3. assembler 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.8. The 'objective-c' plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115137Z" creationid="95" creationdate="20160319T115137Z">
+        <seg>示例 54.8. “objective-c”插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -22133,6 +22165,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044436Z" creationid="msdx" creationdate="20141108T044436Z">
         <seg>Object</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Objective-C language support is provided by means of the &lt;c0&gt;'objective-c'&lt;/c0&gt; plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115110Z" creationid="95" creationdate="20160319T115110Z">
+        <seg>&lt;c0&gt;'objective-c'&lt;/c0&gt; 插件提供了Objective-C 语言的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36701,6 +36741,14 @@ uploadArchives {</seg>
         <seg>apply plugin: &lt;s0&gt;'maven'&lt;/s0&gt;
 
 uploadArchives {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'objective-c'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160319T115138Z" creationid="95" creationdate="20160319T115138Z">
+        <seg>apply plugin: &lt;s0&gt;'objective-c'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
