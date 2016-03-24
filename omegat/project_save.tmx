@@ -7906,6 +7906,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (toolChain in VisualCpp) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152624Z" creationid="95" creationdate="20160324T152624Z">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (toolChain in VisualCpp) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.tools.ant.filters.FixCrLfFilter
 &lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
 
@@ -16030,6 +16038,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T152304Z" creationid="95" creationdate="20160324T152304Z">
         <seg>示例 54.11. 应用于所有共享库的设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.12. Settings that apply to all binaries produced for the 'main' executable component</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152620Z" creationid="95" creationdate="20160324T152620Z">
+        <seg>示例 54.12. 应用于“main”可执行组件所产生的所有二进制文件的设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -28803,6 +28819,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The example above will apply the supplied configuration to all &lt;c0&gt;executable&lt;/c0&gt; binaries built.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152800Z" creationid="95" creationdate="20160324T152658Z">
+        <seg>上面的例子将会把提供的配置应用到所有构建的 &lt;c0&gt;executable&lt;/c0&gt;二进制文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The existing content is merged with the configuration inferred from the Gradle build or defined explicitly in the eclipse DSL</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T104725Z" creationid="haohang" creationdate="20150624T104604Z">
@@ -37283,6 +37307,22 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141209T073742Z" creationid="msdx" creationdate="20141209T073742Z">
         <seg>assembler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>assembler.args &lt;s1&gt;"/Zi"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152625Z" creationid="95" creationdate="20160324T152625Z">
+        <seg>assembler.args &lt;s1&gt;"/Zi"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>assembler.args &lt;s3&gt;"-g"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152626Z" creationid="95" creationdate="20160324T152626Z">
+        <seg>assembler.args &lt;s3&gt;"-g"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -48744,6 +48784,14 @@ task fooJar(type: Jar) {</seg>
         <seg>}
 }
 task fooJar(type: Jar) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>} &lt;s2&gt;else&lt;/s2&gt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152625Z" creationid="95" creationdate="20160324T152625Z">
+        <seg>} &lt;s2&gt;else&lt;/s2&gt; {</seg>
       </tuv>
     </tu>
     <tu>
