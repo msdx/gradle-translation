@@ -1254,6 +1254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.ToolChain.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151803Z" creationid="95" creationdate="20160324T151803Z">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.ToolChain.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.plugins.ear.Ear.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145510Z" creationid="msdx" creationdate="20141113T145510Z">
@@ -7428,6 +7436,14 @@ tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Define a preprocessor macro for every binary&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151754Z" creationid="95" creationdate="20160324T151754Z">
+        <seg>&lt;s0&gt;// Define a preprocessor macro for every binary&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
       </tuv>
@@ -8070,6 +8086,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Define toolchain-specific compiler and linker options&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151757Z" creationid="95" creationdate="20160324T151757Z">
+        <seg>&lt;s2&gt;// Define toolchain-specific compiler and linker options&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;// Look for artifacts here if not found at the above location&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053117Z" creationid="haohang" creationdate="20150909T053117Z">
@@ -8212,6 +8236,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075101Z" creationid="msdx" creationdate="20150429T074832Z">
         <seg>&lt;s3&gt;[&lt;a4&gt;11&lt;/a4&gt;]&lt;/s3&gt;这些目录不一定得存在或是里面包含有什么内容；Groovy 的插件只会进行编译，而不管它发现什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s3&gt;if&lt;/s3&gt; (toolChain in Gcc) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151758Z" creationid="95" creationdate="20160324T151758Z">
+        <seg>&lt;s3&gt;if&lt;/s3&gt; (toolChain in Gcc) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -8416,6 +8448,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130957Z" creationid="msdx" creationdate="20141113T130957Z">
         <seg>&lt;s8&gt;// Determine the destination directory later&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s8&gt;if&lt;/s8&gt; (toolChain in VisualCpp) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151800Z" creationid="95" creationdate="20160324T151800Z">
+        <seg>&lt;s8&gt;if&lt;/s8&gt; (toolChain in VisualCpp) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -13488,6 +13528,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each binary to be produced is associated with a set of compiler and linker settings, which include command-line arguments as well as macro definitions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151646Z" creationid="95" creationdate="20160324T151646Z">
+        <seg>每一个产生的二进制文件都和一系列的编译器和链接器设置相关联，这些设置包含了命令行参数，以及宏定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each closure has a &lt;c0&gt;delegate&lt;/c0&gt; object, which Groovy uses to look up variable and method references which are not local variables or parameters of the closure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065123Z" creationid="msdx" creationdate="20141108T063535Z">
@@ -15940,6 +15988,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065328Z" creationid="haohang" creationdate="20160219T065316Z">
         <seg>示例 54.1. 定义一个库组件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.10. Settings that apply to all binaries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151752Z" creationid="95" creationdate="20160324T151752Z">
+        <seg>示例 54.10. 应用于所有二进制文件的设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -30657,6 +30713,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These settings can be applied to all binaries, an individual binary, or selectively to a group of binaries based on some criteria.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151733Z" creationid="95" creationdate="20160324T151733Z">
+        <seg>这些设置可以应用于所有的二进制文件，单个二进制文件，或选择性地应用于基于某些条件的一组二进制文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These source files may include Java source files and resource files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T074210Z" creationid="Administrator" creationdate="20150425T074210Z">
@@ -37337,6 +37401,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>binaries.all {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151753Z" creationid="95" creationdate="20160324T151753Z">
+        <seg>binaries.all {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083226Z" creationid="msdx" creationdate="20150428T083226Z">
@@ -38423,6 +38495,30 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T085519Z" creationid="haohang" creationdate="20160225T085519Z">
         <seg>cpp {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cppCompiler.args &lt;s4&gt;"-O2"&lt;/s4&gt;, &lt;s5&gt;"-fno-access-control"&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151759Z" creationid="95" creationdate="20160324T151759Z">
+        <seg>cppCompiler.args &lt;s4&gt;"-O2"&lt;/s4&gt;, &lt;s5&gt;"-fno-access-control"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cppCompiler.args &lt;s9&gt;"/Zi"&lt;/s9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151801Z" creationid="95" creationdate="20160324T151801Z">
+        <seg>cppCompiler.args &lt;s9&gt;"/Zi"&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cppCompiler.define &lt;s1&gt;"NDEBUG"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151756Z" creationid="95" creationdate="20160324T151756Z">
+        <seg>cppCompiler.define &lt;s1&gt;"NDEBUG"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -42513,6 +42609,22 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T152814Z" creationid="95" creationdate="20160104T152814Z">
         <seg>licenses {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>linker.args &lt;s10&gt;"/DEBUG"&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151802Z" creationid="95" creationdate="20160324T151802Z">
+        <seg>linker.args &lt;s10&gt;"/DEBUG"&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>linker.args &lt;s6&gt;"-Xlinker"&lt;/s6&gt;, &lt;s7&gt;"-S"&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T151759Z" creationid="95" creationdate="20160324T151759Z">
+        <seg>linker.args &lt;s6&gt;"-Xlinker"&lt;/s6&gt;, &lt;s7&gt;"-S"&lt;/s7&gt;</seg>
       </tuv>
     </tu>
     <tu>
