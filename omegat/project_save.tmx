@@ -7444,6 +7444,16 @@ tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// For any shared library binaries built with Visual C++, define the DLL_EXPORT macro&lt;/s0&gt;
+binaries.withType(SharedLibraryBinary) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152305Z" creationid="95" creationdate="20160324T152305Z">
+        <seg>&lt;s0&gt;// For any shared library binaries built with Visual C++, define the DLL_EXPORT macro&lt;/s0&gt;
+binaries.withType(SharedLibraryBinary) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
       </tuv>
@@ -8034,6 +8044,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T064959Z" creationid="msdx" creationdate="20141111T064959Z">
         <seg>&lt;s1&gt;if&lt;/s1&gt; (taskName.startsWith(&lt;s2&gt;"ping"&lt;/s2&gt;)) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s1&gt;if&lt;/s1&gt; (toolChain in VisualCpp) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152307Z" creationid="95" creationdate="20160324T152307Z">
+        <seg>&lt;s1&gt;if&lt;/s1&gt; (toolChain in VisualCpp) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -13528,6 +13546,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each binary is associated with a particular &lt;a0&gt;&lt;c1&gt;ToolChain&lt;/c1&gt;&lt;/a0&gt;, allowing settings to be targeted based on this value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152216Z" creationid="95" creationdate="20160324T151850Z">
+        <seg>每个二进制文件与特定的&lt;a0&gt;&lt;c1&gt;ToolChain&lt;/c1&gt;&lt;/a0&gt;关联，允许设置基于此值进行针对性的配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each binary to be produced is associated with a set of compiler and linker settings, which include command-line arguments as well as macro definitions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T151646Z" creationid="95" creationdate="20160324T151646Z">
@@ -16000,6 +16026,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.11. Settings that apply to all shared libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152304Z" creationid="95" creationdate="20160324T152304Z">
+        <seg>示例 54.11. 应用于所有共享库的设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.2. Defining executable components</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065424Z" creationid="haohang" creationdate="20160219T065424Z">
@@ -17372,6 +17406,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T232652Z" creationid="haohang" creationdate="20150525T232652Z">
         <seg>此外，所有已配置到这一点的属性，包括通过 Gradle 预配置的所有属性，还可通过&lt;c2&gt;properties&lt;/c2&gt;访问器进行使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Furthermore, it is possible to specify settings that apply to all binaries produces for a particular &lt;c0&gt;executable&lt;/c0&gt; or &lt;c1&gt;library&lt;/c1&gt; component:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152504Z" creationid="95" creationdate="20160324T152310Z">
+        <seg>此外，还可以指定设置应用于某个特定的&lt;c0&gt;executable&lt;/c0&gt; 或 &lt;c1&gt;library&lt;/c1&gt; 组件 产生的所有二进制文件：</seg>
       </tuv>
     </tu>
     <tu>
@@ -20781,6 +20823,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T151403Z" creationid="msdx" creationdate="20150428T151403Z">
         <seg>它是懒执行的，不管是对于生成一个jar包，还是调用了 &lt;c4&gt;writeTo&lt;/c4&gt; 或者 &lt;c5&gt;effectiveManifest&lt;/c5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is easy to apply settings to all binaries of a particular type:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152252Z" creationid="95" creationdate="20160324T152252Z">
+        <seg>让设置应用于指定类型的所有二进制文件很简单：</seg>
       </tuv>
     </tu>
     <tu>
@@ -37597,6 +37647,22 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T090549Z" creationid="haohang" creationdate="20160225T090549Z">
         <seg>c {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cCompiler.args &lt;s2&gt;"/Zi"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152308Z" creationid="95" creationdate="20160324T152308Z">
+        <seg>cCompiler.args &lt;s2&gt;"/Zi"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cCompiler.define &lt;s3&gt;"DLL_EXPORT"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160324T152309Z" creationid="95" creationdate="20160324T152309Z">
+        <seg>cCompiler.define &lt;s3&gt;"DLL_EXPORT"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
