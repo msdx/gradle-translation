@@ -9388,6 +9388,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A common example is a native executable component that uses functions provided by a separate native library component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T032650Z" creationid="haohang" creationdate="20160325T032650Z">
+        <seg>一个常见的例子是一个本地可执行组件，使用了由一个单独的本地库组件提供的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A common usage pattern is to only sign build artifacts under certain conditions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160126T141141Z" creationid="95" creationdate="20160126T141141Z">
@@ -25007,6 +25015,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T145637Z" creationid="95" creationdate="20160106T145637Z">
         <seg>如果 Gradle 排除规则中group和module名字被指定的话（相比于Ivy，Maven对这两个都需要），这种转换是可能的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Such a library dependency can be easily provided to source set associated with the &lt;c0&gt;executable&lt;/c0&gt; component:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T032843Z" creationid="haohang" creationdate="20160325T032843Z">
+        <seg>这样的库依赖可以很方便地提供给source set关联上&lt;c0&gt;executable&lt;/c0&gt;组件。</seg>
       </tuv>
     </tu>
     <tu>
