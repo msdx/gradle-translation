@@ -6356,10 +6356,26 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.7.2. Project Dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033147Z" creationid="haohang" creationdate="20160325T033147Z">
+        <seg>54.7.2. 项目依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.7. Library Dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T025508Z" creationid="haohang" creationdate="20160325T025508Z">
         <seg>54.7. 库依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>54.8. Native Binary Variants</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033517Z" creationid="haohang" creationdate="20160325T033517Z">
+        <seg>54.8. 本地二进制变种</seg>
       </tuv>
     </tu>
     <tu>
@@ -7496,6 +7512,14 @@ tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T153107Z" creationid="95" creationdate="20160324T153107Z">
         <seg>&lt;s0&gt;// Define a preprocessor macro that only applies to shared libraries&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Each executable binary produced uses the 'hello' static library binary&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033131Z" creationid="haohang" creationdate="20160325T033131Z">
+        <seg>&lt;s0&gt;// Each executable binary produced uses the 'hello' static library binary&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10600,6 +10624,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T064333Z" creationid="msdx" creationdate="20150513T064333Z">
         <seg>或者，可以从命令行设置 Sonar 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alternatively, a library dependency can be provided directly to the &lt;c0&gt;ExecutableBinary&lt;/c0&gt; for the &lt;c1&gt;executable&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033113Z" creationid="haohang" creationdate="20160325T033028Z">
+        <seg>另外，一个库依赖项可以直接提供给&lt;c0&gt;ExecutableBinary&lt;/c0&gt;的&lt;c1&gt;executable&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16178,6 +16210,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.17. Providing a library dependency to the source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T032908Z" creationid="haohang" creationdate="20160325T032908Z">
+        <seg>示例 54.17. 向source set提供库依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.18. Providing a library dependency to the binary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033130Z" creationid="haohang" creationdate="20160325T033130Z">
+        <seg>示例 54.18. 向二进制文件提供库依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.19. Declaring project dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033426Z" creationid="haohang" creationdate="20160325T033426Z">
+        <seg>示例 54.19. 定义项目依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.2. Defining executable components</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065424Z" creationid="haohang" creationdate="20160219T065424Z">
@@ -16770,6 +16826,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a component produced in a different Gradle project, the notation is similar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033412Z" creationid="haohang" creationdate="20160325T033241Z">
+        <seg>对于在不同的 Gradle 项目产生的组件，notation是类似的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a dynamic version, a 'higher' static version is preferred over a 'lower' version.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151007T024026Z" creationid="95" creationdate="20151007T024026Z">
@@ -16894,6 +16958,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T081139Z" creationid="haohang" creationdate="20160219T072620Z">
         <seg>对于每个产生的可执行二进制文件， &lt;c0&gt;cpp&lt;/c0&gt;插件提供了&lt;c1&gt;install${binary.name}&lt;/c1&gt;任务，这个任务可以创建该可执行文件及它需要的共享库的开发安装。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For each executable or library defined, Gradle is able to build a number of different native binary variants.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033520Z" creationid="haohang" creationdate="20160325T033520Z">
+        <seg>For each executable or library defined, Gradle is able to build a number of different native binary variants.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37227,6 +37299,22 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s1&gt;"cpp"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033432Z" creationid="haohang" creationdate="20160325T033432Z">
+        <seg>apply plugin: &lt;s1&gt;"cpp"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s3&gt;"cpp"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033440Z" creationid="haohang" creationdate="20160325T033440Z">
+        <seg>apply plugin: &lt;s3&gt;"cpp"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: JavaPlugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162533Z" creationid="msdx" creationdate="20141122T162533Z">
@@ -42895,6 +42983,30 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>lib libraries.hello</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T032909Z" creationid="haohang" creationdate="20160325T032909Z">
+        <seg>lib libraries.hello</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>lib libraries.hello.&lt;s1&gt;static&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033132Z" creationid="haohang" creationdate="20160325T033132Z">
+        <seg>lib libraries.hello.&lt;s1&gt;static&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>lib project: &lt;s4&gt;':lib'&lt;/s4&gt;, library: &lt;s5&gt;'main'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033442Z" creationid="haohang" creationdate="20160325T033442Z">
+        <seg>lib project: &lt;s4&gt;':lib'&lt;/s4&gt;, library: &lt;s5&gt;'main'&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>libDirName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141507Z" creationid="msdx" creationdate="20150504T141507Z">
@@ -43121,6 +43233,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T050712Z" creationid="msdx" creationdate="20141108T050712Z">
         <seg>main {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>main {}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033434Z" creationid="haohang" creationdate="20160325T033434Z">
+        <seg>main {}</seg>
       </tuv>
     </tu>
     <tu>
@@ -44961,6 +45081,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143855Z" creationid="msdx" creationdate="20150510T143855Z">
         <seg>project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project(&lt;s0&gt;":lib"&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033426Z" creationid="haohang" creationdate="20160325T033426Z">
+        <seg>project(&lt;s0&gt;":lib"&lt;/s0&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -48918,6 +49046,20 @@ def findDefaultVersionInCatalog(String group, String name) {</seg>
 }
 
 def findDefaultVersionInCatalog(String group, String name) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+project(&lt;s2&gt;":exe"&lt;/s2&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033436Z" creationid="haohang" creationdate="20160325T033436Z">
+        <seg>}
+}
+
+project(&lt;s2&gt;":exe"&lt;/s2&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
