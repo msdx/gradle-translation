@@ -11062,8 +11062,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>As with other source types, you can configure the location of the windows resources that should in included in the binary.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T020631Z" creationid="haohang" creationdate="20160325T020631Z">
-        <seg>As with other source types, you can configure the location of the windows resources that should in included in the binary.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T020936Z" creationid="haohang" creationdate="20160325T020631Z">
+        <seg>与其他源文件类型一样，您可以配置把windows 资源的位置包含进二进制文件中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16110,6 +16110,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T153249Z" creationid="95" creationdate="20160324T153249Z">
         <seg>示例 54.14. 'windows-resources' 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.15. Configuring the location of Windows resource sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T020926Z" creationid="haohang" creationdate="20160325T020926Z">
+        <seg>示例 54.15. 配置 Windows 资源源文件的位置</seg>
       </tuv>
     </tu>
     <tu>
@@ -37643,6 +37651,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>build-resource-only-dll.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T020937Z" creationid="haohang" creationdate="20160325T020937Z">
+        <seg>build-resource-only-dll.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>build.gradle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065503Z" creationid="msdx" creationdate="20141030T065503Z">
@@ -41029,6 +41045,14 @@ systemProp.system=systemValue</seg>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065322Z" creationid="haohang" creationdate="20160219T065322Z">
         <seg>hello {}
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>helloRes {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T020938Z" creationid="haohang" creationdate="20160325T020938Z">
+        <seg>helloRes {</seg>
       </tuv>
     </tu>
     <tu>
@@ -45237,6 +45261,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>rc {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T020938Z" creationid="haohang" creationdate="20160325T020938Z">
+        <seg>rc {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>releases</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T141908Z" creationid="95" creationdate="20160105T141908Z">
@@ -46739,6 +46771,22 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083442Z" creationid="msdx" creationdate="20150428T083442Z">
         <seg>srcDirs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDirs &lt;s0&gt;"src/hello/rc"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T020939Z" creationid="haohang" creationdate="20160325T020939Z">
+        <seg>srcDirs &lt;s0&gt;"src/hello/rc"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDirs &lt;s1&gt;"src/hello/headers"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T020940Z" creationid="haohang" creationdate="20160325T020940Z">
+        <seg>srcDirs &lt;s1&gt;"src/hello/headers"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
