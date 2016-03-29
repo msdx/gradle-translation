@@ -38,4 +38,4 @@ Gradle 翻译
 
 由于使用了计算机辅助翻译软件，有翻译记忆库，更新版本的翻译效率会提高很多。
 
-每一个章节翻译完毕，将整合到双语版的 Gradle 翻译项目(https://github.com/msdx/gradledoc)当中。
+每一个章节翻译完毕，将整合到双语版的 Gradle 翻译项目[https://github.com/msdx/gradledoc](https://github.com/msdx/gradledoc)当中。
