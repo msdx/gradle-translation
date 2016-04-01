@@ -6372,6 +6372,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.8.1. Build types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090003Z" creationid="haohang" creationdate="20160401T090003Z">
+        <seg>54.8.1. 构建类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.8. Native Binary Variants</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033517Z" creationid="haohang" creationdate="20160325T033517Z">
@@ -7986,6 +7994,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (toolChain in Gcc &amp;&amp; buildType == buildTypes.debug) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090611Z" creationid="haohang" creationdate="20160401T090611Z">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (toolChain in Gcc &amp;&amp; buildType == buildTypes.debug) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;if&lt;/s0&gt; (toolChain in VisualCpp) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T152624Z" creationid="95" creationdate="20160324T152624Z">
@@ -9328,6 +9344,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064559Z" creationid="haohang" creationdate="20150625T064559Z">
         <seg>一个&lt;a0&gt;完全覆盖&lt;/a0&gt;会导致现有的所有内容被丢弃，从而丢失在 IDE 中直接做的任何修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;c0&gt;build type&lt;/c0&gt; determines various non-functional aspects of a binary, such as whether debug information is included, or what optimisation level the binary is compiled with.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090147Z" creationid="haohang" creationdate="20160401T090147Z">
+        <seg>一个 &lt;c0&gt;build type&lt;/c0&gt; 确定了一个二进制文件的各种非功能性方面，比如是否包含调试信息，或者使用什么样的优化级别来编译二进制文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16258,6 +16282,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.20. Defining build types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090255Z" creationid="haohang" creationdate="20160401T090255Z">
+        <seg>示例 54.20. 定义构建类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.21. Configuring debug binaries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090609Z" creationid="haohang" creationdate="20160401T090609Z">
+        <seg>示例 54.21. 配置debug二进制文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.3. The 'cpp' plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082843Z" creationid="haohang" creationdate="20160219T082843Z">
@@ -16826,6 +16866,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a build type, a Gradle project will typically define a set of compiler/linker flags per tool chain.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090549Z" creationid="haohang" creationdate="20160401T090549Z">
+        <seg>对于一个构建类型，Gradle project 通常会定义一组每个工具链的编译器/链接器标志。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a complete list of standard Sonar properties, consult the &lt;a0&gt;Sonar documentation&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T064254Z" creationid="msdx" creationdate="20150513T063400Z">
@@ -17134,6 +17182,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161640Z" creationid="msdx" creationdate="20141112T161640Z">
         <seg>例如，文件树可能表示一个目录树或 ZIP 文件的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, a plugin may define a range of support platforms, but you may choose to only target Windows-x86 for a particular component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T085955Z" creationid="haohang" creationdate="20160401T085955Z">
+        <seg>例如，一个插件可以定义一系列的支持平台，但你可以选择某个特定组件只构建Windows-x86平台。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19350,6 +19406,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052837Z" creationid="haohang" creationdate="20150909T052837Z">
         <seg>如果没有&lt;c9&gt;settings.xml&lt;/c9&gt;可用，Gradle 将使用默认的位置&lt;c10&gt;&lt;e11&gt;&lt;c12&gt;USER_HOME&lt;/c12&gt;&lt;/e11&gt;/.m2/repository&lt;/c10&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no build types are defined in a project, then a single, default build type called 'debug' is added.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090421Z" creationid="haohang" creationdate="20160401T090315Z">
+        <seg>如果在project中没有定义任何构建类型，那么会有一个默认的“debug”构建类型被加进去。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33467,6 +33531,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Typical build types are 'debug' and 'release', but a project is free to define any set of build types.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090243Z" creationid="haohang" creationdate="20160401T090243Z">
+        <seg>典型的构建类型是“debug”和“release”，但一个project可以自由定义任意的构建类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Typically (but not necessarily) this will be the root project of the Gradle build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T152401Z" creationid="msdx" creationdate="20150514T152401Z">
@@ -37939,6 +38011,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>buildTypes {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090259Z" creationid="haohang" creationdate="20160401T090259Z">
+        <seg>buildTypes {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>build_announcements_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104802Z" creationid="msdx" creationdate="20150428T104802Z">
@@ -38941,6 +39021,14 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>cppCompiler.args &lt;s1&gt;"-g"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090612Z" creationid="haohang" creationdate="20160401T090612Z">
+        <seg>cppCompiler.args &lt;s1&gt;"-g"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>cppCompiler.args &lt;s4&gt;"-O2"&lt;/s4&gt;, &lt;s5&gt;"-fno-access-control"&lt;/s5&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T151759Z" creationid="95" creationdate="20160324T151759Z">
@@ -39075,6 +39163,14 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053935Z" creationid="msdx" creationdate="20150513T053935Z">
         <seg>database.username</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090301Z" creationid="haohang" creationdate="20160401T090301Z">
+        <seg>debug</seg>
       </tuv>
     </tu>
     <tu>
@@ -43473,6 +43569,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>model {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090258Z" creationid="haohang" creationdate="20160401T090258Z">
+        <seg>model {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>module(&lt;s5&gt;'org.apache.ant:ant:1.9.3'&lt;/s5&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T080913Z" creationid="msdx" creationdate="20150429T080913Z">
@@ -45553,6 +45657,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T023107Z" creationid="haohang" creationdate="20160325T023107Z">
         <seg>rcCompiler.args &lt;s0&gt;"/v"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>release</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090303Z" creationid="haohang" creationdate="20160401T090303Z">
+        <seg>release</seg>
       </tuv>
     </tu>
     <tu>
