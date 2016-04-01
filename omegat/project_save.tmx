@@ -8300,6 +8300,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (toolChain in VisualCpp &amp;&amp; buildType == buildTypes.debug) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090618Z" creationid="haohang" creationdate="20160401T090618Z">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (toolChain in VisualCpp &amp;&amp; buildType == buildTypes.debug) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;if&lt;/s2&gt; (true) { &lt;s3&gt;throw&lt;/s3&gt; &lt;s4&gt;new&lt;/s4&gt; StopExecutionException() }
 }
 task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
@@ -11320,6 +11328,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T052427Z" creationid="msdx" creationdate="20141120T052427Z">
         <seg>目前的内存上的默认设置很大方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At this stage, it is completely up to the build script to configure the relevant compiler/linker flags for each build type.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090808Z" creationid="haohang" creationdate="20160401T090655Z">
+        <seg>在这个阶段，它就完全符合构建脚本来为每个构建类型配置相关的编译器/链接器标志。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39029,6 +39045,14 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>cppCompiler.args &lt;s3&gt;'/Zi'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090620Z" creationid="haohang" creationdate="20160401T090620Z">
+        <seg>cppCompiler.args &lt;s3&gt;'/Zi'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>cppCompiler.args &lt;s4&gt;"-O2"&lt;/s4&gt;, &lt;s5&gt;"-fno-access-control"&lt;/s5&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T151759Z" creationid="95" creationdate="20160324T151759Z">
@@ -39057,6 +39081,14 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T151756Z" creationid="95" creationdate="20160324T151756Z">
         <seg>cppCompiler.define &lt;s1&gt;"NDEBUG"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cppCompiler.define &lt;s4&gt;'DEBUG'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090621Z" creationid="haohang" creationdate="20160401T090621Z">
+        <seg>cppCompiler.define &lt;s4&gt;'DEBUG'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -43203,6 +43235,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T023108Z" creationid="haohang" creationdate="20160325T023108Z">
         <seg>linker.args &lt;s1&gt;"/noentry"&lt;/s1&gt;, &lt;s2&gt;"/machine:x86"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>linker.args &lt;s5&gt;'/DEBUG'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090626Z" creationid="haohang" creationdate="20160401T090626Z">
+        <seg>linker.args &lt;s5&gt;'/DEBUG'&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
