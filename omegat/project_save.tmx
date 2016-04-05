@@ -16346,6 +16346,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.22. Defining platforms</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034019Z" creationid="haohang" creationdate="20160405T034019Z">
+        <seg>示例 54.22. 定义platform</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.3. The 'cpp' plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082843Z" creationid="haohang" creationdate="20160219T082843Z">
@@ -16950,6 +16958,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151007T024026Z" creationid="95" creationdate="20151007T024026Z">
         <seg>对于动态版本，“高”的静态版本优于“低”的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a given variant, Gradle will attempt to find a &lt;a0&gt;&lt;c1&gt;ToolChain&lt;/c1&gt;&lt;/a0&gt; that is able to build for the target platform.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034137Z" creationid="haohang" creationdate="20160405T034137Z">
+        <seg>对于给定的变种，Gradle 将尝试查找能够构建目标平台的&lt;a0&gt;&lt;c1&gt;ToolChain&lt;/c1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25071,6 +25087,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T024624Z" creationid="haohang" creationdate="20150525T235020Z">
         <seg>sonarRunner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sophisticated builds may use the extensibility of Gradle to apply additional attributes to each platform, which can then be queried to specify particular includes, preprocessor macros or compiler arguments for a native binary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034011Z" creationid="haohang" creationdate="20160405T034011Z">
+        <seg>复杂的构建，可能使用 Gradle 的扩展性来把附加属性应用到每个platform中，然后可以查询为一个本地二进制包含了哪些特别指定的预处理器或者是编译器参数。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37529,6 +37553,30 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>architecture &lt;s1&gt;"x86"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034024Z" creationid="haohang" creationdate="20160405T034024Z">
+        <seg>architecture &lt;s1&gt;"x86"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>architecture &lt;s3&gt;"x86_64"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034031Z" creationid="haohang" creationdate="20160405T034031Z">
+        <seg>architecture &lt;s3&gt;"x86_64"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>architecture &lt;s4&gt;"ia-64"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034032Z" creationid="haohang" creationdate="20160405T034032Z">
+        <seg>architecture &lt;s4&gt;"ia-64"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155819Z" creationid="msdx" creationdate="20141113T155819Z">
@@ -42665,6 +42713,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>itanium {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034031Z" creationid="haohang" creationdate="20160405T034031Z">
+        <seg>itanium {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ivy &lt;s4&gt;"ivy-files/[organisation]/[module]/[revision]/ivy.xml"&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T111348Z" creationid="95" creationdate="20151006T111348Z">
@@ -43973,6 +44029,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>nativeBinaries.html#native_binaries:tool_chain</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034034Z" creationid="haohang" creationdate="20160405T034034Z">
+        <seg>nativeBinaries.html#native_binaries:tool_chain</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>no logging options</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T102909Z" creationid="msdx" creationdate="20141116T102909Z">
@@ -44339,6 +44403,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011228Z" creationid="msdx" creationdate="20141116T011228Z">
         <seg>path.list().each {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>platforms {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034022Z" creationid="haohang" creationdate="20160405T034022Z">
+        <seg>platforms {</seg>
       </tuv>
     </tu>
     <tu>
@@ -49224,6 +49296,22 @@ signing {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T164840Z" creationid="msdx" creationdate="20141109T164840Z">
         <seg>writing_build_scripts.html#sec:project_api</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x6&lt;s2&gt;4&lt;/s2&gt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034025Z" creationid="haohang" creationdate="20160405T034025Z">
+        <seg>x6&lt;s2&gt;4&lt;/s2&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x8&lt;s0&gt;6&lt;/s0&gt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034023Z" creationid="haohang" creationdate="20160405T034023Z">
+        <seg>x8&lt;s0&gt;6&lt;/s0&gt; {</seg>
       </tuv>
     </tu>
     <tu>
