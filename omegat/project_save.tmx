@@ -6404,6 +6404,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.8.4. Selecting the build types, platforms and flavors for a component</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081619Z" creationid="haohang" creationdate="20160408T081619Z">
+        <seg>54.8.4. 为一个组件选择构建类型，平台和flavor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.8. Native Binary Variants</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033517Z" creationid="haohang" creationdate="20160325T033517Z">
@@ -8014,6 +8022,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T070652Z" creationid="95" creationdate="20151115T070652Z">
         <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.version == &lt;s1&gt;'default'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (flavor == flavors.french) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081120Z" creationid="haohang" creationdate="20160408T081120Z">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (flavor == flavors.french) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -10792,6 +10808,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T035208Z" creationid="haohang" creationdate="20150731T034643Z">
         <seg>一个 artifact only notation 创建了一个模块依赖，它只下载指定扩展名的 artifact 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An example of component flavors might differentiate between 'demo', 'paid' and 'enterprise' editions of the component, where the same set of sources is used to produce binaries with different functions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081101Z" creationid="haohang" creationdate="20160408T081101Z">
+        <seg>一个关于组件flavor的例子是可以区分组件的“demo”，“paid”和“enterprise”版本，它们都用同样的源码来生成不同功能的二进制文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16378,6 +16402,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.23. Defining flavors</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081109Z" creationid="haohang" creationdate="20160408T081109Z">
+        <seg>示例 54.23. 定义flavors</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.3. The 'cpp' plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082843Z" creationid="haohang" creationdate="20160219T082843Z">
@@ -16974,6 +17006,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033412Z" creationid="haohang" creationdate="20160325T033241Z">
         <seg>对于在不同的 Gradle 项目产生的组件，notation是类似的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a default component, Gradle will attempt to create a native binary variant for each and every combination of &lt;c0&gt;buildType&lt;/c0&gt;, &lt;c1&gt;platform&lt;/c1&gt; and &lt;c2&gt;flavor&lt;/c2&gt; defined for the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081752Z" creationid="haohang" creationdate="20160408T081752Z">
+        <seg>对于一个默认的组件， Gradle会尝试为这个project所定义的每一个&lt;c0&gt;buildType&lt;/c0&gt;， &lt;c1&gt;platform&lt;/c1&gt; 和 &lt;c2&gt;flavor&lt;/c2&gt;，以及它们的每一种组合，创建一个本地二进制变种。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19522,6 +19562,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no flavor is defined for a component, then a single default flavor named 'default' is used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081540Z" creationid="haohang" creationdate="20160408T081540Z">
+        <seg>如果一个组件没有定义任何的flavor，那么会使用一个默认的“default”的flavor。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no module descriptor is found, Gradle will search for the presence of the primary &lt;s4&gt;&lt;e5&gt;module artifact&lt;/e5&gt;&lt;/s4&gt; file indicating that the module exists in the repository.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151007T023518Z" creationid="95" creationdate="20151007T023518Z">
@@ -20671,6 +20719,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T041717Z" creationid="haohang" creationdate="20150807T041717Z">
         <seg>在上面的例子中 &lt;c0&gt;orca&lt;/c0&gt; 依赖 &lt;c1&gt;seal-1.0&lt;/c1&gt; 而 &lt;c2&gt;shark&lt;/c2&gt; 依赖于 &lt;c3&gt;seal-2.0&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the example above, a library is defined with a 'english' and 'french' flavor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081321Z" creationid="haohang" creationdate="20160408T081202Z">
+        <seg>在上面的示例中，library 定义了“english”和“french”两个flavor。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34459,6 +34515,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When compiling the 'french' variant, a separate macro is defined which leads to a different binary being produced.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081513Z" creationid="haohang" creationdate="20160408T081213Z">
+        <seg>当编译“french”变种时，会定义一个单独的宏，以产生不同的二进制文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When configured, Gradle will run in incubating parallel mode.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T053823Z" creationid="msdx" creationdate="20141120T053823Z">
@@ -39229,6 +39293,14 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>cppCompiler.define &lt;s1&gt;"FRENCH"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081121Z" creationid="haohang" creationdate="20160408T081121Z">
+        <seg>cppCompiler.define &lt;s1&gt;"FRENCH"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>cppCompiler.define &lt;s1&gt;"NDEBUG"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T151756Z" creationid="95" creationdate="20160324T151756Z">
@@ -40529,6 +40601,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>english</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081114Z" creationid="haohang" creationdate="20160408T081114Z">
+        <seg>english</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>exclude &lt;s1&gt;'**/*staging*'&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143852Z" creationid="msdx" creationdate="20141113T143852Z">
@@ -40865,6 +40945,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>flavors {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081113Z" creationid="haohang" creationdate="20160408T081113Z">
+        <seg>flavors {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>forceAnalysis</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053936Z" creationid="msdx" creationdate="20150513T053936Z">
@@ -40877,6 +40965,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060634Z" creationid="msdx" creationdate="20141116T060634Z">
         <seg>formatter(type: &lt;s5&gt;'text'&lt;/s5&gt;, toConsole: &lt;s6&gt;'true'&lt;/s6&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>french</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081115Z" creationid="haohang" creationdate="20160408T081115Z">
+        <seg>french</seg>
       </tuv>
     </tu>
     <tu>
@@ -47033,6 +47129,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>source sources.lib</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081123Z" creationid="haohang" creationdate="20160408T081123Z">
+        <seg>source sources.lib</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>source {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T085523Z" creationid="haohang" creationdate="20160225T085523Z">
@@ -49438,6 +49542,20 @@ def findDefaultVersionInCatalog(String group, String name) {</seg>
 }
 
 def findDefaultVersionInCatalog(String group, String name) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+libraries {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T081117Z" creationid="haohang" creationdate="20160408T081117Z">
+        <seg>}
+}
+
+libraries {</seg>
       </tuv>
     </tu>
     <tu>
