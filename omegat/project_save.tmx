@@ -19298,6 +19298,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, in many cases it is not possible to build a particular variant, perhaps because no tool chain is available to build for a particular platform.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084330Z" creationid="haohang" creationdate="20160408T084330Z">
+        <seg>然而，在许多情况下是不可能构建一个特定的变种的，可能的原因是某个特定的平台没有可用的工具链。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, it will print a warning.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065349Z" creationid="msdx" creationdate="20141108T065349Z">
@@ -19502,6 +19510,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T154635Z" creationid="msdx" creationdate="20150430T154635Z">
         <seg>如果在&lt;c1&gt;classpath&lt;/c1&gt;中找到&lt;c0&gt;scala-library&lt;/c0&gt; Jar ，并且该项目已经在至少一个仓库中声明了它，那么相应的&lt;c2&gt;scala-compiler&lt;/c2&gt;的仓库依赖将添加到&lt;c3&gt;scalaClasspath&lt;/c3&gt;中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a binary variant cannot be built for any reason, then the &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; associated with that variant will not be &lt;c2&gt;buildable&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084443Z" creationid="haohang" creationdate="20160408T084443Z">
+        <seg>如果一个二进制变种因为某些原因不能构建，那么与之关联的&lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt;将不会是&lt;c2&gt;buildable&lt;/c2&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -34543,6 +34559,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T035654Z" creationid="haohang" creationdate="20150716T035028Z">
         <seg>当一个构建的依赖树变得笨拙时，你的构建工具不应该强迫你对依赖管理采取单一、不灵活的做法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a set of build types, target platforms, and flavors is defined for a component, a &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; model element is created for every possible combination of these.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084240Z" creationid="haohang" creationdate="20160408T084240Z">
+        <seg>当为一个组件定义了一组构建类型，目标平台，以及flavor时，将会为它们的每一种可能的组合创建一个&lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; 模型元素。</seg>
       </tuv>
     </tu>
     <tu>
