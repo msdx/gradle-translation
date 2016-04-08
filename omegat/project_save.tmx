@@ -17274,6 +17274,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a multi-project build, all projects with native components should have this plugin applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095147Z" creationid="haohang" creationdate="20160408T095147Z">
+        <seg>对于多项目构建，所有带有本地组件的project都应该应用这个插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a new version, you have always to create the new XML descriptor and the directories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151130T051515Z" creationid="haohang" creationdate="20151130T051515Z">
@@ -32963,6 +32971,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This task will generate a Visual Studio Solution file for the named component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095306Z" creationid="haohang" creationdate="20160408T095306Z">
+        <seg>这个任务会为所命名的组件生成一个 Visual Studio Solution 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This type is used when no type was explicitly specified, and no type could be inferred.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T095112Z" creationid="haohang" creationdate="20150707T095112Z">
@@ -35063,6 +35079,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160126T144455Z" creationid="95" creationdate="20160126T143830Z">
         <seg>当通过 Signing DSL指定什么要被签名的时候，生成的signature会自动地加入到 &lt;c0&gt;signatures&lt;/c0&gt; 和 &lt;c1&gt;archives&lt;/c1&gt; 的依赖配置中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the &lt;c0&gt;visual-studio&lt;/c0&gt; plugin is applied, a task name &lt;c1&gt;${component.name}VisualStudio&lt;/c1&gt; is created for each defined component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095242Z" creationid="haohang" creationdate="20160408T095242Z">
+        <seg>当应用 &lt;c0&gt;visual-studio&lt;/c0&gt; 插件后，会为每一个定义的组件创建一个名为 &lt;c1&gt;${component.name}VisualStudio&lt;/c1&gt; 的任务。</seg>
       </tuv>
     </tu>
     <tu>
