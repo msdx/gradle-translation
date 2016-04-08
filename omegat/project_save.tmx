@@ -1174,6 +1174,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.ide.visualstudio.VisualStudioExtension.html#org.gradle.ide.visualstudio.VisualStudioExtension:projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095432Z" creationid="haohang" creationdate="20160408T095432Z">
+        <seg>../dsl/org.gradle.ide.visualstudio.VisualStudioExtension.html#org.gradle.ide.visualstudio.VisualStudioExtension:projects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.ide.visualstudio.VisualStudioExtension.html#org.gradle.ide.visualstudio.VisualStudioExtension:solutions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095432Z" creationid="haohang" creationdate="20160408T095432Z">
+        <seg>../dsl/org.gradle.ide.visualstudio.VisualStudioExtension.html#org.gradle.ide.visualstudio.VisualStudioExtension:solutions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.language.assembler.AssemblerSourceSet.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160313T053832Z" creationid="95" creationdate="20160313T053832Z">
@@ -6336,6 +6352,14 @@ someroot/[artifact]-[revision].[ext]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T094807Z" creationid="haohang" creationdate="20160408T094807Z">
         <seg>54.10. Visual Studio IDE 集成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>54.11. CUnit support</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095635Z" creationid="haohang" creationdate="20160408T095635Z">
+        <seg>54.11. CUnit 支持</seg>
       </tuv>
     </tu>
     <tu>
@@ -26691,6 +26715,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Take a look at the 'visual-studio' sample, or see &lt;a1&gt;&lt;c2&gt;VisualStudioExtension.getProjects()&lt;/c2&gt;&lt;/a1&gt; and &lt;a3&gt;&lt;c4&gt;VisualStudioExtension.getSolutions()&lt;/c4&gt;&lt;/a3&gt; for more details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095630Z" creationid="haohang" creationdate="20160408T095630Z">
+        <seg>更详细的信息，可以参考“visual-studio”例子，或者参阅 &lt;a1&gt;&lt;c2&gt;VisualStudioExtension.getProjects()&lt;/c2&gt;&lt;/a1&gt; 及 &lt;a3&gt;&lt;c4&gt;VisualStudioExtension.getSolutions()&lt;/c4&gt;&lt;/a3&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tar</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T030853Z" creationid="haohang" creationdate="20150701T030853Z">
@@ -29287,6 +29319,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T135045Z" creationid="95" creationdate="20160105T135045Z">
         <seg>这个配置通过一个 Groovy builder 来完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The content of the generated visual studio files can be modified via programmatic hooks, provided by the &lt;c0&gt;visualStudio&lt;/c0&gt; extension.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095540Z" creationid="haohang" creationdate="20160408T095540Z">
+        <seg>通过由&lt;c0&gt;visualStudio&lt;/c0&gt; 提供的编程hook，可以修改所生成的visual studio文件的内容， </seg>
       </tuv>
     </tu>
     <tu>
@@ -32935,6 +32975,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T063348Z" creationid="msdx" creationdate="20141111T063348Z">
         <seg>该快照包含输出文件集和每个文件的内容的哈希值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This solution will include a Visual Studio Project for that component, as well as linking to project files for each depended-on binary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095430Z" creationid="haohang" creationdate="20160408T095430Z">
+        <seg>这个方案包含了一个该组件的 Visual Studio Project ，并且为每一个依赖的二进制文件链接到项目文件中。</seg>
       </tuv>
     </tu>
     <tu>
