@@ -6452,6 +6452,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.9. Tool chains</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084725Z" creationid="haohang" creationdate="20160408T084725Z">
+        <seg>54.9. 工具链</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -16458,6 +16466,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.25. Building all possible variants</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084718Z" creationid="haohang" creationdate="20160408T084718Z">
+        <seg>示例 54.25. 构建所有可能的变种</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.3. The 'cpp' plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082843Z" creationid="haohang" creationdate="20160219T082843Z">
@@ -19516,8 +19532,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If a binary variant cannot be built for any reason, then the &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; associated with that variant will not be &lt;c2&gt;buildable&lt;/c2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084443Z" creationid="haohang" creationdate="20160408T084443Z">
-        <seg>如果一个二进制变种因为某些原因不能构建，那么与之关联的&lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt;将不会是&lt;c2&gt;buildable&lt;/c2&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084701Z" creationid="haohang" creationdate="20160408T084443Z">
+        <seg>如果一个二进制变种因为某些原因不能构建，那么与之关联的&lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt;将不会是&lt;c2&gt;buildable&lt;/c2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21495,6 +21511,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T082910Z" creationid="haohang" creationdate="20160408T082910Z">
         <seg>通过指定的 &lt;c3&gt;targetBuildTypes&lt;/c3&gt;， &lt;c4&gt;targetPlatforms&lt;/c4&gt; 或 &lt;c5&gt;targetFlavors&lt;/c5&gt;，是可以在每一个组件的基础上进行重写的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is possible to use this property to create a task to generate all possible variants on a particular machine.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084645Z" creationid="haohang" creationdate="20160408T084645Z">
+        <seg>可以用这个属性来创建一个任务，生成在某一特定计算机上所有可能的变种。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39951,6 +39975,14 @@ artifacts {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependsOn binaries.withType(ExecutableBinary).matching {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084719Z" creationid="haohang" creationdate="20160408T084719Z">
+        <seg>dependsOn binaries.withType(ExecutableBinary).matching {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependsOn pingServer1, pingServer2
 }</seg>
       </tuv>
@@ -42933,6 +42965,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161842Z" creationid="msdx" creationdate="20141109T161842Z">
         <seg>introduction.html#N10048</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>it.buildable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084720Z" creationid="haohang" creationdate="20160408T084720Z">
+        <seg>it.buildable</seg>
       </tuv>
     </tu>
     <tu>
@@ -47819,6 +47859,14 @@ systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145615Z" creationid="msdx" creationdate="20150428T145615Z">
         <seg>task barJar(type: Jar) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task buildAllExecutables {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084718Z" creationid="haohang" creationdate="20160408T084718Z">
+        <seg>task buildAllExecutables {</seg>
       </tuv>
     </tu>
     <tu>
