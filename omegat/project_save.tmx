@@ -494,6 +494,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(The Cygwin runtime is not yet modelled as part of the Platform, but will be in the future.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092524Z" creationid="haohang" creationdate="20160408T092404Z">
+        <seg>（Cywgin运行时还不能模拟为Platform的一部分，但以后将会实现。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T102847Z" creationid="haohang" creationdate="20150722T102847Z">
@@ -11196,6 +11204,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Architectures</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092148Z" creationid="haohang" creationdate="20160408T092132Z">
+        <seg>架构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Archives are created using the various archive tasks: &lt;a0&gt;&lt;c1&gt;Zip&lt;/c1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;c3&gt;Tar&lt;/c3&gt;&lt;/a2&gt;, &lt;a4&gt;&lt;c5&gt;Jar&lt;/c5&gt;&lt;/a4&gt;, &lt;a6&gt;&lt;c7&gt;War&lt;/c7&gt;&lt;/a6&gt;, and &lt;a8&gt;&lt;c9&gt;Ear&lt;/c9&gt;&lt;/a8&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145707Z" creationid="msdx" creationdate="20141113T145707Z">
@@ -17122,6 +17138,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For GCC running on Windows via Cygwin, platforms 'windows/x86' and 'windows/x86_64' are supported.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092402Z" creationid="haohang" creationdate="20160408T092402Z">
+        <seg>对于通过Cygwin运行在Windows上的GCC，则支持“windows/x86”和“windows/x86_64”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For Maven repositories, this is done using the &lt;c2&gt;maven-metadata.xml&lt;/c2&gt; file, while for Ivy repositories this is done by directory listing.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151007T023708Z" creationid="95" creationdate="20151007T023708Z">
@@ -19802,6 +19826,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no target platforms are defined for a project, then all binaries are built to target a default platform named 'current'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092634Z" creationid="haohang" creationdate="20160408T092634Z">
+        <seg>如果在project里没有定义任何平台，那么所有的二进制文件会针对一个默认平台“current”进行构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no tests with this pattern can be found an exception is thrown.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T035632Z" creationid="Administrator" creationdate="20150428T035632Z">
@@ -20686,6 +20718,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T091218Z" creationid="95" creationdate="20151115T091218Z">
         <seg>在动态解析模式中，Gradle 将优先使用&lt;c2&gt;revConstraint&lt;/c2&gt;属性来代替&lt;c3&gt;rev&lt;/c3&gt;属性，用于一个给定的依赖定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In each case, the tool chain will target the current operating system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092057Z" creationid="haohang" creationdate="20160408T092036Z">
+        <seg>在每种情况中，工具链将针对当前的操作系统。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24955,6 +24995,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See the next section for information on cross-compiling for other operating systems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092126Z" creationid="haohang" creationdate="20160408T092126Z">
+        <seg>关于其他操作系统的交叉编译的信息，可以参考下一节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See their API documentation for further information.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T144120Z" creationid="msdx" creationdate="20150510T144120Z">
@@ -25167,6 +25215,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T153005Z" creationid="msdx" creationdate="20141117T152846Z">
         <seg>所以即使有一些闲置的守护进程等待构建请求，但你碰巧通过不同的 java HOME 运行构建，那么一个全新的守护进程将会被fork。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So for GCC running on linux, the supported target platforms are 'linux/x86' and 'linux/x86_64'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092320Z" creationid="haohang" creationdate="20160408T092159Z">
+        <seg>所以对于linux上运行的GCC，支持的目标平台是“linux/x86”和“linux/x86_64”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29207,6 +29263,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T040505Z" creationid="haohang" creationdate="20150807T040453Z">
         <seg>复制的方法有两种。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The core Gradle tool chains are able to target the following architectures out of the box.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092045Z" creationid="haohang" creationdate="20160408T092035Z">
+        <seg>核心 Gradle 工具链针对以下的架构能够开箱即用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49784,6 +49848,22 @@ signing {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034025Z" creationid="haohang" creationdate="20160405T034025Z">
         <seg>x6&lt;s2&gt;4&lt;/s2&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x86, x86_64</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092150Z" creationid="haohang" creationdate="20160408T092150Z">
+        <seg>x86, x86_64</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x86, x86_64, ia-64</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092152Z" creationid="haohang" creationdate="20160408T092152Z">
+        <seg>x86, x86_64, ia-64</seg>
       </tuv>
     </tu>
     <tu>
