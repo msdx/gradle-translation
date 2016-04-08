@@ -1302,6 +1302,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.Clang.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091210Z" creationid="haohang" creationdate="20160408T091210Z">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.Clang.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.Gcc.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091206Z" creationid="haohang" creationdate="20160408T091206Z">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.Gcc.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.toolchain.ToolChain.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T151803Z" creationid="95" creationdate="20160324T151803Z">
@@ -6452,6 +6468,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.9.1. Defining tool chains</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091158Z" creationid="haohang" creationdate="20160408T091158Z">
+        <seg>54.9.1. 定义工具链</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.9. Tool chains</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084725Z" creationid="haohang" creationdate="20160408T084725Z">
@@ -7652,6 +7676,14 @@ collection.each {File file -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Specify the installDir if Visual Studio cannot be located by default&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091222Z" creationid="haohang" creationdate="20160408T091222Z">
+        <seg>&lt;s0&gt;// Specify the installDir if Visual Studio cannot be located by default&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Use a File object to specify the source directory&lt;/s0&gt;
 compile {</seg>
       </tuv>
@@ -8184,6 +8216,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;// installDir "C:/Apps/Microsoft Visual Studio 10.0"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091223Z" creationid="haohang" creationdate="20160408T091223Z">
+        <seg>&lt;s1&gt;// installDir "C:/Apps/Microsoft Visual Studio 10.0"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;&lt;target&lt;/s1&gt; &lt;s2&gt;name&lt;/s2&gt;=&lt;s3&gt;"hello"&lt;/s3&gt; &lt;s4&gt;depends&lt;/s4&gt;=&lt;s5&gt;"intro"&lt;/s5&gt;&lt;s6&gt;&gt;&lt;/s6&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061143Z" creationid="msdx" creationdate="20141116T061143Z">
@@ -8300,6 +8340,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053117Z" creationid="haohang" creationdate="20150909T053117Z">
         <seg>&lt;s2&gt;// Look for artifacts here if not found at the above location&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Uncomment to use a GCC install that is not in the PATH&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091224Z" creationid="haohang" creationdate="20160408T091224Z">
+        <seg>&lt;s2&gt;// Uncomment to use a GCC install that is not in the PATH&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8438,6 +8486,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T142811Z" creationid="msdx" creationdate="20150428T142811Z">
         <seg>&lt;s3&gt;// Include the results from the `test` task in all subprojects&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s3&gt;// path "/usr/bin/gcc"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091225Z" creationid="haohang" creationdate="20160408T091225Z">
+        <seg>&lt;s3&gt;// path "/usr/bin/gcc"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -16482,6 +16538,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.26. Defining tool chains</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091220Z" creationid="haohang" creationdate="20160408T091220Z">
+        <seg>示例 54.26. 定义工具链</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.3. The 'cpp' plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082843Z" creationid="haohang" creationdate="20160219T082843Z">
@@ -17946,6 +18010,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gcc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091209Z" creationid="haohang" creationdate="20160408T091209Z">
+        <seg>Gcc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generally, one can exclude transitive dependencies that are either not required by runtime or that are guaranteed to be available on the target environment/platform.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T101325Z" creationid="haohang" creationdate="20150801T101325Z">
@@ -19350,6 +19422,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154308Z" creationid="msdx" creationdate="20141123T154308Z">
         <seg>然而， &lt;c0&gt;compileJava&lt;/c0&gt;任务很可能不是唯 一需要知道类文件在哪里的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, the set of tool chains for a project may also be explicitly defined, allowing additional cross-compilers to be configured as well as allowing the install directories to be specified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091144Z" creationid="haohang" creationdate="20160408T091144Z">
+        <seg>不过，一个项目里的一组工具链也可以被显示地定义，允许配置额外的交叉编译器以及指定安装目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30635,6 +30715,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The supported tool chain types are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091206Z" creationid="haohang" creationdate="20160408T091206Z">
+        <seg>支持的工具链类型有︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The task aggregates the reports for all tasks that implement the &lt;a1&gt;&lt;c2&gt;Reporting&lt;/c2&gt;&lt;/a1&gt; interface from &lt;s3&gt;&lt;e4&gt;all projects&lt;/e4&gt;&lt;/s3&gt; in the build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T095514Z" creationid="haohang" creationdate="20150713T095514Z">
@@ -34295,6 +34383,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160128T153452Z" creationid="95" creationdate="20160128T153452Z">
         <seg>Visual C++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>VisualCpp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091211Z" creationid="haohang" creationdate="20160408T091211Z">
+        <seg>VisualCpp</seg>
       </tuv>
     </tu>
     <tu>
@@ -38579,6 +38675,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>clang(Clang)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091226Z" creationid="haohang" creationdate="20160408T091226Z">
+        <seg>clang(Clang)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>classDumpFile = file(&lt;s1&gt;"$buildDir/jacoco/classpathdumps"&lt;/s1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132255Z" creationid="msdx" creationdate="20150506T132255Z">
@@ -41373,6 +41477,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T141833Z" creationid="95" creationdate="20160105T141833Z">
         <seg>ftp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gcc(Gcc) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091224Z" creationid="haohang" creationdate="20160408T091224Z">
+        <seg>gcc(Gcc) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -48528,6 +48640,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>toolChains {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091221Z" creationid="haohang" creationdate="20160408T091221Z">
+        <seg>toolChains {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>toolVersion = &lt;s0&gt;"0.6.2.201302030002"&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T131554Z" creationid="msdx" creationdate="20150506T131554Z">
@@ -49270,6 +49390,14 @@ signing {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104926Z" creationid="msdx" creationdate="20150428T104926Z">
         <seg>visual-studio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>visualCpp(VisualCpp) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091221Z" creationid="haohang" creationdate="20160408T091221Z">
+        <seg>visualCpp(VisualCpp) {</seg>
       </tuv>
     </tu>
     <tu>
