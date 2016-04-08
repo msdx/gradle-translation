@@ -1262,6 +1262,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.TargetedNativeComponent.html#org.gradle.nativebinaries.TargetedNativeComponent:targetBuildTypes(java.lang.String...)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T083048Z" creationid="haohang" creationdate="20160408T083048Z">
+        <seg>../dsl/org.gradle.nativebinaries.TargetedNativeComponent.html#org.gradle.nativebinaries.TargetedNativeComponent:targetBuildTypes(java.lang.String...)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.TargetedNativeComponent.html#org.gradle.nativebinaries.TargetedNativeComponent:targetFlavors(java.lang.String...)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T083049Z" creationid="haohang" creationdate="20160408T083049Z">
+        <seg>../dsl/org.gradle.nativebinaries.TargetedNativeComponent.html#org.gradle.nativebinaries.TargetedNativeComponent:targetFlavors(java.lang.String...)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.TargetedNativeComponent.html#org.gradle.nativebinaries.TargetedNativeComponent:targetPlatforms(java.lang.String...)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T082931Z" creationid="haohang" creationdate="20160408T082931Z">
+        <seg>../dsl/org.gradle.nativebinaries.TargetedNativeComponent.html#org.gradle.nativebinaries.TargetedNativeComponent:targetPlatforms(java.lang.String...)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.language.PreprocessingTool.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T023109Z" creationid="haohang" creationdate="20160325T023109Z">
@@ -6412,6 +6436,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.8.5. Building all possible variants</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T083118Z" creationid="haohang" creationdate="20160408T083118Z">
+        <seg>54.8.5. 构建所有可能的变种</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.8. Native Binary Variants</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033517Z" creationid="haohang" creationdate="20160325T033517Z">
@@ -9768,6 +9800,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162411Z" creationid="msdx" creationdate="20141109T162355Z">
         <seg>快速任务定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A similar mechanism exists for selecting &lt;a0&gt;&lt;c1&gt;TargetedNativeComponent.targetBuildTypes()&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;TargetedNativeComponent.targetFlavors()&lt;/c3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T083111Z" creationid="haohang" creationdate="20160408T083111Z">
+        <seg>在选择 &lt;a0&gt;&lt;c1&gt;TargetedNativeComponent.targetBuildTypes()&lt;/c1&gt;&lt;/a0&gt; and和&lt;a2&gt;&lt;c3&gt;TargetedNativeComponent.targetFlavors()&lt;/c3&gt;&lt;/a2&gt;上也有类似的机制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16410,6 +16450,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.24. Targeting a component at particular platforms</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T082929Z" creationid="haohang" creationdate="20160408T082929Z">
+        <seg>示例 54.24. 针对一个组件的特定平台</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.3. The 'cpp' plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082843Z" creationid="haohang" creationdate="20160219T082843Z">
@@ -19170,6 +19218,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here you can see that the &lt;a0&gt;&lt;c1&gt;TargetedNativeComponent.targetPlatforms()&lt;/c1&gt;&lt;/a0&gt; method is used to select the set of platforms to target for &lt;c2&gt;executables.main&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T083047Z" creationid="haohang" creationdate="20160408T083047Z">
+        <seg>在这里你可以看到 &lt;a0&gt;&lt;c1&gt;TargetedNativeComponent.targetPlatforms()&lt;/c1&gt;&lt;/a0&gt; 方法被用于为 &lt;c2&gt;executables.main&lt;/c2&gt;选择一组平台。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here're all situations in which we fork a new daemon process:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152707Z" creationid="msdx" creationdate="20141117T152707Z">
@@ -21415,6 +21471,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T013941Z" creationid="msdx" creationdate="20141111T013939Z">
         <seg>它是可以独立地执行任务&lt;c0&gt;A&lt;/c0&gt;和&lt;c1&gt;B&lt;/c1&gt; 的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is possible to override this on a per-component basis, by specifying the set of &lt;c3&gt;targetBuildTypes&lt;/c3&gt;, &lt;c4&gt;targetPlatforms&lt;/c4&gt; and/or &lt;c5&gt;targetFlavors&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T082910Z" creationid="haohang" creationdate="20160408T082910Z">
+        <seg>通过指定的 &lt;c3&gt;targetBuildTypes&lt;/c3&gt;， &lt;c4&gt;targetPlatforms&lt;/c4&gt; 或 &lt;c5&gt;targetFlavors&lt;/c5&gt;，是可以在每一个组件的基础上进行重写的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -47699,6 +47763,14 @@ systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083245Z" creationid="msdx" creationdate="20150428T083245Z">
         <seg>targetCompatibility</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>targetPlatforms &lt;s0&gt;"x86"&lt;/s0&gt;, &lt;s1&gt;"x64"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T082930Z" creationid="haohang" creationdate="20160408T082930Z">
+        <seg>targetPlatforms &lt;s0&gt;"x86"&lt;/s0&gt;, &lt;s1&gt;"x64"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
