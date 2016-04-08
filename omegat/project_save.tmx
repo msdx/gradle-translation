@@ -25171,6 +25171,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So if a platform does not define a value for &lt;c0&gt;operatingSystem&lt;/c0&gt;, Gradle will find the first available tool chain that can build for the specified &lt;c1&gt;architecture&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091931Z" creationid="haohang" creationdate="20160408T091931Z">
+        <seg>所以如果一个平台没有为&lt;c0&gt;operatingSystem&lt;/c0&gt;定义一个值的话，Gradle 将会找到第一个可以用来构建这个指定&lt;c1&gt;architecture&lt;/c1&gt;的工具链。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So if you are interested in WTP integration then only apply the &lt;c1&gt;eclipse-wtp&lt;/c1&gt; plugin.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003133Z" creationid="haohang" creationdate="20150603T003133Z">
@@ -34727,6 +34735,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T035654Z" creationid="haohang" creationdate="20150716T035028Z">
         <seg>当一个构建的依赖树变得笨拙时，你的构建工具不应该强迫你对依赖管理采取单一、不灵活的做法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a platform does not define an architecture or operating system, the default target of the tool chain is assumed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091829Z" creationid="haohang" creationdate="20160408T091829Z">
+        <seg>当一个平台并没有定义一个架构或操作系统时，会被认为使用默认的工具链目标。</seg>
       </tuv>
     </tu>
     <tu>
