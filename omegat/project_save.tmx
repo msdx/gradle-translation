@@ -382,6 +382,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#include &lt;CUnit/Basic.h&gt;
+#include "gradle_cunit_register.h"
+#include "test_operators.h"
+
+int suite_init(void) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150239Z" creationid="95" creationdate="20160504T150239Z">
+        <seg>#include &lt;CUnit/Basic.h&gt;
+#include "gradle_cunit_register.h"
+#include "test_operators.h"
+
+int suite_init(void) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#installation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141127T141011Z" creationid="msdx" creationdate="20141127T141011Z">
@@ -12268,6 +12284,32 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CU_add_test(pSuiteMath, "test_minus", test_minus);
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150246Z" creationid="95" creationdate="20160504T150246Z">
+        <seg>CU_add_test(pSuiteMath, "test_minus", test_minus);
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CU_add_test(pSuiteMath, "test_plus", test_plus);</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150244Z" creationid="95" creationdate="20160504T150244Z">
+        <seg>CU_add_test(pSuiteMath, "test_plus", test_plus);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CU_pSuite pSuiteMath = CU_add_suite("operator tests", suite_init, suite_clean);</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150242Z" creationid="95" creationdate="20160504T150242Z">
+        <seg>CU_pSuite pSuiteMath = CU_add_suite("operator tests", suite_init, suite_clean);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Caching</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T165002Z" creationid="msdx" creationdate="20141109T165002Z">
@@ -16666,6 +16708,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.27. Registering CUnit tests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150233Z" creationid="95" creationdate="20160504T150233Z">
+        <seg>示例 54.27. 注册 CUnit 测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.3. The 'cpp' plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082843Z" creationid="haohang" creationdate="20160219T082843Z">
@@ -19022,6 +19072,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160504T144438Z" creationid="95" creationdate="20160504T144438Z">
         <seg>Gradle将为项目中的每一个 &lt;a2&gt;&lt;c3&gt;CUnitTestSuite&lt;/c3&gt;&lt;/a2&gt; 组件创建一个名字为“cunit”的&lt;a0&gt;&lt;c1&gt;CSourceSet&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle will expect and call a function with the signature &lt;c0&gt;void gradle_cunit_register()&lt;/c0&gt; that you can use to configure the actual CUnit suites and tests to execute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150219Z" creationid="95" creationdate="20160504T150219Z">
+        <seg>Gradle 将认定和调用一个&lt;c0&gt;void gradle_cunit_register()&lt;/c0&gt; 函数，这个函数你可以用于配置实际的CUnit套件以及要执行的测试。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46825,6 +46883,34 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>return 0;
+}
+
+int suite_clean(void) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150240Z" creationid="95" creationdate="20160504T150240Z">
+        <seg>return 0;
+}
+
+int suite_clean(void) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return 0;
+}
+
+void gradle_cunit_register() {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150241Z" creationid="95" creationdate="20160504T150241Z">
+        <seg>return 0;
+}
+
+void gradle_cunit_register() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>root</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T141853Z" creationid="95" creationdate="20160105T141853Z">
@@ -48243,6 +48329,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083543Z" creationid="msdx" creationdate="20150428T083543Z">
         <seg>subprojects {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>suite_operators.c</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150235Z" creationid="95" creationdate="20160504T150235Z">
+        <seg>suite_operators.c</seg>
       </tuv>
     </tu>
     <tu>
