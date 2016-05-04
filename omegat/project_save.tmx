@@ -2156,6 +2156,34 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>/home/user/gradle/samples/native-binaries/cunit/src/operatorsTest/cunit/test_plus.c:6  - plus(0, -2) == -2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151530Z" creationid="95" creationdate="20160504T151530Z">
+        <seg>/home/user/gradle/samples/native-binaries/cunit/src/operatorsTest/cunit/test_plus.c:6  - plus(0, -2) == -2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>/home/user/gradle/samples/native-binaries/cunit/src/operatorsTest/cunit/test_plus.c:7  - plus(2, 2) == 4
+
+:runFailingOperatorsTestCUnitExe FAILED
+
+BUILD FAILED
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151534Z" creationid="95" creationdate="20160504T151534Z">
+        <seg>/home/user/gradle/samples/native-binaries/cunit/src/operatorsTest/cunit/test_plus.c:7  - plus(2, 2) == 4
+
+:runFailingOperatorsTestCUnitExe FAILED
+
+BUILD FAILED
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161837Z" creationid="msdx" creationdate="20141109T161837Z">
@@ -7946,6 +7974,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/native-binaries/cunit&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151528Z" creationid="95" creationdate="20160504T151528Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注意︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在Gradle 的 binary 或 source 分发包的&lt;c2&gt;samples/native-binaries/cunit&lt;/c2&gt;中找到。。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/testing/jacoco/application&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T135747Z" creationid="msdx" creationdate="20150506T135606Z">
@@ -9270,6 +9306,18 @@ plugin</seg>
 build@master.org
 main
 plugin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q runFailingOperatorsTestCUnitExe
+
+There were test failures:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151528Z" creationid="95" creationdate="20160504T151528Z">
+        <seg>&gt; gradle -q runFailingOperatorsTestCUnitExe
+
+There were test failures:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10880,6 +10928,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T010446Z" creationid="Administrator" creationdate="20150426T010303Z">
         <seg>项目中的所有核查项目，包括&lt;c0&gt;test&lt;/c0&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Allow tests to be declared with javadoc-style annotations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151656Z" creationid="95" creationdate="20160504T151656Z">
+        <seg>允许测试声明为 javadoc 风格的注解。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12864,8 +12920,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Chapter 55. The Build Lifecycle</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T031022Z" creationid="msdx" creationdate="20141108T031022Z">
-        <seg>Chapter 55. The Build Lifecycle</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151957Z" creationid="msdx" creationdate="20141108T031022Z">
+        <seg>第五十五章. 构建的生命周期</seg>
       </tuv>
     </tu>
     <tu>
@@ -12874,6 +12930,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124336Z" creationid="msdx" creationdate="20141111T124336Z">
         <seg>Chapter 56. Multi-project Builds</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 59. Organizing Build Logic</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151942Z" creationid="95" creationdate="20160504T151942Z">
+        <seg>第五十九章. 组件构建逻辑</seg>
       </tuv>
     </tu>
     <tu>
@@ -20796,6 +20860,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Improved HTML reporting, similar to that available for JUnit.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151738Z" creationid="95" creationdate="20160504T151738Z">
+        <seg>改进 HTML 报告，类似于 JUnit 提供的那样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In &lt;a0&gt;Section 6.5, “Task dependencies”&lt;/a0&gt; you were introduced to defining dependencies using task names.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T100215Z" creationid="msdx" creationdate="20141110T100145Z">
@@ -24189,6 +24261,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plans for future integration include:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151634Z" creationid="95" creationdate="20160504T151538Z">
+        <seg>未来的集成计划包括：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Please be aware that the DSL and other configuration may change in later Gradle versions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T092322Z" creationid="msdx" creationdate="20150503T094910Z">
@@ -24561,6 +24641,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150730T035047Z" creationid="haohang" creationdate="20150730T035047Z">
         <seg>一个依赖只是声明了所需的 artifacts ，而不是依赖整个配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Real-time feedback for test execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151744Z" creationid="95" creationdate="20160504T151744Z">
+        <seg>测试执行的的实时反馈。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26009,6 +26097,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T040439Z" creationid="Administrator" creationdate="20150425T040439Z">
         <seg>由 &lt;a1&gt;&lt;c2&gt;sonar&lt;/c2&gt;&lt;/a1&gt;插件取代。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Support for additional test frameworks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151839Z" creationid="95" creationdate="20160504T151839Z">
+        <seg>支持另外的测试框架。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29593,6 +29689,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092045Z" creationid="haohang" creationdate="20160408T092035Z">
         <seg>核心 Gradle 工具链针对以下的架构能够开箱即用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The current support for CUnit is quite rudimentary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151559Z" creationid="95" creationdate="20160504T151537Z">
+        <seg>当前对 CUnit 的支持还是相当简陋。</seg>
       </tuv>
     </tu>
     <tu>
