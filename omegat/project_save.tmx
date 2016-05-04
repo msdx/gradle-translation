@@ -6364,6 +6364,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.11.1. CUnit sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T144341Z" creationid="95" creationdate="20160504T144341Z">
+        <seg>54.11.1. CUnit 源码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.11. CUnit support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095635Z" creationid="haohang" creationdate="20160408T095635Z">
@@ -17402,6 +17410,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For each &lt;a1&gt;&lt;c2&gt;Executable&lt;/c2&gt;&lt;/a1&gt; and &lt;a3&gt;&lt;c4&gt;Library&lt;/c4&gt;&lt;/a3&gt; defined in your project, Gradle will create a matching &lt;a5&gt;&lt;c6&gt;CUnitTestSuite&lt;/c6&gt;&lt;/a5&gt; component, named &lt;c7&gt;${component.name}Test&lt;/c7&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T144334Z" creationid="95" creationdate="20160504T144334Z">
+        <seg>对于在你的项目中定义的每一个 &lt;a1&gt;&lt;c2&gt;Executable&lt;/c2&gt;&lt;/a1&gt; 和 &lt;a3&gt;&lt;c4&gt;Library&lt;/c4&gt;&lt;/a3&gt;，Gradle将创建一个匹配的 &lt;a5&gt;&lt;c6&gt;CUnitTestSuite&lt;/c6&gt;&lt;/a5&gt; 组件，名字为&lt;c7&gt;${component.name}Test&lt;/c7&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For each &lt;c6&gt;executable&lt;/c6&gt; or &lt;c7&gt;library&lt;/c7&gt; defined, Gradle adds a &lt;a8&gt;&lt;c9&gt;FunctionalSourceSet&lt;/c9&gt;&lt;/a8&gt; with the same name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T064713Z" creationid="haohang" creationdate="20160219T064713Z">
@@ -18998,6 +19014,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065107Z" creationid="msdx" creationdate="20141108T063831Z">
         <seg>Gradle 在&lt;e1&gt;配置闭包&lt;/e1&gt;中使用到它，把&lt;c2&gt;委托&lt;/c2&gt;对象设置为被配置的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle will create a &lt;a0&gt;&lt;c1&gt;CSourceSet&lt;/c1&gt;&lt;/a0&gt; named 'cunit' for each &lt;a2&gt;&lt;c3&gt;CUnitTestSuite&lt;/c3&gt;&lt;/a2&gt; component in the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T144438Z" creationid="95" creationdate="20160504T144438Z">
+        <seg>Gradle将为项目中的每一个 &lt;a2&gt;&lt;c3&gt;CUnitTestSuite&lt;/c3&gt;&lt;/a2&gt; 组件创建一个名字为“cunit”的&lt;a0&gt;&lt;c1&gt;CSourceSet&lt;/c1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32999,6 +33023,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095430Z" creationid="haohang" creationdate="20160408T095430Z">
         <seg>这个方案包含了一个该组件的 Visual Studio Project ，并且为每一个依赖的二进制文件链接到项目文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This source set should contain the cunit test files for the component sources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T144517Z" creationid="95" creationdate="20160504T144517Z">
+        <seg>这个源码集应包含组件源码的 cunit 测试文件。</seg>
       </tuv>
     </tu>
     <tu>
