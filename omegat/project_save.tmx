@@ -6412,6 +6412,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.11.3. Running CUnit tests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151249Z" creationid="95" creationdate="20160504T151226Z">
+        <seg>54.11.3. 运行 CUnit 测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.11. CUnit support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095635Z" creationid="haohang" creationdate="20160408T095635Z">
@@ -8556,6 +8564,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (flavor == flavors.failing) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151037Z" creationid="95" creationdate="20160504T151037Z">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (flavor == flavors.failing) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;if&lt;/s2&gt; (toolChain in VisualCpp &amp;&amp; buildType == buildTypes.debug) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090618Z" creationid="haohang" creationdate="20160401T090618Z">
@@ -8800,6 +8816,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T145631Z" creationid="msdx" creationdate="20141109T141951Z">
         <seg>&lt;s6&gt;[&lt;a7&gt;6&lt;/a7&gt;]&lt;/s6&gt;如果环境属性遵循&lt;c8&gt;ORG_GRADLE_PROJECT_&lt;e9&gt;&lt;c10&gt;propertyName&lt;/c10&gt;&lt;/e9&gt;= somevalue&lt;/c8&gt;的模式，这里的&lt;c11&gt;propertyName&lt;/c11&gt;会被添加到您的项目对象中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s6&gt;if&lt;/s6&gt; (flavor == flavors.failing) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151357Z" creationid="95" creationdate="20160504T151357Z">
+        <seg>&lt;s6&gt;if&lt;/s6&gt; (flavor == flavors.failing) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -11944,6 +11968,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T130719Z" creationid="msdx" creationdate="20141116T130719Z">
         <seg>它们都有自己的日志系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Both the CUnit sources provided by your project and the generated launcher require the core CUnit headers and libraries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151157Z" creationid="95" creationdate="20160504T151040Z">
+        <seg>由你的项目和生成的启动器提供的两种 CUnit 源码，都需要核心 CUnit 头文件和库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16756,6 +16788,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.28. Registering CUnit tests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151035Z" creationid="95" creationdate="20160504T151035Z">
+        <seg>示例 54.28. 注册 CUnit 测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.29. Running CUnit tests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151331Z" creationid="95" creationdate="20160504T151331Z">
+        <seg>示例 54.29. 运行 CUnit 测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.3. The 'cpp' plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T082843Z" creationid="haohang" creationdate="20160219T082843Z">
@@ -17496,6 +17544,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T072157Z" creationid="haohang" creationdate="20160219T070810Z">
         <seg>针对由构建所产生的每一个 &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt;，我们构造了一个&lt;e2&gt;生命周期任务&lt;/e2&gt;用于创建二进制，以及一系统的其他做实际工作，如编译，链接或者是装配二进制文件的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For each &lt;a0&gt;&lt;c1&gt;TestSuiteExecutableBinary&lt;/c1&gt;&lt;/a0&gt;, Gradle will create a task to execute this binary, which will run all of the registered CUnit tests.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151309Z" creationid="95" creationdate="20160504T151309Z">
+        <seg>对于每个&lt;a0&gt;&lt;c1&gt;TestSuiteExecutableBinary&lt;/c1&gt;&lt;/a0&gt;，Gradle 将创建一个任务来执行此二进制文件，这项任务将运行所有注册的 CUnit 测试。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24277,6 +24333,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Presently, this library dependency must be provided by your project for each &lt;a0&gt;&lt;c1&gt;TestSuiteExecutableBinary&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151225Z" creationid="95" creationdate="20160504T151225Z">
+        <seg>目前，这个库依赖项必须由你的项目为每个&lt;a0&gt;&lt;c1&gt;TestSuiteExecutableBinary&lt;/c1&gt;&lt;/a0&gt;提供。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Production ANTLR grammar files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095142Z" creationid="haohang" creationdate="20150625T095142Z">
@@ -30109,6 +30173,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The generated test results will be located in the &lt;c2&gt;&lt;e3&gt;&lt;c4&gt;${build.dir}&lt;/c4&gt;&lt;/e3&gt;/test-results&lt;/c2&gt; directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151322Z" creationid="95" creationdate="20160504T151322Z">
+        <seg>生成的测试结果将位于&lt;c2&gt;&lt;e3&gt;&lt;c4&gt;${build.dir}&lt;/c4&gt;&lt;/e3&gt;/test-results&lt;/c2&gt;目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The generation lifecycle is as follows:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T104314Z" creationid="haohang" creationdate="20150624T104243Z">
@@ -31889,6 +31961,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T074210Z" creationid="Administrator" creationdate="20150425T074210Z">
         <seg>这些源文件可能包括 Java 源代码文件和资源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These test suite binaries can be configured in a similar way to any other binary instance:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151023Z" creationid="95" creationdate="20160504T151023Z">
+        <seg>这些测试套件二进制文件可以以一种类似的方式配置到任何其他二进制的实例︰</seg>
       </tuv>
     </tu>
     <tu>
@@ -37787,6 +37867,20 @@ jacoco {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;"c"&lt;/s0&gt;
+apply plugin: &lt;s1&gt;"cunit"&lt;/s1&gt;
+
+model {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151333Z" creationid="95" creationdate="20160504T151333Z">
+        <seg>apply plugin: &lt;s0&gt;"c"&lt;/s0&gt;
+apply plugin: &lt;s1&gt;"cunit"&lt;/s1&gt;
+
+model {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;"jacoco"&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T130229Z" creationid="msdx" creationdate="20150506T130229Z">
@@ -38789,6 +38883,22 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>binaries.withType(StaticLibraryBinary) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151339Z" creationid="95" creationdate="20160504T151339Z">
+        <seg>binaries.withType(StaticLibraryBinary) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>binaries.withType(TestSuiteExecutableBinary) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151036Z" creationid="95" creationdate="20160504T151036Z">
+        <seg>binaries.withType(TestSuiteExecutableBinary) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083226Z" creationid="msdx" creationdate="20150428T083226Z">
@@ -39009,6 +39119,22 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T152309Z" creationid="95" creationdate="20160324T152309Z">
         <seg>cCompiler.define &lt;s3&gt;"DLL_EXPORT"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cCompiler.define &lt;s3&gt;"PLUS_BROKEN"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151038Z" creationid="95" creationdate="20160504T151038Z">
+        <seg>cCompiler.define &lt;s3&gt;"PLUS_BROKEN"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cCompiler.define &lt;s7&gt;"PLUS_BROKEN"&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151359Z" creationid="95" creationdate="20160504T151359Z">
+        <seg>cCompiler.define &lt;s7&gt;"PLUS_BROKEN"&lt;/s7&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -40003,6 +40129,14 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104923Z" creationid="msdx" creationdate="20150428T104923Z">
         <seg>cunit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cunit {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151337Z" creationid="95" creationdate="20160504T151337Z">
+        <seg>cunit {</seg>
       </tuv>
     </tu>
     <tu>
@@ -41429,6 +41563,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>failing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151335Z" creationid="95" creationdate="20160504T151335Z">
+        <seg>failing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>false</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132324Z" creationid="msdx" creationdate="20150506T132324Z">
@@ -42293,6 +42435,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T065613Z" creationid="haohang" creationdate="20150628T065613Z">
         <seg>growl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>headers.srcDir &lt;s2&gt;"lib/cunit/2.1-2/include"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151338Z" creationid="95" creationdate="20160504T151338Z">
+        <seg>headers.srcDir &lt;s2&gt;"lib/cunit/2.1-2/include"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -44097,6 +44247,22 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>lib library: &lt;s0&gt;"cunit"&lt;/s0&gt;, linkage: &lt;s1&gt;"static"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151037Z" creationid="95" creationdate="20160504T151037Z">
+        <seg>lib library: &lt;s0&gt;"cunit"&lt;/s0&gt;, linkage: &lt;s1&gt;"static"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>lib library: &lt;s4&gt;"cunit"&lt;/s4&gt;, linkage: &lt;s5&gt;"static"&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151355Z" creationid="95" creationdate="20160504T151355Z">
+        <seg>lib library: &lt;s4&gt;"cunit"&lt;/s4&gt;, linkage: &lt;s5&gt;"static"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>lib project: &lt;s4&gt;':lib'&lt;/s4&gt;, library: &lt;s5&gt;'main'&lt;/s5&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033442Z" creationid="haohang" creationdate="20160325T033442Z">
@@ -44133,6 +44299,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083240Z" creationid="msdx" creationdate="20150428T083240Z">
         <seg>libs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>libs(PrebuiltLibraries) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151335Z" creationid="95" creationdate="20160504T151335Z">
+        <seg>libs(PrebuiltLibraries) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -44903,6 +45077,18 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>operators {}
+}
+binaries.withType(TestSuiteExecutableBinary) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151341Z" creationid="95" creationdate="20160504T151341Z">
+        <seg>operators {}
+}
+binaries.withType(TestSuiteExecutableBinary) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>orca-1.0 -&gt; seal-1.0</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034314Z" creationid="haohang" creationdate="20150807T034314Z">
@@ -45163,6 +45349,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T144038Z" creationid="95" creationdate="20160105T144038Z">
         <seg>packaging</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>passing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151334Z" creationid="95" creationdate="20160504T151334Z">
+        <seg>passing</seg>
       </tuv>
     </tu>
     <tu>
@@ -48353,6 +48547,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105015Z" creationid="haohang" creationdate="20150702T105015Z">
         <seg>startScripts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>staticLibraryFile = file(&lt;s3&gt;"lib/cunit/2.1-2/lib/"&lt;/s3&gt; + findCUnitLibForPlatform(targetPlatform))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T151339Z" creationid="95" creationdate="20160504T151339Z">
+        <seg>staticLibraryFile = file(&lt;s3&gt;"lib/cunit/2.1-2/lib/"&lt;/s3&gt; + findCUnitLibForPlatform(targetPlatform))</seg>
       </tuv>
     </tu>
     <tu>
