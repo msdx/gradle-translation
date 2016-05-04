@@ -1286,6 +1286,14 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.ProjectNativeBinary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150552Z" creationid="95" creationdate="20160504T150552Z">
+        <seg>../dsl/org.gradle.nativebinaries.ProjectNativeBinary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.SharedLibraryBinary.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T064959Z" creationid="haohang" creationdate="20160219T064959Z">
@@ -2074,6 +2082,14 @@ int suite_init(void) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160128T153606Z" creationid="95" creationdate="20160128T153606Z">
         <seg>../javadoc/org/gradle/language/base/FunctionalSourceSet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/nativebinaries/test/TestSuiteExecutableBinary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150553Z" creationid="95" creationdate="20160504T150553Z">
+        <seg>../javadoc/org/gradle/nativebinaries/test/TestSuiteExecutableBinary.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -6388,6 +6404,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.11.2. Building CUnit executables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150551Z" creationid="95" creationdate="20160504T150551Z">
+        <seg>54.11.2. 构建 CUnit 可执行文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.11. CUnit support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095635Z" creationid="haohang" creationdate="20160408T095635Z">
@@ -9584,6 +9608,14 @@ Transforming source file.</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T061316Z" creationid="msdx" creationdate="20141111T061316Z">
         <seg>&gt; gradle transform
 :transform UP-TO-DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;a0&gt;&lt;c1&gt;CUnitTestSuite&lt;/c1&gt;&lt;/a0&gt; component has an associated &lt;a2&gt;&lt;c3&gt;Executable&lt;/c3&gt;&lt;/a2&gt; or &lt;a4&gt;&lt;c5&gt;Library&lt;/c5&gt;&lt;/a4&gt; component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150632Z" creationid="95" creationdate="20160504T150632Z">
+        <seg>一个 &lt;a0&gt;&lt;c1&gt;CUnitTestSuite&lt;/c1&gt;&lt;/a0&gt; 组件会有一个相关联的 &lt;a2&gt;&lt;c3&gt;Executable&lt;/c3&gt;&lt;/a2&gt; 或 &lt;a4&gt;&lt;c5&gt;Library&lt;/c5&gt;&lt;/a4&gt; 组件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14012,6 +14044,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Due to this mechanism, your CUnit sources may not contain a &lt;c0&gt;main&lt;/c0&gt; method since this will clash with the method provided by Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150525Z" creationid="95" creationdate="20160504T150525Z">
+        <seg>由于这一机制，你的 CUnit 源碼可能不包含一个&lt;c0&gt;main&lt;/c0&gt;方法，因为这会与 Gradle 所提供的方法产生冲突。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dynamic configuration from Gradle build scripts</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T055834Z" creationid="msdx" creationdate="20150513T055834Z">
@@ -17464,6 +17504,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160504T144334Z" creationid="95" creationdate="20160504T144334Z">
         <seg>对于在你的项目中定义的每一个 &lt;a1&gt;&lt;c2&gt;Executable&lt;/c2&gt;&lt;/a1&gt; 和 &lt;a3&gt;&lt;c4&gt;Library&lt;/c4&gt;&lt;/a3&gt;，Gradle将创建一个匹配的 &lt;a5&gt;&lt;c6&gt;CUnitTestSuite&lt;/c6&gt;&lt;/a5&gt; 组件，名字为&lt;c7&gt;${component.name}Test&lt;/c7&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For each &lt;a6&gt;&lt;c7&gt;ProjectNativeBinary&lt;/c7&gt;&lt;/a6&gt; configured for the main component, a matching &lt;a8&gt;&lt;c9&gt;TestSuiteExecutableBinary&lt;/c9&gt;&lt;/a8&gt; will be configured on the test suite component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150909Z" creationid="95" creationdate="20160504T150637Z">
+        <seg>对于为main 组件配置的每一个&lt;a6&gt;&lt;c7&gt;ProjectNativeBinary&lt;/c7&gt;&lt;/a6&gt;，在测试套件组件上都会配置一个匹配的 &lt;a8&gt;&lt;c9&gt;TestSuiteExecutableBinary&lt;/c9&gt;&lt;/a8&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
