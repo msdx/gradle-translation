@@ -25595,6 +25595,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Source files can be located in the conventional location (&lt;c4&gt;src/${component.name}Test/cunit&lt;/c4&gt;) or can be configured like any other source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T145831Z" creationid="95" creationdate="20160504T145831Z">
+        <seg>源文件可以位于约定的位置（&lt;c4&gt;src/${component.name}Test/cunit&lt;/c4&gt;），或者是像其他源集一样配置到别的地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Source set properties</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150509T131933Z" creationid="msdx" creationdate="20150509T131933Z">
@@ -30015,6 +30023,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T044820Z" creationid="95" creationdate="20151129T044820Z">
         <seg>存储在元数据缓存中的信息包括：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The job of initialising the CUnit test registry and executing the tests is performed by Gradle, via some generated CUnit launcher sources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160504T150007Z" creationid="95" creationdate="20160504T150007Z">
+        <seg>初始化 CUnit 测试注册以及执行这些测试的工作，都由 Gradle 通过一些生成的 CUnit 启动器源码来执行。</seg>
       </tuv>
     </tu>
     <tu>
