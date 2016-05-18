@@ -6648,6 +6648,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.1. Build phases</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160518T032514Z" creationid="haohang" creationdate="20160518T032514Z">
+        <seg>55.1. 构建阶段</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -9720,6 +9728,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161626Z" creationid="msdx" creationdate="20141112T161626Z">
         <seg>&lt;e0&gt;文件树&lt;/e0&gt;是按层次结构排序的文件集合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Gradle build has three distinct phases.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160518T032550Z" creationid="haohang" creationdate="20160518T032516Z">
+        <seg>一个 Gradle 构建具有三个明显的阶段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19196,6 +19212,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle supports single and multi-project builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160518T032557Z" creationid="haohang" creationdate="20160518T032557Z">
+        <seg>Gradle supports single and multi-project builds.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle takes your dependency declarations and repository definitions and attempts to download all of your dependencies by a process called &lt;s0&gt;&lt;e1&gt;dependency resolution&lt;/e1&gt;&lt;/s0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151007T024349Z" creationid="95" creationdate="20151007T022620Z">
@@ -21545,6 +21569,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T071556Z" creationid="haohang" creationdate="20150707T071556Z">
         <seg>InitBuild</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Initialization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160518T032555Z" creationid="haohang" creationdate="20160518T032555Z">
+        <seg>初始化</seg>
       </tuv>
     </tu>
     <tu>
@@ -31837,6 +31869,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Therefore they are strictly speaking &lt;s0&gt;&lt;e1&gt;build configuration scripts&lt;/e1&gt;&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160518T032506Z" creationid="haohang" creationdate="20160518T032506Z">
+        <seg>因此严格来说，它们都是&lt;s0&gt;&lt;e1&gt;构建配置脚本&lt;/e1&gt;&lt;/s0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Therefore you can't use the &lt;c5&gt;-P&lt;/c5&gt; option.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T141907Z" creationid="msdx" creationdate="20141109T141839Z">
@@ -33009,6 +33049,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141132Z" creationid="msdx" creationdate="20141121T141132Z">
         <seg>在执行每个构建时运行一个额外的 JVM 的代价是非常昂贵的，这就是为什么我们强烈推荐您使用 Gradle 守护进程，如果你指定了&lt;c0&gt;org.gradle.java.home&lt;/c0&gt;或&lt;c1&gt;org.gradle.jvmargs&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This lies at the heart of Gradle and makes many things possible which would not be possible otherwise.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160518T032418Z" creationid="haohang" creationdate="20160518T032418Z">
+        <seg>这是 Gradle 的核心，它使得很多事情由不可能变得可能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37361,6 +37409,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T141859Z" creationid="msdx" creationdate="20141109T141550Z">
         <seg>而你的构建脚本需要一些不能让其他人知道的属性值，</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your build scripts configure this dependency graph.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160518T032440Z" creationid="haohang" creationdate="20160518T032440Z">
+        <seg>你的构建脚本能配置这个依赖关系图。</seg>
       </tuv>
     </tu>
     <tu>
