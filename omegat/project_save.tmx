@@ -20492,6 +20492,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no &lt;c0&gt;settings.gradle&lt;/c0&gt; is found, it searches the parent directories for the existence of a &lt;c1&gt;settings.gradle&lt;/c1&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T073919Z" creationid="haohang" creationdate="20160519T073919Z">
+        <seg>如果没有找到&lt;c0&gt;settings.gradle&lt;/c0&gt;，它将在父目录里搜索&lt;c1&gt;settings.gradle&lt;/c1&gt;文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no &lt;c2&gt;url&lt;/c2&gt; parameter is supplied, then Gradle will use the first defined &lt;c3&gt;artifactPattern&lt;/c3&gt; for uploading, or the first defined &lt;c4&gt;ivyPattern&lt;/c4&gt; for uploading Ivy files, if this is set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151226T093005Z" creationid="95" creationdate="20151226T093005Z">
@@ -22569,6 +22577,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141101T124555Z" creationid="msdx" creationdate="20141101T124546Z">
         <seg>它提供了最大限度的灵活性，以满足你对Gradle的特殊需求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It searches for a &lt;c0&gt;settings.gradle&lt;/c0&gt; in a directory called &lt;c1&gt;master&lt;/c1&gt; which has the same nesting level as the current dir.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T073827Z" creationid="haohang" creationdate="20160519T073827Z">
+        <seg>它将在一个与当前目录有相同嵌套层的叫做&lt;c1&gt;master&lt;/c1&gt;的目录里面搜索&lt;c0&gt;settings.gradle&lt;/c0&gt;</seg>
       </tuv>
     </tu>
     <tu>
