@@ -6688,6 +6688,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.3.2.2. Flat layouts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041850Z" creationid="haohang" creationdate="20160519T041850Z">
+        <seg>55.3.2.2. 平面布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>55.3.2. Building the tree</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041148Z" creationid="haohang" creationdate="20160519T041148Z">
@@ -17104,6 +17112,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041327Z" creationid="haohang" creationdate="20160519T041327Z">
         <seg>示例 55.2. 分层布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 55.3. Flat layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041857Z" creationid="haohang" creationdate="20160519T041857Z">
+        <seg>示例 55.3. 平面布局</seg>
       </tuv>
     </tu>
     <tu>
@@ -27957,6 +27973,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;includeFlat&lt;/c0&gt; method takes directory names as an argument.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041921Z" creationid="haohang" creationdate="20160519T041901Z">
+        <seg>&lt;c0&gt;includeFlat&lt;/c0&gt;方法将目录名称作为参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;init&lt;/c0&gt; supports different build setup &lt;e1&gt;types&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T073554Z" creationid="haohang" creationdate="20150707T073554Z">
@@ -33581,6 +33605,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means that the inclusion of the path 'services:hotels:api' will result in creating 3 projects: 'services', 'services:hotels' and 'services:hotels:api'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041843Z" creationid="haohang" creationdate="20160519T041843Z">
+        <seg>这意味着，包含路径 'services:hotels:api' 将导致创建3个项目: 'services'、'services:hotels'和'services:hotels:api'。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means that when resolving against one repository Gradle will never overwrite the cached artifact file from a different repository.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T153105Z" creationid="95" creationdate="20151129T153105Z">
@@ -34017,6 +34049,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T091028Z" creationid="msdx" creationdate="20150503T091028Z">
         <seg>虽然它们有各自的&lt;c2&gt;compile&lt;/c2&gt;和&lt;c3&gt;runtime&lt;/c3&gt;配置，但这些配置有相同的作用域，只是它们不会添加到 WAR 文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Those directories need to exist as siblings of the root project directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T042127Z" creationid="haohang" creationdate="20160519T042127Z">
+        <seg>Those directories need to exist as siblings of the root project directory.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37689,6 +37729,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T080533Z" creationid="msdx" creationdate="20141110T023442Z">
         <seg>你经常需要在构建文件中查找你所定义的任务，例如，为了去配置或是依赖它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You only need to specify the leaves of the tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041707Z" creationid="haohang" creationdate="20160519T041707Z">
+        <seg>你只需要指定树上的叶子。</seg>
       </tuv>
     </tu>
     <tu>
@@ -43911,6 +43959,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082902Z" creationid="msdx" creationdate="20150428T082902Z">
         <seg>includeCategories &lt;s0&gt;'org.gradle.junit.CategoryA'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>includeFlat &lt;s0&gt;'project3'&lt;/s0&gt;, &lt;s1&gt;'project4'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041858Z" creationid="haohang" creationdate="20160519T041858Z">
+        <seg>includeFlat &lt;s0&gt;'project3'&lt;/s0&gt;, &lt;s1&gt;'project4'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
