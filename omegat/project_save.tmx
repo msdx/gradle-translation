@@ -14524,6 +14524,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each project object has by default a name equals to the name of its top level directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T080620Z" creationid="haohang" creationdate="20160519T080620Z">
+        <seg>每个project 对象都有和其顶层目录名称一样的默认名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each repository can have its own layout.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T134257Z" creationid="95" creationdate="20151006T134257Z">
@@ -14776,6 +14784,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T045601Z" creationid="95" creationdate="20151129T045443Z">
         <seg>每个元数据缓存中的条目包括了一条存储库中提供的信息，以及可用于缓存到期的时间戳的记录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Every project except the root project has a parent project and might have child projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T080654Z" creationid="haohang" creationdate="20160519T080621Z">
+        <seg>除了根 project，每个project有一个父project，并且可能还有子projects。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17820,6 +17836,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a multi-project build these are the projects specified in Settings object (plus the root project).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T080519Z" creationid="haohang" creationdate="20160519T080519Z">
+        <seg>对于多项目构建，则有在 Setting 对象中指定的project（加上根项目的project）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a multi-project build, all projects with native components should have this plugin applied.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095147Z" creationid="haohang" creationdate="20160408T095147Z">
@@ -17832,6 +17856,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151130T051515Z" creationid="haohang" creationdate="20151130T051515Z">
         <seg>对一个新的版本，你总是要创建新的 XML 描述符和目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a single project build this is only one project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T080425Z" creationid="haohang" creationdate="20160519T080425Z">
+        <seg>对于单项目构建，只有一个project。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19264,6 +19296,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T042117Z" creationid="95" creationdate="20151129T042117Z">
         <seg>Gradle 包含了一个高度复杂的依赖缓存机制，该机制力求减少依赖解析中的远程请求，同时努力保证依赖解析结果的正确及可再生性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle creates Project objects for every project taking part in the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T080351Z" creationid="haohang" creationdate="20160519T080351Z">
+        <seg>在构建中，Gradle 为每个参加构建的项目创建 Project 对象。</seg>
       </tuv>
     </tu>
     <tu>
