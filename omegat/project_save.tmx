@@ -17780,6 +17780,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a flat layout you must additionally obey to the naming convention described above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075530Z" creationid="haohang" creationdate="20160519T075505Z">
+        <seg>对于平面布局你必须另外服从上面描述的命名约定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a given variant, Gradle will attempt to find a &lt;a0&gt;&lt;c1&gt;ToolChain&lt;/c1&gt;&lt;/a0&gt; that is able to build for the target platform.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T034137Z" creationid="haohang" creationdate="20160405T034137Z">
@@ -19512,6 +19520,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T160613Z" creationid="msdx" creationdate="20141109T160613Z">
         <seg>Gradle 支持&lt;e2&gt;增强的任务&lt;/e2&gt;，也就是，有自己的属性和方法的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle supports arbitrary physical layouts for a multiproject build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075535Z" creationid="haohang" creationdate="20160519T075535Z">
+        <seg>Gradle supports arbitrary physical layouts for a multiproject build.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30053,6 +30069,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The auto search for a settings file does only work for multi-project builds with a physical hierarchical or flat layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075457Z" creationid="haohang" creationdate="20160519T075401Z">
+        <seg>自动搜索设置文件只适合具有物理上的层次结构或平面的布局的多项目构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The available protocols and the corresponding libraries are listed in &lt;a1&gt;Table 52.3, “Protocol jars for Maven deployment”&lt;/a1&gt; (those libraries have again transitive dependencies which have transitive dependencies).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T134817Z" creationid="95" creationdate="20160105T134524Z">
@@ -38253,6 +38277,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>a multiproject build, if the &lt;c0&gt;settings.gradle&lt;/c0&gt; file does define a multiproject hierarchy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075356Z" creationid="haohang" creationdate="20160519T075336Z">
+        <seg>多项目构建，如果&lt;c0&gt;settings.gradle&lt;/c0&gt;文件定义了一个多项目的层次结构。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a single project build, if the &lt;c0&gt;settings.gradle&lt;/c0&gt; file does not define a multiproject hierarchy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075334Z" creationid="haohang" creationdate="20160519T075334Z">
+        <seg>单项目构建，如果&lt;c0&gt;settings.gradle&lt;/c0&gt;文件没有定义一个多项目的层次结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>add project.repositories.fileRepo</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151226T092052Z" creationid="95" creationdate="20151226T092052Z">
@@ -45873,6 +45913,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T052430Z" creationid="msdx" creationdate="20141120T052430Z">
         <seg>multi_project_builds.html#sec:configuration_on_demand</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi_project_builds.html#sec:running_partial_build_from_the_root</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075358Z" creationid="haohang" creationdate="20160519T075358Z">
+        <seg>multi_project_builds.html#sec:running_partial_build_from_the_root</seg>
       </tuv>
     </tu>
     <tu>
