@@ -12276,6 +12276,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But Gradle needs to create the build configuration for the whole multiproject build (see &lt;a0&gt;Chapter 56, &lt;i1&gt;Multi-project Builds&lt;/i1&gt;&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T074602Z" creationid="haohang" creationdate="20160519T074602Z">
+        <seg>但 Gradle 需要创建整个多项目构建的构建配置（见&lt;a0&gt;第56章，&lt;i1&gt;多项目生成&lt;/i1&gt;&lt;/a0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>But Gradle takes the concept of tasks further.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T160554Z" creationid="msdx" creationdate="20141109T160427Z">
@@ -23997,6 +24005,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Of course, if it is a subproject, only the subproject and its dependent projects are build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T074521Z" creationid="haohang" creationdate="20160519T074521Z">
+        <seg>当然，如果它是一个子项目，那么就只构建子项目和它依赖的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Often an organisation publishes a set of libraries with a single version; where the libraries are built, tested and published together.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T060518Z" creationid="95" creationdate="20151115T060518Z">
@@ -26297,6 +26313,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141118T100318Z" creationid="msdx" creationdate="20141118T100234Z">
         <seg>以下是有关 Gradle 守护进程的故障排除的一些方面：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Somehow Gradle has to find out, whether the project you are into, is a subproject of a multiproject build or not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T074459Z" creationid="haohang" creationdate="20160519T074459Z">
+        <seg>由于一些不明的原因， Gradle 不得不找出，你所进入的项目，它是否为一个多项目构建中的一个子项目。</seg>
       </tuv>
     </tu>
     <tu>
