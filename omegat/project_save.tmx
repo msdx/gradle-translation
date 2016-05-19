@@ -16980,6 +16980,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 55.1. Single project build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025258Z" creationid="haohang" creationdate="20160519T025258Z">
+        <seg>示例 55.1. 单项目构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -17592,6 +17600,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151130T051515Z" creationid="haohang" creationdate="20151130T051515Z">
         <seg>对一个新的版本，你总是要创建新的 XML 描述符和目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a single-project build, a settings file is optional.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025051Z" creationid="haohang" creationdate="20160519T025051Z">
+        <seg>对于单项目的构建，有没有设置文件都可以。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22657,6 +22673,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151120Z" creationid="msdx" creationdate="20141123T151120Z">
         <seg>让我们来看看：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's first do some introspection with a single project build:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025250Z" creationid="haohang" creationdate="20160519T025250Z">
+        <seg>我们先来看一个一个单项目构建：</seg>
       </tuv>
     </tu>
     <tu>
@@ -37373,6 +37397,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You might need it for example, to add libraries to your build script classpath (see &lt;a3&gt;Chapter 59, &lt;i4&gt;Organizing Build Logic&lt;/i4&gt;&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025204Z" creationid="haohang" creationdate="20160519T025204Z">
+        <seg>你可能需要一个关于将libraries添加到你的构建脚本类路径中的例子（见&lt;a3&gt;第59章，&lt;i4&gt;组织构建逻辑&lt;/i4&gt;&lt;/a3&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You might refer to their API documentation to learn more about them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T040958Z" creationid="Administrator" creationdate="20150425T040958Z">
@@ -46075,6 +46107,26 @@ task(copy, type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'This is executed during the configuration phase.'&lt;/s0&gt;
+
+task configured {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025307Z" creationid="haohang" creationdate="20160519T025307Z">
+        <seg>println &lt;s0&gt;'This is executed during the configuration phase.'&lt;/s0&gt;
+
+task configured {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'This is executed during the initialization phase.'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025306Z" creationid="haohang" creationdate="20160519T025306Z">
+        <seg>println &lt;s0&gt;'This is executed during the initialization phase.'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s0&gt;'This should not be printed if the task is disabled.'&lt;/s0&gt;
 }
 disableMe.enabled = false</seg>
@@ -46209,6 +46261,20 @@ tasks.create(name: &lt;s2&gt;'copy'&lt;/s2&gt;, type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'This is also executed during the configuration phase.'&lt;/s1&gt;
+}
+
+task test &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025319Z" creationid="haohang" creationdate="20160519T025319Z">
+        <seg>println &lt;s1&gt;'This is also executed during the configuration phase.'&lt;/s1&gt;
+}
+
+task test &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;'hello from other script'&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -46287,6 +46353,16 @@ taskY.shouldRunAfter taskX</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160739Z" creationid="msdx" creationdate="20141112T160739Z">
         <seg>println &lt;s2&gt;"Contents of $srcDir.name"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;'This is executed during the execution phase.'&lt;/s2&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025338Z" creationid="haohang" creationdate="20160519T025338Z">
+        <seg>println &lt;s2&gt;'This is executed during the execution phase.'&lt;/s2&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -47947,6 +48023,14 @@ void gradle_cunit_register() {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132320Z" creationid="msdx" creationdate="20150506T132320Z">
         <seg>sessionId</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>settings.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025305Z" creationid="haohang" creationdate="20160519T025305Z">
+        <seg>settings.gradle</seg>
       </tuv>
     </tu>
     <tu>
