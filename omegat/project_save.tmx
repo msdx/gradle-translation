@@ -382,6 +382,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N15DE5</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070549Z" creationid="haohang" creationdate="20160519T070549Z">
+        <seg>#ftn.N15DE5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#include &lt;CUnit/Basic.h&gt;
 #include "gradle_cunit_register.h"
 #include "test_operators.h"
@@ -1946,6 +1954,14 @@ int suite_init(void) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083343Z" creationid="msdx" creationdate="20150428T083343Z">
         <seg>../javadoc/org/gradle/api/file/SourceDirectorySet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/initialization/ProjectDescriptor.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070501Z" creationid="haohang" creationdate="20160519T070501Z">
+        <seg>../javadoc/org/gradle/api/initialization/ProjectDescriptor.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -6706,8 +6722,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>55.3.3. Modifying elements of the project tree</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T063923Z" creationid="haohang" creationdate="20160519T063923Z">
-        <seg>55.3.3. Modifying elements of the project tree</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070226Z" creationid="haohang" creationdate="20160519T063923Z">
+        <seg>55.3.3. 修改项目树元素</seg>
       </tuv>
     </tu>
     <tu>
@@ -6716,6 +6732,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T030007Z" creationid="haohang" creationdate="20160519T030007Z">
         <seg>55.3. 多项目构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>55.4. Initialization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070548Z" creationid="haohang" creationdate="20160519T070548Z">
+        <seg>55.4. 初始化</seg>
       </tuv>
     </tu>
     <tu>
@@ -12228,6 +12252,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But Gradle also allows you to execute the build from within any subproject taking part in the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070757Z" creationid="haohang" creationdate="20160519T070757Z">
+        <seg>But Gradle also allows you to execute the build from within any subproject taking part in the build.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>But Gradle does not look for an XML descriptor to figure them out but gets the information from the build file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091626Z" creationid="haohang" creationdate="20150801T091626Z">
@@ -17132,6 +17164,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 55.4. Modification of elements of the project tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070348Z" creationid="haohang" creationdate="20160519T070348Z">
+        <seg>示例 55.4. 修改项目树中的元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 55.5. Modification of elements of the project tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070458Z" creationid="haohang" creationdate="20160519T070458Z">
+        <seg>示例 55.5. 修改项目树中的元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -19724,6 +19772,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Have a look at &lt;a0&gt;&lt;c1&gt;ProjectDescriptor&lt;/c1&gt;&lt;/a0&gt; for more details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070541Z" creationid="haohang" creationdate="20160519T070502Z">
+        <seg>更多信息请参阅&lt;a0&gt;&lt;c1&gt;ProjectDescriptor&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Have a look at &lt;a0&gt;&lt;c1&gt;Settings&lt;/c1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025959Z" creationid="haohang" creationdate="20160519T025959Z">
@@ -20056,6 +20112,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041307Z" creationid="haohang" creationdate="20160519T041307Z">
         <seg>分层和产面的物理布局，得到了特别的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How does Gradle know whether to do a single or multiproject build?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070616Z" creationid="haohang" creationdate="20160519T070616Z">
+        <seg>Gradle 是怎么知道这是单项目还是多项目构建的？</seg>
       </tuv>
     </tu>
     <tu>
@@ -20944,6 +21008,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T150113Z" creationid="msdx" creationdate="20141105T150113Z">
         <seg>如果你在你的Gradle项目目录下运行Gradle GUI，你应该会看到一个任务树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you trigger a multiproject build from the directory where the settings file is, things are easy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070753Z" creationid="haohang" creationdate="20160519T070753Z">
+        <seg>If you trigger a multiproject build from the directory where the settings file is, things are easy.</seg>
       </tuv>
     </tu>
     <tu>
@@ -30925,6 +30997,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The multi-project tree created in the settings file is made up of so called &lt;e0&gt;project descriptors&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070328Z" creationid="haohang" creationdate="20160519T070304Z">
+        <seg>在设置文件中创建的多项目树组成了所谓的&lt;e0&gt;项目描述符&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name and version of the project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134135Z" creationid="Administrator" creationdate="20150427T134135Z">
@@ -34149,6 +34229,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To access a descriptor you can do:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070340Z" creationid="haohang" creationdate="20160519T070340Z">
+        <seg>你可以这样访问一个描述符：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To access a repository:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T133403Z" creationid="95" creationdate="20151006T133403Z">
@@ -35449,6 +35537,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141150Z" creationid="Administrator" creationdate="20150330T141150Z">
         <seg>使用归档文件的内容作为文件树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using this descriptor you can change the name, project directory and build file of a project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070444Z" creationid="haohang" creationdate="20160519T070444Z">
+        <seg>使用这个描述符，你可以更改一个项目的名称、项目目录和构建文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37193,6 +37289,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145414Z" creationid="msdx" creationdate="20150428T145414Z">
         <seg>你可以把其他的manifest 合并到任何一个&lt;c0&gt;Manifest&lt;/c0&gt;对象中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can modify these descriptors in the settings file at any time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070323Z" creationid="haohang" creationdate="20160519T070323Z">
+        <seg>你可以在任何时间修改设置文件中的这些描述符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -47131,6 +47235,16 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println rootProject.name
+println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070350Z" creationid="haohang" creationdate="20160519T070350Z">
+        <seg>println rootProject.name
+println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println springVersion</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012939Z" creationid="haohang" creationdate="20150710T012939Z">
@@ -47937,6 +48051,18 @@ void gradle_cunit_register() {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091801Z" creationid="haohang" creationdate="20150628T091801Z">
         <seg>rootProject {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rootProject.name = &lt;s0&gt;'main'&lt;/s0&gt;
+project(&lt;s1&gt;':projectA'&lt;/s1&gt;).projectDir = &lt;s2&gt;new&lt;/s2&gt; File(settingsDir, &lt;s3&gt;'../my-project-a'&lt;/s3&gt;)
+project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gradle'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070500Z" creationid="haohang" creationdate="20160519T070500Z">
+        <seg>rootProject.name = &lt;s0&gt;'main'&lt;/s0&gt;
+project(&lt;s1&gt;':projectA'&lt;/s1&gt;).projectDir = &lt;s2&gt;new&lt;/s2&gt; File(settingsDir, &lt;s3&gt;'../my-project-a'&lt;/s3&gt;)
+project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gradle'&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
