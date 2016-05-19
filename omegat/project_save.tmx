@@ -20396,6 +20396,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a &lt;c0&gt;settings.gradle&lt;/c0&gt; file is found, Gradle checks if the current project is part of the multiproject hierarchy defined in the found &lt;c1&gt;settings.gradle&lt;/c1&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T074037Z" creationid="haohang" creationdate="20160519T074037Z">
+        <seg>如果找到了&lt;c0&gt;settings.gradle&lt;/c0&gt;文件，Gradle 会检查当前项目是否为找到的&lt;c1&gt;settings.gradle&lt;/c1&gt;文件中定义的多项目层次结构的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a binary variant cannot be built for any reason, then the &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; associated with that variant will not be &lt;c2&gt;buildable&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084701Z" creationid="haohang" creationdate="20160408T084443Z">
@@ -20492,6 +20500,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no &lt;c0&gt;settings.gradle&lt;/c0&gt; file is found, the build is executed as a single project build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T074005Z" creationid="haohang" creationdate="20160519T074005Z">
+        <seg>如果仍没有找到&lt;c0&gt;settings.gradle&lt;/c0&gt;文件，将作为一个单项目构建来执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If no &lt;c0&gt;settings.gradle&lt;/c0&gt; is found, it searches the parent directories for the existence of a &lt;c1&gt;settings.gradle&lt;/c1&gt; file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T073919Z" creationid="haohang" creationdate="20160519T073919Z">
@@ -20584,6 +20600,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T013408Z" creationid="95" creationdate="20151129T013408Z">
         <seg>如果没有在（Ivy）描述符中指定，Ivy 模块和 Maven snapshot模块的状态默认为&lt;c7&gt;integration&lt;/c7&gt; ，不是snapshot 的 Maven 模块则默认为&lt;c8&gt;release&lt;/c8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If not, the build is executed as a single project build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T074117Z" creationid="haohang" creationdate="20160519T074117Z">
+        <seg>如果不是，构建将作为一个单项目构建来执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24273,6 +24297,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T020246Z" creationid="msdx" creationdate="20141111T020240Z">
         <seg>否则 Gradle 将抛出异常，说这种名称的任务已经存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise a multiproject build is executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T074126Z" creationid="haohang" creationdate="20160519T074126Z">
+        <seg>否则执行多项目构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35937,6 +35969,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163533Z" creationid="msdx" creationdate="20141109T163533Z">
         <seg>什么是依赖管理？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What is the purpose of this behavior?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T074131Z" creationid="haohang" creationdate="20160519T074131Z">
+        <seg>这种行为的目的是什么？</seg>
       </tuv>
     </tu>
     <tu>
