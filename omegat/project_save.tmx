@@ -20748,6 +20748,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the current project contains a &lt;c4&gt;settings.gradle&lt;/c4&gt; file, the &lt;c5&gt;-u&lt;/c5&gt; option has no meaning.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075223Z" creationid="haohang" creationdate="20160519T075223Z">
+        <seg>如果当前项目中包含一个&lt;c4&gt;settings.gradle&lt;/c4&gt;文件， &lt;c5&gt;-u&lt;/c5&gt;选项将没有任何意义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the daemon process is currently busy running some job, a brand new daemon process will be started.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T152753Z" creationid="msdx" creationdate="20141117T152634Z">
@@ -26589,6 +26597,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Such a build is always executed as:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075311Z" creationid="haohang" creationdate="20160519T075311Z">
+        <seg>这样的构建总是这样执行:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Such a conversion is possible if in the Gradle exclude rule the group as well as the module name is specified (as Maven needs both in contrast to Ivy).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T145637Z" creationid="95" creationdate="20160106T145637Z">
@@ -30271,8 +30287,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The current project is then always build as a single project build.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T074643Z" creationid="haohang" creationdate="20160519T074643Z">
-        <seg>The current project is then always build as a single project build.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075203Z" creationid="haohang" creationdate="20160519T074643Z">
+        <seg>那么，当前项目将只会作为单项目构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35711,8 +35727,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>Via the &lt;c2&gt;-u&lt;/c2&gt; command line option, you can tell Gradle not to look in the parent hierarchy for a &lt;c3&gt;settings.gradle&lt;/c3&gt; file.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T074639Z" creationid="haohang" creationdate="20160519T074639Z">
-        <seg>通过&lt;c2&gt;-u&lt;/c2&gt;命令行选项，你可以让 Gradle 略过&lt;c3&gt;settings.gradle&lt;/c3&gt;文件的父层次结构。</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075245Z" creationid="haohang" creationdate="20160519T074639Z">
+        <seg>通过&lt;c2&gt;-u&lt;/c2&gt;命令行选项，你可以让 Gradle 不去父目录找&lt;c3&gt;settings.gradle&lt;/c3&gt;文件。</seg>
       </tuv>
     </tu>
     <tu>
