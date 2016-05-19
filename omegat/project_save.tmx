@@ -6680,6 +6680,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.3.2. Building the tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041148Z" creationid="haohang" creationdate="20160519T041148Z">
+        <seg>55.3.2. 生成树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>55.3. Multi-project builds</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T030007Z" creationid="haohang" creationdate="20160519T030007Z">
@@ -10120,6 +10128,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A project has a path which denotes the position of the project in the multi-project build tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T040929Z" creationid="haohang" creationdate="20160519T040929Z">
+        <seg>一个项目有一个路径，表示在多项目构建树中的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A project's configurations are managed by a &lt;c0&gt;configurations&lt;/c0&gt; object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075655Z" creationid="haohang" creationdate="20150722T075655Z">
@@ -12276,6 +12292,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>But you can redefine the location of the root project in the settings file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041137Z" creationid="haohang" creationdate="20160519T041137Z">
+        <seg>但你可以在设置文件中重新定义根项目的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By caching artifacts based on their SHA1 checksum, Gradle is able to maintain multiple versions of the same artifact.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T153007Z" creationid="95" creationdate="20151129T152920Z">
@@ -12288,6 +12312,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T153725Z" creationid="msdx" creationdate="20150430T160102Z">
         <seg>增量编译是只编译那些源代码在上一次编译之后有修改的类，及那些受这些修改影响到的类，它可以大大减少 Scala 的编译时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default it is assumed that the location of the settings file is also the location of the root project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041109Z" creationid="haohang" creationdate="20160519T041109Z">
+        <seg>默认情况下，它假设设置文件的位置也是根项目的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20044,6 +20076,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, this behavior is configurable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041014Z" creationid="haohang" creationdate="20160519T041014Z">
+        <seg>不过，这种行为是可配置的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, vast majority of tests and use cases should be handled neatly.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T023635Z" creationid="Administrator" creationdate="20150428T023635Z">
@@ -21372,6 +21412,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In majority of cases the project path is consistent with the physical location of the project in the file system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041003Z" creationid="haohang" creationdate="20160519T041003Z">
+        <seg>在大多数情况下，项目路径是符合在文件系统中项目的物理位置的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In many cases, more than one native binary can be produced for a component.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065539Z" creationid="haohang" creationdate="20160219T065451Z">
@@ -21609,6 +21657,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151227T160646Z" creationid="95" creationdate="20151227T160110Z">
         <seg>在后者的情况下，这个仓库的 &lt;c3&gt;ivy.xml&lt;/c3&gt;描述符应该包含所有必要的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the settings file you can use a set of methods to build the project tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041203Z" creationid="haohang" creationdate="20160519T041203Z">
+        <seg>在设置文件中你可以使用一套方法来生成项目树。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31209,6 +31265,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061553Z" creationid="haohang" creationdate="20150628T061553Z">
         <seg>项目报告插件不需要任何特定的项目布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The project tree is created in the &lt;c0&gt;settings.gradle&lt;/c0&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041031Z" creationid="haohang" creationdate="20160519T041031Z">
+        <seg>项目树在&lt;c0&gt;settings.gradle&lt;/c0&gt;文件中创建。</seg>
       </tuv>
     </tu>
     <tu>
