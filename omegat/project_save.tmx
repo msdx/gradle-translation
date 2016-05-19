@@ -6656,6 +6656,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.2. Settings file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024517Z" creationid="haohang" creationdate="20160519T024517Z">
+        <seg>55.2. 设置文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -9980,6 +9988,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A multiproject build must have a &lt;c0&gt;settings.gradle&lt;/c0&gt; file in the root project of the multiproject hierarchy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024919Z" creationid="haohang" creationdate="20160519T024919Z">
+        <seg>一个多项目的构建，必须在这个多项目的层次结构中的根目录下有一个&lt;c0&gt;settings.gradle&lt;/c0&gt; 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A native binary project defines a set of &lt;a0&gt;&lt;c1&gt;Executable&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Library&lt;/c3&gt;&lt;/a2&gt; components, each of which Gradle maps to a number of &lt;a4&gt;&lt;c5&gt;NativeBinary&lt;/c5&gt;&lt;/a4&gt; outputs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T064641Z" creationid="95" creationdate="20160128T153607Z">
@@ -11968,6 +11984,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T061242Z" creationid="msdx" creationdate="20141111T061242Z">
         <seg>下面，我们修改了我们的示例，声明它将 XML 源文件作为输入，并产生输出到一个目标目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beside the build script files, Gradle defines a settings file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024557Z" creationid="haohang" creationdate="20160519T024541Z">
+        <seg>在构建脚本文件旁边，Gradle 定义了一个设置文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19004,6 +19028,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle determines the subset of the tasks, created and configured during the configuration phase, to be executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024408Z" creationid="haohang" creationdate="20160519T024408Z">
+        <seg>Gradle 确定在配置阶段中，创建和配置的要被执行的任务的子集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle distinguishes between external dependencies and dependencies on projects which are part of the same multi-project build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092449Z" creationid="haohang" creationdate="20150801T092449Z">
@@ -19256,6 +19288,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151007T024349Z" creationid="95" creationdate="20151007T022620Z">
         <seg>Gradle 将获取你的依赖声明和仓库定义，并通过一个称为&lt;s0&gt;&lt;e1&gt;依赖项解析&lt;/e1&gt;&lt;/s0&gt;的过程尝试下载所有依赖项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle then executes each of the selected tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024509Z" creationid="haohang" creationdate="20160519T024509Z">
+        <seg>然后 Gradle 执行每个选定的任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22173,6 +22213,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is required because in the settings file it is defined, which projects are taking part in the multi-project build (see &lt;a1&gt;Chapter 56, &lt;i2&gt;Multi-project Builds&lt;/i2&gt;&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025019Z" creationid="haohang" creationdate="20160519T025019Z">
+        <seg>因为在这个设置文件中，会定义哪些项目会加入这个多项目构建（见&lt;a1&gt;第56章，&lt;i2&gt;多项目构建&lt;/i2&gt;&lt;/a1&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is typically only applied to the root project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T095523Z" creationid="haohang" creationdate="20150713T095523Z">
@@ -22577,6 +22625,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150509T131533Z" creationid="msdx" creationdate="20150509T131533Z">
         <seg>语言插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Later in this chapter we explain how Gradle looks for a settings file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024719Z" creationid="haohang" creationdate="20160519T024719Z">
+        <seg>在本章后面，我们会解释 Gradle 是怎么查找一个设置文件的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29893,6 +29949,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default name for this file is &lt;c0&gt;settings.gradle&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024640Z" creationid="haohang" creationdate="20160519T024640Z">
+        <seg>它的默认名称是&lt;c0&gt;settings.gradle&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default status scheme, ordered from least to most mature status, is &lt;c2&gt;integration&lt;/c2&gt;, &lt;c3&gt;milestone&lt;/c3&gt;, &lt;c4&gt;release&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T013705Z" creationid="95" creationdate="20151129T012326Z">
@@ -31237,6 +31301,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The settings file gets executed during the initialization phase.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024827Z" creationid="haohang" creationdate="20160519T024722Z">
+        <seg>这个配置文件会在初始化阶段执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The settings file is determined by Gradle via a naming convention.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024624Z" creationid="haohang" creationdate="20160519T024624Z">
+        <seg>这个设置文件是由 Gradle 通过一种命名约定来决定的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The signature file will be placed alongside the artifact being signed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160126T140514Z" creationid="95" creationdate="20160126T140514Z">
@@ -31345,6 +31425,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T042727Z" creationid="95" creationdate="20151129T042324Z">
         <seg>下载的构件的存储路径包括了 SHA1 校验和，意味着 2 个具有相同名称但内容不同的构件可以很容易地被缓存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The subset is determined by the task name arguments passed to the &lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt; command and the current directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024458Z" creationid="haohang" creationdate="20160519T024458Z">
+        <seg>这个子集是由传递给&lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt;命令的任务名称参数和当前目录所决定的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45477,6 +45565,14 @@ binaries.withType(TestSuiteExecutableBinary) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141727Z" creationid="msdx" creationdate="20150504T141727Z">
         <seg>org.gradle.plugins.ear.descriptor.DeploymentDescriptor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>organizing_build_logic.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024720Z" creationid="haohang" creationdate="20160519T024720Z">
+        <seg>organizing_build_logic.html</seg>
       </tuv>
     </tu>
     <tu>
