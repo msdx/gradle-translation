@@ -6680,6 +6680,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.3.2.1. Hierarchical layouts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041314Z" creationid="haohang" creationdate="20160519T041314Z">
+        <seg>55.3.2.1. 分层布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>55.3.2. Building the tree</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041148Z" creationid="haohang" creationdate="20160519T041148Z">
@@ -17092,6 +17100,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 55.2. Hierarchical layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041327Z" creationid="haohang" creationdate="20160519T041327Z">
+        <seg>示例 55.2. 分层布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -18008,6 +18024,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161640Z" creationid="msdx" creationdate="20141112T161640Z">
         <seg>例如，文件树可能表示一个目录树或 ZIP 文件的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, a path 'services:api' is mapped by default to a folder 'services/api' (relative from the project root).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041640Z" creationid="haohang" creationdate="20160519T041540Z">
+        <seg>例如，一个路径 'services:api'，默认情况下映射到文件夹'services/api'（相对于项目根目录）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20000,6 +20024,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T154111Z" creationid="msdx" creationdate="20141105T154111Z">
         <seg>隐藏选择的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Hierarchical and flat physical layouts get special support.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041307Z" creationid="haohang" creationdate="20160519T041307Z">
+        <seg>分层和产面的物理布局，得到了特别的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27917,6 +27949,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;include&lt;/c0&gt; method takes project paths as arguments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041353Z" creationid="haohang" creationdate="20160519T041353Z">
+        <seg>&lt;c0&gt;include&lt;/c0&gt;方法采用项目路径作为参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;init&lt;/c0&gt; supports different build setup &lt;e1&gt;types&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T073554Z" creationid="haohang" creationdate="20150707T073554Z">
@@ -31233,6 +31273,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T034354Z" creationid="msdx" creationdate="20141116T131251Z">
         <seg>Project对象提供了一个&lt;a2&gt;&lt;c3&gt;LoggingManager&lt;/c3&gt;&lt;/a2&gt;，它可以在评估构建脚本时，修改标准输出和错误重定向的日志级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The project path is assumed to be equal to the relative physical file system path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041538Z" creationid="haohang" creationdate="20160519T041355Z">
+        <seg>项目路径被假定为等于物理文件系统的相对路径。</seg>
       </tuv>
     </tu>
     <tu>
@@ -43737,6 +43785,14 @@ gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T152813Z" creationid="95" creationdate="20160104T152813Z">
         <seg>inceptionYear &lt;s0&gt;'2008'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include &lt;s0&gt;'project1'&lt;/s0&gt;, &lt;s1&gt;'project2:child'&lt;/s1&gt;, &lt;s2&gt;'project3:child1'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041332Z" creationid="haohang" creationdate="20160519T041332Z">
+        <seg>include &lt;s0&gt;'project1'&lt;/s0&gt;, &lt;s1&gt;'project2:child'&lt;/s1&gt;, &lt;s2&gt;'project3:child1'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
