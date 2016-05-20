@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.6.0" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.5.4" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -6748,6 +6748,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T080718Z" creationid="haohang" creationdate="20160519T080718Z">
         <seg>55.5. 配置和执行单个项目构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>55.6. Responding to the lifecycle in the build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160520T124246Z" creationid="95" creationdate="20160520T124246Z">
+        <seg>55.6. 构建脚本生命周期的响应</seg>
       </tuv>
     </tu>
     <tu>
@@ -17878,8 +17886,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>For a single project build, the workflow of the &lt;s0&gt;&lt;e1&gt;after initialization&lt;/e1&gt;&lt;/s0&gt; phases are pretty simple.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T080728Z" creationid="haohang" creationdate="20160519T080728Z">
-        <seg>For a single project build, the workflow of the &lt;s0&gt;&lt;e1&gt;after initialization&lt;/e1&gt;&lt;/s0&gt; phases are pretty simple.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160520T123413Z" creationid="haohang" creationdate="20160519T080728Z">
+        <seg>对于一个单项目构建，&lt;s0&gt;&lt;e1&gt;初始化后&lt;/e1&gt;&lt;/s0&gt;阶段的工作流都相当简单。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20912,6 +20920,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T074559Z" creationid="haohang" creationdate="20150707T074502Z">
         <seg>如果无法推断类型，将使用“&lt;c0&gt;basic&lt;/c0&gt;”类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If these task names exist, they are executed as a separate build in the order you have passed them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160520T123916Z" creationid="95" creationdate="20160520T123916Z">
+        <seg>如果这些任务名称存在，它们以参数的顺序作为一个单独的构建来执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30237,6 +30253,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The build script is executed against the project object that was created during the initialization phase.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160520T123459Z" creationid="95" creationdate="20160520T123459Z">
+        <seg>构建脚本会针对在初始化阶段期间创建的 project 对象执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The build scripts of &lt;s0&gt;&lt;e1&gt;all&lt;/e1&gt;&lt;/s0&gt; projects which are part of the build are executed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160518T150726Z" creationid="95" creationdate="20160518T150726Z">
@@ -30313,6 +30337,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T064548Z" creationid="msdx" creationdate="20141030T064131Z">
         <seg>这些编译任务对这些目录使用了联合编译，这意味着它们可以同时包含java和groovy源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The configuration and execution for multi-project builds is discussed in &lt;a2&gt;Chapter 56, &lt;i3&gt;Multi-project Builds&lt;/i3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160520T124041Z" creationid="95" creationdate="20160520T124041Z">
+        <seg>关于多项目构建的配置与执行，在&lt;a0&gt;第 56 章，&lt;i1&gt;多项目构建&lt;/i1&gt;&lt;/a0&gt;中有论述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32237,6 +32269,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then Gradle looks for tasks with names equal to those passed as command line arguments.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160520T123810Z" creationid="95" creationdate="20160520T123658Z">
+        <seg>然后 Gradle 会查找与命令行传进来的参数相同的任务名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then you could move your dependency declarations from the Ant script to your build file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T142726Z" creationid="msdx" creationdate="20141114T142726Z">
@@ -32745,6 +32785,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T100558Z" creationid="haohang" creationdate="20150624T100558Z">
         <seg>然后把这些模型对象与现有的 Eclipse XML 元数据进行合并，最终生成新的元数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These notifications generally take 2 forms: You can either implement a particular listener interface, or you can provide a closure to execute when the notification is fired.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160520T124530Z" creationid="95" creationdate="20160520T124530Z">
+        <seg>These notifications generally take 2 forms: You can either implement a particular listener interface, or you can provide a closure to execute when the notification is fired.</seg>
       </tuv>
     </tu>
     <tu>
@@ -38209,6 +38257,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T093456Z" creationid="msdx" creationdate="20150503T093433Z">
         <seg>你的&lt;c1&gt;webapp&lt;/c1&gt;目录自然可能包含一个&lt;c2&gt;WEB-INF&lt;/c2&gt;子目录，这个子目录可能还再包含一个&lt;c3&gt;web.xml&lt;/c3&gt;文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your build script can receive notifications as the build progresses through its lifecycle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160520T124452Z" creationid="95" creationdate="20160520T124452Z">
+        <seg>在构建通过其生命周期的时候，你的构建脚本会接收到对应的通知。</seg>
       </tuv>
     </tu>
     <tu>
