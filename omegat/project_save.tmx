@@ -6824,6 +6824,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.1.1.1. Configuration on demand</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T120416Z" creationid="95" creationdate="20160522T120416Z">
+        <seg>56.1.1.1. 按需配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.1.1. Configuration and execution</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T025001Z" creationid="95" creationdate="20160522T025001Z">
@@ -13734,10 +13742,26 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configuration injection feature and access to the complete project model are possible because every project is configured before the execution phase.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T120610Z" creationid="95" creationdate="20160522T120610Z">
+        <seg>由于每个项目都在执行阶段之前配置，所以也能做到配置注入功能以及访问整个项目模型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuration shared between subprojects can be configured in a &lt;c0&gt;subprojects&lt;/c0&gt; block.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150519T124447Z" creationid="msdx" creationdate="20150519T124447Z">
         <seg>在&lt;c0&gt;subprojects&lt;/c0&gt;块中，可以配置共享子项目之间的配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuration time of huge multi-project builds may become noticeable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T120748Z" creationid="95" creationdate="20160522T120748Z">
+        <seg>对于巨大的项目，这个配置时间就会变得非常可观。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20252,6 +20276,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Hence, starting from version 1.4 new incubating 'configuration on demand' mode is introduced.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T121143Z" creationid="95" creationdate="20160522T121143Z">
+        <seg>Hence, starting from version 1.4 new incubating 'configuration on demand' mode is introduced.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Hence, when your project depends on a Maven module, it's obvious what its artifact is.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T042843Z" creationid="haohang" creationdate="20150724T042843Z">
@@ -26113,6 +26145,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T145514Z" creationid="msdx" creationdate="20150429T145514Z">
         <seg>scaladoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scalability is an important requirement for Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T120830Z" creationid="95" creationdate="20160522T120830Z">
+        <seg>可伸缩性是 Gradle 的一项重要要求。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32109,6 +32149,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The reason every project needs to be configured is to support the flexibility of accessing and changing any part of Gradle project model.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T120407Z" creationid="95" creationdate="20160522T120407Z">
+        <seg>每个项目需要配置的原因是为了支持灵活地访问及更改 Gradle 项目模型的任何部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The reason is, that Gradle adds a set of default imports to your script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124241Z" creationid="msdx" creationdate="20141111T124241Z">
@@ -32681,6 +32729,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T142537Z" creationid="msdx" creationdate="20141121T142537Z">
         <seg>有两种方法可以向 NTLM 代理提供验证域：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are Gradle builds with a hierarchy of hundreds of subprojects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T120720Z" creationid="95" creationdate="20160522T120720Z">
+        <seg>存在着一些项目，它们在层次结构上有上百个的子项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34377,6 +34433,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041843Z" creationid="haohang" creationdate="20160519T041843Z">
         <seg>这意味着，包含路径 'services:hotels:api' 将导致创建3个项目: 'services'、'services:hotels'和'services:hotels:api'。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that when a single task, from a single project is requested, &lt;s1&gt;&lt;e2&gt;all&lt;/e2&gt;&lt;/s1&gt; projects of multi-project build are configured first.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T120317Z" creationid="95" creationdate="20160522T120317Z">
+        <seg>这意味着，当从一个项目请求一个任务时，首先会配置多项目构建的&lt;s1&gt;&lt;e2&gt;所有&lt;/e2&gt;&lt;/s1&gt;项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37433,6 +37497,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T113051Z" creationid="msdx" creationdate="20141116T113051Z">
         <seg>然而他们通常不包含&lt;s0&gt;&lt;e1&gt;你的&lt;/e1&gt;&lt;/s0&gt;的代码中哪里错了的相关信息。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Yet, this approach may not be the most efficient in a very large multi-project builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T120629Z" creationid="95" creationdate="20160522T120629Z">
+        <seg>然而，在一个非常大的多项目构建里，这种方法可能不是最有效的。</seg>
       </tuv>
     </tu>
     <tu>
