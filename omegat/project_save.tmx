@@ -6840,6 +6840,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.1.2. Defining common behavior</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125126Z" creationid="95" creationdate="20160522T125126Z">
+        <seg>56.1.2. 定义共同行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.1. Cross project configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T024630Z" creationid="95" creationdate="20160522T024630Z">
@@ -8208,6 +8216,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/firstExample/water&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125534Z" creationid="95" creationdate="20160522T125534Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在Gradle 的二进制及源码分发包的&lt;c2&gt;samples/userguide/multiproject/firstExample/water&lt;/c2&gt;中找到。。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/webApplication/quickstart&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085559Z" creationid="msdx" creationdate="20141030T085447Z">
@@ -9448,6 +9464,18 @@ Pinging: Server2</seg>
 :hello
 :projectA:hello
 :projectA:hello</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125912Z" creationid="95" creationdate="20160522T125912Z">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale</seg>
       </tuv>
     </tu>
     <tu>
@@ -11600,6 +11628,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And where is the build script for the &lt;c0&gt;bluewhale&lt;/c0&gt; project?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125624Z" creationid="95" creationdate="20160522T125624Z">
+        <seg>那么，&lt;c0&gt;bluewhale&lt;/c0&gt;项目的构建脚本在哪儿？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And you don't gain anything.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T070341Z" creationid="haohang" creationdate="20151201T070341Z">
@@ -12480,6 +12516,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T155217Z" creationid="msdx" creationdate="20141116T155217Z">
         <seg>BuildListener</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Building 'projectA:projectB:someTask' causes configuration of projectB.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T124942Z" creationid="95" creationdate="20160522T124942Z">
+        <seg>构建 “projectA:projectB:someTask”使项目B被配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13538,6 +13582,18 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080449Z" creationid="haohang" creationdate="20150722T080449Z">
         <seg>客户端模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Closure cl = { task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
+task hello &lt;&lt; cl
+project(&lt;s1&gt;':bluewhale'&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125908Z" creationid="95" creationdate="20160522T125908Z">
+        <seg>Closure cl = { task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
+task hello &lt;&lt; cl
+project(&lt;s1&gt;':bluewhale'&lt;/s1&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -14848,6 +14904,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T091347Z" creationid="haohang" creationdate="20160408T091347Z">
         <seg>每个工具链的实现都允许一定程度的配置（更多细节请参阅API文档）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Eager to try out this new feature?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T124959Z" creationid="95" creationdate="20160522T124959Z">
+        <seg>想尝试这一新功能？</seg>
       </tuv>
     </tu>
     <tu>
@@ -17532,6 +17596,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.1. Multi-project tree - water &amp; bluewhale projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125255Z" creationid="95" creationdate="20160522T125255Z">
+        <seg>示例 56.1. 多项目树- water &amp; bluewhale 项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.2. Build script of water (parent) project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125905Z" creationid="95" creationdate="20160522T125905Z">
+        <seg>示例 56.2. water（父）项目的构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -18876,6 +18956,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For multiproject builds the situation is different.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125813Z" creationid="95" creationdate="20160522T125813Z">
+        <seg>对于 multiproject 构建，这咱情况则不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For other &lt;c3&gt;ScalaCompile&lt;/c3&gt; tasks, &lt;c4&gt;scalaCompileOptions.incrementalOptions.publishedCode&lt;/c4&gt; needs to be configured to point to the classes folder or Jar archive by which the code is passed on to compile class paths of downstream &lt;c5&gt;ScalaCompile&lt;/c5&gt; tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T160304Z" creationid="msdx" creationdate="20150501T155734Z">
@@ -19568,6 +19656,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124535Z" creationid="msdx" creationdate="20141111T124448Z">
         <seg>Gradle 添加了一些概念和 API 来帮助您实现这一目标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle allows you to access any project of the multi-project build from any build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125915Z" creationid="95" creationdate="20160522T125915Z">
+        <seg>Gradle allows you to access any project of the multi-project build from any build script.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21772,6 +21868,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Gradle build scripts are optional.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125635Z" creationid="95" creationdate="20160522T125635Z">
+        <seg>在 Gradle 中，构建脚本是可选的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Gradle dependencies are grouped into configurations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T075138Z" creationid="haohang" creationdate="20150722T075058Z">
@@ -23501,6 +23605,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's look at the build script for the &lt;c1&gt;water&lt;/c1&gt; project and execute it:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125844Z" creationid="95" creationdate="20160522T125823Z">
+        <seg>让我们看看&lt;c1&gt;water&lt;/c1&gt;项目的构建脚本并执行它︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's run it a couple of times.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060410Z" creationid="msdx" creationdate="20141111T060257Z">
@@ -24465,6 +24577,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163935Z" creationid="msdx" creationdate="20141109T163935Z">
         <seg>获取构建的相关信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Obviously for a single project build, a project without a build script doesn't make much sense.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125759Z" creationid="95" creationdate="20160522T125759Z">
+        <seg>显然对于一个单项目构建，如果一个项目没有构建脚本是没道理的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34133,6 +34253,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is a multi-project build with a root project &lt;c0&gt;water&lt;/c0&gt; and a subproject &lt;c1&gt;bluewhale&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125211Z" creationid="95" creationdate="20160522T125134Z">
+        <seg>这是一个多项目构建，它有一个根项目&lt;c0&gt;water&lt;/c0&gt;，和一个子项目&lt;c1&gt;bluewhale&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is a reason why some projects prefer to store their libraries in their version control system.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T062401Z" creationid="haohang" creationdate="20151201T062401Z">
@@ -35313,6 +35441,22 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050845Z" creationid="Administrator" creationdate="20150427T050845Z">
         <seg>要配置一个现有的源集，你只需使用上面的其中一种访问方法来设置源集的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To configure on demand just for given build please see &lt;a1&gt;Appendix D, &lt;i2&gt;Gradle Command Line&lt;/i2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125116Z" creationid="95" creationdate="20160522T125116Z">
+        <seg>只对指定的构建按需配置，请参见&lt;a1&gt;附录 D， &lt;i2&gt;Gradle 命令行&lt;/i2&gt;&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To configure on demand with every build run see &lt;a0&gt;Section 20.1, “Configuring the build environment via gradle.properties”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125047Z" creationid="95" creationdate="20160522T125047Z">
+        <seg>要在每次构建时都按需配置，请参阅&lt;a0&gt;第 20.1 节，“通过 gradle.properties配置构建环境”&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36665,6 +36809,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160521T135648Z" creationid="95" creationdate="20160521T135648Z">
         <seg>在&lt;a0&gt;第 6.13 章，“使用DAG配置”&lt;/a0&gt;我们已经看到进了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We have the following project tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125130Z" creationid="95" creationdate="20160522T125130Z">
+        <seg>我们有以下的项目树。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40687,6 +40839,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160504T151036Z" creationid="95" creationdate="20160504T151036Z">
         <seg>binaries.withType(TestSuiteExecutableBinary) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>bluewhale/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125259Z" creationid="95" creationdate="20160522T125259Z">
+        <seg>bluewhale/</seg>
       </tuv>
     </tu>
     <tu>
@@ -44969,6 +45129,14 @@ gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T152813Z" creationid="95" creationdate="20160104T152813Z">
         <seg>inceptionYear &lt;s0&gt;'2008'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include &lt;s0&gt;'bluewhale'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125536Z" creationid="95" creationdate="20160522T125536Z">
+        <seg>include &lt;s0&gt;'bluewhale'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -50871,6 +51039,16 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task hello &lt;&lt; cl
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125909Z" creationid="95" creationdate="20160522T125909Z">
+        <seg>task hello &lt;&lt; cl
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T021014Z" creationid="msdx" creationdate="20141111T021014Z">
@@ -52196,6 +52374,14 @@ signing {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150509T132212Z" creationid="msdx" creationdate="20150509T132212Z">
         <seg>war_plugin.html#sec:default_settings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>water/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125257Z" creationid="95" creationdate="20160522T125257Z">
+        <seg>water/</seg>
       </tuv>
     </tu>
     <tu>
