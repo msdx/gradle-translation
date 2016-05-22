@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.5.4" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.6.0" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -6824,6 +6824,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.1.1. Configuration and execution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T025001Z" creationid="95" creationdate="20160522T025001Z">
+        <seg>56.1.1. 配置和执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>56.1. Cross project configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T024630Z" creationid="95" creationdate="20160522T024630Z">
+        <seg>56.1. 跨项目配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -7198,6 +7214,14 @@ This is executed during the execution phase.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T040034Z" creationid="msdx" creationdate="20141030T040034Z">
         <seg>&lt;a0&gt;上一章&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;目录&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;下一章&lt;/a4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Section 55.1, “Build phases”&lt;/a0&gt; describes the phases of every Gradle build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T025129Z" creationid="95" creationdate="20160522T025129Z">
+        <seg>&lt;a0&gt;第 55.1 节，“构建阶段”&lt;/a0&gt;描述了每个 Gradle 构建阶段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10972,6 +10996,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T093736Z" creationid="haohang" creationdate="20150707T093736Z">
         <seg>调整 java 编译器设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After all Gradle is a general purpose build tool at its core, so the projects don't have to be java projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T024945Z" creationid="95" creationdate="20160522T024945Z">
+        <seg>在全部 Gradle 的核心都是作为一个通用构建工具后，我们的项目并不一定得是个 java 项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23437,6 +23469,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's start with a very simple multi-project build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T024638Z" creationid="95" creationdate="20160522T024638Z">
+        <seg>让我们从一个非常简单的多项目构建开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's take a closer look at the &lt;c0&gt;sonarRunner.sonarProperties {}&lt;/c0&gt; block.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T232441Z" creationid="haohang" creationdate="20150525T232441Z">
@@ -23449,6 +23489,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T043016Z" creationid="msdx" creationdate="20141108T043016Z">
         <seg>下面我们来试试这个，试试访问&lt;c1&gt;Project&lt;/c1&gt;对象的&lt;c0&gt;name&lt;/c0&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's zoom into configuration and execution phases of a multi-project build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T025448Z" creationid="95" creationdate="20160522T025448Z">
+        <seg>Let's zoom into configuration and execution phases of a multi-project build.</seg>
       </tuv>
     </tu>
     <tu>
@@ -24769,6 +24817,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060729Z" creationid="msdx" creationdate="20141111T060729Z">
         <seg>我们的示例任务被用一个操作（action）闭包来定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Our first examples are about marine life.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T024956Z" creationid="95" creationdate="20160522T024946Z">
+        <seg>我们的第一个例子是关于海洋生活的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31919,8 +31975,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The powerful support for multi-project builds is one of Gradle's unique selling points.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160521T140827Z" creationid="95" creationdate="20160521T140827Z">
-        <seg>The powerful support for multi-project builds is one of Gradle's unique selling points.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T024605Z" creationid="95" creationdate="20160521T140827Z">
+        <seg>对多项目构建的强大支持是 Gradle 的独特优点之一。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34601,6 +34657,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095306Z" creationid="haohang" creationdate="20160408T095306Z">
         <seg>这个任务会为所命名的组件生成一个 Visual Studio Solution 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This topic is also the most intellectually challenging.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T024625Z" creationid="95" creationdate="20160522T024625Z">
+        <seg>本主题也是最具智力挑战性的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40599,6 +40663,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154833Z" creationid="msdx" creationdate="20141116T154833Z">
         <seg>build_lifecycle.html#build_lifecycle_events</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build_lifecycle.html#sec:build_phases</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T025002Z" creationid="95" creationdate="20160522T025002Z">
+        <seg>build_lifecycle.html#sec:build_phases</seg>
       </tuv>
     </tu>
     <tu>
