@@ -13750,6 +13750,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configuration on demand mode attempts to configure only projects that are relevant for requested tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T121724Z" creationid="95" creationdate="20160522T121440Z">
+        <seg>按需配置模式尝试只配置所请求的任务相关的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuration shared between subprojects can be configured in a &lt;c0&gt;subprojects&lt;/c0&gt; block.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150519T124447Z" creationid="msdx" creationdate="20150519T124447Z">
@@ -15064,6 +15072,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055546Z" creationid="msdx" creationdate="20141111T055546Z">
         <seg>每一项任务有一个默认值为&lt;c1&gt;true&lt;/c1&gt;的&lt;c0&gt;enabled&lt;/c0&gt;标记。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example: someTask.dependsOn(":someOtherProject:someOtherTask")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T124727Z" creationid="95" creationdate="20160522T124727Z">
+        <seg>示例：someTask.dependsOn(":someOtherProject:someOtherTask")</seg>
       </tuv>
     </tu>
     <tu>
@@ -20278,8 +20294,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Hence, starting from version 1.4 new incubating 'configuration on demand' mode is introduced.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160522T121143Z" creationid="95" creationdate="20160522T121143Z">
-        <seg>Hence, starting from version 1.4 new incubating 'configuration on demand' mode is introduced.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T121411Z" creationid="95" creationdate="20160522T121143Z">
+        <seg>因此，从 1.4 版本起，新引入了一个孵化功能“按需配置”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21016,6 +21032,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T074117Z" creationid="haohang" creationdate="20160519T074117Z">
         <seg>如果不是，构建将作为一个单项目构建来执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If project A has a compile dependency on project B then building A causes configuration of both projects: A and B.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T124634Z" creationid="95" creationdate="20160522T124634Z">
+        <seg>如果项目 A 对项目 B 有编译依赖，那么构建A的时候也会导致 A和B两个项目的配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21900,6 +21924,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In configuration on demand mode projects are configured as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T122044Z" creationid="95" creationdate="20160522T121957Z">
+        <seg>在按需配置的模式下项目会如下配置︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In contrast to Maven, where this path is fixed, with Gradle you can define a pattern that defines what the path will look like.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T134540Z" creationid="95" creationdate="20151006T134540Z">
@@ -22257,6 +22289,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151227T160646Z" creationid="95" creationdate="20151227T160110Z">
         <seg>在后者的情况下，这个仓库的 &lt;c3&gt;ivy.xml&lt;/c3&gt;描述符应该包含所有必要的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the long term, this mode will become the default mode, possibly the only mode for Gradle build execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T121821Z" creationid="95" creationdate="20160522T121821Z">
+        <seg>长远来看，这种模式将成为默认模式，可能会是 Gradle 构建执行的唯一模式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25517,6 +25557,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Project in the directory where the build is executed is also configured, but only when Gradle is executed without any tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T124418Z" creationid="95" creationdate="20160522T123940Z">
+        <seg>执行构建的所在目录的项目也会被配置，但是仅在Gradle 被执行但没有任务时。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150509T131640Z" creationid="msdx" creationdate="20150509T131640Z">
@@ -25873,6 +25921,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150508T131754Z" creationid="msdx" creationdate="20150508T131754Z">
         <seg> 重用和失效的守护程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Root project is always configured.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T122057Z" creationid="95" creationdate="20160522T122057Z">
+        <seg>根项目始终会被配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28169,6 +28225,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T131116Z" creationid="msdx" creationdate="20141110T131116Z">
         <seg>任务排序还是一个&lt;a0&gt;孵化中&lt;/a0&gt;的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Task requested via task path from the command line (or Tooling API) causes the relevant project configured.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T124854Z" creationid="95" creationdate="20160522T124854Z">
+        <seg>通过从命令行 （或Tooling API）任务路径所请求的任务会导致相关的项目被配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30757,6 +30821,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The configuration on demand feature is incubating so not every build is guaranteed to work correctly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T121902Z" creationid="95" creationdate="20160522T121851Z">
+        <seg>配置需求功能正在孵化中，所以还无法保证每次的构建都能正确。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The content of the generated visual studio files can be modified via programmatic hooks, provided by the &lt;c0&gt;visualStudio&lt;/c0&gt; extension.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T095540Z" creationid="haohang" creationdate="20160408T095540Z">
@@ -31225,6 +31297,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160705Z" creationid="msdx" creationdate="20141113T160705Z">
         <seg>归档文件的名称中的扩展名称部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The feature should work very well for multi-project builds that have decoupled projects (&lt;a0&gt;Section 56.9, “Decoupled Projects”&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T121955Z" creationid="95" creationdate="20160522T121852Z">
+        <seg>对于解耦的多项目构建，这个功能应该会运行得很好（&lt;a0&gt;第 56.9 节，“解耦项目”&lt;/a0&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32461,6 +32541,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The standard project dependencies are supported and makes relevant projects configured.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T124553Z" creationid="95" creationdate="20160522T124420Z">
+        <seg>标准项目的依赖也被支持，并且使相关的项目也被配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The storage path for a downloaded artifact includes the SHA1 checksum, meaning that 2 artifacts with the same name but different content can easily be cached.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T042727Z" creationid="95" creationdate="20151129T042324Z">
@@ -32513,6 +32601,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T091910Z" creationid="msdx" creationdate="20141110T091902Z">
         <seg>可以使用它的 API 来配置这个任务 （见&lt;a0&gt;&lt;c1&gt;Copy&lt;/c1&gt;&lt;/a0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The task dependencies declared via task path are supported and cause relevant projects configured.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T124703Z" creationid="95" creationdate="20160522T124703Z">
+        <seg>通过任务路径定义的任务依赖也被支持，并且会导致相关的项目被配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34765,6 +34861,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This way the default tasks behave correctly when projects are configured on demand.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T124517Z" creationid="95" creationdate="20160522T123957Z">
+        <seg>这种方式当项目按需配置时默认任务的行为正确。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This way the dependency declaration is more explicit.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T102148Z" creationid="haohang" creationdate="20150801T102148Z">
@@ -34773,10 +34877,26 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This way the typical common configuration is supported (allprojects or subprojects script blocks).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T122153Z" creationid="95" creationdate="20160522T122153Z">
+        <seg>这种方式的典型常见配置已经支持（allprojects 或subprojects 脚本块）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This way you can force Gradle to rebuild the cache.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T153802Z" creationid="msdx" creationdate="20141109T153802Z">
         <seg>通过这种方式，您可以强制 Gradle 重新生成缓存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This way, the configuration time of a large multi-project build is greatly improved.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T121749Z" creationid="95" creationdate="20160522T121749Z">
+        <seg>这种方式，大大提高了大型多项目构建的配置时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46649,6 +46769,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T052430Z" creationid="msdx" creationdate="20141120T052430Z">
         <seg>multi_project_builds.html#sec:configuration_on_demand</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi_project_builds.html#sec:decoupled_projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160522T121412Z" creationid="95" creationdate="20160522T121412Z">
+        <seg>multi_project_builds.html#sec:decoupled_projects</seg>
       </tuv>
     </tu>
     <tu>
