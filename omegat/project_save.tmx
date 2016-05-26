@@ -8216,10 +8216,18 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/addKrill/water&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T155344Z" creationid="95" creationdate="20160526T155344Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在Gradle 的二进制及源码分发包的&lt;c2&gt;samples/userguide/multiproject/addKrill/water&lt;/c2&gt;中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/firstExample/water&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125534Z" creationid="95" creationdate="20160522T125534Z">
-        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在Gradle 的二进制及源码分发包的&lt;c2&gt;samples/userguide/multiproject/firstExample/water&lt;/c2&gt;中找到。。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T155348Z" creationid="95" creationdate="20160522T125534Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在Gradle 的二进制及源码分发包的&lt;c2&gt;samples/userguide/multiproject/firstExample/water&lt;/c2&gt;中找到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17612,6 +17620,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.3. Multi-project tree - water, bluewhale &amp; krill projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T155319Z" creationid="95" creationdate="20160526T155319Z">
+        <seg>示例 56.3. 多项目树- water &amp; bluewhale &amp; krill 项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -19662,8 +19678,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Gradle allows you to access any project of the multi-project build from any build script.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160522T125915Z" creationid="95" creationdate="20160522T125915Z">
-        <seg>Gradle allows you to access any project of the multi-project build from any build script.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T154711Z" creationid="95" creationdate="20160522T125915Z">
+        <seg>Gradle 允许你从任何构建脚本访问多项目构建的任意一个project。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19816,6 +19832,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T094959Z" creationid="haohang" creationdate="20160408T094959Z">
         <seg>Gradle 可以为在你的构建中定义的本地组件生成生成 Visual Studio 项目及解决方案文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle implements this via &lt;e2&gt;configuration injection&lt;/e2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T155020Z" creationid="95" creationdate="20160526T155020Z">
+        <seg>Gradle 通过&lt;e2&gt;configuration injection&lt;/e2&gt;来实现它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23005,6 +23029,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is inconvenient to add the task explicitly for every project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T155207Z" creationid="95" creationdate="20160526T155207Z">
+        <seg>因为要为每一个project 添加任务显示很不方便。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is ironic that in a language known for its rich library of open source components that Java has no concept of libraries or versions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T073811Z" creationid="haohang" creationdate="20150716T073811Z">
@@ -23577,6 +23609,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151120Z" creationid="msdx" creationdate="20141123T151120Z">
         <seg>让我们来看看：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's first add another project called &lt;c1&gt;krill&lt;/c1&gt; to our multi-project build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T155250Z" creationid="95" creationdate="20160526T155250Z">
+        <seg>让我们先添加另一个叫做&lt;c1&gt;krill&lt;/c1&gt;的项目到我们的多项目构建中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24513,6 +24553,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T134333Z" creationid="95" creationdate="20151006T134333Z">
         <seg>现在 Gradle 是如何发现它在存储库中的?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now we rewrite the &lt;c0&gt;water&lt;/c0&gt; build script and boil it down to a single line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T155442Z" creationid="95" creationdate="20160526T155442Z">
+        <seg>现在我们改写&lt;c0&gt;water&lt;/c0&gt;的构建脚本，并把它归结成为一行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30309,6 +30357,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Project API provides a method called &lt;c0&gt;project()&lt;/c0&gt;, which takes a path as an argument and returns the Project object for this path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T154755Z" creationid="95" creationdate="20160526T154755Z">
+        <seg>Project API 提供了一个叫做&lt;c0&gt;project()&lt;/c0&gt;的方法，它将路径作为参数，返回此路径的Project 对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Project report plugin adds some tasks to your project which generate reports containing useful information about your build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150626T095308Z" creationid="haohang" creationdate="20150626T095308Z">
@@ -30833,6 +30889,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160518T150726Z" creationid="95" creationdate="20160518T150726Z">
         <seg>属于构建的&lt;s0&gt;&lt;e1&gt;所有&lt;/e1&gt;&lt;/s0&gt; projects 的构建脚本都会被执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The capability to configure a project build from any build script we call &lt;e1&gt;cross project configuration&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T154952Z" creationid="95" creationdate="20160526T154952Z">
+        <seg>而这种从其他构建脚本配置一个项目构建的能力，我们叫做 &lt;e1&gt;交叉项目配置&lt;/e1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36709,6 +36773,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We are not that happy with the build script of the &lt;c0&gt;water&lt;/c0&gt; project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T155126Z" creationid="95" creationdate="20160526T155126Z">
+        <seg>我们对这个 &lt;c0&gt;water&lt;/c0&gt; 项目的构建脚本不是很满意。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We came up with several use cases where the daemon is very useful.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T132801Z" creationid="msdx" creationdate="20141117T131823Z">
@@ -36729,6 +36801,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T074603Z" creationid="msdx" creationdate="20141124T073757Z">
         <seg>我们可以通过这个源码集修改写入类文件的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We can do better.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T155223Z" creationid="95" creationdate="20160526T155223Z">
+        <seg>我们可以进行改善。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45141,6 +45221,14 @@ gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>include &lt;s0&gt;'bluewhale'&lt;/s0&gt;, &lt;s1&gt;'krill'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T155400Z" creationid="95" creationdate="20160526T155400Z">
+        <seg>include &lt;s0&gt;'bluewhale'&lt;/s0&gt;, &lt;s1&gt;'krill'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>include &lt;s0&gt;'project1'&lt;/s0&gt;, &lt;s1&gt;'project2:child'&lt;/s1&gt;, &lt;s2&gt;'project3:child1'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041332Z" creationid="haohang" creationdate="20160519T041332Z">
@@ -46183,6 +46271,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150430T160055Z" creationid="msdx" creationdate="20150430T160055Z">
         <seg>jvmArgs = [&lt;s1&gt;'-XX:MaxPermSize=512m'&lt;/s1&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>krill/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160526T155321Z" creationid="95" creationdate="20160526T155321Z">
+        <seg>krill/</seg>
       </tuv>
     </tu>
     <tu>
