@@ -9489,6 +9489,20 @@ I'm bluewhale</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+I'm krill</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T161033Z" creationid="95" creationdate="20160527T161033Z">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+I'm krill</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
 configuring root project 'configureProjectUsingScript'
 hello from other script</seg>
       </tuv>
@@ -11616,6 +11630,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T152303Z" creationid="msdx" creationdate="20150514T152303Z">
         <seg>分析一个项目的层次结果还可以比单独分析每个项目花费更省时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>And how does this work?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T161155Z" creationid="95" creationdate="20160527T161155Z">
+        <seg>它是怎么实现的？</seg>
       </tuv>
     </tu>
     <tu>
@@ -17628,6 +17650,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.4. Water project build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T161028Z" creationid="95" creationdate="20160527T161028Z">
+        <seg>示例 56.4. Water项目构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -22681,6 +22711,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161840Z" creationid="msdx" creationdate="20141109T161840Z">
         <seg>介绍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Is this cool or is this cool?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T161145Z" creationid="95" creationdate="20160527T161145Z">
+        <seg>是刚才的那个酷还是现在的这个酷？</seg>
       </tuv>
     </tu>
     <tu>
@@ -51149,6 +51187,16 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T021014Z" creationid="msdx" creationdate="20141111T021014Z">
         <seg>task hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task hello &lt;&lt; { task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T161029Z" creationid="95" creationdate="20160527T161029Z">
+        <seg>task hello &lt;&lt; { task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
+}</seg>
       </tuv>
     </tu>
     <tu>
