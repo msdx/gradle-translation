@@ -21522,6 +21522,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you call &lt;c1&gt;allprojects&lt;/c1&gt; with a closure, the statements of the closure are delegated to the projects associated with &lt;c2&gt; allprojects&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T161639Z" creationid="95" creationdate="20160527T161639Z">
+        <seg>如果你使用一个闭包调用&lt;c1&gt;allprojects&lt;/c1&gt;，这个闭包的声明会被委托给与&lt;c2&gt;allprojects&lt;/c2&gt;关联的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you declare a module dependency, Gradle looks for a corresponding module descriptor file (&lt;c0&gt;pom.xml&lt;/c0&gt; or &lt;c1&gt;ivy.xml&lt;/c1&gt;) in the repositories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T035152Z" creationid="haohang" creationdate="20150724T035152Z">
@@ -30399,6 +30407,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160526T154755Z" creationid="95" creationdate="20160526T154755Z">
         <seg>Project API 提供了一个叫做&lt;c0&gt;project()&lt;/c0&gt;的方法，它将路径作为参数，返回此路径的Project 对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Project API provides a property &lt;c0&gt;allprojects&lt;/c0&gt; which returns a list with the current project and all its subprojects underneath it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T161425Z" creationid="95" creationdate="20160527T161425Z">
+        <seg>Project API 提供了一个&lt;c0&gt;allprojects&lt;/c0&gt; 属性，它返回一个当前项目的list，该项目的所有子项目都在这个list中。</seg>
       </tuv>
     </tu>
     <tu>
