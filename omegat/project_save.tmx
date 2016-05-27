@@ -6856,6 +6856,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.2. Subproject configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162137Z" creationid="95" creationdate="20160527T162137Z">
+        <seg>56.2. 子项目配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -12594,6 +12602,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T160554Z" creationid="msdx" creationdate="20141109T160427Z">
         <seg>但 Gradle 让任务的概念更深远。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But Gradle uses configuration injection as the usual way of defining common behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162045Z" creationid="95" creationdate="20160527T162045Z">
+        <seg>但 Gradle 使用配置注入来作为定义共同行为的常用方式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25003,6 +25019,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Other build systems use inheritance as the primary means for defining common behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T161953Z" creationid="95" creationdate="20160527T161953Z">
+        <seg>其他构建系统使用继承作为主要手段，用于定义常见的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Other examples of the dependency exclusions can be found in the reference for &lt;a0&gt;&lt;c1&gt;ModuleDependency&lt;/c1&gt;&lt;/a0&gt; or &lt;a2&gt;&lt;c3&gt;DependencyHandler&lt;/c3&gt;&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103044Z" creationid="haohang" creationdate="20150801T103044Z">
@@ -36819,6 +36843,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We also offer inheritance for projects as you will see later.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162007Z" creationid="95" creationdate="20160527T162007Z">
+        <seg>稍后您将看到，我们也提供了项目继承。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We also support the same mechanism for system properties.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T145748Z" creationid="msdx" creationdate="20141109T145644Z">
@@ -37007,6 +37039,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T153755Z" creationid="msdx" creationdate="20141123T153755Z">
         <seg>在上面的示例中我们看到，Java 插件添加了一个任务，名字为&lt;c0&gt;compileJava&lt;/c0&gt;  ，有一个名为&lt;c1&gt;destinationDir&lt;/c1&gt; 的属性（即配置编译的 Java 代码存放的地方）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We think it provides a very powerful and flexible way of configuring multiproject builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162124Z" creationid="95" creationdate="20160527T162124Z">
+        <seg>我们认为它提供了配置 multiproject 的构建非常强大和灵活的方式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38879,6 +38919,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T083611Z" creationid="Administrator" creationdate="20150426T083611Z">
         <seg>你可以通过配置适当的源集，来配置项目的布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You could also do an iteration via &lt;c3&gt;allprojects.each&lt;/c3&gt;, but that would be more verbose.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T161905Z" creationid="95" creationdate="20160527T161905Z">
+        <seg>你也可以通过&lt;c3&gt;allprojects.each&lt;/c3&gt;来进行迭代，不过这样写会比较冗长。</seg>
       </tuv>
     </tu>
     <tu>
