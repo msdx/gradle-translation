@@ -9516,6 +9516,22 @@ I'm bluewhale</seg>
 I'm water
 I'm bluewhale
 - I depend on water
+- I'm the largest animal that has ever lived on this planet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162903Z" creationid="95" creationdate="20160527T162903Z">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
+- I'm the largest animal that has ever lived on this planet.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
 I'm krill
 - I depend on water</seg>
       </tuv>
@@ -12028,6 +12044,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As we have said, we usually prefer to put project specific behavior into the build script of this project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T163158Z" creationid="95" creationdate="20160527T162912Z">
+        <seg>正如前面所说的，我们通常更愿意把项目的特定行为放到这个项目的构建脚本中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As well as configuring how things are to be signed (i.e. the signatory configuration), you must also specify what is to be signed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160108T153255Z" creationid="95" creationdate="20160108T153255Z">
@@ -12650,8 +12674,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>But as we have already seen, we don't have to do it this way.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162707Z" creationid="95" creationdate="20160527T162707Z">
-        <seg>但正如我们已经看到的，我们不需要这样做。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T163144Z" creationid="95" creationdate="20160527T162707Z">
+        <seg>但正如我们已经看到的，我们可以不这样做。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17724,6 +17748,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.6. Defining specific behaviour for particular project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T163154Z" creationid="95" creationdate="20160527T162856Z">
+        <seg>示例 56.6. 为特定项目定义特定行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -20900,6 +20932,16 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>I'm krill
+- I depend on water</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162906Z" creationid="95" creationdate="20160527T162906Z">
+        <seg>I'm krill
+- I depend on water</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>IDEA plugin provides hooks and behavior for customizing the generated content.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073119Z" creationid="haohang" creationdate="20150625T072736Z">
@@ -23761,6 +23803,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T125844Z" creationid="95" creationdate="20160522T125823Z">
         <seg>让我们看看&lt;c1&gt;water&lt;/c1&gt;项目的构建脚本并执行它︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's refactor and also add some project specific behavior to the &lt;c0&gt;krill&lt;/c0&gt; project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T163204Z" creationid="95" creationdate="20160527T163059Z">
+        <seg>让我们重构并且向&lt;c0&gt;krill&lt;/c0&gt;项目添加一些项目特定的行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36775,8 +36825,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>Usually we put the project specific behavior in the build script of the project where we want to apply this specific behavior.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162645Z" creationid="95" creationdate="20160527T162552Z">
-        <seg>通常我们把项目的具体行为放到我们想在添加这个具体行为的项目的构建脚本里。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T163133Z" creationid="95" creationdate="20160527T162552Z">
+        <seg>通常我们会把项目的特定行为放到我们想添加的这个项目的构建脚本里。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36969,6 +37019,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T061508Z" creationid="95" creationdate="20151115T061445Z">
         <seg>我们可以强制所有这些库使用一致的版本：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We could add project specific behavior for the &lt;c0&gt;bluewhale&lt;/c0&gt; project like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T163148Z" creationid="95" creationdate="20160527T162736Z">
+        <seg>我们可以这样为&lt;c0&gt;bluewhale&lt;/c0&gt;项目添加特定行为︰</seg>
       </tuv>
     </tu>
     <tu>
@@ -38095,8 +38153,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>You can add specific behavior on top of the common behavior.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162614Z" creationid="95" creationdate="20160527T162440Z">
-        <seg>你可以在共同行为上面再添加具体的行为。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T163107Z" creationid="95" creationdate="20160527T162440Z">
+        <seg>你可以在共同行为上面再添加特定的行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44689,6 +44747,18 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>hello &lt;&lt; {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}
+}
+project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162900Z" creationid="95" creationdate="20160527T162900Z">
+        <seg>hello &lt;&lt; {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}
+}
+project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>hello {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T090546Z" creationid="haohang" creationdate="20160225T090546Z">
@@ -48353,6 +48423,16 @@ taskZ.shouldRunAfter taskX</seg>
 taskX.dependsOn taskY
 taskY.dependsOn taskZ
 taskZ.shouldRunAfter taskX</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162902Z" creationid="95" creationdate="20160527T162902Z">
+        <seg>println &lt;s3&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s3&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
