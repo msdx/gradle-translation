@@ -6856,6 +6856,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.2.1. Defining common behavior</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162233Z" creationid="95" creationdate="20160527T162233Z">
+        <seg>56.2.1. 定义共同行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>56.2.2. Adding specific behavior</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162408Z" creationid="95" creationdate="20160527T162408Z">
+        <seg>56.2.2. 添加特定的行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.2. Subproject configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T162137Z" creationid="95" creationdate="20160527T162137Z">
@@ -9492,6 +9508,24 @@ I'm bluewhale</seg>
         <seg>&gt; gradle -q hello
 I'm water
 I'm bluewhale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
+I'm krill
+- I depend on water</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162359Z" creationid="95" creationdate="20160527T162359Z">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
+I'm krill
+- I depend on water</seg>
       </tuv>
     </tu>
     <tu>
@@ -12610,6 +12644,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T162045Z" creationid="95" creationdate="20160527T162045Z">
         <seg>但 Gradle 使用配置注入来作为定义共同行为的常用方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But as we have already seen, we don't have to do it this way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162707Z" creationid="95" creationdate="20160527T162707Z">
+        <seg>但正如我们已经看到的，我们不需要这样做。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17670,6 +17712,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T161028Z" creationid="95" creationdate="20160527T161028Z">
         <seg>示例 56.4. Water项目构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.5. Defining common behaviour of all projects and subprojects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162314Z" creationid="95" creationdate="20160527T162256Z">
+        <seg>示例 56.5. 定义所有项目以及子项目的共同行为</seg>
       </tuv>
     </tu>
     <tu>
@@ -25021,8 +25071,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>Other build systems use inheritance as the primary means for defining common behavior.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160527T161953Z" creationid="95" creationdate="20160527T161953Z">
-        <seg>其他构建系统使用继承作为主要手段，用于定义常见的行为。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162327Z" creationid="95" creationdate="20160527T161953Z">
+        <seg>其他构建系统使用继承作为主要手段，用于定义共同的行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30423,6 +30473,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T164847Z" creationid="msdx" creationdate="20141109T164847Z">
         <seg>Project API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Project API also provides a property for accessing the subprojects only.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162221Z" creationid="95" creationdate="20160527T162221Z">
+        <seg>Project API 还提供了一个属性只用于访问子项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36715,6 +36773,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Usually we put the project specific behavior in the build script of the project where we want to apply this specific behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162645Z" creationid="95" creationdate="20160527T162552Z">
+        <seg>通常我们把项目的具体行为放到我们想在添加这个具体行为的项目的构建脚本里。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Usually, a real project will require more than this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065822Z" creationid="msdx" creationdate="20141030T065822Z">
@@ -38023,6 +38089,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T032421Z" creationid="haohang" creationdate="20150701T032421Z">
         <seg>你可以通过配置作为窗口一部分的 &lt;a3&gt;&lt;c4&gt;Distribution&lt;/c4&gt;&lt;/a3&gt; 对象，来添加额外的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can add specific behavior on top of the common behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162614Z" creationid="95" creationdate="20160527T162440Z">
+        <seg>你可以在共同行为上面再添加具体的行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44601,6 +44675,16 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160504T151338Z" creationid="95" creationdate="20160504T151338Z">
         <seg>headers.srcDir &lt;s2&gt;"lib/cunit/2.1-2/include"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>hello &lt;&lt; {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162340Z" creationid="95" creationdate="20160527T162340Z">
+        <seg>hello &lt;&lt; {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -51261,6 +51345,18 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T161029Z" creationid="95" creationdate="20160527T161029Z">
         <seg>task hello &lt;&lt; { task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task hello &lt;&lt; {task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
+}
+subprojects {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160527T162339Z" creationid="95" creationdate="20160527T162302Z">
+        <seg>task hello &lt;&lt; {task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
+}
+subprojects {</seg>
       </tuv>
     </tu>
     <tu>
