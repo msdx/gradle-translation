@@ -526,6 +526,14 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>(See &lt;a0&gt;Section 13.4.2, “Extra properties”&lt;/a0&gt; for more information on extra properties.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144340Z" creationid="95" creationdate="20160530T144340Z">
+        <seg>（有关额外属性的更多信息，请参见&lt;a0&gt;第 13.4.2 节，“额外属性”&lt;/a0&gt;。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>(The Cygwin runtime is not yet modelled as part of the Platform, but will be in the future.)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092524Z" creationid="haohang" creationdate="20160408T092404Z">
@@ -546,6 +554,14 @@ int suite_init(void) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141126T120903Z" creationid="msdx" creationdate="20141126T120903Z">
         <seg>-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>- I love to spend time in the arctic waters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144441Z" creationid="95" creationdate="20160530T144441Z">
+        <seg>- I love to spend time in the arctic waters.</seg>
       </tuv>
     </tu>
     <tu>
@@ -6898,8 +6914,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>56.2.3.2. Filtering by properties</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144113Z" creationid="95" creationdate="20160530T144113Z">
-        <seg>56.2.3.2. 通过属性过滤</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144247Z" creationid="95" creationdate="20160530T144113Z">
+        <seg>56.2.3.2. 通过属性筛选</seg>
       </tuv>
     </tu>
     <tu>
@@ -6916,6 +6932,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T162137Z" creationid="95" creationdate="20160527T162137Z">
         <seg>56.2. 子项目配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>56.3. Execution rules for multi-project builds</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T151540Z" creationid="95" creationdate="20160530T151540Z">
+        <seg>56.3. 多项目构建的执行规则</seg>
       </tuv>
     </tu>
     <tu>
@@ -8312,6 +8336,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/tropicalWithProperties/water&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144406Z" creationid="95" creationdate="20160530T144406Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在Gradle 的二进制及源码分发包的&lt;c2&gt;samples/userguide/multiproject/tropicalWithProperties/water&lt;/c2&gt;中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/webApplication/quickstart&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085559Z" creationid="msdx" creationdate="20141030T085447Z">
@@ -8976,6 +9008,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (project.arctic) { doLast {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144431Z" creationid="95" creationdate="20160530T144431Z">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (project.arctic) { doLast {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;if&lt;/s2&gt; (toolChain in VisualCpp &amp;&amp; buildType == buildTypes.debug) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090618Z" creationid="haohang" creationdate="20160401T090618Z">
@@ -9552,6 +9592,20 @@ Pinging: Server2</seg>
 :hello
 :projectA:hello
 :projectA:hello</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+I'm bluewhale
+- I depend on water
+- I'm the largest animal that has ever lived on this planet.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T152047Z" creationid="95" creationdate="20160530T152047Z">
+        <seg>&gt; gradle -q hello
+I'm bluewhale
+- I depend on water
+- I'm the largest animal that has ever lived on this planet.</seg>
       </tuv>
     </tu>
     <tu>
@@ -11444,6 +11498,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All the &lt;c1&gt;hello&lt;/c1&gt; tasks of the different projects were executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T151942Z" creationid="95" creationdate="20160530T151942Z">
+        <seg>不同项目的所有&lt;c1&gt;hello&lt;/c1&gt;任务被都会被执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All the Groovy source directories can contain Groovy &lt;s1&gt;&lt;e2&gt;and&lt;/e2&gt;&lt;/s1&gt; Java code.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T074837Z" creationid="msdx" creationdate="20150429T074749Z">
@@ -12088,6 +12150,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T040651Z" creationid="msdx" creationdate="20141108T040415Z">
         <seg>当构建脚本执行时，它会配置此&lt;c6&gt;Project&lt;/c6&gt;对象：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As the property &lt;c4&gt;arctic&lt;/c4&gt; is set in those build scripts, we have to do it this way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T151336Z" creationid="95" creationdate="20160530T151336Z">
+        <seg>由于&lt;c4&gt;arctic&lt;/c4&gt;属性被设置在那些构建脚本中，我们不得不这样做。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17788,6 +17858,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.10. Running build from subproject</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T152024Z" creationid="95" creationdate="20160530T152024Z">
+        <seg>示例 56.10. 从子项目的运行构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T125905Z" creationid="95" creationdate="20160522T125905Z">
@@ -17840,6 +17918,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T163808Z" creationid="95" creationdate="20160527T163808Z">
         <seg>示例 56.8. 将自定义行为添加到某些项目中（按项目名称筛选）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.9. Adding custom behaviour to some projects (filtered by project properties)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144356Z" creationid="95" creationdate="20160530T144356Z">
+        <seg>示例 56.9. 将自定义行为添加到某些项目中（按项目属性筛选）</seg>
       </tuv>
     </tu>
     <tu>
@@ -19860,6 +19946,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle &lt;s3&gt;&lt;e4&gt;always&lt;/e4&gt;&lt;/s3&gt; evaluates &lt;s5&gt;&lt;e6&gt;every&lt;/e6&gt;&lt;/s5&gt; project of the multi-project build and creates all existing task objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T152507Z" creationid="95" creationdate="20160530T152507Z">
+        <seg>Gradle &lt;s3&gt;&lt;e4&gt;always&lt;/e4&gt;&lt;/s3&gt; evaluates &lt;s5&gt;&lt;e6&gt;every&lt;/e6&gt;&lt;/s5&gt; project of the multi-project build and creates all existing task objects.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle API dependency</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T080634Z" creationid="haohang" creationdate="20150722T080634Z">
@@ -20072,6 +20166,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T044809Z" creationid="95" creationdate="20151129T043908Z">
         <seg>Gradle 以二进制格式在元数据缓存中保留了依赖解析的各方面的记录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle looks down the hierarchy, starting with the &lt;s0&gt;&lt;e1&gt;current dir&lt;/e1&gt;&lt;/s0&gt;, for tasks with the name &lt;c2&gt;hello&lt;/c2&gt; an executes them.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T152356Z" creationid="95" creationdate="20160530T152356Z">
+        <seg>Gradle 从&lt;s0&gt;&lt;e1&gt;当前目录&lt;/e1&gt;&lt;/s0&gt;开始，按层次结构往下查找名称为&lt;c2&gt;hello&lt;/c2&gt;任务，开始执行它们。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22577,6 +22679,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the build file of the &lt;c0&gt;water&lt;/c0&gt; project we use an &lt;c1&gt;afterEvaluate&lt;/c1&gt; notification.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144519Z" creationid="95" creationdate="20160530T144519Z">
+        <seg>在这个&lt;c0&gt;water&lt;/c0&gt;项目的构建文件中，我们使用了一个&lt;c1&gt;afterEvaluate&lt;/c1&gt;通知。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the build script, the developer declares dependencies with the module group and name, but uses a placeholder version, for example: '&lt;c0&gt;default&lt;/c0&gt;'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T070316Z" creationid="95" creationdate="20151115T070316Z">
@@ -23985,6 +24095,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's switch to the &lt;c2&gt;bluewhale&lt;/c2&gt; dir and see what happens if we execute Gradle from there.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T152010Z" creationid="95" creationdate="20160530T151955Z">
+        <seg>让我们切换到&lt;c2&gt;bluewhale&lt;/c2&gt;目录，看看如果我们从那里执行 Gradle 会发生什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's take a closer look at the &lt;c0&gt;sonarRunner.sonarProperties {}&lt;/c0&gt; block.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T232441Z" creationid="haohang" creationdate="20150525T232441Z">
@@ -25109,6 +25227,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T142351Z" creationid="msdx" creationdate="20141121T142024Z">
         <seg>其中可以去看的一个地方是 Ant 项目的一个文件中的常量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One thing is very important to note.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T152423Z" creationid="95" creationdate="20160530T152423Z">
+        <seg>注意，有一件事情很重要。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31153,6 +31279,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The basic rule behind Gradle's behavior is simple.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T152222Z" creationid="95" creationdate="20160530T152100Z">
+        <seg>Gradle 的行为背后的基本规则是很简单的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The build announcements plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091419Z" creationid="haohang" creationdate="20150628T091419Z">
@@ -35033,6 +35167,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means that the closure we are passing gets evaluated &lt;s2&gt;&lt;e3&gt;after&lt;/e3&gt;&lt;/s2&gt; the build scripts of the subproject are evaluated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T151251Z" creationid="95" creationdate="20160530T151251Z">
+        <seg>这意味着我们所传的闭包在子项目的构建脚本评估&lt;s2&gt;&lt;e3&gt;之后&lt;/e3&gt;&lt;/s2&gt;才被评估。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means that the inclusion of the path 'services:hotels:api' will result in creating 3 projects: 'services', 'services:hotels' and 'services:hotels:api'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041843Z" creationid="haohang" creationdate="20160519T041843Z">
@@ -36889,6 +37031,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using extra project properties is another.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144300Z" creationid="95" creationdate="20160530T144300Z">
+        <seg>或者是使用额外的项目属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using methods</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163329Z" creationid="msdx" creationdate="20141109T163329Z">
@@ -36933,6 +37083,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141150Z" creationid="Administrator" creationdate="20150330T141150Z">
         <seg>使用归档文件的内容作为文件树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using the project name for filtering is one option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144242Z" creationid="95" creationdate="20160530T144242Z">
+        <seg>我们可以选择使用project的名称来筛选，</seg>
       </tuv>
     </tu>
     <tu>
@@ -37709,6 +37867,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T153208Z" creationid="95" creationdate="20160324T153150Z">
         <seg>当使用&lt;a0&gt;&lt;c1&gt;VisualCpp&lt;/c1&gt;&lt;/a0&gt;工具链时，Gradle 时能够编译Window Resource (&lt;c2&gt;rc&lt;/c2&gt;) 文件并将它们链接到本地的二进制文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When we have executed the &lt;c0&gt;hello&lt;/c0&gt; task from the root project dir things behaved in an intuitive way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T151959Z" creationid="95" creationdate="20160530T151924Z">
+        <seg>当我们从根项目的目录执行了&lt;c0&gt;hello&lt;/c0&gt;任务时，事情会以一种直观的方式来表现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39521,6 +39687,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You will find more on this topic in &lt;a5&gt;Section 56.6, “Dependencies - Which dependencies?”&lt;/a5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T151528Z" creationid="95" creationdate="20160530T151516Z">
+        <seg>在 &lt;a5&gt;第 56.6 节， “依赖——哪些依赖”&lt;/a5&gt;，你可以看到更多关于这个主题的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You will need to provide values for some additional properties.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T150016Z" creationid="msdx" creationdate="20141113T145958Z">
@@ -39757,6 +39931,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T070714Z" creationid="Administrator" creationdate="20150425T070714Z">
         <seg>添加上传&lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>afterEvaluate { Project project -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144430Z" creationid="95" creationdate="20160530T144430Z">
+        <seg>afterEvaluate { Project project -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -43477,6 +43659,14 @@ artifacts {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>doLast {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144429Z" creationid="95" creationdate="20160530T144429Z">
+        <seg>doLast {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>doLast{</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134202Z" creationid="msdx" creationdate="20141113T134202Z">
@@ -43939,6 +44129,34 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160225T090554Z" creationid="haohang" creationdate="20160225T090554Z">
         <seg>exportedHeaders {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.arctic = false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144427Z" creationid="95" creationdate="20160530T144427Z">
+        <seg>ext.arctic = false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.arctic = true
+hello.doLast {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144425Z" creationid="95" creationdate="20160530T144425Z">
+        <seg>ext.arctic = true
+hello.doLast {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.arctic = true
+hello.doLast { println &lt;s0&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s0&gt; }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144412Z" creationid="95" creationdate="20160530T144412Z">
+        <seg>ext.arctic = true
+hello.doLast { println &lt;s0&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s0&gt; }</seg>
       </tuv>
     </tu>
     <tu>
@@ -47501,6 +47719,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>multi_project_builds.html#sec:dependencies_which_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144447Z" creationid="95" creationdate="20160530T144447Z">
+        <seg>multi_project_builds.html#sec:dependencies_which_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>multi_project_builds.html#sec:running_partial_build_from_the_root</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075358Z" creationid="haohang" creationdate="20160519T075358Z">
@@ -48699,6 +48925,14 @@ gradle.taskGraph.afterTask { Task task, TaskState state -&gt;</seg>
 }
 
 gradle.taskGraph.afterTask { Task task, TaskState state -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;'- I love to spend time in the arctic waters.'&lt;/s3&gt; }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144439Z" creationid="95" creationdate="20160530T144439Z">
+        <seg>println &lt;s3&gt;'- I love to spend time in the arctic waters.'&lt;/s3&gt; }</seg>
       </tuv>
     </tu>
     <tu>
@@ -52174,6 +52408,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T163810Z" creationid="95" creationdate="20160527T163810Z">
         <seg>tropicalFish/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tropicalFish/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160530T144426Z" creationid="95" creationdate="20160530T144426Z">
+        <seg>tropicalFish/build.gradle</seg>
       </tuv>
     </tu>
     <tu>
