@@ -9414,6 +9414,22 @@ systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q :hello :krill:hello hello
+I'm water
+I'm krill
+- I depend on water
+- The weight of my species in summer is twice as heavy as all human beings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T091719Z" creationid="haohang" creationdate="20160715T091719Z">
+        <seg>&gt; gradle -q :hello :krill:hello hello
+I'm water
+I'm krill
+- I depend on water
+- The weight of my species in summer is twice as heavy as all human beings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q a
 source dir is src/main/java</seg>
       </tuv>
@@ -11446,6 +11462,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All matching task names of the project hierarchy starting with the current dir are executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T091607Z" creationid="haohang" creationdate="20160715T091607Z">
+        <seg>从当前目录开始的该项目层级里，所有名称匹配的任务会被执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All of Gradle's scripting features can be leveraged to configure Sonar Runner as needed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T055919Z" creationid="msdx" creationdate="20150513T055919Z">
@@ -12838,6 +12862,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T070912Z" creationid="haohang" creationdate="20160519T070757Z">
         <seg>但 Gradle 也允许你在属于这个构建的任何子项目中去执行构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But Gradle also offers to execute tasks by their absolute path (see also &lt;a0&gt;Section 56.5, “Project and task paths”&lt;/a0&gt;):</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T091650Z" creationid="haohang" creationdate="20160715T091650Z">
+        <seg>但 Gradle 也提供了按绝对路径执行任务（见&lt;a0&gt;第56.5节，“项目和任务路径”&lt;/a0&gt;）︰</seg>
       </tuv>
     </tu>
     <tu>
@@ -17938,6 +17970,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T080046Z" creationid="haohang" creationdate="20160715T080046Z">
         <seg>示例 56.12. 项目的评估和执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.13. Running tasks by their absolute path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T091707Z" creationid="haohang" creationdate="20160715T091707Z">
+        <seg>示例56.13. 按绝对路径运行任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -25623,6 +25663,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151129Z" creationid="msdx" creationdate="20141109T151129Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q -PcommandLineProjectProp=commandLineProjectPropValue -Dorg.gradle.project.systemProjectProp=systemPropertyValue printProps&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q :hello :krill:hello hello&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T091716Z" creationid="haohang" creationdate="20160715T091716Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q :hello :krill:hello hello&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
