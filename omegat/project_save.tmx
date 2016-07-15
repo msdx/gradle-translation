@@ -9556,6 +9556,18 @@ tuna</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q distanceToIceberg
+20 nautical miles
+5 nautical miles</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T080007Z" creationid="haohang" creationdate="20160715T080007Z">
+        <seg>&gt; gradle -q distanceToIceberg
+20 nautical miles
+5 nautical miles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q files
 orca-1.0.jar
 seal-2.0.jar</seg>
@@ -10022,6 +10034,30 @@ Total time: 1 secs</seg>
 :jar
 :startScripts
 :distZip
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle distanceToIceberg
+:bluewhale:distanceToIceberg
+20 nautical miles
+:krill:distanceToIceberg
+5 nautical miles
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T080055Z" creationid="haohang" creationdate="20160715T080055Z">
+        <seg>&gt; gradle distanceToIceberg
+:bluewhale:distanceToIceberg
+20 nautical miles
+:krill:distanceToIceberg
+5 nautical miles
 
 BUILD SUCCESSFUL
 
@@ -12520,8 +12556,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>Because of Gradle's cross project configuration &lt;s7&gt;&lt;e8&gt;every&lt;/e8&gt;&lt;/s7&gt; project has to be evaluated before &lt;s9&gt;&lt;e10&gt;any&lt;/e10&gt;&lt;/s9&gt; task gets executed.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075723Z" creationid="haohang" creationdate="20160715T075723Z">
-        <seg>由于 Gradle 的跨项目配置&lt;s7&gt;&lt;e8&gt;每一个&lt;/e8&gt;&lt;/s7&gt;项目不得不先获取执行&lt;s9&gt;&lt;e10&gt;任何&lt;/e10&gt;&lt;/s9&gt;任务的评估。</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075807Z" creationid="haohang" creationdate="20160715T075723Z">
+        <seg>由于 Gradle 的跨项目配置&lt;s7&gt;&lt;e8&gt;每一个&lt;/e8&gt;&lt;/s7&gt;项目不得不在它们的&lt;s9&gt;&lt;e10&gt;任何&lt;/e10&gt;&lt;/s9&gt;任务执行之前，先对项目进行评估。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17874,6 +17910,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.11. Evaluation and execution of projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075944Z" creationid="haohang" creationdate="20160715T075944Z">
+        <seg>示例 56.11. 项目的评估和执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.12. Evaluation and execution of projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T080046Z" creationid="haohang" creationdate="20160715T080046Z">
+        <seg>示例 56.12. 项目的评估和执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T125905Z" creationid="95" creationdate="20160522T125905Z">
@@ -20918,6 +20970,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060250Z" creationid="msdx" creationdate="20141111T060250Z">
         <seg>在这里我们的任务从一个 XML 源文件生成多个输出文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here the output without the &lt;c0&gt;-q&lt;/c0&gt; option:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T080041Z" creationid="haohang" creationdate="20160715T080041Z">
+        <seg>这里是不使用&lt;c0&gt;-q&lt;/c0&gt;选项的输出结果︰</seg>
       </tuv>
     </tu>
     <tu>
@@ -23991,6 +24051,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's add a task to &lt;c11&gt;bluewhale&lt;/c11&gt; and &lt;c12&gt;krill&lt;/c12&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075915Z" creationid="haohang" creationdate="20160715T075915Z">
+        <seg>我们先将任务添加到&lt;c11&gt;bluewhale&lt;/c11&gt;和&lt;c12&gt;krill&lt;/c12&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's assume your project produces just the default jar file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T154139Z" creationid="95" creationdate="20160104T154139Z">
@@ -24043,6 +24111,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T125844Z" creationid="95" creationdate="20160522T125823Z">
         <seg>让我们看看&lt;c1&gt;water&lt;/c1&gt;项目的构建脚本并执行它︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's now have our last marine example.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075921Z" creationid="haohang" creationdate="20160715T075857Z">
+        <seg>现在让我们讲最后一个marine的例子。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25583,6 +25659,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q distanceToIceberg&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T080006Z" creationid="haohang" creationdate="20160715T080006Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q distanceToIceberg&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q files&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034750Z" creationid="haohang" creationdate="20150807T034750Z">
@@ -25723,6 +25807,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100710Z" creationid="haohang" creationdate="20150703T100710Z">
         <seg>&lt;s0&gt; &lt;c1&gt;gradle distZip&lt;/c1&gt;&lt;/s0&gt;的输出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle distanceToIceberg&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T080053Z" creationid="haohang" creationdate="20160715T080053Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle distanceToIceberg&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -31331,6 +31423,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T095022Z" creationid="haohang" creationdate="20150710T013224Z">
         <seg>Build Dashboard 插件是目前是&lt;a0&gt;孵化中&lt;/a0&gt;状态。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The build is executed from the &lt;c0&gt;water&lt;/c0&gt; project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T080101Z" creationid="haohang" creationdate="20160715T080101Z">
+        <seg>The build is executed from the &lt;c0&gt;water&lt;/c0&gt; project.</seg>
       </tuv>
     </tu>
     <tu>
@@ -37491,6 +37591,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T023929Z" creationid="Administrator" creationdate="20150428T023929Z">
         <seg>我们将会继续改进测试过滤的API，并添加更多种类的过滤器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We will have a closer look at this in the next section.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075827Z" creationid="haohang" creationdate="20160715T075827Z">
+        <seg>我们将在下一节详细讨论这一点。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44158,6 +44266,34 @@ sourceSets {</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>ext.arctic = true
+hello &lt;&lt; { println &lt;s0&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s0&gt; }
+
+task distanceToIceberg &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075946Z" creationid="haohang" creationdate="20160715T075946Z">
+        <seg>ext.arctic = true
+hello &lt;&lt; { println &lt;s0&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s0&gt; }
+
+task distanceToIceberg &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.arctic = true
+hello &lt;&lt; { println &lt;s0&gt;"- The weight of my species in summer is twice as heavy as all human beings."&lt;/s0&gt; }
+
+task distanceToIceberg &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075951Z" creationid="haohang" creationdate="20160715T075951Z">
+        <seg>ext.arctic = true
+hello &lt;&lt; { println &lt;s0&gt;"- The weight of my species in summer is twice as heavy as all human beings."&lt;/s0&gt; }
+
+task distanceToIceberg &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.arctic = true
 hello.doLast {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160530T144425Z" creationid="95" creationdate="20160530T144425Z">
@@ -48707,6 +48843,26 @@ tasks.create(name: &lt;s2&gt;'copy'&lt;/s2&gt;, type: Copy) {</seg>
 }
 
 tasks.create(name: &lt;s2&gt;'copy'&lt;/s2&gt;, type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'20 nautical miles'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075948Z" creationid="haohang" creationdate="20160715T075948Z">
+        <seg>println &lt;s1&gt;'20 nautical miles'&lt;/s1&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'5 nautical miles'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075955Z" creationid="haohang" creationdate="20160715T075955Z">
+        <seg>println &lt;s1&gt;'5 nautical miles'&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
