@@ -6952,6 +6952,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.5. Project and task paths</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T092100Z" creationid="haohang" creationdate="20160715T092100Z">
+        <seg>56.5. 项目和任务路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -10698,6 +10706,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T040929Z" creationid="haohang" creationdate="20160519T040929Z">
         <seg>一个项目有一个路径，表示在多项目构建树中的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A project path has the following pattern: It starts always with a colon, which denotes the root project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T092127Z" creationid="haohang" creationdate="20160715T092127Z">
+        <seg>一个项目路径有以下模式︰它总是始于一个冒号，表示根项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31515,6 +31531,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The build is executed from the &lt;c0&gt;tropicalFish&lt;/c0&gt; project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T091820Z" creationid="haohang" creationdate="20160715T091811Z">
+        <seg>这个构建是从&lt;c0&gt;tropicalFish&lt;/c0&gt;项目执行的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The build is executed from the &lt;c0&gt;water&lt;/c0&gt; project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T090813Z" creationid="haohang" creationdate="20160715T080101Z">
@@ -32187,6 +32211,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The first two tasks are specified by there absolute path, the last task is executed on the name matching mechanism described above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T092050Z" creationid="haohang" creationdate="20160715T092050Z">
+        <seg>前两个任务由它们的绝对路径指定，最后一项任务通过上面所述的匹配机制执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The first uses auto-delegation to the &lt;c1&gt;Project&lt;/c1&gt; object, for properties not defined in the build script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T063513Z" creationid="msdx" creationdate="20141108T043318Z">
@@ -32803,6 +32835,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The path &lt;c0&gt;:bluewhale&lt;/c0&gt; corresponds to the file system path &lt;c1&gt;water/bluewhale&lt;/c1&gt; in the case of the example above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T092402Z" creationid="haohang" creationdate="20160715T092402Z">
+        <seg>The path &lt;c0&gt;:bluewhale&lt;/c0&gt; corresponds to the file system path &lt;c1&gt;water/bluewhale&lt;/c1&gt; in the case of the example above.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The path of the directory to write the generated POMs, relative to the build directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151228T152713Z" creationid="95" creationdate="20151228T152526Z">
@@ -33183,6 +33223,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160650Z" creationid="msdx" creationdate="20141112T160650Z">
         <seg>这个闭包或Callable实例的返回值可以是&lt;c3&gt;files()&lt;/c3&gt;方法所支持的任何类型的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The root project is the only project in a path that is not specified by its name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T092203Z" creationid="haohang" creationdate="20160715T092203Z">
+        <seg>根项目是唯一的在一个不由其名称指定的路径中的项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37567,6 +37615,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T051158Z" creationid="msdx" creationdate="20141119T153839Z">
         <seg>由于 CI 环境在一致性和可靠性上的优化，我们不通过守护进程运行 CI 构建（即长时间运行进程） 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We execute the &lt;c1&gt;hello&lt;/c1&gt; tasks of the &lt;c2&gt;water&lt;/c2&gt;, the &lt;c3&gt;krill&lt;/c3&gt; and the &lt;c4&gt;tropicalFish&lt;/c4&gt; project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T091902Z" creationid="haohang" creationdate="20160715T091817Z">
+        <seg>我们执行了&lt;c2&gt;water&lt;/c2&gt;、&lt;c3&gt;krill&lt;/c3&gt;和&lt;c4&gt;tropicalFish&lt;/c4&gt;项目的&lt;c1&gt;hello&lt;/c1&gt;任务。</seg>
       </tuv>
     </tu>
     <tu>
