@@ -12518,6 +12518,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because of Gradle's cross project configuration &lt;s7&gt;&lt;e8&gt;every&lt;/e8&gt;&lt;/s7&gt; project has to be evaluated before &lt;s9&gt;&lt;e10&gt;any&lt;/e10&gt;&lt;/s9&gt; task gets executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075723Z" creationid="haohang" creationdate="20160715T075723Z">
+        <seg>由于 Gradle 的跨项目配置&lt;s7&gt;&lt;e8&gt;每一个&lt;/e8&gt;&lt;/s7&gt;项目不得不先获取执行&lt;s9&gt;&lt;e10&gt;任何&lt;/e10&gt;&lt;/s9&gt;任务的评估。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because the &lt;c0&gt;sonarProperties&lt;/c0&gt; block is evaluated lazily, properties of Gradle's object model can be safely referenced from within the block, without having to fear that they have not yet been set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T233206Z" creationid="haohang" creationdate="20150525T233206Z">
@@ -19948,8 +19956,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Gradle &lt;s3&gt;&lt;e4&gt;always&lt;/e4&gt;&lt;/s3&gt; evaluates &lt;s5&gt;&lt;e6&gt;every&lt;/e6&gt;&lt;/s5&gt; project of the multi-project build and creates all existing task objects.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160530T152507Z" creationid="95" creationdate="20160530T152507Z">
-        <seg>Gradle &lt;s3&gt;&lt;e4&gt;always&lt;/e4&gt;&lt;/s3&gt; evaluates &lt;s5&gt;&lt;e6&gt;every&lt;/e6&gt;&lt;/s5&gt; project of the multi-project build and creates all existing task objects.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075731Z" creationid="95" creationdate="20160530T152507Z">
+        <seg>Gradle&lt;s3&gt;&lt;e4&gt;总是&lt;/e4&gt;&lt;/s3&gt;评估&lt;s5&gt;多项目构建的&lt;e6&gt;每一个&lt;/e6&gt;&lt;/s5&gt;项目，以及创建所有存在的任务对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33443,6 +33451,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T142726Z" creationid="msdx" creationdate="20141114T142726Z">
         <seg>然后，可以将您的依赖声明从 Ant 脚本移到您的构建文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then, according to the task name arguments and the current dir, Gradle filters the tasks which should be executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T075655Z" creationid="haohang" creationdate="20160715T075655Z">
+        <seg>然后，根据任务名称参数和当前目录，Gradle 过滤出应该执行的任务。</seg>
       </tuv>
     </tu>
     <tu>
