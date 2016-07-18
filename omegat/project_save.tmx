@@ -6992,6 +6992,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.6.2. Configuration time dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072106Z" creationid="haohang" creationdate="20160718T072106Z">
+        <seg>56.6.2. 配置时依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.6. Dependencies - Which dependencies?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T061913Z" creationid="haohang" creationdate="20160718T061913Z">
@@ -9600,6 +9608,18 @@ The class directory exists.</seg>
         <seg>&gt; gradle -q configure
 1
 5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q consume
+Producing message:
+Consuming message: Watch the order of execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072056Z" creationid="haohang" creationdate="20160718T072056Z">
+        <seg>-&gt; gradle -q action
+Producing message:
+Consuming message: Watch the order of execution.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18128,6 +18148,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.19. Cross project task dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072045Z" creationid="haohang" creationdate="20160718T072045Z">
+        <seg>56.19. 跨项目任务依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T125905Z" creationid="95" creationdate="20160522T125905Z">
@@ -24325,6 +24353,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's change the naming of our tasks and execute the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072024Z" creationid="haohang" creationdate="20160718T072024Z">
+        <seg>让我们改变我们的任务的命名，执行构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's check this out:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151120Z" creationid="msdx" creationdate="20141123T151120Z">
@@ -24353,6 +24389,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060230Z" creationid="msdx" creationdate="20141111T060230Z">
         <seg>让我们来看一个例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's have one more example with our producer-consumer build before we enter &lt;s0&gt;&lt;e1&gt;Java&lt;/e1&gt;&lt;/s0&gt; land.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072112Z" creationid="haohang" creationdate="20160718T072112Z">
+        <seg>Let's have one more example with our producer-consumer build before we enter &lt;s0&gt;&lt;e1&gt;Java&lt;/e1&gt;&lt;/s0&gt; land.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25953,6 +25997,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152818Z" creationid="msdx" creationdate="20141109T152818Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q configure&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q consume&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072055Z" creationid="haohang" creationdate="20160718T072055Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q consume&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -52457,6 +52509,14 @@ systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task consume(dependsOn: &lt;s0&gt;':producer:produce'&lt;/s0&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072047Z" creationid="haohang" creationdate="20160718T072047Z">
+        <seg>task consume(dependsOn: &lt;s0&gt;':producer:produce'&lt;/s0&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task copy &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T040601Z" creationid="haohang" creationdate="20150807T040601Z">
@@ -52793,6 +52853,14 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151100Z" creationid="msdx" creationdate="20141109T151100Z">
         <seg>task printProps &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task produce &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072048Z" creationid="haohang" creationdate="20160718T072048Z">
+        <seg>task produce &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
