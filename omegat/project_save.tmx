@@ -6976,6 +6976,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.6.1.3. The nature of cross project task dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T071943Z" creationid="haohang" creationdate="20160718T071943Z">
+        <seg>56.6.1.3. 跨项目任务依赖的本质</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.6.1. Execution dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062229Z" creationid="haohang" creationdate="20160718T062229Z">
@@ -18112,6 +18120,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.18. Declaring dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T071747Z" creationid="haohang" creationdate="20160718T071747Z">
+        <seg>示例 56.18. 声明依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T125905Z" creationid="95" creationdate="20160522T125905Z">
@@ -25437,6 +25453,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Of course, task dependencies across different projects are not limited to tasks with the same name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072003Z" creationid="haohang" creationdate="20160718T072003Z">
+        <seg>当然，在不同项目之间的任务依赖并不限于具有相同名称的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Often an organisation publishes a set of libraries with a single version; where the libraries are built, tested and published together.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T060518Z" creationid="95" creationdate="20151115T060518Z">
@@ -26983,8 +27007,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>Running this from the &lt;c0&gt;consumer&lt;/c0&gt; directory gives:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T071041Z" creationid="haohang" creationdate="20160718T071041Z">
-        <seg>Running this from the &lt;c0&gt;consumer&lt;/c0&gt; directory gives:</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T071741Z" creationid="haohang" creationdate="20160718T071041Z">
+        <seg>从&lt;c0&gt;consumer&lt;/c0&gt;目录运行如下：</seg>
       </tuv>
     </tu>
     <tu>
@@ -37897,6 +37921,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T081719Z" creationid="msdx" creationdate="20141109T160905Z">
         <seg>在&lt;a0&gt;第 6 章，&lt;i1&gt;构建脚本基础&lt;/i1&gt;&lt;/a0&gt; 中我们已经看到如何通过关键字这种风格来定义任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We have now declared that the &lt;c0&gt;action&lt;/c0&gt; task in the &lt;c1&gt;consumer&lt;/c1&gt; project has an &lt;s2&gt;&lt;e3&gt;execution dependency&lt;/e3&gt;&lt;/s2&gt; on the &lt;c4&gt;action&lt;/c4&gt; task on the &lt;c5&gt;producer&lt;/c5&gt; project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T071859Z" creationid="haohang" creationdate="20160718T071859Z">
+        <seg>我们现在声明了&lt;c1&gt;consumer&lt;/c1&gt;项目的&lt;c0&gt;action&lt;/c0&gt;任务对&lt;c5&gt;producer&lt;/c5&gt;项目上的&lt;c4&gt;action&lt;/c4&gt;任务有&lt;s2&gt;&lt;e3&gt;执行依赖&lt;/e3&gt;&lt;/s2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
