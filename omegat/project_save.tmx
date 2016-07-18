@@ -9613,6 +9613,16 @@ The class directory exists.</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>&gt; gradle -q consume
+Consuming message: null</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072800Z" creationid="haohang" creationdate="20160718T072800Z">
+        <seg>&gt; gradle -q consume
+Consuming message: null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q consume
 Producing message:
 Consuming message: Watch the order of execution.</seg>
       </tuv>
@@ -18160,6 +18170,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T125905Z" creationid="95" creationdate="20160522T125905Z">
         <seg>示例 56.2. water（父）项目的构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.20. Configuration time dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072755Z" creationid="haohang" creationdate="20160718T072755Z">
+        <seg>示例 56.20. 配置时依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -37841,6 +37859,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We add a property to the producer project and create now a configuration time dependency from consumer on producer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072747Z" creationid="haohang" creationdate="20160718T072747Z">
+        <seg>我们添加一个属性到生产者项目，并且在生产者上创建一个来自消费者的配置时依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We also offer inheritance for projects as you will see later.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T162007Z" creationid="95" creationdate="20160527T162007Z">
@@ -48225,6 +48251,18 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>message = rootProject.producerMessage
+
+task consume &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072756Z" creationid="haohang" creationdate="20160718T072756Z">
+        <seg>message = rootProject.producerMessage
+
+task consume &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>messages/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062257Z" creationid="haohang" creationdate="20160718T062257Z">
@@ -50099,6 +50137,16 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println(&lt;s0&gt;"Consuming message: "&lt;/s0&gt; + message)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072757Z" creationid="haohang" creationdate="20160718T072757Z">
+        <seg>println(&lt;s0&gt;"Consuming message: "&lt;/s0&gt; + message)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println(&lt;s0&gt;"Consuming message: ${rootProject.producerMessage}"&lt;/s0&gt;)
 }</seg>
       </tuv>
@@ -50945,6 +50993,14 @@ project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gr
         <seg>rootProject.name = &lt;s0&gt;'main'&lt;/s0&gt;
 project(&lt;s1&gt;':projectA'&lt;/s1&gt;).projectDir = &lt;s2&gt;new&lt;/s2&gt; File(settingsDir, &lt;s3&gt;'../my-project-a'&lt;/s3&gt;)
 project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gradle'&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rootProject.producerMessage = &lt;s0&gt;'Watch the order of evaluation.'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T072757Z" creationid="haohang" creationdate="20160718T072757Z">
+        <seg>rootProject.producerMessage = &lt;s0&gt;'Watch the order of evaluation.'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
