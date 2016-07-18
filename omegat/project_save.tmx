@@ -6968,6 +6968,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.6.1.2. Declaring dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T071005Z" creationid="haohang" creationdate="20160718T071005Z">
+        <seg>56.6.1.2. 声明依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.6.1. Execution dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062229Z" creationid="haohang" creationdate="20160718T062229Z">
@@ -8364,6 +8372,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062355Z" creationid="haohang" creationdate="20160718T062355Z">
         <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在 Gradle 二进制和源码分发包的&lt;c2&gt;samples/userguide/multiproject/dependencies/firstMessages/messages&lt;/c2&gt;中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/dependencies/messagesWithDependencies/messages&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T071034Z" creationid="haohang" creationdate="20160718T071034Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在 Gradle 二进制和源码分发包的&lt;c2&gt;samples/userguide/multiproject/dependencies/messagesWithDependencies/messages&lt;/c2&gt;中找到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18088,6 +18104,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.17. Declaring dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T071015Z" creationid="haohang" creationdate="20160718T071015Z">
+        <seg>示例 56.17. 声明依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T125905Z" creationid="95" creationdate="20160522T125905Z">
@@ -23069,6 +23093,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the last example only one &lt;c2&gt;action&lt;/c2&gt; was down the hierarchy and therefore it was the only task that got executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T070927Z" creationid="haohang" creationdate="20160718T070927Z">
+        <seg>在上一个例子中只有一个&lt;c2&gt;action&lt;/c2&gt;是在这个层次结构下，因此它是唯一一个被执行的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the latter case, an &lt;c3&gt;ivy.xml&lt;/c3&gt; descriptor in the repository is supposed to contain all the necessary information.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151227T160646Z" creationid="95" creationdate="20151227T160110Z">
@@ -26945,6 +26977,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162147Z" creationid="msdx" creationdate="20141109T162147Z">
         <seg>运行和测试您的安装</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Running this from the &lt;c0&gt;consumer&lt;/c0&gt; directory gives:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T071041Z" creationid="haohang" creationdate="20160718T071041Z">
+        <seg>Running this from the &lt;c0&gt;consumer&lt;/c0&gt; directory gives:</seg>
       </tuv>
     </tu>
     <tu>
@@ -37889,6 +37929,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T064025Z" creationid="haohang" creationdate="20151201T064025Z">
         <seg>我们提到它是为了完整性，以及和其他构建工具进行比较。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We need something better than this hack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T070949Z" creationid="haohang" creationdate="20160718T070949Z">
+        <seg>我们需要比这种技巧更好的实现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49987,6 +50035,16 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println(&lt;s1&gt;"Consuming message: ${rootProject.producerMessage}"&lt;/s1&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T071039Z" creationid="haohang" creationdate="20160718T071039Z">
+        <seg>println(&lt;s1&gt;"Consuming message: ${rootProject.producerMessage}"&lt;/s1&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>process&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;Resources</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083225Z" creationid="msdx" creationdate="20150428T083225Z">
@@ -52299,6 +52357,14 @@ systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062358Z" creationid="haohang" creationdate="20160718T062358Z">
         <seg>task action &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task action(dependsOn: &lt;s0&gt;":producer:action"&lt;/s0&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T071036Z" creationid="haohang" creationdate="20160718T071036Z">
+        <seg>task action(dependsOn: &lt;s0&gt;":producer:action"&lt;/s0&gt;) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
