@@ -6960,6 +6960,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.6. Dependencies - Which dependencies?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T061913Z" creationid="haohang" creationdate="20160718T061913Z">
+        <seg>56.6. 依赖-哪些依赖？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -18926,6 +18934,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For example &lt;c0&gt; :bluewhale:hello&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T061511Z" creationid="haohang" creationdate="20160718T061511Z">
+        <seg>例如&lt;c0&gt; :bluewhale:hello&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For example &lt;c0&gt;cleanJar&lt;/c0&gt; will delete the JAR file created by the &lt;c1&gt;jar&lt;/c1&gt; task, and &lt;c2&gt;cleanTest&lt;/c2&gt; will delete the test results created by the &lt;c3&gt;test&lt;/c3&gt; task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T005641Z" creationid="Administrator" creationdate="20150426T005641Z">
@@ -25527,6 +25543,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141021Z" creationid="Administrator" creationdate="20150330T141021Z">
         <seg>任务排序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Originally Gradle has used the &lt;c0&gt;'/'&lt;/c0&gt; character as a natural path separator.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T061806Z" creationid="haohang" creationdate="20160718T061806Z">
+        <seg>原来 Gradle 使用&lt;c0&gt;/&lt;/c0&gt;字符作为自然路径分隔符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32843,6 +32867,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The path of a task is simply its project path plus the task name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T061502Z" creationid="haohang" creationdate="20160718T061502Z">
+        <seg>一项任务的路径只是它的项目路径加上其任务名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The path of the directory to write the generated POMs, relative to the build directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151228T152713Z" creationid="95" creationdate="20151228T152526Z">
@@ -35199,6 +35231,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T071915Z" creationid="Administrator" creationdate="20150425T071915Z">
         <seg>这是非常有用的，因为它促进了跨项目的一致性 ；完成了有关构件命名规范及构建之后的位置上的一致。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is interpreted as a relative path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T061734Z" creationid="haohang" creationdate="20160718T061734Z">
+        <seg>这被解释为相对路径。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38499,6 +38539,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With the introduction of directory tasks (see &lt;a1&gt;Section 14.1, “Directory creation”&lt;/a1&gt;) this was no longer possible, as the name of the directory task contains the &lt;c2&gt;'/'&lt;/c2&gt; character.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T061858Z" creationid="haohang" creationdate="20160718T061858Z">
+        <seg>在引入目录任务（见&lt;a1&gt;第 14.1节，“创建目录”&lt;/a1&gt;）后将不能再这样做，因为目录任务的名称包含&lt;c2&gt;/&lt;/c2&gt;字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With the map notation you can define all properties.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150724T034930Z" creationid="haohang" creationdate="20150724T034930Z">
@@ -38519,6 +38567,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T142919Z" creationid="95" creationdate="20160106T142919Z">
         <seg>通过这个生成器，&lt;a1&gt;Maven POM 参考&lt;/a1&gt;中列出的任何元素都可以被添加进来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Within a project you can address a task of the same project just by its name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T061728Z" creationid="haohang" creationdate="20160718T061728Z">
+        <seg>在一个项目内，你可以通过任务的名称得到同一个项目的任务。</seg>
       </tuv>
     </tu>
     <tu>
