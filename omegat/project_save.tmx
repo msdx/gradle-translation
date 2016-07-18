@@ -12096,6 +12096,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Another difference is that always all projects are configured, even when you start the build from a subproject.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T090222Z" creationid="haohang" creationdate="20160718T090222Z">
+        <seg>另一个区别是，所有的项目都总是被配置，即使你是从子项目开始构建的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Another source of information you have to lookup.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T060812Z" creationid="haohang" creationdate="20151201T060804Z">
@@ -14286,6 +14294,22 @@ project(&lt;s1&gt;':bluewhale'&lt;/s1&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T065234Z" creationid="haohang" creationdate="20150628T065234Z">
         <seg>配置属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuration dependencies are between projects whereas execution dependencies are always resolved to task dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T090147Z" creationid="haohang" creationdate="20160718T090044Z">
+        <seg>配置依赖是项目之间的，而执行依赖总是被解析为任务依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuration dependencies are very different to execution dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T090042Z" creationid="haohang" creationdate="20160718T090042Z">
+        <seg>配置依赖与执行依赖有很大上的不同。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18196,6 +18220,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T074958Z" creationid="haohang" creationdate="20160718T074958Z">
         <seg>示例 56.21. 配置时依赖——evaluationDependsOn</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.22. Configuration time dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T085918Z" creationid="haohang" creationdate="20160718T085918Z">
+        <seg>示例 56.22. 配置时依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -22632,6 +22664,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T102827Z" creationid="msdx" creationdate="20141116T102827Z">
         <seg>在&lt;a1&gt;表 18.3，“栈跟踪的命令行选项”&lt;/a1&gt;中，你可以看到影响栈跟踪日志的命令行开关。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In &lt;s5&gt;&lt;e6&gt;this&lt;/e6&gt;&lt;/s5&gt; case there would be an easier solution by reading the key property at execution time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T085912Z" creationid="haohang" creationdate="20160718T085912Z">
+        <seg>在&lt;s5&gt;&lt;e6&gt;这种&lt;/e6&gt;&lt;/s5&gt;情况下，通过在执行时读key属性是一种更简单的解决方案。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32129,6 +32169,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T093338Z" creationid="msdx" creationdate="20150503T092356Z">
         <seg>War task 的默认行为是将&lt;c0&gt;src/main/webapp&lt;/c0&gt;的内容复制到archive 的根目录下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default configuration order is top down, which is usually what is needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T090301Z" creationid="haohang" creationdate="20160718T090301Z">
+        <seg>默认的配置顺序是通常所需要的从顶至下的顺序。</seg>
       </tuv>
     </tu>
     <tu>
@@ -52645,6 +52693,14 @@ systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152803Z" creationid="msdx" creationdate="20141109T152803Z">
         <seg>task configure &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task consume &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T085919Z" creationid="haohang" creationdate="20160718T085919Z">
+        <seg>task consume &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
