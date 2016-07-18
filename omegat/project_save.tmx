@@ -9481,6 +9481,16 @@ source dir is src/main/java</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>&gt; gradle -q action
+Consuming message: null</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T070720Z" creationid="haohang" creationdate="20160718T070720Z">
+        <seg>&gt; gradle -q action
+Consuming message: null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q action
 Consuming message: null
 Producing message:</seg>
       </tuv>
@@ -18070,6 +18080,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.16. Dependencies and execution order</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T070719Z" creationid="haohang" creationdate="20160718T070719Z">
+        <seg>示例 56.16. 依赖和执行顺序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T125905Z" creationid="95" creationdate="20160522T125905Z">
@@ -18658,6 +18676,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T092402Z" creationid="haohang" creationdate="20160408T092402Z">
         <seg>对于通过Cygwin运行在Windows上的GCC，则支持“windows/x86”和“windows/x86_64”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For Gradle the two &lt;c0&gt;action&lt;/c0&gt; tasks are just not related.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T070737Z" creationid="haohang" creationdate="20160718T070737Z">
+        <seg>对于 Gradle 而言，这两个&lt;c0&gt;action&lt;/c0&gt;任务不相关。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22162,6 +22188,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you execute the build from the &lt;c1&gt;messages&lt;/c1&gt; project Gradle executes them both because they have the same name and they are down the hierarchy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T070841Z" creationid="haohang" creationdate="20160718T070841Z">
+        <seg>如果你从 &lt;c1&gt;messages&lt;/c1&gt; 项目执行构建，Gradle 会执行它们两个，因为他们具有相同的名称，并且它们在该层次结构下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you happen to use additional Sonar plugins, consult their documentation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T064322Z" creationid="msdx" creationdate="20150513T064322Z">
@@ -25245,8 +25279,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>Now we take the air out of this hack.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T070241Z" creationid="haohang" creationdate="20160718T070241Z">
-        <seg>Now we take the air out of this hack.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T070545Z" creationid="haohang" creationdate="20160718T070241Z">
+        <seg>现在我们来看这个技巧。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37903,6 +37937,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T153755Z" creationid="msdx" creationdate="20141123T153755Z">
         <seg>在上面的示例中我们看到，Java 插件添加了一个任务，名字为&lt;c0&gt;compileJava&lt;/c0&gt;  ，有一个名为&lt;c1&gt;destinationDir&lt;/c1&gt; 的属性（即配置编译的 Java 代码存放的地方）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We simply switch to the &lt;c0&gt;consumer&lt;/c0&gt; dir and execute the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T070617Z" creationid="haohang" creationdate="20160718T070617Z">
+        <seg>我们简单地切换到&lt;c0&gt;consumer&lt;/c0&gt;目录并执行构建。</seg>
       </tuv>
     </tu>
     <tu>
