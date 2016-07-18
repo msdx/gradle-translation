@@ -6960,6 +6960,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.6.1.1. Dependencies and execution order</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062236Z" creationid="haohang" creationdate="20160718T062236Z">
+        <seg>56.6.1.1. 依赖和执行顺序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>56.6.1. Execution dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062229Z" creationid="haohang" creationdate="20160718T062229Z">
+        <seg>56.6.1. 执行依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.6. Dependencies - Which dependencies?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T061913Z" creationid="haohang" creationdate="20160718T061913Z">
@@ -8344,6 +8360,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/dependencies/firstMessages/messages&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062355Z" creationid="haohang" creationdate="20160718T062355Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在 Gradle 二进制和源码分发包的&lt;c2&gt;samples/userguide/multiproject/dependencies/firstMessages/messages&lt;/c2&gt;中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/firstExample/water&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160526T155348Z" creationid="95" creationdate="20160522T125534Z">
@@ -9452,6 +9476,18 @@ source dir is src/main/java</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20160521T135109Z" creationid="95" creationdate="20160521T135109Z">
         <seg>&gt; gradle -q a
 source dir is src/main/java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q action
+Consuming message: null
+Producing message:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062416Z" creationid="haohang" creationdate="20160718T062416Z">
+        <seg>&gt; gradle -q action
+Consuming message: null
+Producing message:</seg>
       </tuv>
     </tu>
     <tu>
@@ -18006,6 +18042,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.14. Dependencies and execution order</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062253Z" creationid="haohang" creationdate="20160718T062253Z">
+        <seg>示例 56.14. 依赖和执行顺序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T125905Z" creationid="95" creationdate="20160522T125905Z">
@@ -20994,6 +21038,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151226T092003Z" creationid="95" creationdate="20151226T092003Z">
         <seg>以下是一个有关配置上传任务的例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is an example where this is different:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062224Z" creationid="haohang" creationdate="20160718T062224Z">
+        <seg>下面是一个展示不同之处的例子：</seg>
       </tuv>
     </tu>
     <tu>
@@ -25719,6 +25771,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160521T135108Z" creationid="95" creationdate="20160521T135108Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q a&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q action&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062415Z" creationid="haohang" creationdate="20160718T062415Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q action&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -32155,6 +32215,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The examples from the last section were special, as the projects had no &lt;s0&gt;&lt;e1&gt;Execution Dependencies&lt;/e1&gt;&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062156Z" creationid="haohang" creationdate="20160718T062156Z">
+        <seg>上一节的例子很特别，因为项目里没有&lt;s0&gt;&lt;e1&gt;执行依赖&lt;/e1&gt;&lt;/s0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The existing content is merged with the configuration inferred from the Gradle build or defined explicitly in the eclipse DSL</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T104725Z" creationid="haohang" creationdate="20150624T104604Z">
@@ -34431,6 +34499,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T142526Z" creationid="95" creationdate="20160106T142526Z">
         <seg>它们可以通过&lt;a1&gt;&lt;c2&gt;MavenPom&lt;/c2&gt;&lt;/a1&gt; API 进一步定制化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>They had only &lt;s2&gt;&lt;e3&gt;Configuration Dependencies&lt;/e3&gt;&lt;/s2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062210Z" creationid="haohang" creationdate="20160718T062210Z">
+        <seg>它们只有&lt;s2&gt;&lt;e3&gt;配置依赖&lt;/e3&gt;&lt;/s2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42939,6 +43015,22 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>consumer/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062303Z" creationid="haohang" creationdate="20160718T062303Z">
+        <seg>consumer/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>consumer/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062357Z" creationid="haohang" creationdate="20160718T062357Z">
+        <seg>consumer/build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>contents {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T032508Z" creationid="haohang" creationdate="20150701T032508Z">
@@ -46255,6 +46347,14 @@ gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>include &lt;s0&gt;'consumer'&lt;/s0&gt;, &lt;s1&gt;'producer'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062356Z" creationid="haohang" creationdate="20160718T062356Z">
+        <seg>include &lt;s0&gt;'consumer'&lt;/s0&gt;, &lt;s1&gt;'producer'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>include &lt;s0&gt;'project1'&lt;/s0&gt;, &lt;s1&gt;'project2:child'&lt;/s1&gt;, &lt;s2&gt;'project3:child1'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041332Z" creationid="haohang" creationdate="20160519T041332Z">
@@ -47867,6 +47967,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>messages/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062257Z" creationid="haohang" creationdate="20160718T062257Z">
+        <seg>messages/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>model {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090258Z" creationid="haohang" creationdate="20160401T090258Z">
@@ -48863,6 +48971,14 @@ helloWorld.doLast {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;"Producing message:"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062405Z" creationid="haohang" creationdate="20160718T062405Z">
+        <seg>println &lt;s0&gt;"Producing message:"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s0&gt;"configuring $project"&lt;/s0&gt;
 task hello &lt;&lt; {</seg>
       </tuv>
@@ -49725,6 +49841,16 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println(&lt;s0&gt;"Consuming message: ${rootProject.producerMessage}"&lt;/s0&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062400Z" creationid="haohang" creationdate="20160718T062400Z">
+        <seg>println(&lt;s0&gt;"Consuming message: ${rootProject.producerMessage}"&lt;/s0&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println(&lt;s0&gt;'I am the new one.'&lt;/s0&gt;)
 }</seg>
       </tuv>
@@ -49755,6 +49881,22 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083214Z" creationid="msdx" creationdate="20150428T083214Z">
         <seg>processTestResources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>producer/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062305Z" creationid="haohang" creationdate="20160718T062305Z">
+        <seg>producer/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>producer/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062401Z" creationid="haohang" creationdate="20160718T062401Z">
+        <seg>producer/build.gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -50535,6 +50677,16 @@ project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gr
         <seg>rootProject.name = &lt;s0&gt;'main'&lt;/s0&gt;
 project(&lt;s1&gt;':projectA'&lt;/s1&gt;).projectDir = &lt;s2&gt;new&lt;/s2&gt; File(settingsDir, &lt;s3&gt;'../my-project-a'&lt;/s3&gt;)
 project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gradle'&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rootProject.producerMessage = &lt;s1&gt;'Watch the order of execution.'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062405Z" creationid="haohang" creationdate="20160718T062405Z">
+        <seg>rootProject.producerMessage = &lt;s1&gt;'Watch the order of execution.'&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -52013,6 +52165,14 @@ systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T082930Z" creationid="haohang" creationdate="20160408T082930Z">
         <seg>targetPlatforms &lt;s0&gt;"x86"&lt;/s0&gt;, &lt;s1&gt;"x64"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task action &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T062358Z" creationid="haohang" creationdate="20160718T062358Z">
+        <seg>task action &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
