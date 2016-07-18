@@ -25661,6 +25661,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On the same nesting level the configuration order depends on the alphanumeric position.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T090533Z" creationid="haohang" creationdate="20160718T090533Z">
+        <seg>如果是相同的嵌套级别，则配置顺序取决于字母数字的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once a configuration is resolved it is immutable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T091056Z" creationid="haohang" creationdate="20150807T091056Z">
@@ -32989,6 +32997,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The most common use case is to have multi-project builds that share a common lifecycle (e.g. all projects use the Java plugin).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T090609Z" creationid="haohang" creationdate="20160718T090609Z">
+        <seg>最常见的用例是，要分享共同的生命周期（例如所有项目都使用 Java 插件） 的多项目构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The most popular ones at the moment are Maven and Ivy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T073949Z" creationid="haohang" creationdate="20150716T073949Z">
@@ -36633,6 +36649,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T150915Z" creationid="msdx" creationdate="20141116T150915Z">
         <seg>为能在任务执行过程中更改标准输出或错误的日志级别，task也提供了一个 &lt;a0&gt;&lt;c1&gt;LoggingManager&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To change the the default configuration order to be bottom up, That means that a project configuration depends on the configuration of its child projects, the &lt;c0&gt;evaluationDependsOnChildren()&lt;/c0&gt; method can be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T090405Z" creationid="haohang" creationdate="20160718T090405Z">
+        <seg>如果要把默认配置的顺序改为从下到上，这意味着项目配置将会依赖于它的子项目的配置，可以使用&lt;c0&gt;evaluationDependsOnChildren()&lt;/c0&gt;方法。</seg>
       </tuv>
     </tu>
     <tu>
