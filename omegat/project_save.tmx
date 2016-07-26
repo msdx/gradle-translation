@@ -15048,6 +15048,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Decoupled projects may only interact in terms of declared dependencies: project dependencies (&lt;a2&gt;Section 50.4.3, “Project dependencies”&lt;/a2&gt;) and/or task dependencies (&lt;a3&gt;Section 6.5, “Task dependencies”&lt;/a3&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T093018Z" creationid="haohang" creationdate="20160726T093018Z">
+        <seg>解耦的项目可能只在声明依赖方面会互相影响：项目依赖（&lt;a2&gt;第 50.4.3节, “项目依赖”&lt;/a2&gt;）， 或者是任务依赖（&lt;a3&gt;第 6.5节, “任务依赖”&lt;/a3&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Default Value</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044211Z" creationid="msdx" creationdate="20141108T044211Z">
@@ -38057,6 +38065,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151226T085036Z" creationid="95" creationdate="20151221T141758Z">
         <seg>这两个配置都与构件的使用有关。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Two projects are said to be &lt;s0&gt;&lt;e1&gt;decoupled&lt;/e1&gt;&lt;/s0&gt; if they do not directly access each other's project model.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T092823Z" creationid="haohang" creationdate="20160726T092823Z">
+        <seg>如果两个项目不能直接访问彼此的项目模型，那么可以说它们是&lt;s0&gt;&lt;e1&gt;解耦的&lt;/e1&gt;&lt;/s0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
