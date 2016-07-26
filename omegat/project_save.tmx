@@ -11120,6 +11120,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A very common way for projects to be coupled is by using configuration injection (&lt;a0&gt;Section 56.1, “Cross project configuration”&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T093500Z" creationid="haohang" creationdate="20160726T093309Z">
+        <seg>使项目之间耦合的一种很常的方式是使用配置注入（&lt;a0&gt;第56.1节， “跨项目配置”&lt;/a0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A very nice and expressive way to provide such tasks are task rules:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T064945Z" creationid="msdx" creationdate="20141111T064945Z">
@@ -12348,6 +12356,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T063459Z" creationid="msdx" creationdate="20141108T041227Z">
         <seg>在构建脚本中，你所调用的任何一个方法，如果在构建脚本中&lt;s0&gt;&lt;e1&gt;未定义&lt;/e1&gt;&lt;/s0&gt;，它将被委托给&lt;c2&gt;Project&lt;/c2&gt;对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any other form of project interaction (i.e. by modifying another project object or by reading a value from another project object) causes the projects to be coupled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T093524Z" creationid="haohang" creationdate="20160726T093148Z">
+        <seg>任何其他形式的项目交互（即通过修改另一个project对象或从另一个项目对象中读取值）将会导致项目的耦合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24417,6 +24433,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124038Z" creationid="msdx" creationdate="20141111T124017Z">
         <seg>它充分利用了类型系统，更具有表现力而且易于维护。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It may not be immediately apparent, but using key Gradle features like the &lt;c1&gt;allprojects&lt;/c1&gt; and &lt;c2&gt;subprojects&lt;/c2&gt; keywords automatically cause your projects to be coupled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T093437Z" creationid="haohang" creationdate="20160726T093437Z">
+        <seg>它可能不是立即显现出来，但使用关键的 Gradle 特性，像&lt;c1&gt;allprojects&lt;/c1&gt;和&lt;c2&gt;subprojets&lt;/c2&gt;关键字自动会导致您的项目解耦。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49537,6 +49561,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141120T052430Z" creationid="msdx" creationdate="20141120T052430Z">
         <seg>multi_project_builds.html#sec:configuration_on_demand</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi_project_builds.html#sec:cross_project_configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T093151Z" creationid="haohang" creationdate="20160726T093151Z">
+        <seg>multi_project_builds.html#sec:cross_project_configuration</seg>
       </tuv>
     </tu>
     <tu>
