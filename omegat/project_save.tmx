@@ -2158,6 +2158,14 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/tasks/testing/Test.html#setMaxParallelForks(int)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T085948Z" creationid="haohang" creationdate="20160726T085948Z">
+        <seg>../javadoc/org/gradle/api/tasks/testing/Test.html#setMaxParallelForks(int)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/tasks/testing/Test.html#setTestReport(boolean)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T142025Z" creationid="msdx" creationdate="20150428T142025Z">
@@ -12044,6 +12052,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160128T153337Z" creationid="95" creationdate="20160128T153247Z">
         <seg>或者，你可以直接配置工具链，就如下面的“原生二进制变种”中描述的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Although Gradle already offers parallel test execution via &lt;a0&gt;&lt;c1&gt;Test.setMaxParallelForks()&lt;/c1&gt;&lt;/a0&gt; the feature described in this section is parallel execution at a project level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T090149Z" creationid="haohang" creationdate="20160726T090149Z">
+        <seg>虽然 Gradle 已经通过&lt;a0&gt;&lt;c1&gt;Test.setMaxParallelForks()&lt;/c1&gt;&lt;/a0&gt;提供了并行执行，本节所描述的这个功能是在项目级别上的并行执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26701,6 +26717,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Parallel execution is an incubating feature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T090201Z" creationid="haohang" creationdate="20160726T090201Z">
+        <seg>并行执行仍是一个孵化中的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Parallel project execution allows the separate projects in a decoupled multi-project build to be executed in parallel (see also: &lt;a0&gt;Section 56.9, “Decoupled Projects”&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T090349Z" creationid="haohang" creationdate="20160726T090226Z">
+        <seg>并行项目执行允许在一个解耦的多项目构建中的一些单独的项目被并行执行（参见︰&lt;a0&gt;第 56.9节，“解耦项目”&lt;/a0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Parentheses are optional for method calls.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T062548Z" creationid="msdx" creationdate="20141108T062440Z">
@@ -26889,6 +26921,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151220T120803Z" creationid="95" creationdate="20151220T120803Z">
         <seg>请尝试它们，并向我们反馈。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Please use it and let us know how it works for you.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T090221Z" creationid="haohang" creationdate="20160726T090221Z">
+        <seg>请使用它，并且让我们知道它是帮助你的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27169,6 +27209,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T141818Z" creationid="95" creationdate="20160105T141818Z">
         <seg>协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Provide faster feedback for execution of small projects without awaiting completion of other projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T085948Z" creationid="haohang" creationdate="20160726T085948Z">
+        <seg>对于一些小项目的执行，提供更快的反馈，而不必等待其他项目的完成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28745,6 +28793,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T160753Z" creationid="msdx" creationdate="20141109T160753Z">
         <seg>这种增强的任务可以由你提供，或由 Gradle 提供。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Such features include:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T090515Z" creationid="haohang" creationdate="20160726T090515Z">
+        <seg>这些功能包括︰</seg>
       </tuv>
     </tu>
     <tu>
@@ -39257,6 +39313,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160128T152540Z" creationid="95" creationdate="20160128T152004Z">
         <seg>虽然对于这种软件开发的空间，已经有许多优秀的构建工具存在，但是Gradle 向开发人员提供的是它的强大特征和灵活性，以及在依赖管理实践上，在JVM开发空间上更为传统的发现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While parallel execution does not strictly require decoupling at configuration time, the long-term goal is to provide a powerful set of features that will be available for fully decoupled projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T090509Z" creationid="haohang" creationdate="20160726T090509Z">
+        <seg>而并行执行并不严格要求在配置时解耦，它的长期目标是提供一套强大的可用于全解耦的项目的功能。</seg>
       </tuv>
     </tu>
     <tu>
