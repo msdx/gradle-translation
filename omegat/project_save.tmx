@@ -15832,6 +15832,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Every parallel worker exclusively owns a given project while executing a task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T091300Z" creationid="haohang" creationdate="20160726T091300Z">
+        <seg>当执行一个任务时，每一个并行的worker都仅拥有一个给定的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every project except the root project has a parent project and might have child projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T080654Z" creationid="haohang" creationdate="20160519T080621Z">
@@ -29853,6 +29861,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Task dependencies are fully supported and parallel workers will start executing upstream tasks first.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T091424Z" creationid="haohang" creationdate="20160726T091424Z">
+        <seg>Task dependencies are fully supported and parallel workers will start executing upstream tasks first.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T174040Z" creationid="Administrator" creationdate="20150425T174040Z">
@@ -35037,6 +35053,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Therefore only multi-project builds can take advantage of parallel execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T091406Z" creationid="haohang" creationdate="20160726T091406Z">
+        <seg>因此并行执行只对多项目构建有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Therefore the &lt;c2&gt;consumer&lt;/c2&gt; project is evaluated before the &lt;c3&gt;producer&lt;/c3&gt; project and the &lt;c4&gt;key&lt;/c4&gt; value of the &lt;c5&gt;producer&lt;/c5&gt; is set &lt;s6&gt;&lt;e7&gt;after&lt;/e7&gt;&lt;/s6&gt; it is read by the &lt;c8&gt;consumer&lt;/c8&gt; project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T074901Z" creationid="haohang" creationdate="20160718T074901Z">
@@ -36377,6 +36401,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T091518Z" creationid="msdx" creationdate="20150503T091518Z">
         <seg>这意味着 &lt;c7&gt;httpclient&lt;/c7&gt; 和 &lt;c8&gt;commons-codec&lt;/c8&gt; 都不会添加到你的 WAR 中，即使 &lt;c9&gt;commons-codec&lt;/c9&gt; 是 &lt;c10&gt;compile&lt;/c10&gt; 配置上的一个显示依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that 2 tasks from the same project are never executed in parallel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T091331Z" creationid="haohang" creationdate="20160726T091331Z">
+        <seg>这意味着同一个项目的两个任务都永远不会被执行。</seg>
       </tuv>
     </tu>
     <tu>
