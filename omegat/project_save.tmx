@@ -7770,6 +7770,14 @@ This is executed during the execution phase.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c11&gt;webDist&lt;/c11&gt; has a &lt;s12&gt;&lt;e13&gt;configuration&lt;/e13&gt;&lt;/s12&gt; dependency on &lt;c14&gt;date&lt;/c14&gt; and &lt;c15&gt;hello&lt;/c15&gt; because it needs to know the &lt;c16&gt;archivePath&lt;/c16&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T082617Z" creationid="haohang" creationdate="20160726T082617Z">
+        <seg>&lt;c11&gt;webDist&lt;/c11&gt;有一个&lt;s12&gt;&lt;e13&gt;配置&lt;/e13&gt;&lt;/s12&gt; 依赖于 &lt;c14&gt;date&lt;/c14&gt; 和 &lt;c15&gt;hello&lt;/c15&gt;，因为它需要知道 &lt;c16&gt;archivePath&lt;/c16&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c1&gt;allDependencies&lt;/c1&gt; includes the dependencies from extended configurations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034532Z" creationid="haohang" creationdate="20150807T034532Z">
@@ -13128,6 +13136,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075934Z" creationid="haohang" creationdate="20160519T075934Z">
         <seg>但对于这种任意的布局，你需要在设置文件所在的目录执行构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But it asks for this information at &lt;s17&gt;&lt;e18&gt;execution time&lt;/e18&gt;&lt;/s17&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T082638Z" creationid="haohang" creationdate="20160726T082638Z">
+        <seg>但它在&lt;s17&gt;&lt;e18&gt;执行时&lt;/e18&gt;&lt;/s17&gt;才需要这些信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30255,8 +30271,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The &lt;s6&gt;&lt;e7&gt;execution&lt;/e7&gt;&lt;/s6&gt; dependency is in the other direction, as &lt;c8&gt;webDist&lt;/c8&gt; depends on the build artifacts of &lt;c9&gt;date&lt;/c9&gt; and &lt;c10&gt;hello&lt;/c10&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T080317Z" creationid="haohang" creationdate="20160726T080317Z">
-        <seg>The &lt;s6&gt;&lt;e7&gt;execution&lt;/e7&gt;&lt;/s6&gt; dependency is in the other direction, as &lt;c8&gt;webDist&lt;/c8&gt; depends on the build artifacts of &lt;c9&gt;date&lt;/c9&gt; and &lt;c10&gt;hello&lt;/c10&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T082523Z" creationid="haohang" creationdate="20160726T080317Z">
+        <seg>&lt;s6&gt;&lt;e7&gt;执行&lt;/e7&gt;&lt;/s6&gt;依赖则是另一个方面，因为&lt;c8&gt;webDist&lt;/c8&gt;依赖于&lt;c9&gt;date&lt;/c9&gt; 和 &lt;c10&gt;hello&lt;/c10&gt;所构建的构件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34565,6 +34581,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is even a third dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T082547Z" creationid="haohang" creationdate="20160726T082547Z">
+        <seg>这里甚至有第三个依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is much more to say about multi-project builds in the chapter dedicated to this topic (see &lt;a0&gt;Chapter 56, &lt;i1&gt;Multi-project Builds&lt;/i1&gt;&lt;/a0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T030443Z" creationid="haohang" creationdate="20160519T030443Z">
@@ -34617,6 +34641,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160518T032506Z" creationid="haohang" creationdate="20160518T032506Z">
         <seg>因此严格来说，它们都是&lt;s0&gt;&lt;e1&gt;构建配置脚本&lt;/e1&gt;&lt;/s0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Therefore we have no circular dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T082647Z" creationid="haohang" creationdate="20160726T082647Z">
+        <seg>因此，我们没有循环依赖。</seg>
       </tuv>
     </tu>
     <tu>
