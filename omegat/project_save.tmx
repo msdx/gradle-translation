@@ -7040,10 +7040,26 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.7.1. Disabling the build of dependency projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T085308Z" creationid="haohang" creationdate="20160726T085308Z">
+        <seg>56.7.1. 禁止依赖项目的构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.7. Project lib dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083211Z" creationid="haohang" creationdate="20160726T083211Z">
         <seg>56.7. 项目库依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>56.8. Parallel project execution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T085423Z" creationid="haohang" creationdate="20160726T085423Z">
+        <seg>56.8. 并行项目执行</seg>
       </tuv>
     </tu>
     <tu>
@@ -19936,6 +19952,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the person service we declare that the project should be compiled only against the &lt;c5&gt;api&lt;/c5&gt; interfaces but tested with all classes from &lt;c6&gt;api&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T085250Z" creationid="haohang" creationdate="20160726T085250Z">
+        <seg>对于 person service，我们定义了这个项目应该仅针对&lt;c5&gt;api&lt;/c5&gt; 接口编译，但是对&lt;c6&gt;api&lt;/c6&gt;里的所有类进行测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For this and other (mainly isolation) reasons, it is desirable to execute the Sonar Runner in a separate process.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T234530Z" creationid="haohang" creationdate="20150525T234530Z">
@@ -28409,6 +28433,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T151833Z" creationid="msdx" creationdate="20141117T151833Z">
         <seg>有时我们不能使用现有的守护进程，是因为它正忙或其 java 版本或 jvm 参数不同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sometimes you don't want depended on projects to be built when doing a partial build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T085345Z" creationid="haohang" creationdate="20160726T085345Z">
+        <seg>有时候，在做局部构建时，你不想依赖的项目也进行构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37209,6 +37241,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T065936Z" creationid="haohang" creationdate="20150705T084552Z">
         <seg>若要定义 distribution 的名称，必须如下所示设置&lt;c0&gt;baseName&lt;/c0&gt;属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To disable the build of the depended on projects you can run Gradle with the &lt;c0&gt;-a&lt;/c0&gt; option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T085414Z" creationid="haohang" creationdate="20160726T085414Z">
+        <seg>如果要禁止依赖项目的构建，你可以使用&lt;c0&gt;-a&lt;/c0&gt; 选项运行 Gradle。</seg>
       </tuv>
     </tu>
     <tu>
