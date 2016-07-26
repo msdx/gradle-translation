@@ -7024,6 +7024,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.7. Project lib dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083211Z" creationid="haohang" creationdate="20160726T083211Z">
+        <seg>56.7. 项目库依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -12088,6 +12096,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And not just the jar but also the transitive dependencies of this jar?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083402Z" creationid="haohang" creationdate="20160726T083402Z">
+        <seg>并且，不止是这个jar包，还包括了它的传递依赖？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>And the &lt;a0&gt;&lt;c1&gt;Project&lt;/c1&gt;&lt;/a0&gt; interface is your starting point for accessing everything in the Gradle API.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T041035Z" creationid="msdx" creationdate="20141108T041035Z">
@@ -12324,6 +12340,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084331Z" creationid="Administrator" creationdate="20150426T084331Z">
         <seg>由本项目生产的构件（如jar包）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As already mentioned in &lt;a0&gt;Section 50.4.3, “Project dependencies”&lt;/a0&gt;, Gradle offers project lib dependencies for this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083450Z" creationid="haohang" creationdate="20160726T083450Z">
+        <seg>&lt;a0&gt;第50.4.3节，“项目依赖”&lt;/a0&gt;中已经提到，Gradle 为此提供了项目库依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18296,6 +18320,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.24. Project lib dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083500Z" creationid="haohang" creationdate="20160726T083500Z">
+        <seg>56.24. 项目库依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.3. Multi-project tree - water, bluewhale &amp; krill projects</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160526T155319Z" creationid="95" creationdate="20160526T155319Z">
@@ -21808,6 +21840,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084701Z" creationid="haohang" creationdate="20160408T084443Z">
         <seg>如果一个二进制变种因为某些原因不能构建，那么与之关联的&lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt;将不会是&lt;c2&gt;buildable&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a build system does not support such patterns, you either can't solve your problem or you need to do ugly hacks which are hard to maintain and massively afflict your productivity as a build master.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083204Z" creationid="haohang" creationdate="20160726T083204Z">
+        <seg>如果一个构建系统不支持这种模式，你就不能解决你的问题，或者你需要用一些恶心的 hack方法，这样就会很难维护，并且非常影响你的生产力。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25637,6 +25677,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Obviously this is a very common use case for Java multi-project builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083422Z" creationid="haohang" creationdate="20160726T083422Z">
+        <seg>显示，对于Java 多项目构建当中，这是很常见的情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Occasionally, you may want to stop the daemons either via the &lt;c0&gt;--stop&lt;/c0&gt; command line option or in a more forceful way.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T030639Z" creationid="msdx" creationdate="20141119T030639Z">
@@ -26585,6 +26633,22 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T151301Z" creationid="msdx" creationdate="20141117T151301Z">
         <seg>Gradle 缓存的定期垃圾收集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Person.java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083506Z" creationid="haohang" creationdate="20160726T083506Z">
+        <seg>Person.java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PersonImpl.java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083507Z" creationid="haohang" creationdate="20160726T083507Z">
+        <seg>PersonImpl.java</seg>
       </tuv>
     </tu>
     <tu>
@@ -28441,6 +28505,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T123934Z" creationid="msdx" creationdate="20141111T123934Z">
         <seg>这样的一个任务可能会比一个 Ant 任务更好配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Such and other dependency patterns are daily bread in the problem space of multi-project builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T082817Z" creationid="haohang" creationdate="20160726T082817Z">
+        <seg>在多项目构建中，这样或其他的依赖模式是很常见的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38469,6 +38541,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What if one projects needs the jar produced by another project in its compile path?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083341Z" creationid="haohang" creationdate="20160726T083341Z">
+        <seg>可能会出现，一个项目在它的编译路径中需要由另一个项目所输出的jar包？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What is dependency management?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163533Z" creationid="msdx" creationdate="20141109T163533Z">
@@ -41285,6 +41365,22 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141209T073532Z" creationid="msdx" creationdate="20141209T073532Z">
         <seg>antlr_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>api/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083504Z" creationid="haohang" creationdate="20160726T083504Z">
+        <seg>api/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apiImpl/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083507Z" creationid="haohang" creationdate="20160726T083507Z">
+        <seg>apiImpl/</seg>
       </tuv>
     </tu>
     <tu>
@@ -47733,6 +47829,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>java/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083502Z" creationid="haohang" creationdate="20160726T083502Z">
+        <seg>java/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>javaLibraryDistribution_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T142753Z" creationid="msdx" creationdate="20141121T142753Z">
@@ -51821,6 +51925,14 @@ project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gr
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T053933Z" creationid="msdx" creationdate="20150513T053933Z">
         <seg>server.url</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>services/personService/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083508Z" creationid="haohang" creationdate="20160726T083508Z">
+        <seg>services/personService/</seg>
       </tuv>
     </tu>
     <tu>
