@@ -7072,6 +7072,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.9. Decoupled Projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T092128Z" creationid="haohang" creationdate="20160726T092128Z">
+        <seg>56.9. 解耦的项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -20628,6 +20636,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124535Z" creationid="msdx" creationdate="20141111T124448Z">
         <seg>Gradle 添加了一些概念和 API 来帮助您实现这一目标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle allows any project to access any other project during both the configuration and execution phases.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T092221Z" creationid="haohang" creationdate="20160726T092221Z">
+        <seg>Gradle 允许任何项目在配置和执行阶段访问其他项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39485,6 +39501,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While this provides a great deal of power and flexibility to the build author, it also limits the flexibility that Gradle has when building those projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T092334Z" creationid="haohang" creationdate="20160726T092334Z">
+        <seg>虽然这能为构建作者提供强大的功能和灵活性，但它也限制了在构建这些项目时Gradle 的灵活性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>While you could try to manage this problem manually, you will quickly find that this approach doesn't scale.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150720T065111Z" creationid="haohang" creationdate="20150720T065111Z">
@@ -41025,6 +41049,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T144338Z" creationid="95" creationdate="20160106T144338Z">
         <seg>你需要为你想发布的每一个构件声明一个过滤器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You need to make sure the task dependencies are declared correctly to avoid ordering issues.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T092120Z" creationid="haohang" creationdate="20160726T092120Z">
+        <seg>你需要确保正确地声明任务，以避免排序的问题。</seg>
       </tuv>
     </tu>
     <tu>
