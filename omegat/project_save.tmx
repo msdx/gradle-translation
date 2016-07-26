@@ -19000,6 +19000,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>First, you need to tell Gradle to use the parallel mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T090858Z" creationid="haohang" creationdate="20160726T090858Z">
+        <seg>首先，你需要告诉 Gradle 使用并行模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Firstly if using that rule introduces an ordering cycle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T152512Z" creationid="msdx" creationdate="20141110T152457Z">
@@ -21682,8 +21690,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>How does the parallel execution work?</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T090847Z" creationid="haohang" creationdate="20160726T090847Z">
-        <seg>并行执行是如何工作的？</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T090907Z" creationid="haohang" creationdate="20160726T090847Z">
+        <seg>并行执行是怎么做的？</seg>
       </tuv>
     </tu>
     <tu>
@@ -38085,6 +38093,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unless you provide specific number of parallel threads Gradle attempts to choose the right number based on available CPU cores.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T091136Z" creationid="haohang" creationdate="20160726T091136Z">
+        <seg>除非你提供了特定数量的并行线程，否则Gradle 将基于可用的 CPU 内核尝试选择正确的线程数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unlike the Sonar plugin, the Sonar Runner plugin works fine with Sonar 3.4 and higher.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T060612Z" creationid="msdx" creationdate="20150513T060612Z">
@@ -40681,6 +40697,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T145942Z" creationid="msdx" creationdate="20141113T145842Z">
         <seg>如果你愿意，使用归档任务时可以不需要Java插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use the command line argument (&lt;a0&gt;Appendix D, &lt;i1&gt;Gradle Command Line&lt;/i1&gt;&lt;/a0&gt;) or configure your build environment (&lt;a2&gt;Section 20.1, “Configuring the build environment via gradle.properties”&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T091056Z" creationid="haohang" creationdate="20160726T091056Z">
+        <seg>你可以使用命令行参数（&lt;a0&gt;附录 D， &lt;i1&gt;Gradle 命令行&lt;/i1&gt;&lt;/a0&gt;），或者是配置你的构建环境（&lt;a2&gt;第 20.1 节，“通过 gradle.properties 配置构建环境”&lt;/a2&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
