@@ -10308,6 +10308,52 @@ Evaluation of project ':projectB' FAILED</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle :api:build
+:shared:compileJava
+:shared:processResources
+:shared:classes
+:shared:jar
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T095312Z" creationid="haohang" creationdate="20160726T095312Z">
+        <seg>&gt; gradle :api:build
+:shared:compileJava
+:shared:processResources
+:shared:classes
+:shared:jar
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle disableMe
 :disableMe SKIPPED
 
@@ -18524,6 +18570,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T084511Z" creationid="haohang" creationdate="20160726T084511Z">
         <seg>示例 56.26. 对依赖的细粒度的控制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.27. Build and Test Single Project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T095304Z" creationid="haohang" creationdate="20160726T095304Z">
+        <seg>示例 56.27. 构建和测试单个项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -26765,6 +26819,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle :api:build&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T095310Z" creationid="haohang" creationdate="20160726T095310Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle :api:build&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle disableMe&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055757Z" creationid="msdx" creationdate="20141111T055749Z">
@@ -30449,6 +30511,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105028Z" creationid="haohang" creationdate="20150624T104603Z">
         <seg>&lt;c0&gt;beforeMerged&lt;/c0&gt;的 hook 会随着一个表示现有文件的域对象执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;build&lt;/c0&gt; task does this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T095253Z" creationid="haohang" creationdate="20160726T095253Z">
+        <seg>&lt;c0&gt;build&lt;/c0&gt; 任务能做到这一点。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39653,6 +39723,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While you are working in a typical development cycle repeatedly building and testing changes to the :api project (knowing that you are only changing files in this one project), you may not want to even suffer the expense of :shared:compile checking to see what has changed in the :shared project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T095313Z" creationid="haohang" creationdate="20160726T095313Z">
+        <seg>While you are working in a typical development cycle repeatedly building and testing changes to the :api project (knowing that you are only changing files in this one project), you may not want to even suffer the expense of :shared:compile checking to see what has changed in the :shared project.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>While you could try to manage this problem manually, you will quickly find that this approach doesn't scale.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150720T065111Z" creationid="haohang" creationdate="20150720T065111Z">
@@ -41069,6 +41147,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You have been making changes, but have not built the entire project since performing a clean.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T095046Z" creationid="haohang" creationdate="20160726T095046Z">
+        <seg>你做了一些修改，但从执行clean以来还没有构建整个项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You have to declare the projects taking part in the multiproject build in the settings file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T030227Z" creationid="haohang" creationdate="20160519T030227Z">
@@ -41321,6 +41407,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T095538Z" creationid="haohang" creationdate="20150625T095538Z">
         <seg>你可以使用它来声明你想要使用的 ANTLR 依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You want to build any necessary supporting jars, but only perform code quality and unit tests on the project you have changed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T095204Z" creationid="haohang" creationdate="20160726T095204Z">
+        <seg>你想要构建出所有必需的支持jar包，但只对这个你修改了的项目进行代码质量和单元测试。</seg>
       </tuv>
     </tu>
     <tu>
