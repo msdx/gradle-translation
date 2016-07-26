@@ -6920,6 +6920,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.10. Multi-Project Building and Testing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094512Z" creationid="haohang" creationdate="20160726T094512Z">
+        <seg>56.10. 多项目构建和测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.2.1. Defining common behavior</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T162233Z" creationid="95" creationdate="20160527T162233Z">
@@ -12588,6 +12596,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160405T033647Z" creationid="haohang" creationdate="20160405T033647Z">
         <seg>随着我们继续开发 Gradle 的本地二进制支持，将扩展Platform的概念，包括 C-runtime版本，Windows SDK，ABI，等等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As we extend the concept of project decoupling and provide features that take advantage of decoupled projects, we will also introduce new features to help you to solve common use cases (like configuration injection) without causing your projects to be coupled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094504Z" creationid="haohang" creationdate="20160726T094504Z">
+        <seg>当我们扩大项目解耦的概念，并提供利用了解耦项目的功能，我们也将引入新的功能来帮助你解决常见的情况（如配置注入）而不会导致你的项目耦合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30397,6 +30413,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;build&lt;/c0&gt; task of the Java plugin is typically used to compile, test, and perform code style checks (if the CodeQuality plugin is used) of a single project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094619Z" creationid="haohang" creationdate="20160726T094619Z">
+        <seg>Java 插件的&lt;c0&gt;build&lt;/c0&gt; 通常用于一个项目的编译，测试和执行代码风格检查（如果使用了CodeQuality插件的话）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;buildDashboard&lt;/c0&gt; task does not depend on any other tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T095540Z" creationid="haohang" creationdate="20150713T095540Z">
@@ -36569,6 +36593,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T041843Z" creationid="haohang" creationdate="20160519T041843Z">
         <seg>这意味着，包含路径 'services:hotels:api' 将导致创建3个项目: 'services'、'services:hotels'和'services:hotels:api'。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that using any form of shared build script logic or configuration injection (&lt;c0&gt;allprojects&lt;/c0&gt;, &lt;c1&gt;subprojects&lt;/c1&gt;, etc.) will cause your projects to be coupled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094333Z" creationid="haohang" creationdate="20160726T094333Z">
+        <seg>这意味着，使用任何形式的共享构建脚本逻辑或配置注入（&lt;c0&gt;allprojects&lt;/c0&gt;、&lt;c1&gt;subprojects&lt;/c1&gt;等）会导致你的项目耦合。</seg>
       </tuv>
     </tu>
     <tu>
