@@ -12784,6 +12784,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assume you are working on a single project, the :api project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T095002Z" creationid="haohang" creationdate="20160726T095002Z">
+        <seg>假设你在 :api 这一个项目上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assuming a local Sonar server with out-of-the-box settings is up and running, no further mandatory configuration is required.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T061600Z" creationid="msdx" creationdate="20150513T060746Z">
@@ -23396,6 +23404,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In multi-project builds you may often want to do all of these tasks across a range of projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094806Z" creationid="haohang" creationdate="20160726T094714Z">
+        <seg>在多项目构建中，你可能经常想跨多项目范围执行这些任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In order to create PGP signatures, you will need a key pair (instructions on creating a key pair using the &lt;a0&gt;GnuPG tools&lt;/a0&gt; can be found in the &lt;a1&gt;GnuPG HOWTOs&lt;/a1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160108T151330Z" creationid="95" creationdate="20160108T151330Z">
@@ -23697,6 +23713,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T161831Z" creationid="msdx" creationdate="20141122T161831Z">
         <seg>在这一章中，我们将讨论如何使用插件以及术语和插件相关的概念。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this example :services:personservice depends on both :api and :shared.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094923Z" creationid="haohang" creationdate="20160726T094923Z">
+        <seg>在这个例子中 :services:personservice 同时依赖于 :api 和 :shared。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25033,6 +25057,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160718T070401Z" creationid="haohang" creationdate="20160718T070203Z">
         <seg>让我们试着用一个技巧解决这个问题，并将生产者项目命名为&lt;c2&gt;aProducer&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's use the project structure shown in &lt;a0&gt;Example 56.25, “Project lib dependencies”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094857Z" creationid="haohang" creationdate="20160726T094857Z">
+        <seg>让我们使用&lt;a0&gt;示例 56.25，“项目库依赖”&lt;/a0&gt;中显示的项目结构。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30301,6 +30333,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The :api project also depends on :shared.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094935Z" creationid="haohang" creationdate="20160726T094935Z">
+        <seg>:api 项目还依赖于 :shared.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;a0&gt;&lt;c1&gt;JacocoReport&lt;/c1&gt;&lt;/a0&gt; task can be used to generate code coverage reports in different formats.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T131717Z" creationid="msdx" creationdate="20150506T131644Z">
@@ -30641,6 +30681,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T073901Z" creationid="haohang" creationdate="20150625T073901Z">
         <seg>&lt;c1&gt;beforeMerged&lt;/c1&gt; hook 可以实现只覆盖现有的某些部分的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c1&gt;buildNeeded&lt;/c1&gt; and &lt;c2&gt;buildDependents&lt;/c2&gt; tasks can help with this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094740Z" creationid="haohang" creationdate="20160726T094740Z">
+        <seg>&lt;c1&gt;buildNeeded&lt;/c1&gt; 和 &lt;c2&gt;buildDependents&lt;/c2&gt; 任务能帮你做到这一点。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49601,6 +49649,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T092535Z" creationid="haohang" creationdate="20150801T092535Z">
         <seg>multi_project_builds.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi_project_builds.html#javadependencies_2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094809Z" creationid="haohang" creationdate="20160726T094809Z">
+        <seg>multi_project_builds.html#javadependencies_2</seg>
       </tuv>
     </tu>
     <tu>
