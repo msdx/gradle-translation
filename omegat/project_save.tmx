@@ -24439,8 +24439,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>It may not be immediately apparent, but using key Gradle features like the &lt;c1&gt;allprojects&lt;/c1&gt; and &lt;c2&gt;subprojects&lt;/c2&gt; keywords automatically cause your projects to be coupled.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T093437Z" creationid="haohang" creationdate="20160726T093437Z">
-        <seg>它可能不是立即显现出来，但使用关键的 Gradle 特性，像&lt;c1&gt;allprojects&lt;/c1&gt;和&lt;c2&gt;subprojets&lt;/c2&gt;关键字自动会导致您的项目解耦。</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T093616Z" creationid="haohang" creationdate="20160726T093437Z">
+        <seg>它可能不明显，但使用关键的 Gradle 特性，像&lt;c1&gt;allprojects&lt;/c1&gt;和&lt;c2&gt;subprojets&lt;/c2&gt;关键字会自动导致你的项目耦合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26041,6 +26041,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T060518Z" creationid="95" creationdate="20151115T060518Z">
         <seg>通常一个组织会使用一个版本发布一组库；这些库将在一起构建，测试以及发布。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Often this is a "root project" that does nothing more than define common configuration, but as far as Gradle is concerned this root project is still a fully-fledged project, and by using &lt;c4&gt;allprojects&lt;/c4&gt; that project is effectively coupled to all other projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094243Z" creationid="haohang" creationdate="20160726T094003Z">
+        <seg>通常这是一个“根项目”，除了定义常见的配置不执行任何操作，但对 Gradle 而言这个根项目仍然是一个成熟的项目，并且通过使用&lt;c4&gt;allprojects&lt;/c4&gt;，该项目有效地与所有其他项目耦合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36193,6 +36201,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154141Z" creationid="msdx" creationdate="20141123T154141Z">
         <seg>这是通过一个&lt;s3&gt;&lt;e4&gt;合理的默认&lt;/e4&gt;&lt;/s3&gt;的约定优于配置的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is because these keywords are used in a &lt;c3&gt;build.gradle&lt;/c3&gt; file, which defines a project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T093700Z" creationid="haohang" creationdate="20160726T093700Z">
+        <seg>这是因为这些关键字在 &lt;c3&gt;build.gradle&lt;/c3&gt; 文件中使用，而这个文件定义了一个project。</seg>
       </tuv>
     </tu>
     <tu>
