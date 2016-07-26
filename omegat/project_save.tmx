@@ -12900,6 +12900,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Bear in mind that the alphabetical scheduling of decoupled tasks, known from the sequential execution, does not really work in parallel mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T092056Z" creationid="haohang" creationdate="20160726T091746Z">
+        <seg>记住，解耦的任务按字母顺序调度，并且这个顺序执行，而不是真的在并行模式下执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because Gradle's build language is based on Groovy, and parts of Gradle are implemented in Groovy, Gradle already ships with a Groovy library (1.8.6 as of Gradle 1.6).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075636Z" creationid="msdx" creationdate="20150429T075405Z">
@@ -29863,8 +29871,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>Task dependencies are fully supported and parallel workers will start executing upstream tasks first.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T091424Z" creationid="haohang" creationdate="20160726T091424Z">
-        <seg>Task dependencies are fully supported and parallel workers will start executing upstream tasks first.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T091831Z" creationid="haohang" creationdate="20160726T091424Z">
+        <seg>完全支持任务依赖，并且平行的workers将会首先开始执行上游的任务。</seg>
       </tuv>
     </tu>
     <tu>
