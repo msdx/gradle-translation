@@ -6928,6 +6928,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.11. Property and method inheritance</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052904Z" creationid="haohang" creationdate="20160727T052904Z">
+        <seg>56.11. 属性和方法的继承</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.2.1. Defining common behavior</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T162233Z" creationid="95" creationdate="20160527T162233Z">
@@ -10396,6 +10404,78 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle :api:buildDependents
+:shared:compileJava
+:shared:processResources
+:shared:classes
+:shared:jar
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+:services:personService:compileJava
+:services:personService:processResources
+:services:personService:classes
+:services:personService:jar
+:services:personService:assemble
+:services:personService:compileTestJava
+:services:personService:processTestResources
+:services:personService:testClasses
+:services:personService:test
+:services:personService:check
+:services:personService:build
+:services:personService:buildDependents
+:api:buildDependents
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052711Z" creationid="haohang" creationdate="20160727T052711Z">
+        <seg>&gt; gradle :api:buildDependents
+:shared:compileJava
+:shared:processResources
+:shared:classes
+:shared:jar
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+:services:personService:compileJava
+:services:personService:processResources
+:services:personService:classes
+:services:personService:jar
+:services:personService:assemble
+:services:personService:compileTestJava
+:services:personService:processTestResources
+:services:personService:testClasses
+:services:personService:test
+:services:personService:check
+:services:personService:build
+:services:personService:buildDependents
+:api:buildDependents
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle :api:buildNeeded
 :shared:compileJava
 :shared:processResources
@@ -12544,6 +12624,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any task you run in the root project folder will cause that same named task to be run on all the children.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052827Z" creationid="haohang" creationdate="20160727T052732Z">
+        <seg>你在根项目文件夹运行的任何项目，都会导致所有子项目的同名任务被运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Apart from a status scheme, a module also has a (current) &lt;s5&gt;&lt;e6&gt;status&lt;/e6&gt;&lt;/s5&gt;, which must be one of the values in its status scheme.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T013218Z" creationid="95" creationdate="20151129T012639Z">
@@ -13520,6 +13608,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T072948Z" creationid="msdx" creationdate="20141109T072925Z">
         <seg>但这是种臃肿的解决方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But we think that the model of inheritance does not reflect the problem space of multi-project builds very well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T053146Z" creationid="haohang" creationdate="20160727T053031Z">
+        <seg>但我们认为，继承模型并不能好地反映多项目构建的问题。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18706,8 +18802,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Example 56.29. Build and Test Depended On Projects</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052259Z" creationid="haohang" creationdate="20160727T052259Z">
-        <seg>示例 56.29. 构建和测试依赖的项目</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052655Z" creationid="haohang" creationdate="20160727T052259Z">
+        <seg>示例 56.29. 构建和测试被依赖的项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -18716,6 +18812,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160526T155319Z" creationid="95" creationdate="20160526T155319Z">
         <seg>示例 56.3. 多项目树- water &amp; bluewhale &amp; krill 项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.30. Build and Test Dependent Projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052705Z" creationid="haohang" creationdate="20160727T052625Z">
+        <seg>示例 56.30. 构建和测试依赖它的项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -19228,6 +19332,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T142802Z" creationid="msdx" creationdate="20141114T142802Z">
         <seg>最后，您可以将整个任务移动到您的构建文件，或者把它们替换为一些 Gradle 插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finally, you may want to build and test everything in all projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052730Z" creationid="haohang" creationdate="20160727T052730Z">
+        <seg>最后，你可能想要构建和测试所有项目的所有内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23380,6 +23492,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In a future edition of this user guide we might write more about this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T053229Z" creationid="haohang" creationdate="20160727T053229Z">
+        <seg>在本用户指南的未来版本中，我们可能会写一下与之有关的更多内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In a large project with 30 submodules, adding a dependency to a subproject changed the order of a classpath, swapping Spring 2.5 for an older 2.4 version.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T055545Z" creationid="haohang" creationdate="20150721T055545Z">
@@ -26981,6 +27101,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle :api:buildDependents&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052710Z" creationid="haohang" creationdate="20160727T052701Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle :api:buildDependents&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle :api:buildNeeded&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052319Z" creationid="haohang" creationdate="20160727T052319Z">
@@ -27569,6 +27697,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091601Z" creationid="msdx" creationdate="20150512T091601Z">
         <seg>这些 Projects 也可以单独配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Properties and methods declared in a project are inherited to all its subprojects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T053005Z" creationid="haohang" creationdate="20160727T053005Z">
+        <seg>定义在一个项目里的属性和方法都会被继承到它所有的子项目中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28721,6 +28857,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T084202Z" creationid="haohang" creationdate="20160726T084202Z">
         <seg>所以你可以进入&lt;c5&gt;api&lt;/c5&gt;目录并触发&lt;s6&gt;&lt;c7&gt;gradle compile&lt;/c7&gt;&lt;/s6&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So you can just run &lt;c0&gt;gradle build&lt;/c0&gt; to build and test all projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052848Z" creationid="haohang" creationdate="20160727T052848Z">
+        <seg>因此，你可以只执行&lt;c0&gt;gradle build&lt;/c0&gt; 来构建和测试所有的项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36513,6 +36657,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025434Z" creationid="haohang" creationdate="20160519T025434Z">
         <seg>This is also executed during the configuration phase.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is an alternative to configuration injection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T053024Z" creationid="haohang" creationdate="20160727T053024Z">
+        <seg>这是配置注入的另一种方法。</seg>
       </tuv>
     </tu>
     <tu>
