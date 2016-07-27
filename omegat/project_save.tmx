@@ -278,6 +278,30 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#N16335</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T055013Z" creationid="haohang" creationdate="20160727T055013Z">
+        <seg>#N16335</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#N16351</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T055143Z" creationid="haohang" creationdate="20160727T055143Z">
+        <seg>#N16351</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#N16459</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T055236Z" creationid="haohang" creationdate="20160727T055236Z">
+        <seg>#N16459</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#ftn.N10B28</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T054401Z" creationid="msdx" creationdate="20141108T054401Z">
@@ -8804,6 +8828,22 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160722T091139Z" creationid="haohang" creationdate="20160722T091139Z">
         <seg>&lt;s0&gt;[&lt;a1&gt;21&lt;/a1&gt;]&lt;/s0&gt; 对于这个例子，我们仅使用了一个构建脚本，并且进行了&lt;s2&gt;&lt;e3&gt;跨项目的配置&lt;/e3&gt;&lt;/s2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;22&lt;/a1&gt;] &lt;/s0&gt; &lt;c2&gt;services&lt;/c2&gt; is also a project, but we use it just as a container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T055049Z" creationid="haohang" creationdate="20160727T055049Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;22&lt;/a1&gt;] &lt;/s0&gt; &lt;c2&gt;services&lt;/c2&gt; 也是一个项目，但我们只是把它用作一个容器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;23&lt;/a1&gt;] &lt;/s0&gt;We do this here, as it makes the layout a bit easier.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T055210Z" creationid="haohang" creationdate="20160727T055210Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;23&lt;/a1&gt;] &lt;/s0&gt;我们在这里实现，因为它可以使布局更容易。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24509,6 +24549,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It has no build script and gets nothing injected by another build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T055142Z" creationid="haohang" creationdate="20160727T055142Z">
+        <seg>它没有构建脚本，并且其他项目也没有向它注入内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It has the following features:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T094124Z" creationid="haohang" creationdate="20150707T094124Z">
@@ -30701,6 +30749,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That was one reason why we have created a distribution of webapps.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T054704Z" creationid="haohang" creationdate="20160727T054704Z">
+        <seg>这是为什么我们创建一个 webapps 分发包的原因之一。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>That way you have somehow expressed, what are your first level dependencies and what are transitive dependencies (see &lt;a0&gt;Section 50.4.8, “Optional attributes”&lt;/a0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T064642Z" creationid="haohang" creationdate="20151201T064642Z">
@@ -32537,6 +32593,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150626T095308Z" creationid="haohang" creationdate="20150626T095308Z">
         <seg>项目报告插件将一些任务添加到项目中，用于生成包含有关构建的有用信息的报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Resin servlet container allows us, to let such a distribution point to a base installation of the servlet container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T055012Z" creationid="haohang" creationdate="20160727T054715Z">
+        <seg>Resin servlet 容器能允许我们让这样的一个分发指向一个基本安装的servlet容器中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39529,6 +39593,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T162124Z" creationid="95" creationdate="20160527T162124Z">
         <seg>我们认为它提供了配置 multiproject 的构建非常强大和灵活的方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We usually put the project specific stuff into the build script of the respective projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T055235Z" creationid="haohang" creationdate="20160727T055235Z">
+        <seg>我们通常把项目的具体东西放到各自的项目的构建脚本里。</seg>
       </tuv>
     </tu>
     <tu>
@@ -47729,6 +47801,14 @@ project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160518T031249Z" creationid="haohang" creationdate="20160518T031249Z">
         <seg>http://en.wikipedia.org/wiki/Directed_acyclic_graph</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T055237Z" creationid="haohang" creationdate="20160727T055237Z">
+        <seg>http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two</seg>
       </tuv>
     </tu>
     <tu>
