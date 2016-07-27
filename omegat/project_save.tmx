@@ -9620,6 +9620,48 @@ build completed</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -a :api:build
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T051922Z" creationid="haohang" creationdate="20160727T051922Z">
+        <seg>-&gt; gradle :api:build
+:shared:compileJava
+:shared:processResources
+:shared:classes
+:shared:jar
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q -PcommandLineProjectProp=commandLineProjectPropValue -Dorg.gradle.project.systemProjectProp=systemPropertyValue printProps
 commandLineProjectPropValue
 gradlePropertiesValue
@@ -11306,6 +11348,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141013Z" creationid="Administrator" creationdate="20150330T141013Z">
         <seg>向任务添加依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding the &lt;c0&gt;-a&lt;/c0&gt; option will cause Gradle to use cached jars to resolve any project lib dependencies and not try to re-build the depended on projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T051902Z" creationid="haohang" creationdate="20160727T051902Z">
+        <seg>添加&lt;c0&gt;-a&lt;/c0&gt;选项会导致 Gradle 使用缓存的jar 来解决任何项目库依赖，并且不会尝试重新生构建所依赖的项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18582,6 +18632,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.28. Partial Build and Test Single Project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T051916Z" creationid="haohang" creationdate="20160727T051916Z">
+        <seg>示例 56.28. 部分构建和测试单个项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.3. Multi-project tree - water, bluewhale &amp; krill projects</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160526T155319Z" creationid="95" creationdate="20160526T155319Z">
@@ -22826,6 +22884,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have just gotten the latest version of source from your version control system which included changes in other projects that :api depends on, you might want to not only build all the projects you depend on, but test them as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052114Z" creationid="haohang" creationdate="20160727T051923Z">
+        <seg>如果你只是刚刚从你的版本控制系统中获取到最新的代码，它包含了:api依赖的其他项目的修改，你可能不只想构建所有你依赖的项目，还想对它们进行测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have more than one artifact to publish, things work a little bit differently.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T143257Z" creationid="95" creationdate="20160106T143218Z">
@@ -26575,6 +26641,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154830Z" creationid="msdx" creationdate="20141116T154830Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -I init.gradle build&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -a :api:build&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T051920Z" creationid="haohang" creationdate="20160727T051920Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle :api:build&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
