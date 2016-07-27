@@ -10396,6 +10396,70 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle :api:buildNeeded
+:shared:compileJava
+:shared:processResources
+:shared:classes
+:shared:jar
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+:shared:assemble
+:shared:compileTestJava
+:shared:processTestResources
+:shared:testClasses
+:shared:test
+:shared:check
+:shared:build
+:shared:buildNeeded
+:api:buildNeeded
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052320Z" creationid="haohang" creationdate="20160727T052320Z">
+        <seg>&gt; gradle :api:buildNeeded
+:shared:compileJava
+:shared:processResources
+:shared:classes
+:shared:jar
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+:shared:assemble
+:shared:compileTestJava
+:shared:processTestResources
+:shared:testClasses
+:shared:test
+:shared:check
+:shared:build
+:shared:buildNeeded
+:api:buildNeeded
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle disableMe
 :disableMe SKIPPED
 
@@ -18640,6 +18704,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.29. Build and Test Depended On Projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052259Z" creationid="haohang" creationdate="20160727T052259Z">
+        <seg>示例 56.29. 构建和测试依赖的项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.3. Multi-project tree - water, bluewhale &amp; krill projects</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160526T155319Z" creationid="95" creationdate="20160526T155319Z">
@@ -22908,6 +22980,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you make these types of changes, it is not sufficient to test just the :api project, you also need to test all projects that depend on the :api project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052459Z" creationid="haohang" creationdate="20160727T052459Z">
+        <seg>如果你做这一类的修改，只测试:api 项目并不足够，你还需要测试依赖于:api项目的所有项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you manually define a path variable pointing to the Gradle dependency cache, IDEA will automatically replace the absolute dependency paths with this path variable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T092229Z" creationid="haohang" creationdate="20150625T092229Z">
@@ -26901,6 +26981,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle :api:buildNeeded&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052319Z" creationid="haohang" creationdate="20160727T052319Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle: api:buildNeeded&lt;/c1&gt; &lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle disableMe&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T055757Z" creationid="msdx" creationdate="20141111T055749Z">
@@ -30609,6 +30697,22 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150713T095540Z" creationid="haohang" creationdate="20150713T095540Z">
         <seg>&lt;c0&gt;buildDashboard&lt;/c0&gt; 任务不依赖于任何其他任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;buildDependents&lt;/c0&gt; task also tests all the projects that have a project lib dependency (in the testRuntime configuration) on the specified project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052556Z" creationid="haohang" creationdate="20160727T052556Z">
+        <seg>&lt;c0&gt;buildDependents&lt;/c0&gt;任务也用于测试依赖于（在testRuntime配置）指定项目的所有项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;buildNeeded&lt;/c0&gt; task also tests all the projects from the project lib dependencies of the testRuntime configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052240Z" creationid="haohang" creationdate="20160727T052240Z">
+        <seg>&lt;c0&gt;buildNeeded&lt;/c0&gt; 任务也用于测试这个项目在testRuntime配置中依赖的所有库项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40161,6 +40265,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T120629Z" creationid="95" creationdate="20160522T120629Z">
         <seg>然而，在一个非常大的多项目构建里，这种方法可能不是最有效的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You also might want to refactor some part of the :api project that is used in other projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T052419Z" creationid="haohang" creationdate="20160727T052322Z">
+        <seg>你也可能想要重构:api 项目中一些被其他项目用到的内容。</seg>
       </tuv>
     </tu>
     <tu>
