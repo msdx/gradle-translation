@@ -21672,6 +21672,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle will take care of compiling and testing the task class and making it available on the classpath of the build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T144331Z" creationid="95" creationdate="20160814T144331Z">
+        <seg>Gradle将会编译和测试这个任务类，并且使它在构建脚本的类路径中可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle's Ivy repository implementations support the equivalent to Ivy's dynamic resolve mode.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T091015Z" creationid="95" creationdate="20151115T055648Z">
@@ -22268,6 +22276,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084330Z" creationid="haohang" creationdate="20160408T084330Z">
         <seg>然而，在许多情况下是不可能构建一个特定的变种的，可能的原因是某个特定的平台没有可用的工具链。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, it is not visible outside the build, and so you cannot reuse the task class outside the build it is defined in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T144509Z" creationid="95" creationdate="20160814T144424Z">
+        <seg>然而，它在这个构建之外并不可见，因为你不能在定义它的这个构建之外的其他地方来重用这个任务类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35269,6 +35285,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The task class is visible to every build script used by the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T144429Z" creationid="95" creationdate="20160814T144415Z">
+        <seg>这个任务类在该构建所使用的每一个构建脚本当中都是可见的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The task dependencies declared via task path are supported and cause relevant projects configured.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T124703Z" creationid="95" creationdate="20160522T124703Z">
@@ -39269,6 +39293,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using the &lt;c3&gt;buildSrc&lt;/c3&gt; project approach keeps separate the task declaration - that is, what the task should do - from the task implementation - that is, how the task does it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T144503Z" creationid="95" creationdate="20160814T144503Z">
+        <seg>Using the &lt;c3&gt;buildSrc&lt;/c3&gt; project approach keeps separate the task declaration - that is, what the task should do - from the task implementation - that is, how the task does it.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using the Gradle Command-Line</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163824Z" creationid="msdx" creationdate="20141109T163824Z">
@@ -41433,6 +41465,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T134109Z" creationid="msdx" creationdate="20141109T092007Z">
         <seg>您可以把一个&lt;c0&gt;gradle.properties&lt;/c0&gt;文件放在 Gradle 的用户主目录 （默认为&lt;c1&gt;&lt;e2&gt;&lt;c3&gt;USER_HOME&lt;/c3&gt;&lt;/e2&gt;/.gradle&lt;/c1&gt;） ，或您的项目目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can put the source for the task class in the &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;rootProjectDir&lt;/c2&gt;&lt;/e1&gt;/buildSrc/src/main/groovy&lt;/c0&gt; directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T144248Z" creationid="95" creationdate="20160814T144248Z">
+        <seg>你可以把任务类的源码放在 &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;rootProjectDir&lt;/c2&gt;&lt;/e1&gt;/buildSrc/src/main/groovy&lt;/c0&gt; 目录中。</seg>
       </tuv>
     </tu>
     <tu>
