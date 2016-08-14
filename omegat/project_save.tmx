@@ -9346,6 +9346,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;@TaskAction&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T145741Z" creationid="95" creationdate="20160814T145741Z">
+        <seg>&lt;s2&gt;@TaskAction&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;[&lt;a3&gt;19&lt;/a3&gt;]&lt;/s2&gt; For example to use the ssh protocol you can do:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T134836Z" creationid="95" creationdate="20160105T134836Z">
@@ -10208,6 +10216,16 @@ hello from other script</seg>
         <seg>&gt; gradle -q hello
 configuring root project 'configureProjectUsingScript'
 hello from other script</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+hello from GreetingTask</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T145747Z" creationid="95" creationdate="20160814T145747Z">
+        <seg>&gt; gradle -q hello
+hello from GreetingTask</seg>
       </tuv>
     </tu>
     <tu>
@@ -19046,6 +19064,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T145359Z" creationid="95" creationdate="20160814T145359Z">
         <seg>示例 57.1. 定义一个自定义任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 57.2. A hello world task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T145738Z" creationid="95" creationdate="20160814T145738Z">
+        <seg>示例 57.2. 一个hello world 任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -41983,6 +42009,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You could, for instance, call &lt;c2&gt;doFirst()&lt;/c2&gt; or &lt;c3&gt;doLast()&lt;/c3&gt; with a closure in the task constructor to add behaviour.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T145725Z" creationid="95" creationdate="20160814T145725Z">
+        <seg>你能够，例如，在构建方法中调用 &lt;c2&gt;doFirst()&lt;/c2&gt; 或者 &lt;c3&gt;doLast()&lt;/c3&gt; 并传入一个闭包来添加行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You do all this using a &lt;e1&gt;copy spec&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124144Z" creationid="msdx" creationdate="20141113T124144Z">
@@ -45641,6 +45675,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160108T152917Z" creationid="95" creationdate="20160108T152917Z">
         <seg>def file = console.readLine("PGP Secret Key Ring File (absolute path): ")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def greet() {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T145742Z" creationid="95" creationdate="20160814T145742Z">
+        <seg>def greet() {</seg>
       </tuv>
     </tu>
     <tu>
@@ -51981,6 +52023,14 @@ gradle.taskGraph.afterTask { Task task, TaskState state -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;'hello from GreetingTask'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T145743Z" creationid="95" creationdate="20160814T145743Z">
+        <seg>println &lt;s3&gt;'hello from GreetingTask'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s3&gt;'lib2'&lt;/s3&gt;
 }
 
@@ -55095,6 +55145,18 @@ subprojects {</seg>
         <seg>task hello &lt;&lt; {task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
 }
 subprojects {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task hello(type: GreetingTask)
+
+&lt;s0&gt;class&lt;/s0&gt; GreetingTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T145740Z" creationid="95" creationdate="20160814T145740Z">
+        <seg>task hello(type: GreetingTask)
+
+&lt;s0&gt;class&lt;/s0&gt; GreetingTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
       </tuv>
     </tu>
     <tu>
