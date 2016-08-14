@@ -23484,6 +23484,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Implementing your own custom task class in Gradle is easy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T143537Z" creationid="95" creationdate="20160814T143537Z">
+        <seg>在Gradle中实现你的自定义任务类并不难。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Important information messages</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T070723Z" creationid="msdx" creationdate="20141116T070723Z">
@@ -24209,6 +24217,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024234Z" creationid="haohang" creationdate="20160519T024234Z">
         <seg>在此模式下，Gradle 只配置相关的项目（见&lt;a4&gt;第 56.1.1.1 节，“Configuration on demand"&lt;/a4&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this way, enhanced tasks let you reuse a piece of behaviour in many different places, possibly across different builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T143432Z" creationid="95" creationdate="20160814T143432Z">
+        <seg>通过这种方式，增强型的任务能够让你在许多不同的地方，甚至是跨越不同的构建，利用同样的行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33125,6 +33141,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The behaviour and properties of an enhanced task is defined by the task's class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T143458Z" creationid="95" creationdate="20160814T143458Z">
+        <seg>一个增强型的任务的行为和属性是通过这个任务的类定义的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The build announcements plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091419Z" creationid="haohang" creationdate="20150628T091419Z">
@@ -40109,6 +40133,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you declare an enhanced task, you specify the type, or class of the task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T143525Z" creationid="95" creationdate="20160814T143525Z">
+        <seg>当你定义一个增强型任务时，你要定义这个任务的类型或者是类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you define a new source set, the Java plugin adds some dependency configurations for the source set, as shown in &lt;a0&gt;Table 23.6, “Java plugin - source set dependency configurations”&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T132936Z" creationid="Administrator" creationdate="20150427T132936Z">
@@ -40425,6 +40457,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T060708Z" creationid="haohang" creationdate="20150721T060708Z">
         <seg>通过一个好的冲突报告工具，像 Gradle，这些信息可以用于与整个组织沟通，并在一个单一的版本上实现标准化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With enhanced tasks, you don't need to implement the task behaviour as you do with simple tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T143316Z" creationid="95" creationdate="20160814T143316Z">
+        <seg>使用这些增强型的任务，你不需要像使用简单任务一样去实现这个任务的行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41953,6 +41993,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T061723Z" creationid="msdx" creationdate="20150513T061723Z">
         <seg>你现在应该能够看到分析结果了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You simply declare the task and configure the task using its properties.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160814T143343Z" creationid="95" creationdate="20160814T143343Z">
+        <seg>你只需要简单地声明这个任务，并用它的属性来配置它。</seg>
       </tuv>
     </tu>
     <tu>
