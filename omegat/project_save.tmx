@@ -8576,6 +8576,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/customPlugin/plugin&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145048Z" creationid="95" creationdate="20160815T145048Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注意：&lt;/e1&gt;&lt;/s0&gt; 此例子的代码可以在Gradle的二进制文件或源码中的 &lt;c2&gt;samples/customPlugin/plugin&lt;/c2&gt; 里看到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/groovy/quickstart&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T063505Z" creationid="msdx" creationdate="20141030T061718Z">
@@ -9084,6 +9092,24 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
 
 Logger slf4jLogger = LoggerFactory.getLogger(&lt;s2&gt;'some-logger'&lt;/s2&gt;)
 slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;package&lt;/s0&gt; org.gradle
+
+&lt;s1&gt;import&lt;/s1&gt; org.gradle.api.DefaultTask
+&lt;s2&gt;import&lt;/s2&gt; org.gradle.api.tasks.TaskAction
+
+&lt;s3&gt;class&lt;/s3&gt; GreetingTask &lt;s4&gt;extends&lt;/s4&gt; DefaultTask {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145232Z" creationid="95" creationdate="20160815T145232Z">
+        <seg>&lt;s0&gt;package&lt;/s0&gt; org.gradle
+
+&lt;s1&gt;import&lt;/s1&gt; org.gradle.api.DefaultTask
+&lt;s2&gt;import&lt;/s2&gt; org.gradle.api.tasks.TaskAction
+
+&lt;s3&gt;class&lt;/s3&gt; GreetingTask &lt;s4&gt;extends&lt;/s4&gt; DefaultTask {</seg>
       </tuv>
     </tu>
     <tu>
@@ -19128,6 +19154,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 57.4. A build for a custom task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145032Z" creationid="95" creationdate="20160815T145032Z">
+        <seg>示例 57.4. 一个自定义任务的构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 57.5. A custom task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145217Z" creationid="95" creationdate="20160815T145217Z">
+        <seg>示例 57.5. 一个自定义任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -24721,6 +24763,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T092423Z" creationid="msdx" creationdate="20141110T092423Z">
         <seg>它也保留了上下文，且可以说是可读性最强的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It applies the Groovy plugin, and adds the Gradle API as a compile-time dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145015Z" creationid="95" creationdate="20160815T145015Z">
+        <seg>它配置使用Groovy插件，并且添加Gradle API 作为编译时依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39989,6 +40039,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We just follow the convention for where the source for the task class should go.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145207Z" creationid="95" creationdate="20160815T145207Z">
+        <seg>我们只是按照约定将任务类的源码放在对应的位置。.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We mention it for the sake of completeness and comparison with other build tools.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T064025Z" creationid="haohang" creationdate="20151201T064025Z">
@@ -43529,6 +43587,18 @@ eclipse.wtp.facet.file.withXml { provider -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'groovy'&lt;/s0&gt;
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145034Z" creationid="95" creationdate="20160815T145034Z">
+        <seg>apply plugin: &lt;s0&gt;'groovy'&lt;/s0&gt;
+
+dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'idea'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T071741Z" creationid="haohang" creationdate="20150625T071741Z">
@@ -45067,6 +45137,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094452Z" creationid="haohang" creationdate="20150801T094452Z">
         <seg>compile files(&lt;s0&gt;"$buildDir/classes"&lt;/s0&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile gradleApi()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145036Z" creationid="95" creationdate="20160815T145036Z">
+        <seg>compile gradleApi()</seg>
       </tuv>
     </tu>
     <tu>
@@ -54619,6 +54697,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075102Z" creationid="msdx" creationdate="20150429T075102Z">
         <seg>src/main/groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>src/main/groovy/org/gradle/GreetingTask.groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145220Z" creationid="95" creationdate="20160815T145220Z">
+        <seg>src/main/groovy/org/gradle/GreetingTask.groovy</seg>
       </tuv>
     </tu>
     <tu>
