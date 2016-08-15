@@ -2294,6 +2294,14 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/testfixtures/ProjectBuilder.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145953Z" creationid="95" creationdate="20160815T145953Z">
+        <seg>../javadoc/org/gradle/testfixtures/ProjectBuilder.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/testing/jacoco/tasks/JacocoReportsContainer.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T131641Z" creationid="msdx" creationdate="20150506T131641Z">
@@ -7184,10 +7192,26 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>57.3.2. Writing tests for your task class</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145952Z" creationid="95" creationdate="20160815T145952Z">
+        <seg>57.3.2. 编写你的任务类的测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>57.3. A standalone project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T151631Z" creationid="95" creationdate="20160814T151631Z">
         <seg>57.3. 一个独立项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>57.4. Incremental tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T150143Z" creationid="95" creationdate="20160815T150134Z">
+        <seg>57.4. 增量任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -9002,6 +9026,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingTaskTest {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T150127Z" creationid="95" creationdate="20160815T150127Z">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingTaskTest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.group == &lt;s1&gt;'org.gradle'&lt;/s1&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T061533Z" creationid="95" creationdate="20151115T061533Z">
@@ -9220,6 +9252,14 @@ gradle.taskGraph.beforeTask { Task task -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060915Z" creationid="msdx" creationdate="20141116T060915Z">
         <seg>&lt;s1&gt;&lt;target&lt;/s1&gt; &lt;s2&gt;name&lt;/s2&gt;=&lt;s3&gt;"hello"&lt;/s3&gt;&lt;s4&gt;&gt;&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s1&gt;@Test&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T150130Z" creationid="95" creationdate="20160815T150130Z">
+        <seg>&lt;s1&gt;@Test&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9460,6 +9500,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
         <seg>&lt;s2&gt;if&lt;/s2&gt; (true) { &lt;s3&gt;throw&lt;/s3&gt; &lt;s4&gt;new&lt;/s4&gt; StopExecutionException() }
 }
 task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;public&lt;/s2&gt; &lt;s3&gt;void&lt;/s3&gt; canAddTaskToProject() {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T150131Z" creationid="95" creationdate="20160815T150131Z">
+        <seg>&lt;s2&gt;public&lt;/s2&gt; &lt;s3&gt;void&lt;/s3&gt; canAddTaskToProject() {</seg>
       </tuv>
     </tu>
     <tu>
@@ -19178,6 +19226,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 57.6. Using a custom task in another project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145926Z" creationid="95" creationdate="20160815T145926Z">
+        <seg>示例 57.6. 在另一个项目中使用一个自定义任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 57.7. Testing a custom task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T150123Z" creationid="95" creationdate="20160815T150123Z">
+        <seg>示例 57.7. 测试一个自定义任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -24527,6 +24591,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Incremental tasks are an &lt;a0&gt;incubating&lt;/a0&gt; feature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T150214Z" creationid="95" creationdate="20160815T150214Z">
+        <seg>增量任务还是一个&lt;a0&gt;孵化中&lt;/a0&gt; 的功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Incubating integration plugins</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150509T131550Z" creationid="msdx" creationdate="20150509T131550Z">
@@ -28151,6 +28223,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Project project = ProjectBuilder.builder().build()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T150131Z" creationid="95" creationdate="20160815T150131Z">
+        <seg>Project project = ProjectBuilder.builder().build()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project settings determine how the project is going to be analyzed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150510T143815Z" creationid="msdx" creationdate="20150510T143815Z">
@@ -29291,6 +29371,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T033138Z" creationid="haohang" creationdate="20150807T033138Z">
         <seg>从 Gradle 1.2 起，有一个新的编程 API 用于访问解析的依赖信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since the introduction of the implementation described above (early in the Gradle 1.6 release cycle), discussions within the Gradle community have produced superior ideas for exposing the information about changes to task implementors to what is described below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T150215Z" creationid="95" creationdate="20160815T150215Z">
+        <seg>Since the introduction of the implementation described above (early in the Gradle 1.6 release cycle), discussions within the Gradle community have produced superior ideas for exposing the information about changes to task implementors to what is described below.</seg>
       </tuv>
     </tu>
     <tu>
@@ -42079,6 +42167,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use the &lt;a0&gt;&lt;c1&gt;ProjectBuilder&lt;/c1&gt;&lt;/a0&gt; class to create &lt;a2&gt;&lt;c3&gt;Project&lt;/c3&gt;&lt;/a2&gt; instances to use when you test your task class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T150108Z" creationid="95" creationdate="20160815T145956Z">
+        <seg>当你要测试你的任务类时，你可以使用&lt;a0&gt;&lt;c1&gt;ProjectBuilder&lt;/c1&gt;&lt;/a0&gt; 类来创建 &lt;a2&gt;&lt;c3&gt;Project&lt;/c3&gt;&lt;/a2&gt; 实例去使用你的任务类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use the &lt;c0&gt;ant.importBuild()&lt;/c0&gt; method to import an Ant build into your Gradle project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060737Z" creationid="msdx" creationdate="20141116T060737Z">
@@ -44229,6 +44325,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>assertTrue(task &lt;s5&gt;instanceof&lt;/s5&gt; GreetingTask)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T150133Z" creationid="95" creationdate="20160815T150133Z">
+        <seg>assertTrue(task &lt;s5&gt;instanceof&lt;/s5&gt; GreetingTask)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>attributes key1: &lt;s0&gt;'value1'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145616Z" creationid="msdx" creationdate="20150428T145616Z">
@@ -44633,6 +44737,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>buildscript {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145926Z" creationid="95" creationdate="20160815T145926Z">
+        <seg>buildscript {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>builtBy &lt;s1&gt;'compile'&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094453Z" creationid="haohang" creationdate="20150801T094453Z">
@@ -44889,6 +45001,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T093821Z" creationid="msdx" creationdate="20150503T093821Z">
         <seg>classpath fileTree(&lt;s15&gt;'additionalLibs'&lt;/s15&gt;) &lt;s16&gt;// adds a file-set to the WEB-INF/lib dir.&lt;/s16&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classpath group: &lt;s1&gt;'org.gradle'&lt;/s1&gt;, name: &lt;s2&gt;'customPlugin'&lt;/s2&gt;, version: &lt;s3&gt;'1.0-SNAPSHOT'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145928Z" creationid="95" creationdate="20160815T145928Z">
+        <seg>classpath group: &lt;s1&gt;'org.gradle'&lt;/s1&gt;, name: &lt;s2&gt;'customPlugin'&lt;/s2&gt;, version: &lt;s3&gt;'1.0-SNAPSHOT'&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -45969,6 +46089,14 @@ artifacts {</seg>
         <seg>def someFile = file(&lt;s0&gt;'build/somefile.txt'&lt;/s0&gt;)
 
 artifacts {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def task = project.task(&lt;s4&gt;'greeting'&lt;/s4&gt;, type: GreetingTask)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T150132Z" creationid="95" creationdate="20160815T150132Z">
+        <seg>def task = project.task(&lt;s4&gt;'greeting'&lt;/s4&gt;, type: GreetingTask)</seg>
       </tuv>
     </tu>
     <tu>
@@ -48055,6 +48183,16 @@ systemProp.system=systemValue</seg>
 }
 
 &lt;s3&gt;class&lt;/s3&gt; GreetingTask &lt;s4&gt;extends&lt;/s4&gt; DefaultTask {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>greeting = &lt;s4&gt;'howdy!'&lt;/s4&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145930Z" creationid="95" creationdate="20160815T145930Z">
+        <seg>greeting = &lt;s4&gt;'howdy!'&lt;/s4&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -54797,6 +54935,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>src/test/groovy/org/gradle/GreetingTaskTest.groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T150124Z" creationid="95" creationdate="20160815T150124Z">
+        <seg>src/test/groovy/org/gradle/GreetingTaskTest.groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>src/test/java</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083229Z" creationid="msdx" creationdate="20150428T083229Z">
@@ -56568,6 +56714,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>url uri(&lt;s0&gt;'../repo'&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145927Z" creationid="95" creationdate="20160815T145927Z">
+        <seg>url uri(&lt;s0&gt;'../repo'&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>useJUnit {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T082902Z" creationid="msdx" creationdate="20150428T082902Z">
@@ -57338,6 +57492,20 @@ task explodedDist(dependsOn: assemble) &lt;&lt; {</seg>
 }
 
 task explodedDist(dependsOn: assemble) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+task greeting(type: org.gradle.GreetingTask) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160815T145929Z" creationid="95" creationdate="20160815T145929Z">
+        <seg>}
+}
+
+task greeting(type: org.gradle.GreetingTask) {</seg>
       </tuv>
     </tu>
     <tu>
