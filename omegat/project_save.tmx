@@ -12762,6 +12762,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An &lt;c0&gt;upToDateWhen&lt;/c0&gt; criteria added to the task returns &lt;c1&gt;false&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T150336Z" creationid="95" creationdate="20160816T150336Z">
+        <seg>An &lt;c0&gt;upToDateWhen&lt;/c0&gt; criteria added to the task returns &lt;c1&gt;false&lt;/c1&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An HTML test report.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083941Z" creationid="msdx" creationdate="20150428T083941Z">
@@ -15714,6 +15722,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Currently, Gradle does not use task history from a different version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T150330Z" creationid="95" creationdate="20160816T150330Z">
+        <seg>当前，Gradle没有使用来自不同版本的任务历史。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Customizing</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150509T132222Z" creationid="msdx" creationdate="20150509T132222Z">
@@ -16622,6 +16638,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T090504Z" creationid="95" creationdate="20151115T090504Z">
         <seg>示例包括，使用“&lt;c0&gt;groovy&lt;/c0&gt;”来代替“&lt;c1&gt;groovy-all&lt;/c1&gt;”，或者使用“&lt;c2&gt;log4j-over-slf4j&lt;/c2&gt;”来代替“&lt;c3&gt;log4j&lt;/c3&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Examples include:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T150155Z" creationid="95" creationdate="20160816T150155Z">
+        <seg>比如包括：</seg>
       </tuv>
     </tu>
     <tu>
@@ -22746,6 +22770,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, there are many cases where Gradle is unable to determine which input files need to be reprocessed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T150144Z" creationid="95" creationdate="20160816T150144Z">
+        <seg>然而，有许多情况下，Gradle还是无法确定哪些输入文件需要被重新处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, there are times when only a few input files have changed since the last execution, and you'd like to avoid reprocessing all of the unchanged inputs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160815T152703Z" creationid="95" creationdate="20160815T152703Z">
@@ -24667,6 +24699,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160109T073050Z" creationid="95" creationdate="20160109T073050Z">
         <seg>在这种情况下，你可以直接签名生成了要签名的artifact 的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this case, the &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.outOfDate()&lt;/c1&gt;&lt;/a0&gt; action will be executed for any input file that was &lt;s2&gt;&lt;e3&gt;added&lt;/e3&gt;&lt;/s2&gt; or &lt;s4&gt;&lt;e5&gt;modified&lt;/e5&gt;&lt;/s4&gt;, and the &lt;a6&gt;&lt;c7&gt;IncrementalTaskInputs.removed()&lt;/c7&gt;&lt;/a6&gt; action will be executed for any &lt;s8&gt;&lt;e9&gt;removed&lt;/e9&gt;&lt;/s8&gt; input file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T150121Z" creationid="95" creationdate="20160816T150121Z">
+        <seg>在这种情况下，&lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.outOfDate()&lt;/c1&gt;&lt;/a0&gt; 操作会对任何&lt;s2&gt;&lt;e3&gt;新加入的&lt;/e3&gt;&lt;/s2&gt; 或者是 &lt;s4&gt;&lt;e5&gt;已修改的&lt;/e5&gt;&lt;/s4&gt;输入文件执行，并且&lt;a6&gt;&lt;c7&gt;IncrementalTaskInputs.removed()&lt;/c7&gt;&lt;/a6&gt;操作会对任何&lt;s8&gt;&lt;e9&gt;被移除的&lt;/e9&gt;&lt;/s8&gt;输入文件执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36439,6 +36479,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is no history available from a previous execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T150216Z" creationid="95" creationdate="20160816T150216Z">
+        <seg>从前一次执行以来，没有有效的历史。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is no need to create a “stub” &lt;c3&gt;build.gradle&lt;/c3&gt; file in order to apply the plugin.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150707T071413Z" creationid="haohang" creationdate="20150707T071243Z">
@@ -41483,6 +41531,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T023053Z" creationid="haohang" creationdate="20160325T023053Z">
         <seg>你能够通过提供没有任何其他语言来源的 Windows Resource 源文件，来构造纯资源库，并适当地配置链接器︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You are building with a different version of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T150235Z" creationid="95" creationdate="20160816T150235Z">
+        <seg>你使用一个不同版本的Gradle进行构建。</seg>
       </tuv>
     </tu>
     <tu>
