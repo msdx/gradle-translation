@@ -7240,6 +7240,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>57.4.2. Which inputs are considered out of date?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145443Z" creationid="95" creationdate="20160816T145443Z">
+        <seg>57.4.2. 哪些输入是被视为out-of-date的？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>57.4. Incremental tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160815T150143Z" creationid="95" creationdate="20160815T150134Z">
@@ -11694,6 +11702,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T074131Z" creationid="Administrator" creationdate="20150425T074131Z">
         <seg>一个源集只是一组用于编译并一起执行的源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A task may only contain a single incremental task action.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145427Z" creationid="95" creationdate="20160816T145427Z">
+        <seg>一个任务可能只包含一个简单的增量任务操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20038,6 +20054,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151130T051515Z" creationid="haohang" creationdate="20151130T051515Z">
         <seg>对一个新的版本，你总是要创建新的 XML 描述符和目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a simple transformer task like this, the task action simply needs to generate output files for any out-of-date inputs, and delete output files for any removed inputs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145415Z" creationid="95" creationdate="20160816T145415Z">
+        <seg>对于像这样的简单转换任务，任务操作只需要对任何out-of-date的输入生成输出的文件，并对任何已移除的输入删除对应的输出文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40547,6 +40571,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044619Z" creationid="msdx" creationdate="20141108T044608Z">
         <seg>当 Gradle 执行一个脚本时，它将脚本编译为一个实现了&lt;a0&gt;&lt;c1&gt;Script&lt;/c1&gt;&lt;/a0&gt;接口的类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When Gradle has history of a previous task execution, and the only changes to the task execution context since that execution are to input files, then Gradle is able to determine which input files need to be reprocessed by the task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145809Z" creationid="95" creationdate="20160816T145809Z">
+        <seg>当Gradle有了前一次任务执行的历史，并且从那一次执行开始任务执行的上下文中只有输入文件有更改，那么Gradle 就能够决定哪些输入文件需要被这个任务重新处理。</seg>
       </tuv>
     </tu>
     <tu>
