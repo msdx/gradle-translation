@@ -8744,6 +8744,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/tasks/incrementalTask&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145222Z" creationid="95" creationdate="20160816T145048Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在Gradle 的二进制及源码分发包的&lt;c2&gt;samples/userguide/tasks/incrementalTask&lt;/c2&gt;中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/webApplication/quickstart&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T085559Z" creationid="msdx" creationdate="20141030T085447Z">
@@ -9062,6 +9070,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160815T150127Z" creationid="95" creationdate="20160815T150127Z">
         <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingTaskTest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; IncrementalReverseTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T144958Z" creationid="95" creationdate="20160816T144958Z">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; IncrementalReverseTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
       </tuv>
     </tu>
     <tu>
@@ -9476,6 +9492,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;@InputDirectory&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T144959Z" creationid="95" creationdate="20160816T144959Z">
+        <seg>&lt;s2&gt;@InputDirectory&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;@TaskAction&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T145741Z" creationid="95" creationdate="20160814T145741Z">
@@ -9594,6 +9618,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s3&gt;@OutputDirectory&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145000Z" creationid="95" creationdate="20160816T145000Z">
+        <seg>&lt;s3&gt;@OutputDirectory&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s3&gt;[&lt;a4&gt;11&lt;/a4&gt;]&lt;/s3&gt; None of these directories need to exist or have anything in them; the Groovy plugin will simply compile whatever it finds.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075101Z" creationid="msdx" creationdate="20150429T074832Z">
@@ -9654,6 +9686,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T085802Z" creationid="95" creationdate="20151115T085802Z">
         <seg>&lt;s4&gt;//prefer different version which contains some necessary fixes&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s4&gt;@Input&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145001Z" creationid="95" creationdate="20160816T145001Z">
+        <seg>&lt;s4&gt;@Input&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9726,6 +9766,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060916Z" creationid="msdx" creationdate="20141116T060916Z">
         <seg>&lt;s5&gt;&lt;echo&gt;&lt;/s5&gt;Hello, from Ant&lt;s6&gt;&lt;/echo&gt;&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s5&gt;@TaskAction&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145006Z" creationid="95" creationdate="20160816T145002Z">
+        <seg>&lt;s5&gt;@TaskAction&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9816,6 +9864,22 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160504T151357Z" creationid="95" creationdate="20160504T151357Z">
         <seg>&lt;s6&gt;if&lt;/s6&gt; (flavor == flavors.failing) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s6&gt;void&lt;/s6&gt; execute(IncrementalTaskInputs inputs) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145003Z" creationid="95" creationdate="20160816T145003Z">
+        <seg>&lt;s6&gt;void&lt;/s6&gt; execute(IncrementalTaskInputs inputs) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s7&gt;"CHANGED inputs considered out of date"&lt;/s7&gt; : &lt;s8&gt;"ALL inputs considered out of date"&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145025Z" creationid="95" creationdate="20160816T145025Z">
+        <seg>&lt;s7&gt;"CHANGED inputs considered out of date"&lt;/s7&gt; : &lt;s8&gt;"ALL inputs considered out of date"&lt;/s8&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19278,6 +19342,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160815T150123Z" creationid="95" creationdate="20160815T150123Z">
         <seg>示例 57.7. 测试一个自定义任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 57.8. Defining an incremental task action</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T144957Z" creationid="95" creationdate="20160816T144957Z">
+        <seg>示例 57.8. 定义增量任务操作</seg>
       </tuv>
     </tu>
     <tu>
@@ -34631,6 +34703,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The incremental task action may supply an &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.outOfDate()&lt;/c1&gt;&lt;/a0&gt; action for processing any input file that is out-of-date, and a &lt;a2&gt;&lt;c3&gt;IncrementalTaskInputs.removed()&lt;/c3&gt;&lt;/a2&gt; action that executes for any input file that has been removed since the previous execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T144947Z" creationid="95" creationdate="20160816T144947Z">
+        <seg>这个增量任务操作可能提供了一个&lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.outOfDate()&lt;/c1&gt;&lt;/a0&gt; 操作，用于处理所有out-of-date的输入文件，以及一个&lt;a2&gt;&lt;c3&gt;IncrementalTaskInputs.removed()&lt;/c3&gt;&lt;/a2&gt;操作，对任何从前一次执行开始已经被删除的文件执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The information stored in the metadata cache includes:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T044820Z" creationid="95" creationdate="20151129T044820Z">
@@ -46093,6 +46173,22 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def File inputDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T144959Z" creationid="95" creationdate="20160816T144959Z">
+        <seg>def File inputDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def File outputDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145001Z" creationid="95" creationdate="20160816T145001Z">
+        <seg>def File outputDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def dest = &lt;s0&gt;"dest"&lt;/s0&gt;
 
 task copy(type: Copy) {</seg>
@@ -46153,6 +46249,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def inputProperty</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145002Z" creationid="95" creationdate="20160816T145002Z">
+        <seg>def inputProperty</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def mountains = &lt;s4&gt;new&lt;/s4&gt; XmlParser().parse(srcFile)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060325Z" creationid="msdx" creationdate="20141111T060325Z">
@@ -46193,6 +46297,22 @@ artifacts {</seg>
         <seg>def someFile = file(&lt;s0&gt;'build/somefile.txt'&lt;/s0&gt;)
 
 artifacts {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def targetFile = &lt;s10&gt;new&lt;/s10&gt; File(outputDir, change.file.name)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145029Z" creationid="95" creationdate="20160816T145029Z">
+        <seg>def targetFile = &lt;s10&gt;new&lt;/s10&gt; File(outputDir, change.file.name)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def targetFile = &lt;s12&gt;new&lt;/s12&gt; File(outputDir, change.file.name)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145041Z" creationid="95" creationdate="20160816T145041Z">
+        <seg>def targetFile = &lt;s12&gt;new&lt;/s12&gt; File(outputDir, change.file.name)</seg>
       </tuv>
     </tu>
     <tu>
@@ -49557,6 +49677,22 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>inputs.outOfDate { change -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145025Z" creationid="95" creationdate="20160816T145025Z">
+        <seg>inputs.outOfDate { change -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>inputs.removed { change -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145032Z" creationid="95" creationdate="20160816T145032Z">
+        <seg>inputs.removed { change -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>install</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151228T151927Z" creationid="95" creationdate="20151228T151927Z">
@@ -52191,6 +52327,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s11&gt;"removed: ${change.file.name}"&lt;/s11&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145039Z" creationid="95" creationdate="20160816T145039Z">
+        <seg>println &lt;s11&gt;"removed: ${change.file.name}"&lt;/s11&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s11&gt;'build completed'&lt;/s11&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154819Z" creationid="msdx" creationdate="20141116T154819Z">
@@ -52619,6 +52763,14 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s9&gt;"out of date: ${change.file.name}"&lt;/s9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145028Z" creationid="95" creationdate="20160816T145028Z">
+        <seg>println &lt;s9&gt;"out of date: ${change.file.name}"&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println System.properties[&lt;s0&gt;'system'&lt;/s0&gt;]
 }</seg>
       </tuv>
@@ -52773,6 +52925,14 @@ def different = collection - files(&lt;s4&gt;'src/file3.txt'&lt;/s4&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T151536Z" creationid="95" creationdate="20160814T151536Z">
         <seg>println greeting</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println inputs.incremental ?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145024Z" creationid="95" creationdate="20160816T145024Z">
+        <seg>println inputs.incremental ?</seg>
       </tuv>
     </tu>
     <tu>
@@ -55355,6 +55515,22 @@ systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083245Z" creationid="msdx" creationdate="20150428T083245Z">
         <seg>targetCompatibility</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>targetFile.delete()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145044Z" creationid="95" creationdate="20160816T145044Z">
+        <seg>targetFile.delete()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>targetFile.text = change.file.text.reverse()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160816T145031Z" creationid="95" creationdate="20160816T145031Z">
+        <seg>targetFile.text = change.file.text.reverse()</seg>
       </tuv>
     </tu>
     <tu>
