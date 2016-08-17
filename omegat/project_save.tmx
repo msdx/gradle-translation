@@ -2416,6 +2416,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>1.txt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145710Z" creationid="95" creationdate="20160817T145710Z">
+        <seg>1.txt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>10.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163736Z" creationid="msdx" creationdate="20141109T163736Z">
@@ -3556,6 +3564,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161959Z" creationid="msdx" creationdate="20141109T161959Z">
         <seg>2.2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>2.txt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145712Z" creationid="95" creationdate="20160817T145712Z">
+        <seg>2.txt</seg>
       </tuv>
     </tu>
     <tu>
@@ -4964,6 +4980,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162022Z" creationid="msdx" creationdate="20141109T162022Z">
         <seg>3.1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>3.txt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145717Z" creationid="95" creationdate="20160817T145717Z">
+        <seg>3.txt</seg>
       </tuv>
     </tu>
     <tu>
@@ -10472,6 +10496,30 @@ greetings from GreetingTask</seg>
         <seg>&gt; gradle -q hello greeting
 hello from GreetingTask
 greetings from GreetingTask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q incrementalReverse</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145930Z" creationid="95" creationdate="20160817T145930Z">
+        <seg>&gt; gradle -q incrementalReverse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q incrementalReverse
+ALL inputs considered out of date
+out of date: 1.txt
+out of date: 2.txt
+out of date: 3.txt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145728Z" creationid="95" creationdate="20160817T145728Z">
+        <seg>&gt; gradle -q incrementalReverse
+ALL inputs considered out of date
+out of date: 1.txt
+out of date: 2.txt
+out of date: 3.txt</seg>
       </tuv>
     </tu>
     <tu>
@@ -19362,6 +19410,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 57.10. Running the incremental task with unchanged inputs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145929Z" creationid="95" creationdate="20160817T145929Z">
+        <seg>示例 57.10. 在输入不变时执行增量任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 57.2. A hello world task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T145738Z" creationid="95" creationdate="20160814T145738Z">
@@ -19414,6 +19470,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160816T144957Z" creationid="95" creationdate="20160816T144957Z">
         <seg>示例 57.8. 定义增量任务操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 57.9. Running the incremental task for the first time</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145701Z" creationid="95" creationdate="20160817T145701Z">
+        <seg>示例 57.9. 第一次运行增量任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -19902,6 +19966,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T084225Z" creationid="haohang" creationdate="20160726T084225Z">
         <seg>首先会先构建&lt;c8&gt;shared&lt;/c8&gt;，然后构建&lt;c9&gt;api&lt;/c9&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>First, consider the &lt;c0&gt;IncrementalReverseTask&lt;/c0&gt; executed against a set of inputs for the first time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145635Z" creationid="95" creationdate="20160817T145635Z">
+        <seg>首先，考虑到 &lt;c0&gt;IncrementalReverseTask&lt;/c0&gt;第一次针对一组输入执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24743,6 +24815,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this case, all inputs will be considered "out of date":</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145653Z" creationid="95" creationdate="20160817T145653Z">
+        <seg>在这种情况下，所有的输入都被认为是“out of date”：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this case, the &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.outOfDate()&lt;/c1&gt;&lt;/a0&gt; action will be executed for any input file that was &lt;s2&gt;&lt;e3&gt;added&lt;/e3&gt;&lt;/s2&gt; or &lt;s4&gt;&lt;e5&gt;modified&lt;/e5&gt;&lt;/s4&gt;, and the &lt;a6&gt;&lt;c7&gt;IncrementalTaskInputs.removed()&lt;/c7&gt;&lt;/a6&gt; action will be executed for any &lt;s8&gt;&lt;e9&gt;removed&lt;/e9&gt;&lt;/s8&gt; input file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160816T150121Z" creationid="95" creationdate="20160816T150121Z">
@@ -26655,6 +26735,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Naturally when the task is executed again with no changes, then task itself is up to date and no files are reported to the task action:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145906Z" creationid="95" creationdate="20160817T145906Z">
+        <seg>当然，对于没有任何修改的情况下执行任务时，该任务本身是up to date的，并且不会有文件上报到这个任务操作中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Neither &lt;c1&gt;water&lt;/c1&gt; nor &lt;c2&gt;tropicalFish&lt;/c2&gt; have a task with the name &lt;c3&gt;distanceToIceberg&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T090906Z" creationid="haohang" creationdate="20160715T090906Z">
@@ -26865,8 +26953,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>Note that the various mutation tasks ('updateInputs', 'removeInput', etc) are only present for demonstration purposes: these would not normally be part of your build script.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145501Z" creationid="95" creationdate="20160817T145501Z">
-        <seg>注意不同变化的任务（“updateInputs”，“removeInput”等）</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145603Z" creationid="95" creationdate="20160817T145501Z">
+        <seg>注意不同变化的任务（“updateInputs”，“removeInput”等）都是出于演示目的而存在：它们通常不会在构建脚本中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27827,6 +27915,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152454Z" creationid="msdx" creationdate="20141109T152454Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q incrementalReverse&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145727Z" creationid="95" creationdate="20160817T145727Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q incrementalReverse&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -49797,6 +49893,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>incrementalTask/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145705Z" creationid="95" creationdate="20160817T145705Z">
+        <seg>incrementalTask/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>index.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T135831Z" creationid="msdx" creationdate="20150506T135831Z">
@@ -49829,6 +49933,24 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>inputDir = file(&lt;s0&gt;'inputs'&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145702Z" creationid="95" creationdate="20160817T145702Z">
+        <seg>inputDir = file(&lt;s0&gt;'inputs'&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>inputProperty = project.properties[&lt;s2&gt;'taskInputProperty'&lt;/s2&gt;] ?: &lt;s3&gt;"original"&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145704Z" creationid="95" creationdate="20160817T145704Z">
+        <seg>inputProperty = project.properties[&lt;s2&gt;'taskInputProperty'&lt;/s2&gt;] ?: &lt;s3&gt;"original"&lt;/s3&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>inputs.file copyTask &lt;s0&gt;// up-to-date check for inputs, plus add copyTask as dependency&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134159Z" creationid="msdx" creationdate="20141113T134159Z">
@@ -49857,6 +49979,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160816T145032Z" creationid="95" creationdate="20160816T145032Z">
         <seg>inputs.removed { change -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>inputs/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145709Z" creationid="95" creationdate="20160817T145709Z">
+        <seg>inputs/</seg>
       </tuv>
     </tu>
     <tu>
@@ -51947,6 +52077,14 @@ binaries.withType(TestSuiteExecutableBinary) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083251Z" creationid="msdx" creationdate="20150428T083251Z">
         <seg>output.resourcesDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>outputDir = file(&lt;s1&gt;"$buildDir/outputs"&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145703Z" creationid="95" creationdate="20160817T145703Z">
+        <seg>outputDir = file(&lt;s1&gt;"$buildDir/outputs"&lt;/s1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -56015,6 +56153,14 @@ subprojects {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T063534Z" creationid="haohang" creationdate="20150628T063534Z">
         <seg>task helloWorld &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task incrementalReverse(type: IncrementalReverseTask) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145702Z" creationid="95" creationdate="20160817T145702Z">
+        <seg>task incrementalReverse(type: IncrementalReverseTask) {</seg>
       </tuv>
     </tu>
     <tu>
