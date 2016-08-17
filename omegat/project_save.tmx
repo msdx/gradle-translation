@@ -10674,6 +10674,18 @@ plugin</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q removeInput incrementalReverse
+CHANGED inputs considered out of date
+removed: 3.txt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150312Z" creationid="95" creationdate="20160817T150312Z">
+        <seg>&gt; gradle -q removeInput incrementalReverse
+CHANGED inputs considered out of date
+removed: 3.txt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q runFailingOperatorsTestCUnitExe
 
 There were test failures:</seg>
@@ -10804,6 +10816,20 @@ Evaluation of project ':projectB' FAILED</seg>
 Evaluation of root project 'buildProjectEvaluateEvents' succeeded
 Evaluation of project ':projectA' succeeded
 Evaluation of project ':projectB' FAILED</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q updateInputs incrementalReverse
+CHANGED inputs considered out of date
+out of date: 1.txt
+out of date: 4.txt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150209Z" creationid="95" creationdate="20160817T150209Z">
+        <seg>&gt; gradle -q updateInputs incrementalReverse
+CHANGED inputs considered out of date
+out of date: 1.txt
+out of date: 4.txt</seg>
       </tuv>
     </tu>
     <tu>
@@ -19412,8 +19438,32 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Example 57.10. Running the incremental task with unchanged inputs</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145929Z" creationid="95" creationdate="20160817T145929Z">
-        <seg>示例 57.10. 在输入不变时执行增量任务</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150250Z" creationid="95" creationdate="20160817T145929Z">
+        <seg>示例 57.10. 在输入不变时运行增量任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 57.11. Running the incremental task with updated input files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150255Z" creationid="95" creationdate="20160817T150203Z">
+        <seg>示例 57.11. 有输入文件更新时运行增量任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 57.12. Running the incremental task with an input file removed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150238Z" creationid="95" creationdate="20160817T150238Z">
+        <seg>示例 57.12. 当一个输入文件被删除时运行增量任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 57.13. Running the incremental task with an output file removed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150445Z" creationid="95" creationdate="20160817T150445Z">
+        <seg>示例 57.13. 当一个输出文件被删除时运行增量任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -24815,6 +24865,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this case, &lt;s0&gt;&lt;e1&gt;all&lt;/e1&gt;&lt;/s0&gt; input files are reported to the &lt;a2&gt;&lt;c3&gt;IncrementalTaskInputs.outOfDate()&lt;/c3&gt;&lt;/a2&gt; action, and no input files are reported to the &lt;a4&gt;&lt;c5&gt;IncrementalTaskInputs.removed()&lt;/c5&gt;&lt;/a4&gt; action:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150434Z" creationid="95" creationdate="20160817T150434Z">
+        <seg>在这种情况下，&lt;s0&gt;&lt;e1&gt;所有的&lt;/e1&gt;&lt;/s0&gt;输入文件都会被报告到 &lt;a2&gt;&lt;c3&gt;IncrementalTaskInputs.outOfDate()&lt;/c3&gt;&lt;/a2&gt;操作中，并且没有文件会被上报到 &lt;a4&gt;&lt;c5&gt;IncrementalTaskInputs.removed()&lt;/c5&gt;&lt;/a4&gt; 操作：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this case, all inputs will be considered "out of date":</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160817T145653Z" creationid="95" creationdate="20160817T145653Z">
@@ -27991,6 +28049,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q removeInput incrementalReverse&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150311Z" creationid="95" creationdate="20160817T150311Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q removeInput incrementalReverse&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q removeOutput incrementalReverse&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150454Z" creationid="95" creationdate="20160817T150454Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q removeOutput incrementalReverse&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q show&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151139Z" creationid="msdx" creationdate="20141123T151139Z">
@@ -28027,6 +28101,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160521T125713Z" creationid="95" creationdate="20160521T125713Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q test&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q updateInputs incrementalReverse&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150208Z" creationid="95" creationdate="20160817T150208Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q incrementalReverse&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -40847,6 +40929,30 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When an existing input file is removed, then re-executing the task results that file being reported to &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.removed()&lt;/c1&gt;&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150209Z" creationid="95" creationdate="20160817T150209Z">
+        <seg>When an existing input file is removed, then re-executing the task results that file being reported to &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.removed()&lt;/c1&gt;&lt;/a0&gt;:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When an input file is modified in some way or a new input file is added, then re-executing the task results in those files being reported to &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.outOfDate()&lt;/c1&gt;&lt;/a0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150142Z" creationid="95" creationdate="20160817T150142Z">
+        <seg>当以某种方式修改了一个输入文件，或者新增了一个输入文件时，重新执行这个任务会使这些文件被上报到&lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.outOfDate()&lt;/c1&gt;&lt;/a0&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When an output file is deleted (or modified), then Gradle is unable to determine which input files are out of date.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150352Z" creationid="95" creationdate="20160817T150352Z">
+        <seg>当输出文件被删除（或更改）时，Gradle是无法确定哪一个输入文件是out of date的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When analyzing a project hierarchy, values set via system properties apply to the root project of the analyzed hierarchy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T234342Z" creationid="haohang" creationdate="20150525T234250Z">
@@ -47953,10 +48059,48 @@ hello.doLast { println &lt;s0&gt;"- I'm the largest animal that has ever lived o
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>file(&lt;s0&gt;"$buildDir/outputs/1.txt"&lt;/s0&gt;).delete()
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150447Z" creationid="95" creationdate="20160817T150447Z">
+        <seg>file(&lt;s0&gt;"$buildDir/outputs/1.txt"&lt;/s0&gt;).delete()
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>file(&lt;s0&gt;'inputs/1.txt'&lt;/s0&gt;).text = &lt;s1&gt;"Changed content for existing file 1."&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150204Z" creationid="95" creationdate="20160817T150204Z">
+        <seg>file(&lt;s0&gt;'inputs/1.txt'&lt;/s0&gt;).text = &lt;s1&gt;"Changed content for existing file 1."&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>file(&lt;s0&gt;'inputs/3.txt'&lt;/s0&gt;).delete()
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150258Z" creationid="95" creationdate="20160817T150258Z">
+        <seg>file(&lt;s0&gt;'inputs/3.txt'&lt;/s0&gt;).delete()
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>file(&lt;s12&gt;'src'&lt;/s12&gt;).listFiles().findAll {it.name.endsWith(&lt;s13&gt;'.zip'&lt;/s13&gt;)}.collect { zipTree(it) }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123340Z" creationid="msdx" creationdate="20141113T123340Z">
         <seg>file(&lt;s12&gt;'src'&lt;/s12&gt;).listFiles().findAll {it.name.endsWith(&lt;s13&gt;'.zip'&lt;/s13&gt;)}.collect { zipTree(it) }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>file(&lt;s2&gt;'inputs/4.txt'&lt;/s2&gt;).text = &lt;s3&gt;"Content for new file 4."&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150205Z" creationid="95" creationdate="20160817T150205Z">
+        <seg>file(&lt;s2&gt;'inputs/4.txt'&lt;/s2&gt;).text = &lt;s3&gt;"Content for new file 4."&lt;/s3&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -56305,6 +56449,22 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task removeInput() &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150257Z" creationid="95" creationdate="20160817T150257Z">
+        <seg>task removeInput() &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task removeOutput() &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150446Z" creationid="95" creationdate="20160817T150446Z">
+        <seg>task removeOutput() &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task rename(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140710Z" creationid="msdx" creationdate="20141113T140710Z">
@@ -56357,6 +56517,14 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060320Z" creationid="msdx" creationdate="20141111T060320Z">
         <seg>task transform {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task updateInputs() &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150203Z" creationid="95" creationdate="20160817T150203Z">
+        <seg>task updateInputs() &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
