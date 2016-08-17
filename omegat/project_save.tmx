@@ -1254,6 +1254,14 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.incremental.IncrementalTaskInputs.html#org.gradle.api.tasks.incremental.IncrementalTaskInputs:incremental</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145005Z" creationid="95" creationdate="20160817T145005Z">
+        <seg>../dsl/org.gradle.api.tasks.incremental.IncrementalTaskInputs.html#org.gradle.api.tasks.incremental.IncrementalTaskInputs:incremental</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.incremental.IncrementalTaskInputs.html#org.gradle.api.tasks.incremental.IncrementalTaskInputs:outOfDate(org.gradle.api.Action)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160816T144628Z" creationid="95" creationdate="20160816T144628Z">
@@ -7244,6 +7252,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160816T145443Z" creationid="95" creationdate="20160816T145443Z">
         <seg>57.4.2. 哪些输入是被视为out-of-date的？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>57.4.3. An incremental task in action</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145155Z" creationid="95" creationdate="20160817T145155Z">
+        <seg>57.4.3. 一个增量任务的操作</seg>
       </tuv>
     </tu>
     <tu>
@@ -21498,6 +21514,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Given the incremental task implementation &lt;a0&gt;above&lt;/a0&gt;, we can explore the various change scenarios by example.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145257Z" creationid="95" creationdate="20160817T145201Z">
+        <seg>给定 &lt;a0&gt;上面的&lt;/a0&gt;增量任务实现，我们可以通过示例探讨中种变化场景。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Given the personal and private nature of these values, a good practice is to store them in the user &lt;c3&gt;gradle.properties&lt;/c3&gt; file (described in &lt;a4&gt;Section 14.2, “Gradle properties and system properties”&lt;/a4&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160108T152512Z" creationid="95" creationdate="20160108T152512Z">
@@ -26839,6 +26863,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that the various mutation tasks ('updateInputs', 'removeInput', etc) are only present for demonstration purposes: these would not normally be part of your build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145501Z" creationid="95" creationdate="20160817T145501Z">
+        <seg>注意不同变化的任务（“updateInputs”，“removeInput”等）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that this command blocks until the Gradle GUI is closed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T145907Z" creationid="msdx" creationdate="20141105T145907Z">
@@ -31611,6 +31643,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T140629Z" creationid="Administrator" creationdate="20150427T140629Z">
         <seg>&lt;a0&gt;&lt;c1&gt;Test&lt;/c1&gt;&lt;/a0&gt;任务的 API 可以让你控制什么时候开始。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;a1&gt;&lt;c2&gt;IncrementalTaskInputs.outOfDate()&lt;/c2&gt;&lt;/a1&gt; action will be executed for every input file, and the &lt;a3&gt;&lt;c4&gt;IncrementalTaskInputs.removed()&lt;/c4&gt;&lt;/a3&gt; action will not be executed at all.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145004Z" creationid="95" creationdate="20160817T145004Z">
+        <seg>然后会为每一个输入文件执行 &lt;a1&gt;&lt;c2&gt;IncrementalTaskInputs.outOfDate()&lt;/c2&gt;&lt;/a1&gt;操作，并且不再执行&lt;a3&gt;&lt;c4&gt;IncrementalTaskInputs.removed()&lt;/c4&gt;&lt;/a3&gt;操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41855,6 +41895,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can check if Gradle was able to determine the incremental changes to input files with &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.isIncremental()&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145055Z" creationid="95" creationdate="20160817T145055Z">
+        <seg>你可以通过 &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.isIncremental()&lt;/c1&gt;&lt;/a0&gt;检查Gradle是否能够对输入的文件确定增量更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can combine multiple plugins in a single project, so you can use the War and Groovy plugins together to build a Groovy based web application.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T090650Z" creationid="msdx" creationdate="20141030T090650Z">
@@ -46225,6 +46273,14 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T134204Z" creationid="msdx" creationdate="20141113T134204Z">
         <seg>custom_tasks.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>custom_tasks.html#taskDefinition</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T145156Z" creationid="95" creationdate="20160817T145156Z">
+        <seg>custom_tasks.html#taskDefinition</seg>
       </tuv>
     </tu>
     <tu>
