@@ -10092,6 +10092,22 @@ systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q -PtaskInputProperty=changed incrementalReverse
+ALL inputs considered out of date
+out of date: 1.txt
+out of date: 2.txt
+out of date: 3.txt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150821Z" creationid="95" creationdate="20160817T150821Z">
+        <seg>&gt; gradle -q -PtaskInputProperty=changed incrementalReverse
+ALL inputs considered out of date
+out of date: 1.txt
+out of date: 2.txt
+out of date: 3.txt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q :hello :krill:hello hello
 I'm water
 I'm krill
@@ -10682,6 +10698,22 @@ removed: 3.txt</seg>
         <seg>&gt; gradle -q removeInput incrementalReverse
 CHANGED inputs considered out of date
 removed: 3.txt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q removeOutput incrementalReverse
+ALL inputs considered out of date
+out of date: 1.txt
+out of date: 2.txt
+out of date: 3.txt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150500Z" creationid="95" creationdate="20160817T150500Z">
+        <seg>&gt; gradle -q removeOutput incrementalReverse
+ALL inputs considered out of date
+out of date: 1.txt
+out of date: 2.txt
+out of date: 3.txt</seg>
       </tuv>
     </tu>
     <tu>
@@ -19468,6 +19500,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 57.14. Running the incremental task with an input property changed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150809Z" creationid="95" creationdate="20160817T150809Z">
+        <seg>示例 57.14. 当一个输入属性被更改时运行增量任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 57.2. A hello world task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T145738Z" creationid="95" creationdate="20160814T145738Z">
@@ -27841,6 +27881,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q -PtaskInputProperty=changed incrementalReverse&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150816Z" creationid="95" creationdate="20160817T150816Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q -PtaskInputProperty=changed incrementalReverse&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q :hello :krill:hello hello&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T091716Z" creationid="haohang" creationdate="20160715T091716Z">
@@ -29885,6 +29933,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003133Z" creationid="haohang" creationdate="20150603T003133Z">
         <seg>所以如果你对 WTP 集成有兴趣，可以只应用&lt;c1&gt;eclipse-wtp&lt;/c1&gt;插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>So similar to the changed output file example, &lt;s0&gt;&lt;e1&gt;all&lt;/e1&gt;&lt;/s0&gt; input files are reported to the &lt;a2&gt;&lt;c3&gt;IncrementalTaskInputs.outOfDate()&lt;/c3&gt;&lt;/a2&gt; action, and no input files are reported to the &lt;a4&gt;&lt;c5&gt;IncrementalTaskInputs.removed()&lt;/c5&gt;&lt;/a4&gt; action:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150749Z" creationid="95" creationdate="20160817T150749Z">
+        <seg>所以类似于更改输出文件的例子，&lt;s0&gt;&lt;e1&gt;所有的&lt;/e1&gt;&lt;/s0&gt;输入文件都会被报告到 &lt;a2&gt;&lt;c3&gt;IncrementalTaskInputs.outOfDate()&lt;/c3&gt;&lt;/a2&gt;操作中，并且没有文件会被上报到 &lt;a4&gt;&lt;c5&gt;IncrementalTaskInputs.removed()&lt;/c5&gt;&lt;/a4&gt; 操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -40901,6 +40957,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T084240Z" creationid="haohang" creationdate="20160408T084240Z">
         <seg>当为一个组件定义了一组构建类型，目标平台，以及flavor时，将会为它们的每一种可能的组合创建一个&lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; 模型元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a task input property modified, Gradle is not able to determine how this property impacted the task outputs, so all input files are assumed to be out of date.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160817T150620Z" creationid="95" creationdate="20160817T150620Z">
+        <seg>当一个任务的输入属性被修改时，Gradle 无法确定这个属性是如何影响到这个任务的输出的，因此所有的输入文件都会被认为是out of date的。</seg>
       </tuv>
     </tu>
     <tu>
