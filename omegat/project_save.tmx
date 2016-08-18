@@ -1926,6 +1926,14 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/Plugin.html#apply(T)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151632Z" creationid="95" creationdate="20160818T151632Z">
+        <seg>../javadoc/org/gradle/api/Plugin.html#apply(T)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/ProjectEvaluationListener.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T155218Z" creationid="msdx" creationdate="20141116T155218Z">
@@ -7300,6 +7308,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160818T151216Z" creationid="95" creationdate="20160818T151216Z">
         <seg>58.1. 打包插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>58.2. Writing a simple plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151630Z" creationid="95" creationdate="20160818T151630Z">
+        <seg>58.2. 编写一个简单的插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -21964,6 +21980,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle instantiates the plugin and calls the plugin instance's &lt;a2&gt;&lt;c3&gt;Plugin.apply()&lt;/c3&gt;&lt;/a2&gt; method when the plugin is used with a project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151721Z" creationid="95" creationdate="20160818T151721Z">
+        <seg>Gradle instantiates the plugin and calls the plugin instance's &lt;a2&gt;&lt;c3&gt;Plugin.apply()&lt;/c3&gt;&lt;/a2&gt; method when the plugin is used with a project.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle keeps a record of various aspects of dependency resolution in binary format in the metadata cache.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T044809Z" creationid="95" creationdate="20151129T043908Z">
@@ -22312,6 +22336,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T104207Z" creationid="haohang" creationdate="20150702T104207Z">
         <seg>Gradle 将会处理好构建的应用程序的类，以及它们的运行时依赖，还有使用正确的类路径启动应用程序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle will take care of compiling and testing the plugin and making it available on the classpath of the build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151436Z" creationid="95" creationdate="20160818T151436Z">
+        <seg>Gradle将会编译和测试这个插件，并且使它在构建脚本的类路径中可用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22940,6 +22972,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, it is not visible outside the build, and so you cannot reuse the plugin outside the build it is defined in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151506Z" creationid="95" creationdate="20160818T151506Z">
+        <seg>然而，它在这个构建之外并不可见，因为你不能在定义它的这个构建之外的其他地方来重用这个插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, it is not visible outside the build, and so you cannot reuse the task class outside the build it is defined in.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T144509Z" creationid="95" creationdate="20160814T144424Z">
@@ -22982,8 +23022,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>However, the plugin is not visible outside the build script, and so you cannot reuse the plugin outside the build script it is defined in.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151319Z" creationid="95" creationdate="20160818T151319Z">
-        <seg>然而，在这个构建脚本脚本之外，这个任务类是不可见的，因此你不能够在你定义这个任务类的脚本之外的地方来利用它。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151357Z" creationid="95" creationdate="20160818T151319Z">
+        <seg>然而，在这个构建脚本脚本之外，这个插件是不可见的，因此你不能够在你定义这个插件的脚本以外的地方来复用它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22998,8 +23038,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>However, the task class is not visible outside the build script, and so you cannot reuse the task class outside the build script it is defined in.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160814T144148Z" creationid="95" creationdate="20160814T144148Z">
-        <seg>然而，在这个构建脚本脚本之外，这个任务类是不可见的，因此你不能够在你定义这个任务类的脚本之外的地方来利用它。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151404Z" creationid="95" creationdate="20160814T144148Z">
+        <seg>然而，在这个构建脚本脚本之外，这个任务类是不可见的，因此你不能够在你定义这个任务类的脚本之外的地方来复用它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24660,6 +24700,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T143719Z" creationid="95" creationdate="20160814T143719Z">
         <seg>在我们的例子中，我们将使用Groovy来作为实现的语言，但你也可以使用Java或者是Scala。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In our examples, we will start with the plugin in the build script, to keep things simple.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151611Z" creationid="95" creationdate="20160818T151611Z">
+        <seg>在我们的例子中，为了简单，我们将从在构建脚本中编写插件开始。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35665,6 +35713,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The plugin is visible to every build script used by the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151455Z" creationid="95" creationdate="20160818T151455Z">
+        <seg>这个插件在该构建所使用的每一个构建脚本当中都是可见的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The plugin provides a DSL for configuring model objects that model the Eclipse view of the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T100530Z" creationid="haohang" creationdate="20150624T100530Z">
@@ -39217,6 +39273,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To create a custom plugin, you need to write an implementation of &lt;a0&gt;&lt;c1&gt;Plugin&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151718Z" creationid="95" creationdate="20160818T151718Z">
+        <seg>想创建一个自定义插件，你需要写一个类实现 &lt;a0&gt;&lt;c1&gt;Plugin&lt;/c1&gt;&lt;/a0&gt;接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To customize the settings for the Maven installer (see&lt;a0&gt;Section 52.6.3, “Installing to the local repository”&lt;/a0&gt;), you can do:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T143436Z" creationid="95" creationdate="20160106T143436Z">
@@ -42257,6 +42321,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can create a separate project for your plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151523Z" creationid="95" creationdate="20160818T151523Z">
+        <seg>你可以为你的插件创建一个单独的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can create a separate project for your task class.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T145005Z" creationid="95" creationdate="20160814T144929Z">
@@ -42605,6 +42677,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T134109Z" creationid="msdx" creationdate="20141109T092007Z">
         <seg>您可以把一个&lt;c0&gt;gradle.properties&lt;/c0&gt;文件放在 Gradle 的用户主目录 （默认为&lt;c1&gt;&lt;e2&gt;&lt;c3&gt;USER_HOME&lt;/c3&gt;&lt;/e2&gt;/.gradle&lt;/c1&gt;） ，或您的项目目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can put the source for the plugin in the &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;rootProjectDir&lt;/c2&gt;&lt;/e1&gt;/buildSrc/src/main/groovy&lt;/c0&gt; directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151423Z" creationid="95" creationdate="20160818T151423Z">
+        <seg>你可以把插件的源码放在 &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;rootProjectDir&lt;/c2&gt;&lt;/e1&gt;/buildSrc/src/main/groovy&lt;/c0&gt; 目录中。</seg>
       </tuv>
     </tu>
     <tu>
