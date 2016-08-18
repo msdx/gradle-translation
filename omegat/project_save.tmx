@@ -7296,6 +7296,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>58.1. Packaging a plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151216Z" creationid="95" creationdate="20160818T151216Z">
+        <seg>58.1. 打包插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -21084,6 +21092,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the examples here, we are going to use Groovy as the implementation language.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151156Z" creationid="95" creationdate="20160818T151156Z">
+        <seg>在这里的例子中，我们将使用Gradle来作为实现语言。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For the jars and the correct POMs you still use the remote repository.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T063836Z" creationid="haohang" creationdate="20151201T063836Z">
@@ -21766,8 +21782,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Gradle allows you to implement your own custom plugins, so you can reuse your build logic, and share it with others.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160818T150743Z" creationid="95" creationdate="20160818T150743Z">
-        <seg>Gradle allows you to implement your own custom plugins, so you can reuse your build logic, and share it with others.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T150922Z" creationid="95" creationdate="20160818T150743Z">
+        <seg>Gradke 允许你实现你自己的自定义插件，因此你可以重用你的构建逻辑，并且与他人分享。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22960,6 +22976,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154308Z" creationid="msdx" creationdate="20141123T154308Z">
         <seg>然而， &lt;c0&gt;compileJava&lt;/c0&gt;任务很可能不是唯 一需要知道类文件在哪里的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, the plugin is not visible outside the build script, and so you cannot reuse the plugin outside the build script it is defined in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151319Z" creationid="95" creationdate="20160818T151319Z">
+        <seg>然而，在这个构建脚本脚本之外，这个任务类是不可见的，因此你不能够在你定义这个任务类的脚本之外的地方来利用它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36593,6 +36617,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are several places where you can put the source for the plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151233Z" creationid="95" creationdate="20160818T151233Z">
+        <seg>有几个地方可以让你放这个插件的源码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are several places where you can put the source for the task class.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T143944Z" creationid="95" creationdate="20160814T143944Z">
@@ -37765,6 +37797,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T073939Z" creationid="haohang" creationdate="20150716T073939Z">
         <seg>这导致了外部的解决方案通常都会基于构建工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This has the benefit that the plugin is automatically compiled and included in the classpath of the build script without you having to do anything.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151315Z" creationid="95" creationdate="20160818T151315Z">
+        <seg>这样做的好处是，你不需要再做什么，这个插件就能够被自动地编译并且包含到这个构建脚本的类路径当中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42443,8 +42483,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>You can implement a custom plugin in any language you like, provided the implementation ends up compiled as bytecode.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160818T150845Z" creationid="95" creationdate="20160818T150845Z">
-        <seg>You can implement a custom plugin in any language you like, provided the implementation ends up compiled as bytecode.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151120Z" creationid="95" creationdate="20160818T150845Z">
+        <seg>你可以使用你喜欢的任何一种语言来实现一个自定义插件，只要这个实现最终能够提供编译的字节码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42453,6 +42493,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T143636Z" creationid="95" creationdate="20160814T143636Z">
         <seg>你可以使用你喜欢的几乎任何一种语言来实现一个自定义任务类，只要它最终能够提供编译的字节码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can include the source for the plugin directly in the build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151251Z" creationid="95" creationdate="20160818T151251Z">
+        <seg>你可以在构建脚本中直接包含这个插件的源码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42941,6 +42989,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141114T071729Z" creationid="msdx" creationdate="20141114T071729Z">
         <seg>你甚至可以只把 Gradle 当作一个强大的 Ant 任务脚本的工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You could use Java or Scala instead, if you want.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151209Z" creationid="95" creationdate="20160818T151209Z">
+        <seg>如果你想的话，你也可以使用Java或者是Scala来代替。</seg>
       </tuv>
     </tu>
     <tu>
