@@ -9850,6 +9850,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s4&gt;void&lt;/s4&gt; apply(Project project) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131400Z" creationid="95" creationdate="20160820T131400Z">
+        <seg>&lt;s4&gt;void&lt;/s4&gt; apply(Project project) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s5&gt;// Add some source directories using a closure&lt;/s5&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T123634Z" creationid="msdx" creationdate="20141113T123634Z">
@@ -19688,6 +19696,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 58.3. A custom plugin with configuration closure</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131353Z" creationid="95" creationdate="20160820T131353Z">
+        <seg>示例 58.3. 使用配置闭包的自定义插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -21852,6 +21868,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T031304Z" creationid="msdx" creationdate="20141030T071145Z">
         <seg>Gradle 用户指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle adds a configuration closure block for each extension object, so you can group settings together.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131301Z" creationid="95" creationdate="20160820T131301Z">
+        <seg>Gradle 为每一个扩展对象添加了一个配置闭包块，因此你可以把这些配置分组。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25157,6 +25181,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this example, several settings can be grouped together within the &lt;c0&gt;greeting&lt;/c0&gt; closure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131614Z" creationid="95" creationdate="20160820T131412Z">
+        <seg>在这个例子中，通过 &lt;c0&gt;greeting&lt;/c0&gt;闭包，多个配置可以被组合在一起。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this example, we only want to require signing if we are building a release version and we are going to publish it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160126T142545Z" creationid="95" creationdate="20160126T141430Z">
@@ -27633,6 +27665,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160831Z" creationid="msdx" creationdate="20141113T160831Z">
         <seg>你经常会想要发布一个归档文件，这样就可从另一个项目中使用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Oftentimes, you have several related properties you need to specify on a single plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131220Z" creationid="95" creationdate="20160820T131220Z">
+        <seg>通常情况下，你会有几个相关的属性，所以你需要在单个插件上指定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30605,6 +30645,16 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>String greeter
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131407Z" creationid="95" creationdate="20160820T131407Z">
+        <seg>String greeter
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>String greeting = &lt;s0&gt;'hello from Ant'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153407Z" creationid="msdx" creationdate="20141115T153407Z">
@@ -30617,6 +30667,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T151533Z" creationid="95" creationdate="20160814T151533Z">
         <seg>String greeting = &lt;s5&gt;'hello from GreetingTask'&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>String message</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131405Z" creationid="95" creationdate="20160820T131405Z">
+        <seg>String message</seg>
       </tuv>
     </tu>
     <tu>
@@ -35181,6 +35239,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following example shows you how this works.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131329Z" creationid="95" creationdate="20160820T131329Z">
+        <seg>下面是如何分组的示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following examples show several different ways to achieve the same configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T091936Z" creationid="msdx" creationdate="20141110T091936Z">
@@ -35553,6 +35619,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155244Z" creationid="msdx" creationdate="20141113T155232Z">
         <seg>还可以在以后的任何时候更改归档文件的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the closure block in the build script (&lt;c1&gt;greeting&lt;/c1&gt;) needs to match the extension object name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131651Z" creationid="95" creationdate="20160820T131651Z">
+        <seg>在构建脚本中，这个闭包块的名字（&lt;c1&gt;greeting&lt;/c1&gt;）需要和扩展对象的名字相匹配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38705,6 +38779,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T043618Z" creationid="95" creationdate="20151129T043618Z">
         <seg>这一新行为通过带宽和存储空间的有效途径被实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This object then becomes available as a project property with the same name as the extension object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131143Z" creationid="95" creationdate="20160820T131143Z">
+        <seg>然后该对象变为有效的一个项目属性，与这个扩展对象的名称相同。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44957,6 +45039,18 @@ uploadArchives {</seg>
       <tuv lang="EN-US">
         <seg>apply plugin: GreetingPlugin
 
+greeting {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131356Z" creationid="95" creationdate="20160820T131356Z">
+        <seg>apply plugin: GreetingPlugin
+
+greeting {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: GreetingPlugin
+
 greeting.message = &lt;s0&gt;'Hi from Gradle'&lt;/s0&gt;
 
 &lt;s1&gt;class&lt;/s1&gt; GreetingPlugin &lt;s2&gt;implements&lt;/s2&gt; Plugin&lt;Project&gt; {</seg>
@@ -49255,6 +49349,20 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>greeter = &lt;s1&gt;'Gradle'&lt;/s1&gt;
+}
+
+&lt;s2&gt;class&lt;/s2&gt; GreetingPlugin &lt;s3&gt;implements&lt;/s3&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131357Z" creationid="95" creationdate="20160820T131357Z">
+        <seg>greeter = &lt;s1&gt;'Gradle'&lt;/s1&gt;
+}
+
+&lt;s2&gt;class&lt;/s2&gt; GreetingPlugin &lt;s3&gt;implements&lt;/s3&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>greeting = &lt;s2&gt;'greetings from GreetingTask'&lt;/s2&gt;
 }
 
@@ -52007,6 +52115,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>message = &lt;s0&gt;'Hi'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131356Z" creationid="95" creationdate="20160820T131356Z">
+        <seg>message = &lt;s0&gt;'Hi'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>message = rootProject.producerMessage
 
 task consume &lt;&lt; {</seg>
@@ -53663,6 +53779,14 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s7&gt;"${project.greeting.message} from ${project.greeting.greeter}"&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131402Z" creationid="95" creationdate="20160820T131402Z">
+        <seg>println &lt;s7&gt;"${project.greeting.message} from ${project.greeting.greeter}"&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s7&gt;"done"&lt;/s7&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160521T140124Z" creationid="95" creationdate="20160521T140124Z">
@@ -54245,6 +54369,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160820T123819Z" creationid="95" creationdate="20160820T123819Z">
         <seg>project.task(&lt;s3&gt;'hello'&lt;/s3&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.task(&lt;s6&gt;'hello'&lt;/s6&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T131401Z" creationid="95" creationdate="20160820T131401Z">
+        <seg>project.task(&lt;s6&gt;'hello'&lt;/s6&gt;) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
