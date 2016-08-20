@@ -2174,6 +2174,14 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/plugins/ExtensionContainer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T124016Z" creationid="95" creationdate="20160820T124016Z">
+        <seg>../javadoc/org/gradle/api/plugins/ExtensionContainer.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/plugins/JavaPlugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162033Z" creationid="msdx" creationdate="20141122T162033Z">
@@ -7320,6 +7328,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>58.3. Getting input from the build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T124013Z" creationid="95" creationdate="20160820T124013Z">
+        <seg>58.3. 从构建中获取输入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -9640,6 +9656,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;void&lt;/s2&gt; apply(Project project) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T123818Z" creationid="95" creationdate="20160820T123818Z">
+        <seg>&lt;s2&gt;void&lt;/s2&gt; apply(Project project) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s3&gt;"1.0"&lt;/s3&gt;
 }</seg>
       </tuv>
@@ -10412,6 +10436,16 @@ Pinging: Server2</seg>
 :hello
 :projectA:hello
 :projectA:hello</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+Hello from the GreetingPlugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T123828Z" creationid="95" creationdate="20160820T123828Z">
+        <seg>&gt; gradle -q hello
+Hello from the GreetingPlugin</seg>
       </tuv>
     </tu>
     <tu>
@@ -19604,6 +19638,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 58.1. A custom plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T123816Z" creationid="95" creationdate="20160820T123816Z">
+        <seg>示例 58.1. 自定义插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -21982,8 +22024,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Gradle instantiates the plugin and calls the plugin instance's &lt;a2&gt;&lt;c3&gt;Plugin.apply()&lt;/c3&gt;&lt;/a2&gt; method when the plugin is used with a project.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160818T151721Z" creationid="95" creationdate="20160818T151721Z">
-        <seg>Gradle instantiates the plugin and calls the plugin instance's &lt;a2&gt;&lt;c3&gt;Plugin.apply()&lt;/c3&gt;&lt;/a2&gt; method when the plugin is used with a project.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T123638Z" creationid="95" creationdate="20160818T151721Z">
+        <seg>当这个插件被用在一个project上时，Gradle会实例化这个插件，并且调用这个插件实例的 &lt;a2&gt;&lt;c3&gt;Plugin.apply()&lt;/c3&gt;&lt;/a2&gt; 方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26873,6 +26915,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most plugins need to obtain some configuration from the build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T124119Z" creationid="95" creationdate="20160820T124119Z">
+        <seg>大部分插件都需要从构建脚本中获得一些配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Multi-project Java build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163459Z" creationid="msdx" creationdate="20141109T163459Z">
@@ -27661,6 +27711,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160530T152423Z" creationid="95" creationdate="20160530T152423Z">
         <seg>注意，有一件事情很重要。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One thing to note is that a new instance of a given plugin is created for each project it is applied to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T124004Z" creationid="95" creationdate="20160820T123832Z">
+        <seg>需要注意的一点是，对于一个给定的插件，每一个配置使用它的项目都会创建一个新的实例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35057,6 +35115,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following sample contains a greeting plugin, which adds a &lt;c4&gt;hello&lt;/c4&gt; task to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T123805Z" creationid="95" creationdate="20160820T123805Z">
+        <seg>下面的例子包含了一个问候语插件，它把一个 &lt;c4&gt;hello&lt;/c4&gt; 任务添加到project中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following table lists a few of the commonly used ones.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044124Z" creationid="msdx" creationdate="20141108T044124Z">
@@ -35789,6 +35855,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T012537Z" creationid="haohang" creationdate="20150721T012537Z">
         <seg>项目的类路径会变得一片狼藉，并且，如果类路径出现问题时，那简直就是人间地狱。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The project object is passed as a parameter, which the plugin can use to configure the project however it needs to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T123728Z" creationid="95" creationdate="20160820T123634Z">
+        <seg>这个project对象会被作为一个参数传进去，该参数可以让插件用于对这个project配置它所需要的东西。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44755,6 +44829,18 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: GreetingPlugin
+
+&lt;s0&gt;class&lt;/s0&gt; GreetingPlugin &lt;s1&gt;implements&lt;/s1&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T123817Z" creationid="95" creationdate="20160820T123817Z">
+        <seg>apply plugin: GreetingPlugin
+
+&lt;s0&gt;class&lt;/s0&gt; GreetingPlugin &lt;s1&gt;implements&lt;/s1&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: JavaPlugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162533Z" creationid="msdx" creationdate="20141122T162533Z">
@@ -53367,6 +53453,14 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s4&gt;"Hello from the GreetingPlugin"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T123819Z" creationid="95" creationdate="20160820T123819Z">
+        <seg>println &lt;s4&gt;"Hello from the GreetingPlugin"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s4&gt;'notALib'&lt;/s4&gt;
 }</seg>
       </tuv>
@@ -53987,6 +54081,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160521T125508Z" creationid="95" creationdate="20160521T125508Z">
         <seg>project.task(&lt;s2&gt;'test'&lt;/s2&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.task(&lt;s3&gt;'hello'&lt;/s3&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T123819Z" creationid="95" creationdate="20160820T123819Z">
+        <seg>project.task(&lt;s3&gt;'hello'&lt;/s3&gt;) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
