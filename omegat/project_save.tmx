@@ -27659,6 +27659,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One method for doing this is to use &lt;e0&gt;extension objects&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T124150Z" creationid="95" creationdate="20160820T124150Z">
+        <seg>实现这种目的的其中一种做法是使用 &lt;e0&gt;扩展对象&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One of the convention properties added by the plugin is &lt;c0&gt;applicationDistribution&lt;/c0&gt; which is a &lt;a1&gt;&lt;c2&gt;CopySpec&lt;/c2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T105419Z" creationid="haohang" creationdate="20150702T105419Z">
@@ -32943,6 +32951,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T133604Z" creationid="msdx" creationdate="20150505T133604Z">
         <seg>FindBugs 插件使用&lt;a0&gt;FindBugs&lt;/a0&gt;对项目的 Java 源文件执行质量检查，并从检查结果中生成报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gradle &lt;a1&gt;&lt;c2&gt;Project&lt;/c2&gt;&lt;/a1&gt; has an associated &lt;a3&gt;&lt;c4&gt;ExtensionContainer&lt;/c4&gt;&lt;/a3&gt; object that helps keep track of all the settings and properties being passed to plugins.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T124314Z" creationid="95" creationdate="20160820T124314Z">
+        <seg>Gradle &lt;a1&gt;&lt;c2&gt;Project&lt;/c2&gt;&lt;/a1&gt; 与 &lt;a3&gt;&lt;c4&gt;ExtensionContainer&lt;/c4&gt;&lt;/a3&gt; 对象会有关联，该对象可以帮助追踪传给插件的所有配置和属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39243,6 +39259,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To capture input, simply add a Java Bean compliant class into the extension container's list of extensions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T124443Z" creationid="95" creationdate="20160820T124443Z">
+        <seg>要获取输入，只需将一个Java Bean兼容类添加到扩展容器的扩展列表中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To change how long Gradle will cache the meta-data and artifacts for a changing module, use:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151130T032414Z" creationid="haohang" creationdate="20151130T032414Z">
@@ -42343,6 +42367,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T082106Z" creationid="msdx" creationdate="20141110T082046Z">
         <seg>你可以用任务名称，相对路径或者是绝对路径作为参数调用&lt;c1&gt;getByPath()&lt;/c1&gt;方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can capture user input by telling the extension container about your plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T124405Z" creationid="95" creationdate="20160820T124405Z">
+        <seg>通过你的插件相关的扩展容器，你可以获取用户的输入。</seg>
       </tuv>
     </tu>
     <tu>
