@@ -9170,6 +9170,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingToFileTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132300Z" creationid="95" creationdate="20160820T132300Z">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingToFileTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;class&lt;/s0&gt; IncrementalReverseTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160816T144958Z" creationid="95" creationdate="20160816T144958Z">
@@ -10834,6 +10842,16 @@ There were test failures:</seg>
         <seg>&gt; gradle -q runFailingOperatorsTestCUnitExe
 
 There were test failures:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q sayGreeting
+Hello!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132307Z" creationid="95" creationdate="20160820T132307Z">
+        <seg>&gt; gradle -q sayGreeting
+Hello!</seg>
       </tuv>
     </tu>
     <tu>
@@ -19712,6 +19730,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 58.4. Evaluating file properties lazily</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132259Z" creationid="95" creationdate="20160820T132259Z">
+        <seg>示例 58.4. 文件属性的惰性评估</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -20028,6 +20054,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160722T091248Z" creationid="haohang" creationdate="20160722T091248Z">
         <seg>File explodedDist = mkdir(&lt;s5&gt;"$buildDir/explodedDist"&lt;/s5&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File getDestination() {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132301Z" creationid="95" creationdate="20160820T132301Z">
+        <seg>File getDestination() {</seg>
       </tuv>
     </tu>
     <tu>
@@ -25197,6 +25231,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this example, we configure the &lt;c0&gt;greet&lt;/c0&gt; task &lt;c1&gt;destination&lt;/c1&gt; property as a closure, which is evaluated with the &lt;a2&gt;&lt;c3&gt;Project.file()&lt;/c3&gt;&lt;/a2&gt; method to turn the return value of the closure into a file object at the last minute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132309Z" creationid="95" creationdate="20160820T132309Z">
+        <seg>In this example, we configure the &lt;c0&gt;greet&lt;/c0&gt; task &lt;c1&gt;destination&lt;/c1&gt; property as a closure, which is evaluated with the &lt;a2&gt;&lt;c3&gt;Project.file()&lt;/c3&gt;&lt;/a2&gt; method to turn the return value of the closure into a file object at the last minute.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this example, we only want to require signing if we are building a release version and we are going to publish it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160126T142545Z" creationid="95" creationdate="20160126T141430Z">
@@ -28385,6 +28427,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160817T150454Z" creationid="95" creationdate="20160817T150454Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q removeOutput incrementalReverse&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q sayGreeting&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132307Z" creationid="95" creationdate="20160820T132307Z">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q sayGreeting&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -39663,6 +39713,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To do this, you can leverage the &lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt; method to resolve values to files as late as possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132232Z" creationid="95" creationdate="20160820T132232Z">
+        <seg>为此，你可以利用 &lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt; 方法来尽可能晚地把值解析到文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To do this, you need to define a custom configuration for the classpath, then add some dependencies to the configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060440Z" creationid="msdx" creationdate="20141116T060440Z">
@@ -41475,6 +41533,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T135332Z" creationid="msdx" creationdate="20141117T133019Z">
         <seg>当开发一个 web 应用程序中，应用程序会被组装多次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When developing custom tasks and plugins, it's a good idea to be very flexible when accepting input configuration for file locations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132138Z" creationid="95" creationdate="20160820T132138Z">
+        <seg>当开发自定义任务和插件时，接收输入配置的文件位置能使得在灵活性上表现得更好。</seg>
       </tuv>
     </tu>
     <tu>
@@ -47139,6 +47205,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def destination</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132301Z" creationid="95" creationdate="20160820T132301Z">
+        <seg>def destination</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def docs = file(&lt;s0&gt;"$buildDir/docs"&lt;/s0&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150703T100424Z" creationid="haohang" creationdate="20150703T100424Z">
@@ -47151,6 +47225,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160108T152917Z" creationid="95" creationdate="20160108T152917Z">
         <seg>def file = console.readLine("PGP Secret Key Ring File (absolute path): ")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def file = getDestination()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132303Z" creationid="95" creationdate="20160820T132303Z">
+        <seg>def file = getDestination()</seg>
       </tuv>
     </tu>
     <tu>
@@ -47755,6 +47837,20 @@ artifacts {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T132307Z" creationid="msdx" creationdate="20150506T132307Z">
         <seg>destPath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>destination = { project.greetingFile }
+}
+
+task sayGreeting(dependsOn: greet) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132305Z" creationid="95" creationdate="20160820T132305Z">
+        <seg>destination = { project.greetingFile }
+}
+
+task sayGreeting(dependsOn: greet) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -48661,6 +48757,22 @@ hello.doLast { println &lt;s0&gt;"- I'm the largest animal that has ever lived o
       <tuv lang="ZH-CN" changeid="95" changedate="20160817T150205Z" creationid="95" creationdate="20160817T150205Z">
         <seg>file(&lt;s2&gt;'inputs/4.txt'&lt;/s2&gt;).text = &lt;s3&gt;"Content for new file 4."&lt;/s3&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>file.parentFile.mkdirs()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132303Z" creationid="95" creationdate="20160820T132303Z">
+        <seg>file.parentFile.mkdirs()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>file.write &lt;s3&gt;"Hello!"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132304Z" creationid="95" creationdate="20160820T132304Z">
+        <seg>file.write &lt;s3&gt;"Hello!"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -53919,6 +54031,20 @@ FileTree filtered = tree.matching {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println file(greetingFile).text
+}
+
+greetingFile = &lt;s4&gt;"$buildDir/hello.txt"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132306Z" creationid="95" creationdate="20160820T132306Z">
+        <seg>println file(greetingFile).text
+}
+
+greetingFile = &lt;s4&gt;"$buildDir/hello.txt"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println file.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034610Z" creationid="haohang" creationdate="20150807T034610Z">
@@ -54311,6 +54437,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160820T130732Z" creationid="95" creationdate="20160820T130732Z">
         <seg>project.extensions.create(&lt;s5&gt;"greeting"&lt;/s5&gt;, GreetingPluginExtension)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.file(destination)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132302Z" creationid="95" creationdate="20160820T132302Z">
+        <seg>project.file(destination)</seg>
       </tuv>
     </tu>
     <tu>
@@ -58906,6 +59040,20 @@ task explodedDist(dependsOn: assemble) &lt;&lt; {</seg>
 }
 
 task explodedDist(dependsOn: assemble) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+task greet(type: GreetingToFileTask) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160820T132304Z" creationid="95" creationdate="20160820T132304Z">
+        <seg>}
+}
+
+task greet(type: GreetingToFileTask) {</seg>
       </tuv>
     </tu>
     <tu>
