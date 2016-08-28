@@ -19754,6 +19754,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 58.6. Wiring for a custom plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160828T133450Z" creationid="95" creationdate="20160828T133450Z">
+        <seg>示例 58.6. 编写一个自定义插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -27487,6 +27495,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notice that the properties filename matches the plugin's name and is placed in the resources folder, and that the &lt;c0&gt;implementation-class&lt;/c0&gt; property identifies the &lt;a1&gt;&lt;c2&gt;Plugin&lt;/c2&gt;&lt;/a1&gt; implementation class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160828T133457Z" creationid="95" creationdate="20160828T133457Z">
+        <seg>Notice that the properties filename matches the plugin's name and is placed in the resources folder, and that the &lt;c0&gt;implementation-class&lt;/c0&gt; property identifies the &lt;a1&gt;&lt;c2&gt;Plugin&lt;/c2&gt;&lt;/a1&gt; implementation class.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Notice that we can also mix Groovy code and the Ant task markup.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153344Z" creationid="msdx" creationdate="20141115T153344Z">
@@ -30273,8 +30289,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>So how does Gradle find the &lt;a0&gt;&lt;c1&gt;Plugin&lt;/c1&gt;&lt;/a0&gt; implementation?</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160828T132843Z" creationid="95" creationdate="20160828T132843Z">
-        <seg>So how does Gradle find the &lt;a0&gt;&lt;c1&gt;Plugin&lt;/c1&gt;&lt;/a0&gt; implementation?</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160828T133355Z" creationid="95" creationdate="20160828T132843Z">
+        <seg>那么，Gradle是怎么找到 &lt;a0&gt;&lt;c1&gt;Plugin&lt;/c1&gt;&lt;/a0&gt; 实现的？</seg>
       </tuv>
     </tu>
     <tu>
@@ -34349,6 +34365,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160108T151635Z" creationid="95" creationdate="20160108T151635Z">
         <seg>指向包含了你的私钥的密钥环文件的绝对路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The answer is you need to provide a properties file in the jar's &lt;c2&gt;META-INF/gradle-plugins&lt;/c2&gt; directory that matches the name of your plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160828T133436Z" creationid="95" creationdate="20160828T133436Z">
+        <seg>答案是你需要在jar文件里的&lt;c2&gt;META-INF/gradle-plugins&lt;/c2&gt;目录中提供一个属性文件，让它与你的插件名相匹配。</seg>
       </tuv>
     </tu>
     <tu>
@@ -50521,6 +50545,14 @@ project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>implementation-class=org.gradle.GreetingPlugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160828T133455Z" creationid="95" creationdate="20160828T133455Z">
+        <seg>implementation-class=org.gradle.GreetingPlugin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>import org.gradle.plugins.signing.Sign
 
 gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
@@ -56441,6 +56473,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083229Z" creationid="msdx" creationdate="20150428T083229Z">
         <seg>src/main/resources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>src/main/resources/META-INF/gradle-plugins/greeting.properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20160828T133454Z" creationid="95" creationdate="20160828T133454Z">
+        <seg>src/main/resources/META-INF/gradle-plugins/greeting.properties</seg>
       </tuv>
     </tu>
     <tu>
