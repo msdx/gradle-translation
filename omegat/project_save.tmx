@@ -20114,6 +20114,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 59.3. Custom buildSrc build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T052836Z" creationid="95" creationdate="20161211T052836Z">
+        <seg>示例 59.3. 自定义buildSrc构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -28037,8 +28045,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>Notice that this example does not need to declare a dependency on the Gradle API, as this is done by the default build script:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20161211T052241Z" creationid="95" creationdate="20161211T052241Z">
-        <seg>Notice that this example does not need to declare a dependency on the Gradle API, as this is done by the default build script:</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T052819Z" creationid="95" creationdate="20161211T052241Z">
+        <seg>请注意，此示例不需要声明对 Gradle API的依赖，因为这由默认的构建脚本完成：</seg>
       </tuv>
     </tu>
     <tu>
@@ -46685,6 +46693,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>buildSrc/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T052838Z" creationid="95" creationdate="20161211T052838Z">
+        <seg>buildSrc/build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>buildTypes {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090259Z" creationid="haohang" creationdate="20160401T090259Z">
@@ -58616,6 +58632,16 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T153036Z" creationid="msdx" creationdate="20150429T153036Z">
         <seg>testCompile &lt;s0&gt;"org.scala-lang:scala-library:2.9.2"&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testCompile &lt;s0&gt;'junit:junit:4.11'&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T052840Z" creationid="95" creationdate="20161211T052840Z">
+        <seg>testCompile &lt;s0&gt;'junit:junit:4.11'&lt;/s0&gt;
 }</seg>
       </tuv>
     </tu>
