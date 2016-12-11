@@ -7416,6 +7416,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>59.3. Build sources in the &lt;c0&gt;buildSrc&lt;/c0&gt; project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051135Z" creationid="95" creationdate="20161211T051135Z">
+        <seg>59.3. 在&lt;c0&gt;buildSrc&lt;/c0&gt; 项目中的构建源代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -8692,6 +8700,14 @@ binaries.withType(SharedLibraryBinary) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Inject a property and method&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051003Z" creationid="95" creationdate="20161211T051003Z">
+        <seg>&lt;s0&gt;// Inject a property and method&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
       </tuv>
@@ -8752,6 +8768,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161211T044946Z" creationid="95" creationdate="20161211T044946Z">
         <seg>&lt;s0&gt;// Use inherited property&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Use injected property and method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051047Z" creationid="95" creationdate="20161211T051047Z">
+        <seg>&lt;s0&gt;// Use injected property and method.</seg>
       </tuv>
     </tu>
     <tu>
@@ -9686,6 +9710,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T151757Z" creationid="95" creationdate="20160324T151757Z">
         <seg>&lt;s2&gt;// Define toolchain-specific compiler and linker options&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Inject a task&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051005Z" creationid="95" creationdate="20161211T051005Z">
+        <seg>&lt;s2&gt;// Inject a task&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11090,6 +11122,26 @@ build/output/classes</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154213Z" creationid="msdx" creationdate="20141123T154213Z">
         <seg>&gt; gradle -q show
 build/output/classes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q show
+project: :child1
+srcDirName: java
+srcDir: child1/java
+project: :child2
+srcDirName: src/java/legacy
+srcDir: child2/src/java/legacy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051056Z" creationid="95" creationdate="20161211T051056Z">
+        <seg>&gt; gradle -q show
+project: :child1
+srcDirName: java
+srcDir: child1/java
+project: :child2
+srcDirName: src/java/legacy
+srcDir: child2/src/java/legacy</seg>
       </tuv>
     </tu>
     <tu>
@@ -20046,6 +20098,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 59.2. Using injected properties and methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051002Z" creationid="95" creationdate="20161211T051002Z">
+        <seg>示例59.2. 使用注入的属性和方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -20402,6 +20462,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161211T044948Z" creationid="95" creationdate="20161211T044948Z">
         <seg>File srcDir = getSrcDir(project)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File srcDir = srcDir()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051035Z" creationid="95" creationdate="20161211T051035Z">
+        <seg>File srcDir = srcDir()</seg>
       </tuv>
     </tu>
     <tu>
@@ -21498,6 +21566,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094454Z" creationid="msdx" creationdate="20150429T094411Z">
         <seg>对于大多数项目而言，这相比基于 Ant 编译器，是个更好的选择。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For multi-project builds there can be only one &lt;c0&gt;buildSrc&lt;/c0&gt; directory, which has to be in the root project directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051443Z" creationid="95" creationdate="20161211T051443Z">
+        <seg>对于多项目构建，它们可能只有一个&lt;c0&gt;buildSrc&lt;/c0&gt;目录，在根项目的目录中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22734,6 +22810,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle then automatically compiles and tests this code and puts it in the classpath of your build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051308Z" creationid="95" creationdate="20161211T051210Z">
+        <seg>然后Gradle会自动的编译和测试它的代码，并且把它们加入到你的构建脚本的classpath中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle then executes each of the selected tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T024509Z" creationid="haohang" creationdate="20160519T024509Z">
@@ -23418,6 +23502,18 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T141902Z" creationid="95" creationdate="20160105T144144Z">
         <seg>在这里， &lt;c0&gt;uploadTask&lt;/c0&gt;和&lt;c1&gt;archiveTask&lt;/c1&gt;分别指向上传和分别生成archive的任务（例如&lt;c2&gt;uploadArchives&lt;/c2&gt;和&lt;c3&gt;jar&lt;/c3&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here, we override the injected value&lt;/s0&gt;
+srcDirName = &lt;s1&gt;'java'&lt;/s1&gt;
+def dir = srcDir()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051055Z" creationid="95" creationdate="20161211T051055Z">
+        <seg>Here, we override the injected value&lt;/s0&gt;
+srcDirName = &lt;s1&gt;'java'&lt;/s1&gt;
+def dir = srcDir()</seg>
       </tuv>
     </tu>
     <tu>
@@ -35869,6 +35965,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following sample shows how this works.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T050953Z" creationid="95" creationdate="20161211T050953Z">
+        <seg>下面是展示注入的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following table lists a few of the commonly used ones.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044124Z" creationid="msdx" creationdate="20141108T044124Z">
@@ -38333,6 +38437,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This can be a good place to add your custom tasks and plugins.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051407Z" creationid="95" creationdate="20161211T051407Z">
+        <seg>这可以是用于添加你的自定义任务和插件的好地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This can be a requirement during development, or you may be developing a library that is designed to work with a range of dependency versions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T010821Z" creationid="haohang" creationdate="20150722T010821Z">
@@ -38993,6 +39105,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T071915Z" creationid="Administrator" creationdate="20150425T071915Z">
         <seg>这是非常有用的，因为它促进了跨项目的一致性 ；完成了有关构件命名规范及构建之后的位置上的一致。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is generally a better option than inheritance, for a number of reasons: The injection is explicit in the build script, You can inject different logic into different projects, And you can inject any kind of configuration such as repositories, plug-ins, tasks, and so on.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T050919Z" creationid="95" creationdate="20161211T050919Z">
+        <seg>通常来说，它是比继承更好的选择，有好几个原因：注入是显示地存在于构建脚本中的，你可以向不同的项目注入不同的逻辑，并且你可以注入任意一种配置，例如仓库，插件，任务等等。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42333,6 +42453,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you run Gradle, it checks for the existence of a directory called &lt;c0&gt;buildSrc&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051158Z" creationid="95" creationdate="20161211T051158Z">
+        <seg>当你运行Gradle时，它会检查&lt;c0&gt;buildSrc&lt;/c0&gt;目录是否存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you set &lt;c0&gt;archiveTask.baseName&lt;/c0&gt; to a value other than the default, make sure to set &lt;c1&gt;uploadTask.repositories.mavenDeployer.pom.artifactId&lt;/c1&gt; to the same value.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T142040Z" creationid="95" creationdate="20160106T142040Z">
@@ -44073,6 +44201,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T145625Z" creationid="95" creationdate="20160814T145625Z">
         <seg>你不需要使用一个方法来定义这个任务的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You don't need to provide any further instruction.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051348Z" creationid="95" creationdate="20161211T051348Z">
+        <seg>你不需要再提供任何进一步的指示。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46711,6 +46847,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161211T044945Z" creationid="95" creationdate="20161211T044945Z">
         <seg>child/build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>child1/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051042Z" creationid="95" creationdate="20161211T051042Z">
+        <seg>child1/build.gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -54559,6 +54703,14 @@ task notALib &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;'project: '&lt;/s3&gt; + project.path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051006Z" creationid="95" creationdate="20161211T051006Z">
+        <seg>println &lt;s3&gt;'project: '&lt;/s3&gt; + project.path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s3&gt;'srcDir: '&lt;/s3&gt; + rootProject.relativePath(srcDir)
 }</seg>
       </tuv>
@@ -54609,6 +54761,14 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s4&gt;'srcDirName: '&lt;/s4&gt; + srcDirName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051023Z" creationid="95" creationdate="20161211T051023Z">
+        <seg>println &lt;s4&gt;'srcDirName: '&lt;/s4&gt; + srcDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s4&gt;'taskY'&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T122319Z" creationid="msdx" creationdate="20141110T122319Z">
@@ -54629,6 +54789,14 @@ taskX.finalizedBy taskY</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T093718Z" creationid="msdx" creationdate="20141109T093718Z">
         <seg>println &lt;s5&gt;'The class directory exists.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s5&gt;'srcDir: '&lt;/s5&gt; + rootProject.relativePath(srcDir)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051038Z" creationid="95" creationdate="20161211T051038Z">
+        <seg>println &lt;s5&gt;'srcDir: '&lt;/s5&gt; + rootProject.relativePath(srcDir)</seg>
       </tuv>
     </tu>
     <tu>
@@ -57311,6 +57479,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>srcDir = { file(srcDirName) }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051004Z" creationid="95" creationdate="20161211T051004Z">
+        <seg>srcDir = { file(srcDirName) }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>srcDirName = &lt;s0&gt;'src/java'&lt;/s0&gt;
 
 def getSrcDir(project) {</seg>
@@ -57319,6 +57495,24 @@ def getSrcDir(project) {</seg>
         <seg>srcDirName = &lt;s0&gt;'src/java'&lt;/s0&gt;
 
 def getSrcDir(project) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDirName = &lt;s1&gt;'src/java'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051004Z" creationid="95" creationdate="20161211T051004Z">
+        <seg>srcDirName = &lt;s1&gt;'src/java'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDirName = &lt;s8&gt;"$srcDirName/legacy"&lt;/s8&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051040Z" creationid="95" creationdate="20161211T051040Z">
+        <seg>srcDirName = &lt;s8&gt;"$srcDirName/legacy"&lt;/s8&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -59738,6 +59932,22 @@ sourceSets.all {</seg>
 }
 
 &lt;s2&gt;class&lt;/s2&gt; DocumentationPlugin &lt;s3&gt;implements&lt;/s3&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+&lt;s6&gt;// Inject special case configuration into a particular project&lt;/s6&gt;
+project(&lt;s7&gt;':child2'&lt;/s7&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051039Z" creationid="95" creationdate="20161211T051039Z">
+        <seg>}
+}
+
+&lt;s6&gt;// Inject special case configuration into a particular project&lt;/s6&gt;
+project(&lt;s7&gt;':child2'&lt;/s7&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
