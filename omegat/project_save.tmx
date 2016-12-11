@@ -7368,6 +7368,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>58.6. Maintaining multiple domain objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T014944Z" creationid="95" creationdate="20161211T014944Z">
+        <seg>58.6. 维护多个域对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -9176,6 +9184,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingPluginTest {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T014930Z" creationid="95" creationdate="20161211T014930Z">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingPluginTest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {
 }</seg>
       </tuv>
@@ -9692,6 +9708,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160815T150131Z" creationid="95" creationdate="20160815T150131Z">
         <seg>&lt;s2&gt;public&lt;/s2&gt; &lt;s3&gt;void&lt;/s3&gt; canAddTaskToProject() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;public&lt;/s2&gt; &lt;s3&gt;void&lt;/s3&gt; greeterPluginAddsGreetingTaskToProject() {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T014931Z" creationid="95" creationdate="20161211T014931Z">
+        <seg>&lt;s2&gt;public&lt;/s2&gt; &lt;s3&gt;void&lt;/s3&gt; greeterPluginAddsGreetingTaskToProject() {</seg>
       </tuv>
     </tu>
     <tu>
@@ -19782,6 +19806,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161211T014547Z" creationid="95" creationdate="20161211T014547Z">
         <seg>示例 58.7. 在另一个项目中使用一个自定义插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 58.8. Testing a custom plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T014925Z" creationid="95" creationdate="20161211T014925Z">
+        <seg>示例 58.8. 测试自定义插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -43393,6 +43425,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use the &lt;a0&gt;&lt;c1&gt;ProjectBuilder&lt;/c1&gt;&lt;/a0&gt; class to create &lt;a2&gt;&lt;c3&gt;Project&lt;/c3&gt;&lt;/a2&gt; instances to use when you test your plugin implementation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T014915Z" creationid="95" creationdate="20161211T014915Z">
+        <seg>当你要测试你的插件实现时，你可以使用&lt;a0&gt;&lt;c1&gt;ProjectBuilder&lt;/c1&gt;&lt;/a0&gt; 类来创建 &lt;a2&gt;&lt;c3&gt;Project&lt;/c3&gt;&lt;/a2&gt; 实例去使用你的任务类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use the &lt;a0&gt;&lt;c1&gt;ProjectBuilder&lt;/c1&gt;&lt;/a0&gt; class to create &lt;a2&gt;&lt;c3&gt;Project&lt;/c3&gt;&lt;/a2&gt; instances to use when you test your task class.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160815T150108Z" creationid="95" creationdate="20160815T145956Z">
@@ -45603,6 +45643,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T152626Z" creationid="95" creationdate="20160324T152626Z">
         <seg>assembler.args &lt;s3&gt;"-g"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>assertTrue(project.tasks.hello &lt;s5&gt;instanceof&lt;/s5&gt; GreetingTask)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T014933Z" creationid="95" creationdate="20161211T014933Z">
+        <seg>assertTrue(project.tasks.hello &lt;s5&gt;instanceof&lt;/s5&gt; GreetingTask)</seg>
       </tuv>
     </tu>
     <tu>
@@ -54553,6 +54601,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project.apply plugin: &lt;s4&gt;'greeting'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T014933Z" creationid="95" creationdate="20161211T014933Z">
+        <seg>project.apply plugin: &lt;s4&gt;'greeting'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project.description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T065247Z" creationid="msdx" creationdate="20150513T065247Z">
@@ -56553,6 +56609,14 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075127Z" creationid="msdx" creationdate="20150429T075127Z">
         <seg>src/test/groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>src/test/groovy/org/gradle/GreetingPluginTest.groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T014927Z" creationid="95" creationdate="20161211T014927Z">
+        <seg>src/test/groovy/org/gradle/GreetingPluginTest.groovy</seg>
       </tuv>
     </tu>
     <tu>
