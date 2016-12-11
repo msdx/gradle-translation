@@ -7754,6 +7754,14 @@ This is executed during the execution phase.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;&lt;c1&gt;buildSrc&lt;/c1&gt; project&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044032Z" creationid="95" creationdate="20161211T044032Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;buildSrc&lt;/c1&gt; 项目&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Bintray&lt;/a0&gt;'s JCenter is an up-to-date collection of all popular Maven OSS artifacts, including artifacts published directly to Bintray.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T100434Z" creationid="haohang" creationdate="20150807T100434Z">
@@ -7762,10 +7770,26 @@ This is executed during the execution phase.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Configuration injection&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T043929Z" creationid="95" creationdate="20161211T043929Z">
+        <seg>&lt;a0&gt;配置注入&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Growl&lt;/a0&gt; (Mac OS X)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T062807Z" creationid="haohang" creationdate="20150628T062807Z">
         <seg>&lt;a0&gt;Growl&lt;/a0&gt; (Mac OS X)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Inherited properties and methods&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T043849Z" creationid="95" creationdate="20161211T043849Z">
+        <seg>&lt;a0&gt;继承的属性和方法&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7790,6 +7814,14 @@ This is executed during the execution phase.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T090554Z" creationid="haohang" creationdate="20160726T090554Z">
         <seg>&lt;a0&gt;第 56.1.1.1 节，“按需配置”&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Shared scripts&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044129Z" creationid="95" creationdate="20161211T044129Z">
+        <seg>&lt;a0&gt;共享脚本&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16536,6 +16568,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Drop the source for your build classes into a certain directory and Gradle automatically compiles them and includes them in the classpath of your build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044118Z" creationid="95" creationdate="20161211T044118Z">
+        <seg>把你的构建的类的源码放到一个指定的目录中，然后Gradle会自动地编译它们，并把它们包含到你的构建脚本的classpath里。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dry Run</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T164813Z" creationid="msdx" creationdate="20141109T163958Z">
@@ -24836,10 +24876,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In a multi-project build, a project (usually the root project) can inject properties and methods into another project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044008Z" creationid="95" creationdate="20161211T044008Z">
+        <seg>在一个多项目构建中，一个项目（通常是根项目）可以把属性和方法注入到另一个项目中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In a multi-project build, analysis files are passed on to downstream &lt;c1&gt;ScalaCompile&lt;/c1&gt; tasks to enable incremental compilation across project boundaries.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T155648Z" creationid="msdx" creationdate="20150501T155605Z">
         <seg>在多项目构建中，分析文件被传递给下游的&lt;c1&gt;ScalaCompile&lt;/c1&gt;任务，以启用跨项目的增量编译。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In a multi-project build, sub-projects inherit the properties and methods of their parent project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T043919Z" creationid="95" creationdate="20161211T043851Z">
+        <seg>在一个多项目构建中，子项目会继承父项目的属性及方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28895,8 +28951,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>POGOs.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20161211T043607Z" creationid="95" creationdate="20161211T043607Z">
-        <seg>POGOs.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T043645Z" creationid="95" creationdate="20161211T043607Z">
+        <seg>POGOs。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34819,6 +34875,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160520T123459Z" creationid="95" creationdate="20160520T123459Z">
         <seg>构建脚本会针对在初始化阶段期间创建的 project 对象执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The build script is written in Groovy, after all, and Groovy provides you with lots of excellent ways to organize code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T043821Z" creationid="95" creationdate="20161211T043821Z">
+        <seg>别忘了构建脚本是用Groovy来写的，Groovy会向你提供许多优秀的方式来组织代码。</seg>
       </tuv>
     </tu>
     <tu>
@@ -43067,6 +43131,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094806Z" creationid="haohang" creationdate="20150801T094806Z">
         <seg>可以通过使用&lt;a0&gt;&lt;c1&gt;DependencyHandler.localGroovy()&lt;/c1&gt;&lt;/a0&gt;方法，来声明对与 Gradle 一起发布的 Groovy 的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can declare and use plain old Groovy objects (POGOs) directly in your build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T043715Z" creationid="95" creationdate="20161211T043715Z">
+        <seg>你可以直接在你的构建脚本中定义和使用普通的旧Groovy对象（POGOs）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -53273,10 +53345,34 @@ binaries.withType(TestSuiteExecutableBinary) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>organizing_build_logic.html#sec:build_sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044008Z" creationid="95" creationdate="20161211T044008Z">
+        <seg>organizing_build_logic.html#sec:build_sources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>organizing_build_logic.html#sec:external_dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T162843Z" creationid="msdx" creationdate="20141122T162843Z">
         <seg>organizing_build_logic.html#sec:external_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>organizing_build_logic.html#sec:inherited_properties_and_methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T043823Z" creationid="95" creationdate="20161211T043823Z">
+        <seg>organizing_build_logic.html#sec:inherited_properties_and_methods</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>organizing_build_logic.html#sec:injected_configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T043920Z" creationid="95" creationdate="20161211T043920Z">
+        <seg>organizing_build_logic.html#sec:injected_configuration</seg>
       </tuv>
     </tu>
     <tu>
