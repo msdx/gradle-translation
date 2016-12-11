@@ -9152,6 +9152,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;25&lt;/a1&gt;]&lt;/s0&gt; Gradle makes this very easy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T043235Z" creationid="95" creationdate="20161211T043235Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;25&lt;/a1&gt;]&lt;/s0&gt; 这对Gradle来说很简单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;] &lt;/s0&gt;As of Gradle 1.0-milestone-9, using &lt;c2&gt;ext&lt;/c2&gt; to add extra properties is strongly encouraged but not yet enforced.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065302Z" creationid="msdx" creationdate="20141108T065302Z">
@@ -20400,6 +20408,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>First of all you can put your build logic directly in the action closure of a task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T042836Z" creationid="95" creationdate="20161211T042836Z">
+        <seg>首先，你可以把你的构建逻辑直接放到一个任务的action闭包里。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>First, consider the &lt;c0&gt;IncrementalReverseTask&lt;/c0&gt; executed against a set of inputs for the first time.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160817T145635Z" creationid="95" creationdate="20160817T145635Z">
@@ -22338,8 +22354,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Gradle offers a variety of ways to organize your build logic.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20161211T020938Z" creationid="95" creationdate="20161211T020938Z">
-        <seg>Gradle offers a variety of ways to organize your build logic.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T042805Z" creationid="95" creationdate="20161211T020938Z">
+        <seg>Gradle 提供了多种方式来组织你的构建逻辑。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23676,6 +23692,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a couple of tasks share the same logic you can extract this logic into a method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T042927Z" creationid="95" creationdate="20161211T042849Z">
+        <seg>如果两个任务有相同的逻辑，你可以把这段逻辑抽取为一个方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a local repository location is defined in a &lt;c0&gt;settings.xml&lt;/c0&gt;, this location will be used.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052631Z" creationid="haohang" creationdate="20150909T052631Z">
@@ -23752,6 +23776,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T070035Z" creationid="msdx" creationdate="20141116T070035Z">
         <seg>如果日志太多，真正的警告和问题容易被隐藏。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If multiple projects of a multi-project build share some logic you can define this method in the parent project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T043032Z" creationid="95" creationdate="20161211T043020Z">
+        <seg>如果一个多项目构建中的多个项目有相同的逻辑，你可以把这个方法定义在父项目里。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23984,6 +24016,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T150938Z" creationid="msdx" creationdate="20150428T150938Z">
         <seg>如果基本的manifest和要合并的manifest都定义了同一个key的值，那么默认情况下会采用要合并的manifest的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the build logic gets too complex for being properly modeled by methods you want have an OO Model.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T043219Z" creationid="95" creationdate="20161211T043219Z">
+        <seg>如果构建逻辑通过方法来正确建模比较复杂的话，你就要使用面向对象的模型了。</seg>
       </tuv>
     </tu>
     <tu>
