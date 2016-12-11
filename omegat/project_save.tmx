@@ -20378,6 +20378,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Figure 59.1. Default buildSrc build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051613Z" creationid="95" creationdate="20161211T051613Z">
+        <seg>图 59.1. 默认的buildSrc构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>File</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044352Z" creationid="msdx" creationdate="20141108T044352Z">
@@ -27199,6 +27207,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T144359Z" creationid="msdx" creationdate="20150428T144359Z">
         <seg>List&lt;File&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Listed below is the default build script that Gradle applies to the &lt;c0&gt;buildSrc&lt;/c0&gt; project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051554Z" creationid="95" creationdate="20161211T051554Z">
+        <seg>下面列出的是Gradle应用到 &lt;c0&gt;buildSrc&lt;/c0&gt; 项目的默认构建脚本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39413,6 +39429,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means that you can just put you build source code in this directory and stick to the layout convention for a Java/Groovy project (see &lt;a0&gt;Table 23.4, “Java plugin - default project layout”&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051624Z" creationid="95" creationdate="20161211T051624Z">
+        <seg>This means that you can just put you build source code in this directory and stick to the layout convention for a Java/Groovy project (see &lt;a0&gt;Table 23.4, “Java plugin - default project layout”&lt;/a0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This means the default Gradle log level will not show any Ant/Ivy output unless it is an error or a warning.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T131051Z" creationid="msdx" creationdate="20141116T131051Z">
@@ -45309,6 +45333,16 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T153044Z" creationid="msdx" creationdate="20141109T153044Z">
         <seg>apply from: &lt;s3&gt;'other.gradle'&lt;/s3&gt;, to: pos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: 'groovy'
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051616Z" creationid="95" creationdate="20161211T051616Z">
+        <seg>apply plugin: 'groovy'
+dependencies {</seg>
       </tuv>
     </tu>
     <tu>
@@ -52255,6 +52289,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083425Z" creationid="msdx" creationdate="20150428T083425Z">
         <seg>java_plugin.html#java_source_set_tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java_plugin.html#javalayout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051620Z" creationid="95" creationdate="20161211T051620Z">
+        <seg>java_plugin.html#javalayout</seg>
       </tuv>
     </tu>
     <tu>
