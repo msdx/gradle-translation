@@ -14302,6 +14302,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Below is an example.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T052158Z" creationid="95" creationdate="20161211T052158Z">
+        <seg>下面是一个例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Below, we have changed our example to declare that it takes the source XML file as an input and produces output to a destination directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T061242Z" creationid="msdx" creationdate="20141111T061242Z">
@@ -22418,6 +22426,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle applies the default build script regardless of whether there is one specified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T052038Z" creationid="95" creationdate="20161211T052038Z">
+        <seg>Gradle配置了一个默认的构建脚本，无论是否有脚本被指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle at its core intentionally provides little useful functionality for real world automation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T155802Z" creationid="msdx" creationdate="20141121T142850Z">
@@ -24670,6 +24686,14 @@ def dir = srcDir()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T092229Z" creationid="haohang" creationdate="20150625T092229Z">
         <seg>如果您手动定义路径变量来指向 Gradle 依赖缓存，IDEA 会自动把绝对依赖路径替换为此路径变量。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need more flexibility, you can provide your own &lt;c0&gt;build.gradle&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051934Z" creationid="95" creationdate="20161211T051934Z">
+        <seg>如果你需要更多的灵活性，你可以提供你自己的&lt;c0&gt;build.gradle&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28007,6 +28031,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161211T013217Z" creationid="95" creationdate="20160828T133457Z">
         <seg>注意，属性的文件名要和插件名相匹配，放在resources夹里，并且&lt;c0&gt;implementation-class&lt;/c0&gt;属性要标识&lt;a1&gt;&lt;c2&gt;Plugin&lt;/c2&gt;&lt;/a1&gt; 的实现类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notice that this example does not need to declare a dependency on the Gradle API, as this is done by the default build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T052241Z" creationid="95" creationdate="20161211T052241Z">
+        <seg>Notice that this example does not need to declare a dependency on the Gradle API, as this is done by the default build script:</seg>
       </tuv>
     </tu>
     <tu>
@@ -39431,8 +39463,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>This means that you can just put you build source code in this directory and stick to the layout convention for a Java/Groovy project (see &lt;a0&gt;Table 23.4, “Java plugin - default project layout”&lt;/a0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051624Z" creationid="95" creationdate="20161211T051624Z">
-        <seg>This means that you can just put you build source code in this directory and stick to the layout convention for a Java/Groovy project (see &lt;a0&gt;Table 23.4, “Java plugin - default project layout”&lt;/a0&gt;).</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T051903Z" creationid="95" creationdate="20161211T051624Z">
+        <seg>这意味着你可以只把你的构建源代码放到这个目录当中，并且保留一个 Java/Groovy 项目的约定布局（见&lt;a0&gt;表 23.4，“Java 插件 - 默认项目布局”&lt;/a0&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39473,6 +39505,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T161518Z" creationid="msdx" creationdate="20141112T161518Z">
         <seg>这意味着您可以，比如创建一个&lt;c0&gt;FileCollection&lt;/c0&gt; 对象而里面的文件会在以后才创建，比方说在一些任务中才创建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means you only need to declare the extra things you need.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T052058Z" creationid="95" creationdate="20161211T052058Z">
+        <seg>这意味着，你只需声明你所需要的额外的东西。</seg>
       </tuv>
     </tu>
     <tu>
