@@ -7400,6 +7400,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>59.1. Inherited properties and methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044730Z" creationid="95" creationdate="20161211T044730Z">
+        <seg>59.1. 继承的属性和方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -7790,6 +7798,22 @@ This is executed during the execution phase.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161211T044245Z" creationid="95" creationdate="20161211T044245Z">
         <seg>&lt;a0&gt;自定义任务&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Execute an external build&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044641Z" creationid="95" creationdate="20161211T044641Z">
+        <seg>&lt;a0&gt;执行一个外部构建&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;External libraries&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044704Z" creationid="95" creationdate="20161211T044704Z">
+        <seg>&lt;a0&gt;外部 libraries&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13428,6 +13452,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T034505Z" creationid="msdx" creationdate="20141116T152826Z">
         <seg>你所构建的类使用这些日志记录工具输出的任何日志消息，都将被重定向到 Gradle 的日志系统。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any method or property defined in a project build script is also visible to all the sub-projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044833Z" creationid="95" creationdate="20161211T044833Z">
+        <seg>任何定义在一个项目的构建脚本中的属性和方法，对于它的所有子项目都是可见的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20020,6 +20052,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150513T061704Z" creationid="msdx" creationdate="20150513T061704Z">
         <seg>执行&lt;s0&gt;&lt;c1&gt;gradle sonarRunner&lt;/c1&gt;&lt;/s0&gt;并等待构建完成，然后打开 Sonar Runner 输出结果的底部所指示的网页。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Execute another Gradle build from the current build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044658Z" creationid="95" creationdate="20161211T044658Z">
+        <seg>从当前的构建中执行另一个Gradle构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41015,6 +41055,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Use external libraries directly in your build file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044718Z" creationid="95" creationdate="20161211T044718Z">
+        <seg>直接在你的构架文件中使用外部libraries。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Used by tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084146Z" creationid="Administrator" creationdate="20150426T084146Z">
@@ -42819,6 +42867,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T050501Z" creationid="Administrator" creationdate="20150427T050501Z">
         <seg>你可以使用&lt;c0&gt;sourceSets&lt;/c0&gt;属性访问项目的源集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can achieve this either by using &lt;a1&gt;&lt;c2&gt;build sources&lt;/c2&gt;&lt;/a1&gt; or by adding an &lt;a3&gt;external library&lt;/a3&gt; that contains the plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044624Z" creationid="95" creationdate="20161211T044624Z">
+        <seg>你可以通过使用&lt;a1&gt;&lt;c2&gt;build sources&lt;/c2&gt;&lt;/a1&gt;，或者是添加一个包含了该插件的&lt;a3&gt;外部 library&lt;/a3&gt;，来获得这个插件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -53389,6 +53445,14 @@ binaries.withType(TestSuiteExecutableBinary) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161211T044008Z" creationid="95" creationdate="20161211T044008Z">
         <seg>organizing_build_logic.html#sec:build_sources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>organizing_build_logic.html#sec:external_build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044625Z" creationid="95" creationdate="20161211T044625Z">
+        <seg>organizing_build_logic.html#sec:external_build</seg>
       </tuv>
     </tu>
     <tu>
