@@ -670,6 +670,14 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:container(java.lang.Class)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015258Z" creationid="95" creationdate="20161211T015258Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:container(java.lang.Class)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:copy(groovy.lang.Closure)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T131125Z" creationid="msdx" creationdate="20141113T131125Z">
@@ -1914,6 +1922,14 @@ int suite_init(void) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083245Z" creationid="msdx" creationdate="20150428T083245Z">
         <seg>../javadoc/org/gradle/api/JavaVersion.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/NamedDomainObjectContainer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015302Z" creationid="95" creationdate="20161211T015302Z">
+        <seg>../javadoc/org/gradle/api/NamedDomainObjectContainer.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -10102,6 +10118,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s7&gt;final&lt;/s7&gt; String name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015246Z" creationid="95" creationdate="20161211T015246Z">
+        <seg>&lt;s7&gt;final&lt;/s7&gt; String name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s7&gt;public&lt;/s7&gt; &lt;s8&gt;void&lt;/s8&gt; afterExecute(Task task, TaskState state) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154818Z" creationid="msdx" creationdate="20141116T154818Z">
@@ -10122,6 +10146,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160324T151800Z" creationid="95" creationdate="20160324T151800Z">
         <seg>&lt;s8&gt;if&lt;/s8&gt; (toolChain in VisualCpp) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s8&gt;this&lt;/s8&gt;.name = name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015249Z" creationid="95" creationdate="20161211T015249Z">
+        <seg>&lt;s8&gt;this&lt;/s8&gt;.name = name</seg>
       </tuv>
     </tu>
     <tu>
@@ -10326,6 +10358,20 @@ shark-1.0.jar
 tuna-1.0.jar
 herring-1.0.jar
 seal-2.0.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q books
+developerGuide -&gt; /home/user/gradle/samples/userguide/organizeBuildLogic/customPluginWithDomainObjectContainer/src/docs/developerGuide
+quickStart -&gt; /home/user/gradle/samples/userguide/organizeBuildLogic/customPluginWithDomainObjectContainer/src/docs/quick-start
+userGuide -&gt; /home/user/gradle/samples/userguide/organizeBuildLogic/customPluginWithDomainObjectContainer/src/docs/userGuide</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015257Z" creationid="95" creationdate="20161211T015257Z">
+        <seg>&gt; gradle -q books
+developerGuide -&gt; /home/user/gradle/samples/userguide/organizeBuildLogic/customPluginWithDomainObjectContainer/src/docs/developerGuide
+quickStart -&gt; /home/user/gradle/samples/userguide/organizeBuildLogic/customPluginWithDomainObjectContainer/src/docs/quick-start
+userGuide -&gt; /home/user/gradle/samples/userguide/organizeBuildLogic/customPluginWithDomainObjectContainer/src/docs/userGuide</seg>
       </tuv>
     </tu>
     <tu>
@@ -14106,6 +14152,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20151201T062326Z" creationid="haohang" creationdate="20151201T062326Z">
         <seg>Bintray 还支持共享经过他们审核的构件，通过&lt;a3&gt;JCenter&lt;/a3&gt;公共仓库，为所有普通的OSS java 构件提供一个单一的解析地址（见&lt;a4&gt;第 50.6.2 节，“Maven JCenter 存储库”&lt;/a4&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Book(String name) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015248Z" creationid="95" creationdate="20161211T015248Z">
+        <seg>Book(String name) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -19818,6 +19872,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 58.9. Managing domain objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015219Z" creationid="95" creationdate="20161211T015219Z">
+        <seg>示例 58.9. 管理域对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -20142,6 +20204,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160820T132301Z" creationid="95" creationdate="20160820T132301Z">
         <seg>File getDestination() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File sourceFile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015247Z" creationid="95" creationdate="20161211T015247Z">
+        <seg>File sourceFile</seg>
       </tuv>
     </tu>
     <tu>
@@ -22366,6 +22436,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T031642Z" creationid="msdx" creationdate="20141119T031642Z">
         <seg>Gradle 提供了几个选项，可以很容易地配置将用于执行您的构建的 Java 进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle provides some utility classes for maintaining collections of object, which work well with the Gradle build language.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015214Z" creationid="95" creationdate="20161211T015214Z">
+        <seg>Gradle 提供了一些实用工具类，能够良好地在Gradle构建语言中使用，用于维护对象集合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28335,6 +28413,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q books&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015256Z" creationid="95" creationdate="20161211T015256Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q books&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q broken&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160521T140130Z" creationid="95" creationdate="20160521T140130Z">
@@ -32301,6 +32387,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T144151Z" creationid="95" creationdate="20160106T144151Z">
         <seg>&lt;a0&gt;&lt;c1&gt;MavenDeployer&lt;/c1&gt;&lt;/a0&gt;和 MavenInstaller 都为此提供了一个 API：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;a0&gt;&lt;c1&gt;Project.container()&lt;/c1&gt;&lt;/a0&gt; methods create instances of &lt;a2&gt;&lt;c3&gt;NamedDomainObjectContainer&lt;/c3&gt;&lt;/a2&gt;, that have many useful methods for managing and configuring the objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015303Z" creationid="95" creationdate="20161211T015303Z">
+        <seg>The &lt;a0&gt;&lt;c1&gt;Project.container()&lt;/c1&gt;&lt;/a0&gt; methods create instances of &lt;a2&gt;&lt;c3&gt;NamedDomainObjectContainer&lt;/c3&gt;&lt;/a2&gt;, that have many useful methods for managing and configuring the objects.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45267,6 +45361,18 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: DocumentationPlugin
+
+books {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015220Z" creationid="95" creationdate="20161211T015220Z">
+        <seg>apply plugin: DocumentationPlugin
+
+books {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: GreetingPlugin
 
 &lt;s0&gt;class&lt;/s0&gt; GreetingPlugin &lt;s1&gt;implements&lt;/s1&gt; Plugin&lt;Project&gt; {</seg>
@@ -45879,6 +45985,22 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T163303Z" creationid="95" creationdate="20160527T163303Z">
         <seg>bluewhale/build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>books.all {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015244Z" creationid="95" creationdate="20161211T015244Z">
+        <seg>books.all {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>books.each { book -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015225Z" creationid="95" creationdate="20161211T015225Z">
+        <seg>books.each { book -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -47353,6 +47475,14 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def books = project.container(Book)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015243Z" creationid="95" creationdate="20161211T015243Z">
+        <seg>def books = project.container(Book)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def dest = &lt;s0&gt;"dest"&lt;/s0&gt;
 
 task copy(type: Copy) {</seg>
@@ -48107,6 +48237,14 @@ task sayGreeting(dependsOn: greet) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T145617Z" creationid="msdx" creationdate="20150428T145617Z">
         <seg>details.value = baseValue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>developerGuide {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015223Z" creationid="95" creationdate="20161211T015223Z">
+        <seg>developerGuide {</seg>
       </tuv>
     </tu>
     <tu>
@@ -53663,6 +53801,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;"$book.name -&gt; $book.sourceFile"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015225Z" creationid="95" creationdate="20161211T015225Z">
+        <seg>println &lt;s1&gt;"$book.name -&gt; $book.sourceFile"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;"Adding test task to $project"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160521T125505Z" creationid="95" creationdate="20160521T125505Z">
@@ -54617,6 +54763,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project.extensions.books = books</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015245Z" creationid="95" creationdate="20161211T015245Z">
+        <seg>project.extensions.books = books</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project.extensions.create(&lt;s5&gt;"greeting"&lt;/s5&gt;, GreetingPluginExtension)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160820T130732Z" creationid="95" creationdate="20160820T130732Z">
@@ -55021,6 +55175,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150710T012937Z" creationid="haohang" creationdate="20150710T012937Z">
         <seg>purpose = &lt;s5&gt;"production"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>quickStart {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015221Z" creationid="95" creationdate="20161211T015221Z">
+        <seg>quickStart {</seg>
       </tuv>
     </tu>
     <tu>
@@ -56325,6 +56487,22 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091355Z" creationid="msdx" creationdate="20150512T091355Z">
         <seg>sourceEncoding = &lt;s0&gt;"UTF-8"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceFile = file(&lt;s0&gt;'src/docs/quick-start'&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015222Z" creationid="95" creationdate="20161211T015222Z">
+        <seg>sourceFile = file(&lt;s0&gt;'src/docs/quick-start'&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceFile = project.file(&lt;s5&gt;"src/docs/$name"&lt;/s5&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015244Z" creationid="95" creationdate="20161211T015244Z">
+        <seg>sourceFile = project.file(&lt;s5&gt;"src/docs/$name"&lt;/s5&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -58484,6 +58662,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>userGuide {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015222Z" creationid="95" creationdate="20161211T015222Z">
+        <seg>userGuide {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>userguide.css</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T035422Z" creationid="msdx" creationdate="20141030T035422Z">
@@ -59093,6 +59279,34 @@ sourceSets.all {</seg>
         <seg>}
 }
 
+&lt;s2&gt;class&lt;/s2&gt; DocumentationPlugin &lt;s3&gt;implements&lt;/s3&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015239Z" creationid="95" creationdate="20161211T015239Z">
+        <seg>}
+}
+
+&lt;s2&gt;class&lt;/s2&gt; DocumentationPlugin &lt;s3&gt;implements&lt;/s3&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+&lt;s6&gt;class&lt;/s6&gt; Book {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015246Z" creationid="95" creationdate="20161211T015246Z">
+        <seg>}
+}
+
+&lt;s6&gt;class&lt;/s6&gt; Book {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
 &lt;s8&gt;class&lt;/s8&gt; GreetingPluginExtension {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160820T130738Z" creationid="95" creationdate="20160820T130738Z">
@@ -59212,6 +59426,20 @@ project(&lt;s7&gt;':services:personService'&lt;/s7&gt;) {</seg>
 }
 
 project(&lt;s7&gt;':services:personService'&lt;/s7&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+task books &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T015224Z" creationid="95" creationdate="20161211T015224Z">
+        <seg>}
+}
+
+task books &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
