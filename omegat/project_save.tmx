@@ -7408,6 +7408,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>59.2. Injected configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T045004Z" creationid="95" creationdate="20161211T045004Z">
+        <seg>59.2. 注入配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -8740,6 +8748,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Use inherited property&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044946Z" creationid="95" creationdate="20161211T044946Z">
+        <seg>&lt;s0&gt;// Use inherited property&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Use the default greeting&lt;/s0&gt;
 task hello(type: GreetingTask)
 
@@ -9616,6 +9632,16 @@ gradle.taskGraph.beforeTask { Task task -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;return&lt;/s1&gt; project.file(srcDirName)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044944Z" creationid="95" creationdate="20161211T044944Z">
+        <seg>&lt;s1&gt;return&lt;/s1&gt; project.file(srcDirName)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;throw&lt;/s1&gt; &lt;s2&gt;new&lt;/s2&gt; RuntimeException()
 }
 task taskY &lt;&lt; {</seg>
@@ -9684,6 +9710,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140712Z" creationid="msdx" creationdate="20141113T140712Z">
         <seg>&lt;s2&gt;// Use a closure to map the file name&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Use inherited method&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044947Z" creationid="95" creationdate="20161211T044947Z">
+        <seg>&lt;s2&gt;// Use inherited method&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11056,6 +11090,18 @@ build/output/classes</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T154213Z" creationid="msdx" creationdate="20141123T154213Z">
         <seg>&gt; gradle -q show
 build/output/classes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q show
+srcDirName: src/java
+srcDir: child/src/java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044951Z" creationid="95" creationdate="20161211T044951Z">
+        <seg>&gt; gradle -q show
+srcDirName: src/java
+srcDir: child/src/java</seg>
       </tuv>
     </tu>
     <tu>
@@ -19992,6 +20038,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 59.1. Using inherited properties and methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044942Z" creationid="95" creationdate="20161211T044942Z">
+        <seg>示例59.1. 使用继承的属性和方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -20340,6 +20394,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141112T160731Z" creationid="msdx" creationdate="20141112T160731Z">
         <seg>File srcDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File srcDir = getSrcDir(project)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044948Z" creationid="95" creationdate="20161211T044948Z">
+        <seg>File srcDir = getSrcDir(project)</seg>
       </tuv>
     </tu>
     <tu>
@@ -43903,6 +43965,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use this to define common configurations, and to extract build logic into methods which can be reused by the sub-projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044933Z" creationid="95" creationdate="20161211T044933Z">
+        <seg>你可以通过这个方法去定义共同的配置，然后把构建逻辑抽取到可以被子项目重用的方法里。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can, for example, change the name of the archive:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155513Z" creationid="msdx" creationdate="20141113T155513Z">
@@ -46625,6 +46695,14 @@ endIndex = &lt;s1&gt;5&lt;/s1&gt;;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150514T151911Z" creationid="msdx" creationdate="20150514T151911Z">
         <seg>checkstyle_plugin.html#N13400</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>child/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044945Z" creationid="95" creationdate="20161211T044945Z">
+        <seg>child/build.gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -53125,6 +53203,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>multi_project_builds.html#sec:subproject_configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T045005Z" creationid="95" creationdate="20161211T045005Z">
+        <seg>multi_project_builds.html#sec:subproject_configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>n/a</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151228T152801Z" creationid="95" creationdate="20151228T152801Z">
@@ -54227,6 +54313,14 @@ task test &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'srcDirName: '&lt;/s1&gt; + srcDirName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044947Z" creationid="95" creationdate="20161211T044947Z">
+        <seg>println &lt;s1&gt;'srcDirName: '&lt;/s1&gt; + srcDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
 }
 
@@ -54453,6 +54547,16 @@ task notALib &lt;&lt; {</seg>
 }
 
 task notALib &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;'srcDir: '&lt;/s3&gt; + rootProject.relativePath(srcDir)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044950Z" creationid="95" creationdate="20161211T044950Z">
+        <seg>println &lt;s3&gt;'srcDir: '&lt;/s3&gt; + rootProject.relativePath(srcDir)
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -57199,6 +57303,18 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>srcDirName = &lt;s0&gt;'src/java'&lt;/s0&gt;
+
+def getSrcDir(project) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044943Z" creationid="95" creationdate="20161211T044943Z">
+        <seg>srcDirName = &lt;s0&gt;'src/java'&lt;/s0&gt;
+
+def getSrcDir(project) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>srcDirs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083442Z" creationid="msdx" creationdate="20150428T083442Z">
@@ -57939,6 +58055,14 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T140710Z" creationid="msdx" creationdate="20141113T140710Z">
         <seg>task rename(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task show &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161211T044945Z" creationid="95" creationdate="20161211T044945Z">
+        <seg>task show &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
