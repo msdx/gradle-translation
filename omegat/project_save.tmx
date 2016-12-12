@@ -470,6 +470,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N168F8</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154922Z" creationid="95" creationdate="20161212T154922Z">
+        <seg>#ftn.N168F8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#include &lt;CUnit/Basic.h&gt;
 #include "gradle_cunit_register.h"
 #include "test_operators.h"
@@ -7448,6 +7456,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>59.6. Ant optional dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154921Z" creationid="95" creationdate="20161212T154921Z">
+        <seg>59.6. Ant 可选依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -9474,6 +9490,18 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.commons.codec.binary.Base6&lt;s1&gt;4&lt;/s1&gt;
+
+buildscript {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154656Z" creationid="95" creationdate="20161212T154656Z">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.commons.codec.binary.Base6&lt;s1&gt;4&lt;/s1&gt;
+
+buildscript {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.tools.ant.filters.FixCrLfFilter
 &lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
 
@@ -10734,6 +10762,16 @@ tuna</seg>
         <seg>&gt; gradle -q distanceToIceberg
 20 nautical miles
 5 nautical miles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q encode
+aGVsbG8gd29ybGQK</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154712Z" creationid="95" creationdate="20161212T154712Z">
+        <seg>&gt; gradle -q encode
+aGVsbG8gd29ybGQK</seg>
       </tuv>
     </tu>
     <tu>
@@ -20188,6 +20226,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 59.7. A build script with external dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154651Z" creationid="95" creationdate="20161212T154651Z">
+        <seg>示例 59.7. 具有外部依赖的构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -21672,6 +21718,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T134149Z" creationid="msdx" creationdate="20141109T093732Z">
         <seg>对于多项目构建，您可以将&lt;c4&gt;gradle.properties&lt;/c4&gt;文件放在任何子项目的目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For multi-project builds, the dependencies declared in the a project's build script, are available to the build scripts of all sub-projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154913Z" creationid="95" creationdate="20161212T154715Z">
+        <seg>对于多项目构建，定义在一个项目的构建脚本中的依赖，是可以在所有子项目的构建脚本中用的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23286,8 +23340,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Having declared the build script classpath, you can use the classes in your build script as you would any other classes on the classpath.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154201Z" creationid="95" creationdate="20161212T154201Z">
-        <seg>Having declared the build script classpath, you can use the classes in your build script as you would any other classes on the classpath.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154547Z" creationid="95" creationdate="20161212T154201Z">
+        <seg>声明了构建脚本的classpath之后，你可以使用构建脚本中的类，就像classpath上的任何其他类一样。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29001,6 +29055,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T080006Z" creationid="haohang" creationdate="20160715T080006Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q distanceToIceberg&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q encode&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154711Z" creationid="95" creationdate="20161212T154711Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q encode&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -36027,6 +36089,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T123841Z" creationid="msdx" creationdate="20141110T123841Z">
         <seg>下面的示例是从&lt;c2&gt;taskX&lt;/c2&gt;加入了项目中所有名称以&lt;c3&gt;lib&lt;/c3&gt;开头的任务的依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following example adds to the previous example, and uses classes from the build script classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154633Z" creationid="95" creationdate="20161212T154633Z">
+        <seg>下面的示例将添加到前面的示例中，并使用构建脚本classpath中的类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -47251,6 +47321,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>classpath group: &lt;s2&gt;'commons-codec'&lt;/s2&gt;, name: &lt;s3&gt;'commons-codec'&lt;/s3&gt;, version: &lt;s4&gt;'1.2'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154658Z" creationid="95" creationdate="20161212T154658Z">
+        <seg>classpath group: &lt;s2&gt;'commons-codec'&lt;/s2&gt;, name: &lt;s3&gt;'commons-codec'&lt;/s3&gt;, version: &lt;s4&gt;'1.2'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>classpath {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T060206Z" creationid="msdx" creationdate="20141116T060206Z">
@@ -48231,6 +48309,14 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090301Z" creationid="haohang" creationdate="20160401T090301Z">
         <seg>debug</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def &lt;s5&gt;byte&lt;/s5&gt;[] encodedString = &lt;s6&gt;new&lt;/s6&gt; Base6&lt;s7&gt;4&lt;/s7&gt;().encode(&lt;s8&gt;'hello world\n'&lt;/s8&gt;.getBytes())</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154701Z" creationid="95" creationdate="20161212T154701Z">
+        <seg>def &lt;s5&gt;byte&lt;/s5&gt;[] encodedString = &lt;s6&gt;new&lt;/s6&gt; Base6&lt;s7&gt;4&lt;/s7&gt;().encode(&lt;s8&gt;'hello world\n'&lt;/s8&gt;.getBytes())</seg>
       </tuv>
     </tu>
     <tu>
@@ -55147,6 +55233,16 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s9&gt;new&lt;/s9&gt; String(encodedString)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154702Z" creationid="95" creationdate="20161212T154702Z">
+        <seg>println &lt;s9&gt;new&lt;/s9&gt; String(encodedString)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println System.properties[&lt;s0&gt;'system'&lt;/s0&gt;]
 }</seg>
       </tuv>
@@ -60456,6 +60552,20 @@ task compile &lt;&lt; {</seg>
 }
 
 task compile &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+task encode &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T154700Z" creationid="95" creationdate="20161212T154700Z">
+        <seg>}
+}
+
+task encode &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
