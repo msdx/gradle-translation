@@ -7424,6 +7424,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>59.4. Running another Gradle build from a build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T152747Z" creationid="95" creationdate="20161212T152747Z">
+        <seg>59.4. 从一个构建中运行另一个Gradle构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162246Z" creationid="msdx" creationdate="20141109T162246Z">
@@ -8916,6 +8924,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T063505Z" creationid="msdx" creationdate="20141030T061718Z">
         <seg>&lt;s0&gt;&lt;e1&gt;注意：&lt;/e1&gt;&lt;/s0&gt; 此例子的代码可以在Gradle的二进制文件或源码中的 &lt;c2&gt;samples/groovy/quickstart&lt;/c2&gt; 里看到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/multiProjectBuildSrc&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T152726Z" creationid="95" creationdate="20161212T152726Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注意：&lt;/e1&gt;&lt;/s0&gt; 此例子的代码可以在Gradle的二进制文件或源码中的 &lt;c2&gt;samples/multiProjectBuildSrc&lt;/c2&gt; 里看到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20118,6 +20134,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161211T052836Z" creationid="95" creationdate="20161211T052836Z">
         <seg>示例 59.3. 自定义buildSrc构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 59.4. Adding subprojects to the root buildSrc project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T152641Z" creationid="95" creationdate="20161212T152641Z">
+        <seg>示例 59.4. 将子项目添加到根 buildSrc 项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -43533,6 +43557,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can do this by adding this to the configuration of each project you wish to export:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T152627Z" creationid="95" creationdate="20161212T152627Z">
+        <seg>你可以通过把它添加到每一个你想导出的项目的配置上来完成：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can do this by using the method &lt;c0&gt;hasProperty('propertyName')&lt;/c0&gt; which returns &lt;c1&gt;true&lt;/c1&gt; or &lt;c2&gt;false&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152023Z" creationid="msdx" creationdate="20141109T152023Z">
@@ -56229,6 +56261,14 @@ void gradle_cunit_register() {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>rootProject.dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T152642Z" creationid="95" creationdate="20161212T152642Z">
+        <seg>rootProject.dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>rootProject.name = &lt;s0&gt;'main'&lt;/s0&gt;
 project(&lt;s1&gt;':projectA'&lt;/s1&gt;).projectDir = &lt;s2&gt;new&lt;/s2&gt; File(settingsDir, &lt;s3&gt;'../my-project-a'&lt;/s3&gt;)
 project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gradle'&lt;/s5&gt;</seg>
@@ -56392,6 +56432,16 @@ project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gr
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T103550Z" creationid="haohang" creationdate="20150801T103550Z">
         <seg>runtime name: &lt;s2&gt;'testng'&lt;/s2&gt; 
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime project(path)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T152643Z" creationid="95" creationdate="20161212T152643Z">
+        <seg>runtime project(path)
 }</seg>
       </tuv>
     </tu>
