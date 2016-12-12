@@ -9320,6 +9320,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;26&lt;/a1&gt;]&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155050Z" creationid="95" creationdate="20161212T155050Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;26&lt;/a1&gt;]&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;] &lt;/s0&gt;As of Gradle 1.0-milestone-9, using &lt;c2&gt;ext&lt;/c2&gt; to add extra properties is strongly encouraged but not yet enforced.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T065302Z" creationid="msdx" creationdate="20141108T065302Z">
@@ -14706,6 +14714,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T054320Z" creationid="haohang" creationdate="20160727T054320Z">
         <seg>当你进入一个陡峭的领域的时候，Gradle 不会成为你的障碍，并且通常会伴随着你并且带你到达峰顶。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But you can easily do it in another way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155049Z" creationid="95" creationdate="20161212T155049Z">
+        <seg>但是你可以很容易地通过另一种方法做到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20230,6 +20246,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161212T154651Z" creationid="95" creationdate="20161212T154651Z">
         <seg>示例 59.7. 具有外部依赖的构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 59.8. Ant optional dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155059Z" creationid="95" creationdate="20161212T155059Z">
+        <seg>示例 59.8. Ant 的可选依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -39213,6 +39237,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is also nice example for the usage of client modules.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155113Z" creationid="95" creationdate="20161212T155113Z">
+        <seg>This is also nice example for the usage of client modules.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is an alternative to configuration injection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160727T053024Z" creationid="haohang" creationdate="20160727T053024Z">
@@ -45301,6 +45333,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ant {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155108Z" creationid="95" creationdate="20161212T155108Z">
+        <seg>ant {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ant.buildDir = buildDir
 ant.properties.buildDir = buildDir
 ant.properties[&lt;s0&gt;'buildDir'&lt;/s0&gt;] = buildDir
@@ -47271,6 +47311,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>classname: &lt;s4&gt;'org.apache.tools.ant.taskdefs.optional.net.FTP'&lt;/s4&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155109Z" creationid="95" creationdate="20161212T155109Z">
+        <seg>classname: &lt;s4&gt;'org.apache.tools.ant.taskdefs.optional.net.FTP'&lt;/s4&gt;,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>classpath</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083437Z" creationid="msdx" creationdate="20150428T083437Z">
@@ -47349,6 +47397,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T064928Z" creationid="haohang" creationdate="20150625T064928Z">
         <seg>classpath.entries.removeAll { entry -&gt; entry.kind == &lt;s0&gt;'lib'&lt;/s0&gt; || entry.kind == &lt;s1&gt;'var'&lt;/s1&gt; }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classpath: configurations.ftpAntTask.asPath)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155110Z" creationid="95" creationdate="20161212T155110Z">
+        <seg>classpath: configurations.ftpAntTask.asPath)</seg>
       </tuv>
     </tu>
     <tu>
@@ -48519,6 +48575,14 @@ artifacts {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083232Z" creationid="msdx" creationdate="20150428T083232Z">
         <seg>default</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependencies &lt;s2&gt;"oro:oro:2.0.8:jar"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155102Z" creationid="95" creationdate="20161212T155102Z">
+        <seg>dependencies &lt;s2&gt;"oro:oro:2.0.8:jar"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -50003,6 +50067,14 @@ hello.doLast { println &lt;s0&gt;"- I'm the largest animal that has ever lived o
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>fileset(dir: &lt;s8&gt;"htdocs/manual"&lt;/s8&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155111Z" creationid="95" creationdate="20161212T155111Z">
+        <seg>fileset(dir: &lt;s8&gt;"htdocs/manual"&lt;/s8&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>filter {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083451Z" creationid="msdx" creationdate="20150428T083451Z">
@@ -50413,6 +50485,36 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T141833Z" creationid="95" creationdate="20160105T141833Z">
         <seg>ftp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ftp(server: &lt;s5&gt;"ftp.apache.org"&lt;/s5&gt;, userid: &lt;s6&gt;"anonymous"&lt;/s6&gt;, password: &lt;s7&gt;"me@myorg.com"&lt;/s7&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155110Z" creationid="95" creationdate="20161212T155110Z">
+        <seg>ftp(server: &lt;s5&gt;"ftp.apache.org"&lt;/s5&gt;, userid: &lt;s6&gt;"anonymous"&lt;/s6&gt;, password: &lt;s7&gt;"me@myorg.com"&lt;/s7&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ftpAntTask
+}
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155100Z" creationid="95" creationdate="20161212T155100Z">
+        <seg>ftpAntTask
+}
+
+dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ftpAntTask(&lt;s0&gt;"org.apache.ant:ant-commons-net:1.9.3"&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155101Z" creationid="95" creationdate="20161212T155101Z">
+        <seg>ftpAntTask(&lt;s0&gt;"org.apache.ant:ant-commons-net:1.9.3"&lt;/s0&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -53477,6 +53579,14 @@ task consume &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160401T090258Z" creationid="haohang" creationdate="20160401T090258Z">
         <seg>model {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>module(&lt;s1&gt;"commons-net:commons-net:1.4.1"&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155101Z" creationid="95" creationdate="20161212T155101Z">
+        <seg>module(&lt;s1&gt;"commons-net:commons-net:1.4.1"&lt;/s1&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -58809,6 +58919,14 @@ println &lt;s1&gt;"source dir is $a.srcDir"&lt;/s1&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>taskdef(name: &lt;s3&gt;'ftp'&lt;/s3&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155108Z" creationid="95" creationdate="20161212T155108Z">
+        <seg>taskdef(name: &lt;s3&gt;'ftp'&lt;/s3&gt;,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>tasks = [&lt;s1&gt;'hello'&lt;/s1&gt;]
 }</seg>
       </tuv>
@@ -60580,6 +60698,20 @@ task explodedDist(dependsOn: assemble) &lt;&lt; {</seg>
 }
 
 task explodedDist(dependsOn: assemble) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+task ftp &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161212T155103Z" creationid="95" creationdate="20161212T155103Z">
+        <seg>}
+}
+
+task ftp &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
