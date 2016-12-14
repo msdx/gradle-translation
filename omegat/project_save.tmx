@@ -7632,6 +7632,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>60.3.1. Configuring projects from an init script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T155724Z" creationid="95" creationdate="20161214T155724Z">
+        <seg>60.3.1. 从一个初始化脚本中配置项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>60.3. Writing an init script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161214T154159Z" creationid="95" creationdate="20161214T154159Z">
@@ -13738,6 +13746,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any property reference and method call in the init script will delegate to this &lt;c2&gt;Gradle&lt;/c2&gt; instance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T155736Z" creationid="95" creationdate="20161214T155638Z">
+        <seg>在这个init 脚本中调用的任何属性引用以及方法，都会委托给这个 &lt;c2&gt;Gradle&lt;/c2&gt; 实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Any property you access in your build script, which &lt;s0&gt;&lt;e1&gt;is not defined&lt;/e1&gt;&lt;/s0&gt; in the build script, is delegated to the &lt;c2&gt;Project&lt;/c2&gt; object.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T063505Z" creationid="msdx" creationdate="20141108T041242Z">
@@ -17046,6 +17062,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T144438Z" creationid="95" creationdate="20160106T144438Z">
         <seg>每个过滤器都有一个你可以进行配置的POM与它关联。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each init script also implements the &lt;a0&gt;&lt;c1&gt;Script&lt;/c1&gt;&lt;/a0&gt; interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T155656Z" creationid="95" creationdate="20161214T155656Z">
+        <seg>每一个初始化脚本也实现了 &lt;a0&gt;&lt;c1&gt;Script&lt;/c1&gt;&lt;/a0&gt; 接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each init script has a &lt;a0&gt;&lt;c1&gt;Gradle&lt;/c1&gt;&lt;/a0&gt; instance associated with it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T155730Z" creationid="95" creationdate="20161214T155605Z">
+        <seg>每一个init 脚本都有一个 &lt;a0&gt;&lt;c1&gt;Gradle&lt;/c1&gt;&lt;/a0&gt; 实例与其关联。</seg>
       </tuv>
     </tu>
     <tu>
