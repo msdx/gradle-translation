@@ -24354,6 +24354,14 @@ def dir = srcDir()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If more than one init script is found they will all be executed, in the order specified above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T152957Z" creationid="95" creationdate="20161214T152957Z">
+        <seg>如果Gradle找到了多个init脚本，那么它们将会全部按照以上的顺序执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If multiple projects of a multi-project build share some logic you can define this method in the parent project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161211T043032Z" creationid="95" creationdate="20161211T043020Z">
@@ -30719,6 +30727,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T120830Z" creationid="95" creationdate="20160522T120830Z">
         <seg>可伸缩性是 Gradle 的一项重要要求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scripts in a given directory are executed in alphabetical order.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T153037Z" creationid="95" creationdate="20161214T153004Z">
+        <seg>而给定目录的脚本，会按照字母顺序执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38857,6 +38873,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T081210Z" creationid="haohang" creationdate="20160219T081210Z">
         <seg>它允许你运行可执行文件，而无需在其最终的位置安装共享库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This allows, for example, a tool to specify an init script on the command line and the user to put one in their home directory for defining the environment and both scripts will run when Gradle is executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T153052Z" creationid="95" creationdate="20161214T153052Z">
+        <seg>This allows, for example, a tool to specify an init script on the command line and the user to put one in their home directory for defining the environment and both scripts will run when Gradle is executed.</seg>
       </tuv>
     </tu>
     <tu>
