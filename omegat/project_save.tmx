@@ -7616,6 +7616,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>60.1. Basic usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142331Z" creationid="95" creationdate="20161214T142331Z">
+        <seg>60.1. 基本用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>60.2. Using an init script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T143355Z" creationid="95" creationdate="20161214T143341Z">
+        <seg>60.2. 使用 init 脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163423Z" creationid="msdx" creationdate="20141109T163423Z">
@@ -8638,6 +8654,14 @@ This is executed during the execution phase.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083233Z" creationid="msdx" creationdate="20150428T083233Z">
         <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;Runtime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;init scripts&lt;/e0&gt;) are similar to other scripts in Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142434Z" creationid="95" creationdate="20161214T142434Z">
+        <seg>&lt;e0&gt;init scripts&lt;/e0&gt;和Gradle的其他脚本类似。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16538,6 +16562,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Define machine specific details, such as where JDKs are installed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142810Z" creationid="95" creationdate="20161214T142734Z">
+        <seg>定义机器的一些特定信息，比如JDK的安装位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Defines the root directory of your Gradle project (typically where build.gradle is located).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T160914Z" creationid="msdx" creationdate="20141105T160914Z">
@@ -20442,6 +20474,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>External tools that wish to listen to Gradle events might find this useful.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142932Z" creationid="95" creationdate="20161214T142932Z">
+        <seg>这对一些希望能够监听Gradle事件的外部工具会很有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extra properties can be added, read and set via the owning object's &lt;c0&gt;ext&lt;/c0&gt; property.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T050609Z" creationid="msdx" creationdate="20141108T050609Z">
@@ -22898,6 +22938,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle provides a powerful mechanism to allow customizing the build based on the current environment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142304Z" creationid="95" creationdate="20161214T142304Z">
+        <seg>Gradle提供了一种强大的机制，可以让你基于当前的环境自定义构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle provides an &lt;s2&gt;&lt;e3&gt;artifact only&lt;/e3&gt;&lt;/s2&gt; notation for those use cases - simply prefix the extension that you want to be downloaded with &lt;c4&gt;'@'&lt;/c4&gt; sign:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T034535Z" creationid="haohang" creationdate="20150731T033856Z">
@@ -23494,6 +23542,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T142055Z" creationid="msdx" creationdate="20141121T142055Z">
         <seg>这里是SVN的视图的&lt;a0&gt;链接&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are several possible uses:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142505Z" creationid="95" creationdate="20161214T142505Z">
+        <seg>下面是几种可能的用法：</seg>
       </tuv>
     </tu>
     <tu>
@@ -26147,6 +26203,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Initialization scripts (a.k.a.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142353Z" creationid="95" creationdate="20161214T142353Z">
+        <seg>初始化脚本 （也称为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Installing Gradle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T162029Z" creationid="msdx" creationdate="20141109T162029Z">
@@ -28651,6 +28715,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One main limitation of init scripts is that they cannot access classes in the buildSrc project (see &lt;a0&gt;Section 59.3, “Build sources in the &lt;c1&gt;buildSrc&lt;/c1&gt; project”&lt;/a0&gt; for details of this feature).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T143352Z" creationid="95" creationdate="20161214T143131Z">
+        <seg>init 脚本的一个主要限制是，它们不能访问buildSrc 项目里的类（该功能的详细信息可参见 &lt;a0&gt;第 59.3节，“的&lt;c1&gt;buildSrc&lt;/c1&gt; 项目中的构建源代码”&lt;/a0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One method for doing this is to use &lt;e0&gt;extension objects&lt;/e0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160820T124150Z" creationid="95" creationdate="20160820T124150Z">
@@ -30155,6 +30227,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Register build listeners.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142815Z" creationid="95" creationdate="20161214T142815Z">
+        <seg>注册构建监听。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Register build loggers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142947Z" creationid="95" creationdate="20161214T142947Z">
+        <seg>注册构建logger。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Removes all Eclipse configuration files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T004407Z" creationid="haohang" creationdate="20150603T004407Z">
@@ -30947,6 +31035,22 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Set up enterprise-wide configuration, such as where to find custom plugins.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142527Z" creationid="95" creationdate="20161214T142527Z">
+        <seg>设置一些企业范围的配置，比如在何处查找自定义插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set up properties based on the current environment, such as a developer's machine vs. a continuous integration server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142630Z" creationid="95" creationdate="20161214T142630Z">
+        <seg>设置基于当前环境的属性，比如开发人员的机器与持续集成服务器的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Set&lt;Project&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T061734Z" creationid="haohang" creationdate="20150628T061734Z">
@@ -31507,6 +31611,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specify a file on the command line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T143446Z" creationid="95" creationdate="20161214T143446Z">
+        <seg>在命令行上指定一个文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Specifying a set of input files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150330T141153Z" creationid="Administrator" creationdate="20150330T141153Z">
@@ -31737,6 +31849,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T040439Z" creationid="Administrator" creationdate="20150425T040439Z">
         <seg>由 &lt;a1&gt;&lt;c2&gt;sonar&lt;/c2&gt;&lt;/a1&gt;插件取代。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Supply personal information about the user that is required by the build, such as repository or database authentication credentials.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142737Z" creationid="95" creationdate="20161214T142733Z">
+        <seg>提供构建所需要的有关用户的个人信息，比如仓库或数据库身份验证凭据。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35533,6 +35653,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The command line option is &lt;c0&gt;-I&lt;/c0&gt; or &lt;c1&gt;--init-script&lt;/c1&gt; followed by the path to the script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T143531Z" creationid="95" creationdate="20161214T143531Z">
+        <seg>该命令行选项是&lt;c0&gt;-I&lt;/c0&gt;或&lt;c1&gt;--init-script&lt;/c1&gt; ，后面跟上该脚本的路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The compile task delegates to Ant's javac task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135401Z" creationid="Administrator" creationdate="20150427T135401Z">
@@ -38013,6 +38141,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are several ways to use an init script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T143437Z" creationid="95" creationdate="20161214T143437Z">
+        <seg>有几种方法来使用 init 脚本︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are several ways you can define the dependencies of a task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T100107Z" creationid="msdx" creationdate="20141110T100020Z">
@@ -38497,6 +38633,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T141354Z" creationid="msdx" creationdate="20141121T141354Z">
         <seg>这些属性可以直接在构建脚本中设置；例如设置代理主机为 &lt;c0&gt;System.setProperty （'http.proxyHost', 'www.somehost.org'）&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These scripts, however, are run before the build starts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142455Z" creationid="95" creationdate="20161214T142455Z">
+        <seg>然而，这些脚本是在构建之前就运行的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39825,6 +39969,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161211T052058Z" creationid="95" creationdate="20161211T052058Z">
         <seg>这意味着，你只需声明你所需要的额外的东西。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This mechanism also supports tools that wish to integrate with Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T142325Z" creationid="95" creationdate="20161214T142325Z">
+        <seg>这种机制还支持希望与Gradle集成的工具。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44809,6 +44961,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T040958Z" creationid="Administrator" creationdate="20150425T040958Z">
         <seg>您可能会引用他们的 API 文档，以了解更多关于它们的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You might wish to customize how Gradle logs the events that it generates.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161214T143126Z" creationid="95" creationdate="20161214T143126Z">
+        <seg>你可能希望自定义Gradle对生成的事件的日志打印。</seg>
       </tuv>
     </tu>
     <tu>
