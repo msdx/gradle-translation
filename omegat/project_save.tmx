@@ -9598,6 +9598,18 @@ buildscript {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.commons.math.fraction.Fraction
+
+initscript {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T144052Z" creationid="95" creationdate="20161215T144052Z">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.commons.math.fraction.Fraction
+
+initscript {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.tools.ant.filters.FixCrLfFilter
 &lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
 
@@ -20406,6 +20418,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 60.3. An init script with external dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143958Z" creationid="95" creationdate="20161215T143958Z">
+        <seg>示例 60.3. 具有外部依赖的init 脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -23554,6 +23574,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161212T154547Z" creationid="95" creationdate="20161212T154201Z">
         <seg>声明了构建脚本的classpath之后，你可以使用构建脚本中的类，就像classpath上的任何其他类一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Having declared the init script classpath, you can use the classes in your init script as you would any other classes on the classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143850Z" creationid="95" creationdate="20161215T143850Z">
+        <seg>声明了init 脚本的classpath之后，你可以使用init 脚本中的类，就像classpath上的任何其他类一样。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35769,6 +35797,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The closure passed to the &lt;c0&gt;initscript()&lt;/c0&gt; method configures a &lt;a1&gt;&lt;c2&gt;ScriptHandler&lt;/c2&gt;&lt;/a1&gt; instance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143809Z" creationid="95" creationdate="20161215T143809Z">
+        <seg>这个传给&lt;c0&gt;initscript()&lt;/c0&gt; 方法的闭包配置了一个&lt;a1&gt;&lt;c2&gt;ScriptHandler&lt;/c2&gt;&lt;/a1&gt; 实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The closure should return a single &lt;c0&gt;Task&lt;/c0&gt; or collection of &lt;c1&gt;Task&lt;/c1&gt; objects, which are then treated as dependencies of the task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T123500Z" creationid="msdx" creationdate="20141110T123437Z">
@@ -36485,6 +36521,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161212T154633Z" creationid="95" creationdate="20161212T154633Z">
         <seg>下面的示例将添加到前面的示例中，并使用构建脚本classpath中的类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following example adds to the previous example, and uses classes from the init script classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143946Z" creationid="95" creationdate="20161215T143853Z">
+        <seg>下面的示例将添加到前面的示例中，并使用init 脚本classpath中的类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44961,6 +45005,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You declare the init script classpath by adding dependencies to the &lt;c3&gt;classpath&lt;/c3&gt; configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143824Z" creationid="95" creationdate="20161215T143824Z">
+        <seg>你可以通过添加依赖到&lt;c3&gt;classpath&lt;/c3&gt; 配置来定义init 脚本的classpath。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You do all this using a &lt;e1&gt;copy spec&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124144Z" creationid="msdx" creationdate="20141113T124144Z">
@@ -47825,6 +47877,22 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161212T153753Z" creationid="95" creationdate="20161212T153753Z">
         <seg>classpath group: &lt;s0&gt;'commons-codec'&lt;/s0&gt;, name: &lt;s1&gt;'commons-codec'&lt;/s1&gt;, version: &lt;s2&gt;'1.2'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classpath group: &lt;s0&gt;'org.apache.commons'&lt;/s0&gt;, name: &lt;s1&gt;'commons-math'&lt;/s1&gt;, version: &lt;s2&gt;'2.0'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143800Z" creationid="95" creationdate="20161215T143800Z">
+        <seg>classpath group: &lt;s0&gt;'org.apache.commons'&lt;/s0&gt;, name: &lt;s1&gt;'commons-math'&lt;/s1&gt;, version: &lt;s2&gt;'2.0'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classpath group: &lt;s1&gt;'org.apache.commons'&lt;/s1&gt;, name: &lt;s2&gt;'commons-math'&lt;/s2&gt;, version: &lt;s3&gt;'2.0'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T144057Z" creationid="95" creationdate="20161215T144057Z">
+        <seg>classpath group: &lt;s1&gt;'org.apache.commons'&lt;/s1&gt;, name: &lt;s2&gt;'commons-math'&lt;/s2&gt;, version: &lt;s3&gt;'2.0'&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -52523,6 +52591,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T142901Z" creationid="msdx" creationdate="20150504T142901Z">
         <seg>initializeInOrder = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>initscript {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143759Z" creationid="95" creationdate="20161215T143759Z">
+        <seg>initscript {</seg>
       </tuv>
     </tu>
     <tu>
@@ -61080,6 +61156,20 @@ libraries {</seg>
 }
 
 libraries {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+println Fraction.ONE_FIFTH.multiply(&lt;s4&gt;2&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T144058Z" creationid="95" creationdate="20161215T144058Z">
+        <seg>}
+}
+
+println Fraction.ONE_FIFTH.multiply(&lt;s4&gt;2&lt;/s4&gt;)</seg>
       </tuv>
     </tu>
     <tu>
