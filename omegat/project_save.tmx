@@ -7648,6 +7648,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>60.4. External dependencies for the init script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143439Z" creationid="95" creationdate="20161215T143439Z">
+        <seg>60.4. init 脚本的外部依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163423Z" creationid="msdx" creationdate="20141109T163423Z">
@@ -10474,6 +10482,18 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T154819Z" creationid="msdx" creationdate="20141116T154819Z">
         <seg>&lt;s9&gt;public&lt;/s9&gt; &lt;s10&gt;void&lt;/s10&gt; buildFinished(BuildResult result) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle --init-script init.gradle -q showRepos
+All repos:
+[MavenLocal, MavenRepo]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143428Z" creationid="95" creationdate="20161215T143428Z">
+        <seg>&gt; gradle --init-script init.gradle -q showRepos
+All repos:
+[MavenLocal, MavenRepo]</seg>
       </tuv>
     </tu>
     <tu>
@@ -20370,6 +20390,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 60.1. Using init script to perform extra configuration before projects are evaluated</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143415Z" creationid="95" creationdate="20161215T143415Z">
+        <seg>示例 60.1. 使用 init 脚本在项目评估之前执行额外的配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 60.2. Declaring external dependencies for an init script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143743Z" creationid="95" creationdate="20161215T143743Z">
+        <seg>示例 60.2. 声明构建脚本的外部依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -25330,6 +25366,14 @@ def dir = srcDir()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In &lt;a0&gt;Section 59.5, “External dependencies for the build script”&lt;/a0&gt; is was explained how to add external dependencies to a build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143541Z" creationid="95" creationdate="20161215T143443Z">
+        <seg>在 &lt;a0&gt;第 59.5节，“构建脚本的外部依赖”&lt;/a0&gt; 中已经解释了，如何向一个构建脚本添加外部依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In &lt;a0&gt;Section 6.5, “Task dependencies”&lt;/a0&gt; you were introduced to defining dependencies using task names.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141110T100215Z" creationid="msdx" creationdate="20141110T100145Z">
@@ -26231,6 +26275,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150519T123943Z" creationid="msdx" creationdate="20150514T152429Z">
         <seg>与分析有关的信息作为一个整体，比如服务器和数据库的连接设置，必须在这一个 project 的&lt;c0&gt;sonarRunner&lt;/c0&gt;块中进行配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Init scripts can similarly have external dependencies defined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143713Z" creationid="95" creationdate="20161215T143713Z">
+        <seg>init 脚本同样也可以定义外部依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29127,6 +29179,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T024956Z" creationid="95" creationdate="20160522T024946Z">
         <seg>我们的第一个例子是关于海洋生活的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle --init-script init.gradle -q showRepos&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143428Z" creationid="95" creationdate="20161215T143428Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle --init-script init.gradle -q showRepos&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -40279,8 +40339,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>This sample uses this feature to configure an extra repository to be used only for certain environments.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20161214T160016Z" creationid="95" creationdate="20161214T160016Z">
-        <seg>This sample uses this feature to configure an extra repository to be used only for certain environments.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143334Z" creationid="95" creationdate="20161214T160016Z">
+        <seg>该示例使用此功能来配置额外的仓库，以让它仅用于特定的环境。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44929,6 +44989,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161212T153737Z" creationid="95" creationdate="20161212T153737Z">
         <seg>你可以通过使用&lt;c0&gt;buildscript()&lt;/c0&gt;方法，传入一个定义构建脚本classpath的闭包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You do this using the &lt;c1&gt;initscript()&lt;/c1&gt; method, passing in a closure which declares the init script classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143736Z" creationid="95" creationdate="20161215T143736Z">
+        <seg>你可以通过使用&lt;c0&gt;initscript()&lt;/c0&gt;方法，传入一个定义init 脚本的classpath的闭包。</seg>
       </tuv>
     </tu>
     <tu>
@@ -53865,10 +53933,32 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>mavenCentral()
+}
+
+task showRepos &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143416Z" creationid="95" creationdate="20161215T143416Z">
+        <seg>mavenCentral()
+}
+
+task showRepos &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>mavenDeployer {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T154208Z" creationid="95" creationdate="20160104T154208Z">
         <seg>mavenDeployer {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mavenLocal()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143419Z" creationid="95" creationdate="20161215T143419Z">
+        <seg>mavenLocal()</seg>
       </tuv>
     </tu>
     <tu>
@@ -55053,6 +55143,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;"All repos:"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143417Z" creationid="95" creationdate="20161215T143417Z">
+        <seg>println &lt;s0&gt;"All repos:"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s0&gt;"Hello, world!"&lt;/s0&gt;
 }  
 
@@ -56030,6 +56128,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T151130Z" creationid="msdx" creationdate="20141123T151130Z">
         <seg>println relativePath(processResources.destinationDir)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println repositories.collect { it.name }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161215T143417Z" creationid="95" creationdate="20161215T143417Z">
+        <seg>println repositories.collect { it.name }
 }</seg>
       </tuv>
     </tu>
