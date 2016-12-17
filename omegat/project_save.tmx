@@ -13096,8 +13096,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>After these files have been added to the project, the project should then be built with the added &lt;s2&gt;&lt;s3&gt;gradlew&lt;/s3&gt;&lt;/s2&gt; command.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160604Z" creationid="95" creationdate="20161217T160604Z">
-        <seg>After these files have been added to the project, the project should then be built with the added &lt;s2&gt;&lt;s3&gt;gradlew&lt;/s3&gt;&lt;/s2&gt; command.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160818Z" creationid="95" creationdate="20161217T160604Z">
+        <seg>在这些文件都已经被添加到项目中之后，这个项目以后应该使用所添加的 &lt;s2&gt;&lt;s3&gt;gradlew&lt;/s3&gt;&lt;/s2&gt;命令进行构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14878,6 +14878,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T075934Z" creationid="haohang" creationdate="20160519T075934Z">
         <seg>但对于这种任意的布局，你需要在设置文件所在的目录执行构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>But if there is for example an improvement in the gradle-wrapper functionality you need to regenerate the wrapper files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160928Z" creationid="95" creationdate="20161217T160928Z">
+        <seg>But if there is for example an improvement in the gradle-wrapper functionality you need to regenerate the wrapper files.</seg>
       </tuv>
     </tu>
     <tu>
@@ -25358,6 +25366,14 @@ def dir = srcDir()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you want to switch to a new version of Gradle you don't need to rerun the wrapper task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160919Z" creationid="95" creationdate="20161217T160919Z">
+        <seg>如果你想要切换到一个新的Gradle版本，你不需要重新运行wrapper任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you want to tweak where the announcements go, you can configure the &lt;a0&gt;announce&lt;/a0&gt; plugin to change the local announcer.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T091724Z" creationid="haohang" creationdate="20150628T091724Z">
@@ -26907,6 +26923,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T091143Z" creationid="haohang" creationdate="20150731T100716Z">
         <seg>它可以轻松地遍历一个配置的依赖 artifacts：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is good enough to change the respective entry in the &lt;c0&gt;gradle-wrapper.properties&lt;/c0&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160926Z" creationid="95" creationdate="20161217T160926Z">
+        <seg>只</seg>
       </tuv>
     </tu>
     <tu>
@@ -34093,6 +34117,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T045439Z" creationid="95" creationdate="20151129T045305Z">
         <seg>在特定的仓库中&lt;s0&gt;&lt;e1&gt;缺少的&lt;/e1&gt;&lt;/s0&gt;特定模块或工件，避免反复地尝试访问不存在的资源。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; command can be used &lt;s6&gt;&lt;e7&gt;exactly&lt;/e7&gt;&lt;/s6&gt; the same way as the &lt;s8&gt;&lt;s9&gt;gradle&lt;/s9&gt;&lt;/s8&gt; command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160854Z" creationid="95" creationdate="20161217T160854Z">
+        <seg>这个&lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; 命令可以和 &lt;s8&gt;&lt;s9&gt;gradle&lt;/s9&gt;&lt;/s8&gt; 命令 &lt;s6&gt;&lt;e7&gt;完全&lt;/e7&gt;&lt;/s6&gt; 一样地使用。</seg>
       </tuv>
     </tu>
     <tu>
