@@ -17470,6 +17470,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Even better, users of the build are guaranteed to use the version of Gradle that the build was designed to work with.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T143622Z" creationid="95" creationdate="20161217T143622Z">
+        <seg>甚至还有更好的效果，能保证用户在构建中所使用的Gradle版本一致。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Even faster builds: preemptively evaluate projects, so that the model is ready when the user next invokes Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T144240Z" creationid="msdx" creationdate="20141117T144023Z">
@@ -20514,6 +20522,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161215T144229Z" creationid="95" creationdate="20161215T144229Z">
         <seg>示例 60.4. 在 init 脚本中使用插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 61.1. Wrapper task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T144026Z" creationid="95" creationdate="20161217T144026Z">
+        <seg>示例 61.1。 Wrapper任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -28795,6 +28811,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161215T153544Z" creationid="95" creationdate="20161215T153544Z">
         <seg>当然，所应用的插件也可以作为&lt;a3&gt;第 60.4节，“init 脚本外部依赖”&lt;/a3&gt;中所述的外部依赖被解析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Of course, this is also great for &lt;a2&gt;continuous integration&lt;/a2&gt; servers (i.e. servers that regularly build your project) as it requires no configuration on the server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T143841Z" creationid="95" creationdate="20161217T143802Z">
+        <seg>当然，也方便用于 &lt;a2&gt;持续集成&lt;/a2&gt; 服务器（即有规律地构建你的项目的服务器），因为它不需要在服务器上进行配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45305,6 +45329,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You install the wrapper into your project by adding and configuring a &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt; task in your build script, and then executing it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T144015Z" creationid="95" creationdate="20161217T143829Z">
+        <seg>你可以通过在你的构建脚本中添加及配置一个 &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt; 任务，然后执行它来把包装器安装到你的项目中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You may also specify how to transform the files as they are copied.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T124121Z" creationid="msdx" creationdate="20141113T124121Z">
@@ -51433,6 +51465,16 @@ systemProp.system=systemValue</seg>
 systemProjectProp=shouldBeOverWrittenBySystemProp
 envProjectProp=shouldBeOverWrittenByEnvProp
 systemProp.system=systemValue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradleVersion = &lt;s0&gt;'1.4'&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T144029Z" creationid="95" creationdate="20161217T144029Z">
+        <seg>gradleVersion = &lt;s0&gt;'1.4'&lt;/s0&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -59711,6 +59753,14 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160817T150203Z" creationid="95" creationdate="20160817T150203Z">
         <seg>task updateInputs() &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task wrapper(type: Wrapper) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T144028Z" creationid="95" creationdate="20161217T144028Z">
+        <seg>task wrapper(type: Wrapper) {</seg>
       </tuv>
     </tu>
     <tu>
