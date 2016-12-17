@@ -13080,8 +13080,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>After such an execution you find the following new or updated files in your project directory (in case the default configuration of the wrapper task is used).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20161217T150933Z" creationid="95" creationdate="20161217T150933Z">
-        <seg>After such an execution you find the following new or updated files in your project directory (in case the default configuration of the wrapper task is used).</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160524Z" creationid="95" creationdate="20161217T150933Z">
+        <seg>在这样执行之后，你会在你的项目目录中发现以下新生成的或更新的文件（在所使用的wrapper任务为默认配置的情况下）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13090,6 +13090,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T233042Z" creationid="haohang" creationdate="20150525T233042Z">
         <seg>SonarProperties 块在经过评估后，这些值值被转换为字符串，如下所示： 集合的值（递归） 转换为以逗号分隔的字符串，其他所有的值通过调用其&lt;c3&gt;tostring ()&lt;/c3&gt;方法进行转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>After these files have been added to the project, the project should then be built with the added &lt;s2&gt;&lt;s3&gt;gradlew&lt;/s3&gt;&lt;/s2&gt; command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160604Z" creationid="95" creationdate="20161217T160604Z">
+        <seg>After these files have been added to the project, the project should then be built with the added &lt;s2&gt;&lt;s3&gt;gradlew&lt;/s3&gt;&lt;/s2&gt; command.</seg>
       </tuv>
     </tu>
     <tu>
@@ -13290,6 +13298,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141122T161403Z" creationid="msdx" creationdate="20141121T155803Z">
         <seg>所有有用的功能，例如以能够编译 Java 代码为例，都是通过&lt;s0&gt;&lt;e1&gt;插件&lt;/e1&gt;&lt;/s0&gt;进行添加的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All of these files &lt;s0&gt;&lt;e1&gt;should&lt;/e1&gt;&lt;/s0&gt; be submitted to your version control system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160559Z" creationid="95" creationdate="20161217T160559Z">
+        <seg>所有这些文件都&lt;s0&gt;&lt;e1&gt;应该&lt;/e1&gt;&lt;/s0&gt; 被提交到你的版本控制系统中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20538,6 +20554,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161217T144026Z" creationid="95" creationdate="20161217T144026Z">
         <seg>示例 61.1。 Wrapper任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 61.2. Wrapper generated files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160532Z" creationid="95" creationdate="20161217T160532Z">
+        <seg>示例 61.2. 包装器生成的文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -40449,6 +40473,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This only needs to be done once.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160604Z" creationid="95" creationdate="20161217T160604Z">
+        <seg>这只需要做一次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This override always forces the output to be shown.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T155956Z" creationid="msdx" creationdate="20141105T155956Z">
@@ -51439,6 +51471,22 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>gradle-wrapper.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160536Z" creationid="95" creationdate="20161217T160536Z">
+        <seg>gradle-wrapper.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle-wrapper.properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160537Z" creationid="95" creationdate="20161217T160537Z">
+        <seg>gradle-wrapper.properties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>gradle.afterProject {project, projectState -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160521T132215Z" creationid="95" creationdate="20160521T132215Z">
@@ -51459,6 +51507,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T151055Z" creationid="msdx" creationdate="20141109T151055Z">
         <seg>gradle.properties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle/wrapper/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160536Z" creationid="95" creationdate="20161217T160536Z">
+        <seg>gradle/wrapper/</seg>
       </tuv>
     </tu>
     <tu>
@@ -51539,6 +51595,22 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T095643Z" creationid="msdx" creationdate="20150503T095643Z">
         <seg>gradle_wrapper.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradlew</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160535Z" creationid="95" creationdate="20161217T160535Z">
+        <seg>gradlew</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradlew.bat</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160536Z" creationid="95" creationdate="20161217T160536Z">
+        <seg>gradlew.bat</seg>
       </tuv>
     </tu>
     <tu>
@@ -58091,6 +58163,14 @@ signing.secretKeyRingFile=/Users/me/.gnupg/secring.gpg</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104859Z" creationid="msdx" creationdate="20150428T104859Z">
         <seg>signing_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>simple/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160535Z" creationid="95" creationdate="20161217T160535Z">
+        <seg>simple/</seg>
       </tuv>
     </tu>
     <tu>
