@@ -7672,6 +7672,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>61.1. Configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T161033Z" creationid="95" creationdate="20161217T161033Z">
+        <seg>61.1. 配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163423Z" creationid="msdx" creationdate="20141109T163423Z">
@@ -14884,8 +14892,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>But if there is for example an improvement in the gradle-wrapper functionality you need to regenerate the wrapper files.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20161217T160928Z" creationid="95" creationdate="20161217T160928Z">
-        <seg>But if there is for example an improvement in the gradle-wrapper functionality you need to regenerate the wrapper files.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T161027Z" creationid="95" creationdate="20161217T160928Z">
+        <seg>但如果有例如gradle包装器功能的提升的话，你还是需要重新生成包装器的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24718,6 +24726,14 @@ def dir = srcDir()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If not it tries to download it, otherwise it delegates to the &lt;s2&gt;&lt;s3&gt;gradle&lt;/s3&gt;&lt;/s2&gt; command of this distribution with all the arguments passed originally to the &lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T161229Z" creationid="95" creationdate="20161217T161229Z">
+        <seg>如果不可用，它会试图下载它，可用的话它将把所有传入给&lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; 命令的参数都委托给这个分发包的&lt;s2&gt;&lt;s3&gt;gradle&lt;/s3&gt;&lt;/s2&gt; 命令行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If not specified in the (Ivy) descriptor, the status defaults to &lt;c7&gt;integration&lt;/c7&gt; for Ivy modules and Maven snapshot modules, and &lt;c8&gt;release&lt;/c8&gt; for Maven modules that aren't snapshots.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T013408Z" creationid="95" creationdate="20151129T013408Z">
@@ -25258,6 +25274,14 @@ def dir = srcDir()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T110314Z" creationid="95" creationdate="20151006T110314Z">
         <seg>如果你只使用平面目录解析器，那么你不需要去设置一个依赖的所有属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you run Gradle with &lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt;, the wrapper checks if a Gradle distribution for the wrapper is available.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T161116Z" creationid="95" creationdate="20161217T161116Z">
+        <seg>如果你使用&lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt;运行Gradle，包装器会检查所要使用的Gradle分发包是否可用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -43437,6 +43461,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160530T151959Z" creationid="95" creationdate="20160530T151924Z">
         <seg>当我们从根项目的目录执行了&lt;c0&gt;hello&lt;/c0&gt;任务时，事情会以一种直观的方式来表现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you configure the &lt;c0&gt;Wrapper&lt;/c0&gt; task, you can specify the Gradle version you wish to use.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161217T161253Z" creationid="95" creationdate="20161217T161253Z">
+        <seg>当你配置&lt;c0&gt;Wrapper&lt;/c0&gt;任务时，你可以指定你想要使用的 Gradle 版本。</seg>
       </tuv>
     </tu>
     <tu>
