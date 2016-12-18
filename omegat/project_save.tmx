@@ -31831,6 +31831,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some features that the tooling API provides today:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T152042Z" creationid="95" creationdate="20161218T152042Z">
+        <seg>目前这个tooling API提供了以下这些功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some of the most common configuration options are shown below.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T134955Z" creationid="Administrator" creationdate="20150427T134950Z">
@@ -38405,6 +38413,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T015719Z" creationid="Administrator" creationdate="20150428T015719Z">
         <seg>test任务提供了一个&lt;a0&gt;&lt;c1&gt;Test.getDebug()&lt;/c1&gt;&lt;/a0&gt;属性，可以设置为启动，使JVM在执行测试之前，等待一个debugger连接到它的5005端口上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The tooling API is Gradle wrapper aware and, by default, uses the same target Gradle version as that used by the wrapper-powered project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T152004Z" creationid="95" creationdate="20161218T152004Z">
+        <seg>Gradle 包装器是能知道tooling API的，并且默认情况下使用与wrapper-powered 项目相同的目标Gradle版本。.</seg>
       </tuv>
     </tu>
     <tu>
@@ -45013,6 +45029,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T144248Z" creationid="95" creationdate="20160814T144248Z">
         <seg>你可以把任务类的源码放在 &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;rootProjectDir&lt;/c2&gt;&lt;/e1&gt;/buildSrc/src/main/groovy&lt;/c0&gt; 目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can query Gradle for the details of a build, including the project hierarchy and the project dependencies, external dependencies (including source and javadoc jars), source directories and tasks of each project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T152208Z" creationid="95" creationdate="20161218T152208Z">
+        <seg>你可以查询Gradle 关于构建的详细信息，包括项目层次结构和项目依赖，外部依赖（包括源代码及javadoc jars），源代码目录以及每一个项目的任务。</seg>
       </tuv>
     </tu>
     <tu>
