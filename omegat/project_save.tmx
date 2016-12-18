@@ -22174,6 +22174,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the details on how to configure the wrapper, see &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T040228Z" creationid="95" creationdate="20161218T040228Z">
+        <seg>有关如何配置包装器的详细信息，请参见&lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For the examples below we have the following dependencies setup:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T034228Z" creationid="haohang" creationdate="20150807T034228Z">
@@ -25178,6 +25186,14 @@ def dir = srcDir()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T054515Z" creationid="haohang" creationdate="20150721T054515Z">
         <seg>如果你不使用传递依赖管理，版本冲突没被发现，那么在类路径中无法预测的顺序，将导致不知道会使用哪一个版本的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you don't want any download to happen when your project is build via &lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt;, simply add the Gradle distribution zip to your version control at the location specified by your wrapper configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T040526Z" creationid="95" creationdate="20161218T040229Z">
+        <seg>如果你不想在通过 &lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt;命令构建项目时去下载它的分发包，只需要将Gradle分发包的zip文件添加到你的版本控制中你的包装器配置所指定的位置。</seg>
       </tuv>
     </tu>
     <tu>
