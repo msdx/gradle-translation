@@ -7680,6 +7680,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>61.2. Unix file permissions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T040709Z" creationid="95" creationdate="20161218T040709Z">
+        <seg>61.2. Unix 文件权限</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163423Z" creationid="msdx" creationdate="20141109T163423Z">
@@ -12458,6 +12466,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T035726Z" creationid="haohang" creationdate="20150716T035726Z">
         <seg>一个正确的构建系统必须被设计得很灵活，而 Gradle 可以应付任何情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A relative URL is supported - you can specify a distribution file relative to the location of &lt;c2&gt;gradle-wrapper.properties&lt;/c2&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T040619Z" creationid="95" creationdate="20161218T040619Z">
+        <seg>它支持相对路径URL——你可以指定相对于&lt;c2&gt;gradle wrapper.properties&lt;/c2&gt;文件的位置的分发文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25118,6 +25134,14 @@ def dir = srcDir()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you build via the wrapper, any existing Gradle distribution installed on the machine is ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T040703Z" creationid="95" creationdate="20161218T040703Z">
+        <seg>如果你通过包装器构建，这台机器上已安装的任何Gradle分发包都会被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you call &lt;c1&gt;allprojects&lt;/c1&gt; with a closure, the statements of the closure are delegated to the projects associated with &lt;c2&gt; allprojects&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160527T161639Z" creationid="95" creationdate="20160527T161639Z">
@@ -35789,6 +35813,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T084722Z" creationid="msdx" creationdate="20141030T084722Z">
         <seg>War插件扩展了Java插件来为你的项目构建WAR文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Wrapper task adds appropriate file permissions to allow the execution for the gradlew *NIX command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T040800Z" creationid="95" creationdate="20161218T040800Z">
+        <seg>Wrapper 任务将添加相应的文件权限，以允许执行 gradlew *NIX 命令。</seg>
       </tuv>
     </tu>
     <tu>
