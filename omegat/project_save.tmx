@@ -14546,6 +14546,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Bear in mind that the tooling API is wrapper aware so you should not need to configure a Gradle distribution directly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T153023Z" creationid="95" creationdate="20161218T153023Z">
+        <seg>记住，tooling API 是有包装器感知的，因此你不需要直接 配置Gradle分发包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because Gradle's build language is based on Groovy, and parts of Gradle are implemented in Groovy, Gradle already ships with a Groovy library (1.8.6 as of Gradle 1.6).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T075636Z" creationid="msdx" creationdate="20150429T075405Z">
@@ -26006,6 +26014,14 @@ def dir = srcDir()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In future we may support other interesting features:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T153253Z" creationid="95" creationdate="20161218T153253Z">
+        <seg>将来我们可能会支持一些其他有趣的功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In general, snappy behavior of the build tool is always handy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T142044Z" creationid="msdx" creationdate="20141117T142044Z">
@@ -26947,6 +26963,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150910T011707Z" creationid="haohang" creationdate="20150910T011707Z">
         <seg>最好是把你的用户名和密码写在&lt;c0&gt;gradle.properties&lt;/c0&gt;中，而不是直接写在构建文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is also a well-behaved library, and makes no assumptions about your class loader structure or logging configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T153216Z" creationid="95" creationdate="20161218T153049Z">
+        <seg>它也是一个很优秀的库，并且不会有魅力从你的类加载器结构或者日志的配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30043,6 +30067,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T145716Z" creationid="95" creationdate="20160106T145716Z">
         <seg>每一个configuration的排除规则如果可以被转换的话，也会包含在Maven POM中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Performance.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T153302Z" creationid="95" creationdate="20161218T153302Z">
+        <seg>性能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37129,6 +37161,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The implementation is lightweight, with only a small number of dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T153046Z" creationid="95" creationdate="20161218T153046Z">
+        <seg>它的实现很轻量，只有很少的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The incremental task action may supply an &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.outOfDate()&lt;/c1&gt;&lt;/a0&gt; action for processing any input file that is out-of-date, and a &lt;a2&gt;&lt;c3&gt;IncrementalTaskInputs.removed()&lt;/c3&gt;&lt;/a2&gt; action that executes for any input file that has been removed since the previous execution.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160816T144947Z" creationid="95" creationdate="20160816T144947Z">
@@ -38419,8 +38459,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The tooling API is Gradle wrapper aware and, by default, uses the same target Gradle version as that used by the wrapper-powered project.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20161218T152004Z" creationid="95" creationdate="20161218T152004Z">
-        <seg>Gradle 包装器是能知道tooling API的，并且默认情况下使用与wrapper-powered 项目相同的目标Gradle版本。.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T152937Z" creationid="95" creationdate="20161218T152004Z">
+        <seg>Tooling API 是有Gradle包装器感知的，并且默认情况下使用与wrapper-powered 项目相同的目标Gradle版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40429,6 +40469,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T092139Z" creationid="95" creationdate="20151115T092139Z">
         <seg>这使得元数据成为自定义依赖解析的另一种手段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This makes the API easy to bundle in your application.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T153242Z" creationid="95" creationdate="20161218T153242Z">
+        <seg>这便于把API捆绑到你的应用程序中。</seg>
       </tuv>
     </tu>
     <tu>
