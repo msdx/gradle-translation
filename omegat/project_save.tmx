@@ -2422,6 +2422,14 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/tooling/GradleConnector.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T155450Z" creationid="95" creationdate="20161218T155450Z">
+        <seg>../javadoc/org/gradle/tooling/GradleConnector.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>// Maven2 layout (if a repository is marked as Maven2 compatible, the organization (group) is split into subfolders according to the dots.)
 someroot/[organisation]/[module]/[revision]/[module]-[revision].[ext]
 
@@ -7712,6 +7720,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>62.3. Quickstart</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T155448Z" creationid="95" creationdate="20161218T155448Z">
+        <seg>62.3. 快速入门</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163423Z" creationid="msdx" creationdate="20141109T163423Z">
@@ -8054,6 +8070,14 @@ This is executed during the execution phase.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T062802Z" creationid="haohang" creationdate="20150628T062802Z">
         <seg>&lt;a0&gt;notify-send&lt;/a0&gt; (Ubuntu)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a2&gt;Chapter 19, &lt;i3&gt;The Gradle Daemon&lt;/i3&gt;&lt;/a2&gt; contains more details about the daemon, specifically information on situations when new daemons are forked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T155437Z" creationid="95" creationdate="20161218T155304Z">
+        <seg>&lt;a2&gt;第十九章，&lt;i3&gt;Gradle守护进程&lt;/i3&gt;&lt;/a2&gt;包含了关于守护进程的更多细节内容，特别是当新进行被fork时的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26703,6 +26727,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Instead we will add more code samples and improve the Javadoc documentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T155701Z" creationid="95" creationdate="20161218T155701Z">
+        <seg>相反的，我们将添加更多的代码示例来完善Javadoc 文档.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Instead, we plan to enhance Gradle's own compiler daemon to stay alive across Gradle invocations, reusing the same Scala compiler.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T081647Z" creationid="msdx" creationdate="20150503T081629Z">
@@ -30297,8 +30329,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>Please take a look at &lt;a0&gt;Chapter 19, &lt;i1&gt;The Gradle Daemon&lt;/i1&gt;&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20161218T154542Z" creationid="95" creationdate="20161218T154542Z">
-        <seg>Please take a look at &lt;a0&gt;Chapter 19, &lt;i1&gt;The Gradle Daemon&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T155008Z" creationid="95" creationdate="20161218T154542Z">
+        <seg>请查看 &lt;a0&gt;第十九章，&lt;i1&gt;Gradle守护进程&lt;/i1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31779,6 +31811,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160815T151715Z" creationid="95" creationdate="20160815T150215Z">
         <seg>从上面所述的实现的引入（早在Gradle 1.6 发布周期） 以来，Gradle社区的讨论中就产生了一些优秀的想法，有关暴露更改的信息到下面所描述的内容的任务实现者。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since the tooling API is an interface for a programmer most of the documentation lives in the Javadoc.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T155607Z" creationid="95" creationdate="20161218T155607Z">
+        <seg>由于tooling API 是一个针对程序员的接口，因此大部分的文档都在Javadoc中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35937,6 +35977,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Tooling API uses the daemon all the time, e.g. you cannot officially use the Tooling API without the daemon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T155115Z" creationid="95" creationdate="20161218T154958Z">
+        <seg>Tooling API 在整个过程中都会使用守护进程，举例来说，没有守护进程，你不能正式地使用Tooling API。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The UI displays 4 tabs along the top and an output window along the bottom.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T150940Z" creationid="msdx" creationdate="20141105T150825Z">
@@ -37373,6 +37421,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150722T012147Z" creationid="haohang" creationdate="20150722T012147Z">
         <seg>&lt;s0&gt;&lt;e1&gt;动态版本&lt;/e1&gt;&lt;/s0&gt;和&lt;s2&gt;&lt;e3&gt;变化模块&lt;/e3&gt;&lt;/s2&gt;的主要区别是，当你解析一个&lt;s4&gt;&lt;e5&gt;动态版本&lt;/e5&gt;&lt;/s4&gt;时，你会得到真正的、 静态的版本作为模块名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The main entry point to the tooling API is the &lt;a0&gt;&lt;c1&gt;GradleConnector&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T155733Z" creationid="95" creationdate="20161218T155733Z">
+        <seg>Tooling API 的主要入口点是&lt;a0&gt;&lt;c1&gt;GradleConnector&lt;/c1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40345,6 +40401,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is exactly our intention - we don't expect this chapter to grow very much.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T155642Z" creationid="95" creationdate="20161218T155642Z">
+        <seg>这正是我们的意图——我们并不想这章内容变得很长。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is executed during the configuration phase.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T025431Z" creationid="haohang" creationdate="20160519T025431Z">
@@ -40629,6 +40693,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160126T144609Z" creationid="95" creationdate="20160126T144609Z">
         <seg>这意味着，如果你想要将你的签名以及artifacts上传到你的分布仓库中，正常来讲你只需要执行&lt;c2&gt;uploadArchives&lt;/c2&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that subsequent calls to the Tooling API, be it model building requests or task executing requests can be executed in the same long-living process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161218T155301Z" creationid="95" creationdate="20161218T155301Z">
+        <seg>这意味着对Tooling API的后续调用，无论是模型构建请求还是任务执行请求，都可以在同一个长期存活的进程中执行。</seg>
       </tuv>
     </tu>
     <tu>
