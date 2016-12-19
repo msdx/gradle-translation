@@ -7728,6 +7728,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>63.1. Definition of terms</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T151222Z" creationid="95" creationdate="20161219T151222Z">
+        <seg>63.1. 术语定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163423Z" creationid="msdx" creationdate="20141109T163423Z">
@@ -12150,6 +12158,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Gradle build with a build executed by another tool such as Apache Ant, Apache Maven or something else (i.e. migrating to Gradle).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T150054Z" creationid="95" creationdate="20161219T145845Z">
+        <seg>由Apache Ant，Apache Maven 或其他工具执行的Gradle构建（即迁移到Gradle）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Gradle dependency offers the &lt;c0&gt;configuration&lt;/c0&gt; property to declare this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151227T155552Z" creationid="95" creationdate="20151227T155503Z">
@@ -12210,6 +12226,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T061243Z" creationid="95" creationdate="20151115T061243Z">
         <seg>一个依赖于&lt;c0&gt;module-a&lt;/c0&gt;和&lt;c1&gt;module-b&lt;/c1&gt;的构建，将在可发布单位内获得这个库的不同版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A build with a newer version of Gradle than it's currently using (i.e. upgrading the Gradle version).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T145843Z" creationid="95" creationdate="20161219T145843Z">
+        <seg>比当前所使用的Gradle版本更新的版本的构建（即升级Gradle版本）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14858,6 +14882,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Build comparison support is an &lt;a0&gt;incubating&lt;/a0&gt; feature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T144024Z" creationid="95" creationdate="20161219T144024Z">
+        <seg>构建比较支持是一个还在&lt;a0&gt;孵化中的&lt;/a0&gt; 功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Build layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150506T135828Z" creationid="msdx" creationdate="20150506T135828Z">
@@ -15094,6 +15126,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T153007Z" creationid="95" creationdate="20151129T152920Z">
         <seg>通过基于其 SHA1 校验和缓存构件，Gradle 是能够保持同一构件的多个版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By comparing builds in these scenarios you can make an informed decision about the Gradle upgrade, migration to Gradle or build change by understanding the differences in the outcomes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T150950Z" creationid="95" creationdate="20161219T150139Z">
+        <seg>通过比较这些场景的构建，你可以明智地决定是否要对Gradle升级，迁移到Gradle，或者是通过了解结果的差异来判断构建的更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15918,8 +15958,16 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>Chapter 63. Comparing Builds</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20160521T140518Z" creationid="95" creationdate="20160521T140518Z">
-        <seg>第六十三章. 比较构建</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T142027Z" creationid="95" creationdate="20160521T140518Z">
+        <seg>第六十三章. 构建比较</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 64. Ivy Publishing (new)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T142056Z" creationid="95" creationdate="20161219T142056Z">
+        <seg>第六十四章. 发布到Ivy（新）</seg>
       </tuv>
     </tu>
     <tu>
@@ -23382,6 +23430,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle provides support for comparing the &lt;e0&gt;outcomes&lt;/e0&gt; (e.g. the produced binary archives) of two builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T145520Z" creationid="95" creationdate="20161219T145520Z">
+        <seg>Gradle 提供了对两个构建的 &lt;e0&gt;结果&lt;/e0&gt;（例如生成的二进制档案）进行比较的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle provides the core plugins as part of its distribution so simply applying the plugin as above is all you need to do.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141123T134630Z" creationid="msdx" creationdate="20141123T134630Z">
@@ -26331,6 +26387,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135858Z" creationid="Administrator" creationdate="20150427T135858Z">
         <seg>在 Ant javac 任务中，这意味着将会为每一个compile任务fork一个新的进程，而这将会使编译变慢。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the context of build comparison, a build is not necessarily a Gradle build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T151607Z" creationid="95" creationdate="20161219T151607Z">
+        <seg>In the context of build comparison, a build is not necessarily a Gradle build.</seg>
       </tuv>
     </tu>
     <tu>
@@ -36417,6 +36481,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The comparison process produces a HTML report outlining which outcomes were found to be identical and identifying the differences between non-identical outcomes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T151214Z" creationid="95" creationdate="20161219T151214Z">
+        <seg>这个比较过程会生成一个HTML的报告，概述发现哪些结果是相同的，以及识别不完全相同的结果之间的差异。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The compile task delegates to Ant's javac task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T135401Z" creationid="Administrator" creationdate="20150427T135401Z">
@@ -37077,6 +37149,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T063513Z" creationid="msdx" creationdate="20141108T043318Z">
         <seg>在生成脚本中未定义的属性，第一次使用时自动委托到&lt;c1&gt;Project&lt;/c1&gt;对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following are the terms used for build comparison and their definitions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T151509Z" creationid="95" creationdate="20161219T151233Z">
+        <seg>以下是用于构建比较的术语以及对它们的定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38257,6 +38337,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The same Gradle build, with the same version, before and after a change to the build (i.e. testing build changes).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T150133Z" creationid="95" creationdate="20161219T150133Z">
+        <seg>同样原Gradle构建，同样的版本，但是比较构建前后的变化（即测试构建产生的更改）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The same could be done for the module paths in the project file:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074107Z" creationid="haohang" creationdate="20150625T074107Z">
@@ -38933,6 +39021,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T143944Z" creationid="95" creationdate="20160814T143944Z">
         <seg>有几个地方可以让你放任务类的源码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are several reasons why you may want to compare the outcomes of two builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T145715Z" creationid="95" creationdate="20161219T145535Z">
+        <seg>为什么你可能需要对两个构建的结果进行比较，有几个原因。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39701,6 +39797,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141117T153811Z" creationid="msdx" creationdate="20141117T153811Z">
         <seg>这也有一种&lt;c0&gt;--stop&lt;/c0&gt;命令行指令的结果： 当运行&lt;c1&gt;--stop&lt;/c1&gt;时，您仅可以停止以你的Gradle版本启动的守护进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This also means that this Gradle User Guide chapter is a work in progress.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T145425Z" creationid="95" creationdate="20161219T145425Z">
+        <seg>这也意味着这一章的 Gradle 用户指南还在完善中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40717,6 +40821,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160126T144609Z" creationid="95" creationdate="20160126T144609Z">
         <seg>这意味着，如果你想要将你的签名以及artifacts上传到你的分布仓库中，正常来讲你只需要执行&lt;c2&gt;uploadArchives&lt;/c2&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that it is incomplete and not yet at regular Gradle production quality.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T145400Z" creationid="95" creationdate="20161219T145400Z">
+        <seg>这也表示它是不完整的，并且还未成为定期的Gradle产品质量功能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45925,6 +46037,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T093711Z" creationid="haohang" creationdate="20150807T093711Z">
         <seg>您可以配置任意数量的仓库，每一个都会被Gradle 独立处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may want to compare:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T145705Z" creationid="95" creationdate="20161219T145705Z">
+        <seg>你可能想要比较：</seg>
       </tuv>
     </tu>
     <tu>
@@ -62448,6 +62568,14 @@ task fooJar(type: Jar) {</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T152820Z" creationid="95" creationdate="20160104T152820Z">
         <seg>}.writeTo(&lt;s4&gt;"$buildDir/newpom.xml"&lt;/s4&gt;)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>“Build”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161219T151520Z" creationid="95" creationdate="20161219T151520Z">
+        <seg>“构建”</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
