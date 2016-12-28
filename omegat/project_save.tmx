@@ -12232,8 +12232,16 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>A build outcome is uncompared if a logical equivalent from the other build cannot be found (e.g. a build produces a zip file that the other build does not).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20161228T143824Z" creationid="95" creationdate="20161228T143824Z">
-        <seg>一个构建结果，如果无法从其他构建中找到逻辑等价物</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T144256Z" creationid="95" creationdate="20161228T143824Z">
+        <seg>如果无法从其他构建中找到逻辑等价物（比如一个构建产生了一个zip文件，而其他的构建不会），那么构建结果就是未比较的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A build outcome that cannot be understood by the host build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T144151Z" creationid="95" creationdate="20161228T144133Z">
+        <seg>主机构建不能理解的构建结果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32239,6 +32247,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Something that happens in an observable manner during a build, such as the creation of a zip file or test execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T144327Z" creationid="95" creationdate="20161228T144327Z">
+        <seg>指在一个构建当中，在某种观察方法内发生的内容，比如一个zip文件的创建或者是测试的执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sometimes a repository will have the POMs published to one location, and the JARs and other artifacts published at another location.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053028Z" creationid="haohang" creationdate="20150909T053028Z">
@@ -36449,6 +36465,15 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The build that comparisons are being made against, typically the build in its “current” state.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T144341Z" creationid="95" creationdate="20161228T144341Z">
+        <seg>正在进行比较的构建，通常是处于“当前”状态的构建。
+</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The build that is being compared to the source build, typically the “proposed” build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161228T135306Z" creationid="95" creationdate="20161228T135206Z">
@@ -39457,6 +39482,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>These are the things that are compared.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T144335Z" creationid="95" creationdate="20161228T144335Z">
+        <seg>这些都是可以用于比较的东西。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>These binaries may vary based on the tool chain used to build, the compiler/linker flags supplied, the dependencies provided, or additional source files provided.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160219T065753Z" creationid="haohang" creationdate="20160219T065753Z">
@@ -40061,6 +40094,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T054349Z" creationid="95" creationdate="20151115T054349Z">
         <seg>当解决版本冲突时，这可能非常有用——有关详细信息请参阅&lt;a0&gt;第 50.2.3 节，“解决版本冲突”&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can occur when the source or target build is a newer Gradle version than the host build and that Gradle version exposes new outcome types.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T144607Z" creationid="95" creationdate="20161228T144236Z">
+        <seg>可能存在这样的情况不：一个源构建或目标构建使用一个比主机构建更新的版本，并且这个Gradle版本有新增加的结果类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42765,6 +42806,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T060948Z" creationid="msdx" creationdate="20141108T060948Z">
         <seg>了解构建语言是如何工作的，将有助于你编写构建脚本，特别是当你开始写自定义插件和任务的时候。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unknown build outcomes can be compared in so far as they can be identified to be logically equivalent to an unknown build outcome in the other build, but no meaningful comparison of what the build outcome actually is can be performed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T144845Z" creationid="95" creationdate="20161228T144609Z">
+        <seg>目前为止，未知的构建结果是可以被比较的，因为它们可以确定与其他构建的未知构建结果是否为逻辑等价物，但是对于实际上可以被执行的构建结果，这种比较则是没有意义的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -62712,6 +62761,14 @@ task fooJar(type: Jar) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161228T143612Z" creationid="95" creationdate="20161228T143612Z">
         <seg>“未比较的构建结果”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>“Unknown Build Outcome”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T144323Z" creationid="95" creationdate="20161228T144135Z">
+        <seg>“未知的构建结果”</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
