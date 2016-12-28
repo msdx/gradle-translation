@@ -14906,6 +14906,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Build outcomes that are intended to be logically equivalent in the “source” and “target” builds, and are therefore meaningfully comparable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T141641Z" creationid="95" creationdate="20161228T141641Z">
+        <seg>Build outcomes that are intended to be logically equivalent in the “source” and “target” builds, and are therefore meaningfully comparable.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T143950Z" creationid="95" creationdate="20160814T143950Z">
@@ -27095,6 +27103,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It does not need to be the same Gradle version as the “source” or “target” builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T141611Z" creationid="95" creationdate="20161228T141611Z">
+        <seg>它不需要与“源构建”或者是“目标构建”同样的Gradle版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It doesn't require the Java plugin, but for projects that also use the Java plugin it disables the default JAR archive generation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T094402Z" creationid="msdx" creationdate="20150503T094402Z">
@@ -27467,6 +27483,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T124038Z" creationid="msdx" creationdate="20141111T124017Z">
         <seg>它充分利用了类型系统，更具有表现力而且易于维护。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It may be the same project as either the “target” or “source” build or may be a completely separate project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T141451Z" creationid="95" creationdate="20161228T141358Z">
+        <seg>它可能是与“目标构建”或“源构建”相同的项目，也可能是一个完全独立的项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37445,6 +37469,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T025629Z" creationid="haohang" creationdate="20160325T025629Z">
         <seg>这些头文件在编译期间使用，而编译的二进制依赖则在链接过程中使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The host build must be run with Gradle 1.2 or newer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T141631Z" creationid="95" creationdate="20161228T141631Z">
+        <seg>主机构建必须运行在Gradle1.12或以上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -62632,6 +62664,14 @@ task fooJar(type: Jar) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161219T151520Z" creationid="95" creationdate="20161219T151520Z">
         <seg>“构建”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>“Compared Build Outcome”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20161228T141639Z" creationid="95" creationdate="20161228T141639Z">
+        <seg>“比较构建结果”</seg>
       </tuv>
     </tu>
     <tu>
