@@ -7784,6 +7784,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>63.3.3. Which archives are compared?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T130117Z" creationid="95" creationdate="20170109T130033Z">
+        <seg>63.3.3. 哪些归档文件会进行比较？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>63.3. Comparing Gradle Builds</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161228T150246Z" creationid="95" creationdate="20161228T150246Z">
@@ -21662,6 +21670,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For an archive to be a candidate for comparison, it must be added as an artifact of the archives configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T130143Z" creationid="95" creationdate="20170109T130108Z">
+        <seg>对于要用于比较的归档文件，它必须被添加为archives配置中的一个构件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For an example, see &lt;a0&gt;&lt;c1&gt;ResolutionStrategy&lt;/c1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T054939Z" creationid="95" creationdate="20151115T054939Z">
@@ -24882,6 +24898,14 @@ def dir = srcDir()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T054925Z" creationid="95" creationdate="20151115T054925Z">
         <seg>如果传递依赖有质量较差的元数据，导致了依赖解析时的问题时，你可以强制 Gradle 对于这一依赖使用一个较新的，固定的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If all compared outcomes are found to be identical, and there are no uncompared outcomes, and there are no unknown build outcomes the task will succeed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T125942Z" creationid="95" creationdate="20170109T125942Z">
+        <seg>如果所有的比较结果都是相同的，并且没有未比较的结果，以及没有未知的构建结构，那么任务会执行成功。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37754,6 +37778,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The location of the HTML report providing insight into the comparison will be given.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T125851Z" creationid="95" creationdate="20170109T125851Z">
+        <seg>然后会给出一个提供了对比较的深入了解的HTML报告文件的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The location of those directories are considered as child projects of the root project in the multi-project tree.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160519T063914Z" creationid="haohang" creationdate="20160519T063814Z">
@@ -45342,6 +45374,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T152207Z" creationid="msdx" creationdate="20141109T152207Z">
         <seg>您可以使用外部构建脚本来配置当前项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can configure the task to not fail on compared outcome differences by setting the &lt;c0&gt;ignoreFailures&lt;/c0&gt; property to true.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T130023Z" creationid="95" creationdate="20170109T130023Z">
+        <seg>你也可以通过设置 &lt;c0&gt;ignoreFailures&lt;/c0&gt; 属性为true，来配置构建结果不同时任务不失败。</seg>
       </tuv>
     </tu>
     <tu>
@@ -53588,6 +53628,16 @@ project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160108T152851Z" creationid="95" creationdate="20160108T152851Z">
         <seg>if (taskGraph.allTasks.any { it instanceof Sign }) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ignoreFailures = true
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T130024Z" creationid="95" creationdate="20170109T130024Z">
+        <seg>ignoreFailures = true
+}</seg>
       </tuv>
     </tu>
     <tu>
