@@ -7768,6 +7768,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>63.3.1. Trying Gradle upgrades</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T125259Z" creationid="95" creationdate="20170109T125259Z">
+        <seg>63.3.1. 尝试 Gradle 升级</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>63.3.2. The comparison “result”</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T125645Z" creationid="95" creationdate="20170109T125645Z">
+        <seg>63.3.2. 比较“结果”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>63.3. Comparing Gradle Builds</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161228T150246Z" creationid="95" creationdate="20161228T150246Z">
@@ -25286,6 +25302,14 @@ def dir = srcDir()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If there are any differences between the &lt;e0&gt;compared outcomes&lt;/e0&gt;, the task will fail.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T125710Z" creationid="95" creationdate="20170109T125710Z">
+        <seg>如果在&lt;e0&gt;比较结果&lt;/e0&gt;中有任何的差别，这个任务任务就会失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If these task names exist, they are executed as a separate build in the order you have passed them.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160520T123916Z" creationid="95" creationdate="20160520T123916Z">
@@ -37228,8 +37252,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The example above configures a comparison between two different projects using two different Gradle versions.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170109T124821Z" creationid="95" creationdate="20170109T124821Z">
-        <seg>The example above configures a comparison between two different projects using two different Gradle versions.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T125253Z" creationid="95" creationdate="20170109T124821Z">
+        <seg>上面的示例，配置了两个使用了不同的Gradle版本的项目之间的比较。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39062,6 +39086,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160520T123810Z" creationid="95" creationdate="20160520T123658Z">
         <seg>然后 Gradle 会查找与命令行传进来的参数相同的任务名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Then simply execute the &lt;s0&gt;&lt;s1&gt;compareGradleBuilds&lt;/s1&gt;&lt;/s0&gt; task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T125555Z" creationid="95" creationdate="20170109T125539Z">
+        <seg>然后只需要执行&lt;s0&gt;&lt;s1&gt;compareGradleBuilds&lt;/s1&gt;&lt;/s0&gt; 任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42510,6 +42542,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160408T085322Z" creationid="haohang" creationdate="20160408T085322Z">
         <seg>为此，核心的“native-binary”将尝试查找并使支持的工具链可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To try your current build with a different Gradle version, simply add the following to the &lt;c0&gt;build.gradle&lt;/c0&gt; of the &lt;e1&gt;root project&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T125529Z" creationid="95" creationdate="20170109T125356Z">
+        <seg>想尝试对你当前的构建使用一个不同的Gradle版本，只需要对 &lt;e1&gt;根项目&lt;/e1&gt;年的 &lt;c0&gt;build.gradle&lt;/c0&gt; 添加以下的配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46034,6 +46074,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use the build comparison functionality to very quickly try a new Gradle version with your build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T125349Z" creationid="95" creationdate="20170109T125349Z">
+        <seg>你可以使用这个构建比较功能来快速尝试在你的构建中使用新的Gradle版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use the command line argument (&lt;a0&gt;Appendix D, &lt;i1&gt;Gradle Command Line&lt;/i1&gt;&lt;/a0&gt;) or configure your build environment (&lt;a2&gt;Section 20.1, “Configuring the build environment via gradle.properties”&lt;/a2&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T091056Z" creationid="haohang" creationdate="20160726T091056Z">
@@ -46614,6 +46662,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160828T132447Z" creationid="95" creationdate="20160828T132447Z">
         <seg>你会注意到，在上面的例子中，我们是在已经配置了在作用中使用 &lt;c4&gt;greetingFile&lt;/c4&gt; 属性之后才指定它的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You will see the console output of the “source” and “target” builds as they are executing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T125635Z" creationid="95" creationdate="20170109T125635Z">
+        <seg>当它们执行的时候，你就会看到控件台输出“源构建”和“目标构建”的结果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -47394,6 +47450,18 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170109T124654Z" creationid="95" creationdate="20170109T124654Z">
         <seg>apply plugin: 'compare-gradle-builds'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: 'compare-gradle-builds'
+
+compareGradleBuilds {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T125533Z" creationid="95" creationdate="20170109T125533Z">
+        <seg>apply plugin: 'compare-gradle-builds'
+
+compareGradleBuilds {</seg>
       </tuv>
     </tu>
     <tu>
@@ -60266,6 +60334,16 @@ systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170109T124817Z" creationid="95" creationdate="20170109T124817Z">
         <seg>targetBuild {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>targetBuild.gradleVersion = "«gradle version»"
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170109T125538Z" creationid="95" creationdate="20170109T125538Z">
+        <seg>targetBuild.gradleVersion = "«gradle version»"
+}</seg>
       </tuv>
     </tu>
     <tu>
