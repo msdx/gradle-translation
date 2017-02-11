@@ -2150,6 +2150,14 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/component/SoftwareComponent.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140246Z" creationid="95" creationdate="20170211T140246Z">
+        <seg>../javadoc/org/gradle/api/component/SoftwareComponent.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/distribution/Distribution.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150701T031650Z" creationid="haohang" creationdate="20150701T031650Z">
@@ -7848,6 +7856,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>64.2.1. Publishing a Software Component</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140244Z" creationid="95" creationdate="20170211T140244Z">
+        <seg>64.2.1. 发布软件组件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>64.2.2. Publishing custom artifacts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140828Z" creationid="95" creationdate="20170211T140828Z">
+        <seg>64.2.2. 发布自定义构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>64.2. Publications</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170211T134747Z" creationid="95" creationdate="20170211T134747Z">
@@ -12686,6 +12710,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A publication can be configured by adding components, customizing artifacts, and by modifying the generated module descriptor file directly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140235Z" creationid="95" creationdate="20170211T140126Z">
+        <seg>通过添加组件，自定义构件，以及直接修改生成的模块描述文件，可以配置一个publication。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A published Ivy module can be consumed by Gradle (see &lt;a0&gt;Chapter 50, &lt;i1&gt;Dependency Management&lt;/i1&gt;&lt;/a0&gt;) and other tools that understand the Ivy format.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170211T012955Z" creationid="95" creationdate="20170211T012955Z">
@@ -14286,10 +14318,26 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Artifacts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140518Z" creationid="95" creationdate="20170211T140518Z">
+        <seg>构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Artifacts (e.g. jars) produced by this project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150426T084331Z" creationid="Administrator" creationdate="20150426T084331Z">
         <seg>由本项目生产的构件（如jar包）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Artifacts are commonly supplied as raw files, or as instances of &lt;a0&gt;&lt;c1&gt;AbstractArchiveTask&lt;/c1&gt;&lt;/a0&gt; (e.g. Jar, Zip).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140929Z" creationid="95" creationdate="20170211T140929Z">
+        <seg>Artifacts are commonly supplied as raw files, or as instances of &lt;a0&gt;&lt;c1&gt;AbstractArchiveTask&lt;/c1&gt;&lt;/a0&gt; (e.g. Jar, Zip).</seg>
       </tuv>
     </tu>
     <tu>
@@ -17150,10 +17198,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140527Z" creationid="95" creationdate="20170211T140527Z">
+        <seg>依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dependencies for C++ projects are binary libraries that export header files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T025531Z" creationid="haohang" creationdate="20160325T025531Z">
         <seg>C++ 项目的依赖是导出头文件的二进制库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dependencies from 'runtime' configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140602Z" creationid="95" creationdate="20170211T140602Z">
+        <seg>“runtime”配置的依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -20982,6 +21046,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 64.2. Publishing a java module to Ivy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140816Z" creationid="95" creationdate="20170211T140816Z">
+        <seg>示例 64.2. 将一个 java 模块发布到 Ivy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -22638,6 +22710,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For the “&lt;c0&gt;ivy-publish&lt;/c0&gt;” plugin to have any effect, a &lt;a1&gt;&lt;c2&gt;IvyPublication&lt;/c2&gt;&lt;/a1&gt; must be added to the set of publications.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T135939Z" creationid="95" creationdate="20170211T135939Z">
+        <seg>为了能让“&lt;c0&gt;ivy-publish&lt;/c0&gt;”插件起作用的，一个 &lt;a1&gt;&lt;c2&gt;IvyPublication&lt;/c2&gt;&lt;/a1&gt; 必须被添加到publications集里。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For this and other (mainly isolation) reasons, it is desirable to execute the Sonar Runner in a separate process.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150525T234530Z" creationid="haohang" creationdate="20150525T234530Z">
@@ -22882,6 +22962,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T142503Z" creationid="95" creationdate="20160106T142503Z">
         <seg>生成的 POMs 可以在&lt;c0&gt;&lt;buildDir&gt;/poms&lt;/c0&gt;看到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generated jar file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140545Z" creationid="95" creationdate="20170211T140545Z">
+        <seg>生成的 jar 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generated war file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140611Z" creationid="95" creationdate="20170211T140611Z">
+        <seg>生成的 war 文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -26799,6 +26895,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the following example, artifacts and runtime dependencies are taken from the `java` component, which is added by the &lt;c0&gt;Java Plugin&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140747Z" creationid="95" creationdate="20170211T140616Z">
+        <seg>在以下示例中，工件和运行时依赖都来自于由 &lt;c0&gt;Java Plugin&lt;/c0&gt; 添加的 “java” 组件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the following example, we create an Ant &lt;c0&gt;path&lt;/c0&gt; object, then iterate over the contents of it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T011213Z" creationid="msdx" creationdate="20141116T011213Z">
@@ -27503,6 +27607,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is also possible to explicitly configure artifacts to be included in the publication.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140924Z" creationid="95" creationdate="20170211T140830Z">
+        <seg>我们还可以显示地配置要被包含在publication的构件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is also possible to receive notifications when any project is evaluated.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160521T132000Z" creationid="95" creationdate="20160521T132000Z">
@@ -28011,6 +28123,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150603T003751Z" creationid="haohang" creationdate="20150603T003751Z">
         <seg>Java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Java Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140531Z" creationid="95" creationdate="20170211T140531Z">
+        <seg>Java 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -28979,6 +29099,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150721T053519Z" creationid="haohang" creationdate="20150721T012732Z">
         <seg>没有代码引用这个 jar 包，这个 jar 包也与该项目没有任何连接。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140615Z" creationid="95" creationdate="20170211T140615Z">
+        <seg>没有依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -31131,6 +31259,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141121T142750Z" creationid="msdx" creationdate="20141121T142750Z">
         <seg>通过&lt;c0&gt;http.auth.ntlm.domain&lt;/c0&gt;系统属性提供验证域。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Provided By</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140512Z" creationid="95" creationdate="20170211T140502Z">
+        <seg>提供者</seg>
       </tuv>
     </tu>
     <tu>
@@ -33909,6 +34045,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T144028Z" creationid="95" creationdate="20160105T144028Z">
         <seg>表 52.5. Maven POM 生成的默认值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 64.1. Software Components</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140454Z" creationid="95" creationdate="20170211T140454Z">
+        <seg>表64.1. 软件组件</seg>
       </tuv>
     </tu>
     <tu>
@@ -36970,6 +37114,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The components presently available for publication are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140445Z" creationid="95" creationdate="20170211T140445Z">
+        <seg>目前可用于publication的组件都有：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The configuration and execution for multi-project builds is discussed in &lt;a2&gt;Chapter 56, &lt;i3&gt;Multi-project Builds&lt;/i3&gt;&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160520T124041Z" creationid="95" creationdate="20160520T124041Z">
@@ -38982,6 +39134,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160715T090953Z" creationid="haohang" creationdate="20160715T090953Z">
         <seg>上面已经提到的简单的规则是︰ 执行在该层次结构下具体该名字的所有任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The simplest way to publish a Gradle project to an Ivy repository is to specify a &lt;a0&gt;&lt;c1&gt;SoftwareComponent&lt;/c1&gt;&lt;/a0&gt; to publish.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140401Z" creationid="95" creationdate="20170211T140247Z">
+        <seg>向Ivy仓库发布一个Gradle项目的最简单的方式是指定一个要发布的 &lt;a0&gt;&lt;c1&gt;SoftwareComponent&lt;/c1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41746,6 +41906,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This publication determines which artifacts are actually published as well as the details included in the associated Ivy module descriptor file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140125Z" creationid="95" creationdate="20170211T140125Z">
+        <seg>这个publication决定了实际上哪些构件会被发布，以及在关联的Ivy模块描述文件中所包含的详细信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This recursive pattern of transitive dependencies results in a tree of dependencies including your project's first-level dependencies, second-level dependencies, and so on.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150720T060754Z" creationid="haohang" creationdate="20150720T060550Z">
@@ -43806,6 +43974,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150503T085939Z" creationid="msdx" creationdate="20150503T085939Z">
         <seg>War</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>War Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140605Z" creationid="95" creationdate="20170211T140605Z">
+        <seg>War 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -52500,6 +52676,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from components.java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140820Z" creationid="95" creationdate="20170211T140820Z">
+        <seg>from components.java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from configurations.runtime</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T143854Z" creationid="msdx" creationdate="20141113T143854Z">
@@ -54744,6 +54928,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104801Z" creationid="msdx" creationdate="20150428T104801Z">
         <seg>ivy-publish</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ivyJava(IvyPublication) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140819Z" creationid="95" creationdate="20170211T140819Z">
+        <seg>ivyJava(IvyPublication) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -58580,6 +58772,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T141913Z" creationid="95" creationdate="20160105T141913Z">
         <seg>proxy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>publications {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140819Z" creationid="95" creationdate="20170211T140819Z">
+        <seg>publications {</seg>
       </tuv>
     </tu>
     <tu>
@@ -62551,6 +62751,14 @@ subprojects {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T125257Z" creationid="95" creationdate="20160522T125257Z">
         <seg>water/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>web</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140603Z" creationid="95" creationdate="20170211T140603Z">
+        <seg>web</seg>
       </tuv>
     </tu>
     <tu>
