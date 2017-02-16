@@ -16624,6 +16624,14 @@ project(&lt;s1&gt;':bluewhale'&lt;/s1&gt;) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configure custom artifacts as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072529Z" creationid="haohang" creationdate="20170216T072529Z">
+        <seg>如下所示配置自定义构件︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configured a &lt;c0&gt;main&lt;/c0&gt; source set with default (i.e. conventional) values for properties</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141124T074641Z" creationid="msdx" creationdate="20141124T074134Z">
@@ -21050,6 +21058,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170211T140816Z" creationid="95" creationdate="20170211T140816Z">
         <seg>示例 64.2. 将一个 java 模块发布到 Ivy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 64.3. Publishing additional artifact to Ivy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072604Z" creationid="haohang" creationdate="20170216T072604Z">
+        <seg>示例64.3. 发布额外的构件到Ivy</seg>
       </tuv>
     </tu>
     <tu>
@@ -29263,6 +29279,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that each artifacts must have a unique name/classifier/extension combination.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072513Z" creationid="haohang" creationdate="20170216T072513Z">
+        <seg>注意，每个构件必须有一个唯一的 name/classifier/extension 组合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that for most of these properties, the Sonar plugin's object model has an equivalent property, and it isn't necessary to use a &lt;c1&gt;withGlobalProperties&lt;/c1&gt; or &lt;c2&gt;withProjectProperties&lt;/c2&gt; hook.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T102026Z" creationid="msdx" creationdate="20150512T102026Z">
@@ -32003,6 +32027,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T110451Z" creationid="95" creationdate="20151006T110451Z">
         <seg>详细信息请参阅&lt;a0&gt;&lt;c1&gt;IvyArtifactRepository&lt;/c1&gt; &lt;/a0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;&lt;c1&gt;IvyPublication&lt;/c1&gt;&lt;/a0&gt; for more detailed documentation on how artifacts can be customized.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072640Z" creationid="haohang" creationdate="20170216T072640Z">
+        <seg>关于如何自定义构件的更详细的文档，请参阅&lt;a0&gt;&lt;c1&gt;IvyPublication&lt;/c1&gt; &lt;/a0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48742,6 +48774,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>artifact(sourceJar) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072608Z" creationid="haohang" creationdate="20170216T072608Z">
+        <seg>artifact(sourceJar) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifact.name == &lt;s2&gt;'api'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T144208Z" creationid="95" creationdate="20160106T144208Z">
@@ -49604,6 +49644,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>classifier &lt;s0&gt;"source"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072606Z" creationid="haohang" creationdate="20170216T072606Z">
+        <seg>classifier &lt;s0&gt;"source"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>classifier = &lt;s4&gt;'src'&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155802Z" creationid="msdx" creationdate="20141113T155802Z">
@@ -50210,6 +50258,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T041818Z" creationid="95" creationdate="20151129T041818Z">
         <seg>components {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>conf &lt;s2&gt;"runtime"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072612Z" creationid="haohang" creationdate="20170216T072612Z">
+        <seg>conf &lt;s2&gt;"runtime"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -52742,6 +52798,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from sourceSets.main.java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072606Z" creationid="haohang" creationdate="20170216T072606Z">
+        <seg>from sourceSets.main.java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from sourceSets.main.output</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T084526Z" creationid="haohang" creationdate="20160726T084526Z">
@@ -54928,6 +54992,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T110441Z" creationid="95" creationdate="20151006T110441Z">
         <seg>ivy {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ivy(IvyPublication) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072608Z" creationid="haohang" creationdate="20170216T072608Z">
+        <seg>ivy(IvyPublication) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -58792,6 +58864,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>publishing {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072607Z" creationid="haohang" creationdate="20170216T072607Z">
+        <seg>publishing {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>publishing_ivy.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104801Z" creationid="msdx" creationdate="20150428T104801Z">
@@ -61430,6 +61510,14 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task sourceJar(type: Jar) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072605Z" creationid="haohang" creationdate="20170216T072605Z">
+        <seg>task sourceJar(type: Jar) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task spiJar(type: Jar) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T084524Z" creationid="haohang" creationdate="20160726T084524Z">
@@ -62313,6 +62401,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T065604Z" creationid="haohang" creationdate="20150628T065604Z">
         <seg>twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>type &lt;s1&gt;"source"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072611Z" creationid="haohang" creationdate="20170216T072611Z">
+        <seg>type &lt;s1&gt;"source"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
