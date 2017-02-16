@@ -14336,8 +14336,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Artifacts are commonly supplied as raw files, or as instances of &lt;a0&gt;&lt;c1&gt;AbstractArchiveTask&lt;/c1&gt;&lt;/a0&gt; (e.g. Jar, Zip).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170211T140929Z" creationid="95" creationdate="20170211T140929Z">
-        <seg>Artifacts are commonly supplied as raw files, or as instances of &lt;a0&gt;&lt;c1&gt;AbstractArchiveTask&lt;/c1&gt;&lt;/a0&gt; (e.g. Jar, Zip).</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072356Z" creationid="95" creationdate="20170211T140929Z">
+        <seg>这些构件通常是以原始数据文件，或者是 &lt;a0&gt;&lt;c1&gt;AbstractArchiveTask&lt;/c1&gt;&lt;/a0&gt;的数字（如Jar, Zip）的方式来提供。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21986,6 +21986,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151220T123854Z" creationid="95" creationdate="20151220T123854Z">
         <seg>对于你的项目中的每一个配置，Gradle 提供了&lt;c0&gt;upload&lt;e1&gt;&lt;c2&gt;ConfigurationName&lt;/c2&gt;&lt;/e1&gt;&lt;/c0&gt;和&lt;c3&gt;build&lt;e4&gt;&lt;c5&gt;ConfigurationName&lt;/c5&gt;&lt;/e4&gt;&lt;/c3&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For each custom artifact, it is possible to specify the &lt;c0&gt;name&lt;/c0&gt;, &lt;c1&gt;extension&lt;/c1&gt;, &lt;c2&gt;type&lt;/c2&gt;, &lt;c3&gt;classifier&lt;/c3&gt; and &lt;c4&gt;conf&lt;/c4&gt; values to use for publication.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072440Z" creationid="haohang" creationdate="20170216T072330Z">
+        <seg>对于每个自定义的项目，在发布时可以指定&lt;c0&gt;name&lt;/c0&gt;、&lt;c1&gt;extension&lt;/c1&gt;、&lt;c2&gt;type&lt;/c2&gt;、&lt;c3&gt;classifier&lt;/c3&gt;和&lt;c4&gt;conf&lt;/c4&gt;的值。</seg>
       </tuv>
     </tu>
     <tu>
