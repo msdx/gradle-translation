@@ -750,10 +750,42 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:group</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083052Z" creationid="haohang" creationdate="20170217T083052Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:group</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083053Z" creationid="haohang" creationdate="20170217T083053Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:status</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083055Z" creationid="haohang" creationdate="20170217T083055Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:status</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:tarTree(java.lang.Object)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T120412Z" creationid="msdx" creationdate="20141113T120412Z">
         <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:tarTree(java.lang.Object)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083054Z" creationid="haohang" creationdate="20170217T083054Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:version</seg>
       </tuv>
     </tu>
     <tu>
@@ -7872,6 +7904,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>64.2.3. Identity values for the published project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083018Z" creationid="haohang" creationdate="20170217T083018Z">
+        <seg>64.2.3. 已发布的项目的标识值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>64.2. Publications</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170211T134747Z" creationid="95" creationdate="20170211T134747Z">
@@ -8562,10 +8602,42 @@ This is executed during the execution phase.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;module&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getName()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083054Z" creationid="haohang" creationdate="20170217T083054Z">
+        <seg>&lt;c0&gt;module&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getName()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;organisation&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getGroup()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083053Z" creationid="haohang" creationdate="20170217T083053Z">
+        <seg>&lt;c0&gt;organisation&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getGroup()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;output&lt;/c0&gt; + &lt;c1&gt;runtime&lt;e2&gt;&lt;c3&gt;SourceSet&lt;/c3&gt;&lt;/e2&gt;&lt;/c1&gt; configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083416Z" creationid="msdx" creationdate="20150428T083257Z">
         <seg>&lt;c0&gt;output&lt;/c0&gt; + &lt;c1&gt;runtime&lt;e2&gt;&lt;c3&gt;SourceSet&lt;/c3&gt;&lt;/e2&gt;&lt;/c1&gt; 配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;revision&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getVersion()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083055Z" creationid="haohang" creationdate="20170217T083055Z">
+        <seg>&lt;c0&gt;revision&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getVersion()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;status&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getStatus()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083056Z" creationid="haohang" creationdate="20170217T083056Z">
+        <seg>&lt;c0&gt;status&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getStatus()&lt;/c2&gt;&lt;/a1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15708,6 +15780,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Certain repositories are not able to handle all supported characters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083258Z" creationid="haohang" creationdate="20170217T083157Z">
+        <seg>某些存储库可能无法处理所有支持的字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Change</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094053Z" creationid="msdx" creationdate="20150429T094028Z">
@@ -21070,6 +21150,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 64.4. customizing the publication identity</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083151Z" creationid="haohang" creationdate="20170217T083058Z">
+        <seg>示例 64.4. 自定义发布标识</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -22266,6 +22354,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T102944Z" creationid="haohang" creationdate="20150801T102944Z">
         <seg>例如，某些其他的依赖，并没有任何排除规则，可能会带上那个多余的传递依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For example, the ':' character cannot be used as an identifier when publishing to a filesystem-backed repository on Windows.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083445Z" creationid="haohang" creationdate="20170217T083445Z">
+        <seg>例如，当发布到 Windows 上的文件系统支持的存储库，“:”字符就不能用作标识符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24026,6 +24122,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151226T091141Z" creationid="95" creationdate="20151226T091141Z">
         <seg>Gradle将基于文件的名字找出构件的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle will handle any valid Unicode character for organisation, module and revision (as well as artifact name, extension and classifier).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083451Z" creationid="haohang" creationdate="20170217T083451Z">
+        <seg>Gradle will handle any valid Unicode character for organisation, module and revision (as well as artifact name, extension and classifier).</seg>
       </tuv>
     </tu>
     <tu>
@@ -30711,6 +30815,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Overriding the default identity values is easy: simply specify the &lt;c0&gt;organisation&lt;/c0&gt;, &lt;c1&gt;module&lt;/c1&gt; or &lt;c2&gt;revision&lt;/c2&gt; attributes when configuring the &lt;c3&gt;IvyPublication&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083134Z" creationid="haohang" creationdate="20170217T083057Z">
+        <seg>重写默认标识值是很简历︰只需要配置&lt;c3&gt;IvyPublication&lt;/c3&gt;时指定&lt;c0&gt;organisation&lt;/c0&gt;、&lt;c1&gt;module&lt;/c1&gt;或&lt;c2&gt;revision&lt;/c2&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Overview</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T161852Z" creationid="msdx" creationdate="20141109T161852Z">
@@ -37354,6 +37466,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default identity values are derived from the following project properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083046Z" creationid="haohang" creationdate="20170217T083046Z">
+        <seg>默认标识的值取自以下这些项目属性︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default is 1, that is, do not execute the tests in parallel.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150427T141233Z" creationid="Administrator" creationdate="20150427T141233Z">
@@ -38046,6 +38166,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150501T033633Z" creationid="msdx" creationdate="20141116T113121Z">
         <seg>打印全部的栈跟踪信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The generated Ivy module descriptor file contains an &lt;c0&gt;&lt;info&gt;&lt;/c0&gt; tag that identifies the module.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083031Z" creationid="haohang" creationdate="20170217T083031Z">
+        <seg>生成的Ivy模块描述符文件包含了用于标识该模块的&lt;c0&gt;&lt;info&gt;&lt;/c0&gt;标记。</seg>
       </tuv>
     </tu>
     <tu>
@@ -51418,6 +51546,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>descriptor.status = &lt;s3&gt;'milestone'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083156Z" creationid="haohang" creationdate="20170217T083156Z">
+        <seg>descriptor.status = &lt;s3&gt;'milestone'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>destDir.mkdirs()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T060325Z" creationid="msdx" creationdate="20141111T060325Z">
@@ -56134,6 +56270,14 @@ task consume &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>module &lt;s1&gt;'project1-sample'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083153Z" creationid="haohang" creationdate="20170217T083153Z">
+        <seg>module &lt;s1&gt;'project1-sample'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>module(&lt;s1&gt;"commons-net:commons-net:1.4.1"&lt;/s1&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161212T155101Z" creationid="95" creationdate="20161212T155101Z">
@@ -56706,6 +56850,14 @@ binaries.withType(TestSuiteExecutableBinary) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083514Z" creationid="haohang" creationdate="20160726T083514Z">
         <seg>org/gradle/sample/shared/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>organisation &lt;s0&gt;'org.gradle.sample'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083153Z" creationid="haohang" creationdate="20170217T083153Z">
+        <seg>organisation &lt;s0&gt;'org.gradle.sample'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -59268,6 +59420,14 @@ void gradle_cunit_register() {</seg>
 }
 
 void gradle_cunit_register() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>revision &lt;s2&gt;'1.1'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083154Z" creationid="haohang" creationdate="20170217T083154Z">
+        <seg>revision &lt;s2&gt;'1.1'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
