@@ -38274,6 +38274,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The identifier (organisation, module, revision) of the published module is an exception; these values cannot be modified in the descriptor using the `withXML` hook.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T032338Z" creationid="95" creationdate="20170304T032338Z">
+        <seg>已发布模块的标识符（organisation，module，revision）则是一个例外；不能使用“withXML”hook 来修改描述符中的这些值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The implementation is lightweight, with only a small number of dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161218T153046Z" creationid="95" creationdate="20161218T153046Z">
@@ -41822,6 +41830,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160126T144609Z" creationid="95" creationdate="20160126T144609Z">
         <seg>这意味着，如果你想要将你的签名以及artifacts上传到你的分布仓库中，正常来讲你只需要执行&lt;c2&gt;uploadArchives&lt;/c2&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that it is also possible to modify the descriptor in such a way that it is no longer a valid Ivy module descriptor, so care must be taken when using this feature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T032204Z" creationid="95" creationdate="20170304T032204Z">
+        <seg>这意味着，用这样的方式，可能会把这个描述符修改为不再是有效的Ivy模块描述符，所以必须谨慎使用这个功能。</seg>
       </tuv>
     </tu>
     <tu>
