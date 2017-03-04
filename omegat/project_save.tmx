@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.0.1" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.0" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -7928,6 +7928,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>64.2.5. Publishing multiple modules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T032812Z" creationid="95" creationdate="20170304T032812Z">
+        <seg>64.2.5. 发布多个模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>64.2. Publications</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170211T134747Z" creationid="95" creationdate="20170211T134747Z">
@@ -14018,6 +14026,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150731T035208Z" creationid="haohang" creationdate="20150731T034643Z">
         <seg>一个 artifact only notation 创建了一个模块依赖，它只下载指定扩展名的 artifact 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An example is publishing a separate API and implementation jar for your library.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T032955Z" creationid="95" creationdate="20170304T032955Z">
+        <seg>一个例子是为您的library 分别发布一个单独的 API 和它的实现的 jar。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32931,6 +32947,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T053028Z" creationid="haohang" creationdate="20150909T053028Z">
         <seg>有时候，一个仓库会出现 POM 文件发布在一个地方，而 JAR 文件和其他构件发布在另一个地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sometimes it's useful to publish multiple modules from your Gradle build, without creating a separate Gradle subproject.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T032917Z" creationid="95" creationdate="20170304T032917Z">
+        <seg>有时候从你的 Gradle 构建中发布多个模块会很有用，而不是创建一个单独的 Gradle 子项目。</seg>
       </tuv>
     </tu>
     <tu>
