@@ -14824,8 +14824,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>At times, the module descriptor file generated from the project information will need to be tweaked before publishing.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170304T030332Z" creationid="95" creationdate="20170304T030332Z">
-        <seg>At times, the module descriptor file generated from the project information will need to be tweaked before publishing.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T031038Z" creationid="95" creationdate="20170304T030332Z">
+        <seg>有时候，从项目信息生成的模块描述文件可能需要在发布之前进行一些调整。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21174,6 +21174,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 64.5. Customizing the module descriptor file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T031118Z" creationid="95" creationdate="20170304T031118Z">
+        <seg>示例 64.5. 自定义模块描述符文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -27171,6 +27179,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094923Z" creationid="haohang" creationdate="20160726T094923Z">
         <seg>在这个例子中 :services:personservice 同时依赖于 :api 和 :shared。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this example we are adding a 'description' element to the generated Ivy dependency descriptor, but this this hook, allows you to modify any aspect of the generated descriptor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T031122Z" creationid="95" creationdate="20170304T031122Z">
+        <seg>In this example we are adding a 'description' element to the generated Ivy dependency descriptor, but this this hook, allows you to modify any aspect of the generated descriptor.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39682,6 +39698,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The “&lt;c0&gt;ivy-publish&lt;/c0&gt;” plugin provides a hook to allow such modification.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T031059Z" creationid="95" creationdate="20170304T031059Z">
+        <seg>“&lt;c0&gt;ivy-publish&lt;/c0&gt;”插件提供了一个hook以允许这一类的修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The “&lt;c0&gt;publishing&lt;/c0&gt;” plugin creates an extension on the project named “&lt;c1&gt;publishing&lt;/c1&gt;” of type &lt;a2&gt;&lt;c3&gt;PublishingExtension&lt;/c3&gt;&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170211T022646Z" creationid="95" creationdate="20170211T022646Z">
@@ -49078,6 +49102,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>asNode().info[&lt;s0&gt;0&lt;/s0&gt;].appendNode(&lt;s1&gt;'description'&lt;/s1&gt;, &lt;s2&gt;'A demonstration of ivy descriptor customization'&lt;/s2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T031120Z" creationid="95" creationdate="20170304T031120Z">
+        <seg>asNode().info[&lt;s0&gt;0&lt;/s0&gt;].appendNode(&lt;s1&gt;'description'&lt;/s1&gt;, &lt;s2&gt;'A demonstration of ivy descriptor customization'&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>assemble</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083225Z" creationid="msdx" creationdate="20150428T083225Z">
@@ -51582,6 +51614,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083156Z" creationid="haohang" creationdate="20170217T083156Z">
         <seg>descriptor.status = &lt;s3&gt;'milestone'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>descriptor.withXml {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T031119Z" creationid="95" creationdate="20170304T031119Z">
+        <seg>descriptor.withXml {</seg>
       </tuv>
     </tu>
     <tu>
@@ -55176,6 +55216,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T104801Z" creationid="msdx" creationdate="20150428T104801Z">
         <seg>ivy-publish</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ivyCustom(IvyPublication) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T031119Z" creationid="95" creationdate="20170304T031119Z">
+        <seg>ivyCustom(IvyPublication) {</seg>
       </tuv>
     </tu>
     <tu>
