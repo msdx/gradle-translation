@@ -21206,6 +21206,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 64.6. Publishing multiple modules from a single project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033022Z" creationid="95" creationdate="20170304T033022Z">
+        <seg>示例 64.6. 从一个单一的项目发布多个模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -25306,6 +25314,14 @@ def dir = srcDir()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T150555Z" creationid="95" creationdate="20151129T045705Z">
         <seg>如果一个模块或构件以之前没有从&lt;s0&gt;&lt;e1&gt;这个存储库中&lt;/e1&gt;&lt;/s0&gt;解析过，Gradle 将尝试在这个存储库中解析这个模块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a project defines multiple publications then Gradle will publish each of these to the defined repositories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033523Z" creationid="95" creationdate="20170304T033038Z">
+        <seg>如果一个项目定义了多个要发布的内容，Gradle 将把每一个都发布到定义的存储库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45426,6 +45442,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With Gradle this is simple:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033010Z" creationid="95" creationdate="20170304T033010Z">
+        <seg>使用 Gradle 的话很简单︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With Gradle you can deploy to remote Maven repositories or install to your local Maven repository.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T153312Z" creationid="95" creationdate="20160104T153312Z">
@@ -48094,6 +48118,14 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>api(IvyPublication) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033031Z" creationid="95" creationdate="20170304T033031Z">
+        <seg>api(IvyPublication) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>api/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083504Z" creationid="haohang" creationdate="20160726T083504Z">
@@ -49302,6 +49334,14 @@ task fooJar(type: Jar) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T160146Z" creationid="msdx" creationdate="20141113T160146Z">
         <seg>baseName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>baseName &lt;s0&gt;"publishing-api"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033025Z" creationid="95" creationdate="20170304T033025Z">
+        <seg>baseName &lt;s0&gt;"publishing-api"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -52384,6 +52424,14 @@ task consume &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>exclude &lt;s1&gt;'**/impl/**'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033025Z" creationid="95" creationdate="20170304T033025Z">
+        <seg>exclude &lt;s1&gt;'**/impl/**'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>exclude module: &lt;s4&gt;'shared'&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094945Z" creationid="haohang" creationdate="20150801T094945Z">
@@ -54522,6 +54570,14 @@ project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>impl(IvyPublication) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033026Z" creationid="95" creationdate="20170304T033026Z">
+        <seg>impl(IvyPublication) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>implementation-class=org.gradle.GreetingPlugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160828T133455Z" creationid="95" creationdate="20160828T133455Z">
@@ -56430,6 +56486,22 @@ task consume &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>module &lt;s3&gt;'project2-impl'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033028Z" creationid="95" creationdate="20170304T033028Z">
+        <seg>module &lt;s3&gt;'project2-impl'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>module &lt;s6&gt;'project2-api'&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033035Z" creationid="95" creationdate="20170304T033035Z">
+        <seg>module &lt;s6&gt;'project2-api'&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>module(&lt;s1&gt;"commons-net:commons-net:1.4.1"&lt;/s1&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161212T155101Z" creationid="95" creationdate="20161212T155101Z">
@@ -57010,6 +57082,22 @@ binaries.withType(TestSuiteExecutableBinary) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083153Z" creationid="haohang" creationdate="20170217T083153Z">
         <seg>organisation &lt;s0&gt;'org.gradle.sample'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>organisation &lt;s2&gt;'org.gradle.sample.impl'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033027Z" creationid="95" creationdate="20170304T033027Z">
+        <seg>organisation &lt;s2&gt;'org.gradle.sample.impl'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>organisation &lt;s5&gt;'org.gradle.sample'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033033Z" creationid="95" creationdate="20170304T033033Z">
+        <seg>organisation &lt;s5&gt;'org.gradle.sample'&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -59584,6 +59672,22 @@ void gradle_cunit_register() {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>revision &lt;s4&gt;'2.3'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033030Z" creationid="95" creationdate="20170304T033030Z">
+        <seg>revision &lt;s4&gt;'2.3'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>revision &lt;s7&gt;'2'&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033037Z" creationid="95" creationdate="20170304T033037Z">
+        <seg>revision &lt;s7&gt;'2'&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>root</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T141853Z" creationid="95" creationdate="20160105T141853Z">
@@ -61346,6 +61450,14 @@ systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T130947Z" creationid="msdx" creationdate="20141113T130947Z">
         <seg>task anotherCopyTask(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task apiJar(type: Jar) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033024Z" creationid="95" creationdate="20170304T033024Z">
+        <seg>task apiJar(type: Jar) {</seg>
       </tuv>
     </tu>
     <tu>
