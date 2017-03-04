@@ -24128,8 +24128,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Gradle will handle any valid Unicode character for organisation, module and revision (as well as artifact name, extension and classifier).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083451Z" creationid="haohang" creationdate="20170217T083451Z">
-        <seg>Gradle will handle any valid Unicode character for organisation, module and revision (as well as artifact name, extension and classifier).</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T030111Z" creationid="haohang" creationdate="20170217T083451Z">
+        <seg>Gradle 将处理 organization， module 和 revision（以及 artifact 名称， extension 和 classifier）的任何有效的Unicode 字符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38606,6 +38606,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T150021Z" creationid="msdx" creationdate="20141109T150021Z">
         <seg>唯一的区别是，它是&lt;c12&gt;org.gradle.project&lt;e13&gt;&lt;c14&gt;propertyName&lt;/c14&gt;&lt;/e13&gt;&lt;/c12&gt;的模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The only values that are explicitly prohibited are '&lt;c0&gt;\&lt;/c0&gt;', '&lt;c1&gt;/&lt;/c1&gt;' and any ISO control character.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170304T030207Z" creationid="95" creationdate="20170304T030207Z">
+        <seg>唯一明确禁止使用的是“&lt;c0&gt;\&lt;/c0&gt;”，“&lt;c1&gt;/&lt;/c1&gt;”以及所有的ISO控制字符。</seg>
       </tuv>
     </tu>
     <tu>
