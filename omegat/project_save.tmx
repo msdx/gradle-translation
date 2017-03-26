@@ -7984,6 +7984,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>64.5. Generating the Ivy module descriptor file without publishing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T080557Z" creationid="95" creationdate="20170326T080526Z">
+        <seg>64.5. 不发布而生成Ivy模块的描述符文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163423Z" creationid="msdx" creationdate="20141109T163423Z">
@@ -12312,6 +12320,36 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle publish
+:generateDescriptorFileForIvyJavaPublication
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar
+:publishIvyJavaPublicationToIvyRepository
+:publish
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T080525Z" creationid="95" creationdate="20170326T080525Z">
+        <seg>&gt; gradle publish
+:generateDescriptorFileForIvyJavaPublication
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar
+:publishIvyJavaPublicationToIvyRepository
+:publish
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle publishIvyJavaPublicationToIvyRepository
 :generateDescriptorFileForIvyJavaPublication
 :compileJava UP-TO-DATE
@@ -14902,6 +14940,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T090411Z" creationid="95" creationdate="20151115T090411Z">
         <seg>有时一个完全不同的模块可以作为请求的模块依赖的替代者。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At times it is useful to generate the Ivy module descriptor file (normally &lt;c0&gt;ivy.xml&lt;/c0&gt;) without publishing your module to an Ivy repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T084056Z" creationid="95" creationdate="20170326T084056Z">
+        <seg>At times it is useful to generate the Ivy module descriptor file (normally &lt;c0&gt;ivy.xml&lt;/c0&gt;) without publishing your module to an Ivy repository.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21306,6 +21352,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 64.9. Publishing all publications via the “publish” lifecycle task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T080510Z" creationid="95" creationdate="20170326T080510Z">
+        <seg>示例 64.9. 通过“publish”生命周期任务发布所有出版物</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -26906,6 +26960,14 @@ def dir = srcDir()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In more concrete terms, executing this task will execute all &lt;a0&gt;&lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt; tasks in the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T080435Z" creationid="95" creationdate="20170326T080409Z">
+        <seg>更具体而言，执行这个任务将会执行在项目中的所有 &lt;a0&gt;&lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt; 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In most cases, Gradle's default dependency management will resolve the dependencies that you want in your build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151115T053904Z" creationid="95" creationdate="20151115T053904Z">
@@ -30951,6 +31013,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141116T061020Z" creationid="msdx" creationdate="20141116T061020Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle intro&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle publish&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T080516Z" creationid="95" creationdate="20170326T080516Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle publish&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -39944,8 +40014,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The “&lt;c0&gt;publish&lt;/c0&gt;” plugin (that the “&lt;c1&gt;ivy-publish&lt;/c1&gt;” plugin implicitly applies) adds a lifecycle task that can be used to publish all publications to all applicable repositories named “&lt;c2&gt;publish&lt;/c2&gt;”.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170326T075753Z" creationid="95" creationdate="20170326T075753Z">
-        <seg>The “&lt;c0&gt;publish&lt;/c0&gt;” plugin (that the “&lt;c1&gt;ivy-publish&lt;/c1&gt;” plugin implicitly applies) adds a lifecycle task that can be used to publish all publications to all applicable repositories named “&lt;c2&gt;publish&lt;/c2&gt;”.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T080407Z" creationid="95" creationdate="20170326T075753Z">
+        <seg>这个“&lt;c0&gt;publish&lt;/c0&gt;插件（即“&lt;c1&gt;ivy-publish&lt;/c1&gt;” 插件隐式应用的）添加了一个 叫做“&lt;c2&gt;publish&lt;/c2&gt;”的生命周期任务，可以用于发布所有出版物到所有适用的仓库中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41890,6 +41960,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150801T094648Z" creationid="haohang" creationdate="20150801T094648Z">
         <seg>当你在开发自定义 Gradle 任务或插件时将会很有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This is usually the most convenient way to perform a publish.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T080449Z" creationid="95" creationdate="20170326T080449Z">
+        <seg>这通常是执行发布的最方便的方法。</seg>
       </tuv>
     </tu>
     <tu>
