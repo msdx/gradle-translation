@@ -7986,8 +7986,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>64.5. Generating the Ivy module descriptor file without publishing</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170326T080557Z" creationid="95" creationdate="20170326T080526Z">
-        <seg>64.5. 不发布而生成Ivy模块的描述符文件</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T084157Z" creationid="95" creationdate="20170326T080526Z">
+        <seg>64.5. 不发布的情况下生成Ivy模块的描述符文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -14946,8 +14946,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>At times it is useful to generate the Ivy module descriptor file (normally &lt;c0&gt;ivy.xml&lt;/c0&gt;) without publishing your module to an Ivy repository.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170326T084056Z" creationid="95" creationdate="20170326T084056Z">
-        <seg>At times it is useful to generate the Ivy module descriptor file (normally &lt;c0&gt;ivy.xml&lt;/c0&gt;) without publishing your module to an Ivy repository.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T084203Z" creationid="95" creationdate="20170326T084056Z">
+        <seg>有时候，我们会需要在不发布你的模块到Ivy仓库的情况下，生成Ivy模块描述符文件（通常是&lt;c0&gt;ivy.xml&lt;/c0&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32845,6 +32845,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T033138Z" creationid="haohang" creationdate="20150807T033138Z">
         <seg>从 Gradle 1.2 起，有一个新的编程 API 用于访问解析的依赖信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since descriptor file generation is performed by a separate task, this is very easy to do.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T084235Z" creationid="95" creationdate="20170326T084235Z">
+        <seg>因为描述符文件的生成是由一个单独的任务执行的，所以这很容易做到。</seg>
       </tuv>
     </tu>
     <tu>
