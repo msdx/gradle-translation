@@ -32815,6 +32815,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So in this example a single &lt;a5&gt;&lt;c6&gt;PublishToIvyRepository&lt;/c6&gt;&lt;/a5&gt; task is be added, named '&lt;c7&gt;publishIvyJavaPublicationToIvyRepository&lt;/c7&gt;'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T074844Z" creationid="95" creationdate="20170326T074844Z">
+        <seg>因此，在下面的例子中，创建了一个 &lt;a5&gt;&lt;c6&gt;PublishToIvyRepository&lt;/c6&gt;&lt;/a5&gt; 任务，名字叫做“&lt;c7&gt;publishIvyJavaPublicationToIvyRepository&lt;/c7&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So similar to the changed output file example, &lt;s0&gt;&lt;e1&gt;all&lt;/e1&gt;&lt;/s0&gt; input files are reported to the &lt;a2&gt;&lt;c3&gt;IncrementalTaskInputs.outOfDate()&lt;/c3&gt;&lt;/a2&gt; action, and no input files are reported to the &lt;a4&gt;&lt;c5&gt;IncrementalTaskInputs.removed()&lt;/c5&gt;&lt;/a4&gt; action:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160817T150749Z" creationid="95" creationdate="20160817T150749Z">
@@ -39868,8 +39876,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The “&lt;c0&gt;ivy-publish&lt;/c0&gt;” plugin automatically creates a &lt;a1&gt;&lt;c2&gt;PublishToIvyRepository&lt;/c2&gt;&lt;/a1&gt; task for each &lt;a3&gt;&lt;c4&gt;IvyPublication&lt;/c4&gt;&lt;/a3&gt; and &lt;a5&gt;&lt;c6&gt;IvyArtifactRepository&lt;/c6&gt;&lt;/a5&gt; combination in the &lt;c7&gt;publishing.publications&lt;/c7&gt; and &lt;c8&gt;publishing.repositories&lt;/c8&gt; containers respectively.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170326T074335Z" creationid="95" creationdate="20170326T074335Z">
-        <seg>“&lt;c0&gt;ivy-publish&lt;/c0&gt;” 插件自动创建了一个 &lt;a1&gt;&lt;c2&gt;PublishToIvyRepository&lt;/c2&gt;&lt;/a1&gt; 任务，为每一个&lt;a3&gt;&lt;c4&gt;IvyPublication&lt;/c4&gt;&lt;/a3&gt; 和 &lt;a5&gt;&lt;c6&gt;IvyArtifactRepository&lt;/c6&gt;&lt;/a5&gt; 分别在 &lt;c7&gt;publishing.publications&lt;/c7&gt; 和 &lt;c8&gt;publishing.repositories&lt;/c8&gt; 容器中组合。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T074736Z" creationid="95" creationdate="20170326T074335Z">
+        <seg>对每一个在 &lt;c7&gt;publishing.publications&lt;/c7&gt; 和 &lt;c8&gt;publishing.repositories&lt;/c8&gt; 容器中分别组合的&lt;a3&gt;&lt;c4&gt;IvyPublication&lt;/c4&gt;&lt;/a3&gt; 和 &lt;a5&gt;&lt;c6&gt;IvyArtifactRepository&lt;/c6&gt;&lt;/a5&gt;，“&lt;c0&gt;ivy-publish&lt;/c0&gt;” 插件自动为它们创建了一个 &lt;a1&gt;&lt;c2&gt;PublishToIvyRepository&lt;/c2&gt;&lt;/a1&gt; 任务。</seg>
       </tuv>
     </tu>
     <tu>
