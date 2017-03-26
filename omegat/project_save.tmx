@@ -7968,6 +7968,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>64.4.1. The “&lt;c0&gt;publish&lt;/c0&gt;” lifecycle task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T075122Z" creationid="95" creationdate="20170326T075122Z">
+        <seg>64.4.1.  “&lt;c0&gt;publish&lt;/c0&gt;” 生命周期任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>64.4. Performing a publish</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170326T073723Z" creationid="95" creationdate="20170326T073723Z">
@@ -12296,6 +12304,34 @@ Total time: 1 secs</seg>
 [ant:echo] Hello, from Ant
 :intro
 Hello, from Gradle
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle publishIvyJavaPublicationToIvyRepository
+:generateDescriptorFileForIvyJavaPublication
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar
+:publishIvyJavaPublicationToIvyRepository
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T075110Z" creationid="95" creationdate="20170326T075110Z">
+        <seg>&gt; gradle publishIvyJavaPublicationToIvyRepository
+:generateDescriptorFileForIvyJavaPublication
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar
+:publishIvyJavaPublicationToIvyRepository
 
 BUILD SUCCESSFUL
 
@@ -21258,6 +21294,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170304T033930Z" creationid="95" creationdate="20170304T033930Z">
         <seg>示例 64.7. 声明用于发布的仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 64.8. Choosing a particular publication to publish</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T075058Z" creationid="95" creationdate="20170326T075058Z">
+        <seg>示例 64.8. 选择要发布的特定出版物</seg>
       </tuv>
     </tu>
     <tu>
@@ -30911,6 +30955,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle publishIvyJavaPublicationToIvyRepository&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T075109Z" creationid="95" creationdate="20170326T075109Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle publishIvyJavaPublicationToIvyRepository&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle signArchives&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160109T072547Z" creationid="95" creationdate="20160109T072547Z">
@@ -39890,6 +39942,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The “&lt;c0&gt;publish&lt;/c0&gt;” plugin (that the “&lt;c1&gt;ivy-publish&lt;/c1&gt;” plugin implicitly applies) adds a lifecycle task that can be used to publish all publications to all applicable repositories named “&lt;c2&gt;publish&lt;/c2&gt;”.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T075753Z" creationid="95" creationdate="20170326T075753Z">
+        <seg>The “&lt;c0&gt;publish&lt;/c0&gt;” plugin (that the “&lt;c1&gt;ivy-publish&lt;/c1&gt;” plugin implicitly applies) adds a lifecycle task that can be used to publish all publications to all applicable repositories named “&lt;c2&gt;publish&lt;/c2&gt;”.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The “&lt;c0&gt;publishing&lt;/c0&gt;” plugin creates an extension on the project named “&lt;c1&gt;publishing&lt;/c1&gt;” of type &lt;a2&gt;&lt;c3&gt;PublishingExtension&lt;/c3&gt;&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170211T022646Z" creationid="95" creationdate="20170211T022646Z">
@@ -48764,6 +48824,26 @@ task myZip(type: Zip) {</seg>
 version = &lt;s1&gt;1.0&lt;/s1&gt;
 
 task myZip(type: Zip) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'ivy-publish'&lt;/s1&gt;
+
+group = &lt;s2&gt;'org.gradle.sample'&lt;/s2&gt;
+version = &lt;s3&gt;'1.0'&lt;/s3&gt;
+
+publishing {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T075059Z" creationid="95" creationdate="20170326T075059Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'ivy-publish'&lt;/s1&gt;
+
+group = &lt;s2&gt;'org.gradle.sample'&lt;/s2&gt;
+version = &lt;s3&gt;'1.0'&lt;/s3&gt;
+
+publishing {</seg>
       </tuv>
     </tu>
     <tu>
@@ -63065,6 +63145,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T152817Z" creationid="95" creationdate="20160104T152817Z">
         <seg>url &lt;s2&gt;'http://www.apache.org/licenses/LICENSE-2.0.txt'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url &lt;s4&gt;"$buildDir/repo"&lt;/s4&gt; &lt;s5&gt;// change to point to your repo, e.g. http://my.org/repo&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T075102Z" creationid="95" creationdate="20170326T075102Z">
+        <seg>url &lt;s4&gt;"$buildDir/repo"&lt;/s4&gt; &lt;s5&gt;// change to point to your repo, e.g. http://my.org/repo&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
