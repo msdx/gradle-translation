@@ -24962,6 +24962,14 @@ def dir = srcDir()</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, in the context of Ivy publication only the repositories created by the &lt;c2&gt;ivy()&lt;/c2&gt; methods can be used as publication destinations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T073651Z" creationid="95" creationdate="20170326T073651Z">
+        <seg>然而，在Ivy发布的场景中，只有通过 &lt;c2&gt;ivy()&lt;/c2&gt;方法创建的仓库才可以作为发布的指定地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, it is not visible outside the build, and so you cannot reuse the plugin outside the build it is defined in.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160818T151506Z" creationid="95" creationdate="20160818T151506Z">
@@ -35683,8 +35691,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The DSL used to declare repositories for publishing is the same DSL that is used to declare repositories for dependencies (&lt;a0&gt;&lt;c1&gt;RepositoryHandler&lt;/c1&gt;&lt;/a0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170304T033933Z" creationid="95" creationdate="20170304T033933Z">
-        <seg>The DSL used to declare repositories for publishing is the same DSL that is used to declare repositories for dependencies (&lt;a0&gt;&lt;c1&gt;RepositoryHandler&lt;/c1&gt;&lt;/a0&gt;).</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170326T073535Z" creationid="95" creationdate="20170304T033933Z">
+        <seg>定义用于发布的仓库的DSL和定义用于查找依赖的仓库的DSL一样（&lt;a0&gt;&lt;c1&gt;RepositoryHandler&lt;/c1&gt;&lt;/a0&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
