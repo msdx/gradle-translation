@@ -15636,6 +15636,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default this file is generated to &lt;c1&gt;build/publications/«&lt;s2&gt;&lt;e3&gt;NAME OF PUBLICATION&lt;/e3&gt;&lt;/s2&gt;»/ivy.xml&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T143945Z" creationid="95" creationdate="20170330T143945Z">
+        <seg>默认情况下这个文件将会生成到&lt;c1&gt;build/publications/«&lt;s2&gt;&lt;e3&gt;发布名称&lt;/e3&gt;&lt;/s2&gt;»/ivy.xml&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, Gradle caches changing modules for 24 hours.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T155047Z" creationid="95" creationdate="20151129T155047Z">
@@ -32945,6 +32953,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So in the example above where the publication is named "&lt;c8&gt;ivyJava&lt;/c8&gt;", the task will be named "&lt;c9&gt;generateDescriptorFileForIvyJavaPublication&lt;/c9&gt;".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T143808Z" creationid="95" creationdate="20170330T143808Z">
+        <seg>因此，在上面的例子中，发布的名称叫“&lt;c8&gt;ivyJava&lt;/c8&gt;”，那么这个任务的名称就会是“&lt;c9&gt;generateDescriptorFileForIvyJavaPublication&lt;/c9&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So in this example a single &lt;a5&gt;&lt;c6&gt;PublishToIvyRepository&lt;/c6&gt;&lt;/a5&gt; task is be added, named '&lt;c7&gt;publishIvyJavaPublicationToIvyRepository&lt;/c7&gt;'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170326T074844Z" creationid="95" creationdate="20170326T074844Z">
@@ -40014,8 +40030,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The “&lt;c0&gt;ivy-publish&lt;/c0&gt;” plugin automatically wires in one &lt;a1&gt;&lt;c2&gt;GenerateIvyDescriptor&lt;/c2&gt;&lt;/a1&gt; task for each registered &lt;a3&gt;&lt;c4&gt;IvyPublication&lt;/c4&gt;&lt;/a3&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170330T143537Z" creationid="95" creationdate="20170330T143537Z">
-        <seg>“&lt;c0&gt;ivy-publish&lt;/c0&gt;”插件自动为每一个注册的 &lt;a3&gt;&lt;c4&gt;IvyPublication&lt;/c4&gt;&lt;/a3&gt;连接了同一个&lt;a1&gt;&lt;c2&gt;GenerateIvyDescriptor&lt;/c2&gt;&lt;/a1&gt; 任务。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T143721Z" creationid="95" creationdate="20170330T143537Z">
+        <seg>“&lt;c0&gt;ivy-publish&lt;/c0&gt;”插件自动为每一个注册的 &lt;a3&gt;&lt;c4&gt;IvyPublication&lt;/c4&gt;&lt;/a3&gt;连接了一个&lt;a1&gt;&lt;c2&gt;GenerateIvyDescriptor&lt;/c2&gt;&lt;/a1&gt; 任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46960,6 +46976,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150428T013402Z" creationid="Administrator" creationdate="20150428T013402Z">
         <seg>你可以指定在执行了一定数量的测试类之后，重启那个测试进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can specify where the generated Ivy file will be located by setting the &lt;c0&gt;destination&lt;/c0&gt; property on the generate task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T143851Z" creationid="95" creationdate="20170330T143851Z">
+        <seg>你可以通过在生成任务上设置&lt;c0&gt;destination&lt;/c0&gt;属性，指定生成的Ivy文件位置。</seg>
       </tuv>
     </tu>
     <tu>
