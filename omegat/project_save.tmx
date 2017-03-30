@@ -12170,6 +12170,24 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle generateDescriptorFileForIvyCustomPublication
+:generateDescriptorFileForIvyCustomPublication
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T144016Z" creationid="95" creationdate="20170330T144016Z">
+        <seg>&gt; gradle generateDescriptorFileForIvyCustomPublication
+:generateDescriptorFileForIvyCustomPublication
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle hello
 :hello
 [ant:echo] Hello, from Ant
@@ -21300,6 +21318,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170211T024757Z" creationid="95" creationdate="20170211T024757Z">
         <seg>示例 64.1. 应用“ivy-publish”插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 64.10. Generating the Ivy module descriptor file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T144004Z" creationid="95" creationdate="20170330T144004Z">
+        <seg>示例 64.10. 生成Ivy模块描述符文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -30993,6 +31019,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle generateDescriptorFileForIvyCustomPublication&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T144014Z" creationid="95" creationdate="20170330T144014Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle generateDescriptorFileForIvyCustomPublication&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle hello -PskipHello&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T021027Z" creationid="msdx" creationdate="20141111T021027Z">
@@ -40032,6 +40066,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170330T143721Z" creationid="95" creationdate="20170330T143537Z">
         <seg>“&lt;c0&gt;ivy-publish&lt;/c0&gt;”插件自动为每一个注册的 &lt;a3&gt;&lt;c4&gt;IvyPublication&lt;/c4&gt;&lt;/a3&gt;连接了一个&lt;a1&gt;&lt;c2&gt;GenerateIvyDescriptor&lt;/c2&gt;&lt;/a1&gt; 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The “&lt;c0&gt;ivy-publish&lt;/c0&gt;” plugin leverages some experimental support for late plugin configuration, and the &lt;c1&gt;GenerateIvyDescriptor&lt;/c1&gt; task will not be constructed until the publishing extension is configured.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T144454Z" creationid="95" creationdate="20170330T144019Z">
+        <seg>“&lt;c0&gt;ivy-publish&lt;/c0&gt;”插件利用了后期插件配置的一些实验性的支持，并且在配置发布扩展之前，不会构造&lt;c1&gt;GenerateIvyDescriptor&lt;/c1&gt;任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -52094,6 +52136,14 @@ artifacts {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>destination = file(&lt;s0&gt;"$buildDir/generated-ivy.xml"&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T144006Z" creationid="95" creationdate="20170330T144006Z">
+        <seg>destination = file(&lt;s0&gt;"$buildDir/generated-ivy.xml"&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>destination = { project.greetingFile }
 }
 
@@ -62436,6 +62486,14 @@ task lib1 &lt;&lt; {</seg>
 }
 
 task lib1 &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tasks.generateDescriptorFileForIvyCustomPublication {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T144005Z" creationid="95" creationdate="20170330T144005Z">
+        <seg>tasks.generateDescriptorFileForIvyCustomPublication {</seg>
       </tuv>
     </tu>
     <tu>
