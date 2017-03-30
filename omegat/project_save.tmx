@@ -7992,6 +7992,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>64.6. Complete example</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T144944Z" creationid="95" creationdate="20170330T144944Z">
+        <seg>64.6. 完整的示例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163423Z" creationid="msdx" creationdate="20141109T163423Z">
@@ -17978,6 +17986,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each project publishes a java component and a configured additional source artifact.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145057Z" creationid="95" creationdate="20170330T145057Z">
+        <seg>每个项目发布一个 java 组件，以及配置额外的源码构件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each publication has a unique name within the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170211T135817Z" creationid="95" creationdate="20170211T135817Z">
@@ -21326,6 +21342,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170330T144004Z" creationid="95" creationdate="20170330T144004Z">
         <seg>示例 64.10. 生成Ivy模块描述符文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 64.11. Publishing a java module</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145144Z" creationid="95" creationdate="20170330T145144Z">
+        <seg>示例 64.11. 发布一个 java 模块</seg>
       </tuv>
     </tu>
     <tu>
@@ -37982,6 +38006,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The descriptor file is customized to include the project description for each project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145120Z" creationid="95" creationdate="20170330T145120Z">
+        <seg>自定描述符，以包含每一个项目的项目描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The desired artifact belongs to a configuration other than &lt;c0&gt;default&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150730T035145Z" creationid="haohang" creationdate="20150730T035145Z">
@@ -38354,6 +38386,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161215T143946Z" creationid="95" creationdate="20161215T143853Z">
         <seg>下面的示例将添加到前面的示例中，并使用init 脚本classpath中的类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following example demonstrates publishing with a multi-project build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145035Z" creationid="95" creationdate="20170330T144947Z">
+        <seg>下面的例子演示了如何使用在多项目构建中进行发布。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39494,6 +39534,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The result is that the following artifacts will be published for each project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T153801Z" creationid="95" creationdate="20170330T145246Z">
+        <seg>其结果是将为每个项目发表以下构件︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The result of resolving a dynamic version (e.g. &lt;c0&gt;1.+&lt;/c0&gt;) to a concrete version (e.g. &lt;c1&gt;1.2&lt;/c1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T044929Z" creationid="95" creationdate="20151129T044929Z">
@@ -39570,6 +39618,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161219T150133Z" creationid="95" creationdate="20161219T150133Z">
         <seg>同样原Gradle构建，同样的版本，但是比较构建前后的变化（即测试构建产生的更改）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The same applies to any attempt to access publication-specific tasks like &lt;a0&gt;&lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T144922Z" creationid="95" creationdate="20170330T144733Z">
+        <seg>这同样适用于任何发布相关的任务的访问，像&lt;a0&gt;&lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40906,6 +40962,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="Administrator" changedate="20150425T074210Z" creationid="Administrator" creationdate="20150425T074210Z">
         <seg>这些源文件可能包括 Java 源代码文件和资源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These tasks should be referenced from within a &lt;c2&gt;publishing&lt;/c2&gt; block.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T144937Z" creationid="95" creationdate="20170330T144937Z">
+        <seg>这些任务应该从&lt;c2&gt;publishing&lt;/c2&gt;代码块内引用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49178,6 +49242,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s1&gt;'ivy-publish'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145155Z" creationid="95" creationdate="20170330T145155Z">
+        <seg>apply plugin: &lt;s1&gt;'ivy-publish'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s3&gt;"cpp"&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160325T033440Z" creationid="haohang" creationdate="20160325T033440Z">
@@ -49578,6 +49650,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170304T031120Z" creationid="95" creationdate="20170304T031120Z">
         <seg>asNode().info[&lt;s0&gt;0&lt;/s0&gt;].appendNode(&lt;s1&gt;'description'&lt;/s1&gt;, &lt;s2&gt;'A demonstration of ivy descriptor customization'&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>asNode().info[&lt;s16&gt;0&lt;/s16&gt;].appendNode(&lt;s17&gt;'description'&lt;/s17&gt;, description)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145244Z" creationid="95" creationdate="20170330T145244Z">
+        <seg>asNode().info[&lt;s16&gt;0&lt;/s16&gt;].appendNode(&lt;s17&gt;'description'&lt;/s17&gt;, description)</seg>
       </tuv>
     </tu>
     <tu>
@@ -50324,6 +50404,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>classifier &lt;s4&gt;"source"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145200Z" creationid="95" creationdate="20170330T145200Z">
+        <seg>classifier &lt;s4&gt;"source"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>classifier = &lt;s4&gt;'src'&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141113T155802Z" creationid="msdx" creationdate="20141113T155802Z">
@@ -50686,6 +50774,14 @@ task resources &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile &lt;s11&gt;'commons-collections:commons-collections:3.1'&lt;/s11&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145221Z" creationid="95" creationdate="20170330T145221Z">
+        <seg>compile &lt;s11&gt;'commons-collections:commons-collections:3.1'&lt;/s11&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile &lt;s2&gt;'org.codehaus.groovy:groovy-all:2.2.0'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141030T065506Z" creationid="msdx" creationdate="20141030T065506Z">
@@ -50698,6 +50794,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160722T091246Z" creationid="haohang" creationdate="20160722T091246Z">
         <seg>compile &lt;s4&gt;"javax.servlet:servlet-api:2.5"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile &lt;s7&gt;'junit:junit:4.11'&lt;/s7&gt;, project(&lt;s8&gt;':project2'&lt;/s8&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145206Z" creationid="95" creationdate="20170330T145206Z">
+        <seg>compile &lt;s7&gt;'junit:junit:4.11'&lt;/s7&gt;, project(&lt;s8&gt;':project2'&lt;/s8&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -50930,6 +51034,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151129T041818Z" creationid="95" creationdate="20151129T041818Z">
         <seg>components {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>conf &lt;s15&gt;"runtime"&lt;/s15&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145241Z" creationid="95" creationdate="20170330T145241Z">
+        <seg>conf &lt;s15&gt;"runtime"&lt;/s15&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -52066,6 +52178,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>description = &lt;s10&gt;"The second project"&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145216Z" creationid="95" creationdate="20170330T145216Z">
+        <seg>description = &lt;s10&gt;"The second project"&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>description = &lt;s1&gt;'compile classpath'&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -52086,6 +52206,14 @@ uploadArchives {</seg>
 &lt;s22&gt;//      libraryDirectory = "APP-INF/lib"  // not needed, because setting libDirName above did this for us&lt;/s22&gt;
 &lt;s23&gt;//      module("my.jar", "java")  // wouldn't deploy since my.jar isn't a deploy dependency&lt;/s23&gt;
 &lt;s24&gt;//      webModule("my.war", "/")  // wouldn't deploy since my.war isn't a deploy dependency&lt;/s24&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>description = &lt;s6&gt;"The first project"&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145204Z" creationid="95" creationdate="20170330T145204Z">
+        <seg>description = &lt;s6&gt;"The first project"&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -54110,6 +54238,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160722T091241Z" creationid="haohang" creationdate="20160722T091241Z">
         <seg>group = &lt;s1&gt;'org.gradle.sample'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>group = &lt;s3&gt;'org.gradle.sample'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145159Z" creationid="95" creationdate="20170330T145159Z">
+        <seg>group = &lt;s3&gt;'org.gradle.sample'&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -63213,6 +63349,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>type &lt;s14&gt;"source"&lt;/s14&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145240Z" creationid="95" creationdate="20170330T145240Z">
+        <seg>type &lt;s14&gt;"source"&lt;/s14&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>type &lt;s1&gt;"source"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072611Z" creationid="haohang" creationdate="20170216T072611Z">
@@ -63305,6 +63449,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T133233Z" creationid="95" creationdate="20151006T133233Z">
         <seg>url &lt;s0&gt;'http://repo.mycompany.com'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url &lt;s12&gt;"${rootProject.buildDir}/repo"&lt;/s12&gt; &lt;s13&gt;// change to point to your repo, e.g. http://my.org/repo&lt;/s13&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145238Z" creationid="95" creationdate="20170330T145238Z">
+        <seg>url &lt;s12&gt;"${rootProject.buildDir}/repo"&lt;/s12&gt; &lt;s13&gt;// change to point to your repo, e.g. http://my.org/repo&lt;/s13&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -64214,6 +64366,20 @@ project(&lt;s4&gt;':api'&lt;/s4&gt;) {</seg>
         <seg>}
 }
 
+project(&lt;s5&gt;":project1"&lt;/s5&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145202Z" creationid="95" creationdate="20170330T145202Z">
+        <seg>}
+}
+
+project(&lt;s5&gt;":project1"&lt;/s5&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
 project(&lt;s6&gt;':services:personService'&lt;/s6&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083850Z" creationid="haohang" creationdate="20160726T083850Z">
@@ -64235,6 +64401,34 @@ project(&lt;s7&gt;':services:personService'&lt;/s7&gt;) {</seg>
 }
 
 project(&lt;s7&gt;':services:personService'&lt;/s7&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+project(&lt;s9&gt;":project2"&lt;/s9&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145208Z" creationid="95" creationdate="20170330T145208Z">
+        <seg>}
+}
+
+project(&lt;s9&gt;":project2"&lt;/s9&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+subprojects {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T145232Z" creationid="95" creationdate="20170330T145232Z">
+        <seg>}
+}
+
+subprojects {</seg>
       </tuv>
     </tu>
     <tu>
