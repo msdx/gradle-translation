@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.0" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.1" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -40012,6 +40012,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The “&lt;c0&gt;ivy-publish&lt;/c0&gt;” plugin automatically wires in one &lt;a1&gt;&lt;c2&gt;GenerateIvyDescriptor&lt;/c2&gt;&lt;/a1&gt; task for each registered &lt;a3&gt;&lt;c4&gt;IvyPublication&lt;/c4&gt;&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T143537Z" creationid="95" creationdate="20170330T143537Z">
+        <seg>“&lt;c0&gt;ivy-publish&lt;/c0&gt;”插件自动为每一个注册的 &lt;a3&gt;&lt;c4&gt;IvyPublication&lt;/c4&gt;&lt;/a3&gt;连接了同一个&lt;a1&gt;&lt;c2&gt;GenerateIvyDescriptor&lt;/c2&gt;&lt;/a1&gt; 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The “&lt;c0&gt;ivy-publish&lt;/c0&gt;” plugin provides a hook to allow such modification.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170304T031059Z" creationid="95" creationdate="20170304T031059Z">
@@ -42576,6 +42584,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160814T145453Z" creationid="95" creationdate="20160814T145410Z">
         <seg>这个任务没有进行任何有用的操作，所以让我们来添加一些行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This task is given a name based on the name of the publication: "&lt;c5&gt;generateDescriptorFileFor«&lt;s6&gt;&lt;e7&gt;NAME OF PUBLICATION&lt;/e7&gt;&lt;/s6&gt;»Publication&lt;/c5&gt;".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170330T143715Z" creationid="95" creationdate="20170330T143715Z">
+        <seg>这个任务被指定为一个基于发布的名称的名字：“&lt;c5&gt;generateDescriptorFileFor«&lt;s6&gt;&lt;e7&gt;发布名称&lt;/e7&gt;&lt;/s6&gt;»Publication&lt;/c5&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
