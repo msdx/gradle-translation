@@ -2406,6 +2406,14 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/publish/maven/tasks/PublishToMavenLocal.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170412T153402Z" creationid="95" creationdate="20170412T153402Z">
+        <seg>../javadoc/org/gradle/api/publish/maven/tasks/PublishToMavenLocal.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/tasks/JavaExec.html#setDebug(boolean)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150702T103936Z" creationid="haohang" creationdate="20150702T103936Z">
@@ -18472,8 +18480,16 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Establishes a rule to automatically create a &lt;a0&gt;&lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt; task for the combination of each &lt;a2&gt;&lt;c3&gt;IvyPublication&lt;/c3&gt;&lt;/a2&gt; added (see &lt;a4&gt;Section 64.2, “Publications”&lt;/a4&gt;), with each &lt;a5&gt;&lt;c6&gt;IvyArtifactRepository&lt;/c6&gt;&lt;/a5&gt; added (see &lt;a7&gt;Section 64.3, “Repositories”&lt;/a7&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170211T135024Z" creationid="95" creationdate="20170211T134011Z">
-        <seg>建立一个规则来为每个添加的&lt;a2&gt;&lt;c3&gt;IvyPublication&lt;/c3&gt; &lt;/a2&gt;自动创建 &lt;a0&gt; &lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt;任务（见&lt;a4&gt;第 64.2 节，“发布”&lt;/a4&gt;）。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170412T153354Z" creationid="95" creationdate="20170211T134011Z">
+        <seg>建立一个规则来为添加的每一个&lt;a2&gt;&lt;c3&gt;IvyPublication&lt;/c3&gt; &lt;/a2&gt;（见&lt;a4&gt;第 64.2 节，“发布”&lt;/a4&gt;）和&lt;a5&gt;&lt;c6&gt;IvyArtifactRepository&lt;/c6&gt;&lt;/a5&gt;（见&lt;a4&gt;第 64.3 节，“仓库”&lt;/a4&gt;）的组件自动创建 &lt;a0&gt; &lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Establishes a rule to automatically create a &lt;a0&gt;&lt;c1&gt;PublishToMavenLocal&lt;/c1&gt;&lt;/a0&gt; task for each &lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt;&lt;/a2&gt; added (see&lt;a4&gt;Section 65.2, “Publications”&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170412T153427Z" creationid="95" creationdate="20170412T153427Z">
+        <seg>建立一个规则来为每个添加的&lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt; &lt;/a2&gt;自动创建 &lt;a0&gt; &lt;c1&gt;PublishToMavenLocal&lt;/c1&gt;&lt;/a0&gt;任务（见&lt;a4&gt;第 65.2 节，“发布”&lt;/a4&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
