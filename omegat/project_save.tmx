@@ -8072,6 +8072,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>65.2.3. Identity values in the generated POM</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170412T154922Z" creationid="95" creationdate="20170412T154922Z">
+        <seg>64.2.3. 生成的POM中的Identity 值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>65.2. Publications</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170412T153434Z" creationid="95" creationdate="20170412T153434Z">
@@ -21742,6 +21750,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 65.3. Adding additional artifact to a MavenPublication</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170412T154828Z" creationid="95" creationdate="20170412T154828Z">
+        <seg>示例65.3. 向MavenPublication 增加额外的构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -32887,6 +32903,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;&lt;c1&gt;MavenPublication&lt;/c1&gt;&lt;/a0&gt; for more detailed documentation on how artifacts can be customized.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170412T154858Z" creationid="95" creationdate="20170412T154845Z">
+        <seg>关于如何自定义构件的更详细的文档，请参阅&lt;a0&gt;&lt;c1&gt;MavenPublication&lt;/c1&gt;&lt;/a0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;&lt;c1&gt;PmdExtension&lt;/c1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T135820Z" creationid="msdx" creationdate="20150505T135820Z">
@@ -37765,6 +37789,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141115T153223Z" creationid="msdx" creationdate="20141115T153223Z">
         <seg>Ant 任务的属性会作为 Map 参数传给该方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The attributes of the generated &lt;c0&gt;POM&lt;/c0&gt; file will contain identity values derived from the following project properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170412T155023Z" creationid="95" creationdate="20170412T155023Z">
+        <seg>The attributes of the generated &lt;c0&gt;POM&lt;/c0&gt; file will contain identity values derived from the following project properties:</seg>
       </tuv>
     </tu>
     <tu>
@@ -49994,6 +50026,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>artifact sourceJar {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170412T154832Z" creationid="95" creationdate="20170412T154832Z">
+        <seg>artifact sourceJar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifact(sourceJar) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072608Z" creationid="haohang" creationdate="20170216T072608Z">
@@ -50892,6 +50932,14 @@ task resources &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170216T072606Z" creationid="haohang" creationdate="20170216T072606Z">
         <seg>classifier &lt;s0&gt;"source"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classifier &lt;s0&gt;"sources"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170412T154843Z" creationid="95" creationdate="20170412T154843Z">
+        <seg>classifier &lt;s0&gt;"sources"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -54118,6 +54166,20 @@ println myZip.archiveName</seg>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150428T083429Z" creationid="msdx" creationdate="20150428T083429Z">
         <seg>from sourceSets.intTest.output
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from sourceSets.main.allJava
+}
+
+publishing {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170412T154830Z" creationid="95" creationdate="20170412T154830Z">
+        <seg>from sourceSets.main.allJava
+}
+
+publishing {</seg>
       </tuv>
     </tu>
     <tu>
