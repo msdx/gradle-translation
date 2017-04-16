@@ -8128,6 +8128,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>65.5. Publishing to Maven Local</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063555Z" creationid="95" creationdate="20170416T063555Z">
+        <seg>65.5. 发布到Maven本地库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163423Z" creationid="msdx" creationdate="20141109T163423Z">
@@ -18364,6 +18372,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each of these tasks is wired into the &lt;c6&gt;publishToMavenLocal&lt;/c6&gt; lifecycle task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063848Z" creationid="95" creationdate="20170416T063848Z">
+        <seg>所有这些任务都被连线到&lt;c6&gt;publishToMavenLocal&lt;/c6&gt;生命周期任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each project in the hierarchy has its own project configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150512T091256Z" creationid="msdx" creationdate="20150512T091256Z">
@@ -23332,6 +23348,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For integration with a local Maven installation, it is sometimes useful to publish the module into the local .m2 repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063638Z" creationid="95" creationdate="20170416T063638Z">
+        <seg>与本地的 Maven 安装集成，有时很有用，比如把模块发布到本地的.m2 存储库中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For local developer builds this is our favorite property.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141119T153652Z" creationid="msdx" creationdate="20141119T153652Z">
@@ -27256,6 +27280,14 @@ def dir = srcDir()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150716T073915Z" creationid="haohang" creationdate="20150716T073915Z">
         <seg>在 Java 中，没有标准的方法来告诉 JVM 你使用的是 3.0.5 版本的 Hibernate，也没有标准的方法来表明 &lt;c0&gt;foo-1.0.jar&lt;/c0&gt; 依赖于 &lt;c1&gt;bar-2.0.jar&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In Maven parlance, this is referred to as 'installing' the module.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063711Z" creationid="95" creationdate="20170416T063711Z">
+        <seg>在 Maven 的说法中，这叫做“安装”模块。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40876,6 +40908,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170416T063150Z" creationid="95" creationdate="20170416T063150Z">
         <seg>对每一个在 &lt;c7&gt;publishing.publications&lt;/c7&gt; 和 &lt;c8&gt;publishing.repositories&lt;/c8&gt; 容器中分别组合的&lt;a3&gt;&lt;c4&gt;MavenPublication&lt;/c4&gt;&lt;/a3&gt; 和 &lt;a5&gt;&lt;c6&gt;MavenArtifactRepository&lt;/c6&gt;&lt;/a5&gt;，“&lt;c0&gt;maven-publish&lt;/c0&gt;” 插件自动为它们创建了一个 &lt;a1&gt;&lt;c2&gt;PublishToMavenRepository&lt;/c2&gt;&lt;/a1&gt; 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The “&lt;c0&gt;maven-publish&lt;/c0&gt;” plugin makes this easy to do by automatically creating a &lt;a1&gt;&lt;c2&gt;PublishToMavenLocal&lt;/c2&gt;&lt;/a1&gt; task for each &lt;a3&gt;&lt;c4&gt;MavenPublication&lt;/c4&gt;&lt;/a3&gt; in the &lt;c5&gt;publishing.publications&lt;/c5&gt; container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063824Z" creationid="95" creationdate="20170416T063824Z">
+        <seg>对每一个在 &lt;c5&gt;publishing.publications&lt;/c5&gt; 容器的&lt;a3&gt;&lt;c4&gt;MavenPublication&lt;/c4&gt;&lt;/a3&gt; ，“&lt;c0&gt;maven-publish&lt;/c0&gt;” 插件自动为它们创建了一个 &lt;a1&gt;&lt;c2&gt;PublishToMavenLocal&lt;/c2&gt;&lt;/a1&gt; 任务。</seg>
       </tuv>
     </tu>
     <tu>
