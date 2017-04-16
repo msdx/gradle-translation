@@ -8136,6 +8136,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>65.6. Generating the POM file without publishing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T064348Z" creationid="95" creationdate="20170416T064348Z">
+        <seg>65.6. 不发布的情况下生成POM文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163423Z" creationid="msdx" creationdate="20141109T163423Z">
@@ -15354,6 +15362,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At times it is useful to generate a Maven POM file for a module without actually publishing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T064435Z" creationid="95" creationdate="20170416T064435Z">
+        <seg>有时候，我们会需要在实际 上不发布的情况下，生成一个模块的Maven POM文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At times it is useful to generate the Ivy module descriptor file (normally &lt;c0&gt;ivy.xml&lt;/c0&gt;) without publishing your module to an Ivy repository.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170326T084203Z" creationid="95" creationdate="20170326T084056Z">
@@ -22046,6 +22062,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170416T063545Z" creationid="95" creationdate="20170416T063545Z">
         <seg>执行&lt;c4&gt;gradle publish&lt;/c4&gt;会构建 POM 文件和所有用于发布的构件，并将它们传输到仓库中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Executing &lt;c4&gt;gradle publishToMavenLocal&lt;/c4&gt; builds the POM file and all of the artifacts to be published, and 'installs' them into the local Maven repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T064330Z" creationid="95" creationdate="20170416T064243Z">
+        <seg>执行&lt;c4&gt;gradle publishToMavenLocal&lt;/c4&gt;会构建 POM 文件和所有要发布的构件，并将它们“installs”到本地Maven仓库中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33611,6 +33635,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since POM generation is performed by a separate task, it is very easy to do so.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T064503Z" creationid="95" creationdate="20170416T064503Z">
+        <seg>由于POM的生成是由一个单独的任务执行的，所以这很容易实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since descriptor file generation is performed by a separate task, this is very easy to do.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170326T084235Z" creationid="95" creationdate="20170326T084235Z">
@@ -43626,6 +43658,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170416T063458Z" creationid="95" creationdate="20170416T063458Z">
         <seg>这个任务会被连接到 &lt;c3&gt;publish&lt;/c3&gt; 生命周期任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This task is wired into the &lt;c3&gt;publishToMavenLocal&lt;/c3&gt; lifecycle task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T064252Z" creationid="95" creationdate="20170416T064242Z">
+        <seg>这个任务被连线到&lt;c3&gt;publishToMavenLocal&lt;/c3&gt;生命周期任务。</seg>
       </tuv>
     </tu>
     <tu>
