@@ -8080,6 +8080,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>65.2.4. Modifying the generated POM</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T033032Z" creationid="95" creationdate="20170416T033032Z">
+        <seg>65.2.4. 修改生成的 POM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>65.2. Publications</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170412T153434Z" creationid="95" creationdate="20170412T153434Z">
@@ -15262,6 +15270,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At times, the POM file generated from the project information will need to be tweaked before publishing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T033043Z" creationid="95" creationdate="20170416T033043Z">
+        <seg>有时候，从项目信息生成的POM文件可能需要在发布之前进行一些调整。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At times, the module descriptor file generated from the project information will need to be tweaked before publishing.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170304T031038Z" creationid="95" creationdate="20170304T030332Z">
@@ -21798,6 +21814,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 65.5. Modifying the POM file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T033105Z" creationid="95" creationdate="20170416T033105Z">
+        <seg>示例 65.5. 修改 POM 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -22394,6 +22418,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150807T095712Z" creationid="haohang" creationdate="20150807T095712Z">
         <seg>Flat 目录仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For 'version' (as well as artifact 'extension' and 'classifier'), Gradle will handle any valid Unicode character.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032932Z" creationid="95" creationdate="20170416T032932Z">
+        <seg>对于“version”（以及artifact的“extension”和“classifer”），Gradle将处理任何有效的Unicode字符。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27851,6 +27883,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T094923Z" creationid="haohang" creationdate="20160726T094923Z">
         <seg>在这个例子中 :services:personservice 同时依赖于 :api 和 :shared。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this example we are adding a 'description' element for the generated POM. With this hook, you can modify any aspect of the POM. For example, you could replace the version range for a dependency with the actual version used to produce the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062314Z" creationid="95" creationdate="20170416T033110Z">
+        <seg>在这个例子中我们添加了一个用于生成的 POM 的“描述”元素。这个钩，你可以修改 POM 的任何方面。例如，您可以替换用于生产生成的实际版本依赖项的版本范围。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34113,6 +34153,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Supplied values are validated early in publication.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T033025Z" creationid="95" creationdate="20170416T033025Z">
+        <seg>这些提供的值会在发布之前进行验证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Supply personal information about the user that is required by the build, such as repository or database authentication credentials.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20161214T142737Z" creationid="95" creationdate="20161214T142733Z">
@@ -39514,6 +39562,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The only Unicode values that are explicitly prohibited are '&lt;c0&gt;\&lt;/c0&gt;', '&lt;c1&gt;/&lt;/c1&gt;' and any ISO control character.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T033007Z" creationid="95" creationdate="20170416T033007Z">
+        <seg>唯一明确禁止使用的Unicode字符是“&lt;c0&gt;\&lt;/c0&gt;”，“&lt;c1&gt;/&lt;/c1&gt;”以及所有的ISO控制字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The only difference is the pattern, which is &lt;c12&gt;org.gradle.project.&lt;e13&gt;&lt;c14&gt;propertyName&lt;/c14&gt;&lt;/e13&gt;&lt;/c12&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T150021Z" creationid="msdx" creationdate="20141109T150021Z">
@@ -40670,6 +40726,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170304T031059Z" creationid="95" creationdate="20170304T031059Z">
         <seg>“&lt;c0&gt;ivy-publish&lt;/c0&gt;”插件提供了一个hook以允许这一类的修改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The “&lt;c0&gt;maven-publish&lt;/c0&gt;” plugin provides a hook to allow such modification.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T033057Z" creationid="95" creationdate="20170416T033057Z">
+        <seg>“&lt;c0&gt;maven-publish&lt;/c0&gt;”插件提供了一个hook以允许这一类的修改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -50242,6 +50306,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>asNode().appendNode(&lt;s0&gt;'description'&lt;/s0&gt;, &lt;s1&gt;'A demonstration of maven POM customization'&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T033108Z" creationid="95" creationdate="20170416T033108Z">
+        <seg>asNode().appendNode(&lt;s0&gt;'description'&lt;/s0&gt;, &lt;s1&gt;'A demonstration of maven POM customization'&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>asNode().info[&lt;s0&gt;0&lt;/s0&gt;].appendNode(&lt;s1&gt;'description'&lt;/s1&gt;, &lt;s2&gt;'A demonstration of ivy descriptor customization'&lt;/s2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170304T031120Z" creationid="95" creationdate="20170304T031120Z">
@@ -57506,6 +57578,14 @@ task showRepos &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>mavenCustom(MavenPublication) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T033106Z" creationid="95" creationdate="20170416T033106Z">
+        <seg>mavenCustom(MavenPublication) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>mavenDeployer {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160104T154208Z" creationid="95" creationdate="20160104T154208Z">
@@ -58712,6 +58792,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160106T142733Z" creationid="95" creationdate="20160106T142733Z">
         <seg>pom.version = &lt;s1&gt;'1.0Maven'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pom.withXml {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T033107Z" creationid="95" creationdate="20170416T033107Z">
+        <seg>pom.withXml {</seg>
       </tuv>
     </tu>
     <tu>
