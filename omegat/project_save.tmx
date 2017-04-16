@@ -8120,6 +8120,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>65.4. Performing a publish</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063014Z" creationid="95" creationdate="20170416T063014Z">
+        <seg>65.4. 执行发布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141109T163423Z" creationid="msdx" creationdate="20141109T163423Z">
@@ -12643,6 +12651,36 @@ Total time: 1 secs</seg>
 :classes UP-TO-DATE
 :jar
 :publishIvyJavaPublicationToIvyRepository
+:publish
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle publish
+:generatePomFileForMavenJavaPublication
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar
+:publishMavenJavaPublicationToMavenRepository
+:publish
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063219Z" creationid="95" creationdate="20170416T063219Z">
+        <seg>&gt; gradle publish
+:generatePomFileForMavenJavaPublication
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar
+:publishMavenJavaPublicationToMavenRepository
 :publish
 
 BUILD SUCCESSFUL
@@ -21862,6 +21900,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 65.8. Publishing a project to a Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063214Z" creationid="95" creationdate="20170416T063214Z">
+        <seg>示例 65.8. 发布项目到 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -21938,6 +21984,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T153834Z" creationid="msdx" creationdate="20141105T153834Z">
         <seg>执行忽略依赖关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Executing &lt;c4&gt;gradle publish&lt;/c4&gt; builds the POM file and all of the artifacts to be published, and transfers them to the repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063545Z" creationid="95" creationdate="20170416T063545Z">
+        <seg>执行&lt;c4&gt;gradle publish&lt;/c4&gt;会构建 POM 文件和所有用于发布的构件，并将它们传输到仓库中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25604,8 +25658,8 @@ def dir = srcDir()</seg>
       <tuv lang="EN-US">
         <seg>However, in the context of Maven publication only &lt;a2&gt;&lt;c3&gt;MavenArtifactRepository&lt;/c3&gt;&lt;/a2&gt; repositories can be used for publication.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062928Z" creationid="95" creationdate="20170416T062928Z">
-        <seg>然而，在 Maven publication的上下文中只有&lt;a2&gt;&lt;c3&gt;MavenArtifactRepository&lt;/c3&gt;&lt;/a2&gt;资料库可以用于出版物。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063345Z" creationid="95" creationdate="20170416T062928Z">
+        <seg>然而，在Maven 发布的场景中，只有&lt;a2&gt;&lt;c3&gt;MavenArtifactRepository()&lt;/c3&gt;&lt;/a2&gt;仓库才可以用于发布。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33583,6 +33637,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So in this example a single &lt;a0&gt;&lt;c1&gt;PublishToMavenRepository&lt;/c1&gt;&lt;/a0&gt; task is be added, named '&lt;c2&gt;publishMavenJavaPublicationToMavenRepository&lt;/c2&gt;'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063409Z" creationid="95" creationdate="20170416T063222Z">
+        <seg>因此，在下面的例子中，添加了一个 &lt;a0&gt;&lt;c1&gt;PublishToMavenRepository&lt;/c1&gt;&lt;/a0&gt; 任务，名字叫做“&lt;c2&gt;publishMavenJavaPublicationToMavenRepository&lt;/c2&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So in this example a single &lt;a5&gt;&lt;c6&gt;PublishToIvyRepository&lt;/c6&gt;&lt;/a5&gt; task is be added, named '&lt;c7&gt;publishIvyJavaPublicationToIvyRepository&lt;/c7&gt;'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170326T074844Z" creationid="95" creationdate="20170326T074844Z">
@@ -40810,6 +40872,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The “&lt;c0&gt;maven-publish&lt;/c0&gt;” plugin automatically creates a &lt;a1&gt;&lt;c2&gt;PublishToMavenRepository&lt;/c2&gt;&lt;/a1&gt; task for each &lt;a3&gt;&lt;c4&gt;MavenPublication&lt;/c4&gt;&lt;/a3&gt; and &lt;a5&gt;&lt;c6&gt;MavenArtifactRepository&lt;/c6&gt;&lt;/a5&gt; combination in the &lt;c7&gt;publishing.publications&lt;/c7&gt; and &lt;c8&gt;publishing.repositories&lt;/c8&gt; containers respectively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063150Z" creationid="95" creationdate="20170416T063150Z">
+        <seg>对每一个在 &lt;c7&gt;publishing.publications&lt;/c7&gt; 和 &lt;c8&gt;publishing.repositories&lt;/c8&gt; 容器中分别组合的&lt;a3&gt;&lt;c4&gt;MavenPublication&lt;/c4&gt;&lt;/a3&gt; 和 &lt;a5&gt;&lt;c6&gt;MavenArtifactRepository&lt;/c6&gt;&lt;/a5&gt;，“&lt;c0&gt;maven-publish&lt;/c0&gt;” 插件自动为它们创建了一个 &lt;a1&gt;&lt;c2&gt;PublishToMavenRepository&lt;/c2&gt;&lt;/a1&gt; 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The “&lt;c0&gt;maven-publish&lt;/c0&gt;” plugin provides a hook to allow such modification.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170416T062325Z" creationid="95" creationdate="20170416T033057Z">
@@ -43446,6 +43516,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T072552Z" creationid="haohang" creationdate="20150625T072552Z">
         <seg>此任务仅添加到根项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This task is wired into the &lt;c3&gt;publish&lt;/c3&gt; lifecycle task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063458Z" creationid="95" creationdate="20170416T063458Z">
+        <seg>这个任务会被连接到 &lt;c3&gt;publish&lt;/c3&gt; 生命周期任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49811,6 +49889,26 @@ publishing {</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170326T075059Z" creationid="95" creationdate="20170326T075059Z">
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
 apply plugin: &lt;s1&gt;'ivy-publish'&lt;/s1&gt;
+
+group = &lt;s2&gt;'org.gradle.sample'&lt;/s2&gt;
+version = &lt;s3&gt;'1.0'&lt;/s3&gt;
+
+publishing {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'maven-publish'&lt;/s1&gt;
+
+group = &lt;s2&gt;'org.gradle.sample'&lt;/s2&gt;
+version = &lt;s3&gt;'1.0'&lt;/s3&gt;
+
+publishing {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T063216Z" creationid="95" creationdate="20170416T063216Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'maven-publish'&lt;/s1&gt;
 
 group = &lt;s2&gt;'org.gradle.sample'&lt;/s2&gt;
 version = &lt;s3&gt;'1.0'&lt;/s3&gt;
