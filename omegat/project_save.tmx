@@ -12496,6 +12496,24 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle generatePomFileForMavenCustomPublication
+:generatePomFileForMavenCustomPublication
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T064818Z" creationid="95" creationdate="20170416T064818Z">
+        <seg>&gt; gradle generatePomFileForMavenCustomPublication
+:generatePomFileForMavenCustomPublication
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle hello
 :hello
 [ant:echo] Hello, from Ant
@@ -14094,6 +14112,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150504T141319Z" creationid="msdx" creationdate="20150504T141319Z">
         <seg>所有在 &lt;c5&gt;earlib&lt;/c5&gt; 配置的依赖都放在 EAR 文件的“lib”目录中，并且是 &lt;s6&gt;&lt;e7&gt;可&lt;/e7&gt;&lt;/s6&gt; 传递的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All details of the publishing model are still considered in POM generation, including &lt;c0&gt;components&lt;/c0&gt;`, custom &lt;c1&gt;artifacts&lt;/c1&gt;, and any modifications made via &lt;c2&gt;pom.withXml&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T065116Z" creationid="95" creationdate="20170416T064824Z">
+        <seg>发布模型的所有细节仍然要在 POM 生成中考虑，包括&lt;c0&gt;compon&lt;/c0&gt;'，自定义&lt;c1&gt;artifacts&lt;/c1&gt;，以及通过&lt;c2&gt;pom.withXml&lt;/c2&gt;所做的任何修改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21910,6 +21936,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170412T152701Z" creationid="95" creationdate="20170412T152701Z">
         <seg>示例 65.1. 应用“maven-publish”插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 65.10. Generate a POM file without publishing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T064804Z" creationid="95" creationdate="20170416T064804Z">
+        <seg>示例 65.10. 不发布的情况下生成POM文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -31731,6 +31765,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle generatePomFileForMavenCustomPublication&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T064817Z" creationid="95" creationdate="20170416T064807Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle generatePomFileForMavenCustomPublication&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle hello -PskipHello&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T021027Z" creationid="msdx" creationdate="20141111T021027Z">
@@ -41018,6 +41060,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170416T063150Z" creationid="95" creationdate="20170416T063150Z">
         <seg>对每一个在 &lt;c7&gt;publishing.publications&lt;/c7&gt; 和 &lt;c8&gt;publishing.repositories&lt;/c8&gt; 容器中分别组合的&lt;a3&gt;&lt;c4&gt;MavenPublication&lt;/c4&gt;&lt;/a3&gt; 和 &lt;a5&gt;&lt;c6&gt;MavenArtifactRepository&lt;/c6&gt;&lt;/a5&gt;，“&lt;c0&gt;maven-publish&lt;/c0&gt;” 插件自动为它们创建了一个 &lt;a1&gt;&lt;c2&gt;PublishToMavenRepository&lt;/c2&gt;&lt;/a1&gt; 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The “&lt;c0&gt;maven-publish&lt;/c0&gt;” plugin leverages some experimental support for late plugin configuration, and any &lt;c1&gt;GenerateMavenPom&lt;/c1&gt; tasks will not be constructed until the publishing extension is configured.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T065142Z" creationid="95" creationdate="20170416T065142Z">
+        <seg>“&lt;c0&gt;maven-publish&lt;/c0&gt;”插件利用了后期插件配置的一些实验性的支持，并且在配置发布扩展之前，不会构造&lt;c1&gt;GenerateMavenPom&lt;/c1&gt;任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -53340,6 +53390,14 @@ artifacts {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>destination = file(&lt;s0&gt;"$buildDir/generated-pom.xml"&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T064810Z" creationid="95" creationdate="20170416T064806Z">
+        <seg>destination = file(&lt;s0&gt;"$buildDir/generated-pom.xml"&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>destination = { project.greetingFile }
 }
 
@@ -63816,6 +63874,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170330T144005Z" creationid="95" creationdate="20170330T144005Z">
         <seg>tasks.generateDescriptorFileForIvyCustomPublication {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tasks.generatePomFileForMavenCustomPublication {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T064805Z" creationid="95" creationdate="20170416T064805Z">
+        <seg>tasks.generatePomFileForMavenCustomPublication {</seg>
       </tuv>
     </tu>
     <tu>
