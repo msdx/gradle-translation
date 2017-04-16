@@ -1206,6 +1206,14 @@ int suite_init(void) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.publish.maven.MavenPom.html#org.gradle.api.publish.maven.MavenPom:withXml(org.gradle.api.Action)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062432Z" creationid="95" creationdate="20170416T062432Z">
+        <seg>../dsl/org.gradle.api.publish.maven.MavenPom.html#org.gradle.api.publish.maven.MavenPom:withXml(org.gradle.api.Action)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.publish.maven.MavenPublication.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170412T152514Z" creationid="95" creationdate="20170412T152514Z">
@@ -27889,8 +27897,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>In this example we are adding a 'description' element for the generated POM. With this hook, you can modify any aspect of the POM. For example, you could replace the version range for a dependency with the actual version used to produce the build.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062314Z" creationid="95" creationdate="20170416T033110Z">
-        <seg>在这个例子中我们添加了一个用于生成的 POM 的“描述”元素。这个钩，你可以修改 POM 的任何方面。例如，您可以替换用于生产生成的实际版本依赖项的版本范围。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062431Z" creationid="95" creationdate="20170416T033110Z">
+        <seg>在这个例子中我们添加了一个用于生成的 POM 的“描述”元素。通过这个钩子，你可以修改 POM 的任何方面的内容。例如，你可以使用生产构建的实际版本号来替换依赖的版本范围。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28675,6 +28683,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141111T013941Z" creationid="msdx" creationdate="20141111T013939Z">
         <seg>它是可以独立地执行任务&lt;c0&gt;A&lt;/c0&gt;和&lt;c1&gt;B&lt;/c1&gt; 的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is possible to modify virtually any aspect of the created POM should you need to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062453Z" creationid="95" creationdate="20170416T062453Z">
+        <seg>如果有需要的话，你也可以修改所创建的POM的几乎任何方面的内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32995,6 +33011,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150505T134507Z" creationid="msdx" creationdate="20150505T134507Z">
         <seg>请参阅&lt;a0&gt;&lt;c1&gt;JDependExtension&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;&lt;c1&gt;MavenPom.withXml()&lt;/c1&gt;&lt;/a0&gt; for the relevant API reference documentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062442Z" creationid="95" creationdate="20170416T062442Z">
+        <seg>相关的 API 参考文档，请参阅&lt;a0&gt;&lt;c1&gt;MavenPom.withXml()&lt;/c1&gt;&lt;/a0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39162,6 +39186,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The identifier (groupId, artifactId, version) of the published module is an exception; these values cannot be modified in the POM using the `withXML` hook.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062549Z" creationid="95" creationdate="20170416T062549Z">
+        <seg>已发布模块的标识符（groupId，artifac，version）则是一个例外；不能使用“withXML”钩子来修改POM中的这些值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The identifier (organisation, module, revision) of the published module is an exception; these values cannot be modified in the descriptor using the `withXML` hook.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170304T032338Z" creationid="95" creationdate="20170304T032338Z">
@@ -40732,8 +40764,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The “&lt;c0&gt;maven-publish&lt;/c0&gt;” plugin provides a hook to allow such modification.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170416T033057Z" creationid="95" creationdate="20170416T033057Z">
-        <seg>“&lt;c0&gt;maven-publish&lt;/c0&gt;”插件提供了一个hook以允许这一类的修改。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062325Z" creationid="95" creationdate="20170416T033057Z">
+        <seg>“&lt;c0&gt;maven-publish&lt;/c0&gt;”插件提供了一个钩子以允许这一类的修改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42878,6 +42910,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160126T144609Z" creationid="95" creationdate="20160126T144609Z">
         <seg>这意味着，如果你想要将你的签名以及artifacts上传到你的分布仓库中，正常来讲你只需要执行&lt;c2&gt;uploadArchives&lt;/c2&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This means that it is also possible to modify the POM in such a way that it is no longer a valid Maven Pom, so care must be taken when using this feature.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062518Z" creationid="95" creationdate="20170416T062518Z">
+        <seg>这意味着，用这样的方式，可能会把这个POM修改为不再是有效的Maven Pom，所以必须谨慎使用这个功能。</seg>
       </tuv>
     </tu>
     <tu>
