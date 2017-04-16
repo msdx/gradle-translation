@@ -8546,6 +8546,14 @@ This is executed during the execution phase.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;artifactId&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getName()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032339Z" creationid="95" creationdate="20170416T032339Z">
+        <seg>&lt;c0&gt;artifactId&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getName()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;beforeMerged { arg -&gt; }&lt;/c0&gt; argument type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150624T105229Z" creationid="haohang" creationdate="20150624T105229Z">
@@ -8698,6 +8706,14 @@ This is executed during the execution phase.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;groupId&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getGroup()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032335Z" creationid="95" creationdate="20170416T032335Z">
+        <seg>&lt;c0&gt;groupId&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getGroup()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;ideaProject&lt;/c0&gt;, &lt;c1&gt;ideaModule&lt;/c1&gt;, &lt;c2&gt;ideaWorkspace&lt;/c2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T072246Z" creationid="haohang" creationdate="20150625T072246Z">
@@ -8806,6 +8822,14 @@ This is executed during the execution phase.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083056Z" creationid="haohang" creationdate="20170217T083056Z">
         <seg>&lt;c0&gt;status&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getStatus()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;version&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getVersion()&lt;/c2&gt;&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032350Z" creationid="95" creationdate="20170416T032350Z">
+        <seg>&lt;c0&gt;version&lt;/c0&gt; - &lt;a1&gt;&lt;c2&gt;Project.getVersion()&lt;/c2&gt;&lt;/a1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -16228,6 +16252,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Certain repositories will not be able to handle all supported characters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032511Z" creationid="95" creationdate="20170416T032511Z">
+        <seg>某些存储库可能无法处理所有支持的字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Change</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20150429T094053Z" creationid="msdx" creationdate="20150429T094028Z">
@@ -21754,6 +21786,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170412T154828Z" creationid="95" creationdate="20170412T154828Z">
         <seg>示例65.3. 向MavenPublication 增加额外的构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 65.4. customizing the publication identity</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032456Z" creationid="95" creationdate="20170416T032456Z">
+        <seg>示例 65.4. 自定义发布标识</seg>
       </tuv>
     </tu>
     <tu>
@@ -29623,6 +29663,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Maven restricts 'groupId' and 'artifactId' to a limited character set (&lt;c0&gt;[A-Za-z0-9_\\-.]+&lt;/c0&gt;) and Gradle enforces this restriction.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032821Z" creationid="95" creationdate="20170416T032514Z">
+        <seg>Maven 限制了“groupId”和“artifactId”为有限的字符集（&lt;c0&gt;[A-Za-z0-9_\\-.]+&lt;/c0&gt;），Gradle也强制实施了该限制。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>MavenDeployer</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160105T141859Z" creationid="95" creationdate="20160105T141859Z">
@@ -31543,10 +31591,18 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Overriding the default identity values is easy: simply specify the &lt;c0&gt;groupId&lt;/c0&gt;, &lt;c1&gt;artifactId&lt;/c1&gt; or &lt;c2&gt;version&lt;/c2&gt; attributes when configuring the &lt;c3&gt;MavenPublication&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032451Z" creationid="95" creationdate="20170416T032351Z">
+        <seg>重写默认标识值是很容易︰ 只需配置&lt;c3&gt;MavenPublication&lt;/c3&gt;时指定&lt;c0&gt;groupId&lt;/c0&gt;、 &lt;c1&gt;artifactId&lt;/c1&gt;或&lt;c2&gt;version&lt;/c2&gt;的属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Overriding the default identity values is easy: simply specify the &lt;c0&gt;organisation&lt;/c0&gt;, &lt;c1&gt;module&lt;/c1&gt; or &lt;c2&gt;revision&lt;/c2&gt; attributes when configuring the &lt;c3&gt;IvyPublication&lt;/c3&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20170217T083134Z" creationid="haohang" creationdate="20170217T083057Z">
-        <seg>重写默认标识值是很简历︰只需要配置&lt;c3&gt;IvyPublication&lt;/c3&gt;时指定&lt;c0&gt;organisation&lt;/c0&gt;、&lt;c1&gt;module&lt;/c1&gt;或&lt;c2&gt;revision&lt;/c2&gt;属性。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032422Z" creationid="haohang" creationdate="20170217T083057Z">
+        <seg>重写默认标识值是很简单︰只需要配置&lt;c3&gt;IvyPublication&lt;/c3&gt;时指定&lt;c0&gt;organisation&lt;/c0&gt;、&lt;c1&gt;module&lt;/c1&gt;或&lt;c2&gt;revision&lt;/c2&gt;属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37795,8 +37851,8 @@ Sonar 3.4 及更高的版本。</seg>
       <tuv lang="EN-US">
         <seg>The attributes of the generated &lt;c0&gt;POM&lt;/c0&gt; file will contain identity values derived from the following project properties:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032253Z" creationid="95" creationdate="20170412T155023Z">
-        <seg>生成的 &lt;c0&gt;POM&lt;/c0&gt; 文件的属性中，包含了从项目属性中导出来的标识值。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032348Z" creationid="95" creationdate="20170412T155023Z">
+        <seg>生成的 &lt;c0&gt;POM&lt;/c0&gt; 文件的属性中，包含了从以下项目属性中导出来的标识值：</seg>
       </tuv>
     </tu>
     <tu>
@@ -50066,6 +50122,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>artifactId &lt;s1&gt;'project1-sample'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032459Z" creationid="95" creationdate="20170416T032459Z">
+        <seg>artifactId &lt;s1&gt;'project1-sample'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifactPattern &lt;s1&gt;"$projectDir/repo/[organisation]/[module]-[revision](-[classifier]).[ext]"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20151006T134715Z" creationid="95" creationdate="20151006T134715Z">
@@ -54812,6 +54876,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>groupId &lt;s0&gt;'org.gradle.sample'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032458Z" creationid="95" creationdate="20170416T032458Z">
+        <seg>groupId &lt;s0&gt;'org.gradle.sample'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>growl</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T065613Z" creationid="haohang" creationdate="20150628T065613Z">
@@ -57368,6 +57440,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150909T052927Z" creationid="haohang" creationdate="20150909T052927Z">
         <seg>maven {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>maven(MavenPublication) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032458Z" creationid="95" creationdate="20170416T032458Z">
+        <seg>maven(MavenPublication) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -64287,6 +64367,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141108T044443Z" creationid="msdx" creationdate="20141108T044443Z">
         <seg>version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>version &lt;s2&gt;'1.1'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T032501Z" creationid="95" creationdate="20170416T032501Z">
+        <seg>version &lt;s2&gt;'1.1'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
