@@ -8096,10 +8096,26 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>65.2.5. Publishing multiple modules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062557Z" creationid="95" creationdate="20170416T062557Z">
+        <seg>65.2.5. 发布多个模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>65.2. Publications</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170412T153434Z" creationid="95" creationdate="20170412T153434Z">
         <seg>65.2. 发布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>65.3. Repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062618Z" creationid="95" creationdate="20170416T062618Z">
+        <seg>65.3. 仓库</seg>
       </tuv>
     </tu>
     <tu>
@@ -21830,6 +21846,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 65.6. Publishing multiple modules from a single project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062603Z" creationid="95" creationdate="20170416T062603Z">
+        <seg>示例 65.6. 从一个单一的项目发布多个模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 65.7. Declaring repositories to publish to</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062625Z" creationid="95" creationdate="20170416T062625Z">
+        <seg>示例 65.7. 声明用于发布的仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 9.1. Groovy plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T161510Z" creationid="msdx" creationdate="20141105T161510Z">
@@ -25566,6 +25598,14 @@ def dir = srcDir()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170326T073651Z" creationid="95" creationdate="20170326T073651Z">
         <seg>然而，在Ivy发布的场景中，只有通过 &lt;c2&gt;ivy()&lt;/c2&gt;方法创建的仓库才可以作为发布的指定地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>However, in the context of Maven publication only &lt;a2&gt;&lt;c3&gt;MavenArtifactRepository&lt;/c3&gt;&lt;/a2&gt; repositories can be used for publication.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062928Z" creationid="95" creationdate="20170416T062928Z">
+        <seg>然而，在 Maven publication的上下文中只有&lt;a2&gt;&lt;c3&gt;MavenArtifactRepository&lt;/c3&gt;&lt;/a2&gt;资料库可以用于出版物。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36445,6 +36485,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="msdx" changedate="20141105T160049Z" creationid="msdx" creationdate="20141105T160049Z">
         <seg>命令行选项卡是直接执行单个的 Gradle 命令的地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The DSL used to declare repositories for publication is the same DSL that is used to declare repositories to consume dependencies from, &lt;a0&gt;&lt;c1&gt;RepositoryHandler&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062900Z" creationid="95" creationdate="20170416T062626Z">
+        <seg>定义用于发布的仓库的DSL和定义用于查找依赖的仓库的DSL一样（&lt;a0&gt;&lt;c1&gt;RepositoryHandler&lt;/c1&gt;&lt;/a0&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49214,6 +49262,14 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>api(MavenPublication) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062608Z" creationid="95" creationdate="20170416T062608Z">
+        <seg>api(MavenPublication) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>api/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20160726T083504Z" creationid="haohang" creationdate="20160726T083504Z">
@@ -50186,6 +50242,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>artifact apiJar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062614Z" creationid="95" creationdate="20170416T062614Z">
+        <seg>artifact apiJar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifact sourceJar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170412T154832Z" creationid="95" creationdate="20170412T154832Z">
@@ -50230,6 +50294,22 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170416T032459Z" creationid="95" creationdate="20170416T032459Z">
         <seg>artifactId &lt;s1&gt;'project1-sample'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifactId &lt;s3&gt;'project2-impl'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062605Z" creationid="95" creationdate="20170416T062605Z">
+        <seg>artifactId &lt;s3&gt;'project2-impl'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifactId &lt;s6&gt;'project2-api'&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062611Z" creationid="95" creationdate="20170416T062611Z">
+        <seg>artifactId &lt;s6&gt;'project2-api'&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -54996,6 +55076,22 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>groupId &lt;s2&gt;'org.gradle.sample.impl'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062605Z" creationid="95" creationdate="20170416T062605Z">
+        <seg>groupId &lt;s2&gt;'org.gradle.sample.impl'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>groupId &lt;s5&gt;'org.gradle.sample'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062610Z" creationid="95" creationdate="20170416T062610Z">
+        <seg>groupId &lt;s5&gt;'org.gradle.sample'&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>growl</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150628T065613Z" creationid="haohang" creationdate="20150628T065613Z">
@@ -55832,6 +55928,14 @@ project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170304T033026Z" creationid="95" creationdate="20170304T033026Z">
         <seg>impl(IvyPublication) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>impl(MavenPublication) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062604Z" creationid="95" creationdate="20170416T062604Z">
+        <seg>impl(MavenPublication) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -64503,6 +64607,22 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170416T032501Z" creationid="95" creationdate="20170416T032501Z">
         <seg>version &lt;s2&gt;'1.1'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>version &lt;s4&gt;'2.3'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062607Z" creationid="95" creationdate="20170416T062607Z">
+        <seg>version &lt;s4&gt;'2.3'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>version &lt;s7&gt;'2'&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T062612Z" creationid="95" creationdate="20170416T062612Z">
+        <seg>version &lt;s7&gt;'2'&lt;/s7&gt;</seg>
       </tuv>
     </tu>
     <tu>
