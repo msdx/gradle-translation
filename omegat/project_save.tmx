@@ -33747,6 +33747,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So in the example below, where the publication is named "&lt;c5&gt;mavenCustom&lt;/c5&gt;", the task will be named "&lt;c6&gt;generatePomFileForMavenCustomPublication&lt;/c6&gt;".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T064752Z" creationid="95" creationdate="20170416T064752Z">
+        <seg>所以在下面的例子中，当发布的名称叫“&lt;c5&gt;mavenCustom&lt;/c5&gt;”，那么这个任务的名称就会是“&lt;c6&gt;generatePomFileForMavenCustomPublication&lt;/c6&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>So in this example a single &lt;a0&gt;&lt;c1&gt;PublishToMavenRepository&lt;/c1&gt;&lt;/a0&gt; task is be added, named '&lt;c2&gt;publishMavenJavaPublicationToMavenRepository&lt;/c2&gt;'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170416T063409Z" creationid="95" creationdate="20170416T063222Z">
@@ -40754,6 +40762,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20160522T124703Z" creationid="95" creationdate="20160522T124703Z">
         <seg>通过任务路径定义的任务依赖也被支持，并且会导致相关的项目被配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The task for generating the POM file is of type &lt;a0&gt;&lt;c1&gt;GenerateMavenPom&lt;/c1&gt;&lt;/a0&gt;, and it is given a name based on the name of the publication: "&lt;c2&gt;generatePomFileFor«&lt;s3&gt;&lt;e4&gt;NAME OF PUBLICATION&lt;/e4&gt;&lt;/s3&gt;»Publication&lt;/c2&gt;".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T064705Z" creationid="95" creationdate="20170416T064705Z">
+        <seg>用于生成POM文件的这个任务，任务类型是 &lt;a0&gt;&lt;c1&gt;GenerateMavenPom&lt;/c1&gt;&lt;/a0&gt;，并且它被指定了一个基于发布名称的名字：“&lt;c2&gt;generatePomFileFor«&lt;s3&gt;&lt;e4&gt;PUBLICATION名称&lt;/e4&gt;&lt;/s3&gt;»Publication&lt;/c2&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
