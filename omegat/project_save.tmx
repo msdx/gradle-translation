@@ -40504,6 +40504,14 @@ Sonar 3.4 及更高的版本。</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The same applies to any attempt to access publication-specific tasks like &lt;a0&gt;&lt;c1&gt;PublishToMavenRepository&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T065242Z" creationid="95" creationdate="20170416T065242Z">
+        <seg>这同样适用于任何发布相关的任务的访问，比如&lt;a0&gt;&lt;c1&gt;PublishToMavenRepository&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The same could be done for the module paths in the project file:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20150625T074107Z" creationid="haohang" creationdate="20150625T074107Z">
@@ -40636,6 +40644,14 @@ Sonar 3.4 及更高的版本。</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170330T144731Z" creationid="95" creationdate="20170330T144731Z">
         <seg>确保当你尝试访问&lt;c2&gt;GenerateIvyDescriptor&lt;/c2&gt;任务时，发布插件已经配置好的最简单的方式是，将访问的代码放在&lt;c3&gt;publishing&lt;/c3&gt;代码块中，如上面的例子中所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The simplest way to ensure that the publishing plugin is configured when you attempt to access the &lt;c2&gt;GenerateMavenPom&lt;/c2&gt; task is to place the access inside a &lt;c3&gt;publishing&lt;/c3&gt; block, as the example above demonstrates.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170416T065224Z" creationid="95" creationdate="20170416T065224Z">
+        <seg>确保当你尝试访问&lt;c2&gt;GenerateMavenPom&lt;/c2&gt;任务时发布插件已经配置好的最简单的方式是，将访问的代码放在&lt;c3&gt;publishing&lt;/c3&gt;代码块中，如上面的例子中所示。</seg>
       </tuv>
     </tu>
     <tu>
