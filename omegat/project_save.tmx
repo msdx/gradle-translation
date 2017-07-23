@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>4.3. Unpacking</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T114407Z" creationid="95" creationdate="20170723T114407Z">
+        <seg>4.3. 解压</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Previous&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;Contents&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;Next&lt;/a4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072520Z" creationid="haohang" creationdate="20170720T072520Z">
@@ -354,6 +362,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T060917Z" creationid="95" creationdate="20170723T060917Z">
         <seg>易于迁移</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Extensive samples, including the examples referenced in the user guide, along with some complete and more complex builds you can use the starting point for your own build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T114843Z" creationid="95" creationdate="20170723T114843Z">
+        <seg>大量的样例，包括用户指南里的例子，以及一些完整的和更加复杂的构建。您可以把它们作为您自己的构建的基础。</seg>
       </tuv>
     </tu>
     <tu>
@@ -646,10 +662,42 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The API documentation (Javadoc and Groovydoc).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T114544Z" creationid="95" creationdate="20170723T114544Z">
+        <seg>API文档（包括Javadoc和Groovydoc）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The DSL reference guide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T114530Z" creationid="95" creationdate="20170723T114530Z">
+        <seg>DSL参考指南。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Gradle Wrapper allows you to execute Gradle builds on machines where Gradle is not installed. This is useful for example for some continuous integration servers. It is also useful for an open source project to keep the barrier low for building it. The wrapper is also very interesting for the enterprise. It is a zero administration approach for the client machines. It also enforces the usage of a particular Gradle version thus minimizing support issues.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T065536Z" creationid="95" creationdate="20170723T065536Z">
         <seg>Gradle 包装器允许您能够在没有安装Gradle的机器上执行Gradle构建。这对于一些持续集成服务器来说是很有用的。对于开源项目来说，它也是有用的，可以降低项目构建的障碍。包装器对于企业来说也同样友好。对于客户端机器来说，它是一种零管理方法。它还强制了指定的Gradle版本的使用，以最大限度地减少支持问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gradle binaries.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T114505Z" creationid="95" creationdate="20170723T114505Z">
+        <seg>Gradle可执行文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gradle distribution comes packaged as a ZIP. The full distribution contains:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T114456Z" creationid="95" creationdate="20170723T114456Z">
+        <seg>Gradle的发行包是一个ZIP文件。完整的发行包包含以下内容：</seg>
       </tuv>
     </tu>
     <tu>
@@ -682,6 +730,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T022659Z" creationid="95" creationdate="20170722T022659Z">
         <seg>Gradle的灵活性和丰富性最终允许您将常见的设计原则应用于您的构建。 例如，通过可重用的构建逻辑来组织构建是非常容易的。 把不必要而没有直接联系的内容内联在一起是不适合的。 不要强制拆分原本一起的东西（例如在你的项目层次结构中）。 因此，避免出现分散式的变化而使您的建设的维护变成噩梦。 最后，您可以创建一个结构良好、易于维护、易于理解的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The user guide (HTML and PDF).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T114522Z" creationid="95" creationdate="20170723T114522Z">
+        <seg>用户指南（HTML和PDF两种版本）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -768,8 +824,8 @@
       <tuv lang="EN-US">
         <seg>You can download one of the Gradle distributions from the &lt;a0&gt;Gradle web site&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170723T114319Z" creationid="95" creationdate="20170723T114319Z">
-        <seg>您&lt;a0&gt;Gradle web site&lt;/a0&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T114403Z" creationid="95" creationdate="20170723T114319Z">
+        <seg>您可以从&lt;a0&gt;Gradle 官方网站&lt;/a0&gt;上下载Gradle的发行包。</seg>
       </tuv>
     </tu>
     <tu>
