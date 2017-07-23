@@ -318,10 +318,26 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle's build scripts are written in Groovy, not XML. But unlike other approaches this is not for simply exposing the raw scripting power of a dynamic language. That would just lead to a very difficult to maintain build. The whole design of Gradle is oriented towards being used as a language, not as a rigid framework. And Groovy is our glue that allows you to tell your individual story with the abstractions Gradle (or you) provide. Gradle provides some standard stories but they are not privileged in any form. This is for us a major distinguishing features compared to other declarative build systems. Our Groovy support is also not just some simple coating sugar layer. The whole Gradle API is fully groovynized. Only by that using Groovy is the fun and productivity gain it can be.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T065134Z" creationid="95" creationdate="20170723T063603Z">
+        <seg>Gradle的构建脚本是使用Groovy来编写的，而不是使用XML。但是与其他方法不同，这不仅仅是暴露了一门动态语言的原始脚本的能力，那样只会导致构建难以维护。Gradle的整个设计是面向一门语言，而不是一个僵化的框架。并且Groovy作为胶水语言，可以使您通过使用Gradle（或您）所提供的抽象概念，来讲述您的个别故事。Gradle提供了一些标准的故事，但它们没有任何特权。与其他的声明式构建系统相比，这对于我们来说是一个主要的区别。我们的Groovy支持也不只是简单的糖层，整个的Gradle API都是完全的Groovy化的。只有使用Groovy才能获得乐趣和生产力。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle's support for multi-project build is outstanding. Project dependencies are first class citizens. We allow you to model the project relationships in a multi-project build as they really are for your problem domain. Gradle follows your layout not vice versa.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T033707Z" creationid="95" creationdate="20170722T042113Z">
         <seg>Gradle对多项目构建的支持非常出色。项目依赖是第一公民。我们允许您在一个多项目构建中为项目关系进行建模，因为它们真的适用于您的问题域。Gradle遵循您的布局，而非相反。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T063538Z" creationid="95" creationdate="20170723T063538Z">
+        <seg>Groovy</seg>
       </tuv>
     </tu>
     <tu>
@@ -426,6 +442,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072346Z" creationid="haohang" creationdate="20170720T072346Z">
         <seg>目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gradle wrapper</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T063605Z" creationid="95" creationdate="20170723T063605Z">
+        <seg>Gradle 包装器</seg>
       </tuv>
     </tu>
     <tu>
