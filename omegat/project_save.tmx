@@ -118,6 +118,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>4.4. Environment variables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T115052Z" creationid="95" creationdate="20170723T115052Z">
+        <seg>4.4. 环境变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>4.5. Running and testing your installation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T115236Z" creationid="95" creationdate="20170723T115236Z">
+        <seg>4.5. 运行和测试您的安装</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Previous&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;Contents&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;Next&lt;/a4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072520Z" creationid="haohang" creationdate="20170720T072520Z">
@@ -386,6 +402,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072131Z" creationid="95" creationdate="20170723T071728Z">
         <seg>对于分享Python或Ruby知识并且乐于学习它们的Java团队来说，上面的论据并不适用。Gradle设计非常适全于在JRuby或Jython中创建另一种构建脚本引擎。目前我们并没有最高的优先级，我们很高兴任何社区来努力创建其他的构建脚本引擎。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For running Gradle, add &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;GRADLE_HOME&lt;/c2&gt;&lt;/e1&gt;/bin&lt;/c0&gt; to your &lt;c3&gt;PATH&lt;/c3&gt; environment variable. Usually, this is sufficient to run Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T115222Z" creationid="95" creationdate="20170723T115222Z">
+        <seg>要运行Gradle，您需要将 &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;GRADLE_HOME&lt;/c2&gt;&lt;/e1&gt;/bin&lt;/c0&gt; 添加到您的 &lt;c3&gt;PATH&lt;/c3&gt;环境变量中。通常添加了之后就可以运行Gradle了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -842,6 +866,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T071727Z" creationid="95" creationdate="20170723T070855Z">
         <seg>您可能会想问，为什么不使用Java来作为构建脚本的语言。这确实是一个很好的问题，它的团队透明度最高，并且学习曲线最低。但是由于Java的局限性，这样的一门构建语言就不会像现在的那样好、丰富而强大。&lt;s0&gt;[&lt;a1&gt;1&lt;/a1&gt;]&lt;/s0&gt; 像Python，Groovy或是Ruby这样的语言能够比它更好。我们之所以选择Groovy，是因为它为Java程序员提供了最大的透明度，它的基本语法，类型系统，包结构等都与Java相同。Groovy的底层是与Java相同的，只是在其之上做了许多工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You run Gradle via the &lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt; command. To check if Gradle is properly installed just type &lt;s2&gt;&lt;s3&gt;gradle -v&lt;/s3&gt;&lt;/s2&gt;. The output shows Gradle version and also local environment configuration (groovy and JVM version, etc.). The displayed Gradle version should match the distribution you have downloaded.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T115559Z" creationid="95" creationdate="20170723T115238Z">
+        <seg>您可以通过&lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt;命令来运行Gradle。输入&lt;s2&gt;&lt;s3&gt;gradle -v&lt;/s3&gt;&lt;/s2&gt;就可以检查Gradle是否被正确安装。该命令会输出Gradle的版本，以及本地环境的配置（groovy和JVM版本等等）。所显示的Gradle版本应该与您已经安装的发行包相匹配。</seg>
       </tuv>
     </tu>
     <tu>
