@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>4.6. JVM options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T115602Z" creationid="95" creationdate="20170723T115602Z">
+        <seg>4.6. JVM 选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Previous&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;Contents&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;Next&lt;/a4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072520Z" creationid="haohang" creationdate="20170720T072520Z">
@@ -586,6 +594,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072431Z" creationid="haohang" creationdate="20170720T072431Z">
         <seg>介绍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>JVM options for running Gradle can be set via environment variables. You can use &lt;c0&gt;GRADLE_OPTS&lt;/c0&gt; or &lt;c1&gt;JAVA_OPTS&lt;/c1&gt;. Those variables can be used together. &lt;c2&gt;JAVA_OPTS&lt;/c2&gt; is by convention an environment variable shared by many Java applications. A typical use case would be to set the HTTP proxy in &lt;c3&gt;JAVA_OPTS&lt;/c3&gt; and the memory options in &lt;c4&gt;GRADLE_OPTS&lt;/c4&gt;. Those variables can also be set at the beginning of the &lt;s5&gt;&lt;s6&gt;gradle&lt;/s6&gt;&lt;/s5&gt; or &lt;s7&gt;&lt;s8&gt;gradlew&lt;/s8&gt;&lt;/s7&gt; script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170723T120248Z" creationid="95" creationdate="20170723T115605Z">
+        <seg>Gradle运行时的JVM参数可以通过&lt;c0&gt;GRADLE_OPTS&lt;/c0&gt; 或是 &lt;c1&gt;JAVA_OPTS&lt;/c1&gt;的环境变量来设置，这些环境变量也可以一起使用。习惯上， &lt;c2&gt;JAVA_OPTS&lt;/c2&gt; 是一个与其他Java应用程序共享的环境变量，一个典型的场景是在 &lt;c3&gt;JAVA_OPTS&lt;/c3&gt; 中设置HTTP代理，而在&lt;c4&gt;GRADLE_OPTS&lt;/c4&gt;中设置内存选项。这些环境变量也可以在 &lt;s5&gt;&lt;s6&gt;gradle&lt;/s6&gt;&lt;/s5&gt; 或 &lt;s7&gt;&lt;s8&gt;gradlew&lt;/s8&gt;&lt;/s7&gt; 脚本文件的开头设置。</seg>
       </tuv>
     </tu>
     <tu>
