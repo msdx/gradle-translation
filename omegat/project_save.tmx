@@ -462,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 6.1. The first build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
+        <seg>示例 6.1. 第一个构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extensive samples, including the examples referenced in the user guide, along with some complete and more complex builds you can use the starting point for your own build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114843Z" creationid="95" creationdate="20170723T114843Z">
@@ -686,6 +694,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In a command-line shell, enter into the containing directory and execute the build script by running &lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T145113Z" creationid="95" creationdate="20170724T144952Z">
+        <seg>然后在命令行shell里，进入到当前目录并运行&lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt;来执行这个构建脚本：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Introduces the basic build script elements: &lt;e0&gt;projects&lt;/e0&gt; and &lt;e1&gt;tasks&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072802Z" creationid="95" creationdate="20170723T072802Z">
@@ -730,6 +746,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T034041Z" creationid="95" creationdate="20170723T034041Z">
         <seg>多种方式去管理依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most of the examples in this user guide are run with the &lt;c0&gt;-q&lt;/c0&gt; command-line option. This suppresses Gradle's log messages, so that only the output of the tasks is shown. This keeps the example output in this user guide a little clearer. You don't need to use this option if you don't want. See &lt;a1&gt;Chapter 18, &lt;i2&gt;Logging&lt;/i2&gt;&lt;/a1&gt; for more details about the command-line options which affect Gradle's output.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T145756Z" creationid="95" creationdate="20170724T145756Z">
+        <seg>本用户指南中的很多例子都用了 &lt;c0&gt;-q&lt;/c0&gt;参数运行，这个参数是用于抑制Gradle的日志消息，以便只显示任务的输出结果，这样会使得在本用户指南里的文档的输出更清晰一点。如果你不想要的话，你可以不加上这个参数。如果想了解更多影响Gradle的输出的命令参数，请参阅&lt;a1&gt;第十八章， &lt;i2&gt;日志&lt;/i2&gt;&lt;/a1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -998,6 +1022,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What does &lt;c0&gt;-q&lt;/c0&gt; do?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T145132Z" creationid="95" creationdate="20170724T145132Z">
+        <seg> &lt;c0&gt;-q&lt;/c0&gt; 参数的作用是什么？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When using Gradle (or any software package), you can run into problems. You may not understand how to use a particular feature, or you may encounter a defect. Or, you may have a general question about Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T120847Z" creationid="95" creationdate="20170723T120847Z">
@@ -1058,6 +1090,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072245Z" creationid="haohang" creationdate="20170720T072245Z">
         <seg>base.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T144943Z" creationid="95" creationdate="20170724T144943Z">
+        <seg>build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>doLast {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T144949Z" creationid="95" creationdate="20170724T144949Z">
+        <seg>doLast {</seg>
       </tuv>
     </tu>
     <tu>
@@ -1150,6 +1198,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>logging.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T145142Z" creationid="95" creationdate="20170724T145142Z">
+        <seg>logging.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>overview.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072441Z" creationid="haohang" creationdate="20170720T072441Z">
@@ -1178,6 +1234,22 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T135423Z" creationid="95" creationdate="20170721T135423Z">
         <seg>-pmd_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T144950Z" creationid="95" creationdate="20170724T144950Z">
+        <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task hello {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T144945Z" creationid="95" creationdate="20170724T144945Z">
+        <seg>task hello {</seg>
       </tuv>
     </tu>
     <tu>
@@ -1242,6 +1314,16 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T080955Z" creationid="95" creationdate="20170723T080955Z">
         <seg>web_project_tutorial.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T144952Z" creationid="95" creationdate="20170724T144952Z">
+        <seg>}
+}</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
