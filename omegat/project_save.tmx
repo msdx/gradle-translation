@@ -416,8 +416,8 @@
       <tuv lang="EN-US">
         <seg>Each project is made up of one or more &lt;e0&gt;tasks&lt;/e0&gt;. A task represents some atomic piece of work which a build performs. This might be compiling some classes, creating a JAR, generating javadoc, or publishing some archives to a repository.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170724T143521Z" creationid="95" creationdate="20170724T143343Z">
-        <seg>每一个项目都由一个或多个&lt;e0&gt;任务&lt;/e0&gt;组成。一个任务表示构建执行的一些原子工作，比如编译一些类，创建一个JAR包，生成javadoc，或者是把一些</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T143544Z" creationid="95" creationdate="20170724T143343Z">
+        <seg>每一个项目都由一个或多个&lt;e0&gt;任务&lt;/e0&gt;组成。一个任务表示构建执行的一些原子工作，比如编译一些类，创建一个JAR包，生成javadoc，或者是把一些档案发布到仓库中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -432,8 +432,8 @@
       <tuv lang="EN-US">
         <seg>Every Gradle build is made up of one or more &lt;e0&gt;projects&lt;/e0&gt;. What a project represents depends on what it is that you are doing with Gradle. For example, a project might represent a library JAR or a web application. It might represent a distribution ZIP assembled from the JARs produced by other projects. A project does not necessarily represent a thing to be built. It might represent a thing to be done, such as deploying your application to staging or production environments. Don't worry if this seems a little vague for now. Gradle's build-by-convention support adds a more concrete definition for what a project is.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170724T143309Z" creationid="95" creationdate="20170724T143309Z">
-        <seg>任何一个Gradle构建都是由一个或多个&lt;e0&gt;项目&lt;/e0&gt;组成。一个项目代表着什么，取决于你想通过Gradle来做什么。比如，一个项目可能代表着一个JAR库，或者是一个Web应用程序。它也可能代表从其他项目所生成的JAR包组装起来的ZIP文件。一个项目不一定是代表一个要构建的东西，它也可能代表一个要完成的东西，比如把您的应用部署到预发布或生产环境。如果现在看得不是很明白，也不用担心。Gradle的按约定构建的支持为项目提供了更具体的定义。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T143530Z" creationid="95" creationdate="20170724T143309Z">
+        <seg>任何一个Gradle构建都是由一个或多个&lt;e0&gt;项目&lt;/e0&gt;组成。一个项目代表着什么，取决于你想通过Gradle来做什么。比如，一个项目可能代表着一个JAR库，或者是一个Web应用程序。它也可能代表从其他项目所生成的JAR包组装起来的ZIP文件。一个项目不一定是代表一个要构建的东西，它也可能代表一个要完成的东西，比如把您的应用部署到预发布或生产环境。如果现在看得不是很明白，也不用担心。Gradle的按约定来构建的支持为项目提供了更具体的定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -466,6 +466,14 @@
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072131Z" creationid="95" creationdate="20170723T071728Z">
         <seg>对于分享Python或Ruby知识并且乐于学习它们的Java团队来说，上面的论据并不适用。Gradle设计非常适全于在JRuby或Jython中创建另一种构建脚本引擎。目前我们并没有最高的优先级，我们很高兴任何社区来努力创建其他的构建脚本引擎。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For now, we will look at defining some simple tasks in a build with one project. Later chapters will look at working with multiple projects and more about working with projects and tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170724T143910Z" creationid="95" creationdate="20170724T143910Z">
+        <seg>现在，我们来看一下如何在一个项目的构建中定义一些简单的任务。后续的章节将更多的关注多项目的构建，以及多项目和多任务的内容。</seg>
       </tuv>
     </tu>
     <tu>
