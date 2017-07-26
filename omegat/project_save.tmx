@@ -150,6 +150,16 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>4.times { print &lt;s0&gt;"$it "&lt;/s0&gt; }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155858Z" creationid="95" creationdate="20170726T155858Z">
+        <seg>4.times { print &lt;s0&gt;"$it "&lt;/s0&gt; }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.1. Working through problems</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T121003Z" creationid="95" creationdate="20170723T121003Z">
@@ -198,6 +208,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>6.5. Task dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155926Z" creationid="95" creationdate="20170726T155926Z">
+        <seg>6.5. 任务依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Previous&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;Contents&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;Next&lt;/a4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072520Z" creationid="haohang" creationdate="20170720T072520Z">
@@ -222,12 +240,46 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q count
+0 1 2 3</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155921Z" creationid="95" creationdate="20170726T155921Z">
+        <seg>&gt; gradle -q count
+0 1 2 3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q hello
 Hello world!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145850Z" creationid="95" creationdate="20170724T145850Z">
         <seg>&gt; gradle -q hello
 Hello world!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q intro
+Hello world!
+I'm Gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T160131Z" creationid="95" creationdate="20170726T160131Z">
+        <seg>&gt; gradle -q intro
+Hello world!
+I'm Gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q upper
+Original: mY_nAmE
+Upper case: MY_NAME</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155840Z" creationid="95" creationdate="20170726T155840Z">
+        <seg>&gt; gradle -q upper
+Original: mY_nAmE
+Upper case: MY_NAME</seg>
       </tuv>
     </tu>
     <tu>
@@ -276,6 +328,14 @@ Hello world!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T060609Z" creationid="95" creationdate="20170723T060609Z">
         <seg>Ant任务是一级公民。更有趣的是，Ant 项目也是一级公民。Gradle为Ant项目提供了一种深度的导入，能够在运行时将Ant 目标转换为原生的Gradle任何。你可以从Gradle中依赖它们，增强它们，甚至在你的build.xml中定义对Gradle任何的依赖。同时，Gradle还为属性，路径等提供了同样的集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As you probably have guessed, you can declare dependencies between your tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T160057Z" creationid="95" creationdate="20170726T160057Z">
+        <seg>你应该也已经猜到了，我们可以声明任务之间的依赖关系。</seg>
       </tuv>
     </tu>
     <tu>
@@ -520,6 +580,30 @@ Hello world!</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 6.4. Using Groovy in Gradle's tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155816Z" creationid="95" creationdate="20170726T155709Z">
+        <seg>示例6.4. 在Gradle任务中使用Groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 6.5. Using Groovy in Gradle's tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155854Z" creationid="95" creationdate="20170726T155854Z">
+        <seg>示例6.5. 在Gradle任务中使用Groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 6.6. Declaration of dependencies between tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T160115Z" creationid="95" creationdate="20170726T160115Z">
+        <seg>示例6.6. 声明任务之间的依赖关系</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extensive samples, including the examples referenced in the user guide, along with some complete and more complex builds you can use the starting point for your own build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114843Z" creationid="95" creationdate="20170723T114843Z">
@@ -690,8 +774,8 @@ Hello world!</seg>
       <tuv lang="EN-US">
         <seg>Gradle's build scripts expose to you the full power of Groovy. As an appetizer, have a look at this:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155707Z" creationid="95" creationdate="20170726T155707Z">
-        <seg>Gradle</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155756Z" creationid="95" creationdate="20170726T155707Z">
+        <seg>Gradle的构建脚本向您开放了Groovy的全部功能。作为开胃菜，可以看看下这个例子：</seg>
       </tuv>
     </tu>
     <tu>
@@ -832,10 +916,34 @@ Hello world!</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q count&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155907Z" creationid="95" creationdate="20170726T155907Z">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q count&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145842Z" creationid="95" creationdate="20170724T145842Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q intro&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T160129Z" creationid="95" creationdate="20170726T160129Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q intro&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q upper&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155839Z" creationid="95" creationdate="20170726T155839Z">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q upper&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -860,6 +968,14 @@ Hello world!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T080835Z" creationid="95" creationdate="20170723T080835Z">
         <seg>介绍了如何开始使用Gradle的依赖管理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>String someString = &lt;s0&gt;'mY_nAmE'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155825Z" creationid="95" creationdate="20170726T155825Z">
+        <seg>String someString = &lt;s0&gt;'mY_nAmE'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1028,6 +1144,14 @@ Hello world!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T165849Z" creationid="95" creationdate="20170721T162658Z">
         <seg>与Gradle一样，本指南也在不断地更新。一些Gradle的内容并未完全进行描述。有些内容并未完整描述，或者是假定了您对Gradle有一定的了解。我们需要您来帮助一起提供本指南。有关如何参与贡献文档的信息，可以在 &lt;a0&gt;Gradle 官方网站&lt;/a0&gt;上找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To add a dependency, the corresponding task does not need to exist.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T160246Z" creationid="95" creationdate="20170726T160246Z">
+        <seg>在添加依赖时，对应的任务不一定要存在。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1296,6 +1420,14 @@ Hello world!</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>or</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155848Z" creationid="95" creationdate="20170726T155848Z">
+        <seg>或者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>overview.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072441Z" creationid="haohang" creationdate="20170720T072441Z">
@@ -1346,6 +1478,54 @@ Hello world!</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;
+}
+task intro(dependsOn: hello) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T160117Z" creationid="95" creationdate="20170726T160117Z">
+        <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;
+}
+task intro(dependsOn: hello) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;"I'm Gradle"&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T160119Z" creationid="95" creationdate="20170726T160119Z">
+        <seg>println &lt;s1&gt;"I'm Gradle"&lt;/s1&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;"Original: "&lt;/s1&gt; + someString</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155826Z" creationid="95" creationdate="20170726T155826Z">
+        <seg>println &lt;s1&gt;"Original: "&lt;/s1&gt; + someString</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;"Upper case: "&lt;/s2&gt; + someString.toUpperCase()
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155827Z" creationid="95" creationdate="20170726T155827Z">
+        <seg>println &lt;s2&gt;"Upper case: "&lt;/s2&gt; + someString.toUpperCase()
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task count &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155856Z" creationid="95" creationdate="20170726T155856Z">
+        <seg>task count &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155315Z" creationid="95" creationdate="20170726T155315Z">
@@ -1358,6 +1538,14 @@ Hello world!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144945Z" creationid="95" creationdate="20170724T144945Z">
         <seg>task hello {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task upper &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155757Z" creationid="95" creationdate="20170726T155757Z">
+        <seg>task upper &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
