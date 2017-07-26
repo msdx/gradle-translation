@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>6.4. Build scripts are code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155605Z" creationid="95" creationdate="20170726T155605Z">
+        <seg>6.4. 构建脚本即代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Previous&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;Contents&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;Next&lt;/a4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072520Z" creationid="haohang" creationdate="20170720T072520Z">
@@ -244,6 +252,14 @@ Hello world!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072441Z" creationid="haohang" creationdate="20170720T072441Z">
         <seg>关于本用户指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Again, this defines a task called &lt;c0&gt;hello&lt;/c0&gt; with a single closure to execute. We will use this task definition style throughout the user guide.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155544Z" creationid="95" creationdate="20170726T155319Z">
+        <seg>这里再一次使用了一个闭包的方式来定义一个 &lt;c0&gt;hello&lt;/c0&gt; 任务去执行。在本用户指南中，我们还会再使用这种任务定义的风格。</seg>
       </tuv>
     </tu>
     <tu>
@@ -496,6 +512,14 @@ Hello world!</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 6.3. A task definition shortcut</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155313Z" creationid="95" creationdate="20170726T155313Z">
+        <seg>示例6.3. 任务定义的快捷方式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extensive samples, including the examples referenced in the user guide, along with some complete and more complex builds you can use the starting point for your own build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114843Z" creationid="95" creationdate="20170723T114843Z">
@@ -660,6 +684,14 @@ Hello world!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T065134Z" creationid="95" creationdate="20170723T063603Z">
         <seg>Gradle的构建脚本是使用Groovy来编写的，而不是使用XML。但是与其他方法不同，这不仅仅是暴露了一门动态语言的原始脚本的能力，那样只会导致构建难以维护。Gradle的整个设计是面向一门语言，而不是一个僵化的框架。并且Groovy作为胶水语言，可以使您通过使用Gradle（或您）所提供的抽象概念，来讲述您的个别故事。Gradle提供了一些标准的故事，但它们没有任何特权。与其他的声明式构建系统相比，这对于我们来说是一个主要的区别。我们的Groovy支持也不只是简单的糖层，整个的Gradle API都是完全的Groovy化的。只有使用Groovy才能获得乐趣和生产力。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle's build scripts expose to you the full power of Groovy. As an appetizer, have a look at this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155707Z" creationid="95" creationdate="20170726T155707Z">
+        <seg>Gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -1300,6 +1332,24 @@ Hello world!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144950Z" creationid="95" creationdate="20170724T144950Z">
         <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155317Z" creationid="95" creationdate="20170726T155317Z">
+        <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task hello &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170726T155315Z" creationid="95" creationdate="20170726T155315Z">
+        <seg>task hello &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
