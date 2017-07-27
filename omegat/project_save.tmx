@@ -248,6 +248,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>6.9. Extra task properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T141631Z" creationid="95" creationdate="20170727T141631Z">
+        <seg>6.9. 额外的任务属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Previous&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;Contents&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;Next&lt;/a4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072520Z" creationid="haohang" creationdate="20170720T072520Z">
@@ -304,6 +312,18 @@ Hello world!</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145850Z" creationid="95" creationdate="20170724T145850Z">
         <seg>&gt; gradle -q hello
 Hello world!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+Hello world!
+Greetings from the hello task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T141348Z" creationid="95" creationdate="20170727T141348Z">
+        <seg>&gt; gradle -q hello
+Hello world!
+Greetings from the hello task.</seg>
       </tuv>
     </tu>
     <tu>
@@ -660,6 +680,22 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T133108Z" creationid="95" creationdate="20170727T133108Z">
         <seg>示例6.10. 通过API访问任务——添加行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 6.11. Accessing task as a property of the build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T141334Z" creationid="95" creationdate="20170727T141334Z">
+        <seg>示例6.11. 以构建脚本的属性的方式访问任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 6.12. Adding extra properties to a task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T141956Z" creationid="95" creationdate="20170727T141956Z">
+        <seg>示例6.12. 为任务添加额外的属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -1336,6 +1372,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This enables very readable code, especially when using the out of the box tasks provided by the plugins (e.g. &lt;c0&gt;compile&lt;/c0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T141645Z" creationid="95" creationdate="20170727T141349Z">
+        <seg>这使得代码很易于阅读，尤其是当使用插件所提供的任务时（例如 &lt;c0&gt;compile&lt;/c0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This user guide, like Gradle itself, is under very active development. Some parts of Gradle aren't documented as completely as they need to be. Some of the content presented won't be entirely clear or will assume that you know more about Gradle than you do. We need your help to improve this user guide. You can find out more about contributing to the documentation at the &lt;a0&gt;Gradle web site&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T165849Z" creationid="95" creationdate="20170721T162658Z">
@@ -1452,6 +1496,14 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072502Z" creationid="haohang" creationdate="20170720T072502Z">
         <seg>为什么使用 Groovy?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can add your own properties to a task. To add a property named &lt;c0&gt;myProperty&lt;/c0&gt;, set &lt;c1&gt;ext.myProperty&lt;/c1&gt; to an initial value. From that point on, the property can be read and set like a predefined task property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T141932Z" creationid="95" creationdate="20170727T141635Z">
+        <seg>您可以把您自己的属性添加到一个任务中。譬如如果要添加一个 &lt;c0&gt;myProperty&lt;/c0&gt;属性，可以为 &lt;c1&gt;ext.myProperty&lt;/c1&gt;设置一个初始值，然后您就可以像使用预定义的任务属性一样对它进行读取或设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1696,12 +1748,34 @@ hello.doFirst {</seg>
       <tuv lang="EN-US">
         <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;
 }
+hello.doLast {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T141337Z" creationid="95" creationdate="20170727T141337Z">
+        <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;
+}
+hello.doLast {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;
+}
 task intro(dependsOn: hello) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160117Z" creationid="95" creationdate="20170726T160117Z">
         <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;
 }
 task intro(dependsOn: hello) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;"Greetings from the $hello.name task."&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T141341Z" creationid="95" creationdate="20170727T141341Z">
+        <seg>println &lt;s1&gt;"Greetings from the $hello.name task."&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
