@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>4.times { counter -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T132724Z" creationid="95" creationdate="20170727T132724Z">
+        <seg>4.times { counter -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.times { print &lt;s0&gt;"$it "&lt;/s0&gt; }
 }</seg>
       </tuv>
@@ -224,6 +232,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>6.7. Manipulating existing tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T132812Z" creationid="95" creationdate="20170727T132812Z">
+        <seg>6.7. 操纵现有任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Previous&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;Contents&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;Next&lt;/a4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072520Z" creationid="haohang" creationdate="20170720T072520Z">
@@ -259,6 +275,22 @@
     <tu>
       <tuv lang="EN-US">
         <seg>&gt; gradle -q hello
+Hello Venus
+Hello Earth
+Hello Mars
+Hello Jupiter</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T133119Z" creationid="95" creationdate="20170727T133119Z">
+        <seg>&gt; gradle -q hello
+Hello Venus
+Hello Earth
+Hello Mars
+Hello Jupiter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
 Hello world!</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145850Z" creationid="95" creationdate="20170724T145850Z">
@@ -276,6 +308,30 @@ I'm Gradle</seg>
         <seg>&gt; gradle -q intro
 Hello world!
 I'm Gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q task0
+I'm task number 2
+I'm task number 3
+I'm task number 0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T133039Z" creationid="95" creationdate="20170727T133039Z">
+        <seg>&gt; gradle -q task0
+I'm task number 2
+I'm task number 3
+I'm task number 0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q task1
+I'm task number 1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T132731Z" creationid="95" creationdate="20170727T132731Z">
+        <seg>&gt; gradle -q task1
+I'm task number 1</seg>
       </tuv>
     </tu>
     <tu>
@@ -584,6 +640,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 6.10. Accessing a task via API - adding behaviour</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T133108Z" creationid="95" creationdate="20170727T133108Z">
+        <seg>示例6.10. 通过API访问任务——添加行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.2. Execution of a build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145831Z" creationid="95" creationdate="20170724T145831Z">
@@ -628,6 +692,22 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160342Z" creationid="95" creationdate="20170726T160335Z">
         <seg>示例6.7. 延迟依赖——另一个任务（暂）不存在</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 6.8. Dynamic creation of a task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T132722Z" creationid="95" creationdate="20170727T132722Z">
+        <seg>示例6.8. 任务的动态创建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 6.9. Accessing a task via API - adding a dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T133005Z" creationid="95" creationdate="20170727T133005Z">
+        <seg>示例6.9. 通过API访问任务——添加依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -944,6 +1024,22 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Once tasks are created they can be accessed via an &lt;s0&gt;&lt;e1&gt;API&lt;/e1&gt;&lt;/s0&gt;. This is different to Ant. For example you can create additional dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T132935Z" creationid="95" creationdate="20170727T132814Z">
+        <seg>与Ant不同，一旦任务被创建了，就可以通过一个 &lt;s0&gt;&lt;e1&gt;API&lt;/e1&gt;&lt;/s0&gt;去访问它。例如，你可以去给它们添加其他的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Or you can add behavior to an existing task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T133059Z" creationid="95" creationdate="20170727T133059Z">
+        <seg>或者，你也可以对已经存在的任务添加行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q count&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155907Z" creationid="95" creationdate="20170726T155907Z">
@@ -964,6 +1060,22 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160129Z" creationid="95" creationdate="20170726T160129Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q intro&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q task0&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T133037Z" creationid="95" creationdate="20170727T133037Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q task0&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q task1&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T132756Z" creationid="95" creationdate="20170727T132730Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q task1&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -1528,6 +1640,18 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'Hello Earth'&lt;/s0&gt;
+}
+hello.doFirst {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T133109Z" creationid="95" creationdate="20170727T133109Z">
+        <seg>println &lt;s0&gt;'Hello Earth'&lt;/s0&gt;
+}
+hello.doFirst {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144950Z" creationid="95" creationdate="20170724T144950Z">
@@ -1568,10 +1692,30 @@ task intro(dependsOn: hello) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;"I'm task number $counter"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T132726Z" creationid="95" creationdate="20170727T132726Z">
+        <seg>println &lt;s1&gt;"I'm task number $counter"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;"Original: "&lt;/s1&gt; + someString</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155826Z" creationid="95" creationdate="20170726T155826Z">
         <seg>println &lt;s1&gt;"Original: "&lt;/s1&gt; + someString</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'Hello Venus'&lt;/s1&gt;
+}
+hello.doLast {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T133111Z" creationid="95" creationdate="20170727T133111Z">
+        <seg>println &lt;s1&gt;'Hello Venus'&lt;/s1&gt;
+}
+hello.doLast {</seg>
       </tuv>
     </tu>
     <tu>
@@ -1598,12 +1742,42 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;'Hello Mars'&lt;/s2&gt;
+}
+hello &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T133111Z" creationid="95" creationdate="20170727T133111Z">
+        <seg>println &lt;s2&gt;'Hello Mars'&lt;/s2&gt;
+}
+hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s2&gt;'taskY'&lt;/s2&gt;
 }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160347Z" creationid="95" creationdate="20170726T160347Z">
         <seg>println &lt;s2&gt;'taskY'&lt;/s2&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;'Hello Jupiter'&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T133114Z" creationid="95" creationdate="20170727T133114Z">
+        <seg>println &lt;s3&gt;'Hello Jupiter'&lt;/s3&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task &lt;s0&gt;"task$counter"&lt;/s0&gt; &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T132725Z" creationid="95" creationdate="20170727T132725Z">
+        <seg>task &lt;s0&gt;"task$counter"&lt;/s0&gt; &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -1726,6 +1900,18 @@ task taskY &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144952Z" creationid="95" creationdate="20170724T144952Z">
         <seg>}
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+task0.dependsOn task2, task3</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T133026Z" creationid="95" creationdate="20170727T133026Z">
+        <seg>}
+}
+task0.dependsOn task2, task3</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
