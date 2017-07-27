@@ -1232,6 +1232,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The calls &lt;c0&gt;doFirst&lt;/c0&gt; and &lt;c1&gt;doLast&lt;/c1&gt; can be executed multiple times. They add an action to the beginning or the end of the task's actions list. When the task executes, the actions in the action list are executed in order. The &lt;c2&gt;&lt;&lt;&lt;/c2&gt; operator is simply an alias for &lt;c3&gt;doLast&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T133618Z" creationid="95" creationdate="20170727T133133Z">
+        <seg>&lt;c0&gt;doFirst&lt;/c0&gt;和&lt;c1&gt;doLast&lt;/c1&gt; 可以被多次调用，它们分别是向任务的动作列表的开头或结尾添加一个动作。当任务执行的时候，动作列表的这些动作会依次执行。&lt;c2&gt;&lt;&lt;&lt;/c2&gt; 操作只是 &lt;c3&gt;doLast&lt;/c3&gt;的别名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The declarative language lies on top of a general purpose task graph, which you can fully leverage in your builds. It provides utmost flexibility to adapt Gradle to your unique needs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T021842Z" creationid="95" creationdate="20170722T021842Z">
