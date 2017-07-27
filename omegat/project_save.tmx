@@ -192,6 +192,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>6.10. Using Ant Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T142147Z" creationid="95" creationdate="20170727T142147Z">
+        <seg>6.10. 使用 Ant 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.2. Hello world</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T143914Z" creationid="95" creationdate="20170724T143914Z">
@@ -336,6 +344,16 @@ I'm Gradle</seg>
         <seg>&gt; gradle -q intro
 Hello world!
 I'm Gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q printTaskProperties
+myValue</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T142011Z" creationid="95" creationdate="20170727T142011Z">
+        <seg>&gt; gradle -q printTaskProperties
+myValue</seg>
       </tuv>
     </tu>
     <tu>
@@ -772,6 +790,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Extra properties aren't limited to tasks. You can read more about them in &lt;a0&gt;Section 13.4.2, “Extra properties”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T142130Z" creationid="95" creationdate="20170727T142016Z">
+        <seg>额外属性并不局限于任务，你可以在 &lt;a0&gt;第13.4.2节，“额外属性”&lt;/a0&gt;中了解更多关于它们的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Features</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072448Z" creationid="haohang" creationdate="20170720T072448Z">
@@ -1112,6 +1138,14 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160129Z" creationid="95" creationdate="20170726T160129Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q intro&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q printTaskProperties&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T142009Z" creationid="95" creationdate="20170727T142009Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q printTaskProperties&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -1580,6 +1614,20 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ext.myProperty = &lt;s0&gt;"myValue"&lt;/s0&gt;
+}
+
+task printTaskProperties &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T141959Z" creationid="95" creationdate="20170727T141959Z">
+        <seg>ext.myProperty = &lt;s0&gt;"myValue"&lt;/s0&gt;
+}
+
+task printTaskProperties &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>gradle_daemon.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T121208Z" creationid="95" creationdate="20170723T121208Z">
@@ -1872,6 +1920,16 @@ hello &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println myTask.myProperty
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T142000Z" creationid="95" creationdate="20170727T142000Z">
+        <seg>println myTask.myProperty
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task &lt;s0&gt;"task$counter"&lt;/s0&gt; &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132725Z" creationid="95" creationdate="20170727T132725Z">
@@ -1900,6 +1958,14 @@ hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144945Z" creationid="95" creationdate="20170724T144945Z">
         <seg>task hello {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task myTask {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T141958Z" creationid="95" creationdate="20170727T141958Z">
+        <seg>task myTask {</seg>
       </tuv>
     </tu>
     <tu>
@@ -1988,6 +2054,14 @@ hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T080955Z" creationid="95" creationdate="20170723T080955Z">
         <seg>web_project_tutorial.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>writing_build_scripts.html#sec:extra_properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170727T142011Z" creationid="95" creationdate="20170727T142011Z">
+        <seg>writing_build_scripts.html#sec:extra_properties</seg>
       </tuv>
     </tu>
     <tu>
