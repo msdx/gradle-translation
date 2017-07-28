@@ -30,6 +30,18 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>*** gradle.manifesto.txt ***
+Make the impossible possible, make the possible easy and make the easy elegant.
+(inspired by Moshe Feldenkrais)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153833Z" creationid="95" creationdate="20170728T153833Z">
+        <seg>*** gradle.manifesto.txt ***
+Make the impossible possible, make the possible easy and make the easy elegant.
+(inspired by Moshe Feldenkrais)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072430Z" creationid="haohang" creationdate="20170720T072430Z">
@@ -288,6 +300,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;if&lt;/s1&gt; (file.isFile()) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153800Z" creationid="95" creationdate="20170728T153800Z">
+        <seg>&lt;s1&gt;if&lt;/s1&gt; (file.isFile()) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q count
 0 1 2 3</seg>
       </tuv>
@@ -344,6 +364,24 @@ I'm Gradle</seg>
         <seg>&gt; gradle -q intro
 Hello world!
 I'm Gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q loadfile
+*** agile.manifesto.txt ***
+Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration  over contract negotiation
+Responding to change over following a plan</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153832Z" creationid="95" creationdate="20170728T153832Z">
+        <seg>&gt; gradle -q loadfile
+*** agile.manifesto.txt ***
+Individuals and interactions over processes and tools
+Working software over comprehensive documentation
+Customer collaboration  over contract negotiation
+Responding to change over following a plan</seg>
       </tuv>
     </tu>
     <tu>
@@ -722,6 +760,14 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T141956Z" creationid="95" creationdate="20170727T141956Z">
         <seg>示例6.12. 为任务添加额外的属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 6.13. Using AntBuilder to execute ant.loadfile target</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153752Z" creationid="95" creationdate="20170728T153752Z">
+        <seg>示例6.13. 使用AntBuilder 执行 ant.loadfile 目标</seg>
       </tuv>
     </tu>
     <tu>
@@ -1150,6 +1196,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q loadfile&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153828Z" creationid="95" creationdate="20170728T153828Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q loadfile&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q printTaskProperties&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T142009Z" creationid="95" creationdate="20170727T142009Z">
@@ -1398,6 +1452,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is lots more you can do with Ant in your build scripts. You can find out more in &lt;a0&gt;Chapter 17, &lt;i1&gt;Using Ant from Gradle&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153845Z" creationid="95" creationdate="20170728T153845Z">
+        <seg>There is lots more you can do with Ant in your build scripts. You can find out more in &lt;a0&gt;Chapter 17, &lt;i1&gt;Using Ant from Gradle&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This chapter gives some advice for troubleshooting problems and explains how to get help with your problems.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T120955Z" creationid="95" creationdate="20170723T120955Z">
@@ -1582,6 +1644,22 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ant.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153837Z" creationid="95" creationdate="20170728T153837Z">
+        <seg>ant.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.loadfile(srcFile: file, property: file.name)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153801Z" creationid="95" creationdate="20170728T153801Z">
+        <seg>ant.loadfile(srcFile: file, property: file.name)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifact_dependencies_tutorial.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T080751Z" creationid="95" creationdate="20170723T080751Z">
@@ -1602,6 +1680,14 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144943Z" creationid="95" creationdate="20170724T144943Z">
         <seg>build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def files = file(&lt;s0&gt;'../antLoadfileResources'&lt;/s0&gt;).listFiles().sort()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153757Z" creationid="95" creationdate="20170728T153757Z">
+        <seg>def files = file(&lt;s0&gt;'../antLoadfileResources'&lt;/s0&gt;).listFiles().sort()</seg>
       </tuv>
     </tu>
     <tu>
@@ -1640,6 +1726,14 @@ task printTaskProperties &lt;&lt; {</seg>
 }
 
 task printTaskProperties &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>files.each { File file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153759Z" creationid="95" creationdate="20170728T153759Z">
+        <seg>files.each { File file -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1894,6 +1988,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;" *** $file.name ***"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153803Z" creationid="95" creationdate="20170728T153803Z">
+        <seg>println &lt;s2&gt;" *** $file.name ***"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s2&gt;"Upper case: "&lt;/s2&gt; + someString.toUpperCase()
 }</seg>
       </tuv>
@@ -1922,6 +2024,14 @@ hello &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160347Z" creationid="95" creationdate="20170726T160347Z">
         <seg>println &lt;s2&gt;'taskY'&lt;/s2&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;"${ant.properties[file.name]}"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153804Z" creationid="95" creationdate="20170728T153804Z">
+        <seg>println &lt;s3&gt;"${ant.properties[file.name]}"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1974,6 +2084,14 @@ hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144945Z" creationid="95" creationdate="20170724T144945Z">
         <seg>task hello {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task loadfile &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153755Z" creationid="95" creationdate="20170728T153755Z">
+        <seg>task loadfile &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -2078,6 +2196,14 @@ hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T142011Z" creationid="95" creationdate="20170727T142011Z">
         <seg>writing_build_scripts.html#sec:extra_properties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153819Z" creationid="95" creationdate="20170728T153819Z">
+        <seg>}</seg>
       </tuv>
     </tu>
     <tu>
