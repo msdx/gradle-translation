@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.6.0" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.2" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -450,6 +450,14 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T060609Z" creationid="95" creationdate="20170723T060609Z">
         <seg>Ant任务是一级公民。更有趣的是，Ant 项目也是一级公民。Gradle为Ant项目提供了一种深度的导入，能够在运行时将Ant 目标转换为原生的Gradle任何。你可以从Gradle中依赖它们，增强它们，甚至在你的build.xml中定义对Gradle任何的依赖。同时，Gradle还为属性，路径等提供了同样的集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ant tasks are first-class citizens in Gradle. Gradle provides excellent integration for Ant tasks by simply relying on Groovy. Groovy is shipped with the fantastic &lt;c0&gt;AntBuilder&lt;/c0&gt;. Using Ant tasks from Gradle is as convenient and more powerful than using Ant tasks from a &lt;c1&gt;build.xml&lt;/c1&gt; file. From the example below, you can learn how to execute ant tasks and how to access ant properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170728T153726Z" creationid="95" creationdate="20170728T153726Z">
+        <seg>Ant任务是Gradle的一级公民。Gradle通过简单地依赖Groovy，对Ant任务提供了强大的集成。Groovy自带了一个神奇的&lt;c0&gt;AntBuilder&lt;/c0&gt;，在Gradle中使用Ant任务比在&lt;c1&gt;build.xml&lt;/c1&gt;中调用更方便和强大。通过下面的例子，您可以学习到如何执行ant任务，以及如何访问ant属性：</seg>
       </tuv>
     </tu>
     <tu>
