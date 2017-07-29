@@ -332,6 +332,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s3&gt;if&lt;/s3&gt; (taskGraph.hasTask(release)) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025306Z" creationid="95" creationdate="20170729T025306Z">
+        <seg>&lt;s3&gt;if&lt;/s3&gt; (taskGraph.hasTask(release)) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q
 Default Cleaning!
 Default Running!</seg>
@@ -350,6 +358,16 @@ Default Running!</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155921Z" creationid="95" creationdate="20170726T155921Z">
         <seg>&gt; gradle -q count
 0 1 2 3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q distribution
+We build the zip with version=1.0-SNAPSHOT</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025321Z" creationid="95" creationdate="20170729T025321Z">
+        <seg>&gt; gradle -q distribution
+We build the zip with version=1.0-SNAPSHOT</seg>
       </tuv>
     </tu>
     <tu>
@@ -440,6 +458,18 @@ myValue</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T142011Z" creationid="95" creationdate="20170727T142011Z">
         <seg>&gt; gradle -q printTaskProperties
 myValue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q release
+We build the zip with version=1.0
+We release now</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025329Z" creationid="95" creationdate="20170729T025329Z">
+        <seg>&gt; gradle -q release
+We build the zip with version=1.0
+We release now</seg>
       </tuv>
     </tu>
     <tu>
@@ -844,6 +874,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 6.16. Different outcomes of build depending on chosen tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025301Z" creationid="95" creationdate="20170729T025301Z">
+        <seg>示例6.16. 根据所选择的任务输出不同的构建结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.2. Execution of a build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145831Z" creationid="95" creationdate="20170724T145831Z">
@@ -1180,6 +1218,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the following example, execution of the &lt;c0&gt;distribution&lt;/c0&gt; and &lt;c1&gt;release&lt;/c1&gt; tasks results in different value of the &lt;c2&gt;version&lt;/c2&gt; variable.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025155Z" creationid="95" creationdate="20170729T025155Z">
+        <seg>在下面的例子中，&lt;c0&gt;distribution&lt;/c0&gt;和&lt;c1&gt;release&lt;/c1&gt; 任务的执行会导致&lt;c2&gt;version&lt;/c2&gt; 变量有不同的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Introduces the basic build script elements: &lt;e0&gt;projects&lt;/e0&gt; and &lt;e1&gt;tasks&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072802Z" creationid="95" creationdate="20170723T072802Z">
@@ -1276,6 +1322,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q distribution&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025320Z" creationid="95" creationdate="20170729T025320Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q distribution&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145842Z" creationid="95" creationdate="20170724T145842Z">
@@ -1304,6 +1358,14 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T142009Z" creationid="95" creationdate="20170727T142009Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q printTaskProperties&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q release&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025327Z" creationid="95" creationdate="20170729T025327Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q release&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -2048,6 +2110,20 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;"We build the zip with version=$version"&lt;/s0&gt;
+}
+
+task release(dependsOn: &lt;s1&gt;'distribution'&lt;/s1&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025304Z" creationid="95" creationdate="20170729T025304Z">
+        <seg>println &lt;s0&gt;"We build the zip with version=$version"&lt;/s0&gt;
+}
+
+task release(dependsOn: &lt;s1&gt;'distribution'&lt;/s1&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s0&gt;'Hello Earth'&lt;/s0&gt;
 }
 hello.doFirst {</seg>
@@ -2214,6 +2290,20 @@ hello &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;'We release now'&lt;/s2&gt;
+}
+
+gradle.taskGraph.whenReady {taskGraph -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025305Z" creationid="95" creationdate="20170729T025305Z">
+        <seg>println &lt;s2&gt;'We release now'&lt;/s2&gt;
+}
+
+gradle.taskGraph.whenReady {taskGraph -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s2&gt;'taskY'&lt;/s2&gt;
 }</seg>
       </tuv>
@@ -2304,6 +2394,14 @@ task other &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155856Z" creationid="95" creationdate="20170726T155856Z">
         <seg>task count &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task distribution &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025303Z" creationid="95" creationdate="20170729T025303Z">
+        <seg>task distribution &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -2420,6 +2518,22 @@ task other &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>version = &lt;s4&gt;'1.0'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025308Z" creationid="95" creationdate="20170729T025308Z">
+        <seg>version = &lt;s4&gt;'1.0'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>version = &lt;s6&gt;'1.0-SNAPSHOT'&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025311Z" creationid="95" creationdate="20170729T025311Z">
+        <seg>version = &lt;s6&gt;'1.0-SNAPSHOT'&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>web_project_tutorial.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T080955Z" creationid="95" creationdate="20170723T080955Z">
@@ -2490,6 +2604,14 @@ task0.dependsOn task2, task3</seg>
         <seg>}
 }
 task0.dependsOn task2, task3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>} &lt;s5&gt;else&lt;/s5&gt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T025309Z" creationid="95" creationdate="20170729T025309Z">
+        <seg>} &lt;s5&gt;else&lt;/s5&gt; {</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
