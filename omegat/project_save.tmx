@@ -220,6 +220,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>6.12. Default tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023840Z" creationid="95" creationdate="20170729T023840Z">
+        <seg>6.12. 默认任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>6.13. Configure by DAG</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T024252Z" creationid="95" creationdate="20170729T024252Z">
+        <seg>6.13. 使用 DAG 配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.2. Hello world</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T143914Z" creationid="95" creationdate="20170724T143914Z">
@@ -312,6 +328,18 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153800Z" creationid="95" creationdate="20170728T153800Z">
         <seg>&lt;s1&gt;if&lt;/s1&gt; (file.isFile()) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q
+Default Cleaning!
+Default Running!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023928Z" creationid="95" creationdate="20170729T023928Z">
+        <seg>&gt; gradle -q
+Default Cleaning!
+Default Running!</seg>
       </tuv>
     </tu>
     <tu>
@@ -800,6 +828,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 6.15. Defining a default tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023907Z" creationid="95" creationdate="20170729T023907Z">
+        <seg>示例6.15. 定义一个默认任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.2. Execution of a build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145831Z" creationid="95" creationdate="20170724T145831Z">
@@ -948,6 +984,14 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072244Z" creationid="haohang" creationdate="20170720T072244Z">
         <seg>Gradle 用户指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle allows you to define one or more default tasks for your build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023856Z" creationid="95" creationdate="20170729T023856Z">
+        <seg>Gradle允许您在构建中定义一个或多个的默认任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1288,6 +1332,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023926Z" creationid="95" creationdate="20170729T023916Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q&lt;/c1&gt;&lt;/s0&gt;的构建结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Overview</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072443Z" creationid="haohang" creationdate="20170720T072443Z">
@@ -1528,6 +1580,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is equivalent to running &lt;s0&gt;&lt;c1&gt;gradle clean run&lt;/c1&gt;&lt;/s0&gt;. In a multi-project build every subproject can have its own specific default tasks. If a subproject does not specify default tasks, the default tasks of the parent project are used (if defined).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T024222Z" creationid="95" creationdate="20170729T023929Z">
+        <seg>这与运行 &lt;s0&gt;&lt;c1&gt;gradle clean run&lt;/c1&gt;&lt;/s0&gt;的结果是一样的。在多项目构建中，每一个子项目都可以有它自己的指定的默认任务。如果一个子项目没有指定默认任务，而父项目定义了的话，那么将会使用父项目的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This user guide, like Gradle itself, is under very active development. Some parts of Gradle aren't documented as completely as they need to be. Some of the content presented won't be entirely clear or will assume that you know more about Gradle than you do. We need your help to improve this user guide. You can find out more about contributing to the documentation at the &lt;a0&gt;Gradle web site&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T165849Z" creationid="95" creationdate="20170721T162658Z">
@@ -1740,6 +1800,18 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153757Z" creationid="95" creationdate="20170728T153757Z">
         <seg>def files = file(&lt;s0&gt;'../antLoadfileResources'&lt;/s0&gt;).listFiles().sort()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>defaultTasks &lt;s0&gt;'clean'&lt;/s0&gt;, &lt;s1&gt;'run'&lt;/s1&gt;
+
+task clean &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023908Z" creationid="95" creationdate="20170729T023908Z">
+        <seg>defaultTasks &lt;s0&gt;'clean'&lt;/s0&gt;, &lt;s1&gt;'run'&lt;/s1&gt;
+
+task clean &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -2100,6 +2172,20 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;'Default Cleaning!'&lt;/s2&gt;
+}
+
+task run &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023909Z" creationid="95" creationdate="20170729T023909Z">
+        <seg>println &lt;s2&gt;'Default Cleaning!'&lt;/s2&gt;
+}
+
+task run &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s2&gt;'Hello Mars'&lt;/s2&gt;
 }
 hello &lt;&lt; {</seg>
@@ -2130,11 +2216,35 @@ hello &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;'Default Running!'&lt;/s3&gt;
+}
+
+task other &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023910Z" creationid="95" creationdate="20170729T023910Z">
+        <seg>println &lt;s3&gt;'Default Running!'&lt;/s3&gt;
+}
+
+task other &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s3&gt;'Hello Jupiter'&lt;/s3&gt;
 }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T133114Z" creationid="95" creationdate="20170727T133114Z">
         <seg>println &lt;s3&gt;'Hello Jupiter'&lt;/s3&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s4&gt;"I'm not a default task!"&lt;/s4&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023912Z" creationid="95" creationdate="20170729T023912Z">
+        <seg>println &lt;s4&gt;"I'm not a default task!"&lt;/s4&gt;
 }</seg>
       </tuv>
     </tu>
