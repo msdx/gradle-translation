@@ -394,6 +394,18 @@ Responding to change over following a plan</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q loadfile
+I'm fond of agile.manifesto.txt
+I'm fond of gradle.manifesto.txt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023516Z" creationid="95" creationdate="20170729T023516Z">
+        <seg>&gt; gradle -q loadfile
+I'm fond of agile.manifesto.txt
+I'm fond of gradle.manifesto.txt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q printTaskProperties
 myValue</seg>
       </tuv>
@@ -780,6 +792,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 6.14. Using methods to organize your build logic</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023454Z" creationid="95" creationdate="20170729T023454Z">
+        <seg>示例6.14. 在构建逻辑中使用方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.2. Execution of a build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145831Z" creationid="95" creationdate="20170724T145831Z">
@@ -1136,6 +1156,14 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T015549Z" creationid="95" creationdate="20170722T015549Z">
         <seg>基于编程的依赖语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Later you will see that such methods can be shared among subprojects in multi-project builds. If your build logic becomes more complex, Gradle offers you other very convenient ways to organize it. We have devoted a whole chapter to this. See &lt;a0&gt;Chapter 59, &lt;i1&gt;Organizing Build Logic&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023835Z" creationid="95" creationdate="20170729T023518Z">
+        <seg>在后面您将会看到，像这样的方法可以在多项目构建的子项目之间共享。即使您的构建逻辑变得很复杂，Gradle也提供了一种非常方便的方式去组织它。关于这一点，我们会用一整个章节来讨论，详请参阅 &lt;a0&gt;第五十九章，&lt;i1&gt;组织构建逻辑&lt;/i1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1660,6 +1688,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ant.checksum(file: file, property: &lt;s1&gt;"cs_$file.name"&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023458Z" creationid="95" creationdate="20170729T023458Z">
+        <seg>ant.checksum(file: file, property: &lt;s1&gt;"cs_$file.name"&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ant.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153837Z" creationid="95" creationdate="20170728T153837Z">
@@ -1742,6 +1778,32 @@ task printTaskProperties &lt;&lt; {</seg>
 }
 
 task printTaskProperties &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>file(dir).listFiles({file -&gt; file.isFile() } as FileFilter).sort()
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023513Z" creationid="95" creationdate="20170729T023513Z">
+        <seg>file(dir).listFiles({file -&gt; file.isFile() } as FileFilter).sort()
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fileList(&lt;s0&gt;'../antLoadfileResources'&lt;/s0&gt;).each {File file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023457Z" creationid="95" creationdate="20170729T023457Z">
+        <seg>fileList(&lt;s0&gt;'../antLoadfileResources'&lt;/s0&gt;).each {File file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fileList(&lt;s4&gt;'../antLoadfileResources'&lt;/s4&gt;).each {File file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023509Z" creationid="95" creationdate="20170729T023509Z">
+        <seg>fileList(&lt;s4&gt;'../antLoadfileResources'&lt;/s4&gt;).each {File file -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1854,6 +1916,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155848Z" creationid="95" creationdate="20170726T155848Z">
         <seg>或者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>organizing_build_logic.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023517Z" creationid="95" creationdate="20170729T023517Z">
+        <seg>organizing_build_logic.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2012,6 +2082,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;"$file.name Checksum: ${ant.properties["&lt;/s2&gt;cs_$file.name&lt;s3&gt;"]}"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023459Z" creationid="95" creationdate="20170729T023459Z">
+        <seg>println &lt;s2&gt;"$file.name Checksum: ${ant.properties["&lt;/s2&gt;cs_$file.name&lt;s3&gt;"]}"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s2&gt;"Upper case: "&lt;/s2&gt; + someString.toUpperCase()
 }</seg>
       </tuv>
@@ -2062,6 +2140,14 @@ hello &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s5&gt;"I'm fond of $file.name"&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023512Z" creationid="95" creationdate="20170729T023512Z">
+        <seg>println &lt;s5&gt;"I'm fond of $file.name"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println myTask.myProperty
 }</seg>
       </tuv>
@@ -2076,6 +2162,14 @@ hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132725Z" creationid="95" creationdate="20170727T132725Z">
         <seg>task &lt;s0&gt;"task$counter"&lt;/s0&gt; &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task checksum &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023456Z" creationid="95" creationdate="20170729T023456Z">
+        <seg>task checksum &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -2230,6 +2324,34 @@ hello &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144952Z" creationid="95" creationdate="20170724T144952Z">
         <seg>}
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+File[] fileList(String dir) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023512Z" creationid="95" creationdate="20170729T023512Z">
+        <seg>}
+}
+
+File[] fileList(String dir) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+task loadfile &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170729T023508Z" creationid="95" creationdate="20170729T023501Z">
+        <seg>}
+}
+
+task loadfile &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
