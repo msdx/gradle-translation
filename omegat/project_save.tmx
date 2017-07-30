@@ -1338,6 +1338,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most Java projects are pretty similar as far as the basics go: you need to compile your Java source files, run some unit tests, and create a JAR file containing your classes. It would be nice if you didn't have to code all this up for every project. Luckily, you don't have to. Gradle solves this problem through the use of &lt;e0&gt;plugins&lt;/e0&gt;. A plugin is an extension to Gradle which configures your project in some way, typically by adding some pre-configured tasks which together do something useful. Gradle ships with a number of plugins, and you can easily write your own and share them with others. One such plugin is the &lt;e1&gt;Java plugin&lt;/e1&gt;. This plugin adds some tasks to your project which will compile and unit test your Java source code, and bundle it into a JAR file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T011617Z" creationid="95" creationdate="20170730T010800Z">
+        <seg>大部分的Java项目的基本流程都是类似的：编译Java源文件，运行单元测试，创建一个Jar包。 如果可以不用为每个项目都去编写这些流程那就好了。在实际上，我们确实不用。Gradle通过 &lt;e0&gt;插件&lt;/e0&gt;来解决这一问题。插件就是Gradle的扩展，可以让你以某种方式来配置你的项目，通常通过添加一些预先配置的任务来共同做一些有用的事情。Gradle内置了许多插件，并且你也可以轻松地编写你自己的插件和分享自己的插件。&lt;e1&gt;Java plugin&lt;/e1&gt;是其中之一，这一插件向项目添加一些编译和测试Java源代码，并打包成JAR包的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most of the examples in this user guide are run with the &lt;c0&gt;-q&lt;/c0&gt; command-line option. This suppresses Gradle's log messages, so that only the output of the tasks is shown. This keeps the example output in this user guide a little clearer. You don't need to use this option if you don't want. See &lt;a1&gt;Chapter 18, &lt;i2&gt;Logging&lt;/i2&gt;&lt;/a1&gt; for more details about the command-line options which affect Gradle's output.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145756Z" creationid="95" creationdate="20170724T145756Z">
