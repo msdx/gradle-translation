@@ -1610,6 +1610,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java plugin is convention based. This means that the plugin defines default values for many aspects of the project, such as where the Java source files are located. If you follow the convention in your project, you generally don't need to do much in your build script to get a useful build. Gradle allows you to customize your project if you don't want to or cannot follow the convention in some way. In fact, because support for Java projects is implemented as a plugin, you don't have to use the plugin at all to build a Java project, if you don't want to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T012100Z" creationid="95" creationdate="20170730T012100Z">
+        <seg>这个Java插件是基于约定的。这也意味着它为项目的很多个方面都定义了一些默认值，比如Java源文件的位置。如果你遵循这些约定，那么你就不用在构建脚本中再去做太多的事情。如果你不想或无法遵循约定，Gradle也允许你进行自定义。实际上，由于对Java项目的支持是以插件的形式来实现的，你甚至可以完全不用这个构建来构建Java项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The binary sources. This is for reference only. If you want to build Gradle you need to download the source distribution or checkout the sources from the source repository. See the &lt;a0&gt;Gradle web site&lt;/a0&gt; for details.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T115048Z" creationid="95" creationdate="20170723T115048Z">
