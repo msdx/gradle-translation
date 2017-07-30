@@ -50,6 +50,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.testing.Test.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T132800Z" creationid="95" creationdate="20170730T132800Z">
+        <seg>../dsl/org.gradle.api.tasks.testing.Test.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072430Z" creationid="haohang" creationdate="20170720T072430Z">
@@ -1128,6 +1136,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 7.5. Customization of MANIFEST.MF</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T132601Z" creationid="95" creationdate="20170730T132601Z">
+        <seg>示例 7.5. 自定义的MANIFEST.MF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extensive samples, including the examples referenced in the user guide, along with some complete and more complex builds you can use the starting point for your own build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114843Z" creationid="95" creationdate="20170723T114843Z">
@@ -1786,8 +1802,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>The Java plugin adds a number of properties to your project. These properties have default values which are usually sufficient to get started. It's easy to change these values if they don't suit. Let's look at this for our sample. Here we will specify the version number for our Java project, along with the Java version our source is written in. We also add some attributes to the JAR manifest.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170730T132551Z" creationid="95" creationdate="20170730T130552Z">
-        <seg>Java插件向你的项目添加了许多属性。这些属性都具有默认值，足以让项目快速开始。如果不符合要求，修改这些值也很简单。让我们在例子中来看。这里，我们会指定我们的Java项目的版本号，以及我们的源码所使用Java版本。我们也会向JAR包的清单文件中写入一些属性。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T132650Z" creationid="95" creationdate="20170730T130552Z">
+        <seg>Java插件向你的项目添加了许多属性。这些属性都具有默认值，足以让项目快速开始。如果不符合要求，修改这些值也很简单。让我们在例子中来看。这里，我们会指定我们的Java项目的版本号，以及我们的源码所使用Java版本。我们也会向JAR包的清单文件中添加一些属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1876,6 +1892,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T022659Z" creationid="95" creationdate="20170722T022659Z">
         <seg>Gradle的灵活性和丰富性最终允许您将常见的设计原则应用于您的构建。 例如，通过可重用的构建逻辑来组织构建是非常容易的。 把不必要而没有直接联系的内容内联在一起是不适合的。 不要强制拆分原本一起的东西（例如在你的项目层次结构中）。 因此，避免出现分散式的变化而使您的建设的维护变成噩梦。 最后，您可以创建一个结构良好、易于维护、易于理解的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The tasks which the Java plugin adds are regular tasks, exactly the same as if they were declared in the build file. This means you can use any of the mechanisms shown in earlier chapters to customize these tasks. For example, you can set the properties of a task, add behaviour to a task, change the dependencies of a task, or replace a task entirely. In our sample, we will configure the &lt;c0&gt;test&lt;/c0&gt; task, which is of type &lt;a1&gt;&lt;c2&gt;Test&lt;/c2&gt;&lt;/a1&gt;, to add a system property when the tests are executed:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T132805Z" creationid="95" creationdate="20170730T132805Z">
+        <seg>The tasks which the Java plugin adds are regular tasks, exactly the same as if they were declared in the build file. This means you can use any of the mechanisms shown in earlier chapters to customize these tasks. For example, you can set the properties of a task, add behaviour to a task, change the dependencies of a task, or replace a task entirely. In our sample, we will configure the &lt;c0&gt;test&lt;/c0&gt; task, which is of type &lt;a1&gt;&lt;c2&gt;Test&lt;/c2&gt;&lt;/a1&gt;, to add a system property when the tests are executed:</seg>
       </tuv>
     </tu>
     <tu>
@@ -2056,6 +2080,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What properties are available?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T132614Z" creationid="95" creationdate="20170730T132614Z">
+        <seg>有哪些属性可用？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What tasks are available?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012911Z" creationid="95" creationdate="20170730T012911Z">
@@ -2108,6 +2140,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124802Z" creationid="95" creationdate="20170730T124802Z">
         <seg>更多的信息请参阅《&lt;a0&gt;第八章，&lt;i1&gt;依赖管理基础&lt;/i1&gt;&lt;/a0&gt;》</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use &lt;s0&gt;&lt;c1&gt;gradle properties&lt;/c1&gt;&lt;/s0&gt; to list the properties of a project. This will allow you to see the properties added by the Java plugin, and their default values.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T132758Z" creationid="95" creationdate="20170730T132619Z">
+        <seg>你可以使用 &lt;s0&gt;&lt;c1&gt;gradle properties&lt;/c1&gt;&lt;/s0&gt;来列出一个项目的属性。这个命令会让你看到Java插件所添加的属性以及它们的默认值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2188,6 +2228,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014424Z" creationid="95" creationdate="20170730T014424Z">
         <seg>assemble</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>attributes &lt;s2&gt;'Implementation-Title'&lt;/s2&gt;: &lt;s3&gt;'Gradle Quickstart'&lt;/s3&gt;, &lt;s4&gt;'Implementation-Version'&lt;/s4&gt;: version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T132607Z" creationid="95" creationdate="20170730T132607Z">
+        <seg>attributes &lt;s2&gt;'Implementation-Title'&lt;/s2&gt;: &lt;s3&gt;'Gradle Quickstart'&lt;/s3&gt;, &lt;s4&gt;'Implementation-Version'&lt;/s4&gt;: version</seg>
       </tuv>
     </tu>
     <tu>
@@ -2432,6 +2480,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145142Z" creationid="95" creationdate="20170724T145142Z">
         <seg>logging.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>manifest {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T132604Z" creationid="95" creationdate="20170730T132604Z">
+        <seg>manifest {</seg>
       </tuv>
     </tu>
     <tu>
@@ -2778,6 +2834,18 @@ task other &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124331Z" creationid="95" creationdate="20170730T124331Z">
         <seg>repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceCompatibility = &lt;s0&gt;1.5&lt;/s0&gt;
+version = &lt;s1&gt;'1.0'&lt;/s1&gt;
+jar {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T132603Z" creationid="95" creationdate="20170730T132603Z">
+        <seg>sourceCompatibility = &lt;s0&gt;1.5&lt;/s0&gt;
+version = &lt;s1&gt;'1.0'&lt;/s1&gt;
+jar {</seg>
       </tuv>
     </tu>
     <tu>
