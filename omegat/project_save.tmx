@@ -1122,6 +1122,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle expects to find your production source code under &lt;c0&gt;src/main/java&lt;/c0&gt; and your test source code under &lt;c1&gt;src/test/java&lt;/c1&gt;. In addition, any files under &lt;c2&gt;src/main/resources&lt;/c2&gt; will be included in the JAR file as resources, and any files under &lt;c3&gt;src/test/resources&lt;/c3&gt; will be included in the classpath used to run the tests. All output files are created under the &lt;c4&gt;build&lt;/c4&gt; directory, with the JAR file ending up in the &lt;c5&gt;build/libs&lt;/c5&gt; directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T013543Z" creationid="95" creationdate="20170730T013013Z">
+        <seg>Gradle会在 &lt;c0&gt;src/main/java&lt;/c0&gt; and your test source code under和 &lt;c1&gt;src/test/java&lt;/c1&gt;能分别找你的生产 源码和测试源码。并且，在 &lt;c2&gt;src/main/resources&lt;/c2&gt;的所有文件都会作为资源被打包进JAR包，任何在 &lt;c3&gt;src/test/resources&lt;/c3&gt;下的资源文件都会被包含到类路径中用于执行测试。所有输出的文件都会在 &lt;c4&gt;build&lt;/c4&gt; 目录里创建，而JAR包会被输出在&lt;c5&gt;build/libs&lt;/c5&gt; 目录里。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle fully supports your existing Maven or Ivy repository infrastructure for publishing and retrieving dependencies. Gradle also provides a converter for turning a Maven &lt;c0&gt;pom.xml&lt;/c0&gt; into a Gradle script. Runtime imports of Maven projects will come soon.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T060851Z" creationid="95" creationdate="20170723T060851Z">
@@ -1934,6 +1942,14 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114403Z" creationid="95" creationdate="20170723T114319Z">
         <seg>您可以从&lt;a0&gt;Gradle 官方网站&lt;/a0&gt;上下载Gradle的发行包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt; to list the tasks of a project. This will let you see the tasks that the Java plugin has added to your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T013040Z" creationid="95" creationdate="20170730T013011Z">
+        <seg>你可以使用 &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt; 来列出一个项目的任务，这样就会看到Java插件向项目添加了哪些项目。</seg>
       </tuv>
     </tu>
     <tu>
