@@ -340,6 +340,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>7.2.3. customizing the project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T124812Z" creationid="95" creationdate="20170730T124812Z">
+        <seg>7.2.3. 自定义项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.2. A basic Java project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012356Z" creationid="95" creationdate="20170730T012356Z">
@@ -1112,6 +1120,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 7.4. Adding dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T124731Z" creationid="95" creationdate="20170730T124731Z">
+        <seg>示例 7.4. 添加 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extensive samples, including the examples referenced in the user guide, along with some complete and more complex builds you can use the starting point for your own build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114843Z" creationid="95" creationdate="20170723T114843Z">
@@ -1768,6 +1784,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java plugin adds a number of properties to your project. These properties have default values which are usually sufficient to get started. It's easy to change these values if they don't suit. Let's look at this for our sample. Here we will specify the version number for our Java project, along with the Java version our source is written in. We also add some attributes to the JAR manifest.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T130552Z" creationid="95" creationdate="20170730T130552Z">
+        <seg>The Java plugin adds a number of properties to your project. These properties have default values which are usually sufficient to get started. It's easy to change these values if they don't suit. Let's look at this for our sample. Here we will specify the version number for our Java project, along with the Java version our source is written in. We also add some attributes to the JAR manifest.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Java plugin adds quite a few tasks to your project. However, there are only a handful of tasks that you will need to use to build the project. The most commonly used task is the &lt;c0&gt;build&lt;/c0&gt; task, which does a full build of the project. When you run &lt;s1&gt;&lt;c2&gt;gradle build&lt;/c2&gt;&lt;/s1&gt;, Gradle will compile and test your code, and create a JAR file containing your main classes and resources:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014234Z" creationid="95" creationdate="20170730T013856Z">
@@ -2080,6 +2104,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can find out more in &lt;a0&gt;Chapter 8, &lt;i1&gt;Dependency Management Basics&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T124802Z" creationid="95" creationdate="20170730T124802Z">
+        <seg>更多的信息请参阅《&lt;a0&gt;第八章，&lt;i1&gt;依赖管理基础&lt;/i1&gt;&lt;/a0&gt;》</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt; to list the tasks of a project. This will let you see the tasks that the Java plugin has added to your project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T013040Z" creationid="95" creationdate="20170730T013011Z">
@@ -2200,6 +2232,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile group: &lt;s0&gt;'commons-collections'&lt;/s0&gt;, name: &lt;s1&gt;'commons-collections'&lt;/s1&gt;, version: &lt;s2&gt;'3.2'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T124733Z" creationid="95" creationdate="20170730T124733Z">
+        <seg>compile group: &lt;s0&gt;'commons-collections'&lt;/s0&gt;, name: &lt;s1&gt;'commons-collections'&lt;/s1&gt;, version: &lt;s2&gt;'3.2'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def files = file(&lt;s0&gt;'../antLoadfileResources'&lt;/s0&gt;).listFiles().sort()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153757Z" creationid="95" creationdate="20170728T153757Z">
@@ -2216,6 +2256,14 @@ task clean &lt;&lt; {</seg>
         <seg>defaultTasks &lt;s0&gt;'clean'&lt;/s0&gt;, &lt;s1&gt;'run'&lt;/s1&gt;
 
 task clean &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T124732Z" creationid="95" creationdate="20170730T124732Z">
+        <seg>dependencies {</seg>
       </tuv>
     </tu>
     <tu>
@@ -2810,6 +2858,16 @@ task other &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155757Z" creationid="95" creationdate="20170726T155757Z">
         <seg>task upper &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testCompile group: &lt;s3&gt;'junit'&lt;/s3&gt;, name: &lt;s4&gt;'junit'&lt;/s4&gt;, version: &lt;s5&gt;'4.+'&lt;/s5&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T124734Z" creationid="95" creationdate="20170730T124734Z">
+        <seg>testCompile group: &lt;s3&gt;'junit'&lt;/s3&gt;, name: &lt;s4&gt;'junit'&lt;/s4&gt;, version: &lt;s5&gt;'4.+'&lt;/s5&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
