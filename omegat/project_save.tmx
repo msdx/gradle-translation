@@ -578,6 +578,44 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle build
+:compileJava
+:processResources
+:classes
+:jar
+:assemble
+:compileTestJava
+:processTestResources
+:testClasses
+:test
+:check
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T014310Z" creationid="95" creationdate="20170730T014310Z">
+        <seg>&gt; gradle build
+:compileJava
+:processResources
+:classes
+:jar
+:assemble
+:compileTestJava
+:processTestResources
+:testClasses
+:test
+:check
+:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A rich domain model for describing your build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T140853Z" creationid="95" creationdate="20170721T140853Z">
@@ -802,6 +840,22 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compiles and jars your code, but does not run the unit tests. Other plugins add more artifacts to this task. For example, if you use the War plugin, this task will also build the WAR file for your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T014612Z" creationid="95" creationdate="20170730T014612Z">
+        <seg>编译代码并打成jar包，但不会运行单元测试。其他的插件会向这个任务添加更多的工件。例如，如果你使用 War 插件，这个任务也会对你的项目构建出 WAR 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compiles and tests your code. Other plugins add more checks to this task. For example, if you use the &lt;c0&gt;checkstyle&lt;/c0&gt; plugin, this task will also run Checkstyle against your source code.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T014719Z" creationid="95" creationdate="20170730T014719Z">
+        <seg>编译和测试代码。其他的插件会向这一任务添加更多的检查。例如，如果你使用 &lt;c0&gt;checkstyle&lt;/c0&gt; 插件，这一任务就会针对你的源代码运行 Checkstyle 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copies of this document may be made for your own use and for distribution to others, provided that you do not charge any fee for such copies and further provided that each copy contains this Copyright Notice, whether distributed in print or electronically.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072426Z" creationid="haohang" creationdate="20170720T072343Z">
@@ -830,6 +884,14 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T023155Z" creationid="95" creationdate="20170722T023155Z">
         <seg>深度 API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deletes the &lt;c0&gt;build&lt;/c0&gt; directory, removing all built files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T014417Z" creationid="95" creationdate="20170730T014417Z">
+        <seg>删除&lt;c0&gt;build&lt;/c0&gt;目录，移除所有构建的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1578,6 +1640,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some other useful tasks are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T014332Z" creationid="95" creationdate="20170730T014332Z">
+        <seg>其他一些有用的任务是：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>String someString = &lt;s0&gt;'mY_nAmE'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155825Z" creationid="95" creationdate="20170726T155825Z">
@@ -2050,6 +2120,14 @@ Upper case: MY_NAME</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>assemble</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T014424Z" creationid="95" creationdate="20170730T014424Z">
+        <seg>assemble</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>base.css</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072245Z" creationid="haohang" creationdate="20170720T072245Z">
@@ -2070,6 +2148,22 @@ Upper case: MY_NAME</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T024253Z" creationid="95" creationdate="20170729T024253Z">
         <seg>build_lifecycle.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>check</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T014613Z" creationid="95" creationdate="20170730T014613Z">
+        <seg>check</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>clean</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T014334Z" creationid="95" creationdate="20170730T014334Z">
+        <seg>clean</seg>
       </tuv>
     </tu>
     <tu>
