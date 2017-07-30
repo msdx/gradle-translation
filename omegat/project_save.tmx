@@ -1944,6 +1944,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Usually, a Java project will have some dependencies on external JAR files. To reference these JAR files in the project, you need to tell Gradle where to find them. In Gradle, artifacts such as JAR files, are located in a &lt;e0&gt;repository&lt;/e0&gt;. A repository can be used for fetching the dependencies of a project, or for publishing the artifacts of a project, or both. For this example, we will use the public Maven repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170730T124317Z" creationid="95" creationdate="20170730T124317Z">
+        <seg>通常一个Java项目都会依赖一些外部JAR文件。如果想在项目里引用这些JAR文件，你需要告诉Gradle如何找到这们。在Gradle中，像JAR文件这样的工件都存在于 &lt;e0&gt;仓库&lt;/e0&gt;。仓库可以用于获取项目中的依赖，或是发布项目的工件。在下面的例子中，我们将使用公共的Maven仓库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Version 2.0</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072300Z" creationid="haohang" creationdate="20170720T072300Z">
