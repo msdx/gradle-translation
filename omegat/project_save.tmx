@@ -356,6 +356,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>7.2.4. Publishing the JAR file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T150128Z" creationid="95" creationdate="20170731T150128Z">
+        <seg>7.2.4. 发布JAR文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.2. A basic Java project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012356Z" creationid="95" creationdate="20170730T012356Z">
@@ -1140,6 +1148,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T132601Z" creationid="95" creationdate="20170730T132601Z">
         <seg>示例 7.5. 自定义的MANIFEST.MF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 7.6. Adding a test system property</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T150114Z" creationid="95" creationdate="20170731T150114Z">
+        <seg>示例 7.6. 添加一个系统属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -2008,6 +2024,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Usually the JAR file needs to be published somewhere. To do this, you need to tell Gradle where to publish the JAR file. In Gradle, artifacts such as JAR files are published to repositories. In our sample, we will publish to a local directory. You can also publish to a remote location, or multiple locations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153654Z" creationid="95" creationdate="20170731T150129Z">
+        <seg>通常，JAR文件都需要发布到某个地方。为此，你需要告诉Gradle要把JAR文件发布到哪里。在Gradle里，诸如JAR文件这样的工件会被发布到仓库中。在我们的示例中，将发布到一个本地仓库里。当然，你也可以发布到一个远程的位置，或者是多个位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Usually, a Java project will have some dependencies on external JAR files. To reference these JAR files in the project, you need to tell Gradle where to find them. In Gradle, artifacts such as JAR files, are located in a &lt;e0&gt;repository&lt;/e0&gt;. A repository can be used for fetching the dependencies of a project, or for publishing the artifacts of a project, or both. For this example, we will use the public Maven repository:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124317Z" creationid="95" creationdate="20170730T124317Z">
@@ -2850,6 +2874,16 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>systemProperties &lt;s0&gt;'property'&lt;/s0&gt;: &lt;s1&gt;'value'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T150120Z" creationid="95" creationdate="20170731T150120Z">
+        <seg>systemProperties &lt;s0&gt;'property'&lt;/s0&gt;: &lt;s1&gt;'value'&lt;/s1&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task &lt;s0&gt;"task$counter"&lt;/s0&gt; &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132725Z" creationid="95" creationdate="20170727T132725Z">
@@ -2926,6 +2960,14 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155757Z" creationid="95" creationdate="20170726T155757Z">
         <seg>task upper &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>test {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T150115Z" creationid="95" creationdate="20170731T150115Z">
+        <seg>test {</seg>
       </tuv>
     </tu>
     <tu>
