@@ -412,6 +412,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/java/multiproject&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154518Z" creationid="95" creationdate="20170731T154518Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注：&lt;/e1&gt;&lt;/s0&gt;本示例的代码可以在Gradle的二进制或源代码发行包中的 &lt;c2&gt;samples/java/multiproject&lt;/c2&gt;里找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/java/quickstart&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012606Z" creationid="95" creationdate="20170730T012606Z">
@@ -1154,8 +1162,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>Example 7.10. Multi-project build - hierarchical layout</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154425Z" creationid="95" creationdate="20170731T154425Z">
-        <seg>示例7.10. 多项目构建——项目结构</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154450Z" creationid="95" creationdate="20170731T154425Z">
+        <seg>示例7.10. 多项目构建——层次布局</seg>
       </tuv>
     </tu>
     <tu>
@@ -1452,6 +1460,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T015227Z" creationid="95" creationdate="20170722T015227Z">
         <seg>以下是Gradle的一些特性列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here we have three projects. Project &lt;c0&gt;api&lt;/c0&gt; produces a JAR file which is shipped to the client to provide them a Java client for your XML webservice. Project &lt;c1&gt;webservice&lt;/c1&gt; is a webapp which returns XML. Project &lt;c2&gt;shared&lt;/c2&gt; contains code used both by &lt;c3&gt;api&lt;/c3&gt; and &lt;c4&gt;webservice&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154521Z" creationid="95" creationdate="20170731T154521Z">
+        <seg>Here we have three projects. Project &lt;c0&gt;api&lt;/c0&gt; produces a JAR file which is shipped to the client to provide them a Java client for your XML webservice. Project &lt;c1&gt;webservice&lt;/c1&gt; is a webapp which returns XML. Project &lt;c2&gt;shared&lt;/c2&gt; contains code used both by &lt;c3&gt;api&lt;/c3&gt; and &lt;c4&gt;webservice&lt;/c4&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2336,6 +2352,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>api/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154455Z" creationid="95" creationdate="20170731T154455Z">
+        <seg>api/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'eclipse'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153832Z" creationid="95" creationdate="20170731T153832Z">
@@ -2734,6 +2758,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>multiproject/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154455Z" creationid="95" creationdate="20170731T154455Z">
+        <seg>multiproject/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>or</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155848Z" creationid="95" creationdate="20170726T155848Z">
@@ -3050,6 +3082,22 @@ task other &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124331Z" creationid="95" creationdate="20170730T124331Z">
         <seg>repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>services/webservice/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154456Z" creationid="95" creationdate="20170731T154456Z">
+        <seg>services/webservice/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>shared/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154458Z" creationid="95" creationdate="20170731T154458Z">
+        <seg>shared/</seg>
       </tuv>
     </tu>
     <tu>
