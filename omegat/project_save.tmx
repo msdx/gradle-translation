@@ -364,10 +364,34 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>7.2.5. Creating an Eclipse project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153752Z" creationid="95" creationdate="20170731T153752Z">
+        <seg>7.2.5. 创建一个Eclipse项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>7.2.6. Summary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153944Z" creationid="95" creationdate="20170731T153944Z">
+        <seg>7.2.6. 总结</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.2. A basic Java project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012356Z" creationid="95" creationdate="20170730T012356Z">
         <seg>7.2. 一个基本的 Java 项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>7.3. Multi-project Java build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154344Z" creationid="95" creationdate="20170731T154124Z">
+        <seg>7.3. 多项目的Java构建</seg>
       </tuv>
     </tu>
     <tu>
@@ -740,6 +764,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T020231Z" creationid="95" creationdate="20170722T015420Z">
         <seg>Gradle 的核心是基于Groovy的丰富可扩展的域特定语言（DSL）。Gradle通过提供可以根据需要进行组合的声明性语言元素，将声明性构建推到一个新的层次。这些元素还将为Java，Groovy，OSGi，Web和Scala项目提供基于约定的构建。更重要的是，这种声明性语言是可扩展的。可以通过添加你自己的新的语言元素，或者是增加现有的元素，从而提供简洁，可维护以及易于理解的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Build layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154433Z" creationid="95" creationdate="20170731T154433Z">
+        <seg>构建布局</seg>
       </tuv>
     </tu>
     <tu>
@@ -1120,6 +1152,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 7.10. Multi-project build - hierarchical layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154425Z" creationid="95" creationdate="20170731T154425Z">
+        <seg>示例7.10. 多项目构建——项目结构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 7.2. Building a Java project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014257Z" creationid="95" creationdate="20170730T013858Z">
@@ -1156,6 +1196,30 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T150114Z" creationid="95" creationdate="20170731T150114Z">
         <seg>示例 7.6. 添加一个系统属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 7.7. Publishing the JAR file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153704Z" creationid="95" creationdate="20170731T153704Z">
+        <seg>示例7.7. 发布JAR文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 7.8. Eclipse plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153830Z" creationid="95" creationdate="20170731T153830Z">
+        <seg>示例 7.8. Eclipse插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 7.9. Java example - complete build file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154050Z" creationid="95" creationdate="20170731T154050Z">
+        <seg>示例7.9. Java示例——完整的构建文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -1392,6 +1456,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here's the complete build file for our sample:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154035Z" creationid="95" creationdate="20170731T154035Z">
+        <seg>以下是我们的例子中的完全的构建文件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If something's not working for you, posting a question or problem report to the forums is the fastest way to get help. It's also the place to post improvement suggestions or new ideas. The development team frequently posts news items and announces releases via the forum, making it a great way to stay up to date with the latest Gradle developments.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T122322Z" creationid="95" creationdate="20170723T122322Z">
@@ -1548,6 +1620,22 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T042054Z" creationid="95" creationdate="20170722T042054Z">
         <seg>多项目构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now execute &lt;s0&gt;&lt;c1&gt;gradle eclipse&lt;/c1&gt;&lt;/s0&gt; command to generate Eclipse project files. More on Eclipse task can be found in &lt;a2&gt;Chapter 38, &lt;i3&gt;The Eclipse Plugin&lt;/i3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153936Z" creationid="95" creationdate="20170731T153936Z">
+        <seg>现在执行&lt;s0&gt;&lt;c1&gt;gradle eclipse&lt;/c1&gt;&lt;/s0&gt; 命令将生成Eclipse的项目文件。有关Eclipse插件的更多信息请参阅《&lt;a2&gt;第三十八章，&lt;i3&gt;Eclipse插件&lt;/i3&gt;&lt;/a2&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now let's look at a typical multi-project build. Below is the layout for the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154408Z" creationid="95" creationdate="20170731T154408Z">
+        <seg>现在让我们来看一个典型的多项目构建。以下是这个项目的布局：</seg>
       </tuv>
     </tu>
     <tu>
@@ -2000,6 +2088,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To import your project into Eclipse, you need to add another plugin to your build file:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153823Z" creationid="95" creationdate="20170731T153823Z">
+        <seg>要想导入项目到Eclipse中，你需要在你的构建文件中添加另一个插件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To publish the JAR file, run &lt;s0&gt;&lt;c1&gt;gradle uploadArchives&lt;/c1&gt;&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153732Z" creationid="95" creationdate="20170731T153732Z">
+        <seg>执行 &lt;s0&gt;&lt;c1&gt;gradle uploadArchives&lt;/c1&gt;&lt;/s0&gt;以发布JAR文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To try this out, create the following build script named &lt;c0&gt;build.gradle&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144931Z" creationid="95" creationdate="20170724T144931Z">
@@ -2232,10 +2336,36 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'eclipse'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153832Z" creationid="95" creationdate="20170731T153832Z">
+        <seg>apply plugin: &lt;s0&gt;'eclipse'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012452Z" creationid="95" creationdate="20170730T012452Z">
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'eclipse'&lt;/s1&gt;
+
+sourceCompatibility = &lt;s2&gt;1.5&lt;/s2&gt;
+version = &lt;s3&gt;'1.0'&lt;/s3&gt;
+jar {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154051Z" creationid="95" creationdate="20170731T154051Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'eclipse'&lt;/s1&gt;
+
+sourceCompatibility = &lt;s2&gt;1.5&lt;/s2&gt;
+version = &lt;s3&gt;'1.0'&lt;/s3&gt;
+jar {</seg>
       </tuv>
     </tu>
     <tu>
@@ -2260,6 +2390,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T132607Z" creationid="95" creationdate="20170730T132607Z">
         <seg>attributes &lt;s2&gt;'Implementation-Title'&lt;/s2&gt;: &lt;s3&gt;'Gradle Quickstart'&lt;/s3&gt;, &lt;s4&gt;'Implementation-Version'&lt;/s4&gt;: version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>attributes &lt;s4&gt;'Implementation-Title'&lt;/s4&gt;: &lt;s5&gt;'Gradle Quickstart'&lt;/s5&gt;, &lt;s6&gt;'Implementation-Version'&lt;/s6&gt;: version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154055Z" creationid="95" creationdate="20170731T154055Z">
+        <seg>attributes &lt;s4&gt;'Implementation-Title'&lt;/s4&gt;: &lt;s5&gt;'Gradle Quickstart'&lt;/s5&gt;, &lt;s6&gt;'Implementation-Version'&lt;/s6&gt;: version</seg>
       </tuv>
     </tu>
     <tu>
@@ -2312,6 +2450,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile group: &lt;s7&gt;'commons-collections'&lt;/s7&gt;, name: &lt;s8&gt;'commons-collections'&lt;/s8&gt;, version: &lt;s9&gt;'3.2'&lt;/s9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154113Z" creationid="95" creationdate="20170731T154113Z">
+        <seg>compile group: &lt;s7&gt;'commons-collections'&lt;/s7&gt;, name: &lt;s8&gt;'commons-collections'&lt;/s8&gt;, version: &lt;s9&gt;'3.2'&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def files = file(&lt;s0&gt;'../antLoadfileResources'&lt;/s0&gt;).listFiles().sort()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153757Z" creationid="95" creationdate="20170728T153757Z">
@@ -2340,6 +2486,22 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dirs &lt;s0&gt;'repos'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153709Z" creationid="95" creationdate="20170731T153709Z">
+        <seg>dirs &lt;s0&gt;'repos'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dirs &lt;s15&gt;'repos'&lt;/s15&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154119Z" creationid="95" creationdate="20170731T154119Z">
+        <seg>dirs &lt;s15&gt;'repos'&lt;/s15&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>distributions {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170728T012114Z" creationid="haohang" creationdate="20170728T012114Z">
@@ -2360,6 +2522,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072245Z" creationid="haohang" creationdate="20170720T072245Z">
         <seg>docs.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>eclipse_plugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153833Z" creationid="95" creationdate="20170731T153833Z">
+        <seg>eclipse_plugin.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2408,6 +2578,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153759Z" creationid="95" creationdate="20170728T153759Z">
         <seg>files.each { File file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>flatDir {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153706Z" creationid="95" creationdate="20170731T153706Z">
+        <seg>flatDir {</seg>
       </tuv>
     </tu>
     <tu>
@@ -2522,6 +2700,20 @@ task printTaskProperties &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124333Z" creationid="95" creationdate="20170730T124333Z">
         <seg>mavenCentral()
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mavenCentral()
+}
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154112Z" creationid="95" creationdate="20170731T154112Z">
+        <seg>mavenCentral()
+}
+
+dependencies {</seg>
       </tuv>
     </tu>
     <tu>
@@ -2884,6 +3076,20 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>systemProperties &lt;s13&gt;'property'&lt;/s13&gt;: &lt;s14&gt;'value'&lt;/s14&gt;
+}
+
+uploadArchives {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154116Z" creationid="95" creationdate="20170731T154116Z">
+        <seg>systemProperties &lt;s13&gt;'property'&lt;/s13&gt;: &lt;s14&gt;'value'&lt;/s14&gt;
+}
+
+uploadArchives {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task &lt;s0&gt;"task$counter"&lt;/s0&gt; &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132725Z" creationid="95" creationdate="20170727T132725Z">
@@ -2972,6 +3178,20 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>testCompile group: &lt;s10&gt;'junit'&lt;/s10&gt;, name: &lt;s11&gt;'junit'&lt;/s11&gt;, version: &lt;s12&gt;'4.+'&lt;/s12&gt;
+}
+
+test {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154115Z" creationid="95" creationdate="20170731T154115Z">
+        <seg>testCompile group: &lt;s10&gt;'junit'&lt;/s10&gt;, name: &lt;s11&gt;'junit'&lt;/s11&gt;, version: &lt;s12&gt;'4.+'&lt;/s12&gt;
+}
+
+test {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>testCompile group: &lt;s3&gt;'junit'&lt;/s3&gt;, name: &lt;s4&gt;'junit'&lt;/s4&gt;, version: &lt;s5&gt;'4.+'&lt;/s5&gt;
 }</seg>
       </tuv>
@@ -3026,6 +3246,14 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T141647Z" creationid="95" creationdate="20170721T141647Z">
         <seg>tutorials.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uploadArchives {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T153705Z" creationid="95" creationdate="20170731T153705Z">
+        <seg>uploadArchives {</seg>
       </tuv>
     </tu>
     <tu>
@@ -3106,6 +3334,20 @@ File[] fileList(String dir) {</seg>
 }
 
 File[] fileList(String dir) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+repositories {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170731T154103Z" creationid="95" creationdate="20170731T154103Z">
+        <seg>}
+}
+
+repositories {</seg>
       </tuv>
     </tu>
     <tu>
