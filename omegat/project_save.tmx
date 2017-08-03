@@ -420,6 +420,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>7.3.2. Common configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T123812Z" creationid="95" creationdate="20170803T123812Z">
+        <seg>7.3.2. 公共配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.3. Multi-project Java build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154344Z" creationid="95" creationdate="20170731T154124Z">
@@ -1200,6 +1208,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 7.11. Multi-project build - settings.gradle file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T123537Z" creationid="95" creationdate="20170803T123537Z">
+        <seg>示例7.11. 多项目构建——settings.gradle文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 7.2. Building a Java project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014257Z" creationid="95" creationdate="20170730T013858Z">
@@ -1292,6 +1308,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072131Z" creationid="95" creationdate="20170723T071728Z">
         <seg>对于分享Python或Ruby知识并且乐于学习它们的Java团队来说，上面的论据并不适用。Gradle设计非常适全于在JRuby或Jython中创建另一种构建脚本引擎。目前我们并没有最高的优先级，我们很高兴任何社区来努力创建其他的构建脚本引擎。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For most multi-project builds, there is some configuration which is common to all projects. In our sample, we will define this common configuration in the root project, using a technique called &lt;e0&gt;configuration injection&lt;/e0&gt;. Here, the root project is like a container and the &lt;c1&gt;subprojects&lt;/c1&gt; method iterates over the elements of this container - the projects in this instance - and injects the specified configuration. This way we can easily define the manifest content for all archives, and some common dependencies:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T124401Z" creationid="95" creationdate="20170803T123813Z">
+        <seg>对于大多数的多项目构建，会有一些共同的配置。在我们的例子中，将会在根项目中使用一种叫做&lt;e0&gt;配置注入&lt;/e0&gt;的技术来定义这些公共配置。在这里，这个根项目就像一个容器，&lt;c1&gt;subprojects&lt;/c1&gt; 的方法会遍历这个容器的一些元素——这个实例中的所有子项目，并且注入指定的配置。这样我们就可以轻松地定义所有存档的清单内容，以及一些公共的依赖：</seg>
       </tuv>
     </tu>
     <tu>
@@ -2336,6 +2360,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can find out more about the settings file in &lt;a0&gt;Chapter 56, &lt;i1&gt;Multi-project Builds&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T123753Z" creationid="95" creationdate="20170803T123550Z">
+        <seg>更多的信息可参阅《&lt;a0&gt;第五十六章，&lt;i1&gt;多项目构建&lt;/i1&gt;&lt;/a0&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can find out more in &lt;a0&gt;Chapter 8, &lt;i1&gt;Dependency Management Basics&lt;/i1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124802Z" creationid="95" creationdate="20170730T124802Z">
@@ -2734,6 +2766,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>include &lt;s0&gt;"shared"&lt;/s0&gt;, &lt;s1&gt;"api"&lt;/s1&gt;, &lt;s2&gt;"services:webservice"&lt;/s2&gt;, &lt;s3&gt;"services:shared"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T123539Z" creationid="95" creationdate="20170803T123539Z">
+        <seg>include &lt;s0&gt;"shared"&lt;/s0&gt;, &lt;s1&gt;"api"&lt;/s1&gt;, &lt;s2&gt;"services:webservice"&lt;/s2&gt;, &lt;s3&gt;"services:shared"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>installation.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072426Z" creationid="95" creationdate="20170723T072426Z">
@@ -2810,6 +2850,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160405Z" creationid="95" creationdate="20170726T160405Z">
         <seg>more_about_tasks.html#sec:adding_dependencies_to_tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi_project_builds.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T123549Z" creationid="95" creationdate="20170803T123549Z">
+        <seg>multi_project_builds.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -3146,6 +3194,14 @@ task other &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154456Z" creationid="95" creationdate="20170731T154456Z">
         <seg>services/webservice/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>settings.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T123538Z" creationid="95" creationdate="20170803T123538Z">
+        <seg>settings.gradle</seg>
       </tuv>
     </tu>
     <tu>
