@@ -438,8 +438,8 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       <tuv lang="EN-US">
         <seg>7.3.4. Creating a distribution</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125526Z" creationid="95" creationdate="20170803T125526Z">
-        <seg>7.3.4. 创建发布</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125652Z" creationid="95" creationdate="20170803T125526Z">
+        <seg>7.3.4. 创建分发</seg>
       </tuv>
     </tu>
     <tu>
@@ -448,6 +448,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154344Z" creationid="95" creationdate="20170731T154124Z">
         <seg>7.3. 多项目的Java构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>7.4. Where to next?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125746Z" creationid="95" creationdate="20170803T125725Z">
+        <seg>7.4. 下一步目标？</seg>
       </tuv>
     </tu>
     <tu>
@@ -1248,6 +1256,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 7.14. Multi-project build - distribution file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125715Z" creationid="95" creationdate="20170803T125715Z">
+        <seg>示例7.14. 多项目构建——分发文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 7.2. Building a Java project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014257Z" creationid="95" creationdate="20170730T013858Z">
@@ -1636,6 +1652,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030800Z" creationid="95" creationdate="20170729T030627Z">
         <seg>在本章中，我们已经对任务有了初步的了解。但是关于任务的内容还不仅仅是这些，如果你想了解更多的细节，请参阅 &lt;a0&gt;第十五章，&lt;i1&gt;任务进阶&lt;/i1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In this chapter, you have seen how to do some of the things you commonly need to build a Java based project. This chapter is not exhaustive, and there are many other things you can do with Java projects in Gradle. You can find out more about the Java plugin in &lt;a0&gt;Chapter 23, &lt;i1&gt;The Java Plugin&lt;/i1&gt;&lt;/a0&gt;, and you can find more sample Java projects in the &lt;c2&gt;samples/java&lt;/c2&gt; directory in the Gradle distribution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T130337Z" creationid="95" creationdate="20170803T130337Z">
+        <seg>在本章中，你已经学习了如何构建一个基于Java的项目。本章节只是简单介绍，Gradle对Java项目可以做的事情还有很多。你可以在《&lt;a0&gt;第二十三章，&lt;i1&gt;Java插件&lt;/i1&gt;&lt;/a0&gt;》中对Java插件进行进一步了解，更多的Java项目示例请在Gradle分发包中的&lt;c2&gt;samples/java&lt;/c2&gt;目录中查看。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2562,6 +2586,16 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>archives dist
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125724Z" creationid="95" creationdate="20170803T125724Z">
+        <seg>archives dist
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifact_dependencies_tutorial.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T080751Z" creationid="95" creationdate="20170723T080751Z">
@@ -2688,6 +2722,14 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependsOn spiJar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125717Z" creationid="95" creationdate="20170803T125717Z">
+        <seg>dependsOn spiJar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dirs &lt;s0&gt;'repos'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153709Z" creationid="95" creationdate="20170731T153709Z">
@@ -2792,6 +2834,30 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from &lt;s0&gt;'src/dist'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125718Z" creationid="95" creationdate="20170803T125718Z">
+        <seg>from &lt;s0&gt;'src/dist'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from configurations.runtime</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125721Z" creationid="95" creationdate="20170803T125721Z">
+        <seg>from configurations.runtime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from spiJar.archivePath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125720Z" creationid="95" creationdate="20170803T125720Z">
+        <seg>from spiJar.archivePath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>gradle_command_line.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030916Z" creationid="95" creationdate="20170729T030916Z">
@@ -2872,6 +2938,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>into(&lt;s1&gt;'libs'&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125719Z" creationid="95" creationdate="20170803T125719Z">
+        <seg>into(&lt;s1&gt;'libs'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>introduction.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072249Z" creationid="haohang" creationdate="20170720T072249Z">
@@ -2892,6 +2966,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124429Z" creationid="95" creationdate="20170803T124429Z">
         <seg>jar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java_plugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T130000Z" creationid="95" creationdate="20170803T130000Z">
+        <seg>java_plugin.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -3405,6 +3487,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task dist(type: Zip) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125717Z" creationid="95" creationdate="20170803T125717Z">
+        <seg>task dist(type: Zip) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task distribution &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025303Z" creationid="95" creationdate="20170729T025303Z">
@@ -3650,6 +3740,20 @@ File[] fileList(String dir) {</seg>
 }
 
 File[] fileList(String dir) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+artifacts {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125722Z" creationid="95" creationdate="20170803T125722Z">
+        <seg>}
+}
+
+artifacts {</seg>
       </tuv>
     </tu>
     <tu>
