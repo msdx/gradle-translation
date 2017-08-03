@@ -1712,6 +1712,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Notice that our sample applies the Java plugin to each subproject. This means the tasks and configuration properties we have seen in the previous section are available in each subproject. So, you can compile, test, and JAR all the projects by running &lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt; from the root project directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T124825Z" creationid="95" creationdate="20170803T124431Z">
+        <seg>注意，我们的例子对每一个子项目都应用了Java插件。这意味着，在前一节我们所看到的任务和配置，在每一个子项目中都是可用的。因此，你可以通过在根项目目录中运行&lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt;，对所有的项目编译，测试并打成JAR包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now execute &lt;s0&gt;&lt;c1&gt;gradle eclipse&lt;/c1&gt;&lt;/s0&gt; command to generate Eclipse project files. More on Eclipse task can be found in &lt;a2&gt;Chapter 38, &lt;i3&gt;The Eclipse Plugin&lt;/i3&gt;&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153936Z" creationid="95" creationdate="20170731T153936Z">
@@ -2490,6 +2498,14 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s1&gt;'eclipse-wtp'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T124424Z" creationid="95" creationdate="20170803T124424Z">
+        <seg>apply plugin: &lt;s1&gt;'eclipse-wtp'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifact_dependencies_tutorial.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T080751Z" creationid="95" creationdate="20170723T080751Z">
@@ -2806,6 +2822,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>jar {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T124429Z" creationid="95" creationdate="20170803T124429Z">
+        <seg>jar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>logging.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145142Z" creationid="95" creationdate="20170724T145142Z">
@@ -2818,6 +2842,23 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T132604Z" creationid="95" creationdate="20170730T132604Z">
         <seg>manifest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>manifest.attributes provider: &lt;s4&gt;'gradle'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T124430Z" creationid="95" creationdate="20170803T124430Z">
+        <seg>manifest.attributes provider: &lt;s4&gt;'gradle'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mavenCentral()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T124426Z" creationid="95" creationdate="20170803T124426Z">
+        <seg>mavenCentral()
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -3234,6 +3275,14 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>subprojects {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T124423Z" creationid="95" creationdate="20170803T124423Z">
+        <seg>subprojects {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>systemProperties &lt;s0&gt;'property'&lt;/s0&gt;: &lt;s1&gt;'value'&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -3346,6 +3395,15 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>testCompile &lt;s2&gt;'junit:junit:4.11'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T124427Z" creationid="95" creationdate="20170803T124427Z">
+        <seg>testCompile &lt;s0&gt;'junit:junit:4.11'&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>testCompile group: &lt;s10&gt;'junit'&lt;/s10&gt;, name: &lt;s11&gt;'junit'&lt;/s11&gt;, version: &lt;s12&gt;'4.+'&lt;/s12&gt;
 }
 
@@ -3446,6 +3504,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072248Z" creationid="haohang" creationdate="20170720T072248Z">
         <seg>userguide.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>version = &lt;s3&gt;'1.0'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T124428Z" creationid="95" creationdate="20170803T124428Z">
+        <seg>version = &lt;s4&gt;'1.0'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
