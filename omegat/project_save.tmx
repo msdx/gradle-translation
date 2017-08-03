@@ -436,6 +436,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>7.3.4. Creating a distribution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125526Z" creationid="95" creationdate="20170803T125526Z">
+        <seg>7.3.4. 创建发布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.3. Multi-project Java build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154344Z" creationid="95" creationdate="20170731T154124Z">
@@ -1232,6 +1240,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 7.13. Multi-project build - dependencies between projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125326Z" creationid="95" creationdate="20170803T125259Z">
+        <seg>示例7.13. 多项目构建——项目间的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 7.2. Building a Java project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014257Z" creationid="95" creationdate="20170730T013858Z">
@@ -1888,6 +1904,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Section 56.7.1, “Disabling the build of dependency projects”&lt;/a0&gt; for how to disable this functionality.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125439Z" creationid="95" creationdate="20170803T125335Z">
+        <seg>参阅 &lt;a0&gt;第56.7.1节,“禁用项目依赖”&lt;/a0&gt; 来了解如何停用该功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Shows how to start using Gradle's build-by-convention support for Java projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T080750Z" creationid="95" creationdate="20170723T080750Z">
@@ -2288,6 +2312,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We also add a distribution, that gets shipped to the client:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125649Z" creationid="95" creationdate="20170803T125649Z">
+        <seg>在下面的例子中，我们创建了一个分发，来发送给客户端：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We have in-depth coverage with many examples about the Java plugin, dependency management and multi-project builds in later chapters. In this chapter we want to give you an initial idea of how to use the Java plugin to build a Java project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012344Z" creationid="95" creationdate="20170730T012101Z">
@@ -2370,8 +2402,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>You can add dependencies between projects in the same build, so that, for example, the JAR file of one project is used to compile another project. In the &lt;c0&gt;api&lt;/c0&gt; build file we will add a dependency on the JAR produced by the &lt;c1&gt;shared&lt;/c1&gt; project. Due to this dependency, Gradle will ensure that project &lt;c2&gt;shared&lt;/c2&gt; always gets built before project &lt;c3&gt;api&lt;/c3&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125256Z" creationid="95" creationdate="20170803T125256Z">
-        <seg>你可以向同一个构建的项目之间添加依赖关系，这样，某个项目中的 JAR 文件就能用于编译另一个项目了。在 &lt;c0&gt;api&lt;/c0&gt;项目的构建文件里，我们让它依赖 &lt;c1&gt;shared&lt;/c1&gt; 项目所生成的JAR文件。由于这个依赖关系，Gradle会确保 &lt;c2&gt;shared&lt;/c2&gt;项目总是在 &lt;c3&gt;api&lt;/c3&gt;项目之前进行构建。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125305Z" creationid="95" creationdate="20170803T125256Z">
+        <seg>你可以向同一个构建的项目之间添加依赖关系，这样，某个项目中的 JAR 文件就能用于编译另一个项目了。在 &lt;c0&gt;api&lt;/c0&gt;项目的构建文件里，我们让它依赖 &lt;c1&gt;shared&lt;/c1&gt; 项目所生成的JAR文件。由于这个依赖关系，Gradle会确保 &lt;c2&gt;shared&lt;/c2&gt;项目总是在 &lt;c3&gt;api&lt;/c3&gt;项目之前构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2476,6 +2508,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154455Z" creationid="95" creationdate="20170731T154455Z">
         <seg>api/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>api/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125322Z" creationid="95" creationdate="20170803T125322Z">
+        <seg>api/build.gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -2606,6 +2646,16 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154113Z" creationid="95" creationdate="20170731T154113Z">
         <seg>compile group: &lt;s7&gt;'commons-collections'&lt;/s7&gt;, name: &lt;s8&gt;'commons-collections'&lt;/s8&gt;, version: &lt;s9&gt;'3.2'&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile project(&lt;s0&gt;':shared'&lt;/s0&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125332Z" creationid="95" creationdate="20170803T125332Z">
+        <seg>compile project(&lt;s0&gt;':shared'&lt;/s0&gt;)
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -2923,6 +2973,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T123549Z" creationid="95" creationdate="20170803T123549Z">
         <seg>multi_project_builds.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi_project_builds.html#disable_dependency_projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170803T125334Z" creationid="95" creationdate="20170803T125334Z">
+        <seg>multi_project_builds.html#disable_dependency_projects</seg>
       </tuv>
     </tu>
     <tu>
