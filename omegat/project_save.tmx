@@ -1808,6 +1808,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Often, the dependencies of a project will themselves have dependencies. For example, Hibernate core requires several other libraries to be present on the classpath with it runs. So, when Gradle runs the tests for your project, it also needs to find these dependencies and make them available. We call these &lt;e0&gt;transitive dependencies&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170905T152538Z" creationid="95" creationdate="20170905T152151Z">
+        <seg>通常一个项目的依赖还会有它们自己本身的依赖。例如Hibernate 核心类库在运行的时候就依赖于一些其他的类库。因此，当Gradle运行你的项目的测试用例时，它也需要找到这些依赖并使其可用。我们把这个过程称为 &lt;e0&gt;传递依赖&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once tasks are created they can be accessed via an &lt;s0&gt;&lt;e1&gt;API&lt;/e1&gt;&lt;/s0&gt;. This is different to Ant. For example you can create additional dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132935Z" creationid="95" creationdate="20170727T132814Z">
