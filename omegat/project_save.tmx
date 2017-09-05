@@ -1768,6 +1768,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most projects are not completely self-contained. They need files built by other projects in order to be compiled or tested and so on. For example, in order to use Hibernate in my project, I need to include some Hibernate jars in the classpath when I compile my source. To run my tests, I might also need to include some additional jars in the test classpath, such as a particular JDBC driver or the Ehcache jars.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170905T150016Z" creationid="95" creationdate="20170905T150016Z">
+        <seg>大部分项目都不是完全独立的，它们需要其他项目所构建的一些文件来编译或测试等等。例如，如果我想在我的项目中使用Hibernate，我需要在编译代码时把一些Hibernate的jar文件包含到类路径中。如果要运行测试，可能还需要把一些其他的jar包包含到测试类路径中，比如特定的JDBC驱动或者是Ehcache jar文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Multi-project builds</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T042054Z" creationid="95" creationdate="20170722T042054Z">
