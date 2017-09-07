@@ -468,6 +468,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>8.2. Declaring your dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170907T154905Z" creationid="95" creationdate="20170907T154905Z">
+        <seg>8.2. 依赖声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Previous&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;Contents&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;Next&lt;/a4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072520Z" creationid="haohang" creationdate="20170720T072520Z">
@@ -2170,8 +2178,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>The main purpose of most projects is to build some files that are to be used outside the project. For example, if your project produces a java library, you need to build a jar, and maybe a source jar and some documentation, and publish them somewhere.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170905T152539Z" creationid="95" creationdate="20170905T152539Z">
-        <seg>The main purpose of most projects is to build some files that are to be used outside the project. For example, if your project produces a java library, you need to build a jar, and maybe a source jar and some documentation, and publish them somewhere.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170907T154213Z" creationid="95" creationdate="20170905T152539Z">
+        <seg>大多数项目的主要目的是构建一些在项目之外使用的文件。例如，如果你的项目是要生成一个Java库，你需要构建出一个jar文件，可能还需要一个源文件jar包，以及文档等，然后把它们发布出去。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2236,6 +2244,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170905T152131Z" creationid="95" creationdate="20170905T151718Z">
         <seg>这些传入的文件构成了这个项目的依赖。Gradle可以让你告诉它你项目的依赖是什么，以便它处理查找这些依赖，以及把它们加入构建。这些依赖可能需要从远程的Maven或Ivy仓库中下载，或者位于本地目录中，或是需要由同一个多项目构建的其他子项目来构建。这个过程我们称之为 &lt;e0&gt;依赖解析&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These outgoing files form the publications of the project. Gradle also takes care of this important work for you. You declare the publications of your project, and Gradle take care of building them and publishing them somewhere. Exactly what "publishing" means depends on what you want to do. You might want to copy the files to a local directory, or upload them to a remote Maven or Ivy repository. Or you might use the files in another project in the same multi-project build. We call this process &lt;e0&gt;publication&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20170907T154859Z" creationid="95" creationdate="20170907T154301Z">
+        <seg>这些输出文件构成了项目的发布内容。Gradle也会为你处理这个重要的事情。你声明项目的发布内容，Gradle就会负责构建它们并把它们发布到某个地方。“发布”的确切含义取决于你想做什么。你可能想把一些文件拷贝到一个本地的目录，把它们上传到一个远程的Maven或Ivy仓库，或是在同一个多项目构建的另一个子项目中使用这些文件。这个过程，我们称之为&lt;e0&gt;发布&lt;/e0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
