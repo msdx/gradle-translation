@@ -904,6 +904,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, Gradle does not define any repositories. You need to define at least one before you can use external dependencies. One option is use the Maven central repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044736Z" creationid="huanghaohang" creationdate="20170908T044736Z">
+        <seg>默认情况下，Gradle没有定义任何仓库。需要你至少去定义一个，然后才能使用外部依赖。我们通常使用的有Maven中央仓库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Chapter 1. Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072252Z" creationid="haohang" creationdate="20170720T072252Z">
@@ -1408,6 +1416,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 8.4. Usage of Maven central repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044750Z" creationid="huanghaohang" creationdate="20170908T044750Z">
+        <seg>示例8.4. 使用Maven中央仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 8.5. Usage of a remote Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044837Z" creationid="huanghaohang" creationdate="20170908T044837Z">
+        <seg>示例8.5. 使用远程的Maven仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extensive samples, including the examples referenced in the user guide, along with some complete and more complex builds you can use the starting point for your own build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114843Z" creationid="95" creationdate="20170723T114843Z">
@@ -1908,6 +1932,22 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132935Z" creationid="95" creationdate="20170727T132814Z">
         <seg>与Ant不同，一旦任务被创建了，就可以通过一个 &lt;s0&gt;&lt;e1&gt;API&lt;/e1&gt;&lt;/s0&gt;去访问它。例如，你可以去给它们添加其他的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Or a remote Ivy repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044905Z" creationid="huanghaohang" creationdate="20170908T044905Z">
+        <seg>或者是一个远程的Ivy仓库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Or a remote Maven repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044814Z" creationid="huanghaohang" creationdate="20170908T044814Z">
+        <seg>或其他远程Maven仓库：</seg>
       </tuv>
     </tu>
     <tu>
@@ -3338,6 +3378,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>maven {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044839Z" creationid="huanghaohang" creationdate="20170908T044839Z">
+        <seg>maven {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>mavenCentral()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124426Z" creationid="95" creationdate="20170803T124426Z">
@@ -4022,6 +4070,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153705Z" creationid="95" creationdate="20170731T153705Z">
         <seg>uploadArchives {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url &lt;s0&gt;"http://repo.mycompany.com/maven2"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044841Z" creationid="huanghaohang" creationdate="20170908T044841Z">
+        <seg>url &lt;s0&gt;"http://repo.mycompany.com/maven2"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
