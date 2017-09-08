@@ -484,6 +484,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>8.4. External dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T042927Z" creationid="huanghaohang" creationdate="20170908T042927Z">
+        <seg>8.4. 外部依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Previous&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;Contents&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;Next&lt;/a4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072520Z" creationid="haohang" creationdate="20170720T072520Z">
@@ -2304,6 +2312,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are various types of dependencies that you can declare. One such type is an &lt;e0&gt;external dependency&lt;/e0&gt;. This a dependency on some files built outside the current build, and stored in a repository of some kind, such as Maven central, or a corporate Maven or Ivy repository, or a directory in the local file system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T043125Z" creationid="huanghaohang" creationdate="20170908T043125Z">
+        <seg>你可以声明多种类型的依赖。其中一种这样的类型叫&lt;e0&gt;外部依赖&lt;/e0&gt;，它是依赖于在当前构建之外所生成的一些文件，并存储在某种存储库中，例如Maven Central，Maven私服，Ivy存储库，或者是本地文件系统中的某个目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is a shorthand way to define a task like our &lt;c0&gt;hello&lt;/c0&gt; task above, which is more concise.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155226Z" creationid="95" creationdate="20170726T155226Z">
@@ -2468,6 +2484,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124317Z" creationid="95" creationdate="20170730T124317Z">
         <seg>通常一个Java项目都会依赖一些外部JAR文件。如果想在项目里引用这些JAR文件，你需要告诉Gradle如何找到这们。在Gradle中，像JAR文件这样的工件都存在于 &lt;e0&gt;仓库&lt;/e0&gt;。仓库可以用于获取项目中的依赖，或是发布项目的工件。在下面的例子中，我们将使用公共的Maven仓库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Various plugins add further standard configurations. You can also define your own custom configurations to use in your build. Please see &lt;a0&gt;Section 50.3, “Dependency configurations”&lt;/a0&gt; for the details of defining and customizing dependency configurations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T042917Z" creationid="huanghaohang" creationdate="20170908T042917Z">
+        <seg>各种插件添加了更多的标准配置。你也可以定义一些自定义配置以在构建中使用。有关定义和定制依赖配置的详细内容，请参见&lt;a0&gt;第50.3节，“依赖配置”&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
