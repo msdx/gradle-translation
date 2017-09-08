@@ -2216,6 +2216,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The dependencies required to compile the test source of the project. By default, also includes the compiled production classes and the compile time dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T035059Z" creationid="huanghaohang" creationdate="20170908T035059Z">
+        <seg>编译项目测试源码所需的依赖。默认情况下，还包括了所编译的生产类和编译时依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The dependencies required to run the tests. By default, also includes the compile, runtime and test compile dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T035316Z" creationid="huanghaohang" creationdate="20170908T035316Z">
+        <seg>运行测试所需的依赖。默认情况下，还包括编译，运行时和测试的编译依赖关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The dependency of &lt;c0&gt;taskX&lt;/c0&gt; to &lt;c1&gt;taskY&lt;/c1&gt; is declared before &lt;c2&gt;taskY&lt;/c2&gt; is defined. This is very important for multi-project builds. Task dependencies are discussed in more detail in &lt;a3&gt;Section 15.4, “Adding dependencies to a task”&lt;/a3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132109Z" creationid="95" creationdate="20170726T160408Z">
@@ -3763,6 +3779,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>testCompile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T035005Z" creationid="huanghaohang" creationdate="20170908T035005Z">
+        <seg>testCompile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>testCompile &lt;s2&gt;'junit:junit:4.11'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124427Z" creationid="95" creationdate="20170803T124427Z">
@@ -3802,6 +3826,14 @@ test {</seg>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170908T013235Z" creationid="haohang" creationdate="20170908T013235Z">
         <seg>testCompile group: &lt;s4&gt;'junit'&lt;/s4&gt;, name: &lt;s5&gt;'junit'&lt;/s5&gt;, version: &lt;s6&gt;'4.+'&lt;/s6&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testRuntime</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T035202Z" creationid="huanghaohang" creationdate="20170908T035202Z">
+        <seg>testRuntime</seg>
       </tuv>
     </tu>
     <tu>
