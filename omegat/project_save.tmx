@@ -1672,6 +1672,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Gradle dependencies are grouped into &lt;e0&gt;configurations&lt;/e0&gt;. A configuration is simply a named set of dependencies. We will refer to them as &lt;e1&gt;dependency configurations&lt;/e1&gt;. You can use them to declare the external dependencies of your project. As we will see later, they are also used to declare the publications of your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T032324Z" creationid="huanghaohang" creationdate="20170908T032324Z">
+        <seg>在Gradle中依赖会被分为几组&lt;e0&gt;配置&lt;/e0&gt;。配置只是一组依赖的命名，我们会把它们称为&lt;e1&gt;依赖配置&lt;/e1&gt;。你可以使用它们来声明项目的外部依赖。我们稍后会看到，它们也被用来声明你的项目的发布内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In a command-line shell, enter into the containing directory and execute the build script by running &lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145113Z" creationid="95" creationdate="20170724T144952Z">
