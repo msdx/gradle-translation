@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N1067B</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050750Z" creationid="huanghaohang" creationdate="20170908T050750Z">
+        <seg>#ftn.N1067B</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>*** gradle.manifesto.txt ***
 Make the impossible possible, make the possible easy and make the easy elegant.
 (inspired by Moshe Feldenkrais)</seg>
@@ -1488,6 +1496,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 8.8. Publishing to an Ivy repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050445Z" creationid="huanghaohang" creationdate="20170908T050445Z">
+        <seg>示例8.8. 发布到Ivy仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extensive samples, including the examples referenced in the user guide, along with some complete and more complex builds you can use the starting point for your own build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114843Z" creationid="95" creationdate="20170723T114843Z">
@@ -1972,6 +1988,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154408Z" creationid="95" creationdate="20170731T154408Z">
         <seg>现在让我们来看一个典型的多项目构建。以下是这个项目的布局：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now, when you run &lt;s0&gt;&lt;c1&gt;gradle uploadArchives&lt;/c1&gt;&lt;/s0&gt;, Gradle will build and upload your Jar. Gradle will also generate and upload an &lt;c2&gt;ivy.xml&lt;/c2&gt; as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050749Z" creationid="huanghaohang" creationdate="20170908T050503Z">
+        <seg>现在，当你运行&lt;s0&gt;&lt;c1&gt;gradle uploadArchives&lt;/c1&gt;&lt;/s0&gt;，Gradle将会构建你的Jar包，以及生成&lt;c2&gt;ivy.xml&lt;/c2&gt;并且一起上传。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2824,6 +2848,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also publish to Maven repositories. The syntax is slightly different.&lt;s0&gt;[&lt;a1&gt;4&lt;/a1&gt;]&lt;/s0&gt; Note that you also need to apply the Maven plugin in order to publish to a Maven repository. In this instance, Gradle will generate and upload a &lt;c2&gt;pom.xml&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050945Z" creationid="huanghaohang" creationdate="20170908T050945Z">
+        <seg>当然，你也可以发布到Maven仓库。语法略有不同。&lt;s0&gt;[&lt;a1&gt;4&lt;/a1&gt;]&lt;/s0&gt;请注意，你需要应用Maven插件才能发布到Maven存储库。在这种情况下，Gradle也会生成&lt;c2&gt;pom.xml&lt;/c2&gt;并上传。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can download one of the Gradle distributions from the &lt;a0&gt;Gradle web site&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114403Z" creationid="95" creationdate="20170723T114319Z">
@@ -3122,6 +3154,14 @@ jar {</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125332Z" creationid="95" creationdate="20170803T125332Z">
         <seg>compile project(&lt;s0&gt;':shared'&lt;/s0&gt;)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>credentials {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050447Z" creationid="huanghaohang" creationdate="20170908T050447Z">
+        <seg>credentials {</seg>
       </tuv>
     </tu>
     <tu>
@@ -3591,6 +3631,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072449Z" creationid="haohang" creationdate="20170720T072449Z">
         <seg>overview.html#sec:why_groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>password &lt;s1&gt;"pw"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050453Z" creationid="huanghaohang" creationdate="20170908T050453Z">
+        <seg>password &lt;s1&gt;"pw"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4194,6 +4242,14 @@ test {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>url &lt;s2&gt;"http://repo.mycompany.com"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050456Z" creationid="huanghaohang" creationdate="20170908T050456Z">
+        <seg>url &lt;s2&gt;"http://repo.mycompany.com"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>userguide.css</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072246Z" creationid="haohang" creationdate="20170720T072246Z">
@@ -4206,6 +4262,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072248Z" creationid="haohang" creationdate="20170720T072248Z">
         <seg>userguide.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>username &lt;s0&gt;"username"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050451Z" creationid="huanghaohang" creationdate="20170908T050451Z">
+        <seg>username &lt;s0&gt;"username"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
