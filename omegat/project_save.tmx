@@ -1504,6 +1504,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 8.9. Publishing to a Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051000Z" creationid="huanghaohang" creationdate="20170908T051000Z">
+        <seg>示例8.9. 发布到Maven仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extensive samples, including the examples referenced in the user guide, along with some complete and more complex builds you can use the starting point for your own build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114843Z" creationid="95" creationdate="20170723T114843Z">
@@ -2624,6 +2632,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To find out more about publication, have a look at &lt;a0&gt;Chapter 51, &lt;i1&gt;Publishing artifacts&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051110Z" creationid="huanghaohang" creationdate="20170908T051110Z">
+        <seg>要了解有关发布的更多信息，请查看《&lt;a0&gt;第五十一章，&lt;i1&gt;发布构件&lt;/i1&gt;&lt;/a0&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To import your project into Eclipse, you need to add another plugin to your build file:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153823Z" creationid="95" creationdate="20170731T153823Z">
@@ -3006,6 +3022,18 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'maven'&lt;/s0&gt;
+
+uploadArchives {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051003Z" creationid="huanghaohang" creationdate="20170908T051003Z">
+        <seg>apply plugin: &lt;s0&gt;'maven'&lt;/s0&gt;
+
+uploadArchives {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s1&gt;'eclipse-wtp'&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124424Z" creationid="95" creationdate="20170803T124424Z">
@@ -3028,6 +3056,14 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T080751Z" creationid="95" creationdate="20170723T080751Z">
         <seg>artifact_dependencies_tutorial.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifact_management.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051025Z" creationid="huanghaohang" creationdate="20170908T051025Z">
+        <seg>artifact_management.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -3555,6 +3591,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>mavenDeployer {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051008Z" creationid="huanghaohang" creationdate="20170908T051008Z">
+        <seg>mavenDeployer {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>more_about_tasks.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030624Z" creationid="95" creationdate="20170729T030624Z">
@@ -3919,6 +3963,14 @@ task other &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124331Z" creationid="95" creationdate="20170730T124331Z">
         <seg>repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>repository(url: &lt;s1&gt;"file://localhost/tmp/myRepo/"&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051022Z" creationid="huanghaohang" creationdate="20170908T051022Z">
+        <seg>repository(url: &lt;s1&gt;"file://localhost/tmp/myRepo/"&lt;/s1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
