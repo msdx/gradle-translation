@@ -2416,6 +2416,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The plugins do a pretty good job of defining the artifacts of a project, so you usually don't need to do anything special to tell Gradle what needs to be published. However, you do need to tell Gradle where to publish the artifacts. You do this by attaching repositories to the &lt;c0&gt;uploadArchives&lt;/c0&gt; task. Here's an example of publishing to a remote Ivy repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050425Z" creationid="huanghaohang" creationdate="20170908T050425Z">
+        <seg>插件对定义项目的构件提供了非常好的支持，所以通常无需再做其他事情来告诉Gradle需要发布什么。但是，你需要告诉Gradle发布到哪里。这就需要在&lt;c0&gt;uploadArchives&lt;/c0&gt;任务中添加一个仓库。以下是发布到远程Ivy存储库的示例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The power of Groovy can be used for more than defining what a task does. For example, you can also use it to dynamically create tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132702Z" creationid="95" creationdate="20170727T132702Z">
