@@ -66,6 +66,30 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:configurations(groovy.lang.Closure)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051255Z" creationid="huanghaohang" creationdate="20170908T051255Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:configurations(groovy.lang.Closure)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:dependencies(groovy.lang.Closure)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051302Z" creationid="huanghaohang" creationdate="20170908T051302Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:dependencies(groovy.lang.Closure)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:repositories(groovy.lang.Closure)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051300Z" creationid="huanghaohang" creationdate="20170908T051300Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:repositories(groovy.lang.Closure)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.testing.Test.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T132800Z" creationid="95" creationdate="20170730T132800Z">
@@ -520,6 +544,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050027Z" creationid="huanghaohang" creationdate="20170908T050027Z">
         <seg>8.6. 发布构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>8.7. Where to next?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051121Z" creationid="huanghaohang" creationdate="20170908T051121Z">
+        <seg>8.7. 下一步目标？</seg>
       </tuv>
     </tu>
     <tu>
@@ -1544,6 +1576,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For all the details of dependency resolution, see &lt;a0&gt;Chapter 50, &lt;i1&gt;Dependency Management&lt;/i1&gt;&lt;/a0&gt;, and for artifact publication see &lt;a2&gt;Chapter 51, &lt;i3&gt;Publishing artifacts&lt;/i3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051234Z" creationid="huanghaohang" creationdate="20170908T051234Z">
+        <seg>有关依赖解析的所有细节，请参阅《&lt;a0&gt;第五十章，&lt;i1&gt;依赖管理&lt;/i1&gt;&lt;/a0&gt;》；而关于构件发布则请参阅《&lt;a2&gt;第五十一章， &lt;i3&gt;发布构件&lt;/i3&gt;&lt;/a2&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For most multi-project builds, there is some configuration which is common to all projects. In our sample, we will define this common configuration in the root project, using a technique called &lt;e0&gt;configuration injection&lt;/e0&gt;. Here, the root project is like a container and the &lt;c1&gt;subprojects&lt;/c1&gt; method iterates over the elements of this container - the projects in this instance - and injects the specified configuration. This way we can easily define the manifest content for all archives, and some common dependencies:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124401Z" creationid="95" creationdate="20170803T123813Z">
@@ -1800,6 +1840,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are interested in the DSL elements mentioned here, have a look at &lt;a0&gt;&lt;c1&gt;Project.configurations{}&lt;/c1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;c3&gt;Project.repositories{}&lt;/c3&gt;&lt;/a2&gt; and &lt;a4&gt;&lt;c5&gt;Project.dependencies{}&lt;/c5&gt;&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051447Z" creationid="huanghaohang" creationdate="20170908T051314Z">
+        <seg>如果对这里提到的DSL元素感兴趣，请查看&lt;a0&gt;&lt;c1&gt;Project.configurations{}&lt;/c1&gt;&lt;/a0&gt;，&lt;a2&gt;&lt;c3&gt;Project.repositories{}&lt;/c3&gt;&lt;/a2&gt;和&lt;a4&gt;&lt;c5&gt;Project.dependencies{}&lt;/c5&gt;&lt;/a4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are using the Gradle Daemon, try temporarily disabling the daemon (you can pass the command line switch &lt;c0&gt;--no-daemon&lt;/c0&gt;). More information about troubleshooting daemon is located in &lt;a1&gt;Chapter 19, &lt;i2&gt;The Gradle Daemon&lt;/i2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T121452Z" creationid="95" creationdate="20170723T121210Z">
@@ -2052,6 +2100,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T130404Z" creationid="95" creationdate="20170803T130404Z">
         <seg>另外，下一章是《&lt;a0&gt;第八章，&lt;i1&gt;依赖管理基础&lt;/i1&gt;&lt;/a0&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise, continue on to some of the other &lt;a0&gt;tutorials&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051624Z" creationid="huanghaohang" creationdate="20170908T051624Z">
+        <seg>另外，继续其他&lt;a0&gt;教程&lt;/a0&gt;吧。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3226,6 +3282,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124732Z" creationid="95" creationdate="20170730T124732Z">
         <seg>dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051123Z" creationid="huanghaohang" creationdate="20170908T051123Z">
+        <seg>dependency_management.html</seg>
       </tuv>
     </tu>
     <tu>
