@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.2" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.6.0" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -1352,6 +1352,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 8.1. Declaring dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170908T013226Z" creationid="haohang" creationdate="20170908T013226Z">
+        <seg>示例 8.1. 依赖声明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extensive samples, including the examples referenced in the user guide, along with some complete and more complex builds you can use the starting point for your own build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114843Z" creationid="95" creationdate="20170723T114843Z">
@@ -2504,6 +2512,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What's going on here? This build script says a few things about the project. Firstly, it states that Hibernate core 3.6.7.Final is required to compile the project's production source. By implication, Hibernate core and its dependencies are also required at runtime. The build script also states that any junit &gt;= 4.0 is required to compile the project's tests. It also tells Gradle to look in the Maven central repository for any dependencies that are required. The following sections go into the details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170908T013315Z" creationid="haohang" creationdate="20170908T013315Z">
+        <seg>What's going on here? This build script says a few things about the project. Firstly, it states that Hibernate core 3.6.7.Final is required to compile the project's production source. By implication, Hibernate core and its dependencies are also required at runtime. The build script also states that any junit &gt;= 4.0 is required to compile the project's tests. It also tells Gradle to look in the Maven central repository for any dependencies that are required. The following sections go into the details.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When using Gradle (or any software package), you can run into problems. You may not understand how to use a particular feature, or you may encounter a defect. Or, you may have a general question about Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T120847Z" creationid="95" creationdate="20170723T120847Z">
@@ -2657,6 +2673,18 @@ Total time: 1 secs</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+repositories {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170908T013229Z" creationid="haohang" creationdate="20170908T013229Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
 apply plugin: &lt;s1&gt;'eclipse'&lt;/s1&gt;
 
 sourceCompatibility = &lt;s2&gt;1.5&lt;/s2&gt;
@@ -2768,6 +2796,14 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124733Z" creationid="95" creationdate="20170730T124733Z">
         <seg>compile group: &lt;s0&gt;'commons-collections'&lt;/s0&gt;, name: &lt;s1&gt;'commons-collections'&lt;/s1&gt;, version: &lt;s2&gt;'3.2'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile group: &lt;s1&gt;'org.hibernate'&lt;/s1&gt;, name: &lt;s2&gt;'hibernate-core'&lt;/s2&gt;, version: &lt;s3&gt;'3.6.7.Final'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170908T013231Z" creationid="haohang" creationdate="20170908T013231Z">
+        <seg>compile group: &lt;s1&gt;'org.hibernate'&lt;/s1&gt;, name: &lt;s2&gt;'hibernate-core'&lt;/s2&gt;, version: &lt;s3&gt;'3.6.7.Final'&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3683,6 +3719,16 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124734Z" creationid="95" creationdate="20170730T124734Z">
         <seg>testCompile group: &lt;s3&gt;'junit'&lt;/s3&gt;, name: &lt;s4&gt;'junit'&lt;/s4&gt;, version: &lt;s5&gt;'4.+'&lt;/s5&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testCompile group: &lt;s4&gt;'junit'&lt;/s4&gt;, name: &lt;s5&gt;'junit'&lt;/s5&gt;, version: &lt;s6&gt;'4.+'&lt;/s6&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20170908T013235Z" creationid="haohang" creationdate="20170908T013235Z">
+        <seg>testCompile group: &lt;s4&gt;'junit'&lt;/s4&gt;, name: &lt;s5&gt;'junit'&lt;/s5&gt;, version: &lt;s6&gt;'4.+'&lt;/s6&gt;
 }</seg>
       </tuv>
     </tu>
