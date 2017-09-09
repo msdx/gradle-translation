@@ -952,6 +952,30 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle dist -x test
+:compile
+compiling source
+:dist
+building the distribution
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T032032Z" creationid="huanghaohang" creationdate="20170909T032032Z">
+        <seg>&gt; gradle dist -x test
+:compile
+compiling source
+:dist
+building the distribution
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle dist test
 :compile
 compiling source
@@ -1428,6 +1452,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031119Z" creationid="huanghaohang" creationdate="20170909T031119Z">
         <seg>示例 11.1. 执行多个任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 11.2. Excluding tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031953Z" creationid="huanghaohang" creationdate="20170909T031953Z">
+        <seg>示例 11.2. 排除任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -2480,6 +2512,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle dist -x test&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T032028Z" creationid="huanghaohang" creationdate="20170909T032028Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle dist -x test&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle dist test&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031159Z" creationid="huanghaohang" creationdate="20170909T031159Z">
@@ -3364,6 +3404,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124802Z" creationid="95" creationdate="20170730T124802Z">
         <seg>更多的信息请参阅《&lt;a0&gt;第八章，&lt;i1&gt;依赖管理基础&lt;/i1&gt;&lt;/a0&gt;》</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can see from the output of this example, that the &lt;c0&gt;test&lt;/c0&gt; task is not executed, even though it is a dependency of the &lt;c1&gt;dist&lt;/c1&gt; task. You will also notice that the &lt;c2&gt;test&lt;/c2&gt; task's dependencies, such as &lt;c3&gt;compileTest&lt;/c3&gt; are not executed either. Those dependencies of &lt;c4&gt;test&lt;/c4&gt; that are required by another task, such as &lt;c5&gt;compile&lt;/c5&gt;, are still executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T073608Z" creationid="huanghaohang" creationdate="20170909T073608Z">
+        <seg>你可以本例的输出中看出&lt;c0&gt;test&lt;/c0&gt;任务并不执行，即使它被&lt;c1&gt;dist&lt;/c1&gt;任务所依赖。你也可能同时注意到&lt;c2&gt;test&lt;/c2&gt;任务所依赖的任务，如&lt;c3&gt;compileTest&lt;/c3&gt;也一样没有执行。而&lt;c4&gt;test&lt;/c4&gt;所依赖的同时也是另一个任务所需要的任务，如&lt;c5&gt;compile&lt;/c5&gt;，则仍然执行。</seg>
       </tuv>
     </tu>
     <tu>
