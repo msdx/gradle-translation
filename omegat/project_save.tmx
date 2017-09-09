@@ -202,6 +202,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>11.6. Obtaining information about your build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114322Z" creationid="huanghaohang" creationdate="20170909T114322Z">
+        <seg>11.6. 获取构建的相关信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -768,6 +776,26 @@ Default Running!</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q -b subdir/myproject.gradle hello
+using build file 'myproject.gradle' in 'subdir'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114026Z" creationid="huanghaohang" creationdate="20170909T114026Z">
+        <seg>&gt; gradle -q -b subdir/myproject.gradle hello
+using build file 'myproject.gradle' in 'subdir'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q -p subdir hello
+using build file 'build.gradle' in 'subdir'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114308Z" creationid="huanghaohang" creationdate="20170909T114308Z">
+        <seg>&gt; gradle -q -p subdir hello
+using build file 'build.gradle' in 'subdir'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q count
 0 1 2 3</seg>
       </tuv>
@@ -1124,6 +1152,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155544Z" creationid="95" creationdate="20170726T155319Z">
         <seg>这里再一次使用了一个闭包的方式来定义一个 &lt;c0&gt;hello&lt;/c0&gt; 任务去执行。在本用户指南中，我们还会再使用这种任务定义的风格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alternatively, you can use the &lt;c0&gt;-p&lt;/c0&gt; option to specify the project directory to use. For multi-project builds you should use &lt;c1&gt;-p&lt;/c1&gt; option instead of &lt;c2&gt;-b&lt;/c2&gt; option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114222Z" creationid="huanghaohang" creationdate="20170909T114222Z">
+        <seg>或者，你也可以使用&lt;c0&gt;-p&lt;/c0&gt;选项来指定使用哪一个项目目录。对于多项目构建，你应该使用&lt;c1&gt;-p&lt;/c1&gt;而不是&lt;c2&gt;-b&lt;/c2&gt;选项。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1572,6 +1608,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114011Z" creationid="huanghaohang" creationdate="20170909T114011Z">
         <seg>示例11.5. 使用构建文件选择项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 11.6. Selecting the project using project directory</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114250Z" creationid="huanghaohang" creationdate="20170909T114250Z">
+        <seg>示例11.6. 使用项目目录选择项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -2524,6 +2568,22 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030938Z" creationid="95" creationdate="20170729T030914Z">
         <seg>另外，本教程接下来是 《&lt;a0&gt;第七章， &lt;i1&gt;Java 快速入门&lt;/i1&gt;&lt;/a0&gt;》 以及《&lt;a2&gt;第八章， &lt;i3&gt;依赖管理基础&lt;/i3&gt;&lt;/a2&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q -b subdir/myproject.gradle hello&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114023Z" creationid="huanghaohang" creationdate="20170909T114023Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q -b subdir/myproject.gradle hello&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q -p subdir hello&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114306Z" creationid="huanghaohang" creationdate="20170909T114306Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q -p subdir hello&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -4493,6 +4553,16 @@ task release(dependsOn: &lt;s1&gt;'distribution'&lt;/s1&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;"using build file '$buildFile.name' in '$buildFile.parentFile.name'."&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114014Z" creationid="huanghaohang" creationdate="20170909T114014Z">
+        <seg>println &lt;s0&gt;"using build file '$buildFile.name' in '$buildFile.parentFile.name'."&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s0&gt;'Hello Earth'&lt;/s0&gt;
 }
 hello.doFirst {</seg>
@@ -4851,6 +4921,14 @@ jar {</seg>
         <seg>sourceCompatibility = &lt;s0&gt;1.5&lt;/s0&gt;
 version = &lt;s1&gt;'1.0'&lt;/s1&gt;
 jar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>subdir/myproject.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114013Z" creationid="huanghaohang" creationdate="20170909T114013Z">
+        <seg>subdir/myproject.gradle</seg>
       </tuv>
     </tu>
     <tu>
