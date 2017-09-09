@@ -194,6 +194,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>11.5. Selecting which build to execute</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T113358Z" creationid="huanghaohang" creationdate="20170909T113358Z">
+        <seg>11.5. 选择执行哪个构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -968,6 +976,62 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle cT
+:compile
+compiling source
+:compileTest
+compiling unit tests
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T113301Z" creationid="huanghaohang" creationdate="20170909T113301Z">
+        <seg>&gt; gradle cT
+:compile
+compiling source
+:compileTest
+compiling unit tests
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle di
+:compile
+compiling source
+:compileTest
+compiling unit tests
+:test
+running unit tests
+:dist
+building the distribution
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T112858Z" creationid="huanghaohang" creationdate="20170909T112858Z">
+        <seg>&gt; gradle di
+:compile
+compiling source
+:compileTest
+compiling unit tests
+:test
+running unit tests
+:dist
+building the distribution
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle dist -x test
 :compile
 compiling source
@@ -1484,6 +1548,22 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031953Z" creationid="huanghaohang" creationdate="20170909T031953Z">
         <seg>示例 11.2. 排除任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 11.3. Abbreviated task name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T113243Z" creationid="huanghaohang" creationdate="20170909T112820Z">
+        <seg>示例11.3. 缩写任务名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 11.4. Abbreviated camel case task name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T113246Z" creationid="huanghaohang" creationdate="20170909T113231Z">
+        <seg>示例11.4. 缩写驼峰任务名称</seg>
       </tuv>
     </tu>
     <tu>
@@ -2544,6 +2624,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle cT&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T113259Z" creationid="huanghaohang" creationdate="20170909T113259Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle cT&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle di&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T112846Z" creationid="huanghaohang" creationdate="20170909T112846Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle di&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle dist -x test&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T032028Z" creationid="huanghaohang" creationdate="20170909T032028Z">
@@ -3344,6 +3440,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you run the &lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt; command, it looks for a build file in the current directory. You can use the &lt;c2&gt;-b&lt;/c2&gt; option to select another build file. If you use &lt;c3&gt;-b&lt;/c3&gt; option then &lt;c4&gt;settings.gradle&lt;/c4&gt; file is not used. Example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T113705Z" creationid="huanghaohang" creationdate="20170909T113421Z">
+        <seg>当你运行&lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt;这个命令时，它会在当前目录中查找一个构建文件。你也可以使用&lt;c2&gt;-b&lt;/c2&gt;选项来选择另一个构建文件。如果你使用&lt;c3&gt;-b&lt;/c3&gt;选项，那么Gradle就不会去用到&lt;c4&gt;settings.gradle&lt;/c4&gt;文件。例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you specify tasks on the command-line, you don't have to provide the full name of the task. You only need to provide enough of the task name to uniquely identify the task. For example, in the sample build above, you can execute task &lt;c0&gt;dist&lt;/c0&gt; by running &lt;s1&gt;&lt;c2&gt;gradle d&lt;/c2&gt;&lt;/s1&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T112734Z" creationid="huanghaohang" creationdate="20170909T112734Z">
@@ -3376,6 +3480,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also abbreviate each word in a camel case task name. For example, you can execute task &lt;c0&gt;compileTest&lt;/c0&gt; by running &lt;s1&gt;&lt;c2&gt;gradle compTest&lt;/c2&gt;&lt;/s1&gt; or even &lt;s3&gt;&lt;c4&gt;gradle cT&lt;/c4&gt;&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T113153Z" creationid="huanghaohang" creationdate="20170909T112920Z">
+        <seg>你也可以对驼峰命名的任务名称的每一个单词进行缩写。例如，你可以通过运行&lt;s1&gt;&lt;c2&gt;gradle compTest&lt;/c2&gt;&lt;/s1&gt;或&lt;s3&gt;&lt;c4&gt;gradle cT&lt;/c4&gt;&lt;/s3&gt;执行&lt;c0&gt;compileTest&lt;/c0&gt;任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also have repositories on the local file system. This works for both Maven and Ivy repositories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T045140Z" creationid="huanghaohang" creationdate="20170908T045119Z">
@@ -3388,6 +3500,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050945Z" creationid="huanghaohang" creationdate="20170908T050945Z">
         <seg>当然，你也可以发布到Maven仓库。语法略有不同。&lt;s0&gt;[&lt;a1&gt;4&lt;/a1&gt;]&lt;/s0&gt;请注意，你需要应用Maven插件才能发布到Maven存储库。在这种情况下，Gradle也会生成&lt;c2&gt;pom.xml&lt;/c2&gt;并上传。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also use these abbreviations with the &lt;c0&gt;-x&lt;/c0&gt; command-line option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T113349Z" creationid="huanghaohang" creationdate="20170909T113349Z">
+        <seg>在使用&lt;c0&gt;-x&lt;/c0&gt;命令行选项时，依然可以使用这些缩写。</seg>
       </tuv>
     </tu>
     <tu>
