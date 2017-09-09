@@ -580,6 +580,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>9.2. Summary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T003019Z" creationid="huanghaohang" creationdate="20170909T003019Z">
+        <seg>9.2. 总结</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Previous&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;Contents&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;Next&lt;/a4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072520Z" creationid="haohang" creationdate="20170720T072520Z">
@@ -1608,6 +1616,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 9.2. Dependency on Groovy 2.2.0</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002719Z" creationid="huanghaohang" creationdate="20170909T002719Z">
+        <seg>示例 9.2. 依赖 Groovy 2.2.0</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 9.3. Groovy example - complete build file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002842Z" creationid="huanghaohang" creationdate="20170909T002842Z">
+        <seg>示例9.3. Groovy示例 - 完整的构建文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extensive samples, including the examples referenced in the user guide, along with some complete and more complex builds you can use the starting point for your own build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114843Z" creationid="95" creationdate="20170723T114843Z">
@@ -1860,6 +1884,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T015227Z" creationid="95" creationdate="20170722T015227Z">
         <seg>以下是Gradle的一些特性列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is our complete build file:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002815Z" creationid="huanghaohang" creationdate="20170909T002815Z">
+        <seg>这里是我们的完整构建文件：</seg>
       </tuv>
     </tu>
     <tu>
@@ -2312,6 +2344,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt; will compile, test and JAR your project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002921Z" creationid="huanghaohang" creationdate="20170909T002921Z">
+        <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt;将会对你的项目进行编译，测试并打包成jar。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Section 56.7.1, “Disabling the build of dependency projects”&lt;/a0&gt; for how to disable this functionality.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125439Z" creationid="95" creationdate="20170803T125335Z">
@@ -2664,6 +2704,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This chapter describes a very simple Groovy project. Usually, a real project will require more than this. Because a Groovy project &lt;s0&gt;&lt;e1&gt;is&lt;/e1&gt;&lt;/s0&gt; a Java project, whatever you can do with a Java project, you can also do with a Groovy project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T003349Z" creationid="huanghaohang" creationdate="20170909T003349Z">
+        <seg>本章介绍了一个非常简单的Groovy项目。通常情况下，一个真实的项目所需要的不止于此。因为Groovy项目&lt;s0&gt;&lt;e1&gt;也是&lt;/e1&gt;&lt;/s0&gt;一个Java项目，无论你如何使用Java项目，Groovy项目也可以被这样使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This chapter gives some advice for troubleshooting problems and explains how to get help with your problems.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T120955Z" creationid="95" creationdate="20170723T120955Z">
@@ -2804,6 +2852,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144931Z" creationid="95" creationdate="20170724T144931Z">
         <seg>试着创建一个叫 &lt;c0&gt;build.gradle&lt;/c0&gt;的构建脚本，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the groovy compilation tasks, you must also declare the Groovy version to use and where to find the Groovy libraries. You do this by adding a dependency to the &lt;c0&gt;groovy&lt;/c0&gt; configuration. The &lt;c1&gt;compile&lt;/c1&gt; configuration inherits this dependency, so the groovy libraries will be included in classpath when compiling Groovy and Java source. For our sample, we will use Groovy 2.2.0 from the public Maven repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002702Z" creationid="huanghaohang" creationdate="20170909T002407Z">
+        <seg>要使用groovy编译任务，还必须声明使用的Groovy版本以及可以在哪里找到Groovy库。你可以通过在&lt;c0&gt;groovy&lt;/c0&gt;配置中添加依赖来实现。&lt;c1&gt;compile&lt;/c1&gt;配置会继承于它，因此当编译Groovy和Java源码时，groovy库会被包含在类路径中。以下例子，我们将使用公共Maven仓库中的Groovy 2.2.0版本：</seg>
       </tuv>
     </tu>
     <tu>
@@ -3024,6 +3080,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can find out more about the Groovy plugin in &lt;a0&gt;Chapter 24, &lt;i1&gt;The Groovy Plugin&lt;/i1&gt;&lt;/a0&gt;, and you can find more sample Groovy projects in the &lt;c2&gt;samples/groovy&lt;/c2&gt; directory in the Gradle distribution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T003542Z" creationid="huanghaohang" creationdate="20170909T003402Z">
+        <seg>你可以在《&lt;a0&gt;第二十四章， &lt;i1&gt;Groovy插件&lt;/i1&gt;&lt;/a0&gt;》中了解更多关于Groovy 插件的内容，或在Gradle的 &lt;c2&gt;samples/groovy&lt;/c2&gt;目录中找到更多Groovy 项目示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can find out more about the settings file in &lt;a0&gt;Chapter 56, &lt;i1&gt;Multi-project Builds&lt;/i1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T123753Z" creationid="95" creationdate="20170803T123550Z">
@@ -3124,6 +3188,20 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153832Z" creationid="95" creationdate="20170731T153832Z">
         <seg>apply plugin: &lt;s0&gt;'eclipse'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'eclipse'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'groovy'&lt;/s1&gt;
+
+repositories {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002848Z" creationid="huanghaohang" creationdate="20170909T002848Z">
+        <seg>apply plugin: &lt;s0&gt;'eclipse'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'groovy'&lt;/s1&gt;
+
+repositories {</seg>
       </tuv>
     </tu>
     <tu>
@@ -3292,12 +3370,30 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile &lt;s0&gt;'org.codehaus.groovy:groovy-all:2.3.3'&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002755Z" creationid="huanghaohang" creationdate="20170909T002755Z">
+        <seg>compile &lt;s0&gt;'org.codehaus.groovy:groovy-all:2.3.3'&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile &lt;s0&gt;'org.hibernate:hibernate-core:3.6.7.Final'&lt;/s0&gt;
 }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T043910Z" creationid="huanghaohang" creationdate="20170908T043910Z">
         <seg>compile &lt;s0&gt;'org.hibernate:hibernate-core:3.6.7.Final'&lt;/s0&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile &lt;s2&gt;'org.codehaus.groovy:groovy-all:2.3.3'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002852Z" creationid="huanghaohang" creationdate="20170909T002852Z">
+        <seg>compile &lt;s2&gt;'org.codehaus.groovy:groovy-all:2.3.3'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3562,6 +3658,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T121208Z" creationid="95" creationdate="20170723T121208Z">
         <seg>gradle_daemon.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>groovy_plugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T003353Z" creationid="huanghaohang" creationdate="20170909T003353Z">
+        <seg>groovy_plugin.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -4319,6 +4423,16 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124427Z" creationid="95" creationdate="20170803T124427Z">
         <seg>testCompile &lt;s0&gt;'junit:junit:4.11'&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testCompile &lt;s3&gt;'junit:junit:4.11'&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002855Z" creationid="huanghaohang" creationdate="20170909T002855Z">
+        <seg>testCompile &lt;s3&gt;'junit:junit:4.11'&lt;/s3&gt;
 }</seg>
       </tuv>
     </tu>
