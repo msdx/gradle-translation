@@ -178,6 +178,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>11.3. Continuing the build when a failure occurs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T073647Z" creationid="huanghaohang" creationdate="20170909T073647Z">
+        <seg>11.3. 失败后继续构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -1156,6 +1164,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044736Z" creationid="huanghaohang" creationdate="20170908T044736Z">
         <seg>默认情况下，Gradle没有定义任何仓库。需要你至少去定义一个，然后才能使用外部依赖。我们通常使用的有Maven中央仓库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, Gradle will abort execution and fail the build as soon as any task fails. This allows the build to complete sooner, but hides other failures that would have occurred. In order to discover as many failures as possible in a single build execution, you can use the &lt;c0&gt;--continue&lt;/c0&gt; option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T074040Z" creationid="huanghaohang" creationdate="20170909T074040Z">
+        <seg>默认情况下，只要有任务失败，Gradle就将中断执行让构建失败。这样做会使构建更快地结束，但也会让其他可能发生的失败不被发现。因此你可以使用&lt;c0&gt;--continue&lt;/c0&gt;选项来在单个构建执行中发现尽可能多的失败。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3292,6 +3308,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T024330Z" creationid="haohang" creationdate="20170908T013315Z">
         <seg>这里做了些什么？这个构建脚本说明了关于项目的一些事情。首先，它指出，Hibernate core 3.6.7.Final是编项目的生产源代码所必需的。同时也暗指了，运行时还需要使用Hibernate core及其依赖。构建脚本还指出，编译项目的测试时需要4.0或以上的junit。它还告诉Gradle在Maven中央存储库中查找所需的任何依赖。以下各节内容会进行详细介绍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When executed with &lt;c0&gt;--continue&lt;/c0&gt;, Gradle will execute &lt;s1&gt;&lt;e2&gt;every&lt;/e2&gt;&lt;/s1&gt; task to be executed where all of the dependencies for that task completed without failure, instead of stopping as soon as the first failure is encountered. Each of the encountered failures will be reported at the end of the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T074848Z" creationid="huanghaohang" creationdate="20170909T074105Z">
+        <seg>当带上&lt;c0&gt;--continue&lt;/c0&gt;参数执行时，Gradle将执行&lt;s1&gt;&lt;e2&gt;所有&lt;/e2&gt;&lt;/s1&gt;要执行的任务，即该任务的所有依赖任务都会完成执行，而不是一出现错误就停止。所有失败的信息将在构建结束时报告出来。</seg>
       </tuv>
     </tu>
     <tu>
