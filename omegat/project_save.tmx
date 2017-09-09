@@ -186,6 +186,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>11.4. Task name abbreviation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T075114Z" creationid="huanghaohang" creationdate="20170909T075114Z">
+        <seg>11.4. 任务名缩写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -2120,6 +2128,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a task fails, any subsequent tasks that were depending on it will not be executed, as it is not safe to do so. For example, tests will not run if there is a compilation failure in the code under test; because the test task will depend on the compilation task (either directly or indirectly).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T075102Z" creationid="huanghaohang" creationdate="20170909T075102Z">
+        <seg>如果任务失败了，则依赖于它的所有后续任务将不会被执行，因为那样做是不安全的。例如，如果在测试代码中存在编译失败，测试将不会运行;因为测试任务会（直接或间接地）依赖于编译任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If something's not working for you, posting a question or problem report to the forums is the fastest way to get help. It's also the place to post improvement suggestions or new ideas. The development team frequently posts news items and announces releases via the forum, making it a great way to stay up to date with the latest Gradle developments.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T122322Z" creationid="95" creationdate="20170723T122322Z">
@@ -3324,6 +3340,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T120847Z" creationid="95" creationdate="20170723T120847Z">
         <seg>当使用Gradle（或者是其他软件包）的时候，或多或少都会遇到一些问题。或许是您无法驾驭的新特性，或许是正好遇到了缺陷，也可能是关于Gradle的一些常见问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you specify tasks on the command-line, you don't have to provide the full name of the task. You only need to provide enough of the task name to uniquely identify the task. For example, in the sample build above, you can execute task &lt;c0&gt;dist&lt;/c0&gt; by running &lt;s1&gt;&lt;c2&gt;gradle d&lt;/c2&gt;&lt;/s1&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T112734Z" creationid="huanghaohang" creationdate="20170909T112734Z">
+        <seg>在命令行中指定任务时，可以不输入任务的全名，只需要提供可以足够唯一标识任务的任务名。例如，在上面的示例构建中，你可以通过运行&lt;s1&gt;&lt;c2&gt;gradle d&lt;/c2&gt;&lt;/s1&gt;来执行&lt;c0&gt;dist&lt;/c0&gt;任务：</seg>
       </tuv>
     </tu>
     <tu>
