@@ -146,6 +146,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>10.2. Running your web application</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005509Z" creationid="huanghaohang" creationdate="20170909T005509Z">
+        <seg>10.2. 运行 web 应用程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>10.3. Summary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T010145Z" creationid="huanghaohang" creationdate="20170909T010145Z">
+        <seg>10.3. 总结</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -1328,6 +1344,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 10.2. Running web application with Jetty plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005558Z" creationid="huanghaohang" creationdate="20170909T005558Z">
+        <seg>示例10.2. 使用Jetty插件运行Web应用程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -1912,6 +1936,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Groovy web applications</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005200Z" creationid="huanghaohang" creationdate="20170909T005200Z">
+        <seg>Groovy web 应用程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here is a list of some of Gradle's features.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T015227Z" creationid="95" creationdate="20170722T015227Z">
@@ -2456,6 +2488,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>TODO: which url, configure port, uses source files in place and can edit your files and reload.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T010058Z" creationid="huanghaohang" creationdate="20170909T010058Z">
+        <seg>TODO：使用哪个url，配置端口，在适当的位置使用源文件，并且可以编辑你的文件和重新加载。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Table of Contents</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072346Z" creationid="haohang" creationdate="20170720T072346Z">
@@ -2744,6 +2784,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This also applies the War plugin to your project. Running &lt;s0&gt;&lt;c1&gt;gradle jettyRun&lt;/c1&gt;&lt;/s0&gt; will run your web application in an embedded Jetty web container. Running &lt;s2&gt;&lt;c3&gt;gradle jettyRunWar&lt;/c3&gt;&lt;/s2&gt; will build the WAR file, and then run it in an embedded web container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005825Z" creationid="huanghaohang" creationdate="20170909T005825Z">
+        <seg>以上操作也会将War插件应用到你的项目中。运行&lt;s0&gt;&lt;c1&gt;gradle jettyRun&lt;/c1&gt;&lt;/s0&gt;，将在嵌入式Jetty Web容器中运行你的Web应用程序。运行&lt;s2&gt;&lt;c3&gt;gradle jettyRunWar&lt;/c3&gt;&lt;/s2&gt;将先构建出WAR文件，然后在嵌入式Web容器中运行它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This chapter describes a very simple Groovy project. Usually, a real project will require more than this. Because a Groovy project &lt;s0&gt;&lt;e1&gt;is&lt;/e1&gt;&lt;/s0&gt; a Java project, whatever you can do with a Java project, you can also do with a Groovy project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T003349Z" creationid="huanghaohang" creationdate="20170909T003349Z">
@@ -2908,6 +2956,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153732Z" creationid="95" creationdate="20170731T153732Z">
         <seg>执行 &lt;s0&gt;&lt;c1&gt;gradle uploadArchives&lt;/c1&gt;&lt;/s0&gt;以发布JAR文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To run your web application, you apply the Jetty plugin to your project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005544Z" creationid="huanghaohang" creationdate="20170909T005544Z">
+        <seg>要运行 web 应用程序，需要将 Jetty 插件应用于项目中：</seg>
       </tuv>
     </tu>
     <tu>
@@ -3136,6 +3192,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can combine multiple plugins in a single project, so you can use the War and Groovy plugins together to build a Groovy based web application. The appropriate groovy libraries will be added to the WAR file for you.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005441Z" creationid="huanghaohang" creationdate="20170909T005441Z">
+        <seg>你可以在单个project中组合多个插件，因此你可以将War和Groovy插件一起使用，构建一个基于Groovy的web应用程序。相应的groovy库也会被加入到WAR文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can download one of the Gradle distributions from the &lt;a0&gt;Gradle web site&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114403Z" creationid="95" creationdate="20170723T114319Z">
@@ -3148,6 +3212,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T003542Z" creationid="huanghaohang" creationdate="20170909T003402Z">
         <seg>你可以在《&lt;a0&gt;第二十四章， &lt;i1&gt;Groovy插件&lt;/i1&gt;&lt;/a0&gt;》中了解更多关于Groovy 插件的内容，或在Gradle的 &lt;c2&gt;samples/groovy&lt;/c2&gt;目录中找到更多Groovy 项目示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can find out more about the War plugin in &lt;a0&gt;Chapter 26, &lt;i1&gt;The War Plugin&lt;/i1&gt;&lt;/a0&gt; and the Jetty plugin in &lt;a2&gt;Chapter 28, &lt;i3&gt;The Jetty Plugin&lt;/i3&gt;&lt;/a2&gt;. You can find more sample Java projects in the &lt;c4&gt;samples/webApplication&lt;/c4&gt; directory in the Gradle distribution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T010632Z" creationid="huanghaohang" creationdate="20170909T010632Z">
+        <seg>你可以在《&lt;a0&gt;第二十六章， &lt;i1&gt;War插件&lt;/i1&gt;&lt;/a0&gt;》在《&lt;a2&gt;第二十八章，&lt;i3&gt;Jetty 插件&lt;/i3&gt;&lt;/a2&gt;中分别了解更多关于War 及Jetty 插件的内容。并且可以在Gradle的发行包中的&lt;c4&gt;samples/webApplication&lt;/c4&gt;目录中找到更多Java 项目示例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3312,6 +3384,14 @@ apply plugin: &lt;s1&gt;'eclipse'&lt;/s1&gt;
 sourceCompatibility = &lt;s2&gt;1.5&lt;/s2&gt;
 version = &lt;s3&gt;'1.0'&lt;/s3&gt;
 jar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'jetty'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005600Z" creationid="huanghaohang" creationdate="20170909T005600Z">
+        <seg>apply plugin: &lt;s0&gt;'jetty'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3858,6 +3938,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T032333Z" creationid="huanghaohang" creationdate="20170908T032333Z">
         <seg>java_plugin.html#tab:configurations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jetty_plugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T010149Z" creationid="huanghaohang" creationdate="20170909T010149Z">
+        <seg>jetty_plugin.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -4700,6 +4788,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025311Z" creationid="95" creationdate="20170729T025311Z">
         <seg>version = &lt;s6&gt;'1.0-SNAPSHOT'&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>war_plugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T010147Z" creationid="huanghaohang" creationdate="20170909T010147Z">
+        <seg>war_plugin.html</seg>
       </tuv>
     </tu>
     <tu>
