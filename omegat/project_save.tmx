@@ -644,6 +644,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/webApplication/quickstart&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T004659Z" creationid="huanghaohang" creationdate="20170909T004659Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注：&lt;/e1&gt;&lt;/s0&gt;本示例的代码可以在Gradle的二进制或源代码发行包中的 &lt;c2&gt;samples/webApplication/quickstart&lt;/c2&gt;里找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;[&lt;a1&gt;1&lt;/a1&gt;] &lt;/s0&gt;At &lt;a2&gt;http://www.defmacro.org/ramblings/lisp.html&lt;/a2&gt; you find an interesting article comparing Ant, XML, Java and Lisp. It's funny that the 'if Java had that syntax' syntax in this article is actually the Groovy syntax.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072342Z" creationid="95" creationdate="20170723T072136Z">
@@ -1308,6 +1316,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T142329Z" creationid="95" creationdate="20170724T142329Z">
         <seg>在整个Gradle，有两个最基础的概念：&lt;e0&gt;项目&lt;/e0&gt; 和 &lt;e1&gt;任务&lt;/e1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 10.1. War plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T004613Z" creationid="huanghaohang" creationdate="20170909T004613Z">
+        <seg>示例 10.1. 使用War 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -2720,6 +2736,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This also applies the Java plugin to your project. Running &lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt; will compile, test and WAR your project. Gradle will look for the source files to include in the WAR file in &lt;c2&gt;src/main/webapp&lt;/c2&gt;. Your compiled classes, and their runtime dependencies are also included in the WAR file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005149Z" creationid="huanghaohang" creationdate="20170909T004741Z">
+        <seg>以上操作也会将Java插件应用到项目中。运行&lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt;将对你的项目进行编译，测试和并打成WAR包。 Gradle将查找在&lt;c2&gt;src/main/webapp&lt;/c2&gt;目录中的源文件，并与所编译出来的类文件，及其运行时依赖关系一起包含到WAR文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This chapter describes a very simple Groovy project. Usually, a real project will require more than this. Because a Groovy project &lt;s0&gt;&lt;e1&gt;is&lt;/e1&gt;&lt;/s0&gt; a Java project, whatever you can do with a Java project, you can also do with a Groovy project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T003349Z" creationid="huanghaohang" creationdate="20170909T003349Z">
@@ -3300,6 +3324,14 @@ uploadArchives {</seg>
         <seg>apply plugin: &lt;s0&gt;'maven'&lt;/s0&gt;
 
 uploadArchives {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'war'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T004620Z" creationid="huanghaohang" creationdate="20170909T004620Z">
+        <seg>apply plugin: &lt;s0&gt;'war'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
