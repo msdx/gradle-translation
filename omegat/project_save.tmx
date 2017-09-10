@@ -202,6 +202,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>11.6.1. Listing projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011446Z" creationid="huanghaohang" creationdate="20170910T010925Z">
+        <seg>11.6.1. 列出项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>11.6.2. Listing tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011451Z" creationid="huanghaohang" creationdate="20170910T011436Z">
+        <seg>11.6.2. 列出任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>11.6. Obtaining information about your build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114322Z" creationid="huanghaohang" creationdate="20170909T114322Z">
@@ -902,6 +918,34 @@ myValue</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T142011Z" creationid="95" creationdate="20170727T142011Z">
         <seg>&gt; gradle -q printTaskProperties
 myValue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q projects
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+Root project 'projectReports'
++--- Project ':api' - The shared API for the application
+\--- Project ':webapp' - The Web application implementation
+
+To see a list of the tasks of a project, run gradle &lt;project-path&gt;:tasks
+For example, try running gradle :api:tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011131Z" creationid="huanghaohang" creationdate="20170910T011131Z">
+        <seg>&gt; gradle -q projects
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+Root project 'projectReports'
++--- Project ':api' - The shared API for the application
+\--- Project ':webapp' - The Web application implementation
+
+To see a list of the tasks of a project, run gradle &lt;project-path&gt;:tasks
+For example, try running gradle :api:tasks</seg>
       </tuv>
     </tu>
     <tu>
@@ -1620,6 +1664,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 11.7. Obtaining information about projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011117Z" creationid="huanghaohang" creationdate="20170910T011117Z">
+        <seg>示例11.7. 获取项目的相关信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 11.8. Providing a description for a project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011416Z" creationid="huanghaohang" creationdate="20170910T011416Z">
+        <seg>示例11.8. 提供项目描述信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -2132,6 +2192,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle provides several built-in tasks which show particular details of your build. This can be useful for understanding the structure and dependencies of your build, and for debugging problems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T010749Z" creationid="huanghaohang" creationdate="20170910T010749Z">
+        <seg>Gradle提供了一些内置任务能展示构建的相关特定信息。这对于了解构建的结构和依赖以及调试问题可能很有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle provides:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T133756Z" creationid="95" creationdate="20170721T133756Z">
@@ -2328,6 +2396,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145113Z" creationid="95" creationdate="20170724T144952Z">
         <seg>然后在命令行shell里，进入到当前目录并运行&lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt;来执行这个构建脚本：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition to the built-in tasks shown below, you can also use the &lt;a0&gt;project report plugin&lt;/a0&gt; to add tasks to your project which will generate these reports.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T010826Z" creationid="huanghaohang" creationdate="20170910T010826Z">
+        <seg>除了下面所示的内置任务之外，还可以使用&lt;a0&gt;项目报告插件&lt;/a0&gt;将一些任务添加到项目中，以生成这些报告。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2636,6 +2712,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q projects&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011128Z" creationid="huanghaohang" creationdate="20170910T011128Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q projects&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q release&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025327Z" creationid="95" creationdate="20170729T025327Z">
@@ -2744,6 +2828,22 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002921Z" creationid="huanghaohang" creationdate="20170909T002921Z">
         <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt;将会对你的项目进行编译，测试并打包成jar。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle projects&lt;/c1&gt;&lt;/s0&gt; gives you a list of the sub-projects of the selected project, displayed in a hierarchy. Here is an example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011056Z" creationid="huanghaohang" creationdate="20170910T011056Z">
+        <seg>运行&lt;s0&gt;&lt;c1&gt;gradle projects&lt;/c1&gt;&lt;/s0&gt;会为你按子项目的层次结构显示出项目列表，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt; gives you a list of the main tasks of the selected project. This report shows the default tasks for the project, if any, and a description for each task. Below is an example of this report:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011644Z" creationid="huanghaohang" creationdate="20170910T011644Z">
+        <seg>运行&lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt;会为你列出所选项目的主要任务。报告会显示项目的默认任务（如果有配置默认任务的话），以及每个任务的说明。以下是关于该报告的示例：</seg>
       </tuv>
     </tu>
     <tu>
@@ -3040,6 +3140,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132702Z" creationid="95" creationdate="20170727T132702Z">
         <seg>Groovy的强大之处，不仅仅是用在定义一个任务做什么的时候。例如，你也可以使用它来动态地创建一些任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The report shows the description of each project, if specified. You can provide a description for a project by setting the &lt;c0&gt;description&lt;/c0&gt; property:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011401Z" creationid="huanghaohang" creationdate="20170910T011134Z">
+        <seg>这个报告显示了每一个项目的描述信息（如果你有配置这个项目的描述信息的话）。你可以通过设置&lt;c0&gt;description&lt;/c0&gt;属性来提供项目的描述信息：</seg>
       </tuv>
     </tu>
     <tu>
@@ -4082,6 +4190,14 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>description = &lt;s0&gt;'The shared API for the application'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011419Z" creationid="huanghaohang" creationdate="20170910T011419Z">
+        <seg>description = &lt;s0&gt;'The shared API for the application'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dirs &lt;s0&gt;'repos'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153709Z" creationid="95" creationdate="20170731T153709Z">
@@ -4861,6 +4977,14 @@ task other &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T142000Z" creationid="95" creationdate="20170727T142000Z">
         <seg>println myTask.myProperty
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project_reports_plugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T010752Z" creationid="huanghaohang" creationdate="20170910T010752Z">
+        <seg>project_reports_plugin.html</seg>
       </tuv>
     </tu>
     <tu>
