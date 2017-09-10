@@ -226,6 +226,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>11.6.4. Listing project dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T013110Z" creationid="huanghaohang" creationdate="20170910T013110Z">
+        <seg>11.6.4. 列出项目依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>11.6. Obtaining information about your build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114322Z" creationid="huanghaohang" creationdate="20170909T114322Z">
@@ -688,6 +696,18 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T012842Z" creationid="huanghaohang" creationdate="20170910T012842Z">
         <seg>:api:libs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>:webapp:libs
+
+Type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T012843Z" creationid="huanghaohang" creationdate="20170910T012843Z">
+        <seg>:webapp:libs
+
+Type</seg>
       </tuv>
     </tu>
     <tu>
@@ -1424,6 +1444,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154433Z" creationid="95" creationdate="20170731T154433Z">
         <seg>构建布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Builds the JAR</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T012851Z" creationid="huanghaohang" creationdate="20170910T012851Z">
+        <seg>Builds the JAR</seg>
       </tuv>
     </tu>
     <tu>
@@ -3020,6 +3048,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle dependencies&lt;/c1&gt;&lt;/s0&gt; gives you a list of the dependencies of the selected project, broken down by configuration. For each configuration, the direct and transitive dependencies of that configuration are shown in a tree. Below is an example of this report:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T014029Z" creationid="huanghaohang" creationdate="20170910T014029Z">
+        <seg>运行&lt;s0&gt;&lt;c1&gt;gradle dependencies&lt;/c1&gt;&lt;/s0&gt;会为你列出所选项目的依赖关系，这些依赖会根据配置的任务细分。对于每个配置，它的直接和传递依赖会按树型结构展示出来。如下例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Running &lt;s0&gt;&lt;c1&gt;gradle help --task someTask&lt;/c1&gt;&lt;/s0&gt; gives you detailed information about a specific task or multiple tasks matching the given task name in your multiproject build. Below is an example of this detailed information:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T012802Z" creationid="huanghaohang" creationdate="20170910T012752Z">
@@ -3136,6 +3172,18 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T032346Z" creationid="huanghaohang" creationdate="20170908T032346Z">
         <seg>表23.5. Java插件 ​​- 依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Task (org.gradle.api.Task)
+
+Description</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T012846Z" creationid="huanghaohang" creationdate="20170910T012846Z">
+        <seg>Task (org.gradle.api.Task)
+
+Description</seg>
       </tuv>
     </tu>
     <tu>
@@ -3496,6 +3544,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T141645Z" creationid="95" creationdate="20170727T141349Z">
         <seg>这使得代码很易于阅读，尤其是当使用插件所提供的任务时（例如 &lt;c0&gt;compile&lt;/c0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This information includes the full task path, the task type, possible commandline options and the description of the given task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T013043Z" creationid="huanghaohang" creationdate="20170910T012852Z">
+        <seg>该信息包括完整的任务路径，任务类型，可用的命令行选项以及任务的描述信息。</seg>
       </tuv>
     </tu>
     <tu>
