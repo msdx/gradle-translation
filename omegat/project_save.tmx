@@ -858,6 +858,44 @@ using build file 'build.gradle' in 'subdir'.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q dependencies api:dependencies webapp:dependencies
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+No configurations
+
+------------------------------------------------------------
+Project :api - The shared API for the application
+------------------------------------------------------------
+
+compile
+\--- org.codehaus.groovy:groovy-all:2.3.3
+
+testCompile
+\--- junit:junit:4.11</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T014136Z" creationid="huanghaohang" creationdate="20170910T014136Z">
+        <seg>&gt; gradle -q dependencies api:dependencies webapp:dependencies
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+No configurations
+
+------------------------------------------------------------
+Project :api - The shared API for the application
+------------------------------------------------------------
+
+compile
+\--- org.codehaus.groovy:groovy-all:2.3.3
+
+testCompile
+\--- junit:junit:4.11</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q distribution
 We build the zip with version=1.0-SNAPSHOT</seg>
       </tuv>
@@ -1804,6 +1842,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T012828Z" creationid="huanghaohang" creationdate="20170910T012755Z">
         <seg>示例11.12. 获取任务的帮助信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 11.13. Obtaining information about dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T014039Z" creationid="huanghaohang" creationdate="20170910T014039Z">
+        <seg>示例11.13. 获取依赖的相关信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -2864,6 +2910,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q dependencies api:dependencies webapp:dependencies&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T014135Z" creationid="huanghaohang" creationdate="20170910T014135Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q dependencies api:dependencies webapp:dependencies&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q distribution&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025320Z" creationid="95" creationdate="20170729T025320Z">
@@ -3100,6 +3154,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T080835Z" creationid="95" creationdate="20170723T080835Z">
         <seg>介绍了如何开始使用Gradle的依赖管理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Since a dependency report can get large, it can be useful to restrict the report to a particular configuration. This is achieved with the optional &lt;s0&gt;&lt;c1&gt;--configuration&lt;/c1&gt;&lt;/s0&gt; parameter:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T021631Z" creationid="huanghaohang" creationdate="20170910T014140Z">
+        <seg>由于一份依赖报告可能会很长，因此只显示指定配置的报告会很有用，它通过可选的&lt;s0&gt;&lt;c1&gt;--configuration&lt;/c1&gt;&lt;/s0&gt;参数来实现：</seg>
       </tuv>
     </tu>
     <tu>
@@ -4056,6 +4118,38 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144635Z" creationid="95" creationdate="20170724T143923Z">
         <seg>您可以使用 &lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt; 命令来运行Gradle构建。 &lt;s2&gt;&lt;s3&gt;gradle&lt;/s3&gt;&lt;/s2&gt;命令会在当前目录下查找一个 &lt;c4&gt;build.gradle&lt;/c4&gt; 文件。 &lt;s5&gt;[&lt;a6&gt;2&lt;/a6&gt;]&lt;/s5&gt; 我们把这个 &lt;c7&gt;build.gradle&lt;/c7&gt; 文件称为是一个 &lt;e8&gt;构建脚本&lt;/e8&gt;，尽管严格上来讲，它只是一个构建的配置脚本，我们将会在后面看到。这个构建脚本定义了一个项目和它的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>\--- org.hamcrest:hamcrest-core:1.3
+
+------------------------------------------------------------
+Project :webapp - The Web application implementation
+------------------------------------------------------------
+
+compile
++--- project :api
+|    \--- org.codehaus.groovy:groovy-all:2.3.3
+\--- commons-io:commons-io:1.2
+
+testCompile
+No dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T014138Z" creationid="huanghaohang" creationdate="20170910T014138Z">
+        <seg>\--- org.hamcrest:hamcrest-core:1.3
+
+------------------------------------------------------------
+Project :webapp - The Web application implementation
+------------------------------------------------------------
+
+compile
++--- project :api
+|    \--- org.codehaus.groovy:groovy-all:2.3.3
+\--- commons-io:commons-io:1.2
+
+testCompile
+No dependencies</seg>
       </tuv>
     </tu>
     <tu>
