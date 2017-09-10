@@ -250,6 +250,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>11.6.6. Listing project properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T023255Z" creationid="huanghaohang" creationdate="20170910T023255Z">
+        <seg>11.6.6. 列出项目属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>11.6.7. Profiling a build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T023503Z" creationid="huanghaohang" creationdate="20170910T023503Z">
+        <seg>11.6.7. 分析构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>11.6. Obtaining information about your build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114322Z" creationid="huanghaohang" creationdate="20170909T114322Z">
@@ -880,6 +896,38 @@ Project :api - The shared API for the application
 
 testCompile
 \--- junit:junit:4.11</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q api:properties
+------------------------------------------------------------
+Project :api - The shared API for the application
+------------------------------------------------------------
+
+allprojects: [project ':api']
+ant: org.gradle.api.internal.project.DefaultAntBuilder@12345
+antBuilderFactory: org.gradle.api.internal.project.DefaultAntBuilderFactory@12345
+artifacts: org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler@12345
+asDynamicObject: org.gradle.api.internal.ExtensibleDynamicObject@12345
+baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@12345
+buildDir: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build
+buildFile: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T023447Z" creationid="huanghaohang" creationdate="20170910T023447Z">
+        <seg>&gt; gradle -q api:properties
+------------------------------------------------------------
+Project :api - The shared API for the application
+------------------------------------------------------------
+
+allprojects: [project ':api']
+ant: org.gradle.api.internal.project.DefaultAntBuilder@12345
+antBuilderFactory: org.gradle.api.internal.project.DefaultAntBuilderFactory@12345
+artifacts: org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler@12345
+asDynamicObject: org.gradle.api.internal.ExtensibleDynamicObject@12345
+baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@12345
+buildDir: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build
+buildFile: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build.gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -1914,6 +1962,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T022143Z" creationid="huanghaohang" creationdate="20170910T022143Z">
         <seg>示例11.15. 查看特定的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 11.16. Information about properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T023437Z" creationid="huanghaohang" creationdate="20170910T023437Z">
+        <seg>示例11.16. 获取属性的相关信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -2974,6 +3030,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q api:properties&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T023445Z" creationid="huanghaohang" creationdate="20170910T023445Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q api:properties&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q count&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155907Z" creationid="95" creationdate="20170726T155907Z">
@@ -3214,6 +3278,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle properties&lt;/c1&gt;&lt;/s0&gt; gives you a list of the properties of the selected project. This is a snippet from the output:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T023417Z" creationid="huanghaohang" creationdate="20170910T023258Z">
+        <seg>运行&lt;s0&gt;&lt;c1&gt;gradle properties&lt;/c1&gt;&lt;/s0&gt;会向你列出所选项目的属性。如下例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Running &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt; gives you a list of the main tasks of the selected project. This report shows the default tasks for the project, if any, and a description for each task. Below is an example of this report:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011644Z" creationid="huanghaohang" creationdate="20170910T011644Z">
@@ -3342,6 +3414,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031058Z" creationid="huanghaohang" creationdate="20170909T031058Z">
         <seg>任务依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;s0&gt;&lt;c1&gt;--profile&lt;/c1&gt;&lt;/s0&gt; command line option will record some useful timing information while your build is running and write a report to the &lt;c2&gt;build/reports/profile&lt;/c2&gt; directory. The report will be named using the time when the build was run.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T030624Z" creationid="huanghaohang" creationdate="20170910T023504Z">
+        <seg>使用&lt;s0&gt;&lt;c1&gt;--profile&lt;/c1&gt;&lt;/s0&gt;命令行选项会在运行构建时记录一些有用的计时信息，并以运行构建时的时间命名，把报告保存到&lt;c2&gt;build/reports/profile&lt;/c2&gt;目录。</seg>
       </tuv>
     </tu>
     <tu>
