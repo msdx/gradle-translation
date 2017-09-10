@@ -3434,6 +3434,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The built-in dependencyInsight task is a part of the 'Help' tasks group. The task needs to configured with the dependency and the configuration. The report looks for the dependencies that match the specified dependency spec in the specified configuration. If java related plugin is applied, the dependencyInsight task is pre-configured with 'compile' configuration because typically it's the compile dependencies we are interested in. You should specify the dependency you are interested in via the command line '--dependency' option. If you don't like the defaults you may select the configuration via '--configuration' option. For more information see &lt;a0&gt;&lt;c1&gt;DependencyInsightReportTask&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T023244Z" creationid="huanghaohang" creationdate="20170910T022607Z">
+        <seg>内置的dependencyInsight任务是“Help”任务组的一部分。该任务需要使用依赖和配置信息来配置。报告将在指定的配置中查找与指定依赖说明相匹配的依赖项。例如，如果应用了java相关的插件，那么dependencyInsight任务是通过“compile”配置进行预配置的，因为通常来说，我们感兴趣的是编译的依赖。如果你想要指定所感兴趣的依赖，可以使用命令行“--configurastion”选项。如果您不想要默认的配置，也可以通过“--configuration”选项来选择配置。更多信息请参阅&lt;a0&gt;&lt;c1&gt;DependencyInsightReportTask&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The calls &lt;c0&gt;doFirst&lt;/c0&gt; and &lt;c1&gt;doLast&lt;/c1&gt; can be executed multiple times. They add an action to the beginning or the end of the task's actions list. When the task executes, the actions in the action list are executed in order. The &lt;c2&gt;&lt;&lt;&lt;/c2&gt; operator is simply an alias for &lt;c3&gt;doLast&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T133618Z" creationid="95" creationdate="20170727T133133Z">
