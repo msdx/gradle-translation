@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N109D7</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124612Z" creationid="huanghaohang" creationdate="20170912T124612Z">
+        <seg>#ftn.N109D7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>*** gradle.manifesto.txt ***
 Make the impossible possible, make the possible easy and make the easy elegant.
 (inspired by Moshe Feldenkrais)</seg>
@@ -78,6 +86,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
         <seg>*** gradle.manifesto.txt ***
 Make the impossible possible, make the possible easy and make the easy elegant.
 (inspired by Moshe Feldenkrais)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124806Z" creationid="huanghaohang" creationdate="20170912T124806Z">
+        <seg>../dsl/org.gradle.api.Project.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -318,6 +334,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T145834Z" creationid="huanghaohang" creationdate="20170911T145834Z">
         <seg>12.4. 设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>13.1. The Gradle build language</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124212Z" creationid="huanghaohang" creationdate="20170912T124212Z">
+        <seg>13.1. Gradle 构建语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>13.2. The Project API</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124804Z" creationid="huanghaohang" creationdate="20170912T124804Z">
+        <seg>13.2. Project API</seg>
       </tuv>
     </tu>
     <tu>
@@ -1486,6 +1518,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A build script can contain any Groovy language element. &lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;]&lt;/s0&gt; Gradle assumes that each build script is encoded using UTF-8.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124752Z" creationid="huanghaohang" creationdate="20170912T124752Z">
+        <seg>构建脚本可以包含任何Groovy语言元素。 &lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;]&lt;/s0&gt; Gradle假定每个构建脚本都是使用UTF-8编码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A project can have multiple repositories. Gradle will look for a dependency in each repository in the order they are specified, stopping at the first repository that contains the requested module.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T045952Z" creationid="huanghaohang" creationdate="20170908T045151Z">
@@ -1946,6 +1986,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072248Z" creationid="haohang" creationdate="20170720T072248Z">
         <seg>DocBook XSL Stylesheets V1.75.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don't forget that your build script is simply Groovy code that drives the Gradle API. And the &lt;a0&gt;&lt;c1&gt;Project&lt;/c1&gt;&lt;/a0&gt; interface is your starting point for accessing everything in the Gradle API. So, if you're wondering what 'tags' are available in your build script, you can start with the documentation for the &lt;c2&gt;Project&lt;/c2&gt; interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T125959Z" creationid="huanghaohang" creationdate="20170912T125959Z">
+        <seg>不要忘了，你的构建脚本只是简单的可以调用Gradle API的Groovy代码。而且&lt;a0&gt;&lt;c1&gt;Project&lt;/c1&gt;&lt;/a0&gt;界面是你访问Gradle API中的所有内容的起点。所以，如果你想知道你的构建脚本中有什么“标签（tag）”可以使用，那么可以先从文档开始&lt;c2&gt;项目&lt;/c2&gt;接口。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2638,6 +2686,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Getting help writing build scripts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T125228Z" creationid="huanghaohang" creationdate="20170912T125228Z">
+        <seg>获取有关编写构建脚本的帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle User Guide</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072244Z" creationid="haohang" creationdate="20170720T072244Z">
@@ -2690,6 +2746,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T034327Z" creationid="95" creationdate="20170723T034327Z">
         <seg>Gradle是第一个构建集成工具</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle provides a &lt;e0&gt;domain specific language&lt;/e0&gt;, or DSL, for describing builds. This build language is based on Groovy, with some additions to make it easier to describe a build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124610Z" creationid="huanghaohang" creationdate="20170912T124610Z">
+        <seg>Gradle 提供了一种&lt;e0&gt;领域特定语言&lt;/e0&gt;，或者说是 DSL，用于描述构建。这种构建语言基于 Groovy 中，并进行了一些补充，使得更容易地描述构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2946,6 +3010,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025155Z" creationid="95" creationdate="20170729T025155Z">
         <seg>在下面的例子中，&lt;c0&gt;distribution&lt;/c0&gt;和&lt;c1&gt;release&lt;/c1&gt; 任务的执行会导致&lt;c2&gt;version&lt;/c2&gt; 变量有不同的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the tutorial in &lt;a0&gt;Chapter 7, &lt;i1&gt;Java Quickstart&lt;/i1&gt;&lt;/a0&gt; we used, for example, the &lt;c2&gt;apply()&lt;/c2&gt; method. Where does this method come from? We said earlier that the build script defines a project in Gradle. For each project in the build, Gradle creates an object of type &lt;a3&gt;&lt;c4&gt;Project&lt;/c4&gt;&lt;/a3&gt; and associates this &lt;c5&gt;Project&lt;/c5&gt; object with the build script. As the build script executes, it configures this &lt;c6&gt;Project&lt;/c6&gt; object:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T125213Z" creationid="huanghaohang" creationdate="20170912T124812Z">
+        <seg>在教程《&lt;a0&gt;第七章，&lt;i1&gt;Java快速入门&lt;/i1&gt;&lt;/a0&gt;》中，我们使用了&lt;c2&gt;apply()&lt;/c2&gt;方法。这种方法从何而来？我们以前说过，构建脚本在Gradle中定义了一个项目。对于构建中的每个项目，Gradle都会创建一个&lt;a3&gt;&lt;c4&gt;Project&lt;/c4&gt;&lt;/a3&gt;类型的对象，并把这一&lt;c5&gt;Project&lt;/c5&gt;对象与构建脚本相关联。当构建脚本执行时，它会配置这个&lt;c6&gt;Project&lt;/c6&gt;对象：</seg>
       </tuv>
     </tu>
     <tu>
