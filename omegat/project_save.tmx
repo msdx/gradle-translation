@@ -394,6 +394,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>13.4.2. Extra properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133013Z" creationid="huanghaohang" creationdate="20170913T133013Z">
+        <seg>13.4.2. 额外属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>13.4. Declaring variables</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132530Z" creationid="huanghaohang" creationdate="20170913T132530Z">
@@ -1650,6 +1658,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All enhanced objects in Gradle's domain model can hold extra user-defined properties. This includes, but is not limited to, projects, tasks, and source sets. Extra properties can be added, read and set via the owning object's &lt;c0&gt;ext&lt;/c0&gt; property. Alternatively, an &lt;c1&gt;ext&lt;/c1&gt; block can be used to add multiple properties at once.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133515Z" creationid="huanghaohang" creationdate="20170913T133515Z">
+        <seg>在Gradle域模型中，所有增强的对象都可以保存用户定义的额外属性。这包括但不限于项目（projects），任务（tasks）和源码集（source sets）。额外属性可以通过所属对象的&lt;c0&gt;ext&lt;/c0&gt;属性进行添加，读取和。此外，一个 &lt;c1&gt;ext&lt;/c1&gt;块可以一次添加多个属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, you can use the &lt;c0&gt;-p&lt;/c0&gt; option to specify the project directory to use. For multi-project builds you should use &lt;c1&gt;-p&lt;/c1&gt; option instead of &lt;c2&gt;-b&lt;/c2&gt; option.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114222Z" creationid="huanghaohang" creationdate="20170909T114222Z">
@@ -2326,6 +2342,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130249Z" creationid="huanghaohang" creationdate="20170912T130249Z">
         <seg>示例 13.1. 访问 Project 对象的属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 13.2. Using local variables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132952Z" creationid="huanghaohang" creationdate="20170913T132952Z">
+        <seg>示例 13.2. 使用局部变量</seg>
       </tuv>
     </tu>
     <tu>
@@ -3278,6 +3302,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130234Z" creationid="huanghaohang" creationdate="20170912T130234Z">
         <seg>下面我们试试看访问&lt;c1&gt;Project&lt;/c1&gt;对象的&lt;c0&gt;name&lt;/c0&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Local variables are declared with the &lt;c0&gt;def&lt;/c0&gt; keyword. They are only visible in the scope where they have been declared. Local variables are a feature of the underlying Groovy language.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132949Z" creationid="huanghaohang" creationdate="20170913T132949Z">
+        <seg>局部变量是使用&lt;c0&gt;def&lt;/c0&gt;关键字来定义的，它们只在定义它们的范围内才可见。局部变量是Groovy语言下的一个特点。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5362,6 +5394,18 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def dest = &lt;s0&gt;"dest"&lt;/s0&gt;
+
+task copy(type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132954Z" creationid="huanghaohang" creationdate="20170913T132954Z">
+        <seg>def dest = &lt;s0&gt;"dest"&lt;/s0&gt;
+
+task copy(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def files = file(&lt;s0&gt;'../antLoadfileResources'&lt;/s0&gt;).listFiles().sort()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153757Z" creationid="95" creationdate="20170728T153757Z">
@@ -5584,6 +5628,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from &lt;s1&gt;"source"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132955Z" creationid="huanghaohang" creationdate="20170913T132955Z">
+        <seg>from &lt;s1&gt;"source"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from configurations.runtime</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125721Z" creationid="95" creationdate="20170803T125721Z">
@@ -5742,6 +5794,16 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072426Z" creationid="95" creationdate="20170723T072426Z">
         <seg>installation.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into dest
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132956Z" creationid="huanghaohang" creationdate="20170913T132956Z">
+        <seg>into dest
+}</seg>
       </tuv>
     </tu>
     <tu>
