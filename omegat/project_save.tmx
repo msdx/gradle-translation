@@ -434,6 +434,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>13.5.3. Optional parentheses on method calls</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141322Z" creationid="huanghaohang" creationdate="20170913T141322Z">
+        <seg>13.5.3 方法调用上的可选括号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>13.5. Some Groovy basics</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135520Z" creationid="huanghaohang" creationdate="20170913T135520Z">
@@ -942,6 +950,26 @@ configurations.runtime.each { File f -&gt; println f }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T045145Z" creationid="huanghaohang" creationdate="20170908T045145Z">
         <seg>&lt;s0&gt;// URL can refer to a local directory&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Using a getter method&lt;/s0&gt;
+println project.buildDir
+println getProject().getBuildDir()
+
+&lt;s1&gt;// Using a setter method&lt;/s1&gt;
+project.buildDir = &lt;s2&gt;'target'&lt;/s2&gt;
+getProject().setBuildDir(&lt;s3&gt;'target'&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141244Z" creationid="huanghaohang" creationdate="20170913T141244Z">
+        <seg>&lt;s0&gt;// Using a getter method&lt;/s0&gt;
+println project.buildDir
+println getProject().getBuildDir()
+
+&lt;s1&gt;// Using a setter method&lt;/s1&gt;
+project.buildDir = &lt;s2&gt;'target'&lt;/s2&gt;
+getProject().setBuildDir(&lt;s3&gt;'target'&lt;/s3&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2432,6 +2460,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135847Z" creationid="huanghaohang" creationdate="20170913T135847Z">
         <seg>示例 13.4. Groovy JDK 的方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 13.5. Property accessors</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141242Z" creationid="huanghaohang" creationdate="20170913T141242Z">
+        <seg>示例 13.5. 属性访问器</seg>
       </tuv>
     </tu>
     <tu>
