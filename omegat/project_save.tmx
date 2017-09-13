@@ -1874,6 +1874,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By requiring special syntax for adding a property, Gradle can fail fast when an attempt is made to set a (predefined or extra) property but the property is misspelled or does not exist. Extra properties can be accessed from anywhere their owning object can be accessed, giving them a wider scope than local variables. Extra properties on a project are visible from its subprojects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135209Z" creationid="huanghaohang" creationdate="20170913T135209Z">
+        <seg>通过添加属性所要求的特殊语法，Gradle 可以在你试图设置（预定义的或额外的） 属性，但拼写错误或不存在时快速失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Chapter 1. Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072252Z" creationid="haohang" creationdate="20170720T072252Z">
