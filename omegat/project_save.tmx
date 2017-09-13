@@ -418,6 +418,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>13.5.1. Groovy JDK</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135642Z" creationid="huanghaohang" creationdate="20170913T135642Z">
+        <seg>13.5.1. Groovy JDK</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>13.5.2. Property accessors</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135949Z" creationid="huanghaohang" creationdate="20170913T135949Z">
+        <seg>13.5.2. 属性访问器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>13.5. Some Groovy basics</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135520Z" creationid="huanghaohang" creationdate="20170913T135520Z">
@@ -908,6 +924,16 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132223Z" creationid="huanghaohang" creationdate="20170913T132223Z">
         <seg>&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/build</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
+configurations.runtime.each { File f -&gt; println f }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135849Z" creationid="huanghaohang" creationdate="20170913T135849Z">
+        <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
+configurations.runtime.each { File f -&gt; println f }</seg>
       </tuv>
     </tu>
     <tu>
@@ -2402,6 +2428,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 13.4. Groovy JDK methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135847Z" creationid="huanghaohang" creationdate="20170913T135847Z">
+        <seg>示例 13.4. Groovy JDK 的方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -3074,6 +3108,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Groovy adds lots of useful methods to the standard Java classes. For example, &lt;c0&gt;Iterable&lt;/c0&gt; gets an &lt;c1&gt;each&lt;/c1&gt; method, which iterates over the elements of the &lt;c2&gt;Iterable&lt;/c2&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135834Z" creationid="huanghaohang" creationdate="20170913T135657Z">
+        <seg>Groovy对标准的Java类添加了许多有用的方法。例如，&lt;c0&gt;Iterable&lt;/c0&gt;新增了&lt;c1&gt;each&lt;/c1&gt;方法，可以对&lt;c2&gt;Iterable&lt;/c2&gt;的元素进行遍历：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Groovy automatically converts a property reference into a call to the appropriate getter or setter method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141229Z" creationid="huanghaohang" creationdate="20170913T141229Z">
+        <seg>Groovy 会自动地把属性的引用转换为适当的 getter 或 setter 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Groovy provides plenty of features for creating DSLs, and the Gradle build language takes advantage of these. Understanding how the build language works will help you when you write your build script, and in particular, when you start to write custom plugins and tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135638Z" creationid="huanghaohang" creationdate="20170913T135638Z">
@@ -3086,6 +3136,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005200Z" creationid="huanghaohang" creationdate="20170909T005200Z">
         <seg>Groovy web 应用程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Have a look at &lt;a0&gt;http://groovy.codehaus.org/groovy-jdk/&lt;/a0&gt; for more details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135926Z" creationid="huanghaohang" creationdate="20170913T135926Z">
+        <seg>更多详细可参阅&lt;a0&gt;http://groovy.codehaus.org/groovy-jdk/&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5816,6 +5874,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T121536Z" creationid="95" creationdate="20170723T121536Z">
         <seg>http://forums.gradle.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://groovy.codehaus.org/groovy-jdk/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135850Z" creationid="huanghaohang" creationdate="20170913T135850Z">
+        <seg>http://groovy.codehaus.org/groovy-jdk/</seg>
       </tuv>
     </tu>
     <tu>
