@@ -1012,6 +1012,18 @@ buildFile: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q check
+projectApi
+projectApi</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130259Z" creationid="huanghaohang" creationdate="20170912T130259Z">
+        <seg>&gt; gradle -q check
+projectApi
+projectApi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q count
 0 1 2 3</seg>
       </tuv>
@@ -1614,6 +1626,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Any method you call in your build script, which &lt;s0&gt;&lt;e1&gt;is not defined&lt;/e1&gt;&lt;/s0&gt; in the build script, is delegated to the &lt;c2&gt;Project&lt;/c2&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130148Z" creationid="huanghaohang" creationdate="20170912T130148Z">
+        <seg>在构建脚本中，你所调用的任何方法，如果在构建脚本中&lt;s0&gt;&lt;e1&gt;没有定义&lt;/e1&gt;&lt;/s0&gt;，那么它将被委托给&lt;c2&gt;Project&lt;/c2&gt;对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Any property you access in your build script, which &lt;s0&gt;&lt;e1&gt;is not defined&lt;/e1&gt;&lt;/s0&gt; in the build script, is delegated to the &lt;c2&gt;Project&lt;/c2&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130159Z" creationid="huanghaohang" creationdate="20170912T130159Z">
+        <seg>在构建脚本中，你所访问的任何一个属性，如果在构建脚本里&lt;s0&gt;&lt;e1&gt;没有定义&lt;/e1&gt;&lt;/s0&gt;，它也会被委托给&lt;c2&gt;Project&lt;/c2&gt;对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As we have seen, Gradle is a general-purpose build tool. It can build pretty much anything you care to implement in your build script. Out-of-the-box, however, it doesn't build anything unless you add code to your build script to do so.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T010757Z" creationid="95" creationdate="20170729T031316Z">
@@ -1666,6 +1694,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031022Z" creationid="huanghaohang" creationdate="20170909T031022Z">
         <seg>下面定义了四个任务，其中&lt;c0&gt;dist&lt;/c0&gt;和&lt;c1&gt;test&lt;/c1&gt;都依赖于&lt;c2&gt;compile&lt;/c2&gt;任务。对于这个构建脚本，运行&lt;s3&gt;&lt;c4&gt;gradle dist test&lt;/c4&gt;&lt;/s3&gt;只会使&lt;c5&gt;compile&lt;/c5&gt;任务被执行一次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Both &lt;c0&gt;println&lt;/c0&gt; statements print out the same property. The first uses auto-delegation to the &lt;c1&gt;Project&lt;/c1&gt; object, for properties not defined in the build script. The other statement uses the &lt;c2&gt;project&lt;/c2&gt; property available to any build script, which returns the associated &lt;c3&gt;Project&lt;/c3&gt; object. Only if you define a property or a method which has the same name as a member of the &lt;c4&gt;Project&lt;/c4&gt; object, you need to use the &lt;c5&gt;project&lt;/c5&gt; property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T131937Z" creationid="huanghaohang" creationdate="20170912T130332Z">
+        <seg>这两个&lt;c0&gt;println&lt;/c0&gt;语句打印出相同的属性。在构建脚本中未定义的属性，第一次使用时会自动委派到&lt;c1&gt;Project&lt;/c1&gt;对象。另一个语句使用了可用于任何构建脚本的&lt;c2&gt;project&lt;/c2&gt;属性，这个属性返回关联的&lt;c3&gt;Project&lt;/c3&gt;对象。只有当你定义的属性或方法与这个&lt;c4&gt;Project&lt;/c4&gt;对象的成员方法或变量重名时，你才需要使用&lt;c5&gt;project&lt;/c5&gt;属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2194,6 +2230,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143304Z" creationid="huanghaohang" creationdate="20170911T143304Z">
         <seg>示例12.1. 启动GUI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 13.1. Accessing property of the Project object</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130249Z" creationid="huanghaohang" creationdate="20170912T130249Z">
+        <seg>示例 13.1. 访问 Project 对象的属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -3134,6 +3178,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's try this out and try to access the &lt;c0&gt;name&lt;/c0&gt; property of the &lt;c1&gt;Project&lt;/c1&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130234Z" creationid="huanghaohang" creationdate="20170912T130234Z">
+        <seg>下面我们试试看访问&lt;c1&gt;Project&lt;/c1&gt;对象的&lt;c0&gt;name&lt;/c0&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Many ways to manage your dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T034041Z" creationid="95" creationdate="20170723T034041Z">
@@ -3314,6 +3366,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T023445Z" creationid="huanghaohang" creationdate="20170910T023445Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q api:properties&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q check&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130255Z" creationid="huanghaohang" creationdate="20170912T130255Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q check&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -6017,6 +6077,16 @@ task other &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T142000Z" creationid="95" creationdate="20170727T142000Z">
         <seg>println myTask.myProperty
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println name
+println project.name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130250Z" creationid="huanghaohang" creationdate="20170912T130250Z">
+        <seg>println name
+println project.name</seg>
       </tuv>
     </tu>
     <tu>
