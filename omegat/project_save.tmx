@@ -1240,6 +1240,22 @@ I'm fond of gradle.manifesto.txt</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q printProperties
+3.1.0.RELEASE
+build@master.org
+main
+plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133602Z" creationid="huanghaohang" creationdate="20170913T133602Z">
+        <seg>&gt; gradle -q printProperties
+3.1.0.RELEASE
+build@master.org
+main
+plugin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q printTaskProperties
 myValue</seg>
       </tuv>
@@ -2350,6 +2366,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132952Z" creationid="huanghaohang" creationdate="20170913T132952Z">
         <seg>示例 13.2. 使用局部变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 13.3. Using extra properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133527Z" creationid="huanghaohang" creationdate="20170913T133527Z">
+        <seg>示例13.3. 使用额外属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -3574,6 +3598,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153828Z" creationid="95" creationdate="20170728T153828Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q loadfile&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q printProperties&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133601Z" creationid="huanghaohang" creationdate="20170913T133601Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q printProperties&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -5104,6 +5136,18 @@ webapp:libs - Builds the JAR [api:libs]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;"java"&lt;/s0&gt;
+
+ext {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133529Z" creationid="huanghaohang" creationdate="20170913T133529Z">
+        <seg>apply plugin: &lt;s0&gt;"java"&lt;/s0&gt;
+
+ext {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'eclipse'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153832Z" creationid="95" creationdate="20170731T153832Z">
@@ -5564,6 +5608,24 @@ api:libs - Builds the JAR</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>emailNotification = &lt;s2&gt;"build@master.org"&lt;/s2&gt;
+}
+
+sourceSets.all { ext.purpose = null }
+
+sourceSets {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133530Z" creationid="huanghaohang" creationdate="20170913T133530Z">
+        <seg>emailNotification = &lt;s2&gt;"build@master.org"&lt;/s2&gt;
+}
+
+sourceSets.all { ext.purpose = null }
+
+sourceSets {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ext.myProperty = &lt;s0&gt;"myValue"&lt;/s0&gt;
 }
 
@@ -5880,6 +5942,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>main {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133544Z" creationid="huanghaohang" creationdate="20170913T133544Z">
+        <seg>main {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>manifest {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T132604Z" creationid="95" creationdate="20170730T132604Z">
@@ -6053,6 +6123,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132137Z" creationid="huanghaohang" creationdate="20170913T132137Z">
         <seg>path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>plugin {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133547Z" creationid="huanghaohang" creationdate="20170913T133547Z">
+        <seg>plugin {</seg>
       </tuv>
     </tu>
     <tu>
@@ -6381,6 +6459,14 @@ task other &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println emailNotification</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133555Z" creationid="huanghaohang" creationdate="20170913T133555Z">
+        <seg>println emailNotification</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println myTask.myProperty
 }</seg>
       </tuv>
@@ -6397,6 +6483,14 @@ println project.name</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130250Z" creationid="huanghaohang" creationdate="20170912T130250Z">
         <seg>println name
 println project.name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println springVersion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133553Z" creationid="huanghaohang" creationdate="20170913T133553Z">
+        <seg>println springVersion</seg>
       </tuv>
     </tu>
     <tu>
@@ -6421,6 +6515,30 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T010752Z" creationid="huanghaohang" creationdate="20170910T010752Z">
         <seg>project_reports_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>purpose = &lt;s3&gt;"production"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133546Z" creationid="huanghaohang" creationdate="20170913T133546Z">
+        <seg>purpose = &lt;s3&gt;"production"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>purpose = &lt;s4&gt;"test"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133547Z" creationid="huanghaohang" creationdate="20170913T133547Z">
+        <seg>purpose = &lt;s4&gt;"test"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>purpose = &lt;s5&gt;"production"&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133548Z" creationid="huanghaohang" creationdate="20170913T133548Z">
+        <seg>purpose = &lt;s5&gt;"production"&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6481,6 +6599,24 @@ jar {</seg>
         <seg>sourceCompatibility = &lt;s0&gt;1.5&lt;/s0&gt;
 version = &lt;s1&gt;'1.0'&lt;/s1&gt;
 jar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceSets.matching { it.purpose == &lt;s6&gt;"production"&lt;/s6&gt; }.each { println it.name }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133556Z" creationid="huanghaohang" creationdate="20170913T133556Z">
+        <seg>sourceSets.matching { it.purpose == &lt;s6&gt;"production"&lt;/s6&gt; }.each { println it.name }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>springVersion = &lt;s1&gt;"3.1.0.RELEASE"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133530Z" creationid="huanghaohang" creationdate="20170913T133530Z">
+        <seg>springVersion = &lt;s1&gt;"3.1.0.RELEASE"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7044,6 +7180,20 @@ task loadfile &lt;&lt; {</seg>
 }
 
 task loadfile &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+task printProperties &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133549Z" creationid="huanghaohang" creationdate="20170913T133549Z">
+        <seg>}
+}
+
+task printProperties &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
