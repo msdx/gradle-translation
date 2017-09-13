@@ -130,6 +130,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135211Z" creationid="huanghaohang" creationdate="20170913T135211Z">
+        <seg>../dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.diagnostics.DependencyInsightReportTask.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T022204Z" creationid="huanghaohang" creationdate="20170910T022204Z">
@@ -406,6 +414,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132530Z" creationid="huanghaohang" creationdate="20170913T132530Z">
         <seg>13.4. 声明变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>13.5. Some Groovy basics</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135520Z" creationid="huanghaohang" creationdate="20170913T135520Z">
+        <seg>13.5.一些 Groovy 基础知识</seg>
       </tuv>
     </tu>
     <tu>
@@ -1876,8 +1892,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>By requiring special syntax for adding a property, Gradle can fail fast when an attempt is made to set a (predefined or extra) property but the property is misspelled or does not exist. Extra properties can be accessed from anywhere their owning object can be accessed, giving them a wider scope than local variables. Extra properties on a project are visible from its subprojects.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135209Z" creationid="huanghaohang" creationdate="20170913T135209Z">
-        <seg>通过添加属性所要求的特殊语法，Gradle 可以在你试图设置（预定义的或额外的） 属性，但拼写错误或不存在时快速失败。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135456Z" creationid="huanghaohang" creationdate="20170913T135209Z">
+        <seg>通过添加属性所要求的特殊语法，Gradle 可以在你试图设置（预定义的或额外的） 属性，但拼写错误或不存在时快速失败。额外属性在任何能够访问它们所属对象的地方都可以被访问，这使它们有着比局部变量更广的作用域。父项目上的额外属性，在子项目中也可以访问。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2802,6 +2818,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For further details on extra properties and their API, see &lt;a0&gt;&lt;c1&gt;ExtraPropertiesExtension&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135510Z" creationid="huanghaohang" creationdate="20170913T135510Z">
+        <seg>有关额外属性和其 API 的详细信息，请参阅&lt;a0&gt;&lt;c1&gt;ExtraPropertiesExtension&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For most multi-project builds, there is some configuration which is common to all projects. In our sample, we will define this common configuration in the root project, using a technique called &lt;e0&gt;configuration injection&lt;/e0&gt;. Here, the root project is like a container and the &lt;c1&gt;subprojects&lt;/c1&gt; method iterates over the elements of this container - the projects in this instance - and injects the specified configuration. This way we can easily define the manifest content for all archives, and some common dependencies:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124401Z" creationid="95" creationdate="20170803T123813Z">
@@ -3046,6 +3070,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T063538Z" creationid="95" creationdate="20170723T063538Z">
         <seg>Groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Groovy provides plenty of features for creating DSLs, and the Gradle build language takes advantage of these. Understanding how the build language works will help you when you write your build script, and in particular, when you start to write custom plugins and tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135638Z" creationid="huanghaohang" creationdate="20170913T135638Z">
+        <seg>Groovy提供了大量功能来创建DSL，而Gradle构建语言则利用了这些功能。了解构建语言的工作原理将有助于你编写构建脚本，特别是在开始编写自定义插件和任务的时候。</seg>
       </tuv>
     </tu>
     <tu>
