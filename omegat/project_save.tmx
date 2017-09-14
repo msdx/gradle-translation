@@ -442,6 +442,30 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>13.5.4. List and map literals</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141532Z" creationid="huanghaohang" creationdate="20170913T141532Z">
+        <seg>13.5.4. List 和 Map </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>13.5.5. Closures as the last parameter in a method</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141720Z" creationid="huanghaohang" creationdate="20170913T141720Z">
+        <seg>13.5.5. 作为方法最后一个参数的闭包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>13.5.6. Closure delegate</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T152924Z" creationid="huanghaohang" creationdate="20170914T152924Z">
+        <seg>13.5.6. 闭包委托（delegate）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>13.5. Some Groovy basics</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135520Z" creationid="huanghaohang" creationdate="20170913T135520Z">
@@ -942,6 +966,40 @@ configurations.runtime.each { File f -&gt; println f }</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135849Z" creationid="huanghaohang" creationdate="20170913T135849Z">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// List literal&lt;/s0&gt;
+test.includes = [&lt;s1&gt;'org/gradle/api/**'&lt;/s1&gt;, &lt;s2&gt;'org/gradle/internal/**'&lt;/s2&gt;]
+
+List&lt;String&gt; list = &lt;s3&gt;new&lt;/s3&gt; ArrayList&lt;String&gt;()
+list.add(&lt;s4&gt;'org/gradle/api/**'&lt;/s4&gt;)
+list.add(&lt;s5&gt;'org/gradle/internal/**'&lt;/s5&gt;)
+test.includes = list
+
+&lt;s6&gt;// Map literal&lt;/s6&gt;
+apply plugin: &lt;s7&gt;'java'&lt;/s7&gt;
+
+Map&lt;String, String&gt; map = &lt;s8&gt;new&lt;/s8&gt; HashMap&lt;String, String&gt;()
+map.put(&lt;s9&gt;'plugin'&lt;/s9&gt;, &lt;s10&gt;'java'&lt;/s10&gt;)
+apply(map)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141557Z" creationid="huanghaohang" creationdate="20170913T141557Z">
+        <seg>&lt;s0&gt;// List literal&lt;/s0&gt;
+test.includes = [&lt;s1&gt;'org/gradle/api/**'&lt;/s1&gt;, &lt;s2&gt;'org/gradle/internal/**'&lt;/s2&gt;]
+
+List&lt;String&gt; list = &lt;s3&gt;new&lt;/s3&gt; ArrayList&lt;String&gt;()
+list.add(&lt;s4&gt;'org/gradle/api/**'&lt;/s4&gt;)
+list.add(&lt;s5&gt;'org/gradle/internal/**'&lt;/s5&gt;)
+test.includes = list
+
+&lt;s6&gt;// Map literal&lt;/s6&gt;
+apply plugin: &lt;s7&gt;'java'&lt;/s7&gt;
+
+Map&lt;String, String&gt; map = &lt;s8&gt;new&lt;/s8&gt; HashMap&lt;String, String&gt;()
+map.put(&lt;s9&gt;'plugin'&lt;/s9&gt;, &lt;s10&gt;'java'&lt;/s10&gt;)
+apply(map)</seg>
       </tuv>
     </tu>
     <tu>
@@ -2472,6 +2530,30 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 13.6. Method call without parentheses</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141435Z" creationid="huanghaohang" creationdate="20170913T141435Z">
+        <seg>示例 13.6. 不带括号的方法调用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 13.7. List and map literals</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141556Z" creationid="huanghaohang" creationdate="20170913T141556Z">
+        <seg>示例 13.7. List 和 Map</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 13.8. Closure as method parameter</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141918Z" creationid="huanghaohang" creationdate="20170913T141918Z">
+        <seg>示例 13.8. 作为方法参数的闭包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -3164,6 +3246,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135638Z" creationid="huanghaohang" creationdate="20170913T135638Z">
         <seg>Groovy提供了大量功能来创建DSL，而Gradle构建语言则利用了这些功能。了解构建语言的工作原理将有助于你编写构建脚本，特别是在开始编写自定义插件和任务的时候。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Groovy provides some shortcuts for defining &lt;c0&gt;List&lt;/c0&gt; and &lt;c1&gt;Map&lt;/c1&gt; instances.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141544Z" creationid="huanghaohang" creationdate="20170913T141544Z">
+        <seg>Groovy 提供了一些定义&lt;c0&gt;List&lt;/c0&gt;和&lt;c1&gt;Map&lt;/c1&gt;实例的快捷写法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3888,6 +3978,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Parentheses are optional for method calls.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141359Z" creationid="huanghaohang" creationdate="20170913T141359Z">
+        <seg>调用方法时括号是可选的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Please notice that you can't use shortcut notation (see &lt;a0&gt;Section 6.8, “Shortcut notations”&lt;/a0&gt;) when referring to a task that is not yet defined.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132502Z" creationid="95" creationdate="20170727T132113Z">
@@ -4168,6 +4266,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T145213Z" creationid="huanghaohang" creationdate="20170911T144608Z">
         <seg>“收藏夹”选项卡用于存储常用的命令。这些命令可以是复杂的命令（只要它们符合Gradle命令），你可以给它们设置一个显示名称。这有助于创建一个自定义构建命令，来显式地跳过测试，文档和示例，你可以称之为“快速构建”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gradle DSL uses closures in many places. You can find out more about closures &lt;a0&gt;here&lt;/a0&gt;. When the last parameter of a method is a closure, you can place the closure after the method call:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141908Z" creationid="huanghaohang" creationdate="20170913T141728Z">
+        <seg>Gradle DSL在许多地方都使用到了闭包。你可以&lt;a0&gt;在这里&lt;/a0&gt;查到关于闭包的资料。当方法的最后一个参数是闭包时，你可以把它放在在方法调用之后：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5914,6 +6020,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://groovy.codehaus.org/Closures</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141723Z" creationid="huanghaohang" creationdate="20170913T141723Z">
+        <seg>http://groovy.codehaus.org/Closures</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://groovy.codehaus.org/groovy-jdk/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135850Z" creationid="huanghaohang" creationdate="20170913T135850Z">
@@ -6303,6 +6417,20 @@ task release(dependsOn: &lt;s1&gt;'distribution'&lt;/s1&gt;) &lt;&lt; {</seg>
 }
 
 task release(dependsOn: &lt;s1&gt;'distribution'&lt;/s1&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;"in a closure"&lt;/s0&gt;
+}
+repositories() { println &lt;s1&gt;"in a closure"&lt;/s1&gt; }
+repositories({ println &lt;s2&gt;"in a closure"&lt;/s2&gt; })</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141919Z" creationid="huanghaohang" creationdate="20170913T141919Z">
+        <seg>println &lt;s0&gt;"in a closure"&lt;/s0&gt;
+}
+repositories() { println &lt;s1&gt;"in a closure"&lt;/s1&gt; }
+repositories({ println &lt;s2&gt;"in a closure"&lt;/s2&gt; })</seg>
       </tuv>
     </tu>
     <tu>
@@ -6911,6 +7039,16 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T150115Z" creationid="95" creationdate="20170731T150115Z">
         <seg>test {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>test.systemProperty &lt;s0&gt;'some.prop'&lt;/s0&gt;, &lt;s1&gt;'value'&lt;/s1&gt;
+test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141438Z" creationid="huanghaohang" creationdate="20170913T141438Z">
+        <seg>test.systemProperty &lt;s0&gt;'some.prop'&lt;/s0&gt;, &lt;s1&gt;'value'&lt;/s1&gt;
+test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&gt;)</seg>
       </tuv>
     </tu>
     <tu>
