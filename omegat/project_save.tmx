@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#N109D7</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153241Z" creationid="huanghaohang" creationdate="20170914T153241Z">
+        <seg>#N109D7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#ftn.N100BF</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T070853Z" creationid="95" creationdate="20170723T070853Z">
@@ -1100,6 +1108,14 @@ getProject().setBuildDir(&lt;s3&gt;'target'&lt;/s3&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T052002Z" creationid="huanghaohang" creationdate="20170908T052002Z">
         <seg>&lt;s0&gt;[&lt;a1&gt;4&lt;/a1&gt;] &lt;/s0&gt;我们正在努力统一从Maven仓库解析依赖以及向其发布的语法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;] &lt;/s0&gt;Any language element except for statement labels.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153533Z" creationid="huanghaohang" creationdate="20170914T153533Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;] &lt;/s0&gt;除语句标签之外的任何语言元素。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2290,6 +2306,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each closure has a &lt;c0&gt;delegate&lt;/c0&gt; object, which Groovy uses to look up variable and method references which are not local variables or parameters of the closure. Gradle uses this for &lt;e1&gt;configuration closures&lt;/e1&gt;, where the &lt;c2&gt;delegate&lt;/c2&gt; object is set to the object to be configured.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153230Z" creationid="huanghaohang" creationdate="20170914T153230Z">
+        <seg>每一个闭包都有一个&lt;c0&gt;委托&lt;/c0&gt;对象，Groovy使用它来查找不是局部变量或闭包参数的变量和方法引用。 Gradle使用它来作为&lt;e1&gt;配置闭包&lt;/e1&gt;，把&lt;c2&gt;委托&lt;/c2&gt;对象设置为被配置的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each project is made up of one or more &lt;e0&gt;tasks&lt;/e0&gt;. A task represents some atomic piece of work which a build performs. This might be compiling some classes, creating a JAR, generating javadoc, or publishing some archives to a repository.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T143544Z" creationid="95" creationdate="20170724T143343Z">
@@ -2550,6 +2574,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141918Z" creationid="huanghaohang" creationdate="20170913T141918Z">
         <seg>示例 13.8. 作为方法参数的闭包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 13.9. Closure delegates</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153237Z" creationid="huanghaohang" creationdate="20170914T153237Z">
+        <seg>示例 13.9. 闭包委托</seg>
       </tuv>
     </tu>
     <tu>
@@ -5534,6 +5566,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>assert delegate == project.dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153238Z" creationid="huanghaohang" creationdate="20170914T153238Z">
+        <seg>assert delegate == project.dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>attributes &lt;s2&gt;'Implementation-Title'&lt;/s2&gt;: &lt;s3&gt;'Gradle Quickstart'&lt;/s3&gt;, &lt;s4&gt;'Implementation-Version'&lt;/s4&gt;: version</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T132607Z" creationid="95" creationdate="20170730T132607Z">
@@ -5678,6 +5718,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile(&lt;s0&gt;'junit:junit:4.11'&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153239Z" creationid="huanghaohang" creationdate="20170914T153239Z">
+        <seg>compile(&lt;s0&gt;'junit:junit:4.11'&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>credentials {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050447Z" creationid="huanghaohang" creationdate="20170908T050447Z">
@@ -5714,6 +5762,16 @@ task clean &lt;&lt; {</seg>
         <seg>defaultTasks &lt;s0&gt;'clean'&lt;/s0&gt;, &lt;s1&gt;'run'&lt;/s1&gt;
 
 task clean &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>delegate.compile(&lt;s1&gt;'junit:junit:4.11'&lt;/s1&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153240Z" creationid="huanghaohang" creationdate="20170914T153240Z">
+        <seg>delegate.compile(&lt;s1&gt;'junit:junit:4.11'&lt;/s1&gt;)
+}</seg>
       </tuv>
     </tu>
     <tu>
