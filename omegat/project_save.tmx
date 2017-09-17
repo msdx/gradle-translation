@@ -3234,6 +3234,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle offers a variety of ways to add properties to your build. With the &lt;c0&gt;-D&lt;/c0&gt; command line option you can pass a system property to the JVM which runs Gradle. The &lt;c1&gt;-D&lt;/c1&gt; option of the &lt;s2&gt;&lt;s3&gt;gradle&lt;/s3&gt;&lt;/s2&gt; command has the same effect as the &lt;c4&gt;-D&lt;/c4&gt; option of the &lt;s5&gt;&lt;s6&gt;java&lt;/s6&gt;&lt;/s5&gt; command.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132831Z" creationid="huanghaohang" creationdate="20170917T132831Z">
+        <seg>Gradle提供了多种方式可以向构建添加属性。使用&lt;c0&gt;-D&lt;/c0&gt;命令行选项可以将系统属性传给运行Gradle的JVM。&lt;s2&gt;&lt;s3&gt;gradle&lt;/s3&gt;&lt;/s2&gt;命令的&lt;c1&gt;-D&lt;/c1&gt;选项与&lt;s5&gt;&lt;s6&gt;java&lt;/s6&gt;&lt;/s5&gt;命令的&lt;c4&gt;-D&lt;/c4&gt;选项具有同样的效果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle provides a &lt;e0&gt;domain specific language&lt;/e0&gt;, or DSL, for describing builds. This build language is based on Groovy, with some additions to make it easier to describe a build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124610Z" creationid="huanghaohang" creationdate="20170912T124610Z">
@@ -5250,6 +5258,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T113153Z" creationid="huanghaohang" creationdate="20170909T112920Z">
         <seg>你也可以对驼峰命名的任务名称的每一个单词进行缩写。例如，你可以通过运行&lt;s1&gt;&lt;c2&gt;gradle compTest&lt;/c2&gt;&lt;/s1&gt;或&lt;s3&gt;&lt;c4&gt;gradle cT&lt;/c4&gt;&lt;/s3&gt;执行&lt;c0&gt;compileTest&lt;/c0&gt;任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also directly add properties to your project objects using properties files. You can place a &lt;c0&gt;gradle.properties&lt;/c0&gt; file in the Gradle user home directory (defaults to &lt;c1&gt;&lt;e2&gt;&lt;c3&gt;USER_HOME&lt;/c3&gt;&lt;/e2&gt;/.gradle&lt;/c1&gt;) or in your project directory. For multi-project builds you can place &lt;c4&gt;gradle.properties&lt;/c4&gt; files in any subproject directory. The properties of the &lt;c5&gt;gradle.properties&lt;/c5&gt; can be accessed via the project object. The properties file in the user's home directory has precedence over property files in the project directories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T133656Z" creationid="huanghaohang" creationdate="20170917T132847Z">
+        <seg>你也可以使用属性文件直接向项目对象添加属性。你可以在Gradle用户主目录（默认为&lt;c1&gt;&lt;e2&gt;&lt;c3&gt;USER_HOME&lt;/c3&gt;&lt;/e2&gt;/.gradle&lt;/c1&gt;），或是项目目录中放一个&lt;c0&gt;gradle.properties&lt;/c0&gt;文件。对于多项目构建，&lt;c4&gt;gradle.properties&lt;/c4&gt;文件可以放在任何子项目的目录中。&lt;c5&gt;gradle.properties&lt;/c5&gt;的属性可以通过project对象访问。用户主目录中的属性文件会比项目目录中的属性文件更先被访问到。</seg>
       </tuv>
     </tu>
     <tu>
