@@ -482,6 +482,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>14.1. Directory creation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T131932Z" creationid="huanghaohang" creationdate="20170917T131932Z">
+        <seg>14.1. 创建目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>14.2. Gradle properties and system properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132419Z" creationid="huanghaohang" creationdate="20170917T132419Z">
+        <seg>14.2. Gradle 属性和系统属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -1128,10 +1144,40 @@ getProject().setBuildDir(&lt;s3&gt;'target'&lt;/s3&gt;)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// do something&lt;/s2&gt;
+}
+task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132407Z" creationid="huanghaohang" creationdate="20170917T132407Z">
+        <seg>&lt;s2&gt;// do something&lt;/s2&gt;
+}
+task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s3&gt;if&lt;/s3&gt; (taskGraph.hasTask(release)) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025306Z" creationid="95" creationdate="20170729T025306Z">
         <seg>&lt;s3&gt;if&lt;/s3&gt; (taskGraph.hasTask(release)) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s4&gt;if&lt;/s4&gt; (classesDir.isDirectory()) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132408Z" creationid="huanghaohang" creationdate="20170917T132408Z">
+        <seg>&lt;s4&gt;if&lt;/s4&gt; (classesDir.isDirectory()) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s6&gt;// do something&lt;/s6&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132410Z" creationid="huanghaohang" creationdate="20170917T132410Z">
+        <seg>&lt;s6&gt;// do something&lt;/s6&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -1228,6 +1274,16 @@ projectApi</seg>
         <seg>&gt; gradle -q check
 projectApi
 projectApi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q compile
+The class directory exists. I can operate</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132418Z" creationid="huanghaohang" creationdate="20170917T132418Z">
+        <seg>&gt; gradle -q compile
+The class directory exists. I can operate</seg>
       </tuv>
     </tu>
     <tu>
@@ -2082,6 +2138,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Chapter 15. More about Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T131929Z" creationid="huanghaohang" creationdate="20170917T131929Z">
+        <seg>第十五章. 任务详述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Chapter 2. Overview</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072513Z" creationid="haohang" creationdate="20170720T072513Z">
@@ -2590,6 +2654,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153237Z" creationid="huanghaohang" creationdate="20170914T153237Z">
         <seg>示例 13.9. 闭包委托</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 14.1. Directory creation with mkdir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132404Z" creationid="huanghaohang" creationdate="20170917T132404Z">
+        <seg>示例 14.1.  使用 mkdir 创建目录</seg>
       </tuv>
     </tu>
     <tu>
@@ -3818,6 +3890,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q compile&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132414Z" creationid="huanghaohang" creationdate="20170917T132414Z">
+        <seg> &lt;s0&gt;&lt;c1&gt;gradle -q compile&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q count&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155907Z" creationid="95" creationdate="20170726T155907Z">
@@ -4602,6 +4682,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T043125Z" creationid="huanghaohang" creationdate="20170908T043125Z">
         <seg>你可以声明多种类型的依赖。其中一种这样的类型叫&lt;e0&gt;外部依赖&lt;/e0&gt;，它是依赖于在当前构建之外所生成的一些文件，并存储在某种存储库中，例如Maven Central，Maven私服，Ivy存储库，或者是本地文件系统中的某个目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is a common situation, that multiple tasks depend on the existence of a directory. Of course you can deal with this by adding a &lt;c0&gt;mkdir&lt;/c0&gt; to the beginning of those tasks. But this is kind of bloated. There is a better solution (works only if the tasks that need the directory have a &lt;s1&gt;&lt;e2&gt;dependsOn&lt;/e2&gt;&lt;/s1&gt; relationship):</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132357Z" creationid="huanghaohang" creationdate="20170917T132357Z">
+        <seg>有一个常见的情况是，有多个任务依赖于某个目录的存在。当然，你可以在这些任务开始时执行&lt;c0&gt;mkdir&lt;/c0&gt;来解决这个问题。但这是一种臃肿的解决方法。更好的解决方案是这样的（仅适用于需要某个目录的这些任务有&lt;s1&gt;&lt;e2&gt;依赖&lt;/e2&gt;&lt;/s1&gt;关系的情况）：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5638,6 +5726,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>classesDir.mkdirs()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132406Z" creationid="huanghaohang" creationdate="20170917T132406Z">
+        <seg>classesDir.mkdirs()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>clean</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014334Z" creationid="95" creationdate="20170730T014334Z">
@@ -5738,6 +5834,18 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050447Z" creationid="huanghaohang" creationdate="20170908T050447Z">
         <seg>credentials {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def classesDir = &lt;s0&gt;new&lt;/s0&gt; File(&lt;s1&gt;'build/classes'&lt;/s1&gt;)
+
+task resources &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132405Z" creationid="huanghaohang" creationdate="20170917T132405Z">
+        <seg>def classesDir = &lt;s0&gt;new&lt;/s0&gt; File(&lt;s1&gt;'build/classes'&lt;/s1&gt;)
+
+task resources &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -6799,6 +6907,14 @@ task other &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T023512Z" creationid="95" creationdate="20170729T023512Z">
         <seg>println &lt;s5&gt;"I'm fond of $file.name"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s5&gt;'The class directory exists. I can operate'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132409Z" creationid="huanghaohang" creationdate="20170917T132409Z">
+        <seg>println &lt;s5&gt;'The class directory exists. I can operate'&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
