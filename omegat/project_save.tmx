@@ -498,6 +498,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>14.2.1. Checking for project properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135040Z" creationid="huanghaohang" creationdate="20170917T135040Z">
+        <seg>14.2.1.检查项目的属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>14.2. Gradle properties and system properties</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132419Z" creationid="huanghaohang" creationdate="20170917T132419Z">
@@ -1198,6 +1206,24 @@ Default Running!</seg>
         <seg>&gt; gradle -q
 Default Cleaning!
 Default Running!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q -PcommandLineProjectProp=commandLineProjectPropValue -Dorg.gradle.project.systemProjectProp=systemPropertyValue printProps
+commandLineProjectPropValue
+gradlePropertiesValue
+systemPropertyValue
+envPropertyValue
+systemValue</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135037Z" creationid="huanghaohang" creationdate="20170917T135037Z">
+        <seg>&gt; gradle -q -PcommandLineProjectProp=commandLineProjectPropValue -Dorg.gradle.project.systemProjectProp=systemPropertyValue printProps
+commandLineProjectPropValue
+gradlePropertiesValue
+systemPropertyValue
+envPropertyValue
+systemValue</seg>
       </tuv>
     </tu>
     <tu>
@@ -2674,6 +2700,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 14.2. Setting properties with a gradle.properties file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135018Z" creationid="huanghaohang" creationdate="20170917T135018Z">
+        <seg>示例 14.2. 使用 gradle.properties 文件设置属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -3862,6 +3896,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030938Z" creationid="95" creationdate="20170729T030914Z">
         <seg>另外，本教程接下来是 《&lt;a0&gt;第七章， &lt;i1&gt;Java 快速入门&lt;/i1&gt;&lt;/a0&gt;》 以及《&lt;a2&gt;第八章， &lt;i3&gt;依赖管理基础&lt;/i3&gt;&lt;/a2&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q -PcommandLineProjectProp=commandLineProjectPropValue -Dorg.gradle.project.systemProjectProp=systemPropertyValue printProps&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135035Z" creationid="huanghaohang" creationdate="20170917T135035Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q -PcommandLineProjectProp=commandLineProjectPropValue -Dorg.gradle.project.systemProjectProp=systemPropertyValue printProps&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -5246,6 +5288,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>With the &lt;c0&gt;gradle.properties&lt;/c0&gt; files you can also set system properties. If a property in such a file has the prefix &lt;c1&gt;systemProp.&lt;/c1&gt; the property and its value are added to the system properties, without the prefix. In a multi project build, &lt;c2&gt;systemProp.&lt;/c2&gt; properties set in any project except the root will be ignored. That is, only &lt;c3&gt;systemProp.&lt;/c3&gt; in the root project's &lt;c4&gt;gradle.properties&lt;/c4&gt; file will be set as system properties.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135007Z" creationid="huanghaohang" creationdate="20170917T134626Z">
+        <seg>通过&lt;c0&gt;gradle.properties&lt;/c0&gt;文件，你还可以设置一些系统属性。如果这类文件中的属性具有&lt;c1&gt;systemProp.&lt;/c1&gt;前缀，该属性及其值将被添加到系统属性中，而不带此前缀。在多项目建设中，非根目录下的&lt;c2&gt;systemProp.&lt;/c2&gt;属性会被忽略。也就是说，只有在根项目中的&lt;c4&gt;gradle.properties&lt;/c4&gt;文件里的&lt;c3&gt;systemProp.&lt;/c3&gt;属性才会被设置为系统属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can add dependencies between projects in the same build, so that, for example, the JAR file of one project is used to compile another project. In the &lt;c0&gt;api&lt;/c0&gt; build file we will add a dependency on the JAR produced by the &lt;c1&gt;shared&lt;/c1&gt; project. Due to this dependency, Gradle will ensure that project &lt;c2&gt;shared&lt;/c2&gt; always gets built before project &lt;c3&gt;api&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125305Z" creationid="95" creationdate="20170803T125256Z">
@@ -6176,6 +6226,28 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>gradle.properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135020Z" creationid="huanghaohang" creationdate="20170917T135020Z">
+        <seg>gradle.properties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradlePropertiesProp=gradlePropertiesValue
+systemProjectProp=shouldBeOverWrittenBySystemProp
+envProjectProp=shouldBeOverWrittenByEnvProp
+systemProp.system=systemValue</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135022Z" creationid="huanghaohang" creationdate="20170917T135022Z">
+        <seg>gradlePropertiesProp=gradlePropertiesValue
+systemProjectProp=shouldBeOverWrittenBySystemProp
+envProjectProp=shouldBeOverWrittenByEnvProp
+systemProp.system=systemValue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>gradle_command_line.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030916Z" creationid="95" creationdate="20170729T030916Z">
@@ -6951,10 +7023,44 @@ task other &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println System.properties[&lt;s0&gt;'system'&lt;/s0&gt;]
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135031Z" creationid="huanghaohang" creationdate="20170917T135031Z">
+        <seg>println System.properties[&lt;s0&gt;'system'&lt;/s0&gt;]
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println commandLineProjectProp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135024Z" creationid="huanghaohang" creationdate="20170917T135024Z">
+        <seg>println commandLineProjectProp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println emailNotification</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133555Z" creationid="huanghaohang" creationdate="20170913T133555Z">
         <seg>println emailNotification</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println envProjectProp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135028Z" creationid="huanghaohang" creationdate="20170917T135028Z">
+        <seg>println envProjectProp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println gradlePropertiesProp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135025Z" creationid="huanghaohang" creationdate="20170917T135025Z">
+        <seg>println gradlePropertiesProp</seg>
       </tuv>
     </tu>
     <tu>
@@ -6983,6 +7089,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133553Z" creationid="huanghaohang" creationdate="20170913T133553Z">
         <seg>println springVersion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println systemProjectProp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135027Z" creationid="huanghaohang" creationdate="20170917T135027Z">
+        <seg>println systemProjectProp</seg>
       </tuv>
     </tu>
     <tu>
@@ -7229,6 +7343,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T141958Z" creationid="95" creationdate="20170727T141958Z">
         <seg>task myTask {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task printProps &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135023Z" creationid="huanghaohang" creationdate="20170917T135023Z">
+        <seg>task printProps &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
