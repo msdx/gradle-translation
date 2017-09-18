@@ -514,6 +514,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>14.3. Configuring the project using an external build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145154Z" creationid="huanghaohang" creationdate="20170918T145154Z">
+        <seg>14.3. 使用外部构建脚本配置项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -5296,6 +5304,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can access a project property in your build script simply by using its name as you would use a variable. In case this property does not exists, an exception is thrown and the build fails. If your build script relies on optional properties the user might set for example in a gradle.properties file, you need to check for existence before you can access them. You can do this by using the method &lt;c0&gt;hasProperty('propertyName')&lt;/c0&gt; which returns &lt;c1&gt;true&lt;/c1&gt; or &lt;c2&gt;false&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145149Z" creationid="huanghaohang" creationdate="20170918T145149Z">
+        <seg>你可以通过属性的名称在构建脚本里访问这个属性，如同使用一个变量一样。如果这个属性不存在，那么就会抛出异常并且构建失败。如果你的构建脚本依赖于一些可选属性，而这些属性用户可能在比如gradle.properties文件中设置，你就需要在访问它们之前先检查它们是否存在。你可以通过使用 &lt;c0&gt;hasProperty('propertyName')&lt;/c0&gt; 方法来进行检查，它会返回&lt;c1&gt;true&lt;/c1&gt; 或 &lt;c2&gt;false&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can add dependencies between projects in the same build, so that, for example, the JAR file of one project is used to compile another project. In the &lt;c0&gt;api&lt;/c0&gt; build file we will add a dependency on the JAR produced by the &lt;c1&gt;shared&lt;/c1&gt; project. Due to this dependency, Gradle will ensure that project &lt;c2&gt;shared&lt;/c2&gt; always gets built before project &lt;c3&gt;api&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125305Z" creationid="95" creationdate="20170803T125256Z">
@@ -5364,6 +5380,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005441Z" creationid="huanghaohang" creationdate="20170909T005441Z">
         <seg>你可以在单个project中组合多个插件，因此你可以将War和Groovy插件一起使用，构建一个基于Groovy的web应用程序。相应的groovy库也会被加入到WAR文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can configure the current project using an external build script. All of the Gradle build language is available in the external script. You can even apply other scripts from the external script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145326Z" creationid="huanghaohang" creationdate="20170918T145326Z">
+        <seg>你可以使用外部构建脚本来配置当前项目。所有的Gradle构建语言都可以在外部脚本中使用，甚至你也可以从外部脚本应用其他脚本。</seg>
       </tuv>
     </tu>
     <tu>
