@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#N10C0B</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T150606Z" creationid="huanghaohang" creationdate="20170918T150606Z">
+        <seg>#N10C0B</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#ftn.N100BF</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T070853Z" creationid="95" creationdate="20170723T070853Z">
@@ -518,6 +526,30 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145154Z" creationid="huanghaohang" creationdate="20170918T145154Z">
         <seg>14.3. 使用外部构建脚本配置项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>14.4. Configuring arbitrary objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145356Z" creationid="huanghaohang" creationdate="20170918T145356Z">
+        <seg>14.4. 配置任意对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>14.5. Configuring arbitrary objects using an external script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145831Z" creationid="huanghaohang" creationdate="20170918T145831Z">
+        <seg>14.5. 使用外部脚本配置任意对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>14.6. Caching</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T150055Z" creationid="huanghaohang" creationdate="20170918T150055Z">
+        <seg>14.6. 缓存</seg>
       </tuv>
     </tu>
     <tu>
@@ -1160,10 +1192,26 @@ getProject().setBuildDir(&lt;s3&gt;'target'&lt;/s3&gt;)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;6&lt;/a1&gt;] &lt;/s0&gt; &lt;s2&gt;&lt;e3&gt;Teamcity&lt;/e3&gt;&lt;/s2&gt; or &lt;s4&gt;&lt;e5&gt;Bamboo&lt;/e5&gt;&lt;/s4&gt; are for example CI servers which offer this functionality.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T150653Z" creationid="huanghaohang" creationdate="20170918T150653Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;6&lt;/a1&gt;]&lt;/s0&gt; &lt;s2&gt; &lt;e3&gt;Teamcity&lt;/e3&gt;&lt;/s2&gt;或&lt;s4&gt;&lt;e5&gt;Bamboo&lt;/e5&gt;&lt;/s4&gt;就是作为提供这一功能的 CI 服务器的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;if&lt;/s1&gt; (file.isFile()) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153800Z" creationid="95" creationdate="20170728T153800Z">
         <seg>&lt;s1&gt;if&lt;/s1&gt; (file.isFile()) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Apply the script&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T150034Z" creationid="huanghaohang" creationdate="20170918T150034Z">
+        <seg>&lt;s2&gt;// Apply the script&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -1330,6 +1378,18 @@ The class directory exists. I can operate</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q configure
+1
+5</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145829Z" creationid="huanghaohang" creationdate="20170918T145829Z">
+        <seg>&gt; gradle -q configure
+1
+5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q count
 0 1 2 3</seg>
       </tuv>
@@ -1422,6 +1482,18 @@ Greetings from the hello task.</seg>
         <seg>&gt; gradle -q hello
 Hello world!
 Greetings from the hello task.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+configuring root project 'configureProjectUsingScript'
+hello from other script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145344Z" creationid="huanghaohang" creationdate="20170918T145344Z">
+        <seg>&gt; gradle -q hello
+configuring root project 'configureProjectUsingScript'
+hello from other script</seg>
       </tuv>
     </tu>
     <tu>
@@ -2716,6 +2788,30 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 14.3. Configuring the project using an external build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145335Z" creationid="huanghaohang" creationdate="20170918T145335Z">
+        <seg>示例14.3. 使用外部构建脚本配置项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 14.4. Configuring arbitrary objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145817Z" creationid="huanghaohang" creationdate="20170918T145817Z">
+        <seg>示例 14.4. 配置任意对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 14.5. Configuring arbitrary objects using a script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145956Z" creationid="huanghaohang" creationdate="20170918T145956Z">
+        <seg>示例14.5. 使用脚本配置任意对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -3964,6 +4060,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q configure&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145827Z" creationid="huanghaohang" creationdate="20170918T145827Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q configure&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q count&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155907Z" creationid="95" creationdate="20170726T155907Z">
@@ -5040,6 +5144,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To improve responsiveness Gradle caches all compiled scripts by default. This includes all build scripts, initialization scripts, and other scripts. The first time you run a build for a project, Gradle creates a &lt;c0&gt;.gradle&lt;/c0&gt; directory in which it puts the compiled script. The next time you run this build, Gradle uses the compiled script, if the script has not changed since it was compiled. Otherwise the script gets compiled and the new version is stored in the cache. If you run Gradle with the &lt;c1&gt;--recompile-scripts&lt;/c1&gt; option, the cached script is discarded and the script is compiled and stored in the cache. This way you can force Gradle to rebuild the cache.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T150603Z" creationid="huanghaohang" creationdate="20170918T150109Z">
+        <seg>为了提高响应速度，Gradle默认情况下会缓存所有已编译的脚本，包括所有构建脚本，初始化脚本和其他脚本。当你第一次运行项目构建时，Gradle会创建一个&lt;c0&gt;.gradle&lt;/c0&gt;目录用于存放已编译的脚本。下次运行此构建时，如果脚本上次编译之后没有更改，则Gradle将使用已编译的脚本。否则该脚本会被重新编译，并把新版本存储在缓存中。如果你使用 &lt;c1&gt;--recompile-scripts&lt;/c1&gt;选项来执行Gradle，那么会放弃所缓存的脚本，然后重新编译脚本并将其存在缓存中。通过这种方式，你就可以强制Gradle重新生成缓存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To publish the JAR file, run &lt;s0&gt;&lt;c1&gt;gradle uploadArchives&lt;/c1&gt;&lt;/s0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153732Z" creationid="95" creationdate="20170731T153732Z">
@@ -5344,6 +5456,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also configure arbitrary objects using an external script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145951Z" creationid="huanghaohang" creationdate="20170918T145951Z">
+        <seg>你还可以使用外部脚本配置任意对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also directly add properties to your project objects using properties files. You can place a &lt;c0&gt;gradle.properties&lt;/c0&gt; file in the Gradle user home directory (defaults to &lt;c1&gt;&lt;e2&gt;&lt;c3&gt;USER_HOME&lt;/c3&gt;&lt;/e2&gt;/.gradle&lt;/c1&gt;) or in your project directory. For multi-project builds you can place &lt;c4&gt;gradle.properties&lt;/c4&gt; files in any subproject directory. The properties of the &lt;c5&gt;gradle.properties&lt;/c5&gt; can be accessed via the project object. The properties file in the user's home directory has precedence over property files in the project directories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T133656Z" creationid="huanghaohang" creationdate="20170917T132847Z">
@@ -5380,6 +5500,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005441Z" creationid="huanghaohang" creationdate="20170909T005441Z">
         <seg>你可以在单个project中组合多个插件，因此你可以将War和Groovy插件一起使用，构建一个基于Groovy的web应用程序。相应的groovy库也会被加入到WAR文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can configure arbitrary objects in the following very readable way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145439Z" creationid="huanghaohang" creationdate="20170918T145406Z">
+        <seg>你可以使用以下非常易于理解的方式配置任意对象。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5618,6 +5746,22 @@ webapp:libs - Builds the JAR [api:libs]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply from: &lt;s0&gt;'other.gradle'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145336Z" creationid="huanghaohang" creationdate="20170918T145336Z">
+        <seg>apply from: &lt;s0&gt;'other.gradle'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply from: &lt;s3&gt;'other.gradle'&lt;/s3&gt;, to: pos</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T150052Z" creationid="huanghaohang" creationdate="20170918T150052Z">
+        <seg>apply from: &lt;s3&gt;'other.gradle'&lt;/s3&gt;, to: pos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;"java"&lt;/s0&gt;
 
 ext {</seg>
@@ -5800,6 +5944,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>beginIndex = &lt;s2&gt;1&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145822Z" creationid="huanghaohang" creationdate="20170918T145822Z">
+        <seg>beginIndex = &lt;s2&gt;1&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>build.gradle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144943Z" creationid="95" creationdate="20170724T144943Z">
@@ -5972,6 +6124,22 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153757Z" creationid="95" creationdate="20170728T153757Z">
         <seg>def files = file(&lt;s0&gt;'../antLoadfileResources'&lt;/s0&gt;).listFiles().sort()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def pos = &lt;s0&gt;new&lt;/s0&gt; java.text.FieldPosition(&lt;s1&gt;10&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T150025Z" creationid="huanghaohang" creationdate="20170918T150025Z">
+        <seg>def pos = &lt;s0&gt;new&lt;/s0&gt; java.text.FieldPosition(&lt;s1&gt;10&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def pos = configure(&lt;s0&gt;new&lt;/s0&gt; java.text.FieldPosition(&lt;s1&gt;10&lt;/s1&gt;)) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145820Z" creationid="huanghaohang" creationdate="20170918T145820Z">
+        <seg>def pos = configure(&lt;s0&gt;new&lt;/s0&gt; java.text.FieldPosition(&lt;s1&gt;10&lt;/s1&gt;)) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -6150,6 +6318,14 @@ sourceSets {</seg>
 sourceSets.all { ext.purpose = null }
 
 sourceSets {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>endIndex = &lt;s3&gt;5&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145823Z" creationid="huanghaohang" creationdate="20170918T145823Z">
+        <seg>endIndex = &lt;s3&gt;5&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6653,6 +6829,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>other.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145337Z" creationid="huanghaohang" creationdate="20170918T145337Z">
+        <seg>other.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>overview.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072441Z" creationid="haohang" creationdate="20170720T072441Z">
@@ -6719,6 +6903,16 @@ task release(dependsOn: &lt;s1&gt;'distribution'&lt;/s1&gt;) &lt;&lt; {</seg>
 }
 
 task release(dependsOn: &lt;s1&gt;'distribution'&lt;/s1&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;"configuring $project"&lt;/s0&gt;
+task hello &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145339Z" creationid="huanghaohang" creationdate="20170918T145339Z">
+        <seg>println &lt;s0&gt;"configuring $project"&lt;/s0&gt;
+task hello &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -6873,6 +7067,16 @@ task test(dependsOn: [compile, compileTest]) &lt;&lt; {</seg>
 }
 
 task test(dependsOn: [compile, compileTest]) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'hello from other script'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145341Z" creationid="huanghaohang" creationdate="20170918T145341Z">
+        <seg>println &lt;s1&gt;'hello from other script'&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -7109,6 +7313,24 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println pos.beginIndex</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145824Z" creationid="huanghaohang" creationdate="20170918T145824Z">
+        <seg>println pos.beginIndex</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println pos.endIndex
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145826Z" creationid="huanghaohang" creationdate="20170918T145826Z">
+        <seg>println pos.endIndex
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println springVersion</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133553Z" creationid="huanghaohang" creationdate="20170913T133553Z">
@@ -7311,6 +7533,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031121Z" creationid="huanghaohang" creationdate="20170909T031121Z">
         <seg>task compile &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task configure &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145818Z" creationid="huanghaohang" creationdate="20170918T145818Z">
+        <seg>task configure &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
