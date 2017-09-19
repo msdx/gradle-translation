@@ -554,6 +554,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>15.1. Defining tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120439Z" creationid="huanghaohang" creationdate="20170919T120439Z">
+        <seg>15.1. 定义任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -2912,6 +2920,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145956Z" creationid="huanghaohang" creationdate="20170918T145956Z">
         <seg>示例14.5. 使用脚本配置任意对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.1. Defining tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120829Z" creationid="huanghaohang" creationdate="20170919T120829Z">
+        <seg>示例 15.1. 定义任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -5456,6 +5472,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We have already seen how to define tasks using a keyword style in &lt;a0&gt;Chapter 6, &lt;i1&gt;Build Script Basics&lt;/i1&gt;&lt;/a0&gt;. There are a few variations on this style, which you may need to use in certain situations. For example, the keyword style does not work in expressions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120825Z" creationid="huanghaohang" creationdate="20170919T120825Z">
+        <seg>在《&lt;a0&gt;第六章，&lt;i1&gt;构建脚本基础&lt;/i1&gt;&lt;/a0&gt; 》中我们已经看到如何通过关键字这种风格来定义任务。这种风格有一些变式，可能你在一些具体的场景中会需要。例如，在表达式中不能使用这种关键字风格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We have in-depth coverage with many examples about the Java plugin, dependency management and multi-project builds in later chapters. In this chapter we want to give you an initial idea of how to use the Java plugin to build a Java project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012344Z" creationid="95" creationdate="20170730T012101Z">
@@ -5660,6 +5684,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050945Z" creationid="huanghaohang" creationdate="20170908T050945Z">
         <seg>当然，你也可以发布到Maven仓库。语法略有不同。&lt;s0&gt;[&lt;a1&gt;4&lt;/a1&gt;]&lt;/s0&gt;请注意，你需要应用Maven插件才能发布到Maven存储库。在这种情况下，Gradle也会生成&lt;c2&gt;pom.xml&lt;/c2&gt;并上传。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also use strings for the task names:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121037Z" creationid="huanghaohang" creationdate="20170919T121037Z">
+        <seg>你还可以使用字符串作为任务名称：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6594,6 +6626,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from(file(&lt;s1&gt;'srcDir'&lt;/s1&gt;))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120837Z" creationid="huanghaohang" creationdate="20170919T120837Z">
+        <seg>from(file(&lt;s1&gt;'srcDir'&lt;/s1&gt;))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>gradle --gui</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143308Z" creationid="huanghaohang" creationdate="20170911T143308Z">
@@ -6840,6 +6880,16 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125719Z" creationid="95" creationdate="20170803T125719Z">
         <seg>into(&lt;s1&gt;'libs'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into(buildDir)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120842Z" creationid="huanghaohang" creationdate="20170919T120842Z">
+        <seg>into(buildDir)
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -7137,6 +7187,20 @@ task hello &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145339Z" creationid="huanghaohang" creationdate="20170918T145339Z">
         <seg>println &lt;s0&gt;"configuring $project"&lt;/s0&gt;
 task hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;"hello"&lt;/s0&gt;
+}
+
+task(copy, type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120835Z" creationid="huanghaohang" creationdate="20170919T120835Z">
+        <seg>println &lt;s0&gt;"hello"&lt;/s0&gt;
+}
+
+task(copy, type: Copy) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -7845,6 +7909,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155757Z" creationid="95" creationdate="20170726T155757Z">
         <seg>task upper &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task(hello) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120833Z" creationid="huanghaohang" creationdate="20170919T120833Z">
+        <seg>task(hello) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
