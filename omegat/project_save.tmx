@@ -594,6 +594,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>15.4. Adding dependencies to a task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124948Z" creationid="huanghaohang" creationdate="20170919T124948Z">
+        <seg>15.4. 向任务添加依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -2548,6 +2556,20 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Copy myCopy = task(myCopy, type: Copy)
+myCopy.from &lt;s0&gt;'resources'&lt;/s0&gt;
+myCopy.into &lt;s1&gt;'target'&lt;/s1&gt;
+myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;, &lt;s4&gt;'**/*.properties'&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124321Z" creationid="huanghaohang" creationdate="20170919T124321Z">
+        <seg>Copy myCopy = task(myCopy, type: Copy)
+myCopy.from &lt;s0&gt;'resources'&lt;/s0&gt;
+myCopy.into &lt;s1&gt;'target'&lt;/s1&gt;
+myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;, &lt;s4&gt;'**/*.properties'&lt;/s4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copyright © 2007-2012 Hans Dockter, Adam Murdoch</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072305Z" creationid="haohang" creationdate="20170720T072305Z">
@@ -2988,6 +3010,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 15.10. Defining a task with closure</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124929Z" creationid="huanghaohang" creationdate="20170919T124929Z">
+        <seg>示例 15.10. 使用闭包定义任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 15.2. Defining tasks - using strings for task names</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121052Z" creationid="huanghaohang" creationdate="20170919T121052Z">
@@ -3032,6 +3062,22 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122240Z" creationid="huanghaohang" creationdate="20170919T122240Z">
         <seg>示例 15.7. 创建一个复制任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.8. Configuring a task - various ways</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124318Z" creationid="huanghaohang" creationdate="20170919T124318Z">
+        <seg>示例 15.8. 配置任务——多种方式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.9. Configuring a task - with closure</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124608Z" creationid="huanghaohang" creationdate="20170919T124608Z">
+        <seg>示例 15.9. 配置任务——使用闭包</seg>
       </tuv>
     </tu>
     <tu>
@@ -5136,6 +5182,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are several ways you can define the dependencies of a task. In &lt;a0&gt;Section 6.5, “Task dependencies”&lt;/a0&gt; you were introduced to defining dependencies using task names. Task names can refer to tasks in the same project as the task, or to tasks in other projects. To refer to a task in another project, you prefix the name of the task with the path of the project it belongs to. Below is an example which adds a dependency from &lt;c1&gt;projectA:taskX&lt;/c1&gt; to &lt;c2&gt;projectB:taskY&lt;/c2&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130050Z" creationid="huanghaohang" creationdate="20170919T130050Z">
+        <seg>定义任务的依赖关系有几种方法。在《&lt;a0&gt;第6.5节，“任务依赖”&lt;/a0&gt;》已经向你介绍了使用任务名称来定义依赖。任务名称可以可以引用与该任务相同项目的任务，或者用于其他项目中的任务。要在另一个项目中引用任务，你需要将任务所属项目的路径作为前缀，加到它的名字中。下面的例子演示了如何添加&lt;c1&gt;projectA:taskX&lt;/c1&gt;对&lt;c2&gt;projectB:taskY&lt;/c2&gt;的依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are two kinds of variables that can be declared in a build script: local variables and extra properties.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132549Z" creationid="huanghaohang" creationdate="20170913T132549Z">
@@ -5188,6 +5242,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121128Z" creationid="huanghaohang" creationdate="20170919T121128Z">
         <seg>有一种用于定义任务的替代语法，你可能更希望使用：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is another way of configuring a task. It also preserves the context and it is arguably the most readable. It is usually our favorite.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124601Z" creationid="huanghaohang" creationdate="20170919T124601Z">
+        <seg>还有一种配置任务的方式。它也保留了上下文，可以说是可读性最强的。它是我们通常最喜欢的方式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5344,6 +5406,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is similar to the way we would normally configure objects in Java. You have to repeat the context (&lt;c0&gt;myCopy&lt;/c0&gt;) in the configuration statement every time. This is a redundancy and not very nice to read.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124522Z" creationid="huanghaohang" creationdate="20170919T124322Z">
+        <seg>这类似于我们通常在Java中配置对象的方式。你必须在每一次的配置语句重复上下文 （&lt;c0&gt;myCopy&lt;/c0&gt;）。这显得很冗余也不好阅读。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This provides you with an alternate way to launch Gradle commands. This is useful if your project requires some extra setup that is done inside another batch file or shell script (such as specifying an init script).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T150358Z" creationid="huanghaohang" creationdate="20170911T150358Z">
@@ -5380,6 +5450,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002355Z" creationid="huanghaohang" creationdate="20170909T002355Z">
         <seg>如果还没有应用Java插件，那么Java插件也会被应用到项目中。 Groovy插件分别扩展了&lt;c0&gt;compile&lt;/c0&gt;任务，以在&lt;c1&gt;src/main/groovy&lt;/c1&gt;目录中查找源文件；以及&lt;c2&gt;compileTest&lt;/c2&gt;任务，以在&lt;c3&gt;src/test/groovy&lt;/c3&gt;目录中查找测试源文件。编译任务会把这些目录加到编译中，因此也意味着可以在项目里混合编译java和groovy。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This works for &lt;s0&gt;&lt;e1&gt;any&lt;/e1&gt;&lt;/s0&gt; task. Line 3 of the example is just a shortcut for the &lt;c2&gt;tasks.getByName()&lt;/c2&gt; method. It is important to note that if you pass a closure to the &lt;c3&gt;getByName()&lt;/c3&gt; method, this closure is applied to &lt;s4&gt;&lt;e5&gt;configure&lt;/e5&gt;&lt;/s4&gt; the task, not when the task executes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124903Z" creationid="huanghaohang" creationdate="20170919T124629Z">
+        <seg>这种方式适用于&lt;s0&gt;&lt;e1&gt;任何&lt;/e1&gt;&lt;/s0&gt;的任务。该例子的第3行只是&lt;c2&gt;tasks.getByName()&lt;/c2&gt;方法的快捷写法。特别要注意的是，如果你向&lt;c3&gt;getByName()&lt;/c3&gt;方法传入一个闭包，这个闭包是在&lt;s4&gt;&lt;e5&gt;配置&lt;/e5&gt;&lt;/s4&gt;这个任务的时候应用，而不是任务执行的时候。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5836,6 +5914,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050945Z" creationid="huanghaohang" creationdate="20170908T050945Z">
         <seg>当然，你也可以发布到Maven仓库。语法略有不同。&lt;s0&gt;[&lt;a1&gt;4&lt;/a1&gt;]&lt;/s0&gt;请注意，你需要应用Maven插件才能发布到Maven存储库。在这种情况下，Gradle也会生成&lt;c2&gt;pom.xml&lt;/c2&gt;并上传。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also use a configuration closure when you define a task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124925Z" creationid="huanghaohang" creationdate="20170919T124925Z">
+        <seg>你也可以在定义任务的时候使用配置闭包。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6754,6 +6840,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from &lt;s0&gt;'resources'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124610Z" creationid="huanghaohang" creationdate="20170919T124610Z">
+        <seg>from &lt;s0&gt;'resources'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from &lt;s0&gt;'src/dist'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125718Z" creationid="95" creationdate="20170803T125718Z">
@@ -6978,6 +7072,16 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;, &lt;s4&gt;'**/*.properties'&lt;/s4&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124612Z" creationid="huanghaohang" creationdate="20170919T124612Z">
+        <seg>include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;, &lt;s4&gt;'**/*.properties'&lt;/s4&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>installation.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072426Z" creationid="95" creationdate="20170723T072426Z">
@@ -7030,6 +7134,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013359Z" creationid="huanghaohang" creationdate="20170919T013359Z">
         <seg>installation.html#N10160</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into &lt;s1&gt;'target'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124611Z" creationid="huanghaohang" creationdate="20170919T124611Z">
+        <seg>into &lt;s1&gt;'target'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8037,6 +8149,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task copy(type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124931Z" creationid="huanghaohang" creationdate="20170919T124931Z">
+        <seg>task copy(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task count &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155856Z" creationid="95" creationdate="20170726T155856Z">
@@ -8141,6 +8261,18 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122242Z" creationid="huanghaohang" creationdate="20170919T122242Z">
         <seg>task myCopy(type: Copy)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task myCopy(type: Copy)
+
+myCopy {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124609Z" creationid="huanghaohang" creationdate="20170919T124609Z">
+        <seg>task myCopy(type: Copy)
+
+myCopy {</seg>
       </tuv>
     </tu>
     <tu>
@@ -8366,6 +8498,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132111Z" creationid="95" creationdate="20170727T132111Z">
         <seg>tutorial_using_tasks.html#sec:shortcut_notations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tutorial_using_tasks.html#sec:task_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124951Z" creationid="huanghaohang" creationdate="20170919T124951Z">
+        <seg>tutorial_using_tasks.html#sec:task_dependencies</seg>
       </tuv>
     </tu>
     <tu>
