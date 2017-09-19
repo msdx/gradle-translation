@@ -186,6 +186,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/tasks/TaskContainer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121139Z" creationid="huanghaohang" creationdate="20170919T121139Z">
+        <seg>../javadoc/org/gradle/api/tasks/TaskContainer.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072430Z" creationid="haohang" creationdate="20170720T072430Z">
@@ -558,6 +566,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120439Z" creationid="huanghaohang" creationdate="20170919T120439Z">
         <seg>15.1. 定义任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>15.2. Locating tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121404Z" creationid="huanghaohang" creationdate="20170919T121404Z">
+        <seg>15.2. 查找任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -2932,6 +2948,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 15.2. Defining tasks - using strings for task names</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121052Z" creationid="huanghaohang" creationdate="20170919T121052Z">
+        <seg>示例 15.2. 定义任务 —— 使用字符串作为任务名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.3. Defining tasks with alternative syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121134Z" creationid="huanghaohang" creationdate="20170919T121134Z">
+        <seg>示例 15.3. 使用替代语法定义任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -3680,6 +3712,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002815Z" creationid="huanghaohang" creationdate="20170909T002815Z">
         <seg>这里是我们的完整构建文件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here we add tasks to the &lt;c0&gt;tasks&lt;/c0&gt; collection. Have a look at &lt;a1&gt;&lt;c2&gt;TaskContainer&lt;/c2&gt;&lt;/a1&gt; for more variations of the &lt;c3&gt;create()&lt;/c3&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121353Z" creationid="huanghaohang" creationdate="20170919T121141Z">
+        <seg>在这里我们将任务添加到&lt;c0&gt;tasks&lt;/c0&gt;集合。关于&lt;c3&gt;create()&lt;/c3&gt;方法&lt;a1&gt;的其他重载方法，可以看一下&lt;c2&gt;TaskContainer&lt;/c2&gt;&lt;/a1&gt;接口。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5056,6 +5096,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is an alternative syntax for defining tasks, which you may prefer to use:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121128Z" creationid="huanghaohang" creationdate="20170919T121128Z">
+        <seg>有一种用于定义任务的替代语法，你可能更希望使用：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is lots more you can do with Ant in your build scripts. You can find out more in &lt;a0&gt;Chapter 17, &lt;i1&gt;Using Ant from Gradle&lt;/i1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T154458Z" creationid="95" creationdate="20170728T153845Z">
@@ -5828,6 +5876,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T071727Z" creationid="95" creationdate="20170723T070855Z">
         <seg>您可能会想问，为什么不使用Java来作为构建脚本的语言。这确实是一个很好的问题，它的团队透明度最高，并且学习曲线最低。但是由于Java的局限性，这样的一门构建语言就不会像现在的那样好、丰富而强大。&lt;s0&gt;[&lt;a1&gt;1&lt;/a1&gt;]&lt;/s0&gt; 像Python，Groovy或是Ruby这样的语言能够比它更好。我们之所以选择Groovy，是因为它为Java程序员提供了最大的透明度，它的基本语法，类型系统，包结构等都与Java相同。Groovy的底层是与Java相同的，只是在其之上做了许多工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You often need to locate the tasks that you have defined in the build file, for example, to configure them or use them for dependencies. There are a number of ways of doing this. Firstly, each task is available as a property of the project, using the task name as the property name:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121712Z" creationid="huanghaohang" creationdate="20170919T121712Z">
+        <seg>我们经常需要在构建文件中查找所定义的任务。例如，为了去配置它们，或是依赖它们。对这样的情况，有很多种方法可以解决。首先，每个任务都可以使用任务名称作为属性名称，当为项目的属性来使用：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6634,6 +6690,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from(file(&lt;s3&gt;'srcDir'&lt;/s3&gt;))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121057Z" creationid="huanghaohang" creationdate="20170919T121057Z">
+        <seg>from(file(&lt;s3&gt;'srcDir'&lt;/s3&gt;))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>gradle --gui</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143308Z" creationid="huanghaohang" creationdate="20170911T143308Z">
@@ -7333,6 +7397,34 @@ task compileTest(dependsOn: compile) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;"hello"&lt;/s1&gt;
+}
+
+task(&lt;s2&gt;'copy'&lt;/s2&gt;, type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121055Z" creationid="huanghaohang" creationdate="20170919T121055Z">
+        <seg>println &lt;s1&gt;"hello"&lt;/s1&gt;
+}
+
+task(&lt;s2&gt;'copy'&lt;/s2&gt;, type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;"hello"&lt;/s1&gt;
+}
+
+tasks.create(name: &lt;s2&gt;'copy'&lt;/s2&gt;, type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121137Z" creationid="huanghaohang" creationdate="20170919T121137Z">
+        <seg>println &lt;s1&gt;"hello"&lt;/s1&gt;
+}
+
+tasks.create(name: &lt;s2&gt;'copy'&lt;/s2&gt;, type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;'Hello Venus'&lt;/s1&gt;
 }
 hello.doLast {</seg>
@@ -7913,10 +8005,28 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task(&lt;s0&gt;'hello'&lt;/s0&gt;) &lt;&lt;
+{</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121054Z" creationid="huanghaohang" creationdate="20170919T121054Z">
+        <seg>task(&lt;s0&gt;'hello'&lt;/s0&gt;) &lt;&lt;
+{</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task(hello) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120833Z" creationid="huanghaohang" creationdate="20170919T120833Z">
         <seg>task(hello) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tasks.create(name: &lt;s0&gt;'hello'&lt;/s0&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121136Z" creationid="huanghaohang" creationdate="20170919T121136Z">
+        <seg>tasks.create(name: &lt;s0&gt;'hello'&lt;/s0&gt;) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
