@@ -162,6 +162,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.Copy.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122243Z" creationid="huanghaohang" creationdate="20170919T122243Z">
+        <seg>../dsl/org.gradle.api.tasks.Copy.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.diagnostics.DependencyInsightReportTask.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T022204Z" creationid="huanghaohang" creationdate="20170910T022204Z">
@@ -574,6 +582,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121404Z" creationid="huanghaohang" creationdate="20170919T121404Z">
         <seg>15.2. 查找任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>15.3. Configuring tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122055Z" creationid="huanghaohang" creationdate="20170919T122055Z">
+        <seg>15.3. 配置任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -1553,6 +1569,22 @@ We build the zip with version=1.0-SNAPSHOT</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>&gt; gradle -q hello
+:hello
+:hello
+:projectA:hello
+:projectA:hello</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122012Z" creationid="huanghaohang" creationdate="20170919T122012Z">
+        <seg>&gt; gradle -q hello
+:hello
+:hello
+:projectA:hello
+:projectA:hello</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
 Hello Venus
 Hello Earth
 Hello Mars
@@ -2168,6 +2200,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130159Z" creationid="huanghaohang" creationdate="20170912T130159Z">
         <seg>在构建脚本中，你所访问的任何一个属性，如果在构建脚本里&lt;s0&gt;&lt;e1&gt;没有定义&lt;/e1&gt;&lt;/s0&gt;，它也会被委托给&lt;c2&gt;Project&lt;/c2&gt;对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As an example, let's look at the &lt;c0&gt;Copy&lt;/c0&gt; task provided by Gradle. To create a &lt;c1&gt;Copy&lt;/c1&gt; task for your build, you can declare in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122236Z" creationid="huanghaohang" creationdate="20170919T122056Z">
+        <seg>举个例子，我们来看看Gradle提供的&lt;c0&gt;Copy&lt;/c0&gt; 任务。如果要创建一个&lt;c1&gt;Copy&lt;/c1&gt;任务，你可以在构建脚本中声明：</seg>
       </tuv>
     </tu>
     <tu>
@@ -2964,6 +3004,38 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 15.4. Accessing tasks as properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121722Z" creationid="huanghaohang" creationdate="20170919T121722Z">
+        <seg>示例 15.4. 以属性方式访问任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.5. Accessing tasks via tasks collection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121736Z" creationid="huanghaohang" creationdate="20170919T121736Z">
+        <seg>示例 15.5. 通过tasks集合访问任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.6. Accessing tasks by path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121951Z" creationid="huanghaohang" creationdate="20170919T121951Z">
+        <seg>示例 15.6. 通过路径访问任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.7. Creating a copy task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122240Z" creationid="huanghaohang" creationdate="20170919T122240Z">
+        <seg>示例 15.7. 创建一个复制任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -3688,6 +3760,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005200Z" creationid="huanghaohang" creationdate="20170909T005200Z">
         <seg>Groovy web 应用程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Have a look at &lt;a0&gt;&lt;c1&gt;TaskContainer&lt;/c1&gt;&lt;/a0&gt; for more options for locating tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122048Z" creationid="huanghaohang" creationdate="20170919T122048Z">
+        <seg>有关查找任务的更多选项，可以看一下&lt;a0&gt;&lt;c1&gt;TaskContainer&lt;/c1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4712,6 +4792,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Tasks are also available through the &lt;c0&gt;tasks&lt;/c0&gt; collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121732Z" creationid="huanghaohang" creationdate="20170919T121732Z">
+        <seg>任务也可以通过&lt;c0&gt;tasks&lt;/c0&gt;集合来访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;Project&lt;/c0&gt; instance</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132123Z" creationid="huanghaohang" creationdate="20170913T132123Z">
@@ -5208,6 +5296,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This creates a copy task with no default behavior. The task can be configured using its API (see &lt;a0&gt;&lt;c1&gt;Copy&lt;/c1&gt;&lt;/a0&gt;). The following examples show several different ways to achieve the same configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124251Z" creationid="huanghaohang" creationdate="20170919T122246Z">
+        <seg>上面的代码创建了一个没有默认行为的复制任务，这个任务可以使用它的API（参见&lt;a0&gt;&lt;c1&gt;Copy&lt;/c1&gt;&lt;/a0&gt;）来配置。下面的示例演示了实现相同配置的几种不同的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This determines how much information to write out stack traces when errors occur. Note: if you specify a stack trace level on either the Command Line or Favorites tab, it will override this stack trace level.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T150140Z" creationid="huanghaohang" creationdate="20170911T150140Z">
@@ -5668,6 +5764,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145149Z" creationid="huanghaohang" creationdate="20170918T145149Z">
         <seg>你可以通过属性的名称在构建脚本里访问这个属性，如同使用一个变量一样。如果这个属性不存在，那么就会抛出异常并且构建失败。如果你的构建脚本依赖于一些可选属性，而这些属性用户可能在比如gradle.properties文件中设置，你就需要在访问它们之前先检查它们是否存在。你可以通过使用 &lt;c0&gt;hasProperty('propertyName')&lt;/c0&gt; 方法来进行检查，它会返回&lt;c1&gt;true&lt;/c1&gt; 或 &lt;c2&gt;false&lt;/c2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can access tasks from any project using the task's path using the &lt;c0&gt;tasks.getByPath()&lt;/c0&gt; method. You can call the &lt;c1&gt;getByPath()&lt;/c1&gt; method with a task name, or a relative path, or an absolute path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121934Z" creationid="huanghaohang" creationdate="20170919T121934Z">
+        <seg>你可以在任何项目中使用&lt;c0&gt;tasks.getByPath()&lt;/c0&gt;方法获取任务路径，并且通过这个路径来访问任务。你也可以用一个任务的名称，相对路径或者是绝对路径作为参数，来调用&lt;c1&gt;getByPath()&lt;/c1&gt;方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7735,6 +7839,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project(&lt;s0&gt;':projectA'&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122000Z" creationid="huanghaohang" creationdate="20170919T122000Z">
+        <seg>project(&lt;s0&gt;':projectA'&lt;/s0&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>projectDir</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132159Z" creationid="huanghaohang" creationdate="20170913T132159Z">
@@ -7949,6 +8061,58 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task hello
+
+println hello.name
+println project.hello.name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121723Z" creationid="huanghaohang" creationdate="20170919T121723Z">
+        <seg>task hello
+
+println hello.name
+println project.hello.name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task hello
+
+println tasks.hello.name
+println tasks[&lt;s0&gt;'hello'&lt;/s0&gt;].name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121737Z" creationid="huanghaohang" creationdate="20170919T121737Z">
+        <seg>task hello
+
+println tasks.hello.name
+println tasks[&lt;s0&gt;'hello'&lt;/s0&gt;].name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task hello
+}
+
+task hello
+
+println tasks.getByPath(&lt;s1&gt;'hello'&lt;/s1&gt;).path
+println tasks.getByPath(&lt;s2&gt;':hello'&lt;/s2&gt;).path
+println tasks.getByPath(&lt;s3&gt;'projectA:hello'&lt;/s3&gt;).path
+println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122001Z" creationid="huanghaohang" creationdate="20170919T122001Z">
+        <seg>task hello
+}
+
+task hello
+
+println tasks.getByPath(&lt;s1&gt;'hello'&lt;/s1&gt;).path
+println tasks.getByPath(&lt;s2&gt;':hello'&lt;/s2&gt;).path
+println tasks.getByPath(&lt;s3&gt;'projectA:hello'&lt;/s3&gt;).path
+println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155315Z" creationid="95" creationdate="20170726T155315Z">
@@ -7969,6 +8133,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153755Z" creationid="95" creationdate="20170728T153755Z">
         <seg>task loadfile &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task myCopy(type: Copy)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122242Z" creationid="huanghaohang" creationdate="20170919T122242Z">
+        <seg>task myCopy(type: Copy)</seg>
       </tuv>
     </tu>
     <tu>
