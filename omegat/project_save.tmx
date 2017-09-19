@@ -3018,6 +3018,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 15.11. Adding dependency on task from another project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130121Z" creationid="huanghaohang" creationdate="20170919T130121Z">
+        <seg>示例 15.11. 添加对另一个项目的任务的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.12. Adding dependency using task object</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130248Z" creationid="huanghaohang" creationdate="20170919T130248Z">
+        <seg>示例 15.12. 使用任务对象添加依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 15.2. Defining tasks - using strings for task names</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121052Z" creationid="huanghaohang" creationdate="20170919T121052Z">
@@ -3502,6 +3518,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135510Z" creationid="huanghaohang" creationdate="20170913T135510Z">
         <seg>有关额外属性和其 API 的详细信息，请参阅&lt;a0&gt;&lt;c1&gt;ExtraPropertiesExtension&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more advanced uses, you can define a task dependency using a closure. When evaluated, the closure is passed the task whose dependencies are being calculated. The closure should return a single &lt;c0&gt;Task&lt;/c0&gt; or collection of &lt;c1&gt;Task&lt;/c1&gt; objects, which are then treated as dependencies of the task. The following example adds a dependency from &lt;c2&gt;taskX&lt;/c2&gt; to all the tasks in the project whose name starts with &lt;c3&gt;lib&lt;/c3&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130910Z" creationid="huanghaohang" creationdate="20170919T130910Z">
+        <seg>对于更高级的用法，你可以使用闭包来定义任务依赖。在Gradle评估时，这个闭包会被传入正在计算依赖的任务。这个闭包应该返回一个&lt;c0&gt;Task&lt;/c0&gt;或&lt;c1&gt;Task&lt;/c1&gt;对象的集合，然后返回值会被当作任务的依赖。以下示例添加了&lt;c2&gt;taskX&lt;/c2&gt;对名称以&lt;c3&gt;lib&lt;/c3&gt;开头的所有任务的依赖：</seg>
       </tuv>
     </tu>
     <tu>
@@ -4038,6 +4062,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013318Z" creationid="huanghaohang" creationdate="20170919T013318Z">
         <seg>安装 Gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instead of using a task name, you can define a dependency using a &lt;c0&gt;Task&lt;/c0&gt; object, as shown in this example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130233Z" creationid="huanghaohang" creationdate="20170919T130203Z">
+        <seg>可以使用一个&lt;c0&gt;Task&lt;/c0&gt;对象而不是任务名称来定义依赖，如下：</seg>
       </tuv>
     </tu>
     <tu>
@@ -7577,6 +7609,20 @@ task compileTest(dependsOn: compile) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'taskX'&lt;/s0&gt;
+}
+
+task taskY &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130249Z" creationid="huanghaohang" creationdate="20170919T130249Z">
+        <seg>println &lt;s0&gt;'taskX'&lt;/s0&gt;
+}
+
+task taskY &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;"Greetings from the $hello.name task."&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -7689,6 +7735,20 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
+}
+
+taskX.dependsOn taskY</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130250Z" creationid="huanghaohang" creationdate="20170919T130250Z">
+        <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
+}
+
+taskX.dependsOn taskY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s2&gt;" *** $file.name ***"&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153803Z" creationid="95" creationdate="20170728T153803Z">
@@ -7769,6 +7829,14 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;'taskX'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130153Z" creationid="huanghaohang" creationdate="20170919T130153Z">
+        <seg>println &lt;s2&gt;'taskX'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s2&gt;'taskY'&lt;/s2&gt;
 }</seg>
       </tuv>
@@ -7827,6 +7895,14 @@ task other &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T023912Z" creationid="95" creationdate="20170729T023912Z">
         <seg>println &lt;s4&gt;"I'm not a default task!"&lt;/s4&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s4&gt;'taskY'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130158Z" creationid="huanghaohang" creationdate="20170919T130158Z">
+        <seg>println &lt;s4&gt;'taskY'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7955,6 +8031,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122000Z" creationid="huanghaohang" creationdate="20170919T122000Z">
         <seg>project(&lt;s0&gt;':projectA'&lt;/s0&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project(&lt;s0&gt;'projectA'&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130122Z" creationid="huanghaohang" creationdate="20170919T130122Z">
+        <seg>project(&lt;s0&gt;'projectA'&lt;/s0&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -8293,10 +8377,34 @@ myCopy {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task taskX &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130248Z" creationid="huanghaohang" creationdate="20170919T130248Z">
+        <seg>task taskX &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task taskX(dependsOn: &lt;s0&gt;'taskY'&lt;/s0&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160338Z" creationid="95" creationdate="20170726T160338Z">
         <seg>task taskX(dependsOn: &lt;s0&gt;'taskY'&lt;/s0&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task taskX(dependsOn: &lt;s1&gt;':projectB:taskY'&lt;/s1&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130123Z" creationid="huanghaohang" creationdate="20170919T130123Z">
+        <seg>task taskX(dependsOn: &lt;s1&gt;':projectB:taskY'&lt;/s1&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task taskY &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130156Z" creationid="huanghaohang" creationdate="20170919T130156Z">
+        <seg>task taskY &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -8772,6 +8880,20 @@ artifacts {</seg>
 }
 
 artifacts {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+project(&lt;s3&gt;'projectB'&lt;/s3&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130155Z" creationid="huanghaohang" creationdate="20170919T130155Z">
+        <seg>}
+}
+
+project(&lt;s3&gt;'projectB'&lt;/s3&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
