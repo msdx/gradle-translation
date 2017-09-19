@@ -154,6 +154,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Task.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130922Z" creationid="huanghaohang" creationdate="20170919T130922Z">
+        <seg>../dsl/org.gradle.api.Task.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135211Z" creationid="huanghaohang" creationdate="20170913T135211Z">
@@ -598,6 +606,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124948Z" creationid="huanghaohang" creationdate="20170919T124948Z">
         <seg>15.4. 向任务添加依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>15.5. Ordering tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130933Z" creationid="huanghaohang" creationdate="20170919T130933Z">
+        <seg>15.5. 任务排序</seg>
       </tuv>
     </tu>
     <tu>
@@ -1784,6 +1800,20 @@ I'm task number 1</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132731Z" creationid="95" creationdate="20170727T132731Z">
         <seg>&gt; gradle -q task1
 I'm task number 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q taskX
+lib1
+lib2
+taskX</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130920Z" creationid="huanghaohang" creationdate="20170919T130920Z">
+        <seg>&gt; gradle -q taskX
+lib1
+lib2
+taskX</seg>
       </tuv>
     </tu>
     <tu>
@@ -3034,6 +3064,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 15.13. Adding dependency using closure</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130914Z" creationid="huanghaohang" creationdate="20170919T130914Z">
+        <seg>示例 15.13. 使用闭包添加依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 15.2. Defining tasks - using strings for task names</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121052Z" creationid="huanghaohang" creationdate="20170919T121052Z">
@@ -3526,6 +3564,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130910Z" creationid="huanghaohang" creationdate="20170919T130910Z">
         <seg>对于更高级的用法，你可以使用闭包来定义任务依赖。在Gradle评估时，这个闭包会被传入正在计算依赖的任务。这个闭包应该返回一个&lt;c0&gt;Task&lt;/c0&gt;或&lt;c1&gt;Task&lt;/c1&gt;对象的集合，然后返回值会被当作任务的依赖。以下示例添加了&lt;c2&gt;taskX&lt;/c2&gt;对名称以&lt;c3&gt;lib&lt;/c3&gt;开头的所有任务的依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information about task dependencies, see the &lt;a0&gt;&lt;c1&gt;Task&lt;/c1&gt;&lt;/a0&gt; API.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130931Z" creationid="huanghaohang" creationdate="20170919T130931Z">
+        <seg>有关任务依赖的详细信息，请参阅&lt;a0&gt;&lt;c1&gt;Task&lt;/c1&gt;&lt;/a0&gt;的 API。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6830,6 +6876,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>feature_lifecycle.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130934Z" creationid="huanghaohang" creationdate="20170919T130934Z">
+        <seg>feature_lifecycle.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>file(dir).listFiles({file -&gt; file.isFile() } as FileFilter).sort()
 }</seg>
       </tuv>
@@ -7623,6 +7677,20 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'taskX'&lt;/s0&gt;
+}
+
+taskX.dependsOn {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130916Z" creationid="huanghaohang" creationdate="20170919T130916Z">
+        <seg>println &lt;s0&gt;'taskX'&lt;/s0&gt;
+}
+
+taskX.dependsOn {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;"Greetings from the $hello.name task."&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -7815,6 +7883,20 @@ gradle.taskGraph.whenReady {taskGraph -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;'lib1'&lt;/s2&gt;
+}
+
+task lib2 &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130917Z" creationid="huanghaohang" creationdate="20170919T130917Z">
+        <seg>println &lt;s2&gt;'lib1'&lt;/s2&gt;
+}
+
+task lib2 &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s2&gt;'running unit tests'&lt;/s2&gt;
 }
 
@@ -7889,11 +7971,35 @@ task other &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;'lib2'&lt;/s3&gt;
+}
+
+task notALib &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130918Z" creationid="huanghaohang" creationdate="20170919T130918Z">
+        <seg>println &lt;s3&gt;'lib2'&lt;/s3&gt;
+}
+
+task notALib &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s4&gt;"I'm not a default task!"&lt;/s4&gt;
 }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T023912Z" creationid="95" creationdate="20170729T023912Z">
         <seg>println &lt;s4&gt;"I'm not a default task!"&lt;/s4&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s4&gt;'notALib'&lt;/s4&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130919Z" creationid="huanghaohang" creationdate="20170919T130919Z">
+        <seg>println &lt;s4&gt;'notALib'&lt;/s4&gt;
 }</seg>
       </tuv>
     </tu>
@@ -8439,6 +8545,20 @@ myCopy {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121136Z" creationid="huanghaohang" creationdate="20170919T121136Z">
         <seg>tasks.create(name: &lt;s0&gt;'hello'&lt;/s0&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tasks.findAll { task -&gt; task.name.startsWith(&lt;s1&gt;'lib'&lt;/s1&gt;) }
+}
+
+task lib1 &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130916Z" creationid="huanghaohang" creationdate="20170919T130916Z">
+        <seg>tasks.findAll { task -&gt; task.name.startsWith(&lt;s1&gt;'lib'&lt;/s1&gt;) }
+}
+
+task lib1 &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
