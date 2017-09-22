@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N10EFC</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084844Z" creationid="huanghaohang" creationdate="20170922T084844Z">
+        <seg>#ftn.N10EFC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>*** gradle.manifesto.txt ***
 Make the impossible possible, make the possible easy and make the easy elegant.
 (inspired by Moshe Feldenkrais)</seg>
@@ -682,10 +690,34 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>15.8.3. Enabling and disabling tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085202Z" creationid="huanghaohang" creationdate="20170922T085202Z">
+        <seg>15.8.3. 启用和禁用任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>15.8. Skipping tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083652Z" creationid="huanghaohang" creationdate="20170922T083652Z">
         <seg>15.8. 跳过任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>15.9.1. Declaring a task's inputs and outputs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085611Z" creationid="huanghaohang" creationdate="20170922T085611Z">
+        <seg>15.9.1. 声明一个任务的输入和输出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>15.9. Skipping tasks that are up-to-date</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085433Z" creationid="huanghaohang" creationdate="20170922T085414Z">
+        <seg>15.9.  跳过up-to-date的任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -1416,6 +1448,14 @@ getProject().setBuildDir(&lt;s3&gt;'target'&lt;/s3&gt;)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;// Here you would put arbitrary conditions in real life. But we use this as an integration test, so we want defined behavior.&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084835Z" creationid="huanghaohang" creationdate="20170922T084835Z">
+        <seg>&lt;s1&gt;// Here you would put arbitrary conditions in real life. But we use this as an integration test, so we want defined behavior.&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;if&lt;/s1&gt; (file.isFile()) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153800Z" creationid="95" creationdate="20170728T153800Z">
@@ -1440,6 +1480,18 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
         <seg>&lt;s2&gt;// do something&lt;/s2&gt;
 }
 task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (true) { &lt;s3&gt;throw&lt;/s3&gt; &lt;s4&gt;new&lt;/s4&gt; StopExecutionException() }
+}
+task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084836Z" creationid="huanghaohang" creationdate="20170922T084836Z">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (true) { &lt;s3&gt;throw&lt;/s3&gt; &lt;s4&gt;new&lt;/s4&gt; StopExecutionException() }
+}
+task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -1792,6 +1844,16 @@ I'm fond of gradle.manifesto.txt</seg>
         <seg>&gt; gradle -q loadfile
 I'm fond of agile.manifesto.txt
 I'm fond of gradle.manifesto.txt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q myTask
+I am not affected</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084842Z" creationid="huanghaohang" creationdate="20170922T084842Z">
+        <seg>&gt; gradle -q myTask
+I am not affected</seg>
       </tuv>
     </tu>
     <tu>
@@ -2160,6 +2222,24 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle disableMe
+:disableMe SKIPPED
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085331Z" creationid="huanghaohang" creationdate="20170922T085331Z">
+        <seg>&gt; gradle disableMe
+:disableMe SKIPPED
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle dist -x test
 :compile
 compiling source
@@ -2230,6 +2310,18 @@ Total time: 1 secs</seg>
 BUILD SUCCESSFUL
 
 Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle transform
+:transform
+Transforming source file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085718Z" creationid="huanghaohang" creationdate="20170922T085718Z">
+        <seg>&gt; gradle transform
+:transform
+Transforming source file.</seg>
       </tuv>
     </tu>
     <tu>
@@ -2928,6 +3020,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Every task has also an &lt;c0&gt;enabled&lt;/c0&gt; flag which defaults to &lt;c1&gt;true&lt;/c1&gt;. Setting it to &lt;c2&gt;false&lt;/c2&gt; prevents the execution of any of the task's actions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085322Z" creationid="huanghaohang" creationdate="20170922T085322Z">
+        <seg>每一项任务有一个默认值为&lt;c1&gt;true&lt;/c1&gt;的&lt;c0&gt;enabled&lt;/c0&gt;标记。将它设置为&lt;c2&gt;false&lt;/c2&gt;，可以不让这个任务的任何操作执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Everything in Gradle sits on top of two basic concepts: &lt;e0&gt;projects&lt;/e0&gt; and &lt;e1&gt;tasks&lt;/e1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T142329Z" creationid="95" creationdate="20170724T142329Z">
@@ -3300,6 +3400,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084154Z" creationid="huanghaohang" creationdate="20170922T084154Z">
         <seg>示例 15.20. 使用断言跳过一个任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.21. Skipping tasks with StopExecutionException</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084832Z" creationid="huanghaohang" creationdate="20170922T084832Z">
+        <seg>示例 15.21. 使用 StopExecutionException 跳过任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.22. Enabling and disabling tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085324Z" creationid="huanghaohang" creationdate="20170922T085324Z">
+        <seg>示例 15.22. 启用和禁用任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.23. A generator task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085706Z" creationid="huanghaohang" creationdate="20170922T085706Z">
+        <seg>示例 15.23. 一个生成任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -4240,6 +4364,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are using one of the tasks that come with Gradle, such as a task added by the Java plugin, you might have noticed that Gradle will skip tasks that are up-to-date. This behaviour is also available for your tasks, not just for built-in tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085607Z" creationid="huanghaohang" creationdate="20170922T085425Z">
+        <seg>如果你使用 Gradle 自带的任务，如 Java 插件所添加的任务的话，你可能已经注意到 Gradle 将跳过up-to-date的任务。这种行为也可以用于你的任务，而不仅仅是内置任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are using the Gradle Daemon, try temporarily disabling the daemon (you can pass the command line switch &lt;c0&gt;--no-daemon&lt;/c0&gt;). More information about troubleshooting daemon is located in &lt;a1&gt;Chapter 19, &lt;i2&gt;The Gradle Daemon&lt;/i2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T121452Z" creationid="95" creationdate="20170723T121210Z">
@@ -4472,6 +4604,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's have a look at an example. Here our task generates several output files from a source XML file. Let's run it a couple of times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085702Z" creationid="huanghaohang" creationdate="20170922T085615Z">
+        <seg>我们来看一个例子。在这里，我们的任务从一个 XML 源文件生成了多个输出文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's look at a simple example. To use the Java plugin, add the following to your build file:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012442Z" creationid="95" creationdate="20170730T012442Z">
@@ -4572,6 +4712,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143437Z" creationid="huanghaohang" creationdate="20170911T143437Z">
         <seg>请注意，这个命令会被一直阻塞直到Gradle GUI被关闭。在*nix下，最好是将其作为后台任务运行（&lt;s0&gt;&lt;s1&gt;gradle --gui＆&lt;/s1&gt;&lt;/s0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notice that Gradle executes this task a second time, and does not skip the task even though nothing has changed. Our example task was defined using an action closure. Gradle has no idea what the closure does and cannot automatically figure out whether the task is up-to-date or not. To use Gradle's up-to-date checking, you need to declare the inputs and outputs of the task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T093732Z" creationid="huanghaohang" creationdate="20170922T085721Z">
+        <seg>请注意，Gradle第二次执行此任务的时候，即使没有任何变化也不会跳过该任务。我们的示例任务是使用一个动作闭包定义的。 Gradle不知道这个闭包做了什么，不能自动判断这个任务是否是最新的。要使用Gradle的最新检查，你需要声明任务的输入和输出。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4816,6 +4964,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q myTask&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084841Z" creationid="huanghaohang" creationdate="20170922T084841Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q myTask&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q printProperties&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133601Z" creationid="huanghaohang" creationdate="20170913T133601Z">
@@ -4952,6 +5108,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle disableMe&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085329Z" creationid="huanghaohang" creationdate="20170922T085329Z">
+        <seg>&lt;s0&gt; &lt;c1&gt;Gradle disableMe&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle dist -x test&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T032028Z" creationid="huanghaohang" creationdate="20170909T032028Z">
@@ -4972,6 +5136,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084200Z" creationid="huanghaohang" creationdate="20170922T084200Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle hello -PskipHello&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle transform&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085717Z" creationid="huanghaohang" creationdate="20170922T085717Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle transform&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -5816,6 +5988,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T141645Z" creationid="95" creationdate="20170727T141349Z">
         <seg>这使得代码很易于阅读，尤其是当使用插件所提供的任务时（例如 &lt;c0&gt;compile&lt;/c0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This feature is helpful if you work with tasks provided by Gradle. It allows you to add &lt;s0&gt;&lt;e1&gt;conditional&lt;/e1&gt;&lt;/s0&gt; execution of the built-in actions of such a task. &lt;s2&gt;[&lt;a3&gt;7&lt;/a3&gt;]&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085159Z" creationid="huanghaohang" creationdate="20170922T084845Z">
+        <seg>如果你使用Gradle提供的任务，那么此功能将非常有用。它允许你向一个任务的内置操作添加执行&lt;s0&gt;&lt;e1&gt;条件&lt;/e1&gt;&lt;/s0&gt;。 &lt;s2&gt;[&lt;a3&gt;7&lt;/a3&gt;]&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7052,10 +7232,42 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def destFile = &lt;s7&gt;new&lt;/s7&gt; File(destDir, &lt;s8&gt;"${name}.txt"&lt;/s8&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085715Z" creationid="huanghaohang" creationdate="20170922T085715Z">
+        <seg>def destFile = &lt;s7&gt;new&lt;/s7&gt; File(destDir, &lt;s8&gt;"${name}.txt"&lt;/s8&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def files = file(&lt;s0&gt;'../antLoadfileResources'&lt;/s0&gt;).listFiles().sort()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153757Z" creationid="95" creationdate="20170728T153757Z">
         <seg>def files = file(&lt;s0&gt;'../antLoadfileResources'&lt;/s0&gt;).listFiles().sort()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def height = mountain.height[&lt;s6&gt;0&lt;/s6&gt;].text()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085714Z" creationid="huanghaohang" creationdate="20170922T085714Z">
+        <seg>def height = mountain.height[&lt;s6&gt;0&lt;/s6&gt;].text()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def mountains = &lt;s4&gt;new&lt;/s4&gt; XmlParser().parse(srcFile)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085712Z" creationid="huanghaohang" creationdate="20170922T085712Z">
+        <seg>def mountains = &lt;s4&gt;new&lt;/s4&gt; XmlParser().parse(srcFile)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def name = mountain.name[&lt;s5&gt;0&lt;/s5&gt;].text()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085713Z" creationid="huanghaohang" creationdate="20170922T085713Z">
+        <seg>def name = mountain.name[&lt;s5&gt;0&lt;/s5&gt;].text()</seg>
       </tuv>
     </tu>
     <tu>
@@ -7178,6 +7390,22 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>destDir.mkdirs()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085711Z" creationid="huanghaohang" creationdate="20170922T085711Z">
+        <seg>destDir.mkdirs()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>destFile.text = &lt;s9&gt;"$name -&gt; ${height}\n"&lt;/s9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085716Z" creationid="huanghaohang" creationdate="20170922T085716Z">
+        <seg>destFile.text = &lt;s9&gt;"$name -&gt; ${height}\n"&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dirs &lt;s0&gt;'repos'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153709Z" creationid="95" creationdate="20170731T153709Z">
@@ -7270,6 +7498,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ext.destDir = &lt;s1&gt;new&lt;/s1&gt; File(buildDir, &lt;s2&gt;'generated'&lt;/s2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085709Z" creationid="huanghaohang" creationdate="20170922T085709Z">
+        <seg>ext.destDir = &lt;s1&gt;new&lt;/s1&gt; File(buildDir, &lt;s2&gt;'generated'&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ext.myProperty = &lt;s0&gt;"myValue"&lt;/s0&gt;
 }
 
@@ -7280,6 +7516,14 @@ task printTaskProperties &lt;&lt; {</seg>
 }
 
 task printTaskProperties &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.srcFile = file(&lt;s0&gt;'mountains.xml'&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085708Z" creationid="huanghaohang" creationdate="20170922T085708Z">
+        <seg>ext.srcFile = file(&lt;s0&gt;'mountains.xml'&lt;/s0&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -7855,6 +8099,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>mountains.mountain.each { mountain -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085713Z" creationid="huanghaohang" creationdate="20170922T085713Z">
+        <seg>mountains.mountain.each { mountain -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>multi_project_builds.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T123549Z" creationid="95" creationdate="20170803T123549Z">
@@ -8079,6 +8331,32 @@ task intro(dependsOn: hello) &lt;&lt; {</seg>
         <seg>println &lt;s0&gt;'Hello world!'&lt;/s0&gt;
 }
 task intro(dependsOn: hello) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'This should not be printed if the task is disabled.'&lt;/s0&gt;
+}
+disableMe.enabled = false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085326Z" creationid="huanghaohang" creationdate="20170922T085326Z">
+        <seg>println &lt;s0&gt;'This should not be printed if the task is disabled.'&lt;/s0&gt;
+}
+disableMe.enabled = false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'We are doing the compile.'&lt;/s0&gt;
+}
+
+compile.doFirst {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084833Z" creationid="huanghaohang" creationdate="20170922T084833Z">
+        <seg>println &lt;s0&gt;'We are doing the compile.'&lt;/s0&gt;
+}
+
+compile.doFirst {</seg>
       </tuv>
     </tu>
     <tu>
@@ -8449,6 +8727,14 @@ taskZ.shouldRunAfter taskX</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;"Transforming source file."&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085710Z" creationid="huanghaohang" creationdate="20170922T085710Z">
+        <seg>println &lt;s3&gt;"Transforming source file."&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s3&gt;'Default Running!'&lt;/s3&gt;
 }
 
@@ -8537,6 +8823,16 @@ task notALib &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132409Z" creationid="huanghaohang" creationdate="20170917T132409Z">
         <seg>println &lt;s5&gt;'The class directory exists. I can operate'&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s6&gt;'I am not affected'&lt;/s6&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084839Z" creationid="huanghaohang" creationdate="20170922T084839Z">
+        <seg>println &lt;s6&gt;'I am not affected'&lt;/s6&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -8889,6 +9185,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task disableMe &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085325Z" creationid="huanghaohang" creationdate="20170922T085325Z">
+        <seg>task disableMe &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task dist(type: Zip) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125717Z" creationid="95" creationdate="20170803T125717Z">
@@ -9045,6 +9349,14 @@ myCopy {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130156Z" creationid="huanghaohang" creationdate="20170919T130156Z">
         <seg>task taskY &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task transform {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085707Z" creationid="huanghaohang" creationdate="20170922T085707Z">
+        <seg>task transform {</seg>
       </tuv>
     </tu>
     <tu>
