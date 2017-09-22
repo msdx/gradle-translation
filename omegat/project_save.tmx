@@ -2130,6 +2130,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A task that aggregates the results of all tasks of a particular type: eg. test report task combines the outputs of all executed test tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T030630Z" creationid="huanghaohang" creationdate="20170922T030630Z">
+        <seg>聚合特定类型的所有任务的结果的任务：例如，测试报告任务结合了所有执行的测试任务的输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A very flexible general purpose build tool like Ant.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T133918Z" creationid="95" creationdate="20170721T133918Z">
@@ -2374,6 +2382,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135456Z" creationid="huanghaohang" creationdate="20170913T135209Z">
         <seg>通过添加属性所要求的特殊语法，Gradle 可以在你试图设置（预定义的或额外的） 属性，但拼写错误或不存在时快速失败。额外属性在任何能够访问它们所属对象的地方都可以被访问，这使它们有着比局部变量更广的作用域。父项目上的额外属性，在子项目中也可以访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By using 'must run after" ordering rule you can specify that &lt;c0&gt;taskB&lt;/c0&gt; must always run after &lt;c1&gt;taskA&lt;/c1&gt;, whenever both &lt;c2&gt;taskA&lt;/c2&gt; and &lt;c3&gt;taskB&lt;/c3&gt; are scheduled for execution. This is expressed as &lt;c4&gt;taskB.mustRunAfter(taskA)&lt;/c4&gt;. The 'should run after' ordering rule is similar but less strict as it will be ignored in two situations. Firstly if using that rule introduces an ordering cycle. Secondly when using parallel execution and all dependencies of a task have been satisfied apart from should run after then this task will be run regardless of weather its 'should run after' dependencies have been run or not. You would use 'should run after' rule when ordering preference for faster feedback, where the ordering is helpful but not strictly required.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T031931Z" creationid="huanghaohang" creationdate="20170922T030758Z">
+        <seg>通过使用“必须在之后运行”的排序规则，你可以指定&lt;c0&gt;taskB&lt;/c0&gt;必须总是运行在&lt;c1&gt;taskA&lt;/c1&gt;之后，无论&lt;c2&gt;taskA&lt;/c2&gt;和&lt;c3&gt;taskB&lt;/c3&gt;这两者在什么时候调度执行。这被表示为&lt;c4&gt;taskB.mustRunAfter(taskA)&lt;/c4&gt;。 “应该运行”的排序规则与其类似，但没有那么严格，因为它在两种情况下会被忽略：首先，如果使用该规则引入了排序循环；其次，当使用并行执行时，一个任务除了应该在之后运行这个条件之外，它的所有依赖都已经满足，那么这个任务就会运行，不管它的“应该在之后运行”的依赖关系是否已经运行或。当对任务的排序倾向于更快的反馈时，你应该使用“应该在之后运行”的规则，它对于排序很有帮助但不会严格要求。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3652,6 +3668,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T132923Z" creationid="95" creationdate="20170721T132923Z">
         <seg>-不发布的情况下生成POM文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Get feedback faster by running quick verification tasks before long verification tasks: eg. unit tests should run before integration tests.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T030445Z" creationid="huanghaohang" creationdate="20170922T030445Z">
+        <seg>在耗时较长的验证任务之前先运行较快的验证任务，可以更快地获得反馈：如，单元测试应在集成测试之前运行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5312,6 +5336,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132549Z" creationid="huanghaohang" creationdate="20170913T132549Z">
         <seg>在构建脚本中，可以声明两种变量：局部变量和额外属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are two ordering rules available: "&lt;s0&gt;&lt;e1&gt;must run after&lt;/e1&gt;&lt;/s0&gt;" and "&lt;s2&gt;&lt;e3&gt;should run after&lt;/e3&gt;&lt;/s2&gt;".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T030747Z" creationid="huanghaohang" creationdate="20170922T030656Z">
+        <seg>有两种排序规则可用：“&lt;s0&gt;&lt;e1&gt;必须在之后运行&lt;/e1&gt;&lt;/s0&gt;”和“&lt;s2&gt;&lt;e3&gt;应该在之后运行&lt;/e3&gt;&lt;/s2&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
