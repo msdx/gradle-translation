@@ -2744,6 +2744,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enforce sequential ordering of tasks: eg. 'build' never runs before 'clean'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T030142Z" creationid="huanghaohang" creationdate="20170922T030142Z">
+        <seg>强制任务顺序排序：如“build”永远不会在“clean”之前运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Environment variables</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013347Z" creationid="huanghaohang" creationdate="20170919T013347Z">
@@ -4048,6 +4056,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In some cases it is useful to control the &lt;s0&gt;&lt;e1&gt;order&lt;/e1&gt;&lt;/s0&gt; in which 2 tasks will execute, without introducing an explicit dependency between those tasks. The primary difference between a task &lt;s2&gt;&lt;e3&gt;ordering&lt;/e3&gt;&lt;/s2&gt; and a task &lt;s4&gt;&lt;e5&gt;dependency&lt;/e5&gt;&lt;/s4&gt; is that an ordering rule does not influence which tasks will be executed, only the order in which they will be executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T030029Z" creationid="huanghaohang" creationdate="20170922T030029Z">
+        <seg>在某些情况下，控制两个任务的执行&lt;s0&gt;&lt;e1&gt;顺序&lt;/e1&gt;&lt;/s0&gt;，而不引入这些任务之间的依赖，是很有用的。任务&lt;s2&gt;&lt;e3&gt;排序&lt;/e3&gt;&lt;/s2&gt;和任务&lt;s4&gt;&lt;e5&gt;依赖&lt;/e5&gt;&lt;/s4&gt;之间的主要区别是，排序规则不会影响执行哪些任务，只会影响任务执行的顺序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the following example, execution of the &lt;c0&gt;distribution&lt;/c0&gt; and &lt;c1&gt;release&lt;/c1&gt; tasks results in different value of the &lt;c2&gt;version&lt;/c2&gt; variable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025155Z" creationid="95" creationdate="20170729T025155Z">
@@ -4696,6 +4712,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Run build validations early in the build: eg. validate I have the correct credentials before starting the work for a release build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T030342Z" creationid="huanghaohang" creationdate="20170922T030342Z">
+        <seg>在构建初期运行构建验证：例如，在开始发布之前验证是否拥有正确的证书。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Running &lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt; will compile, test and JAR your project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002921Z" creationid="huanghaohang" creationdate="20170909T002921Z">
@@ -4912,6 +4936,22 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031058Z" creationid="huanghaohang" creationdate="20170909T031058Z">
         <seg>任务依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Task ordering can be useful in a number of scenarios:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T030044Z" creationid="huanghaohang" creationdate="20170922T030044Z">
+        <seg>任务排序在许多情况下可能有用：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Task ordering is an &lt;a0&gt;incubating&lt;/a0&gt; feature. Please be aware that this feature may change in later Gradle versions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T025813Z" creationid="huanghaohang" creationdate="20170922T025813Z">
+        <seg>任务排序是一个&lt;a0&gt;孵化中&lt;/a0&gt;的功能。请注意，此功能可能会在以后的Gradle版本中有所更改。</seg>
       </tuv>
     </tu>
     <tu>
