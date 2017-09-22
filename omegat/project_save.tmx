@@ -4216,6 +4216,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the rules for skipping a task can't be expressed with predicate, you can use the &lt;a0&gt;&lt;c1&gt;StopExecutionException&lt;/c1&gt;&lt;/a0&gt;. If this exception is thrown by an action, the further execution of this action as well as the execution of any following action of this task is skipped. The build continues with executing the next task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084828Z" creationid="huanghaohang" creationdate="20170922T084210Z">
+        <seg>如果跳过任务的规则不能用断言来表达，你可以使用&lt;a0&gt;&lt;c1&gt;StopExecutionException&lt;/c1&gt;&lt;/a0&gt;。如果一个操作抛出此异常，则此操作的接下来的执行以及该任务的任何后续操作都会跳过。构建会继续执行下一个任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are encountering problems, one of the first things to try is using the very latest release of Gradle. New versions of Gradle are released frequently with bug fixes and new features. The problem you are having may have been fixed in a new release.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T121207Z" creationid="95" creationdate="20170723T121006Z">
