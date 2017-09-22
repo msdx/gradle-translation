@@ -1830,6 +1830,18 @@ taskX</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q taskY taskX
+taskX
+taskY</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T032053Z" creationid="huanghaohang" creationdate="20170922T032053Z">
+        <seg>&gt; gradle -q taskY taskX
+taskX
+taskY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q tasks
 ------------------------------------------------------------
 All tasks runnable from root project
@@ -3092,6 +3104,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130914Z" creationid="huanghaohang" creationdate="20170919T130914Z">
         <seg>示例 15.13. 使用闭包添加依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.14. Adding a 'must run after' task ordering</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T032020Z" creationid="huanghaohang" creationdate="20170922T032020Z">
+        <seg>示例15.14. 添加“必须在之后运行”的任务排序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.15. Adding a 'should run after' task ordering</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T035716Z" creationid="huanghaohang" creationdate="20170922T035716Z">
+        <seg>示例 15.15. 添加 “应该在之后运行”的任务排序</seg>
       </tuv>
     </tu>
     <tu>
@@ -4616,6 +4644,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q taskY taskX&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T032051Z" creationid="huanghaohang" creationdate="20170922T032051Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q taskY taskX&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q tasks --all&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T012324Z" creationid="huanghaohang" creationdate="20170910T012324Z">
@@ -5976,6 +6012,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135007Z" creationid="huanghaohang" creationdate="20170917T134626Z">
         <seg>通过&lt;c0&gt;gradle.properties&lt;/c0&gt;文件，你还可以设置一些系统属性。如果这类文件中的属性具有&lt;c1&gt;systemProp.&lt;/c1&gt;前缀，该属性及其值将被添加到系统属性中，而不带此前缀。在多项目建设中，非根目录下的&lt;c2&gt;systemProp.&lt;/c2&gt;属性会被忽略。也就是说，只有在根项目中的&lt;c4&gt;gradle.properties&lt;/c4&gt;文件里的&lt;c3&gt;systemProp.&lt;/c3&gt;属性才会被设置为系统属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With these rules present it is still possible to execute &lt;c0&gt;taskA&lt;/c0&gt; without &lt;c1&gt;taskB&lt;/c1&gt; and vice-versa.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T031953Z" creationid="huanghaohang" creationdate="20170922T031953Z">
+        <seg>目前使用这些规则仍有可能出现&lt;c0&gt;taskA&lt;/c0&gt;执行而&lt;c1&gt;taskB&lt;/c1&gt; 没有执行，或者&lt;c0&gt;taskB&lt;/c0&gt;执行而&lt;c1&gt;taskA&lt;/c1&gt; 没有执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7763,6 +7807,18 @@ taskX.dependsOn {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'taskX'&lt;/s0&gt;
+}
+task taskY &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T032048Z" creationid="huanghaohang" creationdate="20170922T032048Z">
+        <seg>println &lt;s0&gt;'taskX'&lt;/s0&gt;
+}
+task taskY &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;"Greetings from the $hello.name task."&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -7885,6 +7941,18 @@ taskX.dependsOn taskY</seg>
 }
 
 taskX.dependsOn taskY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
+}
+taskY.mustRunAfter taskX</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T032049Z" creationid="huanghaohang" creationdate="20170922T032049Z">
+        <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
+}
+taskY.mustRunAfter taskX</seg>
       </tuv>
     </tu>
     <tu>
