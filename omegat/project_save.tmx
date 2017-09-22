@@ -642,6 +642,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>15.6. Adding a description to a task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T081613Z" creationid="huanghaohang" creationdate="20170922T081613Z">
+        <seg>15.6. 向任务添加描述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -1854,6 +1862,20 @@ taskX</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q taskX
+taskZ
+taskY
+taskX</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T081554Z" creationid="huanghaohang" creationdate="20170922T081554Z">
+        <seg>&gt; gradle -q taskX
+taskZ
+taskY
+taskX</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q taskY
 taskY</seg>
       </tuv>
@@ -2300,6 +2322,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122236Z" creationid="huanghaohang" creationdate="20170919T122056Z">
         <seg>举个例子，我们来看看Gradle提供的&lt;c0&gt;Copy&lt;/c0&gt; 任务。如果要创建一个&lt;c1&gt;Copy&lt;/c1&gt;任务，你可以在构建脚本中声明：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As mentioned before 'should run after' ordering rule will be ignored if it introduces an ordering cycle:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T081510Z" creationid="huanghaohang" creationdate="20170922T081504Z">
+        <seg>如前所述，如果“应该在之后运行”的排序规则引入了排序循环，那么这条规则将被忽略。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3162,6 +3192,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T035744Z" creationid="huanghaohang" creationdate="20170922T035744Z">
         <seg>示例 15.16. 任务排序并不意味着任务执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.17. A 'should run after' task ordering is ignored if it introduces an ordering cycle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T081550Z" creationid="huanghaohang" creationdate="20170922T081508Z">
+        <seg>示例 15.17. 当引入循环时，“应该在之后运行”的任务排序会被忽略</seg>
       </tuv>
     </tu>
     <tu>
@@ -4250,6 +4288,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072431Z" creationid="haohang" creationdate="20170720T072431Z">
         <seg>介绍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is possible to execute tasks &lt;c0&gt;A&lt;/c0&gt; and &lt;c1&gt;B&lt;/c1&gt; independently. The ordering rule only has an effect when both tasks are scheduled for execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T081344Z" creationid="huanghaohang" creationdate="20170922T081344Z">
+        <seg>任务&lt;c0&gt;A&lt;/c0&gt;和&lt;c1&gt;B&lt;/c1&gt;可以独立执行。排序规则只有在两个任务都计划执行时才有作用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6050,6 +6096,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When run with &lt;c0&gt;--continue&lt;/c0&gt;, it is possible for &lt;c1&gt;B&lt;/c1&gt; to execute in the event that &lt;c2&gt;A&lt;/c2&gt; fails.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T081416Z" creationid="huanghaohang" creationdate="20170922T081416Z">
+        <seg>当使用&lt;c0&gt;--continue&lt;/c0&gt;参数运行时，可能会存在&lt;c2&gt;A&lt;/c2&gt;执行失败后&lt;c1&gt;B&lt;/c1&gt;执行了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When using Gradle (or any software package), you can run into problems. You may not understand how to use a particular feature, or you may encounter a defect. Or, you may have a general question about Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T120847Z" creationid="95" creationdate="20170723T120847Z">
@@ -6118,6 +6172,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121934Z" creationid="huanghaohang" creationdate="20170919T121934Z">
         <seg>你可以在任何项目中使用&lt;c0&gt;tasks.getByPath()&lt;/c0&gt;方法获取任务路径，并且通过这个路径来访问任务。你也可以用一个任务的名称，相对路径或者是绝对路径作为参数，来调用&lt;c1&gt;getByPath()&lt;/c1&gt;方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can add a description to your task. This description is for example displayed when executing &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T082254Z" creationid="huanghaohang" creationdate="20170922T082254Z">
+        <seg>你可以向你的任务添加描述。例如在执行&lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt;时显示该描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8021,6 +8083,18 @@ taskX.dependsOn taskY</seg>
       <tuv lang="EN-US">
         <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
 }
+task taskZ &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T081551Z" creationid="huanghaohang" creationdate="20170922T081551Z">
+        <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
+}
+task taskZ &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
+}
 taskY.mustRunAfter taskX</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T032049Z" creationid="huanghaohang" creationdate="20170922T032049Z">
@@ -8151,6 +8225,22 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160347Z" creationid="95" creationdate="20170726T160347Z">
         <seg>println &lt;s2&gt;'taskY'&lt;/s2&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;'taskZ'&lt;/s2&gt;
+}
+taskX.dependsOn taskY
+taskY.dependsOn taskZ
+taskZ.shouldRunAfter taskX</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T081553Z" creationid="huanghaohang" creationdate="20170922T081553Z">
+        <seg>println &lt;s2&gt;'taskZ'&lt;/s2&gt;
+}
+taskX.dependsOn taskY
+taskY.dependsOn taskZ
+taskZ.shouldRunAfter taskX</seg>
       </tuv>
     </tu>
     <tu>
