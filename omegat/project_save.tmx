@@ -162,6 +162,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Task.html#org.gradle.api.Task:dependsOn(java.lang.Object[])</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T035922Z" creationid="huanghaohang" creationdate="20170922T035922Z">
+        <seg>../dsl/org.gradle.api.Task.html#org.gradle.api.Task:dependsOn(java.lang.Object[])</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Task.html#org.gradle.api.Task:mustRunAfter(java.lang.Object[])</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T035830Z" creationid="huanghaohang" creationdate="20170922T035830Z">
+        <seg>../dsl/org.gradle.api.Task.html#org.gradle.api.Task:mustRunAfter(java.lang.Object[])</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.plugins.ExtraPropertiesExtension.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135211Z" creationid="huanghaohang" creationdate="20170913T135211Z">
@@ -198,6 +214,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132301Z" creationid="huanghaohang" creationdate="20170913T132301Z">
         <seg>../javadoc/org/gradle/api/AntBuilder.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/Task.html#shouldRunAfter(java.lang.Object[])</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T035919Z" creationid="huanghaohang" creationdate="20170922T035919Z">
+        <seg>../javadoc/org/gradle/api/Task.html#shouldRunAfter(java.lang.Object[])</seg>
       </tuv>
     </tu>
     <tu>
@@ -1830,6 +1854,16 @@ taskX</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q taskY
+taskY</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T035749Z" creationid="huanghaohang" creationdate="20170922T035749Z">
+        <seg>&gt; gradle -q taskY
+taskY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q taskY taskX
 taskX
 taskY</seg>
@@ -3124,6 +3158,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 15.16. Task ordering does not imply task execution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T035744Z" creationid="huanghaohang" creationdate="20170922T035744Z">
+        <seg>示例 15.16. 任务排序并不意味着任务执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 15.2. Defining tasks - using strings for task names</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121052Z" creationid="huanghaohang" creationdate="20170919T121052Z">
@@ -4116,6 +4158,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the examples above, it is still possible to execute &lt;c0&gt;taskY&lt;/c0&gt; without causing &lt;c1&gt;taskX&lt;/c1&gt; to run:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T035738Z" creationid="huanghaohang" creationdate="20170922T035738Z">
+        <seg>在上面的例子中，它仍有可能执行&lt;c0&gt;taskY&lt;/c0&gt;而不会造成&lt;c1&gt;taskX&lt;/c1&gt;也运行：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the following example, execution of the &lt;c0&gt;distribution&lt;/c0&gt; and &lt;c1&gt;release&lt;/c1&gt; tasks results in different value of the &lt;c2&gt;version&lt;/c2&gt; variable.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025155Z" creationid="95" creationdate="20170729T025155Z">
@@ -4344,6 +4394,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132108Z" creationid="huanghaohang" creationdate="20170913T132108Z">
         <seg>名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that "&lt;c0&gt;B.mustRunAfter(A)&lt;/c0&gt;" or "&lt;c1&gt;B.shouldRunAfter(A)&lt;/c1&gt;" does not imply any execution dependency between the tasks:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T040256Z" creationid="huanghaohang" creationdate="20170922T040256Z">
+        <seg>请注意“&lt;c0&gt;B.mustRunAfter(A)&lt;/c0&gt;”或“&lt;c1&gt;B.shouldRunAfter(A)&lt;/c1&gt;”并不意味着这些任务之间有任何执行上的依赖关系：</seg>
       </tuv>
     </tu>
     <tu>
@@ -4648,6 +4706,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T032051Z" creationid="huanghaohang" creationdate="20170922T032051Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q taskY taskX&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q taskY&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T035747Z" creationid="huanghaohang" creationdate="20170922T035747Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q taskY&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -5740,6 +5806,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005544Z" creationid="huanghaohang" creationdate="20170909T005544Z">
         <seg>要运行 web 应用程序，需要将 Jetty 插件应用于项目中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To specify a "must run after" or "should run after" ordering between 2 tasks, you use the &lt;a0&gt;&lt;c1&gt;Task.mustRunAfter()&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Task.shouldRunAfter()&lt;/c3&gt;&lt;/a2&gt; methods. These method accept a task instance, a task name or any other input accepted by &lt;a4&gt;&lt;c5&gt;Task.dependsOn()&lt;/c5&gt;&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T040157Z" creationid="huanghaohang" creationdate="20170922T040157Z">
+        <seg>如果想指定两个任务之间的“必须在之后运行”或“应该在之后运行”的排序，可以使用&lt;a0&gt;&lt;c1&gt;Task.mustRunAfter()&lt;/c1&gt;&lt;/a0&gt;和&lt;a2&gt;&lt;c3&gt;Task.shouldRunAfter()&lt;/c3&gt;&lt;/a2&gt;方法。这些方法接受一个任务实例、任务名称或&lt;a4&gt;&lt;c5&gt;Task.dependsOn()&lt;/c5&gt;&lt;/a4&gt;所接受的任何其他输入。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7953,6 +8027,18 @@ taskY.mustRunAfter taskX</seg>
         <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
 }
 taskY.mustRunAfter taskX</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
+}
+taskY.shouldRunAfter taskX</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T035718Z" creationid="huanghaohang" creationdate="20170922T035718Z">
+        <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
+}
+taskY.shouldRunAfter taskX</seg>
       </tuv>
     </tu>
     <tu>
