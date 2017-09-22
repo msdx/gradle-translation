@@ -226,6 +226,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/tasks/StopExecutionException.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084210Z" creationid="huanghaohang" creationdate="20170922T084210Z">
+        <seg>../javadoc/org/gradle/api/tasks/StopExecutionException.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/tasks/TaskContainer.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121139Z" creationid="huanghaohang" creationdate="20170919T121139Z">
@@ -654,6 +662,30 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T082311Z" creationid="huanghaohang" creationdate="20170922T082311Z">
         <seg>15.7. 替换任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>15.8.1. Using a predicate</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083702Z" creationid="huanghaohang" creationdate="20170922T083702Z">
+        <seg>15.8.1. 使用断言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>15.8.2. Using StopExecutionException</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084205Z" creationid="huanghaohang" creationdate="20170922T084205Z">
+        <seg>15.8.2. 使用 StopExecutionException</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>15.8. Skipping tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083652Z" creationid="huanghaohang" creationdate="20170922T083652Z">
+        <seg>15.8. 跳过任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -1574,6 +1606,16 @@ The class directory exists. I can operate</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q copy
+I am the new one.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083322Z" creationid="huanghaohang" creationdate="20170922T083322Z">
+        <seg>&gt; gradle -q copy
+I am the new one.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q count
 0 1 2 3</seg>
       </tuv>
@@ -2166,6 +2208,24 @@ compiling unit tests
 running unit tests
 :dist
 building the distribution
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle hello -PskipHello
+:hello SKIPPED
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084201Z" creationid="huanghaohang" creationdate="20170922T084201Z">
+        <seg>&gt; gradle hello -PskipHello
+:hello SKIPPED
 
 BUILD SUCCESSFUL
 
@@ -3220,10 +3280,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 15.19. Overwriting a task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083318Z" creationid="huanghaohang" creationdate="20170922T083318Z">
+        <seg>示例 15.19. 重写任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 15.2. Defining tasks - using strings for task names</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121052Z" creationid="huanghaohang" creationdate="20170919T121052Z">
         <seg>示例 15.2. 定义任务 —— 使用字符串作为任务名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.20. Skipping a task using a predicate</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084154Z" creationid="huanghaohang" creationdate="20170922T084154Z">
+        <seg>示例 15.20. 使用断言跳过一个任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -3892,6 +3968,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle offers multiple ways to skip the execution of a task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083659Z" creationid="huanghaohang" creationdate="20170922T083659Z">
+        <seg>Gradle 提供了多种方式来跳过任务的执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle provides a &lt;e0&gt;domain specific language&lt;/e0&gt;, or DSL, for describing builds. This build language is based on Groovy, with some additions to make it easier to describe a build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124610Z" creationid="huanghaohang" creationdate="20170912T124610Z">
@@ -4080,6 +4164,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T123142Z" creationid="95" creationdate="20170731T154521Z">
         <seg>在这里我们有三个项目。项目&lt;c0&gt;api&lt;/c0&gt;会生成一个JAR文件给一个客户端，为您的XML webservice提供一个Java客户端，项目 &lt;c1&gt;webservice&lt;/c1&gt; 是一个返回XML的webapp。项目&lt;c2&gt;shared&lt;/c2&gt; 包含了在 &lt;c3&gt;api&lt;/c3&gt; 和 &lt;c4&gt;webservice&lt;/c4&gt;中都会用到的代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here we replace a task of type &lt;c0&gt;Copy&lt;/c0&gt; with a simple task. When creating the simple task, you have to set the &lt;c1&gt;overwrite&lt;/c1&gt; property to true. Otherwise Gradle throws an exception, saying that a task with such a name already exists.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083650Z" creationid="huanghaohang" creationdate="20170922T083325Z">
+        <seg>这里我们把一个&lt;c0&gt;Copy&lt;/c0&gt;类型的任务替换为一个简单的任务。当创建这个简单任务时，你必须把&lt;c1&gt;overwrite&lt;/c1&gt;属性设置为true。否则，Gradle会抛出一个异常，称这个名称的任务已经存在。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4652,6 +4744,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q copy&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083321Z" creationid="huanghaohang" creationdate="20170922T083321Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q copy&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q count&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155907Z" creationid="95" creationdate="20170726T155907Z">
@@ -4856,6 +4956,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031159Z" creationid="huanghaohang" creationdate="20170909T031159Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle dist test&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle hello -PskipHello&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084200Z" creationid="huanghaohang" creationdate="20170922T084200Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle hello -PskipHello&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -6412,6 +6520,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T013040Z" creationid="95" creationdate="20170730T013011Z">
         <seg>你可以使用 &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt; 来列出一个项目的任务，这样就会看到Java插件向项目添加了哪些项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use the &lt;c0&gt;onlyIf()&lt;/c0&gt; method to attach a predicate to a task. The task's actions are only executed if the predicate evaluates to true. You implement the predicate as a closure. The closure is passed the task as a parameter, and should return true if the task should execute and false if the task should be skipped. The predicate is evaluated just before the task is due to be executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084102Z" creationid="huanghaohang" creationdate="20170922T084102Z">
+        <seg>你可以使用&lt;c0&gt;onlyIf()&lt;/c0&gt;方法将断言附加到任务中。只有当断言结果为true时，才会执行该任务的操作。你可以用闭包来实现断言。闭包会作为一个参数传给任务，如果任务应该执行，应该返回true，如果任务应该被跳过，则返回false。断言只会在任务执行之前才评估。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7973,6 +8089,20 @@ task compileTest(dependsOn: compile) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'hello world'&lt;/s0&gt;
+}
+
+hello.onlyIf { !project.hasProperty(&lt;s1&gt;'skipHello'&lt;/s1&gt;) }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084155Z" creationid="huanghaohang" creationdate="20170922T084155Z">
+        <seg>println &lt;s0&gt;'hello world'&lt;/s0&gt;
+}
+
+hello.onlyIf { !project.hasProperty(&lt;s1&gt;'skipHello'&lt;/s1&gt;) }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s0&gt;'taskX'&lt;/s0&gt;
 }
 
@@ -8499,6 +8629,16 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println(&lt;s0&gt;'I am the new one.'&lt;/s0&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083320Z" creationid="huanghaohang" creationdate="20170922T083320Z">
+        <seg>println(&lt;s0&gt;'I am the new one.'&lt;/s0&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132112Z" creationid="huanghaohang" creationdate="20170913T132112Z">
@@ -8709,6 +8849,18 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145818Z" creationid="huanghaohang" creationdate="20170918T145818Z">
         <seg>task configure &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task copy(type: Copy)
+
+task copy(overwrite: true) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083319Z" creationid="huanghaohang" creationdate="20170922T083319Z">
+        <seg>task copy(type: Copy)
+
+task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
