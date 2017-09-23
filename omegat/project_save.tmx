@@ -250,6 +250,30 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/tasks/TaskInputs.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T003955Z" creationid="huanghaohang" creationdate="20170923T003955Z">
+        <seg>../javadoc/org/gradle/api/tasks/TaskInputs.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/tasks/TaskOutputs.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T003956Z" creationid="huanghaohang" creationdate="20170923T003956Z">
+        <seg>../javadoc/org/gradle/api/tasks/TaskOutputs.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/tasks/TaskOutputs.html#upToDateWhen(groovy.lang.Closure)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T004314Z" creationid="huanghaohang" creationdate="20170923T004314Z">
+        <seg>../javadoc/org/gradle/api/tasks/TaskOutputs.html#upToDateWhen(groovy.lang.Closure)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072430Z" creationid="haohang" creationdate="20170720T072430Z">
@@ -2326,6 +2350,16 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle transform
+:transform UP-TO-DATE</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T003901Z" creationid="huanghaohang" creationdate="20170923T003901Z">
+        <seg>&gt; gradle transform
+:transform UP-TO-DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A build script can contain any Groovy language element. &lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;]&lt;/s0&gt; Gradle assumes that each build script is encoded using UTF-8.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124752Z" creationid="huanghaohang" creationdate="20170912T124752Z">
@@ -2362,6 +2396,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T030630Z" creationid="huanghaohang" creationdate="20170922T030630Z">
         <seg>聚合特定类型的所有任务的结果的任务：例如，测试报告任务结合了所有执行的测试任务的输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A task with no defined outputs will &lt;s0&gt;&lt;e1&gt;never&lt;/e1&gt;&lt;/s0&gt; be considered up-to-date. For scenarios where the outputs of a task are not files, or for more complex scenarios, the &lt;a2&gt;&lt;c3&gt;TaskOutputs.upToDateWhen()&lt;/c3&gt;&lt;/a2&gt; method allows you to calculate programmatically if the tasks outputs should be considered up to date.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T004643Z" creationid="huanghaohang" creationdate="20170923T004643Z">
+        <seg>一个任务如果没有定义输出，那么它将&lt;s0&gt;&lt;e1&gt;永远不会&lt;/e1&gt;&lt;/s0&gt;被当作是最新的。对于任务的输出不是文件或是更复杂的场景，&lt;a2&gt; &lt;c3&gt;TaskOutputs.upToDateWhen()&lt;/c3&gt;&lt;/a2&gt;方法允许你以编程方式计算任务的输出是否应该被视为最新的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3432,6 +3474,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085706Z" creationid="huanghaohang" creationdate="20170922T085706Z">
         <seg>示例 15.23. 一个生成任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.24. Declaring the inputs and outputs of a task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T003852Z" creationid="huanghaohang" creationdate="20170923T003852Z">
+        <seg>示例 15.24. 声明一个任务的输入和输出</seg>
       </tuv>
     </tu>
     <tu>
@@ -4756,6 +4806,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Now, Gradle knows which files to check to determine whether the task is up-to-date or not.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T003937Z" creationid="huanghaohang" creationdate="20170923T003937Z">
+        <seg>现在，Gradle 知道要检查哪些文件，以确定任务是否为最新的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Now, when you run &lt;s0&gt;&lt;c1&gt;gradle uploadArchives&lt;/c1&gt;&lt;/s0&gt;, Gradle will build and upload your Jar. Gradle will also generate and upload an &lt;c2&gt;ivy.xml&lt;/c2&gt; as well.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050749Z" creationid="huanghaohang" creationdate="20170908T050503Z">
@@ -5772,6 +5830,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T022659Z" creationid="95" creationdate="20170722T022659Z">
         <seg>Gradle的灵活性和丰富性最终允许您将常见的设计原则应用于您的构建。 例如，通过可重用的构建逻辑来组织构建是非常容易的。 把不必要而没有直接联系的内容内联在一起是不适合的。 不要强制拆分原本一起的东西（例如在你的项目层次结构中）。 因此，避免出现分散式的变化而使您的建设的维护变成噩梦。 最后，您可以创建一个结构良好、易于维护、易于理解的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The task's &lt;c0&gt;inputs&lt;/c0&gt; property is of type &lt;a1&gt;&lt;c2&gt;TaskInputs&lt;/c2&gt;&lt;/a1&gt;. The task's &lt;c3&gt;outputs&lt;/c3&gt; property is of type &lt;a4&gt;&lt;c5&gt;TaskOutputs&lt;/c5&gt;&lt;/a4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T004312Z" creationid="huanghaohang" creationdate="20170923T004001Z">
+        <seg>任务的 &lt;c0&gt;inputs&lt;/c0&gt; 属性是 &lt;a1&gt;&lt;c2&gt;TaskInputs&lt;/c2&gt;&lt;/a1&gt;类型。任务的 &lt;c3&gt;outputs&lt;/c3&gt; 属性是 &lt;a4&gt;&lt;c5&gt;TaskOutputs&lt;/c5&gt;&lt;/a4&gt;类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7846,6 +7912,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>inputs.file srcFile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T003854Z" creationid="huanghaohang" creationdate="20170923T003854Z">
+        <seg>inputs.file srcFile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>installation.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072426Z" creationid="95" creationdate="20170723T072426Z">
@@ -8167,6 +8241,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145337Z" creationid="huanghaohang" creationdate="20170918T145337Z">
         <seg>other.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>outputs.dir destDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T003856Z" creationid="huanghaohang" creationdate="20170923T003856Z">
+        <seg>outputs.dir destDir</seg>
       </tuv>
     </tu>
     <tu>
