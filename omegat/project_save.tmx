@@ -162,6 +162,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:files(java.lang.Object[])</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T130837Z" creationid="huanghaohang" creationdate="20170923T130837Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:files(java.lang.Object[])</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:repositories(groovy.lang.Closure)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051300Z" creationid="huanghaohang" creationdate="20170908T051300Z">
@@ -5150,6 +5158,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132935Z" creationid="95" creationdate="20170727T132814Z">
         <seg>与Ant不同，一旦任务被创建了，就可以通过一个 &lt;s0&gt;&lt;e1&gt;API&lt;/e1&gt;&lt;/s0&gt;去访问它。例如，你可以去给它们添加其他的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One way to obtain a &lt;c0&gt;FileCollection&lt;/c0&gt; instance is to use the &lt;a1&gt;&lt;c2&gt;Project.files()&lt;/c2&gt;&lt;/a1&gt; method. You can pass this method any number of objects, which are then converted into a set of &lt;c3&gt;File&lt;/c3&gt; objects. The &lt;c4&gt;files()&lt;/c4&gt; method accepts any type of object as its parameters. These are evaluated relative to the project directory, as per the &lt;c5&gt;file()&lt;/c5&gt; method, described in &lt;a6&gt;Section 16.1, “Locating files”&lt;/a6&gt;. You can also pass collections, iterables, maps and arrays to the &lt;c7&gt;files()&lt;/c7&gt; method. These are flattened and the contents converted to &lt;c8&gt;File&lt;/c8&gt; instances.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T131607Z" creationid="huanghaohang" creationdate="20170923T130900Z">
+        <seg>使用&lt;a1&gt;&lt;c2&gt;Project.files()&lt;/c2&gt;&lt;/a1&gt;方法是获取方式&lt;c0&gt;FileCollection&lt;/c0&gt;实例的一种方式。你可以传任意个对象给这个方法，它们会被转换为一组&lt;c3&gt;File&lt;/c3&gt;对象。这个&lt;c4&gt;files()&lt;/c4&gt;方法接受任何类型的对象作为其参数。如&lt;a6&gt;第16.1节，“查找文件”&lt;/a6&gt;中对&lt;c5&gt;file()&lt;/c5&gt;方法的描述，它们会被计算为相对于项目目录的路径。你还可以将集合，iterables，map和数组传给&lt;c7&gt;files()&lt;/c7&gt;方法。它们会被展开，并且里面的内容会被转换为&lt;c8&gt;File&lt;/c8&gt;实例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10340,6 +10356,14 @@ webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T151556Z" creationid="huanghaohang" creationdate="20170918T151556Z">
         <seg>working_with_files.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>working_with_files.html#sec:locating_files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T130840Z" creationid="huanghaohang" creationdate="20170923T130840Z">
+        <seg>working_with_files.html#sec:locating_files</seg>
       </tuv>
     </tu>
     <tu>
