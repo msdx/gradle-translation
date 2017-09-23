@@ -1410,6 +1410,16 @@ configurations.runtime.each { File f -&gt; println f }</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Iterate over the files in the collection&lt;/s0&gt;
+collection.each {File file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T132329Z" creationid="huanghaohang" creationdate="20170923T132329Z">
+        <seg>&lt;s0&gt;// Iterate over the files in the collection&lt;/s0&gt;
+collection.each {File file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// List literal&lt;/s0&gt;
 test.includes = [&lt;s1&gt;'org/gradle/api/**'&lt;/s1&gt;, &lt;s2&gt;'org/gradle/internal/**'&lt;/s2&gt;]
 
@@ -3806,6 +3816,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T131613Z" creationid="huanghaohang" creationdate="20170923T131613Z">
         <seg>示例 16.2. 创建文件集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.3. Using a file collection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T132328Z" creationid="huanghaohang" creationdate="20170923T132328Z">
+        <seg>示例 16.3. 使用文件集合</seg>
       </tuv>
     </tu>
     <tu>
@@ -7038,6 +7056,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also pass the &lt;c0&gt;files()&lt;/c0&gt; method a closure or a &lt;c1&gt;Callable&lt;/c1&gt; instance. This is called when the contents of the collection are queried, and its return value is converted to a set of &lt;c2&gt;File&lt;/c2&gt; instances. The return value can be an object of any of the types supported by the &lt;c3&gt;files()&lt;/c3&gt; method. This is a simple way to 'implement' the &lt;c4&gt;FileCollection&lt;/c4&gt; interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T132352Z" creationid="huanghaohang" creationdate="20170923T132352Z">
+        <seg>You can also pass the &lt;c0&gt;files()&lt;/c0&gt; method a closure or a &lt;c1&gt;Callable&lt;/c1&gt; instance. This is called when the contents of the collection are queried, and its return value is converted to a set of &lt;c2&gt;File&lt;/c2&gt; instances. The return value can be an object of any of the types supported by the &lt;c3&gt;files()&lt;/c3&gt; method. This is a simple way to 'implement' the &lt;c4&gt;FileCollection&lt;/c4&gt; interface.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also publish to Maven repositories. The syntax is slightly different.&lt;s0&gt;[&lt;a1&gt;4&lt;/a1&gt;]&lt;/s0&gt; Note that you also need to apply the Maven plugin in order to publish to a Maven repository. In this instance, Gradle will generate and upload a &lt;c2&gt;pom.xml&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050945Z" creationid="huanghaohang" creationdate="20170908T050945Z">
@@ -9447,6 +9473,40 @@ taskX.finalizedBy taskY</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135028Z" creationid="huanghaohang" creationdate="20170917T135028Z">
         <seg>println envProjectProp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println file.name
+}
+
+&lt;s1&gt;// Convert the collection to various types&lt;/s1&gt;
+Set set = collection.files
+Set set2 = collection as Set
+List list = collection as List
+String path = collection.asPath
+File file = collection.singleFile
+File file2 = collection as File
+
+&lt;s2&gt;// Add and subtract collections&lt;/s2&gt;
+def union = collection + files(&lt;s3&gt;'src/file3.txt'&lt;/s3&gt;)
+def different = collection - files(&lt;s4&gt;'src/file3.txt'&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T132331Z" creationid="huanghaohang" creationdate="20170923T132331Z">
+        <seg>println file.name
+}
+
+&lt;s1&gt;// Convert the collection to various types&lt;/s1&gt;
+Set set = collection.files
+Set set2 = collection as Set
+List list = collection as List
+String path = collection.asPath
+File file = collection.singleFile
+File file2 = collection as File
+
+&lt;s2&gt;// Add and subtract collections&lt;/s2&gt;
+def union = collection + files(&lt;s3&gt;'src/file3.txt'&lt;/s3&gt;)
+def different = collection - files(&lt;s4&gt;'src/file3.txt'&lt;/s4&gt;)</seg>
       </tuv>
     </tu>
     <tu>
