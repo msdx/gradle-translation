@@ -716,8 +716,8 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       <tuv lang="EN-US">
         <seg>15.9. Skipping tasks that are up-to-date</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085433Z" creationid="huanghaohang" creationdate="20170922T085414Z">
-        <seg>15.9.  跳过up-to-date的任务</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T093742Z" creationid="huanghaohang" creationdate="20170922T085414Z">
+        <seg>15.9.  跳过最新的任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -2972,6 +2972,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each task has an &lt;c0&gt;inputs&lt;/c0&gt; and &lt;c1&gt;outputs&lt;/c1&gt; property, which you use to declare the inputs and outputs of the task. Below, we have changed our example to declare that it takes the source XML file as an input and produces output to a destination directory. Let's run it a couple of times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T003846Z" creationid="huanghaohang" creationdate="20170922T093754Z">
+        <seg>每一个任务都有一个&lt;c0&gt;inputs&lt;/c0&gt;和&lt;c1&gt;outputs&lt;/c1&gt;属性，用来声明这个任务的输入和输出。下面，我们修改了我们的示例，声明它将 XML 源文件作为输入，并产生到目标目录的输出。让我们运行几次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Ease of migration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T060917Z" creationid="95" creationdate="20170723T060917Z">
@@ -4366,8 +4374,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If you are using one of the tasks that come with Gradle, such as a task added by the Java plugin, you might have noticed that Gradle will skip tasks that are up-to-date. This behaviour is also available for your tasks, not just for built-in tasks.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085607Z" creationid="huanghaohang" creationdate="20170922T085425Z">
-        <seg>如果你使用 Gradle 自带的任务，如 Java 插件所添加的任务的话，你可能已经注意到 Gradle 将跳过up-to-date的任务。这种行为也可以用于你的任务，而不仅仅是内置任务</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T093751Z" creationid="huanghaohang" creationdate="20170922T085425Z">
+        <seg>如果你使用 Gradle 自带的任务，如 Java 插件所添加的任务的话，你可能已经注意到 Gradle 将跳过最新的任务。这种行为也可以用于你的任务，而不仅仅是内置任务</seg>
       </tuv>
     </tu>
     <tu>
