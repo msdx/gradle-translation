@@ -1504,6 +1504,14 @@ getProject().setBuildDir(&lt;s3&gt;'target'&lt;/s3&gt;)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;if&lt;/s1&gt; (taskName.startsWith(&lt;s2&gt;"ping"&lt;/s2&gt;)) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011925Z" creationid="huanghaohang" creationdate="20170923T011925Z">
+        <seg>&lt;s1&gt;if&lt;/s1&gt; (taskName.startsWith(&lt;s2&gt;"ping"&lt;/s2&gt;)) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;// Apply the script&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T150034Z" creationid="huanghaohang" creationdate="20170918T150034Z">
@@ -1894,6 +1902,16 @@ I am not affected</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084842Z" creationid="huanghaohang" creationdate="20170922T084842Z">
         <seg>&gt; gradle -q myTask
 I am not affected</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q pingServer1
+Pinging: Server1</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011931Z" creationid="huanghaohang" creationdate="20170923T011931Z">
+        <seg>&gt; gradle -q pingServer1
+Pinging: Server1</seg>
       </tuv>
     </tu>
     <tu>
@@ -3526,6 +3544,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 15.25. Task rule</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011922Z" creationid="huanghaohang" creationdate="20170923T011922Z">
+        <seg>示例 15.25. 任务规则</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 15.3. Defining tasks with alternative syntax</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121134Z" creationid="huanghaohang" creationdate="20170919T121134Z">
@@ -5086,6 +5112,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q pingServer1&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011929Z" creationid="huanghaohang" creationdate="20170923T011929Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q task1&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q printProperties&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133601Z" creationid="huanghaohang" creationdate="20170913T133601Z">
@@ -5702,6 +5736,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T145839Z" creationid="huanghaohang" creationdate="20170911T145839Z">
         <seg>设置（Setup）选项卡允许你配置一些常规的设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The String parameter is used as a description for the rule. This description is shown when running for example &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T043702Z" creationid="huanghaohang" creationdate="20170923T011932Z">
+        <seg>这个String参数用作规则的描述，当对这个例子运行&lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt;时会显示这个描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8873,6 +8915,14 @@ taskZ.shouldRunAfter taskX</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;"Pinging: "&lt;/s3&gt; + (taskName - &lt;s4&gt;'ping'&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011928Z" creationid="huanghaohang" creationdate="20170923T011928Z">
+        <seg>println &lt;s3&gt;"Pinging: "&lt;/s3&gt; + (taskName - &lt;s4&gt;'ping'&lt;/s4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s3&gt;"Transforming source file."&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085710Z" creationid="huanghaohang" creationdate="20170922T085710Z">
@@ -9529,6 +9579,22 @@ myCopy {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120833Z" creationid="huanghaohang" creationdate="20170919T120833Z">
         <seg>task(hello) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task(taskName) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011926Z" creationid="huanghaohang" creationdate="20170923T011926Z">
+        <seg>task(taskName) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tasks.addRule(&lt;s0&gt;"Pattern: ping&lt;ID&gt;"&lt;/s0&gt;) { String taskName -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011924Z" creationid="huanghaohang" creationdate="20170923T011924Z">
+        <seg>tasks.addRule(&lt;s0&gt;"Pattern: ping&lt;ID&gt;"&lt;/s0&gt;) { String taskName -&gt;</seg>
       </tuv>
     </tu>
     <tu>
