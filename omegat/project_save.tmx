@@ -6662,6 +6662,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using this method is a useful way to convert some user provided value into an absolute &lt;c0&gt;File&lt;/c0&gt;. It is preferable to using &lt;c1&gt;new File(somePath)&lt;/c1&gt;, as &lt;c2&gt;file()&lt;/c2&gt; always evaluates the supplied path relative to the project directory, which is fixed, rather than the current working directory, which can change depending on how the user runs Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T130135Z" creationid="huanghaohang" creationdate="20170923T125743Z">
+        <seg>这是把一些用户提供的值转换为一个相对路径的&lt;c0&gt;File&lt;/c0&gt;对象的有用方法。由于&lt;c2&gt;file()&lt;/c2&gt;方法总是去计算所提供的路径相对于项目目录的路径，最好是使用&lt;c1&gt;new File(somePath)&lt;/c1&gt;，因为它是一个固定的路径，而不是会因为用户运行Gradle的具体工作目录而改变的当前目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Usually the JAR file needs to be published somewhere. To do this, you need to tell Gradle where to publish the JAR file. In Gradle, artifacts such as JAR files are published to repositories. In our sample, we will publish to a local directory. You can also publish to a remote location, or multiple locations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153654Z" creationid="95" creationdate="20170731T150129Z">
