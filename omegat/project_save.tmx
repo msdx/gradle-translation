@@ -178,6 +178,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Task.html#org.gradle.api.Task:finalizedBy(java.lang.Object[])</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044614Z" creationid="huanghaohang" creationdate="20170923T044614Z">
+        <seg>../dsl/org.gradle.api.Task.html#org.gradle.api.Task:finalizedBy(java.lang.Object[])</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Task.html#org.gradle.api.Task:mustRunAfter(java.lang.Object[])</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T035830Z" creationid="huanghaohang" creationdate="20170922T035830Z">
@@ -5014,8 +5022,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>On the other hand, finalizer tasks are not executed if the finalized task didn't do any work, for example due to failed task dependency or if it's considered up to date.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044301Z" creationid="huanghaohang" creationdate="20170923T044301Z">
-        <seg>另一方面，如果最终的任务什么都没执行，比如因为失败的任务依赖或如果它被认为是最新的话，析构任务也不会执行。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044611Z" creationid="huanghaohang" creationdate="20170923T044301Z">
+        <seg>另一方面，如果最终的任务什么都没执行，比如因为失败的任务依赖或如果它被认为是最新的话，析构任务不会执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6476,6 +6484,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T040157Z" creationid="huanghaohang" creationdate="20170922T040157Z">
         <seg>如果想指定两个任务之间的“必须在之后运行”或“应该在之后运行”的排序，可以使用&lt;a0&gt;&lt;c1&gt;Task.mustRunAfter()&lt;/c1&gt;&lt;/a0&gt;和&lt;a2&gt;&lt;c3&gt;Task.shouldRunAfter()&lt;/c3&gt;&lt;/a2&gt;方法。这些方法接受一个任务实例、任务名称或&lt;a4&gt;&lt;c5&gt;Task.dependsOn()&lt;/c5&gt;&lt;/a4&gt;所接受的任何其他输入。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To specify a finalizer task you use the &lt;a0&gt;&lt;c1&gt;Task.finalizedBy()&lt;/c1&gt;&lt;/a0&gt; method. This method accepts a task instance, a task name or any other input accepted by &lt;a2&gt;&lt;c3&gt;Task.dependsOn()&lt;/c3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T045153Z" creationid="huanghaohang" creationdate="20170923T044616Z">
+        <seg>你可以使用&lt;a0&gt;&lt;c1&gt;Task.finalizedBy()&lt;/c1&gt;&lt;/a0&gt;方法来指定一个析构器任务。这个方法接受一个任务实例，任务名称或&lt;a2&gt;&lt;c3&gt;Task.dependsOn()&lt;/c3&gt;&lt;/a2&gt;所能接受的任何其他输入。</seg>
       </tuv>
     </tu>
     <tu>
