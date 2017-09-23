@@ -4798,6 +4798,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that if a task has an output directory specified, any files added to that directory since the last time it was executed are ignored and will NOT cause the task to be out of date. This is so unrelated tasks may share an output directory without interfering with each other. If this is not the behaviour you want for some reason, consider using &lt;a0&gt;&lt;c1&gt;TaskOutputs.upToDateWhen()&lt;/c1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011533Z" creationid="huanghaohang" creationdate="20170923T011533Z">
+        <seg>请注意，如果一个任务有指定的输出目录，在它上一次执行之后添加到该目录的所有文件都将被忽略，并且不会使这个任务过期。这样，那些不相关的任务之间就可以共用一个输出目录，而不会产生互相干扰。如果因为一些原因你不想要这样的行为，请考虑使用&lt;a0&gt;&lt;c1&gt;TaskOutputs.upToDateWhen()&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that this command blocks until the Gradle GUI is closed. Under *nix it is probably preferable to run this as a background task (&lt;s0&gt;&lt;s1&gt;gradle --gui&amp;&lt;/s1&gt;&lt;/s0&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143437Z" creationid="huanghaohang" creationdate="20170911T143437Z">
