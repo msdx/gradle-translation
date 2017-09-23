@@ -3046,6 +3046,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each time after that, before the task is executed, Gradle takes a new snapshot of the inputs and outputs. If the new snapshots are the same as the previous snapshots, Gradle assumes that the outputs are up to date and skips the task. If they are not the same, Gradle executes the task. Gradle persists both snapshots for next time the task is executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011207Z" creationid="huanghaohang" creationdate="20170923T011207Z">
+        <seg>在这之后每一次执行任务之前，Gradle将输入和输出进行新的快照。如果新快照与以前的快照相同，则Gradle会假定输出是最新的，并跳过任务。如果它们不一样，则Gradle会执行任务。Gradle会保存这两个快照，用于这个任务的下一次执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Ease of migration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T060917Z" creationid="95" creationdate="20170723T060917Z">
