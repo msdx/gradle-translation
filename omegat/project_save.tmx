@@ -2556,6 +2556,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A file collection is iterable, and can be converted to a number of other types using the &lt;c0&gt;as&lt;/c0&gt; operator. You can also add 2 file collections together using the &lt;c1&gt;+&lt;/c1&gt; operator, or subtract one file collection from another using the &lt;c2&gt;-&lt;/c2&gt; operator. Here are some examples of what you can do with a file collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T132304Z" creationid="huanghaohang" creationdate="20170923T131759Z">
+        <seg>一个文件集合是可迭代的，可以使用&lt;c0&gt;as&lt;/c0&gt;操作符把它转换为多个其他类型。你也可以使用&lt;c1&gt;+&lt;/c1&gt;运算符把两个文件集合加到一起，或使用&lt;c2&gt;-&lt;/c2&gt;运算符从另一个文件集中减去另一个文件集合。以下是操作文件集合的一些示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A project can have multiple repositories. Gradle will look for a dependency in each repository in the order they are specified, stopping at the first repository that contains the requested module.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T045952Z" creationid="huanghaohang" creationdate="20170908T045151Z">
@@ -3794,6 +3802,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.2. Creating a file collection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T131613Z" creationid="huanghaohang" creationdate="20170923T131613Z">
+        <seg>示例 16.2. 创建文件集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -4190,6 +4206,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132209Z" creationid="huanghaohang" creationdate="20170913T132209Z">
         <seg>File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FileCollection collection = files(&lt;s0&gt;'src/file1.txt'&lt;/s0&gt;, &lt;s1&gt;new&lt;/s1&gt; File(&lt;s2&gt;'src/file2.txt'&lt;/s2&gt;), [&lt;s3&gt;'src/file3.txt'&lt;/s3&gt;, &lt;s4&gt;'src/file4.txt'&lt;/s4&gt;])</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T131616Z" creationid="huanghaohang" creationdate="20170923T131616Z">
+        <seg>FileCollection collection = files(&lt;s0&gt;'src/file1.txt'&lt;/s0&gt;, &lt;s1&gt;new&lt;/s1&gt; File(&lt;s2&gt;'src/file2.txt'&lt;/s2&gt;), [&lt;s3&gt;'src/file3.txt'&lt;/s3&gt;, &lt;s4&gt;'src/file4.txt'&lt;/s4&gt;])</seg>
       </tuv>
     </tu>
     <tu>
@@ -5164,8 +5188,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>One way to obtain a &lt;c0&gt;FileCollection&lt;/c0&gt; instance is to use the &lt;a1&gt;&lt;c2&gt;Project.files()&lt;/c2&gt;&lt;/a1&gt; method. You can pass this method any number of objects, which are then converted into a set of &lt;c3&gt;File&lt;/c3&gt; objects. The &lt;c4&gt;files()&lt;/c4&gt; method accepts any type of object as its parameters. These are evaluated relative to the project directory, as per the &lt;c5&gt;file()&lt;/c5&gt; method, described in &lt;a6&gt;Section 16.1, “Locating files”&lt;/a6&gt;. You can also pass collections, iterables, maps and arrays to the &lt;c7&gt;files()&lt;/c7&gt; method. These are flattened and the contents converted to &lt;c8&gt;File&lt;/c8&gt; instances.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T131607Z" creationid="huanghaohang" creationdate="20170923T130900Z">
-        <seg>使用&lt;a1&gt;&lt;c2&gt;Project.files()&lt;/c2&gt;&lt;/a1&gt;方法是获取方式&lt;c0&gt;FileCollection&lt;/c0&gt;实例的一种方式。你可以传任意个对象给这个方法，它们会被转换为一组&lt;c3&gt;File&lt;/c3&gt;对象。这个&lt;c4&gt;files()&lt;/c4&gt;方法接受任何类型的对象作为其参数。如&lt;a6&gt;第16.1节，“查找文件”&lt;/a6&gt;中对&lt;c5&gt;file()&lt;/c5&gt;方法的描述，它们会被计算为相对于项目目录的路径。你还可以将集合，iterables，map和数组传给&lt;c7&gt;files()&lt;/c7&gt;方法。它们会被展开，并且里面的内容会被转换为&lt;c8&gt;File&lt;/c8&gt;实例。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T131817Z" creationid="huanghaohang" creationdate="20170923T130900Z">
+        <seg>使用&lt;a1&gt;&lt;c2&gt;Project.files()&lt;/c2&gt;&lt;/a1&gt;方法是获取方式&lt;c0&gt;FileCollection&lt;/c0&gt;实例的一种方式。你可以传任意个对象给这个方法，它们会被转换为一组&lt;c3&gt;File&lt;/c3&gt;对象。这个&lt;c4&gt;files()&lt;/c4&gt;方法接受任何类型的对象作为其参数。如&lt;a6&gt;第16.1节，“查找文件”&lt;/a6&gt;中对&lt;c5&gt;file()&lt;/c5&gt;方法的描述，它们会被计算为相对于项目目录的路径。你还可以将集合，可迭代类型，map和数组传给&lt;c7&gt;files()&lt;/c7&gt;方法。它们会被展开，并且里面的内容会被转换为&lt;c8&gt;File&lt;/c8&gt;实例。</seg>
       </tuv>
     </tu>
     <tu>
