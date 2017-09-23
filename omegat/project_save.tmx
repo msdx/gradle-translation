@@ -738,6 +738,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>15.9.2. How does it work?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T004829Z" creationid="huanghaohang" creationdate="20170923T004829Z">
+        <seg>15.9.2. 它是怎么实现的？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>15.9. Skipping tasks that are up-to-date</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T093742Z" creationid="huanghaohang" creationdate="20170922T085414Z">
@@ -2408,6 +2416,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A task with only outputs defined will be considered up-to-date if those outputs are unchanged since the previous build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T004824Z" creationid="huanghaohang" creationdate="20170923T004824Z">
+        <seg>一个只定义了输出的任务，如果自上次构建以来它的输出没变，那么它会被视为最新的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A very flexible general purpose build tool like Ant.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T133918Z" creationid="95" creationdate="20170721T133918Z">
@@ -2580,6 +2596,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031650Z" creationid="huanghaohang" creationdate="20170909T031205Z">
         <seg>由于每个任务只执行一次，执行&lt;s0&gt;&lt;c1&gt;gradle test test&lt;/c1&gt;&lt;/s0&gt;与执行&lt;s2&gt;&lt;c3&gt;gradle test&lt;/c3&gt;&lt;/s2&gt;的结果是完全相同的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before a task is executed for the first time, Gradle takes a snapshot of the inputs. This snapshot contains the set of input files and a hash of the contents of each file. Gradle then executes the task. If the task completes successfully, Gradle takes a snapshot of the outputs. This snapshot contains the set of output files and a hash of the contents of each file. Gradle persists both snapshots for next time the task is executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T010859Z" creationid="huanghaohang" creationdate="20170923T004834Z">
+        <seg>在第一次执行任务之前，Gradle会获取输入的快照。此快照包含一组输入文件和每个文件的内容的散列。然后Gradle执行任务。如果任务成功完成，则Gradle会对输出进行快照。此快照包含一组输出文件和每个文件的内容的散列。 Gradle会保存这两个快照，用于这个任务下一次的执行。</seg>
       </tuv>
     </tu>
     <tu>
