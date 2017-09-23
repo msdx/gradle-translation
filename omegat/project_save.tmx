@@ -154,6 +154,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:file(java.lang.Object)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T124852Z" creationid="huanghaohang" creationdate="20170923T124852Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:file(java.lang.Object)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:repositories(groovy.lang.Closure)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051300Z" creationid="huanghaohang" creationdate="20170908T051300Z">
@@ -794,6 +802,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>16.1. Locating files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T125036Z" creationid="huanghaohang" creationdate="20170923T124850Z">
+        <seg>16.1. 查找文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -1428,6 +1444,28 @@ println getProject().getBuildDir()
 &lt;s1&gt;// Using a setter method&lt;/s1&gt;
 project.buildDir = &lt;s2&gt;'target'&lt;/s2&gt;
 getProject().setBuildDir(&lt;s3&gt;'target'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Using a relative path&lt;/s0&gt;
+File configFile = file(&lt;s1&gt;'src/config.xml'&lt;/s1&gt;)
+
+&lt;s2&gt;// Using an absolute path&lt;/s2&gt;
+configFile = file(configFile.absolutePath)
+
+&lt;s3&gt;// Using a File object with a relative path&lt;/s3&gt;
+configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s5&gt;))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T125038Z" creationid="huanghaohang" creationdate="20170923T125038Z">
+        <seg>&lt;s0&gt;// Using a relative path&lt;/s0&gt;
+File configFile = file(&lt;s1&gt;'src/config.xml'&lt;/s1&gt;)
+
+&lt;s2&gt;// Using an absolute path&lt;/s2&gt;
+configFile = file(configFile.absolutePath)
+
+&lt;s3&gt;// Using a File object with a relative path&lt;/s3&gt;
+configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s5&gt;))</seg>
       </tuv>
     </tu>
     <tu>
@@ -3716,6 +3754,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.1. Locating files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T125031Z" creationid="huanghaohang" creationdate="20170923T125031Z">
+        <seg>示例 16.1. 查找文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -4936,6 +4982,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T011617Z" creationid="95" creationdate="20170730T010800Z">
         <seg>大部分的Java项目的基本流程都是类似的：编译Java源文件，运行单元测试，创建一个Jar包。 如果可以不用为每个项目都去编写这些流程那就好了。在实际上，我们确实不用。Gradle通过 &lt;e0&gt;插件&lt;/e0&gt;来解决这一问题。插件就是Gradle的扩展，可以让你以某种方式来配置你的项目，通常通过添加一些预先配置的任务来共同做一些有用的事情。Gradle内置了许多插件，并且你也可以轻松地编写你自己的插件和分享自己的插件。&lt;e1&gt;Java plugin&lt;/e1&gt;是其中之一，这一插件向项目添加一些编译和测试Java源代码，并打包成JAR包的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most builds work with files. Gradle adds some concepts and APIs to help you achieve this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T124843Z" creationid="huanghaohang" creationdate="20170923T124802Z">
+        <seg>大多数构建工作都需要使用到文件，Gradle 添加了一些概念和 API 来帮助你实现这一点。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7024,10 +7078,26 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can locate a file relative to the project directory using the &lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T125024Z" creationid="huanghaohang" creationdate="20170923T125024Z">
+        <seg>你可以使用&lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt;方法来找到相对于项目目录的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can obtain more information in the task listing using the &lt;c0&gt;--all&lt;/c0&gt; option. With this option, the task report lists all tasks in the project, grouped by main task, and the dependencies for each task. Here is an example:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T012254Z" creationid="huanghaohang" creationdate="20170910T012010Z">
         <seg>当然你也可以使用&lt;c0&gt;--all&lt;/c0&gt;选项，来获取更多的任务信息。使用此选项时，任务报告将按主要任务以及每一个任务的依赖进行分组，来列出项目中的所有任务。例子如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can pass any object to the &lt;c0&gt;file()&lt;/c0&gt; method, and it will attempt to convert the value to an absolute &lt;c1&gt;File&lt;/c1&gt; object. Usually, you would pass it a &lt;c2&gt;String&lt;/c2&gt; or &lt;c3&gt;File&lt;/c3&gt; instance. If this path is an absolute path, it is used to construct a &lt;c4&gt;File&lt;/c4&gt; instance. Otherwise, a &lt;c5&gt;File&lt;/c5&gt; instance is constructed by prepending the project directory path to the supplied path. The &lt;c6&gt;file()&lt;/c6&gt; method also understands URLs, such as &lt;c7&gt;file:/some/path.xml&lt;/c7&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T125742Z" creationid="huanghaohang" creationdate="20170923T125742Z">
+        <seg>你可以把任何对象传给&lt;c0&gt;file()&lt;/c0&gt;方法，它将尝试将该值转换为一个绝对路径的&lt;c1&gt;File&lt;/c1&gt;对象。通常你会传一个&lt;c2&gt;String&lt;/c2&gt;或&lt;c3&gt;File&lt;/c3&gt;实例给它。如果这个路径是一个绝对路径，它会被用来构造一个&lt;c4&gt;文件&lt;/c4&gt;实例。否则，会通过将项目目录的路径添加到所提供的路径的前面来构建&lt;c5&gt;File&lt;/c5&gt;实例。该&lt;c6&gt;file()&lt;/c6&gt;方法也可以识别URL，如&lt;c7&gt;file:/some/path.xml&lt;/c7&gt;。</seg>
       </tuv>
     </tu>
     <tu>
