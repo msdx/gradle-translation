@@ -658,6 +658,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>15.11. Finalizer tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T043853Z" creationid="huanghaohang" creationdate="20170923T043853Z">
+        <seg>15.11. 析构器任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>15.2. Locating tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121404Z" creationid="huanghaohang" creationdate="20170919T121404Z">
@@ -1512,6 +1520,18 @@ getProject().setBuildDir(&lt;s3&gt;'target'&lt;/s3&gt;)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;throw&lt;/s1&gt; &lt;s2&gt;new&lt;/s2&gt; RuntimeException()
+}
+task taskY &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044134Z" creationid="huanghaohang" creationdate="20170923T044134Z">
+        <seg>&lt;s1&gt;throw&lt;/s1&gt; &lt;s2&gt;new&lt;/s2&gt; RuntimeException()
+}
+task taskY &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;// Apply the script&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T150034Z" creationid="huanghaohang" creationdate="20170918T150034Z">
@@ -1774,6 +1794,18 @@ We build the zip with version=1.0-SNAPSHOT</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q groupPing
+Pinging: Server1
+Pinging: Server2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T043847Z" creationid="huanghaohang" creationdate="20170923T043847Z">
+        <seg>&gt; gradle -q groupPing
+Pinging: Server1
+Pinging: Server2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q hello
 :hello
 :hello
@@ -2016,6 +2048,18 @@ taskX</seg>
 lib1
 lib2
 taskX</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q taskX
+taskX
+taskY</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044046Z" creationid="huanghaohang" creationdate="20170923T044046Z">
+        <seg>&gt; gradle -q taskX
+taskX
+taskY</seg>
       </tuv>
     </tu>
     <tu>
@@ -3560,6 +3604,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 15.27. Adding a task finalizer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044038Z" creationid="huanghaohang" creationdate="20170923T044038Z">
+        <seg>示例 15.27. 添加一个任务析构器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 15.28. Task finalizer for a failing task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044102Z" creationid="huanghaohang" creationdate="20170923T044102Z">
+        <seg>示例 15.28. 执行失败的任务的任务析构器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 15.3. Defining tasks with alternative syntax</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121134Z" creationid="huanghaohang" creationdate="20170919T121134Z">
@@ -4012,6 +4072,38 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132209Z" creationid="huanghaohang" creationdate="20170913T132209Z">
         <seg>File</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finalizer task will be executed even if the finalized task fails.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044058Z" creationid="huanghaohang" creationdate="20170923T044058Z">
+        <seg>即使最终的任务执行失败，析构器任务也会被执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finalizer tasks are automatically added to the task graph when the finalized task is scheduled to run.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044021Z" creationid="huanghaohang" creationdate="20170923T044021Z">
+        <seg>析构器任务会在最终的任务准备运行时，自动地添加到任务图中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finalizer tasks are useful in situations where build creates a resource that has to be cleaned up regardless of the build failing or succeeding. An example of such resource is a web container started before an integration test task and which should be always shut down, even if some of the tests fail.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044558Z" creationid="huanghaohang" creationdate="20170923T044558Z">
+        <seg>在不管构建是否成功都必须清理所创建的资源的情况下，析构任务很有用。这种资源的一个例子是，在集成测试任务前开始启动的Web容器，即使有些测试失败也始终应该关闭。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Finalizers tasks are an &lt;e0&gt;incubating&lt;/e0&gt; feature (see &lt;a1&gt;Section C.1.2, “Incubating”&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T043926Z" creationid="huanghaohang" creationdate="20170923T043926Z">
+        <seg>析构器任务是一个 &lt;e0&gt;孵化中&lt;/e0&gt; 的功能 (请参阅 &lt;a1&gt; C.1.2 节， “孵化”&lt;/a1&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4920,6 +5012,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On the other hand, finalizer tasks are not executed if the finalized task didn't do any work, for example due to failed task dependency or if it's considered up to date.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044301Z" creationid="huanghaohang" creationdate="20170923T044301Z">
+        <seg>另一方面，如果最终的任务什么都没执行，比如因为失败的任务依赖或如果它被认为是最新的话，析构任务也不会执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once tasks are created they can be accessed via an &lt;s0&gt;&lt;e1&gt;API&lt;/e1&gt;&lt;/s0&gt;. This is different to Ant. For example you can create additional dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132935Z" creationid="95" creationdate="20170727T132814Z">
@@ -5076,6 +5176,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025320Z" creationid="95" creationdate="20170729T025320Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q distribution&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q groupPing&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T043839Z" creationid="huanghaohang" creationdate="20170923T043839Z">
+        <seg>&lt;s0&gt; &lt;c1&gt;Gradle q groupPing&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -7734,6 +7842,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>feature_lifecycle.html#sec:incubating_state</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T043854Z" creationid="huanghaohang" creationdate="20170923T043854Z">
+        <seg>feature_lifecycle.html#sec:incubating_state</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>file(dir).listFiles({file -&gt; file.isFile() } as FileFilter).sort()
 }</seg>
       </tuv>
@@ -8603,6 +8719,14 @@ hello.onlyIf { !project.hasProperty(&lt;s1&gt;'skipHello'&lt;/s1&gt;) }</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'taskX'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044133Z" creationid="huanghaohang" creationdate="20170923T044133Z">
+        <seg>println &lt;s0&gt;'taskX'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s0&gt;'taskX'&lt;/s0&gt;
 }
 
@@ -8765,6 +8889,20 @@ taskX.dependsOn taskY</seg>
 }
 
 taskX.dependsOn taskY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
+}
+
+taskX.finalizedBy taskY</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044045Z" creationid="huanghaohang" creationdate="20170923T044045Z">
+        <seg>println &lt;s1&gt;'taskY'&lt;/s1&gt;
+}
+
+taskX.finalizedBy taskY</seg>
       </tuv>
     </tu>
     <tu>
@@ -9001,6 +9139,20 @@ task notALib &lt;&lt; {</seg>
 }
 
 task notALib &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;'taskY'&lt;/s3&gt;
+}
+
+taskX.finalizedBy taskY</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044135Z" creationid="huanghaohang" creationdate="20170923T044135Z">
+        <seg>println &lt;s3&gt;'taskY'&lt;/s3&gt;
+}
+
+taskX.finalizedBy taskY</seg>
       </tuv>
     </tu>
     <tu>
