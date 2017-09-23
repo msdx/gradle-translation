@@ -674,6 +674,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>15.12. Summary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T045201Z" creationid="huanghaohang" creationdate="20170923T045201Z">
+        <seg>15.12. 总结</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>15.2. Locating tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121404Z" creationid="huanghaohang" creationdate="20170919T121404Z">
@@ -4576,6 +4584,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084828Z" creationid="huanghaohang" creationdate="20170922T084210Z">
         <seg>如果跳过任务的规则不能用断言来表达，你可以使用&lt;a0&gt;&lt;c1&gt;StopExecutionException&lt;/c1&gt;&lt;/a0&gt;。如果一个操作抛出此异常，则此操作的接下来的执行以及该任务的任何后续操作都会跳过。构建会继续执行下一个任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you are coming from Ant, such an enhanced Gradle task as &lt;s0&gt;&lt;e1&gt;Copy&lt;/e1&gt;&lt;/s0&gt; looks like a mixture between an Ant target and an Ant task. And this is actually the case. The separation that Ant does between tasks and targets is not done by Gradle. The simple Gradle tasks are like Ant's targets and the enhanced Gradle tasks also include the Ant task aspects. All of Gradle's tasks share a common API and you can create dependencies between them. Such a task might be nicer to configure than an Ant task. It makes full use of the type system, is more expressive and easier to maintain.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T045708Z" creationid="huanghaohang" creationdate="20170923T045708Z">
+        <seg>如果你是从 Ant 转过来的，像&lt;s0&gt;&lt;e1&gt;Copy&lt;/e1&gt;&lt;/s0&gt;这种增强的Gradle任务，看起来就像一个Ant目标和Ant任务之间的混合。实际上确实是这样子。Gradle 不像Ant那样对任务和目标进行分离。简单的Gradle任务就像Ant的目标，而增强的Gradle任务也包含了Ant任务方面的内容。所有的Gradle任务共享一个通用的API，你可以创建它们之间的依赖关系。这样的任务可能比Ant任务更好配置，它充分利用了类型系统，更具表现力也更易于维护。</seg>
       </tuv>
     </tu>
     <tu>
