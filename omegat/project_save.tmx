@@ -3988,6 +3988,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.4. Implementing a file collection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150001Z" creationid="huanghaohang" creationdate="20170927T150001Z">
+        <seg>示例 16.4. 实现一个文件集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -7282,8 +7290,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>You can also pass the &lt;c0&gt;files()&lt;/c0&gt; method a closure or a &lt;c1&gt;Callable&lt;/c1&gt; instance. This is called when the contents of the collection are queried, and its return value is converted to a set of &lt;c2&gt;File&lt;/c2&gt; instances. The return value can be an object of any of the types supported by the &lt;c3&gt;files()&lt;/c3&gt; method. This is a simple way to 'implement' the &lt;c4&gt;FileCollection&lt;/c4&gt; interface.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T132352Z" creationid="huanghaohang" creationdate="20170923T132352Z">
-        <seg>You can also pass the &lt;c0&gt;files()&lt;/c0&gt; method a closure or a &lt;c1&gt;Callable&lt;/c1&gt; instance. This is called when the contents of the collection are queried, and its return value is converted to a set of &lt;c2&gt;File&lt;/c2&gt; instances. The return value can be an object of any of the types supported by the &lt;c3&gt;files()&lt;/c3&gt; method. This is a simple way to 'implement' the &lt;c4&gt;FileCollection&lt;/c4&gt; interface.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150346Z" creationid="huanghaohang" creationdate="20170923T132352Z">
+        <seg>你也可以向&lt;c0&gt;files()&lt;/c0&gt;方法传一个闭包或&lt;c1&gt;Callable&lt;/c1&gt;实例。它会在查询集合的内容时被调用，并将其返回值转换为一组&lt;c2&gt;File&lt;/c2&gt;实例。返回值可以是&lt;c3&gt;files()&lt;/c3&gt;方法所支持的任何类型的对象。这是一个“实现”&lt;c4&gt;FileCollection&lt;/c4&gt;接口的简单方法。</seg>
       </tuv>
     </tu>
     <tu>
