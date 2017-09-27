@@ -1512,6 +1512,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Create a file collection using a closure&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150350Z" creationid="huanghaohang" creationdate="20170927T150350Z">
+        <seg>&lt;s0&gt;// Create a file collection using a closure&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
       </tuv>
@@ -2110,6 +2118,26 @@ I'm Gradle</seg>
         <seg>&gt; gradle -q intro
 Hello world!
 I'm Gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q list
+Contents of src
+src/dir1
+src/file1.txt
+Contents of src2
+src2/dir1
+src2/dir2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150359Z" creationid="huanghaohang" creationdate="20170927T150359Z">
+        <seg>&gt; gradle -q list
+Contents of src
+src/dir1
+src/file1.txt
+Contents of src2
+src2/dir1
+src2/dir2</seg>
       </tuv>
     </tu>
     <tu>
@@ -4404,6 +4432,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>File srcDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150349Z" creationid="huanghaohang" creationdate="20170927T150349Z">
+        <seg>File srcDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>FileCollection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150455Z" creationid="huanghaohang" creationdate="20170927T150455Z">
+        <seg>FileCollection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>FileCollection collection = files(&lt;s0&gt;'src/file1.txt'&lt;/s0&gt;, &lt;s1&gt;new&lt;/s1&gt; File(&lt;s2&gt;'src/file2.txt'&lt;/s2&gt;), [&lt;s3&gt;'src/file3.txt'&lt;/s3&gt;, &lt;s4&gt;'src/file4.txt'&lt;/s4&gt;])</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T131616Z" creationid="huanghaohang" creationdate="20170923T131616Z">
@@ -5116,6 +5160,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is important to note that the content of a file collection is evaluated lazily, when it is needed. This means you can, for example, create a &lt;c0&gt;FileCollection&lt;/c0&gt; that represents files which will be created in the future by, say, some task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150849Z" creationid="huanghaohang" creationdate="20170927T150849Z">
+        <seg>要注意的一个地方是，一个文件集合的内容是懒评估的，它只在需要的时候才计算。这意味着你可以创建一个&lt;c0&gt;FileCollection&lt;/c0&gt; 对象来表示一些会在以后才创建的文件，比方说在一些任务中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is possible to execute tasks &lt;c0&gt;A&lt;/c0&gt; and &lt;c1&gt;B&lt;/c1&gt; independently. The ordering rule only has an effect when both tasks are scheduled for execution.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T081344Z" creationid="huanghaohang" creationdate="20170922T081344Z">
@@ -5588,6 +5640,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q list&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150358Z" creationid="huanghaohang" creationdate="20170927T150358Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q list&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q loadfile&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153828Z" creationid="95" creationdate="20170728T153828Z">
@@ -5956,6 +6016,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Some other types of things you can pass to &lt;c0&gt;files()&lt;/c0&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150454Z" creationid="huanghaohang" creationdate="20170927T150415Z">
+        <seg>你可以向&lt;c0&gt;files()&lt;/c0&gt;传入以下一些其他类型的对象：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some other useful tasks are:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014332Z" creationid="95" creationdate="20170730T014332Z">
@@ -6076,6 +6144,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
+        <seg>Task</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task (org.gradle.api.Task)
 
 Description</seg>
@@ -6108,6 +6184,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T025813Z" creationid="huanghaohang" creationdate="20170922T025813Z">
         <seg>任务排序是一个&lt;a0&gt;孵化中&lt;/a0&gt;的功能。请注意，此功能可能会在以后的Gradle版本中有所更改。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TaskOutputs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150607Z" creationid="huanghaohang" creationdate="20170927T150607Z">
+        <seg>TaskOutputs</seg>
       </tuv>
     </tu>
     <tu>
@@ -6408,6 +6492,22 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The output files of the TaskOutputs are included in the file collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150616Z" creationid="huanghaohang" creationdate="20170927T150616Z">
+        <seg>TaskOutputs 的输出文件会被包含在文件集合中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The output files of the task are included in the file collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150603Z" creationid="huanghaohang" creationdate="20170927T150603Z">
+        <seg>任务的输出文件会被包含在文件集合中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The place to go for help with Gradle is &lt;a0&gt;http://forums.gradle.org&lt;/a0&gt;. The Gradle Forums is the place where you can report problems and ask questions to the Gradle developers and other community members.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T121738Z" creationid="95" creationdate="20170723T121738Z">
@@ -6556,6 +6656,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T154458Z" creationid="95" creationdate="20170728T153845Z">
         <seg>在构建脚本中您可以利用Ant做更多的事情，更多细节请参阅 &lt;a0&gt;第十七章，&lt;i1&gt;在Gradle中使用Ant&lt;/i1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These are flattened and the contents included in the file collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150607Z" creationid="huanghaohang" creationdate="20170927T150553Z">
+        <seg>它们会被展开，并且内容包含在文件集合中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7860,6 +7968,32 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014334Z" creationid="95" creationdate="20170730T014334Z">
         <seg>clean</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>collection = files { srcDir.listFiles() }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150351Z" creationid="huanghaohang" creationdate="20170927T150351Z">
+        <seg>collection = files { srcDir.listFiles() }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>collection.collect { relativePath(it) }.sort().each { println it }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150353Z" creationid="huanghaohang" creationdate="20170927T150353Z">
+        <seg>collection.collect { relativePath(it) }.sort().each { println it }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>collection.collect { relativePath(it) }.sort().each { println it }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150356Z" creationid="huanghaohang" creationdate="20170927T150356Z">
+        <seg>collection.collect { relativePath(it) }.sort().each { println it }
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -9423,6 +9557,14 @@ taskY.shouldRunAfter taskX</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;"Contents of $srcDir.name"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150352Z" creationid="huanghaohang" creationdate="20170927T150352Z">
+        <seg>println &lt;s2&gt;"Contents of $srcDir.name"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s2&gt;"Upper case: "&lt;/s2&gt; + someString.toUpperCase()
 }</seg>
       </tuv>
@@ -9617,6 +9759,14 @@ taskX.finalizedBy taskY</seg>
 }
 
 taskX.finalizedBy taskY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s4&gt;"Contents of $srcDir.name"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150354Z" creationid="huanghaohang" creationdate="20170927T150354Z">
+        <seg>println &lt;s4&gt;"Contents of $srcDir.name"&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9957,6 +10107,22 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>srcDir = file(&lt;s1&gt;'src'&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150352Z" creationid="huanghaohang" creationdate="20170927T150352Z">
+        <seg>srcDir = file(&lt;s1&gt;'src'&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDir = file(&lt;s3&gt;'src2'&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150354Z" creationid="huanghaohang" creationdate="20170927T150354Z">
+        <seg>srcDir = file(&lt;s3&gt;'src2'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>subdir/myproject.gradle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114013Z" creationid="huanghaohang" creationdate="20170909T114013Z">
@@ -10145,6 +10311,14 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144945Z" creationid="95" creationdate="20170724T144945Z">
         <seg>task hello {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task list &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150348Z" creationid="huanghaohang" creationdate="20170927T150348Z">
+        <seg>task list &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
