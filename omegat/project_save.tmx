@@ -162,6 +162,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:fileTree(java.util.Map)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023049Z" creationid="huanghaohang" creationdate="20171002T023049Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:fileTree(java.util.Map)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:files(java.lang.Object[])</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T130837Z" creationid="huanghaohang" creationdate="20170923T130837Z">
@@ -2708,8 +2716,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>A &lt;e0&gt;file tree&lt;/e0&gt; is a collection of files arranged in a hierarchy. For example, a file tree might represent a directory tree or the contents of a ZIP file. It is represented by the &lt;a1&gt;&lt;c2&gt;FileTree&lt;/c2&gt;&lt;/a1&gt; interface. The &lt;c3&gt;FileTree&lt;/c3&gt; interface extends &lt;c4&gt;FileCollection&lt;/c4&gt;, so you can treat a file tree exactly the same way as you would a file collection. Several objects in Gradle implement the &lt;c5&gt;FileTree&lt;/c5&gt; interface, such as &lt;a6&gt;source sets&lt;/a6&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023047Z" creationid="huanghaohang" creationdate="20170927T150857Z">
-        <seg>一个&lt;e0&gt;文件树&lt;/e0&gt;是一个按层次结构排列的文件集合。 例如，文件树可能表示一个目录树或ZIP 文件的内容。它通过&lt;a1&gt;&lt;c2&gt;FileTree&lt;/c2&gt;&lt;/a1&gt; 接口来表示。&lt;c3&gt;FileTree&lt;/c3&gt; 接口继承自 &lt;c4&gt;FileCollection&lt;/c4&gt;，因此你可以像处理文件集一样来处理文件树。Gradle中的几个对象都实现了 &lt;c5&gt;FileTree&lt;/c5&gt; 接口，如&lt;a6&gt;source sets&lt;/a6&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023100Z" creationid="huanghaohang" creationdate="20170927T150857Z">
+        <seg>一个&lt;e0&gt;文件树&lt;/e0&gt;是一个按层次结构排列的文件集合。 例如，文件树可能表示一个目录树或ZIP 文件的内容。它通过&lt;a1&gt;&lt;c2&gt;FileTree&lt;/c2&gt;&lt;/a1&gt; 接口来表示。&lt;c3&gt;FileTree&lt;/c3&gt; 接口继承自 &lt;c4&gt;FileCollection&lt;/c4&gt;，因此你可以像处理文件集一样来处理文件树。Gradle中的几个对象都实现了 &lt;c5&gt;FileTree&lt;/c5&gt; 接口，如&lt;a6&gt;源码集&lt;/a6&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5476,6 +5484,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T131817Z" creationid="huanghaohang" creationdate="20170923T130900Z">
         <seg>使用&lt;a1&gt;&lt;c2&gt;Project.files()&lt;/c2&gt;&lt;/a1&gt;方法是获取方式&lt;c0&gt;FileCollection&lt;/c0&gt;实例的一种方式。你可以传任意个对象给这个方法，它们会被转换为一组&lt;c3&gt;File&lt;/c3&gt;对象。这个&lt;c4&gt;files()&lt;/c4&gt;方法接受任何类型的对象作为其参数。如&lt;a6&gt;第16.1节，“查找文件”&lt;/a6&gt;中对&lt;c5&gt;file()&lt;/c5&gt;方法的描述，它们会被计算为相对于项目目录的路径。你还可以将集合，可迭代类型，map和数组传给&lt;c7&gt;files()&lt;/c7&gt;方法。它们会被展开，并且里面的内容会被转换为&lt;c8&gt;File&lt;/c8&gt;实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One way to obtain a &lt;c0&gt;FileTree&lt;/c0&gt; instance is to use the &lt;a1&gt;&lt;c2&gt;Project.fileTree()&lt;/c2&gt;&lt;/a1&gt; method. This creates a &lt;c3&gt;FileTree&lt;/c3&gt; defined with a base directory, and optionally some Ant-style include and exclude patterns.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023409Z" creationid="huanghaohang" creationdate="20171002T023409Z">
+        <seg>获取 &lt;c0&gt;FileTree&lt;/c0&gt; 实例的其中一种方式是使用&lt;a1&gt;&lt;c2&gt;Project.fileTree()&lt;/c2&gt;&lt;/a1&gt; 方法。它会创建一个&lt;c3&gt;FileTree&lt;/c3&gt; ，使用一个基本目录来定义，并且可以选择一些Ant风格的包含和排除模式。</seg>
       </tuv>
     </tu>
     <tu>
