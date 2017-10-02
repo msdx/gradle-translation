@@ -186,6 +186,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:tarTree(java.lang.Object)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T133110Z" creationid="huanghaohang" creationdate="20171002T133110Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:tarTree(java.lang.Object)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:zipTree(java.lang.Object)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023650Z" creationid="huanghaohang" creationdate="20171002T023650Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:zipTree(java.lang.Object)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Script.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132337Z" creationid="huanghaohang" creationdate="20170913T132337Z">
@@ -854,6 +870,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150851Z" creationid="huanghaohang" creationdate="20170927T150851Z">
         <seg>16.3. 文件树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16.4. Using the contents of an archive as a file tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023649Z" creationid="huanghaohang" creationdate="20171002T023649Z">
+        <seg>16.4. 使用归档的内容作为文件树</seg>
       </tuv>
     </tu>
     <tu>
@@ -1544,12 +1568,52 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Create a file tree with a base directory&lt;/s0&gt;
+FileTree tree = fileTree(dir: &lt;s1&gt;'src/main'&lt;/s1&gt;)
+
+&lt;s2&gt;// Add include and exclude patterns to the tree&lt;/s2&gt;
+tree.include &lt;s3&gt;'**/*.java'&lt;/s3&gt;
+tree.exclude &lt;s4&gt;'**/Abstract*'&lt;/s4&gt;
+
+&lt;s5&gt;// Create a tree using path&lt;/s5&gt;
+tree = fileTree(&lt;s6&gt;'src'&lt;/s6&gt;).include(&lt;s7&gt;'**/*.java'&lt;/s7&gt;)
+
+&lt;s8&gt;// Create a tree using closure&lt;/s8&gt;
+tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023415Z" creationid="huanghaohang" creationdate="20171002T023415Z">
+        <seg>&lt;s0&gt;// Create a file tree with a base directory&lt;/s0&gt;
+FileTree tree = fileTree(dir: &lt;s1&gt;'src/main'&lt;/s1&gt;)
+
+&lt;s2&gt;// Add include and exclude patterns to the tree&lt;/s2&gt;
+tree.include &lt;s3&gt;'**/*.java'&lt;/s3&gt;
+tree.exclude &lt;s4&gt;'**/Abstract*'&lt;/s4&gt;
+
+&lt;s5&gt;// Create a tree using path&lt;/s5&gt;
+tree = fileTree(&lt;s6&gt;'src'&lt;/s6&gt;).include(&lt;s7&gt;'**/*.java'&lt;/s7&gt;)
+
+&lt;s8&gt;// Create a tree using closure&lt;/s8&gt;
+tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135849Z" creationid="huanghaohang" creationdate="20170913T135849Z">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Iterate over the contents of a tree&lt;/s0&gt;
+tree.each {File file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023625Z" creationid="huanghaohang" creationdate="20171002T023625Z">
+        <seg>&lt;s0&gt;// Iterate over the contents of a tree&lt;/s0&gt;
+tree.each {File file -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4052,6 +4116,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150001Z" creationid="huanghaohang" creationdate="20170927T150001Z">
         <seg>示例 16.4. 实现一个文件集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.5. Creating a file tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023413Z" creationid="huanghaohang" creationdate="20171002T023413Z">
+        <seg>示例 16.5. 创建一个文件树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.6. Using a file tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023624Z" creationid="huanghaohang" creationdate="20171002T023624Z">
+        <seg>示例 16.6. 使用文件树</seg>
       </tuv>
     </tu>
     <tu>
@@ -7652,6 +7732,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You use a file tree in the same way you use a file collection. You can also visit the contents of the tree, and select a sub-tree using Ant-style patterns:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023622Z" creationid="huanghaohang" creationdate="20171002T023622Z">
+        <seg>你可以像使用文件集合的方式一样来使用文件树。你也可以访问文件树的内容，并使用Ant风格的模式选择一个子树：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>\--- compile</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T022201Z" creationid="huanghaohang" creationdate="20170910T022201Z">
@@ -8770,6 +8858,48 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>include &lt;s10&gt;'**/*.java'&lt;/s10&gt;
+}
+
+&lt;s11&gt;// Create a tree using a map&lt;/s11&gt;
+tree = fileTree(dir: &lt;s12&gt;'src'&lt;/s12&gt;, include: &lt;s13&gt;'**/*.java'&lt;/s13&gt;)
+tree = fileTree(dir: &lt;s14&gt;'src'&lt;/s14&gt;, includes: [&lt;s15&gt;'**/*.java'&lt;/s15&gt;, &lt;s16&gt;'**/*.xml'&lt;/s16&gt;])
+tree = fileTree(dir: &lt;s17&gt;'src'&lt;/s17&gt;, include: &lt;s18&gt;'**/*.java'&lt;/s18&gt;, exclude: &lt;s19&gt;'**/*test*/**'&lt;/s19&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023417Z" creationid="huanghaohang" creationdate="20171002T023417Z">
+        <seg>include &lt;s10&gt;'**/*.java'&lt;/s10&gt;
+}
+
+&lt;s11&gt;// Create a tree using a map&lt;/s11&gt;
+tree = fileTree(dir: &lt;s12&gt;'src'&lt;/s12&gt;, include: &lt;s13&gt;'**/*.java'&lt;/s13&gt;)
+tree = fileTree(dir: &lt;s14&gt;'src'&lt;/s14&gt;, includes: [&lt;s15&gt;'**/*.java'&lt;/s15&gt;, &lt;s16&gt;'**/*.xml'&lt;/s16&gt;])
+tree = fileTree(dir: &lt;s17&gt;'src'&lt;/s17&gt;, include: &lt;s18&gt;'**/*.java'&lt;/s18&gt;, exclude: &lt;s19&gt;'**/*test*/**'&lt;/s19&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include &lt;s2&gt;'org/gradle/api/**'&lt;/s2&gt;
+}
+
+&lt;s3&gt;// Add trees together&lt;/s3&gt;
+FileTree sum = tree + fileTree(dir: &lt;s4&gt;'src/test'&lt;/s4&gt;)
+
+&lt;s5&gt;// Visit the elements of the tree&lt;/s5&gt;
+tree.visit {element -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023627Z" creationid="huanghaohang" creationdate="20171002T023627Z">
+        <seg>include &lt;s2&gt;'org/gradle/api/**'&lt;/s2&gt;
+}
+
+&lt;s3&gt;// Add trees together&lt;/s3&gt;
+FileTree sum = tree + fileTree(dir: &lt;s4&gt;'src/test'&lt;/s4&gt;)
+
+&lt;s5&gt;// Visit the elements of the tree&lt;/s5&gt;
+tree.visit {element -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;, &lt;s4&gt;'**/*.properties'&lt;/s4&gt;)
 }</seg>
       </tuv>
@@ -9863,6 +9993,16 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s6&gt;"$element.relativePath =&gt; $element.file"&lt;/s6&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023628Z" creationid="huanghaohang" creationdate="20171002T023628Z">
+        <seg>println &lt;s6&gt;"$element.relativePath =&gt; $element.file"&lt;/s6&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s6&gt;'I am not affected'&lt;/s6&gt;
 }</seg>
       </tuv>
@@ -9903,6 +10043,22 @@ taskX.finalizedBy taskY</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135028Z" creationid="huanghaohang" creationdate="20170917T135028Z">
         <seg>println envProjectProp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println file
+}
+
+&lt;s1&gt;// Filter a tree&lt;/s1&gt;
+FileTree filtered = tree.matching {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023626Z" creationid="huanghaohang" creationdate="20171002T023626Z">
+        <seg>println file
+}
+
+&lt;s1&gt;// Filter a tree&lt;/s1&gt;
+FileTree filtered = tree.matching {</seg>
       </tuv>
     </tu>
     <tu>
