@@ -7700,6 +7700,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use the contents of an archive, such as a ZIP or TAR file, as a file tree. You do this using the &lt;a0&gt;&lt;c1&gt;Project.zipTree()&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Project.tarTree()&lt;/c3&gt;&lt;/a2&gt; methods. These methods return a &lt;c4&gt;FileTree&lt;/c4&gt; instance which you can use like any other file tree or file collection. For example, you can use it to expand the archive by copying the contents, or to merge some archives into another.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T133502Z" creationid="huanghaohang" creationdate="20171002T133502Z">
+        <seg>你可以通过使用&lt;a0&gt;&lt;c1&gt;Project.zipTree()&lt;/c1&gt;&lt;/a0&gt;和&lt;a2&gt;&lt;c3&gt;Project.tarTree()&lt;/c3&gt;&lt;/a2&gt;方法，将档案（如ZIP或TAR文件）的内容用作文件树。这些方法会返回一个 &lt;c4&gt;FileTree&lt;/c4&gt;实例，它可以像其他任何文件树或文件集一样去使用。例如，你可以用它来通过复制内容扩展归档，或者将某些归档合并到另一个归档文件中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You might argue why not using Java then as the language for build scripts. We think this is a valid question. It would have the highest transparency for your team and the lowest learning curve. But due to limitations of Java such a build language would not be as nice, expressive and powerful as it could be. &lt;s0&gt;[&lt;a1&gt;1&lt;/a1&gt;]&lt;/s0&gt; Languages like Python, Groovy or Ruby do a much better job here. We have chosen Groovy as it offers by far the greatest transparency for Java people. Its base syntax is the same as Java's as well as its type system, its package structure and other things. Groovy builds a lot on top of that. But on a common ground with Java.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T071727Z" creationid="95" creationdate="20170723T070855Z">
