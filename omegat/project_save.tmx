@@ -274,6 +274,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/file/FileTree.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150852Z" creationid="huanghaohang" creationdate="20170927T150852Z">
+        <seg>../javadoc/org/gradle/api/file/FileTree.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/tasks/StopExecutionException.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084210Z" creationid="huanghaohang" creationdate="20170922T084210Z">
@@ -830,6 +838,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T130138Z" creationid="huanghaohang" creationdate="20170923T130138Z">
         <seg>16.2. 文件集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16.3. File trees</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150851Z" creationid="huanghaohang" creationdate="20170927T150851Z">
+        <seg>16.3. 文件树</seg>
       </tuv>
     </tu>
     <tu>
@@ -2686,6 +2702,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T130835Z" creationid="huanghaohang" creationdate="20170923T130315Z">
         <seg>一个&lt;e0&gt;文件集合&lt;/e0&gt;只是一组文件，它通过&lt;a1&gt;&lt;c2&gt;FileCollection&lt;/c2&gt;&lt;/a1&gt;接口来表示。 Gradle API中的许多对象都实现了这个接口。比如，&lt;a3&gt;依dependency configurations&lt;/a3&gt;就实现了&lt;c4&gt;FileCollection&lt;/c4&gt;这一接口。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;e0&gt;file tree&lt;/e0&gt; is a collection of files arranged in a hierarchy. For example, a file tree might represent a directory tree or the contents of a ZIP file. It is represented by the &lt;a1&gt;&lt;c2&gt;FileTree&lt;/c2&gt;&lt;/a1&gt; interface. The &lt;c3&gt;FileTree&lt;/c3&gt; interface extends &lt;c4&gt;FileCollection&lt;/c4&gt;, so you can treat a file tree exactly the same way as you would a file collection. Several objects in Gradle implement the &lt;c5&gt;FileTree&lt;/c5&gt; interface, such as &lt;a6&gt;source sets&lt;/a6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023047Z" creationid="huanghaohang" creationdate="20170927T150857Z">
+        <seg>一个&lt;e0&gt;文件树&lt;/e0&gt;是一个按层次结构排列的文件集合。 例如，文件树可能表示一个目录树或ZIP 文件的内容。它通过&lt;a1&gt;&lt;c2&gt;FileTree&lt;/c2&gt;&lt;/a1&gt; 接口来表示。&lt;c3&gt;FileTree&lt;/c3&gt; 接口继承自 &lt;c4&gt;FileCollection&lt;/c4&gt;，因此你可以像处理文件集一样来处理文件树。Gradle中的几个对象都实现了 &lt;c5&gt;FileTree&lt;/c5&gt; 接口，如&lt;a6&gt;source sets&lt;/a6&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -8894,6 +8918,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T130000Z" creationid="95" creationdate="20170803T130000Z">
         <seg>java_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java_plugin.html#sec:source_sets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150855Z" creationid="huanghaohang" creationdate="20170927T150855Z">
+        <seg>java_plugin.html#sec:source_sets</seg>
       </tuv>
     </tu>
     <tu>
