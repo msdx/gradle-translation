@@ -258,6 +258,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.compile.JavaCompile.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T133540Z" creationid="huanghaohang" creationdate="20171002T133540Z">
+        <seg>../dsl/org.gradle.api.tasks.compile.JavaCompile.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.diagnostics.DependencyInsightReportTask.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T022204Z" creationid="huanghaohang" creationdate="20170910T022204Z">
@@ -878,6 +886,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023649Z" creationid="huanghaohang" creationdate="20171002T023649Z">
         <seg>16.4. 使用归档的内容作为文件树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16.5. Specifying a set of input files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T133539Z" creationid="huanghaohang" creationdate="20171002T133539Z">
+        <seg>16.5. 指定一组输入文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -1556,6 +1572,30 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132223Z" creationid="huanghaohang" creationdate="20170913T132223Z">
         <seg>&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/build</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Create a ZIP file tree using path&lt;/s0&gt;
+FileTree zip = zipTree(&lt;s1&gt;'someFile.zip'&lt;/s1&gt;)
+
+&lt;s2&gt;// Create a TAR file tree using path&lt;/s2&gt;
+FileTree tar = tarTree(&lt;s3&gt;'someFile.tar'&lt;/s3&gt;)
+
+&lt;s4&gt;//tar tree attempts to guess the compression based on the file extension&lt;/s4&gt;
+&lt;s5&gt;//however if you must specify the compression explicitly you can:&lt;/s5&gt;
+FileTree someTar = tarTree(resources.gzip(&lt;s6&gt;'someTar.ext'&lt;/s6&gt;))</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T133534Z" creationid="huanghaohang" creationdate="20171002T133534Z">
+        <seg>&lt;s0&gt;// Create a ZIP file tree using path&lt;/s0&gt;
+FileTree zip = zipTree(&lt;s1&gt;'someFile.zip'&lt;/s1&gt;)
+
+&lt;s2&gt;// Create a TAR file tree using path&lt;/s2&gt;
+FileTree tar = tarTree(&lt;s3&gt;'someFile.tar'&lt;/s3&gt;)
+
+&lt;s4&gt;//tar tree attempts to guess the compression based on the file extension&lt;/s4&gt;
+&lt;s5&gt;//however if you must specify the compression explicitly you can:&lt;/s5&gt;
+FileTree someTar = tarTree(resources.gzip(&lt;s6&gt;'someTar.ext'&lt;/s6&gt;))</seg>
       </tuv>
     </tu>
     <tu>
@@ -4136,6 +4176,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.7. Using an archive as a file tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T133514Z" creationid="huanghaohang" creationdate="20171002T133514Z">
+        <seg>示例 16.7. 使用归档文件作为文件树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -5396,6 +5444,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031833Z" creationid="huanghaohang" creationdate="20170927T031833Z">
         <seg>操纵现有任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many objects in Gradle have properties which accept a set of input files. For example, the &lt;a0&gt;&lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt; task has a &lt;c2&gt;source&lt;/c2&gt; property, which defines the source files to compile. You can set the value of this property using any of the types supported by the &lt;a3&gt;files()&lt;/a3&gt; method, which was shown above. This means you can set the property using, for example, a &lt;c4&gt;File&lt;/c4&gt;, &lt;c5&gt;String&lt;/c5&gt;, collection, &lt;c6&gt;FileCollection&lt;/c6&gt; or even a closure. Here are some examples:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134042Z" creationid="huanghaohang" creationdate="20171002T134042Z">
+        <seg>Gradle中的许多对象都有接受一组输入文件的属性。例如， &lt;a0&gt;&lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt;任务有一个&lt;c2&gt;source&lt;/c2&gt;属性，它定义了要编译的源文件。你可以上面所示的&lt;a3&gt;files()&lt;/a3&gt;方法所支持的任何类型来设置此属性的值。这意味着，你可以通过如&lt;c4&gt;File&lt;/c4&gt;， &lt;c5&gt;String&lt;/c5&gt;，集合， &lt;c6&gt;FileCollection&lt;/c6&gt;，甚至是闭包来设置该属性。这里有些例子：</seg>
       </tuv>
     </tu>
     <tu>
@@ -11154,6 +11210,14 @@ webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T151556Z" creationid="huanghaohang" creationdate="20170918T151556Z">
         <seg>working_with_files.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>working_with_files.html#sec:file_collections</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T133631Z" creationid="huanghaohang" creationdate="20171002T133631Z">
+        <seg>working_with_files.html#sec:file_collections</seg>
       </tuv>
     </tu>
     <tu>
