@@ -898,6 +898,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>16.6. Copying files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134320Z" creationid="huanghaohang" creationdate="20171002T134320Z">
+        <seg>16.6. 复制文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -1576,6 +1584,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Add some source directories use String paths&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134315Z" creationid="huanghaohang" creationdate="20171002T134315Z">
+        <seg>&lt;s0&gt;// Add some source directories use String paths&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Create a ZIP file tree using path&lt;/s0&gt;
 FileTree zip = zipTree(&lt;s1&gt;'someFile.zip'&lt;/s1&gt;)
 
@@ -1706,6 +1722,16 @@ apply(map)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T045145Z" creationid="huanghaohang" creationdate="20170908T045145Z">
         <seg>&lt;s0&gt;// URL can refer to a local directory&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Use a File object to specify the source directory&lt;/s0&gt;
+compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134048Z" creationid="huanghaohang" creationdate="20171002T134048Z">
+        <seg>&lt;s0&gt;// Use a File object to specify the source directory&lt;/s0&gt;
+compile {</seg>
       </tuv>
     </tu>
     <tu>
@@ -1848,6 +1874,14 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s11&gt;// Use the contents of each zip file in the src dir&lt;/s11&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134054Z" creationid="huanghaohang" creationdate="20171002T134054Z">
+        <seg>&lt;s11&gt;// Use the contents of each zip file in the src dir&lt;/s11&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;// Here you would put arbitrary conditions in real life. But we use this as an integration test, so we want defined behavior.&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084835Z" creationid="huanghaohang" creationdate="20170922T084835Z">
@@ -1916,6 +1950,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s3&gt;// Add a source directory using a File object&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134316Z" creationid="huanghaohang" creationdate="20171002T134316Z">
+        <seg>&lt;s3&gt;// Add a source directory using a File object&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s3&gt;if&lt;/s3&gt; (taskGraph.hasTask(release)) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025306Z" creationid="95" creationdate="20170729T025306Z">
@@ -1928,6 +1970,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132408Z" creationid="huanghaohang" creationdate="20170917T132408Z">
         <seg>&lt;s4&gt;if&lt;/s4&gt; (classesDir.isDirectory()) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s5&gt;// Add some source directories using a closure&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134318Z" creationid="huanghaohang" creationdate="20171002T134318Z">
+        <seg>&lt;s5&gt;// Add some source directories using a closure&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -4180,6 +4230,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T133514Z" creationid="huanghaohang" creationdate="20171002T133514Z">
         <seg>示例 16.7. 使用归档文件作为文件树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.8. Specifying a set of files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134047Z" creationid="huanghaohang" creationdate="20171002T134047Z">
+        <seg>示例 16.8. 指定一组文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.9. Specifying a set of files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134312Z" creationid="huanghaohang" creationdate="20171002T134312Z">
+        <seg>示例 16.9. 指定一组文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -7276,6 +7342,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Usually, there is a method with the same name as the property, which appends to the set of files. Again, this method accepts any of the types supported by the &lt;a0&gt;files()&lt;/a0&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134301Z" creationid="huanghaohang" creationdate="20171002T134106Z">
+        <seg>通常情况下，有一个与属性名称相同的方法，可以追加到文件集中。再者，该方法接受&lt;a0&gt;files()&lt;/a0&gt;方法所支持的任何类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Various plugins add further standard configurations. You can also define your own custom configurations to use in your build. Please see &lt;a0&gt;Section 50.3, “Dependency configurations”&lt;/a0&gt; for the details of defining and customizing dependency configurations.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T042917Z" creationid="huanghaohang" creationdate="20170908T042917Z">
@@ -7744,6 +7818,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T013040Z" creationid="95" creationdate="20170730T013011Z">
         <seg>你可以使用 &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt; 来列出一个项目的任务，这样就会看到Java插件向项目添加了哪些项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use the &lt;a0&gt;&lt;c1&gt;Copy&lt;/c1&gt;&lt;/a0&gt; task to copy files. The copy task is very flexible, and allows you to, for example, filter the contents of the files as they are copied, and map to the file names.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134516Z" creationid="huanghaohang" creationdate="20171002T134324Z">
+        <seg>你可以使用&lt;a0&gt;&lt;c1&gt;Copy&lt;/c1&gt;&lt;/a0&gt;任务来复制文件。复制任务非常灵活，并允许你在复制时过滤文件的内容，以及映射到文件名中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8270,6 +8352,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134314Z" creationid="huanghaohang" creationdate="20171002T134314Z">
+        <seg>compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile(&lt;s0&gt;'junit:junit:4.11'&lt;/s0&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153239Z" creationid="huanghaohang" creationdate="20170914T153239Z">
@@ -8628,6 +8718,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T043854Z" creationid="huanghaohang" creationdate="20170923T043854Z">
         <seg>feature_lifecycle.html#sec:incubating_state</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>file(&lt;s12&gt;'src'&lt;/s12&gt;).listFiles().findAll {it.name.endsWith(&lt;s13&gt;'.zip'&lt;/s13&gt;)}.collect { zipTree(it) }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134057Z" creationid="huanghaohang" creationdate="20171002T134057Z">
+        <seg>file(&lt;s12&gt;'src'&lt;/s12&gt;).listFiles().findAll {it.name.endsWith(&lt;s13&gt;'.zip'&lt;/s13&gt;)}.collect { zipTree(it) }</seg>
       </tuv>
     </tu>
     <tu>
@@ -10341,6 +10439,104 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154458Z" creationid="95" creationdate="20170731T154458Z">
         <seg>shared/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source &lt;s1&gt;'src/main/java'&lt;/s1&gt;, &lt;s2&gt;'src/main/groovy'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134316Z" creationid="huanghaohang" creationdate="20171002T134316Z">
+        <seg>source &lt;s1&gt;'src/main/java'&lt;/s1&gt;, &lt;s2&gt;'src/main/groovy'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source = &lt;s3&gt;'src/main/java'&lt;/s3&gt;
+}
+
+&lt;s4&gt;// Use a collection to specify multiple source directories&lt;/s4&gt;
+compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134050Z" creationid="huanghaohang" creationdate="20171002T134050Z">
+        <seg>source = &lt;s3&gt;'src/main/java'&lt;/s3&gt;
+}
+
+&lt;s4&gt;// Use a collection to specify multiple source directories&lt;/s4&gt;
+compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source = [&lt;s5&gt;'src/main/java'&lt;/s5&gt;, &lt;s6&gt;'../shared/java'&lt;/s6&gt;]
+}
+
+&lt;s7&gt;// Use a FileCollection (or FileTree in this case) to specify the source files&lt;/s7&gt;
+compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134051Z" creationid="huanghaohang" creationdate="20171002T134051Z">
+        <seg>source = [&lt;s5&gt;'src/main/java'&lt;/s5&gt;, &lt;s6&gt;'../shared/java'&lt;/s6&gt;]
+}
+
+&lt;s7&gt;// Use a FileCollection (or FileTree in this case) to specify the source files&lt;/s7&gt;
+compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source = file(&lt;s1&gt;'src/main/java'&lt;/s1&gt;)
+}
+
+&lt;s2&gt;// Use a String path to specify the source directory&lt;/s2&gt;
+compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134049Z" creationid="huanghaohang" creationdate="20171002T134049Z">
+        <seg>source = file(&lt;s1&gt;'src/main/java'&lt;/s1&gt;)
+}
+
+&lt;s2&gt;// Use a String path to specify the source directory&lt;/s2&gt;
+compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source = fileTree(dir: &lt;s8&gt;'src/main/java'&lt;/s8&gt;).matching { include &lt;s9&gt;'org/gradle/api/**'&lt;/s9&gt; }
+}
+
+&lt;s10&gt;// Using a closure to specify the source files.&lt;/s10&gt;
+compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134052Z" creationid="huanghaohang" creationdate="20171002T134052Z">
+        <seg>source = fileTree(dir: &lt;s8&gt;'src/main/java'&lt;/s8&gt;).matching { include &lt;s9&gt;'org/gradle/api/**'&lt;/s9&gt; }
+}
+
+&lt;s10&gt;// Using a closure to specify the source files.&lt;/s10&gt;
+compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source = {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134052Z" creationid="huanghaohang" creationdate="20171002T134052Z">
+        <seg>source = {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source file(&lt;s4&gt;'../shared/java'&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134317Z" creationid="huanghaohang" creationdate="20171002T134317Z">
+        <seg>source file(&lt;s4&gt;'../shared/java'&lt;/s4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>source { file(&lt;s6&gt;'src/test/'&lt;/s6&gt;).listFiles() }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134319Z" creationid="huanghaohang" creationdate="20171002T134319Z">
+        <seg>source { file(&lt;s6&gt;'src/test/'&lt;/s6&gt;).listFiles() }
+}</seg>
       </tuv>
     </tu>
     <tu>
