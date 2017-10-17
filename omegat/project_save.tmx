@@ -2046,6 +2046,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s3&gt;// Copy the output of copyTask&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124928Z" creationid="huanghaohang" creationdate="20171015T124928Z">
+        <seg>&lt;s3&gt;// Copy the output of copyTask&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s3&gt;if&lt;/s3&gt; (taskGraph.hasTask(release)) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025306Z" creationid="95" creationdate="20170729T025306Z">
@@ -4354,6 +4362,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.13. Copying files using the copy() method without up-to-date check</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T125015Z" creationid="huanghaohang" creationdate="20171015T094218Z">
+        <seg>例16.13. 使用没有最新状态检查的copy()方法复制文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.14. Copying files using the copy() method with up-to-date check</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T125030Z" creationid="huanghaohang" creationdate="20171015T124923Z">
+        <seg>例16.14. 使用有最新状态检查的copy()方法复制文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 16.2. Creating a file collection</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T131613Z" creationid="huanghaohang" creationdate="20170923T131613Z">
@@ -6398,6 +6422,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013354Z" creationid="huanghaohang" creationdate="20170919T013354Z">
         <seg>运行和测试您的安装</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Secondly, the &lt;c0&gt;copy()&lt;/c0&gt; method can not honor task dependencies when a task is used as a copy source (i.e. as an argument to &lt;c1&gt;from()&lt;/c1&gt;) because it's a method and not a task. As such, if you are using the &lt;c2&gt;copy()&lt;/c2&gt; method as part of a task action, you must explicitly declare all inputs and outputs in order to get the correct behavior.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124844Z" creationid="huanghaohang" creationdate="20171015T094223Z">
+        <seg>其次，当一个任务用作复制源（即作为&lt;c1&gt;from()&lt;/c1&gt;的一个参数）时，&lt;c0&gt;copy()&lt;/c0&gt;方法不能满足任务依赖。因为它是一个方法，而不是一个任务。因此，如果你正在使用&lt;c2&gt;copy()&lt;/c2&gt;方法作为任务操作的一部分，就必须显式声明所有的输入和输出才能得到正确的行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8592,10 +8624,26 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>copy {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T094221Z" creationid="huanghaohang" creationdate="20171015T094221Z">
+        <seg>copy {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>credentials {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050447Z" creationid="huanghaohang" creationdate="20170908T050447Z">
         <seg>credentials {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>custom_tasks.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124956Z" creationid="huanghaohang" creationdate="20171015T124956Z">
+        <seg>custom_tasks.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -8844,6 +8892,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144949Z" creationid="95" creationdate="20170724T144949Z">
         <seg>doLast {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>doLast{</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124927Z" creationid="huanghaohang" creationdate="20171015T124927Z">
+        <seg>doLast{</seg>
       </tuv>
     </tu>
     <tu>
@@ -9380,6 +9436,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>inputs.file copyTask &lt;s0&gt;// up-to-date check for inputs, plus add copyTask as dependency&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124925Z" creationid="huanghaohang" creationdate="20171015T124925Z">
+        <seg>inputs.file copyTask &lt;s0&gt;// up-to-date check for inputs, plus add copyTask as dependency&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>inputs.file srcFile</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T003854Z" creationid="huanghaohang" creationdate="20170923T003854Z">
@@ -9474,6 +9538,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T082304Z" creationid="huanghaohang" creationdate="20170922T082304Z">
         <seg>into &lt;s2&gt;'target'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into &lt;s4&gt;'some-dir'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124930Z" creationid="huanghaohang" creationdate="20171015T124930Z">
+        <seg>into &lt;s4&gt;'some-dir'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9753,6 +9825,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145337Z" creationid="huanghaohang" creationdate="20170918T145337Z">
         <seg>other.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>outputs.dir &lt;s1&gt;'some-dir'&lt;/s1&gt; &lt;s2&gt;// up-to-date check for outputs&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124926Z" creationid="huanghaohang" creationdate="20171015T124926Z">
+        <seg>outputs.dir &lt;s1&gt;'some-dir'&lt;/s1&gt; &lt;s2&gt;// up-to-date check for outputs&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11017,6 +11097,22 @@ task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124931Z" creationid="huanghaohang" creationdate="20170919T124931Z">
         <seg>task copy(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task copyMethod &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T094220Z" creationid="huanghaohang" creationdate="20171015T094220Z">
+        <seg>task copyMethod &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task copyMethodWithExplicitDependencies{</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124924Z" creationid="huanghaohang" creationdate="20171015T124924Z">
+        <seg>task copyMethodWithExplicitDependencies{</seg>
       </tuv>
     </tu>
     <tu>
