@@ -5130,6 +5130,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle provides excellent integration with Ant. You can use individual Ant tasks or entire Ant builds in your Gradle builds. In fact, you will find that it's far easier and more powerful using Ant tasks in a Gradle build script, than it is to use Ant's XML format. You could even use Gradle simply as a powerful Ant task scripting tool.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171031T071604Z" creationid="huanghaohang" creationdate="20171031T071604Z">
+        <seg>Gradle provides excellent integration with Ant. You can use individual Ant tasks or entire Ant builds in your Gradle builds. In fact, you will find that it's far easier and more powerful using Ant tasks in a Gradle build script, than it is to use Ant's XML format. You could even use Gradle simply as a powerful Ant task scripting tool.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle provides partial builds. If you build a single subproject Gradle takes care of building all the subprojects that subproject depends on. You can also choose to rebuild the subprojects that depend on a particular subproject. Together with incremental builds this is a big time saver for larger builds.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T034026Z" creationid="95" creationdate="20170723T034026Z">
@@ -5598,6 +5606,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143722Z" creationid="huanghaohang" creationdate="20170911T143535Z">
         <seg>最好是在Gradle项目目录运行此命令，这样对UI的设置就可以保存在项目的目录中。不过，你也可以先运行它，然后通过UI中的“设置”选项卡来更改工作目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is preferable to use the &lt;c0&gt;Copy&lt;/c0&gt; task wherever possible, as it support incremental building and task dependency inference without any extra effort on your part. The &lt;c1&gt;copy()&lt;/c1&gt; method can be used to copy files as &lt;s2&gt;&lt;e3&gt;part&lt;/e3&gt;&lt;/s2&gt; of a task's implementation. That is, the copy method is intended to be used by custom tasks (see &lt;a4&gt;Chapter 57, &lt;i5&gt;Writing Custom Task Classes&lt;/i5&gt;&lt;/a4&gt;) that need to copy files as part of their function. In such a scenario, the custom task should sufficiently declare the inputs/outputs relevant to the copy action.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171031T071359Z" creationid="huanghaohang" creationdate="20171031T071359Z">
+        <seg>It is preferable to use the &lt;c0&gt;Copy&lt;/c0&gt; task wherever possible, as it support incremental building and task dependency inference without any extra effort on your part. The &lt;c1&gt;copy()&lt;/c1&gt; method can be used to copy files as &lt;s2&gt;&lt;e3&gt;part&lt;/e3&gt;&lt;/s2&gt; of a task's implementation. That is, the copy method is intended to be used by custom tasks (see &lt;a4&gt;Chapter 57, &lt;i5&gt;Writing Custom Task Classes&lt;/i5&gt;&lt;/a4&gt;) that need to copy files as part of their function. In such a scenario, the custom task should sufficiently declare the inputs/outputs relevant to the copy action.</seg>
       </tuv>
     </tu>
     <tu>
