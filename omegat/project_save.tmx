@@ -1018,6 +1018,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>16.8.1. Archive naming</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T140629Z" creationid="huanghaohang" creationdate="20171126T140629Z">
+        <seg>16.8.1. 归档命名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>16.8. Creating archives</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125205Z" creationid="huanghaohang" creationdate="20171126T125205Z">
@@ -2638,6 +2646,20 @@ I am not affected</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q myZip
+zipProject-1.0.zip
+build/distributions
+build/distributions/zipProject-1.0.zip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T140722Z" creationid="huanghaohang" creationdate="20171126T140722Z">
+        <seg>&gt; gradle -q myZip
+zipProject-1.0.zip
+build/distributions
+build/distributions/zipProject-1.0.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q pingServer1
 Pinging: Server1</seg>
       </tuv>
@@ -3182,6 +3204,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T132304Z" creationid="huanghaohang" creationdate="20170923T131759Z">
         <seg>一个文件集合是可迭代的，可以使用&lt;c0&gt;as&lt;/c0&gt;操作符把它转换为多个其他类型。你也可以使用&lt;c1&gt;+&lt;/c1&gt;运算符把两个文件集合加到一起，或使用&lt;c2&gt;-&lt;/c2&gt;运算符从另一个文件集中减去另一个文件集合。以下是操作文件集合的一些示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A project can have as many as JAR archives as you want. You can also add WAR, ZIP and TAR archives to your project. Archives are created using the various archive tasks: &lt;a0&gt;&lt;c1&gt;Zip&lt;/c1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;c3&gt;Tar&lt;/c3&gt;&lt;/a2&gt;, &lt;a4&gt;&lt;c5&gt;Jar&lt;/c5&gt;&lt;/a4&gt;, &lt;a6&gt;&lt;c7&gt;War&lt;/c7&gt;&lt;/a6&gt;, and &lt;a8&gt;&lt;c9&gt;Ear&lt;/c9&gt;&lt;/a8&gt;. They all work the same way, so let's look at how you create a ZIP file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T135301Z" creationid="huanghaohang" creationdate="20171126T130837Z">
+        <seg>一个项目可以有尽可能多的 JAR 文件。你也可以将 WAR，ZIP 和 TAR 文件添加到你的项目中。这些归档文件是通过以下这些不同的归档任务来创建的： &lt;a0&gt;&lt;c1&gt;Zip&lt;/c1&gt;&lt;/a0&gt;，&lt;a2&gt;&lt;c3&gt;Tar&lt;/c3&gt;&lt;/a2&gt;，&lt;a4&gt;&lt;c5&gt;Jar&lt;/c5&gt;&lt;/a4&gt;，&lt;a6&gt;&lt;c7&gt;War&lt;/c7&gt;&lt;/a6&gt; 和 &lt;a8&gt;&lt;c9&gt;Ear&lt;/c9&gt;&lt;/a8&gt;。它们的使用方式相同，所以让我们来看看如何创建一个 ZIP 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4568,10 +4598,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.19. Creating a ZIP archive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T135304Z" creationid="huanghaohang" creationdate="20171126T135304Z">
+        <seg>示例 16.19. 创建一个 ZIP 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 16.2. Creating a file collection</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T131613Z" creationid="huanghaohang" creationdate="20170923T131613Z">
         <seg>示例 16.2. 创建文件集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.20. Creation of ZIP archive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T140713Z" creationid="huanghaohang" creationdate="20171126T140713Z">
+        <seg>示例 16.20. 创建 ZIP 文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -6328,6 +6374,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q myZip&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T140719Z" creationid="huanghaohang" creationdate="20171126T140719Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q myZip&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q pingServer1&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011929Z" creationid="huanghaohang" creationdate="20170923T011929Z">
@@ -6996,6 +7050,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java plugin adds a number of default values for the archive tasks. You can use the archive tasks without using the Java plugin, if you like. You will need to provide values for some additional properties.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T135850Z" creationid="huanghaohang" creationdate="20171126T135850Z">
+        <seg>Java 插件为归档任务添加了一些默认值。如果你愿意，使用归档任务时你也可以不使用 Java 插件。你将需要提供一些附加属性的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Java plugin adds a number of properties to your project. These properties have default values which are usually sufficient to get started. It's easy to change these values if they don't suit. Let's look at this for our sample. Here we will specify the version number for our Java project, along with the Java version our source is written in. We also add some attributes to the JAR manifest.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T132650Z" creationid="95" creationdate="20170730T130552Z">
@@ -7076,6 +7138,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The archive tasks all work exactly the same way as the &lt;c0&gt;Copy&lt;/c0&gt; task, and implement the same &lt;c1&gt;CopySpec&lt;/c1&gt; interface. As with the &lt;c2&gt;Copy&lt;/c2&gt; task, you specify the input files using the &lt;c3&gt;from()&lt;/c3&gt; method, and can optionally specify where they end up in the archive using the &lt;c4&gt;into()&lt;/c4&gt; method. You can filter the contents of file, rename files, and all the other things you can do with a copy spec.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T140626Z" creationid="huanghaohang" creationdate="20171126T140030Z">
+        <seg>归档任务与 &lt;c0&gt;Copy&lt;/c0&gt; 任务的使用方式完全一样，并且实现了同样的 &lt;c1&gt;CopySpec&lt;/c1&gt; 接口。像使用 &lt;c2&gt;Copy&lt;/c2&gt; 任务一样，你需要使用 &lt;c3&gt;from()&lt;/c3&gt; 方法指定输入文件，并且可以选择使用 &lt;c4&gt;into()&lt;/c4&gt; 方法来指定它们在归档中结束的位置。你可以过滤文件内容，重命名文件以及进行通过复制规范可以做的其他事情。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The binary sources. This is for reference only. If you want to build Gradle you need to download the source distribution or checkout the sources from the source repository. See the &lt;a0&gt;Gradle web site&lt;/a0&gt; for details.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T115048Z" creationid="95" creationdate="20170723T115048Z">
@@ -7104,6 +7174,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T021842Z" creationid="95" creationdate="20170722T021842Z">
         <seg>声明性语言位于通用任务图的顶部，您可以在构建中充分利用它。它提供了极大的灵活性，使Gradle满足您的独特需求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The default name for a generated archive is &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;projectName&lt;/c2&gt;&lt;/e1&gt;-&lt;e3&gt;&lt;c4&gt;version&lt;/c4&gt;&lt;/e3&gt;.&lt;e5&gt;&lt;c6&gt;type&lt;/c6&gt;&lt;/e5&gt;&lt;/c0&gt; For example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T140702Z" creationid="huanghaohang" creationdate="20171126T140702Z">
+        <seg>生成的归档的默认名称是&lt;c0&gt;&lt;e1&gt;&lt;c2&gt;projectName&lt;/c2&gt;&lt;/e1&gt;-&lt;e3&gt;&lt;c4&gt;version&lt;/c4&gt;&lt;/e3&gt;.&lt;e5&gt;&lt;c6&gt;type&lt;/c6&gt;&lt;/e5&gt;&lt;/c0&gt;。举个例子：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8004,6 +8082,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Why are you using the Java plugin?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T135322Z" creationid="huanghaohang" creationdate="20171126T135322Z">
+        <seg>为什么要用 Java 插件？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>With the &lt;c0&gt;gradle.properties&lt;/c0&gt; files you can also set system properties. If a property in such a file has the prefix &lt;c1&gt;systemProp.&lt;/c1&gt; the property and its value are added to the system properties, without the prefix. In a multi project build, &lt;c2&gt;systemProp.&lt;/c2&gt; properties set in any project except the root will be ignored. That is, only &lt;c3&gt;systemProp.&lt;/c3&gt; in the root project's &lt;c4&gt;gradle.properties&lt;/c4&gt; file will be set as system properties.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135007Z" creationid="huanghaohang" creationdate="20170917T134626Z">
@@ -8544,6 +8630,34 @@ repositories {</seg>
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
 
 repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+task zip(type: Zip) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T135306Z" creationid="huanghaohang" creationdate="20171126T135306Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+task zip(type: Zip) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+version = &lt;s1&gt;1.0&lt;/s1&gt;
+
+task myZip(type: Zip) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T140715Z" creationid="huanghaohang" creationdate="20171126T140715Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+version = &lt;s1&gt;1.0&lt;/s1&gt;
+
+task myZip(type: Zip) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -9380,10 +9494,36 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from &lt;s1&gt;'src/dist'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T135306Z" creationid="huanghaohang" creationdate="20171126T135306Z">
+        <seg>from &lt;s1&gt;'src/dist'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from &lt;s1&gt;'src/main/webapp'&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075016Z" creationid="huanghaohang" creationdate="20171015T075016Z">
         <seg>from &lt;s1&gt;'src/main/webapp'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;s2&gt;'somedir'&lt;/s2&gt;
+}
+
+println myZip.archiveName
+println relativePath(myZip.destinationDir)
+println relativePath(myZip.archivePath)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T140716Z" creationid="huanghaohang" creationdate="20171126T140716Z">
+        <seg>from &lt;s2&gt;'somedir'&lt;/s2&gt;
+}
+
+println myZip.archiveName
+println relativePath(myZip.destinationDir)
+println relativePath(myZip.archivePath)</seg>
       </tuv>
     </tu>
     <tu>
@@ -9902,6 +10042,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125719Z" creationid="95" creationdate="20170803T125719Z">
         <seg>into(&lt;s1&gt;'libs'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into(&lt;s2&gt;'libs'&lt;/s2&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T135316Z" creationid="huanghaohang" creationdate="20171126T135316Z">
+        <seg>into(&lt;s2&gt;'libs'&lt;/s2&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
