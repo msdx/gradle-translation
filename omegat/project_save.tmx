@@ -274,6 +274,38 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.bundling.Jar.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125230Z" creationid="huanghaohang" creationdate="20171126T125230Z">
+        <seg>../dsl/org.gradle.api.tasks.bundling.Jar.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.bundling.Tar.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125229Z" creationid="huanghaohang" creationdate="20171126T125229Z">
+        <seg>../dsl/org.gradle.api.tasks.bundling.Tar.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.bundling.War.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125231Z" creationid="huanghaohang" creationdate="20171126T125231Z">
+        <seg>../dsl/org.gradle.api.tasks.bundling.War.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.bundling.Zip.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125228Z" creationid="huanghaohang" creationdate="20171126T125228Z">
+        <seg>../dsl/org.gradle.api.tasks.bundling.Zip.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.compile.JavaCompile.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T133540Z" creationid="huanghaohang" creationdate="20171002T133540Z">
@@ -294,6 +326,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T132800Z" creationid="95" creationdate="20170730T132800Z">
         <seg>../dsl/org.gradle.api.tasks.testing.Test.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.plugins.ear.Ear.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125232Z" creationid="huanghaohang" creationdate="20171126T125232Z">
+        <seg>../dsl/org.gradle.plugins.ear.Ear.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -974,6 +1014,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060929Z" creationid="huanghaohang" creationdate="20171126T060929Z">
         <seg>16.7. 使用&lt;c0&gt;Sync&lt;/c0&gt;任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16.8. Creating archives</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125205Z" creationid="huanghaohang" creationdate="20171126T125205Z">
+        <seg>16.8. 创建归档文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -4512,6 +4560,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.18. Using the Sync task to copy dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125145Z" creationid="huanghaohang" creationdate="20171126T125145Z">
+        <seg>示例 16.18. 使用同步任务复制依赖项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 16.2. Creating a file collection</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T131613Z" creationid="huanghaohang" creationdate="20170923T131613Z">
@@ -5436,6 +5492,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T015227Z" creationid="95" creationdate="20170722T015227Z">
         <seg>以下是Gradle的一些特性列表。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here is an example which maintains a copy of the project's runtime dependencies in the &lt;c0&gt;build/libs&lt;/c0&gt; directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125140Z" creationid="huanghaohang" creationdate="20171126T125140Z">
+        <seg>下面是一个例子，维护在&lt;c0&gt;build/libs&lt;/c0&gt;目录中的项目运行时依赖的副本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9746,6 +9810,16 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>into &lt;s0&gt;"$buildDir/libs"&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125151Z" creationid="huanghaohang" creationdate="20171126T125151Z">
+        <seg>into &lt;s0&gt;"$buildDir/libs"&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>into &lt;s0&gt;'build/explodedWar'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060920Z" creationid="huanghaohang" creationdate="20171126T060920Z">
@@ -11517,6 +11591,14 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144945Z" creationid="95" creationdate="20170724T144945Z">
         <seg>task hello {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task libs(type: Sync) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125146Z" creationid="huanghaohang" creationdate="20171126T125146Z">
+        <seg>task libs(type: Sync) {</seg>
       </tuv>
     </tu>
     <tu>
