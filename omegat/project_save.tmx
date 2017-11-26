@@ -930,6 +930,30 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>16.6.1. Renaming files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060224Z" creationid="huanghaohang" creationdate="20171126T060224Z">
+        <seg>16.6.1. 重命名文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16.6.2. Filtering files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060303Z" creationid="huanghaohang" creationdate="20171126T060303Z">
+        <seg>16.6.2 过滤文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16.6.3. Using the &lt;c0&gt;CopySpec&lt;/c0&gt; class</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060352Z" creationid="huanghaohang" creationdate="20171126T060352Z">
+        <seg>16.6.3. 使用&lt;c0&gt;CopySpec&lt;/c0&gt;类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>16.6. Copying files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134320Z" creationid="huanghaohang" creationdate="20171002T134320Z">
@@ -1954,6 +1978,36 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.tools.ant.filters.FixCrLfFilter
+&lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
+
+task filter(type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060338Z" creationid="huanghaohang" creationdate="20171126T060338Z">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.tools.ant.filters.FixCrLfFilter
+&lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
+
+task filter(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s10&gt;// Use a closure to filter each line&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060346Z" creationid="huanghaohang" creationdate="20171126T060346Z">
+        <seg>&lt;s10&gt;// Use a closure to filter each line&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s11&gt;"[$line]"&lt;/s11&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060348Z" creationid="huanghaohang" creationdate="20171126T060348Z">
+        <seg>&lt;s11&gt;"[$line]"&lt;/s11&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s11&gt;// Use the contents of each zip file in the src dir&lt;/s11&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134054Z" creationid="huanghaohang" creationdate="20171002T134054Z">
@@ -2014,6 +2068,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Use a closure to map the file name&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060237Z" creationid="huanghaohang" creationdate="20171126T060237Z">
+        <seg>&lt;s2&gt;// Use a closure to map the file name&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;// do something&lt;/s2&gt;
 }
 task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
@@ -2070,6 +2132,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s4&gt;// Substitute property references in files&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060342Z" creationid="huanghaohang" creationdate="20171126T060342Z">
+        <seg>&lt;s4&gt;// Substitute property references in files&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s4&gt;if&lt;/s4&gt; (classesDir.isDirectory()) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132408Z" creationid="huanghaohang" creationdate="20170917T132408Z">
@@ -2094,6 +2164,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s5&gt;// Use a regular expression to map the file name&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060241Z" creationid="huanghaohang" creationdate="20171126T060241Z">
+        <seg>&lt;s5&gt;// Use a regular expression to map the file name&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s6&gt;// Copy the contents of a Zip file&lt;/s6&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075027Z" creationid="huanghaohang" creationdate="20171015T075027Z">
@@ -2108,6 +2186,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132410Z" creationid="huanghaohang" creationdate="20170917T132410Z">
         <seg>&lt;s6&gt;// do something&lt;/s6&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s7&gt;// Use some of the filters provided by Ant&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060344Z" creationid="huanghaohang" creationdate="20171126T060344Z">
+        <seg>&lt;s7&gt;// Use some of the filters provided by Ant&lt;/s7&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3626,6 +3712,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Copy specs form a hierarchy. A copy spec inherits its destination path, include patterns, exclude patterns, copy actions, name mappings and filters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060911Z" creationid="huanghaohang" creationdate="20171126T060730Z">
+        <seg>复制规范用于形成一个层次结构。一个复制规范继承其目标路径、包含模式、排除模式、复制操作、名称映射和过滤器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Copyright © 2007-2012 Hans Dockter, Adam Murdoch</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072305Z" creationid="haohang" creationdate="20170720T072305Z">
@@ -4374,6 +4468,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T125030Z" creationid="huanghaohang" creationdate="20171015T124923Z">
         <seg>例16.14. 使用有最新状态检查的copy()方法复制文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.15. Renaming files as they are copied</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060234Z" creationid="huanghaohang" creationdate="20171126T060234Z">
+        <seg>示例 16.15. 重命名复制的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.16. Filtering files as they are copied</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060337Z" creationid="huanghaohang" creationdate="20171126T060337Z">
+        <seg>示例 16.16. 在复制时过滤文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -8982,6 +9092,22 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>expand(copyright: &lt;s5&gt;'2009'&lt;/s5&gt;, version: &lt;s6&gt;'2.3.1'&lt;/s6&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060343Z" creationid="huanghaohang" creationdate="20171126T060343Z">
+        <seg>expand(copyright: &lt;s5&gt;'2009'&lt;/s5&gt;, version: &lt;s6&gt;'2.3.1'&lt;/s6&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>expand(project.properties)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060343Z" creationid="huanghaohang" creationdate="20171126T060343Z">
+        <seg>expand(project.properties)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ext.destDir = &lt;s1&gt;new&lt;/s1&gt; File(buildDir, &lt;s2&gt;'generated'&lt;/s2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085709Z" creationid="huanghaohang" creationdate="20170922T085709Z">
@@ -9062,10 +9188,42 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>fileName.replace(&lt;s3&gt;'-staging-'&lt;/s3&gt;, &lt;s4&gt;''&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060239Z" creationid="huanghaohang" creationdate="20171126T060239Z">
+        <seg>fileName.replace(&lt;s3&gt;'-staging-'&lt;/s3&gt;, &lt;s4&gt;''&lt;/s4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>files.each { File file -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153759Z" creationid="95" creationdate="20170728T153759Z">
         <seg>files.each { File file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>filter { String line -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060347Z" creationid="huanghaohang" creationdate="20171126T060347Z">
+        <seg>filter { String line -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>filter(FixCrLfFilter)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060345Z" creationid="huanghaohang" creationdate="20171126T060345Z">
+        <seg>filter(FixCrLfFilter)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>filter(ReplaceTokens, tokens: [copyright: &lt;s8&gt;'2009'&lt;/s8&gt;, version: &lt;s9&gt;'2.3.1'&lt;/s9&gt;])</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060345Z" creationid="huanghaohang" creationdate="20171126T060345Z">
+        <seg>filter(ReplaceTokens, tokens: [copyright: &lt;s8&gt;'2009'&lt;/s8&gt;, version: &lt;s9&gt;'2.3.1'&lt;/s9&gt;])</seg>
       </tuv>
     </tu>
     <tu>
@@ -9122,6 +9280,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075016Z" creationid="huanghaohang" creationdate="20171015T075016Z">
         <seg>from &lt;s1&gt;'src/main/webapp'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;s2&gt;'src/main/webapp'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060340Z" creationid="huanghaohang" creationdate="20171126T060340Z">
+        <seg>from &lt;s2&gt;'src/main/webapp'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9554,6 +9720,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T082304Z" creationid="huanghaohang" creationdate="20170922T082304Z">
         <seg>into &lt;s2&gt;'target'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into &lt;s3&gt;'build/explodedWar'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060341Z" creationid="huanghaohang" creationdate="20171126T060341Z">
+        <seg>into &lt;s3&gt;'build/explodedWar'&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10825,6 +10999,32 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>rename &lt;s6&gt;'(.+)-staging-(.+)'&lt;/s6&gt;, &lt;s7&gt;'$1$2'&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060242Z" creationid="huanghaohang" creationdate="20171126T060242Z">
+        <seg>rename &lt;s6&gt;'(.+)-staging-(.+)'&lt;/s6&gt;, &lt;s7&gt;'$1$2'&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rename { String fileName -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060238Z" creationid="huanghaohang" creationdate="20171126T060238Z">
+        <seg>rename { String fileName -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rename(/(.+)-staging-(.+)/, &lt;s8&gt;'$1$2'&lt;/s8&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060250Z" creationid="huanghaohang" creationdate="20171126T060250Z">
+        <seg>rename(/(.+)-staging-(.+)/, &lt;s8&gt;'$1$2'&lt;/s8&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>repositories {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124331Z" creationid="95" creationdate="20170730T124331Z">
@@ -11297,6 +11497,14 @@ myCopy {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135023Z" creationid="huanghaohang" creationdate="20170917T135023Z">
         <seg>task printProps &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task rename(type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060236Z" creationid="huanghaohang" creationdate="20171126T060236Z">
+        <seg>task rename(type: Copy) {</seg>
       </tuv>
     </tu>
     <tu>
