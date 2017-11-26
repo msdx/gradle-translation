@@ -266,6 +266,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.Sync.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060933Z" creationid="huanghaohang" creationdate="20171126T060933Z">
+        <seg>../dsl/org.gradle.api.tasks.Sync.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.compile.JavaCompile.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T133540Z" creationid="huanghaohang" creationdate="20171002T133540Z">
@@ -958,6 +966,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134320Z" creationid="huanghaohang" creationdate="20171002T134320Z">
         <seg>16.6. 复制文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>16.7. Using the &lt;c0&gt;Sync&lt;/c0&gt; task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060929Z" creationid="huanghaohang" creationdate="20171126T060929Z">
+        <seg>16.7. 使用&lt;c0&gt;Sync&lt;/c0&gt;任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -4488,6 +4504,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 16.17. Nested copy specs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060918Z" creationid="huanghaohang" creationdate="20171126T060918Z">
+        <seg>示例 16.17. 嵌套的复制规范</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 16.2. Creating a file collection</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T131613Z" creationid="huanghaohang" creationdate="20170923T131613Z">
@@ -6788,6 +6812,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;a0&gt;&lt;c1&gt;Sync&lt;/c1&gt;&lt;/a0&gt; task extends the &lt;c2&gt;Copy&lt;/c2&gt; task. When it executes, it copies the source files into the destination directory, and then removes any files from the destination directory which it did not copy. This can be useful for doing things such as installing your application, creating an exploded copy of your archives, or maintaining a copy of the project's dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T124952Z" creationid="huanghaohang" creationdate="20171126T124952Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;Sync&lt;/c1&gt;&lt;/a0&gt; 任务扩展了 &lt;c2&gt;Copy&lt;/c2&gt; 任务。当它执行时，它会将源文件复制到目标目录中，然后从目标目录中删除它没有复制的所有文件。这可以用于执行诸如安装应用程序，创建归档文件的分解（解压）副本，或维护项目依赖的副本等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;Project&lt;/c0&gt; instance</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132123Z" creationid="huanghaohang" creationdate="20170913T132123Z">
@@ -9082,6 +9114,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>exclude &lt;s1&gt;'**/*staging*'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060921Z" creationid="huanghaohang" creationdate="20171126T060921Z">
+        <seg>exclude &lt;s1&gt;'**/*staging*'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>exclude { details -&gt; details.file.name.endsWith(&lt;s4&gt;'.html'&lt;/s4&gt;) &amp;&amp; details.file.text.contains(&lt;s5&gt;'staging'&lt;/s5&gt;) }
 }</seg>
       </tuv>
@@ -9340,6 +9380,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from(&lt;s2&gt;'src/dist'&lt;/s2&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060921Z" creationid="huanghaohang" creationdate="20171126T060921Z">
+        <seg>from(&lt;s2&gt;'src/dist'&lt;/s2&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from(file(&lt;s1&gt;'srcDir'&lt;/s1&gt;))</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120837Z" creationid="huanghaohang" creationdate="20170919T120837Z">
@@ -9590,6 +9638,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>include &lt;s3&gt;'**/*.html'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060922Z" creationid="huanghaohang" creationdate="20171126T060922Z">
+        <seg>include &lt;s3&gt;'**/*.html'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>include &lt;s3&gt;'**/*.jsp'&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075121Z" creationid="huanghaohang" creationdate="20171015T075121Z">
@@ -9690,6 +9746,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>into &lt;s0&gt;'build/explodedWar'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060920Z" creationid="huanghaohang" creationdate="20171126T060920Z">
+        <seg>into &lt;s0&gt;'build/explodedWar'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>into &lt;s1&gt;'build/explodedWar'&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075118Z" creationid="huanghaohang" creationdate="20171015T075118Z">
@@ -9764,6 +9828,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125719Z" creationid="95" creationdate="20170803T125719Z">
         <seg>into(&lt;s1&gt;'libs'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>into(&lt;s4&gt;'libs'&lt;/s4&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060923Z" creationid="huanghaohang" creationdate="20171126T060923Z">
+        <seg>into(&lt;s4&gt;'libs'&lt;/s4&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -11489,6 +11561,14 @@ myCopy {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T141958Z" creationid="95" creationdate="20170727T141958Z">
         <seg>task myTask {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task nestedSpecs(type: Copy) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060919Z" creationid="huanghaohang" creationdate="20171126T060919Z">
+        <seg>task nestedSpecs(type: Copy) {</seg>
       </tuv>
     </tu>
     <tu>
