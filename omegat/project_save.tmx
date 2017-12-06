@@ -1744,6 +1744,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;baseName&lt;/c1&gt;&lt;/e0&gt;-&lt;e2&gt;&lt;c3&gt;appendix&lt;/c3&gt;&lt;/e2&gt;-&lt;e4&gt;&lt;c5&gt;version&lt;/c5&gt;&lt;/e4&gt;-&lt;e6&gt;&lt;c7&gt;classifier&lt;/c7&gt;&lt;/e6&gt;.&lt;e8&gt;&lt;c9&gt;extension&lt;/c9&gt;&lt;/e8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232635Z" creationid="huanghaohang" creationdate="20171206T232635Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;baseName&lt;/c1&gt;&lt;/e0&gt;-&lt;e2&gt;&lt;c3&gt;appendix&lt;/c3&gt;&lt;/e2&gt;-&lt;e4&gt;&lt;c5&gt;version&lt;/c5&gt;&lt;/e4&gt;-&lt;e6&gt;&lt;c7&gt;classifier&lt;/c7&gt;&lt;/e6&gt;.&lt;e8&gt;&lt;c9&gt;extension&lt;/c9&gt;&lt;/e8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132223Z" creationid="huanghaohang" creationdate="20170913T132223Z">
@@ -2642,6 +2650,26 @@ I am not affected</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084842Z" creationid="huanghaohang" creationdate="20170922T084842Z">
         <seg>&gt; gradle -q myTask
 I am not affected</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q myZip
+customName-1.0.zip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232535Z" creationid="huanghaohang" creationdate="20171206T232535Z">
+        <seg>&gt; gradle -q myZip
+customName-1.0.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q myZip
+gradle-wrapper-1.0-src.zip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232603Z" creationid="huanghaohang" creationdate="20171206T232603Z">
+        <seg>&gt; gradle -q myZip
+gradle-wrapper-1.0-src.zip</seg>
       </tuv>
     </tu>
     <tu>
@@ -3862,6 +3890,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Default value</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232616Z" creationid="huanghaohang" creationdate="20171206T232616Z">
+        <seg>默认值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Defines the root directory of your Gradle project (typically where build.gradle is located).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T150003Z" creationid="huanghaohang" creationdate="20170911T145903Z">
@@ -3890,6 +3926,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072817Z" creationid="95" creationdate="20170723T072621Z">
         <seg>介绍如何安装Gradle。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Description</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232622Z" creationid="huanghaohang" creationdate="20171206T232622Z">
+        <seg>描述</seg>
       </tuv>
     </tu>
     <tu>
@@ -4618,6 +4662,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T140713Z" creationid="huanghaohang" creationdate="20171126T140713Z">
         <seg>示例 16.20. 创建 ZIP 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.21. Configuration of archive task - custom archive name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232529Z" creationid="huanghaohang" creationdate="20171206T232529Z">
+        <seg>示例 16.21. 配置归档任务-自定义归档名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 16.22. Configuration of archive task - appendix &amp; classifier</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232556Z" creationid="huanghaohang" creationdate="20171206T232556Z">
+        <seg>示例 16.22. 配置归档任务 - appendix &amp; classifier</seg>
       </tuv>
     </tu>
     <tu>
@@ -5610,6 +5670,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T075102Z" creationid="huanghaohang" creationdate="20170909T075102Z">
         <seg>如果任务失败了，则依赖于它的所有后续任务将不会被执行，因为那样做是不安全的。例如，如果在测试代码中存在编译失败，测试将不会运行;因为测试任务会（直接或间接地）依赖于编译任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If any of these properties is empty the trailing &lt;c0&gt;-&lt;/c0&gt; is not added to the name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232752Z" creationid="huanghaohang" creationdate="20171206T232752Z">
+        <seg>如果这些属性中的任何一个为空，那其跟随的&lt;c0&gt;-&lt;/c0&gt;不会被添加到该名称中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6610,6 +6678,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031747Z" creationid="huanghaohang" creationdate="20170927T031747Z">
         <seg>项目和任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Property name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232615Z" creationid="huanghaohang" creationdate="20171206T232615Z">
+        <seg>属性名称</seg>
       </tuv>
     </tu>
     <tu>
@@ -8346,6 +8422,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can further customize the archive names:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232546Z" creationid="huanghaohang" creationdate="20171206T232546Z">
+        <seg>你也可以进一步自定义存档名称：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can locate a file relative to the project directory using the &lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T125024Z" creationid="huanghaohang" creationdate="20170923T125024Z">
@@ -8580,6 +8664,14 @@ webapp:libs - Builds the JAR [api:libs]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>appendix = &lt;s3&gt;'wrapper'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232559Z" creationid="huanghaohang" creationdate="20171206T232559Z">
+        <seg>appendix = &lt;s3&gt;'wrapper'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply from: &lt;s0&gt;'other.gradle'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145336Z" creationid="huanghaohang" creationdate="20170918T145336Z">
@@ -8704,6 +8796,36 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+archivesBaseName = &lt;s1&gt;'gradle'&lt;/s1&gt;
+version = &lt;s2&gt;1.0&lt;/s2&gt;
+
+task myZip(type: Zip) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232558Z" creationid="huanghaohang" creationdate="20171206T232558Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+archivesBaseName = &lt;s1&gt;'gradle'&lt;/s1&gt;
+version = &lt;s2&gt;1.0&lt;/s2&gt;
+
+task myZip(type: Zip) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+version = &lt;s1&gt;1.0&lt;/s1&gt;
+
+task myZip(type: Zip) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232531Z" creationid="huanghaohang" creationdate="20171206T232531Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+version = &lt;s1&gt;1.0&lt;/s1&gt;
+
+task myZip(type: Zip) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'jetty'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005600Z" creationid="huanghaohang" creationdate="20170909T005600Z">
@@ -8736,6 +8858,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124424Z" creationid="95" creationdate="20170803T124424Z">
         <seg>apply plugin: &lt;s1&gt;'eclipse-wtp'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>archiveName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232629Z" creationid="huanghaohang" creationdate="20171206T232629Z">
+        <seg>archiveName</seg>
       </tuv>
     </tu>
     <tu>
@@ -8806,6 +8936,20 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>baseName = &lt;s3&gt;'customName'&lt;/s3&gt;
+}
+
+println myZip.archiveName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232534Z" creationid="huanghaohang" creationdate="20171206T232534Z">
+        <seg>baseName = &lt;s3&gt;'customName'&lt;/s3&gt;
+}
+
+println myZip.archiveName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>beginIndex = &lt;s2&gt;1&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145822Z" creationid="huanghaohang" creationdate="20170918T145822Z">
@@ -8850,6 +8994,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132406Z" creationid="huanghaohang" creationdate="20170917T132406Z">
         <seg>classesDir.mkdirs()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classifier = &lt;s4&gt;'src'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232600Z" creationid="huanghaohang" creationdate="20171206T232600Z">
+        <seg>classifier = &lt;s4&gt;'src'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -9534,6 +9686,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from &lt;s2&gt;'somedir'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232532Z" creationid="huanghaohang" creationdate="20171206T232532Z">
+        <seg>from &lt;s2&gt;'somedir'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from &lt;s2&gt;'somedir'&lt;/s2&gt;
 }
 
@@ -9564,6 +9724,20 @@ println relativePath(myZip.archivePath)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075018Z" creationid="huanghaohang" creationdate="20171015T075018Z">
         <seg>from &lt;s3&gt;'src/staging/index.html'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;s5&gt;'somedir'&lt;/s5&gt;
+}
+
+println myZip.archiveName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232602Z" creationid="huanghaohang" creationdate="20171206T232602Z">
+        <seg>from &lt;s5&gt;'somedir'&lt;/s5&gt;
+}
+
+println myZip.archiveName</seg>
       </tuv>
     </tu>
     <tu>
