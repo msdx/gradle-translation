@@ -1026,6 +1026,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>16.8.2. Sharing content between multiple archives</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233336Z" creationid="huanghaohang" creationdate="20171206T233336Z">
+        <seg>16.8.2. 共享多个归档之间的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>16.8. Creating archives</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125205Z" creationid="huanghaohang" creationdate="20171126T125205Z">
@@ -3926,6 +3934,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050136Z" creationid="huanghaohang" creationdate="20170908T050044Z">
         <seg>依赖配置也用于发布文件。&lt;s0&gt;[&lt;a1&gt;3&lt;/a1&gt;]&lt;/s0&gt;我们称这些文件&lt;e2&gt;发布构件&lt;/e2&gt;，通常也叫做&lt;e3&gt;构件&lt;/e3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Depends on the archive type, and for TAR files, the compression type as well: &lt;c0&gt;zip&lt;/c0&gt;, &lt;c1&gt;jar&lt;/c1&gt;, &lt;c2&gt;war&lt;/c2&gt;, &lt;c3&gt;tar&lt;/c3&gt;, &lt;c4&gt;tgz&lt;/c4&gt; or &lt;c5&gt;tbz2&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233319Z" creationid="huanghaohang" creationdate="20171206T233319Z">
+        <seg>依赖于归档类型，并且对于TAR文件，可以是以下压缩类型：&lt;c0&gt;zip&lt;/c0&gt;, &lt;c1&gt;jar&lt;/c1&gt;, &lt;c2&gt;war&lt;/c2&gt;, &lt;c3&gt;tar&lt;/c3&gt;, &lt;c4&gt;tgz&lt;/c4&gt; 或 &lt;c5&gt;tbz2&lt;/c5&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7246,6 +7262,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The appendix portion of the archive file name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233159Z" creationid="huanghaohang" creationdate="20171206T233159Z">
+        <seg>归档文件名称中的附录部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The archive tasks all work exactly the same way as the &lt;c0&gt;Copy&lt;/c0&gt; task, and implement the same &lt;c1&gt;CopySpec&lt;/c1&gt; interface. As with the &lt;c2&gt;Copy&lt;/c2&gt; task, you specify the input files using the &lt;c3&gt;from()&lt;/c3&gt; method, and can optionally specify where they end up in the archive using the &lt;c4&gt;into()&lt;/c4&gt; method. You can filter the contents of file, rename files, and all the other things you can do with a copy spec.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T140626Z" creationid="huanghaohang" creationdate="20171126T140030Z">
@@ -7258,6 +7282,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232802Z" creationid="huanghaohang" creationdate="20171206T232802Z">
         <seg>生成的归档文件的基本文件名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The base name portion of the archive file name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233147Z" creationid="huanghaohang" creationdate="20171206T233147Z">
+        <seg>归档文件名称中的基本名称部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7282,6 +7314,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T133618Z" creationid="95" creationdate="20170727T133133Z">
         <seg>&lt;c0&gt;doFirst&lt;/c0&gt;和&lt;c1&gt;doLast&lt;/c1&gt; 可以被多次调用，它们分别是向任务的动作列表的开头或结尾添加一个动作。当任务执行的时候，动作列表的这些动作会依次执行。&lt;c2&gt;&lt;&lt;&lt;/c2&gt; 操作只是 &lt;c3&gt;doLast&lt;/c3&gt;的别名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The classifier portion of the archive file name,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233223Z" creationid="huanghaohang" creationdate="20171206T233223Z">
+        <seg>归档文件名称中的分类部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7346,6 +7386,22 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132217Z" creationid="huanghaohang" creationdate="20170913T132217Z">
         <seg>包含构建脚本的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The directory to generate the archive into</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233114Z" creationid="huanghaohang" creationdate="20171206T233114Z">
+        <seg>存放生成的归档文件的目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The extension of the archive file name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233326Z" creationid="huanghaohang" creationdate="20171206T233326Z">
+        <seg>归档文件名称中的扩展名称部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7458,6 +7514,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114522Z" creationid="95" creationdate="20170723T114522Z">
         <seg>用户指南（HTML和PDF两种版本）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The version portion of the archive file name.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233211Z" creationid="huanghaohang" creationdate="20171206T233211Z">
+        <seg>归档文件名称中的版本部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8696,6 +8760,14 @@ webapp:libs - Builds the JAR [api:libs]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>appendix</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233148Z" creationid="huanghaohang" creationdate="20171206T233148Z">
+        <seg>appendix</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>appendix = &lt;s3&gt;'wrapper'&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232559Z" creationid="huanghaohang" creationdate="20171206T232559Z">
@@ -8976,6 +9048,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>baseName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233116Z" creationid="huanghaohang" creationdate="20171206T233116Z">
+        <seg>baseName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>baseName = &lt;s3&gt;'customName'&lt;/s3&gt;
 }
 
@@ -9034,6 +9114,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132406Z" creationid="huanghaohang" creationdate="20170917T132406Z">
         <seg>classesDir.mkdirs()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classifier</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233212Z" creationid="huanghaohang" creationdate="20171206T233212Z">
+        <seg>classifier</seg>
       </tuv>
     </tu>
     <tu>
@@ -9576,6 +9664,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085708Z" creationid="huanghaohang" creationdate="20170922T085708Z">
         <seg>ext.srcFile = file(&lt;s0&gt;'mountains.xml'&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>extension</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233225Z" creationid="huanghaohang" creationdate="20171206T233225Z">
+        <seg>extension</seg>
       </tuv>
     </tu>
     <tu>
@@ -10531,6 +10627,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132126Z" creationid="huanghaohang" creationdate="20170913T132126Z">
         <seg>name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>null</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233151Z" creationid="huanghaohang" creationdate="20171206T233151Z">
+        <seg>null</seg>
       </tuv>
     </tu>
     <tu>
@@ -11495,6 +11599,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130122Z" creationid="huanghaohang" creationdate="20170919T130122Z">
         <seg>project(&lt;s0&gt;'projectA'&lt;/s0&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233117Z" creationid="huanghaohang" creationdate="20171206T233117Z">
+        <seg>project.name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233200Z" creationid="huanghaohang" creationdate="20171206T233200Z">
+        <seg>project.version</seg>
       </tuv>
     </tu>
     <tu>
