@@ -1752,6 +1752,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;destinationDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;archiveName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232806Z" creationid="huanghaohang" creationdate="20171206T232806Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;destinationDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;archiveName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132223Z" creationid="huanghaohang" creationdate="20170913T132223Z">
@@ -3918,6 +3926,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050136Z" creationid="huanghaohang" creationdate="20170908T050044Z">
         <seg>依赖配置也用于发布文件。&lt;s0&gt;[&lt;a1&gt;3&lt;/a1&gt;]&lt;/s0&gt;我们称这些文件&lt;e2&gt;发布构件&lt;/e2&gt;，通常也叫做&lt;e3&gt;构件&lt;/e3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Depends on the archive type. JARs and WARs are generated into &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;project.buildDir&lt;/c2&gt;&lt;/e1&gt;/libraries&lt;/c0&gt;. ZIPs and TARs are generated into &lt;c3&gt;&lt;e4&gt;&lt;c5&gt;project.buildDir&lt;/c5&gt;&lt;/e4&gt;/distributions&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233108Z" creationid="huanghaohang" creationdate="20171206T233108Z">
+        <seg>依赖于存档类型。 JAR 和 WAR 会生成到&lt;c0&gt;&lt;e1&gt;&lt;c2&gt;project.buildDir&lt;/c2&gt;&lt;/e1&gt;/libraries&lt;/c0&gt;中。 ZIP 和 TAR 则会生成到&lt;c3&gt;&lt;e4&gt;&lt;c5&gt;project.buildDir&lt;/c5&gt;&lt;/e4&gt;/distributions&lt;/c3&gt;中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7214,6 +7230,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The absolute path of the generated archive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232813Z" creationid="huanghaohang" creationdate="20171206T232813Z">
+        <seg>生成的归档文件的绝对路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The absolute path of the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132143Z" creationid="huanghaohang" creationdate="20170913T132143Z">
@@ -7226,6 +7250,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T140626Z" creationid="huanghaohang" creationdate="20171126T140030Z">
         <seg>归档任务与 &lt;c0&gt;Copy&lt;/c0&gt; 任务的使用方式完全一样，并且实现了同样的 &lt;c1&gt;CopySpec&lt;/c1&gt; 接口。像使用 &lt;c2&gt;Copy&lt;/c2&gt; 任务一样，你需要使用 &lt;c3&gt;from()&lt;/c3&gt; 方法指定输入文件，并且可以选择使用 &lt;c4&gt;into()&lt;/c4&gt; 方法来指定它们在归档中结束的位置。你可以过滤文件内容，重命名文件以及进行通过复制规范可以做的其他事情。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The base file name of the generated archive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232802Z" creationid="huanghaohang" creationdate="20171206T232802Z">
+        <seg>生成的归档文件的基本文件名</seg>
       </tuv>
     </tu>
     <tu>
@@ -8870,6 +8902,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>archivePath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232803Z" creationid="huanghaohang" creationdate="20171206T232803Z">
+        <seg>archivePath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>archives dist
 }</seg>
       </tuv>
@@ -9364,6 +9404,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085716Z" creationid="huanghaohang" creationdate="20170922T085716Z">
         <seg>destFile.text = &lt;s9&gt;"$name -&gt; ${height}\n"&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>destinationDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232818Z" creationid="huanghaohang" creationdate="20171206T232818Z">
+        <seg>destinationDir</seg>
       </tuv>
     </tu>
     <tu>
