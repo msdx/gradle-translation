@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N113DF</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171210T152234Z" creationid="huanghaohang" creationdate="20171210T152234Z">
+        <seg>#ftn.N113DF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>*** gradle.manifesto.txt ***
 Make the impossible possible, make the possible easy and make the easy elegant.
 (inspired by Moshe Feldenkrais)</seg>
@@ -3622,8 +3630,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Ant can be divided into two layers. The first layer is the Ant language. It provides the syntax for the &lt;c0&gt;build.xml&lt;/c0&gt;, the handling of the targets, special constructs like macrodefs, and so on. In other words, everything except the Ant tasks and types. Gradle understands this language, and allows you to import your Ant &lt;c1&gt;build.xml&lt;/c1&gt; directly into a Gradle project. You can then use the targets of your Ant build as if they were Gradle tasks.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171210T151946Z" creationid="huanghaohang" creationdate="20171210T151111Z">
-        <seg>Ant 可以分为两层。第一层是 Ant 语言，它为&lt;c0&gt;build.xml&lt;/c0&gt;，目标的处理，像宏定义这样的特殊结构等等提供了语法。换句话说，除了 Ant 任务和类型以外的所有东西都有。 Gradle 理解这种语言，并允许你把你的 Ant &lt;c1&gt;build.xml文件&lt;/c1&gt;直接导入 Gradle 项目。然后，你可以像使用 Gradle 任务一样使用 Ant 构建里的目标。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171210T152022Z" creationid="huanghaohang" creationdate="20171210T151111Z">
+        <seg>Ant 可以分为两层。第一层是 Ant 语言，它为&lt;c0&gt;build.xml&lt;/c0&gt;，目标的处理，像宏定义这样的特殊结构等等提供了语法。换句话说，除了 Ant 任务和类型以外的所有东西都有。 Gradle 理解这种语言，并允许你把你的 Ant &lt;c1&gt;build.xml&lt;/c1&gt; 直接导入 Gradle 项目。然后，你可以像使用 Gradle 任务一样使用 Ant 构建里的目标。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7914,6 +7922,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011401Z" creationid="huanghaohang" creationdate="20170910T011134Z">
         <seg>这个报告显示了每一个项目的描述信息（如果你有配置这个项目的描述信息的话）。你可以通过设置&lt;c0&gt;description&lt;/c0&gt;属性来提供项目的描述信息：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The second layer of Ant is its wealth of Ant tasks and types, like &lt;c0&gt;javac&lt;/c0&gt;, &lt;c1&gt;copy&lt;/c1&gt; or &lt;c2&gt;jar&lt;/c2&gt;. For this layer Gradle provides integration simply by relying on Groovy, and the fantastic &lt;c3&gt;AntBuilder&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171210T152241Z" creationid="huanghaohang" creationdate="20171210T151948Z">
+        <seg>Ant 的第二层是它丰富的 Ant 任务和类型，比如&lt;c0&gt;javac&lt;/c0&gt;， &lt;c1&gt;copy&lt;/c1&gt;或&lt;c2&gt;jar&lt;/c2&gt;。对于这一层，Gradle 只依靠 Groovy 和极出色的 &lt;c3&gt;AntBuilder&lt;/c3&gt; 来提供集成。</seg>
       </tuv>
     </tu>
     <tu>
