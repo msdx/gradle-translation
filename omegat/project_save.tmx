@@ -5586,6 +5586,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finally, since build scripts are Groovy scripts, you can always execute an Ant build as an external process. Your build script may contain statements like:&lt;c0&gt;"ant clean compile".execute()&lt;/c0&gt;. &lt;s1&gt;[&lt;a2&gt;8&lt;/a2&gt;]&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171213T135909Z" creationid="huanghaohang" creationdate="20171213T135909Z">
+        <seg>最后，由于构建脚本是 Groovy 脚本，因此你始终可以将 Ant 构建作为一个外部进程来执行 Ant 构建。你的构建脚本可能包含有类似这样的语句：&lt;c0&gt;"ant clean compile".execute()&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For Java teams which share also Python or Ruby knowledge or are happy to learn it, the above arguments don't apply. The Gradle design is well-suited for creating another build script engine in JRuby or Jython. It just doesn't have the highest priority for us at the moment. We happily support any community effort to create additional build script engines.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072131Z" creationid="95" creationdate="20170723T071728Z">
@@ -9066,6 +9074,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T013040Z" creationid="95" creationdate="20170730T013011Z">
         <seg>你可以使用 &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt; 来列出一个项目的任务，这样就会看到Java插件向项目添加了哪些项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use Gradle's Ant integration as a path for migrating your build from Ant to Gradle. For example, you could start by importing your existing Ant build. Then you could move your dependency declarations from the Ant script to your build file. Finally, you could move your tasks across to your build file, or replace them with some of Gradle's plugins. This process can be done in parts over time, and you can have a working Gradle build during the entire process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171213T140858Z" creationid="huanghaohang" creationdate="20171213T135916Z">
+        <seg>你可以将 Gradle 的 Ant 集成作为将你的构建从 Ant 迁移到 Gradle 的一种途径。例如，你可以从导入现有的 Ant 构建开始。然后，你可以将你的依赖声明从 Ant 脚本移到你的构建文件。最后，你可以把你的任务移到你的构建文件中，或者用一些 Gradle 插件来替换它们。这个过程可以在一段时间内完成，并且在这整个过程中你的 Gradle 构建都可以使用。</seg>
       </tuv>
     </tu>
     <tu>
