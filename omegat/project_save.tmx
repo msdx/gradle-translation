@@ -1202,6 +1202,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>17.1. Using Ant tasks and types in your build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171213T140906Z" creationid="huanghaohang" creationdate="20171213T140906Z">
+        <seg>17.1. 在构建中使用 Ant 任务和类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -6262,6 +6270,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135016Z" creationid="huanghaohang" creationdate="20170913T133607Z">
         <seg>在这个例子中，&lt;c0&gt;ext&lt;/c0&gt;块将两个额外属性添加到&lt;c1&gt;project&lt;/c1&gt;对象中。此外，通过把&lt;c3&gt;ext.purpose&lt;/c3&gt;设置为&lt;c4&gt;null&lt;/c4&gt;（&lt;c5&gt;null&lt;/c5&gt;是允许的值），将&lt;c2&gt;purpose&lt;/c2&gt;属性添加到每个源码集（source set）中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In your build script, a property called &lt;c0&gt;ant&lt;/c0&gt; is provided by Gradle. This is a reference to an &lt;a1&gt;&lt;c2&gt;AntBuilder&lt;/c2&gt;&lt;/a1&gt; instance. This &lt;c3&gt;AntBuilder&lt;/c3&gt; is used to access Ant tasks, types and properties from your build script. There is a very simple mapping from Ant's &lt;c4&gt;build.xml&lt;/c4&gt; format to Groovy, which is explained below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171213T142456Z" creationid="huanghaohang" creationdate="20171213T140910Z">
+        <seg>在构建脚本中，Gradle 提供了一个叫 &lt;c0&gt;ant&lt;/c0&gt; 的属性，它是一个指向 &lt;a1&gt;&lt;c2&gt;AntBuilder&lt;/c2&gt;&lt;/a1&gt; 实例的引用。这个 &lt;c3&gt;AntBuilder&lt;/c3&gt; 用于从构建脚本中访问 Ant 任务，类型和属性。从 Ant 的 &lt;c4&gt;build.xml&lt;/c4&gt; 格式到 Groovy 之间有一个非常简单的映射，这将在下面解释。</seg>
       </tuv>
     </tu>
     <tu>
