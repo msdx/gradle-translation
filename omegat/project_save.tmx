@@ -1204,8 +1204,8 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       <tuv lang="EN-US">
         <seg>17.1.1. Using custom Ant tasks in your build</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083509Z" creationid="huanghaohang" creationdate="20180105T083509Z">
-        <seg>17.1.1. 在您的构建中使用自定义 Ant 任务</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083617Z" creationid="huanghaohang" creationdate="20180105T083509Z">
+        <seg>17.1.1. 在你的构建中使用自定义 Ant 任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -5158,6 +5158,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 17.5. Using a custom Ant task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083826Z" creationid="huanghaohang" creationdate="20180105T083826Z">
+        <seg>示例 17.5. 使用自定义 Ant 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -6536,8 +6544,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>More information about &lt;c0&gt;AntBuilder&lt;/c0&gt; can be found in 'Groovy in Action' 8.4 or at the &lt;a1&gt;Groovy Wiki&lt;/a1&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083513Z" creationid="huanghaohang" creationdate="20180105T083402Z">
-        <seg>有关&lt;c0&gt;AntBuilder&lt;/c0&gt;的详细信息，可以参阅 《Groovy in Action》的第 8.4 节， 或者是&lt;a1&gt;Groovy Wiki&lt;/a1&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083531Z" creationid="huanghaohang" creationdate="20180105T083402Z">
+        <seg>有 关&lt;c0&gt;AntBuilder&lt;/c0&gt; 的详细信息，可以参阅 《Groovy in Action》的第 8.4 节， 或者是 &lt;a1&gt;Groovy Wiki&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8482,6 +8490,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To make custom tasks available in your build, you can use the &lt;c0&gt;taskdef&lt;/c0&gt; (usually easier) or &lt;c1&gt;typedef&lt;/c1&gt; Ant task, just as you would in a &lt;c2&gt;build.xml&lt;/c2&gt; file. You can then refer to the custom Ant task as you would a built-in Ant task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083822Z" creationid="huanghaohang" creationdate="20180105T083543Z">
+        <seg>要使自定义任务在你的构建中可用，你可以使用 &lt;c0&gt;taskdef&lt;/c0&gt;（通常更容易）或者是&lt;c1&gt;typedef&lt;/c1&gt; Ant 任务，就像在&lt;c2&gt;build.xml&lt;/c2&gt;文件中一样。然后，你可以像引用内置的 Ant 任务一样引用这个自定义 Ant 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To publish the JAR file, run &lt;s0&gt;&lt;c1&gt;gradle uploadArchives&lt;/c1&gt;&lt;/s0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153732Z" creationid="95" creationdate="20170731T153732Z">
@@ -9194,6 +9210,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use Gradle's dependency management to assemble the classpath to use for the custom tasks. To do this, you need to define a custom configuration for the classpath, then add some dependencies to the configuration. This is described in more detail in &lt;a0&gt;Section 50.4, “How to declare your dependencies”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084245Z" creationid="huanghaohang" creationdate="20180105T083842Z">
+        <seg>你可以使用 Gradle 的依赖管理来组装用于自定义任务的类路径。为此，你需要为类路径定义一个自定义配置，然后向这个配置添加一些依赖。这在《&lt;a0&gt;第 50.4 节，“如何声明你的依赖关系”&lt;/a0&gt;》中有更详细的描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use the &lt;a0&gt;&lt;c1&gt;Copy&lt;/c1&gt;&lt;/a0&gt; task to copy files. The copy task is very flexible, and allows you to, for example, filter the contents of the files as they are copied, and map to the file names.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134516Z" creationid="huanghaohang" creationdate="20171002T134324Z">
@@ -9346,6 +9370,14 @@ No dependencies</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ant.checkstyle(config: &lt;s3&gt;'checkstyle.xml'&lt;/s3&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083833Z" creationid="huanghaohang" creationdate="20180105T083833Z">
+        <seg>ant.checkstyle(config: &lt;s3&gt;'checkstyle.xml'&lt;/s3&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ant.checksum(file: file, property: &lt;s1&gt;"cs_$file.name"&lt;/s1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T023458Z" creationid="95" creationdate="20170729T023458Z">
@@ -9386,6 +9418,14 @@ No dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153801Z" creationid="95" creationdate="20170728T153801Z">
         <seg>ant.loadfile(srcFile: file, property: file.name)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.taskdef(resource: &lt;s0&gt;'checkstyletask.properties'&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083828Z" creationid="huanghaohang" creationdate="20180105T083828Z">
+        <seg>ant.taskdef(resource: &lt;s0&gt;'checkstyletask.properties'&lt;/s0&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -9850,6 +9890,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232600Z" creationid="huanghaohang" creationdate="20171206T232600Z">
         <seg>classifier = &lt;s4&gt;'src'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classpath {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083830Z" creationid="huanghaohang" creationdate="20180105T083830Z">
+        <seg>classpath {</seg>
       </tuv>
     </tu>
     <tu>
@@ -10486,10 +10534,26 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>fileset(dir: &lt;s1&gt;'libs'&lt;/s1&gt;, includes: &lt;s2&gt;'*.jar'&lt;/s2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083831Z" creationid="huanghaohang" creationdate="20180105T083831Z">
+        <seg>fileset(dir: &lt;s1&gt;'libs'&lt;/s1&gt;, includes: &lt;s2&gt;'*.jar'&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>fileset(dir: &lt;s1&gt;'src'&lt;/s1&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T090756Z" creationid="huanghaohang" creationdate="20171219T090756Z">
         <seg>fileset(dir: &lt;s1&gt;'src'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fileset(dir: &lt;s4&gt;'src'&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083840Z" creationid="huanghaohang" creationdate="20180105T083840Z">
+        <seg>fileset(dir: &lt;s4&gt;'src'&lt;/s4&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -12713,6 +12777,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075014Z" creationid="huanghaohang" creationdate="20171015T075014Z">
         <seg>task anotherCopyTask(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task check &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083827Z" creationid="huanghaohang" creationdate="20180105T083827Z">
+        <seg>task check &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
