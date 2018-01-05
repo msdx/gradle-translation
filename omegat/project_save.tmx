@@ -5134,6 +5134,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 17.3. Passing nested elements to an Ant task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T090752Z" creationid="huanghaohang" creationdate="20171219T090752Z">
+        <seg>示例 17.3. 向 Ant 任务传入嵌套元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 17.4. Using an Ant type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T091121Z" creationid="huanghaohang" creationdate="20171219T091121Z">
+        <seg>示例 17.4. 使用 Ant 类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -8866,6 +8882,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can access Ant types in the same way that you access tasks, using the name of the type as the method name. The method call returns the Ant data type, which you can then use directly in your build script. In the following example, we create an Ant &lt;c0&gt;path&lt;/c0&gt; object, then iterate over the contents of it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T091117Z" creationid="huanghaohang" creationdate="20171219T090833Z">
+        <seg>你可以像访问任务一样，使用类型名作为方法名来访问 Ant 类型。方法调用将返回 Ant 数据类型，可以让你在构建脚本直接中使用。在下面的例子中，我们创建了一个 Ant &lt;c0&gt;path&lt;/c0&gt; 对象，然后遍历它的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can access a project property in your build script simply by using its name as you would use a variable. In case this property does not exists, an exception is thrown and the build fails. If your build script relies on optional properties the user might set for example in a gradle.properties file, you need to check for existence before you can access them. You can do this by using the method &lt;c0&gt;hasProperty('propertyName')&lt;/c0&gt; which returns &lt;c1&gt;true&lt;/c1&gt; or &lt;c2&gt;false&lt;/c2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145149Z" creationid="huanghaohang" creationdate="20170918T145149Z">
@@ -9212,8 +9236,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>You pass nested elements to an Ant task inside a closure. Nested elements are defined in the same way as tasks, by calling a method with the same name as the element we want to define.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171216T022614Z" creationid="huanghaohang" creationdate="20171216T022614Z">
-        <seg>You pass nested elements to an Ant task inside a closure. Nested elements are defined in the same way as tasks, by calling a method with the same name as the element we want to define.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T090745Z" creationid="huanghaohang" creationdate="20171216T022614Z">
+        <seg>你可以在一个闭包里把嵌套的元素传给一个 Ant 任务。嵌套元素的定义方式与任务相同，通过调用与我们要定义的元素同名的方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9346,6 +9370,14 @@ No dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153801Z" creationid="95" creationdate="20170728T153801Z">
         <seg>ant.loadfile(srcFile: file, property: file.name)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.zip(destfile: &lt;s0&gt;'archive.zip'&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T090755Z" creationid="huanghaohang" creationdate="20171219T090755Z">
+        <seg>ant.zip(destfile: &lt;s0&gt;'archive.zip'&lt;/s0&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -10024,6 +10056,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def path = ant.path {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T091122Z" creationid="huanghaohang" creationdate="20171219T091122Z">
+        <seg>def path = ant.path {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def pos = &lt;s0&gt;new&lt;/s0&gt; java.text.FieldPosition(&lt;s1&gt;10&lt;/s1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T150025Z" creationid="huanghaohang" creationdate="20170918T150025Z">
@@ -10294,6 +10334,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>exclude(name: &lt;s3&gt;'**.java'&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T090757Z" creationid="huanghaohang" creationdate="20171219T090757Z">
+        <seg>exclude(name: &lt;s3&gt;'**.java'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>expand(copyright: &lt;s5&gt;'2009'&lt;/s5&gt;, version: &lt;s6&gt;'2.3.1'&lt;/s6&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060343Z" creationid="huanghaohang" creationdate="20171126T060343Z">
@@ -10410,6 +10458,22 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153759Z" creationid="95" creationdate="20170728T153759Z">
         <seg>files.each { File file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fileset(dir: &lt;s0&gt;'libs'&lt;/s0&gt;, includes: &lt;s1&gt;'*.jar'&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T091123Z" creationid="huanghaohang" creationdate="20171219T091123Z">
+        <seg>fileset(dir: &lt;s0&gt;'libs'&lt;/s0&gt;, includes: &lt;s1&gt;'*.jar'&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>fileset(dir: &lt;s1&gt;'src'&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T090756Z" creationid="huanghaohang" creationdate="20171219T090756Z">
+        <seg>fileset(dir: &lt;s1&gt;'src'&lt;/s1&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -10710,6 +10774,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://groovy.codehaus.org/Using+Ant+from+Groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083400Z" creationid="huanghaohang" creationdate="20180105T083400Z">
+        <seg>http://groovy.codehaus.org/Using+Ant+from+Groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://groovy.codehaus.org/groovy-jdk/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135850Z" creationid="huanghaohang" creationdate="20170913T135850Z">
@@ -10888,6 +10960,14 @@ tree.visit {element -&gt;</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T082309Z" creationid="huanghaohang" creationdate="20170922T082309Z">
         <seg>include(&lt;s3&gt;'**/*.txt'&lt;/s3&gt;, &lt;s4&gt;'**/*.xml'&lt;/s4&gt;, &lt;s5&gt;'**/*.properties'&lt;/s5&gt;)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include(name: &lt;s2&gt;'**.xml'&lt;/s2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T090756Z" creationid="huanghaohang" creationdate="20171219T090756Z">
+        <seg>include(name: &lt;s2&gt;'**.xml'&lt;/s2&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -11387,6 +11467,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132137Z" creationid="huanghaohang" creationdate="20170913T132137Z">
         <seg>path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>path.list().each {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T091124Z" creationid="huanghaohang" creationdate="20171219T091124Z">
+        <seg>path.list().each {</seg>
       </tuv>
     </tu>
     <tu>
@@ -12187,6 +12275,14 @@ def different = collection - files(&lt;s4&gt;'src/file3.txt'&lt;/s4&gt;)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println it</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T091125Z" creationid="huanghaohang" creationdate="20171219T091125Z">
+        <seg>println it</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println myTask.myProperty
 }</seg>
       </tuv>
@@ -12901,6 +12997,14 @@ myCopy {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155757Z" creationid="95" creationdate="20170726T155757Z">
         <seg>task upper &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task zip &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T090754Z" creationid="huanghaohang" creationdate="20171219T090754Z">
+        <seg>task zip &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
