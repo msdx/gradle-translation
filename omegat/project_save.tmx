@@ -62,6 +62,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#N113DF</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094812Z" creationid="huanghaohang" creationdate="20180105T094812Z">
+        <seg>#N113DF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#ftn.N100BF</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T070853Z" creationid="95" creationdate="20170723T070853Z">
@@ -1234,6 +1242,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>17.4. API</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094743Z" creationid="huanghaohang" creationdate="20180105T094743Z">
+        <seg>17.4. API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -2306,10 +2322,34 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;path&lt;/s0&gt; &lt;s1&gt;id&lt;/s1&gt;=&lt;s2&gt;"antPath"&lt;/s2&gt; &lt;s3&gt;location&lt;/s3&gt;=&lt;s4&gt;"libs"&lt;/s4&gt;&lt;s5&gt;/&gt;&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094737Z" creationid="huanghaohang" creationdate="20180105T094737Z">
+        <seg>&lt;s0&gt;&lt;path&lt;/s0&gt; &lt;s1&gt;id&lt;/s1&gt;=&lt;s2&gt;"antPath"&lt;/s2&gt; &lt;s3&gt;location&lt;/s3&gt;=&lt;s4&gt;"libs"&lt;/s4&gt;&lt;s5&gt;/&gt;&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;path&lt;/s0&gt; &lt;s1&gt;refid&lt;/s1&gt;=&lt;s2&gt;"classpath"&lt;/s2&gt;&lt;s3&gt;/&gt;&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094700Z" creationid="huanghaohang" creationdate="20180105T094700Z">
+        <seg>&lt;s0&gt;&lt;path&lt;/s0&gt; &lt;s1&gt;refid&lt;/s1&gt;=&lt;s2&gt;"classpath"&lt;/s2&gt;&lt;s3&gt;/&gt;&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;project&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084609Z" creationid="huanghaohang" creationdate="20180105T084609Z">
         <seg>&lt;s0&gt;&lt;project&gt;&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;property&lt;/s0&gt; &lt;s1&gt;name&lt;/s1&gt;=&lt;s2&gt;"antProp"&lt;/s2&gt; &lt;s3&gt;value&lt;/s3&gt;=&lt;s4&gt;"a property defined in an Ant build"&lt;/s4&gt;&lt;s5&gt;/&gt;&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094612Z" creationid="huanghaohang" creationdate="20180105T094612Z">
+        <seg>&lt;s0&gt;&lt;property&lt;/s0&gt; &lt;s1&gt;name&lt;/s1&gt;=&lt;s2&gt;"antProp"&lt;/s2&gt; &lt;s3&gt;value&lt;/s3&gt;=&lt;s4&gt;"a property defined in an Ant build"&lt;/s4&gt;&lt;s5&gt;/&gt;&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2366,6 +2406,14 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T050907Z" creationid="huanghaohang" creationdate="20170923T050907Z">
         <seg>&lt;s0&gt;[&lt;a1&gt;7&lt;/a1&gt;]&lt;/s0&gt;你可能会想，为什么没有导入&lt;c2&gt;StopExecutionException&lt;/c2&gt;，我们也没有通过其完全限定名来访问它。原因是，Gradle会向你的脚本添加一些默认的导入。这些导入是可以自定义的（参见&lt;a3&gt;附录E，&lt;i4&gt;现有的IDE支持及没有支持时如何应对&lt;/i4&gt;&lt;/a3&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;8&lt;/a1&gt;] &lt;/s0&gt;In Groovy you can execute Strings. To learn more about executing external processes with Groovy have a look in 'Groovy in Action' 9.3.2 or at the Groovy wiki</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094943Z" creationid="huanghaohang" creationdate="20180105T094943Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;8&lt;/a1&gt;] &lt;/s0&gt;在 Groovy 中，你可以执行字符串。要了解有关使用 Groovy 执行外部进程的更多信息，请参阅《Groovy in Action》第 9.3.2 节，或者是参考 Groovy wiki。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5332,6 +5380,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 17.13. Getting an Ant property</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094610Z" creationid="huanghaohang" creationdate="20180105T094610Z">
+        <seg>示例 17.13. 获取 Ant 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 17.14. Setting an Ant reference</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094658Z" creationid="huanghaohang" creationdate="20180105T094658Z">
+        <seg>示例 17.14. 设置一个 Ant 引用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 17.15. Getting an Ant reference</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094714Z" creationid="huanghaohang" creationdate="20180105T094714Z">
+        <seg>示例 17.15. 获取 Ant 引用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 17.2. Passing nested text to an Ant task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171216T022605Z" creationid="huanghaohang" creationdate="20171216T022605Z">
@@ -7912,6 +7984,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Ant integration is provided by &lt;a0&gt;&lt;c1&gt;AntBuilder&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094811Z" creationid="huanghaohang" creationdate="20180105T094811Z">
+        <seg>对 Ant 集成由 &lt;a0&gt;&lt;c1&gt;AntBuilder&lt;/c1&gt;&lt;/a0&gt; 提供。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Command Line tab is place to execute a single Gradle command directly. Just enter whatever you would normally enter after 'gradle' on the command line. This also provides a place to try out commands before adding them to favorites.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T145832Z" creationid="huanghaohang" creationdate="20170911T145832Z">
@@ -8360,10 +8440,26 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are several ways to get an Ant reference:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094706Z" creationid="huanghaohang" creationdate="20180105T094706Z">
+        <seg>有几种方法可以获取 Ant 引用：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are several ways to set an Ant property, so that the property can be used by Ant tasks. You can set the property directly on the &lt;c0&gt;AntBuilder&lt;/c0&gt; instance. The Ant properties are also available as a Map which you can change. You can also use the Ant &lt;c1&gt;property&lt;/c1&gt; task. Below are some examples of how to do this.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094332Z" creationid="huanghaohang" creationdate="20180105T085231Z">
         <seg>有几种方法来设置一个 Ant 属性，以便该属性可以被 Ant 任务使用。你可以直接在 &lt;c0&gt;AntBuilder&lt;/c0&gt; 实例上设置属性。这些 Ant 属性也可以作为可以更改的 Map 来使用。你也可以使用 Ant &lt;c1&gt;property&lt;/c1&gt; 任务。以下是一些如何做到这一点的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are several ways to set an Ant reference:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094651Z" creationid="huanghaohang" creationdate="20180105T094651Z">
+        <seg>有几种方法可以设置 Ant 引用：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9770,6 +9866,18 @@ task intro(dependsOn: hello) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153801Z" creationid="95" creationdate="20170728T153801Z">
         <seg>ant.loadfile(srcFile: file, property: file.name)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.path(id: &lt;s0&gt;'classpath'&lt;/s0&gt;, location: &lt;s1&gt;'libs'&lt;/s1&gt;)
+ant.references.classpath = ant.path(location: &lt;s2&gt;'libs'&lt;/s2&gt;)
+ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;'libs'&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094659Z" creationid="huanghaohang" creationdate="20180105T094659Z">
+        <seg>ant.path(id: &lt;s0&gt;'classpath'&lt;/s0&gt;, location: &lt;s1&gt;'libs'&lt;/s1&gt;)
+ant.references.classpath = ant.path(location: &lt;s2&gt;'libs'&lt;/s2&gt;)
+ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;'libs'&lt;/s4&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -12703,6 +12811,28 @@ taskX.finalizedBy taskY</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135031Z" creationid="huanghaohang" creationdate="20170917T135031Z">
         <seg>println System.properties[&lt;s0&gt;'system'&lt;/s0&gt;]
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println ant.antProp
+println ant.properties.antProp
+println ant.properties[&lt;s0&gt;'antProp'&lt;/s0&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094622Z" creationid="huanghaohang" creationdate="20180105T094622Z">
+        <seg>println ant.antProp
+println ant.properties.antProp
+println ant.properties[&lt;s0&gt;'antProp'&lt;/s0&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println ant.references.antPath
+println ant.references[&lt;s0&gt;'antPath'&lt;/s0&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094739Z" creationid="huanghaohang" creationdate="20180105T094739Z">
+        <seg>println ant.references.antPath
+println ant.references[&lt;s0&gt;'antPath'&lt;/s0&gt;]</seg>
       </tuv>
     </tu>
     <tu>
