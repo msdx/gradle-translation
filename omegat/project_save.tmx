@@ -2298,6 +2298,14 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;echo&gt;&lt;/s0&gt;buildDir = ${buildDir}&lt;s1&gt;&lt;/echo&gt;&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094352Z" creationid="huanghaohang" creationdate="20180105T094352Z">
+        <seg>&lt;s0&gt;&lt;echo&gt;&lt;/s0&gt;buildDir = ${buildDir}&lt;s1&gt;&lt;/echo&gt;&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;project&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084609Z" creationid="huanghaohang" creationdate="20180105T084609Z">
@@ -5316,6 +5324,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 17.12. Setting an Ant property</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094349Z" creationid="huanghaohang" creationdate="20180105T094349Z">
+        <seg>示例 17.12. 设置一个 Ant 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 17.2. Passing nested text to an Ant task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171216T022605Z" creationid="huanghaohang" creationdate="20171216T022605Z">
@@ -6744,6 +6760,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031833Z" creationid="huanghaohang" creationdate="20170927T031833Z">
         <seg>操纵现有任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Many Ant tasks set properties when they execute. There are several ways to get the value of these properties. You can get the property directly from the &lt;c0&gt;AntBuilder&lt;/c0&gt; instance. The Ant properties are also available as a Map. Below are some examples.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094605Z" creationid="huanghaohang" creationdate="20180105T094605Z">
+        <seg>许多 Ant 任务会在执行时设置属性，有几种方法可以获得这些属性的值。你可以直接从 &lt;c0&gt;AntBuilder&lt;/c0&gt; 实例获取属性。这些 Ant 属性也可以作为 Map 使用。以下是一些例子。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9636,6 +9660,20 @@ No dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132300Z" creationid="huanghaohang" creationdate="20170913T132300Z">
         <seg>ant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.buildDir = buildDir
+ant.properties.buildDir = buildDir
+ant.properties[&lt;s0&gt;'buildDir'&lt;/s0&gt;] = buildDir
+ant.property(name: &lt;s1&gt;'buildDir'&lt;/s1&gt;, location: buildDir)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094351Z" creationid="huanghaohang" creationdate="20180105T094351Z">
+        <seg>ant.buildDir = buildDir
+ant.properties.buildDir = buildDir
+ant.properties[&lt;s0&gt;'buildDir'&lt;/s0&gt;] = buildDir
+ant.property(name: &lt;s1&gt;'buildDir'&lt;/s1&gt;, location: buildDir)</seg>
       </tuv>
     </tu>
     <tu>
