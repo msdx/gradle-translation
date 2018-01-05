@@ -1218,6 +1218,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>17.2. Importing an Ant build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084337Z" creationid="huanghaohang" creationdate="20180105T084337Z">
+        <seg>17.2. 导入 Ant 构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -5166,6 +5174,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 17.6. Declaring the classpath for a custom Ant task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084250Z" creationid="huanghaohang" creationdate="20180105T084250Z">
+        <seg>示例 17.6. 声明用于自定义 Ant 任务的类路径</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 17.7. Using a custom Ant task and dependency management together</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084331Z" creationid="huanghaohang" creationdate="20180105T084331Z">
+        <seg>示例 17.7. 同时使用自定义 Ant 任务和依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -8546,6 +8570,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use the classpath configuration, use the &lt;c0&gt;asPath&lt;/c0&gt; property of the custom configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084314Z" creationid="huanghaohang" creationdate="20180105T084314Z">
+        <seg>要使用类路径配置，请使用自定义配置里的&lt;c0&gt;asPath&lt;/c0&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use the groovy compilation tasks, you must also declare the Groovy version to use and where to find the Groovy libraries. You do this by adding a dependency to the &lt;c0&gt;groovy&lt;/c0&gt; configuration. The &lt;c1&gt;compile&lt;/c1&gt; configuration inherits this dependency, so the groovy libraries will be included in classpath when compiling Groovy and Java source. For our sample, we will use Groovy 2.2.0 from the public Maven repository:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002702Z" creationid="huanghaohang" creationdate="20170909T002407Z">
@@ -9234,6 +9266,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use the &lt;c0&gt;ant.importBuild()&lt;/c0&gt; method to import an Ant build into your Gradle project. When you import an Ant build, each Ant target is treated as a Gradle task. This means you can manipulate and execute the Ant targets in exactly the same way as Gradle tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084604Z" creationid="huanghaohang" creationdate="20180105T084604Z">
+        <seg>你可以使用 &lt;c0&gt;ant.importBuild()&lt;/c0&gt; 方法将 Ant 构建导入到你的 Gradle 项目中。导入 Ant 构建时，每个 Ant 目标都被视为是一个 Gradle 任务。这意味着你可以像 Gradle 任务一样操作和执行 Ant 目标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use the &lt;c0&gt;onlyIf()&lt;/c0&gt; method to attach a predicate to a task. The task's actions are only executed if the predicate evaluates to true. You implement the predicate as a closure. The closure is passed the task as a parameter, and should return true if the task should execute and false if the task should be skipped. The predicate is evaluated just before the task is due to be executed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084102Z" creationid="huanghaohang" creationdate="20170922T084102Z">
@@ -9418,6 +9458,22 @@ No dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153801Z" creationid="95" creationdate="20170728T153801Z">
         <seg>ant.loadfile(srcFile: file, property: file.name)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.pmd(shortFilenames: &lt;s2&gt;'true'&lt;/s2&gt;, failonruleviolation: &lt;s3&gt;'true'&lt;/s3&gt;, rulesetfiles: file(&lt;s4&gt;'pmd-rules.xml'&lt;/s4&gt;).toURI().toString()) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084332Z" creationid="huanghaohang" creationdate="20180105T084332Z">
+        <seg>ant.pmd(shortFilenames: &lt;s2&gt;'true'&lt;/s2&gt;, failonruleviolation: &lt;s3&gt;'true'&lt;/s3&gt;, rulesetfiles: file(&lt;s4&gt;'pmd-rules.xml'&lt;/s4&gt;).toURI().toString()) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.taskdef(name: &lt;s0&gt;'pmd'&lt;/s0&gt;, classname: &lt;s1&gt;'net.sourceforge.pmd.ant.PMDTask'&lt;/s1&gt;, classpath: configurations.pmd.asPath)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084332Z" creationid="huanghaohang" creationdate="20180105T084332Z">
+        <seg>ant.taskdef(name: &lt;s0&gt;'pmd'&lt;/s0&gt;, classname: &lt;s1&gt;'net.sourceforge.pmd.ant.PMDTask'&lt;/s1&gt;, classpath: configurations.pmd.asPath)</seg>
       </tuv>
     </tu>
     <tu>
@@ -10032,6 +10088,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configurations {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084251Z" creationid="huanghaohang" creationdate="20180105T084251Z">
+        <seg>configurations {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>copy {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T094221Z" creationid="huanghaohang" creationdate="20171015T094221Z">
@@ -10558,6 +10622,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>fileset(dir: &lt;s7&gt;'src'&lt;/s7&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084334Z" creationid="huanghaohang" creationdate="20180105T084334Z">
+        <seg>fileset(dir: &lt;s7&gt;'src'&lt;/s7&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>filter { String line -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060347Z" creationid="huanghaohang" creationdate="20171126T060347Z">
@@ -10586,6 +10658,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153706Z" creationid="95" creationdate="20170731T153706Z">
         <seg>flatDir {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>formatter(type: &lt;s5&gt;'text'&lt;/s5&gt;, toConsole: &lt;s6&gt;'true'&lt;/s6&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084333Z" creationid="huanghaohang" creationdate="20180105T084333Z">
+        <seg>formatter(type: &lt;s5&gt;'text'&lt;/s5&gt;, toConsole: &lt;s6&gt;'true'&lt;/s6&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -11563,6 +11643,30 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133547Z" creationid="huanghaohang" creationdate="20170913T133547Z">
         <seg>plugin {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pmd
+}
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084252Z" creationid="huanghaohang" creationdate="20180105T084252Z">
+        <seg>pmd
+}
+
+dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pmd group: &lt;s0&gt;'pmd'&lt;/s0&gt;, name: &lt;s1&gt;'pmd'&lt;/s1&gt;, version: &lt;s2&gt;'4.2.5'&lt;/s2&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084253Z" creationid="huanghaohang" creationdate="20180105T084253Z">
+        <seg>pmd group: &lt;s0&gt;'pmd'&lt;/s0&gt;, name: &lt;s1&gt;'pmd'&lt;/s1&gt;, version: &lt;s2&gt;'4.2.5'&lt;/s2&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
