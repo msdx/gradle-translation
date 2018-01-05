@@ -7860,6 +7860,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 18.1. Log levels</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221049Z" creationid="huanghaohang" creationdate="20180105T221049Z">
+        <seg>表 18.1. 日志级别</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Table 23.5. Java plugin - dependency configurations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T032346Z" creationid="huanghaohang" creationdate="20170908T032346Z">
@@ -8324,6 +8332,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030619Z" creationid="95" creationdate="20170729T030619Z">
         <seg>在这里，很重要的一点是，&lt;c0&gt;whenReady&lt;/c0&gt; 会在发布任务执行&lt;s1&gt;&lt;e2&gt;之前&lt;/e2&gt;&lt;/s1&gt;影响到它。即使这个发布任务不是 &lt;s3&gt;&lt;e4&gt;主要的&lt;/e4&gt;&lt;/s3&gt; （即传给 &lt;s5&gt;&lt;s6&gt;gradle&lt;/s6&gt;&lt;/s5&gt; 命令行的任务），这一点也同样有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The log is the main 'UI' of a build tool. If it is too verbose, real warnings and problems are easily hidden by this. On the other hand you need the relevant information for figuring out if things have gone wrong. Gradle defines 6 log levels, as shown in &lt;a0&gt;Table 18.1, “Log levels”&lt;/a0&gt;. There are two Gradle-specific log levels, in addition to the ones you might normally see. Those levels are &lt;s1&gt;&lt;e2&gt;QUIET&lt;/e2&gt;&lt;/s1&gt; and &lt;s3&gt;&lt;e4&gt;LIFECYCLE&lt;/e4&gt;&lt;/s3&gt;. The latter is the default, and is used to report build progress.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221504Z" creationid="huanghaohang" creationdate="20180105T221504Z">
+        <seg>日志是构建工具的主要“UI”。如果日志过于冗长，则真正的警告和问题很容易被隐藏。另一方面，如果出了错，你就需要相关的信息。 Gradle 定义了 6 个日志级别，如&lt;a0&gt;表18.1，“日志级别”&lt;/a0&gt;所示。除了你可能通常都会看到的日志级别之外，还有两个 Gradle 特定的日志级别。这两个级别分别是&lt;s1&gt;&lt;e2&gt;QUIET&lt;/e2&gt;&lt;/s1&gt;和&lt;s3&gt;&lt;e4&gt;LIFECYCLE&lt;/e4&gt;&lt;/s3&gt;。默认使用后面的这个日志级别，用于报告构建进度。</seg>
       </tuv>
     </tu>
     <tu>
