@@ -2056,6 +2056,30 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;-d&lt;/c0&gt; or &lt;c1&gt;--debug&lt;/c1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221923Z" creationid="huanghaohang" creationdate="20180105T221923Z">
+        <seg>&lt;c0&gt;-d&lt;/c0&gt; or &lt;c1&gt;--debug&lt;/c1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;-i&lt;/c0&gt; or &lt;c1&gt;--info&lt;/c1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221921Z" creationid="huanghaohang" creationdate="20180105T221921Z">
+        <seg>&lt;c0&gt;-i&lt;/c0&gt; or &lt;c1&gt;--info&lt;/c1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;-q&lt;/c0&gt; or &lt;c1&gt;--quiet&lt;/c1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221918Z" creationid="huanghaohang" creationdate="20180105T221918Z">
+        <seg>&lt;c0&gt;-q&lt;/c0&gt; or &lt;c1&gt;--quiet&lt;/c1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;&lt;c1&gt;baseName&lt;/c1&gt;&lt;/e0&gt;-&lt;e2&gt;&lt;c3&gt;appendix&lt;/c3&gt;&lt;/e2&gt;-&lt;e4&gt;&lt;c5&gt;version&lt;/c5&gt;&lt;/e4&gt;-&lt;e6&gt;&lt;c7&gt;classifier&lt;/c7&gt;&lt;/e6&gt;.&lt;e8&gt;&lt;c9&gt;extension&lt;/c9&gt;&lt;/e8&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232635Z" creationid="huanghaohang" creationdate="20171206T232635Z">
@@ -4444,6 +4468,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>DEBUG and higher (that is, all log messages)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221945Z" creationid="huanghaohang" creationdate="20180105T221945Z">
+        <seg>DEBUG 及更高（即所有日志消息）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Debug messages</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221544Z" creationid="huanghaohang" creationdate="20180105T221544Z">
@@ -6500,6 +6532,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>INFO and higher</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221922Z" creationid="huanghaohang" creationdate="20180105T221922Z">
+        <seg>INFO 及更高</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a task fails, any subsequent tasks that were depending on it will not be executed, as it is not safe to do so. For example, tests will not run if there is a compilation failure in the code under test; because the test task will depend on the compilation task (either directly or indirectly).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T075102Z" creationid="huanghaohang" creationdate="20170909T075102Z">
@@ -6828,6 +6868,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>LIFECYCLE and higher</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221917Z" creationid="huanghaohang" creationdate="20180105T221917Z">
+        <seg>LIFECYCLE 及更高</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Language for dependency based programming</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T015549Z" creationid="95" creationdate="20170722T015549Z">
@@ -6948,6 +6996,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Meaning</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221951Z" creationid="huanghaohang" creationdate="20180105T221951Z">
+        <seg>意义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>More information about &lt;c0&gt;AntBuilder&lt;/c0&gt; can be found in 'Groovy in Action' 8.4 or at the &lt;a1&gt;Groovy Wiki&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083531Z" creationid="huanghaohang" creationdate="20180105T083402Z">
@@ -7008,6 +7064,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132108Z" creationid="huanghaohang" creationdate="20170913T132108Z">
         <seg>名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No stacktrace options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221956Z" creationid="huanghaohang" creationdate="20180105T221956Z">
+        <seg>没有栈跟踪选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No stacktraces are printed to the console in case of a build error (e.g. a compile error). Only in case of internal exceptions will stacktraces be printed. If the &lt;c0&gt;DEBUG&lt;/c0&gt; log level is chosen, truncated stacktraces are always printed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T222348Z" creationid="huanghaohang" creationdate="20180105T222235Z">
+        <seg>在构建错误（如编译错误）时，不会打印堆栈跟踪信息到控制台。只有在内部异常情况下才会打印堆栈跟踪。如果选择&lt;c0&gt;DEBUG&lt;/c0&gt;日志级别，则总是打印截断的堆栈跟踪。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7152,6 +7224,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T150144Z" creationid="huanghaohang" creationdate="20170911T150144Z">
         <seg>只在出现错误时显示输出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Option</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221859Z" creationid="huanghaohang" creationdate="20180105T221859Z">
+        <seg>选项</seg>
       </tuv>
     </tu>
     <tu>
@@ -7572,6 +7652,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Outputs Log Levels</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221901Z" creationid="huanghaohang" creationdate="20180105T221901Z">
+        <seg>输出日志级别</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Overview</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072443Z" creationid="haohang" creationdate="20170720T072443Z">
@@ -7648,6 +7736,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221521Z" creationid="huanghaohang" creationdate="20180105T221521Z">
         <seg>QUIET</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>QUIET and higher</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221920Z" creationid="huanghaohang" creationdate="20180105T221920Z">
+        <seg>QUIET 及更高</seg>
       </tuv>
     </tu>
     <tu>
@@ -9788,6 +9884,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084102Z" creationid="huanghaohang" creationdate="20170922T084102Z">
         <seg>你可以使用&lt;c0&gt;onlyIf()&lt;/c0&gt;方法将断言附加到任务中。只有当断言结果为true时，才会执行该任务的操作。你可以用闭包来实现断言。闭包会作为一个参数传给任务，如果任务应该执行，应该返回true，如果任务应该被跳过，则返回false。断言只会在任务执行之前才评估。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can use the command line switches shown in &lt;a0&gt;Table 18.2, “Log level command-line options”&lt;/a0&gt; to choose different log levels. In &lt;a1&gt;Table 18.3, “Stacktrace command-line options”&lt;/a1&gt; you find the command line switches which affect stacktrace logging.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221857Z" creationid="huanghaohang" creationdate="20180105T221741Z">
+        <seg>你可以使用&lt;a0&gt;表 18.2，“日志级别的命令行选项”&lt;/a0&gt;中所示的命令行开关来选择不同的日志级别。在&lt;a1&gt;表 18.3，“栈跟踪的命令行选项”&lt;/a1&gt;中，你可以看到影响栈跟踪日志的命令行开关。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12151,6 +12255,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132126Z" creationid="huanghaohang" creationdate="20170913T132126Z">
         <seg>name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>no logging options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221911Z" creationid="huanghaohang" creationdate="20180105T221911Z">
+        <seg>没有日志选项</seg>
       </tuv>
     </tu>
     <tu>
