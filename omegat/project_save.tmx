@@ -1250,6 +1250,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>18.1. Choosing a log level</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221558Z" creationid="huanghaohang" creationdate="20180105T221558Z">
+        <seg>18.1. 选择一个日志级别</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -4428,6 +4436,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>DEBUG</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221543Z" creationid="huanghaohang" creationdate="20180105T221543Z">
+        <seg>DEBUG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Debug messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221544Z" creationid="huanghaohang" creationdate="20180105T221544Z">
+        <seg>调试消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Declarative builds and build-by-convention</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T015356Z" creationid="95" creationdate="20170722T015356Z">
@@ -4596,6 +4620,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ERROR</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221517Z" creationid="huanghaohang" creationdate="20180105T221517Z">
+        <seg>ERROR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each closure has a &lt;c0&gt;delegate&lt;/c0&gt; object, which Groovy uses to look up variable and method references which are not local variables or parameters of the closure. Gradle uses this for &lt;e1&gt;configuration closures&lt;/e1&gt;, where the &lt;c2&gt;delegate&lt;/c2&gt; object is set to the object to be configured.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153230Z" creationid="huanghaohang" creationdate="20170914T153230Z">
@@ -4664,6 +4696,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013347Z" creationid="huanghaohang" creationdate="20170919T013347Z">
         <seg>环境变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221520Z" creationid="huanghaohang" creationdate="20180105T221520Z">
+        <seg>错误消息</seg>
       </tuv>
     </tu>
     <tu>
@@ -6452,6 +6492,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>INFO</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221535Z" creationid="huanghaohang" creationdate="20180105T221535Z">
+        <seg>INFO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a task fails, any subsequent tasks that were depending on it will not be executed, as it is not safe to do so. For example, tests will not run if there is a compilation failure in the code under test; because the test task will depend on the compilation task (either directly or indirectly).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T075102Z" creationid="huanghaohang" creationdate="20170909T075102Z">
@@ -6536,6 +6584,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T151624Z" creationid="95" creationdate="20170724T151624Z">
         <seg>如果你认为它看上去和Ant的目标很像，那就对了。Gradle的任务相当于Ant的目标。但是，正如你所见，它们更加强大。我们使用与Ant不同的术语，是因为我们认为&lt;s0&gt;&lt;e1&gt;任务&lt;/e1&gt;&lt;/s0&gt;这个词比&lt;s2&gt;&lt;e3&gt;目标&lt;/e3&gt;&lt;/s2&gt;的含义更丰富。不过不幸的是，这也导致了与Ant的术语冲突。Ant会调用它自己的一些命令，比如像&lt;c4&gt;javac&lt;/c4&gt; 或是 &lt;c5&gt;copy&lt;/c5&gt;任务。因为，当我们讨论任务时，&lt;s6&gt;&lt;e7&gt;通常&lt;/e7&gt;&lt;/s6&gt;指的是Gradle的任务，相当于Ant的目标。当我们讨论Ant 的任务时，我们会明确地说是 &lt;s8&gt;&lt;e9&gt;ant 任务&lt;/e9&gt;&lt;/s8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Important information messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221524Z" creationid="huanghaohang" creationdate="20180105T221524Z">
+        <seg>重要的信息消息</seg>
       </tuv>
     </tu>
     <tu>
@@ -6660,6 +6716,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Information messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221542Z" creationid="huanghaohang" creationdate="20180105T221542Z">
+        <seg>信息消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Installing Gradle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013318Z" creationid="huanghaohang" creationdate="20170919T013318Z">
@@ -6756,6 +6820,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>LIFECYCLE</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221529Z" creationid="huanghaohang" creationdate="20180105T221529Z">
+        <seg>LIFECYCLE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Language for dependency based programming</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T015549Z" creationid="95" creationdate="20170722T015549Z">
@@ -6824,6 +6896,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130234Z" creationid="huanghaohang" creationdate="20170912T130234Z">
         <seg>下面我们试试看访问&lt;c1&gt;Project&lt;/c1&gt;对象的&lt;c0&gt;name&lt;/c0&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Level</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221513Z" creationid="huanghaohang" creationdate="20180105T221513Z">
+        <seg>级别</seg>
       </tuv>
     </tu>
     <tu>
@@ -7524,6 +7604,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Progress information messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221534Z" creationid="huanghaohang" creationdate="20180105T221534Z">
+        <seg>进度信息消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132114Z" creationid="huanghaohang" creationdate="20170913T132114Z">
@@ -7552,6 +7640,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233738Z" creationid="huanghaohang" creationdate="20171206T233738Z">
         <seg>发布构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>QUIET</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221521Z" creationid="huanghaohang" creationdate="20180105T221521Z">
+        <seg>QUIET</seg>
       </tuv>
     </tu>
     <tu>
@@ -7864,6 +7960,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221049Z" creationid="huanghaohang" creationdate="20180105T221049Z">
         <seg>表 18.1. 日志级别</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 18.2. Log level command-line options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221607Z" creationid="huanghaohang" creationdate="20180105T221607Z">
+        <seg>表 18.2. 日志级别的命令行选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 18.3. Stacktrace command-line options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221701Z" creationid="huanghaohang" creationdate="20180105T221701Z">
+        <seg>表 18.3. 栈跟踪的命令行选项</seg>
       </tuv>
     </tu>
     <tu>
@@ -8992,6 +9104,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Used for</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221516Z" creationid="huanghaohang" creationdate="20180105T221516Z">
+        <seg>用于</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using Ant Tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031856Z" creationid="huanghaohang" creationdate="20170927T031856Z">
@@ -9108,6 +9228,22 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170905T145223Z" creationid="95" creationdate="20170803T130530Z">
         <seg>通俗来讲，依赖管理由两部分组成。首先，Gradle需要知道构建或运行你的项目所需要的东西，才能找到它们。 我们把这些传入的文件称为这个项目的 &lt;e0&gt;依赖&lt;/e0&gt;。其次，Gradle需要构建并且上传你的项目所产生的东西，我们把这些输出的文件称为项目的 &lt;e1&gt;发布&lt;/e1&gt;。下面详细介绍这两部分：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>WARNING</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221525Z" creationid="huanghaohang" creationdate="20180105T221525Z">
+        <seg>WARNING</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Warning messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221526Z" creationid="huanghaohang" creationdate="20180105T221526Z">
+        <seg>警告消息</seg>
       </tuv>
     </tu>
     <tu>
@@ -11850,10 +11986,26 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>logging.html#logLevelCommandLineOptions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221600Z" creationid="huanghaohang" creationdate="20180105T221600Z">
+        <seg>logging.html#logLevelCommandLineOptions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>logging.html#logLevels</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T095046Z" creationid="huanghaohang" creationdate="20180105T095046Z">
         <seg>logging.html#logLevels</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>logging.html#stacktraces</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221609Z" creationid="huanghaohang" creationdate="20180105T221609Z">
+        <seg>logging.html#stacktraces</seg>
       </tuv>
     </tu>
     <tu>
