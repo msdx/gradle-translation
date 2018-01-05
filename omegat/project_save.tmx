@@ -1226,6 +1226,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>17.3. Ant properties and references</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084847Z" creationid="huanghaohang" creationdate="20180105T084847Z">
+        <seg>17.3. Ant 属性和引用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -2290,6 +2298,14 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;project&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084609Z" creationid="huanghaohang" creationdate="20180105T084609Z">
+        <seg>&lt;s0&gt;&lt;project&gt;&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;[&lt;a1&gt;1&lt;/a1&gt;] &lt;/s0&gt;At &lt;a2&gt;http://www.defmacro.org/ramblings/lisp.html&lt;/a2&gt; you find an interesting article comparing Ant, XML, Java and Lisp. It's funny that the 'if Java had that syntax' syntax in this article is actually the Groovy syntax.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072342Z" creationid="95" creationdate="20170723T072136Z">
@@ -2388,6 +2404,22 @@ task filter(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084835Z" creationid="huanghaohang" creationdate="20170922T084835Z">
         <seg>&lt;s1&gt;// Here you would put arbitrary conditions in real life. But we use this as an integration test, so we want defined behavior.&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s1&gt;&lt;target&lt;/s1&gt; &lt;s2&gt;name&lt;/s2&gt;=&lt;s3&gt;"hello"&lt;/s3&gt; &lt;s4&gt;depends&lt;/s4&gt;=&lt;s5&gt;"intro"&lt;/s5&gt;&lt;s6&gt;&gt;&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084838Z" creationid="huanghaohang" creationdate="20180105T084838Z">
+        <seg>&lt;s1&gt;&lt;target&lt;/s1&gt; &lt;s2&gt;name&lt;/s2&gt;=&lt;s3&gt;"hello"&lt;/s3&gt; &lt;s4&gt;depends&lt;/s4&gt;=&lt;s5&gt;"intro"&lt;/s5&gt;&lt;s6&gt;&gt;&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s1&gt;&lt;target&lt;/s1&gt; &lt;s2&gt;name&lt;/s2&gt;=&lt;s3&gt;"hello"&lt;/s3&gt;&lt;s4&gt;&gt;&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084610Z" creationid="huanghaohang" creationdate="20180105T084610Z">
+        <seg>&lt;s1&gt;&lt;target&lt;/s1&gt; &lt;s2&gt;name&lt;/s2&gt;=&lt;s3&gt;"hello"&lt;/s3&gt;&lt;s4&gt;&gt;&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -2540,6 +2572,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s5&gt;&lt;echo&gt;&lt;/s5&gt;Hello, from Ant&lt;s6&gt;&lt;/echo&gt;&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084611Z" creationid="huanghaohang" creationdate="20180105T084611Z">
+        <seg>&lt;s5&gt;&lt;echo&gt;&lt;/s5&gt;Hello, from Ant&lt;s6&gt;&lt;/echo&gt;&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s6&gt;// Copy the contents of a Zip file&lt;/s6&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075027Z" creationid="huanghaohang" creationdate="20171015T075027Z">
@@ -2566,10 +2606,38 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s7&gt;&lt;/target&gt;&lt;/s7&gt;
+&lt;s8&gt;&lt;/project&gt;&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084612Z" creationid="huanghaohang" creationdate="20180105T084612Z">
+        <seg>&lt;s7&gt;&lt;/target&gt;&lt;/s7&gt;
+&lt;s8&gt;&lt;/project&gt;&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s7&gt;&lt;echo&gt;&lt;/s7&gt;Hello, from Ant&lt;s8&gt;&lt;/echo&gt;&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084840Z" creationid="huanghaohang" creationdate="20180105T084840Z">
+        <seg>&lt;s7&gt;&lt;echo&gt;&lt;/s7&gt;Hello, from Ant&lt;s8&gt;&lt;/echo&gt;&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s8&gt;// Determine the destination directory later&lt;/s8&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075029Z" creationid="huanghaohang" creationdate="20171015T075029Z">
         <seg>&lt;s8&gt;// Determine the destination directory later&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s9&gt;&lt;/target&gt;&lt;/s9&gt;
+&lt;s10&gt;&lt;/project&gt;&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084841Z" creationid="huanghaohang" creationdate="20180105T084841Z">
+        <seg>&lt;s9&gt;&lt;/target&gt;&lt;/s9&gt;
+&lt;s10&gt;&lt;/project&gt;&lt;/s10&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3438,6 +3506,48 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>&gt; gradle hello
 :hello
+[ant:echo] Hello, from Ant
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084618Z" creationid="huanghaohang" creationdate="20180105T084618Z">
+        <seg>&gt; gradle hello
+:hello
+[ant:echo] Hello, from Ant
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle hello
+:hello
+[ant:echo] Hello, from Ant
+Hello, from Gradle
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084809Z" creationid="huanghaohang" creationdate="20180105T084809Z">
+        <seg>&gt; gradle hello
+:hello
+[ant:echo] Hello, from Ant
+Hello, from Gradle
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle hello
+:hello
 [ant:echo] hello from Ant
 
 BUILD SUCCESSFUL
@@ -3456,6 +3566,30 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle hello
+:intro
+Hello, from Gradle
+:hello
+[ant:echo] Hello, from Ant
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084842Z" creationid="huanghaohang" creationdate="20180105T084842Z">
+        <seg>&gt; gradle hello
+:intro
+Hello, from Gradle
+:hello
+[ant:echo] Hello, from Ant
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle hello -PskipHello
 :hello SKIPPED
 
@@ -3466,6 +3600,30 @@ Total time: 1 secs</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084201Z" creationid="huanghaohang" creationdate="20170922T084201Z">
         <seg>&gt; gradle hello -PskipHello
 :hello SKIPPED
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle intro
+:hello
+[ant:echo] Hello, from Ant
+:intro
+Hello, from Gradle
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084650Z" creationid="huanghaohang" creationdate="20180105T084650Z">
+        <seg>&gt; gradle intro
+:hello
+[ant:echo] Hello, from Ant
+:intro
+Hello, from Gradle
 
 BUILD SUCCESSFUL
 
@@ -5142,6 +5300,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 17.10. Adding behaviour to an Ant target</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084805Z" creationid="huanghaohang" creationdate="20180105T084805Z">
+        <seg>示例 17.10. 将行为添加到 Ant 目标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 17.11. Ant target that depends on Gradle task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084836Z" creationid="huanghaohang" creationdate="20180105T084836Z">
+        <seg>示例 17.11. 依赖于 Gradle 任务的 Ant 目标</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 17.2. Passing nested text to an Ant task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171216T022605Z" creationid="huanghaohang" creationdate="20171216T022605Z">
@@ -5186,6 +5360,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084331Z" creationid="huanghaohang" creationdate="20180105T084331Z">
         <seg>示例 17.7. 同时使用自定义 Ant 任务和依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 17.8. Importing an Ant build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084606Z" creationid="huanghaohang" creationdate="20180105T084606Z">
+        <seg>示例 17.8. 导入 Ant 构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 17.9. Task that depends on Ant target</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084636Z" creationid="huanghaohang" creationdate="20180105T084636Z">
+        <seg>示例 17.9. 依赖于 Ant 目标的任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -6406,6 +6596,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is also possible for an Ant target to depend on a Gradle task:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084830Z" creationid="huanghaohang" creationdate="20180105T084830Z">
+        <seg>它也可以用于一个依赖于 Gradle 任务的 Ant 目标：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is important to note that the content of a file collection is evaluated lazily, when it is needed. This means you can, for example, create a &lt;c0&gt;FileCollection&lt;/c0&gt; that represents files which will be created in the future by, say, some task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150849Z" creationid="huanghaohang" creationdate="20170927T150849Z">
@@ -6798,6 +6996,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Or, you can add behaviour to an Ant target:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084801Z" creationid="huanghaohang" creationdate="20180105T084801Z">
+        <seg>或者你也可以将行为添加到 Ant 目标中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Otherwise, continue on to &lt;a0&gt;Chapter 8, &lt;i1&gt;Dependency Management Basics&lt;/i1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T130404Z" creationid="95" creationdate="20170803T130404Z">
@@ -7162,6 +7368,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171216T022456Z" creationid="huanghaohang" creationdate="20171216T022456Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle hello&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle intro&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084643Z" creationid="huanghaohang" creationdate="20180105T084643Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle intro&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -8122,6 +8336,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are several ways to set an Ant property, so that the property can be used by Ant tasks. You can set the property directly on the &lt;c0&gt;AntBuilder&lt;/c0&gt; instance. The Ant properties are also available as a Map which you can change. You can also use the Ant &lt;c1&gt;property&lt;/c1&gt; task. Below are some examples of how to do this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T085231Z" creationid="huanghaohang" creationdate="20180105T085231Z">
+        <seg>There are several ways to set an Ant property, so that the property can be used by Ant tasks. You can set the property directly on the &lt;c0&gt;AntBuilder&lt;/c0&gt; instance. The Ant properties are also available as a Map which you can change. You can also use the Ant &lt;c1&gt;property&lt;/c1&gt; task. Below are some examples of how to do this.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are several ways you can define the dependencies of a task. In &lt;a0&gt;Section 6.5, “Task dependencies”&lt;/a0&gt; you were introduced to defining dependencies using task names. Task names can refer to tasks in the same project as the task, or to tasks in other projects. To refer to a task in another project, you prefix the name of the task with the path of the project it belongs to. Below is an example which adds a dependency from &lt;c1&gt;projectA:taskX&lt;/c1&gt; to &lt;c2&gt;projectB:taskY&lt;/c2&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130050Z" creationid="huanghaohang" creationdate="20170919T130050Z">
@@ -8978,6 +9200,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can add a task which depends on an Ant target:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084629Z" creationid="huanghaohang" creationdate="20180105T084629Z">
+        <seg>你可以添加一个依赖于 Ant 目标的任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can add dependencies between projects in the same build, so that, for example, the JAR file of one project is used to compile another project. In the &lt;c0&gt;api&lt;/c0&gt; build file we will add a dependency on the JAR produced by the &lt;c1&gt;shared&lt;/c1&gt; project. Due to this dependency, Gradle will ensure that project &lt;c2&gt;shared&lt;/c2&gt; always gets built before project &lt;c3&gt;api&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125305Z" creationid="95" creationdate="20170803T125256Z">
@@ -9454,6 +9684,50 @@ No dependencies</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084607Z" creationid="huanghaohang" creationdate="20180105T084607Z">
+        <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;
+
+hello &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084806Z" creationid="huanghaohang" creationdate="20180105T084806Z">
+        <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;
+
+hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;
+
+task intro &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084837Z" creationid="huanghaohang" creationdate="20180105T084837Z">
+        <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;
+
+task intro &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;
+
+task intro(dependsOn: hello) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084637Z" creationid="huanghaohang" creationdate="20180105T084637Z">
+        <seg>ant.importBuild &lt;s0&gt;'build.xml'&lt;/s0&gt;
+
+task intro(dependsOn: hello) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ant.loadfile(srcFile: file, property: file.name)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153801Z" creationid="95" creationdate="20170728T153801Z">
@@ -9898,6 +10172,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144943Z" creationid="95" creationdate="20170724T144943Z">
         <seg>build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build.xml</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084608Z" creationid="huanghaohang" creationdate="20180105T084608Z">
+        <seg>build.xml</seg>
       </tuv>
     </tu>
     <tu>
@@ -11969,6 +12251,16 @@ hello.doLast {</seg>
         <seg>println &lt;s1&gt;'Hello Venus'&lt;/s1&gt;
 }
 hello.doLast {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'Hello, from Gradle'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084638Z" creationid="huanghaohang" creationdate="20180105T084638Z">
+        <seg>println &lt;s1&gt;'Hello, from Gradle'&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
