@@ -418,6 +418,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/logging/Logger.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T012026Z" creationid="huanghaohang" creationdate="20180107T012026Z">
+        <seg>../javadoc/org/gradle/api/logging/Logger.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/tasks/StopExecutionException.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084210Z" creationid="huanghaohang" creationdate="20170922T084210Z">
@@ -1258,6 +1266,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>18.2. Writing your own log messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T011712Z" creationid="huanghaohang" creationdate="20180107T011712Z">
+        <seg>18.2. 编写自己的日志消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -2052,6 +2068,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072520Z" creationid="haohang" creationdate="20170720T072520Z">
         <seg>&lt;a0&gt;上一章&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;目录&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;下一章&lt;/a4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;-S&lt;/c0&gt; or &lt;c1&gt;--full-stacktrace&lt;/c1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T011659Z" creationid="huanghaohang" creationdate="20180107T011659Z">
+        <seg>&lt;c0&gt;-S&lt;/c0&gt; or &lt;c1&gt;--full-stacktrace&lt;/c1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -3838,6 +3862,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A simple option for logging in your build file is to write messages to standard output. Gradle redirects anything written to standard output to it's logging system at the &lt;c0&gt;QUIET&lt;/c0&gt; log level.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T011938Z" creationid="huanghaohang" creationdate="20180107T011720Z">
+        <seg>一种简单的在构建文件中打印日志的方法是把消息写到标准输出中。Gradle 会把写到标准输出的所有内容重定向到它的日志系统的 &lt;c0&gt;QUIET&lt;/c0&gt; 级别中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A task that aggregates the results of all tasks of a particular type: eg. test report task combines the outputs of all executed test tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T030630Z" creationid="huanghaohang" creationdate="20170922T030630Z">
@@ -5556,6 +5588,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 18.1. Using stdout to write log messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T011940Z" creationid="huanghaohang" creationdate="20180107T011940Z">
+        <seg>示例18.1. 使用标准输出写日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -6216,6 +6256,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T023856Z" creationid="95" creationdate="20170729T023856Z">
         <seg>Gradle允许您在构建中定义一个或多个的默认任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle also provides a &lt;c0&gt;logger&lt;/c0&gt; property to a build script, which is an instance of &lt;a1&gt;&lt;c2&gt;Logger&lt;/c2&gt;&lt;/a1&gt;. This interface extends the SLF4J &lt;c3&gt;Logger&lt;/c3&gt; interface and adds a few Gradle specific methods to it. Below is an example of how this is used in the build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T012421Z" creationid="huanghaohang" creationdate="20180107T012421Z">
+        <seg>Gradle还提供了一个 &lt;c0&gt;logger&lt;/c0&gt; 属性给构建脚本，它是一个 &lt;a1&gt;&lt;c2&gt;Logger&lt;/c2&gt;&lt;/a1&gt; 实例。该接口扩展了 SLF4J &lt;c3&gt;Logger&lt;/c3&gt; 接口，并添加了一些 Gradle 的特有方法。下面是关于如何在构建脚本中使用它的示例：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8544,6 +8592,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The full stacktraces are printed out.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T011709Z" creationid="huanghaohang" creationdate="20180107T011709Z">
+        <seg>打印完整的栈跟踪信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The important thing is that &lt;c0&gt;whenReady&lt;/c0&gt; affects the release task &lt;s1&gt;&lt;e2&gt;before&lt;/e2&gt;&lt;/s1&gt; the release task is executed. This works even when the release task is not the &lt;s3&gt;&lt;e4&gt;primary&lt;/e4&gt;&lt;/s3&gt; task (i.e., the task passed to the &lt;s5&gt;&lt;s6&gt;gradle&lt;/s6&gt;&lt;/s5&gt; command).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030619Z" creationid="95" creationdate="20170729T030619Z">
@@ -9178,8 +9234,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>Truncated stacktraces are printed. We recommend this over full stacktraces. Groovy full stacktraces are extremely verbose (Due to the underlying dynamic invocation mechanisms. Yet they usually do not contain relevant information for what has gone wrong in &lt;s0&gt;&lt;e1&gt;your&lt;/e1&gt;&lt;/s0&gt; code.)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T011657Z" creationid="huanghaohang" creationdate="20180107T003212Z">
-        <seg>打印截断的堆栈跟踪。我们推荐使用这一个选项，而不是打印完整的堆栈跟踪信息。Groovy完整的stacktraces是非常详细的（由于底层的动态调用机制，但它们通常不包含&lt;s0&gt;&lt;e1&gt;你的&lt;/e1&gt;&lt;/s0&gt;代码哪里出错了的相关信息）。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T011830Z" creationid="huanghaohang" creationdate="20180107T003212Z">
+        <seg>打印截断的堆栈跟踪。我们推荐使用这一个选项，而不是打印完整的堆栈跟踪信息。Groovy 完整的堆栈跟踪是非常详细的（由于底层的动态调用机制，但它们通常不包含&lt;s0&gt;&lt;e1&gt;你的&lt;/e1&gt;&lt;/s0&gt;代码哪里出错了的相关信息）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12477,6 +12533,14 @@ repositories({ println &lt;s2&gt;"in a closure"&lt;/s2&gt; })</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114014Z" creationid="huanghaohang" creationdate="20170909T114014Z">
         <seg>println &lt;s0&gt;"using build file '$buildFile.name' in '$buildFile.parentFile.name'."&lt;/s0&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'A message which is logged at QUIET level'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T012024Z" creationid="huanghaohang" creationdate="20180107T012024Z">
+        <seg>println &lt;s0&gt;'A message which is logged at QUIET level'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
