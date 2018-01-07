@@ -5644,6 +5644,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 18.4. Configuring standard output capture</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025326Z" creationid="huanghaohang" creationdate="20180107T025326Z">
+        <seg>示例 18.4. 配置标准输出捕获</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 18.5. Configuring standard output capture for a task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025422Z" creationid="huanghaohang" creationdate="20180107T025422Z">
+        <seg>示例 18.5. 为任务配置标准输出捕获</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -6312,6 +6328,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T012421Z" creationid="huanghaohang" creationdate="20180107T012421Z">
         <seg>Gradle还提供了一个 &lt;c0&gt;logger&lt;/c0&gt; 属性给构建脚本，它是一个 &lt;a1&gt;&lt;c2&gt;Logger&lt;/c2&gt;&lt;/a1&gt; 实例。该接口扩展了 SLF4J &lt;c3&gt;Logger&lt;/c3&gt; 接口，并添加了一些 Gradle 的特有方法。下面是关于如何在构建脚本中使用它的示例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle also provides integration with the Java Util Logging, Jakarta Commons Logging and Log4j logging toolkits. Any log messages which your build classes write using these logging toolkits will be redirected to Gradle's logging system.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025704Z" creationid="huanghaohang" creationdate="20180107T025704Z">
+        <seg>Gradle 还提供了对 Java Util Logging，Jakarta Commons Logging 和 Log4j 的日志工具的集成。构建中的类使用这些日志记录工具所输出的所有日志消息，都将被重定向到 Gradle 的日志系统上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9160,6 +9184,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To change the log level for standard out or error during task execution, tasks also provide a &lt;a0&gt;&lt;c1&gt;LoggingManager&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025401Z" creationid="huanghaohang" creationdate="20180107T025401Z">
+        <seg>为能在任务执行过程中更改标准输出或错误的日志级别，任务也提供了一个 &lt;a0&gt;&lt;c1&gt;LoggingManager&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To define a multi-project build, you need to create a &lt;e0&gt;settings file&lt;/e0&gt;. The settings file lives in the root directory of the source tree, and specifies which projects to include in the build. It must be called &lt;c1&gt;settings.gradle&lt;/c1&gt;. For this example, we are using a simple hierarchical layout. Here is the corresponding settings file:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T123519Z" creationid="95" creationdate="20170803T123149Z">
@@ -11212,6 +11244,14 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>doFirst {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025425Z" creationid="huanghaohang" creationdate="20180107T025425Z">
+        <seg>doFirst {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>doLast {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144949Z" creationid="95" creationdate="20170724T144949Z">
@@ -12246,6 +12286,24 @@ logger.trace(&lt;s6&gt;'A trace log message.'&lt;/s6&gt;)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>logging.captureStandardOutput LogLevel.INFO</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025424Z" creationid="huanghaohang" creationdate="20180107T025424Z">
+        <seg>logging.captureStandardOutput LogLevel.INFO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>logging.captureStandardOutput LogLevel.INFO
+println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025329Z" creationid="huanghaohang" creationdate="20180107T025329Z">
+        <seg>logging.captureStandardOutput LogLevel.INFO
+println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>logging.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145142Z" creationid="95" creationdate="20170724T145142Z">
@@ -12633,6 +12691,14 @@ repositories({ println &lt;s2&gt;"in a closure"&lt;/s2&gt; })</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T012024Z" creationid="huanghaohang" creationdate="20180107T012024Z">
         <seg>println &lt;s0&gt;'A message which is logged at QUIET level'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'A task message which is logged at INFO level'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025426Z" creationid="huanghaohang" creationdate="20180107T025426Z">
+        <seg>println &lt;s0&gt;'A task message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -14017,6 +14083,14 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153755Z" creationid="95" creationdate="20170728T153755Z">
         <seg>task loadfile &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task logInfo {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025423Z" creationid="huanghaohang" creationdate="20180107T025423Z">
+        <seg>task logInfo {</seg>
       </tuv>
     </tu>
     <tu>
