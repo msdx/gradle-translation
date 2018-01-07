@@ -2568,6 +2568,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s12&gt;if&lt;/s12&gt; (result.failure != null) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144034Z" creationid="huanghaohang" creationdate="20180107T144034Z">
+        <seg>&lt;s12&gt;if&lt;/s12&gt; (result.failure != null) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;// Here you would put arbitrary conditions in real life. But we use this as an integration test, so we want defined behavior.&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084835Z" creationid="huanghaohang" creationdate="20170922T084835Z">
@@ -2716,6 +2724,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s4&gt;public&lt;/s4&gt; &lt;s5&gt;void&lt;/s5&gt; beforeExecute(Task task) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144027Z" creationid="huanghaohang" creationdate="20180107T144027Z">
+        <seg>&lt;s4&gt;public&lt;/s4&gt; &lt;s5&gt;void&lt;/s5&gt; beforeExecute(Task task) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s5&gt;// Add some source directories using a closure&lt;/s5&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134318Z" creationid="huanghaohang" creationdate="20171002T134318Z">
@@ -2792,6 +2808,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s7&gt;public&lt;/s7&gt; &lt;s8&gt;void&lt;/s8&gt; afterExecute(Task task, TaskState state) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144029Z" creationid="huanghaohang" creationdate="20180107T144029Z">
+        <seg>&lt;s7&gt;public&lt;/s7&gt; &lt;s8&gt;void&lt;/s8&gt; afterExecute(Task task, TaskState state) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s8&gt;// Determine the destination directory later&lt;/s8&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075029Z" creationid="huanghaohang" creationdate="20171015T075029Z">
@@ -2806,6 +2830,46 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084841Z" creationid="huanghaohang" creationdate="20180105T084841Z">
         <seg>&lt;s9&gt;&lt;/target&gt;&lt;/s9&gt;
 &lt;s10&gt;&lt;/project&gt;&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s9&gt;public&lt;/s9&gt; &lt;s10&gt;void&lt;/s10&gt; buildFinished(BuildResult result) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144031Z" creationid="huanghaohang" creationdate="20180107T144031Z">
+        <seg>&lt;s9&gt;public&lt;/s9&gt; &lt;s10&gt;void&lt;/s10&gt; buildFinished(BuildResult result) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -I init.gradle build
+[compile]
+compiling source
+
+[testCompile]
+compiling test source
+
+[test]
+running unit tests
+
+[build]
+
+build completed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144041Z" creationid="huanghaohang" creationdate="20180107T144041Z">
+        <seg>&gt; gradle -I init.gradle build
+[compile]
+compiling source
+
+[testCompile]
+compiling test source
+
+[test]
+running unit tests
+
+[build]
+
+build completed</seg>
       </tuv>
     </tu>
     <tu>
@@ -5676,6 +5740,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 18.6. Customizing what Gradle logs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144024Z" creationid="huanghaohang" creationdate="20180107T144024Z">
+        <seg>示例 18.6 的例子. 自定义 Gradle 日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -7440,6 +7512,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030938Z" creationid="95" creationdate="20170729T030914Z">
         <seg>另外，本教程接下来是 《&lt;a0&gt;第七章， &lt;i1&gt;Java 快速入门&lt;/i1&gt;&lt;/a0&gt;》 以及《&lt;a2&gt;第八章， &lt;i3&gt;依赖管理基础&lt;/i3&gt;&lt;/a2&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -I init.gradle build&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144039Z" creationid="huanghaohang" creationdate="20180107T144039Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -I init.gradle build&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -10000,6 +10080,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can replace much of Gradle's logging UI with your own. You might do this, for example, if you want to customize the UI in some way - to log more or less information, or to change the formatting. You replace the logging using the &lt;a0&gt;&lt;c1&gt;Gradle.useLogger()&lt;/c1&gt;&lt;/a0&gt; method. This is accessible from a build script, or an init script, or via the embedding API. Note that this completely disables Gradle's default output. Below is an example init script which changes how task execution and build completion is logged.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144018Z" creationid="huanghaohang" creationdate="20180107T114453Z">
+        <seg>你可以用自己的 logging UI 替换大部分的 Gradle logging UI。你可能会这样，比如，如果你想以某种方式自定义 UI —— 来记录更多或更少的信息，或修改日志格式。你可以通过 &lt;a0&gt;&lt;c1&gt;Gradle.useLogger()&lt;/c1&gt;&lt;/a0&gt; 方法来替换这个 logging。它可以从构建脚本、init 脚本，或者是通过嵌入 API 访问。请注意，它完全禁用 Gradle的默认输出。下面是在 init 脚本中修改如何打印任务执行和构建完成的日志的示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can see from the output of this example, that the &lt;c0&gt;test&lt;/c0&gt; task is not executed, even though it is a dependency of the &lt;c1&gt;dist&lt;/c1&gt; task. You will also notice that the &lt;c2&gt;test&lt;/c2&gt; task's dependencies, such as &lt;c3&gt;compileTest&lt;/c3&gt; are not executed either. Those dependencies of &lt;c4&gt;test&lt;/c4&gt; that are required by another task, such as &lt;c5&gt;compile&lt;/c5&gt;, are still executed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T073608Z" creationid="huanghaohang" creationdate="20170909T073608Z">
@@ -10156,6 +10244,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023622Z" creationid="huanghaohang" creationdate="20171002T023622Z">
         <seg>你可以像使用文件集合的方式一样来使用文件树。你也可以访问文件树的内容，并使用Ant风格的模式选择一个子树：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your logger can implement any of the listener interfaces listed below. When you register a logger, only the logging for the interfaces that it implements is replaced. Logging for the other interfaces is left untouched. You can find out more about the listener interfaces in &lt;a0&gt;Section 55.6, “Responding to the lifecycle in the build script”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144048Z" creationid="huanghaohang" creationdate="20180107T144048Z">
+        <seg>Your logger can implement any of the listener interfaces listed below. When you register a logger, only the logging for the interfaces that it implements is replaced. Logging for the other interfaces is left untouched. You can find out more about the listener interfaces in &lt;a0&gt;Section 55.6, “Responding to the lifecycle in the build script”&lt;/a0&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10798,6 +10894,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T024253Z" creationid="95" creationdate="20170729T024253Z">
         <seg>build_lifecycle.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build_lifecycle.html#build_lifecycle_events</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144044Z" creationid="huanghaohang" creationdate="20180107T144044Z">
+        <seg>build_lifecycle.html#build_lifecycle_events</seg>
       </tuv>
     </tu>
     <tu>
@@ -12024,6 +12128,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>init.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144025Z" creationid="huanghaohang" creationdate="20180107T144025Z">
+        <seg>init.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>inputs.file copyTask &lt;s0&gt;// up-to-date check for inputs, plus add copyTask as dependency&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124925Z" creationid="huanghaohang" creationdate="20171015T124925Z">
@@ -12875,6 +12987,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s11&gt;'build completed'&lt;/s11&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144032Z" creationid="huanghaohang" creationdate="20180107T144032Z">
+        <seg>println &lt;s11&gt;'build completed'&lt;/s11&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;"Greetings from the $hello.name task."&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -13345,6 +13465,14 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s6&gt;"[$task.name]"&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144028Z" creationid="huanghaohang" creationdate="20180107T144028Z">
+        <seg>println &lt;s6&gt;"[$task.name]"&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s6&gt;'I am not affected'&lt;/s6&gt;
 }</seg>
       </tuv>
@@ -13531,6 +13659,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144030Z" creationid="huanghaohang" creationdate="20180107T144030Z">
+        <seg>println()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println(&lt;s0&gt;'I am the new one.'&lt;/s0&gt;)
 }</seg>
       </tuv>
@@ -13659,6 +13795,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051022Z" creationid="huanghaohang" creationdate="20170908T051022Z">
         <seg>repository(url: &lt;s1&gt;"file://localhost/tmp/myRepo/"&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>result.failure.printStackTrace()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144035Z" creationid="huanghaohang" creationdate="20180107T144035Z">
+        <seg>result.failure.printStackTrace()</seg>
       </tuv>
     </tu>
     <tu>
@@ -14750,6 +14894,18 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050456Z" creationid="huanghaohang" creationdate="20170908T050456Z">
         <seg>url &lt;s2&gt;"http://repo.mycompany.com"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>useLogger(&lt;s0&gt;new&lt;/s0&gt; CustomEventLogger())
+
+&lt;s1&gt;class&lt;/s1&gt; CustomEventLogger &lt;s2&gt;extends&lt;/s2&gt; BuildAdapter &lt;s3&gt;implements&lt;/s3&gt; TaskExecutionListener {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144026Z" creationid="huanghaohang" creationdate="20180107T144026Z">
+        <seg>useLogger(&lt;s0&gt;new&lt;/s0&gt; CustomEventLogger())
+
+&lt;s1&gt;class&lt;/s1&gt; CustomEventLogger &lt;s2&gt;extends&lt;/s2&gt; BuildAdapter &lt;s3&gt;implements&lt;/s3&gt; TaskExecutionListener {</seg>
       </tuv>
     </tu>
     <tu>
