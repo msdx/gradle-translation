@@ -1274,6 +1274,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>18.3. Logging from external tools and libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T024402Z" creationid="huanghaohang" creationdate="20180107T024402Z">
+        <seg>18.3. 使用外部的工具和类库来写日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -2492,6 +2500,22 @@ task filter(type: Copy) {</seg>
 &lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
 
 task filter(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.slf4j.Logger
+&lt;s1&gt;import&lt;/s1&gt; org.slf4j.LoggerFactory
+
+Logger slf4jLogger = LoggerFactory.getLogger(&lt;s2&gt;'some-logger'&lt;/s2&gt;)
+slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T024345Z" creationid="huanghaohang" creationdate="20180107T024345Z">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.slf4j.Logger
+&lt;s1&gt;import&lt;/s1&gt; org.slf4j.LoggerFactory
+
+Logger slf4jLogger = LoggerFactory.getLogger(&lt;s2&gt;'some-logger'&lt;/s2&gt;)
+slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -5604,6 +5628,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 18.3. Using SLF4J to write log messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T024343Z" creationid="huanghaohang" creationdate="20180107T024343Z">
+        <seg>示例 18.3. 使用 SLF4J 写入日志消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -6840,6 +6872,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130233Z" creationid="huanghaohang" creationdate="20170919T130203Z">
         <seg>可以使用一个&lt;c0&gt;Task&lt;/c0&gt;对象而不是任务名称来定义依赖，如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Internally, Gradle uses Ant and Ivy. Both have their own logging system. Gradle redirects their logging output into the Gradle logging system. There is a 1:1 mapping from the Ant/Ivy log levels to the Gradle log levels, except the Ant/Ivy &lt;c0&gt;TRACE&lt;/c0&gt; log level, which is mapped to Gradle &lt;c1&gt;DEBUG&lt;/c1&gt; log level. This means the default Gradle log level will not show any Ant/Ivy output unless it is an error or a warning.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T024822Z" creationid="huanghaohang" creationdate="20180107T024822Z">
+        <seg>Gradle 内部使用 Ant 和 Ivy，这两者都有自己的日志系统。Gradle 将它们的日志输出重定向到 Gradle 的日志记录系统上。从 Ant 或 Ivy 的日志级别到 Gradle 的日志级别，除了Ant 或 Ivy 的 &lt;c0&gt;TRACE&lt;/c0&gt; 是被映射到 Gradle 的 &lt;c1&gt;DEBUG&lt;/c1&gt;日志级别之外，其他的都是一对一的映射。这意味着默认的 Gradle 日志级别不会显示任何 Ant 或 Ivy 输出，除非是错误或警告信息。</seg>
       </tuv>
     </tu>
     <tu>
