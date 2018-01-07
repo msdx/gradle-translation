@@ -426,6 +426,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/logging/LoggingManager.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T024825Z" creationid="huanghaohang" creationdate="20180107T024825Z">
+        <seg>../javadoc/org/gradle/api/logging/LoggingManager.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/tasks/StopExecutionException.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084210Z" creationid="huanghaohang" creationdate="20170922T084210Z">
@@ -6878,8 +6886,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Internally, Gradle uses Ant and Ivy. Both have their own logging system. Gradle redirects their logging output into the Gradle logging system. There is a 1:1 mapping from the Ant/Ivy log levels to the Gradle log levels, except the Ant/Ivy &lt;c0&gt;TRACE&lt;/c0&gt; log level, which is mapped to Gradle &lt;c1&gt;DEBUG&lt;/c1&gt; log level. This means the default Gradle log level will not show any Ant/Ivy output unless it is an error or a warning.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T024822Z" creationid="huanghaohang" creationdate="20180107T024822Z">
-        <seg>Gradle 内部使用 Ant 和 Ivy，这两者都有自己的日志系统。Gradle 将它们的日志输出重定向到 Gradle 的日志记录系统上。从 Ant 或 Ivy 的日志级别到 Gradle 的日志级别，除了Ant 或 Ivy 的 &lt;c0&gt;TRACE&lt;/c0&gt; 是被映射到 Gradle 的 &lt;c1&gt;DEBUG&lt;/c1&gt;日志级别之外，其他的都是一对一的映射。这意味着默认的 Gradle 日志级别不会显示任何 Ant 或 Ivy 输出，除非是错误或警告信息。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T024845Z" creationid="huanghaohang" creationdate="20180107T024822Z">
+        <seg>Gradle 内部使用 Ant 和 Ivy，它们都有自己的日志系统。Gradle 将它们的日志输出重定向到 Gradle 的日志记录系统上。从 Ant 或 Ivy 的日志级别到 Gradle 的日志级别，除了Ant 或 Ivy 的 &lt;c0&gt;TRACE&lt;/c0&gt; 是被映射到 Gradle 的 &lt;c1&gt;DEBUG&lt;/c1&gt;日志级别之外，其他的都是一对一的映射。这意味着默认的 Gradle 日志级别不会显示任何 Ant 或 Ivy 输出，除非是错误或警告信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8780,6 +8788,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232523Z" creationid="huanghaohang" creationdate="20171206T232523Z">
         <seg>你可以在归档任务上设置很多属性。它们在&lt;a0&gt;表16.1“存档任务 - 命名属性”&lt;/a0&gt;中有列出。例如，你可以更改归档的名称：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are many tools out there which still use standard output for logging. By default, Gradle redirects standard output to the &lt;c0&gt;QUIET&lt;/c0&gt; log level and standard error to the &lt;c1&gt;ERROR&lt;/c1&gt; level. This behavior is configurable. The project object provides a &lt;a2&gt;&lt;c3&gt;LoggingManager&lt;/c3&gt;&lt;/a2&gt;, which allows you to change the log levels that standard out or error are redirected to when your build script is evaluated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025316Z" creationid="huanghaohang" creationdate="20180107T024839Z">
+        <seg>有许多工具仍然是使用标准输出来记录日志。默认情况下，Gradle 把标准输出重定向到 &lt;c0&gt;QUIET&lt;/c0&gt; 日志级别，把标准错误则重定向到 &lt;c1&gt;ERROR&lt;/c1&gt; 级别上。这种行为是可配置的。Project 对象提供了一个 &lt;a2&gt;&lt;c3&gt;LoggingManager&lt;/c3&gt;&lt;/a2&gt;，它能在评估构建脚本时，让你修改标准输出或错误所重定向的日志级别。</seg>
       </tuv>
     </tu>
     <tu>
