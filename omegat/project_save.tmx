@@ -5596,6 +5596,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 18.2. Writing your own log messages</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T012426Z" creationid="huanghaohang" creationdate="20180107T012426Z">
+        <seg>示例 18.2. 编写自己的日志消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -9712,6 +9720,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also hook into Gradle's logging system from within other classes used in the build (classes from the &lt;c0&gt;buildSrc&lt;/c0&gt; directory for example). Simply use an SLF4J logger. You can use this logger the same way as you use the provided logger in the build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T024328Z" creationid="huanghaohang" creationdate="20180107T012515Z">
+        <seg>你也可以通过在构建中使用的其他类（例如 &lt;c0&gt;buildSrc&lt;/c0&gt; 目录中的类） hook 到 Gradle 的日志系统。只需使用一个 SLF4J logger，你可以像使用构建脚本中提供的 logger 一样使用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also pass the &lt;c0&gt;files()&lt;/c0&gt; method a closure or a &lt;c1&gt;Callable&lt;/c1&gt; instance. This is called when the contents of the collection are queried, and its return value is converted to a set of &lt;c2&gt;File&lt;/c2&gt; instances. The return value can be an object of any of the types supported by the &lt;c3&gt;files()&lt;/c3&gt; method. This is a simple way to 'implement' the &lt;c4&gt;FileCollection&lt;/c4&gt; interface.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150346Z" creationid="huanghaohang" creationdate="20170923T132352Z">
@@ -12150,6 +12166,26 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T010149Z" creationid="huanghaohang" creationdate="20170909T010149Z">
         <seg>jetty_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>logger.quiet(&lt;s0&gt;'An info log message which is always logged.'&lt;/s0&gt;)
+logger.error(&lt;s1&gt;'An error log message.'&lt;/s1&gt;)
+logger.warn(&lt;s2&gt;'A warning log message.'&lt;/s2&gt;)
+logger.lifecycle(&lt;s3&gt;'A lifecycle info log message.'&lt;/s3&gt;)
+logger.info(&lt;s4&gt;'An info log message.'&lt;/s4&gt;)
+logger.debug(&lt;s5&gt;'A debug log message.'&lt;/s5&gt;)
+logger.trace(&lt;s6&gt;'A trace log message.'&lt;/s6&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T012509Z" creationid="huanghaohang" creationdate="20180107T012509Z">
+        <seg>logger.quiet(&lt;s0&gt;'An info log message which is always logged.'&lt;/s0&gt;)
+logger.error(&lt;s1&gt;'An error log message.'&lt;/s1&gt;)
+logger.warn(&lt;s2&gt;'A warning log message.'&lt;/s2&gt;)
+logger.lifecycle(&lt;s3&gt;'A lifecycle info log message.'&lt;/s3&gt;)
+logger.info(&lt;s4&gt;'An info log message.'&lt;/s4&gt;)
+logger.debug(&lt;s5&gt;'A debug log message.'&lt;/s5&gt;)
+logger.trace(&lt;s6&gt;'A trace log message.'&lt;/s6&gt;)</seg>
       </tuv>
     </tu>
     <tu>
