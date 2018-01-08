@@ -1346,6 +1346,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>19.1. Enter the daemon</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133238Z" creationid="huanghaohang" creationdate="20180108T133238Z">
+        <seg>19.1. 走进守护进程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -2446,6 +2454,14 @@ configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T004659Z" creationid="huanghaohang" creationdate="20170909T004659Z">
         <seg>&lt;s0&gt;&lt;e1&gt;注：&lt;/e1&gt;&lt;/s0&gt;本示例的代码可以在Gradle的二进制或源代码发行包中的 &lt;c2&gt;samples/webApplication/quickstart&lt;/c2&gt;里找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;The Gradle daemon&lt;/e1&gt;&lt;/s0&gt; (sometimes referred as &lt;s2&gt;&lt;e3&gt;the build daemon&lt;/e3&gt;&lt;/s2&gt;) aims to improve the startup and execution time of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133319Z" creationid="huanghaohang" creationdate="20180108T133319Z">
+        <seg>&lt;s0&gt; &lt;e1&gt;Gradle 守护进程&lt;/e1&gt;&lt;/s0&gt;（有时也称为&lt;s2&gt;&lt;e3&gt;构建守护进程&lt;/e3&gt;&lt;/s2&gt;） 旨在改善 Gradle 的启动和执行时间。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4458,6 +4474,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072513Z" creationid="haohang" creationdate="20170720T072513Z">
         <seg>第二章. 概述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 20. The Build Environment</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133212Z" creationid="huanghaohang" creationdate="20180108T133212Z">
+        <seg>第二十章. 构建环境</seg>
       </tuv>
     </tu>
     <tu>
@@ -9696,6 +9720,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We came up with several use cases where the daemon is very useful. For some workflows, the user invokes Gradle many times to execute a small number of relatively quick tasks. For example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133507Z" creationid="huanghaohang" creationdate="20180108T133332Z">
+        <seg>我们想到了几个关于守护进程非常有用的情形。对于一些工作流，用户会多次调用 Gradle 以执行少量相对较快的任务。例如：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We have already seen how to define tasks using a keyword style in &lt;a0&gt;Chapter 6, &lt;i1&gt;Build Script Basics&lt;/i1&gt;&lt;/a0&gt;. There are a few variations on this style, which you may need to use in certain situations. For example, the keyword style does not work in expressions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120825Z" creationid="huanghaohang" creationdate="20170919T120825Z">
@@ -9820,6 +9852,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T120847Z" creationid="95" creationdate="20170723T120847Z">
         <seg>当使用Gradle（或者是其他软件包）的时候，或多或少都会遇到一些问题。或许是您无法驾驭的新特性，或许是正好遇到了缺陷，也可能是关于Gradle的一些常见问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When using test driven development, where the unit tests are executed many times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133538Z" creationid="huanghaohang" creationdate="20180108T133538Z">
+        <seg>当使用测试驱动开发时，单元测试会被执行多次。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10966,6 +11006,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132221Z" creationid="huanghaohang" creationdate="20170913T132221Z">
         <seg>buildDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build_environment.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133208Z" creationid="huanghaohang" creationdate="20180108T133208Z">
+        <seg>build_environment.html</seg>
       </tuv>
     </tu>
     <tu>
