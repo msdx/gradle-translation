@@ -6332,6 +6332,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For above sorts of workflows, it is important that the startup cost of invoking Gradle is as small as possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133759Z" creationid="huanghaohang" creationdate="20180108T133759Z">
+        <seg>对以上各种工作流来说，让调用 Gradle 的启动成本尽可能小是很重要的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For all the details of dependency resolution, see &lt;a0&gt;Chapter 50, &lt;i1&gt;Dependency Management&lt;/i1&gt;&lt;/a0&gt;, and for artifact publication see &lt;a2&gt;Chapter 51, &lt;i3&gt;Publishing artifacts&lt;/i3&gt;&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051234Z" creationid="huanghaohang" creationdate="20170908T051234Z">
@@ -6960,6 +6968,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T010826Z" creationid="huanghaohang" creationdate="20170910T010826Z">
         <seg>除了下面所示的内置任务之外，还可以使用&lt;a0&gt;项目报告插件&lt;/a0&gt;将一些任务添加到项目中，以生成这些报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In addition, user interfaces can provide some interesting features if the Gradle model can be built relatively quickly. For example, the daemon might be useful for following scenarios:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133939Z" creationid="huanghaohang" creationdate="20180108T133939Z">
+        <seg>此外，如果可以相对较快地建立 Gradle 模型，用户界面可以提供一些有趣的功能。例如，守护进程可能对以下情况有用：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9828,6 +9844,22 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132523Z" creationid="huanghaohang" creationdate="20170913T132523Z">
         <seg>当Gradle执行脚本时，它会将脚本编译成一个实现&lt;a0&gt;&lt;c1&gt;Script&lt;/c1&gt;&lt;/a0&gt;接口的类。这意味着&lt;c2&gt;Script&lt;/c2&gt;接口声明的所有属性和方法都可以在你的脚本中使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When developing a web application, where the application is assembled many times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133647Z" creationid="huanghaohang" creationdate="20180108T133647Z">
+        <seg>当开发一个 web 应用程序中，应用程序会被组装多次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When discovering what a build can do, where &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt; is executed a number of times.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133741Z" creationid="huanghaohang" creationdate="20180108T133741Z">
+        <seg>当要了解一个构建能做什么时，&lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt; 会被执行多次。</seg>
       </tuv>
     </tu>
     <tu>
