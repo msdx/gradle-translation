@@ -4972,6 +4972,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Even faster builds: preemptively evaluate projects, so that the model is ready when the user next invokes Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180109T140343Z" creationid="huanghaohang" creationdate="20180109T140343Z">
+        <seg>甚至更快的构建：预先评估项目，以便在用户下一次调用 Gradle 时，模型就已准备就绪。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every Gradle build is made up of one or more &lt;e0&gt;projects&lt;/e0&gt;. What a project represents depends on what it is that you are doing with Gradle. For example, a project might represent a library JAR or a web application. It might represent a distribution ZIP assembled from the JARs produced by other projects. A project does not necessarily represent a thing to be built. It might represent a thing to be done, such as deploying your application to staging or production environments. Don't worry if this seems a little vague for now. Gradle's build-by-convention support adds a more concrete definition for what a project is.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T143530Z" creationid="95" creationdate="20170724T143309Z">
@@ -6988,6 +6996,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In future the daemon will offer more features:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180109T135840Z" creationid="huanghaohang" creationdate="20180109T135840Z">
+        <seg>未来，该守护进程还会提供更多的功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In general, snappy behavior of the build tool is always handy. If you try using the daemon for your local builds it's going to be hard for you to go back to regular use of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T135120Z" creationid="huanghaohang" creationdate="20180108T134044Z">
@@ -8260,6 +8276,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Snappy up-to-date checks: use native file system change notifications (e.g. via jdk7 nio.2) to preemptively perform up-to-date analysis.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180109T140053Z" creationid="huanghaohang" creationdate="20180109T135914Z">
+        <seg>敏捷的最新（up-to-date）检查：使用本地文件系统修改通知（例如，通过 jdk7 nio.2）预先执行 up-to-date 分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Some other types of things you can pass to &lt;c0&gt;files()&lt;/c0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150454Z" creationid="huanghaohang" creationdate="20170927T150415Z">
@@ -8740,6 +8764,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143848Z" creationid="huanghaohang" creationdate="20170911T143755Z">
         <seg>任务树显示所有项目及其任务的层次结构，双击一个任务就可以执行它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Tooling API (see &lt;a0&gt;Chapter 62, &lt;i1&gt;Embedding Gradle&lt;/i1&gt;&lt;/a0&gt;) uses the daemon all the time, e.g. you cannot officially use the Tooling API without the daemon. This means that whenever you are using the STS Gradle plugin for Eclipse or the Gradle support in Intellij IDEA, you're already using the Gradle Daemon.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180109T135832Z" creationid="huanghaohang" creationdate="20180109T135832Z">
+        <seg>Tooling API（请参阅《&lt;a0&gt;第62章，&lt;i1&gt;嵌入Gradle&lt;/i1&gt;&lt;/a0&gt;》）会始终使用守护进程。例如，如果没有守护进程，你就不能正式使用 Tooling API。这意味着无论你是在 Eclipse 中使用 STS Gradle 插件，还是在 Intellij IDEA 中使用 Gradle 支持，都已经使用了Gradle Daemon。</seg>
       </tuv>
     </tu>
     <tu>
