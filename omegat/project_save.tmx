@@ -4836,6 +4836,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Did we mention faster builds? The daemon can potentially preemptively download dependencies or check for new versions of snapshot dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180109T141702Z" creationid="huanghaohang" creationdate="20180109T140348Z">
+        <seg>我们提到更快的构建了吗？守护进程可以预先下载依赖项或检查 snapshot 依赖的新版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Different teams prefer different ways to manage their external dependencies. Gradle provides convenient support for any strategy. From transitive dependency management with remote Maven and Ivy repositories to jars or dirs on the local file system.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T034310Z" creationid="95" creationdate="20170723T034054Z">
