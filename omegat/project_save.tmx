@@ -8872,6 +8872,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The basic idea is that the Gradle command forks a daemon process, which performs the actual build. Subsequent invocations of the Gradle command will reuse the daemon, avoiding the startup costs. Sometimes we cannot use an existing daemon because it is busy or its java version or jvm arguments are different. For exact details on when exactly new daemon process is forked read the dedicated section below. The daemon process automatically expire after 3 hours of idle time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180114T155211Z" creationid="huanghaohang" creationdate="20180114T155211Z">
+        <seg>The basic idea is that the Gradle command forks a daemon process, which performs the actual build. Subsequent invocations of the Gradle command will reuse the daemon, avoiding the startup costs. Sometimes we cannot use an existing daemon because it is busy or its java version or jvm arguments are different. For exact details on when exactly new daemon process is forked read the dedicated section below. The daemon process automatically expire after 3 hours of idle time.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The binary sources. This is for reference only. If you want to build Gradle you need to download the source distribution or checkout the sources from the source repository. See the &lt;a0&gt;Gradle web site&lt;/a0&gt; for details.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T115048Z" creationid="95" creationdate="20170723T115048Z">
