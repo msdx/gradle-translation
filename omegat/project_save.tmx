@@ -8874,8 +8874,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The basic idea is that the Gradle command forks a daemon process, which performs the actual build. Subsequent invocations of the Gradle command will reuse the daemon, avoiding the startup costs. Sometimes we cannot use an existing daemon because it is busy or its java version or jvm arguments are different. For exact details on when exactly new daemon process is forked read the dedicated section below. The daemon process automatically expire after 3 hours of idle time.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180114T155211Z" creationid="huanghaohang" creationdate="20180114T155211Z">
-        <seg>The basic idea is that the Gradle command forks a daemon process, which performs the actual build. Subsequent invocations of the Gradle command will reuse the daemon, avoiding the startup costs. Sometimes we cannot use an existing daemon because it is busy or its java version or jvm arguments are different. For exact details on when exactly new daemon process is forked read the dedicated section below. The daemon process automatically expire after 3 hours of idle time.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180115T142750Z" creationid="huanghaohang" creationdate="20180114T155211Z">
+        <seg>基本思想是，Gradle 命令会 fork 一个守护进程执行实际的构建。Gradle 命令的后续调用将重用守护进程，以避免启动开销。有时我们不能使用现有的守护进程，是因为它正忙或者它的 java 版本或 jvm 参数不同。关于何时会 fork 新的守护进程的具体细节，请阅读下面的专题。守护进程将在空闲 3 小时后自动失效。</seg>
       </tuv>
     </tu>
     <tu>
