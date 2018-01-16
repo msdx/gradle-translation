@@ -9880,6 +9880,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We fork a separate daemon process if the jvm arguments for the build are sufficiently different. For example we will not fork a new daemon if a some system property has changed. However if -Xmx memory setting change or some fundamental immutable system property changes (e.g. file.encoding) then new daemon will be forked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180116T143144Z" creationid="huanghaohang" creationdate="20180116T143144Z">
+        <seg>如果构建的 jvm 参数足够不同，我们也会 fork 一个单独的守护进程。例如，如果某个系统属性发生改变，我们不会 fork 一个新的守护进程。但是如果 -Xmx 内存设置或者一些基本的不可变的系统属性修改了（例如 file.encoding），那么就会 fork 新的守护进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We fork a separate daemon process per java home. So even if there is some idle daemon waiting for build requests but you happen to run build with a different java home then a brand new daemon will be forked.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180116T141927Z" creationid="huanghaohang" creationdate="20180116T141927Z">
