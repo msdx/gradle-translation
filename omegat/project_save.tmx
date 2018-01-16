@@ -4246,6 +4246,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At the moment daemon is coupled with particular version of Gradle. This means that even if some daemon is idle but you are running the build with a different version of Gradle, a new daemon will be started. This also has a consequence for the &lt;c0&gt;--stop&lt;/c0&gt; command line instruction: You can only stop daemons that were started with the Gradle version you use when running &lt;c1&gt;--stop&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180116T143715Z" creationid="huanghaohang" creationdate="20180116T143715Z">
+        <seg>此刻，守护进程将与特定版本的 Gradle 结合在一起。这意味着即使某些守护进程闲置，但是你正在使用不同版本的 Gradle 来运行构建，也会启动一个新的守护进程。这对于 &lt;c0&gt;--stop&lt;/c0&gt; 命令行指令也有一个后果：当运行 &lt;c1&gt;--stop&lt;/c1&gt; 时，你只能停止运行这个命令的 Gradle 版本所启动的守护进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because each task is executed once only, executing &lt;s0&gt;&lt;c1&gt;gradle test test&lt;/c1&gt;&lt;/s0&gt; is exactly the same as executing &lt;s2&gt;&lt;c3&gt;gradle test&lt;/c3&gt;&lt;/s2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031650Z" creationid="huanghaohang" creationdate="20170909T031205Z">
