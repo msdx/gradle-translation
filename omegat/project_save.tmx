@@ -9880,6 +9880,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We fork a separate daemon process per java home. So even if there is some idle daemon waiting for build requests but you happen to run build with a different java home then a brand new daemon will be forked.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180116T141927Z" creationid="huanghaohang" creationdate="20180116T141927Z">
+        <seg>我们为每一个 java home 分配一个独立的守护进程。所以，即使有一些闲置的守护进程正在等待构建请求，但你碰巧用另一个 java home 运行构建，那么还是会 fork 一个全新的守护进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We have already seen how to define tasks using a keyword style in &lt;a0&gt;Chapter 6, &lt;i1&gt;Build Script Basics&lt;/i1&gt;&lt;/a0&gt;. There are a few variations on this style, which you may need to use in certain situations. For example, the keyword style does not work in expressions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120825Z" creationid="huanghaohang" creationdate="20170919T120825Z">
