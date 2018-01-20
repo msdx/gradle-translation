@@ -1370,6 +1370,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>19.4. Configuring the daemon</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025707Z" creationid="huanghaohang" creationdate="20180120T025707Z">
+        <seg>19.4. 配置守护进程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072442Z" creationid="haohang" creationdate="20170720T072442Z">
@@ -7596,6 +7604,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Occasionally, you may want to stop the daemons either via the &lt;c0&gt;--stop&lt;/c0&gt; command line option or in a more forceful way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025506Z" creationid="huanghaohang" creationdate="20180120T025506Z">
+        <seg>有时候，你可能想要通过 &lt;c0&gt;--stop&lt;/c0&gt; 命令行选项或更有力的方式停止守护进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Often you will want to publish an archive, so that it is usable from another project. This process is described in &lt;a0&gt;Chapter 51, &lt;i1&gt;Publishing artifacts&lt;/i1&gt;&lt;/a0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233541Z" creationid="huanghaohang" creationdate="20171206T233541Z">
@@ -8368,6 +8384,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180109T140053Z" creationid="huanghaohang" creationdate="20180109T135914Z">
         <seg>敏捷的最新（up-to-date）检查：使用本地文件系统修改通知（例如，通过 jdk7 nio.2）预先执行 up-to-date 分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some daemon settings, such as JVM arguments, memory settings or the Java home, can be configured. Please find more information in &lt;a0&gt;Section 20.1, “Configuring the build environment via gradle.properties”&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025857Z" creationid="huanghaohang" creationdate="20180120T025857Z">
+        <seg>可以配置一些守护进程的设置，例如 JVM 参数、 内存设置或 Java home 目录。更多有关信息请参阅《&lt;a0&gt;20.1 节，“通过 gradle.properties 配置构建环境”&lt;/a0&gt;》</seg>
       </tuv>
     </tu>
     <tu>
@@ -9268,6 +9292,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132357Z" creationid="huanghaohang" creationdate="20170917T132357Z">
         <seg>有一个常见的情况是，有多个任务依赖于某个目录的存在。当然，你可以在这些任务开始时执行&lt;c0&gt;mkdir&lt;/c0&gt;来解决这个问题。但这是一种臃肿的解决方法。更好的解决方案是这样的（仅适用于需要某个目录的这些任务有&lt;s1&gt;&lt;e2&gt;依赖&lt;/e2&gt;&lt;/s1&gt;关系的情况）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is a daemon log file, which by default is located in the Gradle user home directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025640Z" creationid="huanghaohang" creationdate="20180120T025640Z">
+        <seg>守护进程的日志文件默认在 Gradle 用户主目录下。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10540,6 +10572,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171216T022441Z" creationid="huanghaohang" creationdate="20171216T022027Z">
         <seg>通过调用 &lt;c0&gt;AntBuilder&lt;/c0&gt; 实例上的一个方法，可以来执行一个 Ant 任务。你可以把任务名称作为方法名称来使用。例如，通过调用 &lt;c2&gt;ant.echo()&lt;/c2&gt; 方法执行 Ant &lt;c1&gt;echo&lt;/c1&gt; 任务。Ant 任务的属性将作为 Map 参数传递给这个方法。下面是执行 &lt;c3&gt;echo&lt;/c3&gt; 任务的一个例子。请注意，我们也可以混合使用 Groovy 代码和 Ant 任务标记，这会很强大。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You may want to start the daemon in &lt;c0&gt;--foreground&lt;/c0&gt; mode to observe how the build is executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025704Z" creationid="huanghaohang" creationdate="20180120T025704Z">
+        <seg>你可能想要以 &lt;c0&gt;--foreground&lt;/c0&gt; 模式启动守护程序，来观察构建是怎么执行的。</seg>
       </tuv>
     </tu>
     <tu>
