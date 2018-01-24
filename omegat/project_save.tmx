@@ -1418,6 +1418,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>20.1. Configuring the build environment via gradle.properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180123T123641Z" creationid="huanghaohang" creationdate="20180123T123641Z">
+        <seg>20.1. 通过 gradle.properties 配置构建环境</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -4518,6 +4526,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Chapter 21. Gradle Plugins</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180123T123628Z" creationid="huanghaohang" creationdate="20180123T123628Z">
+        <seg>第二十一章. Gradle 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Chapter 3. Tutorials</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072420Z" creationid="95" creationdate="20170721T165938Z">
@@ -6664,6 +6680,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T010749Z" creationid="huanghaohang" creationdate="20170910T010749Z">
         <seg>Gradle提供了一些内置任务能展示构建的相关特定信息。这对于了解构建的结构和依赖以及调试问题可能很有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle provides several options that make it easy to configure the Java process that will be used to execute your build. While it's possible to configure these in your local environment via GRADLE_OPTS or JAVA_OPTS, certain settings like JVM memory settings, Java home, daemon on/off can be more useful if they can versioned with the project in your VCS so that the entire team can work with consistent environment. Setting up a consistent environment for your build is as simple as placing those settings into a &lt;c0&gt;gradle.properties&lt;/c0&gt; file. The configuration is applied in following order (in case an option is configured in multiple locations the last one wins):</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180124T144616Z" creationid="huanghaohang" creationdate="20180124T144616Z">
+        <seg>Gradle提供了几个选项，可以很容易地配置用于执行构建的 Java 进程。尽管可以通过 GRADLE_OPTS 或 JAVA_OPTS 在本地环境中配置这些设置，但是如果某些设置，像 JVM 内存设置，Java home，守护进程开启/关闭等特定设置可以提交到 VCS 的话会更有用，这样整个团队就能使用一致的环境。为你的构建建立一个一致的环境就像将这些设置放入一个 &lt;c0&gt;gradle.properties&lt;/c0&gt; 文件一样简单。这些配置将按以下顺序被应用（以防一个选项在多个位置都有配置时只有最后一个生效）：</seg>
       </tuv>
     </tu>
     <tu>
@@ -13133,6 +13157,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133547Z" creationid="huanghaohang" creationdate="20170913T133547Z">
         <seg>plugin {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>plugins.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180123T123627Z" creationid="huanghaohang" creationdate="20180123T123627Z">
+        <seg>plugins.html</seg>
       </tuv>
     </tu>
     <tu>
