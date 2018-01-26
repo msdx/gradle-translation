@@ -8470,8 +8470,16 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Specifies the java home for the Gradle build process. The value can be set to either &lt;c0&gt;jdk&lt;/c0&gt; or &lt;c1&gt;jre&lt;/c1&gt; location, however, depending on what does your build do, &lt;c2&gt;jdk&lt;/c2&gt; is safer. Reasonable default is used if the setting is unspecified.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T012854Z" creationid="huanghaohang" creationdate="20180126T012854Z">
-        <seg>Specifies the java home for the Gradle build process. The value can be set to either &lt;c0&gt;jdk&lt;/c0&gt; or &lt;c1&gt;jre&lt;/c1&gt; location, however, depending on what does your build do, &lt;c2&gt;jdk&lt;/c2&gt; is safer. Reasonable default is used if the setting is unspecified.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T013100Z" creationid="huanghaohang" creationdate="20180126T012854Z">
+        <seg>指定 Gradle 构建进程的 java 主目录。该值可以设置为 &lt;c0&gt;JDK&lt;/c0&gt; 或 &lt;c1&gt;JRE&lt;/c1&gt; 的位置，但是，根据你的构建所做的事情，&lt;c2&gt;JDK&lt;/c2&gt; 会更安全。如果这一设置没有指定，则使用合理的默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Specifies the jvmargs used for the daemon process. The setting is particularly useful for tweaking memory settings. At the moment the default settings are pretty generous with regards to memory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T013320Z" creationid="huanghaohang" creationdate="20180126T013320Z">
+        <seg>指定用于守护进程的 jvmargs。该设置对调整内存设置特别有用。目前的默认设置是在内存方面很大方。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13133,6 +13141,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T012616Z" creationid="huanghaohang" creationdate="20180126T012616Z">
         <seg>org.gradle.java.home</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.gradle.jvmargs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T013102Z" creationid="huanghaohang" creationdate="20180126T013102Z">
+        <seg>org.gradle.jvmargs</seg>
       </tuv>
     </tu>
     <tu>
