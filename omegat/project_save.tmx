@@ -1418,6 +1418,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>20.1.1. Forked java processes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T020557Z" creationid="huanghaohang" creationdate="20180126T020557Z">
+        <seg>20.1.1. Forked java 进程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>20.1. Configuring the build environment via gradle.properties</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180123T123641Z" creationid="huanghaohang" creationdate="20180123T123641Z">
@@ -7452,6 +7460,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Many settings (like the java version and maximum heap size) can only be specified when launching a new JVM for the build process. This means that Gradle must launch a separate JVM process to execute the build after parsing the various &lt;c0&gt;gradle.properties&lt;/c0&gt; files. When running with the daemon, a JVM with the correct parameters is started once and reused for each daemon build execution. When Gradle is executed without the daemon, then a new JVM must be launched for every build execution, unless the JVM launched by the Gradle start script happens to have the same parameters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T071751Z" creationid="huanghaohang" creationdate="20180126T071751Z">
+        <seg>Many settings (like the java version and maximum heap size) can only be specified when launching a new JVM for the build process. This means that Gradle must launch a separate JVM process to execute the build after parsing the various &lt;c0&gt;gradle.properties&lt;/c0&gt; files. When running with the daemon, a JVM with the correct parameters is started once and reused for each daemon build execution. When Gradle is executed without the daemon, then a new JVM must be launched for every build execution, unless the JVM launched by the Gradle start script happens to have the same parameters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Many ways to manage your dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T034041Z" creationid="95" creationdate="20170723T034041Z">
@@ -10132,6 +10148,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132523Z" creationid="huanghaohang" creationdate="20170913T132523Z">
         <seg>当Gradle执行脚本时，它会将脚本编译成一个实现&lt;a0&gt;&lt;c1&gt;Script&lt;/c1&gt;&lt;/a0&gt;接口的类。这意味着&lt;c2&gt;Script&lt;/c2&gt;接口声明的所有属性和方法都可以在你的脚本中使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When configured, Gradle will run in incubating parallel mode.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T020554Z" creationid="huanghaohang" creationdate="20180126T020554Z">
+        <seg>配置之后，Gradle 将在试验性的并行模式下运行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13173,6 +13197,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T013102Z" creationid="huanghaohang" creationdate="20180126T013102Z">
         <seg>org.gradle.jvmargs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.gradle.parallel</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T020535Z" creationid="huanghaohang" creationdate="20180126T020535Z">
+        <seg>org.gradle.parallel</seg>
       </tuv>
     </tu>
     <tu>
