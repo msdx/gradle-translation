@@ -8468,6 +8468,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Specifies the java home for the Gradle build process. The value can be set to either &lt;c0&gt;jdk&lt;/c0&gt; or &lt;c1&gt;jre&lt;/c1&gt; location, however, depending on what does your build do, &lt;c2&gt;jdk&lt;/c2&gt; is safer. Reasonable default is used if the setting is unspecified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T012854Z" creationid="huanghaohang" creationdate="20180126T012854Z">
+        <seg>Specifies the java home for the Gradle build process. The value can be set to either &lt;c0&gt;jdk&lt;/c0&gt; or &lt;c1&gt;jre&lt;/c1&gt; location, however, depending on what does your build do, &lt;c2&gt;jdk&lt;/c2&gt; is safer. Reasonable default is used if the setting is unspecified.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Stack Trace Output</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T150007Z" creationid="huanghaohang" creationdate="20170911T150007Z">
@@ -13117,6 +13125,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T012231Z" creationid="huanghaohang" creationdate="20180126T012231Z">
         <seg>org.gradle.daemon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.gradle.java.home</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T012616Z" creationid="huanghaohang" creationdate="20180126T012616Z">
+        <seg>org.gradle.java.home</seg>
       </tuv>
     </tu>
     <tu>
