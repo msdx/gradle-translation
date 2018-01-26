@@ -4996,6 +4996,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Enables new incubating mode that makes Gradle selective when configuring projects. Only relevant projects are configured which results in faster builds for large multi-projects. See &lt;a0&gt;Section 56.1.1.1, “Configuration on demand”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T020534Z" creationid="huanghaohang" creationdate="20180126T020534Z">
+        <seg>启用新的试验性的模式，该模式可以在配置项目时使 Gradle 具有选择性。只适用于相关的项目被配置为在大型多项目中更快地构建。请参阅《&lt;a0&gt;第 56.1.1.1 节，“按需配置”&lt;/a0&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Enabling this option hides any output when a task is executed unless the build fails.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T150222Z" creationid="huanghaohang" creationdate="20170911T150222Z">
@@ -8478,8 +8486,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Specifies the jvmargs used for the daemon process. The setting is particularly useful for tweaking memory settings. At the moment the default settings are pretty generous with regards to memory.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T013320Z" creationid="huanghaohang" creationdate="20180126T013320Z">
-        <seg>指定用于守护进程的 jvmargs。该设置对调整内存设置特别有用。目前的默认设置是在内存方面很大方。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T013331Z" creationid="huanghaohang" creationdate="20180126T013320Z">
+        <seg>指定用于守护进程的 jvmargs。该设置对调整内存设置特别有用。目前的默认设置是在内存方面非常大方。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13089,6 +13097,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>multi_project_builds.html#sec:configuration_on_demand</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T013334Z" creationid="huanghaohang" creationdate="20180126T013334Z">
+        <seg>multi_project_builds.html#sec:configuration_on_demand</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>multiproject/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154455Z" creationid="95" creationdate="20170731T154455Z">
@@ -13125,6 +13141,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155848Z" creationid="95" creationdate="20170726T155848Z">
         <seg>或者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.gradle.configureondemand</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T013325Z" creationid="huanghaohang" creationdate="20180126T013325Z">
+        <seg>org.gradle.configureondemand</seg>
       </tuv>
     </tu>
     <tu>
