@@ -10144,6 +10144,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When set to &lt;c0&gt;true&lt;/c0&gt; the Gradle daemon is to run the build. For local developer builds this is our favorite property. The developer environment is optimized for speed and feedback so we nearly always run Gradle jobs with the daemon. We don't run CI builds with the daemon (i.e. a long running process) as the CI environment is optimized for consistency and reliability.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T012614Z" creationid="huanghaohang" creationdate="20180126T012237Z">
+        <seg>当设置为 &lt;c0&gt;true&lt;/c0&gt; 时，Gradle 守护进程会运行构建。对于本地开发者的构建而言，这是我们最喜欢的属性。开发人员的环境在速度和反馈上会优化，因此我们几乎总是使用守护进程运行 Gradle 作业。我们不会使用守护进程（即长时间运行的进程）运行 CI 构建，因为 CI 环境已经进行了优化以保持一致性和可靠性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When using Gradle (or any software package), you can run into problems. You may not understand how to use a particular feature, or you may encounter a defect. Or, you may have a general question about Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T120847Z" creationid="95" creationdate="20170723T120847Z">
