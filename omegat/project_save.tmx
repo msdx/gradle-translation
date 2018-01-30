@@ -1434,6 +1434,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>20.2.1. NTLM Authentication</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T080556Z" creationid="huanghaohang" creationdate="20180130T080556Z">
+        <seg>20.2.1. NTLM 身份验证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>20.2. Accessing the web via a proxy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073251Z" creationid="huanghaohang" creationdate="20180130T073147Z">
+        <seg>20.2. 通过代理访问网络</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -4686,6 +4702,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configuring an HTTP proxy (for example for downloading dependencies) is done via standard JVM system properties. These properties can be set directly in the build script; for example &lt;c0&gt; System.setProperty('http.proxyHost', 'www.somehost.org')&lt;/c0&gt; for the proxy host. Alternatively, the properties can be specified in a gradle.properties file, either in the build's root directory or in the Gradle home directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073459Z" creationid="huanghaohang" creationdate="20180130T073214Z">
+        <seg>配置 HTTP 代理（例如用于下载依赖）是通过标准的 JVM 系统属性完成的。这些属性可以直接在构建脚本中设置；例如通过&lt;c0&gt; System.setProperty('http.proxyHost', 'www.somehost.org')&lt;/c0&gt; 来设置代理主机。或者，可以在构建的根目录或 Gradle 主目录中的 gradle.properties 文件中指定这些属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Content assistance in the IDE</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133945Z" creationid="huanghaohang" creationdate="20180108T133945Z">
@@ -5908,6 +5932,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 20.1. Configuring an HTTP proxy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073508Z" creationid="huanghaohang" creationdate="20180130T073508Z">
+        <seg>示例 20.1. 配置 HTTP 代理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 20.2. Configuring an HTTPS proxy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073538Z" creationid="huanghaohang" creationdate="20180130T073538Z">
+        <seg>示例 20.1. 配置 HTTPS 代理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -7056,6 +7096,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T151624Z" creationid="95" creationdate="20170724T151624Z">
         <seg>如果你认为它看上去和Ant的目标很像，那就对了。Gradle的任务相当于Ant的目标。但是，正如你所见，它们更加强大。我们使用与Ant不同的术语，是因为我们认为&lt;s0&gt;&lt;e1&gt;任务&lt;/e1&gt;&lt;/s0&gt;这个词比&lt;s2&gt;&lt;e3&gt;目标&lt;/e3&gt;&lt;/s2&gt;的含义更丰富。不过不幸的是，这也导致了与Ant的术语冲突。Ant会调用它自己的一些命令，比如像&lt;c4&gt;javac&lt;/c4&gt; 或是 &lt;c5&gt;copy&lt;/c5&gt;任务。因为，当我们讨论任务时，&lt;s6&gt;&lt;e7&gt;通常&lt;/e7&gt;&lt;/s6&gt;指的是Gradle的任务，相当于Ant的目标。当我们讨论Ant 的任务时，我们会明确地说是 &lt;s8&gt;&lt;e9&gt;ant 任务&lt;/e9&gt;&lt;/s8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your proxy requires NTLM authentication, you may need to provide the authentication domain as well as the username and password. There are 2 ways that you can provide the domain for authenticating to a NTLM proxy:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T080854Z" creationid="huanghaohang" creationdate="20180130T080854Z">
+        <seg>如果你的代理需要 NTLM 身份验证，则可能需要提供身份验证域以及用户名和密码。有两种方法可以向 NTLM 代理提供进行身份验证的域：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8244,6 +8292,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Provide the authentication domain via the &lt;c0&gt;http.auth.ntlm.domain&lt;/c0&gt; system property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T080944Z" creationid="huanghaohang" creationdate="20180130T080944Z">
+        <seg>通过 &lt;c0&gt;http.auth.ntlm.domain&lt;/c0&gt; 系统属性提供验证域。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Publishing artifacts</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233738Z" creationid="huanghaohang" creationdate="20171206T233738Z">
@@ -8384,6 +8440,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233935Z" creationid="huanghaohang" creationdate="20171206T233935Z">
         <seg>选择执行哪个构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set the &lt;c0&gt;http.proxyUser&lt;/c0&gt; system property to a value like &lt;c1&gt;&lt;e2&gt;&lt;c3&gt;domain&lt;/c3&gt;&lt;/e2&gt;/&lt;e4&gt;&lt;c5&gt;username&lt;/c5&gt;&lt;/e4&gt;&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T080931Z" creationid="huanghaohang" creationdate="20180130T080931Z">
+        <seg>将 &lt;c0&gt;http.proxyUser&lt;/c0&gt; 系统属性设置为一个这样的值：&lt;c1&gt;&lt;e2&gt;&lt;c3&gt;domain&lt;/c3&gt;&lt;/e2&gt;/&lt;e4&gt;&lt;c5&gt;username&lt;/c5&gt;&lt;/e4&gt;&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9304,6 +9368,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are separate settings for HTTPS.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073520Z" creationid="huanghaohang" creationdate="20180130T073520Z">
+        <seg>HTTPS 有单独的设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are several ways to get an Ant reference:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094706Z" creationid="huanghaohang" creationdate="20180105T094706Z">
@@ -10028,6 +10100,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133507Z" creationid="huanghaohang" creationdate="20180108T133332Z">
         <seg>我们想到了几个关于守护进程非常有用的情形。对于一些工作流，用户会多次调用 Gradle 以执行少量相对较快的任务。例如：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We could not find a good overview for all possible proxy settings. One place to look are the constants in a file from the Ant project. Here a &lt;a0&gt; link &lt;/a0&gt; to the Subversion view. The other is a &lt;a1&gt; Networking Properties page &lt;/a1&gt; from the JDK docs. If anyone knows a better overview, please let us know via the mailing list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T080547Z" creationid="huanghaohang" creationdate="20180130T080547Z">
+        <seg>我们无法很好地概述所有可能的代理服务器设置。其中可以去查看的地方一个是 Ant 项目的一个文件中的常量，这里有一个到 Subversion 视图的&lt;a0&gt;链接&lt;/a0&gt;；另一个是 JDK 文档里的&lt;a1&gt;网络属性页面&lt;/a1&gt;。如果有人知道更好的概述，请通过邮件列表告诉我们。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12450,6 +12530,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://download.oracle.com/javase/6/docs/technotes/guides/net/properties.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073550Z" creationid="huanghaohang" creationdate="20180130T073550Z">
+        <seg>http://download.oracle.com/javase/6/docs/technotes/guides/net/properties.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://forums.gradle.org</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T121536Z" creationid="95" creationdate="20170723T121536Z">
@@ -12478,6 +12566,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135850Z" creationid="huanghaohang" creationdate="20170913T135850Z">
         <seg>http://groovy.codehaus.org/groovy-jdk/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://svn.apache.org/viewvc/ant/core/trunk/src/main/org/apache/tools/ant/util/ProxySetup.java?view=markup&amp;pathrev=556977</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073542Z" creationid="huanghaohang" creationdate="20180130T073542Z">
+        <seg>http://svn.apache.org/viewvc/ant/core/trunk/src/main/org/apache/tools/ant/util/ProxySetup.java?view=markup&amp;pathrev=556977</seg>
       </tuv>
     </tu>
     <tu>
@@ -14587,6 +14683,38 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124423Z" creationid="95" creationdate="20170803T124423Z">
         <seg>subprojects {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>systemProp.http.proxyHost=www.somehost.org
+systemProp.http.proxyPort=8080
+systemProp.http.proxyUser=userid
+systemProp.http.proxyPassword=password
+systemProp.http.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073510Z" creationid="huanghaohang" creationdate="20180130T073510Z">
+        <seg>systemProp.http.proxyHost=www.somehost.org
+systemProp.http.proxyPort=8080
+systemProp.http.proxyUser=userid
+systemProp.http.proxyPassword=password
+systemProp.http.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>systemProp.https.proxyHost=www.somehost.org
+systemProp.https.proxyPort=8080
+systemProp.https.proxyUser=userid
+systemProp.https.proxyPassword=password
+systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073541Z" creationid="huanghaohang" creationdate="20180130T073541Z">
+        <seg>systemProp.https.proxyHost=www.somehost.org
+systemProp.https.proxyPort=8080
+systemProp.https.proxyUser=userid
+systemProp.https.proxyPassword=password
+systemProp.https.nonProxyHosts=*.nonproxyrepos.com|localhost</seg>
       </tuv>
     </tu>
     <tu>
