@@ -7462,8 +7462,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Many settings (like the java version and maximum heap size) can only be specified when launching a new JVM for the build process. This means that Gradle must launch a separate JVM process to execute the build after parsing the various &lt;c0&gt;gradle.properties&lt;/c0&gt; files. When running with the daemon, a JVM with the correct parameters is started once and reused for each daemon build execution. When Gradle is executed without the daemon, then a new JVM must be launched for every build execution, unless the JVM launched by the Gradle start script happens to have the same parameters.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T071751Z" creationid="huanghaohang" creationdate="20180126T071751Z">
-        <seg>Many settings (like the java version and maximum heap size) can only be specified when launching a new JVM for the build process. This means that Gradle must launch a separate JVM process to execute the build after parsing the various &lt;c0&gt;gradle.properties&lt;/c0&gt; files. When running with the daemon, a JVM with the correct parameters is started once and reused for each daemon build execution. When Gradle is executed without the daemon, then a new JVM must be launched for every build execution, unless the JVM launched by the Gradle start script happens to have the same parameters.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T072843Z" creationid="huanghaohang" creationdate="20180126T071751Z">
+        <seg>许多设置（如 java 版本和最大堆大小）只能在为构建进程启动新的 JVM 时指定。这意味着 Gradle 必须在解析各种 &lt;c0&gt;gradle.properties&lt;/c0&gt; 文件后启动一个单独的 JVM 进程执行构建。当使用守护进程运行时，具有正确参数的JVM 将启动一次，并在每个守护进程的构建执行时重用。在没有守护进程的情况下执行 Gradle 时，除非由 Gradle 启动脚本启动的 JVM 恰好具有相同的参数，否则必须为每个构建的执行启动一个新的 JVM。</seg>
       </tuv>
     </tu>
     <tu>
