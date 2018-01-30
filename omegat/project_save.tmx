@@ -9600,6 +9600,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This launching of an extra JVM on every build execution is quite expensive, which is why we highly recommend that you use the Gradle Daemon if you are specifying &lt;c0&gt;org.gradle.java.home&lt;/c0&gt; or &lt;c1&gt;org.gradle.jvmargs&lt;/c1&gt;. See &lt;a2&gt;Chapter 19, &lt;i3&gt;The Gradle Daemon&lt;/i3&gt;&lt;/a2&gt; for more details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073132Z" creationid="huanghaohang" creationdate="20180130T073132Z">
+        <seg>在每次构建执行中都启动一个额外的 JVM 的开销是非常大的，这就是为什么如果你指定了 &lt;c0&gt;org.gradle.java.home&lt;/c0&gt; 或 &lt;c1&gt;org.gradle.jvmargs&lt;/c1&gt;，我们会强烈建议你使用 Gradle Daemon。更多细节请查阅《&lt;a2&gt;第十九章，&lt;i3&gt;Gradle 守护进程&lt;/i3&gt;&lt;/a2&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This provides you with an alternate way to launch Gradle commands. This is useful if your project requires some extra setup that is done inside another batch file or shell script (such as specifying an init script).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T150358Z" creationid="huanghaohang" creationdate="20170911T150358Z">
