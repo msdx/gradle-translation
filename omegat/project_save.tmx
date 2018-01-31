@@ -6114,6 +6114,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 21.6. Plugin convention object</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T024635Z" creationid="huanghaohang" creationdate="20180131T024635Z">
+        <seg>示例 21.6. 插件约定对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -7374,6 +7382,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T030029Z" creationid="huanghaohang" creationdate="20170922T030029Z">
         <seg>在某些情况下，控制两个任务的执行&lt;s0&gt;&lt;e1&gt;顺序&lt;/e1&gt;&lt;/s0&gt;，而不引入这些任务之间的依赖，是很有用的。任务&lt;s2&gt;&lt;e3&gt;排序&lt;/e3&gt;&lt;/s2&gt;和任务&lt;s4&gt;&lt;e5&gt;依赖&lt;/e5&gt;&lt;/s4&gt;之间的主要区别是，排序规则不会影响执行哪些任务，只会影响任务执行的顺序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the example above, we applied the Java plugin which, among other things, did the following:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T024734Z" creationid="huanghaohang" creationdate="20180131T024734Z">
+        <seg>在上面的示例中，我们应用了 Java 插件，除此之外还做了下列操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10390,6 +10406,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We can change where the class files are written via the source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T024626Z" creationid="huanghaohang" creationdate="20180131T024528Z">
+        <seg>我们可以通过这个源文件集来修改类文件的写入位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We could also have used the following syntax:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093144Z" creationid="huanghaohang" creationdate="20180130T093144Z">
@@ -11468,6 +11492,22 @@ repositories {</seg>
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
 
 repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+sourceSets.main.output.classesDir = file(&lt;s1&gt;"$buildDir/output/classes"&lt;/s1&gt;)
+
+task show &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T024638Z" creationid="huanghaohang" creationdate="20180131T024638Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+sourceSets.main.output.classesDir = file(&lt;s1&gt;"$buildDir/output/classes"&lt;/s1&gt;)
+
+task show &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
