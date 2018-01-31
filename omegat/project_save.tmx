@@ -402,6 +402,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/Plugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093409Z" creationid="huanghaohang" creationdate="20180130T093409Z">
+        <seg>../javadoc/org/gradle/api/Plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/ProjectEvaluationListener.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144456Z" creationid="huanghaohang" creationdate="20180107T144456Z">
@@ -494,6 +502,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T024825Z" creationid="huanghaohang" creationdate="20180107T024825Z">
         <seg>../javadoc/org/gradle/api/logging/LoggingManager.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/plugins/JavaPlugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T092944Z" creationid="huanghaohang" creationdate="20180130T092944Z">
+        <seg>../javadoc/org/gradle/api/plugins/JavaPlugin.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -1470,6 +1486,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T092812Z" creationid="huanghaohang" creationdate="20180130T092812Z">
         <seg>21.1. 应用插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>21.2. What plugins do</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T095816Z" creationid="huanghaohang" creationdate="20180130T095816Z">
+        <seg>21.2. 插件都做了什么</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>21.3. Conventions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100522Z" creationid="huanghaohang" creationdate="20180130T100522Z">
+        <seg>21.3. 约定</seg>
       </tuv>
     </tu>
     <tu>
@@ -3488,6 +3520,28 @@ We release now</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q show
+build/classes/main
+build/resources/main</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100230Z" creationid="huanghaohang" creationdate="20180130T100230Z">
+        <seg>&gt; gradle -q show
+build/classes/main
+build/resources/main</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q show
+build/output/classes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T022600Z" creationid="huanghaohang" creationdate="20180131T022600Z">
+        <seg>&gt; gradle -q show
+build/output/classes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q task0
 I'm task number 2
 I'm task number 3
@@ -4078,6 +4132,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A plugin is simply any class that implements the &lt;a0&gt;&lt;c1&gt;Plugin&lt;/c1&gt;&lt;/a0&gt; interface. Gradle provides the core plugins as part of its distribution so simply applying the plugin as above is all you need to do. For 3rd party plugins however, you need to make the plugins available to the build classpath. For more information on how to do this, see &lt;a2&gt;Section 59.5, “External dependencies for the build script”&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T095729Z" creationid="huanghaohang" creationdate="20180130T095729Z">
+        <seg>一个插件是简单的任何实现了&lt;a0&gt;&lt;c1&gt;Plugin&lt;/c1&gt;&lt;/a0&gt; 接口的类。 Gradle 提供了核心插件作为其发行版的一部分，所以你只需要简单地使用上面的插件即可。但是，对于第三方插件，你需要进行配置以使插件在构建类路径中可用。有关如何执行此操作的详细信息，请参阅&lt;a2&gt;第 59.5 节，《构建脚本的外部依赖》&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A project can have as many as JAR archives as you want. You can also add WAR, ZIP and TAR archives to your project. Archives are created using the various archive tasks: &lt;a0&gt;&lt;c1&gt;Zip&lt;/c1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;c3&gt;Tar&lt;/c3&gt;&lt;/a2&gt;, &lt;a4&gt;&lt;c5&gt;Jar&lt;/c5&gt;&lt;/a4&gt;, &lt;a6&gt;&lt;c7&gt;War&lt;/c7&gt;&lt;/a6&gt;, and &lt;a8&gt;&lt;c9&gt;Ear&lt;/c9&gt;&lt;/a8&gt;. They all work the same way, so let's look at how you create a ZIP file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T135301Z" creationid="huanghaohang" creationdate="20171126T130837Z">
@@ -4158,10 +4220,34 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Add dependency configurations to the project (see &lt;a0&gt;Section 8.3, “Dependency configurations”&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100118Z" creationid="huanghaohang" creationdate="20180130T100118Z">
+        <seg>向项目中添加依赖配置 （见&lt;a0&gt;第 8.3 节，《依赖配置》&lt;/a0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add new properties and methods to existing type via extensions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100127Z" creationid="huanghaohang" creationdate="20180130T100127Z">
+        <seg>通过扩展对现有类型添加新的属性和方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Add tasks to the favorites (see Favorites tab)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T144420Z" creationid="huanghaohang" creationdate="20170911T144420Z">
         <seg>将任务添加到收藏夹（见收藏夹Favorites选项卡）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add tasks to the project (e.g. compile, test)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100042Z" creationid="huanghaohang" creationdate="20180130T100014Z">
+        <seg>将任务添加到 project（如编译、测试）</seg>
       </tuv>
     </tu>
     <tu>
@@ -4258,6 +4344,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130159Z" creationid="huanghaohang" creationdate="20170912T130159Z">
         <seg>在构建脚本中，你所访问的任何一个属性，如果在构建脚本里&lt;s0&gt;&lt;e1&gt;没有定义&lt;/e1&gt;&lt;/s0&gt;，它也会被委托给&lt;c2&gt;Project&lt;/c2&gt;对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Applying a plugin to the project allows the plugin to extend the project's capabilities. It can do things such as:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100023Z" creationid="huanghaohang" creationdate="20180130T095955Z">
+        <seg>在项目中应用插件可以使插件扩展 project 的功能。它可以做的事情有：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5980,6 +6074,46 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 21.1. Applying a plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T092911Z" creationid="huanghaohang" creationdate="20180130T092911Z">
+        <seg>示例 21.1. 应用插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 21.2. Applying a plugin by type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093207Z" creationid="huanghaohang" creationdate="20180130T093207Z">
+        <seg>示例 21.2. 通过类型应用插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 21.3. Applying a plugin by type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093310Z" creationid="huanghaohang" creationdate="20180130T093310Z">
+        <seg>示例 21.2. 通过类型应用插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 21.4. Tasks added by a plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100158Z" creationid="huanghaohang" creationdate="20180130T100158Z">
+        <seg>示例 21.4. 通过插件添加任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 21.5. Changing plugin defaults</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T022548Z" creationid="huanghaohang" creationdate="20180131T022548Z">
+        <seg>示例 21.5. 更改插件的默认设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -6548,6 +6682,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For more on writing your own plugins, see &lt;a0&gt;Chapter 58, &lt;i1&gt;Writing Custom Plugins&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T095813Z" creationid="huanghaohang" creationdate="20180130T095813Z">
+        <seg>关于编写自己的插件的详细信息，请参阅《&lt;a0&gt;第 58章，&lt;i1&gt;编写自定义插件&lt;/i1&gt;&lt;/a0&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For most multi-project builds, there is some configuration which is common to all projects. In our sample, we will define this common configuration in the root project, using a technique called &lt;e0&gt;configuration injection&lt;/e0&gt;. Here, the root project is like a container and the &lt;c1&gt;subprojects&lt;/c1&gt; method iterates over the elements of this container - the projects in this instance - and injects the specified configuration. This way we can easily define the manifest content for all archives, and some common dependencies:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124401Z" creationid="95" creationdate="20170803T123813Z">
@@ -7020,6 +7162,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, the &lt;c0&gt;compileJava&lt;/c0&gt; task is likely to not be the only task that needs to know where the class files are.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T022630Z" creationid="huanghaohang" creationdate="20180131T022630Z">
+        <seg>然而，&lt;c0&gt;compileJava&lt;/c0&gt; 任务可能不是唯一需要知道类文件位置的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>INFO</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221535Z" creationid="huanghaohang" creationdate="20180105T221535Z">
@@ -7464,6 +7614,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T130644Z" creationid="95" creationdate="20170730T124722Z">
         <seg>让我们来添加一些依赖。在这里，我们将声明我们的生产类对commons collection具有编译时依赖，我们的测试类对junit具有需要编译时依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's check this out:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100151Z" creationid="huanghaohang" creationdate="20180130T100151Z">
+        <seg>我们来看看以下内容：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8084,6 +8242,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q show&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100206Z" creationid="huanghaohang" creationdate="20180130T100206Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q show&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q task0&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T133037Z" creationid="95" creationdate="20170727T133037Z">
@@ -8280,6 +8446,38 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132502Z" creationid="95" creationdate="20170727T132113Z">
         <seg>请注意，当一个任务还没有被定义的时候，不能使用快捷符号（见 &lt;a0&gt;第6.8节，“快捷标记”&lt;/a0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins advertise a short name for themselves. In the above case, we are using the short name ‘&lt;c0&gt;java&lt;/c0&gt;’ to apply the &lt;a1&gt;&lt;c2&gt;JavaPlugin&lt;/c2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093141Z" creationid="huanghaohang" creationdate="20180130T093141Z">
+        <seg>插件都有表示自己的一个简称。在上述例子中，我们使用简称“&lt;c0&gt;java&lt;/c0&gt;”来应用 &lt;a1&gt;&lt;c2&gt;JavaPlugin&lt;/c2&gt;&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins are said to be &lt;s0&gt;&lt;e1&gt;applied&lt;/e1&gt;&lt;/s0&gt;, which is done via the &lt;a2&gt;&lt;c3&gt;Project.apply()&lt;/c3&gt;&lt;/a2&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T092942Z" creationid="huanghaohang" creationdate="20180130T092904Z">
+        <seg>插件可以说是被&lt;s0&gt;&lt;e1&gt;应用的&lt;/e1&gt;&lt;/s0&gt;，通过 &lt;a2&gt;&lt;c3&gt;Project.apply()&lt;/c3&gt;&lt;/a2&gt;方法来完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Plugins can pre-configure the project in smart ways to support convention-over-configuration. Gradle provides mechanisms and sophisticated support and it's a key ingredient in powerful-yet-concise build scripts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T021650Z" creationid="huanghaohang" creationdate="20180131T021650Z">
+        <seg>插件可以通过智能的方式对项目进行预配置，以支持约定优于配置配置。Gradle 为此提供了相关机制和复杂的支持，这正是强大而简洁的构建脚本的关键组成部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pre-configure added tasks with useful defaults.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100056Z" creationid="huanghaohang" creationdate="20180130T100056Z">
+        <seg>使用有用的默认设置对已添加的任务进行预配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8864,6 +9062,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Thanks to Gradle's default imports (see &lt;a0&gt;Appendix E, &lt;i1&gt;Existing IDE Support and how to cope without it&lt;/i1&gt;&lt;/a0&gt;) you could also write:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093301Z" creationid="huanghaohang" creationdate="20180130T093301Z">
+        <seg>归功于 Gradle 的默认导入（见《&lt;a0&gt;附录 E，&lt;i1&gt;现有的 IDE 支持和如何应对不支持的情况&lt;/i1&gt;&lt;/a0&gt;》），你也可以这样写：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;a0&gt;&lt;c1&gt;Sync&lt;/c1&gt;&lt;/a0&gt; task extends the &lt;c2&gt;Copy&lt;/c2&gt; task. When it executes, it copies the source files into the destination directory, and then removes any files from the destination directory which it did not copy. This can be useful for doing things such as installing your application, creating an exploded copy of your archives, or maintaining a copy of the project's dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T124952Z" creationid="huanghaohang" creationdate="20171126T124952Z">
@@ -9016,10 +9222,26 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java plugin adds the concept of &lt;s0&gt;&lt;e1&gt;source sets&lt;/e1&gt;&lt;/s0&gt; (see &lt;a2&gt;&lt;c3&gt;SourceSet&lt;/c3&gt;&lt;/a2&gt;) to describe the aspects of a set of source, one aspect being where the class files should be written to when it is compiled. The Java plugin maps the &lt;c4&gt;destinationDir&lt;/c4&gt; property of the &lt;c5&gt;compileJava&lt;/c5&gt; task to this aspect of the source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T024514Z" creationid="huanghaohang" creationdate="20180131T022834Z">
+        <seg>Java 插件增加了&lt;s0&gt;&lt;e1&gt;源文件集&lt;/e1&gt;&lt;/s0&gt;（见&lt;a2&gt;&lt;c3&gt;SourceSet&lt;/c3&gt;&lt;/a2&gt;）的概念来描述一组源文件的各个方面，其中一个方面是在编译的时候写入类文件的地方。Java 插件将 &lt;c5&gt;compileJava&lt;/c5&gt; 任务的 &lt;c4&gt;destinationDir&lt;/c4&gt; 属性映射到源文件集的这一方面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Java plugin defines a number of standard configurations. These configurations represent the classpaths that the Java plugin uses. Some are listed below, and you can find more details in &lt;a0&gt;Table 23.5, “Java plugin - dependency configurations”&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T032544Z" creationid="huanghaohang" creationdate="20170908T032544Z">
         <seg>Java插件定义了许多标准配置。这些配置代表了Java插件使用的类路径。有些列在下面，你也可以在&lt;a0&gt;表23.5，“Java插件 - 依赖配置”&lt;/a0&gt;了解到更多详细内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java plugin has added a &lt;c0&gt;compileJava&lt;/c0&gt; task and a &lt;c1&gt;processResources&lt;/c1&gt; task to the project and configured the &lt;c2&gt;destinationDir&lt;/c2&gt; property of both of these tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100521Z" creationid="huanghaohang" creationdate="20180130T100434Z">
+        <seg>Java 插件已经向 project 添加了 &lt;c0&gt;compileJava&lt;/c0&gt; 和 &lt;c1&gt;processResources&lt;/c1&gt; 任务，并且配置了这两个任务的 &lt;c2&gt;destinationDir&lt;/c2&gt; 属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9100,6 +9322,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233159Z" creationid="huanghaohang" creationdate="20171206T233159Z">
         <seg>归档文件名称中的附录部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The application of plugins is &lt;s0&gt;&lt;e1&gt;idempotent&lt;/e1&gt;&lt;/s0&gt;. That is, a plugin can be applied multiple times. If the plugin has previously been applied, any further applications will have no effect.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093407Z" creationid="huanghaohang" creationdate="20180130T093407Z">
+        <seg>插件的应用是&lt;s0&gt;&lt;e1&gt;幂等的&lt;/e1&gt;&lt;/s0&gt;。也就是说，一个插件可以应用多次。如果插件之前已经被应用，则任何进一步的应用都不会有影响。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10152,6 +10382,22 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We can change this property simply by giving it a new value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T022540Z" creationid="huanghaohang" creationdate="20180131T022540Z">
+        <seg>我们可以简单地通过给它一个新的值来更改此属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We could also have used the following syntax:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093144Z" creationid="huanghaohang" creationdate="20180130T093144Z">
+        <seg>我们还可以使用下面的语法：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We could not find a good overview for all possible proxy settings. One place to look are the constants in a file from the Ant project. Here a &lt;a0&gt; link &lt;/a0&gt; to the Subversion view. The other is a &lt;a1&gt; Networking Properties page &lt;/a1&gt; from the JDK docs. If anyone knows a better overview, please let us know via the mailing list.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T080547Z" creationid="huanghaohang" creationdate="20180130T080547Z">
@@ -10196,6 +10442,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180116T143752Z" creationid="huanghaohang" creationdate="20180116T143752Z">
         <seg>我们计划在将来改进管理及合并守护进程的方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We saw in the example above that the Java plugins adds a task named &lt;c0&gt;compileJava&lt;/c0&gt; that has a property named &lt;c1&gt;destinationDir&lt;/c1&gt; (that configures where the compiled Java source should be placed). The Java plugin defaults this property to point to &lt;c2&gt;build/classes/main&lt;/c2&gt; in the project directory. This is an example of convention-over-configuration via a &lt;s3&gt;&lt;e4&gt;reasonable default&lt;/e4&gt;&lt;/s3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T022533Z" creationid="huanghaohang" creationdate="20180131T022533Z">
+        <seg>在上面的示例中我们看到，Java 插件添加了一个名为 &lt;c0&gt;compileJava&lt;/c0&gt; 的任务，这个任务有一个名为 &lt;c1&gt;destinationDir&lt;/c1&gt; 的属性（即配置编译后的 Java 代码存放的地方）。Java 插件默认设置这个属性指向项目目录中的 &lt;c2&gt;build/classes/main&lt;/c2&gt;。这就是一个&lt;s3&gt;&lt;e4&gt;合理的默认值&lt;/e4&gt;&lt;/s3&gt;的约定优于配置的例子。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11192,12 +11446,40 @@ repositories {</seg>
       <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
 
+compileJava.destinationDir = file(&lt;s1&gt;"$buildDir/output/classes"&lt;/s1&gt;)
+
+task show &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T022555Z" creationid="huanghaohang" creationdate="20180131T022555Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+compileJava.destinationDir = file(&lt;s1&gt;"$buildDir/output/classes"&lt;/s1&gt;)
+
+task show &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
 repositories {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170908T013229Z" creationid="haohang" creationdate="20170908T013229Z">
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
 
 repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+task show &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100201Z" creationid="huanghaohang" creationdate="20180130T100201Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+
+task show &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -11310,6 +11592,22 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124424Z" creationid="95" creationdate="20170803T124424Z">
         <seg>apply plugin: &lt;s1&gt;'eclipse-wtp'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: JavaPlugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093314Z" creationid="huanghaohang" creationdate="20180130T093314Z">
+        <seg>apply plugin: JavaPlugin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: org.gradle.api.plugins.JavaPlugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093210Z" creationid="huanghaohang" creationdate="20180130T093210Z">
+        <seg>apply plugin: org.gradle.api.plugins.JavaPlugin</seg>
       </tuv>
     </tu>
     <tu>
@@ -11728,6 +12026,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050447Z" creationid="huanghaohang" creationdate="20170908T050447Z">
         <seg>credentials {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>custom_plugins.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T095731Z" creationid="huanghaohang" creationdate="20180130T095731Z">
+        <seg>custom_plugins.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -13369,6 +13675,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>organizing_build_logic.html#sec:external_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093450Z" creationid="huanghaohang" creationdate="20180130T093450Z">
+        <seg>organizing_build_logic.html#sec:external_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>other.gradle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145337Z" creationid="huanghaohang" creationdate="20170918T145337Z">
@@ -14374,6 +14688,34 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145826Z" creationid="huanghaohang" creationdate="20170918T145826Z">
         <seg>println pos.endIndex
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println relativePath(compileJava.destinationDir)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100202Z" creationid="huanghaohang" creationdate="20180130T100202Z">
+        <seg>println relativePath(compileJava.destinationDir)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println relativePath(compileJava.destinationDir)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T022557Z" creationid="huanghaohang" creationdate="20180131T022557Z">
+        <seg>println relativePath(compileJava.destinationDir)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println relativePath(processResources.destinationDir)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100203Z" creationid="huanghaohang" creationdate="20180130T100203Z">
+        <seg>println relativePath(processResources.destinationDir)
 }</seg>
       </tuv>
     </tu>
