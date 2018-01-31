@@ -4868,6 +4868,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Consider the case where another task is to consume the classes files. If this task is configured to use the value from &lt;c0&gt;sourceSets.main.output.classesDir&lt;/c0&gt;, then changing it in this location will update both the &lt;c1&gt;compileJava&lt;/c1&gt; task and this other consumer task whenever it is changed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T032009Z" creationid="huanghaohang" creationdate="20180131T032009Z">
+        <seg>考虑一下有另一个任务使用到类文件的情况。如果这个任务被配置为使用 &lt;c0&gt;sourceSets.main.output.classesDir&lt;/c0&gt; 的值，那么在这里修改它就会同时更新 &lt;c1&gt;compileJava&lt;/c1&gt; 任务和那另一个任务，不管它的值是什么时候改的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Content assistance in the IDE</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133945Z" creationid="huanghaohang" creationdate="20180108T133945Z">
