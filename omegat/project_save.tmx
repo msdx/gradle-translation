@@ -146,6 +146,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>-</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140633Z" creationid="huanghaohang" creationdate="20180205T140633Z">
+        <seg>-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Project.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124806Z" creationid="huanghaohang" creationdate="20170912T124806Z">
@@ -1718,6 +1726,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T032607Z" creationid="huanghaohang" creationdate="20180131T032607Z">
         <seg>21.4. 更多关于插件的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>22.1. Language plugins</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140505Z" creationid="huanghaohang" creationdate="20180205T140505Z">
+        <seg>22.1. 语言插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -4492,6 +4508,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adds Java compilation, testing and bundling capabilities to a project. It serves as the basis for many of the other Gradle plugins. See also &lt;a0&gt;Chapter 7, &lt;i1&gt;Java Quickstart&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140841Z" creationid="huanghaohang" creationdate="20180205T140841Z">
+        <seg>向一个项目添加 Java 编译，测试和捆绑的功能。它是许多其他 Gradle 插件的基础服务。另请参阅《&lt;a0&gt;第7章，&lt;i1&gt;Java 快速入门&lt;/i1&gt;&lt;/a0&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Again, this defines a task called &lt;c0&gt;hello&lt;/c0&gt; with a single closure to execute. We will use this task definition style throughout the user guide.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155544Z" creationid="95" creationdate="20170726T155319Z">
@@ -4664,6 +4688,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180116T143715Z" creationid="huanghaohang" creationdate="20180116T143715Z">
         <seg>此刻，守护进程将与特定版本的 Gradle 结合在一起。这意味着即使某些守护进程闲置，但是你正在使用不同版本的 Gradle 来运行构建，也会启动一个新的守护进程。这对于 &lt;c0&gt;--stop&lt;/c0&gt; 命令行指令也有一个后果：当运行 &lt;c1&gt;--stop&lt;/c1&gt; 时，你只能停止运行这个命令的 Gradle 版本所启动的守护进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Automatically applies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140559Z" creationid="huanghaohang" creationdate="20180205T140559Z">
+        <seg>自动应用</seg>
       </tuv>
     </tu>
     <tu>
@@ -8850,6 +8882,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Plugin Id</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140556Z" creationid="huanghaohang" creationdate="20180205T140556Z">
+        <seg>插件 Id</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Plugins advertise a short name for themselves. In the above case, we are using the short name ‘&lt;c0&gt;java&lt;/c0&gt;’ to apply the &lt;a1&gt;&lt;c2&gt;JavaPlugin&lt;/c2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093141Z" creationid="huanghaohang" creationdate="20180130T093141Z">
@@ -9382,6 +9422,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221701Z" creationid="huanghaohang" creationdate="20180105T221701Z">
         <seg>表 18.3. 栈跟踪的命令行选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 22.1. Language plugins</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140553Z" creationid="huanghaohang" creationdate="20180205T140553Z">
+        <seg>表 22.1. 语言插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -10266,6 +10314,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170907T154859Z" creationid="95" creationdate="20170907T154301Z">
         <seg>这些输出文件构成了项目的发布内容。Gradle也会为你处理这个重要的事情。你声明项目的发布内容，Gradle就会负责构建它们并把它们发布到某个地方。“发布”的确切含义取决于你想做什么。你可能想把一些文件拷贝到一个本地的目录，把它们上传到一个远程的Maven或Ivy仓库，或是在同一个多项目构建的另一个子项目中使用这些文件。这个过程，我们称之为&lt;e0&gt;发布&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These plugins add support for various languages which can be compiled for and executed in the JVM.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140551Z" creationid="huanghaohang" creationdate="20180205T140551Z">
+        <seg>这些插件添加了让各种语言可以在 JVM 中被编译和执行的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11170,6 +11226,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013426Z" creationid="huanghaohang" creationdate="20170919T013426Z">
         <seg>解决问题</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Works with</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140614Z" creationid="huanghaohang" creationdate="20180205T140614Z">
+        <seg>与什么一起使用</seg>
       </tuv>
     </tu>
     <tu>
@@ -13872,6 +13936,22 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124429Z" creationid="95" creationdate="20170803T124429Z">
         <seg>jar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140617Z" creationid="huanghaohang" creationdate="20180205T140617Z">
+        <seg>java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java-base</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140630Z" creationid="huanghaohang" creationdate="20180205T140630Z">
+        <seg>java-base</seg>
       </tuv>
     </tu>
     <tu>
