@@ -1770,6 +1770,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>22.6. Incubating software development plugins</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090146Z" creationid="huanghaohang" creationdate="20180211T090146Z">
+        <seg>22.6. 试验性的软件开发插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -4708,10 +4716,26 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adds support for initializing a new Gradle build. Handles converting a Maven build to a Gradle build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090433Z" creationid="huanghaohang" creationdate="20180211T090218Z">
+        <seg>添加用于初始化一个新 Gradle 构建的支持，以及处理从 Maven 构建到 Gradle 构建的转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Adds support for publishing artifacts to Maven repositories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T143426Z" creationid="huanghaohang" creationdate="20180207T143426Z">
         <seg>添加将项目发布到 Maven 仓库的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds support for running &lt;a0&gt;CUnit&lt;/a0&gt; tests.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090448Z" creationid="huanghaohang" creationdate="20180211T090448Z">
+        <seg>添加用于运行 &lt;a0&gt;CUnit&lt;/a0&gt; 测试的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7378,6 +7402,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generates build dashboard report.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090210Z" creationid="huanghaohang" creationdate="20180211T090210Z">
+        <seg>生成构建仪表板报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generates files that are used by &lt;a0&gt;Eclipse IDE&lt;/a0&gt;, thus making it possible to import the project into Eclipse. See also &lt;a1&gt;Chapter 7, &lt;i2&gt;Java Quickstart&lt;/i2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180210T135845Z" creationid="huanghaohang" creationdate="20180210T135845Z">
@@ -9282,10 +9314,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Provides integration with the &lt;a0&gt;JaCoCo&lt;/a0&gt; code coverage library for Java.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090508Z" creationid="huanghaohang" creationdate="20180211T090508Z">
+        <seg>提供对 Java 的&lt;a0&gt;JaCoCo&lt;/a0&gt; 代码覆盖率库的集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Provides integration with the &lt;a0&gt;Sonar&lt;/a0&gt; code quality platform. Superceeded by the &lt;a1&gt;&lt;c2&gt;sonar-runner&lt;/c2&gt;&lt;/a1&gt; plugin.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090137Z" creationid="huanghaohang" creationdate="20180211T090137Z">
         <seg>提供对 &lt;a0&gt;Sonar&lt;/a0&gt; 代码质量平台的集成。已经被 &lt;a1&gt;&lt;c2&gt;sonar-runner&lt;/c2&gt;&lt;/a1&gt; 插件取代。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Provides integration with the &lt;a0&gt;Sonar&lt;/a0&gt; code quality platform. Supersedes the &lt;a1&gt;&lt;c2&gt;sonar&lt;/c2&gt;&lt;/a1&gt; plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090637Z" creationid="huanghaohang" creationdate="20180211T090637Z">
+        <seg>取代 &lt;a1&gt;&lt;c2&gt;sonar&lt;/c2&gt;&lt;/a1&gt; 插件，提供对 &lt;a0&gt;Sonar&lt;/a0&gt; 代码质量平台的集成。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9782,6 +9830,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144048Z" creationid="huanghaohang" creationdate="20180207T144048Z">
         <seg>表 22.5. 软件开发插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 22.6. Software development plugins</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090153Z" creationid="huanghaohang" creationdate="20180211T090153Z">
+        <seg>表 22.6. 软件开发插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -12836,6 +12892,22 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>build-dashboard</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090155Z" creationid="huanghaohang" creationdate="20180211T090155Z">
+        <seg>build-dashboard</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build-init</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090212Z" creationid="huanghaohang" creationdate="20180211T090212Z">
+        <seg>build-init</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>build.gradle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144943Z" creationid="95" creationdate="20170724T144943Z">
@@ -12848,6 +12920,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084608Z" creationid="huanghaohang" creationdate="20180105T084608Z">
         <seg>build.xml</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>buildDashboard_plugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090154Z" creationid="huanghaohang" creationdate="20180211T090154Z">
+        <seg>buildDashboard_plugin.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -12880,6 +12960,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025018Z" creationid="huanghaohang" creationdate="20180120T025018Z">
         <seg>build_environment.html#sec:gradle_configuration_properties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build_init_plugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090211Z" creationid="huanghaohang" creationdate="20180211T090211Z">
+        <seg>build_init_plugin.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -13138,6 +13226,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050447Z" creationid="huanghaohang" creationdate="20170908T050447Z">
         <seg>credentials {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cunit</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090434Z" creationid="huanghaohang" creationdate="20180211T090434Z">
+        <seg>cunit</seg>
       </tuv>
     </tu>
     <tu>
@@ -14100,6 +14196,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://cunit.sourceforge.net</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090435Z" creationid="huanghaohang" creationdate="20180211T090435Z">
+        <seg>http://cunit.sourceforge.net</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://download.oracle.com/javase/6/docs/technotes/guides/net/properties.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073550Z" creationid="huanghaohang" creationdate="20180130T073550Z">
@@ -14184,6 +14288,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072133Z" creationid="95" creationdate="20170723T072133Z">
         <seg>http://www.defmacro.org/ramblings/lisp.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.eclemma.org/jacoco/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090455Z" creationid="huanghaohang" creationdate="20180211T090455Z">
+        <seg>http://www.eclemma.org/jacoco/</seg>
       </tuv>
     </tu>
     <tu>
@@ -14624,6 +14736,22 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T143845Z" creationid="huanghaohang" creationdate="20180207T143845Z">
         <seg>ivy-publish</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jacoco</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090454Z" creationid="huanghaohang" creationdate="20180211T090454Z">
+        <seg>jacoco</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jacoco_plugin.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090451Z" creationid="huanghaohang" creationdate="20180211T090451Z">
+        <seg>jacoco_plugin.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -16493,6 +16621,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sonar-runner</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090509Z" creationid="huanghaohang" creationdate="20180211T090509Z">
+        <seg>sonar-runner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sonar_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090019Z" creationid="huanghaohang" creationdate="20180211T090019Z">
@@ -17868,6 +18004,14 @@ webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T130840Z" creationid="huanghaohang" creationdate="20170923T130840Z">
         <seg>working_with_files.html#sec:locating_files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>wrapper</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090214Z" creationid="huanghaohang" creationdate="20180211T090214Z">
+        <seg>wrapper</seg>
       </tuv>
     </tu>
     <tu>
