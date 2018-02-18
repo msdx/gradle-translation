@@ -330,6 +330,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.bundling.AbstractArchiveTask.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T022957Z" creationid="huanghaohang" creationdate="20180218T022957Z">
+        <seg>../dsl/org.gradle.api.tasks.bundling.AbstractArchiveTask.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.bundling.Jar.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125230Z" creationid="huanghaohang" creationdate="20171126T125230Z">
@@ -12254,6 +12262,22 @@ No dependencies</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>adds build &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt; tasks. Those tasks assemble the artifacts belonging to the specified configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T022934Z" creationid="huanghaohang" creationdate="20180218T022840Z">
+        <seg>添加构建 &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt; 的任务，这些任务组装了属于指定配置的工件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>adds upload &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt; tasks. Those tasks assemble and upload the artifacts belonging to the specified configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T022928Z" creationid="huanghaohang" creationdate="20180218T022928Z">
+        <seg>添加上传 &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt; 的任务，这些任务组装并上传属于指定配置的工件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>announce</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144051Z" creationid="huanghaohang" creationdate="20180207T144051Z">
@@ -13258,6 +13282,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084251Z" creationid="huanghaohang" creationdate="20180105T084251Z">
         <seg>configurations {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configures reasonable default values for all archive tasks (e.g. tasks that inherit from &lt;a0&gt;&lt;c1&gt;AbstractArchiveTask&lt;/c1&gt;&lt;/a0&gt;). For example, the archive tasks are tasks of types: &lt;a2&gt;&lt;c3&gt;Jar&lt;/c3&gt;&lt;/a2&gt;, &lt;a4&gt;&lt;c5&gt;Tar&lt;/c5&gt;&lt;/a4&gt;, &lt;a6&gt;&lt;c7&gt;Zip&lt;/c7&gt;&lt;/a6&gt;. Specifically, &lt;c8&gt;destinationDir&lt;/c8&gt;, &lt;c9&gt;baseName&lt;/c9&gt; and &lt;c10&gt;version&lt;/c10&gt; properties of the archive tasks are preconfigured with defaults. This is extremely useful because it drives consistency across projects; the consistency regarding naming conventions of archives and their location after the build completed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T092719Z" creationid="huanghaohang" creationdate="20180218T092719Z">
+        <seg>为所有归档任务（比如从 &lt;a0&gt;&lt;c1&gt;AbstractArchiveTask&lt;/c1&gt;&lt;/a0&gt; 中继承的任务）配置合理的默认值。例如，以下类型的归档任务：&lt;a2&gt;&lt;c3&gt;Jar&lt;/c3&gt;&lt;/a2&gt;，&lt;a4&gt;&lt;c5&gt;Tar&lt;/c5&gt;&lt;/a4&gt;，&lt;a6&gt;&lt;c7&gt;Zip&lt;/c7&gt;&lt;/a6&gt;。确切地说，是对这些归档任务的 &lt;c8&gt;destinationDir&lt;/c8&gt;，&lt;c9&gt;baseName&lt;/c9&gt; 和 &lt;c10&gt;version&lt;/c10&gt; 属性预先配置了默认值。这是非常有用的，因为它可以推动项目之间的一致性，以及关于构建完成后构件的命名规范及其位置的一致性。</seg>
       </tuv>
     </tu>
     <tu>
