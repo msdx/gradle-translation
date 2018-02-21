@@ -1890,6 +1890,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.2. Source sets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T153447Z" creationid="huanghaohang" creationdate="20180218T153447Z">
+        <seg>23.2 源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -6946,6 +6954,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.1. Using the Java plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T153526Z" creationid="huanghaohang" creationdate="20180218T153438Z">
+        <seg>示例 23.1. 使用 Java 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -11386,6 +11402,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T135552Z" creationid="huanghaohang" creationdate="20171002T135552Z">
         <seg>要使用&lt;c0&gt;Copy&lt;/c0&gt;任务，你必须提供一组要复制的源文件，以及复制过去的目标目录。你还可以指定在复制文件时如何转换文件。你可以使用一个&lt;e1&gt;复制规范&lt;/e1&gt;。复制规范通过&lt;a2&gt;&lt;c3&gt;CopySpec&lt;/c3&gt;&lt;/a2&gt;接口来表示。&lt;c4&gt;Copy&lt;/c4&gt;任务实现了这个接口。你可以使用&lt;a5&gt;&lt;c6&gt;CopySpec.from()&lt;/c6&gt;&lt;/a5&gt;方法指定源文件。指定目标目录则是使用&lt;a7&gt;&lt;c8&gt;CopySpec.into()&lt;/c8&gt;&lt;/a7&gt;方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the Java plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T153434Z" creationid="huanghaohang" creationdate="20180218T153434Z">
+        <seg>要使用 Java 插件，请在构建脚本中加入以下内容：</seg>
       </tuv>
     </tu>
     <tu>
