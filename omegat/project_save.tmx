@@ -2704,6 +2704,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;compile&lt;/c0&gt;, plus all tasks which produce the test compile classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062627Z" creationid="haohang" creationdate="20180312T062627Z">
+        <seg>&lt;c0&gt;compile&lt;/c0&gt; 任务，以及所有能产生测试编译类路径的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;compileJava&lt;/c0&gt; and &lt;c1&gt;processResources&lt;/c1&gt;. Some plugins add additional compilation tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062448Z" creationid="haohang" creationdate="20180312T062448Z">
@@ -4974,8 +4982,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>All tasks which produce the compile classpath. This includes the &lt;c0&gt;jar&lt;/c0&gt; task for project dependencies included in the &lt;c1&gt;compile&lt;/c1&gt; configuration.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062249Z" creationid="haohang" creationdate="20180312T061836Z">
-        <seg>所有产生编译类路径的任务，包括了用于在 &lt;c1&gt;compile&lt;/c1&gt; 配置所包含的项目依赖的 &lt;c0&gt;jar&lt;/c0&gt; 任务。</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062804Z" creationid="haohang" creationdate="20180312T061836Z">
+        <seg>所有产生编译类路径的任务，也包括了 &lt;c0&gt;jar&lt;/c0&gt; 任务，因为项目依赖被包含在 &lt;c1&gt;compile&lt;/c1&gt; 配置中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5112,6 +5120,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160057Z" creationid="95" creationdate="20170726T160057Z">
         <seg>你应该也已经猜到了，我们可以声明任务之间的依赖关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assembles the production classes directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062502Z" creationid="haohang" creationdate="20180312T062502Z">
+        <seg>组装生产类目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13642,6 +13658,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T061353Z" creationid="haohang" creationdate="20180312T061353Z">
         <seg>CompileJava</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compileTestJava</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062505Z" creationid="haohang" creationdate="20180312T062505Z">
+        <seg>compileTestJava</seg>
       </tuv>
     </tu>
     <tu>
