@@ -5940,8 +5940,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Deletes the output files produced by the specified task. For example &lt;c0&gt;cleanJar&lt;/c0&gt; will delete the JAR file created by the &lt;c1&gt;jar&lt;/c1&gt; task, and &lt;c2&gt;cleanTest&lt;/c2&gt; will delete the test results created by the &lt;c3&gt;test&lt;/c3&gt; task.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063424Z" creationid="haohang" creationdate="20180312T063424Z">
-        <seg>Deletes the output files produced by the specified task. For example &lt;c0&gt;cleanJar&lt;/c0&gt; will delete the JAR file created by the &lt;c1&gt;jar&lt;/c1&gt; task, and &lt;c2&gt;cleanTest&lt;/c2&gt; will delete the test results created by the &lt;c3&gt;test&lt;/c3&gt; task.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073237Z" creationid="haohang" creationdate="20180312T063424Z">
+        <seg>删除指定任务生成的输出文件。例如 &lt;c0&gt;cleanJar&lt;/c0&gt; 将删除由该 &lt;c1&gt;jar&lt;/c1&gt; 任务创建的 JAR 文件，而 &lt;c2&gt;cleanTest&lt;/c2&gt; 将删除由该 &lt;c3&gt;test&lt;/c3&gt; 任务创建的测试结果。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7694,6 +7694,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025344Z" creationid="huanghaohang" creationdate="20180120T025344Z">
         <seg>对于命令行的用法，可以看看专题《&lt;a0&gt;附录 D，&lt;i1&gt;Gradle 命令行&lt;/i1&gt;&lt;/a0&gt;》。如果你已经厌倦了一次又一次地使用相同的命令行选项，可以看《&lt;a2&gt;第 20.1 节，“通过 gradle.properties 配置构建环境”&lt;/a2&gt;》。这一章节包含了有关如何以一种"持久化"的方式配置守护进程某些行为（包括默认情况下开启守护进程）的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For each source set you add to the project, the Java plugin adds the following compilation tasks:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073302Z" creationid="haohang" creationdate="20180312T073302Z">
+        <seg>对于你添加到项目中的每一个源集，Java 插件将添加以下的编译任务：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10310,6 +10318,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T061321Z" creationid="haohang" creationdate="20180312T061321Z">
         <seg>表 23.1. Java 插件——任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 23.2. Java plugin - source set tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073311Z" creationid="haohang" creationdate="20180312T073311Z">
+        <seg>表 23.2. Java 插件——源集任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -13818,6 +13834,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153239Z" creationid="huanghaohang" creationdate="20170914T153239Z">
         <seg>compile(&lt;s0&gt;'junit:junit:4.11'&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;Java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073315Z" creationid="haohang" creationdate="20180312T073315Z">
+        <seg>compile&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;Java</seg>
       </tuv>
     </tu>
     <tu>
