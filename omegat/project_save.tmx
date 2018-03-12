@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.2" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.6.0" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -10402,6 +10402,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100521Z" creationid="huanghaohang" creationdate="20180130T100434Z">
         <seg>Java 插件已经向 project 添加了 &lt;c0&gt;compileJava&lt;/c0&gt; 和 &lt;c1&gt;processResources&lt;/c1&gt; 任务，并且配置了这两个任务的 &lt;c2&gt;destinationDir&lt;/c2&gt; 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java plugin introduces the concept of a &lt;e0&gt;source set&lt;/e0&gt;. A source set is simply a group of source files which are compiled and executed together. These source files may include Java source files and resource files. Other plugins add the ability to include Groovy and Scala source files in a source set. A source set has an associated compile classpath, and runtime classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T060641Z" creationid="haohang" creationdate="20180312T060641Z">
+        <seg>Java 插件引入了一个&lt;e0&gt;源集&lt;/e0&gt;的概念。源集只是一组源文件，它们被一起编译和执行。这些源文件可能包含 Java 源文件和资源文件，有些其他插件可以将 Groovy 和 Scala 源文件包含在源集中。一个源集有一个相关联的编译类路径和运行时类路径。</seg>
       </tuv>
     </tu>
     <tu>
