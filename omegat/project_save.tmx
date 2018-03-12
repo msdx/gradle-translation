@@ -330,6 +330,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.Upload.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063224Z" creationid="haohang" creationdate="20180312T063224Z">
+        <seg>../dsl/org.gradle.api.tasks.Upload.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.bundling.AbstractArchiveTask.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T022957Z" creationid="huanghaohang" creationdate="20180218T022957Z">
@@ -382,6 +390,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T022204Z" creationid="huanghaohang" creationdate="20170910T022204Z">
         <seg>../dsl/org.gradle.api.tasks.diagnostics.DependencyInsightReportTask.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.javadoc.Javadoc.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062933Z" creationid="haohang" creationdate="20180312T062933Z">
+        <seg>../dsl/org.gradle.api.tasks.javadoc.Javadoc.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2704,6 +2720,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;compile&lt;/c0&gt;, &lt;c1&gt;compileTest&lt;/c1&gt;, plus all tasks which produce the test runtime classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063125Z" creationid="haohang" creationdate="20180312T063125Z">
+        <seg>&lt;c0&gt;compile&lt;/c0&gt;， &lt;c1&gt;compileTest&lt;/c1&gt;，以及所有产生测试运行时类路径的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;compile&lt;/c0&gt;, plus all tasks which produce the test compile classpath.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062627Z" creationid="haohang" creationdate="20180312T062627Z">
@@ -2716,6 +2740,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062448Z" creationid="haohang" creationdate="20180312T062448Z">
         <seg>&lt;c0&gt;compileJava&lt;/c0&gt; 和 &lt;c1&gt;processResources&lt;/c1&gt;。有些插件会添加其他的编译任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;compileTestJava&lt;/c0&gt; and &lt;c1&gt;processTestResources&lt;/c1&gt;. Some plugins add additional test compilation tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062903Z" creationid="haohang" creationdate="20180312T062903Z">
+        <seg>&lt;c0&gt;compileTestJava&lt;/c0&gt; 和 &lt;c1&gt;processTestResources&lt;/c1&gt;。有些插件会添加其他的测试编译任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5124,10 +5156,26 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assembles the JAR file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062913Z" creationid="haohang" creationdate="20180312T062913Z">
+        <seg>组装 JAR 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assembles the production classes directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062502Z" creationid="haohang" creationdate="20180312T062502Z">
         <seg>组装生产类目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assembles the test classes directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062906Z" creationid="haohang" creationdate="20180312T062906Z">
+        <seg>组装测试类目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5588,6 +5636,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compiles test Java source files using javac.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062811Z" creationid="haohang" creationdate="20180312T062811Z">
+        <seg>使用 javac 编译 Java 测试源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configure by DAG</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031936Z" creationid="huanghaohang" creationdate="20170927T031936Z">
@@ -5688,6 +5744,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062402Z" creationid="haohang" creationdate="20180312T062402Z">
         <seg>把生产资源文件复制到生产类目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copies test resources into the test classes directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062824Z" creationid="haohang" creationdate="20180312T062824Z">
+        <seg>把测试资源文件拷贝到测试类目录中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7698,6 +7762,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generates API documentation for the production Java source, using Javadoc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063009Z" creationid="haohang" creationdate="20180312T063009Z">
+        <seg>使用 Javadoc 生成生产的 Java 源代码的API文档</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generates build dashboard report.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090210Z" creationid="huanghaohang" creationdate="20180211T090210Z">
@@ -8554,6 +8626,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062911Z" creationid="haohang" creationdate="20180312T062911Z">
+        <seg>Jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Java Quickstart</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171014T124853Z" creationid="huanghaohang" creationdate="20171014T124853Z">
@@ -8566,6 +8646,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062250Z" creationid="haohang" creationdate="20180312T062250Z">
         <seg>JavaCompile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Javadoc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062935Z" creationid="haohang" creationdate="20180312T062935Z">
+        <seg>Javadoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -9794,6 +9882,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Runs the unit tests using JUnit or TestNG.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063134Z" creationid="haohang" creationdate="20180312T063134Z">
+        <seg>使用 JUnit 或 TestNG 运行单元测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Secondly, the &lt;c0&gt;copy()&lt;/c0&gt; method can not honor task dependencies when a task is used as a copy source (i.e. as an argument to &lt;c1&gt;from()&lt;/c1&gt;) because it's a method and not a task. As such, if you are using the &lt;c2&gt;copy()&lt;/c2&gt; method as part of a task action, you must explicitly declare all inputs and outputs in order to get the correct behavior.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124844Z" creationid="huanghaohang" creationdate="20171015T094223Z">
@@ -10306,6 +10402,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121732Z" creationid="huanghaohang" creationdate="20170919T121732Z">
         <seg>任务也可以通过&lt;c0&gt;tasks&lt;/c0&gt;集合来访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Test</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063127Z" creationid="haohang" creationdate="20180312T063127Z">
+        <seg>Test</seg>
       </tuv>
     </tu>
     <tu>
@@ -10906,6 +11010,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T004312Z" creationid="huanghaohang" creationdate="20170923T004001Z">
         <seg>任务的 &lt;c0&gt;inputs&lt;/c0&gt; 属性是 &lt;a1&gt;&lt;c2&gt;TaskInputs&lt;/c2&gt;&lt;/a1&gt;类型。任务的 &lt;c3&gt;outputs&lt;/c3&gt; 属性是 &lt;a4&gt;&lt;c5&gt;TaskOutputs&lt;/c5&gt;&lt;/a4&gt;类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The tasks which produce the artifacts in the &lt;c0&gt;archives&lt;/c0&gt; configuration, including &lt;c1&gt;jar&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063339Z" creationid="haohang" creationdate="20180312T063223Z">
+        <seg>产生在 &lt;c0&gt;archives&lt;/c0&gt; 中所配置的工件的任务，包括 &lt;c1&gt;jar&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11602,6 +11714,22 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013341Z" creationid="huanghaohang" creationdate="20170919T013341Z">
         <seg>解压</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Upload</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063225Z" creationid="haohang" creationdate="20180312T063225Z">
+        <seg>Upload</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uploads the artifacts in the &lt;c0&gt;archives&lt;/c0&gt; configuration, including the JAR file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063258Z" creationid="haohang" creationdate="20180312T063258Z">
+        <seg>使用 &lt;c0&gt;archives&lt;/c0&gt; 配置上传包括 JAR 文件的构件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15244,6 +15372,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062909Z" creationid="haohang" creationdate="20180312T062909Z">
+        <seg>jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124429Z" creationid="95" creationdate="20170803T124429Z">
@@ -15312,6 +15448,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T032333Z" creationid="huanghaohang" creationdate="20170908T032333Z">
         <seg>java_plugin.html#tab:configurations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>javadoc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062924Z" creationid="haohang" creationdate="20180312T062924Z">
+        <seg>javadoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -16891,6 +17035,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>processTestResources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062813Z" creationid="haohang" creationdate="20180312T062813Z">
+        <seg>processTestResources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132112Z" creationid="huanghaohang" creationdate="20170913T132112Z">
@@ -17777,6 +17929,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>test</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063056Z" creationid="haohang" creationdate="20180312T063056Z">
+        <seg>test</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T150115Z" creationid="95" creationdate="20170731T150115Z">
@@ -17791,6 +17951,14 @@ test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&g
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141438Z" creationid="huanghaohang" creationdate="20170913T141438Z">
         <seg>test.systemProperty &lt;s0&gt;'some.prop'&lt;/s0&gt;, &lt;s1&gt;'value'&lt;/s1&gt;
 test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testClasses</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062825Z" creationid="haohang" creationdate="20180312T062825Z">
+        <seg>testClasses</seg>
       </tuv>
     </tu>
     <tu>
@@ -18260,6 +18428,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132252Z" creationid="huanghaohang" creationdate="20170913T132252Z">
         <seg>未指定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>uploadArchives</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063137Z" creationid="haohang" creationdate="20180312T063137Z">
+        <seg>uploadArchives</seg>
       </tuv>
     </tu>
     <tu>
