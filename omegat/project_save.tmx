@@ -2744,6 +2744,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;compile&lt;e1&gt;&lt;c2&gt;SourceSet&lt;/c2&gt;&lt;/e1&gt;Java&lt;/c0&gt; and &lt;c3&gt;process&lt;e4&gt;&lt;c5&gt;SourceSet&lt;/c5&gt;&lt;/e4&gt;Resources&lt;/c3&gt;. Some plugins add additional compilation tasks for the source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073502Z" creationid="haohang" creationdate="20180312T073502Z">
+        <seg>&lt;c0&gt;compile&lt;e1&gt;&lt;c2&gt;SourceSet&lt;/c2&gt;&lt;/e1&gt;Java&lt;/c0&gt; and &lt;c3&gt;process&lt;e4&gt;&lt;c5&gt;SourceSet&lt;/c5&gt;&lt;/e4&gt;Resources&lt;/c3&gt;. Some plugins add additional compilation tasks for the source set.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;compileJava&lt;/c0&gt; and &lt;c1&gt;processResources&lt;/c1&gt;. Some plugins add additional compilation tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062448Z" creationid="haohang" creationdate="20180312T062448Z">
@@ -2828,6 +2836,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132223Z" creationid="huanghaohang" creationdate="20170913T132223Z">
         <seg>&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/build</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;Classes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073442Z" creationid="haohang" creationdate="20180312T073442Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;Classes</seg>
       </tuv>
     </tu>
     <tu>
@@ -5028,6 +5044,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All tasks which produce the source set's compile classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073342Z" creationid="haohang" creationdate="20180312T073342Z">
+        <seg>所有产生源集编译类路径的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, you can use the &lt;c0&gt;-p&lt;/c0&gt; option to specify the project directory to use. For multi-project builds you should use &lt;c1&gt;-p&lt;/c1&gt; option instead of &lt;c2&gt;-b&lt;/c2&gt; option.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114222Z" creationid="huanghaohang" creationdate="20170909T114222Z">
@@ -5652,6 +5676,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compiles the given source set's Java source files using javac.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073410Z" creationid="haohang" creationdate="20180312T073410Z">
+        <seg>使用 javac 编译给定的源集中的 Java 源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configure by DAG</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031936Z" creationid="huanghaohang" creationdate="20170927T031936Z">
@@ -5760,6 +5792,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062824Z" creationid="haohang" creationdate="20180312T062824Z">
         <seg>把测试资源文件拷贝到测试类目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copies the given source set's resources into the classes directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073435Z" creationid="haohang" creationdate="20180312T073435Z">
+        <seg>将给定源集的资源文件复制到类目录中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17087,6 +17127,14 @@ println project.name</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083320Z" creationid="huanghaohang" creationdate="20170922T083320Z">
         <seg>println(&lt;s0&gt;'I am the new one.'&lt;/s0&gt;)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>process&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;Resources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073412Z" creationid="haohang" creationdate="20180312T073412Z">
+        <seg>process&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;Resources</seg>
       </tuv>
     </tu>
     <tu>
