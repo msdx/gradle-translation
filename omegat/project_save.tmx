@@ -2704,6 +2704,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;compileJava&lt;/c0&gt; and &lt;c1&gt;processResources&lt;/c1&gt;. Some plugins add additional compilation tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062448Z" creationid="haohang" creationdate="20180312T062448Z">
+        <seg>&lt;c0&gt;compileJava&lt;/c0&gt; 和 &lt;c1&gt;processResources&lt;/c1&gt;。有些插件会添加其他的编译任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;ear&lt;/c0&gt;, &lt;c1&gt;war&lt;/c1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180210T135854Z" creationid="huanghaohang" creationdate="20180210T135854Z">
@@ -4966,8 +4974,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>All tasks which produce the compile classpath. This includes the &lt;c0&gt;jar&lt;/c0&gt; task for project dependencies included in the &lt;c1&gt;compile&lt;/c1&gt; configuration.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T061836Z" creationid="haohang" creationdate="20180312T061836Z">
-        <seg>All tasks which produce the compile classpath. This includes the &lt;c0&gt;jar&lt;/c0&gt; task for project dependencies included in the &lt;c1&gt;compile&lt;/c1&gt; configuration.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062249Z" creationid="haohang" creationdate="20180312T061836Z">
+        <seg>所有产生编译类路径的任务，包括了用于在 &lt;c1&gt;compile&lt;/c1&gt; 配置所包含的项目依赖的 &lt;c0&gt;jar&lt;/c0&gt; 任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5556,6 +5564,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compiles production Java source files using javac.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062332Z" creationid="haohang" creationdate="20180312T062332Z">
+        <seg>使用 javac 编译 Java 生产源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configure by DAG</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031936Z" creationid="huanghaohang" creationdate="20170927T031936Z">
@@ -5648,6 +5664,22 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072426Z" creationid="haohang" creationdate="20170720T072343Z">
         <seg>本文件的副本，无论其是以印刷版本形式还是电子版本形式，也无论是您自用，还是分发给他人，均为免费，并且每一份副本均需带有版权声明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copies production resources into the production classes directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062402Z" creationid="haohang" creationdate="20180312T062402Z">
+        <seg>把生产资源文件复制到生产类目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Copy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062336Z" creationid="haohang" creationdate="20180312T062336Z">
+        <seg>Copy</seg>
       </tuv>
     </tu>
     <tu>
@@ -8510,6 +8542,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171014T124853Z" creationid="huanghaohang" creationdate="20171014T124853Z">
         <seg>Java 快速入门</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>JavaCompile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062250Z" creationid="haohang" creationdate="20180312T062250Z">
+        <seg>JavaCompile</seg>
       </tuv>
     </tu>
     <tu>
@@ -13412,6 +13452,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>classes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062405Z" creationid="haohang" creationdate="20180312T062405Z">
+        <seg>classes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>classesDir.mkdirs()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132406Z" creationid="huanghaohang" creationdate="20170917T132406Z">
@@ -16807,6 +16855,14 @@ println project.name</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083320Z" creationid="huanghaohang" creationdate="20170922T083320Z">
         <seg>println(&lt;s0&gt;'I am the new one.'&lt;/s0&gt;)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>processResources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062333Z" creationid="haohang" creationdate="20180312T062333Z">
+        <seg>processResources</seg>
       </tuv>
     </tu>
     <tu>
