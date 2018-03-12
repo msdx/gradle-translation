@@ -314,6 +314,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.Delete.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063410Z" creationid="haohang" creationdate="20180312T063410Z">
+        <seg>../dsl/org.gradle.api.tasks.Delete.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.SourceSet.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T081459Z" creationid="huanghaohang" creationdate="20180130T081459Z">
@@ -5914,10 +5922,34 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063411Z" creationid="haohang" creationdate="20180312T063411Z">
+        <seg>Delete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Deletes the &lt;c0&gt;build&lt;/c0&gt; directory, removing all built files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014417Z" creationid="95" creationdate="20170730T014417Z">
         <seg>删除&lt;c0&gt;build&lt;/c0&gt;目录，移除所有构建的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deletes the output files produced by the specified task. For example &lt;c0&gt;cleanJar&lt;/c0&gt; will delete the JAR file created by the &lt;c1&gt;jar&lt;/c1&gt; task, and &lt;c2&gt;cleanTest&lt;/c2&gt; will delete the test results created by the &lt;c3&gt;test&lt;/c3&gt; task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063424Z" creationid="haohang" creationdate="20180312T063424Z">
+        <seg>Deletes the output files produced by the specified task. For example &lt;c0&gt;cleanJar&lt;/c0&gt; will delete the JAR file created by the &lt;c1&gt;jar&lt;/c1&gt; task, and &lt;c2&gt;cleanTest&lt;/c2&gt; will delete the test results created by the &lt;c3&gt;test&lt;/c3&gt; task.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Deletes the project build directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063420Z" creationid="haohang" creationdate="20180312T063420Z">
+        <seg>删除项目的构建目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11728,8 +11760,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>Uploads the artifacts in the &lt;c0&gt;archives&lt;/c0&gt; configuration, including the JAR file.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063258Z" creationid="haohang" creationdate="20180312T063258Z">
-        <seg>使用 &lt;c0&gt;archives&lt;/c0&gt; 配置上传包括 JAR 文件的构件。</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063408Z" creationid="haohang" creationdate="20180312T063258Z">
+        <seg>上传在 &lt;c0&gt;archives&lt;/c0&gt; 中所配置的工件，包括 JAR 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13640,6 +13672,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014334Z" creationid="95" creationdate="20170730T014334Z">
         <seg>clean</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>clean&lt;e0&gt;&lt;c1&gt;TaskName&lt;/c1&gt;&lt;/e0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063422Z" creationid="haohang" creationdate="20180312T063422Z">
+        <seg>clean&lt;e0&gt;&lt;c1&gt;TaskName&lt;/c1&gt;&lt;/e0&gt;</seg>
       </tuv>
     </tu>
     <tu>
