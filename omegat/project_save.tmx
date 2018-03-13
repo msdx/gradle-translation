@@ -1954,6 +1954,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.6. Convention properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T054457Z" creationid="haohang" creationdate="20180313T054457Z">
+        <seg>23.6. 约定属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -2892,6 +2900,22 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073442Z" creationid="haohang" creationdate="20180312T073442Z">
         <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;Classes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;Compile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T054253Z" creationid="haohang" creationdate="20180313T054253Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;Compile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;Runtime</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T054353Z" creationid="haohang" creationdate="20180313T054353Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;Runtime</seg>
       </tuv>
     </tu>
     <tu>
@@ -5768,6 +5792,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053736Z" creationid="haohang" creationdate="20180313T053736Z">
         <seg>编译时依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compile time dependencies for the given source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T054318Z" creationid="haohang" creationdate="20180313T054318Z">
+        <seg>给定源集的编译时依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -10234,6 +10266,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Runtime time dependencies for the given source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T054356Z" creationid="haohang" creationdate="20180313T054356Z">
+        <seg>给定源集的运行时依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Secondly, the &lt;c0&gt;copy()&lt;/c0&gt; method can not honor task dependencies when a task is used as a copy source (i.e. as an argument to &lt;c1&gt;from()&lt;/c1&gt;) because it's a method and not a task. As such, if you are using the &lt;c2&gt;copy()&lt;/c2&gt; method as part of a task action, you must explicitly declare all inputs and outputs in order to get the correct behavior.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124844Z" creationid="huanghaohang" creationdate="20171015T094223Z">
@@ -10658,6 +10698,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 23.6. Java plugin - source set dependency configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T054250Z" creationid="haohang" creationdate="20180313T054250Z">
+        <seg>表 23.6. Java 插件——源集依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -10946,6 +10994,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T153409Z" creationid="huanghaohang" creationdate="20180218T153409Z">
         <seg>Java 插件向项目添加 Java 编译、测试和捆绑的功能。它是其他许多 Gradle 插件的基础。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java plugin adds a number of convention properties to the project, shown below. You can use these properties in your build script as though they were properties of the project object (see &lt;a0&gt;Section 21.3, “Conventions”&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T054637Z" creationid="haohang" creationdate="20180313T054637Z">
+        <seg>Java 插件向项目添加了许多约定属性，如下表所示。你可以在构建脚本中使用这些属性，就像它们是 project 对象里的属性一样（见《&lt;a0&gt;第 21.3 节，“约定”&lt;/a0&gt;》）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16575,6 +16631,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180123T123627Z" creationid="huanghaohang" creationdate="20180123T123627Z">
         <seg>plugins.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>plugins.html#sub:more_about_convention_objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T054459Z" creationid="haohang" creationdate="20180313T054459Z">
+        <seg>plugins.html#sub:more_about_convention_objects</seg>
       </tuv>
     </tu>
     <tu>
