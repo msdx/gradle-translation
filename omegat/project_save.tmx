@@ -1930,6 +1930,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.4. Project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T052630Z" creationid="haohang" creationdate="20180313T052630Z">
+        <seg>23.4. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -5236,10 +5244,26 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assembles and uploads the artifacts in the specified configuration. The task is added by the Base plugin which is implicitly applied by the Java plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T040011Z" creationid="haohang" creationdate="20180313T040011Z">
+        <seg>以指定的配置组装并上传工件。该任务由 Base 插件添加，并由 Java 插件隐式应用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assembles the JAR file</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062913Z" creationid="haohang" creationdate="20180312T062913Z">
         <seg>组装 JAR 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assembles the artifacts in the specified configuration. The task is added by the Base plugin which is implicitly applied by the Java plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T040021Z" creationid="haohang" creationdate="20180313T035734Z">
+        <seg>组装指定配置的工件。该任务由 Base 插件添加，并由 Java 插件隐式应用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7666,6 +7690,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Figure 23.1. Java plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T040047Z" creationid="haohang" creationdate="20180313T040047Z">
+        <seg>图 23.1. Java 插件——任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>File</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132209Z" creationid="huanghaohang" creationdate="20170913T132209Z">
@@ -8774,6 +8806,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171014T124853Z" creationid="huanghaohang" creationdate="20171014T124853Z">
         <seg>Java 快速入门</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Java plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T040056Z" creationid="haohang" creationdate="20180313T040056Z">
+        <seg>Java 插件——任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -11078,6 +11118,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following diagram shows the relationships between these tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T040027Z" creationid="haohang" creationdate="20180313T040027Z">
+        <seg>下图显示了这些任务之间的关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following properties can be used to configure the Gradle build environment:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180124T145004Z" creationid="huanghaohang" creationdate="20180124T145004Z">
@@ -11206,6 +11254,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The tasks which produce the artifacts in configuration &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035904Z" creationid="haohang" creationdate="20180313T035638Z">
+        <seg>生成 &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt; 配置里的工件的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The tasks which produce the artifacts in the &lt;c0&gt;archives&lt;/c0&gt; configuration, including &lt;c1&gt;jar&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063339Z" creationid="haohang" creationdate="20180312T063223Z">
@@ -11218,6 +11274,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T150104Z" creationid="95" creationdate="20170730T132805Z">
         <seg>Java插件所添加的任务都是一些普通任务，与在构建文件里声明的完全一样。这也就是说，你可以利用前面的章节所说的任何机制来自定义这些任务。比如你可以设置一个任务的属性，给它添加一些行为，修改一个任务的依赖，或者是完全地替换掉一个任务。在下面的例子中，我们会配置一个&lt;a1&gt;&lt;c2&gt;Test&lt;/c2&gt;&lt;/a1&gt;类型的 &lt;c0&gt;test&lt;/c0&gt; 任务，使得当执行测试的时候添加一个系统属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The tasks which uploads the artifacts in configuration &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035832Z" creationid="haohang" creationdate="20180313T035832Z">
+        <seg>上传 &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt; 配置中的工件的任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13700,6 +13764,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>build&lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035545Z" creationid="haohang" creationdate="20180313T035545Z">
+        <seg>build&lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>buildDashboard_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090154Z" creationid="huanghaohang" creationdate="20180211T090154Z">
@@ -15240,6 +15312,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143530Z" creationid="huanghaohang" creationdate="20170911T143530Z">
         <seg>img/guiTaskTree.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>img/javaPluginTasks.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T040058Z" creationid="haohang" creationdate="20180313T040058Z">
+        <seg>img/javaPluginTasks.png</seg>
       </tuv>
     </tu>
     <tu>
@@ -18668,6 +18748,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132252Z" creationid="huanghaohang" creationdate="20170913T132252Z">
         <seg>未指定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>upload&lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035735Z" creationid="haohang" creationdate="20180313T035735Z">
+        <seg>upload&lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;</seg>
       </tuv>
     </tu>
     <tu>
