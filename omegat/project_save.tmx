@@ -2760,6 +2760,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;File&lt;/c0&gt; (read-only)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061236Z" creationid="haohang" creationdate="20180313T061236Z">
+        <seg>&lt;c0&gt;File&lt;/c0&gt; （只读）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;build&lt;/c0&gt; and &lt;c1&gt;build&lt;/c1&gt; tasks in all project lib dependencies of the &lt;c2&gt;testRuntime&lt;/c2&gt; configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035408Z" creationid="haohang" creationdate="20180313T035408Z">
@@ -2876,6 +2884,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232635Z" creationid="huanghaohang" creationdate="20171206T232635Z">
         <seg>&lt;e0&gt;&lt;c1&gt;baseName&lt;/c1&gt;&lt;/e0&gt;-&lt;e2&gt;&lt;c3&gt;appendix&lt;/c3&gt;&lt;/e2&gt;-&lt;e4&gt;&lt;c5&gt;version&lt;/c5&gt;&lt;/e4&gt;-&lt;e6&gt;&lt;c7&gt;classifier&lt;/c7&gt;&lt;/e6&gt;.&lt;e8&gt;&lt;c9&gt;extension&lt;/c9&gt;&lt;/e8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;buildDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;reportsDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061237Z" creationid="haohang" creationdate="20180313T061237Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;buildDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;reportsDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11350,6 +11366,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The directory to generate reports into.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061246Z" creationid="haohang" creationdate="20180313T061246Z">
+        <seg>要生成报告的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The directory to generate the archive into</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233114Z" creationid="huanghaohang" creationdate="20171206T233114Z">
@@ -11426,6 +11450,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061216Z" creationid="haohang" creationdate="20180313T061216Z">
         <seg>相对于构建目录，生成报告的目录的名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the directory to generate test result .xml files into, relative to the build directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061350Z" creationid="haohang" creationdate="20180313T061350Z">
+        <seg>相对于构建目录，生成测试结果.xml文件的目录名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17821,6 +17853,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>reportsDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061218Z" creationid="haohang" creationdate="20180313T061218Z">
+        <seg>reportsDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>reportsDirName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T054649Z" creationid="haohang" creationdate="20180313T054649Z">
@@ -18681,6 +18721,14 @@ task lib1 &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>test-results</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061249Z" creationid="haohang" creationdate="20180313T061249Z">
+        <seg>test-results</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>test.systemProperty &lt;s0&gt;'some.prop'&lt;/s0&gt;, &lt;s1&gt;'value'&lt;/s1&gt;
 test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&gt;)</seg>
       </tuv>
@@ -18756,6 +18804,14 @@ test {</seg>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170908T013235Z" creationid="haohang" creationdate="20170908T013235Z">
         <seg>testCompile group: &lt;s4&gt;'junit'&lt;/s4&gt;, name: &lt;s5&gt;'junit'&lt;/s5&gt;, version: &lt;s6&gt;'4.+'&lt;/s6&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testResultsDirName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061248Z" creationid="haohang" creationdate="20180313T061248Z">
+        <seg>testResultsDirName</seg>
       </tuv>
     </tu>
     <tu>
