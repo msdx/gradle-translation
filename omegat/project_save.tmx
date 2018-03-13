@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-3.6.0" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.3" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -2746,8 +2746,8 @@ Type</seg>
       <tuv lang="EN-US">
         <seg>&lt;c0&gt;compile&lt;e1&gt;&lt;c2&gt;SourceSet&lt;/c2&gt;&lt;/e1&gt;Java&lt;/c0&gt; and &lt;c3&gt;process&lt;e4&gt;&lt;c5&gt;SourceSet&lt;/c5&gt;&lt;/e4&gt;Resources&lt;/c3&gt;. Some plugins add additional compilation tasks for the source set.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073502Z" creationid="haohang" creationdate="20180312T073502Z">
-        <seg>&lt;c0&gt;compile&lt;e1&gt;&lt;c2&gt;SourceSet&lt;/c2&gt;&lt;/e1&gt;Java&lt;/c0&gt; and &lt;c3&gt;process&lt;e4&gt;&lt;c5&gt;SourceSet&lt;/c5&gt;&lt;/e4&gt;Resources&lt;/c3&gt;. Some plugins add additional compilation tasks for the source set.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T033857Z" creationid="haohang" creationdate="20180312T073502Z">
+        <seg>&lt;c0&gt;compile&lt;e1&gt;&lt;c2&gt;SourceSet&lt;/c2&gt;&lt;/e1&gt;Java&lt;/c0&gt; 和 &lt;c3&gt;process&lt;e4&gt;&lt;c5&gt;SourceSet&lt;/c5&gt;&lt;/e4&gt;Resources&lt;/c3&gt;。有些插件还为源集添加了其他的编译任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5020,6 +5020,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All archive tasks in the project, including &lt;c0&gt;jar&lt;/c0&gt;. Some plugins add additional archive tasks to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T034602Z" creationid="haohang" creationdate="20180313T034602Z">
+        <seg>All archive tasks in the project, including &lt;c0&gt;jar&lt;/c0&gt;. Some plugins add additional archive tasks to the project.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All enhanced objects in Gradle's domain model can hold extra user-defined properties. This includes, but is not limited to, projects, tasks, and source sets. Extra properties can be added, read and set via the owning object's &lt;c0&gt;ext&lt;/c0&gt; property. Alternatively, an &lt;c1&gt;ext&lt;/c1&gt; block can be used to add multiple properties at once.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133515Z" creationid="huanghaohang" creationdate="20170913T133515Z">
@@ -5192,6 +5200,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062913Z" creationid="haohang" creationdate="20180312T062913Z">
         <seg>组装 JAR 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Assembles the given source set's classes directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T033902Z" creationid="haohang" creationdate="20180313T033902Z">
+        <seg>组装给定源集的类目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10370,6 +10386,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 23.3. Java plugin - lifecycle tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T033943Z" creationid="haohang" creationdate="20180313T033943Z">
+        <seg>表 23.3. Java 插件——生命周期任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Table 23.5. Java plugin - dependency configurations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T032346Z" creationid="huanghaohang" creationdate="20170908T032346Z">
@@ -10690,6 +10714,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T024514Z" creationid="huanghaohang" creationdate="20180131T022834Z">
         <seg>Java 插件增加了&lt;s0&gt;&lt;e1&gt;源文件集&lt;/e1&gt;&lt;/s0&gt;（见&lt;a2&gt;&lt;c3&gt;SourceSet&lt;/c3&gt;&lt;/a2&gt;）的概念来描述一组源文件的各个方面，其中一个方面是在编译的时候写入类文件的地方。Java 插件将 &lt;c5&gt;compileJava&lt;/c5&gt; 任务的 &lt;c4&gt;destinationDir&lt;/c4&gt; 属性映射到源文件集的这一方面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java plugin also adds a number of tasks which form a lifecycle for the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T033936Z" creationid="haohang" creationdate="20180313T033936Z">
+        <seg>Java 插件还增加了大量构成项目生命周期的任务：</seg>
       </tuv>
     </tu>
     <tu>
