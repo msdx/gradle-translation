@@ -1946,6 +1946,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.5. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053350Z" creationid="haohang" creationdate="20180313T053350Z">
+        <seg>23.5. 依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -10878,6 +10886,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java plugin adds a number of dependency configurations to your project, as shown below. It assigns those configurations to tasks such as &lt;c0&gt;compileJava&lt;/c0&gt; and &lt;c1&gt;test&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053708Z" creationid="haohang" creationdate="20180313T053708Z">
+        <seg>Java 插件向项目添加了一些依赖配置，如下表所示。它将这些配置指定一些任务，如 &lt;c0&gt;compileJava&lt;/c0&gt; 和 &lt;c1&gt;test&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Java plugin adds a number of properties to your project. These properties have default values which are usually sufficient to get started. It's easy to change these values if they don't suit. Let's look at this for our sample. Here we will specify the version number for our Java project, along with the Java version our source is written in. We also add some attributes to the JAR manifest.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T132650Z" creationid="95" creationdate="20170730T130552Z">
@@ -15804,6 +15820,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>java {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053344Z" creationid="haohang" creationdate="20180313T053344Z">
+        <seg>java {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>java-base</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140630Z" creationid="huanghaohang" creationdate="20180205T140630Z">
@@ -17613,6 +17637,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>resources {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053346Z" creationid="haohang" creationdate="20180313T053346Z">
+        <seg>resources {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>result.failure.printStackTrace()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144035Z" creationid="huanghaohang" creationdate="20180107T144035Z">
@@ -17835,6 +17867,14 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sourceSets {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053343Z" creationid="haohang" creationdate="20180313T053343Z">
+        <seg>sourceSets {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sourceSets.matching { it.purpose == &lt;s6&gt;"production"&lt;/s6&gt; }.each { println it.name }
 }</seg>
       </tuv>
@@ -17897,6 +17937,22 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053007Z" creationid="haohang" creationdate="20180313T053007Z">
         <seg>src/test/resources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDir &lt;s0&gt;'src/java'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053346Z" creationid="haohang" creationdate="20180313T053346Z">
+        <seg>srcDir &lt;s0&gt;'src/java'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDir &lt;s1&gt;'src/resources'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053348Z" creationid="haohang" creationdate="20180313T053348Z">
+        <seg>srcDir &lt;s1&gt;'src/resources'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
