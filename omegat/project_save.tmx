@@ -2888,6 +2888,22 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;buildDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;distsDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062137Z" creationid="haohang" creationdate="20180313T062137Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;buildDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;distsDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;buildDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;docsDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062241Z" creationid="haohang" creationdate="20180313T062241Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;buildDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;docsDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;e0&gt;&lt;c1&gt;buildDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;libsDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061531Z" creationid="haohang" creationdate="20180313T061531Z">
@@ -11390,6 +11406,22 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The directory to generate distributions into.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062150Z" creationid="haohang" creationdate="20180313T062150Z">
+        <seg>生成分发文件的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The directory to generate documentation into.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062250Z" creationid="haohang" creationdate="20180313T062250Z">
+        <seg>用于生成文档的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The directory to generate libraries into.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061536Z" creationid="haohang" creationdate="20180313T061536Z">
@@ -11498,6 +11530,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062135Z" creationid="haohang" creationdate="20180313T062135Z">
         <seg>相对于构建目录的目录名称，该目录用于生成分发的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the directory to generate documentation into, relative to the build directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062238Z" creationid="haohang" creationdate="20180313T062238Z">
+        <seg>相对于构建目录的目录名称，该目录用于生成文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14838,6 +14878,14 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>distsDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062136Z" creationid="haohang" creationdate="20180313T062136Z">
+        <seg>distsDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>distsDirName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061536Z" creationid="haohang" creationdate="20180313T061536Z">
@@ -14870,6 +14918,14 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>docs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062151Z" creationid="haohang" creationdate="20180313T062151Z">
+        <seg>docs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>docs - Builds the documentation
 api:libs - Builds the JAR</seg>
       </tuv>
@@ -14884,6 +14940,22 @@ api:libs - Builds the JAR</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072245Z" creationid="haohang" creationdate="20170720T072245Z">
         <seg>docs.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>docsDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062239Z" creationid="haohang" creationdate="20180313T062239Z">
+        <seg>docsDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>docsDirName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062150Z" creationid="haohang" creationdate="20180313T062150Z">
+        <seg>docsDirName</seg>
       </tuv>
     </tu>
     <tu>
