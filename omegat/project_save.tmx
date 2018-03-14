@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.3" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.2" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -1634,6 +1634,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>17.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015148Z" creationid="huanghaohang" creationdate="20180314T015148Z">
+        <seg>17.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>17.1.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015152Z" creationid="huanghaohang" creationdate="20180314T015152Z">
+        <seg>17.1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>17.1.1. Using custom Ant tasks in your build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083617Z" creationid="huanghaohang" creationdate="20180105T083509Z">
@@ -1650,6 +1666,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>17.2.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015202Z" creationid="huanghaohang" creationdate="20180314T015202Z">
+        <seg>17.2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>17.2. Importing an Ant build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084337Z" creationid="huanghaohang" creationdate="20180105T084337Z">
@@ -1658,10 +1682,26 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>17.3.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015208Z" creationid="huanghaohang" creationdate="20180314T015208Z">
+        <seg>17.3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>17.3. Ant properties and references</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084847Z" creationid="huanghaohang" creationdate="20180105T084847Z">
         <seg>17.3. Ant 属性和引用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>17.4.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015215Z" creationid="huanghaohang" creationdate="20180314T015215Z">
+        <seg>17.4.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4860,6 +4900,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>API</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015217Z" creationid="huanghaohang" creationdate="20180314T015217Z">
+        <seg>API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>About this user guide</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072441Z" creationid="haohang" creationdate="20170720T072441Z">
@@ -5240,6 +5288,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171210T152022Z" creationid="huanghaohang" creationdate="20171210T151111Z">
         <seg>Ant 可以分为两层。第一层是 Ant 语言，它为&lt;c0&gt;build.xml&lt;/c0&gt;，目标的处理，像宏定义这样的特殊结构等等提供了语法。换句话说，除了 Ant 任务和类型以外的所有东西都有。 Gradle 理解这种语言，并允许你把你的 Ant &lt;c1&gt;build.xml&lt;/c1&gt; 直接导入 Gradle 项目。然后，你可以像使用 Gradle 任务一样使用 Ant 构建里的目标。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ant properties and references</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015213Z" creationid="huanghaohang" creationdate="20180314T015213Z">
+        <seg>Ant 属性和引用</seg>
       </tuv>
     </tu>
     <tu>
@@ -8702,6 +8758,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221524Z" creationid="huanghaohang" creationdate="20180105T221524Z">
         <seg>重要的信息消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Importing an Ant build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015206Z" creationid="huanghaohang" creationdate="20180314T015206Z">
+        <seg>导入 Ant 构建</seg>
       </tuv>
     </tu>
     <tu>
@@ -12422,6 +12486,22 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Using Ant from Gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015150Z" creationid="huanghaohang" creationdate="20180314T015150Z">
+        <seg>从 Gradle 中调用 Ant</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using Ant tasks and types in your build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015159Z" creationid="huanghaohang" creationdate="20180314T015159Z">
+        <seg>在构建中使用 Ant 任务和类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Using Gradle's build-by-convention support for Groovy projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T080954Z" creationid="95" creationdate="20170723T080954Z">
@@ -13524,6 +13604,38 @@ ant.property(name: &lt;s1&gt;'buildDir'&lt;/s1&gt;, location: buildDir)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153837Z" creationid="95" creationdate="20170728T153837Z">
         <seg>ant.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.html#N113E5</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015151Z" creationid="huanghaohang" creationdate="20180314T015151Z">
+        <seg>ant.html#N113E5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.html#N11485</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015201Z" creationid="huanghaohang" creationdate="20180314T015201Z">
+        <seg>ant.html#N11485</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.html#N114DF</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015207Z" creationid="huanghaohang" creationdate="20180314T015207Z">
+        <seg>ant.html#N114DF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ant.html#N11533</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180314T015214Z" creationid="huanghaohang" creationdate="20180314T015214Z">
+        <seg>ant.html#N11533</seg>
       </tuv>
     </tu>
     <tu>
