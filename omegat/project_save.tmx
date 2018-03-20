@@ -13190,6 +13190,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can access the source sets of a project using the &lt;c0&gt;sourceSets&lt;/c0&gt; property. This is a container for the project's source sets, of type &lt;a1&gt;&lt;c2&gt;SourceSetContainer&lt;/c2&gt;&lt;/a1&gt;. There is also a &lt;c3&gt;sourceSets { }&lt;/c3&gt; script block, which you can pass a closure to configure the source set container. The source set container works pretty much the same way as other containers, such as &lt;c4&gt;tasks&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T094610Z" creationid="haohang" creationdate="20180320T094610Z">
+        <seg>你可以使用 &lt;c0&gt;sourceSets&lt;/c0&gt; 属性访问项目的源集。这是项目源集的容器，它的类型是 &lt;a1&gt;&lt;c2&gt;SourceSetContainer&lt;/c2&gt;&lt;/a1&gt;。除此之外，还有一个 &lt;c3&gt;sourceSets{}&lt;/c3&gt; 脚本块，可以传入一个闭包来配置源集容器。源集容器的使用方式与其他的容器几乎一样，例如 &lt;c4&gt;tasks&lt;/c4&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can add a description to your task. This description is for example displayed when executing &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T082254Z" creationid="huanghaohang" creationdate="20170922T082254Z">
