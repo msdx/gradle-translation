@@ -2922,8 +2922,8 @@ Type</seg>
       <tuv lang="EN-US">
         <seg>&lt;c0&gt;Set&lt;File&gt;&lt;/c0&gt;. Can set using anything described in &lt;a1&gt;Section 16.5, “Specifying a set of input files”&lt;/a1&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T100607Z" creationid="haohang" creationdate="20180320T100607Z">
-        <seg>&lt;c0&gt;Set&lt;File&gt;&lt;/c0&gt;. Can set using anything described in &lt;a1&gt;Section 16.5, “Specifying a set of input files”&lt;/a1&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T100859Z" creationid="haohang" creationdate="20180320T100607Z">
+        <seg>&lt;c0&gt;Set&lt;File&gt;&lt;/c0&gt;。可以使用《&lt;a1&gt;第 16.5 节，“指定一组输入文件”&lt;/a1&gt;》中所讲到的任何一种方法来设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12044,10 +12044,26 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The resources of this source set. Contains only resources, and excludes any &lt;c0&gt;.java&lt;/c0&gt; files found in the resource source directories. Other plugins, such as the Groovy plugin, exclude additional types of files from this collection.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T101206Z" creationid="haohang" creationdate="20180320T101206Z">
+        <seg>此源集的资源。仅包含资源，并且排除在资源源目录中找到的所有 &lt;c0&gt;.java&lt;/c0&gt; 文件。其他插件（如 Groovy 插件）会从此集合中排除其他类型的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The second layer of Ant is its wealth of Ant tasks and types, like &lt;c0&gt;javac&lt;/c0&gt;, &lt;c1&gt;copy&lt;/c1&gt; or &lt;c2&gt;jar&lt;/c2&gt;. For this layer Gradle provides integration simply by relying on Groovy, and the fantastic &lt;c3&gt;AntBuilder&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171210T152241Z" creationid="huanghaohang" creationdate="20171210T151948Z">
         <seg>Ant 的第二层是它丰富的 Ant 任务和类型，比如&lt;c0&gt;javac&lt;/c0&gt;， &lt;c1&gt;copy&lt;/c1&gt;或&lt;c2&gt;jar&lt;/c2&gt;。对于这一层，Gradle 只依靠 Groovy 和极出色的 &lt;c3&gt;AntBuilder&lt;/c3&gt; 来提供集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The source directories containing the Java source files of this source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T100912Z" creationid="haohang" creationdate="20180320T100912Z">
+        <seg>该源目录包含了此源集的所有 Java 源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13840,6 +13856,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144453Z" creationid="huanghaohang" creationdate="20180107T144048Z">
         <seg>你的 logger 可以实现下面列出的任何监听器接口。当你注册一个 logger 时，只会替换其实现的接口的日志记录，其他接口的日志记录则保持不变。于侦听器的接口的详细信息，可以参阅《&lt;a0&gt;第 55.6 节，“在构建脚本中响应生命周期”&lt;/a0&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/java]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T100903Z" creationid="haohang" creationdate="20180320T100903Z">
+        <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/java]</seg>
       </tuv>
     </tu>
     <tu>
@@ -18685,6 +18709,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051022Z" creationid="huanghaohang" creationdate="20170908T051022Z">
         <seg>repository(url: &lt;s1&gt;"file://localhost/tmp/myRepo/"&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>resources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T100914Z" creationid="haohang" creationdate="20180320T100914Z">
+        <seg>resources</seg>
       </tuv>
     </tu>
     <tu>
