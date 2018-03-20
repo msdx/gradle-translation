@@ -2042,6 +2042,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.7.1. Source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T094930Z" creationid="haohang" creationdate="20180320T094930Z">
+        <seg>23.7.1. 源集属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.7. Working with source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180318T010952Z" creationid="huanghaohang" creationdate="20180318T010952Z">
@@ -2880,6 +2888,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;String&lt;/c0&gt; (read-only)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T095046Z" creationid="haohang" creationdate="20180320T095046Z">
+        <seg>&lt;c0&gt;String&lt;/c0&gt; （只读）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;build&lt;/c0&gt; and &lt;c1&gt;build&lt;/c1&gt; tasks in all project lib dependencies of the &lt;c2&gt;testRuntime&lt;/c2&gt; configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035408Z" creationid="haohang" creationdate="20180313T035408Z">
@@ -3294,6 +3310,20 @@ configFile = file(configFile.absolutePath)
 
 &lt;s3&gt;// Using a File object with a relative path&lt;/s3&gt;
 configFile = file(&lt;s4&gt;new&lt;/s4&gt; File(&lt;s5&gt;'src/config.xml'&lt;/s5&gt;))</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Various ways to access the main source set&lt;/s0&gt;
+println sourceSets.main.output.classesDir
+println sourceSets[&lt;s1&gt;'main'&lt;/s1&gt;].output.classesDir
+sourceSets {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T094733Z" creationid="haohang" creationdate="20180320T094733Z">
+        <seg>&lt;s0&gt;// Various ways to access the main source set&lt;/s0&gt;
+println sourceSets.main.output.classesDir
+println sourceSets[&lt;s1&gt;'main'&lt;/s1&gt;].output.classesDir
+sourceSets {</seg>
       </tuv>
     </tu>
     <tu>
@@ -7554,6 +7584,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.4. Configuring the source directories of a source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T094924Z" creationid="haohang" creationdate="20180320T094924Z">
+        <seg>示例 23.4. 配置源集的源代码目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -10970,6 +11008,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 23.9. Java plugin - source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T095035Z" creationid="haohang" creationdate="20180320T095035Z">
+        <seg>表 23.9. Java 插件——源集属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -11702,6 +11748,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following table lists some of the important properties of a source set. You can find more details in the API documentation for &lt;a0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T095027Z" creationid="haohang" creationdate="20180320T095027Z">
+        <seg>下表列出了一些重要的源集属性。你可以在 API 文档中找到更多有关 &lt;a0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/a0&gt; 的详细信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following tutorials introduce some of the basics of Gradle, to help you get started.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072551Z" creationid="95" creationdate="20170723T072551Z">
@@ -11810,6 +11864,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132136Z" creationid="huanghaohang" creationdate="20170913T132136Z">
         <seg>项目目录名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The name of the source set, used to identify it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T095054Z" creationid="haohang" creationdate="20180320T095054Z">
+        <seg>用来确定一个源集的源集名称。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12426,6 +12488,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025401Z" creationid="huanghaohang" creationdate="20180107T025401Z">
         <seg>为能在任务执行过程中更改标准输出或错误的日志级别，任务也提供了一个 &lt;a0&gt;&lt;c1&gt;LoggingManager&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To configure an existing source set, you simply use one of the above access methods to set the properties of the source set. The properties are described below. Here is an example which configures the main Java and resources directories:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T094908Z" creationid="haohang" creationdate="20180320T094745Z">
+        <seg>要配置一个现有的源集，你只需要使用上面的其中一种访问方法来设置源集的属性。这些属性将在下文中进行介绍。以下是配置main 的 Java 和资源目录的示例：</seg>
       </tuv>
     </tu>
     <tu>
@@ -18119,6 +18189,18 @@ def different = collection - files(&lt;s4&gt;'src/file3.txt'&lt;/s4&gt;)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println main.output.classesDir
+}
+sourceSets {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T094734Z" creationid="haohang" creationdate="20180320T094734Z">
+        <seg>println main.output.classesDir
+}
+sourceSets {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println myTask.myProperty
 }</seg>
       </tuv>
@@ -18135,6 +18217,24 @@ println project.name</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130250Z" creationid="huanghaohang" creationdate="20170912T130250Z">
         <seg>println name
 println project.name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println name
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T094738Z" creationid="haohang" creationdate="20180320T094738Z">
+        <seg>println name
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println output.classesDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T094736Z" creationid="haohang" creationdate="20180320T094736Z">
+        <seg>println output.classesDir</seg>
       </tuv>
     </tu>
     <tu>
@@ -20238,6 +20338,22 @@ webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144952Z" creationid="95" creationdate="20170724T144952Z">
         <seg>}
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+&lt;s2&gt;// Iterate over the source sets&lt;/s2&gt;
+sourceSets.all {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T094737Z" creationid="haohang" creationdate="20180320T094737Z">
+        <seg>}
+}
+
+&lt;s2&gt;// Iterate over the source sets&lt;/s2&gt;
+sourceSets.all {</seg>
       </tuv>
     </tu>
     <tu>
