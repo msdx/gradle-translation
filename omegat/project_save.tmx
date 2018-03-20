@@ -570,6 +570,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/file/SourceDirectorySet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T100047Z" creationid="haohang" creationdate="20180320T100047Z">
+        <seg>../javadoc/org/gradle/api/file/SourceDirectorySet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/java/archives/Manifest.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180318T010641Z" creationid="huanghaohang" creationdate="20180318T010641Z">
@@ -2828,6 +2836,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180314T094302Z" creationid="haohang" creationdate="20180314T094302Z">
         <seg>&lt;a0&gt;&lt;c1&gt;JavaVersion&lt;/c1&gt;&lt;/a0&gt;。也可以使用字符串或数字来设置，如 &lt;c2&gt;'1.5'&lt;/c2&gt; 或 &lt;c3&gt;1.5&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;&lt;c1&gt;SourceDirectorySet&lt;/c1&gt;&lt;/a0&gt; (read-only)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T100053Z" creationid="haohang" creationdate="20180320T100053Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;SourceDirectorySet&lt;/c1&gt;&lt;/a0&gt; （只读）</seg>
       </tuv>
     </tu>
     <tu>
@@ -11464,6 +11480,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012100Z" creationid="95" creationdate="20170730T012100Z">
         <seg>这个Java插件是基于约定的。这也意味着它为项目的很多个方面都定义了一些默认值，比如Java源文件的位置。如果你遵循这些约定，那么你就不用在构建脚本中再去做太多的事情。如果你不想或无法遵循约定，Gradle也允许你进行自定义。实际上，由于对Java项目的支持是以插件的形式来实现的，你甚至可以完全不用这个构建来构建Java项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Java source files of this source set. Contains only &lt;c0&gt;.java&lt;/c0&gt; files found in the Java source directories, and excludes all other files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T100347Z" creationid="haohang" creationdate="20180320T100347Z">
+        <seg>此源集的 Java 源文件。仅包含 Java 源目录中找到的 &lt;c0&gt;.java&lt;/c0&gt; 文件，并排除所有其他文件。</seg>
       </tuv>
     </tu>
     <tu>
