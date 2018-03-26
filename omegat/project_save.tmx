@@ -658,6 +658,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/external/javadoc/CoreJavadocOptions.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095503Z" creationid="haohang" creationdate="20180326T095503Z">
+        <seg>../javadoc/org/gradle/external/javadoc/CoreJavadocOptions.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/external/javadoc/StandardJavadocDocletOptions.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095504Z" creationid="haohang" creationdate="20180326T095504Z">
+        <seg>../javadoc/org/gradle/external/javadoc/StandardJavadocDocletOptions.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072430Z" creationid="haohang" creationdate="20170720T072430Z">
@@ -2074,10 +2090,26 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.7.3. Some source set examples</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095243Z" creationid="haohang" creationdate="20180326T095243Z">
+        <seg>23.7.3. 一些源集的范例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.7. Working with source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180318T010952Z" creationid="huanghaohang" creationdate="20180318T010952Z">
         <seg>23.7. 使用源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>23.8. Javadoc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095500Z" creationid="haohang" creationdate="20180326T095500Z">
+        <seg>23.8. Javadoc</seg>
       </tuv>
     </tu>
     <tu>
@@ -4908,6 +4940,28 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle intTestClasses
+:compileIntTestJava
+:processIntTestResources
+:intTestClasses
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095242Z" creationid="haohang" creationdate="20180326T095242Z">
+        <seg>&gt; gradle intTestClasses
+:compileIntTestJava
+:processIntTestResources
+:intTestClasses
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle intro
 :hello
 [ant:echo] Hello, from Ant
@@ -5146,10 +5200,26 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Adding a JAR containing the classes of a source set:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095303Z" creationid="haohang" creationdate="20180326T095303Z">
+        <seg>添加一个包含源集的类的 JAR 包</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Adding a description to a task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180201T021722Z" creationid="huanghaohang" creationdate="20180201T021722Z">
         <seg>向任务添加描述</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adding a test suite to run the tests in a source set:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095449Z" creationid="haohang" creationdate="20180326T095449Z">
+        <seg>添加测试套件以运行源集里的测试</seg>
       </tuv>
     </tu>
     <tu>
@@ -7664,6 +7734,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.10. Running tests in a source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095452Z" creationid="haohang" creationdate="20180326T095452Z">
+        <seg>示例 23.10. 运行源集里的测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 23.2. Custom Java source layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053342Z" creationid="haohang" creationdate="20180313T053342Z">
@@ -7700,6 +7778,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094839Z" creationid="haohang" creationdate="20180326T094839Z">
         <seg>示例 23.6. 定义源集依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.7. Compiling a source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095229Z" creationid="haohang" creationdate="20180326T095229Z">
+        <seg>示例 23.7. 编译源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.8. Assembling a JAR for a source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095351Z" creationid="haohang" creationdate="20180326T095351Z">
+        <seg>示例 23.8. 为一个源集组装一个 JAR 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.9. Generating the Javadoc for a source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095402Z" creationid="haohang" creationdate="20180326T095402Z">
+        <seg>示例 23.9. 为一个源集生成 Javadoc：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8444,6 +8546,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T085957Z" creationid="huanghaohang" creationdate="20180211T085957Z">
         <seg>生成包括了关于你的 Gradle 构建的有用信息的报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generating Javadoc for a source set:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095358Z" creationid="haohang" creationdate="20180326T095358Z">
+        <seg>为一个源集生成 Javadoc：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10232,6 +10342,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle intTestClasses&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095240Z" creationid="haohang" creationdate="20180326T095240Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle intTestClasses&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle intro&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084643Z" creationid="huanghaohang" creationdate="20180105T084643Z">
@@ -11304,6 +11422,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075000Z" creationid="huanghaohang" creationdate="20171002T135621Z">
         <seg>该&lt;c0&gt;from()&lt;/c0&gt;方法接受和&lt;a1&gt;files()&lt;/a1&gt;方法一样的参数。当参数解析为目录时，该目录下的所有内容（除了该目录本身）将递归复制到目标目录中。当参数解析为文件时，该文件将被复制到目标目录中。当参数解析为不存在的文件时，该参数将被忽略。如果参数是一个任务，则复制任务的输出文件（即任务创建的文件），并将任务自动添加为&lt;c2&gt;Copy&lt;/c2&gt;任务的依赖项。该&lt;c3&gt;into()&lt;/c3&gt;接受和&lt;a4&gt;file()&lt;/a4&gt;方法一样的参数。这是另一个例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;javadoc&lt;/c0&gt; task is an instance of &lt;a1&gt;&lt;c2&gt;Javadoc&lt;/c2&gt;&lt;/a1&gt;. It supports the core javadoc options and the options of the standard doclet described in the &lt;a3&gt;reference documentation&lt;/a3&gt; of the Javadoc executable. For a complete list of supported Javadoc options consult the API documentation of the following classes: &lt;a4&gt;&lt;c5&gt;CoreJavadocOptions&lt;/c5&gt;&lt;/a4&gt; and &lt;a6&gt;&lt;c7&gt;StandardJavadocDocletOptions&lt;/c7&gt;&lt;/a6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T100102Z" creationid="haohang" creationdate="20180326T095506Z">
+        <seg>&lt;c0&gt;Javadoc&lt;/c0&gt; 任务是 &lt;a1&gt;&lt;c2&gt;Javadoc&lt;/c2&gt;&lt;/a1&gt; 的一个实例。它支持核心 javadoc 的参数选项，以及在 Javadoc 可执行文件的&lt;a3&gt;参考文档&lt;/a3&gt;中描述的标准 doclet 参数选项。对于所支持的 Javadoc 参数选项的完整列表，请参考下面的类的 API 文档： &lt;a4&gt; &lt;c5&gt;CoreJavadocOptions&lt;/c5&gt;&lt;/a4&gt; 和 &lt;a6&gt;&lt;c7&gt;StandardJavadocDocletOptions&lt;/c7&gt;&lt;/a6&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14970,6 +15096,16 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>classpath = sourceSets.intTest.runtimeClasspath
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095454Z" creationid="haohang" creationdate="20180326T095454Z">
+        <seg>classpath = sourceSets.intTest.runtimeClasspath
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>classpath {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083830Z" creationid="huanghaohang" creationdate="20180105T083830Z">
@@ -16090,6 +16226,16 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from sourceSets.intTest.output
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095353Z" creationid="haohang" creationdate="20180326T095353Z">
+        <seg>from sourceSets.intTest.output
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from spiJar.archivePath</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125720Z" creationid="95" creationdate="20170803T125720Z">
@@ -16254,6 +16400,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090435Z" creationid="huanghaohang" creationdate="20180211T090435Z">
         <seg>http://cunit.sourceforge.net</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://download.oracle.com/javase/1.5.0/docs/tooldocs/windows/javadoc.html#referenceguide</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095502Z" creationid="haohang" creationdate="20180326T095502Z">
+        <seg>http://download.oracle.com/javase/1.5.0/docs/tooldocs/windows/javadoc.html#referenceguide</seg>
       </tuv>
     </tu>
     <tu>
@@ -19115,6 +19269,16 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>source sourceSets.intTest.allJava
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095404Z" creationid="haohang" creationdate="20180326T095404Z">
+        <seg>source sourceSets.intTest.allJava
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>source { file(&lt;s6&gt;'src/test/'&lt;/s6&gt;).listFiles() }
 }</seg>
       </tuv>
@@ -19547,6 +19711,30 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task intTest(type: Test) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095453Z" creationid="haohang" creationdate="20180326T095453Z">
+        <seg>task intTest(type: Test) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task intTestJar(type: Jar) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095352Z" creationid="haohang" creationdate="20180326T095352Z">
+        <seg>task intTestJar(type: Jar) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task intTestJavadoc(type: Javadoc) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095403Z" creationid="haohang" creationdate="20180326T095403Z">
+        <seg>task intTestJavadoc(type: Javadoc) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task libs(type: Sync) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125146Z" creationid="huanghaohang" creationdate="20171126T125146Z">
@@ -19781,6 +19969,14 @@ test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&g
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062825Z" creationid="haohang" creationdate="20180312T062825Z">
         <seg>testClasses</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testClassesDir = sourceSets.intTest.output.classesDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095454Z" creationid="haohang" creationdate="20180326T095454Z">
+        <seg>testClassesDir = sourceSets.intTest.output.classesDir</seg>
       </tuv>
     </tu>
     <tu>
