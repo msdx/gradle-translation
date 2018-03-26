@@ -2066,6 +2066,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.7.2. Defining new source sets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094528Z" creationid="haohang" creationdate="20180326T094528Z">
+        <seg>23.7.2. 定义新的源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.7. Working with source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180318T010952Z" creationid="huanghaohang" creationdate="20180318T010952Z">
@@ -7680,6 +7688,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.5. Defining a source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094626Z" creationid="haohang" creationdate="20180326T094626Z">
+        <seg>示例 23.5. 定义一个源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.6. Defining source set dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094839Z" creationid="haohang" creationdate="20180326T094839Z">
+        <seg>示例 23.6. 定义源集依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -11452,6 +11476,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java plugin also adds a number of tasks which assemble the classes for the source set, as shown in &lt;a0&gt;Table 23.2, “Java plugin - source set tasks”&lt;/a0&gt;. For example, for a source set called &lt;c1&gt;intTest&lt;/c1&gt;, you can run &lt;s2&gt;&lt;c3&gt;gradle intTestClasses&lt;/c3&gt;&lt;/s2&gt; to compile the int test classes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095223Z" creationid="haohang" creationdate="20180326T095223Z">
+        <seg>Java 插件还添加了大量的任务用于组装源集的类，如&lt;a0&gt;表 23.2，“Java 插件——源集任务”&lt;/a0&gt;所示。例如，对于一个名为 &lt;c1&gt;intTest&lt;/c1&gt; 的源集，你可以通过运行&lt;s2&gt;&lt;c3&gt;gradle intTestClasses&lt;/c3&gt;&lt;/s2&gt;来编译 int 测试类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Java plugin also adds a number of tasks which form a lifecycle for the project:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T033936Z" creationid="haohang" creationdate="20180313T033936Z">
@@ -12668,6 +12700,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To define a new source set, you simply reference it in the &lt;c0&gt;sourceSets { }&lt;/c0&gt; block. Here's an example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094613Z" creationid="haohang" creationdate="20180326T094530Z">
+        <seg>要定义一个新的源集，你只需在 &lt;c0&gt;sourceSets {}&lt;/c0&gt; 块引用它。示例如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To define an external dependency, you add it to a dependency configuration:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T043233Z" creationid="huanghaohang" creationdate="20170908T043233Z">
@@ -13312,6 +13352,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133538Z" creationid="huanghaohang" creationdate="20180108T133538Z">
         <seg>当使用测试驱动开发时，单元测试会被执行多次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When you define a new source set, the Java plugin adds some dependency configurations for the source set, as shown in &lt;a0&gt;Table 23.6, “Java plugin - source set dependency configurations”&lt;/a0&gt;. You can use these configurations to define the compile and runtime dependencies of the source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094833Z" creationid="haohang" creationdate="20180326T094833Z">
+        <seg>当你定义一个新的源集时，Java 插件会为该源集添加一些依赖配置，如&lt;a0&gt;表 23.6，“Java 插件——源集依赖性配置”&lt;/a0&gt;所示。你可以使用这些配置来定义源集的编译和运行时依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16616,6 +16664,48 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>intTest
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094628Z" creationid="haohang" creationdate="20180326T094628Z">
+        <seg>intTest
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>intTest
+}
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094841Z" creationid="haohang" creationdate="20180326T094841Z">
+        <seg>intTest
+}
+
+dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>intTestCompile &lt;s0&gt;'junit:junit:4.11'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094842Z" creationid="haohang" creationdate="20180326T094842Z">
+        <seg>intTestCompile &lt;s0&gt;'junit:junit:4.11'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>intTestRuntime &lt;s1&gt;'org.ow2.asm:asm-all:4.0'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094843Z" creationid="haohang" creationdate="20180326T094843Z">
+        <seg>intTestRuntime &lt;s1&gt;'org.ow2.asm:asm-all:4.0'&lt;/s1&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>into &lt;s0&gt;"$buildDir/libs"&lt;/s0&gt;
 }</seg>
       </tuv>
@@ -16862,6 +16952,22 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T130000Z" creationid="95" creationdate="20170803T130000Z">
         <seg>java_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java_plugin.html#java_source_set_configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094629Z" creationid="haohang" creationdate="20180326T094629Z">
+        <seg>java_plugin.html#java_source_set_configurations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java_plugin.html#java_source_set_tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094843Z" creationid="haohang" creationdate="20180326T094843Z">
+        <seg>java_plugin.html#java_source_set_tasks</seg>
       </tuv>
     </tu>
     <tu>
