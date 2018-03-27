@@ -2992,6 +2992,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;File&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180327T101701Z" creationid="haohang" creationdate="20180327T101701Z">
+        <seg>&lt;c0&gt;File&lt;/c0&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;File&lt;/c0&gt;. Can set using anything described in &lt;a1&gt;Section 16.1, “Locating files”&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T101403Z" creationid="haohang" creationdate="20180326T101403Z">
@@ -3252,6 +3260,30 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061427Z" creationid="haohang" creationdate="20180313T061427Z">
         <seg>&lt;e0&gt;&lt;c1&gt;reportsDir&lt;/c1&gt;&lt;/e0&gt;/&lt;c2&gt;testReportDirName&lt;/c2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;.compileClasspath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180327T101658Z" creationid="haohang" creationdate="20180327T101658Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;.compileClasspath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;.java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180327T101700Z" creationid="haohang" creationdate="20180327T101700Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;.java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;.output.classesDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180327T101704Z" creationid="haohang" creationdate="20180327T101704Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;.output.classesDir</seg>
       </tuv>
     </tu>
     <tu>
@@ -5948,6 +5980,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T074040Z" creationid="huanghaohang" creationdate="20170909T074040Z">
         <seg>默认情况下，只要有任务失败，Gradle就将中断执行让构建失败。这样做会使构建更快地结束，但也会让其他可能发生的失败不被发现。因此你可以使用&lt;c0&gt;--continue&lt;/c0&gt;选项来在单个构建执行中发现尽可能多的失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By default, the Java compiler runs in the Gradle process. Setting &lt;c0&gt;options.fork&lt;/c0&gt; to &lt;c1&gt;true&lt;/c1&gt; causes compilation to occur in a separate process. In the case of the Ant javac task, this means that a new process will be forked for each compile task, which can slow down compilation. Conversely, Gradle's direct compiler integration (see above) will reuse the same compiler process as much as possible. In both cases, all fork options specified with &lt;c2&gt;options.forkOptions&lt;/c2&gt; will be honored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180327T102445Z" creationid="haohang" creationdate="20180327T101708Z">
+        <seg>默认情况下，Java 编译器在 Gradle 进程中运行。将 &lt;c0&gt;options.fork&lt;/c0&gt; 设置为 &lt;c1&gt;true&lt;/c1&gt; 将使得在一个单独的进程中进行编译。在Ant javac 任务的情况中，意味着每个编译任务都会 fork 一个新进程，这样就会使编译变慢。相反，Gradle 的直接编译器集成（见上文）将尽可能地重用相同的编译器进程。在这两种情况下，使用 &lt;c2&gt;options.forkOptions&lt;/c2&gt; 指定的所有 fork 选项都将得到重视。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11278,6 +11318,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 23.13. Java plugin - Compile properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180327T101656Z" creationid="haohang" creationdate="20180327T101656Z">
+        <seg>表 23.13. Java 插件—— Compile 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Table 23.2. Java plugin - source set tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073311Z" creationid="haohang" creationdate="20180312T073311Z">
@@ -11660,8 +11708,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The Java plugin adds a &lt;a0&gt;&lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt; instance for each source set in the project. Some of the most common configuration options are shown below.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T101433Z" creationid="haohang" creationdate="20180326T101433Z">
-        <seg>The Java plugin adds a &lt;a0&gt;&lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt; instance for each source set in the project. Some of the most common configuration options are shown below.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180327T101646Z" creationid="haohang" creationdate="20180326T101433Z">
+        <seg>Java 插件为项目里的每一个源集添加一个 &lt;a0&gt;&lt;c1&gt;JavaCompile&lt;/c1&gt;&lt;/a0&gt; 实例。一些最常见的配置选项如下所示。</seg>
       </tuv>
     </tu>
     <tu>
