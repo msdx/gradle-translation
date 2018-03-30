@@ -14114,6 +14114,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can specify whether or not to execute your tests in parallel. Gradle provides parallel test execution by running multiple test processes concurrently. Each test process executes only a single test at a time, so you generally don't need to do anything special to your tests to take advantage of this. The &lt;c0&gt;maxParallelForks&lt;/c0&gt; property specifies the maximum number of test processes to run at any given time. The default is 1, that is, do not execute the tests in parallel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T055339Z" creationid="haohang" creationdate="20180330T055339Z">
+        <seg>你可以指定是否要并行执行测试。Gradle 通过同时运行多个测试进程来提供并行测试的执行。每个测试进程一次只执行一个测试，所以通常不需要为测试做任何特殊的配置就可以利用这一点。&lt;c0&gt;maxParallelForks&lt;/c0&gt; 属性指定了在给定的任何时间可以运行的最大测试进程数。默认值为1，即不并行执行测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use &lt;s0&gt;&lt;c1&gt;gradle properties&lt;/c1&gt;&lt;/s0&gt; to list the properties of a project. This will allow you to see the properties added by the Java plugin, and their default values.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T132758Z" creationid="95" creationdate="20170730T132619Z">
