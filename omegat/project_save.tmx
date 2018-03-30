@@ -12514,6 +12514,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The test process sets the &lt;c0&gt;org.gradle.test.worker&lt;/c0&gt; system property to a unique identifier for that test process, which you can use, for example, in files names or other resource identifiers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T055511Z" creationid="haohang" creationdate="20180330T055355Z">
+        <seg>测试进程程会将 &lt;c0&gt;org.gradle.test.worker&lt;/c0&gt; 系统属性设置为该测试进程的一个唯一标识符，这个标识符可以用于文件名称或其他资源标识符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The user guide (HTML and PDF).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114522Z" creationid="95" creationdate="20170723T114522Z">
@@ -14110,6 +14118,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075108Z" creationid="huanghaohang" creationdate="20171015T075034Z">
         <seg>您可以使用 Ant 风格的包含或排除模式，或是闭包，来选择要复制的文件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can specify that test processes should be restarted after it has executed a certain number of test classes. This can be a useful alternative to giving your test process a very large heap. The &lt;c0&gt;forkEvery&lt;/c0&gt; property specifies the maximum number of test classes to execute in a test process. The default is to execute an unlimited number of tests in each test process.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T060157Z" creationid="haohang" creationdate="20180330T060157Z">
+        <seg>You can specify that test processes should be restarted after it has executed a certain number of test classes. This can be a useful alternative to giving your test process a very large heap. The &lt;c0&gt;forkEvery&lt;/c0&gt; property specifies the maximum number of test classes to execute in a test process. The default is to execute an unlimited number of tests in each test process.</seg>
       </tuv>
     </tu>
     <tu>
