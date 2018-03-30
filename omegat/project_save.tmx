@@ -11580,7 +11580,7 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>Tests are executed in a separate JVM, isolated from the main build process. The &lt;a0&gt;&lt;c1&gt;Test&lt;/c1&gt;&lt;/a0&gt; task's API allows you some control over how this happens.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T054946Z" creationid="haohang" creationdate="20180330T054946Z">
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T062150Z" creationid="haohang" creationdate="20180330T054946Z">
         <seg>测试在单独的 JVM 进程中执行，与主构建进程隔离。&lt;a0&gt;&lt;c1&gt;Test&lt;/c1&gt;&lt;/a0&gt; 任务的 API 允许你对这种情况进行一些控制。</seg>
       </tuv>
     </tu>
@@ -12508,8 +12508,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The task has an &lt;c0&gt;ignoreFailures&lt;/c0&gt; property to control the behavior when tests fail. Test always executes every test that it detects. It stops the build afterwards if &lt;c1&gt;ignoreFailures&lt;/c1&gt; is false and there are failing tests. The default value of &lt;c2&gt;ignoreFailures&lt;/c2&gt; is false.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T060824Z" creationid="haohang" creationdate="20180330T060550Z">
-        <seg>该任务有一个 &lt;c0&gt;ignoreFailures&lt;/c0&gt; 属性，用于控制测试失败时的行为。Test 任务始终执行它检测到的每个测试，如果 &lt;c1&gt;ignoreFailures&lt;/c1&gt; 值为 false，并且有测试不通过，那它就会停止继续构建。&lt;c2&gt;ignoreFailures&lt;/c2&gt; 的默认值为 false。</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T062254Z" creationid="haohang" creationdate="20180330T060550Z">
+        <seg>该任务有一个 &lt;c0&gt;ignoreFailures&lt;/c0&gt; 属性，用于控制测试失败时的行为。测试任务始终执行它检测到的每个测试，如果 &lt;c1&gt;ignoreFailures&lt;/c1&gt; 值为 false，并且有测试不通过，那它就会停止继续构建。&lt;c2&gt;ignoreFailures&lt;/c2&gt; 的默认值为 false。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12564,8 +12564,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The test task provides a &lt;a0&gt;&lt;c1&gt;Test.getDebug()&lt;/c1&gt;&lt;/a0&gt; property that can be set to launch to make the JVM wait for a debugger to attach to port 5005 before proceeding with test execution.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T062121Z" creationid="haohang" creationdate="20180330T062121Z">
-        <seg>test 任务提供了一个 &lt;a0&gt;&lt;c1&gt;Test.getDebug()&lt;/c1&gt;&lt;/a0&gt; 属性，可以设置为启动，使JVM在执行测试之前，等待一个debugger连接到它的5005端口上。</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T062355Z" creationid="haohang" creationdate="20180330T062121Z">
+        <seg>test 任务提供了一个 &lt;a0&gt;&lt;c1&gt;Test.getDebug()&lt;/c1&gt;&lt;/a0&gt; 属性，可以设置为启动，使 JVM 在执行测试之前等待调试器连接到它的 5005 端口上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12846,6 +12846,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005825Z" creationid="huanghaohang" creationdate="20170909T005825Z">
         <seg>以上操作也会将War插件应用到你的项目中。运行&lt;s0&gt;&lt;c1&gt;gradle jettyRun&lt;/c1&gt;&lt;/s0&gt;，将在嵌入式Jetty Web容器中运行你的Web应用程序。运行&lt;s2&gt;&lt;c3&gt;gradle jettyRunWar&lt;/c3&gt;&lt;/s2&gt;将先构建出WAR文件，然后在嵌入式Web容器中运行它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This can also be enabled at invocation time via the &lt;s0&gt;&lt;c1&gt;--debug-jvm&lt;/c1&gt;&lt;/s0&gt; task option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T062427Z" creationid="haohang" creationdate="20180330T062427Z">
+        <seg>这也可以在调用时通过 &lt;s0&gt;&lt;c1&gt;--debug-vm&lt;/c1&gt;&lt;/s0&gt; 任务选项进行启用。</seg>
       </tuv>
     </tu>
     <tu>
