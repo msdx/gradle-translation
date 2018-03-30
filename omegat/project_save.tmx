@@ -442,6 +442,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.testing.logging.TestLoggingContainer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T060843Z" creationid="haohang" creationdate="20180330T060843Z">
+        <seg>../dsl/org.gradle.api.tasks.testing.logging.TestLoggingContainer.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.wrapper.Wrapper.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090703Z" creationid="huanghaohang" creationdate="20180211T090703Z">
@@ -11622,6 +11630,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180327T102723Z" creationid="haohang" creationdate="20180327T102723Z">
         <seg>&lt;c0&gt;test&lt;/c0&gt; 任务是 &lt;a1&gt;&lt;c2&gt;Test&lt;/c2&gt;&lt;/a1&gt; 的一个实例。它会自动检测并执行 &lt;c3&gt;test&lt;/c3&gt; 源集中的所有单元测试。测试执行完成后，它还会生成一个报告。它同时支持 JUnit 和 TestNG，可以看一看 &lt;a4&gt;&lt;c5&gt;test&lt;/c5&gt;&lt;/a4&gt; 的完整 API。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;testLogging&lt;/c0&gt; property allows to configure which test events are going to be logged and at which detail level. By default, a concise message will be logged for every failed test. See &lt;a1&gt;&lt;c2&gt;TestLoggingContainer&lt;/c2&gt;&lt;/a1&gt; for how to tune test logging to your preferences.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T062032Z" creationid="haohang" creationdate="20180330T062032Z">
+        <seg>&lt;c0&gt;testLogging&lt;/c0&gt; 属性可以配置哪些测试事件需要记录，并且使用什么样的日志级别。默认情况下，对于每个失败的测试都只会打印一个简洁的消息。请参阅 &lt;a1&gt;&lt;c2&gt;TestLoggingContainer&lt;/c2&gt;&lt;/a1&gt;，查看如何把测试日志调整为你的偏好设置。</seg>
       </tuv>
     </tu>
     <tu>
