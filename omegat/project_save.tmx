@@ -12474,6 +12474,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The task has an &lt;c0&gt;ignoreFailures&lt;/c0&gt; property to control the behavior when tests fail. Test always executes every test that it detects. It stops the build afterwards if &lt;c1&gt;ignoreFailures&lt;/c1&gt; is false and there are failing tests. The default value of &lt;c2&gt;ignoreFailures&lt;/c2&gt; is false.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T060824Z" creationid="haohang" creationdate="20180330T060550Z">
+        <seg>该任务有一个 &lt;c0&gt;ignoreFailures&lt;/c0&gt; 属性，用于控制测试失败时的行为。Test 任务始终执行它检测到的每个测试，如果 &lt;c1&gt;ignoreFailures&lt;/c1&gt; 值为 false，并且有测试不通过，那它就会停止继续构建。&lt;c2&gt;ignoreFailures&lt;/c2&gt; 的默认值为 false。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The task's &lt;c0&gt;inputs&lt;/c0&gt; property is of type &lt;a1&gt;&lt;c2&gt;TaskInputs&lt;/c2&gt;&lt;/a1&gt;. The task's &lt;c3&gt;outputs&lt;/c3&gt; property is of type &lt;a4&gt;&lt;c5&gt;TaskOutputs&lt;/c5&gt;&lt;/a4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T004312Z" creationid="huanghaohang" creationdate="20170923T004001Z">
@@ -14124,8 +14132,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>You can specify that test processes should be restarted after it has executed a certain number of test classes. This can be a useful alternative to giving your test process a very large heap. The &lt;c0&gt;forkEvery&lt;/c0&gt; property specifies the maximum number of test classes to execute in a test process. The default is to execute an unlimited number of tests in each test process.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T060157Z" creationid="haohang" creationdate="20180330T060157Z">
-        <seg>You can specify that test processes should be restarted after it has executed a certain number of test classes. This can be a useful alternative to giving your test process a very large heap. The &lt;c0&gt;forkEvery&lt;/c0&gt; property specifies the maximum number of test classes to execute in a test process. The default is to execute an unlimited number of tests in each test process.</seg>
+      <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T060549Z" creationid="haohang" creationdate="20180330T060157Z">
+        <seg>你可以指定在执行了一定数量的测试类之后，重新启动测试进程。这是一个很有用的替代方案，可以让你的测试进程有非常大的堆内存。&lt;c0&gt;forkEvery&lt;/c0&gt; 属性指定了要在测试进程中执行的最大测试类的数量。默认是在每个测试进程中执行的测试数量不限。</seg>
       </tuv>
     </tu>
     <tu>
