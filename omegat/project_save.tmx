@@ -2098,6 +2098,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.12.5. Test detection</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T142934Z" creationid="huanghaohang" creationdate="20180405T142934Z">
+        <seg>23.12.5. 测试检测</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.12. Test</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180327T102522Z" creationid="haohang" creationdate="20180327T102522Z">
@@ -16792,6 +16800,46 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143308Z" creationid="huanghaohang" creationdate="20170911T143308Z">
         <seg>gradle --gui</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle -DintegTest.single=*IntegrationTest integTest</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T142923Z" creationid="huanghaohang" creationdate="20180405T142923Z">
+        <seg>gradle -DintegTest.single=*IntegrationTest integTest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle -DintegTest.single=c/d/ :proj1:integTest</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T142929Z" creationid="huanghaohang" creationdate="20180405T142929Z">
+        <seg>gradle -DintegTest.single=c/d/ :proj1:integTest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle -Dtest.single=:proj1:test:Customer build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T142926Z" creationid="huanghaohang" creationdate="20180405T142926Z">
+        <seg>gradle -Dtest.single=:proj1:test:Customer build</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle -Dtest.single=ThisUniquelyNamedTest test</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T142919Z" creationid="huanghaohang" creationdate="20180405T142919Z">
+        <seg>gradle -Dtest.single=ThisUniquelyNamedTest test</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle -Dtest.single=a/b/ test</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T142919Z" creationid="huanghaohang" creationdate="20180405T142919Z">
+        <seg>gradle -Dtest.single=a/b/ test</seg>
       </tuv>
     </tu>
     <tu>
