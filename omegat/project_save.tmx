@@ -11150,6 +11150,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Starting with Gradle 1.10, it is possible to include only specific tests, based on the test name pattern. Filtering is a different mechanism than test class inclusion / exclusion that will be described in the next few paragraphs (&lt;c0&gt;-Dtest.single&lt;/c0&gt;, &lt;c1&gt;test.include&lt;/c1&gt; and friends). The latter is based on files, e.g. the physical location of the test implementation class. File-level test selection does not support many interesting scenarios that are possible with test-level filtering. Some of them Gradle handles now and some will be satisfied in the future releases:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T100327Z" creationid="huanghaohang" creationdate="20180405T095518Z">
+        <seg>从 Gradle 1.10 开始，可以基于测试名称模式，只包含特定测试。过滤是与测试类包含或排除所不同的一种机制，接下来的段落中将会对其详细介绍（&lt;c0&gt;-Dtest.single&lt;/c0&gt;， &lt;c1&gt;test.include&lt;/c1&gt; 和其他相关的）。后者基于文件，例如测试实现类的物理位置。文件级测试选择不支持的许多有趣的场景，都可以用测试级过滤来实现。其中一些 Gradle 现在就可以处理，而有一些将在未来的版本中得到满足：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>String</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132129Z" creationid="huanghaohang" creationdate="20170913T132129Z">
