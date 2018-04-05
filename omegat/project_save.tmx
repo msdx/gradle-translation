@@ -6376,6 +6376,30 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Class or a super class contain a method annotated with &lt;c0&gt;@Test&lt;/c0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T155309Z" creationid="huanghaohang" creationdate="20180405T155309Z">
+        <seg>类或超类含有一个带 &lt;c0&gt;@Test&lt;/c0&gt; 注解的方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Class or a super class extends &lt;c0&gt;TestCase&lt;/c0&gt; or &lt;c1&gt;GroovyTestCase&lt;/c1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T155234Z" creationid="huanghaohang" creationdate="20180405T155234Z">
+        <seg>类或超类继承自 &lt;c0&gt;TestCase&lt;/c0&gt; 或 &lt;c1&gt;GroovyTestCase&lt;/c1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Class or a super class is annotated with &lt;c0&gt;@RunWith&lt;/c0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T155258Z" creationid="huanghaohang" creationdate="20180405T155258Z">
+        <seg>类或超类使用了 &lt;c0&gt;@RunWith&lt;/c0&gt; 注解</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Command Line</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T234030Z" creationid="huanghaohang" creationdate="20171206T234030Z">
@@ -9454,6 +9478,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In case you don't want to use the test class detection, you can disable it by setting &lt;c0&gt;scanForTestClasses&lt;/c0&gt; to false. This will make the test task only use the includes / excludes to find test classes. If &lt;c1&gt;scanForTestClasses&lt;/c1&gt; is disabled and no include or exclude patterns are specified, the respective defaults are used. For include this is &lt;c2&gt;"**/*Tests.class", "**/*Test.class"&lt;/c2&gt; and the for exclude it is &lt;c3&gt;"**/Abstract*.class"&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T155855Z" creationid="huanghaohang" creationdate="20180405T155855Z">
+        <seg>如果您不想使用测试类检测，则可以通过设置 &lt;c0&gt;scanForTestClasses&lt;/c0&gt; 为 false 来禁用它。这将使测试任务仅使用包含或排除来查找测试类。如果 &lt;c1&gt;scanForTestClasses&lt;/c1&gt; 被禁用，并且没有指定包含或排除模式，则使用相应的默认值。对于包含的默认值是 &lt;c2&gt;“**/*Tests.class”，“**/*Test.class”&lt;/c2&gt;，而排除的默认值是 &lt;c3&gt;“**/Abstract*.class”&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In future the daemon will offer more features:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180109T135840Z" creationid="huanghaohang" creationdate="20180109T135840Z">
@@ -10034,6 +10066,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T040256Z" creationid="huanghaohang" creationdate="20170922T040256Z">
         <seg>请注意“&lt;c0&gt;B.mustRunAfter(A)&lt;/c0&gt;”或“&lt;c1&gt;B.shouldRunAfter(A)&lt;/c1&gt;”并不意味着这些任务之间有任何执行上的依赖关系：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that abstract classes are not executed. Gradle also scan up the inheritance tree into jar files on the test classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T155517Z" creationid="huanghaohang" creationdate="20180405T155348Z">
+        <seg>请注意，抽象类不会被执行。 Gradle 还将扫描测试类路径中的 jar 文件的继承树。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13942,6 +13982,22 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T120847Z" creationid="95" creationdate="20170723T120847Z">
         <seg>当使用Gradle（或者是其他软件包）的时候，或多或少都会遇到一些问题。或许是您无法驾驭的新特性，或许是正好遇到了缺陷，也可能是关于Gradle的一些常见问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When using JUnit, we scan for both JUnit 3 and 4 test classes. If any of the following criteria match, the class is considered to be a JUnit test class:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T155222Z" creationid="huanghaohang" creationdate="20180405T155222Z">
+        <seg>当使用 JUnit 时，我们扫描 JUnit 3 和 4 的测试类。如果符合以下任何标准，则该类将被视为 JUnit 测试类：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When using TestNG, we scan for methods annotated with &lt;c0&gt;@Test&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T155345Z" creationid="huanghaohang" creationdate="20180405T155345Z">
+        <seg>当使用 TestNG 时，我们扫描带有 &lt;c0&gt;@Test&lt;/c0&gt; 注解的方法。</seg>
       </tuv>
     </tu>
     <tu>
