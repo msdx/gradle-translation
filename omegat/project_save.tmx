@@ -8488,8 +8488,24 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Filtering based on custom annotations (future)</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T100440Z" creationid="huanghaohang" creationdate="20180405T100440Z">
-        <seg>基于自定义注解（以后实现）进行过滤</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T130704Z" creationid="huanghaohang" creationdate="20180405T100440Z">
+        <seg>基于自定义注解进行过滤（以后实现）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Filtering based on some custom runtime rule, e.g. particular value of a system property or some static state (future)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T130727Z" creationid="huanghaohang" creationdate="20180405T130727Z">
+        <seg>基于一些自定义的运行时规则进行过滤，例如某个系统属性或一些静态的特定值（以后实现）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Filtering based on test hierarchy; executing all tests that extend ceratain base class (future)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T130657Z" creationid="huanghaohang" creationdate="20180405T130657Z">
+        <seg>基于测试层次结构进行过滤；执行所有继承了某一基类的测试（以后实现）</seg>
       </tuv>
     </tu>
     <tu>
@@ -8666,6 +8682,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T135843Z" creationid="95" creationdate="20170721T135843Z">
         <seg>完全支持已有的Maven或Ivy仓库结构。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fully qualified class name or fully qualified method name is supported, e.g. "org.gradle.SomeTest", "org.gradle.SomeTest.someMethod"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T130803Z" creationid="huanghaohang" creationdate="20180405T130803Z">
+        <seg>支持完整的限定类名称或完整的限定方法名称，例如“org.gradle.SomeTest”、“org.gradle.SomeTest.someMethod”</seg>
       </tuv>
     </tu>
     <tu>
@@ -11598,6 +11622,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053006Z" creationid="haohang" creationdate="20180313T053006Z">
         <seg>Java 测试源代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Test filtering feature has following characteristic:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T130735Z" creationid="huanghaohang" creationdate="20180405T130735Z">
+        <seg>测试过滤功能具有以下的特征：</seg>
       </tuv>
     </tu>
     <tu>
