@@ -11786,6 +11786,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;Test&lt;/c0&gt; task detects which classes are test classes by inspecting the compiled test classes. By default it scans all &lt;c1&gt;.class&lt;/c1&gt; files. You can set custom includes / excludes, only those classes will be scanned. Depending on the test framework used (JUnit / TestNG) the test class detection uses different criteria.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T155150Z" creationid="huanghaohang" creationdate="20180405T155150Z">
+        <seg>&lt;c0&gt;Test&lt;/c0&gt; 任务通过检查编译的测试类来检测哪些类是测试类。默认情况下，它会扫描所有 &lt;c1&gt;.class&lt;/c1&gt; 文件。你可以设置自定义包含或排除哪些类，只有这些类才会被扫描。根据所使用的测试框架（JUnit 或 TestNG），会使用不同的标准进行测试类的检测。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;clean&lt;/c0&gt; task is an instance of &lt;a1&gt;&lt;c2&gt;Delete&lt;/c2&gt;&lt;/a1&gt;. It simply removes the directory denoted by its &lt;c3&gt;dir&lt;/c3&gt; property.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T100614Z" creationid="haohang" creationdate="20180326T100556Z">
