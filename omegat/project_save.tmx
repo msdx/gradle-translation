@@ -8990,6 +8990,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle tries best to filter the tests given limitations of particular test framework API. Some advanced, synthetic tests may not be fully compatible with filtering. However, vast majority of tests and use cases should be handled neatly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131356Z" creationid="huanghaohang" creationdate="20180405T131356Z">
+        <seg>鉴于特定测试框架 API 的限制，Gradle 会尽最大努力过滤测试。一些高级的、综合的测试可能不完全符合过滤条件。但是，绝大多数测试和用例都应该能被较好地处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle uses whichever JDK it finds in your path (to check, use &lt;s0&gt;&lt;c1&gt;java -version&lt;/c1&gt;&lt;/s0&gt;). Alternatively, you can set the &lt;c2&gt;JAVA_HOME&lt;/c2&gt; environment variable to point to the install directory of the desired JDK.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114331Z" creationid="95" creationdate="20170723T114023Z">
@@ -11638,6 +11646,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T130735Z" creationid="huanghaohang" creationdate="20180405T130735Z">
         <seg>测试过滤功能具有以下的特征：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Test filtering supersedes the file-based test selection. The latter may be completely replaced in future. We will grow the the test filtering api and add more kinds of filters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131410Z" creationid="huanghaohang" creationdate="20180405T131410Z">
+        <seg>Test filtering supersedes the file-based test selection. The latter may be completely replaced in future. We will grow the the test filtering api and add more kinds of filters.</seg>
       </tuv>
     </tu>
     <tu>
