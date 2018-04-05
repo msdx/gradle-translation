@@ -674,6 +674,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/tasks/testing/TestFilter.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131644Z" creationid="huanghaohang" creationdate="20180405T131644Z">
+        <seg>../javadoc/org/gradle/api/tasks/testing/TestFilter.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/external/javadoc/CoreJavadocOptions.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095503Z" creationid="haohang" creationdate="20180326T095503Z">
@@ -2078,6 +2086,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T062433Z" creationid="haohang" creationdate="20180330T062433Z">
         <seg>23.12.3. 测试过滤</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>23.12.4. Single test execution via System Properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131800Z" creationid="huanghaohang" creationdate="20180405T131800Z">
+        <seg>23.12.4. 通过系统属性执行单个测试</seg>
       </tuv>
     </tu>
     <tu>
@@ -3592,6 +3608,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;//include specific method in any of the tests&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131637Z" creationid="huanghaohang" creationdate="20180405T131637Z">
+        <seg>&lt;s0&gt;//include specific method in any of the tests&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Groovy&lt;/e1&gt;&lt;/s0&gt; build scripts.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T140744Z" creationid="95" creationdate="20170721T140744Z">
@@ -3894,6 +3918,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;//include all tests from package&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131639Z" creationid="huanghaohang" creationdate="20180405T131639Z">
+        <seg>&lt;s2&gt;//include all tests from package&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;if&lt;/s2&gt; (true) { &lt;s3&gt;throw&lt;/s3&gt; &lt;s4&gt;new&lt;/s4&gt; StopExecutionException() }
 }
 task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
@@ -3942,6 +3974,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060342Z" creationid="huanghaohang" creationdate="20171126T060342Z">
         <seg>&lt;s4&gt;// Substitute property references in files&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s4&gt;//include all integration tests&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131640Z" creationid="huanghaohang" creationdate="20180405T131640Z">
+        <seg>&lt;s4&gt;//include all integration tests&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -7910,6 +7950,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.11. Filtering tests in the build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131631Z" creationid="huanghaohang" creationdate="20180405T131631Z">
+        <seg>示例 23.11. 在构建脚本中过滤测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 23.2. Custom Java source layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053342Z" creationid="haohang" creationdate="20180313T053342Z">
@@ -8626,6 +8674,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130910Z" creationid="huanghaohang" creationdate="20170919T130910Z">
         <seg>对于更高级的用法，你可以使用闭包来定义任务依赖。在Gradle评估时，这个闭包会被传入正在计算依赖的任务。这个闭包应该返回一个&lt;c0&gt;Task&lt;/c0&gt;或&lt;c1&gt;Task&lt;/c1&gt;对象的集合，然后返回值会被当作任务的依赖。以下示例添加了&lt;c2&gt;taskX&lt;/c2&gt;对名称以&lt;c3&gt;lib&lt;/c3&gt;开头的所有任务的依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more details and examples please see the &lt;a0&gt;&lt;c1&gt;TestFilter&lt;/c1&gt;&lt;/a0&gt; reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131723Z" creationid="huanghaohang" creationdate="20180405T131723Z">
+        <seg>有关更多的详细信息和示例，请参阅 &lt;a0&gt;&lt;c1&gt;TestFilter&lt;/c1&gt;&lt;/a0&gt; 的文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11046,6 +11102,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Setting a system property of &lt;e0&gt;&lt;c1&gt;taskName.single&lt;/c1&gt;&lt;/e0&gt; = &lt;e2&gt;&lt;c3&gt;testNamePattern&lt;/c3&gt;&lt;/e2&gt; will only execute tests that match the specified &lt;e4&gt;&lt;c5&gt;testNamePattern&lt;/c5&gt;&lt;/e4&gt;. The &lt;e6&gt;&lt;c7&gt;taskName&lt;/c7&gt;&lt;/e6&gt; can be a full multi-project path like ":sub1:sub2:test" or just the task name. The &lt;e8&gt;&lt;c9&gt;testNamePattern&lt;/c9&gt;&lt;/e8&gt; will be used to form an include pattern of "**/testNamePattern*.class". If no tests with this pattern can be found an exception is thrown. This is to shield you from false security. If tests of more than one subproject are executed, the pattern is applied to each subproject. An exception is thrown if no tests can be found for a particular subproject. In such a case you can use the path notation of the pattern, so that the pattern is applied only to the test task of a specific subproject. Alternatively you can specify the fully qualified task name to be executed. You can also specify multiple patterns. Examples:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T142917Z" creationid="huanghaohang" creationdate="20180405T131833Z">
+        <seg>设置一个 &lt;e0&gt;&lt;c1&gt;taskName.single&lt;/c1&gt;&lt;/e0&gt; = &lt;e2&gt;&lt;c3&gt;testNamePattern&lt;/c3&gt;&lt;/e2&gt; 的系统属性将会只执行匹配指定的 &lt;e4&gt;&lt;c5&gt;testNamePattern&lt;/c5&gt;&lt;/e4&gt; 的测试。该 &lt;e6&gt;&lt;c7&gt;taskName&lt;/c7&gt;&lt;/e6&gt; 可以是完整的多项目路径，如“:sub1:sub2:test”，或者仅是一个任务名称。该 &lt;e8&gt;&lt;c9&gt;testNamePattern&lt;/c9&gt;&lt;/e8&gt; 将被用于形成“**/testNamePattern*.class”的包含模式。如果找不到这种模式的测试，那么将会抛出一个异常。这是为了避免你误认为测试通过。如果执行多个子项目的测试，则该模式将应用于每个子项目。如果找不到特定子项目的测试，则会引发异常。在这种情况下，你可以使用模式的路径标记法，以便模式仅应用于特定子项目的测试任务。或者你可以指定要执行的任务的完整限定名称。你还可以指定多个模式。示例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Setup</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T234037Z" creationid="huanghaohang" creationdate="20171206T234037Z">
@@ -11122,6 +11186,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025857Z" creationid="huanghaohang" creationdate="20180120T025857Z">
         <seg>可以配置一些守护进程的设置，例如 JVM 参数、 内存设置或 Java home 目录。更多有关信息请参阅《&lt;a0&gt;20.1 节，“通过 gradle.properties 配置构建环境”&lt;/a0&gt;》</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Some examples of using the command line option:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131728Z" creationid="huanghaohang" creationdate="20180405T131728Z">
+        <seg>使用命令行选项的一些示例：</seg>
       </tuv>
     </tu>
     <tu>
@@ -11652,8 +11724,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>Test filtering supersedes the file-based test selection. The latter may be completely replaced in future. We will grow the the test filtering api and add more kinds of filters.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131410Z" creationid="huanghaohang" creationdate="20180405T131410Z">
-        <seg>Test filtering supersedes the file-based test selection. The latter may be completely replaced in future. We will grow the the test filtering api and add more kinds of filters.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131627Z" creationid="huanghaohang" creationdate="20180405T131410Z">
+        <seg>测试过滤取代了基于文件的测试选择。后者可能会在将来被完全取代。我们将会增加测试过滤 API 并添加更多类型的过滤器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13086,6 +13158,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073132Z" creationid="huanghaohang" creationdate="20180130T073132Z">
         <seg>在每次构建执行中都启动一个额外的 JVM 的开销是非常大的，这就是为什么如果你指定了 &lt;c0&gt;org.gradle.java.home&lt;/c0&gt; 或 &lt;c1&gt;org.gradle.jvmargs&lt;/c1&gt;，我们会强烈建议你使用 Gradle Daemon。更多细节请查阅《&lt;a2&gt;第十九章，&lt;i3&gt;Gradle 守护进程&lt;/i3&gt;&lt;/a2&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This mechanism has been superseded by 'Test Filtering', described above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131828Z" creationid="huanghaohang" creationdate="20180405T131828Z">
+        <seg>如上所述，这种机制已经被“测试过滤”所取代。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16434,6 +16514,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>filter {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131636Z" creationid="huanghaohang" creationdate="20180405T131636Z">
+        <seg>filter {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>filter { String line -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060347Z" creationid="huanghaohang" creationdate="20171126T060347Z">
@@ -16704,6 +16792,62 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143308Z" creationid="huanghaohang" creationdate="20170911T143308Z">
         <seg>gradle --gui</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle someTestTask --tests *UiTest someOtherTestTask --tests *WebTest*ui</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131746Z" creationid="huanghaohang" creationdate="20180405T131746Z">
+        <seg>gradle someTestTask --tests *UiTest someOtherTestTask --tests *WebTest*ui</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle test --tests *IntegTest</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131743Z" creationid="huanghaohang" creationdate="20180405T131743Z">
+        <seg>gradle test --tests *IntegTest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle test --tests *IntegTest*ui*</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131744Z" creationid="huanghaohang" creationdate="20180405T131744Z">
+        <seg>gradle test --tests *IntegTest*ui*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle test --tests *SomeSpecificTest</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131741Z" creationid="huanghaohang" creationdate="20180405T131741Z">
+        <seg>gradle test --tests *SomeSpecificTest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle test --tests *SomeTest.someSpecificFeature</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131740Z" creationid="huanghaohang" creationdate="20180405T131740Z">
+        <seg>gradle test --tests *SomeTest.someSpecificFeature</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle test --tests all.in.specific.package*</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131742Z" creationid="huanghaohang" creationdate="20180405T131742Z">
+        <seg>gradle test --tests all.in.specific.package*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle test --tests org.gradle.SomeTest.someSpecificFeature</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131739Z" creationid="huanghaohang" creationdate="20180405T131739Z">
+        <seg>gradle test --tests org.gradle.SomeTest.someSpecificFeature</seg>
       </tuv>
     </tu>
     <tu>
@@ -17150,6 +17294,30 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T090756Z" creationid="huanghaohang" creationdate="20171219T090756Z">
         <seg>include(name: &lt;s2&gt;'**.xml'&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>includeTestsMatching &lt;s1&gt;"*UiCheck"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131638Z" creationid="huanghaohang" creationdate="20180405T131638Z">
+        <seg>includeTestsMatching &lt;s1&gt;"*UiCheck"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>includeTestsMatching &lt;s3&gt;"org.gradle.internal.*"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131640Z" creationid="huanghaohang" creationdate="20180405T131640Z">
+        <seg>includeTestsMatching &lt;s3&gt;"org.gradle.internal.*"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>includeTestsMatching &lt;s5&gt;"*IntegTest"&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131641Z" creationid="huanghaohang" creationdate="20180405T131641Z">
+        <seg>includeTestsMatching &lt;s5&gt;"*IntegTest"&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
