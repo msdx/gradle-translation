@@ -2354,10 +2354,26 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>24.3.1. Changing the project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T121827Z" creationid="huanghaohang" creationdate="20180406T121827Z">
+        <seg>24.3.1. 更改项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>24.3. Project layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T121126Z" creationid="huanghaohang" creationdate="20180406T121126Z">
         <seg>24.3. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>24.4. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122021Z" creationid="huanghaohang" creationdate="20180406T122021Z">
+        <seg>24.4. 依赖管理</seg>
       </tuv>
     </tu>
     <tu>
@@ -6176,6 +6192,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Because Gradle's build language is based on Groovy, and parts of Gradle are implemented in Groovy, Gradle already ships with a Groovy library (1.8.6 as of Gradle 1.6). Nevertheless, Groovy projects need to explicitly declare a Groovy dependency. This dependency will then be used on compile and runtime class paths. It will also be used to get hold of the Groovy compiler and Groovydoc tool, respectively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122451Z" creationid="huanghaohang" creationdate="20180406T122451Z">
+        <seg>由于 Gradle 的构建语言基于 Groovy，并且部分的 Gradle 使用 Groovy 实现，所以 Gradle 已经附带了一个 Groovy 库（自 Gradle 1.6 起所带的 Groovy 库的版本是 1.8.6）。不过，Groovy 项目需要显式地声明一个 Groovy 依赖。这个依赖将被用于编译和运行时类路径。它也将分别用于获取 Groovy 编译器和 Groovydoc 工具。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because each task is executed once only, executing &lt;s0&gt;&lt;c1&gt;gradle test test&lt;/c1&gt;&lt;/s0&gt; is exactly the same as executing &lt;s2&gt;&lt;c3&gt;gradle test&lt;/c3&gt;&lt;/s2&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031650Z" creationid="huanghaohang" creationdate="20170909T031205Z">
@@ -8366,6 +8390,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 24.2. Custom Groovy source layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T121937Z" creationid="huanghaohang" creationdate="20180406T121937Z">
+        <seg>示例 24.2. 自定义 Groovy 的源文件布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -10162,6 +10194,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062935Z" creationid="haohang" creationdate="20180312T062935Z">
         <seg>Javadoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Just like the Java plugin, the Groovy plugin allows to configure custom locations for Groovy production and test sources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T121924Z" creationid="huanghaohang" creationdate="20180406T121831Z">
+        <seg>和 Java 插件一样，Groovy 插件允许把 Groovy 的生产和测试的源文件配置为自定义的位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17726,6 +17766,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>groovy {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T121938Z" creationid="huanghaohang" creationdate="20180406T121938Z">
+        <seg>groovy {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>groovy-base</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144444Z" creationid="huanghaohang" creationdate="20180207T144444Z">
@@ -21009,6 +21057,22 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T101221Z" creationid="haohang" creationdate="20180326T101221Z">
         <seg>srcDirs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDirs = [&lt;s0&gt;'src/groovy'&lt;/s0&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T121941Z" creationid="huanghaohang" creationdate="20180406T121941Z">
+        <seg>srcDirs = [&lt;s0&gt;'src/groovy'&lt;/s0&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDirs = [&lt;s1&gt;'test/groovy'&lt;/s1&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T121944Z" creationid="huanghaohang" creationdate="20180406T121944Z">
+        <seg>srcDirs = [&lt;s1&gt;'test/groovy'&lt;/s1&gt;]</seg>
       </tuv>
     </tu>
     <tu>
