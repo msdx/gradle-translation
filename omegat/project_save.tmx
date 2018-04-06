@@ -2154,10 +2154,26 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.12.8. Convention values</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T104623Z" creationid="huanghaohang" creationdate="20180406T104623Z">
+        <seg>23.12.8. 约定值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.12. Test</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180327T102522Z" creationid="haohang" creationdate="20180327T102522Z">
         <seg>23.12. Test</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>23.13. Jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T104637Z" creationid="huanghaohang" creationdate="20180406T104637Z">
+        <seg>23.13. Jar</seg>
       </tuv>
     </tu>
     <tu>
@@ -9998,6 +10014,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>List&lt;File&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T104635Z" creationid="huanghaohang" creationdate="20180406T104635Z">
+        <seg>List&lt;File&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Live visualisation of the build in a GUI</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133952Z" creationid="huanghaohang" creationdate="20180108T133952Z">
@@ -11686,6 +11710,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 23.14. Java plugin - test properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T104632Z" creationid="huanghaohang" creationdate="20180406T104632Z">
+        <seg>表 23.14. Java 插件——测试属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Table 23.2. Java plugin - source set tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073311Z" creationid="haohang" creationdate="20180312T073311Z">
@@ -11990,6 +12022,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075000Z" creationid="huanghaohang" creationdate="20171002T135621Z">
         <seg>该&lt;c0&gt;from()&lt;/c0&gt;方法接受和&lt;a1&gt;files()&lt;/a1&gt;方法一样的参数。当参数解析为目录时，该目录下的所有内容（除了该目录本身）将递归复制到目标目录中。当参数解析为文件时，该文件将被复制到目标目录中。当参数解析为不存在的文件时，该参数将被忽略。如果参数是一个任务，则复制任务的输出文件（即任务创建的文件），并将任务自动添加为&lt;c2&gt;Copy&lt;/c2&gt;任务的依赖项。该&lt;c3&gt;into()&lt;/c3&gt;接受和&lt;a4&gt;file()&lt;/a4&gt;方法一样的参数。这是另一个例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;jar&lt;/c0&gt; task creates a JAR file containing the class files and resources of the project. The JAR file is declared as an artifact in the &lt;c1&gt;archives&lt;/c1&gt; dependency configuration. This means that the JAR is available in the classpath of a dependent project. If you upload your project into a repository, this JAR is declared as part of the dependency descriptor. You can learn more about how to work with archives in &lt;a2&gt;Section 16.8, “Creating archives”&lt;/a2&gt; and artifact configurations in &lt;a3&gt;Chapter 51, &lt;i4&gt;Publishing artifacts&lt;/i4&gt;&lt;/a3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111218Z" creationid="huanghaohang" creationdate="20180406T104655Z">
+        <seg>&lt;c0&gt;jar&lt;/c0&gt; 任务创建一个包含项目的类文件和资源的 JAR 文件。 JAR文件被声明为在 &lt;c1&gt;archives&lt;/c1&gt; 依赖配置中的一个构件。这意味着这个 JAR 文件在依赖它的项目的类路径中可用。如果将项目上传到仓库中，则这个 JAR 文件会被声明为依赖描述符的一部分。关于如何处理档案，可以在《&lt;a2&gt;第 16.8 节，“创建档案”&lt;/a2&gt;》中了解，而构件配置则可参考《&lt;a3&gt;第 51 章，&lt;i4&gt;发布构件&lt;/i4&gt;&lt;/a3&gt;》。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20297,6 +20337,30 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sourceSets.test.java.srcDirs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T104636Z" creationid="huanghaohang" creationdate="20180406T104636Z">
+        <seg>sourceSets.test.java.srcDirs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceSets.test.output.classesDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T104633Z" creationid="huanghaohang" creationdate="20180406T104633Z">
+        <seg>sourceSets.test.output.classesDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceSets.test.runtimeClasspath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T104634Z" creationid="huanghaohang" creationdate="20180406T104634Z">
+        <seg>sourceSets.test.runtimeClasspath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>springVersion = &lt;s1&gt;"3.1.0.RELEASE"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133530Z" creationid="huanghaohang" creationdate="20170913T133530Z">
@@ -20943,6 +21007,14 @@ test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&g
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>testClassesDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T104633Z" creationid="huanghaohang" creationdate="20180406T104633Z">
+        <seg>testClassesDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>testClassesDir = sourceSets.intTest.output.classesDir</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095454Z" creationid="haohang" creationdate="20180326T095454Z">
@@ -21048,6 +21120,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T035202Z" creationid="huanghaohang" creationdate="20170908T035202Z">
         <seg>testRuntime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testSrcDirs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T104634Z" creationid="huanghaohang" creationdate="20180406T104634Z">
+        <seg>testSrcDirs</seg>
       </tuv>
     </tu>
     <tu>
