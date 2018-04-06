@@ -8398,6 +8398,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 24.3. Configuration of Groovy dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122529Z" creationid="huanghaohang" creationdate="20180406T122529Z">
+        <seg>示例 24.3. Groovy 的依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 24.4. Configuration of Groovy test dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122630Z" creationid="huanghaohang" creationdate="20180406T122630Z">
+        <seg>示例 24.4.  Groovy 的测试依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -9714,6 +9730,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221922Z" creationid="huanghaohang" creationdate="20180105T221922Z">
         <seg>INFO 及更高</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If Groovy is only used for test code, the Groovy dependency should be added to the &lt;c0&gt;testCompile&lt;/c0&gt; configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122559Z" creationid="huanghaohang" creationdate="20180406T122559Z">
+        <seg>如果 Groovy 仅用于测试代码，应该将 Groovy 的依赖添加到 &lt;c0&gt;testCompile&lt;/c0&gt; 配置中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If Groovy is used for production code, the Groovy dependency should be added to the &lt;c0&gt;compile&lt;/c0&gt; configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122521Z" creationid="huanghaohang" creationdate="20180406T122521Z">
+        <seg>如果 Groovy 用于生产代码，应该将 Groovy 依赖添加到 &lt;c0&gt;compile&lt;/c0&gt; 配置中：</seg>
       </tuv>
     </tu>
     <tu>
