@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N12897</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T155934Z" creationid="huanghaohang" creationdate="20180405T155934Z">
+        <seg>#ftn.N12897</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>*** gradle.manifesto.txt ***
 Make the impossible possible, make the possible easy and make the easy elegant.
 (inspired by Moshe Feldenkrais)</seg>
@@ -2102,6 +2110,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T142934Z" creationid="huanghaohang" creationdate="20180405T142934Z">
         <seg>23.12.5. 测试检测</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>23.12.6. Test grouping</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T155900Z" creationid="huanghaohang" creationdate="20180405T155900Z">
+        <seg>23.12.6. 测试分组</seg>
       </tuv>
     </tu>
     <tu>
@@ -8702,6 +8718,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For grouping JUnit test classes and methods JUnit 4.8 introduces the concept of categories. &lt;s0&gt;[&lt;a1&gt;9&lt;/a1&gt;]&lt;/s0&gt; The &lt;c2&gt;test&lt;/c2&gt; task allows the specification of the JUnit categories you want to include and exclude.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T041811Z" creationid="huanghaohang" creationdate="20180405T155943Z">
+        <seg>为对 JUnit 的测试类和方法进行分组，JUnit 4.8 引入了类别的概念。 &lt;s0&gt;[&lt;a1&gt;9&lt;/a1&gt;]&lt;/s0&gt;&lt;c2&gt;test&lt;/c2&gt; 任务允许指定要包含和排除的 JUnit 类别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more advanced uses, you can define a task dependency using a closure. When evaluated, the closure is passed the task whose dependencies are being calculated. The closure should return a single &lt;c0&gt;Task&lt;/c0&gt; or collection of &lt;c1&gt;Task&lt;/c1&gt; objects, which are then treated as dependencies of the task. The following example adds a dependency from &lt;c2&gt;taskX&lt;/c2&gt; to all the tasks in the project whose name starts with &lt;c3&gt;lib&lt;/c3&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130910Z" creationid="huanghaohang" creationdate="20170919T130910Z">
@@ -9682,6 +9706,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060218Z" creationid="huanghaohang" creationdate="20171031T071359Z">
         <seg>在可能的情况下，最好是使用 &lt;c0&gt;Copy&lt;/c0&gt; 任务，因为它支持增量构建和任务依赖关系推理，而不需要你的额外付出。该 &lt;c1&gt;copy()&lt;/c1&gt; 方法可以作为一个任务的实现的 &lt;s2&gt;&lt;e3&gt;一部分&lt;/e3&gt;&lt;/s2&gt; 来复制文件。也就是说，这个复制方法旨在用于自定义任务（&lt;a4&gt;《第五十七章，&lt;i5&gt;编写自定义任务类&lt;/i5&gt;》&lt;/a4&gt;)中，需要把文件复制作为其中一部分功能的时候。在这种情况下，自定义任务应充分声明与复制操作相关的输入和输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>JUnit and TestNG allows sophisticated groupings of test methods.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T155932Z" creationid="huanghaohang" creationdate="20180405T155932Z">
+        <seg>JUnit 和 TestNG 支持复杂的测试方法分组。</seg>
       </tuv>
     </tu>
     <tu>
