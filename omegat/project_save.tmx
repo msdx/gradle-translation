@@ -2378,6 +2378,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>24.5. Automatic configuration of groovyClasspath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123349Z" creationid="huanghaohang" creationdate="20180406T123349Z">
+        <seg>24.5. groovyClasspath 的自动配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -3244,6 +3252,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T101403Z" creationid="haohang" creationdate="20180326T101403Z">
         <seg>&lt;c0&gt;File&lt;/c0&gt;。可以使用《&lt;a1&gt;第 16.1 节，“查找文件”&lt;/a1&gt;》中所述的任何设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;GroovyCompile&lt;/c0&gt; and &lt;c1&gt;Groovydoc&lt;/c1&gt; tasks consume Groovy in two ways: on their &lt;c2&gt;classpath&lt;/c2&gt;, and on their &lt;c3&gt;groovyClasspath&lt;/c3&gt;. The former is used to locate classes referenced by the source code, and will typically contain the Groovy library along with other libraries. The latter is used to load and execute the Groovy compiler and Groovydoc tool, respectively, and should only contain the Groovy library and its dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T132339Z" creationid="huanghaohang" creationdate="20180406T123350Z">
+        <seg>&lt;c0&gt;GroovyCompile&lt;/c0&gt; 和 &lt;c1&gt;GroovyDoc&lt;/c1&gt; 任务以两种方式使用Groovy：在它们的 &lt;c2&gt;classpath&lt;/c2&gt; 以及它们的 &lt;c3&gt;groovyClasspath&lt;/c3&gt; 上。前者用于查找源代码引用的类，并且通常包含 Groovy 库以及其他库。后者用于分别加载和执行 Groovy 编译器和 Groovydoc 工具，并且应该只包含 Groovy库及其依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8418,6 +8434,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122900Z" creationid="huanghaohang" creationdate="20180406T122900Z">
         <seg>示例 24.5. 配置捆绑的 Groovy 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 24.6. Configuration of Groovy file dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123327Z" creationid="huanghaohang" creationdate="20180406T123327Z">
+        <seg>示例 24.6. Groovy 的文件依赖配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -16520,6 +16544,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile module(&lt;s1&gt;'org.codehaus.groovy:groovy:1.6.0'&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123329Z" creationid="huanghaohang" creationdate="20180406T123329Z">
+        <seg>compile module(&lt;s1&gt;'org.codehaus.groovy:groovy:1.6.0'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile project(&lt;s0&gt;':shared'&lt;/s0&gt;)
 }</seg>
       </tuv>
@@ -16788,6 +16820,38 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124732Z" creationid="95" creationdate="20170730T124732Z">
         <seg>dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependencies(&lt;s6&gt;'org.apache.ant:ant-junit:1.9.3@jar'&lt;/s6&gt;, &lt;s7&gt;'org.apache.ant:ant-launcher:1.9.3'&lt;/s7&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123338Z" creationid="huanghaohang" creationdate="20180406T123338Z">
+        <seg>dependencies(&lt;s6&gt;'org.apache.ant:ant-junit:1.9.3@jar'&lt;/s6&gt;, &lt;s7&gt;'org.apache.ant:ant-launcher:1.9.3'&lt;/s7&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency(&lt;s2&gt;'asm:asm-all:2.2.3'&lt;/s2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123329Z" creationid="huanghaohang" creationdate="20180406T123329Z">
+        <seg>dependency(&lt;s2&gt;'asm:asm-all:2.2.3'&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency(&lt;s3&gt;'antlr:antlr:2.7.7'&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123340Z" creationid="huanghaohang" creationdate="20180406T123340Z">
+        <seg>dependency(&lt;s3&gt;'antlr:antlr:2.7.7'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency(&lt;s4&gt;'commons-cli:commons-cli:1.2'&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123342Z" creationid="huanghaohang" creationdate="20180406T123342Z">
+        <seg>dependency(&lt;s4&gt;'commons-cli:commons-cli:1.2'&lt;/s4&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -17436,6 +17500,20 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153706Z" creationid="95" creationdate="20170731T153706Z">
         <seg>flatDir {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>flatDir { dirs &lt;s0&gt;'lib'&lt;/s0&gt; }
+}
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123328Z" creationid="huanghaohang" creationdate="20180406T123328Z">
+        <seg>flatDir { dirs &lt;s0&gt;'lib'&lt;/s0&gt; }
+}
+
+dependencies {</seg>
       </tuv>
     </tu>
     <tu>
@@ -18991,6 +19069,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T143259Z" creationid="huanghaohang" creationdate="20180207T143259Z">
         <seg>maven_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>module(&lt;s5&gt;'org.apache.ant:ant:1.9.3'&lt;/s5&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123342Z" creationid="huanghaohang" creationdate="20180406T123342Z">
+        <seg>module(&lt;s5&gt;'org.apache.ant:ant:1.9.3'&lt;/s5&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
