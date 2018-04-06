@@ -2130,6 +2130,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.12.7. Test reporting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042054Z" creationid="huanghaohang" creationdate="20180406T042054Z">
+        <seg>23.12.7. 测试报告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.12. Test</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180327T102522Z" creationid="haohang" creationdate="20180327T102522Z">
@@ -5776,6 +5784,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An HTML test report.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042110Z" creationid="huanghaohang" creationdate="20180406T042110Z">
+        <seg>一个 HTML 测试报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An external dependency is identified using &lt;c0&gt;group&lt;/c0&gt;, &lt;c1&gt;name&lt;/c1&gt; and &lt;c2&gt;version&lt;/c2&gt; attributes. Depending on which kind of repository you are using, &lt;c3&gt;group&lt;/c3&gt; and &lt;c4&gt;version&lt;/c4&gt; may be optional.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T043615Z" creationid="huanghaohang" creationdate="20170908T043428Z">
@@ -8018,6 +8034,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T041814Z" creationid="huanghaohang" creationdate="20180406T041814Z">
         <seg>示例 23.12. JUnit 类别</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.13. Grouping TestNG tests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042042Z" creationid="huanghaohang" creationdate="20180406T042042Z">
+        <seg>示例 23.13. 对 TestNG 测试分组</seg>
       </tuv>
     </tu>
     <tu>
@@ -11882,6 +11906,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;Test&lt;/c0&gt; task generates the following results by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042107Z" creationid="huanghaohang" creationdate="20180406T042107Z">
+        <seg>&lt;c0&gt;test&lt;/c0&gt; 任务默认情况下会生成以下结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;clean&lt;/c0&gt; task is an instance of &lt;a1&gt;&lt;c2&gt;Delete&lt;/c2&gt;&lt;/a1&gt;. It simply removes the directory denoted by its &lt;c3&gt;dir&lt;/c3&gt; property.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T100614Z" creationid="haohang" creationdate="20180326T100556Z">
@@ -12228,8 +12260,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The TestNG framework has a quite similar concept. In TestNG you can specify different test groups. &lt;s0&gt;[&lt;a1&gt;10&lt;/a1&gt;]&lt;/s0&gt; The test groups that should be included or excluded from the test execution can be configured in the test task.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T041847Z" creationid="huanghaohang" creationdate="20180406T041847Z">
-        <seg>The TestNG framework has a quite similar concept. In TestNG you can specify different test groups. &lt;s0&gt;[&lt;a1&gt;10&lt;/a1&gt;]&lt;/s0&gt; The test groups that should be included or excluded from the test execution can be configured in the test task.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042035Z" creationid="huanghaohang" creationdate="20180406T041847Z">
+        <seg>TestNG 框架则有一个非常相似的概念。在 TestNG 中，你可以指定不同的测试组。 &lt;s0&gt;[&lt;a1&gt;10&lt;/a1&gt;]&lt;/s0&gt;你可以在测试任务中配置应该包含在测试执行中或从测试执行中排除的测试组。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12742,6 +12774,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T101206Z" creationid="haohang" creationdate="20180320T101206Z">
         <seg>此源集的资源。仅包含资源，并且排除在资源源目录中找到的所有 &lt;c0&gt;.java&lt;/c0&gt; 文件。其他插件（如 Groovy 插件）会从此集合中排除其他类型的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The results in an XML format that is compatible with the Ant JUnit report task. This format is supported by many other tools, such as CI servers.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042748Z" creationid="huanghaohang" creationdate="20180406T042748Z">
+        <seg>与 Ant Junit report 任务兼容的 XML 格式的结果。许多工具都支持这一格式，比如 CI 服务器。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16490,6 +16530,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>excludeGroups &lt;s0&gt;'integrationTests'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042050Z" creationid="huanghaohang" creationdate="20180406T042050Z">
+        <seg>excludeGroups &lt;s0&gt;'integrationTests'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>expand(copyright: &lt;s5&gt;'2009'&lt;/s5&gt;, version: &lt;s6&gt;'2.3.1'&lt;/s6&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060343Z" creationid="huanghaohang" creationdate="20171126T060343Z">
@@ -17478,6 +17526,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T041839Z" creationid="huanghaohang" creationdate="20180406T041839Z">
         <seg>includeCategories &lt;s0&gt;'org.gradle.junit.CategoryA'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>includeGroups &lt;s1&gt;'unitTests'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042051Z" creationid="huanghaohang" creationdate="20180406T042051Z">
+        <seg>includeGroups &lt;s1&gt;'unitTests'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -21370,6 +21426,14 @@ test {</seg>
         <seg>useLogger(&lt;s0&gt;new&lt;/s0&gt; CustomEventLogger())
 
 &lt;s1&gt;class&lt;/s1&gt; CustomEventLogger &lt;s2&gt;extends&lt;/s2&gt; BuildAdapter &lt;s3&gt;implements&lt;/s3&gt; TaskExecutionListener {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>useTestNG {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042049Z" creationid="huanghaohang" creationdate="20180406T042049Z">
+        <seg>useTestNG {</seg>
       </tuv>
     </tu>
     <tu>
