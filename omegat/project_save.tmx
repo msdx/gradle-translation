@@ -2386,6 +2386,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>24.6. Convention properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T132844Z" creationid="huanghaohang" creationdate="20180406T132844Z">
+        <seg>24.6. 约定属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>24.7. Source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T132927Z" creationid="huanghaohang" creationdate="20180406T132927Z">
+        <seg>24.7. 源集属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -12594,6 +12610,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Groovy plugin adds the following convention properties to each source set in the project. You can use these properties in your build script as though they were properties of the source set object (see &lt;a0&gt;Section 21.3, “Conventions”&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T133026Z" creationid="huanghaohang" creationdate="20180406T133026Z">
+        <seg>The Groovy plugin adds the following convention properties to each source set in the project. You can use these properties in your build script as though they were properties of the source set object (see &lt;a0&gt;Section 21.3, “Conventions”&lt;/a0&gt;).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Groovy plugin adds the following dependencies to tasks added by the Java plugin.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T121026Z" creationid="huanghaohang" creationdate="20180406T121026Z">
@@ -12614,6 +12638,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T121647Z" creationid="huanghaohang" creationdate="20180406T121647Z">
         <seg>Groovy 插件会假定项目的布局如&lt;a0&gt;表 24.3，“Groovy 插件——项目布局”&lt;/a0&gt;所示。所有的 Groovy 源码目录都可以包含 Groovy &lt;s1&gt;&lt;e2&gt;和&lt;/e2&gt;&lt;/s1&gt; Java 代码。 Java 源码目录可能只包含 Java 源代码。 &lt;s3&gt;[&lt;a4&gt;11&lt;/a4&gt;]&lt;/s3&gt;这些目录都不需要一定存在或者包含有内容。Groovy 插件只会进行编译，而不管它发现什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Groovy plugin does not add any convention properties to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T132907Z" creationid="huanghaohang" creationdate="20180406T132907Z">
+        <seg>Groovy 插件不会向项目添加任何的约定属性。</seg>
       </tuv>
     </tu>
     <tu>
