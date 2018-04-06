@@ -8414,6 +8414,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 24.5. Configuration of bundled Groovy dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122900Z" creationid="huanghaohang" creationdate="20180406T122900Z">
+        <seg>示例 24.5. 配置捆绑的 Groovy 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -12530,6 +12538,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Groovy library doesn't necessarily have to come from a remote repository. It could also come from a local &lt;c0&gt;lib&lt;/c0&gt; directory, perhaps checked in to source control:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123301Z" creationid="huanghaohang" creationdate="20180406T122905Z">
+        <seg>Groovy 库不一定得从远程仓库中获取，它也可能获取自检入代码控制的本地 &lt;c0&gt;lib&lt;/c0&gt; 目录：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Groovy plugin adds the following dependencies to tasks added by the Java plugin.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T121026Z" creationid="huanghaohang" creationdate="20180406T121026Z">
@@ -14062,6 +14078,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T135552Z" creationid="huanghaohang" creationdate="20171002T135552Z">
         <seg>要使用&lt;c0&gt;Copy&lt;/c0&gt;任务，你必须提供一组要复制的源文件，以及复制过去的目标目录。你还可以指定在复制文件时如何转换文件。你可以使用一个&lt;e1&gt;复制规范&lt;/e1&gt;。复制规范通过&lt;a2&gt;&lt;c3&gt;CopySpec&lt;/c3&gt;&lt;/a2&gt;接口来表示。&lt;c4&gt;Copy&lt;/c4&gt;任务实现了这个接口。你可以使用&lt;a5&gt;&lt;c6&gt;CopySpec.from()&lt;/c6&gt;&lt;/a5&gt;方法指定源文件。指定目标目录则是使用&lt;a7&gt;&lt;c8&gt;CopySpec.into()&lt;/c8&gt;&lt;/a7&gt;方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the Groovy library that ships with Gradle, declare a &lt;c0&gt;localGroovy()&lt;/c0&gt; dependency. Note that different Gradle versions ship with different Groovy versions; as such, using &lt;c1&gt;localGroovy()&lt;/c1&gt; is less safe then declaring a regular Groovy dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122854Z" creationid="huanghaohang" creationdate="20180406T122643Z">
+        <seg>如果要使用 Gradle 附带的 Groovy 库，请声明一个 &lt;c0&gt;localGroovy()&lt;/c0&gt; 依赖。请注意，不同的 Gradle 版本所附带的 Groovy 版本不同；因此，声明一个固定的 Groovy 依赖要比使用 &lt;c1&gt;localGroovy()&lt;/c1&gt; 更安全一些。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16482,6 +16506,16 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154113Z" creationid="95" creationdate="20170731T154113Z">
         <seg>compile group: &lt;s7&gt;'commons-collections'&lt;/s7&gt;, name: &lt;s8&gt;'commons-collections'&lt;/s8&gt;, version: &lt;s9&gt;'3.2'&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile localGroovy()
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122901Z" creationid="huanghaohang" creationdate="20180406T122901Z">
+        <seg>compile localGroovy()
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -21687,6 +21721,16 @@ test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&g
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T035005Z" creationid="huanghaohang" creationdate="20170908T035005Z">
         <seg>testCompile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testCompile &lt;s0&gt;"org.codehaus.groovy:groovy:2.3.3"&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122643Z" creationid="huanghaohang" creationdate="20180406T122643Z">
+        <seg>testCompile &lt;s0&gt;"org.codehaus.groovy:groovy:2.3.3"&lt;/s0&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
