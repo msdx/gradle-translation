@@ -6424,6 +6424,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Chapter 25. The Scala Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T113553Z" creationid="huanghaohang" creationdate="20180406T113553Z">
+        <seg>第二十五章. Scala 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Chapter 3. Tutorials</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072420Z" creationid="95" creationdate="20170721T165938Z">
@@ -9520,8 +9528,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>How to upload your archives is described in &lt;a0&gt;Chapter 51, &lt;i1&gt;Publishing artifacts&lt;/i1&gt;&lt;/a0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T113424Z" creationid="huanghaohang" creationdate="20180406T113424Z">
-        <seg>关于如何上传档案，将在《&lt;a0&gt;第 51 章，&lt;i1&gt;发布构件&lt;/i1&gt;&lt;/a0&gt;》中描述。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T113650Z" creationid="huanghaohang" creationdate="20180406T113424Z">
+        <seg>关于如何上传档案，将在《&lt;a0&gt;第五十一章，&lt;i1&gt;发布构件&lt;/i1&gt;&lt;/a0&gt;》中描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12156,8 +12164,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The &lt;c0&gt;jar&lt;/c0&gt; task creates a JAR file containing the class files and resources of the project. The JAR file is declared as an artifact in the &lt;c1&gt;archives&lt;/c1&gt; dependency configuration. This means that the JAR is available in the classpath of a dependent project. If you upload your project into a repository, this JAR is declared as part of the dependency descriptor. You can learn more about how to work with archives in &lt;a2&gt;Section 16.8, “Creating archives”&lt;/a2&gt; and artifact configurations in &lt;a3&gt;Chapter 51, &lt;i4&gt;Publishing artifacts&lt;/i4&gt;&lt;/a3&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111218Z" creationid="huanghaohang" creationdate="20180406T104655Z">
-        <seg>&lt;c0&gt;jar&lt;/c0&gt; 任务创建一个包含项目的类文件和资源的 JAR 文件。 JAR文件被声明为在 &lt;c1&gt;archives&lt;/c1&gt; 依赖配置中的一个构件。这意味着这个 JAR 文件在依赖它的项目的类路径中可用。如果将项目上传到仓库中，则这个 JAR 文件会被声明为依赖描述符的一部分。关于如何处理档案，可以在《&lt;a2&gt;第 16.8 节，“创建档案”&lt;/a2&gt;》中了解，而构件配置则可参考《&lt;a3&gt;第 51 章，&lt;i4&gt;发布构件&lt;/i4&gt;&lt;/a3&gt;》。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T113658Z" creationid="huanghaohang" creationdate="20180406T104655Z">
+        <seg>&lt;c0&gt;jar&lt;/c0&gt; 任务创建一个包含项目的类文件和资源的 JAR 文件。 JAR文件被声明为在 &lt;c1&gt;archives&lt;/c1&gt; 依赖配置中的一个构件。这意味着这个 JAR 文件在依赖它的项目的类路径中可用。如果将项目上传到仓库中，则这个 JAR 文件会被声明为依赖描述符的一部分。关于如何处理档案，可以在《&lt;a2&gt;第 16.8 节，“创建档案”&lt;/a2&gt;》中了解，而构件配置则可参考《&lt;a3&gt;第五十一章，&lt;i4&gt;发布构件&lt;/i4&gt;&lt;/a3&gt;》。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12278,6 +12286,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T063605Z" creationid="95" creationdate="20170723T063605Z">
         <seg>Gradle 包装器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Groovy plugin extends the Java plugin to add support for Groovy projects. It can deal with Groovy code, mixed Groovy and Java code, and even pure Java code (although we don't necessarily recommend to use it for the latter). The plugin supports &lt;s0&gt;&lt;e1&gt;joint compilation&lt;/e1&gt;&lt;/s0&gt;, which allows to freely mix and match Groovy and Java code, with dependencies in both directions. For example, a Groovy class can extend a Java class that in turn extends a Groovy class. This makes it possible to use the best language for the job, and to rewrite any class in the other language if needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T120650Z" creationid="huanghaohang" creationdate="20180406T120650Z">
+        <seg>Groovy 插件扩展了 Java 插件，以添加对 Groovy 项目的支持。它可以处理 Groovy 代码，以及混合的 Groovy 和 Java 代码，甚至纯 Java 代码（尽管我们不一定建议将其用于后者）。该插件支持&lt;s0&gt;&lt;e1&gt;联合编译&lt;/e1&gt;&lt;/s0&gt;，它允许自由地混合和匹配 Groovy 和 Java 代码以及各自的依赖。例如，一个 Groovy 类可以扩展一个 Java 类，而这个 Java 类也可以扩展自一个 Groovy 类。这样一来，我们就能够在项目中使用最适合的语言，并在需要时用其他语言重写其中的任何类。</seg>
       </tuv>
     </tu>
     <tu>
