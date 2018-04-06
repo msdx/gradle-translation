@@ -2194,6 +2194,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>23.14. Uploading</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T113351Z" creationid="huanghaohang" creationdate="20180406T113351Z">
+        <seg>23.14. 上传</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>23.2. Source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T153447Z" creationid="huanghaohang" creationdate="20180218T153447Z">
@@ -8166,6 +8174,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.18. Separate MANIFEST.MF for a particular archive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T113343Z" creationid="huanghaohang" creationdate="20180406T113343Z">
+        <seg>示例 23.18. 指定档案的单独 MANIFEST.MF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 23.2. Custom Java source layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053342Z" creationid="haohang" creationdate="20180313T053342Z">
@@ -9466,6 +9482,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044633Z" creationid="huanghaohang" creationdate="20170908T044250Z">
         <seg>Gradle是如何找到外部依赖的文件的呢？它通过在一个&lt;e0&gt;仓库&lt;/e0&gt;去查找它们。仓库只是文件的一个集合，由&lt;c1&gt;group&lt;/c1&gt;， &lt;c2&gt;name&lt;/c2&gt;和&lt;c3&gt;version&lt;/c3&gt;来组织。 Gradle支持几种不同的仓库格式，例如Maven和Ivy；以及访问仓库的几种不同方法，例如使用本地文件系统或HTTP。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to upload your archives is described in &lt;a0&gt;Chapter 51, &lt;i1&gt;Publishing artifacts&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T113424Z" creationid="huanghaohang" creationdate="20180406T113424Z">
+        <seg>关于如何上传档案，将在《&lt;a0&gt;第 51 章，&lt;i1&gt;发布构件&lt;/i1&gt;&lt;/a0&gt;》中描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14594,6 +14618,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can easily write a manifest to disk.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T113331Z" creationid="huanghaohang" creationdate="20180406T113331Z">
+        <seg>你可以很轻松地把一个清单写入磁盘。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can exclude a task from being executed using the &lt;c0&gt;-x&lt;/c0&gt; command-line option and providing the name of the task to exclude. Let's try this with the sample build file above.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031945Z" creationid="huanghaohang" creationdate="20170909T031945Z">
@@ -18174,6 +18206,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124429Z" creationid="95" creationdate="20170803T124429Z">
         <seg>jar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jar.manifest.writeTo(&lt;s0&gt;"$buildDir/mymanifest.mf"&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T113344Z" creationid="huanghaohang" creationdate="20180406T113344Z">
+        <seg>jar.manifest.writeTo(&lt;s0&gt;"$buildDir/mymanifest.mf"&lt;/s0&gt;)</seg>
       </tuv>
     </tu>
     <tu>
