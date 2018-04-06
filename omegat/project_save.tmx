@@ -9782,6 +9782,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a &lt;c0&gt;groovy(-indy)&lt;/c0&gt; Jar is found on &lt;c1&gt;classpath&lt;/c1&gt;, and the project has at least one repository declared, a corresponding &lt;c2&gt;groovy(-indy)&lt;/c2&gt; repository dependency will be added to &lt;c3&gt;groovyClasspath&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T132803Z" creationid="huanghaohang" creationdate="20180406T132803Z">
+        <seg>如果在 &lt;c1&gt;classpath&lt;/c1&gt; 中找到 &lt;c0&gt;groovy(-indy)&lt;/c0&gt; Jar ，并且该项目已经至少有一个仓库声明，那么相应的 &lt;c2&gt;groovy(-indy)&lt;/c2&gt; 仓库依赖将添加到 &lt;c3&gt;groovyClasspath&lt;/c3&gt; 中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a &lt;c0&gt;groovy-all(-indy)&lt;/c0&gt; Jar is found on &lt;c1&gt;classpath&lt;/c1&gt;, the same Jar will be added to &lt;c2&gt;groovyClasspath&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T132620Z" creationid="huanghaohang" creationdate="20180406T132620Z">
+        <seg>如果在 &lt;c1&gt;classpath&lt;/c1&gt; 中找到 &lt;c0&gt;groovy-all(-indy)&lt;/c0&gt; Jar，相同的 Jar 将添加到 &lt;c2&gt;groovyClasspath&lt;/c2&gt; 中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a task fails, any subsequent tasks that were depending on it will not be executed, as it is not safe to do so. For example, tests will not run if there is a compilation failure in the code under test; because the test task will depend on the compilation task (either directly or indirectly).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T075102Z" creationid="huanghaohang" creationdate="20170909T075102Z">
@@ -10810,6 +10826,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030938Z" creationid="95" creationdate="20170729T030914Z">
         <seg>另外，本教程接下来是 《&lt;a0&gt;第七章， &lt;i1&gt;Java 快速入门&lt;/i1&gt;&lt;/a0&gt;》 以及《&lt;a2&gt;第八章， &lt;i3&gt;依赖管理基础&lt;/i3&gt;&lt;/a2&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise, execution of the task will fail with a message saying that &lt;c0&gt;groovyClasspath&lt;/c0&gt; could not be inferred.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T132839Z" creationid="huanghaohang" creationdate="20180406T132839Z">
+        <seg>其他情况下，任务将执行失败，并提示无法推断 &lt;c0&gt;groovyClasspath&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
