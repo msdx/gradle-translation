@@ -626,6 +626,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/java/archives/ManifestMergeDetails.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T112016Z" creationid="huanghaohang" creationdate="20180406T112016Z">
+        <seg>../javadoc/org/gradle/api/java/archives/ManifestMergeDetails.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/logging/Logger.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T012026Z" creationid="huanghaohang" creationdate="20180107T012026Z">
@@ -4090,6 +4098,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s4&gt;if&lt;/s4&gt; (details.baseValue != details.mergeValue) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111943Z" creationid="huanghaohang" creationdate="20180406T111943Z">
+        <seg>&lt;s4&gt;if&lt;/s4&gt; (details.baseValue != details.mergeValue) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s4&gt;public&lt;/s4&gt; &lt;s5&gt;void&lt;/s5&gt; beforeExecute(Task task) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144027Z" creationid="huanghaohang" creationdate="20180107T144027Z">
@@ -4126,6 +4142,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084611Z" creationid="huanghaohang" creationdate="20180105T084611Z">
         <seg>&lt;s5&gt;&lt;echo&gt;&lt;/s5&gt;Hello, from Ant&lt;s6&gt;&lt;/echo&gt;&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s5&gt;if&lt;/s5&gt; (details.key == &lt;s6&gt;'foo'&lt;/s6&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111944Z" creationid="huanghaohang" creationdate="20180406T111944Z">
+        <seg>&lt;s5&gt;if&lt;/s5&gt; (details.key == &lt;s6&gt;'foo'&lt;/s6&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -10102,6 +10126,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Manifest are merged in the order they are declared by the &lt;c0&gt;from&lt;/c0&gt; statement. If the based manifest and the merged manifest both define values for the same key, the merged manifest wins by default. You can fully customize the merge behavior by adding &lt;c1&gt;eachEntry&lt;/c1&gt; actions in which you have access to a &lt;a2&gt;&lt;c3&gt;ManifestMergeDetails&lt;/c3&gt;&lt;/a2&gt; instance for each entry of the resulting manifest. The merge is not immediately triggered by the from statement. It is done lazily, either when generating the jar, or by calling &lt;c4&gt;writeTo&lt;/c4&gt; or &lt;c5&gt;effectiveManifest&lt;/c5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T113319Z" creationid="huanghaohang" creationdate="20180406T112203Z">
+        <seg>Manifest 会根据在 &lt;c0&gt;from&lt;/c0&gt; 语句中所声明的顺序进行合并。如果基本的清单和合并清单都定义了同一个键的值，那么默认情况下会采用要合并的清单的值。你可以通过添加 &lt;c1&gt;eachEntry&lt;/c1&gt; 来完全自定义结果清单的每一个实体的合并行为，它让你可以访问 &lt;a2&gt;&lt;c3&gt;ManifestMergeDetails&lt;/c3&gt;&lt;/a2&gt; 实例。合并不会立即由 from 语句触发。它是惰性执行的，在生成 jar 或者是通过调用 &lt;c4&gt;writeTo&lt;/c4&gt; 或 &lt;c5&gt;effectiveManifest&lt;/c5&gt; 的时候完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Manipulating existing tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031833Z" creationid="huanghaohang" creationdate="20170927T031833Z">
@@ -15674,6 +15706,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>attributes key1: &lt;s0&gt;'value1'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111941Z" creationid="huanghaohang" creationdate="20180406T111941Z">
+        <seg>attributes key1: &lt;s0&gt;'value1'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>attributes(&lt;s0&gt;"Implementation-Title"&lt;/s0&gt;: &lt;s1&gt;"Gradle"&lt;/s1&gt;, &lt;s2&gt;"Implementation-Version"&lt;/s2&gt;: version)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111449Z" creationid="huanghaohang" creationdate="20180406T111449Z">
@@ -16480,6 +16520,22 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>details.exclude()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111946Z" creationid="huanghaohang" creationdate="20180406T111946Z">
+        <seg>details.exclude()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>details.value = baseValue</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111944Z" creationid="huanghaohang" creationdate="20180406T111944Z">
+        <seg>details.value = baseValue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dir</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T100635Z" creationid="haohang" creationdate="20180326T100635Z">
@@ -16622,6 +16678,14 @@ api:libs - Builds the JAR</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062150Z" creationid="haohang" creationdate="20180313T062150Z">
         <seg>docsDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>eachEntry { details -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111943Z" creationid="huanghaohang" creationdate="20180406T111943Z">
+        <seg>eachEntry { details -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17134,6 +17198,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from sharedManifest, &lt;s1&gt;'src/config/basemanifest.txt'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111942Z" creationid="huanghaohang" creationdate="20180406T111942Z">
+        <seg>from sharedManifest, &lt;s1&gt;'src/config/basemanifest.txt'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from sourceSets.intTest.output
 }</seg>
       </tuv>
@@ -17164,6 +17236,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075028Z" creationid="huanghaohang" creationdate="20171015T075028Z">
         <seg>from zipTree(&lt;s7&gt;'src/main/assets.zip'&lt;/s7&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from(&lt;s2&gt;'src/config/javabasemanifest.txt'&lt;/s2&gt;, &lt;s3&gt;'src/config/libbasemanifest.txt'&lt;/s3&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111942Z" creationid="huanghaohang" creationdate="20180406T111942Z">
+        <seg>from(&lt;s2&gt;'src/config/javabasemanifest.txt'&lt;/s2&gt;, &lt;s3&gt;'src/config/libbasemanifest.txt'&lt;/s3&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -20657,6 +20737,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075014Z" creationid="huanghaohang" creationdate="20171015T075014Z">
         <seg>task anotherCopyTask(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task barJar(type: Jar) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111941Z" creationid="huanghaohang" creationdate="20180406T111941Z">
+        <seg>task barJar(type: Jar) {</seg>
       </tuv>
     </tu>
     <tu>
