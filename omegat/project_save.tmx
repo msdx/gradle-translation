@@ -378,6 +378,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.GroovySourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T234948Z" creationid="huanghaohang" creationdate="20180406T234948Z">
+        <seg>../dsl/org.gradle.api.tasks.GroovySourceSet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.SourceSet.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T081459Z" creationid="huanghaohang" creationdate="20180130T081459Z">
@@ -3148,6 +3156,14 @@ Type</seg>
         <seg>:webapp:libs
 
 Type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;&lt;c1&gt;FileTree&lt;/c1&gt;&lt;/a0&gt; (read-only)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T234851Z" creationid="huanghaohang" creationdate="20180406T234851Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;FileTree&lt;/c1&gt;&lt;/a0&gt;（只读）</seg>
       </tuv>
     </tu>
     <tu>
@@ -5924,6 +5940,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T101502Z" creationid="haohang" creationdate="20180320T101257Z">
         <seg>该源集的所有 &lt;c0&gt;.java&lt;/c0&gt; 文件。有些插件，如Groovy 插件，会将其他 Java 源文件添加到此集合中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All Groovy source files of this source set. Contains only the &lt;c0&gt;.groovy&lt;/c0&gt; files found in the Groovy source directories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T234947Z" creationid="huanghaohang" creationdate="20180406T234947Z">
+        <seg>此源码集的所有 Groovy 源文件。仅包含在 Groovy 源目录中找到的 &lt;c0&gt;.groovy&lt;/c0&gt; 文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12230,6 +12254,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 24.5. Groovy plugin - source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T235059Z" creationid="huanghaohang" creationdate="20180406T235059Z">
+        <seg>表 24.5. Groovy 插件——源集属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -12638,6 +12670,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T120730Z" creationid="huanghaohang" creationdate="20180406T120730Z">
         <seg>Groovy 的插件向项目中添加了以下任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Groovy plugin also modifies some source set properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T235047Z" creationid="huanghaohang" creationdate="20180406T235047Z">
+        <seg>Groovy 的插件还修改了一些源集的属性：</seg>
       </tuv>
     </tu>
     <tu>
@@ -13418,6 +13458,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The source directories containing the Groovy source files of this source set. May also contain Java source files for joint compilation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T234839Z" creationid="huanghaohang" creationdate="20180406T234839Z">
+        <seg>该源目录包含此源集的 Groovy 源文件。可能还包含用于联合编译的 Java 源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The source directories containing the Java source files of this source set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T100912Z" creationid="haohang" creationdate="20180320T100912Z">
@@ -13750,6 +13798,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180206T013845Z" creationid="huanghaohang" creationdate="20180206T013845Z">
         <seg>以下这些插件提供了一些与各种运行时技术的集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These properties are provided by a convention object of type &lt;a0&gt;&lt;c1&gt;GroovySourceSet&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T235032Z" creationid="huanghaohang" creationdate="20180406T235032Z">
+        <seg>这些属性由一个 &lt;a0&gt;&lt;c1&gt;GroovySourceSet&lt;/c1&gt;&lt;/a0&gt; 类的约定对象提供。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15394,6 +15450,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/groovy]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T234758Z" creationid="huanghaohang" creationdate="20180406T234758Z">
+        <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/groovy]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>[&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/src/&lt;e2&gt;&lt;c3&gt;name&lt;/c3&gt;&lt;/e2&gt;/java]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T100903Z" creationid="haohang" creationdate="20180320T100903Z">
@@ -15470,6 +15534,14 @@ No dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T022928Z" creationid="huanghaohang" creationdate="20180218T022928Z">
         <seg>添加上传 &lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt; 的任务，这些任务组装并上传属于指定配置的工件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>allGroovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T234841Z" creationid="huanghaohang" creationdate="20180406T234841Z">
+        <seg>allGroovy</seg>
       </tuv>
     </tu>
     <tu>
