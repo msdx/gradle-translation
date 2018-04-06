@@ -10600,8 +10600,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Not null</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062400Z" creationid="haohang" creationdate="20180313T062400Z">
-        <seg>Not null</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T133343Z" creationid="haohang" creationdate="20180313T062400Z">
+        <seg>不为 null</seg>
       </tuv>
     </tu>
     <tu>
@@ -12222,6 +12222,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 24.4. Groovy plugin - source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T133305Z" creationid="huanghaohang" creationdate="20180406T133305Z">
+        <seg>表 24.4. Groovy 插件——源集属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -12612,8 +12620,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The Groovy plugin adds the following convention properties to each source set in the project. You can use these properties in your build script as though they were properties of the source set object (see &lt;a0&gt;Section 21.3, “Conventions”&lt;/a0&gt;).</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T133026Z" creationid="huanghaohang" creationdate="20180406T133026Z">
-        <seg>The Groovy plugin adds the following convention properties to each source set in the project. You can use these properties in your build script as though they were properties of the source set object (see &lt;a0&gt;Section 21.3, “Conventions”&lt;/a0&gt;).</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T133255Z" creationid="huanghaohang" creationdate="20180406T133026Z">
+        <seg>Groovy 插件向项目中的每个源集添加了以下，约定属性。你可以在构建脚本中把它们当成是源集对象的属性一样去使用（请参阅《&lt;a0&gt;第 21.3 节，“公约”&lt;/a0&gt;）》。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12654,6 +12662,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T120650Z" creationid="huanghaohang" creationdate="20180406T120650Z">
         <seg>Groovy 插件扩展了 Java 插件，以添加对 Groovy 项目的支持。它可以处理 Groovy 代码，以及混合的 Groovy 和 Java 代码，甚至纯 Java 代码（尽管我们不一定建议将其用于后者）。该插件支持&lt;s0&gt;&lt;e1&gt;联合编译&lt;/e1&gt;&lt;/s0&gt;，它允许自由地混合和匹配 Groovy 和 Java 代码以及各自的依赖。例如，一个 Groovy 类可以扩展一个 Java 类，而这个 Java 类也可以扩展自一个 Groovy 类。这样一来，我们就能够在项目中使用最适合的语言，并在需要时用其他语言重写其中的任何类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Groovy source files of this source set. Contains all &lt;c0&gt;.groovy&lt;/c0&gt; and &lt;c1&gt;.java&lt;/c1&gt; files found in the Groovy source directories, and excludes all other types of files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T133452Z" creationid="huanghaohang" creationdate="20180406T133322Z">
+        <seg>这个源码集的 Groovy 源文件。包含全部在 Groovy 源目录中找到的 &lt;c0&gt;.groovy &lt;/c0&gt; 和 &lt;c1&gt;.java&lt;/c1&gt; 文件，并排除所有其他类型的文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17986,6 +18002,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144444Z" creationid="huanghaohang" creationdate="20180207T144444Z">
         <seg>groovy-base</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>groovy.srcDirs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T133453Z" creationid="huanghaohang" creationdate="20180406T133453Z">
+        <seg>groovy.srcDirs</seg>
       </tuv>
     </tu>
     <tu>
