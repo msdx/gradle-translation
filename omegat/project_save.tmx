@@ -8118,6 +8118,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 23.15. Customization of MANIFEST.MF</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111448Z" creationid="huanghaohang" creationdate="20180406T111448Z">
+        <seg>示例 7.5. 自定义的 MANIFEST.MF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.16. Creating a manifest object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111608Z" creationid="huanghaohang" creationdate="20180406T111608Z">
+        <seg>示例 23.16. 创建一个清单对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 23.17. Separate MANIFEST.MF for a particular archive</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111939Z" creationid="huanghaohang" creationdate="20180406T111939Z">
+        <seg>示例 23.17. 指定档案的单独 MANIFEST.MF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 23.2. Custom Java source layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053342Z" creationid="haohang" creationdate="20180313T053342Z">
@@ -14522,6 +14546,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can create stand alone instances of a &lt;c0&gt;Manifest&lt;/c0&gt;. You can use that for example, to share manifest information between jars.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111601Z" creationid="huanghaohang" creationdate="20180406T111455Z">
+        <seg>你可以创建一个独立的 &lt;c0&gt;Manifest&lt;/c0&gt; 实例。例如，可以用它来在 jar 之间共享清单信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can download one of the Gradle distributions from the &lt;a0&gt;Gradle web site&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114403Z" creationid="95" creationdate="20170723T114319Z">
@@ -14598,6 +14630,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T125024Z" creationid="huanghaohang" creationdate="20170923T125024Z">
         <seg>你可以使用&lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt;方法来找到相对于项目目录的文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can merge other manifests into any &lt;c0&gt;Manifest&lt;/c0&gt; object. The other manifests might be either described by a file path or, like in the example above, by a reference to another &lt;c1&gt;Manifest&lt;/c1&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111838Z" creationid="huanghaohang" creationdate="20180406T111614Z">
+        <seg>你可以把其他清单合并到任意的一个 &lt;c0&gt;Manifest&lt;/c0&gt; 对象。其他清单可以用文件路径来描述，或者像上面的例子那样，通过引用另一个 &lt;c1&gt;Manifest&lt;/c1&gt; 对象来描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15630,6 +15670,26 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154055Z" creationid="95" creationdate="20170731T154055Z">
         <seg>attributes &lt;s4&gt;'Implementation-Title'&lt;/s4&gt;: &lt;s5&gt;'Gradle Quickstart'&lt;/s5&gt;, &lt;s6&gt;'Implementation-Version'&lt;/s6&gt;: version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>attributes(&lt;s0&gt;"Implementation-Title"&lt;/s0&gt;: &lt;s1&gt;"Gradle"&lt;/s1&gt;, &lt;s2&gt;"Implementation-Version"&lt;/s2&gt;: version)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111449Z" creationid="huanghaohang" creationdate="20180406T111449Z">
+        <seg>attributes(&lt;s0&gt;"Implementation-Title"&lt;/s0&gt;: &lt;s1&gt;"Gradle"&lt;/s1&gt;, &lt;s2&gt;"Implementation-Version"&lt;/s2&gt;: version)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>attributes(&lt;s0&gt;"Implementation-Title"&lt;/s0&gt;: &lt;s1&gt;"Gradle"&lt;/s1&gt;, &lt;s2&gt;"Implementation-Version"&lt;/s2&gt;: version)
+}
+task fooJar(type: Jar) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111609Z" creationid="huanghaohang" creationdate="20180406T111609Z">
+        <seg>attributes(&lt;s0&gt;"Implementation-Title"&lt;/s0&gt;: &lt;s1&gt;"Gradle"&lt;/s1&gt;, &lt;s2&gt;"Implementation-Version"&lt;/s2&gt;: version)
+}
+task fooJar(type: Jar) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -16720,6 +16780,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ext.sharedManifest = manifest {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111609Z" creationid="huanghaohang" creationdate="20180406T111609Z">
+        <seg>ext.sharedManifest = manifest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ext.srcFile = file(&lt;s0&gt;'mountains.xml'&lt;/s0&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085708Z" creationid="huanghaohang" creationdate="20170922T085708Z">
@@ -17054,6 +17122,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075026Z" creationid="huanghaohang" creationdate="20171015T075026Z">
         <seg>from copyTaskWithPatterns.outputs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from sharedManifest</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111611Z" creationid="huanghaohang" creationdate="20180406T111611Z">
+        <seg>from sharedManifest</seg>
       </tuv>
     </tu>
     <tu>
@@ -18264,6 +18340,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180318T010640Z" creationid="huanghaohang" creationdate="20180318T010640Z">
         <seg>manifest</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>manifest = project.manifest {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111610Z" creationid="huanghaohang" creationdate="20180406T111610Z">
+        <seg>manifest = project.manifest {</seg>
       </tuv>
     </tu>
     <tu>
