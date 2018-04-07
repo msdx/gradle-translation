@@ -2530,6 +2530,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>25.9. Compiling in external process</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T022117Z" creationid="huanghaohang" creationdate="20180407T022117Z">
+        <seg>25.9. 在外部进程中编译</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -10968,8 +10976,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Note that &lt;c0&gt;fsc&lt;/c0&gt; expects to be restarted whenever the &lt;s1&gt;&lt;e2&gt;contents&lt;/e2&gt;&lt;/s1&gt; of its compile class path change. (It does detect changes to the compile class path itself.) This makes it less suitable for multi-project builds.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T021918Z" creationid="huanghaohang" creationdate="20180407T021918Z">
-        <seg>Note that &lt;c0&gt;fsc&lt;/c0&gt; expects to be restarted whenever the &lt;s1&gt;&lt;e2&gt;contents&lt;/e2&gt;&lt;/s1&gt; of its compile class path change. (It does detect changes to the compile class path itself.) This makes it less suitable for multi-project builds.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T022114Z" creationid="huanghaohang" creationdate="20180407T021918Z">
+        <seg>注意，每当 &lt;c0&gt;fsc&lt;/c0&gt; 的编译类路径的&lt;s1&gt;&lt;e2&gt;内容&lt;/e2&gt;&lt;/s1&gt;有变化时，它都需要重新启动。（它检测到编译类路径本身的变化。）这使得它不太适合多项目构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15286,6 +15294,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T024330Z" creationid="haohang" creationdate="20170908T013315Z">
         <seg>这里做了些什么？这个构建脚本说明了关于项目的一些事情。首先，它指出，Hibernate core 3.6.7.Final是编项目的生产源代码所必需的。同时也暗指了，运行时还需要使用Hibernate core及其依赖。构建脚本还指出，编译项目的测试时需要4.0或以上的junit。它还告诉Gradle在Maven中央存储库中查找所需的任何依赖。以下各节内容会进行详细介绍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When &lt;c0&gt;scalaCompileOptions.fork&lt;/c0&gt; is set to &lt;c1&gt;true&lt;/c1&gt;, compilation will take place in an external process. The details of forking depend on which compiler is used. The Ant based compiler (&lt;c2&gt;scalaCompileOptions.useAnt = true&lt;/c2&gt;) will fork a new process for every &lt;c3&gt;ScalaCompile&lt;/c3&gt; task, and does not fork by default. The Zinc based compiler (&lt;c4&gt;scalaCompileOptions.useAnt = false&lt;/c4&gt;) will leverage the Gradle compiler daemon, and does so by default.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T053329Z" creationid="huanghaohang" creationdate="20180407T022121Z">
+        <seg>当 &lt;c0&gt;scalaCompileOptions.fork&lt;/c0&gt; 被设为 &lt;c1&gt;true&lt;/c1&gt; 的时候，汇编将在外部进程中进行。fork 的详细情况取决于所使用的编译器。基于 Ant 的编译器（&lt;c2&gt;scalaCompileOptions.useAnt = true&lt;/c2&gt;）将为每一个 &lt;c3&gt;ScalaCompile&lt;/c3&gt; 任务 fork 一个新的进程，并且默认情况下不 fork。基于 Zinc 的编译器（&lt;c4&gt;scalaCompileOptions.useAnt = false&lt;/c4&gt;）则是使用 Gradle 编译器守护进程，并且默认情况下也是这样。</seg>
       </tuv>
     </tu>
     <tu>
