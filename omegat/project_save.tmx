@@ -2498,6 +2498,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>25.6. Convention properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T020034Z" creationid="huanghaohang" creationdate="20180407T020034Z">
+        <seg>25.6. 约定属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>25.7. Source set properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T020058Z" creationid="huanghaohang" creationdate="20180407T020058Z">
+        <seg>27.5. 源集属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -10078,6 +10094,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a &lt;c0&gt;scala-library&lt;/c0&gt; Jar is found on &lt;c1&gt;classpath&lt;/c1&gt;, and the project has at least one repository declared, a corresponding &lt;c2&gt;scala-compiler&lt;/c2&gt; repository dependency will be added to &lt;c3&gt;scalaClasspath&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T020016Z" creationid="huanghaohang" creationdate="20180407T020016Z">
+        <seg>如果在 &lt;c1&gt;classpath&lt;/c1&gt; 中找到 &lt;c0&gt;scala-library&lt;/c0&gt; Jar ，并且该项目已经在至少一个仓库中声明了它，那么相应的 &lt;c2&gt;scala-compiler&lt;/c2&gt; 的仓库依赖将添加到 &lt;c3&gt;scalaClasspath&lt;/c3&gt; 中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a task fails, any subsequent tasks that were depending on it will not be executed, as it is not safe to do so. For example, tests will not run if there is a compilation failure in the code under test; because the test task will depend on the compilation task (either directly or indirectly).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T075102Z" creationid="huanghaohang" creationdate="20170909T075102Z">
@@ -11122,6 +11146,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T132839Z" creationid="huanghaohang" creationdate="20180406T132839Z">
         <seg>其他情况下，任务将执行失败，并提示无法推断 &lt;c0&gt;groovyClasspath&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Otherwise, execution of the task will fail with a message saying that &lt;c0&gt;scalaClasspath&lt;/c0&gt; could not be inferred.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T020031Z" creationid="huanghaohang" creationdate="20180407T020031Z">
+        <seg>否则，该任务将执行失败，并提示无法推断 &lt;c0&gt;scalaClasspath&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13226,6 +13258,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Scala plugin adds the following convention properties to each source set in the project. You can use these properties in your build script as though they were properties of the source set object (see &lt;a0&gt;Section 21.3, “Conventions”&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T020152Z" creationid="huanghaohang" creationdate="20180407T020152Z">
+        <seg>Scala 插件向项目中的每个源集添加了以下约定属性。你可以在构建脚本中把它们当成是源集对象的属性一样去使用（请参阅《&lt;a0&gt;第 21.3 节，“公约”&lt;/a0&gt;》)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Scala plugin adds the following dependencies to tasks added by the Java plugin.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010655Z" creationid="huanghaohang" creationdate="20180407T010655Z">
@@ -13246,6 +13286,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T011125Z" creationid="huanghaohang" creationdate="20180407T011125Z">
         <seg>Scala 插件假定项目的布局如下所示。所有的 Scala 源码目录都可以包含 Scala &lt;s0&gt;&lt;e1&gt;和&lt;/e1&gt;&lt;/s0&gt; Java 代码。 Java 源码目录可能只包含 Java 源代码。 这些目录都不需要一定存在或者包含有内容。Scala 插件只会简单地进行编译，而不管它发现什么。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Scala plugin does not add any convention properties to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T020054Z" creationid="huanghaohang" creationdate="20180407T020054Z">
+        <seg>Scala 插件不会向项目添加任何的约定属性。</seg>
       </tuv>
     </tu>
     <tu>
