@@ -6568,6 +6568,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By compiling only classes whose source code has changed since the previous compilation, and classes affected by these changes, incremental compilation can significantly reduce Scala compilation time. It is particularly effective when frequently compiling small code increments, as is often done at development time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T110403Z" creationid="huanghaohang" creationdate="20180407T110403Z">
+        <seg>通过仅编译源代码自上次编译后发生更改的类以及受这些更改影响的类，增量编译可以显著减少 Scala 的编译时间。它对于频繁编译小量增量代码时特别有效，而我们开发时经常要这样做。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, Gradle does not define any repositories. You need to define at least one before you can use external dependencies. One option is use the Maven central repository:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044736Z" creationid="huanghaohang" creationdate="20170908T044736Z">
@@ -19034,10 +19042,26 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>https://github.com/harrah/xsbt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T110412Z" creationid="huanghaohang" creationdate="20180407T110412Z">
+        <seg>https://github.com/harrah/xsbt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>https://github.com/junit-team/junit/wiki/Categories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T113429Z" creationid="huanghaohang" creationdate="20180406T113429Z">
         <seg>https://github.com/junit-team/junit/wiki/Categories</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://github.com/typesafehub/zinc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T110409Z" creationid="huanghaohang" creationdate="20180407T110409Z">
+        <seg>https://github.com/typesafehub/zinc</seg>
       </tuv>
     </tu>
     <tu>
