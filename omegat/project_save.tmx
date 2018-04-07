@@ -2490,6 +2490,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>25.5. Automatic configuration of scalaClasspath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T015532Z" creationid="huanghaohang" creationdate="20180407T015532Z">
+        <seg>25.5. scalaClasspath 的自动配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -3380,6 +3388,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T101305Z" creationid="haohang" creationdate="20180326T101305Z">
         <seg>&lt;c0&gt;Object&lt;/c0&gt;。可以使用《&lt;a1&gt;第 16.5 节，“指定一组输入文件”&lt;/a1&gt;》中所讲到的任何一种方法来设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;ScalaCompile&lt;/c0&gt; and &lt;c1&gt;ScalaDoc&lt;/c1&gt; tasks consume Scala in two ways: on their &lt;c2&gt;classpath&lt;/c2&gt;, and on their &lt;c3&gt;scalaClasspath&lt;/c3&gt;. The former is used to locate classes referenced by the source code, and will typically contain &lt;c4&gt;scala-library&lt;/c4&gt; along with other libraries. The latter is used to load and execute the Scala compiler and Scaladoc tool, respectively, and should only contain the &lt;c5&gt;scala-compiler&lt;/c5&gt; library and its dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T015833Z" creationid="huanghaohang" creationdate="20180407T015539Z">
+        <seg>&lt;c0&gt;ScalaCompile&lt;/c0&gt; 和 &lt;c1&gt;ScalaDoc&lt;/c1&gt; 任务以两种方式使用 Scala：在它们的 &lt;c2&gt;classpath&lt;/c2&gt; 以及它们的 &lt;c3&gt;scalaClasspath&lt;/c3&gt; 上。前者用于定位源码所引用的类，并且通常包含 &lt;c4&gt;scala-library&lt;/c4&gt; 库以及其他库。后者用于分别加载和执行 Scala 编译器和 Scaladoc 工具，并且应该只包含 &lt;c5&gt;scala-compiler&lt;/c5&gt; 库及其依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8662,6 +8678,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 25.3. Declaring a Scala dependency for production code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T015443Z" creationid="huanghaohang" creationdate="20180407T015443Z">
+        <seg>示例 25.3. 为生产代码定义一个 Scala 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 25.4. Declaring a Scala dependency for test code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T015520Z" creationid="huanghaohang" creationdate="20180407T015520Z">
+        <seg>示例 25.4. 为测试代码声明一个 Scala 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -10010,6 +10042,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122521Z" creationid="huanghaohang" creationdate="20180406T122521Z">
         <seg>如果 Groovy 用于生产代码，应该将 Groovy 依赖添加到 &lt;c0&gt;compile&lt;/c0&gt; 配置中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If Scala is only used for test code, the &lt;c0&gt;scala-library&lt;/c0&gt; dependency should be added to the &lt;c1&gt;testCompile&lt;/c1&gt; configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T015500Z" creationid="huanghaohang" creationdate="20180407T015500Z">
+        <seg>如果 Scala 仅用于测试代码，&lt;c0&gt;scala-library&lt;/c0&gt; 依赖应被添加到 &lt;c1&gt;testCompile&lt;/c1&gt; 配置中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If Scala is used for production code, the &lt;c0&gt;scala-library&lt;/c0&gt; dependency should be added to the &lt;c1&gt;compile&lt;/c1&gt; configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T015435Z" creationid="huanghaohang" creationdate="20180407T015435Z">
+        <seg>如果 Scala 用于生产代码， &lt;c0&gt;scala-library&lt;/c0&gt; 依赖应该添加到 &lt;c1&gt;compile&lt;/c1&gt; 的配置中：</seg>
       </tuv>
     </tu>
     <tu>
@@ -11914,6 +11962,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010748Z" creationid="huanghaohang" creationdate="20180407T010748Z">
         <seg>Scala 插件——任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Scala projects need to declare a &lt;c0&gt;scala-library&lt;/c0&gt; dependency. This dependency will then be used on compile and runtime class paths. It will also be used to get hold of the Scala compiler and Scaladoc tool, respectively. &lt;s1&gt;[&lt;a2&gt;12&lt;/a2&gt;]&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T015412Z" creationid="huanghaohang" creationdate="20180407T015317Z">
+        <seg>Scala项目需要声明一个 &lt;c0&gt;scala-library&lt;/c0&gt; 依赖。这个依赖将被用于编译和运行时的类路径。它也将分别用于获取 Scala 编译器和 Scaladoc 工具。 &lt;s1&gt;[&lt;a2&gt;12&lt;/a2&gt;]&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -14650,6 +14706,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unless a task's &lt;c0&gt;scalaClasspath&lt;/c0&gt; is configured explicitly, the Scala (base) plugin will try to infer it from the task's &lt;c1&gt;classpath&lt;/c1&gt;. This is done as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T015937Z" creationid="huanghaohang" creationdate="20180407T015937Z">
+        <seg>除非显式地配置一个任务的 &lt;c0&gt;scalaClasspath&lt;/c0&gt;，否则 Scala（基础）插件会尝试以如下方式从任务的 &lt;c1&gt;classpath&lt;/c1&gt; 推断出它：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unpacking</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013341Z" creationid="huanghaohang" creationdate="20170919T013341Z">
@@ -16975,6 +17039,16 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T043910Z" creationid="huanghaohang" creationdate="20170908T043910Z">
         <seg>compile &lt;s0&gt;'org.hibernate:hibernate-core:3.6.7.Final'&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile &lt;s0&gt;'org.scala-lang:scala-library:2.11.1'&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T015444Z" creationid="huanghaohang" creationdate="20180407T015444Z">
+        <seg>compile &lt;s0&gt;'org.scala-lang:scala-library:2.11.1'&lt;/s0&gt;
 }</seg>
       </tuv>
     </tu>
@@ -22424,6 +22498,16 @@ test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&g
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122643Z" creationid="huanghaohang" creationdate="20180406T122643Z">
         <seg>testCompile &lt;s0&gt;"org.codehaus.groovy:groovy:2.3.3"&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testCompile &lt;s0&gt;"org.scala-lang:scala-library:2.11.1"&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T015522Z" creationid="huanghaohang" creationdate="20180407T015522Z">
+        <seg>testCompile &lt;s0&gt;"org.scala-lang:scala-library:2.11.1"&lt;/s0&gt;
 }</seg>
       </tuv>
     </tu>
