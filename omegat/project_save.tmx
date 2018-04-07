@@ -10502,6 +10502,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Incremental compilation requires dependency analysis of the source code. The results of this analysis are stored in the file designated by &lt;c0&gt;scalaCompileOptions.incrementalOptions.analysisFile&lt;/c0&gt; (which has a sensible default). In a multi-project build, analysis files are passed on to downstream &lt;c1&gt;ScalaCompile&lt;/c1&gt; tasks to enable incremental compilation across project boundaries. For &lt;c2&gt;ScalaCompile&lt;/c2&gt; tasks added by the Scala plugin, no configuration is necessary to make this work. For other &lt;c3&gt;ScalaCompile&lt;/c3&gt; tasks, &lt;c4&gt;scalaCompileOptions.incrementalOptions.publishedCode&lt;/c4&gt; needs to be configured to point to the classes folder or Jar archive by which the code is passed on to compile class paths of downstream &lt;c5&gt;ScalaCompile&lt;/c5&gt; tasks. Note that if &lt;c6&gt;publishedCode&lt;/c6&gt; is not set correctly, downstream tasks may not recompile code affected by upstream changes, leading to incorrect compilation results.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T140636Z" creationid="huanghaohang" creationdate="20180407T135239Z">
+        <seg>增量编译需要对源代码进行依赖性分析，这个分析的结果存于由 &lt;c0&gt;scalaCompileOptions.incrementalOptions.analysisFile&lt;/c0&gt; 所指定的文件中（它有一个合理的默认值）。在多项目构建中，分析文件被传给下游的 &lt;c1&gt;ScalaCompile&lt;/c1&gt; 任务，以启用跨项目的增量编译。对于由 Scala 插件添加的 &lt;c2&gt;ScalaCompile&lt;/c2&gt; 任务，无需对这一点进行配置。而如果是其他的 &lt;c3&gt;ScalaCompile&lt;/c3&gt; 任务，需要根据类文件夹或 Jar 档案中，是哪一个的代码被传给下游的 &lt;c5&gt;ScalaCompile&lt;/c5&gt; 任务的类路径，把 &lt;c4&gt;scalaCompileOptions.incrementalOptions.publishedCode&lt;/c4&gt; 配置为指向它们。请注意，如果 &lt;c6&gt;publishedCode&lt;/c6&gt; 设置不正确，上游代码发生变化时下游任务可能不会重新编译，从而导致编译结果不正确。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Information messages</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221542Z" creationid="huanghaohang" creationdate="20180105T221542Z">
@@ -10682,6 +10690,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062935Z" creationid="haohang" creationdate="20180312T062935Z">
         <seg>Javadoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Just like Gradle's Ant based compiler, the Zinc based compiler supports joint compilation of Java and Scala code. By default, all Java and Scala code under &lt;c0&gt;src/main/scala&lt;/c0&gt; will participate in joint compilation. With the Zinc based compiler, even Java code will be compiled incrementally.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T135229Z" creationid="huanghaohang" creationdate="20180407T134958Z">
+        <seg>就像 Gradle 上基于 Ant 的编译器一样，基于 Zinc 的编译器支持 Java 和 Scala 代码的联合编译。默认情况下，所有在 &lt;c0&gt;src/main/scala&lt;/c0&gt; 的 Java 和 Scala 代码都将会进行联合编译。使用基于 Zinc 的编译器时，对于 Java 代码也会进行增量编译。</seg>
       </tuv>
     </tu>
     <tu>
