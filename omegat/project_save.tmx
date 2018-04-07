@@ -506,6 +506,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.scala.ScalaCompile.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010514Z" creationid="huanghaohang" creationdate="20180407T010514Z">
+        <seg>../dsl/org.gradle.api.tasks.scala.ScalaCompile.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.scala.ScalaDoc.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010619Z" creationid="huanghaohang" creationdate="20180407T010619Z">
+        <seg>../dsl/org.gradle.api.tasks.scala.ScalaDoc.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.testing.Test.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T132800Z" creationid="95" creationdate="20170730T132800Z">
@@ -6848,6 +6864,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compiles production Scala source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010525Z" creationid="huanghaohang" creationdate="20180407T010525Z">
+        <seg>编译 Scala 的生产源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compiles test Groovy source files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T120838Z" creationid="huanghaohang" creationdate="20180406T120838Z">
@@ -6864,6 +6888,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Compiles test Scala source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010533Z" creationid="huanghaohang" creationdate="20180407T010533Z">
+        <seg>编译 Scala 的测试源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Compiles the given source set's Groovy source files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T120905Z" creationid="huanghaohang" creationdate="20180406T120905Z">
@@ -6876,6 +6908,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073410Z" creationid="haohang" creationdate="20180312T073410Z">
         <seg>使用 javac 编译给定的源集中的 Java 源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Compiles the given source set's Scala source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010617Z" creationid="huanghaohang" creationdate="20180407T010617Z">
+        <seg>编译给定源集里的 Scala 源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9366,6 +9406,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generates API documentation for the production Scala source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010633Z" creationid="huanghaohang" creationdate="20180407T010633Z">
+        <seg>为 Scala 生产源文件生成 API 文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generates build dashboard report.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090210Z" creationid="huanghaohang" creationdate="20180211T090210Z">
@@ -11798,6 +11846,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ScalaCompile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010515Z" creationid="huanghaohang" creationdate="20180407T010515Z">
+        <seg>ScalaCompile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ScalaDoc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010621Z" creationid="huanghaohang" creationdate="20180407T010621Z">
+        <seg>ScalaDoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Secondly, the &lt;c0&gt;copy()&lt;/c0&gt; method can not honor task dependencies when a task is used as a copy source (i.e. as an argument to &lt;c1&gt;from()&lt;/c1&gt;) because it's a method and not a task. As such, if you are using the &lt;c2&gt;copy()&lt;/c2&gt; method as part of a task action, you must explicitly declare all inputs and outputs in order to get the correct behavior.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124844Z" creationid="huanghaohang" creationdate="20171015T094223Z">
@@ -12362,6 +12426,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T003649Z" creationid="huanghaohang" creationdate="20180407T003649Z">
         <seg>表 24.6. Groovy 插件——GroovyCompile 属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 25.1. Scala plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010511Z" creationid="huanghaohang" creationdate="20180407T010511Z">
+        <seg>表 25.1. Scala 插件——任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 25.2. Scala plugin - additional task dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010733Z" creationid="huanghaohang" creationdate="20180407T010733Z">
+        <seg>表 25.2. Scala 插件——额外的任务依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -12990,6 +13070,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T032803Z" creationid="huanghaohang" creationdate="20180131T032803Z">
         <seg>Project API</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Scala plugin adds the following dependencies to tasks added by the Java plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010655Z" creationid="huanghaohang" creationdate="20180407T010655Z">
+        <seg>Scala 插件向 Java 插件所加入的任务添加了以下的依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16890,6 +16978,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;Scala</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010534Z" creationid="huanghaohang" creationdate="20180407T010534Z">
+        <seg>compile&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;Scala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compileClasspath</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T095242Z" creationid="haohang" creationdate="20180320T095242Z">
@@ -16914,6 +17010,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compileScala</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010512Z" creationid="huanghaohang" creationdate="20180407T010512Z">
+        <seg>compileScala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compileTestGroovy</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T120807Z" creationid="huanghaohang" creationdate="20180406T120807Z">
@@ -16926,6 +17030,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062505Z" creationid="haohang" creationdate="20180312T062505Z">
         <seg>compileTestJava</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compileTestScala</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010526Z" creationid="huanghaohang" creationdate="20180407T010526Z">
+        <seg>compileTestScala</seg>
       </tuv>
     </tu>
     <tu>
@@ -21143,6 +21255,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140934Z" creationid="huanghaohang" creationdate="20180205T140934Z">
         <seg>scala_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>scaladoc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010618Z" creationid="huanghaohang" creationdate="20180407T010618Z">
+        <seg>scaladoc</seg>
       </tuv>
     </tu>
     <tu>
