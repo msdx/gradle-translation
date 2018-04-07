@@ -2426,6 +2426,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>25.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010149Z" creationid="huanghaohang" creationdate="20180407T010149Z">
+        <seg>25.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>25.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010204Z" creationid="huanghaohang" creationdate="20180407T010204Z">
+        <seg>25.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -8558,6 +8574,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 25.1. Using the Scala plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010156Z" creationid="huanghaohang" creationdate="20180407T010156Z">
+        <seg>示例 25.1. 使用 Scala 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -12970,6 +12994,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Scala plugin adds the following tasks to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010506Z" creationid="huanghaohang" creationdate="20180407T010506Z">
+        <seg>Scala 的插件向项目中添加了以下任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Scala plugin extends the Java plugin to add support for Scala projects. It can deal with Scala code, mixed Scala and Java code, and even pure Java code (although we don't necessarily recommend to use it for the latter). The plugin supports &lt;s0&gt;&lt;e1&gt;joint compilation&lt;/e1&gt;&lt;/s0&gt;, which allows to freely mix and match Scala and Java code, with dependencies in both directions. For example, a Scala class can extend a Java class that in turn extends a Scala class. This makes it possible to use the best language for the job, and to rewrite any class in the other language if needed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010144Z" creationid="huanghaohang" creationdate="20180407T010144Z">
@@ -14350,6 +14382,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T153434Z" creationid="huanghaohang" creationdate="20180218T153434Z">
         <seg>要使用 Java 插件，请在构建脚本中加入以下内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the Scala plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010153Z" creationid="huanghaohang" creationdate="20180407T010153Z">
+        <seg>要使用 Scala 插件，请在构建脚本中包含以下语句：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16164,6 +16204,14 @@ uploadArchives {</seg>
         <seg>apply plugin: &lt;s0&gt;'maven'&lt;/s0&gt;
 
 uploadArchives {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'scala'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010157Z" creationid="huanghaohang" creationdate="20180407T010157Z">
+        <seg>apply plugin: &lt;s0&gt;'scala'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
