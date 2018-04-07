@@ -7518,6 +7518,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Due to the overhead of dependency analysis, a clean compilation or a compilation after a larger code change may take longer than with the Ant based compiler. For CI builds and release builds, we currently recommend to use the Ant based compiler.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T140814Z" creationid="huanghaohang" creationdate="20180407T140637Z">
+        <seg>由于依赖分析的开销，进行清理编译或者是在较大的代码更改之后进行编译可能耗时比基于 Ant 的编译器要更长。对于 CI 构建和发布构建，我们目前推荐使用基于 Ant 的编译器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dynamic tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031826Z" creationid="huanghaohang" creationdate="20170927T031826Z">
@@ -11042,6 +11050,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T022114Z" creationid="huanghaohang" creationdate="20180407T021918Z">
         <seg>注意，每当 &lt;c0&gt;fsc&lt;/c0&gt; 的编译类路径的&lt;s1&gt;&lt;e2&gt;内容&lt;/e2&gt;&lt;/s1&gt;有变化时，它都需要重新启动。（它检测到编译类路径本身的变化。）这使得它不太适合多项目构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note that Zinc's Nailgun based daemon mode is not supported. Instead, we plan to enhance Gradle's own compiler daemon to stay alive across Gradle invocations, reusing the same Scala compiler. This is expected to yield another significant speedup for Scala compilation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T141239Z" creationid="huanghaohang" creationdate="20180407T140816Z">
+        <seg>注意，现在 Zinc 基于 Nailgun 的守护进程模式还不支持。相反，我们计划增强 Gradle 自己的编译器守护进程，以便在跨 Gradle 调用时继续保活​​，重用相同的 Scala 编译器。预计这将为 Scala 的编译带来另一个方面上的明显提速。</seg>
       </tuv>
     </tu>
     <tu>
