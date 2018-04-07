@@ -2410,6 +2410,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>24.8. GroovyCompile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T003403Z" creationid="huanghaohang" creationdate="20180407T003403Z">
+        <seg>24.8. GroovyCompile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -5756,6 +5764,22 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090745Z" creationid="huanghaohang" creationdate="20180211T090745Z">
         <seg>添加用于生成 Gradle wrapper 文件的 &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt; 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds all &lt;c0&gt;.java&lt;/c0&gt; files found in the Groovy source directories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T003350Z" creationid="huanghaohang" creationdate="20180407T003350Z">
+        <seg>添加所有在 Groovy 源目录中找到的 &lt;c0&gt;.java&lt;/c0&gt; 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds all source files found in the Groovy source directories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T003358Z" creationid="huanghaohang" creationdate="20180407T003358Z">
+        <seg>添加所有在 Groovy 的源目录中找到的源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12658,6 +12682,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Groovy plugin adds a &lt;a0&gt;&lt;c1&gt;GroovyCompile&lt;/c1&gt;&lt;/a0&gt; task for each source set in the project. The task type extends the &lt;c2&gt;JavaCompile&lt;/c2&gt; task (see &lt;a3&gt;Section 23.11, “CompileJava”&lt;/a3&gt;). The &lt;c4&gt;GroovyCompile&lt;/c4&gt; task supports most configuration options of the official Groovy compiler.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T003640Z" creationid="huanghaohang" creationdate="20180407T003640Z">
+        <seg>Groovy 插件向项目中的每一个源集添加了一个 &lt;a0&gt;&lt;c1&gt;GroovyCompile&lt;/c1&gt;&lt;/a0&gt; 任务。该任务类型扩展了 &lt;c2&gt;JavaCompile&lt;/c2&gt; 任务（请参阅《&lt;a3&gt;第 23.11 节，“CompileJava”&lt;/a3&gt;》）。该 &lt;c4&gt;GroovyCompile&lt;/c4&gt; 任务支持官方 Groovy 编译器的大多数配置选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Groovy plugin adds the following convention properties to each source set in the project. You can use these properties in your build script as though they were properties of the source set object (see &lt;a0&gt;Section 21.3, “Conventions”&lt;/a0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T133255Z" creationid="huanghaohang" creationdate="20180406T133026Z">
@@ -18966,6 +18998,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094843Z" creationid="haohang" creationdate="20180326T094843Z">
         <seg>java_plugin.html#java_source_set_tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java_plugin.html#sec:compile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T003404Z" creationid="huanghaohang" creationdate="20180407T003404Z">
+        <seg>java_plugin.html#sec:compile</seg>
       </tuv>
     </tu>
     <tu>
