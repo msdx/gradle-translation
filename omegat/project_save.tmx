@@ -13442,6 +13442,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Scala plugin now supports incremental compilation by integrating with &lt;a0&gt;Zinc&lt;/a0&gt;, a standalone version of &lt;a1&gt;sbt&lt;/a1&gt;'s incremental Scala compiler. To switch the &lt;c2&gt;ScalaCompile&lt;/c2&gt; task from the default Ant based compiler to the new Zinc based compiler, set &lt;c3&gt;scalaCompileOptions.useAnt&lt;/c3&gt; to &lt;c4&gt;false&lt;/c4&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T110848Z" creationid="huanghaohang" creationdate="20180407T110848Z">
+        <seg>Scala 插件现在支持通过集成 &lt;a0&gt;Zinc&lt;/a0&gt; 的增量编译，它是 &lt;a1&gt;sbt&lt;/a1&gt; 的增量 Scala 编译器的一个单独的版本。如果要把 &lt;c2&gt;ScalaCompile&lt;/c2&gt; 任务从默认的基于 Ant 的编译器切换到新的基于 Zinc 的编译器，需要把 &lt;c3&gt;scalaCompileOptions.useAnt&lt;/c3&gt; 设置为 &lt;c4&gt;false&lt;/c4&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Scala source files of this source set. Contains all &lt;c0&gt;.scala&lt;/c0&gt; and &lt;c1&gt;.java&lt;/c1&gt; files found in the Scala source directories, and excludes all other types of files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T020230Z" creationid="huanghaohang" creationdate="20180407T020230Z">
