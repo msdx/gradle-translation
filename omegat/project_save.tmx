@@ -8798,6 +8798,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 25.7. Activating the Zinc based compiler</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T110858Z" creationid="huanghaohang" creationdate="20180407T110858Z">
+        <seg>示例 25.7. 激活基于 Zinc 的编译器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -9130,6 +9138,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002842Z" creationid="huanghaohang" creationdate="20170909T002842Z">
         <seg>示例9.3. Groovy示例 - 完整的构建文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Except where noted in the&lt;a0&gt;API documentation&lt;/a0&gt;, the Zinc based compiler supports exactly the same configuration options as the Ant based compiler. Note, however, that the Zinc compiler requires Java 6 or higher to run. This means that Gradle itself has to be run with Java 6 or higher.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T134651Z" creationid="huanghaohang" creationdate="20180407T110906Z">
+        <seg>除非在 &lt;a0&gt;API 文档&lt;/a0&gt;中另有说明，否则基于 Zinc 的编译器支持与基于 Ant 的编译器完全相同的配置选项。但是请注意，Zinc 编译器需要 Java 6 或更高的版本。这意味着 Gradle 本身也必须使用 Java 6 或更高版本来运行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18906,6 +18922,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://gradle.org/docs/current/dsl/org.gradle.api.tasks.scala.ScalaCompile.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T110904Z" creationid="huanghaohang" creationdate="20180407T110904Z">
+        <seg>http://gradle.org/docs/current/dsl/org.gradle.api.tasks.scala.ScalaCompile.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://groovy.codehaus.org/Closures</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141723Z" creationid="huanghaohang" creationdate="20170913T141723Z">
@@ -21754,6 +21778,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T021845Z" creationid="huanghaohang" creationdate="20180407T021845Z">
         <seg>scalaCompileOptions.daemonServer = &lt;s1&gt;"localhost:4243"&lt;/s1&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>scalaCompileOptions.useAnt = false
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T110900Z" creationid="huanghaohang" creationdate="20180407T110900Z">
+        <seg>scalaCompileOptions.useAnt = false
 }</seg>
       </tuv>
     </tu>
