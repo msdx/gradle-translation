@@ -2466,6 +2466,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>25.10. Incremental compilation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T054246Z" creationid="huanghaohang" creationdate="20180407T054246Z">
+        <seg>25.10. 增量编译</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>25.2. Tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010204Z" creationid="huanghaohang" creationdate="20180407T010204Z">
@@ -8770,6 +8778,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T021841Z" creationid="huanghaohang" creationdate="20180407T021841Z">
         <seg>示例 25.5. 启用 Fast Scala Compiler</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 25.6. Adjusting memory settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T053845Z" creationid="huanghaohang" creationdate="20180407T053845Z">
+        <seg>示例 25.6. 调整内存设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -17444,6 +17460,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configure(scalaCompileOptions.forkOptions) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T053847Z" creationid="huanghaohang" creationdate="20180407T053847Z">
+        <seg>configure(scalaCompileOptions.forkOptions) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>configures reasonable default values for all archive tasks (e.g. tasks that inherit from &lt;a0&gt;&lt;c1&gt;AbstractArchiveTask&lt;/c1&gt;&lt;/a0&gt;). For example, the archive tasks are tasks of types: &lt;a2&gt;&lt;c3&gt;Jar&lt;/c3&gt;&lt;/a2&gt;, &lt;a4&gt;&lt;c5&gt;Tar&lt;/c5&gt;&lt;/a4&gt;, &lt;a6&gt;&lt;c7&gt;Zip&lt;/c7&gt;&lt;/a6&gt;. Specifically, &lt;c8&gt;destinationDir&lt;/c8&gt;, &lt;c9&gt;baseName&lt;/c9&gt; and &lt;c10&gt;version&lt;/c10&gt; properties of the archive tasks are preconfigured with defaults. This is extremely useful because it drives consistency across projects; the consistency regarding naming conventions of archives and their location after the build completed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T093158Z" creationid="huanghaohang" creationdate="20180218T092719Z">
@@ -19708,6 +19732,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>jvmArgs = [&lt;s1&gt;'-XX:MaxPermSize=512m'&lt;/s1&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T053848Z" creationid="huanghaohang" creationdate="20180407T053848Z">
+        <seg>jvmArgs = [&lt;s1&gt;'-XX:MaxPermSize=512m'&lt;/s1&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>libs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061433Z" creationid="haohang" creationdate="20180313T061433Z">
@@ -19919,6 +19951,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T143259Z" creationid="huanghaohang" creationdate="20180207T143259Z">
         <seg>maven_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>memoryMaximumSize = &lt;s0&gt;'1g'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T053848Z" creationid="huanghaohang" creationdate="20180407T053848Z">
+        <seg>memoryMaximumSize = &lt;s0&gt;'1g'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -22673,6 +22713,14 @@ task lib1 &lt;&lt; {</seg>
 }
 
 task lib1 &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tasks.withType(ScalaCompile) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T053847Z" creationid="huanghaohang" creationdate="20180407T053847Z">
+        <seg>tasks.withType(ScalaCompile) {</seg>
       </tuv>
     </tu>
     <tu>
