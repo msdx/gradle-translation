@@ -13394,6 +13394,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Scala plugin adds a configuration named &lt;c0&gt;zinc&lt;/c0&gt; to resolve the Zinc library and its dependencies. To override the Zinc version that Gradle uses by default, add an explicit Zinc dependency (for example &lt;c1&gt;zinc "com.typesafe.zinc:zinc:0.1.4"&lt;/c1&gt;). Regardless of which Zinc version is used, Zinc will always use the Scala compiler found on the &lt;c2&gt;scalaTools&lt;/c2&gt; configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T134954Z" creationid="huanghaohang" creationdate="20180407T134954Z">
+        <seg>Scala 插件添加了一个名为 &lt;c0&gt;Zinc&lt;/c0&gt; 的配置，以解析 Zinc 库及其依赖。如果要覆盖 Gradle 默认使用的 Zinc 版本，请添加一个显式的 Zinc 依赖（例如 &lt;c1&gt;zinc "com.typesafe.zinc:zinc:0.1.4"&lt;/c1&gt;）。无论使用 Zinc 的哪一个版本，Zinc 总是会使用在 &lt;c2&gt;scalaTools&lt;/c2&gt;配置上找到的 Scala 编译器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Scala plugin adds the following convention properties to each source set in the project. You can use these properties in your build script as though they were properties of the source set object (see &lt;a0&gt;Section 21.3, “Conventions”&lt;/a0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T020152Z" creationid="huanghaohang" creationdate="20180407T020152Z">
