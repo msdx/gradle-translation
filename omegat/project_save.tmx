@@ -102,6 +102,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#N130C2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143210Z" creationid="huanghaohang" creationdate="20180408T143210Z">
+        <seg>#N130C2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#ftn.N100BF</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T070853Z" creationid="95" creationdate="20170723T070853Z">
@@ -4224,6 +4232,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;13&lt;/a1&gt;] &lt;/s0&gt;The &lt;c2&gt;runtime&lt;/c2&gt; configuration extends the &lt;c3&gt;compile&lt;/c3&gt; configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143220Z" creationid="huanghaohang" creationdate="20180408T143220Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;13&lt;/a1&gt;]&lt;/s0&gt;&lt;c2&gt;runtime&lt;/c2&gt; 配置继承自 &lt;c3&gt;compile&lt;/c3&gt; 配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;[&lt;a1&gt;1&lt;/a1&gt;] &lt;/s0&gt;At &lt;a2&gt;http://www.defmacro.org/ramblings/lisp.html&lt;/a2&gt; you find an interesting article comparing Ant, XML, Java and Lisp. It's funny that the 'if Java had that syntax' syntax in this article is actually the Groovy syntax.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072342Z" creationid="95" creationdate="20170723T072136Z">
@@ -6928,6 +6944,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Chapter 28. The Jetty Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143518Z" creationid="huanghaohang" creationdate="20180408T143518Z">
+        <seg>第二十八章. Jetty 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Chapter 3. Tutorials</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072420Z" creationid="95" creationdate="20170721T165938Z">
@@ -6964,6 +6988,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072240Z" creationid="haohang" creationdate="20170720T072240Z">
         <seg>第四十二章. Announce插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 48. Wrapper Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143510Z" creationid="huanghaohang" creationdate="20180408T143510Z">
+        <seg>第四十八章. Wrapper 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -11322,6 +11354,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025506Z" creationid="huanghaohang" creationdate="20180120T025506Z">
         <seg>有时候，你可能想要通过 &lt;c0&gt;--stop&lt;/c0&gt; 命令行选项或更有力的方式停止守护进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Of course one can configure the different file-sets with a closure to define excludes and includes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143158Z" creationid="huanghaohang" creationdate="20180408T143158Z">
+        <seg>当然，你可以用一个定义了排除和包含的闭包来配置不同的文件集。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17558,6 +17598,22 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>classpath configurations.moreLibs &lt;s17&gt;// adds a configuration to the WEB-INF/lib dir.&lt;/s17&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143129Z" creationid="huanghaohang" creationdate="20180408T143129Z">
+        <seg>classpath configurations.moreLibs &lt;s17&gt;// adds a configuration to the WEB-INF/lib dir.&lt;/s17&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classpath fileTree(&lt;s15&gt;'additionalLibs'&lt;/s15&gt;) &lt;s16&gt;// adds a file-set to the WEB-INF/lib dir.&lt;/s16&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143128Z" creationid="huanghaohang" creationdate="20180408T143128Z">
+        <seg>classpath fileTree(&lt;s15&gt;'additionalLibs'&lt;/s15&gt;) &lt;s16&gt;// adds a file-set to the WEB-INF/lib dir.&lt;/s16&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>classpath {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083830Z" creationid="huanghaohang" creationdate="20180105T083830Z">
@@ -18038,6 +18094,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123338Z" creationid="huanghaohang" creationdate="20180406T123338Z">
         <seg>dependencies(&lt;s6&gt;'org.apache.ant:ant-junit:1.9.3@jar'&lt;/s6&gt;, &lt;s7&gt;'org.apache.ant:ant-launcher:1.9.3'&lt;/s7&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency &lt;s6&gt;":providedCompile-transitive:1.0@jar"&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143124Z" creationid="huanghaohang" creationdate="20180408T143124Z">
+        <seg>dependency &lt;s6&gt;":providedCompile-transitive:1.0@jar"&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18780,6 +18844,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T135608Z" creationid="huanghaohang" creationdate="20171002T135608Z">
         <seg>from &lt;s0&gt;'src/main/webapp'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;s11&gt;'src/rootContent'&lt;/s11&gt; &lt;s12&gt;// adds a file-set to the root of the archive&lt;/s12&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143127Z" creationid="huanghaohang" creationdate="20180408T143127Z">
+        <seg>from &lt;s11&gt;'src/rootContent'&lt;/s11&gt; &lt;s12&gt;// adds a file-set to the root of the archive&lt;/s12&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -20409,6 +20481,20 @@ repositories {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>moreLibs &lt;s10&gt;":otherLib:1.0"&lt;/s10&gt;
+}
+
+war {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143126Z" creationid="huanghaohang" creationdate="20180408T143126Z">
+        <seg>moreLibs &lt;s10&gt;":otherLib:1.0"&lt;/s10&gt;
+}
+
+war {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>more_about_tasks.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030624Z" creationid="95" creationdate="20170729T030624Z">
@@ -21927,6 +22013,30 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>providedCompile &lt;s4&gt;"javax.servlet:servlet-api:2.5"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143122Z" creationid="huanghaohang" creationdate="20180408T143122Z">
+        <seg>providedCompile &lt;s4&gt;"javax.servlet:servlet-api:2.5"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>providedCompile module(&lt;s5&gt;":providedCompile:1.0"&lt;/s5&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143123Z" creationid="huanghaohang" creationdate="20180408T143123Z">
+        <seg>providedCompile module(&lt;s5&gt;":providedCompile:1.0"&lt;/s5&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>providedRuntime &lt;s8&gt;":providedRuntime:1.0@jar"&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143125Z" creationid="huanghaohang" creationdate="20180408T143125Z">
+        <seg>providedRuntime &lt;s8&gt;":providedRuntime:1.0@jar"&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>publishing_ivy.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T143843Z" creationid="huanghaohang" creationdate="20180207T143843Z">
@@ -22103,6 +22213,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T032917Z" creationid="huanghaohang" creationdate="20170908T032917Z">
         <seg>runtime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime &lt;s7&gt;":runtime:1.0"&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143124Z" creationid="huanghaohang" creationdate="20180408T143124Z">
+        <seg>runtime &lt;s7&gt;":runtime:1.0"&lt;/s7&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -23294,6 +23412,14 @@ test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&g
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>testCompile &lt;s9&gt;"junit:junit:4.11"&lt;/s9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143125Z" creationid="huanghaohang" creationdate="20180408T143125Z">
+        <seg>testCompile &lt;s9&gt;"junit:junit:4.11"&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>testCompile group: &lt;s10&gt;'junit'&lt;/s10&gt;, name: &lt;s11&gt;'junit'&lt;/s11&gt;, version: &lt;s12&gt;'4.+'&lt;/s12&gt;
 }
 
@@ -23968,6 +24094,24 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142213Z" creationid="huanghaohang" creationdate="20180408T142213Z">
         <seg>webAppDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>webInf { from &lt;s13&gt;'src/additionalWebInf'&lt;/s13&gt; } &lt;s14&gt;// adds a file-set to the WEB-INF dir.&lt;/s14&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143127Z" creationid="huanghaohang" creationdate="20180408T143127Z">
+        <seg>webInf { from &lt;s13&gt;'src/additionalWebInf'&lt;/s13&gt; } &lt;s14&gt;// adds a file-set to the WEB-INF dir.&lt;/s14&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>webXml = file(&lt;s18&gt;'src/someWeb.xml'&lt;/s18&gt;) &lt;s19&gt;// copies a file to WEB-INF/web.xml&lt;/s19&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143130Z" creationid="huanghaohang" creationdate="20180408T143130Z">
+        <seg>webXml = file(&lt;s18&gt;'src/someWeb.xml'&lt;/s18&gt;) &lt;s19&gt;// copies a file to WEB-INF/web.xml&lt;/s19&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
