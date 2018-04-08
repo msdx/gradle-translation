@@ -198,6 +198,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N130C2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142509Z" creationid="huanghaohang" creationdate="20180408T142509Z">
+        <seg>#ftn.N130C2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>*** gradle.manifesto.txt ***
 Make the impossible possible, make the possible easy and make the easy elegant.
 (inspired by Moshe Feldenkrais)</seg>
@@ -382,6 +390,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180318T010834Z" creationid="huanghaohang" creationdate="20180318T010834Z">
         <seg>../dsl/org.gradle.api.plugins.JavaPluginConvention.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.WarPluginConvention.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142344Z" creationid="huanghaohang" creationdate="20180408T142344Z">
+        <seg>../dsl/org.gradle.api.plugins.WarPluginConvention.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -2610,6 +2626,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>26.6. War</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142507Z" creationid="huanghaohang" creationdate="20180408T142507Z">
+        <seg>26.6. War</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -3748,6 +3772,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T100438Z" creationid="haohang" creationdate="20180326T100438Z">
         <seg>&lt;e0&gt;&lt;c1&gt;docsDir&lt;/c1&gt;&lt;/e0&gt;/javadoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;webAppDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142246Z" creationid="huanghaohang" creationdate="20180408T142246Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;projectDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;webAppDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12918,6 +12950,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 26.4. War plugin - directory properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142203Z" creationid="huanghaohang" creationdate="20180408T142203Z">
+        <seg>表 26.4. War 插件——目录属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -13866,6 +13906,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default behavior of the War task is to copy the content of &lt;c0&gt;src/main/webapp&lt;/c0&gt; to the root of the archive. Your &lt;c1&gt;webapp&lt;/c1&gt; directory may of course contain a &lt;c2&gt;WEB-INF&lt;/c2&gt; sub-directory, which again may contain a &lt;c3&gt;web.xml&lt;/c3&gt; file. Your compiled classes are compiled to &lt;c4&gt;WEB-INF/classes&lt;/c4&gt;. All the dependencies of the &lt;c5&gt;runtime&lt;/c5&gt; &lt;s6&gt;[&lt;a7&gt;13&lt;/a7&gt;]&lt;/s6&gt; configuration are copied to &lt;c8&gt;WEB-INF/lib&lt;/c8&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143004Z" creationid="huanghaohang" creationdate="20180408T142510Z">
+        <seg>War 任务的默认行为把 &lt;c0&gt;src/main/webapp&lt;/c0&gt; 的内容复制到档案的根目录下。你的 &lt;c1&gt;webapp&lt;/c1&gt; 目录自然可能包含一个 &lt;c2&gt;WEB-INF&lt;/c2&gt; 子目录，这个子目录还可能包含着一个 &lt;c3&gt;web.xml中&lt;/c3&gt; 文件。已经编译的类被会被编译进 &lt;c4&gt;WEB-INF/classes&lt;/c4&gt;。所有的 &lt;c5&gt;runtime&lt;/c5&gt;&lt;s6&gt;[&lt;a7&gt;13&lt;/a7&gt;]&lt;/s6&gt; 配置的依赖会被复制到 &lt;c8&gt;WEB-INF/lib&lt;/c8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default configuration used by a project dependency on this project. Contains the artifacts and dependencies required by this project at runtime.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T054142Z" creationid="haohang" creationdate="20180313T053916Z">
@@ -14170,6 +14218,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the web application source directory, relative to the project directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142242Z" creationid="huanghaohang" creationdate="20180408T142242Z">
+        <seg>web 应用程序源目录的名称，相当于项目目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The output files of the TaskOutputs are included in the file collection.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150616Z" creationid="huanghaohang" creationdate="20170927T150616Z">
@@ -14366,6 +14422,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233211Z" creationid="huanghaohang" creationdate="20171206T233211Z">
         <seg>归档文件名称中的版本部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The web application source directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142342Z" creationid="huanghaohang" creationdate="20180408T142342Z">
+        <seg>Web 应用程序的源目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14606,6 +14670,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180206T013845Z" creationid="huanghaohang" creationdate="20180206T013845Z">
         <seg>以下这些插件提供了一些与各种运行时技术的集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These properties are provided by a &lt;a0&gt;&lt;c1&gt;WarPluginConvention&lt;/c1&gt;&lt;/a0&gt; convention object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142505Z" creationid="huanghaohang" creationdate="20180408T142505Z">
+        <seg>这些属性由一个 &lt;a0&gt;&lt;c1&gt;WarPluginConvention&lt;/c1&gt;&lt;/a0&gt; 的约定对象提供。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23826,6 +23898,22 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T010147Z" creationid="huanghaohang" creationdate="20170909T010147Z">
         <seg>war_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>webAppDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142243Z" creationid="huanghaohang" creationdate="20180408T142243Z">
+        <seg>webAppDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>webAppDirName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142213Z" creationid="huanghaohang" creationdate="20180408T142213Z">
+        <seg>webAppDirName</seg>
       </tuv>
     </tu>
     <tu>
