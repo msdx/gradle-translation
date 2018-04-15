@@ -2666,6 +2666,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>27.3. Project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145315Z" creationid="huanghaohang" creationdate="20180415T145315Z">
+        <seg>27.3. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>27.4. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145332Z" creationid="huanghaohang" creationdate="20180415T145332Z">
+        <seg>27.4. 依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -3604,6 +3620,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035041Z" creationid="haohang" creationdate="20180313T035041Z">
         <seg>&lt;c0&gt;check&lt;/c0&gt; 和 &lt;c1&gt;assemble&lt;/c1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;compile&lt;/c0&gt; (only if the Java plugin is also applied)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145125Z" creationid="huanghaohang" creationdate="20180415T145125Z">
+        <seg>&lt;c0&gt;compile&lt;/c0&gt; (only if the Java plugin is also applied)</seg>
       </tuv>
     </tu>
     <tu>
@@ -6552,6 +6576,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assembles the application EAR file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145150Z" creationid="huanghaohang" creationdate="20180415T145150Z">
+        <seg>组装应用程序 EAR 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assembles the application WAR file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T140228Z" creationid="huanghaohang" creationdate="20180408T140228Z">
@@ -7754,6 +7786,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011207Z" creationid="huanghaohang" creationdate="20170923T011207Z">
         <seg>在这之后每一次执行任务之前，Gradle将输入和输出进行新的快照。如果新快照与以前的快照相同，则Gradle会假定输出是最新的，并跳过任务。如果它们不一样，则Gradle会执行任务。Gradle会保存这两个快照，用于这个任务的下一次执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ear</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145127Z" creationid="huanghaohang" creationdate="20180415T145127Z">
+        <seg>Ear</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ear resources, such as a META-INF directory</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145328Z" creationid="huanghaohang" creationdate="20180415T145328Z">
+        <seg>Ear 资源，如 META-INF 目录</seg>
       </tuv>
     </tu>
     <tu>
@@ -13054,6 +13102,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 27.1. Ear plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145123Z" creationid="huanghaohang" creationdate="20180415T145123Z">
+        <seg>表 27.1. Ear 插件——任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 27.2. Ear plugin - additional task dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145309Z" creationid="huanghaohang" creationdate="20180415T145309Z">
+        <seg>表 27.2. Ear 插件——额外的任务依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 27.3. Ear plugin - project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145320Z" creationid="huanghaohang" creationdate="20180415T145320Z">
+        <seg>表 27.3. Ear 插件——项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -13394,10 +13466,26 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Ear plugin adds the following dependencies to tasks added by the base plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145258Z" creationid="huanghaohang" creationdate="20180415T145258Z">
+        <seg>Ear 插件向基础插件所加入的任务添加了以下的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Ear plugin adds the following tasks to the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145116Z" creationid="huanghaohang" creationdate="20180415T145116Z">
         <seg>Ear 插件向项目添加了以下任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Ear plugin adds two dependency configurations: &lt;c0&gt;deploy&lt;/c0&gt; and &lt;c1&gt;earlib&lt;/c1&gt;. All dependencies in the &lt;c2&gt;deploy&lt;/c2&gt; configuration are placed in the root of the EAR archive, and are &lt;s3&gt;&lt;e4&gt;not&lt;/e4&gt;&lt;/s3&gt; transitive. All dependencies in the &lt;c5&gt;earlib&lt;/c5&gt; configuration are placed in the 'lib' directory in the EAR archive and &lt;s6&gt;&lt;e7&gt;are&lt;/e7&gt;&lt;/s6&gt; transitive.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145840Z" creationid="huanghaohang" creationdate="20180415T145840Z">
+        <seg>Ear 插件添加了两个依赖配置：&lt;c0&gt;deploy&lt;/c0&gt; 和 &lt;c1&gt;earlib&lt;/c1&gt;。所有在 &lt;c2&gt;deploy&lt;/c2&gt; 配置中的依赖都放在 EAR 存档的根目录中，并且是&lt;s3&gt;&lt;e4&gt;不具有&lt;/e4&gt;&lt;/s3&gt;传递性的。所有在 &lt;c5&gt;earlib&lt;/c5&gt; 配置中的依赖都放在 EAR 归档的 'lib' 目录中，并且是&lt;s6&gt;&lt;e7&gt;具有&lt;/e7&gt;&lt;/s6&gt;传递性的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22691,6 +22779,14 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T011152Z" creationid="huanghaohang" creationdate="20180407T011152Z">
         <seg>src/&lt;e0&gt;&lt;c1&gt;sourceSet&lt;/c1&gt;&lt;/e0&gt;/scala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>src/main/application</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145321Z" creationid="huanghaohang" creationdate="20180415T145321Z">
+        <seg>src/main/application</seg>
       </tuv>
     </tu>
     <tu>
