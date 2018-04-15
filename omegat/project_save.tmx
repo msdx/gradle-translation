@@ -2650,6 +2650,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>27.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145004Z" creationid="huanghaohang" creationdate="20180415T145004Z">
+        <seg>27.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>27.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145033Z" creationid="huanghaohang" creationdate="20180415T145033Z">
+        <seg>27.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -8990,6 +9006,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 27.1. Using the Ear plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145016Z" creationid="huanghaohang" creationdate="20180415T145016Z">
+        <seg>示例 27.1. 使用 Ear 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -13362,6 +13386,22 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Ear plugin adds support for assembling web application EAR files. It adds a default EAR archive task. It doesn't require the Java plugin, but for projects that also use the Java plugin it disables the default JAR archive generation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T144955Z" creationid="huanghaohang" creationdate="20180415T144955Z">
+        <seg>Ear 插件添加了对组装 Web 应用程序 EAR 文件的支持。它添加了一个默认的 EAR 归档任务。它不需要 Java 插件，但是对于也使用了 Java 插件的项目，它将禁用默认的 JAR 归档生成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Ear plugin adds the following tasks to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145116Z" creationid="huanghaohang" creationdate="20180415T145116Z">
+        <seg>Ear 插件向项目添加了以下任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Favorites tab is place to store commonly-executed commands. These can be complex commands (anything that's legal to Gradle) and you can provide them with a display name. This is useful for creating, say, a custom build command that explicitly skips tests, documentation, and samples that you could call "fast build".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T145213Z" creationid="huanghaohang" creationdate="20170911T144608Z">
@@ -15186,6 +15226,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use the Ear plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145014Z" creationid="huanghaohang" creationdate="20180415T145014Z">
+        <seg>要使用 Ear 的插件，请在构建脚本中包含以下语句：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use the Groovy library that ships with Gradle, declare a &lt;c0&gt;localGroovy()&lt;/c0&gt; dependency. Note that different Gradle versions ship with different Groovy versions; as such, using &lt;c1&gt;localGroovy()&lt;/c1&gt; is less safe then declaring a regular Groovy dependency.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122854Z" creationid="huanghaohang" creationdate="20180406T122643Z">
@@ -16918,6 +16966,14 @@ ext {</seg>
         <seg>apply plugin: &lt;s0&gt;"java"&lt;/s0&gt;
 
 ext {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'ear'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145017Z" creationid="huanghaohang" creationdate="20180415T145017Z">
+        <seg>apply plugin: &lt;s0&gt;'ear'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
