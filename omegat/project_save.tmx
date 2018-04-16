@@ -618,6 +618,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.plugins.ear.EarPluginConvention.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142633Z" creationid="huanghaohang" creationdate="20180416T142633Z">
+        <seg>../dsl/org.gradle.plugins.ear.EarPluginConvention.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/BuildListener.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144454Z" creationid="huanghaohang" creationdate="20180107T144454Z">
@@ -2690,6 +2698,30 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>27.6. Ear</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142701Z" creationid="huanghaohang" creationdate="20180416T142701Z">
+        <seg>27.6. Ear</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>27.7. Customizing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142935Z" creationid="huanghaohang" creationdate="20180416T142935Z">
+        <seg>27.7. 自定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>27.8. Using custom descriptor file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143132Z" creationid="huanghaohang" creationdate="20180416T143132Z">
+        <seg>27.8. 使用自定义的描述符文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -4422,6 +4454,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s13&gt;// also modify the generated deployment descriptor accordingly&lt;/s13&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142957Z" creationid="huanghaohang" creationdate="20180416T142957Z">
+        <seg>&lt;s13&gt;// also modify the generated deployment descriptor accordingly&lt;/s13&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;// Disable the test report for the individual test task&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T044001Z" creationid="huanghaohang" creationdate="20180406T044001Z">
@@ -4518,6 +4558,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;//following dependencies will become the ear modules and placed in the ear root&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142952Z" creationid="huanghaohang" creationdate="20180416T142952Z">
+        <seg>&lt;s2&gt;//following dependencies will become the ear modules and placed in the ear root&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;//include all tests from package&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131639Z" creationid="huanghaohang" creationdate="20180405T131639Z">
@@ -4582,6 +4630,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060342Z" creationid="huanghaohang" creationdate="20171126T060342Z">
         <seg>&lt;s4&gt;// Substitute property references in files&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s4&gt;//following dependencies will become ear libs and placed in a dir configured via libDirName property&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142954Z" creationid="huanghaohang" creationdate="20180416T142954Z">
+        <seg>&lt;s4&gt;//following dependencies will become ear libs and placed in a dir configured via libDirName property&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -6404,6 +6460,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035004Z" creationid="haohang" creationdate="20180313T034907Z">
         <seg>项目中的所有验证任务，包括 &lt;c0&gt;test&lt;/c0&gt;。有些插件会向项目添加另外的验证任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also have a look at &lt;a0&gt;&lt;c1&gt;Ear&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142927Z" creationid="huanghaohang" creationdate="20180416T142927Z">
+        <seg>另请参阅 &lt;a0&gt;&lt;c1&gt;Ear&lt;/c1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9078,6 +9142,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 27.2. Customization of ear plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142948Z" creationid="huanghaohang" creationdate="20180416T142948Z">
+        <seg>示例 27.2. ear 插件的自定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -11098,6 +11170,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170907T161035Z" creationid="95" creationdate="20170907T161035Z">
         <seg>我们来看一下一些依赖声明。下面是一个基本的构建脚本：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's say you already have the &lt;c0&gt;application.xml&lt;/c0&gt; and want to use it instead of configuring the &lt;c1&gt;ear.deploymentDescriptor&lt;/c1&gt; section. To accommodate that place the &lt;c2&gt;META-INF/application.xml&lt;/c2&gt; in the right place inside your source folders (see the &lt;c3&gt;appDirName&lt;/c3&gt; property). The existing file contents will be used and the explicit configuration in the &lt;c4&gt;ear.deploymentDescriptor&lt;/c4&gt; will be ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143504Z" creationid="huanghaohang" creationdate="20180416T143504Z">
+        <seg>假设你已经有了 &lt;c0&gt;application.xml中&lt;/c0&gt; 并且希望使用它而不是去配置 &lt;c1&gt;ear.deploymentDescriptor&lt;/c1&gt; 代码段，那么就要把 &lt;c2&gt;META-INF/application.xml&lt;/c2&gt; 放在你源文件夹中的正确位置（请参阅 &lt;c3&gt;appDirName&lt;/c3&gt; 属性）。这样现有的文件内容将被使用，而 &lt;c4&gt;ear.deploymentDescriptor&lt;/c4&gt; 中的显式配置则会被忽略。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14138,6 +14218,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default behavior of the Ear task is to copy the content of &lt;c0&gt;src/main/application&lt;/c0&gt; to the root of the archive. If your &lt;c1&gt;application&lt;/c1&gt; directory doesn't contain a &lt;c2&gt;META-INF/application.xml&lt;/c2&gt; deployment descriptor then one will be generated for you.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142915Z" creationid="huanghaohang" creationdate="20180416T142705Z">
+        <seg>Ear 任务的默认行为是把 &lt;c0&gt;src/main/application&lt;/c0&gt; 的内容复制到档案的根目录下。如果你的 &lt;c1&gt;application&lt;/c1&gt; 目录没有包含 &lt;c2&gt;META-INF/application.xml&lt;/c2&gt; 部署描述符，那么将会为你生成一个。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default behavior of the War task is to copy the content of &lt;c0&gt;src/main/webapp&lt;/c0&gt; to the root of the archive. Your &lt;c1&gt;webapp&lt;/c1&gt; directory may of course contain a &lt;c2&gt;WEB-INF&lt;/c2&gt; sub-directory, which again may contain a &lt;c3&gt;web.xml&lt;/c3&gt; file. Your compiled classes are compiled to &lt;c4&gt;WEB-INF/classes&lt;/c4&gt;. All the dependencies of the &lt;c5&gt;runtime&lt;/c5&gt; &lt;s6&gt;[&lt;a7&gt;13&lt;/a7&gt;]&lt;/s6&gt; configuration are copied to &lt;c8&gt;WEB-INF/lib&lt;/c8&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143004Z" creationid="huanghaohang" creationdate="20180408T142510Z">
@@ -14918,6 +15006,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180206T013845Z" creationid="huanghaohang" creationdate="20180206T013845Z">
         <seg>以下这些插件提供了一些与各种运行时技术的集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These properties are provided by a &lt;a0&gt;&lt;c1&gt;EarPluginConvention&lt;/c1&gt;&lt;/a0&gt; convention object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142657Z" creationid="huanghaohang" creationdate="20180416T142657Z">
+        <seg>这些属性由一个 &lt;a0&gt;&lt;c1&gt;EarPluginConvention&lt;/c1&gt;&lt;/a0&gt; 公约对象提供。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16266,6 +16362,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also use customization options that the &lt;a0&gt;&lt;c1&gt;Ear&lt;/c1&gt;&lt;/a0&gt; task provides, such as &lt;c2&gt;from&lt;/c2&gt; and &lt;c3&gt;metaInf&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143126Z" creationid="huanghaohang" creationdate="20180416T143126Z">
+        <seg>你也可以使用 &lt;a0&gt;&lt;c1&gt;Ear&lt;/c1&gt;&lt;/a0&gt; 任务提供的自定义选项，如 &lt;c2&gt;from&lt;/c2&gt; 和 &lt;c3&gt;metaInf&lt;/c3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also use strings for the task names:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121037Z" creationid="huanghaohang" creationdate="20170919T121037Z">
@@ -17054,6 +17158,14 @@ webapp:libs - Builds the JAR [api:libs]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>appDirName &lt;s9&gt;'src/main/app'&lt;/s9&gt;  &lt;s10&gt;// use application metadata found in this folder&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142955Z" creationid="huanghaohang" creationdate="20180416T142955Z">
+        <seg>appDirName &lt;s9&gt;'src/main/app'&lt;/s9&gt;  &lt;s10&gt;// use application metadata found in this folder&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>appendix</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233148Z" creationid="huanghaohang" creationdate="20171206T233148Z">
@@ -17074,6 +17186,14 @@ webapp:libs - Builds the JAR [api:libs]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180206T013853Z" creationid="huanghaohang" creationdate="20180206T013853Z">
         <seg>application</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>applicationName = &lt;s17&gt;"customear"&lt;/s17&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142959Z" creationid="huanghaohang" creationdate="20180416T142959Z">
+        <seg>applicationName = &lt;s17&gt;"customear"&lt;/s17&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17118,6 +17238,24 @@ ext {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145017Z" creationid="huanghaohang" creationdate="20180415T145017Z">
         <seg>apply plugin: &lt;s0&gt;'ear'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'ear'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'java'&lt;/s1&gt;
+
+repositories { mavenCentral() }
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142950Z" creationid="huanghaohang" creationdate="20180416T142950Z">
+        <seg>apply plugin: &lt;s0&gt;'ear'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'java'&lt;/s1&gt;
+
+repositories { mavenCentral() }
+
+dependencies {</seg>
       </tuv>
     </tu>
     <tu>
@@ -18404,10 +18542,30 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>deploy project(&lt;s3&gt;':war'&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142953Z" creationid="huanghaohang" creationdate="20180416T142953Z">
+        <seg>deploy project(&lt;s3&gt;':war'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>deploymentDescriptor</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145936Z" creationid="huanghaohang" creationdate="20180415T145936Z">
         <seg>deploymentDescriptor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>deploymentDescriptor {  &lt;s14&gt;// custom entries for application.xml:&lt;/s14&gt;
+&lt;s15&gt;//      fileName = "application.xml"  // same as the default value&lt;/s15&gt;
+&lt;s16&gt;//      version = "6"  // same as the default value&lt;/s16&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142958Z" creationid="huanghaohang" creationdate="20180416T142958Z">
+        <seg>deploymentDescriptor {  &lt;s14&gt;// custom entries for application.xml:&lt;/s14&gt;
+&lt;s15&gt;//      fileName = "application.xml"  // same as the default value&lt;/s15&gt;
+&lt;s16&gt;//      version = "6"  // same as the default value&lt;/s16&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18440,6 +18598,20 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011419Z" creationid="huanghaohang" creationdate="20170910T011419Z">
         <seg>description = &lt;s0&gt;'The shared API for the application'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>description = &lt;s20&gt;"My customized EAR for the Gradle documentation"&lt;/s20&gt;  &lt;s21&gt;// defaults to project.description&lt;/s21&gt;
+&lt;s22&gt;//      libraryDirectory = "APP-INF/lib"  // not needed, because setting libDirName above did this for us&lt;/s22&gt;
+&lt;s23&gt;//      module("my.jar", "java")  // wouldn't deploy since my.jar isn't a deploy dependency&lt;/s23&gt;
+&lt;s24&gt;//      webModule("my.war", "/")  // wouldn't deploy since my.war isn't a deploy dependency&lt;/s24&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143002Z" creationid="huanghaohang" creationdate="20180416T143002Z">
+        <seg>description = &lt;s20&gt;"My customized EAR for the Gradle documentation"&lt;/s20&gt;  &lt;s21&gt;// defaults to project.description&lt;/s21&gt;
+&lt;s22&gt;//      libraryDirectory = "APP-INF/lib"  // not needed, because setting libDirName above did this for us&lt;/s22&gt;
+&lt;s23&gt;//      module("my.jar", "java")  // wouldn't deploy since my.jar isn't a deploy dependency&lt;/s23&gt;
+&lt;s24&gt;//      webModule("my.war", "/")  // wouldn't deploy since my.war isn't a deploy dependency&lt;/s24&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18512,6 +18684,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154119Z" creationid="95" creationdate="20170731T154119Z">
         <seg>dirs &lt;s15&gt;'repos'&lt;/s15&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>displayName = &lt;s18&gt;"Custom Ear"&lt;/s18&gt;  &lt;s19&gt;// defaults to project.name&lt;/s19&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143000Z" creationid="huanghaohang" creationdate="20180416T143000Z">
+        <seg>displayName = &lt;s18&gt;"Custom Ear"&lt;/s18&gt;  &lt;s19&gt;// defaults to project.name&lt;/s19&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -18658,6 +18838,20 @@ api:libs - Builds the JAR</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180206T014450Z" creationid="huanghaohang" creationdate="20180206T014450Z">
         <seg>ear_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>earlib group: &lt;s5&gt;'log4j'&lt;/s5&gt;, name: &lt;s6&gt;'log4j'&lt;/s6&gt;, version: &lt;s7&gt;'1.2.15'&lt;/s7&gt;, ext: &lt;s8&gt;'jar'&lt;/s8&gt;
+}
+
+ear {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142955Z" creationid="huanghaohang" creationdate="20180416T142955Z">
+        <seg>earlib group: &lt;s5&gt;'log4j'&lt;/s5&gt;, name: &lt;s6&gt;'log4j'&lt;/s6&gt;, version: &lt;s7&gt;'1.2.15'&lt;/s7&gt;, ext: &lt;s8&gt;'jar'&lt;/s8&gt;
+}
+
+ear {</seg>
       </tuv>
     </tu>
     <tu>
@@ -19984,6 +20178,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>initializeInOrder = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143000Z" creationid="huanghaohang" creationdate="20180416T143000Z">
+        <seg>initializeInOrder = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>inputs.file copyTask &lt;s0&gt;// up-to-date check for inputs, plus add copyTask as dependency&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124925Z" creationid="huanghaohang" creationdate="20171015T124925Z">
@@ -20456,6 +20658,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145913Z" creationid="huanghaohang" creationdate="20180415T145913Z">
         <seg>libDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>libDirName &lt;s11&gt;'APP-INF/lib'&lt;/s11&gt;  &lt;s12&gt;// put dependency libraries into APP-INF/lib inside the generated EAR;&lt;/s12&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142956Z" creationid="huanghaohang" creationdate="20180416T142956Z">
+        <seg>libDirName &lt;s11&gt;'APP-INF/lib'&lt;/s11&gt;  &lt;s12&gt;// put dependency libraries into APP-INF/lib inside the generated EAR;&lt;/s12&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -22269,6 +22479,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>provider.asNode().appendNode(&lt;s28&gt;"data-source"&lt;/s28&gt;, &lt;s29&gt;"my/data/source"&lt;/s29&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143008Z" creationid="huanghaohang" creationdate="20180416T143008Z">
+        <seg>provider.asNode().appendNode(&lt;s28&gt;"data-source"&lt;/s28&gt;, &lt;s29&gt;"my/data/source"&lt;/s29&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>publishing_ivy.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T143843Z" creationid="huanghaohang" creationdate="20180207T143843Z">
@@ -22553,6 +22771,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010618Z" creationid="huanghaohang" creationdate="20180407T010618Z">
         <seg>scaladoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>securityRole &lt;s25&gt;"admin"&lt;/s25&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143003Z" creationid="huanghaohang" creationdate="20180416T143003Z">
+        <seg>securityRole &lt;s25&gt;"admin"&lt;/s25&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>securityRole &lt;s26&gt;"superadmin"&lt;/s26&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143005Z" creationid="huanghaohang" creationdate="20180416T143005Z">
+        <seg>securityRole &lt;s26&gt;"superadmin"&lt;/s26&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -24452,6 +24686,14 @@ webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T143109Z" creationid="huanghaohang" creationdate="20180205T143109Z">
         <seg>windows-resources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>withXml { provider -&gt; &lt;s27&gt;// add a custom node to the XML&lt;/s27&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143006Z" creationid="huanghaohang" creationdate="20180416T143006Z">
+        <seg>withXml { provider -&gt; &lt;s27&gt;// add a custom node to the XML&lt;/s27&gt;</seg>
       </tuv>
     </tu>
     <tu>
