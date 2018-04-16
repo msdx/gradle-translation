@@ -11230,6 +11230,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Metadata to generate a deployment descriptor file, e.g. &lt;c0&gt;application.xml&lt;/c0&gt;. If this file already exists in the &lt;c1&gt;appDirName/META-INF&lt;/c1&gt; then the existing file contents will be used and the explicit configuration in the &lt;c2&gt;ear.deploymentDescriptor&lt;/c2&gt; will be ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142631Z" creationid="huanghaohang" creationdate="20180415T150124Z">
+        <seg>用于生成部署描述符文件的元数据，如 &lt;c0&gt;application.xml中&lt;/c0&gt;。如果这个文件已经存在于 &lt;c1&gt;appDirName/META-INF&lt;/c1&gt;，那么将使用现有的文件内容，而在 &lt;c2&gt;ear.deploymentDescriptor&lt;/c2&gt; 中的显式配置则将被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>More about Tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180201T021639Z" creationid="huanghaohang" creationdate="20180201T021639Z">
