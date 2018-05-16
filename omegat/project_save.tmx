@@ -458,6 +458,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.quality.CodeNarc.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T141828Z" creationid="huanghaohang" creationdate="20180516T141828Z">
+        <seg>../dsl/org.gradle.api.plugins.quality.CodeNarc.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.Copy.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122243Z" creationid="huanghaohang" creationdate="20170919T122243Z">
@@ -2918,6 +2926,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T140412Z" creationid="huanghaohang" creationdate="20180516T140412Z">
         <seg>30.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>30.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T141802Z" creationid="huanghaohang" creationdate="20180516T141802Z">
+        <seg>30.2. 任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -7488,6 +7504,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CodeNarc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T141830Z" creationid="huanghaohang" creationdate="20180516T141830Z">
+        <seg>CodeNarc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Command Line</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T234030Z" creationid="huanghaohang" creationdate="20171206T234030Z">
@@ -9426,6 +9450,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180424T134705Z" creationid="huanghaohang" creationdate="20180424T134705Z">
         <seg>示例 29.1. 使用 Checkstyle 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 30.1. Using the CodeNarc plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T141757Z" creationid="huanghaohang" creationdate="20180516T141757Z">
+        <seg>示例 30.1. 使用 CodeNarc 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -12870,6 +12902,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Runs CodeNarc against the production Groovy source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T141849Z" creationid="huanghaohang" creationdate="20180516T141849Z">
+        <seg>针对 Groovy 的生产源文件运行 CodeNarc。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Runs the unit tests using JUnit or TestNG.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063134Z" creationid="haohang" creationdate="20180312T063134Z">
@@ -13686,6 +13726,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 30.1. CodeNarc plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T141826Z" creationid="huanghaohang" creationdate="20180516T141826Z">
+        <seg>表 30.1. CodeNarc 插件——任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -14046,6 +14094,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180424T134645Z" creationid="huanghaohang" creationdate="20180424T134645Z">
         <seg>Checkstyle 插件使用 &lt;a0&gt;Checkstyle&lt;/a0&gt; 对你的项目的 Java 源文件执行质量检查，并从这些检查结果生成报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The CodeNarc plugin adds the following tasks to the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T141821Z" creationid="huanghaohang" creationdate="20180516T141821Z">
+        <seg>CodeNarc 插件将以下任务添加到项目中：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16058,6 +16114,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use the CodeNarc plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T141754Z" creationid="huanghaohang" creationdate="20180516T141754Z">
+        <seg>要使用 CodeNarc 插件，请在构建脚本中包含：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use the Ear plugin, include in your build script:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145014Z" creationid="huanghaohang" creationdate="20180415T145014Z">
@@ -17866,6 +17930,14 @@ ext {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'codenarc'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T141758Z" creationid="huanghaohang" creationdate="20180516T141758Z">
+        <seg>apply plugin: &lt;s0&gt;'codenarc'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'ear'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145017Z" creationid="huanghaohang" creationdate="20180415T145017Z">
@@ -18636,6 +18708,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144444Z" creationid="huanghaohang" creationdate="20180207T144444Z">
         <seg>codenarc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>codenarcMain</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T141827Z" creationid="huanghaohang" creationdate="20180516T141827Z">
+        <seg>codenarcMain</seg>
       </tuv>
     </tu>
     <tu>
