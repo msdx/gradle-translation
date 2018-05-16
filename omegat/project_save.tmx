@@ -442,6 +442,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.quality.Checkstyle.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135603Z" creationid="huanghaohang" creationdate="20180516T135603Z">
+        <seg>../dsl/org.gradle.api.plugins.quality.Checkstyle.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.Copy.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122243Z" creationid="huanghaohang" creationdate="20170919T122243Z">
@@ -2798,6 +2806,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180424T134649Z" creationid="huanghaohang" creationdate="20180424T134649Z">
         <seg>29.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>29.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135512Z" creationid="huanghaohang" creationdate="20180516T135512Z">
+        <seg>29.2. 任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -7316,6 +7332,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T130455Z" creationid="95" creationdate="20170803T130455Z">
         <seg>第九章. Groovy 快速入门</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Checkstyle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135609Z" creationid="huanghaohang" creationdate="20180516T135609Z">
+        <seg>Checkstyle</seg>
       </tuv>
     </tu>
     <tu>
@@ -12686,6 +12710,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Runs Checkstyle against the given source set's Java source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135657Z" creationid="huanghaohang" creationdate="20180516T135657Z">
+        <seg>针对给定源集的 Java 源文件运行 Checkstyle。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Runs Checkstyle against the production Java source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135622Z" creationid="huanghaohang" creationdate="20180516T135622Z">
+        <seg>针对生产 Java 源文件运行 Checkstyle。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Runs Checkstyle against the test Java source files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135630Z" creationid="huanghaohang" creationdate="20180516T135630Z">
+        <seg>针对测试 Java 源文件运行 Checkstyle。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Runs the unit tests using JUnit or TestNG.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063134Z" creationid="haohang" creationdate="20180312T063134Z">
@@ -13462,6 +13510,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 29.1. Checkstyle plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135555Z" creationid="huanghaohang" creationdate="20180516T135538Z">
+        <seg>表 29.1. Checkstyle 插件——插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -13774,6 +13830,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T094811Z" creationid="huanghaohang" creationdate="20180105T094811Z">
         <seg>对 Ant 集成由 &lt;a0&gt;&lt;c1&gt;AntBuilder&lt;/c1&gt;&lt;/a0&gt; 提供。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Checkstyle plugin adds the following tasks to the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135536Z" creationid="huanghaohang" creationdate="20180516T135536Z">
+        <seg>Checkstyle 插件将以下任务添加到项目中：</seg>
       </tuv>
     </tu>
     <tu>
@@ -14900,8 +14964,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The plugin adds a number of tasks to the project that perform the quality checks. You can execute the checks by running &lt;s0&gt;&lt;c1&gt;gradle check&lt;/c1&gt;&lt;/s0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135334Z" creationid="huanghaohang" creationdate="20180516T135334Z">
-        <seg>The plugin adds a number of tasks to the project that perform the quality checks. You can execute the checks by running &lt;s0&gt;&lt;c1&gt;gradle check&lt;/c1&gt;&lt;/s0&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135507Z" creationid="huanghaohang" creationdate="20180516T135334Z">
+        <seg>该插件向项目添加了许多执行质量检查的任务。你可以通过运行 &lt;s0&gt;&lt;c1&gt;gradle check&lt;/c1&gt;&lt;/s0&gt; 来执行这些检查。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18226,6 +18290,30 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144400Z" creationid="huanghaohang" creationdate="20180207T144400Z">
         <seg>checkstyle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>checkstyle&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135641Z" creationid="huanghaohang" creationdate="20180516T135641Z">
+        <seg>checkstyle&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>checkstyleMain</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135602Z" creationid="huanghaohang" creationdate="20180516T135602Z">
+        <seg>checkstyleMain</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>checkstyleTest</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135624Z" creationid="huanghaohang" creationdate="20180516T135624Z">
+        <seg>checkstyleTest</seg>
       </tuv>
     </tu>
     <tu>
