@@ -2818,6 +2818,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>29.3. Project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135807Z" creationid="huanghaohang" creationdate="20180516T135807Z">
+        <seg>29.3. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>29.4. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T140017Z" creationid="huanghaohang" creationdate="20180516T140017Z">
+        <seg>29.4. 依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>3.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014533Z" creationid="haohang" creationdate="20170801T014533Z">
@@ -6496,6 +6512,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All Checkstyle tasks, including &lt;c0&gt;checkstyleMain&lt;/c0&gt; and &lt;c1&gt;checkstyleTest&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135804Z" creationid="huanghaohang" creationdate="20180516T135804Z">
+        <seg>所有 Checkstyle 任务，包括 &lt;c0&gt;checkstyleMain&lt;/c0&gt; 和 &lt;c1&gt;checkstyleTest&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All Groovy source files of this source set. Contains only the &lt;c0&gt;.groovy&lt;/c0&gt; files found in the Groovy source directories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T234947Z" creationid="huanghaohang" creationdate="20180406T234947Z">
@@ -7340,6 +7364,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135609Z" creationid="huanghaohang" creationdate="20180516T135609Z">
         <seg>Checkstyle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Checkstyle configuration file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T140013Z" creationid="huanghaohang" creationdate="20180516T140013Z">
+        <seg>Checkstyle 配置文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -13518,6 +13550,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 29.2. Checkstyle plugin - additional task dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135750Z" creationid="huanghaohang" creationdate="20180516T135750Z">
+        <seg>表 29.2. Checkstyle 插件——额外的任务依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 29.3. Checkstyle plugin - project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T140002Z" creationid="huanghaohang" creationdate="20180516T140002Z">
+        <seg>表 29.3. Checkstyle 插件——项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 29.4. Checkstyle plugin - dependency configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T140100Z" creationid="huanghaohang" creationdate="20180516T140100Z">
+        <seg>表29.4. Checkstyle 插件——依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -13834,10 +13890,42 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Checkstyle libraries to use</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T140130Z" creationid="huanghaohang" creationdate="20180516T140130Z">
+        <seg>要使用的 Checkstyle 库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Checkstyle plugin adds the following dependencies to tasks defined by the Java plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135732Z" creationid="huanghaohang" creationdate="20180516T135732Z">
+        <seg>Checkstyle 插件向 Java 插件所定义的任务添加了以下依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Checkstyle plugin adds the following dependency configurations:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T140030Z" creationid="huanghaohang" creationdate="20180516T140030Z">
+        <seg>Checkstyle 插件添加了以下依赖配置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Checkstyle plugin adds the following tasks to the project:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135536Z" creationid="huanghaohang" creationdate="20180516T135536Z">
         <seg>Checkstyle 插件将以下任务添加到项目中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Checkstyle plugin expects the following project layout:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T135956Z" creationid="huanghaohang" creationdate="20180516T135956Z">
+        <seg>Checkstyle 插件希望是以下的项目布局：</seg>
       </tuv>
     </tu>
     <tu>
@@ -18666,6 +18754,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010526Z" creationid="huanghaohang" creationdate="20180407T010526Z">
         <seg>compileTestScala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>config/checkstyle/checkstyle.xml</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T140011Z" creationid="huanghaohang" creationdate="20180516T140011Z">
+        <seg>config/checkstyle/checkstyle.xml</seg>
       </tuv>
     </tu>
     <tu>
