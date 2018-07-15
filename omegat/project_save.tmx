@@ -762,6 +762,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.testing.jacoco.plugins.JacocoTaskExtension.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093017Z" creationid="huanghaohang" creationdate="20180715T093017Z">
+        <seg>../dsl/org.gradle.testing.jacoco.plugins.JacocoTaskExtension.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.testing.jacoco.tasks.JacocoReport.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T135326Z" creationid="huanghaohang" creationdate="20180712T135326Z">
@@ -3554,6 +3562,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>34.4. JaCoCo specific task configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093016Z" creationid="huanghaohang" creationdate="20180715T093016Z">
+        <seg>34.4. JaCoCo 的特定任务配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014548Z" creationid="haohang" creationdate="20170801T014548Z">
@@ -4596,6 +4612,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T095343Z" creationid="haohang" creationdate="20180320T095343Z">
         <seg>&lt;c0&gt;output&lt;/c0&gt; + &lt;c1&gt;runtime&lt;e2&gt;&lt;c3&gt;SourceSet&lt;/c3&gt;&lt;/e2&gt;&lt;/c1&gt; 配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;$buildDir&lt;/c1&gt;&lt;/e0&gt;/jacoco</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093244Z" creationid="huanghaohang" creationdate="20180715T093244Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;$buildDir&lt;/c1&gt;&lt;/e0&gt;/jacoco</seg>
       </tuv>
     </tu>
     <tu>
@@ -10286,6 +10310,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 34.3. Configuring test task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093007Z" creationid="huanghaohang" creationdate="20180715T093007Z">
+        <seg>示例 34.3. 配置测试任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 34.4. Configuring test task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093221Z" creationid="huanghaohang" creationdate="20180715T093221Z">
+        <seg>示例 34.3. 配置测试任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -14942,6 +14982,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 34.2. Default values of the JaCoCo Task extension</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093231Z" creationid="huanghaohang" creationdate="20180715T093231Z">
+        <seg>表 34.2. JaCoCo 任务扩展的默认值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -15654,6 +15702,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T142617Z" creationid="huanghaohang" creationdate="20180516T142617Z">
         <seg>JDepend 插件使用 &lt;a0&gt;JDepend&lt;/a0&gt; 对项目的源文件执行质量检查，并从这些检查中生成报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The JaCoCo plugin adds a &lt;a0&gt;&lt;c1&gt;JacocoTaskExtension&lt;/c1&gt;&lt;/a0&gt; extension to all tasks of type &lt;a2&gt;&lt;c3&gt;Test&lt;/c3&gt;&lt;/a2&gt;. This extension allows the configuration of the JaCoCo specific properties of the test task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093217Z" creationid="huanghaohang" creationdate="20180715T093217Z">
+        <seg>JaCoCo 插件添加了一个 &lt;a0&gt;&lt;c1&gt;JacocoTaskExtension&lt;/c1&gt;&lt;/a0&gt; 扩展到所有 &lt;a2&gt;&lt;c3&gt;Test&lt;/c3&gt;&lt;/a2&gt; 类型的任务中。这一扩展允许配置测试任务中的一些特定的 JaCoCo 属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18994,6 +19050,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>[]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093250Z" creationid="huanghaohang" creationdate="20180715T093250Z">
+        <seg>[]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>\--- compile</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T022201Z" creationid="huanghaohang" creationdate="20170910T022201Z">
@@ -19362,6 +19426,22 @@ webapp:libs - Builds the JAR [api:libs]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142955Z" creationid="huanghaohang" creationdate="20180416T142955Z">
         <seg>appDirName &lt;s9&gt;'src/main/app'&lt;/s9&gt;  &lt;s10&gt;// use application metadata found in this folder&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>append</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093248Z" creationid="huanghaohang" creationdate="20180715T093248Z">
+        <seg>append</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>append = false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093222Z" creationid="huanghaohang" creationdate="20180715T093222Z">
+        <seg>append = false</seg>
       </tuv>
     </tu>
     <tu>
@@ -19920,6 +20000,14 @@ task fooJar(type: Jar) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>auto-generated</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093254Z" creationid="huanghaohang" creationdate="20180715T093254Z">
+        <seg>auto-generated</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>base</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090001Z" creationid="huanghaohang" creationdate="20180211T090001Z">
@@ -20162,6 +20250,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144359Z" creationid="huanghaohang" creationdate="20180207T144359Z">
         <seg>checkstyle_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classDumpFile = file(&lt;s1&gt;"$buildDir/jacoco/classpathdumps"&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093223Z" creationid="huanghaohang" creationdate="20180715T093223Z">
+        <seg>classDumpFile = file(&lt;s1&gt;"$buildDir/jacoco/classpathdumps"&lt;/s1&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -20606,6 +20702,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>csv.enabled false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093010Z" creationid="huanghaohang" creationdate="20180715T093010Z">
+        <seg>csv.enabled false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>cunit</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090434Z" creationid="huanghaohang" creationdate="20180211T090434Z">
@@ -20960,6 +21064,14 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>destPath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093239Z" creationid="huanghaohang" creationdate="20180715T093239Z">
+        <seg>destPath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>destinationDir</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232818Z" creationid="huanghaohang" creationdate="20171206T232818Z">
@@ -20972,6 +21084,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T044004Z" creationid="huanghaohang" creationdate="20180406T044004Z">
         <seg>destinationDir = file(&lt;s2&gt;"$buildDir/reports/allTests"&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>destinationFile = file(&lt;s0&gt;"$buildDir/jacoco/jacocoTest.exec"&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093222Z" creationid="huanghaohang" creationdate="20180715T093222Z">
+        <seg>destinationFile = file(&lt;s0&gt;"$buildDir/jacoco/jacocoTest.exec"&lt;/s0&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -21146,6 +21266,14 @@ api:libs - Builds the JAR</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dumpOnExit</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093255Z" creationid="huanghaohang" creationdate="20180715T093255Z">
+        <seg>dumpOnExit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>eachEntry { details -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111943Z" creationid="huanghaohang" creationdate="20180406T111943Z">
@@ -21234,6 +21362,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>enabled</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093237Z" creationid="huanghaohang" creationdate="20180715T093237Z">
+        <seg>enabled</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>endIndex = &lt;s3&gt;5&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145823Z" creationid="huanghaohang" creationdate="20170918T145823Z">
@@ -21276,10 +21412,26 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>excludeClassLoaders</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093251Z" creationid="huanghaohang" creationdate="20180715T093251Z">
+        <seg>excludeClassLoaders</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>excludeGroups &lt;s0&gt;'integrationTests'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042050Z" creationid="huanghaohang" creationdate="20180406T042050Z">
         <seg>excludeGroups &lt;s0&gt;'integrationTests'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>excludes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093250Z" creationid="huanghaohang" creationdate="20180715T093250Z">
+        <seg>excludes</seg>
       </tuv>
     </tu>
     <tu>
@@ -22124,6 +22276,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>html.destination &lt;s0&gt;"${buildDir}/jacocoHtml"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093011Z" creationid="huanghaohang" creationdate="20180715T093011Z">
+        <seg>html.destination &lt;s0&gt;"${buildDir}/jacocoHtml"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://checkstyle.sourceforge.net/index.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144401Z" creationid="huanghaohang" creationdate="20180207T144401Z">
@@ -22444,6 +22604,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>img/jacocoHtmlReport.png</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093012Z" creationid="huanghaohang" creationdate="20180715T093012Z">
+        <seg>img/jacocoHtmlReport.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>img/javaPluginConfigurations.png</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T054211Z" creationid="haohang" creationdate="20180313T054211Z">
@@ -22630,6 +22798,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131641Z" creationid="huanghaohang" creationdate="20180405T131641Z">
         <seg>includeTestsMatching &lt;s5&gt;"*IntegTest"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>includes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093249Z" creationid="huanghaohang" creationdate="20180715T093249Z">
+        <seg>includes</seg>
       </tuv>
     </tu>
     <tu>
@@ -22930,6 +23106,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T135242Z" creationid="huanghaohang" creationdate="20180712T135242Z">
         <seg>jacoco {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jacocoTestReport {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093008Z" creationid="huanghaohang" creationdate="20180715T093008Z">
+        <seg>jacocoTestReport {</seg>
       </tuv>
     </tu>
     <tu>
@@ -25275,6 +25459,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>reports {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093009Z" creationid="huanghaohang" creationdate="20180715T093009Z">
+        <seg>reports {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>reports.html.enabled = false</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T044002Z" creationid="huanghaohang" creationdate="20180406T044002Z">
@@ -25501,6 +25693,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154456Z" creationid="95" creationdate="20170731T154456Z">
         <seg>services/webservice/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sessionId</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093253Z" creationid="huanghaohang" creationdate="20180715T093253Z">
+        <seg>sessionId</seg>
       </tuv>
     </tu>
     <tu>
@@ -26810,6 +27010,14 @@ test {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093238Z" creationid="huanghaohang" creationdate="20180715T093238Z">
+        <seg>true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>tutorial_gradle_command_line.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T004254Z" creationid="huanghaohang" creationdate="20170909T004254Z">
@@ -27640,6 +27848,14 @@ webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T032756Z" creationid="huanghaohang" creationdate="20180131T032756Z">
         <seg>writing_build_scripts.html#sec:project_api</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>xml.enabled false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093010Z" creationid="huanghaohang" creationdate="20180715T093010Z">
+        <seg>xml.enabled false</seg>
       </tuv>
     </tu>
     <tu>
