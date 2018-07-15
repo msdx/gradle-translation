@@ -15402,6 +15402,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;sonarAnalyze&lt;/c0&gt; task is a standalone task that needs to be executed explicitly and doesn't depend on any other tasks. Apart from source code, the task also analyzes class files and test result files (if available). For best results, it is therefore recommended to run a full build before the analysis. In a typical setup, analysis would be performed once per day on a build server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100006Z" creationid="huanghaohang" creationdate="20180715T095608Z">
+        <seg>这个 &lt;c0&gt;sonarAnalyze&lt;/c0&gt; 任务是一个需要显式执行的独立任务， 并且不依赖于其他任务。除了源代码之外，该任务还分析了类文件和测试结果文件（如果有）。为获得最佳结果，建议在分析之前运行一次完整的构建。在典型设置中，会每天在构建服务器上执行一次分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;test&lt;/c0&gt; task is an instance of &lt;a1&gt;&lt;c2&gt;Test&lt;/c2&gt;&lt;/a1&gt;. It automatically detects and executes all unit tests in the &lt;c3&gt;test&lt;/c3&gt; source set. It also generates a report once test execution is complete. JUnit and TestNG are both supported. Have a look at &lt;a4&gt;&lt;c5&gt;Test&lt;/c5&gt;&lt;/a4&gt; for the complete API.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180327T102723Z" creationid="haohang" creationdate="20180327T102723Z">
