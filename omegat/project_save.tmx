@@ -1010,6 +1010,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/process/JavaForkOptions.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093308Z" creationid="huanghaohang" creationdate="20180715T093308Z">
+        <seg>../javadoc/org/gradle/process/JavaForkOptions.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/testing/jacoco/tasks/JacocoReportsContainer.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T135330Z" creationid="huanghaohang" creationdate="20180712T135330Z">
@@ -13406,6 +13414,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output.FILE</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093256Z" creationid="huanghaohang" creationdate="20180715T093256Z">
+        <seg>Output.FILE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Outputs Log Levels</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221901Z" creationid="huanghaohang" creationdate="20180105T221901Z">
@@ -18394,6 +18410,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While all tasks of type &lt;a0&gt;&lt;c1&gt;Test&lt;/c1&gt;&lt;/a0&gt; are automatically enhanced to provide coverage information when the &lt;c2&gt;java&lt;/c2&gt; plugin has been applied, any task that implements &lt;a3&gt;&lt;c4&gt;JavaForkOptions&lt;/c4&gt;&lt;/a3&gt; can be enhanced by the JaCoCo plugin. That is, any task that forks Java processes can be used to generate coverage information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093726Z" creationid="huanghaohang" creationdate="20180715T093313Z">
+        <seg>虽然所有 &lt;a0&gt;&lt;c1&gt;Test&lt;/c1&gt;&lt;/a0&gt; 类型的任务会在应用 &lt;c2&gt;java&lt;/c2&gt; 插件时自动增强以提供覆盖率信息，但是任何实现了 &lt;a3&gt;&lt;c4&gt;JavaForkOptions&lt;/c4&gt;&lt;/a3&gt; 的任务都可以通过 JaCoCo 插件得到增强。也就是说，任何 fork Java 进程的任务都可生成覆盖信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Why Groovy?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072502Z" creationid="haohang" creationdate="20170720T072502Z">
@@ -19102,6 +19126,14 @@ compile
 
 testCompile
 No dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>address</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093257Z" creationid="huanghaohang" creationdate="20180715T093257Z">
+        <seg>address</seg>
       </tuv>
     </tu>
     <tu>
@@ -20258,6 +20290,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093223Z" creationid="huanghaohang" creationdate="20180715T093223Z">
         <seg>classDumpFile = file(&lt;s1&gt;"$buildDir/jacoco/classpathdumps"&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classDumpPath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093259Z" creationid="huanghaohang" creationdate="20180715T093259Z">
+        <seg>classDumpPath</seg>
       </tuv>
     </tu>
     <tu>
@@ -21494,6 +21534,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233225Z" creationid="huanghaohang" creationdate="20171206T233225Z">
         <seg>extension</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093307Z" creationid="huanghaohang" creationdate="20180715T093307Z">
+        <seg>false</seg>
       </tuv>
     </tu>
     <tu>
@@ -23438,6 +23486,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>jmx</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093259Z" creationid="huanghaohang" creationdate="20180715T093259Z">
+        <seg>jmx</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>jvmArgs = [&lt;s1&gt;'-XX:MaxPermSize=512m'&lt;/s1&gt;]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T053848Z" creationid="huanghaohang" creationdate="20180407T053848Z">
@@ -24253,6 +24309,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T143049Z" creationid="95" creationdate="20170721T135423Z">
         <seg>pmd_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>port</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093258Z" creationid="huanghaohang" creationdate="20180715T093258Z">
+        <seg>port</seg>
       </tuv>
     </tu>
     <tu>
