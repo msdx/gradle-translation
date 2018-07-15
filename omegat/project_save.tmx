@@ -3594,6 +3594,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>35.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100010Z" creationid="huanghaohang" creationdate="20180715T100010Z">
+        <seg>35.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014548Z" creationid="haohang" creationdate="20170801T014548Z">
@@ -7392,6 +7400,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Alternatively, some or all connection settings can be set from the command line (see &lt;a0&gt;Section 35.6, “Configuring Sonar Settings from the Command Line”&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100232Z" creationid="huanghaohang" creationdate="20180715T100232Z">
+        <seg>或者也可以从命令行设置其中一些或全部的连接设置（见《&lt;a0&gt;第 35.6 节，“从命令行中配置 Sonar 设置”&lt;/a0&gt;》）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Alternatively, you can use the &lt;c0&gt;-p&lt;/c0&gt; option to specify the project directory to use. For multi-project builds you should use &lt;c1&gt;-p&lt;/c1&gt; option instead of &lt;c2&gt;-b&lt;/c2&gt; option.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114222Z" creationid="huanghaohang" creationdate="20170909T114222Z">
@@ -7628,6 +7644,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062906Z" creationid="haohang" creationdate="20180312T062906Z">
         <seg>组装测试类目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At a minimum, the Sonar plugin has to be applied to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100045Z" creationid="huanghaohang" creationdate="20180715T100045Z">
+        <seg>最低要求是必须配置在项目中应用 Sonar 插件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10386,6 +10410,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093826Z" creationid="huanghaohang" creationdate="20180715T093826Z">
         <seg>示例 34.6. 由 applicationCodeCoverageReport 生成的覆盖率报告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.1. Applying the Sonar plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100051Z" creationid="huanghaohang" creationdate="20180715T100051Z">
+        <seg>示例 35.1. 应用 Sonar 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.2. Configuring Sonar connection settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100111Z" creationid="huanghaohang" creationdate="20180715T100111Z">
+        <seg>示例 35.2. 配置 Sonar 连接设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -13738,6 +13778,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180517T130022Z" creationid="huanghaohang" creationdate="20180517T130022Z">
         <seg>项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Project settings determine how the project is going to be analyzed. The default configuration works well for analyzing standard Java projects and can be customized in many ways.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100246Z" creationid="huanghaohang" creationdate="20180715T100246Z">
+        <seg>Project settings determine how the project is going to be analyzed. The default configuration works well for analyzing standard Java projects and can be customized in many ways.</seg>
       </tuv>
     </tu>
     <tu>
@@ -17922,6 +17970,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Unless Sonar is run locally and with default settings, it is necessary to configure connection settings for the Sonar server and database.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100108Z" creationid="huanghaohang" creationdate="20180715T100108Z">
+        <seg>除非 Sonar 是在本地上运行，并且有默认的配置，否则有必要配置 Sonar 服务器及数据库的连接设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Unless a task's &lt;c0&gt;groovyClasspath&lt;/c0&gt; is configured explicitly, the Groovy (base) plugin will try to infer it from the task's &lt;c1&gt;classpath&lt;/c1&gt;. This is done as follows:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T132540Z" creationid="huanghaohang" creationdate="20180406T132540Z">
@@ -19732,6 +19788,14 @@ ext {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;"sonar"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100052Z" creationid="huanghaohang" creationdate="20180715T100052Z">
+        <seg>apply plugin: &lt;s0&gt;"sonar"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'checkstyle'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180424T134707Z" creationid="huanghaohang" creationdate="20180424T134707Z">
@@ -20974,6 +21038,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>database {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100114Z" creationid="huanghaohang" creationdate="20180715T100114Z">
+        <seg>database {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def classesDir = &lt;s0&gt;new&lt;/s0&gt; File(&lt;s1&gt;'build/classes'&lt;/s1&gt;)
 
 task resources &lt;&lt; {</seg>
@@ -21502,6 +21574,14 @@ api:libs - Builds the JAR</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062150Z" creationid="haohang" creationdate="20180313T062150Z">
         <seg>docsDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>driverClassName = &lt;s2&gt;"com.mysql.jdbc.Driver"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100116Z" creationid="huanghaohang" creationdate="20180715T100116Z">
+        <seg>driverClassName = &lt;s2&gt;"com.mysql.jdbc.Driver"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -24441,6 +24521,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>password = &lt;s4&gt;"very clever"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100118Z" creationid="huanghaohang" creationdate="20180715T100118Z">
+        <seg>password = &lt;s4&gt;"very clever"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132137Z" creationid="huanghaohang" creationdate="20170913T132137Z">
@@ -26025,6 +26113,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>server {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100113Z" creationid="huanghaohang" creationdate="20180715T100113Z">
+        <seg>server {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>services/webservice/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154456Z" creationid="95" creationdate="20170731T154456Z">
@@ -26081,6 +26177,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sonar {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100112Z" creationid="huanghaohang" creationdate="20180715T100112Z">
+        <seg>sonar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sonar-runner</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090509Z" creationid="huanghaohang" creationdate="20180211T090509Z">
@@ -26093,6 +26197,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090019Z" creationid="huanghaohang" creationdate="20180211T090019Z">
         <seg>sonar_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar_plugin.html#sec:sonar_command_line_parameters</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100128Z" creationid="huanghaohang" creationdate="20180715T100128Z">
+        <seg>sonar_plugin.html#sec:sonar_command_line_parameters</seg>
       </tuv>
     </tu>
     <tu>
@@ -27796,6 +27908,22 @@ test {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>url = &lt;s0&gt;"http://my.server.com"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100114Z" creationid="huanghaohang" creationdate="20180715T100114Z">
+        <seg>url = &lt;s0&gt;"http://my.server.com"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url = &lt;s1&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100115Z" creationid="huanghaohang" creationdate="20180715T100115Z">
+        <seg>url = &lt;s1&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>useJUnit {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T041838Z" creationid="huanghaohang" creationdate="20180406T041838Z">
@@ -27844,6 +27972,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050451Z" creationid="huanghaohang" creationdate="20170908T050451Z">
         <seg>username &lt;s0&gt;"username"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>username = &lt;s3&gt;"Fred Flintstone"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100116Z" creationid="huanghaohang" creationdate="20180715T100116Z">
+        <seg>username = &lt;s3&gt;"Fred Flintstone"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
