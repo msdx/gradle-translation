@@ -778,6 +778,38 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarDatabase.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T151336Z" creationid="huanghaohang" creationdate="20180811T151336Z">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarDatabase.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarProject.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T151338Z" creationid="huanghaohang" creationdate="20180811T151338Z">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarProject.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarRootModel.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T151334Z" creationid="huanghaohang" creationdate="20180811T151334Z">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarRootModel.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarServer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T151335Z" creationid="huanghaohang" creationdate="20180811T151335Z">
+        <seg>../groovydoc/org/gradle/api/plugins/sonar/model/SonarServer.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/BuildListener.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144454Z" creationid="huanghaohang" creationdate="20180107T144454Z">
@@ -3598,6 +3630,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100010Z" creationid="huanghaohang" creationdate="20180715T100010Z">
         <seg>35.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>35.2. Analyzing Multi-Project Builds</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T151502Z" creationid="huanghaohang" creationdate="20180811T151502Z">
+        <seg>35.2. 分析多项目构建</seg>
       </tuv>
     </tu>
     <tu>
@@ -10430,6 +10470,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 35.3. Configuring Sonar project settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T151331Z" creationid="huanghaohang" creationdate="20180811T151331Z">
+        <seg>示例 35.3. 配置 Sonar 项目的设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -13784,8 +13832,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Project settings determine how the project is going to be analyzed. The default configuration works well for analyzing standard Java projects and can be customized in many ways.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100246Z" creationid="huanghaohang" creationdate="20180715T100246Z">
-        <seg>Project settings determine how the project is going to be analyzed. The default configuration works well for analyzing standard Java projects and can be customized in many ways.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T151318Z" creationid="huanghaohang" creationdate="20180715T100246Z">
+        <seg>项目设置决定了项目的分析方式。默认配置非常适合分析标准的 Java 项目，并且可以通过多种方式进行自定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15450,6 +15498,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;sonar&lt;/c0&gt;, &lt;c1&gt;server&lt;/c1&gt;, &lt;c2&gt;database&lt;/c2&gt;, and &lt;c3&gt;project&lt;/c3&gt; blocks in the examples above configure objects of type &lt;a4&gt;&lt;c5&gt;SonarRootModel&lt;/c5&gt;&lt;/a4&gt;, &lt;a6&gt;&lt;c7&gt;SonarServer&lt;/c7&gt;&lt;/a6&gt;, &lt;a8&gt;&lt;c9&gt;SonarDatabase&lt;/c9&gt;&lt;/a8&gt;, and &lt;a10&gt;&lt;c11&gt;SonarProject&lt;/c11&gt;&lt;/a10&gt;, respectively. See their API documentation for further information.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T151458Z" creationid="huanghaohang" creationdate="20180811T151339Z">
+        <seg>在上面的例子中，&lt;c0&gt;sonar&lt;/c0&gt;，&lt;c1&gt;server&lt;/c1&gt;，&lt;c2&gt;database&lt;/c2&gt; 和 &lt;c3&gt;project&lt;/c3&gt; 块分别配置的是&lt;a4&gt;&lt;c5&gt;SonarRootModel&lt;/c5&gt;&lt;/a4&gt;， &lt;a6&gt;&lt;c7&gt;SonarServer&lt;/c7&gt;&lt;/a6&gt;， &lt;a8&gt;&lt;c9&gt;SonarDatabase&lt;/c9&gt;&lt;/a8&gt; 及 &lt;a10&gt;&lt;c11&gt;SonarProject&lt;/c11&gt;&lt;/a10&gt; 类型的对象。有关详细信息，可以参阅其 API 文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;sonarAnalyze&lt;/c0&gt; task is a standalone task that needs to be executed explicitly and doesn't depend on any other tasks. Apart from source code, the task also analyzes class files and test result files (if available). For best results, it is therefore recommended to run a full build before the analysis. In a typical setup, analysis would be performed once per day on a build server.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100006Z" creationid="huanghaohang" creationdate="20180715T095608Z">
@@ -16294,6 +16350,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T145839Z" creationid="huanghaohang" creationdate="20170911T145839Z">
         <seg>设置（Setup）选项卡允许你配置一些常规的设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Sonar plugin is capable of analyzing a whole project hierarchy at once. This yields a hierarchical view in the Sonar web interface with aggregated metrics and the ability to drill down into subprojects. It is also faster than analyzing each project separately.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152027Z" creationid="huanghaohang" creationdate="20180811T152027Z">
+        <seg>Sonar 插件能够立即分析整个项目的层次结构。这将在 Sonar Web 界面中生成一个层次图，该层次图包含了一些综合指标且能够深入到子项目中。同时，它也比分别分析每个项目更快。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20652,6 +20716,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T063422Z" creationid="haohang" creationdate="20180312T063422Z">
         <seg>clean&lt;e0&gt;&lt;c1&gt;TaskName&lt;/c1&gt;&lt;/e0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>coberturaReportPath = file(&lt;s0&gt;"$buildDir/cobertura.xml"&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T151333Z" creationid="huanghaohang" creationdate="20180811T151333Z">
+        <seg>coberturaReportPath = file(&lt;s0&gt;"$buildDir/cobertura.xml"&lt;/s0&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -25675,6 +25747,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132112Z" creationid="huanghaohang" creationdate="20170913T132112Z">
         <seg>project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T151332Z" creationid="huanghaohang" creationdate="20180811T151332Z">
+        <seg>project {</seg>
       </tuv>
     </tu>
     <tu>
