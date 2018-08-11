@@ -10478,6 +10478,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 35.4. Global configuration in a multi-project build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152255Z" creationid="huanghaohang" creationdate="20180811T152255Z">
+        <seg>示例 35.4. 在多项目构建中的全局配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -17718,6 +17726,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160246Z" creationid="95" creationdate="20170726T160246Z">
         <seg>在添加依赖时，对应的任务不一定要存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To analyze a project hierarchy, the Sonar plugin needs to be applied to the top-most project of the hierarchy. Typically (but not necessarily) this will be the root project. The &lt;c0&gt;sonar&lt;/c0&gt; block in that project configures an object of type &lt;a1&gt;&lt;c2&gt;SonarRootModel&lt;/c2&gt;&lt;/a1&gt;. It holds all global configuration, most importantly server and database connection settings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152247Z" creationid="huanghaohang" creationdate="20180811T152247Z">
+        <seg>要分析项目的层次结构，需要将 Sonar 插件应用于层次结构的最顶层项目。这通常（但也不一定）会是根项目。在该项目的 &lt;c0&gt;sonar&lt;/c0&gt; 块配置的是一个 &lt;a1&gt;&lt;c2&gt;SonarRootModel&lt;/c2&gt;&lt;/a1&gt; 类型的对象。它包含了所有全局配置，最重要的是服务器和数据库的连接设置。</seg>
       </tuv>
     </tu>
     <tu>
