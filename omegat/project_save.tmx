@@ -9046,6 +9046,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each project in the hierarchy has its own project configuration. Common values can be set from a parent build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152821Z" creationid="huanghaohang" creationdate="20180811T152821Z">
+        <seg>在这个层次结构中的每个项目都有其自己的项目配置。共同的值可以在父构建脚本中设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each project is made up of one or more &lt;e0&gt;tasks&lt;/e0&gt;. A task represents some atomic piece of work which a build performs. This might be compiling some classes, creating a JAR, generating javadoc, or publishing some archives to a repository.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T143544Z" creationid="95" creationdate="20170724T143343Z">
@@ -19876,6 +19884,18 @@ ext {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;"sonar"&lt;/s0&gt;
+
+sonar {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152256Z" creationid="huanghaohang" creationdate="20180811T152256Z">
+        <seg>apply plugin: &lt;s0&gt;"sonar"&lt;/s0&gt;
+
+sonar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'checkstyle'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180424T134707Z" creationid="huanghaohang" creationdate="20180424T134707Z">
@@ -21670,6 +21690,14 @@ api:libs - Builds the JAR</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100116Z" creationid="huanghaohang" creationdate="20180715T100116Z">
         <seg>driverClassName = &lt;s2&gt;"com.mysql.jdbc.Driver"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>driverClassName = &lt;s3&gt;"com.mysql.jdbc.Driver"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152258Z" creationid="huanghaohang" creationdate="20180811T152258Z">
+        <seg>driverClassName = &lt;s3&gt;"com.mysql.jdbc.Driver"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -24613,6 +24641,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100118Z" creationid="huanghaohang" creationdate="20180715T100118Z">
         <seg>password = &lt;s4&gt;"very clever"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>password = &lt;s5&gt;"very clever"&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152300Z" creationid="huanghaohang" creationdate="20180811T152300Z">
+        <seg>password = &lt;s5&gt;"very clever"&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -28012,10 +28048,26 @@ test {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>url = &lt;s1&gt;"http://my.server.com"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152257Z" creationid="huanghaohang" creationdate="20180811T152257Z">
+        <seg>url = &lt;s1&gt;"http://my.server.com"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>url = &lt;s1&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100115Z" creationid="huanghaohang" creationdate="20180715T100115Z">
         <seg>url = &lt;s1&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url = &lt;s2&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152257Z" creationid="huanghaohang" creationdate="20180811T152257Z">
+        <seg>url = &lt;s2&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -28076,6 +28128,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100116Z" creationid="huanghaohang" creationdate="20180715T100116Z">
         <seg>username = &lt;s3&gt;"Fred Flintstone"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>username = &lt;s4&gt;"Fred Flintstone"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152259Z" creationid="huanghaohang" creationdate="20180811T152259Z">
+        <seg>username = &lt;s4&gt;"Fred Flintstone"&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
