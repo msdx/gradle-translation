@@ -7488,6 +7488,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Another typical per-project configuration is the programming language to be analyzed. Note that Sonar can only analyze one language per project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153244Z" creationid="huanghaohang" creationdate="20180811T153244Z">
+        <seg>另一种典型的每个项目配置是配置要分析的编程语言。请注意，每一个项目 Sonar 只能分析一种语言。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Ant can be divided into two layers. The first layer is the Ant language. It provides the syntax for the &lt;c0&gt;build.xml&lt;/c0&gt;, the handling of the targets, special constructs like macrodefs, and so on. In other words, everything except the Ant tasks and types. Gradle understands this language, and allows you to import your Ant &lt;c1&gt;build.xml&lt;/c1&gt; directly into a Gradle project. You can then use the targets of your Ant build as if they were Gradle tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171210T152022Z" creationid="huanghaohang" creationdate="20171210T151111Z">
@@ -10506,6 +10514,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152828Z" creationid="huanghaohang" creationdate="20180811T152828Z">
         <seg>示例 35.5. 多项目构建中的共同项目配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.6. Individual project configuration in a multi-project build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153057Z" creationid="huanghaohang" creationdate="20180811T153057Z">
+        <seg>示例 35.6. 多项目构建中的单独项目配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -13882,6 +13898,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031747Z" creationid="huanghaohang" creationdate="20170927T031747Z">
         <seg>项目和任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Projects can also be configured individually. For example, setting the &lt;c0&gt;skip&lt;/c0&gt; property to &lt;c1&gt;true&lt;/c1&gt; prevents a project (and its subprojects) from being analyzed. Skipped projects will not be displayed in the Sonar web interface.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153053Z" creationid="huanghaohang" creationdate="20180811T153053Z">
+        <seg>项目也可以单独配置。例如，设置 &lt;c0&gt;skip&lt;/c0&gt; 属性为&lt;c1&gt;true&lt;/c1&gt; 以防止一个项目（及其子项目）被分析。所跳过的项目不会显示在 Sonar Web 界面中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25835,6 +25859,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project(&lt;s0&gt;":project1"&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153058Z" creationid="huanghaohang" creationdate="20180811T153058Z">
+        <seg>project(&lt;s0&gt;":project1"&lt;/s0&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project(&lt;s0&gt;':projectA'&lt;/s0&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122000Z" creationid="huanghaohang" creationdate="20170919T122000Z">
@@ -26321,6 +26353,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T085959Z" creationid="huanghaohang" creationdate="20180211T085959Z">
         <seg>signing_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>skip = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153058Z" creationid="huanghaohang" creationdate="20180811T153058Z">
+        <seg>skip = true</seg>
       </tuv>
     </tu>
     <tu>
