@@ -3650,6 +3650,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>35.3. Analyzing Custom Source Sets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T071938Z" creationid="huanghaohang" creationdate="20180812T071938Z">
+        <seg>35.3. 分析自定义源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014548Z" creationid="haohang" creationdate="20170801T014548Z">
@@ -10522,6 +10530,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153057Z" creationid="huanghaohang" creationdate="20180811T153057Z">
         <seg>示例 35.6. 多项目构建中的单独项目配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.7. Configuring the language to be analyzed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153258Z" creationid="huanghaohang" creationdate="20180811T153258Z">
+        <seg>示例 35.7. 配置要分析的语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.8. Using property syntax</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153320Z" creationid="huanghaohang" creationdate="20180811T153320Z">
+        <seg>示例 35.8. 使用属性语法</seg>
       </tuv>
     </tu>
     <tu>
@@ -18666,6 +18690,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When setting only a single property at a time, the equivalent property syntax is more succinct:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153315Z" creationid="huanghaohang" creationdate="20180811T153315Z">
+        <seg>当一次只设置一个属性时，等效属性的语法更加简洁：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When the Eclipse plugin encounters a Scala project, it adds additional configuration to make the project work with Scala IDE out of the box. Specifically, the plugin adds a Scala nature and dependency container.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T141513Z" creationid="huanghaohang" creationdate="20180407T141513Z">
@@ -24002,6 +24034,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>language = &lt;s1&gt;"groovy"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153300Z" creationid="huanghaohang" creationdate="20180811T153300Z">
+        <seg>language = &lt;s1&gt;"groovy"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>lib</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145916Z" creationid="huanghaohang" creationdate="20180415T145916Z">
@@ -25863,6 +25903,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153058Z" creationid="huanghaohang" creationdate="20180811T153058Z">
         <seg>project(&lt;s0&gt;":project1"&lt;/s0&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project(&lt;s0&gt;":project2"&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153259Z" creationid="huanghaohang" creationdate="20180811T153259Z">
+        <seg>project(&lt;s0&gt;":project2"&lt;/s0&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project(&lt;s0&gt;":project2"&lt;/s0&gt;).sonar.project.language = &lt;s1&gt;"groovy"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153322Z" creationid="huanghaohang" creationdate="20180811T153322Z">
+        <seg>project(&lt;s0&gt;":project2"&lt;/s0&gt;).sonar.project.language = &lt;s1&gt;"groovy"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
