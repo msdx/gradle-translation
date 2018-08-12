@@ -3658,6 +3658,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>35.4. Analyzing languages other than Java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072229Z" creationid="huanghaohang" creationdate="20180812T072229Z">
+        <seg>35.4. 分析非 Java 语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014548Z" creationid="haohang" creationdate="20170801T014548Z">
@@ -7896,6 +7904,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, the Sonar plugin will analyze the production sources in the &lt;c0&gt;main&lt;/c0&gt; source set and the test sources in the &lt;c1&gt;test&lt;/c1&gt; source set. This works independent of the project's source directory layout. Additional source sets can be added as needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072222Z" creationid="huanghaohang" creationdate="20180812T072156Z">
+        <seg>默认情况下，Sonar 插件将分析在 &lt;c0&gt;main&lt;/c0&gt; 源集里的生产源文件和 &lt;c1&gt;test&lt;/c1&gt; 源集里的测试源文件。它们的分析独立于项目的源目录布局。根据需求，可以添加其他的源集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, this report shows only those tasks which have been assigned to a task group. You can do this by setting the &lt;c0&gt;group&lt;/c0&gt; property for the task. You can also set the &lt;c1&gt;description&lt;/c1&gt; property, to provide a description to be included in the report.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011914Z" creationid="huanghaohang" creationdate="20170910T011716Z">
@@ -10546,6 +10562,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153320Z" creationid="huanghaohang" creationdate="20180811T153320Z">
         <seg>示例 35.8. 使用属性语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.9. Analyzing custom source sets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072214Z" creationid="huanghaohang" creationdate="20180812T072214Z">
+        <seg>示例 35.9. 分析自定义的源集</seg>
       </tuv>
     </tu>
     <tu>
@@ -17818,6 +17842,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To analyze code written in a language other than Java, install the corresponding &lt;a0&gt;Sonar plugin&lt;/a0&gt;, and set &lt;c1&gt;sonar.project.language&lt;/c1&gt; accordingly:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072335Z" creationid="huanghaohang" creationdate="20180812T072335Z">
+        <seg>要分析非 Java 语言编写的代码，请安装相应的 &lt;a0&gt;Sonar 插件&lt;/a0&gt;，并相应地设置 &lt;c1&gt;sonar.project.language&lt;/c1&gt;：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To build a Groovy project, you use the &lt;e0&gt;Groovy plugin&lt;/e0&gt;. This plugin extends the Java plugin to add Groovy compilation capabilities to your project. Your project can contain Groovy source code, Java source code, or a mix of the two. In every other respect, a Groovy project is identical to a Java project, which we have already seen in &lt;a1&gt;Chapter 7, &lt;i2&gt;Java Quickstart&lt;/i2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T001546Z" creationid="huanghaohang" creationdate="20170908T052108Z">
@@ -23048,6 +23080,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://www.sonarsource.com/products/plugins/languages/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072231Z" creationid="huanghaohang" creationdate="20180812T072231Z">
+        <seg>http://www.sonarsource.com/products/plugins/languages/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://www.sonarsource.org</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090027Z" creationid="huanghaohang" creationdate="20180211T090027Z">
@@ -26445,6 +26485,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sonar.project {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072224Z" creationid="huanghaohang" creationdate="20180812T072224Z">
+        <seg>sonar.project {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sonar_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090019Z" creationid="huanghaohang" creationdate="20180211T090019Z">
@@ -26601,6 +26649,14 @@ jar {</seg>
         <seg>sourceCompatibility = &lt;s0&gt;1.5&lt;/s0&gt;
 version = &lt;s1&gt;'1.0'&lt;/s1&gt;
 jar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceDirs += sourceSets.custom.allSource.srcDirs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072225Z" creationid="huanghaohang" creationdate="20180812T072225Z">
+        <seg>sourceDirs += sourceSets.custom.allSource.srcDirs</seg>
       </tuv>
     </tu>
     <tu>
@@ -27627,6 +27683,16 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170908T013235Z" creationid="haohang" creationdate="20170908T013235Z">
         <seg>testCompile group: &lt;s4&gt;'junit'&lt;/s4&gt;, name: &lt;s5&gt;'junit'&lt;/s5&gt;, version: &lt;s6&gt;'4.+'&lt;/s6&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testDirs += sourceSets.integTest.allSource.srcDirs
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072226Z" creationid="huanghaohang" creationdate="20180812T072226Z">
+        <seg>testDirs += sourceSets.integTest.allSource.srcDirs
 }</seg>
       </tuv>
     </tu>
