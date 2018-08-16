@@ -9230,6 +9230,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Eventually, most configuration is passed to the Sonar code analyzer in the form of key-value pairs known as Sonar properties. The &lt;a0&gt;&lt;c1&gt;SonarProperty&lt;/c1&gt;&lt;/a0&gt; annotations in the API documentation show how properties of the plugin's object model get mapped to the corresponding Sonar properties. The Sonar plugin offers hooks to post-process Sonar properties before they get passed to the code analyzer. The same hooks can be used to add additional properties which aren't covered by the plugin's object model.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135357Z" creationid="huanghaohang" creationdate="20180816T135357Z">
+        <seg>最终，大多数配置都会以被称为 Sonar 属性的键值对的形式传递给 Sonar 代码分析器。在 API 文档中的 &lt;a0&gt;&lt;c1&gt;SonarProperty&lt;/c1&gt;&lt;/a0&gt; 注解显示了插件的对象模型的属性如何映射到相应的 Sonar 属性。Sonar 插件在传递给代码分析器之前提供了后置处理的 Sonar 属性的钩子。相同的钩子可以用来添加插件的对象模型所未涵盖的其他属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Every Gradle build is made up of one or more &lt;e0&gt;projects&lt;/e0&gt;. What a project represents depends on what it is that you are doing with Gradle. For example, a project might represent a library JAR or a web application. It might represent a distribution ZIP assembled from the JARs produced by other projects. A project does not necessarily represent a thing to be built. It might represent a thing to be done, such as deploying your application to staging or production environments. Don't worry if this seems a little vague for now. Gradle's build-by-convention support adds a more concrete definition for what a project is.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T143530Z" creationid="95" creationdate="20170724T143309Z">
