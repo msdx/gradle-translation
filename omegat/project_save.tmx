@@ -5518,6 +5518,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// non-String values are automatically converted to Strings&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135438Z" creationid="huanghaohang" creationdate="20180816T135438Z">
+        <seg>&lt;s2&gt;// non-String values are automatically converted to Strings&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;//following dependencies will become the ear modules and placed in the ear root&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142952Z" creationid="huanghaohang" creationdate="20180416T142952Z">
@@ -6900,6 +6908,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T132304Z" creationid="huanghaohang" creationdate="20170923T131759Z">
         <seg>一个文件集合是可迭代的，可以使用&lt;c0&gt;as&lt;/c0&gt;操作符把它转换为多个其他类型。你也可以使用&lt;c1&gt;+&lt;/c1&gt;运算符把两个文件集合加到一起，或使用&lt;c2&gt;-&lt;/c2&gt;运算符从另一个文件集中减去另一个文件集合。以下是操作文件集合的一些示例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A list of available Sonar properties can be found in the &lt;a0&gt;Sonar documentation&lt;/a0&gt;. Note that for most of these properties, the Sonar plugin's object model has an equivalent property, and it isn't necessary to use a &lt;c1&gt;withGlobalProperties&lt;/c1&gt; or &lt;c2&gt;withProjectProperties&lt;/c2&gt; hook. For configuring a third-party Sonar plugin, consult the plugin's documentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135524Z" creationid="huanghaohang" creationdate="20180816T135524Z">
+        <seg>A list of available Sonar properties can be found in the &lt;a0&gt;Sonar documentation&lt;/a0&gt;. Note that for most of these properties, the Sonar plugin's object model has an equivalent property, and it isn't necessary to use a &lt;c1&gt;withGlobalProperties&lt;/c1&gt; or &lt;c2&gt;withProjectProperties&lt;/c2&gt; hook. For configuring a third-party Sonar plugin, consult the plugin's documentation.</seg>
       </tuv>
     </tu>
     <tu>
@@ -10550,6 +10566,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 35.11. Setting custom global properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135435Z" creationid="huanghaohang" creationdate="20180816T135435Z">
+        <seg>示例 35.11. 设置自定义的全局属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 35.12. Setting custom project properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135518Z" creationid="huanghaohang" creationdate="20180816T135518Z">
+        <seg>示例 35.12. 设置自定义的项目属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 35.2. Configuring Sonar connection settings</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100111Z" creationid="huanghaohang" creationdate="20180715T100111Z">
@@ -11318,6 +11350,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For global Sonar properties, use the &lt;c0&gt;withGlobalProperties&lt;/c0&gt; hook on &lt;a1&gt;&lt;c2&gt;SonarRootModel&lt;/c2&gt;&lt;/a1&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135427Z" creationid="huanghaohang" creationdate="20180816T135427Z">
+        <seg>对于全局的 Sonar 属性，可以使用 &lt;a1&gt;&lt;c2&gt;SonarRootModel&lt;/c2&gt;&lt;/a1&gt; 上的 &lt;c0&gt;withGlobalProperties&lt;/c0&gt; 钩子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For grouping JUnit test classes and methods JUnit 4.8 introduces the concept of categories. &lt;s0&gt;[&lt;a1&gt;9&lt;/a1&gt;]&lt;/s0&gt; The &lt;c2&gt;test&lt;/c2&gt; task allows the specification of the JUnit categories you want to include and exclude.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T041811Z" creationid="huanghaohang" creationdate="20180405T155943Z">
@@ -11370,6 +11410,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T143910Z" creationid="95" creationdate="20170724T143910Z">
         <seg>现在，我们来看一下如何在一个项目的构建中定义一些简单的任务。后续的章节将更多的关注多项目的构建，以及多项目和多任务的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For per-project Sonar properties, use the &lt;c0&gt;withProjectProperties&lt;/c0&gt; hook on &lt;a1&gt;&lt;c2&gt;SonarProject&lt;/c2&gt;&lt;/a1&gt;:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135512Z" creationid="huanghaohang" creationdate="20180816T135512Z">
+        <seg>对于每个项目的 Sonar 属性，使用 &lt;a1&gt;&lt;c2&gt;SonarProject&lt;/c2&gt;&lt;/a1&gt; 上的 &lt;c0&gt;withProjectProperties&lt;/c0&gt; 钩子：</seg>
       </tuv>
     </tu>
     <tu>
@@ -22920,6 +22968,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://docs.codehaus.org/display/SONAR/Analysis+Parameters</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135523Z" creationid="huanghaohang" creationdate="20180816T135523Z">
+        <seg>http://docs.codehaus.org/display/SONAR/Analysis+Parameters</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://docs.codehaus.org/display/SONAR/Analyzing+with+Sonar+Runner</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T095239Z" creationid="huanghaohang" creationdate="20180715T095239Z">
@@ -26077,6 +26133,42 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>props[&lt;s0&gt;"some.global.property"&lt;/s0&gt;] = &lt;s1&gt;"some value"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135437Z" creationid="huanghaohang" creationdate="20180816T135437Z">
+        <seg>props[&lt;s0&gt;"some.global.property"&lt;/s0&gt;] = &lt;s1&gt;"some value"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>props[&lt;s0&gt;"some.project.property"&lt;/s0&gt;] = &lt;s1&gt;"some value"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135520Z" creationid="huanghaohang" creationdate="20180816T135520Z">
+        <seg>props[&lt;s0&gt;"some.project.property"&lt;/s0&gt;] = &lt;s1&gt;"some value"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>props[&lt;s3&gt;"other.global.property"&lt;/s3&gt;] = [&lt;s4&gt;"foo"&lt;/s4&gt;, &lt;s5&gt;"bar"&lt;/s5&gt;, &lt;s6&gt;"baz"&lt;/s6&gt;]
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135439Z" creationid="huanghaohang" creationdate="20180816T135439Z">
+        <seg>props[&lt;s3&gt;"other.global.property"&lt;/s3&gt;] = [&lt;s4&gt;"foo"&lt;/s4&gt;, &lt;s5&gt;"bar"&lt;/s5&gt;, &lt;s6&gt;"baz"&lt;/s6&gt;]
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>props[&lt;s3&gt;"other.project.property"&lt;/s3&gt;] = [&lt;s4&gt;"foo"&lt;/s4&gt;, &lt;s5&gt;"bar"&lt;/s5&gt;, &lt;s6&gt;"baz"&lt;/s6&gt;]
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135521Z" creationid="huanghaohang" creationdate="20180816T135521Z">
+        <seg>props[&lt;s3&gt;"other.project.property"&lt;/s3&gt;] = [&lt;s4&gt;"foo"&lt;/s4&gt;, &lt;s5&gt;"bar"&lt;/s5&gt;, &lt;s6&gt;"baz"&lt;/s6&gt;]
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>providedCompile &lt;s4&gt;"javax.servlet:servlet-api:2.5"&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143122Z" creationid="huanghaohang" creationdate="20180408T143122Z">
@@ -26539,6 +26631,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072224Z" creationid="huanghaohang" creationdate="20180812T072224Z">
         <seg>sonar.project {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.project.withProjectProperties { props -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135519Z" creationid="huanghaohang" creationdate="20180816T135519Z">
+        <seg>sonar.project.withProjectProperties { props -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.withGlobalProperties { props -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135436Z" creationid="huanghaohang" creationdate="20180816T135436Z">
+        <seg>sonar.withGlobalProperties { props -&gt;</seg>
       </tuv>
     </tu>
     <tu>
