@@ -530,6 +530,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.sonar.SonarAnalyze.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085519Z" creationid="huanghaohang" creationdate="20181012T085519Z">
+        <seg>../dsl/org.gradle.api.plugins.sonar.SonarAnalyze.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.reporting.Reporting.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T135327Z" creationid="huanghaohang" creationdate="20180712T135327Z">
@@ -3686,6 +3694,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T084805Z" creationid="huanghaohang" creationdate="20181012T084805Z">
         <seg>35.6. 从命令行配置 Sonar 的设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>35.7. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085451Z" creationid="huanghaohang" creationdate="20181012T085451Z">
+        <seg>35.7. 任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -7540,6 +7556,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T043615Z" creationid="huanghaohang" creationdate="20170908T043428Z">
         <seg>一个外部依赖使用&lt;c0&gt;group&lt;/c0&gt;, &lt;c1&gt;name&lt;/c1&gt; 和 &lt;c2&gt;version&lt;/c2&gt; 属性来定义。根据你所使用的仓库类型不同， &lt;c3&gt;group&lt;/c3&gt; 和 &lt;c4&gt;version&lt;/c4&gt; 可能是可选的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Analyzes a project hierarchy and stores the results in the Sonar database.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085533Z" creationid="huanghaohang" creationdate="20181012T085533Z">
+        <seg>分析项目层次结构，并将结果存储在 Sonar 数据库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12086,6 +12110,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, keep in mind that it is usually best to keep configuration in the build script and under source control.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085446Z" creationid="huanghaohang" creationdate="20181012T085446Z">
+        <seg>但是，请记住，通常最好将配置保留在构建脚本中，并在源代码管理下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>However, the &lt;c0&gt;compileJava&lt;/c0&gt; task is likely to not be the only task that needs to know where the class files are.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T022630Z" creationid="huanghaohang" creationdate="20180131T022630Z">
@@ -14710,6 +14742,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>SonarAnalyze</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085520Z" creationid="huanghaohang" creationdate="20181012T085520Z">
+        <seg>SonarAnalyze</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Source set properties</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T133213Z" creationid="huanghaohang" creationdate="20180712T133213Z">
@@ -15426,6 +15466,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093959Z" creationid="huanghaohang" creationdate="20180715T093959Z">
         <seg>表34.4. JaCoCo 插件——依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 35.1. Sonar plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085516Z" creationid="huanghaohang" creationdate="20181012T085516Z">
+        <seg>表 35.1. Sonar 插件——任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -16582,6 +16630,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T145839Z" creationid="huanghaohang" creationdate="20170911T145839Z">
         <seg>设置（Setup）选项卡允许你配置一些常规的设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Sonar plugin adds the following tasks to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085506Z" creationid="huanghaohang" creationdate="20181012T085506Z">
+        <seg>Sonar 插件向项目添加了以下任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24276,6 +24332,16 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>language = System.getProperty(&lt;s0&gt;"sonar.language"&lt;/s0&gt;, &lt;s1&gt;"java"&lt;/s1&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085356Z" creationid="huanghaohang" creationdate="20181012T085356Z">
+        <seg>language = System.getProperty(&lt;s0&gt;"sonar.language"&lt;/s0&gt;, &lt;s1&gt;"java"&lt;/s1&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>lib</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145916Z" creationid="huanghaohang" creationdate="20180415T145916Z">
@@ -26759,6 +26825,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135436Z" creationid="huanghaohang" creationdate="20180816T135436Z">
         <seg>sonar.withGlobalProperties { props -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonarAnalyze</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085518Z" creationid="huanghaohang" creationdate="20181012T085518Z">
+        <seg>sonarAnalyze</seg>
       </tuv>
     </tu>
     <tu>
