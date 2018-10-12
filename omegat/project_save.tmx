@@ -10590,6 +10590,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 35.13. Implementing custom command line properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085352Z" creationid="huanghaohang" creationdate="20181012T085352Z">
+        <seg>示例 35.13. 实现自定义命令行属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 35.2. Configuring Sonar connection settings</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100111Z" creationid="huanghaohang" creationdate="20180715T100111Z">
@@ -11974,6 +11982,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Here is a complete example:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085314Z" creationid="huanghaohang" creationdate="20181012T085314Z">
+        <seg>下面是一个完整的例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Here is a list of some of Gradle's features.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T015227Z" creationid="95" creationdate="20170722T015227Z">
@@ -12242,6 +12258,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025433Z" creationid="huanghaohang" creationdate="20180120T025433Z">
         <seg>如果你的构建有问题，请尝试暂时禁用守护进程（可以通过使用命令行开关 &lt;c0&gt;--no-daemon&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need to set other properties from the command line, you can use system properties to do so:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085342Z" creationid="huanghaohang" creationdate="20181012T085342Z">
+        <seg>如果你需要从命令行设置其他属性，可以使用系统属性来做：</seg>
       </tuv>
     </tu>
     <tu>
@@ -21370,6 +21394,38 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>database.driverClassName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085304Z" creationid="huanghaohang" creationdate="20181012T085304Z">
+        <seg>database.driverClassName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>database.password</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085305Z" creationid="huanghaohang" creationdate="20181012T085305Z">
+        <seg>database.password</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>database.url</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085303Z" creationid="huanghaohang" creationdate="20181012T085303Z">
+        <seg>database.url</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>database.username</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085305Z" creationid="huanghaohang" creationdate="20181012T085305Z">
+        <seg>database.username</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def classesDir = &lt;s0&gt;new&lt;/s0&gt; File(&lt;s1&gt;'build/classes'&lt;/s1&gt;)
 
 task resources &lt;&lt; {</seg>
@@ -22374,6 +22430,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>forceAnalysis</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085308Z" creationid="huanghaohang" creationdate="20181012T085308Z">
+        <seg>forceAnalysis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>formatter(type: &lt;s5&gt;'text'&lt;/s5&gt;, toConsole: &lt;s6&gt;'true'&lt;/s6&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084333Z" creationid="huanghaohang" creationdate="20180105T084333Z">
@@ -22676,6 +22740,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131746Z" creationid="huanghaohang" creationdate="20180405T131746Z">
         <seg>gradle someTestTask --tests *UiTest someOtherTestTask --tests *WebTest*ui</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle sonarAnalyze --server.url=http://sonar.mycompany.com --database.password=myPassword --verbose</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085316Z" creationid="huanghaohang" creationdate="20181012T085316Z">
+        <seg>gradle sonarAnalyze --server.url=http://sonar.mycompany.com --database.password=myPassword --verbose</seg>
       </tuv>
     </tu>
     <tu>
@@ -26563,6 +26635,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>server.url</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085302Z" creationid="huanghaohang" creationdate="20181012T085302Z">
+        <seg>server.url</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>services/webservice/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154456Z" creationid="95" creationdate="20170731T154456Z">
@@ -26591,6 +26671,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154458Z" creationid="95" creationdate="20170731T154458Z">
         <seg>shared/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>showSql</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085306Z" creationid="huanghaohang" creationdate="20181012T085306Z">
+        <seg>showSql</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>showSqlResults</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085307Z" creationid="huanghaohang" creationdate="20181012T085307Z">
+        <seg>showSqlResults</seg>
       </tuv>
     </tu>
     <tu>
@@ -28504,6 +28600,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152259Z" creationid="huanghaohang" creationdate="20180811T152259Z">
         <seg>username = &lt;s4&gt;"Fred Flintstone"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>verbose</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085307Z" creationid="huanghaohang" creationdate="20181012T085307Z">
+        <seg>verbose</seg>
       </tuv>
     </tu>
     <tu>
