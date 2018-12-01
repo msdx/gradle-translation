@@ -8216,6 +8216,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Automatic provisioning of Sonar Runner</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150518Z" creationid="huanghaohang" creationdate="20181201T150518Z">
+        <seg>自动配置 Sonar Runner</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Automatically applies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140559Z" creationid="huanghaohang" creationdate="20180205T140559Z">
@@ -17132,8 +17140,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The Sonar Runner plugin provides integration with &lt;a0&gt;Sonar&lt;/a0&gt;, a web-based platform for monitoring code quality. It is based on the &lt;a1&gt;Sonar Runner&lt;/a1&gt;, a Sonar client component that analyzes source code and build outputs, and stores all collected information in the Sonar database. Compared to using the standalone Sonar Runner, the Sonar Runner plugin offers the following benefits:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150116Z" creationid="huanghaohang" creationdate="20181201T150116Z">
-        <seg>The Sonar Runner plugin provides integration with &lt;a0&gt;Sonar&lt;/a0&gt;, a web-based platform for monitoring code quality. It is based on the &lt;a1&gt;Sonar Runner&lt;/a1&gt;, a Sonar client component that analyzes source code and build outputs, and stores all collected information in the Sonar database. Compared to using the standalone Sonar Runner, the Sonar Runner plugin offers the following benefits:</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150505Z" creationid="huanghaohang" creationdate="20181201T150116Z">
+        <seg>Sonar Runner 插件提供了对 &lt;a0&gt;Sonar&lt;/a0&gt;——一个基于 web 的代码质量监控平台的集成。它基于 &lt;a1&gt;Sonar Runner&lt;/a1&gt;，一个分析源代码及构建输出，并将所有收集的信息储存在 Sonar 数据库的 Sonar 客户端组件。相比单独使用 Sonar Runner，Sonar Runner 插件具有以下优势：</seg>
       </tuv>
     </tu>
     <tu>
@@ -17164,8 +17172,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The Sonar runner plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;. Please be aware that the DSL and other configuration may change in later Gradle versions.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T140150Z" creationid="huanghaohang" creationdate="20181201T140150Z">
-        <seg>JaCoCo 目前是一个&lt;a0&gt;试验性&lt;/a0&gt;插件。注意，在以后的 Gradle 版本中，其 DSL 和其他配置可能会有变化。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150215Z" creationid="huanghaohang" creationdate="20181201T140150Z">
+        <seg>Sonar runner 插件目前是一个&lt;a0&gt;试验性&lt;/a0&gt;插件。注意，在以后的 Gradle 版本中，其 DSL 和其他配置可能会有变化。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17270,6 +17278,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T140131Z" creationid="huanghaohang" creationdate="20180408T140131Z">
         <seg>War 插件扩展了 Java插件，以添加对组装 Web 应用程序 WAR 文件的支持。它禁用 Java 插件默认的 JAR 归档生成，并添加一个默认的 WAR 归档任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The ability to execute the Sonar Runner via a regular Gradle task makes it available anywhere Gradle is available (developer build, CI server, etc.), without the need to download, setup, and maintain a Sonar Runner installation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150630Z" creationid="huanghaohang" creationdate="20181201T150630Z">
+        <seg>可以通过一个常规的 Gradle 任务来执行 Sonar Runner，这使得在任何 Gradle 可用的地方，它都可以用（开发人员构建，CI 服务器等），而无需下载，安装，和维护 Sonar Runner 的安装。</seg>
       </tuv>
     </tu>
     <tu>
