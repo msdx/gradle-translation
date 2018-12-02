@@ -18754,6 +18754,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To analyze a project hierarchy, apply the Sonar Runner plugin to the root project of the hierarchy. Typically (but not necessarily) this will be the root project of the Gradle build. Information pertaining to the analysis as a whole, like server and database connections settings, have to be configured in the &lt;c0&gt;sonarRunner&lt;/c0&gt; block of this project. Any Sonar properties set on the command line also apply to this project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042737Z" creationid="huanghaohang" creationdate="20181202T042737Z">
+        <seg>要分析项目层次结构，请将 Sonar Runner 插件应用于层次结构的根项目。通常（但不一定）是 Gradle 构建的根项目。有关整个分析的信息，如服务器和数据库连接设置，必须在这个项目的 &lt;c0&gt;sonarRunner&lt;/c0&gt; 块中进行配置。在命令行上设置的任何 Sonar 属性也会应用到该项目中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To analyze a project hierarchy, the Sonar plugin needs to be applied to the top-most project of the hierarchy. Typically (but not necessarily) this will be the root project. The &lt;c0&gt;sonar&lt;/c0&gt; block in that project configures an object of type &lt;a1&gt;&lt;c2&gt;SonarRootModel&lt;/c2&gt;&lt;/a1&gt;. It holds all global configuration, most importantly server and database connection settings.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152247Z" creationid="huanghaohang" creationdate="20180811T152247Z">
