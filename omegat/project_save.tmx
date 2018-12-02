@@ -4146,6 +4146,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>36.4. Analyzing Multi-Project Builds</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T024007Z" creationid="huanghaohang" creationdate="20181202T024007Z">
+        <seg>36.4. 分析多项目构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014548Z" creationid="haohang" creationdate="20170801T014548Z">
@@ -27893,6 +27901,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sonar.binaries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023856Z" creationid="huanghaohang" creationdate="20181202T023856Z">
+        <seg>sonar.binaries</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sonar.dynamicAnalysis</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023749Z" creationid="huanghaohang" creationdate="20181202T023749Z">
@@ -27913,6 +27929,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023813Z" creationid="huanghaohang" creationdate="20181202T023813Z">
         <seg>sonar.java.target</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.junit.reportsPath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023931Z" creationid="huanghaohang" creationdate="20181202T023931Z">
+        <seg>sonar.junit.reportsPath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023906Z" creationid="huanghaohang" creationdate="20181202T023906Z">
+        <seg>sonar.libraries</seg>
       </tuv>
     </tu>
     <tu>
@@ -27969,6 +28001,30 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023745Z" creationid="huanghaohang" creationdate="20181202T023745Z">
         <seg>sonar.projectVersion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023833Z" creationid="huanghaohang" creationdate="20181202T023833Z">
+        <seg>sonar.sources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.surefire.reportsPath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023920Z" creationid="huanghaohang" creationdate="20181202T023920Z">
+        <seg>sonar.surefire.reportsPath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.tests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023850Z" creationid="huanghaohang" creationdate="20181202T023850Z">
+        <seg>sonar.tests</seg>
       </tuv>
     </tu>
     <tu>
@@ -28223,10 +28279,34 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sourceSets.main.allSource.srcDirs (filtered to only include existing directories)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023848Z" creationid="huanghaohang" creationdate="20181202T023848Z">
+        <seg>sourceSets.main.allSource.srcDirs（过滤为只包含存在的目录）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sourceSets.main.output + sourceSets.main.compileClasspath</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T100239Z" creationid="haohang" creationdate="20180326T100239Z">
         <seg>sourceSets.main.output + sourceSets.main.compileClasspath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceSets.main.runtimeClasspath (filtered to only include directories)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023904Z" creationid="huanghaohang" creationdate="20181202T023904Z">
+        <seg>sourceSets.main.runtimeClasspath （过滤为只包含存在的目录）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceSets.main.runtimeClasspath (filtering to only include files; &lt;c0&gt;rt.jar&lt;/c0&gt; added if necessary)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023919Z" creationid="huanghaohang" creationdate="20181202T023919Z">
+        <seg>sourceSets.main.runtimeClasspath （过滤为仅包括文件 ；如果有必要会加上 &lt;c0&gt;rt.jar&lt;/c0&gt;）</seg>
       </tuv>
     </tu>
     <tu>
@@ -28237,6 +28317,14 @@ jar {</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133556Z" creationid="huanghaohang" creationdate="20170913T133556Z">
         <seg>sourceSets.matching { it.purpose == &lt;s6&gt;"production"&lt;/s6&gt; }.each { println it.name }
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceSets.test.allSource.srcDirs (filtered to only include existing directories)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023854Z" creationid="huanghaohang" creationdate="20181202T023854Z">
+        <seg>sourceSets.test.allSource.srcDirs（过滤为只包含存在的目录）</seg>
       </tuv>
     </tu>
     <tu>
@@ -29091,6 +29179,14 @@ test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&g
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T141438Z" creationid="huanghaohang" creationdate="20170913T141438Z">
         <seg>test.systemProperty &lt;s0&gt;'some.prop'&lt;/s0&gt;, &lt;s1&gt;'value'&lt;/s1&gt;
 test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>test.testResultsDir (if the directory exists)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023926Z" creationid="huanghaohang" creationdate="20181202T023926Z">
+        <seg>test.testResultsDir （如果该目录存在）</seg>
       </tuv>
     </tu>
     <tu>
