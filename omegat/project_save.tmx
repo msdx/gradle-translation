@@ -8296,6 +8296,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Before executing the &lt;c0&gt;sonarRunner&lt;/c0&gt; task, all tasks producing output to be analysed by Sonar need to be executed. Typically, these are compile tasks, test tasks, and code coverage tasks. To meet these needs, the plugins adds a task dependency from &lt;c1&gt;sonarRunner&lt;/c1&gt; on &lt;c2&gt;test&lt;/c2&gt; if the &lt;c3&gt;java&lt;/c3&gt; plugin is applied. Further task dependencies can be added as needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T020520Z" creationid="huanghaohang" creationdate="20181202T020520Z">
+        <seg>在执行之前 &lt;c0&gt;sonarRunner&lt;/c0&gt; 任务，所有产生输出以用于 Sonar 分析的任务都需要被执行。通常情况下它们是编译任务，测试任务和代码覆盖任务。为了满足这些需求，如果应用了 &lt;c3&gt;java的&lt;/c3&gt; 插件，Sonar Runner 插件将对 &lt;c1&gt;sonarRunner&lt;/c1&gt; 添加一个对 &lt;c2&gt;test&lt;/c2&gt; 任务的依赖。根据需要，可以添加更多的任务依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Below four tasks are defined. Both &lt;c0&gt;dist&lt;/c0&gt; and &lt;c1&gt;test&lt;/c1&gt; depend on the &lt;c2&gt;compile&lt;/c2&gt; task. Running &lt;s3&gt;&lt;c4&gt;gradle dist test&lt;/c4&gt;&lt;/s3&gt; for this build script results in the &lt;c5&gt;compile&lt;/c5&gt; task being executed only once.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031022Z" creationid="huanghaohang" creationdate="20170909T031022Z">
