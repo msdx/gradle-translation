@@ -17266,6 +17266,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Sonar Runner plugin leverages information contained in Gradle's object model to provide smart defaults for many of the standard Sonar properties. The defaults are summarized in the tables below. Notice that additional defaults are provided for projects that have the &lt;c0&gt;java-base&lt;/c0&gt; or &lt;c1&gt;java&lt;/c1&gt; plugin applied. For some properties (notably server and database connection settings), determining a suitable default is left to the Sonar Runner.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023527Z" creationid="huanghaohang" creationdate="20181202T023209Z">
+        <seg>Sonar Runner 插件利用 Gradle 对象模型中包含的信息为许多标准 Sonar 属性提供了智能默认值。下表总结了这些默认值。请注意，应用了 &lt;c0&gt;java-base&lt;/c0&gt; 或 &lt;c1&gt;java&lt;/c1&gt; 插件的项目，有提供另外的默认值。对于某些属性（特别是服务器和数据库连接设置），确定留给 Sonar Runner 合适的默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Sonar Runner plugin provides integration with &lt;a0&gt;Sonar&lt;/a0&gt;, a web-based platform for monitoring code quality. It is based on the &lt;a1&gt;Sonar Runner&lt;/a1&gt;, a Sonar client component that analyzes source code and build outputs, and stores all collected information in the Sonar database. Compared to using the standalone Sonar Runner, the Sonar Runner plugin offers the following benefits:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150505Z" creationid="huanghaohang" creationdate="20181201T150116Z">
