@@ -4154,6 +4154,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>36.5. Analyzing Custom Source Sets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042952Z" creationid="huanghaohang" creationdate="20181202T042952Z">
+        <seg>36.5. 分析自定义源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014548Z" creationid="haohang" creationdate="20170801T014548Z">
@@ -8472,6 +8480,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, the Sonar Runner plugin passes on the project's &lt;c0&gt;main&lt;/c0&gt; source set as production sources, and the project's &lt;c1&gt;test&lt;/c1&gt; source set as test sources. This works regardless of the project's source directory layout. Additional source sets can be added as needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T043315Z" creationid="huanghaohang" creationdate="20181202T042959Z">
+        <seg>默认情况下，Sonar Runner 插件会把项目的 &lt;c0&gt;main&lt;/c0&gt; 源集当作生产源，把项目的 &lt;c1&gt;test&lt;/c1&gt; 源集当为测试源。这与项目的源目录布局无关。根据需要，可以添加其他的源集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, the Sonar plugin will analyze the production sources in the &lt;c0&gt;main&lt;/c0&gt; source set and the test sources in the &lt;c1&gt;test&lt;/c1&gt; source set. This works independent of the project's source directory layout. Additional source sets can be added as needed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072222Z" creationid="huanghaohang" creationdate="20180812T072156Z">
@@ -9132,6 +9148,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T142301Z" creationid="huanghaohang" creationdate="20181201T142301Z">
         <seg>配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuration shared between subprojects can be configured in a &lt;c0&gt;subprojects&lt;/c0&gt; block.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042845Z" creationid="huanghaohang" creationdate="20181202T042845Z">
+        <seg>子项目之间的共享配置可以配置在 &lt;c0&gt;subprojects&lt;/c0&gt; 块中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11242,6 +11266,38 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T022143Z" creationid="huanghaohang" creationdate="20181202T022143Z">
         <seg>示例 36.2. 配置 Sonar 连接设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 36.3. Global configuration settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042741Z" creationid="huanghaohang" creationdate="20181202T042741Z">
+        <seg>示例 36.3. 全局配置设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 36.4. Shared configuration settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042850Z" creationid="huanghaohang" creationdate="20181202T042850Z">
+        <seg>示例 36.4. 共享的配置设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 36.5. Individual configuration settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042909Z" creationid="huanghaohang" creationdate="20181202T042909Z">
+        <seg>示例 36.5. 个别配置设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 36.6. Skipping analysis of a project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042932Z" creationid="huanghaohang" creationdate="20181202T042932Z">
+        <seg>示例 36.6. 跳过项目分析</seg>
       </tuv>
     </tu>
     <tu>
@@ -14694,6 +14750,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Project-specific information is configured in the &lt;c0&gt;sonarRunner&lt;/c0&gt; block of the corresponding project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042906Z" creationid="huanghaohang" creationdate="20181202T042906Z">
+        <seg>特定项目的信息在对应项目的 &lt;c0&gt;sonarRunner&lt;/c0&gt; 块中配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ProjectEvaluationListener</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144456Z" creationid="huanghaohang" creationdate="20180107T144456Z">
@@ -18070,6 +18134,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171210T152241Z" creationid="huanghaohang" creationdate="20171210T151948Z">
         <seg>Ant 的第二层是它丰富的 Ant 任务和类型，比如&lt;c0&gt;javac&lt;/c0&gt;， &lt;c1&gt;copy&lt;/c1&gt;或&lt;c2&gt;jar&lt;/c2&gt;。对于这一层，Gradle 只依靠 Groovy 和极出色的 &lt;c3&gt;AntBuilder&lt;/c3&gt; 来提供集成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The skip Sonar analysis for a particular subproject, set &lt;c0&gt;sonarRunner.skipProject&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042927Z" creationid="huanghaohang" creationdate="20181202T042927Z">
+        <seg>对于一个特定的子项目，要跳过 Sonar 分析，可以设置&lt;c0&gt;sonarRunner.skipProject&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27279,6 +27351,22 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>property &lt;s0&gt;"sonar.sourceEncoding"&lt;/s0&gt;, &lt;s1&gt;"UTF-8"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042851Z" creationid="huanghaohang" creationdate="20181202T042851Z">
+        <seg>property &lt;s0&gt;"sonar.sourceEncoding"&lt;/s0&gt;, &lt;s1&gt;"UTF-8"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>property &lt;s1&gt;"sonar.language"&lt;/s1&gt;, &lt;s2&gt;"grvy"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042910Z" creationid="huanghaohang" creationdate="20181202T042910Z">
+        <seg>property &lt;s1&gt;"sonar.language"&lt;/s1&gt;, &lt;s2&gt;"grvy"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>property &lt;s2&gt;"sonar.jdbc.url"&lt;/s2&gt;, &lt;s3&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T022146Z" creationid="huanghaohang" creationdate="20181202T022146Z">
@@ -27889,6 +27977,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153058Z" creationid="huanghaohang" creationdate="20180811T153058Z">
         <seg>skip = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>skipProject = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042944Z" creationid="huanghaohang" creationdate="20181202T042944Z">
+        <seg>skipProject = true</seg>
       </tuv>
     </tu>
     <tu>
