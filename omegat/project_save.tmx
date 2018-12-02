@@ -19914,6 +19914,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While certainly useful at times, we do recommend to keep the bulk of the configuration in a (versioned) build script, readily available to everyone.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T045544Z" creationid="huanghaohang" creationdate="20181202T045544Z">
+        <seg>虽然有时肯定有用，但我们建议将大部分配置保存在（版本化的）构建脚本中，随时可供所有人使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Why Groovy?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072502Z" creationid="haohang" creationdate="20170720T072502Z">
@@ -23868,6 +23876,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085316Z" creationid="huanghaohang" creationdate="20181012T085316Z">
         <seg>gradle sonarAnalyze --server.url=http://sonar.mycompany.com --database.password=myPassword --verbose</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gradle sonarRunner -Dsonar.host.url=http://sonar.mycompany.com -Dsonar.jdbc.password=myPassword -Dsonar.verbose=true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T045349Z" creationid="huanghaohang" creationdate="20181202T045349Z">
+        <seg>gradle sonarRunner -Dsonar.host.url=http://sonar.mycompany.com -Dsonar.jdbc.password=myPassword -Dsonar.verbose=true</seg>
       </tuv>
     </tu>
     <tu>
