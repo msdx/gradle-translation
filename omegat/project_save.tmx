@@ -4162,6 +4162,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>36.6. Analyzing languages other than Java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T043426Z" creationid="huanghaohang" creationdate="20181202T043330Z">
+        <seg>36.6. 分析 Java 以外的语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>36.7. More on configuring Sonar properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T043550Z" creationid="huanghaohang" creationdate="20181202T043550Z">
+        <seg>36.7. 有关配置 Sonar 属性的更多信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014548Z" creationid="haohang" creationdate="20170801T014548Z">
@@ -8152,6 +8168,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As of Sonar 3.4, only one language per project can be analyzed. It is, however, possible to analyze a different language for each project in a multi-project build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T043523Z" creationid="huanghaohang" creationdate="20181202T043523Z">
+        <seg>从 Sonar 3.4 开始，每个项目只能分析一种语言。但是，你可以在多项目构建中为每个项目分析不同的语言。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As of Sonar 3.4, only one language per project can be analyzed. You can, however, set a different language for each project in a multi-project build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072751Z" creationid="huanghaohang" creationdate="20180812T072751Z">
@@ -11302,6 +11326,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 36.7. Analyzing custom source sets</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T043321Z" creationid="huanghaohang" creationdate="20181202T043321Z">
+        <seg>示例 36.7. 分析自定义的源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 36.8. Analyzing languages other than Java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T043419Z" creationid="huanghaohang" creationdate="20181202T043419Z">
+        <seg>示例 36.8. 分析 Java 以外的语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -13578,6 +13618,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143504Z" creationid="huanghaohang" creationdate="20180416T143504Z">
         <seg>假设你已经有了 &lt;c0&gt;application.xml中&lt;/c0&gt; 并且希望使用它而不是去配置 &lt;c1&gt;ear.deploymentDescriptor&lt;/c1&gt; 代码段，那么就要把 &lt;c2&gt;META-INF/application.xml&lt;/c2&gt; 放在你源文件夹中的正确位置（请参阅 &lt;c3&gt;appDirName&lt;/c3&gt; 属性）。这样现有的文件内容将被使用，而 &lt;c4&gt;ear.deploymentDescriptor&lt;/c4&gt; 中的显式配置则会被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's take a closer look at the &lt;c0&gt;sonarRunner.sonarProperties {}&lt;/c0&gt; block. As we have already seen in the examples, the &lt;c1&gt;property()&lt;/c1&gt; method allows to set new properties or override existing ones. Furthermore, all properties that have been configured up to this point, including all properties preconfigured by Gradle, are available via the &lt;c2&gt;properties&lt;/c2&gt; accessor.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T043631Z" creationid="huanghaohang" creationdate="20181202T043631Z">
+        <seg>Let's take a closer look at the &lt;c0&gt;sonarRunner.sonarProperties {}&lt;/c0&gt; block. As we have already seen in the examples, the &lt;c1&gt;property()&lt;/c1&gt; method allows to set new properties or override existing ones. Furthermore, all properties that have been configured up to this point, including all properties preconfigured by Gradle, are available via the &lt;c2&gt;properties&lt;/c2&gt; accessor.</seg>
       </tuv>
     </tu>
     <tu>
@@ -27343,10 +27391,34 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>properties[&lt;s0&gt;"sonar.sources"&lt;/s0&gt;] += sourceSets.custom.allSource.srcDirs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T043322Z" creationid="huanghaohang" creationdate="20181202T043322Z">
+        <seg>properties[&lt;s0&gt;"sonar.sources"&lt;/s0&gt;] += sourceSets.custom.allSource.srcDirs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>properties[&lt;s1&gt;"sonar.tests"&lt;/s1&gt;] += sourceSets.integTest.allSource.srcDirs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T043323Z" creationid="huanghaohang" creationdate="20181202T043323Z">
+        <seg>properties[&lt;s1&gt;"sonar.tests"&lt;/s1&gt;] += sourceSets.integTest.allSource.srcDirs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>property &lt;s0&gt;"sonar.host.url"&lt;/s0&gt;, &lt;s1&gt;"http://my.server.com"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T022146Z" creationid="huanghaohang" creationdate="20181202T022146Z">
         <seg>property &lt;s0&gt;"sonar.host.url"&lt;/s0&gt;, &lt;s1&gt;"http://my.server.com"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>property &lt;s0&gt;"sonar.language"&lt;/s0&gt;, &lt;s1&gt;"grvy"&lt;/s1&gt; &lt;s2&gt;// set language to Groovy&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T043428Z" creationid="huanghaohang" creationdate="20181202T043428Z">
+        <seg>property &lt;s0&gt;"sonar.language"&lt;/s0&gt;, &lt;s1&gt;"grvy"&lt;/s1&gt; &lt;s2&gt;// set language to Groovy&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
