@@ -4090,6 +4090,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>36.1. Plugin Status and Compatibility</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150934Z" creationid="huanghaohang" creationdate="20181201T150934Z">
+        <seg>36.1. 插件状态和兼容性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014548Z" creationid="haohang" creationdate="20170801T014548Z">
@@ -7856,6 +7864,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All of Gradle's scripting features can be leveraged to configure Sonar Runner as needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150718Z" creationid="huanghaohang" creationdate="20181201T150718Z">
+        <seg>可以利用 Gradle 的所有脚本特性根据需要去配置 Sonar Runner。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All of this happened during the &lt;c0&gt;apply plugin: "java"&lt;/c0&gt; step. In the example above, we &lt;s1&gt;&lt;e2&gt;changed&lt;/e2&gt;&lt;/s1&gt; the desired location of the class files after this conventional configuration had been performed. Notice by the output with the example that the value for &lt;c3&gt;compileJava.destinationDir&lt;/c3&gt; also changed to reflect the configuration change.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T031612Z" creationid="huanghaohang" creationdate="20180131T025501Z">
@@ -9554,6 +9570,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T140814Z" creationid="huanghaohang" creationdate="20180407T140637Z">
         <seg>由于依赖分析的开销，进行清理编译或者是在较大的代码更改之后进行编译可能耗时比基于 Ant 的编译器要更长。对于 CI 构建和发布构建，我们目前推荐使用基于 Ant 的编译器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dynamic configuration from Gradle build scripts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150635Z" creationid="huanghaohang" creationdate="20181201T150635Z">
+        <seg>通过 Gradle 构建脚本动态配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -11502,6 +11526,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Extensive configuration defaults</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150741Z" creationid="huanghaohang" creationdate="20181201T150741Z">
+        <seg>广泛的默认配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extensive samples, including the examples referenced in the user guide, along with some complete and more complex builds you can use the starting point for your own build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114843Z" creationid="95" creationdate="20170723T114843Z">
@@ -12114,6 +12146,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T023856Z" creationid="95" creationdate="20170729T023856Z">
         <seg>Gradle允许您在构建中定义一个或多个的默认任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle already has much of the information needed for Sonar Runner to successfully analyze a project. By preconfiguring the Sonar Runner based on that information, the need for manual configuration is reduced significantly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150929Z" creationid="huanghaohang" creationdate="20181201T150743Z">
+        <seg>Gradle 已经拥有很多 Sonar Runner 成功分析一个项目所需的信息。通过基于这些信息对 Sonar Runner 进行预配置，显著降低了对手动配置的需求。</seg>
       </tuv>
     </tu>
     <tu>
