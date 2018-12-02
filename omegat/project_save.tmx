@@ -9846,6 +9846,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Entries in the &lt;c0&gt;properties&lt;/c0&gt; map can be read and written with the usual Groovy syntax. To facilitate their manipulation, values still have their "idiomatic" type (&lt;c1&gt;File&lt;/c1&gt;, &lt;c2&gt;List&lt;/c2&gt;, etc.). After the sonarProperties block has been evaluated, values are converted to Strings as follows: Collection values are (recursively) converted to comma-separated Strings, and all other values are converted by calling their &lt;c3&gt;toString()&lt;/c3&gt; method.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T044934Z" creationid="huanghaohang" creationdate="20181202T044934Z">
+        <seg>在 &lt;c0&gt;properties&lt;/c0&gt; map 中的条目可以使用常见的 Groovy 语法来读写。为了方便它们的操纵，这些值仍然有它们的“惯用”类型（&lt;c1&gt;File&lt;/c1&gt;， &lt;c2&gt;List&lt;/c2&gt;等）。在 sonarProperties 块评估之后，值将转换为字符串，如下所示：集合的值会（递归地）转换为以逗号分隔的字符串，其他所有的值则通过调用它们 &lt;c3&gt;toString()&lt;/c3&gt; 方法来转换。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Environment variables</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013347Z" creationid="huanghaohang" creationdate="20170919T013347Z">
