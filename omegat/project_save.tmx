@@ -8200,6 +8200,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assuming a local Sonar server with out-of-the-box settings is up and running, no further mandatory configuration is required. Execute &lt;s0&gt;&lt;c1&gt;gradle sonarRunner&lt;/c1&gt;&lt;/s0&gt; and wait until the build has completed, then open the web page indicated at the bottom of the Sonar Runner output. You should now be able to browse the analysis results.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T020003Z" creationid="huanghaohang" creationdate="20181202T015510Z">
+        <seg>假设一个具有开箱即用设置的本地 Sonar 服务器已启动并正在运行，则不需要进一步强制性的配置。执行 &lt;s0&gt;&lt;c1&gt;gradle sonarRunner&lt;/c1&gt;&lt;/s0&gt; 并等待构建完成，然后打开 Sonar Runner 输出底部所指示的网页。你现在应该能够看到分析结果了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At a minimum, the Sonar plugin has to be applied to the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T100045Z" creationid="huanghaohang" creationdate="20180715T100045Z">
@@ -11154,6 +11162,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072214Z" creationid="huanghaohang" creationdate="20180812T072214Z">
         <seg>示例 35.9. 分析自定义的源集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 36.1. Applying the Sonar Runner plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T015432Z" creationid="huanghaohang" creationdate="20181202T015432Z">
+        <seg>示例 36.1. 配置使用 Sonar Runner 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -20796,6 +20812,14 @@ sonar {</seg>
         <seg>apply plugin: &lt;s0&gt;"sonar"&lt;/s0&gt;
 
 sonar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;"sonar-runner"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T015434Z" creationid="huanghaohang" creationdate="20181202T015434Z">
+        <seg>apply plugin: &lt;s0&gt;"sonar-runner"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
