@@ -4178,6 +4178,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>36.8. Setting Sonar Properties from the Command Line</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T045035Z" creationid="huanghaohang" creationdate="20181202T045035Z">
+        <seg>36.8. 从命令行设置 Sonar 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014548Z" creationid="haohang" creationdate="20170801T014548Z">
@@ -8372,6 +8380,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031650Z" creationid="huanghaohang" creationdate="20170909T031205Z">
         <seg>由于每个任务只执行一次，执行&lt;s0&gt;&lt;c1&gt;gradle test test&lt;/c1&gt;&lt;/s0&gt;与执行&lt;s2&gt;&lt;c3&gt;gradle test&lt;/c3&gt;&lt;/s2&gt;的结果是完全相同的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Because the &lt;c0&gt;sonarProperties&lt;/c0&gt; block is evaluated lazily, properties of Gradle's object model can be safely referenced from within the block, without having to fear that they have not yet been set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T045029Z" creationid="huanghaohang" creationdate="20181202T045029Z">
+        <seg>因为 &lt;c0&gt;sonarProperties&lt;/c0&gt; 块的评估是惰性的，Gradle 的对象模型的属性可以在块中安全地引用，而无需担心它们还没有被赋值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15466,6 +15482,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083311Z" creationid="huanghaohang" creationdate="20170922T083311Z">
         <seg>有时你会想要替换一个任务。例如，你想要将Java插件添加的任务替换成一个不同类型的自定义任务。你可以通过以下方式实现：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sonar Properties can also be set from the command line, by setting a system property named exactly like the Sonar property in question. This can be useful when dealing with sensitive information (e.g. credentials), environment information, or for ad-hoc configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T045343Z" creationid="huanghaohang" creationdate="20181202T045343Z">
+        <seg>从命令行上，通过设置与所讨论的 Sonar 属性名称完全相同的系统属性，也可以设置 Sonar 属性。这在处理敏感信息（例如凭证），环境信息或 ad-hoc 配置时会非常有用。</seg>
       </tuv>
     </tu>
     <tu>
