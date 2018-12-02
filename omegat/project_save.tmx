@@ -11198,6 +11198,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 36.2. Configuring Sonar connection settings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T022143Z" creationid="huanghaohang" creationdate="20181202T022143Z">
+        <seg>示例 36.2. 配置 Sonar 连接设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -11858,6 +11866,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072131Z" creationid="95" creationdate="20170723T071728Z">
         <seg>对于分享Python或Ruby知识并且乐于学习它们的Java团队来说，上面的论据并不适用。Gradle设计非常适全于在JRuby或Jython中创建另一种构建脚本引擎。目前我们并没有最高的优先级，我们很高兴任何社区来努力创建其他的构建脚本引擎。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a complete list of standard Sonar properties, consult the &lt;a0&gt;Sonar documentation&lt;/a0&gt;. If you happen to use additional Sonar plugins, consult their documentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023012Z" creationid="huanghaohang" creationdate="20181202T023012Z">
+        <seg>有关标准 Sonar 属性的完整列表，请参阅 &lt;a0&gt;Sonar 文档&lt;/a0&gt;。如果你碰巧使用其他 Sonar 插件，请查阅它们的文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27135,6 +27151,46 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>property &lt;s0&gt;"sonar.host.url"&lt;/s0&gt;, &lt;s1&gt;"http://my.server.com"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T022146Z" creationid="huanghaohang" creationdate="20181202T022146Z">
+        <seg>property &lt;s0&gt;"sonar.host.url"&lt;/s0&gt;, &lt;s1&gt;"http://my.server.com"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>property &lt;s2&gt;"sonar.jdbc.url"&lt;/s2&gt;, &lt;s3&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T022146Z" creationid="huanghaohang" creationdate="20181202T022146Z">
+        <seg>property &lt;s2&gt;"sonar.jdbc.url"&lt;/s2&gt;, &lt;s3&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>property &lt;s4&gt;"sonar.jdbc.driverClassName"&lt;/s4&gt;, &lt;s5&gt;"com.mysql.jdbc.Driver"&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T022147Z" creationid="huanghaohang" creationdate="20181202T022147Z">
+        <seg>property &lt;s4&gt;"sonar.jdbc.driverClassName"&lt;/s4&gt;, &lt;s5&gt;"com.mysql.jdbc.Driver"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>property &lt;s6&gt;"sonar.jdbc.username"&lt;/s6&gt;, &lt;s7&gt;"Fred Flintstone"&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T022147Z" creationid="huanghaohang" creationdate="20181202T022147Z">
+        <seg>property &lt;s6&gt;"sonar.jdbc.username"&lt;/s6&gt;, &lt;s7&gt;"Fred Flintstone"&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>property &lt;s8&gt;"sonar.jdbc.password"&lt;/s8&gt;, &lt;s9&gt;"very clever"&lt;/s9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T022148Z" creationid="huanghaohang" creationdate="20181202T022148Z">
+        <seg>property &lt;s8&gt;"sonar.jdbc.password"&lt;/s8&gt;, &lt;s9&gt;"very clever"&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>props[&lt;s0&gt;"some.global.property"&lt;/s0&gt;] = &lt;s1&gt;"some value"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135437Z" creationid="huanghaohang" creationdate="20180816T135437Z">
@@ -27769,6 +27825,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085518Z" creationid="huanghaohang" creationdate="20181012T085518Z">
         <seg>sonarAnalyze</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonarProperties {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T022145Z" creationid="huanghaohang" creationdate="20181202T022145Z">
+        <seg>sonarProperties {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonarRunner {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T022144Z" creationid="huanghaohang" creationdate="20181202T022144Z">
+        <seg>sonarRunner {</seg>
       </tuv>
     </tu>
     <tu>
