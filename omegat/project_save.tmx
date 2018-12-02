@@ -6,10 +6,34 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="EN-US">
+        <seg>"$project.buildDir/sonar"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023748Z" creationid="huanghaohang" creationdate="20181202T023748Z">
+        <seg>"$project.buildDir/sonar"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"$project.group:$project.name" (for root project of analysed hierarchy; left to Sonar Runner otherwise)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023740Z" creationid="huanghaohang" creationdate="20181202T023740Z">
+        <seg>"$project.group:$project.name" （用于已分析的层次结构的根项目，否则留给 Sonar Runner 处理）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>"&lt;e0&gt;&lt;c1&gt;$buildDir&lt;/c1&gt;&lt;/e0&gt;/reports/jacoco"</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T135314Z" creationid="huanghaohang" creationdate="20180712T135314Z">
         <seg>"&lt;e0&gt;&lt;c1&gt;$buildDir&lt;/c1&gt;&lt;/e0&gt;/reports/jacoco"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>"reuseReports"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023750Z" creationid="huanghaohang" creationdate="20181202T023750Z">
+        <seg>"reuseReports"</seg>
       </tuv>
     </tu>
     <tu>
@@ -16054,6 +16078,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 36.1. Gradle defaults for standard Sonar properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023536Z" creationid="huanghaohang" creationdate="20181202T023536Z">
+        <seg>表 36.1. 标准 Sonar 属性的 Gradle 默认值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 36.2. Additional defaults when &lt;c0&gt;java-base&lt;/c0&gt; plugin is applied</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023810Z" creationid="huanghaohang" creationdate="20181202T023810Z">
+        <seg>表 36.2. 应用 &lt;c0&gt;java-base&lt;/c0&gt; 插件时另外添加的默认值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 36.3. Additional defaults when &lt;c0&gt;java&lt;/c0&gt; plugin is applied</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023831Z" creationid="huanghaohang" creationdate="20181202T023831Z">
+        <seg>表 36.2. 应用 &lt;c0&gt;java&lt;/c0&gt; 插件时另外添加的默认值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -27127,10 +27175,42 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project.description</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023745Z" creationid="huanghaohang" creationdate="20181202T023745Z">
+        <seg>project.description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233117Z" creationid="huanghaohang" creationdate="20171206T233117Z">
         <seg>project.name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.projectDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023747Z" creationid="huanghaohang" creationdate="20181202T023747Z">
+        <seg>project.projectDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.sourceCompatibility</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023812Z" creationid="huanghaohang" creationdate="20181202T023812Z">
+        <seg>project.sourceCompatibility</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.targetCompatibility</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023814Z" creationid="huanghaohang" creationdate="20181202T023814Z">
+        <seg>project.targetCompatibility</seg>
       </tuv>
     </tu>
     <tu>
@@ -27813,6 +27893,30 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sonar.dynamicAnalysis</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023749Z" creationid="huanghaohang" creationdate="20181202T023749Z">
+        <seg>sonar.dynamicAnalysis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.java.source</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023812Z" creationid="huanghaohang" creationdate="20181202T023812Z">
+        <seg>sonar.java.source</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.java.target</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023813Z" creationid="huanghaohang" creationdate="20181202T023813Z">
+        <seg>sonar.java.target</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sonar.project {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072224Z" creationid="huanghaohang" creationdate="20180812T072224Z">
@@ -27829,10 +27933,58 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sonar.projectBaseDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023746Z" creationid="huanghaohang" creationdate="20181202T023746Z">
+        <seg>sonar.projectBaseDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.projectDescription</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023742Z" creationid="huanghaohang" creationdate="20181202T023742Z">
+        <seg>sonar.projectDescription</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.projectKey</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023538Z" creationid="huanghaohang" creationdate="20181202T023538Z">
+        <seg>sonar.projectKey</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.projectName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023741Z" creationid="huanghaohang" creationdate="20181202T023741Z">
+        <seg>sonar.projectName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.projectVersion</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023745Z" creationid="huanghaohang" creationdate="20181202T023745Z">
+        <seg>sonar.projectVersion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sonar.withGlobalProperties { props -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180816T135436Z" creationid="huanghaohang" creationdate="20180816T135436Z">
         <seg>sonar.withGlobalProperties { props -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sonar.working.directory</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023747Z" creationid="huanghaohang" creationdate="20181202T023747Z">
+        <seg>sonar.working.directory</seg>
       </tuv>
     </tu>
     <tu>
