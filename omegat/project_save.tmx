@@ -4210,6 +4210,46 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>37.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025856Z" creationid="huanghaohang" creationdate="20181203T025856Z">
+        <seg>37.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>37.2. Implicitly applied plugins</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025911Z" creationid="huanghaohang" creationdate="20181203T025911Z">
+        <seg>37.2. 隐式应用插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>37.3. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025928Z" creationid="huanghaohang" creationdate="20181203T025928Z">
+        <seg>37.3. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>37.4. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025938Z" creationid="huanghaohang" creationdate="20181203T025933Z">
+        <seg>37.4. 依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>37.5. Convention object</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T030009Z" creationid="huanghaohang" creationdate="20181203T030009Z">
+        <seg>37.5. 公约对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014548Z" creationid="haohang" creationdate="20170801T014548Z">
@@ -8168,6 +8208,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Applies the Java base plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025924Z" creationid="huanghaohang" creationdate="20181203T025924Z">
+        <seg>应用 Java 基础插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Applying a plugin to the project allows the plugin to extend the project's capabilities. It can do things such as:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100023Z" creationid="huanghaohang" creationdate="20180130T095955Z">
@@ -11402,6 +11450,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T043419Z" creationid="huanghaohang" creationdate="20181202T043419Z">
         <seg>示例 36.8. 分析 Java 以外的语言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 37.1. Using the OSGi plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025906Z" creationid="huanghaohang" creationdate="20181203T025906Z">
+        <seg>示例 37.1. 使用 OSGi 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -15702,6 +15758,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>TBD</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025951Z" creationid="huanghaohang" creationdate="20181203T025951Z">
+        <seg>待决定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>TODO: which url, configure port, uses source files in place and can edit your files and reload.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T010058Z" creationid="huanghaohang" creationdate="20170909T010058Z">
@@ -17346,6 +17410,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The OSGi plugin makes heavy use of Peter Kriens &lt;a0&gt;BND tool&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025854Z" creationid="huanghaohang" creationdate="20181203T025854Z">
+        <seg>OSGi 插件大量使用了 Peter Kriens &lt;a0&gt;BND tool&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The OSGi plugin provides a factory method to create an &lt;a0&gt;&lt;c1&gt;OsgiManifest&lt;/c1&gt;&lt;/a0&gt; object. &lt;c2&gt;OsgiManifest&lt;/c2&gt; extends &lt;a3&gt;&lt;c4&gt;Manifest&lt;/c4&gt;&lt;/a3&gt;. To learn more about generic manifest handling, see &lt;a5&gt;Section 23.13.1, “Manifest”&lt;/a5&gt;. If the Java plugins is applied, the OSGi plugin replaces the manifest object of the default jar with an &lt;c6&gt;OsgiManifest&lt;/c6&gt; object. The replaced manifest is merged into the new one.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025817Z" creationid="huanghaohang" creationdate="20181203T025817Z">
@@ -18906,6 +18978,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This plugin does not add any tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025931Z" creationid="huanghaohang" creationdate="20181203T025931Z">
+        <seg>此插件不会添加任何任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This plugin provides a new DSL to support publishing artifacts to Ivy repositories, which improves on the existing DSL.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144020Z" creationid="huanghaohang" creationdate="20180207T143915Z">
@@ -19238,6 +19318,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143953Z" creationid="huanghaohang" creationdate="20180416T143953Z">
         <seg>要使用 Jetty 的插件，请在构建脚本中包含以下内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the OSGi plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025904Z" creationid="huanghaohang" creationdate="20181203T025904Z">
+        <seg>要使用 OSGi 插件，请在构建脚本中包含以下语句：</seg>
       </tuv>
     </tu>
     <tu>
@@ -21436,6 +21524,14 @@ uploadArchives {</seg>
         <seg>apply plugin: &lt;s0&gt;'maven'&lt;/s0&gt;
 
 uploadArchives {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'osgi'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025907Z" creationid="huanghaohang" creationdate="20181203T025907Z">
+        <seg>apply plugin: &lt;s0&gt;'osgi'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -24404,6 +24500,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T141227Z" creationid="huanghaohang" creationdate="20180205T141227Z">
         <seg>http://www.antlr.org/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.aqute.biz/Code/Bnd</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025819Z" creationid="huanghaohang" creationdate="20181203T025819Z">
+        <seg>http://www.aqute.biz/Code/Bnd</seg>
       </tuv>
     </tu>
     <tu>
