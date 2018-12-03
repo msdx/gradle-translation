@@ -6146,6 +6146,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s3&gt;'org.mycomp.package1'&lt;/s3&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033557Z" creationid="huanghaohang" creationdate="20181203T033557Z">
+        <seg>&lt;s3&gt;'org.mycomp.package1'&lt;/s3&gt;,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s3&gt;// Add a source directory using a File object&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134316Z" creationid="huanghaohang" creationdate="20171002T134316Z">
@@ -6174,6 +6182,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025306Z" creationid="95" creationdate="20170729T025306Z">
         <seg>&lt;s3&gt;if&lt;/s3&gt; (taskGraph.hasTask(release)) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s4&gt;'org.mycomp.package2'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033558Z" creationid="huanghaohang" creationdate="20181203T033558Z">
+        <seg>&lt;s4&gt;'org.mycomp.package2'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11482,6 +11498,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025906Z" creationid="huanghaohang" creationdate="20181203T025906Z">
         <seg>示例 37.1. 使用 OSGi 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 37.2. Configuration of OSGi MANIFEST.MF file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033554Z" creationid="huanghaohang" creationdate="20181203T033554Z">
+        <seg>示例 37.2. OSGi MANIFEST.MF 文件配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -17980,8 +18004,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The classes in the classes dir are analyzed regarding there package dependencies and the packages they expose. Based on this the &lt;s0&gt;&lt;e1&gt;Import-Package&lt;/e1&gt;&lt;/s0&gt; and the &lt;s2&gt;&lt;e3&gt;Export-Package&lt;/e3&gt;&lt;/s2&gt; values of the OSGi Manifest are calculated. If the classpath contains jars with an OSGi bundle, the bundle information is used to specify version information for the &lt;s4&gt;&lt;e5&gt;Import-Package&lt;/e5&gt;&lt;/s4&gt; value. Beside the explicit properties of the &lt;c6&gt;OsgiManifest&lt;/c6&gt; object you can add instructions.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033542Z" creationid="huanghaohang" creationdate="20181203T033542Z">
-        <seg>在 classees 目录中的类将被分析出关于它们的包的依赖，以及它们所公布的包。并基于此，计算出 OSGi 清单中 &lt;s0&gt;&lt;e1&gt;Import-Package&lt;/e1&gt;&lt;/s0&gt; 和&lt;s2&gt;&lt;e3&gt;Export-Package&lt;/e3&gt;&lt;/s2&gt; 的值。如果类路径中包含了带有 OSGi bundle 的 jar，则 bundle 信息会被用于指定 &lt;s4&gt;&lt;e5&gt;Import-Package&lt;/e5&gt;&lt;/s4&gt; 的值。在 &lt;c6&gt;OsgiManifest&lt;/c6&gt; 对象的显式属性旁边，你可以添加说明。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033620Z" creationid="huanghaohang" creationdate="20181203T033542Z">
+        <seg>在 classees 目录中的类将被分析出关于它们的包的依赖，以及它们所公布的包。并基于此，计算出 OSGi 清单中 &lt;s0&gt;&lt;e1&gt;Import-Package&lt;/e1&gt;&lt;/s0&gt; 和&lt;s2&gt;&lt;e3&gt;Export-Package&lt;/e3&gt;&lt;/s2&gt; 的值。如果类路径中包含了带有 OSGi bundle 的 jar，则 bundle 信息会被用于指定 &lt;s4&gt;&lt;e5&gt;Import-Package&lt;/e5&gt;&lt;/s4&gt; 的值。在 &lt;c6&gt;OsgiManifest&lt;/c6&gt; 对象的显式属性旁边，你可以添加 instructions。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25086,6 +25110,46 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>instruction &lt;s11&gt;'Bundle-Vendor'&lt;/s11&gt;, &lt;s12&gt;'MyCompany'&lt;/s12&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033608Z" creationid="huanghaohang" creationdate="20181203T033608Z">
+        <seg>instruction &lt;s11&gt;'Bundle-Vendor'&lt;/s11&gt;, &lt;s12&gt;'MyCompany'&lt;/s12&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>instruction &lt;s2&gt;'Private-Package'&lt;/s2&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033556Z" creationid="huanghaohang" creationdate="20181203T033556Z">
+        <seg>instruction &lt;s2&gt;'Private-Package'&lt;/s2&gt;,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>instruction &lt;s5&gt;'Bundle-Vendor'&lt;/s5&gt;, &lt;s6&gt;'MyCompany'&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033558Z" creationid="huanghaohang" creationdate="20181203T033558Z">
+        <seg>instruction &lt;s5&gt;'Bundle-Vendor'&lt;/s5&gt;, &lt;s6&gt;'MyCompany'&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>instruction &lt;s7&gt;'Bundle-Description'&lt;/s7&gt;, &lt;s8&gt;'Platform2: Metrics 2 Measures Framework'&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033559Z" creationid="huanghaohang" creationdate="20181203T033559Z">
+        <seg>instruction &lt;s7&gt;'Bundle-Description'&lt;/s7&gt;, &lt;s8&gt;'Platform2: Metrics 2 Measures Framework'&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>instruction &lt;s9&gt;'Bundle-DocURL'&lt;/s9&gt;, &lt;s10&gt;'http://www.mycompany.com'&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033559Z" creationid="huanghaohang" creationdate="20181203T033559Z">
+        <seg>instruction &lt;s9&gt;'Bundle-DocURL'&lt;/s9&gt;, &lt;s10&gt;'http://www.mycompany.com'&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>intTest
 }</seg>
       </tuv>
@@ -25916,6 +25980,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>manifest = osgiManifest {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033601Z" creationid="huanghaohang" creationdate="20181203T033601Z">
+        <seg>manifest = osgiManifest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>manifest = project.manifest {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111610Z" creationid="huanghaohang" creationdate="20180406T111610Z">
@@ -25928,6 +26000,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T132604Z" creationid="95" creationdate="20170730T132604Z">
         <seg>manifest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>manifest { &lt;s0&gt;// the manifest of the default jar is of type OsgiManifest&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033555Z" creationid="huanghaohang" creationdate="20181203T033555Z">
+        <seg>manifest { &lt;s0&gt;// the manifest of the default jar is of type OsgiManifest&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -26213,6 +26293,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132126Z" creationid="huanghaohang" creationdate="20170913T132126Z">
         <seg>name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name = &lt;s1&gt;'overwrittenSpecialOsgiName'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033556Z" creationid="huanghaohang" creationdate="20181203T033556Z">
+        <seg>name = &lt;s1&gt;'overwrittenSpecialOsgiName'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -31058,6 +31146,18 @@ task testReport(type: TestReport) {</seg>
 }
 
 task testReport(type: TestReport) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+task fooJar(type: Jar) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033600Z" creationid="huanghaohang" creationdate="20181203T033600Z">
+        <seg>}
+}
+task fooJar(type: Jar) {</seg>
       </tuv>
     </tu>
     <tu>
