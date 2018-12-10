@@ -7696,6 +7696,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A &lt;a0&gt;complete overwrite&lt;/a0&gt; causes all existing content to be discarded, thereby losing any changes made directly in the IDE. Alternatively, the &lt;c1&gt;beforeMerged&lt;/c1&gt; hook makes it possible to overwrite just certain parts of the existing content. The following example removes all existing dependencies from the &lt;c2&gt;Classpath&lt;/c2&gt; domain object:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084059Z" creationid="huanghaohang" creationdate="20181210T084059Z">
+        <seg>&lt;a0&gt;完全覆盖&lt;/a0&gt;会导致现有的所有内容被丢弃，从而丢失在 IDE 中直接做的任何更改。作为另一种选择，&lt;c1&gt;beforeMerged&lt;/c1&gt; 钩子使得可以只覆盖现有内容的某些部分。以下示例从 &lt;c2&gt;Classpath&lt;/c2&gt; 域对象中删除现有的所有依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A &lt;e0&gt;file collection&lt;/e0&gt; is simply a set of files. It is represented by the &lt;a1&gt;&lt;c2&gt;FileCollection&lt;/c2&gt;&lt;/a1&gt; interface. Many objects in the Gradle API implement this interface. For example, &lt;a3&gt;dependency configurations&lt;/a3&gt; implement &lt;c4&gt;FileCollection&lt;/c4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T130835Z" creationid="huanghaohang" creationdate="20170923T130315Z">
@@ -24400,6 +24408,14 @@ ear {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153833Z" creationid="95" creationdate="20170731T153833Z">
         <seg>eclipse_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>eclipse_plugin.html#sec:complete-overwrite</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T083632Z" creationid="huanghaohang" creationdate="20181210T083632Z">
+        <seg>eclipse_plugin.html#sec:complete-overwrite</seg>
       </tuv>
     </tu>
     <tu>
