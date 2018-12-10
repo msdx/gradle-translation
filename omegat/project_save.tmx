@@ -4466,6 +4466,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>38.4.2.3. Modifying the XML representation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T085158Z" creationid="huanghaohang" creationdate="20181210T085158Z">
+        <seg>38.4.2.3. 修改 XML 的表示形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>38.4.2. Hooking into the generation lifecycle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T082023Z" creationid="huanghaohang" creationdate="20181210T082023Z">
@@ -11942,6 +11950,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 38.4. Export Dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T085150Z" creationid="huanghaohang" creationdate="20181210T085150Z">
+        <seg>示例 38.4. 导出依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 38.5. Customizing the XML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T085530Z" creationid="huanghaohang" creationdate="20181210T085530Z">
+        <seg>示例 38.5. 自定义 XML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -17506,6 +17530,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;withXml&lt;/c0&gt;hook allows to manipulate the in-memory XML representation just before the file gets written to disk. Although Groovy's XML support makes up for a lot, this approach is less convenient than manipulating the domain objects. In return, you get total control over the generated file, including sections not modeled by the domain objects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T085527Z" creationid="huanghaohang" creationdate="20181210T085209Z">
+        <seg>&lt;c0&gt;withXml&lt;/c0&gt;钩子允许在文件写入磁盘之前操作内存中的 XML 表示形式。尽管 Groovy 的 XML 支持对其帮助很大，但这种方法比起操作域对象依然很不方便。作为回报，你可以对生成的文件进行完全的控制，包括未由域对象建模的部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;s0&gt;&lt;c1&gt;--profile&lt;/c1&gt;&lt;/s0&gt; command line option will record some useful timing information while your build is running and write a report to the &lt;c2&gt;build/reports/profile&lt;/c2&gt; directory. The report will be named using the time when the build was run.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T030624Z" creationid="huanghaohang" creationdate="20170910T023504Z">
@@ -22328,6 +22360,18 @@ repositories {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'eclipse-wtp'&lt;/s0&gt;
+
+eclipse.wtp.facet.file.withXml { provider -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T085531Z" creationid="huanghaohang" creationdate="20181210T085531Z">
+        <seg>apply plugin: &lt;s0&gt;'eclipse-wtp'&lt;/s0&gt;
+
+eclipse.wtp.facet.file.withXml { provider -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'findbugs'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T142240Z" creationid="huanghaohang" creationdate="20180516T142240Z">
@@ -23160,6 +23204,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083830Z" creationid="huanghaohang" creationdate="20180105T083830Z">
         <seg>classpath {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classpath.entries.findAll { entry -&gt; entry.kind == &lt;s0&gt;'lib'&lt;/s0&gt; }*.exported = false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T085152Z" creationid="huanghaohang" creationdate="20181210T085152Z">
+        <seg>classpath.entries.findAll { entry -&gt; entry.kind == &lt;s0&gt;'lib'&lt;/s0&gt; }*.exported = false</seg>
       </tuv>
     </tu>
     <tu>
@@ -29013,6 +29065,16 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>provider.asNode().fixed.find { it.&lt;s1&gt;@facet&lt;/s1&gt; == &lt;s2&gt;'jst.java'&lt;/s2&gt; }.&lt;s3&gt;@facet&lt;/s3&gt; = &lt;s4&gt;'jst2.java'&lt;/s4&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T085537Z" creationid="huanghaohang" creationdate="20181210T085537Z">
+        <seg>provider.asNode().fixed.find { it.&lt;s1&gt;@facet&lt;/s1&gt; == &lt;s2&gt;'jst.java'&lt;/s2&gt; }.&lt;s3&gt;@facet&lt;/s3&gt; = &lt;s4&gt;'jst2.java'&lt;/s4&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>publishing_ivy.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T143843Z" creationid="huanghaohang" creationdate="20180207T143843Z">
@@ -31858,6 +31920,14 @@ webapp:properties - Displays the properties of project ':webapp'.
 tasks - Displays the tasks runnable from root project 'projectReports' (some of the displayed tasks may belong to subprojects).
 api:tasks - Displays the tasks runnable from project ':api'.
 webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>whenMerged { classpath -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T085151Z" creationid="huanghaohang" creationdate="20181210T085151Z">
+        <seg>whenMerged { classpath -&gt;</seg>
       </tuv>
     </tu>
     <tu>
