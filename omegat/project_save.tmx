@@ -866,6 +866,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.plugins.ide.eclipse.model.EclipseWtpComponent.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061753Z" creationid="huanghaohang" creationdate="20181210T061753Z">
+        <seg>../dsl/org.gradle.plugins.ide.eclipse.model.EclipseWtpComponent.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.plugins.ide.eclipse.model.EclipseWtpFacet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061814Z" creationid="huanghaohang" creationdate="20181210T061814Z">
+        <seg>../dsl/org.gradle.plugins.ide.eclipse.model.EclipseWtpFacet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.testing.jacoco.plugins.JacocoPluginExtension.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T134815Z" creationid="huanghaohang" creationdate="20180712T134815Z">
@@ -4366,6 +4382,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T030100Z" creationid="huanghaohang" creationdate="20181210T030100Z">
         <seg>38.3. 配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>38.4. Customizing the generated files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061903Z" creationid="huanghaohang" creationdate="20181210T061903Z">
+        <seg>38.4. 自定义生成的文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -8288,6 +8312,22 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Allows configuring wtp component information only if &lt;c0&gt;eclipse-wtp&lt;/c0&gt; plugin was applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061813Z" creationid="huanghaohang" creationdate="20181210T061813Z">
+        <seg>仅当 &lt;c0&gt;eclipse-wtp&lt;/c0&gt; 插件被应用时，允许配置 wtp 组件信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Allows configuring wtp facet information only if &lt;c0&gt;eclipse-wtp&lt;/c0&gt; plugin was applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061858Z" creationid="huanghaohang" creationdate="20181210T061858Z">
+        <seg>仅当 &lt;c0&gt;eclipse-wtp&lt;/c0&gt; 插件被应用时，允许配置 wtp 方面的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Also have a look at &lt;a0&gt;&lt;c1&gt;Ear&lt;/c1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142927Z" creationid="huanghaohang" creationdate="20180416T142927Z">
@@ -10162,6 +10202,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061709Z" creationid="huanghaohang" creationdate="20181210T061709Z">
         <seg>EclipseProject</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>EclipseWtpComponent</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061754Z" creationid="huanghaohang" creationdate="20181210T061754Z">
+        <seg>EclipseWtpComponent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>EclipseWtpFacet</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061814Z" creationid="huanghaohang" creationdate="20181210T061814Z">
+        <seg>EclipseWtpFacet</seg>
       </tuv>
     </tu>
     <tu>
@@ -17458,6 +17514,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Eclipse plugin allows you to customize the generated metadata files. The plugin provides a DSL for configuring model objects that model the Eclipse view of the project. These model objects are then merged with the existing Eclipse XML metadata to ultimately generate new metadata. The model objects provide lower level hooks for working with domain objects representing the file content before and after merging with the model configuration. They also provide a very low level hook for working directly with the raw XML for adjustment before it is persisted, for fine tuning and configuration that the Eclipse plugin does not model.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T062819Z" creationid="huanghaohang" creationdate="20181210T061909Z">
+        <seg>Eclipse 插件能够让你自定义生成的元数据文件。该插件提供了一个 DSL，用于配置把项目的 Eclipse 视图模型化的模型对象。然后，这些模型对象与现有的 Eclipse XML 元数据合并，最终生成新的元数据。模型对象提供较低级别的钩子，用于处理表示与模型配置合并前后的文件内容的域对象。它们还提供了一个非常低级别的钩子，用于在持久化之前直接使用原始 XML 进行调整，以进行 Eclipse 插件不建模的微调和配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Eclipse plugin generates files that are used by the &lt;a0&gt;Eclipse IDE&lt;/a0&gt;, thus making it possible to import the project into Eclipse (&lt;s1&gt;File&lt;/s1&gt; - &lt;s2&gt;Import...&lt;/s2&gt; - &lt;s3&gt;Existing Projects into Workspace&lt;/s3&gt;). Both external dependencies (including associated source and javadoc files) and project dependencies are considered.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T024604Z" creationid="huanghaohang" creationdate="20181203T034035Z">
@@ -24032,6 +24096,22 @@ ear {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061710Z" creationid="huanghaohang" creationdate="20181210T061710Z">
         <seg>eclipse.project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>eclipse.wtp.component</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061755Z" creationid="huanghaohang" creationdate="20181210T061755Z">
+        <seg>eclipse.wtp.component</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>eclipse.wtp.facet</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061815Z" creationid="huanghaohang" creationdate="20181210T061815Z">
+        <seg>eclipse.wtp.facet</seg>
       </tuv>
     </tu>
     <tu>
