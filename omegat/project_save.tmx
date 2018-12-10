@@ -4386,6 +4386,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>38.4.1. Merging</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T062820Z" creationid="huanghaohang" creationdate="20181210T062820Z">
+        <seg>38.4.1. 合并</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>38.4. Customizing the generated files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061903Z" creationid="huanghaohang" creationdate="20181210T061903Z">
@@ -15906,6 +15914,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124844Z" creationid="huanghaohang" creationdate="20171015T094223Z">
         <seg>其次，当一个任务用作复制源（即作为&lt;c1&gt;from()&lt;/c1&gt;的一个参数）时，&lt;c0&gt;copy()&lt;/c0&gt;方法不能满足任务依赖。因为它是一个方法，而不是一个任务。因此，如果你正在使用&lt;c2&gt;copy()&lt;/c2&gt;方法作为任务操作的一部分，就必须显式声明所有的输入和输出才能得到正确的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sections of existing Eclipse files that are also the target of generated content will be amended or overwritten, depending on the particular section. The remaining sections will be left as-is.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T081445Z" creationid="huanghaohang" creationdate="20181210T081445Z">
+        <seg>已存在的 Eclipse 文件的部分，也是生成的目标内容，将会被修改或覆盖，具体取决于特定的部分。</seg>
       </tuv>
     </tu>
     <tu>
