@@ -4458,6 +4458,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>38.4.2.2. Modifying the fully populated domain objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084536Z" creationid="huanghaohang" creationdate="20181210T084536Z">
+        <seg>38.4.2.2. 修改完全填充的域对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>38.4.2. Hooking into the generation lifecycle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T082023Z" creationid="huanghaohang" creationdate="20181210T082023Z">
@@ -11926,6 +11934,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 38.3. Partial Overwrite for Project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084529Z" creationid="huanghaohang" creationdate="20181210T084529Z">
+        <seg>示例 38.3. Project 的部分覆盖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -17462,6 +17478,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T062032Z" creationid="haohang" creationdate="20180330T062032Z">
         <seg>&lt;c0&gt;testLogging&lt;/c0&gt; 属性可以配置哪些测试事件需要记录，并且使用什么样的日志级别。默认情况下，对于每个失败的测试都只会打印一个简洁的消息。请参阅 &lt;a1&gt;&lt;c2&gt;TestLoggingContainer&lt;/c2&gt;&lt;/a1&gt;，查看如何把测试日志调整为你的偏好设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;whenMerged&lt;/c0&gt; hook allows to manipulate the fully populated domain objects. Often this is the preferred way to customize Eclipse files. Here is how you would export all the dependencies of an Eclipse project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T085146Z" creationid="huanghaohang" creationdate="20181210T084539Z">
+        <seg>&lt;c0&gt;whenMerged&lt;/c0&gt; 钩子允许操作完全填充的域对象。通常，这是自定义 Eclipse 文件的首选方法。下面的例子展示了如何导出一个 Eclipse 项目的所有依赖：</seg>
       </tuv>
     </tu>
     <tu>
@@ -24388,6 +24412,14 @@ ear {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>eclipse.project.file.beforeMerged { project -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084530Z" creationid="huanghaohang" creationdate="20181210T084530Z">
+        <seg>eclipse.project.file.beforeMerged { project -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>eclipse.wtp.component</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061755Z" creationid="huanghaohang" creationdate="20181210T061755Z">
@@ -28763,6 +28795,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233117Z" creationid="huanghaohang" creationdate="20171206T233117Z">
         <seg>project.name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.natures.clear()
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084531Z" creationid="huanghaohang" creationdate="20181210T084531Z">
+        <seg>project.natures.clear()
+}</seg>
       </tuv>
     </tu>
     <tu>
