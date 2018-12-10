@@ -4386,6 +4386,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>38.4.1.1. Disabling merging with a complete overwrite</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T081529Z" creationid="huanghaohang" creationdate="20181210T081447Z">
+        <seg>38.4.1.1. 使用完全覆盖禁用合并</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>38.4.1. Merging</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T062820Z" creationid="huanghaohang" creationdate="20181210T062820Z">
@@ -15920,8 +15928,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Sections of existing Eclipse files that are also the target of generated content will be amended or overwritten, depending on the particular section. The remaining sections will be left as-is.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T081445Z" creationid="huanghaohang" creationdate="20181210T081445Z">
-        <seg>已存在的 Eclipse 文件的部分，也是生成的目标内容，将会被修改或覆盖，具体取决于特定的部分。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T081500Z" creationid="huanghaohang" creationdate="20181210T081445Z">
+        <seg>已存在的 Eclipse 文件的部分，也是生成的目标内容，将会被修改或覆盖，具体取决于特定的部分。其余部分将保持原样。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19790,6 +19798,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025401Z" creationid="huanghaohang" creationdate="20180107T025401Z">
         <seg>为能在任务执行过程中更改标准输出或错误的日志级别，任务也提供了一个 &lt;a0&gt;&lt;c1&gt;LoggingManager&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To completely overwrite existing Eclipse files, execute a clean task together with its corresponding generation task, for example &lt;s0&gt;&lt;c1&gt;gradle cleanEclipse eclipse&lt;/c1&gt;&lt;/s0&gt; (in that order). If you want to make this the default behavior, add &lt;c2&gt;tasks.eclipse.dependsOn(cleanEclipse)&lt;/c2&gt; to your build script. This makes it unnecessary to execute the clean task explicitly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T081939Z" creationid="huanghaohang" creationdate="20181210T081939Z">
+        <seg>要完全覆盖现有 Eclipse 文件，请执行 clean 任务及其相应的生成任务，例如 &lt;s0&gt;&lt;c1&gt;gradle cleanEclipse eclipse&lt;/c1&gt;&lt;/s0&gt;（按此顺序）。如果要让它成为默认行为，请添加 &lt;c2&gt;tasks.eclipse.dependsOn(cleanEclipse)&lt;/c2&gt; 到构建脚本中。这样我们就不用显式执行清理任务了。</seg>
       </tuv>
     </tu>
     <tu>
