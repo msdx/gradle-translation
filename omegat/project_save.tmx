@@ -15566,6 +15566,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since 1.0-milestone-4 WTP-generating code was refactored into a separate plugin called &lt;c0&gt;eclipse-wtp&lt;/c0&gt;. So if you are interested in WTP integration then only apply the &lt;c1&gt;eclipse-wtp&lt;/c1&gt; plugin. Otherwise applying &lt;c2&gt;eclipse&lt;/c2&gt; plugin is enough. This change was requested by Eclipse users who take advantage of &lt;c3&gt;war&lt;/c3&gt; or &lt;c4&gt;ear&lt;/c4&gt; plugin but they don't use Eclipse WTP. Internally, &lt;c5&gt;eclipse-wtp&lt;/c5&gt; also applies the &lt;c6&gt;eclipse&lt;/c6&gt; plugin so you don't need to apply both of those plugins.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T025054Z" creationid="huanghaohang" creationdate="20181210T025054Z">
+        <seg>从 1.0-milestone-4 开始，WTP-generating 代码被重构为一个名为 &lt;c0&gt;eclipse-wtp&lt;/c0&gt; 的单独插件。因此，如果你对 WTP 集成感兴趣，那么可以只应用 &lt;c1&gt;eclipse-wtp&lt;/c1&gt; 插件。否则应用 &lt;c2&gt;eclipse&lt;/c2&gt; 插件就够了。这一变化是 Eclipse 用户请求的，他们想利用 &lt;c3&gt;war&lt;/c3&gt; 或 &lt;c4&gt;ear&lt;/c4&gt; 插件，但又不想使用 Eclipse WTP。在内部， &lt;c5&gt;eclipse-wtp&lt;/c5&gt; 也应用了 &lt;c6&gt;eclipse&lt;/c6&gt; 插件，所以你不需要同时应用这两个插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since a dependency report can get large, it can be useful to restrict the report to a particular configuration. This is achieved with the optional &lt;s0&gt;&lt;c1&gt;--configuration&lt;/c1&gt;&lt;/s0&gt; parameter:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T021631Z" creationid="huanghaohang" creationdate="20170910T014140Z">
