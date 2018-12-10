@@ -11918,6 +11918,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 38.2. Partial Overwrite for Classpath</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084112Z" creationid="huanghaohang" creationdate="20181210T084112Z">
+        <seg>示例 38.2. Classpath 的部分覆盖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -19234,6 +19242,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The resulting &lt;c0&gt;.classpath&lt;/c0&gt; file will only contain Gradle-generated dependency entries, but not any other dependency entries that may have been present in the original file. (In the case of dependency entries, this is also the default behavior.) Other sections of the &lt;c1&gt;.classpath&lt;/c1&gt; file will be either left as-is or merged. The same could be done for the natures in the &lt;c2&gt;.project&lt;/c2&gt; file:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084120Z" creationid="huanghaohang" creationdate="20181210T084120Z">
+        <seg>The resulting &lt;c0&gt;.classpath&lt;/c0&gt; file will only contain Gradle-generated dependency entries, but not any other dependency entries that may have been present in the original file. (In the case of dependency entries, this is also the default behavior.) Other sections of the &lt;c1&gt;.classpath&lt;/c1&gt; file will be either left as-is or merged. The same could be done for the natures in the &lt;c2&gt;.project&lt;/c2&gt; file:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The results in an XML format that is compatible with the Ant JUnit report task. This format is supported by many other tools, such as CI servers.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042748Z" creationid="huanghaohang" creationdate="20180406T042748Z">
@@ -22770,6 +22786,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>beforeMerged { classpath -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084114Z" creationid="huanghaohang" creationdate="20181210T084114Z">
+        <seg>beforeMerged { classpath -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>beginIndex = &lt;s2&gt;1&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145822Z" creationid="huanghaohang" creationdate="20170918T145822Z">
@@ -23112,6 +23136,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083830Z" creationid="huanghaohang" creationdate="20180105T083830Z">
         <seg>classpath {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classpath.entries.removeAll { entry -&gt; entry.kind == &lt;s0&gt;'lib'&lt;/s0&gt; || entry.kind == &lt;s1&gt;'var'&lt;/s1&gt; }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084115Z" creationid="huanghaohang" creationdate="20181210T084115Z">
+        <seg>classpath.entries.removeAll { entry -&gt; entry.kind == &lt;s0&gt;'lib'&lt;/s0&gt; || entry.kind == &lt;s1&gt;'var'&lt;/s1&gt; }</seg>
       </tuv>
     </tu>
     <tu>
@@ -24328,6 +24360,14 @@ ear {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T061716Z" creationid="huanghaohang" creationdate="20181210T061716Z">
         <seg>eclipse.classpath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>eclipse.classpath.file {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084113Z" creationid="huanghaohang" creationdate="20181210T084113Z">
+        <seg>eclipse.classpath.file {</seg>
       </tuv>
     </tu>
     <tu>
