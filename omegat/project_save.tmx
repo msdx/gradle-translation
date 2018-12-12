@@ -4490,6 +4490,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>39.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181212T031102Z" creationid="huanghaohang" creationdate="20181212T031102Z">
+        <seg>39.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>39.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181212T031147Z" creationid="huanghaohang" creationdate="20181212T031147Z">
+        <seg>39.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>4.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170801T014548Z" creationid="haohang" creationdate="20170801T014548Z">
@@ -8028,6 +8044,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T025312Z" creationid="huanghaohang" creationdate="20181210T025312Z">
         <seg>添加 Java 配置到 &lt;c0&gt;.project&lt;/c0&gt;。生成 &lt;c1&gt;.classpath&lt;/c1&gt; 和 JDT 设置文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Adds Java configuration to the module and project files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181212T031023Z" creationid="huanghaohang" creationdate="20181212T031023Z">
+        <seg>将 Java 配置添加到模块和项目文件中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11966,6 +11990,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 39.1. Using the IDEA plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181212T031106Z" creationid="huanghaohang" creationdate="20181212T031106Z">
+        <seg>示例 39.1. 使用 IDEA 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -14810,6 +14842,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132935Z" creationid="95" creationdate="20170727T132814Z">
         <seg>与Ant不同，一旦任务被创建了，就可以通过一个 &lt;s0&gt;&lt;e1&gt;API&lt;/e1&gt;&lt;/s0&gt;去访问它。例如，你可以去给它们添加其他的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One focus of the IDEA plugin is to be open to customization. The plugin provides a standardized set of hooks for adding and removing content from the generated files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181212T031058Z" creationid="huanghaohang" creationdate="20181212T031058Z">
+        <seg>IDEA 插件的一个重点是开放定制。该插件提供了一组标准化的钩子，用于添加和删除生成的文件中的内容。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17994,6 +18034,22 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The IDEA plugin adds a number of tasks to your project. The main tasks that you will use are the &lt;c0&gt;idea&lt;/c0&gt; and &lt;c1&gt;cleanIdea&lt;/c1&gt; tasks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181212T031144Z" creationid="huanghaohang" creationdate="20181212T031144Z">
+        <seg>IDEA 插件向的项目添加了许多任务。你将使用的主要任务是 &lt;c0&gt;idea&lt;/c0&gt; 和 &lt;c1&gt;cleanIdea&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The IDEA plugin adds the tasks shown below to a project. Notice that &lt;c0&gt;clean&lt;/c0&gt; does not depend on &lt;c1&gt;cleanIdeaWorkspace&lt;/c1&gt;. It's because workspace contains a lot of user specific temporary data and typically it is not desirable to manipulate it outside IDEA.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181212T054457Z" creationid="huanghaohang" creationdate="20181212T054457Z">
+        <seg>The IDEA plugin adds the tasks shown below to a project. Notice that &lt;c0&gt;clean&lt;/c0&gt; does not depend on &lt;c1&gt;cleanIdeaWorkspace&lt;/c1&gt;. It's because workspace contains a lot of user specific temporary data and typically it is not desirable to manipulate it outside IDEA.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The IDEA plugin generates files that are used by &lt;a0&gt;IntelliJ IDEA&lt;/a0&gt;, thus making it possible to open the project from IDEA (&lt;s1&gt;File&lt;/s1&gt; - &lt;s2&gt;Open Project&lt;/s2&gt;). Both external dependencies (including associated source and javadoc files) and project dependencies are considered.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181212T030817Z" creationid="huanghaohang" creationdate="20181212T030650Z">
@@ -20298,6 +20354,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use the IDEA plugin, include this in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181212T031104Z" creationid="huanghaohang" creationdate="20181212T031104Z">
+        <seg>要使用 IDEA 插件，请在构建脚本中包含以下语句：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use the JDepend plugin, include in your build script:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T142624Z" creationid="huanghaohang" creationdate="20180516T142624Z">
@@ -22416,6 +22480,14 @@ eclipse.wtp.facet.file.withXml { provider -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T001700Z" creationid="huanghaohang" creationdate="20170909T001700Z">
         <seg>apply plugin: &lt;s0&gt;'groovy'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'idea'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181212T031107Z" creationid="huanghaohang" creationdate="20181212T031107Z">
+        <seg>apply plugin: &lt;s0&gt;'idea'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
