@@ -9816,6 +9816,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Complete overwrite works equally well for individual files, for example by executing &lt;s0&gt;&lt;c1&gt;gradle cleanIdeaModule ideaModule&lt;/c1&gt;&lt;/s0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190121T160524Z" creationid="huanghaohang" creationdate="20190121T160524Z">
+        <seg>完全覆盖同样可以用于个人文件，例如通过执行&lt;s0&gt;&lt;c1&gt;gradle cleanIdeaModule ideaModule&lt;/c1&gt;&lt;/s0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T142301Z" creationid="huanghaohang" creationdate="20181201T142301Z">
@@ -20438,6 +20446,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T081939Z" creationid="huanghaohang" creationdate="20181210T081939Z">
         <seg>要完全覆盖现有 Eclipse 文件，请执行 clean 任务及其相应的生成任务，例如 &lt;s0&gt;&lt;c1&gt;gradle cleanEclipse eclipse&lt;/c1&gt;&lt;/s0&gt;（按此顺序）。如果要让它成为默认行为，请添加 &lt;c2&gt;tasks.eclipse.dependsOn(cleanEclipse)&lt;/c2&gt; 到构建脚本中。这样我们就不用显式执行清理任务了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To completely overwrite existing IDEA files, execute a clean task together with its corresponding generation task, for example &lt;s0&gt;&lt;c1&gt;gradle cleanIdea idea&lt;/c1&gt;&lt;/s0&gt; (in that order). If you want to make this the default behavior, add &lt;c2&gt;tasks.idea.dependsOn(cleanIdea)&lt;/c2&gt; to your build script. This makes it unnecessary to execute the clean task explicitly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190121T160445Z" creationid="huanghaohang" creationdate="20190121T160445Z">
+        <seg>要完全覆盖现有IDEA文件，请执行clean任务及其相应的生成任务，例如&lt;s0&gt;&lt;c1&gt;gradle cleanIdea idea&lt;/c1&gt;&lt;/s0&gt;（按此顺序）。如果要让它成为默认行为，请添加 &lt;c2&gt;tasks.idea.dependsOn(cleanIdea)&lt;/c2&gt; 到构建脚本中。这样我们就不用显式执行清理任务了。</seg>
       </tuv>
     </tu>
     <tu>
