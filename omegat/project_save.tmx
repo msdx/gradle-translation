@@ -1050,6 +1050,30 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/plugins/ide/idea/model/Module.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012459Z" creationid="huanghaohang" creationdate="20190123T012459Z">
+        <seg>../groovydoc/org/gradle/plugins/ide/idea/model/Module.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/plugins/ide/idea/model/Project.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012458Z" creationid="huanghaohang" creationdate="20190123T012458Z">
+        <seg>../groovydoc/org/gradle/plugins/ide/idea/model/Project.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../groovydoc/org/gradle/plugins/ide/idea/model/Workspace.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012501Z" creationid="huanghaohang" creationdate="20190123T012501Z">
+        <seg>../groovydoc/org/gradle/plugins/ide/idea/model/Workspace.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/BuildListener.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144454Z" creationid="huanghaohang" creationdate="20180107T144454Z">
@@ -4586,6 +4610,30 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>39.4.2.1. Partial overwrite of existing content</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012506Z" creationid="huanghaohang" creationdate="20190123T012506Z">
+        <seg>39.4.2.1. 部分覆盖现有内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>39.4.2.2. Modifying the fully populated domain objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012805Z" creationid="huanghaohang" creationdate="20190123T012759Z">
+        <seg>39.4.2.2. 修改完全填充的域对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>39.4.2.3. Modifying the XML representation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012909Z" creationid="huanghaohang" creationdate="20190123T012909Z">
+        <seg>39.4.2.3. 修改 XML 的表示形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>39.4.2. Hooking into the generation lifecycle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190121T160542Z" creationid="huanghaohang" creationdate="20190121T160542Z">
@@ -4598,6 +4646,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181212T061241Z" creationid="huanghaohang" creationdate="20181212T061241Z">
         <seg>39.4. 自定义生成的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>39.5. Further things to consider</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012928Z" creationid="huanghaohang" creationdate="20190123T012928Z">
+        <seg>39.5. 还需要考虑的事情</seg>
       </tuv>
     </tu>
     <tu>
@@ -7844,6 +7900,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084059Z" creationid="huanghaohang" creationdate="20181210T084059Z">
         <seg>&lt;a0&gt;完全覆盖&lt;/a0&gt;会导致现有的所有内容被丢弃，从而丢失在 IDE 中直接做的任何更改。作为另一种选择，&lt;c1&gt;beforeMerged&lt;/c1&gt; 钩子使得可以只覆盖现有内容的某些部分。以下示例从 &lt;c2&gt;Classpath&lt;/c2&gt; 域对象中删除现有的所有依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;a0&gt;complete overwrite&lt;/a0&gt; causes all existing content to be discarded, thereby losing any changes made directly in the IDE. The &lt;c1&gt;beforeMerged&lt;/c1&gt; hook makes it possible to overwrite just certain parts of the existing content. The following example removes all existing dependencies from the &lt;c2&gt;Module&lt;/c2&gt; domain object:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012634Z" creationid="huanghaohang" creationdate="20190123T012525Z">
+        <seg>&lt;a0&gt;完全覆盖&lt;/a0&gt;会导致现有的所有内容被丢弃，从而丢失直接在 IDE 中进行的任何更改。&lt;c1&gt;beforeMerged&lt;/c1&gt; 钩子使得可以只覆盖现有内容的某些部分。以下示例为从 &lt;c2&gt;Module&lt;/c2&gt; 域对象中删除现有的所有依赖：</seg>
       </tuv>
     </tu>
     <tu>
@@ -12134,6 +12198,38 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 39.2. Partial Overwrite for Module</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012637Z" creationid="huanghaohang" creationdate="20190123T012637Z">
+        <seg>示例 39.2. 部分覆盖模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 39.3. Partial Overwrite for Project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012756Z" creationid="huanghaohang" creationdate="20190123T012756Z">
+        <seg>示例 39.3. 项目的部分覆盖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 39.4. Export Dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012903Z" creationid="huanghaohang" creationdate="20190123T012903Z">
+        <seg>示例 39.4. 导出依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 39.5. Customizing the XML</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012914Z" creationid="huanghaohang" creationdate="20190123T012914Z">
+        <seg>示例 39.5. 自定义 XML</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -14802,6 +14898,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T030114Z" creationid="huanghaohang" creationdate="20181210T030114Z">
         <seg>模型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Module</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012500Z" creationid="huanghaohang" creationdate="20190123T012500Z">
+        <seg>Module</seg>
       </tuv>
     </tu>
     <tu>
@@ -17510,6 +17614,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 39.4. Idea plugin hooks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012457Z" creationid="huanghaohang" creationdate="20190123T012457Z">
+        <seg>表 39.4. Idea 插件钩子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -17854,6 +17966,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T085146Z" creationid="huanghaohang" creationdate="20181210T084539Z">
         <seg>&lt;c0&gt;whenMerged&lt;/c0&gt; 钩子允许操作完全填充的域对象。通常，这是自定义 Eclipse 文件的首选方法。下面的例子展示了如何导出一个 Eclipse 项目的所有依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;whenMerged&lt;/c0&gt; hook allows to manipulate the fully populated domain objects. Often this is the preferred way to customize IDEA files. Here is how you would export all the dependencies of an IDEA module:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012859Z" creationid="huanghaohang" creationdate="20190123T012859Z">
+        <seg>&lt;c0&gt;whenMerged&lt;/c0&gt; 钩子允许操作完全填充的域对象。通常，这是自定义IDEA文件的首选方法。下面的例子展示了如何导出一个IDEA模块的所有依赖：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19434,6 +19554,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following table lists the domain object used for each of the model types:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012438Z" creationid="huanghaohang" creationdate="20190123T012438Z">
+        <seg>下表列出了用于每种模型类型的域对象：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following tutorials introduce some of the basics of Gradle, to help you get started.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072551Z" creationid="95" creationdate="20170723T072551Z">
@@ -19618,6 +19746,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The paths of the dependencies in the generated IDEA files are absolute. If you manually define a path variable pointing to the Gradle dependency cache, IDEA will automatically replace the absolute dependency paths with this path variable. If you use such a path variable, you need to configure this path variable via &lt;c0&gt;idea.pathVariables&lt;/c0&gt;, so that it can do a proper merge without creating duplicates.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T013115Z" creationid="huanghaohang" creationdate="20190123T012932Z">
+        <seg>生成的IDEA文件中的依赖项的路径是绝对路径。如果手动定义指向Gradle依赖缓存的路径变量，IDEA将自动使用此路径变量替换绝对依赖路径。如果你使用这样的路径变量，你需要通过&lt;c0&gt;idea.pathVariables&lt;/c0&gt;配置此路径变量，这样它就可以进行正确的合并而不重复创建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The place to go for help with Gradle is &lt;a0&gt;http://forums.gradle.org&lt;/a0&gt;. The Gradle Forums is the place where you can report problems and ask questions to the Gradle developers and other community members.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T121738Z" creationid="95" creationdate="20170723T121738Z">
@@ -19678,6 +19814,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084513Z" creationid="huanghaohang" creationdate="20181210T084120Z">
         <seg>所产生的 &lt;c0&gt;.classpath&lt;/c0&gt; 文件将仅包含 Gradle-generated 的依赖项，但不包含可能存在于原始文件中的任何其他依赖。（对于依赖项条目，这也是默认行为。）&lt;c1&gt;.classpath&lt;/c1&gt;文件的其余部分将保持原样或合并。对 &lt;c2&gt;.project&lt;/c2&gt; 文件的自然处理了是一样：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The resulting module file will only contain Gradle-generated dependency entries, but not any other dependency entries that may have been present in the original file. (In the case of dependency entries, this is also the default behavior.) Other sections of the module file will be either left as-is or merged. The same could be done for the module paths in the project file:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012746Z" creationid="huanghaohang" creationdate="20190123T012746Z">
+        <seg>生成的模块文件将仅包含Gradle生成的依赖项，但不包含原始文件中可能存在的任何其他依赖项。（对于依赖项，这也是默认行为。）模块文件的其他部分将保持原样或合并。对项目文件中的模块路径也可以这样做：</seg>
       </tuv>
     </tu>
     <tu>
@@ -21562,6 +21706,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Workspace</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012502Z" creationid="huanghaohang" creationdate="20190123T012502Z">
+        <seg>Workspace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Writing Build Scripts</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T032746Z" creationid="huanghaohang" creationdate="20180131T032746Z">
@@ -23282,6 +23434,22 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084114Z" creationid="huanghaohang" creationdate="20181210T084114Z">
         <seg>beforeMerged { classpath -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>beforeMerged { module -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012638Z" creationid="huanghaohang" creationdate="20190123T012638Z">
+        <seg>beforeMerged { module -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>beforeMerged { project -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012757Z" creationid="huanghaohang" creationdate="20190123T012757Z">
+        <seg>beforeMerged { project -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -26316,10 +26484,26 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>idea.module.iml {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012638Z" creationid="huanghaohang" creationdate="20190123T012638Z">
+        <seg>idea.module.iml {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>idea.project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181212T061223Z" creationid="huanghaohang" creationdate="20181212T061223Z">
         <seg>idea.project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>idea.project.ipr {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012757Z" creationid="huanghaohang" creationdate="20190123T012757Z">
+        <seg>idea.project.ipr {</seg>
       </tuv>
     </tu>
     <tu>
@@ -27701,6 +27885,22 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123342Z" creationid="huanghaohang" creationdate="20180406T123342Z">
         <seg>module(&lt;s5&gt;'org.apache.ant:ant:1.9.3'&lt;/s5&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>module.dependencies*.exported = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012905Z" creationid="huanghaohang" creationdate="20190123T012905Z">
+        <seg>module.dependencies*.exported = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>module.dependencies.clear()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012639Z" creationid="huanghaohang" creationdate="20190123T012639Z">
+        <seg>module.dependencies.clear()</seg>
       </tuv>
     </tu>
     <tu>
@@ -29355,6 +29555,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project.modulePaths.clear()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012758Z" creationid="huanghaohang" creationdate="20190123T012758Z">
+        <seg>project.modulePaths.clear()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233117Z" creationid="huanghaohang" creationdate="20171206T233117Z">
@@ -29583,6 +29791,14 @@ println project.name</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T085537Z" creationid="huanghaohang" creationdate="20181210T085537Z">
         <seg>provider.asNode().fixed.find { it.&lt;s1&gt;@facet&lt;/s1&gt; == &lt;s2&gt;'jst.java'&lt;/s2&gt; }.&lt;s3&gt;@facet&lt;/s3&gt; = &lt;s4&gt;'jst2.java'&lt;/s4&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>provider.node.component.find { it.&lt;s0&gt;@name&lt;/s0&gt; == &lt;s1&gt;'VcsDirectoryMappings'&lt;/s1&gt; }.mapping.&lt;s2&gt;@vcs&lt;/s2&gt; = &lt;s3&gt;'Git'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012916Z" creationid="huanghaohang" creationdate="20190123T012916Z">
+        <seg>provider.node.component.find { it.&lt;s0&gt;@name&lt;/s0&gt; == &lt;s1&gt;'VcsDirectoryMappings'&lt;/s1&gt; }.mapping.&lt;s2&gt;@vcs&lt;/s2&gt; = &lt;s3&gt;'Git'&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -32444,10 +32660,26 @@ webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>whenMerged { module -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012904Z" creationid="huanghaohang" creationdate="20190123T012904Z">
+        <seg>whenMerged { module -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>windows-resources</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T143109Z" creationid="huanghaohang" creationdate="20180205T143109Z">
         <seg>windows-resources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>withXml { provider -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012915Z" creationid="huanghaohang" creationdate="20190123T012915Z">
+        <seg>withXml { provider -&gt;</seg>
       </tuv>
     </tu>
     <tu>
