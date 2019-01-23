@@ -434,6 +434,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.ProjectReportsPluginConvention.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T041003Z" creationid="huanghaohang" creationdate="20190123T041003Z">
+        <seg>../dsl/org.gradle.api.plugins.ProjectReportsPluginConvention.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.plugins.WarPluginConvention.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142344Z" creationid="huanghaohang" creationdate="20180408T142344Z">
@@ -6012,6 +6020,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061427Z" creationid="haohang" creationdate="20180313T061427Z">
         <seg>&lt;e0&gt;&lt;c1&gt;reportsDir&lt;/c1&gt;&lt;/e0&gt;/&lt;c2&gt;testReportDirName&lt;/c2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;reportsDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;projectReportDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040954Z" creationid="huanghaohang" creationdate="20190123T040954Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;reportsDir&lt;/c1&gt;&lt;/e0&gt;/&lt;e2&gt;&lt;c3&gt;projectReportDirName&lt;/c3&gt;&lt;/e2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -19874,6 +19890,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The directory to generate the project report into.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T041001Z" creationid="huanghaohang" creationdate="20190123T041001Z">
+        <seg>生成项目报告的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The directory to generate the resources of this source set into.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T095230Z" creationid="haohang" creationdate="20180320T095230Z">
@@ -20098,6 +20122,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The name of the directory to generate the project report into, relative to the reports directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040950Z" creationid="huanghaohang" creationdate="20190123T040950Z">
+        <seg>生成项目报告的目录名称，它是相对于报告目录的相对路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name of the directory to generate the test report into, relative to the reports directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T061424Z" creationid="haohang" creationdate="20180313T061410Z">
@@ -20246,6 +20278,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040359Z" creationid="huanghaohang" creationdate="20190123T040359Z">
         <seg>项目报告插件不需要任何特定的项目布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The projects to generate the reports for.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040854Z" creationid="huanghaohang" creationdate="20190123T040854Z">
+        <seg>要生成报告的所有项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20622,6 +20662,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150607Z" creationid="huanghaohang" creationdate="20170927T150553Z">
         <seg>它们会被展开，并且内容包含在文件集合中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These convention properties are provided by a convention object of type &lt;a0&gt;&lt;c1&gt;ProjectReportsPluginConvention&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T041040Z" creationid="huanghaohang" creationdate="20190123T041040Z">
+        <seg>这些约定属性由一个&lt;a0&gt;&lt;c1&gt;ProjectReportsPluginConvention&lt;/c1&gt;&lt;/a0&gt; 类型的约定对象提供。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30203,6 +30251,22 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040337Z" creationid="huanghaohang" creationdate="20190123T040337Z">
         <seg>projectReport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>projectReportDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040951Z" creationid="huanghaohang" creationdate="20190123T040951Z">
+        <seg>projectReportDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>projectReportDirName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040856Z" creationid="huanghaohang" creationdate="20190123T040856Z">
+        <seg>projectReportDirName</seg>
       </tuv>
     </tu>
     <tu>
