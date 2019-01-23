@@ -730,6 +730,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.diagnostics.PropertyReportTask.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040322Z" creationid="huanghaohang" creationdate="20190123T040322Z">
+        <seg>../dsl/org.gradle.api.tasks.diagnostics.PropertyReportTask.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.diagnostics.TaskReportTask.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040332Z" creationid="huanghaohang" creationdate="20190123T040332Z">
+        <seg>../dsl/org.gradle.api.tasks.diagnostics.TaskReportTask.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.javadoc.Groovydoc.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T120914Z" creationid="huanghaohang" creationdate="20180406T120914Z">
@@ -4868,6 +4884,30 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>41.3. Project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040357Z" creationid="huanghaohang" creationdate="20190123T040357Z">
+        <seg>41.3. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>41.4. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040418Z" creationid="huanghaohang" creationdate="20190123T040418Z">
+        <seg>41.4. 依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>41.5. Convention properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040430Z" creationid="huanghaohang" creationdate="20190123T040430Z">
+        <seg>41.5. 约定属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013409Z" creationid="huanghaohang" creationdate="20170919T013409Z">
@@ -5748,6 +5788,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062903Z" creationid="haohang" creationdate="20180312T062903Z">
         <seg>&lt;c0&gt;compileTestJava&lt;/c0&gt; 和 &lt;c1&gt;processTestResources&lt;/c1&gt;。有些插件会添加其他的测试编译任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;c0&gt;dependencyReport&lt;/c0&gt;, &lt;c1&gt;propertyReport&lt;/c1&gt;, &lt;c2&gt;taskReport&lt;/c2&gt;, &lt;c3&gt;htmlDependencyReport&lt;/c3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040345Z" creationid="huanghaohang" creationdate="20190123T040345Z">
+        <seg>&lt;c0&gt;dependencyReport&lt;/c0&gt;, &lt;c1&gt;propertyReport&lt;/c1&gt;, &lt;c2&gt;taskReport&lt;/c2&gt;, &lt;c3&gt;htmlDependencyReport&lt;/c3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -8076,6 +8124,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T084754Z" creationid="huanghaohang" creationdate="20180816T135524Z">
         <seg>Sonar 的可用属性列表可以在 &lt;a0&gt;Sonar 文档&lt;/a0&gt;中找到。注意，对于这些属性的大部分，在 Sonar 插件的对象模型中都具有等效的属性，且没有必要使用 &lt;c1&gt;withGlobalProperties&lt;/c1&gt; 或 &lt;c2&gt;withProjectProperties&lt;/c2&gt; 的钩子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A one element set with the project the plugin was applied to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040842Z" creationid="huanghaohang" creationdate="20190123T040842Z">
+        <seg>一个单元素的集合，元素为应用了该插件的项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13334,6 +13390,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generates all project reports.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040353Z" creationid="huanghaohang" creationdate="20190123T040353Z">
+        <seg>生成所有项目报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generates an HTML dependency and dependency insight report for the project or a set of projects.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040320Z" creationid="huanghaohang" creationdate="20190123T040320Z">
@@ -13466,6 +13530,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040016Z" creationid="huanghaohang" creationdate="20190123T040016Z">
         <seg>生成项目依赖项报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates the project property report.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040331Z" creationid="huanghaohang" creationdate="20190123T040331Z">
+        <seg>生成项目属性报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates the project task report.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040336Z" creationid="huanghaohang" creationdate="20190123T040336Z">
+        <seg>生成项目任务报告。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16198,6 +16278,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>PropertyReportTask</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040323Z" creationid="huanghaohang" creationdate="20190123T040323Z">
+        <seg>PropertyReportTask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Provide the authentication domain via the &lt;c0&gt;http.auth.ntlm.domain&lt;/c0&gt; system property.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T080944Z" creationid="huanghaohang" creationdate="20180130T080944Z">
@@ -16786,6 +16874,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T080931Z" creationid="huanghaohang" creationdate="20180130T080931Z">
         <seg>将 &lt;c0&gt;http.proxyUser&lt;/c0&gt; 系统属性设置为一个这样的值：&lt;c1&gt;&lt;e2&gt;&lt;c3&gt;domain&lt;/c3&gt;&lt;/e2&gt;/&lt;e4&gt;&lt;c5&gt;username&lt;/c5&gt;&lt;/e4&gt;&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set&lt;Project&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040502Z" creationid="huanghaohang" creationdate="20190123T040502Z">
+        <seg>Set&lt;Project&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17854,6 +17950,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 41.2. Project report plugin - convention properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040449Z" creationid="huanghaohang" creationdate="20190123T040449Z">
+        <seg>表 41.2. 项目报告插件——约定属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -17966,6 +18070,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150607Z" creationid="huanghaohang" creationdate="20170927T150607Z">
         <seg>TaskOutputs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TaskReportTask</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040333Z" creationid="huanghaohang" creationdate="20190123T040333Z">
+        <seg>TaskReportTask</seg>
       </tuv>
     </tu>
     <tu>
@@ -20106,10 +20218,34 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The project report defines the following convention properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040440Z" creationid="huanghaohang" creationdate="20190123T040440Z">
+        <seg>项目报告定义了以下约定属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The project report plugin defines the following tasks:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040003Z" creationid="huanghaohang" creationdate="20190123T040003Z">
         <seg>项目报告插件定义了以下任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The project report plugin does not define any dependency configurations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040422Z" creationid="huanghaohang" creationdate="20190123T040422Z">
+        <seg>项目报告插件没有定义任何的依赖配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The project report plugin does not require any particular project layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040359Z" creationid="huanghaohang" creationdate="20190123T040359Z">
+        <seg>项目报告插件不需要任何特定的项目布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30063,10 +30199,26 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>projectReport</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040337Z" creationid="huanghaohang" creationdate="20190123T040337Z">
+        <seg>projectReport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project_reports_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T010752Z" creationid="huanghaohang" creationdate="20170910T010752Z">
         <seg>project_reports_plugin.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040459Z" creationid="huanghaohang" creationdate="20190123T040459Z">
+        <seg>projects</seg>
       </tuv>
     </tu>
     <tu>
@@ -32029,6 +32181,14 @@ myCopy {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011926Z" creationid="huanghaohang" creationdate="20170923T011926Z">
         <seg>task(taskName) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>taskReport</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040332Z" creationid="huanghaohang" creationdate="20190123T040332Z">
+        <seg>taskReport</seg>
       </tuv>
     </tu>
     <tu>
