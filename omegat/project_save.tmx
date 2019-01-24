@@ -4940,6 +4940,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>43.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092615Z" creationid="huanghaohang" creationdate="20190124T092615Z">
+        <seg>43.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013409Z" creationid="huanghaohang" creationdate="20170919T013409Z">
@@ -9824,10 +9832,34 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Chapter 44. The Distribution Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092419Z" creationid="huanghaohang" creationdate="20190124T092419Z">
+        <seg>第四十四章. 分发插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 45. The Application Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T093225Z" creationid="huanghaohang" creationdate="20190124T093225Z">
+        <seg>第四十五章. 应用程序插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Chapter 46. The Java Library Distribution Plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T094104Z" creationid="huanghaohang" creationdate="20180715T094104Z">
         <seg>第46章. Java 库发布插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 47. Build Init Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092823Z" creationid="huanghaohang" creationdate="20190124T092823Z">
+        <seg>第四十七章. Build Init 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -12538,6 +12570,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092056Z" creationid="huanghaohang" creationdate="20190124T092056Z">
         <seg>示例 42.3. 使用公告插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 43.1. Using the build announcements plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092631Z" creationid="huanghaohang" creationdate="20190124T092631Z">
+        <seg>示例 43.1. 使用构建公告插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 43.2. Using the build announcements plugin from an init script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092752Z" creationid="huanghaohang" creationdate="20190124T092739Z">
+        <seg>示例 43.2. 在 init 脚本中使用构建公告插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -18378,6 +18426,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>That's it. If you want to tweak where the announcements go, you can configure the &lt;a0&gt;announce&lt;/a0&gt; plugin to change the local announcer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092719Z" creationid="huanghaohang" creationdate="20190124T092646Z">
+        <seg>就是这样。如果您想要调整公告的位置，你可以配置 &lt;a0&gt;公告&lt;/a0&gt; 插件来更改本地的公告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;a0&gt;&lt;c1&gt;JacocoReport&lt;/c1&gt;&lt;/a0&gt; task can be used to generate code coverage reports in different formats. It implements the standard Gradle type &lt;a2&gt;&lt;c3&gt;Reporting&lt;/c3&gt;&lt;/a2&gt; and exposes a report container of type &lt;a4&gt;&lt;c5&gt;JacocoReportsContainer&lt;/c5&gt;&lt;/a4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093001Z" creationid="huanghaohang" creationdate="20180712T135532Z">
@@ -19886,6 +19942,22 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T115048Z" creationid="95" creationdate="20170723T115048Z">
         <seg>源代码。这些源代码仅供参考。如果您想要自己来编译Gradle，您需要去下载源码发行包，或者是从源码仓库里检出代码。具体请参阅&lt;a0&gt;Gradle官方网站&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The build announcements plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;. Please be aware that the DSL and other configuration may change in later Gradle versions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092445Z" creationid="huanghaohang" creationdate="20190124T092445Z">
+        <seg>构建公告插件目前是一个&lt;a0&gt;试验性&lt;/a0&gt;插件。注意，在以后的 Gradle 版本中，其 DSL 和其他配置可能会有变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The build announcements plugin uses the &lt;a0&gt;announce&lt;/a0&gt; plugin to send local announcements on important events in the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092612Z" creationid="huanghaohang" creationdate="20190124T092612Z">
+        <seg>构建公告插件使用 &lt;a0&gt;公告&lt;/a0&gt; 插件发送构建过程中一些重要事件的本地公告。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21602,6 +21674,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use the build announcements plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092628Z" creationid="huanghaohang" creationdate="20190124T092628Z">
+        <seg>要使用构建公告插件，请在构建脚本中包含：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use the classpath configuration, use the &lt;c0&gt;asPath&lt;/c0&gt; property of the custom configuration.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084314Z" creationid="huanghaohang" creationdate="20180105T084314Z">
@@ -22598,6 +22678,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T134625Z" creationid="huanghaohang" creationdate="20170917T133700Z">
         <seg>您还可以通过&lt;c0&gt;-P&lt;/c0&gt;命令行选项直接添加属性到project对象。在更多的用法中，你甚至可以通过系统和环境属性把属性&lt;s1&gt;&lt;e2&gt;直接&lt;/e2&gt;&lt;/s1&gt;传到project对象。例如，如果你在持续集成服务器上运行构建，但你没有这台&lt;s3&gt;&lt;e4&gt;机器&lt;/e4&gt;&lt;/s3&gt;的管理员权限，而你的构建脚本需要一些属性，这些属性又不能让其他人看到。那么你就不能使用&lt;c5&gt;-P&lt;/c5&gt;选项。在这种情况下，您可以在项目管理部分（对普通用户不可见）添加一个环境属性。 &lt;s6&gt;[&lt;a7&gt;6&lt;/a7&gt;]&lt;/s6&gt;如果这个环境属性遵循&lt;c8&gt;ORG_GRADLE_PROJECT_&lt;e9&gt;&lt;c10&gt;propertyName&lt;/c10&gt;&lt;/e9&gt;=someValue&lt;/c8&gt;的模式， &lt;c11&gt;propertyName&lt;/c11&gt;就会被添加到你的项目对象中。我们也支持系统属性相同的机制。唯一的区别就是模式，它是&lt;c12&gt;org.gradle.project.&lt;e13&gt;&lt;c14&gt;propertyName&lt;/c14&gt;&lt;/e13&gt;&lt;/c12&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also apply the plugin from an init script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092733Z" creationid="huanghaohang" creationdate="20190124T092733Z">
+        <seg>你还可以从 init 脚本中应用这个插件：</seg>
       </tuv>
     </tu>
     <tu>
@@ -23696,6 +23784,24 @@ sonar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T013447Z" creationid="huanghaohang" creationdate="20190123T013447Z">
         <seg>apply plugin: &lt;s0&gt;'antlr'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'build-announcements'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092634Z" creationid="huanghaohang" creationdate="20190124T092634Z">
+        <seg>apply plugin: &lt;s0&gt;'build-announcements'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'build-announcements'&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092802Z" creationid="huanghaohang" creationdate="20190124T092802Z">
+        <seg>apply plugin: &lt;s0&gt;'build-announcements'&lt;/s0&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -31001,6 +31107,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144035Z" creationid="huanghaohang" creationdate="20180107T144035Z">
         <seg>result.failure.printStackTrace()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rootProject {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092742Z" creationid="huanghaohang" creationdate="20190124T092742Z">
+        <seg>rootProject {</seg>
       </tuv>
     </tu>
     <tu>
