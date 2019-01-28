@@ -1194,6 +1194,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/distribution/Distribution.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T061006Z" creationid="huanghaohang" creationdate="20190128T061006Z">
+        <seg>../javadoc/org/gradle/api/distribution/Distribution.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/execution/TaskActionListener.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144500Z" creationid="huanghaohang" creationdate="20180107T144500Z">
@@ -4968,6 +4976,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133827Z" creationid="huanghaohang" creationdate="20190127T133827Z">
         <seg>44.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>44.3. Distribution contents</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T061005Z" creationid="huanghaohang" creationdate="20190128T061005Z">
+        <seg>44.3. 分发内容</seg>
       </tuv>
     </tu>
     <tu>
@@ -8836,6 +8852,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150718Z" creationid="huanghaohang" creationdate="20181201T150718Z">
         <seg>可以利用 Gradle 的所有脚本特性根据需要去配置 Sonar Runner。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All of the files in the "&lt;c0&gt;src/&lt;e1&gt;&lt;c2&gt;$distribution.name&lt;/c2&gt;&lt;/e1&gt;/dist&lt;/c0&gt;" directory will automatically be included in the distribution. You can add additional files by configuring the &lt;a3&gt;&lt;c4&gt;Distribution&lt;/c4&gt;&lt;/a3&gt; object that is part of the container.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T061229Z" creationid="huanghaohang" creationdate="20190128T061229Z">
+        <seg>“&lt;c0&gt;src/&lt;e1&gt;&lt;c2&gt;$distribution.name&lt;/c2&gt;&lt;/e1&gt;/dist&lt;/c0&gt;”目录中的所有文件都会被自动包含在分发中。你可以通过配置作为容器中的一部分的&lt;a3&gt;&lt;c4&gt;Distribution&lt;/c4&gt;&lt;/a3&gt;对象来添加其他文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16834,6 +16858,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T030342Z" creationid="huanghaohang" creationdate="20170922T030342Z">
         <seg>在构建初期运行构建验证：例如，在开始发布之前验证是否拥有正确的证书。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Running "&lt;s0&gt;&lt;c1&gt;gradle installCustomDist&lt;/c1&gt;&lt;/s0&gt;" will install the distribution contents into "&lt;c2&gt;&lt;e3&gt;&lt;c4&gt;$buildDir&lt;/c4&gt;&lt;/e3&gt;/install/custom&lt;/c2&gt;".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T061003Z" creationid="huanghaohang" creationdate="20190128T060906Z">
+        <seg>运行“&lt;s0&gt;&lt;c1&gt;gradle installCustomDist&lt;/c1&gt;&lt;/s0&gt;”将会把分发内容安装到“&lt;c2&gt;&lt;e3&gt;&lt;c4&gt;$buildDir&lt;/c4&gt;&lt;/e3&gt;/install/custom&lt;/c2&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
