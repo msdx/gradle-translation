@@ -4964,6 +4964,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>44.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133827Z" creationid="huanghaohang" creationdate="20190127T133827Z">
+        <seg>44.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013409Z" creationid="huanghaohang" creationdate="20170919T013409Z">
@@ -5980,6 +5988,22 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093244Z" creationid="huanghaohang" creationdate="20180715T093244Z">
         <seg>&lt;e0&gt;&lt;c1&gt;$buildDir&lt;/c1&gt;&lt;/e0&gt;/jacoco</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;${distribution.name}&lt;/c1&gt;&lt;/e0&gt;DistTar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134009Z" creationid="huanghaohang" creationdate="20190127T134009Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;${distribution.name}&lt;/c1&gt;&lt;/e0&gt;DistTar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;e0&gt;&lt;c1&gt;${distribution.name}&lt;/c1&gt;&lt;/e0&gt;DistZip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134008Z" creationid="huanghaohang" creationdate="20190127T134008Z">
+        <seg>&lt;e0&gt;&lt;c1&gt;${distribution.name}&lt;/c1&gt;&lt;/e0&gt;DistZip</seg>
       </tuv>
     </tu>
     <tu>
@@ -9208,6 +9232,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assembles the distribution content and installs it on the current machine</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133925Z" creationid="huanghaohang" creationdate="20190127T133925Z">
+        <seg>组装分发内容，并将其安装在当前计算机上</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assembles the given source set's classes directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T033902Z" creationid="haohang" creationdate="20180313T033902Z">
@@ -10426,6 +10458,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072305Z" creationid="haohang" creationdate="20170720T072305Z">
         <seg>版权所有 © 2007-2012 Hans Dockter, Adam Murdoch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creates a TAR archive of the distribution contents</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134018Z" creationid="huanghaohang" creationdate="20190127T134018Z">
+        <seg>创建分发内容的 TAR 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Creates a ZIP archive of the distribution contents</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133902Z" creationid="huanghaohang" creationdate="20190127T133902Z">
+        <seg>创建分发内容的 ZIP 存档</seg>
       </tuv>
     </tu>
     <tu>
@@ -12614,6 +12662,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 44.2. Adding extra distributions</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134031Z" creationid="huanghaohang" creationdate="20190127T134031Z">
+        <seg>示例 44.2. 添加额外的分发</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -13314,6 +13370,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025344Z" creationid="huanghaohang" creationdate="20180120T025344Z">
         <seg>对于命令行的用法，可以看看专题《&lt;a0&gt;附录 D，&lt;i1&gt;Gradle 命令行&lt;/i1&gt;&lt;/a0&gt;》。如果你已经厌倦了一次又一次地使用相同的命令行选项，可以看《&lt;a2&gt;第 20.1 节，“通过 gradle.properties 配置构建环境”&lt;/a2&gt;》。这一章节包含了有关如何以一种"持久化"的方式配置守护进程某些行为（包括默认情况下开启守护进程）的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For each extra distribution set you add to the project, the distribution plugin adds the following tasks:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134001Z" creationid="huanghaohang" creationdate="20190127T134001Z">
+        <seg>对于你向项目中添加的每一个额外的分发集，分发插件都会添加以下任务：</seg>
       </tuv>
     </tu>
     <tu>
@@ -17478,6 +17542,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sync</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133908Z" creationid="huanghaohang" creationdate="20190127T133908Z">
+        <seg>Sync</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>TBD</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T025951Z" creationid="huanghaohang" creationdate="20181203T025951Z">
@@ -18222,6 +18294,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 44.1. Distribution plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133848Z" creationid="huanghaohang" creationdate="20190127T133848Z">
+        <seg>表 44.1. 分发插件——任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 44.2. Multiple distributions - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134006Z" creationid="huanghaohang" creationdate="20190127T134006Z">
+        <seg>表 44.2. 多分发——任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133905Z" creationid="huanghaohang" creationdate="20190127T133905Z">
+        <seg>Tar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150554Z" creationid="huanghaohang" creationdate="20170927T150554Z">
@@ -18854,6 +18950,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114530Z" creationid="95" creationdate="20170723T114530Z">
         <seg>DSL参考指南。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Distribution plugin adds the following tasks to the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133843Z" creationid="huanghaohang" creationdate="20190127T133843Z">
+        <seg>分发插件将以下以下任务添加到项目中：</seg>
       </tuv>
     </tu>
     <tu>
@@ -21346,6 +21450,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This will add following tasks to the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134057Z" creationid="huanghaohang" creationdate="20190127T134057Z">
+        <seg>这将向项目添加以下任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This will also apply the Java plugin to the project, if it has not already been applied. The Groovy plugin extends the &lt;c0&gt;compile&lt;/c0&gt; task to look for source files in directory &lt;c1&gt;src/main/groovy&lt;/c1&gt;, and the &lt;c2&gt;compileTest&lt;/c2&gt; task to look for test source files in directory &lt;c3&gt;src/test/groovy&lt;/c3&gt;. The compile tasks use joint compilation for these directories, which means they can contain a mixture of java and groovy source files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002355Z" creationid="huanghaohang" creationdate="20170909T002355Z">
@@ -23002,6 +23114,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can run "&lt;s0&gt;&lt;c1&gt;gradle installDist&lt;/c1&gt;&lt;/s0&gt;" to assembles the distribution content, uncompressed, into "&lt;c2&gt;&lt;e3&gt;&lt;c4&gt;$buildDir&lt;/c4&gt;&lt;/e3&gt;/install/&lt;e5&gt;&lt;c6&gt;main&lt;/c6&gt;&lt;/e5&gt;&lt;/c2&gt;".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133812Z" creationid="huanghaohang" creationdate="20190127T133812Z">
+        <seg>你可以运行“&lt;s0&gt;&lt;c1&gt;gradle installDist&lt;/c1&gt;&lt;/s0&gt;”将未经压缩的分发内容组装到“&lt;c2&gt;&lt;e3&gt;&lt;c4&gt;$buildDir&lt;/c4&gt;&lt;/e3&gt;/install/&lt;e5&gt;&lt;c6&gt;main&lt;/c6&gt;&lt;/e5&gt;&lt;/c2&gt;”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can see from the output of this example, that the &lt;c0&gt;test&lt;/c0&gt; task is not executed, even though it is a dependency of the &lt;c1&gt;dist&lt;/c1&gt; task. You will also notice that the &lt;c2&gt;test&lt;/c2&gt; task's dependencies, such as &lt;c3&gt;compileTest&lt;/c3&gt; are not executed either. Those dependencies of &lt;c4&gt;test&lt;/c4&gt; that are required by another task, such as &lt;c5&gt;compile&lt;/c5&gt;, are still executed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T073608Z" creationid="huanghaohang" creationdate="20170909T073608Z">
@@ -23214,6 +23334,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144453Z" creationid="huanghaohang" creationdate="20180107T144048Z">
         <seg>你的 logger 可以实现下面列出的任何监听器接口。当你注册一个 logger 时，只会替换其实现的接口的日志记录，其他接口的日志记录则保持不变。于侦听器的接口的详细信息，可以参阅《&lt;a0&gt;第 55.6 节，“在构建脚本中响应生命周期”&lt;/a0&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Zip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133852Z" creationid="huanghaohang" creationdate="20190127T133852Z">
+        <seg>Zip</seg>
       </tuv>
     </tu>
     <tu>
@@ -23890,6 +24018,20 @@ sonar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T093714Z" creationid="huanghaohang" creationdate="20190124T093714Z">
         <seg>apply plugin: &lt;s0&gt;'distribution'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'distribution'&lt;/s0&gt;
+
+version = &lt;s1&gt;'1.2'&lt;/s1&gt;
+distributions {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134032Z" creationid="huanghaohang" creationdate="20190127T134032Z">
+        <seg>apply plugin: &lt;s0&gt;'distribution'&lt;/s0&gt;
+
+version = &lt;s1&gt;'1.2'&lt;/s1&gt;
+distributions {</seg>
       </tuv>
     </tu>
     <tu>
@@ -25348,6 +25490,16 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>custom {}
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134036Z" creationid="huanghaohang" creationdate="20190127T134036Z">
+        <seg>custom {}
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>custom_plugins.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T095731Z" creationid="huanghaohang" creationdate="20180130T095731Z">
@@ -25818,6 +25970,22 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143000Z" creationid="huanghaohang" creationdate="20180416T143000Z">
         <seg>displayName = &lt;s18&gt;"Custom Ear"&lt;/s18&gt;  &lt;s19&gt;// defaults to project.name&lt;/s19&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>distTar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133904Z" creationid="huanghaohang" creationdate="20190127T133904Z">
+        <seg>distTar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>distZip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133851Z" creationid="huanghaohang" creationdate="20190127T133851Z">
+        <seg>distZip</seg>
       </tuv>
     </tu>
     <tu>
@@ -27924,6 +28092,22 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T003854Z" creationid="huanghaohang" creationdate="20170923T003854Z">
         <seg>inputs.file srcFile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>install&lt;e0&gt;&lt;c1&gt;${distribution.name.capitalize()}&lt;/c1&gt;&lt;/e0&gt;Dist</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134019Z" creationid="huanghaohang" creationdate="20190127T134019Z">
+        <seg>install&lt;e0&gt;&lt;c1&gt;${distribution.name.capitalize()}&lt;/c1&gt;&lt;/e0&gt;Dist</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>installDist</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133906Z" creationid="huanghaohang" creationdate="20190127T133906Z">
+        <seg>installDist</seg>
       </tuv>
     </tu>
     <tu>
