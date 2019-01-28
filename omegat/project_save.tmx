@@ -13902,6 +13902,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Given that the project name is "&lt;c0&gt;myproject&lt;/c0&gt;" and version "&lt;c1&gt;1.2&lt;/c1&gt;", running "&lt;s2&gt;&lt;c3&gt;gradle customDistZip&lt;/c3&gt;&lt;/s2&gt;" will produce a ZIP file named "&lt;c4&gt;myproject-custom-1.2.zip&lt;/c4&gt;".</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T060902Z" creationid="huanghaohang" creationdate="20190128T011911Z">
+        <seg>鉴于项目的名称是“&lt;c0&gt;myproject&lt;/c0&gt;”，版本为“&lt;c1&gt;1.2&lt;/c1&gt;”，运行“&lt;s2&gt;&lt;c3&gt;gradle customDistZip&lt;/c3&gt;&lt;/s2&gt;”将会产生一个名为“&lt;c4&gt;myproject-custom-1.2.zip&lt;/c4&gt;”的 ZIP 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle Plugins</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180517T034153Z" creationid="huanghaohang" creationdate="20180517T034153Z">
@@ -25500,6 +25508,22 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>customDistTar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T011907Z" creationid="huanghaohang" creationdate="20190128T011907Z">
+        <seg>customDistTar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>customDistZip</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T011859Z" creationid="huanghaohang" creationdate="20190128T011859Z">
+        <seg>customDistZip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>custom_plugins.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T095731Z" creationid="huanghaohang" creationdate="20180130T095731Z">
@@ -28100,6 +28124,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134019Z" creationid="huanghaohang" creationdate="20190127T134019Z">
         <seg>install&lt;e0&gt;&lt;c1&gt;${distribution.name.capitalize()}&lt;/c1&gt;&lt;/e0&gt;Dist</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>installCustomDist</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T011909Z" creationid="huanghaohang" creationdate="20190128T011909Z">
+        <seg>installCustomDist</seg>
       </tuv>
     </tu>
     <tu>
