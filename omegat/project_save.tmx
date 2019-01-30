@@ -1322,6 +1322,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/tasks/JavaExec.html#setDebug(boolean)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190130T233853Z" creationid="95" creationdate="20190130T233853Z">
+        <seg>../javadoc/org/gradle/api/tasks/JavaExec.html#setDebug(boolean)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/tasks/SourceSetContainer.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062346Z" creationid="haohang" creationdate="20180313T062346Z">
@@ -12718,6 +12726,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 45.2. Configure the application main class</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190130T233803Z" creationid="95" creationdate="20190130T233803Z">
+        <seg>示例 45.2. 配置应用程序的主类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -20994,6 +21010,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Then, you can run the application by running &lt;s0&gt;&lt;c1&gt;gradle run&lt;/c1&gt;&lt;/s0&gt;. Gradle will take care of building the application classes, along with their runtime dependencies, and starting the application with the correct classpath. You can launch the application in debug mode with &lt;s2&gt;&lt;c3&gt;gradle run --debug-jvm&lt;/c3&gt;&lt;/s2&gt; (see &lt;a4&gt;&lt;c5&gt;JavaExec.setDebug()&lt;/c5&gt;&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190130T234216Z" creationid="95" creationdate="20190130T234216Z">
+        <seg>然后，你可以通过运行 &lt;s0&gt;&lt;c1&gt;gradle run&lt;/c1&gt;&lt;/s0&gt;来运行这个应用程序。 Gradle将负责构建应用程序类及其运行时依赖，并使用正确的类路径来启动应用程序。 你可以使用 &lt;s2&gt;&lt;c3&gt;gradle run --debug-jvm&lt;/c3&gt;&lt;/s2&gt; 来以调试方式启动应用程序（请参阅 &lt;a4&gt;&lt;c5&gt;JavaExec.setDebug()&lt;/c5&gt;&lt;/a4&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are a number of plugins included in the Gradle distribution. These are listed below.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140503Z" creationid="huanghaohang" creationdate="20180205T140503Z">
@@ -29206,6 +29230,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133544Z" creationid="huanghaohang" creationdate="20170913T133544Z">
         <seg>main {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mainClassName = &lt;s0&gt;"org.gradle.sample.Main"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190130T233805Z" creationid="95" creationdate="20190130T233805Z">
+        <seg>mainClassName = &lt;s0&gt;"org.gradle.sample.Main"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
