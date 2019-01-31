@@ -858,6 +858,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.buildinit.tasks.InitBuild.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213729Z" creationid="95" creationdate="20190131T213729Z">
+        <seg>../dsl/org.gradle.buildinit.tasks.InitBuild.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.plugins.ear.Ear.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125232Z" creationid="huanghaohang" creationdate="20171126T125232Z">
@@ -5064,6 +5072,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T143822Z" creationid="95" creationdate="20190131T143822Z">
         <seg>46.3. 在分发中包含其他资源</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>47.1. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213655Z" creationid="95" creationdate="20190131T213655Z">
+        <seg>47.1. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>47.2. What to set up</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213759Z" creationid="95" creationdate="20190131T213759Z">
+        <seg>47.2. 如何设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -13924,6 +13948,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Generates Gradle wrapper files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213749Z" creationid="95" creationdate="20190131T213749Z">
+        <seg>生成 Gradle wrapper 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Generates a Gradle project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213738Z" creationid="95" creationdate="20190131T213738Z">
+        <seg>生成一个 Gradle 项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Generates all Eclipse configuration files</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T025848Z" creationid="huanghaohang" creationdate="20181210T025832Z">
@@ -14304,6 +14344,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083659Z" creationid="huanghaohang" creationdate="20170922T083659Z">
         <seg>Gradle 提供了多种方式来跳过任务的执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle plugins typically need to be &lt;e0&gt;applied&lt;/e0&gt; to a project before they can be used (see &lt;a1&gt;Section 21.1, “Applying plugins”&lt;/a1&gt;). The Build Init plugin is an automatically applied plugin, which means you do not need to apply it explicitly. To use the plugin, simply execute the task named &lt;c2&gt;init&lt;/c2&gt; where you would like to create the Gradle build. There is no need to create a “stub” &lt;c3&gt;build.gradle&lt;/c3&gt; file in order to apply the plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213608Z" creationid="95" creationdate="20190131T212933Z">
+        <seg>通常情况下，Gradle插件需要在 &lt;e0&gt; &lt;e0&gt;应用&lt;/e0&gt; 在项目之后才能使用（请参阅 &lt;a1&gt;第 21.1节， 《应用插件》&lt;/a1&gt;）。构建初始化插件是一个自动应用的插件，这意味着你不需要显式地应用该插件。 要使用这个插件，只需要在你想要创建Gradle构建的地方执行 &lt;c2&gt;init&lt;/c2&gt; 任务。 在这里，你不需要创建一个“存根” &lt;c3&gt;build.gradle&lt;/c3&gt; 文件来应用这个插件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15180,6 +15228,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>InitBuild</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213731Z" creationid="95" creationdate="20190131T213731Z">
+        <seg>InitBuild</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Installing Gradle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013318Z" creationid="huanghaohang" creationdate="20170919T013318Z">
@@ -15248,6 +15304,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072431Z" creationid="haohang" creationdate="20170720T072431Z">
         <seg>介绍</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It also leverages the &lt;c0&gt;wrapper&lt;/c0&gt; task from the Wrapper plugin (see &lt;a1&gt;Chapter 48, &lt;i2&gt;Wrapper Plugin&lt;/i2&gt;&lt;/a1&gt;), which means that the Gradle Wrapper will also be installed into the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213650Z" creationid="95" creationdate="20190131T213650Z">
+        <seg>它还利用了 Wrapper 插件中的 &lt;c0&gt;wrapper&lt;/c0&gt; 任务（见&lt;a1&gt;第 48章，《&lt;i2&gt;Wrapper 插件&lt;/i2&gt;&lt;/a1&gt;》），这意味着 Gradle Wrapper 也将被安装到该项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18684,6 +18748,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 47.1. Build Init plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213724Z" creationid="95" creationdate="20190131T213724Z">
+        <seg>表 47.1.  构建初始化插件——任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tar</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133905Z" creationid="huanghaohang" creationdate="20190127T133905Z">
@@ -19012,6 +19084,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075000Z" creationid="huanghaohang" creationdate="20171002T135621Z">
         <seg>该&lt;c0&gt;from()&lt;/c0&gt;方法接受和&lt;a1&gt;files()&lt;/a1&gt;方法一样的参数。当参数解析为目录时，该目录下的所有内容（除了该目录本身）将递归复制到目标目录中。当参数解析为文件时，该文件将被复制到目标目录中。当参数解析为不存在的文件时，该参数将被忽略。如果参数是一个任务，则复制任务的输出文件（即任务创建的文件），并将任务自动添加为&lt;c2&gt;Copy&lt;/c2&gt;任务的依赖项。该&lt;c3&gt;into()&lt;/c3&gt;接受和&lt;a4&gt;file()&lt;/a4&gt;方法一样的参数。这是另一个例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;init&lt;/c0&gt; supports different build setup &lt;e1&gt;types&lt;/e1&gt;. The type is specified by supplying a &lt;c2&gt;--type&lt;/c2&gt; argument value. For example, to create a Java library project simply execute: &lt;c3&gt;gradle init --type java-library&lt;/c3&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213838Z" creationid="95" creationdate="20190131T213838Z">
+        <seg>The &lt;c0&gt;init&lt;/c0&gt; supports different build setup &lt;e1&gt;types&lt;/e1&gt;. The type is specified by supplying a &lt;c2&gt;--type&lt;/c2&gt; argument value. For example, to create a Java library project simply execute: &lt;c3&gt;gradle init --type java-library&lt;/c3&gt;.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19492,6 +19572,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T142222Z" creationid="huanghaohang" creationdate="20180516T142222Z">
         <seg>FindBugs 插件使用 &lt;a0&gt;FindBugs&lt;/a0&gt; 对项目的 Java 源文件执行质量检查，并从这些检查中生成报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gradle Build Init plugin can be used to bootstrap the process of creating a new Gradle build. It supports creating brand new projects of different types as well as converting existing builds (e.g. An Apache Maven build) to be Gradle builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T212924Z" creationid="95" creationdate="20190131T145832Z">
+        <seg>Gradle 构建初始化插件可以用于引导创建一个新的 Gradle 构建的过程。它支持创建不同类型的全新项目，以及将现有的构建（如 Apache Maven 构建）转换成 Gradle 构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21076,6 +21164,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133452Z" creationid="huanghaohang" creationdate="20190124T093749Z">
         <seg>本插件向项目添加了一个名为“&lt;c0&gt;distributions&lt;/c0&gt;”的&lt;a1&gt;&lt;c2&gt;DistributionContainer&lt;/c2&gt;&lt;/a1&gt;类型的扩展。它还在分发容器扩展中创建了一个名为“&lt;c3&gt;main&lt;/c3&gt;”的单个distribution。如果您的构建只生成一个分发，则你只需要配置这一个distribution（或使用默认值）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The plugin adds the following tasks to the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213711Z" creationid="95" creationdate="20190131T213711Z">
+        <seg>该插件向项目中添加以下任务：</seg>
       </tuv>
     </tu>
     <tu>
@@ -23220,6 +23316,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012502Z" creationid="huanghaohang" creationdate="20190123T012502Z">
         <seg>Workspace</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Wrapper</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213740Z" creationid="95" creationdate="20190131T213740Z">
+        <seg>Wrapper</seg>
       </tuv>
     </tu>
     <tu>
@@ -28662,6 +28766,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093832Z" creationid="huanghaohang" creationdate="20180715T093832Z">
         <seg>index.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>init</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213728Z" creationid="95" creationdate="20190131T213728Z">
+        <seg>init</seg>
       </tuv>
     </tu>
     <tu>
