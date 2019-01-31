@@ -5092,6 +5092,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>47.3.1. "&lt;c0&gt;pom&lt;/c0&gt;" (Maven conversion)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T214550Z" creationid="95" creationdate="20190131T214550Z">
+        <seg>47.3.1. “&lt;c0&gt;pom&lt;/c0&gt;”（Maven 转换）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>47.3. Build init types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T214336Z" creationid="95" creationdate="20190131T214336Z">
+        <seg>47.3. 构建初始化类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013409Z" creationid="huanghaohang" creationdate="20170919T013409Z">
@@ -8990,6 +9006,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>All build setup types include the setup of the Gradle Wrapper.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T214329Z" creationid="95" creationdate="20190131T214329Z">
+        <seg>所有构建设置类型都包括 Gradle Wrapper 的设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>All enhanced objects in Gradle's domain model can hold extra user-defined properties. This includes, but is not limited to, projects, tasks, and source sets. Extra properties can be added, read and set via the owning object's &lt;c0&gt;ext&lt;/c0&gt; property. Alternatively, an &lt;c1&gt;ext&lt;/c1&gt; block can be used to add multiple properties at once.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133515Z" creationid="huanghaohang" creationdate="20170913T133515Z">
@@ -9330,6 +9354,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072751Z" creationid="huanghaohang" creationdate="20180812T072751Z">
         <seg>从 Sonar 3.4 开始，每个项目只能分析一种语言。不过，你可以为多项目构建中的每个项目设置不同的语言。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As this plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;, only 3 build init types are currently supported. More types will be added in future Gradle releases.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T214545Z" creationid="95" creationdate="20190131T214344Z">
+        <seg>由于此插件当前是 &lt;a0&gt;实验性&lt;/a0&gt;阶段，因此目前仅支持3种构建初始化类型。 在未来的Gradle发行版中，将会添加更多的类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14350,8 +14382,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Gradle plugins typically need to be &lt;e0&gt;applied&lt;/e0&gt; to a project before they can be used (see &lt;a1&gt;Section 21.1, “Applying plugins”&lt;/a1&gt;). The Build Init plugin is an automatically applied plugin, which means you do not need to apply it explicitly. To use the plugin, simply execute the task named &lt;c2&gt;init&lt;/c2&gt; where you would like to create the Gradle build. There is no need to create a “stub” &lt;c3&gt;build.gradle&lt;/c3&gt; file in order to apply the plugin.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213608Z" creationid="95" creationdate="20190131T212933Z">
-        <seg>通常情况下，Gradle插件需要在 &lt;e0&gt; &lt;e0&gt;应用&lt;/e0&gt; 在项目之后才能使用（请参阅 &lt;a1&gt;第 21.1节， 《应用插件》&lt;/a1&gt;）。构建初始化插件是一个自动应用的插件，这意味着你不需要显式地应用该插件。 要使用这个插件，只需要在你想要创建Gradle构建的地方执行 &lt;c2&gt;init&lt;/c2&gt; 任务。 在这里，你不需要创建一个“存根” &lt;c3&gt;build.gradle&lt;/c3&gt; 文件来应用这个插件。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T214420Z" creationid="95" creationdate="20190131T212933Z">
+        <seg>通常情况下，Gradle插件需要在 &lt;e0&gt;应用&lt;/e0&gt; 在项目之后才能使用（请参阅 &lt;a1&gt;第 21.1节， 《应用插件》&lt;/a1&gt;）。构建初始化插件是一个自动应用的插件，这意味着你不需要显式地应用该插件。 要使用这个插件，只需要在你想要创建Gradle构建的地方执行 &lt;c2&gt;init&lt;/c2&gt; 任务。 在这里，你不需要创建一个“存根” &lt;c3&gt;build.gradle&lt;/c3&gt; 文件来应用这个插件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14820,6 +14852,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a &lt;c0&gt;--type&lt;/c0&gt; parameter is not supplied, Gradle will attempt to infer the type from the environment. For example, it will infer a type value of "&lt;c1&gt;pom&lt;/c1&gt;" if it finds a &lt;c2&gt;pom.xml&lt;/c2&gt; to convert to a Gradle build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T214247Z" creationid="95" creationdate="20190131T214247Z">
+        <seg>如果没有提供 &lt;c0&gt;--type&lt;/c0&gt; 参数，Gradle将尝试从环境中推断类型。例如，如果它发现 &lt;c2&gt;pom.xml&lt;/c2&gt;，那么它将推断出一个“&lt;c1&gt;pom&lt;/c1&gt;”的类型值，来转换为Gradle构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a &lt;c0&gt;groovy(-indy)&lt;/c0&gt; Jar is found on &lt;c1&gt;classpath&lt;/c1&gt;, and the project has at least one repository declared, a corresponding &lt;c2&gt;groovy(-indy)&lt;/c2&gt; repository dependency will be added to &lt;c3&gt;groovyClasspath&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T132803Z" creationid="huanghaohang" creationdate="20180406T132803Z">
@@ -14888,6 +14928,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084828Z" creationid="huanghaohang" creationdate="20170922T084210Z">
         <seg>如果跳过任务的规则不能用断言来表达，你可以使用&lt;a0&gt;&lt;c1&gt;StopExecutionException&lt;/c1&gt;&lt;/a0&gt;。如果一个操作抛出此异常，则此操作的接下来的执行以及该任务的任何后续操作都会跳过。构建会继续执行下一个任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the type could not be inferred, the type "&lt;c0&gt;basic&lt;/c0&gt;" will be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T214310Z" creationid="95" creationdate="20190131T214310Z">
+        <seg>如果类型无法推断，将使用“&lt;c0&gt;basic&lt;/c0&gt;”类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19008,6 +19056,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The "&lt;c0&gt;pom&lt;/c0&gt;" type can be used to convert an Apache Maven build to a Gradle build. This works by converting the POM to one or more Gradle files. It is only able to be used if there is a valid "&lt;c1&gt;pom.xml&lt;/c1&gt;" file in the directory that the &lt;c2&gt;init&lt;/c2&gt; task is invoked in. This type will be automatically inferred if such a file exists.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T214602Z" creationid="95" creationdate="20190131T214602Z">
+        <seg>The "&lt;c0&gt;pom&lt;/c0&gt;" type can be used to convert an Apache Maven build to a Gradle build. This works by converting the POM to one or more Gradle files. It is only able to be used if there is a valid "&lt;c1&gt;pom.xml&lt;/c1&gt;" file in the directory that the &lt;c2&gt;init&lt;/c2&gt; task is invoked in. This type will be automatically inferred if such a file exists.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;a0&gt;&lt;c1&gt;JacocoReport&lt;/c1&gt;&lt;/a0&gt; task can be used to generate code coverage reports in different formats. It implements the standard Gradle type &lt;a2&gt;&lt;c3&gt;Reporting&lt;/c3&gt;&lt;/a2&gt; and exposes a report container of type &lt;a4&gt;&lt;c5&gt;JacocoReportsContainer&lt;/c5&gt;&lt;/a4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093001Z" creationid="huanghaohang" creationdate="20180712T135532Z">
@@ -19090,8 +19146,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The &lt;c0&gt;init&lt;/c0&gt; supports different build setup &lt;e1&gt;types&lt;/e1&gt;. The type is specified by supplying a &lt;c2&gt;--type&lt;/c2&gt; argument value. For example, to create a Java library project simply execute: &lt;c3&gt;gradle init --type java-library&lt;/c3&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20190131T213838Z" creationid="95" creationdate="20190131T213838Z">
-        <seg>The &lt;c0&gt;init&lt;/c0&gt; supports different build setup &lt;e1&gt;types&lt;/e1&gt;. The type is specified by supplying a &lt;c2&gt;--type&lt;/c2&gt; argument value. For example, to create a Java library project simply execute: &lt;c3&gt;gradle init --type java-library&lt;/c3&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190131T214107Z" creationid="95" creationdate="20190131T213838Z">
+        <seg>&lt;c0&gt;init&lt;/c0&gt; 支持不同的构建设置 &lt;e1&gt;类型&lt;/e1&gt;。类型通过提供 &lt;c2&gt;--type&lt;/c2&gt; 参数值来指定。例如，要创建Java库项目，只需执行：&lt;c3&gt;gradle init --type java-library&lt;/c3&gt;。</seg>
       </tuv>
     </tu>
     <tu>
