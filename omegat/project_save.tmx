@@ -5108,6 +5108,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>47.3.3. "&lt;c0&gt;scala-library&lt;/c0&gt;"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154707Z" creationid="95" creationdate="20190201T154707Z">
+        <seg>47.3.3. “&lt;c0&gt;scala-library&lt;/c0&gt;”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>47.3.4. "&lt;c0&gt;groovy-library&lt;/c0&gt;"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154815Z" creationid="95" creationdate="20190201T154815Z">
+        <seg>47.3.4. “&lt;c0&gt;groovy-library&lt;/c0&gt;”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>47.3. Build init types</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T214336Z" creationid="95" creationdate="20190131T214336Z">
@@ -10590,6 +10606,22 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Contains a sample class and unit test, if there are no existing source or test files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154703Z" creationid="95" creationdate="20190201T154703Z">
+        <seg>如果没有源文件或测试文件，会包含一个示例类和单元测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Contains a sample scala class and an according ScalaTest test suite, if there are no existing source or test files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154812Z" creationid="95" creationdate="20190201T154812Z">
+        <seg>如果不存在源文件或测试文件，会包含一个示例 scala 类和一个相应的 ScalaTest 测试套件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Contains the project's source sets.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062406Z" creationid="haohang" creationdate="20180313T062406Z">
@@ -14660,6 +14692,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Has directories in the conventional locations for source code</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154640Z" creationid="95" creationdate="20190201T154640Z">
+        <seg>在源代码中的约定位置有目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Have a look at &lt;a0&gt;&lt;c1&gt;TaskContainer&lt;/c1&gt;&lt;/a0&gt; for more options for locating tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122048Z" creationid="huanghaohang" creationdate="20170919T122048Z">
@@ -15416,6 +15456,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T213650Z" creationid="95" creationdate="20190131T213650Z">
         <seg>它还利用了 Wrapper 插件中的 &lt;c0&gt;wrapper&lt;/c0&gt; 任务（见&lt;a1&gt;第 48章，《&lt;i2&gt;Wrapper 插件&lt;/i2&gt;&lt;/a1&gt;》），这意味着 Gradle Wrapper 也将被安装到该项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It has the following features:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154519Z" creationid="95" creationdate="20190201T154519Z">
+        <seg>它具有以下功能：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19152,10 +19200,18 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The "&lt;c0&gt;groovy-library&lt;/c0&gt;" build init type is not inferable. It must be explicitly specified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154824Z" creationid="95" creationdate="20190201T154824Z">
+        <seg>“&lt;c0&gt;groovy-library&lt;/c0&gt;”构建初始化类型不是可推断的，它必须显式指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The "&lt;c0&gt;java-library&lt;/c0&gt;" build init type is not inferable. It must be explicitly specified.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154507Z" creationid="95" creationdate="20190201T145710Z">
-        <seg>“&lt;c0&gt;java-library&lt;/c0&gt;”构建初始化类型是不可推断的，它必须显式指定。</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154539Z" creationid="95" creationdate="20190201T145710Z">
+        <seg>“&lt;c0&gt;java-library&lt;/c0&gt;”构建初始化类型不是可推断的，它必须显式指定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19164,6 +19220,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T142213Z" creationid="95" creationdate="20190131T214602Z">
         <seg>“&lt;c0&gt;pom&lt;/c0&gt;”类型可以被用于把一个 Apache Maven 构建转换为一个 Gradle 构建。这是通过将POM转换为一个或多个Gradle文件。它仅用于当调用 &lt;c2&gt;init&lt;/c2&gt; 任务的目录有一个有效的“&lt;c1&gt;pom.xml&lt;/c1&gt;”文件的时候。如果存在一个这样的文件，那么将会自动推断类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The "&lt;c0&gt;scala-library&lt;/c0&gt;" build init type is not inferable. It must be explicitly specified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154715Z" creationid="95" creationdate="20190201T154715Z">
+        <seg>“&lt;c0&gt;scala-library&lt;/c0&gt;”构建初始化类型不是可推断的，它必须显式指定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22800,10 +22864,66 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Uses &lt;a0&gt;JUnit&lt;/a0&gt; for testing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154546Z" creationid="95" creationdate="20190201T154546Z">
+        <seg>使用&lt;a0&gt;JUnit&lt;/a0&gt;进行测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uses &lt;a0&gt;ScalaTest&lt;/a0&gt; is used for testing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154734Z" creationid="95" creationdate="20190201T154734Z">
+        <seg>使用&lt;a0&gt;ScalaTest&lt;/a0&gt;进行测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uses Scala 2.10</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154721Z" creationid="95" creationdate="20190201T154721Z">
+        <seg>使用 Scala 2.10</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Uses effective POM and effective settings (support for POM inheritance, dependency management, properties)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T142437Z" creationid="95" creationdate="20190201T142437Z">
         <seg>使用有效的 POM 和有效设置（支持 POM 继承、 依赖管理、 属性）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uses the " &lt;c0&gt;mavenCentral()&lt;/c0&gt; dependency repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154526Z" creationid="95" creationdate="20190201T154526Z">
+        <seg>使用“&lt;c0&gt;mavenCentral()&lt;/c0&gt;”依赖仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uses the "&lt;c0&gt;groovy&lt;/c0&gt;" plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154829Z" creationid="95" creationdate="20190201T154829Z">
+        <seg>使用“&lt;c0&gt;groovy&lt;/c0&gt;”插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uses the "&lt;c0&gt;java&lt;/c0&gt;" plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154523Z" creationid="95" creationdate="20190201T154523Z">
+        <seg>使用“&lt;c0&gt;java&lt;/c0&gt;”插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uses the "&lt;c0&gt;scala&lt;/c0&gt;" plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154718Z" creationid="95" creationdate="20190201T154718Z">
+        <seg>使用“&lt;c0&gt;scala&lt;/c0&gt;”插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -28420,6 +28540,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://junit.org</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154530Z" creationid="95" creationdate="20190201T154530Z">
+        <seg>http://junit.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://manpages.ubuntu.com/manpages/gutsy/man1/notify-send.1.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T085658Z" creationid="huanghaohang" creationdate="20190124T085658Z">
@@ -28560,6 +28688,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T020439Z" creationid="huanghaohang" creationdate="20180407T020439Z">
         <seg>http://www.scala-lang.org/docu/files/tools/fsc.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.scalatest.org</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154722Z" creationid="95" creationdate="20190201T154722Z">
+        <seg>http://www.scalatest.org</seg>
       </tuv>
     </tu>
     <tu>
