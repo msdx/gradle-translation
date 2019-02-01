@@ -5124,6 +5124,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>47.3.5. "basic"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155008Z" creationid="95" creationdate="20190201T155008Z">
+        <seg>47.3.5. “basic”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>47.3. Build init types</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T214336Z" creationid="95" creationdate="20190131T214336Z">
@@ -10176,8 +10184,16 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Chapter 48. Wrapper Plugin</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143510Z" creationid="huanghaohang" creationdate="20180408T143510Z">
-        <seg>第四十八章. Wrapper 插件</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155533Z" creationid="huanghaohang" creationdate="20180408T143510Z">
+        <seg>第四十八章. 包装器插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Chapter 49. The Build Dashboard Plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155513Z" creationid="95" creationdate="20190201T155457Z">
+        <seg>第四十九章. 构建仪表盘插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -10610,6 +10626,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T154703Z" creationid="95" creationdate="20190201T154703Z">
         <seg>如果没有源文件或测试文件，会包含一个示例类和单元测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Contains a sample groovy class and an according Spock specification, if there are no existing source or test files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155005Z" creationid="95" creationdate="20190201T155005Z">
+        <seg>如果不存在源文件或测试文件，会包含一个示例 groovy 类和一个相应的 Spock 规范</seg>
       </tuv>
     </tu>
     <tu>
@@ -19200,6 +19224,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The "&lt;c0&gt;basic&lt;/c0&gt;" build init type is useful for creating a fresh new Gradle project. It creates a sample &lt;c1&gt;build.gradle&lt;/c1&gt; file, with comments and links to help get started.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155224Z" creationid="95" creationdate="20190201T155015Z">
+        <seg>“&lt;c0&gt;basic&lt;/c0&gt;”构建初始化类型对于创建新的Gradle项目很有用。它会创建一个样本 &lt;c1&gt;build.gradle&lt;/c1&gt; 文件，带有注释和链接以帮助入门。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The "&lt;c0&gt;groovy-library&lt;/c0&gt;" build init type is not inferable. It must be explicitly specified.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T154824Z" creationid="95" creationdate="20190201T154824Z">
@@ -19876,6 +19908,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T063605Z" creationid="95" creationdate="20170723T063605Z">
         <seg>Gradle 包装器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gradle wrapper plugin allows the generation of Gradle wrapper files by adding a &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt; task, that generates all files needed to run the build using the Gradle Wrapper. Details about the Gradle Wrapper can be found in the according chapter &lt;a2&gt;Chapter 61, &lt;i3&gt;The Gradle Wrapper&lt;/i3&gt;&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155739Z" creationid="95" creationdate="20190201T155739Z">
+        <seg>Gradle包装器程序插件允许通过添加 &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt; 任务来生成Gradle包装器文件，该任务生成使用Gradle Wrapper来运行构建所需的所有文件。 有关Gradle Wrapper的详细信息，请参阅对应的章节《&lt;a2&gt;第六十一章，&lt;i3&gt;Gradle Wrapper&lt;/i3&gt;&lt;/a2&gt;》。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21696,6 +21736,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The wrapper plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;. Please be aware that the DSL and other configuration may change in later Gradle versions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155527Z" creationid="95" creationdate="20190201T155527Z">
+        <seg>包装器插件目前是一个&lt;a0&gt;试验性&lt;/a0&gt;插件。注意，在以后的 Gradle 版本中，其 DSL 和其他配置可能会有变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Then, you can run the application by running &lt;s0&gt;&lt;c1&gt;gradle run&lt;/c1&gt;&lt;/s0&gt;. Gradle will take care of building the application classes, along with their runtime dependencies, and starting the application with the correct classpath. You can launch the application in debug mode with &lt;s2&gt;&lt;c3&gt;gradle run --debug-jvm&lt;/c3&gt;&lt;/s2&gt; (see &lt;a4&gt;&lt;c5&gt;JavaExec.setDebug()&lt;/c5&gt;&lt;/a4&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190130T234216Z" creationid="95" creationdate="20190130T234216Z">
@@ -22236,6 +22284,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T022455Z" creationid="huanghaohang" creationdate="20170910T022209Z">
         <seg>这一任务对于调查依赖解析非常有用，它可以找出某些依赖关系来自于哪，以及为什么选择这些版本。有关更多信息，请参阅&lt;a0&gt;&lt;c1&gt;DependencyInsightReportTask&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This type is used when no type was explicitly specified, and no type could be inferred.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155310Z" creationid="95" creationdate="20190201T155310Z">
+        <seg>当未显式指定类型，并且无法推断出类型时，会使用该类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22876,6 +22932,22 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T154734Z" creationid="95" creationdate="20190201T154734Z">
         <seg>使用&lt;a0&gt;ScalaTest&lt;/a0&gt;进行测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uses &lt;a0&gt;Spock testing framework&lt;/a0&gt; for testing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154930Z" creationid="95" creationdate="20190201T154930Z">
+        <seg>使用 &lt;a0&gt;Spock testing framework&lt;/a0&gt; 进行测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Uses Groovy 2.x</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154851Z" creationid="95" creationdate="20190201T154851Z">
+        <seg>使用 Groovy 2.x</seg>
       </tuv>
     </tu>
     <tu>
@@ -28234,6 +28306,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>gradle_wrapper.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155540Z" creationid="95" creationdate="20190201T155540Z">
+        <seg>gradle_wrapper.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>groovy</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140842Z" creationid="huanghaohang" creationdate="20180205T140842Z">
@@ -28416,6 +28496,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T085814Z" creationid="huanghaohang" creationdate="20180211T085814Z">
         <seg>http://clarkware.com/software/JDepend.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://code.google.com/p/spock/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T154853Z" creationid="95" creationdate="20190201T154853Z">
+        <seg>http://code.google.com/p/spock/</seg>
       </tuv>
     </tu>
     <tu>
