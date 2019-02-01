@@ -5140,6 +5140,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>48.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155743Z" creationid="95" creationdate="20190201T155743Z">
+        <seg>48.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>48.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155919Z" creationid="95" creationdate="20190201T155919Z">
+        <seg>48.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013409Z" creationid="huanghaohang" creationdate="20170919T013409Z">
@@ -18972,6 +18988,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 48.1. Wrapper plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T160011Z" creationid="95" creationdate="20190201T160011Z">
+        <seg>表 48.1. 包装器插件——任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tar</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133905Z" creationid="huanghaohang" creationdate="20190127T133905Z">
@@ -21736,6 +21760,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The wrapper plugin adds the following tasks to the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155955Z" creationid="95" creationdate="20190201T155955Z">
+        <seg>包装器插件向项目添加以下任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The wrapper plugin is currently &lt;a0&gt;incubating&lt;/a0&gt;. Please be aware that the DSL and other configuration may change in later Gradle versions.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T155527Z" creationid="95" creationdate="20190201T155527Z">
@@ -23652,6 +23684,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T031953Z" creationid="huanghaohang" creationdate="20170922T031953Z">
         <seg>目前使用这些规则仍有可能出现&lt;c0&gt;taskA&lt;/c0&gt;执行而&lt;c1&gt;taskB&lt;/c1&gt; 没有执行，或者&lt;c0&gt;taskB&lt;/c0&gt;执行而&lt;c1&gt;taskA&lt;/c1&gt; 没有执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Without modifying the &lt;c0&gt;build.gradle&lt;/c0&gt; file, the wrapper plugin can be auto-applied to the rootproject of the current build by running &lt;c1&gt;gradle wrapper&lt;/c1&gt; from the commandline. This applies the plugin if no task named &lt;c2&gt;wrapper&lt;/c2&gt; is already defined in the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T155916Z" creationid="95" creationdate="20190201T155746Z">
+        <seg>在不修改 &lt;c0&gt;build.gradle&lt;/c0&gt; 文件的情况下，可以通过从命令行运行 &lt;c1&gt;gradle wrapper&lt;/c1&gt; 来自动将包装器插件应用于当前构建的根项目。 如果未在构建中定义名为 &lt;c2&gt;wrapper&lt;/c2&gt; 的任务，那么将会应用此插件。</seg>
       </tuv>
     </tu>
     <tu>
