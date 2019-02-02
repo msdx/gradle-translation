@@ -602,10 +602,26 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.reporting.GenerateBuildDashboard.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153740Z" creationid="95" creationdate="20190202T153740Z">
+        <seg>../dsl/org.gradle.api.reporting.GenerateBuildDashboard.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.reporting.Reporting.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T135327Z" creationid="huanghaohang" creationdate="20180712T135327Z">
         <seg>../dsl/org.gradle.api.reporting.Reporting.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.reporting.ReportingExtension.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153816Z" creationid="95" creationdate="20190202T153816Z">
+        <seg>../dsl/org.gradle.api.reporting.ReportingExtension.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -5156,6 +5172,46 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>49.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T233111Z" creationid="95" creationdate="20190201T233111Z">
+        <seg>49.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>49.2. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153531Z" creationid="95" creationdate="20190202T153531Z">
+        <seg>49.2. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>49.3. Project layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153748Z" creationid="95" creationdate="20190202T153748Z">
+        <seg>49.3. 项目布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>49.4. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153801Z" creationid="95" creationdate="20190202T153801Z">
+        <seg>49.4. 依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>49.5. Configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153815Z" creationid="95" creationdate="20190202T153815Z">
+        <seg>49.5. 配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013409Z" creationid="huanghaohang" creationdate="20170919T013409Z">
@@ -5192,6 +5248,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T121457Z" creationid="95" creationdate="20170723T121457Z">
         <seg>5.2. 获取帮助</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.1. Introduction</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T154031Z" creationid="95" creationdate="20190202T154028Z">
+        <seg>50.1.导言</seg>
       </tuv>
     </tu>
     <tu>
@@ -6676,6 +6740,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133319Z" creationid="huanghaohang" creationdate="20180108T133319Z">
         <seg>&lt;s0&gt; &lt;e1&gt;Gradle 守护进程&lt;/e1&gt;&lt;/s0&gt;（有时也称为&lt;s2&gt;&lt;e3&gt;构建守护进程&lt;/e3&gt;&lt;/s2&gt;） 旨在改善 Gradle 的启动和执行时间。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Transitive dependency management&lt;/e1&gt;&lt;/s0&gt;: Gradle gives you full control of your project's dependency tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T155840Z" creationid="95" creationdate="20190202T155840Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;依赖管理传递&lt;/e1&gt;&lt;/s0&gt;：Gradle 使你可以完全控制项目的依赖树。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9382,6 +9454,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Applying the plugin adds the &lt;c0&gt;buildDashboard&lt;/c0&gt; task to your project. The task aggregates the reports for all tasks that implement the &lt;a1&gt;&lt;c2&gt;Reporting&lt;/c2&gt;&lt;/a1&gt; interface from &lt;s3&gt;&lt;e4&gt;all projects&lt;/e4&gt;&lt;/s3&gt; in the build. It is typically only applied to the root project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T233405Z" creationid="95" creationdate="20190201T233204Z">
+        <seg>应用插件会将 &lt;c0&gt;buildDashboard&lt;/c0&gt; 任务添加到项目。 此任务将聚合了在构建中从 &lt;s3&gt;&lt;e4&gt;所有项目&lt;/e4&gt;&lt;/s3&gt; 实现了 &lt;a1&gt;&lt;c2&gt;报告&lt;/c2&gt;&lt;/a1&gt; 接口的所有任务的报告。 它通常仅应用于根项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Artifacts (e.g. jars) produced by this project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053909Z" creationid="haohang" creationdate="20180313T053909Z">
@@ -10230,6 +10310,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Chapter 51. Publishing artifacts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T154001Z" creationid="95" creationdate="20190202T154001Z">
+        <seg>第五十一章. 发布工件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Chapter 52. The Maven Plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T145111Z" creationid="huanghaohang" creationdate="20180416T145111Z">
@@ -11024,6 +11112,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180517T130027Z" creationid="huanghaohang" creationdate="20180517T130027Z">
         <seg>依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dependency management is a critical feature of every build, and Gradle has placed an emphasis on offering first-class dependency management that is both easy-to-understand and compatible with a wide variety of approaches. If you are familiar with the approach used by either Maven or Ivy you will be delighted to learn that Gradle is fully compatible with both approaches in addition to being flexible enough to support fully-customized approaches.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T154547Z" creationid="95" creationdate="20190202T154547Z">
+        <seg>依赖关系管理是每个构建的一个关键特性，Gradle的重点在于提供易于理解且与各种方法兼容的一流的依赖管理。 如果您熟悉Maven或Ivy所使用的方法，那么你会很高兴知道Gradle完全兼容这两种方法，此外，它还具有足够的灵活性以支持完全自定义的方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13108,6 +13204,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 49.1. Using the Build Dashboard plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T233135Z" creationid="95" creationdate="20190201T233135Z">
+        <seg>示例 49.1 使用 Build Dashboard 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -13996,6 +14100,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>GenerateBuildDashboard</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153742Z" creationid="95" creationdate="20190202T153742Z">
+        <seg>GenerateBuildDashboard</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>GenerateEclipseClasspath</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T025953Z" creationid="huanghaohang" creationdate="20181210T025953Z">
@@ -14776,6 +14888,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031755Z" creationid="huanghaohang" creationdate="20170927T031755Z">
         <seg>Hello world</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here are the major highlights of Gradle's support for dependency management:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T154613Z" creationid="95" creationdate="20190202T154613Z">
+        <seg>以下是 Gradle 支持的依赖管理的主要亮点：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19004,6 +19124,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 49.1. Build Dashboard plugin - tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153704Z" creationid="95" creationdate="20190202T153646Z">
+        <seg>表 49.1. Build Dashboard 插件——任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tar</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133905Z" creationid="huanghaohang" creationdate="20190127T133905Z">
@@ -19360,6 +19488,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;buildDashboard&lt;/c0&gt; task does not depend on any other tasks. It will only aggregate the reporting tasks that are independently being executed as part of the build run. To generate the build dashboard, simply include the &lt;c1&gt;buildDashboard&lt;/c1&gt; task in the list of tasks to execute. For example, &lt;s2&gt;&lt;c3&gt;gradle buildDashboard build&lt;/c3&gt;&lt;/s2&gt; will generate a dashboard for all of the reporting tasks that are dependents of the &lt;c4&gt;build&lt;/c4&gt; task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153522Z" creationid="95" creationdate="20190202T153217Z">
+        <seg>&lt;c0&gt;buildDashboard&lt;/c0&gt; 任务不依赖于任何其他任务。 它只聚合在构建运行过程中独立执行的报告任务。 要生成构建仪表盘，只需在要执行的任务列表中包含 &lt;c1&gt;buildDashboard&lt;/c1&gt; 任务。 例如，&lt;s2&gt;&lt;c3&gt;gradle buildDashboard build&lt;/c3&gt;&lt;/s2&gt; 将为 &lt;c4&gt;build&lt;/c4&gt; 任务所依赖的所有报告任务生成仪表盘。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;clean&lt;/c0&gt; task is an instance of &lt;a1&gt;&lt;c2&gt;Delete&lt;/c2&gt;&lt;/a1&gt;. It simply removes the directory denoted by its &lt;c3&gt;dir&lt;/c3&gt; property.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T100614Z" creationid="haohang" creationdate="20180326T100556Z">
@@ -19576,10 +19712,34 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Build Dashboard plugin adds the following task to the project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153640Z" creationid="95" creationdate="20190202T153640Z">
+        <seg>Build Dashboard 插件向项目中添加以下任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Build Dashboard plugin can be used to generate a single HTML dashboard that provides a single point of access to all of the reports generated by a build.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T233108Z" creationid="95" creationdate="20190201T233108Z">
         <seg>Build Dashboard 插件可以用于生成单个 HTML 仪表盘，该仪表盘提供对构建所生成的所有报告的单点访问。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Build Dashboard plugin does not define any dependency configurations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153812Z" creationid="95" creationdate="20190202T153812Z">
+        <seg>Build Dashboard 插件没有定义任何的依赖配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Build Dashboard plugin does not require any particular project layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153759Z" creationid="95" creationdate="20190202T153759Z">
+        <seg>Build Dashboard 插件不需要任何特定的项目布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22624,6 +22784,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use the Build Dashboard plugin, include the following in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T233128Z" creationid="95" creationdate="20190201T233128Z">
+        <seg>要使用 Build Dashboard 插件，请在构建脚本中包含以下内容：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use the Checkstyle plugin, include in your build script:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180424T134701Z" creationid="huanghaohang" creationdate="20180424T134701Z">
@@ -24096,6 +24264,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can influence the location of build dashboard plugin generation via &lt;a0&gt;&lt;c1&gt;ReportingExtension&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153851Z" creationid="95" creationdate="20190202T153851Z">
+        <seg>你可以通过 &lt;a0&gt;&lt;c1&gt;ReportingExtension&lt;/c1&gt;&lt;/a0&gt; 修改构建仪表盘插件生成内容的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can locate a file relative to the project directory using the &lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T125024Z" creationid="huanghaohang" creationdate="20170923T125024Z">
@@ -25044,6 +25220,14 @@ sonar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'build-dashboard'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190201T233137Z" creationid="95" creationdate="20190201T233137Z">
+        <seg>apply plugin: &lt;s0&gt;'build-dashboard'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s0&gt;'checkstyle'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180424T134707Z" creationid="huanghaohang" creationdate="20180424T134707Z">
@@ -25776,6 +25960,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035545Z" creationid="haohang" creationdate="20180313T035545Z">
         <seg>build&lt;e0&gt;&lt;c1&gt;ConfigurationName&lt;/c1&gt;&lt;/e0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>buildDashboard</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190202T153731Z" creationid="95" creationdate="20190202T153731Z">
+        <seg>buildDashboard</seg>
       </tuv>
     </tu>
     <tu>
