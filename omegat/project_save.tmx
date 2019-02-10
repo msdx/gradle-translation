@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.3" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.5" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -12190,8 +12190,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Dependency management can be particularly challenging during a migration from one build system to another. If you are migrating from a tool like Ant or Maven to Gradle, you may be faced with some difficult situations. For example, one common pattern is an Ant project with version-less jar files stored in the filesystem. Other build systems require a wholesale replacement of this approach before migrating. With Gradle, you can adapt your new build to any existing source of dependencies or dependency metadata. This makes incremental migration to Gradle much easier than the alternative. On most large projects, build migrations and any change to development process is incremental because most organizations can't afford to stop everything and migrate to a build tool's idea of dependency management.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20190204T010128Z" creationid="95" creationdate="20190204T010128Z">
-        <seg>Dependency management can be particularly challenging during a migration from one build system to another. If you are migrating from a tool like Ant or Maven to Gradle, you may be faced with some difficult situations. For example, one common pattern is an Ant project with version-less jar files stored in the filesystem. Other build systems require a wholesale replacement of this approach before migrating. With Gradle, you can adapt your new build to any existing source of dependencies or dependency metadata. This makes incremental migration to Gradle much easier than the alternative. On most large projects, build migrations and any change to development process is incremental because most organizations can't afford to stop everything and migrate to a build tool's idea of dependency management.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190210T103455Z" creationid="95" creationdate="20190204T010128Z">
+        <seg>在从一个构建系统迁移到另一个构建系统的过程当中，对于依赖管理而方，可能特别具有挑战性。 如果你要从Ant或Maven之类的工具迁移到Gradle，那么可能会面临一些困难的情况。 例如一个常见的模式是Ant项目，其中包含了存储在文件系统中的无版本jar文件。 其他构建系统需要在迁移之前批量替换此方法。而使用Gradle，你可以让新构建调整为任何现有的依赖源或依赖元数据。这使得增量迁移到Gradle的难度比其他的规范方案要容易得多。 在大多数大型项目上，构建迁移以及对开发流程的任何更改都是增量进行的，因为大多数组织都无法停止所有的一切，并迁移到一个构建工具的依赖管理概念中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12576,6 +12576,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180109T140343Z" creationid="huanghaohang" creationdate="20180109T140343Z">
         <seg>甚至更快的构建：预先评估项目，以便在用户下一次调用 Gradle 时，模型就已准备就绪。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Even if your project is using a custom dependency management system or something like an Eclipse .classpath file as master data for dependency management, it is very easy to write a Gradle plugin to use this data in Gradle. For migration purposes this is a common technique with Gradle. (But, once you've migrated, it might be a good idea to move away from a .classpath file and use Gradle's dependency management features directly.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190210T103904Z" creationid="95" creationdate="20190210T103456Z">
+        <seg>即使你的项目正在使用自定义的依赖管理系统，或或是一些像Eclipse.classpath文件作为依赖管理的主数据，也很容易编写Gradle插件在Gradle中使用此数据。 出于迁移目的，这是Gradle中的常见技术。（但是，如果你已经迁移，那么可以从.classpath文件中移出并直接使用Gradle的依赖管理功能可能是个好主意。）</seg>
       </tuv>
     </tu>
     <tu>
