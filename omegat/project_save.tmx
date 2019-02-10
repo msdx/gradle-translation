@@ -6220,6 +6220,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.2.1. Put the Version in the Filename (Version the jar)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190210T145508Z" creationid="95" creationdate="20190210T145508Z">
+        <seg>50.2.1. 在文件名中包含版本号（版本化 jar ）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.2. Dependency Management Best Practices</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190210T143558Z" creationid="95" creationdate="20190210T143558Z">
+        <seg>50.2. 依赖管理最佳实践</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -10778,6 +10794,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T131937Z" creationid="huanghaohang" creationdate="20170912T130332Z">
         <seg>这两个&lt;c0&gt;println&lt;/c0&gt;语句打印出相同的属性。在构建脚本中未定义的属性，第一次使用时会自动委派到&lt;c1&gt;Project&lt;/c1&gt;对象。另一个语句使用了可用于任何构建脚本的&lt;c2&gt;project&lt;/c2&gt;属性，这个属性返回关联的&lt;c3&gt;Project&lt;/c3&gt;对象。只有当你定义的属性或方法与这个&lt;c4&gt;Project&lt;/c4&gt;对象的成员方法或变量重名时，你才需要使用&lt;c5&gt;project&lt;/c5&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Both tools rely on descriptor XML files, which contain information about the dependencies of a particular jar. Both also use repositories where the actual jars are placed together with their descriptor files, and both offer resolution for conflicting jar versions in one form or the other. Both have emerged as standards for solving dependency conflicts, and while Gradle originally used Ivy under the hood for its dependency management. Gradle has replaced this direct dependency on Ivy with a native Gradle dependency resolution engine which supports a range of approaches to dependency resolution including both POM and Ivy descriptor files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190210T143548Z" creationid="95" creationdate="20190210T104432Z">
+        <seg>这两种工具都依赖于描述符XML文件，这些文件包含有关特定jar的依赖信息。 它们还使用仓库，在这些仓库中，实际的jar与它们的描述符文件放在一起；并且这两者都以一种形式或其他形式提供了jar版本冲突的解决方案。它们都成为解决依赖冲突的标准，而Gradle对于依赖管理从一开始在底层上使用的是Ivy。Gradle取代了对Ivy的直接依赖，采用了本地Gradle语解决引擎，该引擎支持一系列依赖解决方案的方法，包括POM和Ivy描述符文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16324,6 +16348,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If versions are unclear you can introduce subtle bugs which are very hard to find. For example there might be a project which uses Hibernate 2.5. Think about a developer who decides to install version 3.0.5 of Hibernate on her machine to fix a critical security bug but forgets to notify others in the team of this change. She may address the security bug successfully, but she also may have introduced subtle bugs into a codebase that was using a now-deprecated feature from Hibernate. Weeks later there is an exception on the integration machine which can't be reproduced on anyone's machine. Multiple developers then spend days on this issue only finally realising that the error would have easy to uncover if they knew that Hibernate had been upgraded from 2.5 to 3.0.5.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190210T145957Z" creationid="95" creationdate="20190210T145957Z">
+        <seg>If versions are unclear you can introduce subtle bugs which are very hard to find. For example there might be a project which uses Hibernate 2.5. Think about a developer who decides to install version 3.0.5 of Hibernate on her machine to fix a critical security bug but forgets to notify others in the team of this change. She may address the security bug successfully, but she also may have introduced subtle bugs into a codebase that was using a now-deprecated feature from Hibernate. Weeks later there is an exception on the integration machine which can't be reproduced on anyone's machine. Multiple developers then spend days on this issue only finally realising that the error would have easy to uncover if they knew that Hibernate had been upgraded from 2.5 to 3.0.5.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you are coming from Ant, such an enhanced Gradle task as &lt;s0&gt;&lt;e1&gt;Copy&lt;/e1&gt;&lt;/s0&gt; looks like a mixture between an Ant target and an Ant task. And this is actually the case. The separation that Ant does between tasks and targets is not done by Gradle. The simple Gradle tasks are like Ant's targets and the enhanced Gradle tasks also include the Ant task aspects. All of Gradle's tasks share a common API and you can create dependencies between them. Such a task might be nicer to configure than an Ant task. It makes full use of the type system, is more expressive and easier to maintain.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T045708Z" creationid="huanghaohang" creationdate="20170923T045708Z">
@@ -17416,6 +17448,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092000Z" creationid="huanghaohang" creationdate="20190124T092000Z">
         <seg>接下来，配置你所选择的通知服务（请参阅下表，了解可用的配置属性）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No matter what the language, proper dependency management is important for every project. From a complex enterprise application written in Java depending on hundreds of open source libraries to the simplest Clojure application depending on a handful of libraries, approaches to dependency management vary widely and can depend on the target technology, the method of application deployment, and the nature of the project. Projects bundled as reusable libraries may have different requirements than enterprise applications integrated into much larger systems of software and infrastructure. Despite this wide variation of requirements, the Gradle project recommends that all projects follow this set of core rules:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190210T145454Z" creationid="95" creationdate="20190210T143906Z">
+        <seg>无论哪种语言，适当的依赖管理对于每个项目都很重要。从一个由Java编写的依赖数百个开源库的复杂企业应用，到依赖少数几个库的最简单的Clojure应用，依赖管理的方法大不相同，并且可能取决于目标技术、应用程序部署的方法以及项目的性质。多上项目捆绑为可复用的库，比起企业应用集成到更大规模的软件和基础结构系统中，可能有不同的需求。尽管需求的差异很大，Gradle项目建议所有项目都遵循这组核心规则：</seg>
       </tuv>
     </tu>
     <tu>
@@ -23248,6 +23288,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The version of a library must be easy to recognize in the filename. While the version of a jar is usually in the Manifest file, it isn't readily apparent when you are inspecting a project. If someone asks you to look at a collection of 20 jar files, which would you prefer? A collection of files with names like &lt;c0&gt;commons-beanutils-1.3.jar&lt;/c0&gt; or a collection of files with names like &lt;c1&gt;spring.jar&lt;/c1&gt;? If dependencies have file names with version numbers it is much easier to quickly identify the versions of your dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190210T145956Z" creationid="95" creationdate="20190210T145510Z">
+        <seg>在文件名中库的版本必须是容易辨认的。虽然jar的版本通常在Manifest文件中，但当你要检查项目时它并不显而易见。如果有人让你看20个jar文件，你更愿意哪一种?名字像 &lt;c0&gt;commons-beanutils-1.3.jar&lt;/c0&gt; 的文件集还是名字像 &lt;c1&gt;spring.jar&lt;/c1&gt;的文件集?如果依赖的文件名称带有版本号，那么将更容易快速确定依赖的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The version portion of the archive file name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233211Z" creationid="huanghaohang" creationdate="20171206T233211Z">
@@ -25132,6 +25180,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T032009Z" creationid="huanghaohang" creationdate="20170927T032009Z">
         <seg>下一步目标？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While Gradle has strong opinions on dependency management, the tool gives you a choice between two options: follow recommended best practices or support any kind of pattern you can think of. This section outlines the Gradle project's recommended best practices for managing dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190210T143905Z" creationid="95" creationdate="20190210T143602Z">
+        <seg>由于Gradle在依赖管理方面有强烈的主张，该工具提供了两个选项让你从中选择：遵循推荐的最佳实践，或支持你可以想到的任何类型的模式。 本节概述Gradle项目建议的用于管理依赖的最佳实践。</seg>
       </tuv>
     </tu>
     <tu>
