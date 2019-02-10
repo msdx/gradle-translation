@@ -6204,6 +6204,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.1.2. Dependency management and Java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190210T103909Z" creationid="95" creationdate="20190210T103909Z">
+        <seg>50.1.2. 依赖管理和 Java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.1. Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190202T154031Z" creationid="95" creationdate="20190202T154028Z">
@@ -16776,6 +16784,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150849Z" creationid="huanghaohang" creationdate="20170927T150849Z">
         <seg>要注意的一个地方是，一个文件集合的内容是懒评估的，它只在需要的时候才计算。这意味着你可以创建一个&lt;c0&gt;FileCollection&lt;/c0&gt; 对象来表示一些会在以后才创建的文件，比方说在一些任务中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is ironic that in a language known for its rich library of open source components that Java has no concept of libraries or versions. In Java, there is no standard way to tell the JVM that you are using version 3.0.5 of Hibernate, and there is no standard way to say that &lt;c0&gt;foo-1.0.jar&lt;/c0&gt; depends on &lt;c1&gt;bar-2.0.jar&lt;/c1&gt;. This has led to external solutions often based on build tools. The most popular ones at the moment are Maven and Ivy. While Maven provides a complete build system, Ivy focuses solely on dependency management.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190210T104429Z" creationid="95" creationdate="20190210T103914Z">
+        <seg>具有讽刺意味的是，以丰富的开源组件库著称的语言，Java竟然没有库或者版本的概念。在Java中，没有标准的方法来告知JVM你正在使用Hibernate V3.0.5，也没有标准的方法来表示 &lt;c0&gt;foo-1.0.jar&lt;/c0&gt; 依赖于 &lt;c1&gt;bar-2.0.jar&lt;/c1&gt;。 这导致了外部的解决方案通常都会基于构建工具。 目前最受欢迎的解决方案是Maven和Ivy。 Maven提供了完整的构建系统，而Ivy则只着眼于依赖管理。</seg>
       </tuv>
     </tu>
     <tu>
