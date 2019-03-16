@@ -402,6 +402,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.artifacts.ResolutionStrategy.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190316T131015Z" creationid="95" creationdate="20190316T131015Z">
+        <seg>../dsl/org.gradle.api.artifacts.ResolutionStrategy.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.artifacts.dsl.DependencyHandler.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190316T131610Z" creationid="95" creationdate="20190316T131610Z">
+        <seg>../dsl/org.gradle.api.artifacts.dsl.DependencyHandler.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.distribution.DistributionContainer.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T093714Z" creationid="huanghaohang" creationdate="20190124T093714Z">
@@ -6228,6 +6244,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.2.2. Manage transitive dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190315T162509Z" creationid="95" creationdate="20190315T162509Z">
+        <seg>50.2.2. 管理传递依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.2.3. Resolve version conflicts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190315T221246Z" creationid="95" creationdate="20190315T221156Z">
+        <seg>50.2.3. 解决版本冲突</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.2. Dependency Management Best Practices</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190210T143558Z" creationid="95" creationdate="20190210T143558Z">
@@ -7672,6 +7704,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Fail&lt;/e1&gt;&lt;/s0&gt;: A version conflict results in a build failure. This strategy enforces that all version conflicts are resolved explicitly in the build script. See &lt;a2&gt;&lt;c3&gt;ResolutionStrategy&lt;/c3&gt;&lt;/a2&gt; for details on how to explicitly choose a particular version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190316T131202Z" creationid="95" creationdate="20190316T131202Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;Fail&lt;/e1&gt;&lt;/s0&gt;：版本冲突导致构建失败。这种策略强制在构建脚本中显示地解决所有版本冲突。有关如何显式选择特定版本的详细信息，请参阅&lt;a2&gt;&lt;c3&gt;ResolutionStrategy&lt;/c3&gt;&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Full Compatibility with Maven and Ivy&lt;/e1&gt;&lt;/s0&gt;: If you have defined dependencies in a Maven POM or an Ivy file, Gradle provide seamless integration with a range of popular build tools.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190202T160734Z" creationid="95" creationdate="20190202T160734Z">
@@ -7692,6 +7732,22 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190202T161041Z" creationid="95" creationdate="20190202T160750Z">
         <seg>&lt;s0&gt;&lt;e1&gt;与现有依赖管理基础结构的集成&lt;/e1&gt;&lt;/s0&gt;：Gradle兼容Maven和Ivy仓库。 如果你是使用Archiva， Nexus或Artifactory，Gradle与所有仓库格式100%兼容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;NOTE:&lt;/e1&gt;&lt;/s0&gt;In one project, we found a mystery, LDAP related jar in the classpath. No code referenced this jar and there was no connection to the project. No one could figure out what the jar was for, until it was removed from the build and the application suffered massive performance problem whenever it attempted to authenticate to LDAP. This mystery jar was a necessary transitive, fourth-level dependency that was easy to miss because no one had bothered to use managed transitive dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190315T221021Z" creationid="95" creationdate="20190315T221021Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注：&lt;/e1&gt;&lt;/s0&gt;在一个项目中，我们在类路径中找到了一个神秘的 LDAP 相关的 jar。 没有代码引用此JAR，并且该 jar 包也没有与项目有任何连接。 没人知道该 jar 的用途，直到它从构建中去除，并且应用程序在尝试向 LDAP 进行认证时遇到了严重的性能问题。 这个神秘的 jar 是一个必需传递的第四级依赖，很容易被忽略，因为没有人会费心去使用受管的传递依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Newest&lt;/e1&gt;&lt;/s0&gt;: The newest version of the dependency is used. This is Gradle's default strategy, and is often an appropriate choice as long as versions are backwards-compatible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190316T131013Z" creationid="95" creationdate="20190316T130057Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;Newest&lt;/e1&gt;&lt;/s0&gt;：将使用最新版本的依赖。 这是Gradle的默认策略，只要版本都能向后兼容，通常是合适的选择。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11742,6 +11798,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configuring a first level dependency as &lt;s0&gt;&lt;e1&gt;forced&lt;/e1&gt;&lt;/s0&gt;. This approach is useful if the dependency in conflict is already a first level dependency. See examples in &lt;a2&gt;&lt;c3&gt;DependencyHandler&lt;/c3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190316T131630Z" creationid="95" creationdate="20190316T131630Z">
+        <seg>Configuring a first level dependency as &lt;s0&gt;&lt;e1&gt;forced&lt;/e1&gt;&lt;/s0&gt;. This approach is useful if the dependency in conflict is already a first level dependency. See examples in &lt;a2&gt;&lt;c3&gt;DependencyHandler&lt;/c3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuring an HTTP proxy (for example for downloading dependencies) is done via standard JVM system properties. These properties can be set directly in the build script; for example &lt;c0&gt; System.setProperty('http.proxyHost', 'www.somehost.org')&lt;/c0&gt; for the proxy host. Alternatively, the properties can be specified in a gradle.properties file, either in the build's root directory or in the Gradle home directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073459Z" creationid="huanghaohang" creationdate="20180130T073214Z">
@@ -11810,6 +11874,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T034053Z" creationid="huanghaohang" creationdate="20180131T034053Z">
         <seg>使用外部构建脚本配置项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Conflicting versions of the same jar should be detected and either resolved or cause an exception. If you don't use transitive dependency management, version conflicts are undetected and the often accidental order of the classpath will determine what version of a dependency will win. On a large project with many developers changing dependencies, successful builds will be few and far between as the order of dependencies may directly affect whether a build succeeds or fails (or whether a bug appears or disappears in production).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190315T222933Z" creationid="95" creationdate="20190315T221253Z">
+        <seg> 相同的jar的冲突版本应该被检测到，并且要么解决要么抛出异常。 如果不使用传递依赖管理，版本冲突没被检测到，那以在类路径中的无法预测的顺序将决定最终使用哪个版本的依赖。在有许多开发者更改依赖的大型项目上，成功的构建将会少之又少，因为依赖的顺序可能直接影响构建是否成功（或者在生产中是否出现错误）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15772,6 +15844,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle offers the following conflict resolution strategies:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190316T130053Z" creationid="95" creationdate="20190316T130053Z">
+        <seg>Gradle 提供了以下的冲突解决策略：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle offers you different ways to express first-level and transitive dependencies. With Gradle you can mix and match approaches; for example, you could store your jars in an SCM without XML descriptor files and still use transitive dependency management.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190315T221228Z" creationid="95" creationdate="20190315T221150Z">
+        <seg>Gradle为你提供了不同的表达第一级和传递依赖的方法。 通过Gradle，你可以混合使用和适配一些方法；例如，你可以在 SCM 中存储 jar而不需要 XML描述符文件，并且仍然使用传递依赖管理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle plugins typically need to be &lt;e0&gt;applied&lt;/e0&gt; to a project before they can be used (see &lt;a1&gt;Section 21.1, “Applying plugins”&lt;/a1&gt;). The Build Init plugin is an automatically applied plugin, which means you do not need to apply it explicitly. To use the plugin, simply execute the task named &lt;c2&gt;init&lt;/c2&gt; where you would like to create the Gradle build. There is no need to create a “stub” &lt;c3&gt;build.gradle&lt;/c3&gt; file in order to apply the plugin.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T214420Z" creationid="95" creationdate="20190131T212933Z">
@@ -16350,8 +16438,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If versions are unclear you can introduce subtle bugs which are very hard to find. For example there might be a project which uses Hibernate 2.5. Think about a developer who decides to install version 3.0.5 of Hibernate on her machine to fix a critical security bug but forgets to notify others in the team of this change. She may address the security bug successfully, but she also may have introduced subtle bugs into a codebase that was using a now-deprecated feature from Hibernate. Weeks later there is an exception on the integration machine which can't be reproduced on anyone's machine. Multiple developers then spend days on this issue only finally realising that the error would have easy to uncover if they knew that Hibernate had been upgraded from 2.5 to 3.0.5.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20190210T145957Z" creationid="95" creationdate="20190210T145957Z">
-        <seg>If versions are unclear you can introduce subtle bugs which are very hard to find. For example there might be a project which uses Hibernate 2.5. Think about a developer who decides to install version 3.0.5 of Hibernate on her machine to fix a critical security bug but forgets to notify others in the team of this change. She may address the security bug successfully, but she also may have introduced subtle bugs into a codebase that was using a now-deprecated feature from Hibernate. Weeks later there is an exception on the integration machine which can't be reproduced on anyone's machine. Multiple developers then spend days on this issue only finally realising that the error would have easy to uncover if they knew that Hibernate had been upgraded from 2.5 to 3.0.5.</seg>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190315T162408Z" creationid="95" creationdate="20190210T145957Z">
+        <seg>如果版本不清楚，你可能会引入一些很难找以的微妙错误。例如可能有一个项目使用 Hibernate 2.5，想一下一个开发者决定在她的机器上安装 3.0.5 的版本，以修复一个关键的安全 bug，但她忘记通知其他团队这个变化。她可能成功地解决了这个安全 bug，但她也可能引入一些 bug 到代码库中，如项目用到了 Hibernate 现在弃用的功能。一周后，在集成的机器上可能会有一个异常，而这个异常无法在任何人的机器上复现。然后多个开发者花了数天的时间去查这个问题，最终才意识到，如果他们知道 Hibernate 已经从 2.5 升级到 3.0.5，这个错误会很容易发现。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16400,6 +16488,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025433Z" creationid="huanghaohang" creationdate="20180120T025433Z">
         <seg>如果你的构建有问题，请尝试暂时禁用守护进程（可以通过使用命令行开关 &lt;c0&gt;--no-daemon&lt;/c0&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you haven't had to deal with the curse of conflicting versions of jars on a classpath, here is a small anecdote of the fun that awaits you. In a large project with 30 submodules, adding a dependency to a subproject changed the order of a classpath, swapping Spring 2.5 for an older 2.4 version. While the build continued to work, developers were starting to notice all sorts of surprising (and surprisingly awful) bugs in production. Worse yet, this unintentional downgrade of Spring introduced several security vulnerabilities into the system, which now required a full security audit throughout the organization.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190316T124940Z" creationid="95" creationdate="20190316T124940Z">
+        <seg>如果你还没有处理过在类路径中 jar 包版本冲突的麻烦，这里有一个小趣闻等着你。在一个有30个子模块的大型项目中，向子项目添加的一个依赖改变了类路径的顺序，Spring 2.5与老的2.4版本 顺序被调换了。虽然可以继续构建，开发者会开始注意到在生产中出现了各种令人惊讶（和惊人可怕）的bug。然而，更糟糕的是，无意降低版本的Spring向系统引入了几个安全缺陷，现在需要整个组织进行全面的安全审计。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16544,6 +16640,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T135120Z" creationid="huanghaohang" creationdate="20180108T134044Z">
         <seg>一般来说，构建工具的敏捷行为总是方便的。如果你尝试在你的本地构建中使用守护进程的话，那么你将很难再回到 Gradle 的常规使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In short, version conflicts are bad, and you should manage your transitive dependencies to avoid them. You might also want to learn where conflicting versions are used and consolidate on a particular version of a dependency across your organization. With a good conflict reporting tool like Gradle, that information can be used to communicate with the entire organization and standardize on a single version. &lt;s0&gt;&lt;e1&gt;If you think version conflicts don't happen to you, think again.&lt;/e1&gt;&lt;/s0&gt; It is very common for different first-level dependencies to rely on a range of different overlapping versions for other dependencies, and the JVM doesn't yet offer an easy way to have different versions of the same jar in the classpath (see &lt;a2&gt;Section 50.1.2, “Dependency management and Java”&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190316T130044Z" creationid="95" creationdate="20190316T124945Z">
+        <seg>简而言之，版本冲突是很不好的，你应该管理您的传递依赖以避免版本冲突。你可能还希望了解使用冲突版本的位置，并在整个组织中统一依赖的指定版本。有了类似于Gradle的良好冲突报告工具，这些信息可 用于与整个组织进行通信，并在单个版本上实现标准化。&lt;s0&gt;&lt;e1&gt;如果你觉得你不会发生版本冲突，那就再想想。&lt;/e1&gt;&lt;/s0&gt;不同的第一级依赖，依赖于其他依赖的不同重叠范围的版本非常常见，并且JVM还不能提供简单的方法，使是能在类路径中让相同的 jar 包可以有不同的版本（请参阅 《&lt;a2&gt;第50.1.2节，“依赖管理与Java”&lt;/a2&gt;）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24360,6 +24464,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Transitive dependency management is a technique that enables your project to depend on libraries which, in turn, depend on other libraries. This recursive pattern of transitive dependencies results in a tree of dependencies including your project's first-level dependencies, second-level dependencies, and so on. If you don't model your dependencies as a hierarchical tree of first-level and second-level dependencies it is very easy to quickly lose control over an assembled mess of unstructured dependencies. Consider the Gradle project itself, while Gradle only has a few direct, first-level dependencies, when Gradle is compiled it needs more that one hundred dependencies on the classpath. On a far larger scale, Enterprise projects using Spring, Hibernate, and other libraries, alongside hundreds or thousands of internal projects can have very large dependency trees.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190315T163459Z" creationid="95" creationdate="20190315T163459Z">
+        <seg>传递依赖管理是一种使你的项目依赖于一些库，而这些库又依赖于其他库技术。这种传递依赖的递归模式导致的结果说，在依赖树中，会包含项目的第一级依赖，第二级依赖，等等。如果你不按层级树的第一级和二级依赖对你的依赖建模，那么就会很容易失去对组合的非结构化依赖的控制。请考虑Gradle项目本身，而Gradle仅具有几个直接的第一级依赖，当编译Gradle时，在它的类路径上会需要超过一百个依赖。在规模更大的范围内，使用Spring、Hibernate和其他库，以及成百上千的内部项目的企业项目，可能有非常大的依赖树。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Troubleshooting</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013414Z" creationid="huanghaohang" creationdate="20170919T013414Z">
@@ -24744,6 +24856,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Versions in jar names increase the expressiveness of your project and make them easier to maintain. This practice also reduces the potential for error.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190315T162505Z" creationid="95" creationdate="20190315T161509Z">
+        <seg>在 jar 名称中的版本增强了项目的表现性，并使其更易于维护。这种做法也减少了发生错误的可能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Very powerful dependency management (based on Apache Ivy).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T135756Z" creationid="95" creationdate="20170721T135756Z">
@@ -25120,6 +25240,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When these large dependency trees need to change, you'll often have to solve some dependency version conflicts. Say one open source library needs one version of a logging library and a another uses an alternative version. Gradle and other build tools all have the ability to solve this dependency tree and resolve conflicts, but what differentiates Gradle is the control it gives you over transitive dependencies and conflict resolution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190315T163759Z" creationid="95" creationdate="20190315T163759Z">
+        <seg>当这些大的依赖树需要更改时，你通常需要解决某些依赖的版本冲突。比如说某个开源代码库需要一个版本的日志记录库，而另一个需要另一个版本。 Gradle和其他构建工具都能够解决这种依赖树并解决冲突，但不同的是，Gradle使你可以控制传递依赖冲突解决。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When using Gradle (or any software package), you can run into problems. You may not understand how to use a particular feature, or you may encounter a defect. Or, you may have a general question about Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T120847Z" creationid="95" creationdate="20170723T120847Z">
@@ -25204,6 +25332,22 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T045544Z" creationid="huanghaohang" creationdate="20181202T045544Z">
         <seg>虽然有时肯定有用，但我们建议将大部分配置保存在（版本化的）构建脚本中，随时可供所有人使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While the strategies introduced above are usually enough to solve most conflicts, Gradle provides more fine-grained mechanisms to resolve version conflicts:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190316T131247Z" creationid="95" creationdate="20190316T131247Z">
+        <seg>虽然上面介绍的策略通常足够解决大部分的冲突，但是 Gradle 也提供了更细粒度的机制来解决版本冲突：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>While you could try to manage this problem manually, you will quickly find that this approach doesn't scale. If you want to get rid of a first level dependency you really can't be sure which other jars you should remove. A dependency of a first level dependency might also be a first level dependency itself, or it might be a transitive dependency of yet another first level dependency. If you try to manage transitive dependencies yourself, the end of the story is that your build becomes brittle: no one dares to change your dependencies because the risk of breaking the build is too high. The project classpath becomes a complete mess, and, if a classpath problem arises, hell on earth invites you for a ride.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190315T220451Z" creationid="95" creationdate="20190315T215908Z">
+        <seg>虽然你可以尝试手动管理此问题，但你很快就会发现此方法不能扩展。 如果你要去掉第一级依赖，你确实不能确定还有其他哪些 jar 是你需要移除的。第一级依赖的依赖本身也可能是第一级依赖，或者是另一个第一级依赖的传递依赖。 如果你想自己管理传递依赖，最终的结局是你的构建会变得很脆弱：没人敢更改你的依赖，因为破坏构建的风险太高了。 项目类路径将变得完全混乱，如果发生类路径问题，那简直就是人间地狱。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28664,6 +28808,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T042746Z" creationid="huanghaohang" creationdate="20170908T042746Z">
         <seg>dependency_management.html#sub:configurations</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:dependency_management_and_java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="95" changedate="20190316T124943Z" creationid="95" creationdate="20190316T124943Z">
+        <seg>dependency_management.html#sub:dependency_management_and_java</seg>
       </tuv>
     </tu>
     <tu>
