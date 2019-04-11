@@ -11864,8 +11864,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Configuring a first level dependency as &lt;s0&gt;&lt;e1&gt;forced&lt;/e1&gt;&lt;/s0&gt;. This approach is useful if the dependency in conflict is already a first level dependency. See examples in &lt;a2&gt;&lt;c3&gt;DependencyHandler&lt;/c3&gt;&lt;/a2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20190316T131630Z" creationid="95" creationdate="20190316T131630Z">
-        <seg>Configuring a first level dependency as &lt;s0&gt;&lt;e1&gt;forced&lt;/e1&gt;&lt;/s0&gt;. This approach is useful if the dependency in conflict is already a first level dependency. See examples in &lt;a2&gt;&lt;c3&gt;DependencyHandler&lt;/c3&gt;&lt;/a2&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T142832Z" creationid="95" creationdate="20190316T131630Z">
+        <seg>将第一级依赖配置为&lt;s0&gt;&lt;e1&gt;强制&lt;/e1&gt;&lt;/s0&gt;。 如果冲突中的依赖关系已经是第一级依赖关系，那么此方法很有用。 请参阅 &lt;a2&gt;&lt;c3&gt;DependencyHandler&lt;/c3&gt;&lt;/a2&gt;中的示例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11874,6 +11874,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073459Z" creationid="huanghaohang" creationdate="20180130T073214Z">
         <seg>配置 HTTP 代理（例如用于下载依赖）是通过标准的 JVM 系统属性完成的。这些属性可以直接在构建脚本中设置；例如通过&lt;c0&gt; System.setProperty('http.proxyHost', 'www.somehost.org')&lt;/c0&gt; 来设置代理主机。或者，可以在构建的根目录或 Gradle 主目录中的 gradle.properties 文件中指定这些属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuring any dependency (transitive or not) as &lt;s0&gt;&lt;e1&gt;forced&lt;/e1&gt;&lt;/s0&gt;. This approach is useful if the dependency in conflict is a transitive dependency. It also can be used to force versions of first level dependencies. See examples in &lt;a2&gt;&lt;c3&gt;ResolutionStrategy&lt;/c3&gt;&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141914Z" creationid="huanghaohang" creationdate="20190411T141914Z">
+        <seg>Configuring any dependency (transitive or not) as &lt;s0&gt;&lt;e1&gt;forced&lt;/e1&gt;&lt;/s0&gt;. This approach is useful if the dependency in conflict is a transitive dependency. It also can be used to force versions of first level dependencies. See examples in &lt;a2&gt;&lt;c3&gt;ResolutionStrategy&lt;/c3&gt;&lt;/a2&gt;</seg>
       </tuv>
     </tu>
     <tu>
