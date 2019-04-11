@@ -11864,8 +11864,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Configuring a first level dependency as &lt;s0&gt;&lt;e1&gt;forced&lt;/e1&gt;&lt;/s0&gt;. This approach is useful if the dependency in conflict is already a first level dependency. See examples in &lt;a2&gt;&lt;c3&gt;DependencyHandler&lt;/c3&gt;&lt;/a2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T142832Z" creationid="95" creationdate="20190316T131630Z">
-        <seg>将第一级依赖配置为&lt;s0&gt;&lt;e1&gt;强制&lt;/e1&gt;&lt;/s0&gt;。 如果冲突中的依赖关系已经是第一级依赖关系，那么此方法很有用。 请参阅 &lt;a2&gt;&lt;c3&gt;DependencyHandler&lt;/c3&gt;&lt;/a2&gt;中的示例。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T142937Z" creationid="95" creationdate="20190316T131630Z">
+        <seg>将第一级依赖配置为&lt;s0&gt;&lt;e1&gt;强制&lt;/e1&gt;&lt;/s0&gt;。如果冲突中的依赖已经是第一级依赖，那么这一方法会很有用。请参阅 &lt;a2&gt;&lt;c3&gt;DependencyHandler&lt;/c3&gt;&lt;/a2&gt;中的示例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11880,8 +11880,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Configuring any dependency (transitive or not) as &lt;s0&gt;&lt;e1&gt;forced&lt;/e1&gt;&lt;/s0&gt;. This approach is useful if the dependency in conflict is a transitive dependency. It also can be used to force versions of first level dependencies. See examples in &lt;a2&gt;&lt;c3&gt;ResolutionStrategy&lt;/c3&gt;&lt;/a2&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141914Z" creationid="huanghaohang" creationdate="20190411T141914Z">
-        <seg>Configuring any dependency (transitive or not) as &lt;s0&gt;&lt;e1&gt;forced&lt;/e1&gt;&lt;/s0&gt;. This approach is useful if the dependency in conflict is a transitive dependency. It also can be used to force versions of first level dependencies. See examples in &lt;a2&gt;&lt;c3&gt;ResolutionStrategy&lt;/c3&gt;&lt;/a2&gt;</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T143120Z" creationid="huanghaohang" creationdate="20190411T141914Z">
+        <seg>将任何依赖（传递依赖或非传递依赖）配置为&lt;s0&gt;&lt;e1&gt;强制&lt;/e1&gt;&lt;/s0&gt;。 如果冲突中的依赖是传递依赖，那么这种方法会很有用。 它还可用于强制第一级依赖的版本。请参阅 &lt;a2&gt;&lt;c3&gt;ResolutionStrategy&lt;/c3&gt;&lt;/a2&gt;中的示例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12392,6 +12392,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190202T154547Z" creationid="95" creationdate="20190202T154547Z">
         <seg>依赖关系管理是每个构建的一个关键特性，Gradle的重点在于提供易于理解且与各种方法兼容的一流的依赖管理。 如果您熟悉Maven或Ivy所使用的方法，那么你会很高兴知道Gradle完全兼容这两种方法，此外，它还具有足够的灵活性以支持完全自定义的方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dependency resolve rules are an &lt;a0&gt;incubating&lt;/a0&gt; feature introduced in Gradle 1.4 which give you fine-grained control over the version selected for a particular dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T143248Z" creationid="huanghaohang" creationdate="20190411T142942Z">
+        <seg>依赖解析规则是一个在 Gradle 1.4 引进的&lt;a0&gt;实验性&lt;/a0&gt;功能，让你可以对特定的依赖选择的版本进行细粒度控制。</seg>
       </tuv>
     </tu>
     <tu>
