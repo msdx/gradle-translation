@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.3" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="OmegaT-4.1.5" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -6244,6 +6244,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.2.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141807Z" creationid="huanghaohang" creationdate="20190411T141807Z">
+        <seg>50.2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.2.1. Put the Version in the Filename (Version the jar)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190210T145508Z" creationid="95" creationdate="20190210T145508Z">
@@ -6272,6 +6280,46 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190210T143558Z" creationid="95" creationdate="20190210T143558Z">
         <seg>50.2. 依赖管理最佳实践</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.3.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141813Z" creationid="huanghaohang" creationdate="20190411T141813Z">
+        <seg>50.3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.4.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141816Z" creationid="huanghaohang" creationdate="20190411T141816Z">
+        <seg>50.4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.5.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141824Z" creationid="huanghaohang" creationdate="20190411T141824Z">
+        <seg>50.5.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.6.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141830Z" creationid="huanghaohang" creationdate="20190411T141830Z">
+        <seg>50.6.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.7.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141832Z" creationid="huanghaohang" creationdate="20190411T141832Z">
+        <seg>50.7.</seg>
       </tuv>
     </tu>
     <tu>
@@ -12284,6 +12332,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dependency Management Best Practices</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141812Z" creationid="huanghaohang" creationdate="20190411T141812Z">
+        <seg>50.2. 依赖管理最佳实践</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dependency configurations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233656Z" creationid="huanghaohang" creationdate="20171206T233656Z">
@@ -16236,10 +16292,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How dependency resolution works</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141849Z" creationid="huanghaohang" creationdate="20190411T141849Z">
+        <seg>依赖解析的工作原理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How does Gradle find the files for external dependencies? Gradle looks for them in a &lt;e0&gt;repository&lt;/e0&gt;. A repository is really just a collection of files, organized by &lt;c1&gt;group&lt;/c1&gt;, &lt;c2&gt;name&lt;/c2&gt; and &lt;c3&gt;version&lt;/c3&gt;. Gradle understands several different repository formats, such as Maven and Ivy, and several different ways of accessing the repository, such as using the local file system or HTTP.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044633Z" creationid="huanghaohang" creationdate="20170908T044250Z">
         <seg>Gradle是如何找到外部依赖的文件的呢？它通过在一个&lt;e0&gt;仓库&lt;/e0&gt;去查找它们。仓库只是文件的一个集合，由&lt;c1&gt;group&lt;/c1&gt;， &lt;c2&gt;name&lt;/c2&gt;和&lt;c3&gt;version&lt;/c3&gt;来组织。 Gradle支持几种不同的仓库格式，例如Maven和Ivy；以及访问仓库的几种不同方法，例如使用本地文件系统或HTTP。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How to declare your dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141820Z" creationid="huanghaohang" creationdate="20190411T141820Z">
+        <seg>如何声明依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -25456,6 +25528,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Working with dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141828Z" creationid="huanghaohang" creationdate="20190411T141828Z">
+        <seg>使用依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Working with source sets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180517T130038Z" creationid="huanghaohang" creationdate="20180517T130038Z">
@@ -28812,6 +28892,22 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:dependency_management_overview</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141753Z" creationid="huanghaohang" creationdate="20190411T141753Z">
+        <seg>dependency_management.html#sec:dependency_management_overview</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:dependency_resolution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141832Z" creationid="huanghaohang" creationdate="20190411T141832Z">
+        <seg>dependency_management.html#sec:dependency_resolution</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependency_management.html#sec:how_to_declare_your_dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T043915Z" creationid="huanghaohang" creationdate="20170908T043915Z">
@@ -28824,6 +28920,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T045955Z" creationid="huanghaohang" creationdate="20170908T045955Z">
         <seg>dependency_management.html#sec:repositories</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:working_with_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141822Z" creationid="huanghaohang" creationdate="20190411T141822Z">
+        <seg>dependency_management.html#sec:working_with_dependencies</seg>
       </tuv>
     </tu>
     <tu>
