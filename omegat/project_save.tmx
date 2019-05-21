@@ -11030,6 +11030,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, Gradle caches dynamic versions and changing modules for 24 hours. You can override the default cache modes using &lt;a0&gt;command line options&lt;/a0&gt;. You can change the cache expiry times in your build using the &lt;c1&gt;resolution strategy&lt;/c1&gt; (see &lt;a2&gt;Section 50.9.3, “Fine-tuned control over dependency caching”&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190521T104353Z" creationid="huanghaohang" creationdate="20190521T104353Z">
+        <seg>默认情况下，Grdale 对动态版本和变化模块的缓存时间是24小时。你可能使用&lt;a0&gt;命令行选项&lt;/a0&gt;重写默认的缓存模式。你可以通过 &lt;c1&gt;resolution strategy&lt;/c1&gt; 修改你的构建的缓存到期时间（见&lt;a2&gt;第 50.9.3 节，“调整控制依赖缓存”&lt;/a2&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, Gradle does not define any repositories. You need to define at least one before you can use external dependencies. One option is use the Maven central repository:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044736Z" creationid="huanghaohang" creationdate="20170908T044736Z">
@@ -28960,6 +28968,22 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190410T003939Z" creationid="huanghaohang" creationdate="20190410T003939Z">
         <seg>dependency_management.html#sec:Introduction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:cache_command_line_options</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190521T104123Z" creationid="huanghaohang" creationdate="20190521T104123Z">
+        <seg>dependency_management.html#sec:cache_command_line_options</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:controlling_caching</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190521T104125Z" creationid="huanghaohang" creationdate="20190521T104125Z">
+        <seg>dependency_management.html#sec:controlling_caching</seg>
       </tuv>
     </tu>
     <tu>
