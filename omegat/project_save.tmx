@@ -16732,6 +16732,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Gradle dependencies are grouped into configurations. Configurations have a name, a number of other properties, and they can extend each other. Many Gradle plugin add pre-defined configurations to your project. The Java plugin, for example, adds some configurations to represent the various classpaths it needs. see &lt;a0&gt;Section 23.5, “Dependency management”&lt;/a0&gt; for details. Of course you can add custom configurations on top of that. There are many use cases for custom configurations. This is very handy for example for adding dependencies not needed for building or testing your software (e.g. additional JDBC drivers to be shipped with your distribution).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190521T124200Z" creationid="huanghaohang" creationdate="20190521T110245Z">
+        <seg>在Gradle中，依赖将被分组到配置。配置有一个名称和许多其他属性，并且可以相互扩展。许多Gradle插件会向项目添加了预定义的配置。 例如，Java插件添加了一些配置来表示它需要的各种类路径。有关详细信息，请参阅 &lt;a0&gt;第23.5节，《依赖关系管理》&lt;/a0&gt; 。 当然，您可以在此基础上添加定制配置。 定制配置的用例很多。 这非常方便，用于添加构建或测试软件所需的依赖关系(例如，要随分发一起提供的其他JDBC驱动程序)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In a command-line shell, enter into the containing directory and execute the build script by running &lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145113Z" creationid="95" creationdate="20170724T144952Z">
