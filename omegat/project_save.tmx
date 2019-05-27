@@ -9736,8 +9736,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>A project's configurations are managed by a &lt;c0&gt;configurations&lt;/c0&gt; object. The closure you pass to the configurations object is applied against its API. To learn more about this API have a look at &lt;a1&gt;&lt;c2&gt;ConfigurationContainer&lt;/c2&gt;&lt;/a1&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190521T125042Z" creationid="huanghaohang" creationdate="20190521T125042Z">
-        <seg>A project's configurations are managed by a &lt;c0&gt;configurations&lt;/c0&gt; object. The closure you pass to the configurations object is applied against its API. To learn more about this API have a look at &lt;a1&gt;&lt;c2&gt;ConfigurationContainer&lt;/c2&gt;&lt;/a1&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153532Z" creationid="huanghaohang" creationdate="20190521T125042Z">
+        <seg>项目的配置由 &lt;c0&gt;configurations&lt;/c0&gt; 对象管理。你传给这个配置对象的闭包将通过它对应的 API 被应用。要了解有关此 API 的更多信息，请查看 &lt;a1&gt;&lt;c2&gt;ConfigurationContainer&lt;/c2&gt;&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14552,6 +14552,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T233135Z" creationid="95" creationdate="20190201T233135Z">
         <seg>示例 49.1 使用 Build Dashboard 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.1. Definition of a configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153605Z" creationid="huanghaohang" creationdate="20190527T153605Z">
+        <seg>示例 50.1. 配置的定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.2. Accessing a configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153618Z" creationid="huanghaohang" creationdate="20190527T153618Z">
+        <seg>示例 50.2. 访问配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.3. Configuration of a configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153654Z" creationid="huanghaohang" creationdate="20190527T153654Z">
+        <seg>示例 50.3. 配置的配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -24200,6 +24224,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To access a configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153612Z" creationid="huanghaohang" creationdate="20190527T153612Z">
+        <seg>如果要访问配置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To add a dependency, the corresponding task does not need to exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160246Z" creationid="95" creationdate="20170726T160246Z">
@@ -24272,6 +24304,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To configure a configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153640Z" creationid="huanghaohang" creationdate="20190527T153632Z">
+        <seg>如果要配置一个配置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To configure an existing source set, you simply use one of the above access methods to set the properties of the source set. The properties are described below. Here is an example which configures the main Java and resources directories:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T094908Z" creationid="haohang" creationdate="20180320T094745Z">
@@ -24284,6 +24324,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T143358Z" creationid="huanghaohang" creationdate="20190411T143358Z">
         <seg>为了解决版本冲突的问题，带有依赖关系图的报告也是很有帮助的。这种报告是依赖管理的另一个功能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To define a configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153559Z" creationid="huanghaohang" creationdate="20190527T153559Z">
+        <seg>如果要定义配置：</seg>
       </tuv>
     </tu>
     <tu>
@@ -28388,6 +28436,16 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T032551Z" creationid="huanghaohang" creationdate="20170908T032551Z">
         <seg>compile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153611Z" creationid="huanghaohang" creationdate="20190527T153611Z">
+        <seg>compile
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -34301,6 +34359,16 @@ println ant.references[&lt;s0&gt;'antPath'&lt;/s0&gt;]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135024Z" creationid="huanghaohang" creationdate="20170917T135024Z">
         <seg>println commandLineProjectProp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println configurations.compile.name
+println configurations[&lt;s0&gt;'compile'&lt;/s0&gt;].name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153620Z" creationid="huanghaohang" creationdate="20190527T153620Z">
+        <seg>println configurations.compile.name
+println configurations[&lt;s0&gt;'compile'&lt;/s0&gt;].name</seg>
       </tuv>
     </tu>
     <tu>
