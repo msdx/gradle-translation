@@ -246,6 +246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160758Z" creationid="huanghaohang" creationdate="20190527T160758Z">
+        <seg>)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>*** gradle.manifesto.txt ***
 Make the impossible possible, make the possible easy and make the easy elegant.
 (inspired by Moshe Feldenkrais)</seg>
@@ -6324,6 +6332,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4.1. External module dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160710Z" creationid="huanghaohang" creationdate="20190527T160710Z">
+        <seg>50.4.1 外部模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.4. How to declare your dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153710Z" creationid="huanghaohang" creationdate="20190527T153710Z">
@@ -9712,8 +9728,16 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>A dependency on the API of the current Gradle version. You use this kind of dependency when you are developing custom Gradle plugins and task types.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160556Z" creationid="huanghaohang" creationdate="20190527T160206Z">
-        <seg>对当前 Gradle 版本的 API 的依赖。在开发自定义 Gradle插 件和任务类型时，使用这种依赖。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160653Z" creationid="huanghaohang" creationdate="20190527T160206Z">
+        <seg>对当前 Gradle 版本的 API 的依赖。在开发自定义 Gradle 插件和任务类型时，使用这种依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dependency on the Groovy version used by the current Gradle version. You use this kind of dependency when you are developing custom Gradle plugins and task types.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160703Z" creationid="huanghaohang" creationdate="20190527T160643Z">
+        <seg>对当前 Gradle 版本所使用的 Groovy 版本的依赖。在开发自定义 Gradle 插件和任务类型时，使用这种依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14636,6 +14660,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.4. Module dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160752Z" creationid="huanghaohang" creationdate="20190527T160752Z">
+        <seg>示例 50.4. 模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -15040,6 +15072,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233706Z" creationid="huanghaohang" creationdate="20171206T233706Z">
         <seg>外部依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>External module dependencies are the most common dependencies. They refer to a module in an external repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160749Z" creationid="huanghaohang" creationdate="20190527T160749Z">
+        <seg>外部模块依赖是最常见的依赖。它们引用外部仓库中的模块。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17580,6 +17620,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Local Groovy dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160603Z" creationid="huanghaohang" creationdate="20190527T160603Z">
+        <seg>本地 Groovy 依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Local variables are declared with the &lt;c0&gt;def&lt;/c0&gt; keyword. They are only visible in the scope where they have been declared. Local variables are a feature of the underlying Groovy language.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132949Z" creationid="huanghaohang" creationdate="20170913T132949Z">
@@ -19472,6 +19520,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T142119Z" creationid="huanghaohang" creationdate="20180516T142119Z">
         <seg>请参阅 &lt;a0&gt;&lt;c1&gt;CodeNarcExtension&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;&lt;c1&gt;DependencyHandler&lt;/c1&gt;&lt;/a0&gt; for more examples and a complete reference.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160824Z" creationid="huanghaohang" creationdate="20190527T160824Z">
+        <seg>有关更多的例子和完整的参考，请参阅&lt;a0&gt;&lt;c1&gt;DependencyHandler&lt;/c1&gt; &lt;/a0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26504,6 +26560,22 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>[group: &lt;s5&gt;'org.springframework'&lt;/s5&gt;, name: &lt;s6&gt;'spring-core'&lt;/s6&gt;, version: &lt;s7&gt;'2.5'&lt;/s7&gt;],</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160755Z" creationid="huanghaohang" creationdate="20190527T160755Z">
+        <seg>[group: &lt;s5&gt;'org.springframework'&lt;/s5&gt;, name: &lt;s6&gt;'spring-core'&lt;/s6&gt;, version: &lt;s7&gt;'2.5'&lt;/s7&gt;],</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>[group: &lt;s8&gt;'org.springframework'&lt;/s8&gt;, name: &lt;s9&gt;'spring-aop'&lt;/s9&gt;, version: &lt;s10&gt;'2.5'&lt;/s10&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160756Z" creationid="huanghaohang" creationdate="20190527T160756Z">
+        <seg>[group: &lt;s8&gt;'org.springframework'&lt;/s8&gt;, name: &lt;s9&gt;'spring-aop'&lt;/s9&gt;, version: &lt;s10&gt;'2.5'&lt;/s10&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>\--- compile</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T022201Z" creationid="huanghaohang" creationdate="20170910T022201Z">
@@ -29258,6 +29330,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153923Z" creationid="huanghaohang" creationdate="20190527T153923Z">
         <seg>dependency_management.html#sub:file_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:groovy_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160558Z" creationid="huanghaohang" creationdate="20190527T160558Z">
+        <seg>dependency_management.html#sub:groovy_dependencies</seg>
       </tuv>
     </tu>
     <tu>
@@ -35409,6 +35489,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>runtime &lt;s3&gt;'org.springframework:spring-core:2.5'&lt;/s3&gt;, &lt;s4&gt;'org.springframework:spring-aop:2.5'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160754Z" creationid="huanghaohang" creationdate="20190527T160754Z">
+        <seg>runtime &lt;s3&gt;'org.springframework:spring-core:2.5'&lt;/s3&gt;, &lt;s4&gt;'org.springframework:spring-aop:2.5'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runtime &lt;s7&gt;":runtime:1.0"&lt;/s7&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143124Z" creationid="huanghaohang" creationdate="20180408T143124Z">
@@ -35417,10 +35505,50 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>runtime group: &lt;s0&gt;'org.springframework'&lt;/s0&gt;, name: &lt;s1&gt;'spring-core'&lt;/s1&gt;, version: &lt;s2&gt;'2.5'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160753Z" creationid="huanghaohang" creationdate="20190527T160753Z">
+        <seg>runtime group: &lt;s0&gt;'org.springframework'&lt;/s0&gt;, name: &lt;s1&gt;'spring-core'&lt;/s1&gt;, version: &lt;s2&gt;'2.5'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime group: &lt;s12&gt;'org.hibernate'&lt;/s12&gt;, name: &lt;s13&gt;'hibernate'&lt;/s13&gt;, version: &lt;s14&gt;'3.0.5'&lt;/s14&gt;, transitive: true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160800Z" creationid="huanghaohang" creationdate="20190527T160800Z">
+        <seg>runtime group: &lt;s12&gt;'org.hibernate'&lt;/s12&gt;, name: &lt;s13&gt;'hibernate'&lt;/s13&gt;, version: &lt;s14&gt;'3.0.5'&lt;/s14&gt;, transitive: true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runtime {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153658Z" creationid="huanghaohang" creationdate="20190527T153658Z">
         <seg>runtime {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime(</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160755Z" creationid="huanghaohang" creationdate="20190527T160755Z">
+        <seg>runtime(</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime(&lt;s11&gt;'org.hibernate:hibernate:3.0.5'&lt;/s11&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160800Z" creationid="huanghaohang" creationdate="20190527T160800Z">
+        <seg>runtime(&lt;s11&gt;'org.hibernate:hibernate:3.0.5'&lt;/s11&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime(group: &lt;s15&gt;'org.hibernate'&lt;/s15&gt;, name: &lt;s16&gt;'hibernate'&lt;/s16&gt;, version: &lt;s17&gt;'3.0.5'&lt;/s17&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160801Z" creationid="huanghaohang" creationdate="20190527T160801Z">
+        <seg>runtime(group: &lt;s15&gt;'org.hibernate'&lt;/s15&gt;, name: &lt;s16&gt;'hibernate'&lt;/s16&gt;, version: &lt;s17&gt;'3.0.5'&lt;/s17&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
