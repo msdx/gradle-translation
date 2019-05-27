@@ -1266,6 +1266,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/ExternalModuleDependency.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T161015Z" creationid="huanghaohang" creationdate="20190527T161015Z">
+        <seg>../javadoc/org/gradle/api/artifacts/ExternalModuleDependency.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/distribution/Distribution.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T061006Z" creationid="huanghaohang" creationdate="20190128T061006Z">
@@ -16168,6 +16176,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124610Z" creationid="huanghaohang" creationdate="20170912T124610Z">
         <seg>Gradle 提供了一种&lt;e0&gt;领域特定语言&lt;/e0&gt;，或者说是 DSL，用于描述构建。这种构建语言基于 Groovy 中，并进行了一些补充，使得更容易地描述构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle provides different notations for module dependencies. There is a string notation and a map notation. A module dependency has an API which allows for further configuration. Have a look at &lt;a0&gt;&lt;c1&gt;ExternalModuleDependency&lt;/c1&gt;&lt;/a0&gt; to learn all about the API. This API provides properties and configuration methods. Via the string notation you can define a subset of the properties. With the map notation you can define all properties. To have access to the complete API, either with the map or with the string notation, you can assign a single dependency to a configuration together with a closure.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T161253Z" creationid="huanghaohang" creationdate="20190527T161253Z">
+        <seg>Gradle provides different notations for module dependencies. There is a string notation and a map notation. A module dependency has an API which allows for further configuration. Have a look at &lt;a0&gt;&lt;c1&gt;ExternalModuleDependency&lt;/c1&gt;&lt;/a0&gt; to learn all about the API. This API provides properties and configuration methods. Via the string notation you can define a subset of the properties. With the map notation you can define all properties. To have access to the complete API, either with the map or with the string notation, you can assign a single dependency to a configuration together with a closure.</seg>
       </tuv>
     </tu>
     <tu>
