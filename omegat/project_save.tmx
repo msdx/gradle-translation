@@ -6324,6 +6324,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4. How to declare your dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153710Z" creationid="huanghaohang" creationdate="20190527T153710Z">
+        <seg>50.4. 如何声明依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.5.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141824Z" creationid="huanghaohang" creationdate="20190411T141824Z">
@@ -9670,6 +9678,38 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A dependency on a set of files on the local filesystem.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153944Z" creationid="huanghaohang" creationdate="20190527T153944Z">
+        <seg>对本地文件系统上一组文件的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dependency on an external module in some repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153921Z" creationid="huanghaohang" creationdate="20190527T153824Z">
+        <seg>对一些仓库中的外部模块的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dependency on an external module, where the artifacts are located in some repository but the module meta-data is specified by the local build. You use this kind of dependency when you want to override the meta-data for the module.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160157Z" creationid="huanghaohang" creationdate="20190527T160157Z">
+        <seg>对外部模块的依赖，该外部模块的工件位于某仓库中，但模块元数据由本地构建指定。当你要覆盖模块的元数据时，可以使用这种类型的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A dependency on another project in the same build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153917Z" creationid="huanghaohang" creationdate="20190527T153917Z">
+        <seg>对同一个构建中另一个项目的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A deployment descriptor with sensible defaults named &lt;c0&gt;application.xml&lt;/c0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T150108Z" creationid="huanghaohang" creationdate="20180415T150108Z">
@@ -11682,6 +11722,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180517T130048Z" creationid="huanghaohang" creationdate="20180517T130048Z">
         <seg>Clean</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Client module dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153950Z" creationid="huanghaohang" creationdate="20190527T153950Z">
+        <seg>客户端模块依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -14988,6 +15036,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>External module dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153750Z" creationid="huanghaohang" creationdate="20190527T153750Z">
+        <seg>外部模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Extra properties aren't limited to tasks. You can read more about them in &lt;a0&gt;Section 13.4.2, “Extra properties”&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T142130Z" creationid="95" creationdate="20170727T142016Z">
@@ -15120,6 +15176,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T093018Z" creationid="huanghaohang" creationdate="20180218T093018Z">
         <seg>文件集合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153925Z" creationid="huanghaohang" creationdate="20190527T153925Z">
+        <seg>文件依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -18756,6 +18820,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Project dependency</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153829Z" creationid="huanghaohang" creationdate="20190527T153829Z">
+        <seg>项目依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180517T130022Z" creationid="huanghaohang" creationdate="20180517T130022Z">
@@ -20656,6 +20728,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190202T153704Z" creationid="95" creationdate="20190202T153646Z">
         <seg>表 49.1. Build Dashboard 插件——任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 50.1. Dependency types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153737Z" creationid="huanghaohang" creationdate="20190527T153737Z">
+        <seg>表 50.1. 依赖类型</seg>
       </tuv>
     </tu>
     <tu>
@@ -23684,6 +23764,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073520Z" creationid="huanghaohang" creationdate="20180130T073520Z">
         <seg>HTTPS 有单独的设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are several different types of dependencies that you can declare:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153736Z" creationid="huanghaohang" creationdate="20190527T153736Z">
+        <seg>你可以声明几种不同类型的依赖：</seg>
       </tuv>
     </tu>
     <tu>
@@ -29118,6 +29206,14 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:client_module_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153945Z" creationid="huanghaohang" creationdate="20190527T153945Z">
+        <seg>dependency_management.html#sub:client_module_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependency_management.html#sub:configurations</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T042746Z" creationid="huanghaohang" creationdate="20170908T042746Z">
@@ -29130,6 +29226,30 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190316T124943Z" creationid="95" creationdate="20190316T124943Z">
         <seg>dependency_management.html#sub:dependency_management_and_java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:file_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153923Z" creationid="huanghaohang" creationdate="20190527T153923Z">
+        <seg>dependency_management.html#sub:file_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:module_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153746Z" creationid="huanghaohang" creationdate="20190527T153746Z">
+        <seg>dependency_management.html#sub:module_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:project_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153826Z" creationid="huanghaohang" creationdate="20190527T153826Z">
+        <seg>dependency_management.html#sub:project_dependencies</seg>
       </tuv>
     </tu>
     <tu>
@@ -29208,6 +29328,24 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011419Z" creationid="huanghaohang" creationdate="20170910T011419Z">
         <seg>description = &lt;s0&gt;'The shared API for the application'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>description = &lt;s0&gt;'compile classpath'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153656Z" creationid="huanghaohang" creationdate="20190527T153656Z">
+        <seg>description = &lt;s0&gt;'compile classpath'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>description = &lt;s1&gt;'compile classpath'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153700Z" creationid="huanghaohang" creationdate="20190527T153700Z">
+        <seg>description = &lt;s1&gt;'compile classpath'&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -29936,6 +30074,14 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085708Z" creationid="huanghaohang" creationdate="20170922T085708Z">
         <seg>ext.srcFile = file(&lt;s0&gt;'mountains.xml'&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>extendsFrom compile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153659Z" creationid="huanghaohang" creationdate="20190527T153659Z">
+        <seg>extendsFrom compile</seg>
       </tuv>
     </tu>
     <tu>
@@ -35247,6 +35393,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>runtime {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153658Z" creationid="huanghaohang" creationdate="20190527T153658Z">
+        <seg>runtime {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runtime, testCompile</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053833Z" creationid="haohang" creationdate="20180313T053833Z">
@@ -37248,6 +37402,14 @@ test {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>transitive = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153657Z" creationid="huanghaohang" creationdate="20190527T153657Z">
+        <seg>transitive = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>troubleshooting.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T081148Z" creationid="95" creationdate="20170723T081148Z">
@@ -38454,6 +38616,18 @@ task testReport(type: TestReport) {</seg>
 }
 
 task testReport(type: TestReport) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+configurations.compile {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153700Z" creationid="huanghaohang" creationdate="20190527T153700Z">
+        <seg>}
+}
+configurations.compile {</seg>
       </tuv>
     </tu>
     <tu>
