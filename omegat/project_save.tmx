@@ -16804,6 +16804,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you declare a module dependency, Gradle looks for a corresponding module descriptor file (&lt;c0&gt;pom.xml&lt;/c0&gt; or &lt;c1&gt;ivy.xml&lt;/c1&gt;) in the repositories. If such a module descriptor file exists, it is parsed and the artifacts of this module (e.g. &lt;c2&gt;hibernate-3.0.5.jar&lt;/c2&gt;) as well as its dependencies (e.g. cglib) are downloaded. If no such module descriptor file exists, Gradle looks for a file called &lt;c3&gt;hibernate-3.0.5.jar&lt;/c3&gt; to retrieve. In Maven, a module can have one and only one artifact. In Gradle and Ivy, a module can have multiple artifacts. Each artifact can have a different set of dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190528T022308Z" creationid="huanghaohang" creationdate="20190528T021912Z">
+        <seg>如果你定义了一个模块依赖，Gradle 将在仓库中查找相应的模块描述符文件（&lt;c0&gt;pom.xml&lt;/c0&gt; 或 &lt;c1&gt;ivy.xml&lt;/c1&gt;）。如果存在这样的模块描述符文件，它会进行解析，并下载此模块的工件（如 &lt;c2&gt;hibernate-3.0.5.jar&lt;/c2&gt;）及其依赖（如 cglib）。如果不存在这样的模块描述符文件，Gradle将查找名为 &lt;c3&gt;hibernate-3.0.5.jar&lt;/c3&gt; 的文件。在 Maven 中，一个模块只能有一个工件。在 Gradle 和 Ivy 中，一个模块可以有多个工件。每个工件都可以有一组不同的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have a problem with your build, try temporarily disabling the daemon (you can pass the command line switch &lt;c0&gt;--no-daemon&lt;/c0&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025433Z" creationid="huanghaohang" creationdate="20180120T025433Z">
