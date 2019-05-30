@@ -21224,6 +21224,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;default&lt;/c0&gt; configuration of a module contains undesired artifacts. Rather than depending on the whole configuration, a dependency on just the desired artifacts is declared.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190530T095014Z" creationid="huanghaohang" creationdate="20190530T094751Z">
+        <seg>模块的 &lt;c0&gt;default&lt;/c0&gt; 配置包含了不需要的工件。你应该仅声明对所需工件的依赖，而不是依赖于整个配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;from()&lt;/c0&gt; method accepts any of the arguments that the &lt;a1&gt;files()&lt;/a1&gt; method does. When an argument resolves to a directory, everything under that directory (but not the directory itself) is recursively copied into the destination directory. When an argument resolves to a file, that file is copied into the destination directory. When an argument resolves to a non-existing file, that argument is ignored. If the argument is a task, the output files (i.e. the files the task creates) of the task are copied and the task is automatically added as a dependency of the &lt;c2&gt;Copy&lt;/c2&gt; task. The &lt;c3&gt;into()&lt;/c3&gt; accepts any of the arguments that the &lt;a4&gt;file()&lt;/a4&gt; method does. Here is another example:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075000Z" creationid="huanghaohang" creationdate="20171002T135621Z">
@@ -23080,6 +23088,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The desired artifact belongs to a configuration other than &lt;c0&gt;default&lt;/c0&gt;. That configuration is explicitly named as part of the dependency declaration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190530T095312Z" creationid="huanghaohang" creationdate="20190530T095015Z">
+        <seg>所需的工件属于非 &lt;c0&gt;default&lt;/c0&gt; 配置。该配置被显式地命名为依赖声明的一部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The directory containing the build script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132217Z" creationid="huanghaohang" creationdate="20170913T132217Z">
@@ -23868,6 +23884,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025316Z" creationid="huanghaohang" creationdate="20180107T024839Z">
         <seg>有许多工具仍然是使用标准输出来记录日志。默认情况下，Gradle 把标准输出重定向到 &lt;c0&gt;QUIET&lt;/c0&gt; 日志级别，把标准错误则重定向到 &lt;c1&gt;ERROR&lt;/c1&gt; 级别上。这种行为是可配置的。Project 对象提供了一个 &lt;a2&gt;&lt;c3&gt;LoggingManager&lt;/c3&gt;&lt;/a2&gt;，它能在评估构建脚本时，让你修改标准输出或错误所重定向的日志级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are other situations where it is necessary to fine-tune dependency declarations. Please see &lt;a0&gt;&lt;c1&gt;DependencyHandler&lt;/c1&gt;&lt;/a0&gt; for examples and a complete reference for declaring dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190530T095427Z" creationid="huanghaohang" creationdate="20190530T095427Z">
+        <seg>还有一些其他情况，需要微调依赖声明。有关示例及完整的依赖声明的参考，请参阅 &lt;a0&gt;&lt;c1&gt;DependencyHandler&lt;/c1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
