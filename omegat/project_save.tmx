@@ -10806,6 +10806,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As can be seen in the first line above, classifiers can be used together with artifact only notation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051037Z" creationid="huanghaohang" creationdate="20190531T051037Z">
+        <seg>如上面的第一行所示，分类器可以和仅工件标记法一起用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As mentioned before 'should run after' ordering rule will be ignored if it introduces an ordering cycle:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T081510Z" creationid="huanghaohang" creationdate="20170922T081504Z">
@@ -14744,6 +14752,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044310Z" creationid="huanghaohang" creationdate="20190531T044310Z">
         <seg>示例50.5. 仅工件表示法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.6. Dependency with classifier</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T045247Z" creationid="huanghaohang" creationdate="20190531T045247Z">
+        <seg>示例 50.6. 使用分类器的依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -28754,6 +28770,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile &lt;s0&gt;"org.gradle.test.classifiers:service:1.0:jdk15@jar"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T045341Z" creationid="huanghaohang" creationdate="20190531T045341Z">
+        <seg>compile &lt;s0&gt;"org.gradle.test.classifiers:service:1.0:jdk15@jar"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile &lt;s0&gt;'org.codehaus.groovy:groovy-all:2.3.3'&lt;/s0&gt;
 }</seg>
       </tuv>
@@ -33679,6 +33703,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145337Z" creationid="huanghaohang" creationdate="20170918T145337Z">
         <seg>other.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>otherConf group: &lt;s1&gt;'org.gradle.test.classifiers'&lt;/s1&gt;, name: &lt;s2&gt;'service'&lt;/s2&gt;, version: &lt;s3&gt;'1.0'&lt;/s3&gt;, classifier: &lt;s4&gt;'jdk14'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T045342Z" creationid="huanghaohang" creationdate="20190531T045342Z">
+        <seg>otherConf group: &lt;s1&gt;'org.gradle.test.classifiers'&lt;/s1&gt;, name: &lt;s2&gt;'service'&lt;/s2&gt;, version: &lt;s3&gt;'1.0'&lt;/s3&gt;, classifier: &lt;s4&gt;'jdk14'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
