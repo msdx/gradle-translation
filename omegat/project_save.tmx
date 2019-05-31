@@ -254,6 +254,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N14D3B</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044534Z" creationid="huanghaohang" creationdate="20190531T044534Z">
+        <seg>#ftn.N14D3B</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160758Z" creationid="huanghaohang" creationdate="20190527T160758Z">
@@ -6364,6 +6372,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4.1.3. Classifiers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044531Z" creationid="huanghaohang" creationdate="20190531T044531Z">
+        <seg>50.4.1.3.分类器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.4.1. External module dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160710Z" creationid="huanghaohang" creationdate="20190527T160710Z">
@@ -10598,6 +10614,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An artifact only notation creates a module dependency which downloads only the artifact file with the specified extension. Existing module descriptors are ignored.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044521Z" creationid="huanghaohang" creationdate="20190531T044313Z">
+        <seg>仅工件表示法将创建只下载具有指定扩展名的工件文件的模块依赖，而忽略现有的模块描述符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An external dependency is identified using &lt;c0&gt;group&lt;/c0&gt;, &lt;c1&gt;name&lt;/c1&gt; and &lt;c2&gt;version&lt;/c2&gt; attributes. Depending on which kind of repository you are using, &lt;c3&gt;group&lt;/c3&gt; and &lt;c4&gt;version&lt;/c4&gt; may be optional.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T043615Z" creationid="huanghaohang" creationdate="20170908T043428Z">
@@ -14712,6 +14736,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160752Z" creationid="huanghaohang" creationdate="20190527T160752Z">
         <seg>示例 50.4. 模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.5. Artifact only notation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044310Z" creationid="huanghaohang" creationdate="20190531T044310Z">
+        <seg>示例50.5. 仅工件表示法</seg>
       </tuv>
     </tu>
     <tu>
@@ -22420,6 +22452,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T142413Z" creationid="95" creationdate="20190201T142413Z">
         <seg>Maven 转换实现受 Gradle 社区成员最初开发的&lt;a0&gt;maven2gradle tool&lt;/a0&gt;启发。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Maven dependency management has the notion of classifiers. &lt;s0&gt;[&lt;a1&gt;15&lt;/a1&gt;]&lt;/s0&gt; Gradle supports this. To retrieve classified dependencies from a Maven repository you can write:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T045237Z" creationid="huanghaohang" creationdate="20190531T045237Z">
+        <seg>Maven 依赖管理有分类器的概念， &lt;s0&gt;[&lt;a1&gt;15&lt;/a1&gt;]&lt;/s0&gt; Gradle 支持这一点。如果你想从 Maven 仓库中获取分类的依赖，可以这样写：</seg>
       </tuv>
     </tu>
     <tu>
@@ -35577,6 +35617,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>runtime &lt;s0&gt;"org.groovy:groovy:2.2.0@jar"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044311Z" creationid="huanghaohang" creationdate="20190531T044311Z">
+        <seg>runtime &lt;s0&gt;"org.groovy:groovy:2.2.0@jar"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runtime &lt;s3&gt;'org.springframework:spring-core:2.5'&lt;/s3&gt;, &lt;s4&gt;'org.springframework:spring-aop:2.5'&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160754Z" creationid="huanghaohang" creationdate="20190527T160754Z">
@@ -35605,6 +35653,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160800Z" creationid="huanghaohang" creationdate="20190527T160800Z">
         <seg>runtime group: &lt;s12&gt;'org.hibernate'&lt;/s12&gt;, name: &lt;s13&gt;'hibernate'&lt;/s13&gt;, version: &lt;s14&gt;'3.0.5'&lt;/s14&gt;, transitive: true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime group: &lt;s1&gt;'org.groovy'&lt;/s1&gt;, name: &lt;s2&gt;'groovy'&lt;/s2&gt;, version: &lt;s3&gt;'2.2.0'&lt;/s3&gt;, ext: &lt;s4&gt;'jar'&lt;/s4&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044312Z" creationid="huanghaohang" creationdate="20190531T044312Z">
+        <seg>runtime group: &lt;s1&gt;'org.groovy'&lt;/s1&gt;, name: &lt;s2&gt;'groovy'&lt;/s2&gt;, version: &lt;s3&gt;'2.2.0'&lt;/s3&gt;, ext: &lt;s4&gt;'jar'&lt;/s4&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
