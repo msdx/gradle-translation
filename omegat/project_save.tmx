@@ -246,6 +246,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N14D1D</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190530T095446Z" creationid="huanghaohang" creationdate="20190530T095446Z">
+        <seg>#ftn.N14D1D</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160758Z" creationid="huanghaohang" creationdate="20190527T160758Z">
@@ -6348,6 +6356,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4.1.2. Artifact only notation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190530T095443Z" creationid="huanghaohang" creationdate="20190530T095443Z">
+        <seg>50.4.1.2. 仅工件表示法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.4.1. External module dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160710Z" creationid="huanghaohang" creationdate="20190527T160710Z">
@@ -10794,6 +10810,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180812T072751Z" creationid="huanghaohang" creationdate="20180812T072751Z">
         <seg>从 Sonar 3.4 开始，每个项目只能分析一种语言。不过，你可以为多项目构建中的每个项目设置不同的语言。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As said above, if no module descriptor file can be found, Gradle by default downloads a jar with the name of the module. But sometimes, even if the repository contains module descriptors, you want to download only the artifact jar, without the dependencies. &lt;s0&gt;[&lt;a1&gt;14&lt;/a1&gt;]&lt;/s0&gt; And sometimes you want to download a zip from a repository, that does not have module descriptors. Gradle provides an &lt;s2&gt;&lt;e3&gt;artifact only&lt;/e3&gt;&lt;/s2&gt; notation for those use cases - simply prefix the extension that you want to be downloaded with &lt;c4&gt;'@'&lt;/c4&gt; sign:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044257Z" creationid="huanghaohang" creationdate="20190530T095451Z">
+        <seg>如上所述，如果找不到模块描述符文件，那么默认情况下 Gradle 会下载一个与模块名称相同的 jar。但有时候，即便仓库中包含了模块描述符，你也希望只下载工件 jar 而不下载它的依赖。&lt;s0&gt;[&lt;a1&gt;14&lt;/a1&gt;]&lt;/s0&gt; 有时候你希望从仓库中下载没有模块描述符的 zip。 Gradle 提供了 &lt;s2&gt;&lt;e3&gt;仅工件&lt;/e3&gt;&lt;/s2&gt; 表示法，用于这些案例——只需要对你想要下载的扩展名前加个 &lt;c4&gt;'@'&lt;/c4&gt; 符号：</seg>
       </tuv>
     </tu>
     <tu>
