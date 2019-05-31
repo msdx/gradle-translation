@@ -1282,6 +1282,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/ClientModule.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051426Z" creationid="huanghaohang" creationdate="20190531T051426Z">
+        <seg>../javadoc/org/gradle/api/artifacts/ClientModule.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/artifacts/ExternalModuleDependency.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T161015Z" creationid="huanghaohang" creationdate="20190527T161015Z">
@@ -6388,6 +6396,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4.2. Client module dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051212Z" creationid="huanghaohang" creationdate="20190531T051212Z">
+        <seg>50.4.2. 客户端模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.4. How to declare your dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153710Z" creationid="huanghaohang" creationdate="20190527T153710Z">
@@ -8920,6 +8936,30 @@ src2/dir2</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q listJars
+hibernate-core-3.6.7.Final.jar
+antlr-2.7.6.jar
+commons-collections-3.1.jar
+dom4j-1.6.1.jar
+hibernate-commons-annotations-3.2.0.Final.jar
+hibernate-jpa-2.0-api-1.0.1.Final.jar
+jta-1.1.jar
+slf4j-api-1.6.1.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051200Z" creationid="huanghaohang" creationdate="20190531T051200Z">
+        <seg>&gt; gradle -q listJars
+hibernate-core-3.6.7.Final.jar
+antlr-2.7.6.jar
+commons-collections-3.1.jar
+dom4j-1.6.1.jar
+hibernate-commons-annotations-3.2.0.Final.jar
+hibernate-jpa-2.0-api-1.0.1.Final.jar
+jta-1.1.jar
+slf4j-api-1.6.1.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q loadfile
 *** agile.manifesto.txt ***
 Individuals and interactions over processes and tools
@@ -10808,8 +10848,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>As can be seen in the first line above, classifiers can be used together with artifact only notation.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051037Z" creationid="huanghaohang" creationdate="20190531T051037Z">
-        <seg>如上面的第一行所示，分类器可以和仅工件标记法一起用。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051241Z" creationid="huanghaohang" creationdate="20190531T051037Z">
+        <seg>如上面的第一行所示，分类器可以和仅工件表示法一起用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11834,6 +11874,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180517T130048Z" creationid="huanghaohang" creationdate="20180517T130048Z">
         <seg>Clean</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Client module dependencies allow to declare &lt;s0&gt;&lt;e1&gt;transitive&lt;/e1&gt;&lt;/s0&gt; dependencies directly in the build script. They are a replacement for a module descriptor in an external repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051409Z" creationid="huanghaohang" creationdate="20190531T051216Z">
+        <seg>客户端模块依赖允许直接在构建脚本中声明 &lt;s0&gt;&lt;e1&gt;传递&lt;/e1&gt;&lt;/s0&gt; 依赖，它们是外部仓库中模块描述符的替代者。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14764,6 +14812,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.7. Iterating over a configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051141Z" creationid="huanghaohang" creationdate="20190531T051141Z">
+        <seg>示例 50.7. 遍历一个配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.8. Client module dependencies - transitive dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051417Z" creationid="huanghaohang" creationdate="20190531T051417Z">
+        <seg>示例 50.8. 客户端模块依赖——传递依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -17340,6 +17404,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is easy to iterate over the dependency artifacts of a configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051129Z" creationid="huanghaohang" creationdate="20190531T051038Z">
+        <seg>要遍历一个配置的依赖工件很容易：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is important to note that the content of a file collection is evaluated lazily, when it is needed. This means you can, for example, create a &lt;c0&gt;FileCollection&lt;/c0&gt; that represents files which will be created in the future by, say, some task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150849Z" creationid="huanghaohang" creationdate="20170927T150849Z">
@@ -18488,6 +18560,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150358Z" creationid="huanghaohang" creationdate="20170927T150358Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q list&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q listJars&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051159Z" creationid="huanghaohang" creationdate="20190531T051159Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q listJars&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -24368,6 +24448,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This declares a dependency on Groovy. Groovy itself has dependencies. But Gradle does not look for an XML descriptor to figure them out but gets the information from the build file. The dependencies of a client module can be normal module dependencies or artifact dependencies or another client module. Have also a look at the API documentation: &lt;a0&gt;&lt;c1&gt;ClientModule&lt;/c1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051828Z" creationid="huanghaohang" creationdate="20190531T051434Z">
+        <seg>这里声明了一个对 Groovy 的依赖。Groovy 本身也有依赖。但是 Gradle 不会去查找 XML 描述符来找出它的依赖，而是从构建文件中获取信息。客户端模块的依赖可以是正常模块依赖或工件依赖，或者是另一个客户端模块。还请查看 API 文档：&lt;a0&gt;&lt;c1&gt;ClientModule&lt;/c1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This determines how much information to write out stack traces when errors occur. Note: if you specify a stack trace level on either the Command Line or Favorites tab, it will override this stack trace level.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T150140Z" creationid="huanghaohang" creationdate="20170911T150140Z">
@@ -29006,6 +29094,16 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configurations.compile.each { File file -&gt; println file.name }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051155Z" creationid="huanghaohang" creationdate="20190531T051155Z">
+        <seg>configurations.compile.each { File file -&gt; println file.name }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>configure(scalaCompileOptions.forkOptions) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T053847Z" creationid="huanghaohang" creationdate="20180407T053847Z">
@@ -29286,6 +29384,14 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependencies &lt;s5&gt;"org.apache.ant:ant-launcher:1.9.3@jar"&lt;/s5&gt;, &lt;s6&gt;"org.apache.ant:ant-junit:1.9.3"&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051424Z" creationid="huanghaohang" creationdate="20190531T051424Z">
+        <seg>dependencies &lt;s5&gt;"org.apache.ant:ant-launcher:1.9.3@jar"&lt;/s5&gt;, &lt;s6&gt;"org.apache.ant:ant-junit:1.9.3"&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124732Z" creationid="95" creationdate="20170730T124732Z">
@@ -29306,6 +29412,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143124Z" creationid="huanghaohang" creationdate="20180408T143124Z">
         <seg>dependency &lt;s6&gt;":providedCompile-transitive:1.0@jar"&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency(&lt;s1&gt;"commons-cli:commons-cli:1.0"&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051420Z" creationid="huanghaohang" creationdate="20190531T051420Z">
+        <seg>dependency(&lt;s1&gt;"commons-cli:commons-cli:1.0"&lt;/s1&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -33279,6 +33393,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>module(group: &lt;s2&gt;'org.apache.ant'&lt;/s2&gt;, name: &lt;s3&gt;'ant'&lt;/s3&gt;, version: &lt;s4&gt;'1.9.3'&lt;/s4&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051422Z" creationid="huanghaohang" creationdate="20190531T051422Z">
+        <seg>module(group: &lt;s2&gt;'org.apache.ant'&lt;/s2&gt;, name: &lt;s3&gt;'ant'&lt;/s3&gt;, version: &lt;s4&gt;'1.9.3'&lt;/s4&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>module.dependencies*.exported = true</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012905Z" creationid="huanghaohang" creationdate="20190123T012905Z">
@@ -35699,6 +35821,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>runtime module(&lt;s0&gt;"org.codehaus.groovy:groovy:2.3.3"&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051418Z" creationid="huanghaohang" creationdate="20190531T051418Z">
+        <seg>runtime module(&lt;s0&gt;"org.codehaus.groovy:groovy:2.3.3"&lt;/s0&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runtime {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153658Z" creationid="huanghaohang" creationdate="20190527T153658Z">
@@ -37299,6 +37429,14 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task listJars &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051150Z" creationid="huanghaohang" creationdate="20190531T051150Z">
+        <seg>task listJars &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task loadfile &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153755Z" creationid="95" creationdate="20170728T153755Z">
@@ -37728,6 +37866,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T135243Z" creationid="huanghaohang" creationdate="20180712T135243Z">
         <seg>toolVersion = &lt;s0&gt;"0.6.2.201302030002"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>transitive = false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051421Z" creationid="huanghaohang" creationdate="20190531T051421Z">
+        <seg>transitive = false</seg>
       </tuv>
     </tu>
     <tu>
