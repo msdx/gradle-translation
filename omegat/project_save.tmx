@@ -9022,6 +9022,18 @@ We build the zip with version=1.0-SNAPSHOT</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q files
+orca-1.0.jar
+seal-2.0.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T143717Z" creationid="huanghaohang" creationdate="20190602T143717Z">
+        <seg>&gt; gradle -q files
+orca-1.0.jar
+seal-2.0.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q groupPing
 Pinging: Server1
 Pinging: Server2</seg>
@@ -19002,6 +19014,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q files&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T143715Z" creationid="huanghaohang" creationdate="20190602T143715Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q files&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q groupPing&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T043839Z" creationid="huanghaohang" creationdate="20170923T043839Z">
@@ -21810,6 +21830,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T124952Z" creationid="huanghaohang" creationdate="20171126T124952Z">
         <seg>&lt;a0&gt;&lt;c1&gt;Sync&lt;/c1&gt;&lt;/a0&gt; 任务扩展了 &lt;c2&gt;Copy&lt;/c2&gt; 任务。当它执行时，它会将源文件复制到目标目录中，然后从目标目录中删除它没有复制的所有文件。这可以用于执行诸如安装应用程序，创建归档文件的分解（解压）副本，或维护项目依赖的副本等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;Configuration.files&lt;/c0&gt; method always retrieves all artifacts of the &lt;s1&gt;&lt;e2&gt;whole&lt;/e2&gt;&lt;/s1&gt; configuration. It then filters the retrieved files by specified dependencies. As you can see in the example, transitive dependencies are included.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T152626Z" creationid="huanghaohang" creationdate="20190602T143722Z">
+        <seg>&lt;c0&gt;Configuration.files&lt;/c0&gt; 方法总是获取 &lt;s1&gt;&lt;e2&gt;整个&lt;/e2&gt;&lt;/s1&gt; 配置的所有工件，然后它通过指定的依赖对检索到的文件进行过滤。正如你在示例中所看到的，传递依赖会被包含在内。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29846,6 +29874,14 @@ println myZip.archiveName</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051155Z" creationid="huanghaohang" creationdate="20190531T051155Z">
         <seg>configurations.compile.each { File file -&gt; println file.name }
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.sealife.files { dep -&gt; dep.name == &lt;s0&gt;'orca'&lt;/s0&gt; }.each { file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T143714Z" creationid="huanghaohang" creationdate="20190602T143714Z">
+        <seg>configurations.sealife.files { dep -&gt; dep.name == &lt;s0&gt;'orca'&lt;/s0&gt; }.each { file -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -38215,6 +38251,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025303Z" creationid="95" creationdate="20170729T025303Z">
         <seg>task distribution &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task files &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T143713Z" creationid="huanghaohang" creationdate="20190602T143713Z">
+        <seg>task files &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
