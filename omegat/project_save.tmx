@@ -1346,6 +1346,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/ResolvableDependencies.html#getResolutionResult()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141913Z" creationid="huanghaohang" creationdate="20190602T141913Z">
+        <seg>../javadoc/org/gradle/api/artifacts/ResolvableDependencies.html#getResolutionResult()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/result/ResolutionResult.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141914Z" creationid="huanghaohang" creationdate="20190602T141914Z">
+        <seg>../javadoc/org/gradle/api/artifacts/result/ResolutionResult.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/distribution/Distribution.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T061006Z" creationid="huanghaohang" creationdate="20190128T061006Z">
@@ -6440,6 +6456,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160710Z" creationid="huanghaohang" creationdate="20190527T160710Z">
         <seg>50.4.1 外部模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.4.10. Dependency reports</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141620Z" creationid="huanghaohang" creationdate="20190602T141620Z">
+        <seg>50.4.10. 依赖报告</seg>
       </tuv>
     </tu>
     <tu>
@@ -20180,6 +20204,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Since Gradle 1.2 there is also a new programmatic API to access the resolved dependency information. The dependency reports (see the previous paragraph) are using this API under the covers. The API lets you to walk the resolved dependency graph and provides information about the dependencies. With the coming releases the API will grow to provide more information about the resolution result. For more information about the API please refer to the javadocs on &lt;a0&gt;&lt;c1&gt;ResolvableDependencies.getResolutionResult()&lt;/c1&gt;&lt;/a0&gt;. Potential usages of the &lt;a2&gt;&lt;c3&gt;ResolutionResult&lt;/c3&gt;&lt;/a2&gt; API:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T142430Z" creationid="huanghaohang" creationdate="20190602T142430Z">
+        <seg>从 Gradle 1.2 起，还有一个新的程序化 API 来访问已解析的依赖信息。这个依赖报告（请参阅上一段）正是使用这个API。 这个 API 可以让你查看解析后的依赖图，并提供依赖的有关信息。在即将到来的发行版中，API 将提供更多有关解析结果的信息。有关此 API 的更多信息，请参阅 &lt;a0&gt;&lt;c1&gt;ResolvableDependences.getResolutionResult()&lt;/c1&gt;&lt;/a0&gt;上的 javadocs。 &lt;a2&gt;&lt;c3&gt;ResolutionResult&lt;/c3&gt;&lt;/a2&gt; API 的可能用法：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Since a dependency report can get large, it can be useful to restrict the report to a particular configuration. This is achieved with the optional &lt;s0&gt;&lt;c1&gt;--configuration&lt;/c1&gt;&lt;/s0&gt; parameter:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T021631Z" creationid="huanghaohang" creationdate="20170910T014140Z">
@@ -26860,6 +26892,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232546Z" creationid="huanghaohang" creationdate="20171206T232546Z">
         <seg>你也可以进一步自定义存档名称：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can generate dependency reports from the command line (see &lt;a0&gt;Section 11.6.4, “Listing project dependencies”&lt;/a0&gt;). With the help of the Project report plugin (see &lt;a1&gt;Chapter 41, &lt;i2&gt;The Project Report Plugin&lt;/i2&gt;&lt;/a1&gt;) such a report can be created by your build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141834Z" creationid="huanghaohang" creationdate="20190602T141627Z">
+        <seg>你可以从命令行生成依赖报告（请参阅 &lt;a0&gt;第11.6.4节，《列示项目依赖》&lt;/a0&gt;）。在项目报告插件的帮助下（请参阅 &lt;a1&gt;第41章，《&lt;i2&gt;项目报告插件&lt;/i2&gt;》&lt;/a1&gt;) ，你的构建能够创建这样一个报告。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38524,6 +38564,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233954Z" creationid="huanghaohang" creationdate="20171206T233954Z">
         <seg>tutorial_gradle_command_line.html#N10953</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tutorial_gradle_command_line.html#para:commandline_dependency_report</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141621Z" creationid="huanghaohang" creationdate="20190602T141621Z">
+        <seg>tutorial_gradle_command_line.html#para:commandline_dependency_report</seg>
       </tuv>
     </tu>
     <tu>
