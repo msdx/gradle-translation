@@ -11186,6 +11186,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Basically, in most of the cases excluding the transitive dependency should be done per configuration. This way the dependency declaration is more explicit. It is also more accurate because a per-dependency exclude rule does not guarantee the given transitive dependency does not show up in the configuration. For example, some other dependency, which does not have any exclude rules, might pull in that unwanted transitive dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T133514Z" creationid="huanghaohang" creationdate="20190602T114331Z">
+        <seg>基本上，大多数情况下，排除依赖应该对每个配置进行处理。 这样，依赖性声明就更为明确。 由于每个依赖关系排除规则不保证给定的传递依赖性不会显示在配置中，因此它更准确。 例如，某些其他依赖关系(不含任何排除规则)可能会导致此不需要的传递依赖关系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Because Gradle's build language is based on Groovy, and parts of Gradle are implemented in Groovy, Gradle already ships with a Groovy library (1.8.6 as of Gradle 1.6). Nevertheless, Groovy projects need to explicitly declare a Groovy dependency. This dependency will then be used on compile and runtime class paths. It will also be used to get hold of the Groovy compiler and Groovydoc tool, respectively.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T122451Z" creationid="huanghaohang" creationdate="20180406T122451Z">
