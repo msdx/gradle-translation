@@ -8936,6 +8936,42 @@ I am the new one.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q copy
+albatros
+shark
+tuna
+
+albatros</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T152844Z" creationid="huanghaohang" creationdate="20190602T152844Z">
+        <seg>&gt; gradle -q copy
+albatros
+shark
+tuna
+
+albatros</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q copyVsFiles
+orca-1.0.jar
+seal-1.0.jar
+
+orca-1.0.jar
+seal-2.0.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T153128Z" creationid="huanghaohang" creationdate="20190602T153128Z">
+        <seg>&gt; gradle -q copyVsFiles
+orca-1.0.jar
+seal-1.0.jar
+
+orca-1.0.jar
+seal-2.0.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q count
 0 1 2 3</seg>
       </tuv>
@@ -15150,6 +15186,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.23. Configuration.copy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T152837Z" creationid="huanghaohang" creationdate="20190602T152837Z">
+        <seg>示例 50.23. Configuration.copy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.24. Configuration.copy vs. Configuration.files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T153123Z" creationid="huanghaohang" creationdate="20190602T153123Z">
+        <seg>示例 50.24. Configuration.copy 与 Configuration.files</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.3. Configuration of a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153654Z" creationid="huanghaohang" creationdate="20190527T153654Z">
@@ -17590,6 +17642,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the example above, &lt;c0&gt;orca&lt;/c0&gt; has a dependency on &lt;c1&gt;seal-1.0&lt;/c1&gt; whereas &lt;c2&gt;shark&lt;/c2&gt; has a dependency on&lt;c3&gt;seal-2.0&lt;/c3&gt;. The original configuration has therefore a version conflict which is resolved to the newer &lt;c4&gt;seal-2.0&lt;/c4&gt; version. The &lt;c5&gt;files&lt;/c5&gt; method therefore returns &lt;c6&gt;seal-2.0&lt;/c6&gt; as a transitive dependency of&lt;c7&gt;orca&lt;/c7&gt;. The copied configuration only has &lt;c8&gt;orca&lt;/c8&gt; as a dependency and therefore there is no version conflict and &lt;c9&gt;seal-1.0&lt;/c9&gt; is returned as a transitive dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T153157Z" creationid="huanghaohang" creationdate="20190602T153157Z">
+        <seg>In the example above, &lt;c0&gt;orca&lt;/c0&gt; has a dependency on &lt;c1&gt;seal-1.0&lt;/c1&gt; whereas &lt;c2&gt;shark&lt;/c2&gt; has a dependency on&lt;c3&gt;seal-2.0&lt;/c3&gt;. The original configuration has therefore a version conflict which is resolved to the newer &lt;c4&gt;seal-2.0&lt;/c4&gt; version. The &lt;c5&gt;files&lt;/c5&gt; method therefore returns &lt;c6&gt;seal-2.0&lt;/c6&gt; as a transitive dependency of&lt;c7&gt;orca&lt;/c7&gt;. The copied configuration only has &lt;c8&gt;orca&lt;/c8&gt; as a dependency and therefore there is no version conflict and &lt;c9&gt;seal-1.0&lt;/c9&gt; is returned as a transitive dependency.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the example above, the content of the "&lt;c0&gt;src/readme&lt;/c0&gt;" directory will be included in the distribution (along with the files in the "&lt;c1&gt;src/dist/main&lt;/c1&gt;" directory which are added by default).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T061322Z" creationid="huanghaohang" creationdate="20190128T061322Z">
@@ -17858,6 +17918,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150849Z" creationid="huanghaohang" creationdate="20170927T150849Z">
         <seg>要注意的一个地方是，一个文件集合的内容是懒评估的，它只在需要的时候才计算。这意味着你可以创建一个&lt;c0&gt;FileCollection&lt;/c0&gt; 对象来表示一些会在以后才创建的文件，比方说在一些任务中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is important to note that the returned files of the copied configuration are often but not always the same than the returned files of the dependency subset of the original configuration. In case of version conflicts between dependencies of the subset and dependencies not belonging to the subset the resolve result might be different.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T153121Z" creationid="huanghaohang" creationdate="20190602T152849Z">
+        <seg>请务必注意，复制的配置所返回的文件，通常并不总是与原配置的依赖子集所返回的文件相同。 如果子集的依赖与不属于子集的依赖发生版本冲突，那么解析结果可能会不同。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18978,6 +19046,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083321Z" creationid="huanghaohang" creationdate="20170922T083321Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q copy&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q copyVsFiles&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T153127Z" creationid="huanghaohang" creationdate="20190602T153127Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q copyVsFiles&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -26858,6 +26934,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also copy a configuration. You can optionally specify that only a subset of dependencies from the original configuration should be copied. The copying methods come in two flavors. The &lt;c0&gt;copy&lt;/c0&gt; method copies only the dependencies belonging explicitly to the configuration. The &lt;c1&gt;copyRecursive&lt;/c1&gt; method copies all the dependencies, including the dependencies from extended configurations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T152830Z" creationid="huanghaohang" creationdate="20190602T152628Z">
+        <seg>你也可以复制一个配置。你可以选择仅复制原配置中的一部分依赖。复制方法有两种：&lt;c0&gt;copy&lt;/c0&gt; 方法仅复制显式属于配置的依赖； &lt;c1&gt;copyRecursive&lt;/c1&gt; 方法会复制所有的依赖，包括扩展配置中的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also directly add properties to your project objects using properties files. You can place a &lt;c0&gt;gradle.properties&lt;/c0&gt; file in the Gradle user home directory (defaults to &lt;c1&gt;&lt;e2&gt;&lt;c3&gt;USER_HOME&lt;/c3&gt;&lt;/e2&gt;/.gradle&lt;/c1&gt;) or in your project directory. For multi-project builds you can place &lt;c4&gt;gradle.properties&lt;/c4&gt; files in any subproject directory. The properties of the &lt;c5&gt;gradle.properties&lt;/c5&gt; can be accessed via the project object. The properties file in the user's home directory has precedence over property files in the project directories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T133656Z" creationid="huanghaohang" creationdate="20170917T132847Z">
@@ -29860,6 +29944,22 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configurations.alllife.copy().allDependencies.each { dep -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T152840Z" creationid="huanghaohang" creationdate="20190602T152840Z">
+        <seg>configurations.alllife.copy().allDependencies.each { dep -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.alllife.copyRecursive { dep -&gt; dep.name != &lt;s0&gt;'orca'&lt;/s0&gt; }.allDependencies.each { dep -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T152839Z" creationid="huanghaohang" creationdate="20190602T152839Z">
+        <seg>configurations.alllife.copyRecursive { dep -&gt; dep.name != &lt;s0&gt;'orca'&lt;/s0&gt; }.allDependencies.each { dep -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>configurations.alllife.dependencies.each { dep -&gt; println dep.name }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T143025Z" creationid="huanghaohang" creationdate="20190602T143025Z">
@@ -29878,10 +29978,26 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configurations.sealife.copyRecursive { dep -&gt; dep.name == &lt;s0&gt;'orca'&lt;/s0&gt; }.each { file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T153125Z" creationid="huanghaohang" creationdate="20190602T153125Z">
+        <seg>configurations.sealife.copyRecursive { dep -&gt; dep.name == &lt;s0&gt;'orca'&lt;/s0&gt; }.each { file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>configurations.sealife.files { dep -&gt; dep.name == &lt;s0&gt;'orca'&lt;/s0&gt; }.each { file -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T143714Z" creationid="huanghaohang" creationdate="20190602T143714Z">
         <seg>configurations.sealife.files { dep -&gt; dep.name == &lt;s0&gt;'orca'&lt;/s0&gt; }.each { file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.sealife.files { dep -&gt; dep.name == &lt;s1&gt;'orca'&lt;/s1&gt; }.each { file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T153125Z" creationid="huanghaohang" creationdate="20190602T153125Z">
+        <seg>configurations.sealife.files { dep -&gt; dep.name == &lt;s1&gt;'orca'&lt;/s1&gt; }.each { file -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -35743,6 +35859,14 @@ println configurations[&lt;s0&gt;'compile'&lt;/s0&gt;].name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println dep.name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T152840Z" creationid="huanghaohang" creationdate="20190602T152840Z">
+        <seg>println dep.name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println emailNotification</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133555Z" creationid="huanghaohang" creationdate="20170913T133555Z">
@@ -38155,6 +38279,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task copy &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T152838Z" creationid="huanghaohang" creationdate="20190602T152838Z">
+        <seg>task copy &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task copy(type: Copy)
 
 task copy(overwrite: true) &lt;&lt; {</seg>
@@ -38203,6 +38335,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075116Z" creationid="huanghaohang" creationdate="20171015T075116Z">
         <seg>task copyTaskWithPatterns(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task copyVsFiles &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T153124Z" creationid="huanghaohang" creationdate="20190602T153124Z">
+        <seg>task copyVsFiles &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
