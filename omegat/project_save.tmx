@@ -23452,6 +23452,38 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The dependency has a version that conflicts with a desired version. For that use case please refer to &lt;a0&gt;Section 50.2.3, “Resolve version conflicts”&lt;/a0&gt; and the documentation on &lt;a1&gt;&lt;c2&gt;ResolutionStrategy&lt;/c2&gt;&lt;/a1&gt; for a potentially better solution to the problem.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T114325Z" creationid="huanghaohang" creationdate="20190602T114325Z">
+        <seg>这个依赖有版本与所需要的的版本冲突。对于这个用例，请参考&lt;a0&gt;第 50.2.3 节，《解决版本冲突》&lt;/a0&gt;和关于 &lt;a1&gt;&lt;c2&gt;ResolutionStrategy&lt;/c2&gt;&lt;/a1&gt; 的文档，以了解这个问题的可能更好的解决方案。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The dependency is not available in any of remote repositories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T114119Z" creationid="huanghaohang" creationdate="20190602T114119Z">
+        <seg>这个依赖在任何的远程仓库中都不可用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The dependency is not needed for runtime.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T114127Z" creationid="huanghaohang" creationdate="20190602T114127Z">
+        <seg>在运行时不需要这个依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The dependency is undesired due to licensing reasons.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T114106Z" creationid="huanghaohang" creationdate="20190602T114106Z">
+        <seg>由于许可的原因，依赖不理想。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The dependency of &lt;c0&gt;taskX&lt;/c0&gt; to &lt;c1&gt;taskY&lt;/c1&gt; is declared before &lt;c2&gt;taskY&lt;/c2&gt; is defined. This is very important for multi-project builds. Task dependencies are discussed in more detail in &lt;a3&gt;Section 15.4, “Adding dependencies to a task”&lt;/a3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T132109Z" creationid="95" creationdate="20170726T160408Z">
@@ -29928,6 +29960,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153826Z" creationid="huanghaohang" creationdate="20190527T153826Z">
         <seg>dependency_management.html#sub:project_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:version_conflicts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T114129Z" creationid="huanghaohang" creationdate="20190602T114129Z">
+        <seg>dependency_management.html#sub:version_conflicts</seg>
       </tuv>
     </tu>
     <tu>
