@@ -14980,6 +14980,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.17. Dependency configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141434Z" creationid="huanghaohang" creationdate="20190602T141434Z">
+        <seg>示例 50.17. 依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.18. Dependency configurations for project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141438Z" creationid="huanghaohang" creationdate="20190602T141438Z">
+        <seg>示例 50.18. 项目的依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.2. Accessing a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153618Z" creationid="huanghaohang" creationdate="20190527T153618Z">
@@ -25120,6 +25136,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To do the same for project dependencies you need to declare:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141553Z" creationid="huanghaohang" creationdate="20190602T141436Z">
+        <seg>要对项目依赖执行同样操作，你需要声明：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To find out more about defining and working with dependencies, have a look at &lt;a0&gt;Section 50.4, “How to declare your dependencies”&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044045Z" creationid="huanghaohang" creationdate="20170908T044045Z">
@@ -29393,6 +29417,16 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125332Z" creationid="95" creationdate="20170803T125332Z">
         <seg>compile project(&lt;s0&gt;':shared'&lt;/s0&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile project(path: &lt;s0&gt;':api'&lt;/s0&gt;, configuration: &lt;s1&gt;'spi'&lt;/s1&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141554Z" creationid="huanghaohang" creationdate="20190602T141554Z">
+        <seg>compile project(path: &lt;s0&gt;':api'&lt;/s0&gt;, configuration: &lt;s1&gt;'spi'&lt;/s1&gt;)
 }</seg>
       </tuv>
     </tu>
@@ -36314,6 +36348,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140942Z" creationid="huanghaohang" creationdate="20190602T140942Z">
         <seg>runtime groovy, hibernate
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime group: &lt;s0&gt;'org.somegroup'&lt;/s0&gt;, name: &lt;s1&gt;'somedependency'&lt;/s1&gt;, version: &lt;s2&gt;'1.0'&lt;/s2&gt;, configuration: &lt;s3&gt;'someConfiguration'&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141435Z" creationid="huanghaohang" creationdate="20190602T141435Z">
+        <seg>runtime group: &lt;s0&gt;'org.somegroup'&lt;/s0&gt;, name: &lt;s1&gt;'somedependency'&lt;/s1&gt;, version: &lt;s2&gt;'1.0'&lt;/s2&gt;, configuration: &lt;s3&gt;'someConfiguration'&lt;/s3&gt;
 }</seg>
       </tuv>
     </tu>
