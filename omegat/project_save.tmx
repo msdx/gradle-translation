@@ -17644,8 +17644,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>In the example above, &lt;c0&gt;orca&lt;/c0&gt; has a dependency on &lt;c1&gt;seal-1.0&lt;/c1&gt; whereas &lt;c2&gt;shark&lt;/c2&gt; has a dependency on&lt;c3&gt;seal-2.0&lt;/c3&gt;. The original configuration has therefore a version conflict which is resolved to the newer &lt;c4&gt;seal-2.0&lt;/c4&gt; version. The &lt;c5&gt;files&lt;/c5&gt; method therefore returns &lt;c6&gt;seal-2.0&lt;/c6&gt; as a transitive dependency of&lt;c7&gt;orca&lt;/c7&gt;. The copied configuration only has &lt;c8&gt;orca&lt;/c8&gt; as a dependency and therefore there is no version conflict and &lt;c9&gt;seal-1.0&lt;/c9&gt; is returned as a transitive dependency.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T153157Z" creationid="huanghaohang" creationdate="20190602T153157Z">
-        <seg>In the example above, &lt;c0&gt;orca&lt;/c0&gt; has a dependency on &lt;c1&gt;seal-1.0&lt;/c1&gt; whereas &lt;c2&gt;shark&lt;/c2&gt; has a dependency on&lt;c3&gt;seal-2.0&lt;/c3&gt;. The original configuration has therefore a version conflict which is resolved to the newer &lt;c4&gt;seal-2.0&lt;/c4&gt; version. The &lt;c5&gt;files&lt;/c5&gt; method therefore returns &lt;c6&gt;seal-2.0&lt;/c6&gt; as a transitive dependency of&lt;c7&gt;orca&lt;/c7&gt;. The copied configuration only has &lt;c8&gt;orca&lt;/c8&gt; as a dependency and therefore there is no version conflict and &lt;c9&gt;seal-1.0&lt;/c9&gt; is returned as a transitive dependency.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T153553Z" creationid="huanghaohang" creationdate="20190602T153157Z">
+        <seg>在上面的例子中，&lt;c0&gt;orca&lt;/c0&gt; 依赖于 &lt;c1&gt;seal-1.0&lt;/c1&gt; ，而 &lt;c2&gt;shark&lt;/c2&gt; 依赖于 &lt;c3&gt;seal-2.0&lt;/c3&gt;。 原配置因此有版本冲突，所以解析为较新的 &lt;c4&gt;seal-2.0&lt;/c4&gt; 版本。 &lt;c5&gt;&lt;/c5&gt; 方法也因此返回 &lt;c6&gt;seal-2.0&lt;/c6&gt; 作为 &lt;c7&gt;orca&lt;/c7&gt; 的传递依赖。而复制的配置只有 &lt;c8&gt;orca&lt;/c8&gt; 依赖，故而不存在版本冲突，所以 &lt;c9&gt;seal-1.0&lt;/c9&gt; 作为传递依赖被返回。</seg>
       </tuv>
     </tu>
     <tu>
