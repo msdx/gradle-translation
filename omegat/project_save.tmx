@@ -6500,6 +6500,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4.9. Dependency configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140948Z" creationid="huanghaohang" creationdate="20190602T140948Z">
+        <seg>50.4.9. 依赖配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.4. How to declare your dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153710Z" creationid="huanghaohang" creationdate="20190527T153710Z">
@@ -8310,6 +8318,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;"commons-cli:commons-cli:1.0@jar"&lt;/s1&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140940Z" creationid="huanghaohang" creationdate="20190602T140940Z">
+        <seg>&lt;s1&gt;"commons-cli:commons-cli:1.0@jar"&lt;/s1&gt;,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;// Disable the test report for the individual test task&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T044001Z" creationid="huanghaohang" creationdate="20180406T044001Z">
@@ -8374,6 +8390,18 @@ task taskY &lt;&lt; {</seg>
         <seg>&lt;s1&gt;throw&lt;/s1&gt; &lt;s2&gt;new&lt;/s2&gt; RuntimeException()
 }
 task taskY &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;"org.apache.ant:ant:1.9.3@jar"&lt;/s2&gt;]
+List hibernate = [&lt;s3&gt;'org.hibernate:hibernate:3.0.5@jar'&lt;/s3&gt;, &lt;s4&gt;'somegroup:someorg:1.0@jar'&lt;/s4&gt;]
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140940Z" creationid="huanghaohang" creationdate="20190602T140940Z">
+        <seg>&lt;s2&gt;"org.apache.ant:ant:1.9.3@jar"&lt;/s2&gt;]
+List hibernate = [&lt;s3&gt;'org.hibernate:hibernate:3.0.5@jar'&lt;/s3&gt;, &lt;s4&gt;'somegroup:someorg:1.0@jar'&lt;/s4&gt;]
+dependencies {</seg>
       </tuv>
     </tu>
     <tu>
@@ -14936,6 +14964,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.15. Optional attributes of dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140740Z" creationid="huanghaohang" creationdate="20190602T140740Z">
+        <seg>示例 50.15. 依赖的可选属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.16. Collections and arrays of dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140938Z" creationid="huanghaohang" creationdate="20190602T140938Z">
+        <seg>示例 50.16. 依赖的集合和数组</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.2. Accessing a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153618Z" creationid="huanghaohang" creationdate="20190527T153618Z">
@@ -17272,6 +17316,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Gradle a dependency can have different configurations (as your project can have different configurations). If you don't specify anything explicitly, Gradle uses the default configuration of the dependency. For dependencies from a Maven repository, the default configuration is the only available one anyway. If you work with Ivy repositories and want to declare a non-default configuration for your dependency you have to use the map notation and declare:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141431Z" creationid="huanghaohang" creationdate="20190602T141431Z">
+        <seg>在 Gradle 中，一个依赖可以有不同的配置（就像你的项目可以有不同的配置）。如果未显式指定任何内容，那么 Gradle 会使用依赖的默认配置。对于 Maven 仓库的依赖，默认配置是唯一可用的配置。 如果你使用 Ivy 仓库并且想为依赖声明一个非默认配置，那么必须使用映射表示法并声明：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In Gradle dependencies are grouped into &lt;e0&gt;configurations&lt;/e0&gt;. A configuration is simply a named set of dependencies. We will refer to them as &lt;e1&gt;dependency configurations&lt;/e1&gt;. You can use them to declare the external dependencies of your project. As we will see later, they are also used to declare the publications of your project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T032324Z" creationid="huanghaohang" creationdate="20170908T032324Z">
@@ -18004,6 +18056,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221513Z" creationid="huanghaohang" creationdate="20180105T221513Z">
         <seg>级别</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>List groovy = [&lt;s0&gt;"org.codehaus.groovy:groovy-all:2.3.3@jar"&lt;/s0&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140939Z" creationid="huanghaohang" creationdate="20190602T140939Z">
+        <seg>List groovy = [&lt;s0&gt;"org.codehaus.groovy:groovy-all:2.3.3@jar"&lt;/s0&gt;,</seg>
       </tuv>
     </tu>
     <tu>
@@ -26536,6 +26596,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092733Z" creationid="huanghaohang" creationdate="20190124T092733Z">
         <seg>你还可以从 init 脚本中应用这个插件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also assign collections or arrays of dependency notations to a configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140932Z" creationid="huanghaohang" creationdate="20190602T140932Z">
+        <seg>你也可以将依赖的集合或数组指定给配置：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36191,6 +36259,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>runtime &lt;s0&gt;":junit:4.10"&lt;/s0&gt;, &lt;s1&gt;":testng"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140742Z" creationid="huanghaohang" creationdate="20190602T140742Z">
+        <seg>runtime &lt;s0&gt;":junit:4.10"&lt;/s0&gt;, &lt;s1&gt;":testng"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runtime &lt;s0&gt;"org.groovy:groovy:2.2.0@jar"&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044311Z" creationid="huanghaohang" creationdate="20190531T044311Z">
@@ -36233,6 +36309,16 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>runtime groovy, hibernate
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140942Z" creationid="huanghaohang" creationdate="20190602T140942Z">
+        <seg>runtime groovy, hibernate
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>runtime group: &lt;s0&gt;'org.springframework'&lt;/s0&gt;, name: &lt;s1&gt;'spring-core'&lt;/s1&gt;, version: &lt;s2&gt;'2.5'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160753Z" creationid="huanghaohang" creationdate="20190527T160753Z">
@@ -36263,6 +36349,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051418Z" creationid="huanghaohang" creationdate="20190531T051418Z">
         <seg>runtime module(&lt;s0&gt;"org.codehaus.groovy:groovy:2.3.3"&lt;/s0&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime name: &lt;s2&gt;'testng'&lt;/s2&gt; 
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140742Z" creationid="huanghaohang" creationdate="20190602T140742Z">
+        <seg>runtime name: &lt;s2&gt;'testng'&lt;/s2&gt; 
+}</seg>
       </tuv>
     </tu>
     <tu>
