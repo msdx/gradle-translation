@@ -6492,6 +6492,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.4.8. Optional attributes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140048Z" creationid="huanghaohang" creationdate="20190602T140048Z">
+        <seg>50.4.8. 可选属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.4. How to declare your dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153710Z" creationid="huanghaohang" creationdate="20190527T153710Z">
@@ -10558,6 +10566,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T034850Z" creationid="haohang" creationdate="20180313T034602Z">
         <seg>项目中的所有归档任务，包括 &lt;c0&gt;jar&lt;/c0&gt;。有些插件会向项目添加另外的归档任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All attributes for a dependency are optional, except the name. It depends on the repository type, which information is need for actually finding the dependencies in the repository. See &lt;a0&gt;Section 50.6, “Repositories”&lt;/a0&gt;. If you work for example with Maven repositories, you need to define the group, name and version. If you work with filesystem repositories you might only need the name or the name and the version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140736Z" creationid="huanghaohang" creationdate="20190602T140052Z">
+        <seg>依赖的所有属性除了名称之外都是可选的。这取决于仓库类型，这些信息实际上用于查找仓库中的依赖。请参阅 &lt;a0&gt;第50.6节，《存储库》&lt;/a0&gt;。 比如如果你使用 Maven 仓库，那么就需要定义组，名称及版本。如果你使用文件系统仓库，那么可能只需要名称或名称及版本。</seg>
       </tuv>
     </tu>
     <tu>
