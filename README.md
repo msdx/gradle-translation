@@ -1,7 +1,7 @@
 Gradle 翻译
 ===
 
-此项目为 Gradle 翻译项目，使用 OmegaT 辅助翻译软件，目前翻译版本为 Gradle 1.12。翻译的章节，将合并到 [msdx/gradledoc](https://github.com/msdx/gradledoc) 项目当中。
+此项目为 Gradle 翻译项目，使用 OmegaT 辅助翻译软件，目前翻译版本为 Gradle 2.0。翻译的章节，将合并到 [msdx/gradledoc](https://github.com/msdx/gradledoc) 项目当中。
 
 
 加入翻译
@@ -21,12 +21,7 @@ Gradle 翻译
 
 **4.使用翻译引擎辅助翻译**
 
-在OmegaT当中，你可以使用翻译引擎。必应API申请教程可以参考此帖：`http://www.5icat.cn/thread-7180-1-1.html`。然后打开OmegaT的安装目录的`OmegaT.l4J.ini`文件，加上以下代码：
-```
--Dmicrosoft.api.client_id=你申请的APP ID 
--Dmicrosoft.api.client_secret=你申请的APP SECRET
-```
-接着在OmegaT的选项菜单中，选择机器翻译，勾上Microsoft Translator，并把界面底部的机器翻译窗口拖到右下角即可。
+在OmegaT当中，你可以使用翻译引擎。目前最新的 OmegaT 版本所支持的翻译引擎中，推荐使用 IBM Waston，每月有不小的免费额度且翻译质量较高。
 
 **5.开始翻译**
 
@@ -34,7 +29,7 @@ Gradle 翻译
 
 翻译计划
 ---
-目前先翻译1.12版本，翻译完成后，branch出1.12的分支，然后升级到2.0，继续翻译，以此类推。
+目前在翻译2.0版本，翻译完成后，打tag，然后升级到2.14，继续翻译，以此类推。
 
 由于使用了计算机辅助翻译软件，有翻译记忆库，更新版本的翻译效率会提高很多。
 
