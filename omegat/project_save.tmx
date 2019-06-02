@@ -1298,6 +1298,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/ProjectDependency.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190601T112309Z" creationid="huanghaohang" creationdate="20190601T112309Z">
+        <seg>../javadoc/org/gradle/api/artifacts/ProjectDependency.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/distribution/Distribution.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T061006Z" creationid="huanghaohang" creationdate="20190128T061006Z">
@@ -6400,6 +6408,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051212Z" creationid="huanghaohang" creationdate="20190531T051212Z">
         <seg>50.4.2. 客户端模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.4.3. Project dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190601T112114Z" creationid="huanghaohang" creationdate="20190601T112114Z">
+        <seg>50.4.3. 项目依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.4.4. File dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190601T112418Z" creationid="huanghaohang" creationdate="20190601T112418Z">
+        <seg>50.4.4. 文件依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -14828,6 +14852,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.9. Project dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190601T112307Z" creationid="huanghaohang" creationdate="20190601T112307Z">
+        <seg>示例 50.9. 项目依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -15388,6 +15420,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>File dependencies allow you to directly add a set of files to a configuration, without first adding them to a repository. This can be useful if you cannot, or do not want to, place certain files in a repository. Or if you do not want to use any repositories at all for storing your dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190601T112427Z" creationid="huanghaohang" creationdate="20190601T112427Z">
+        <seg>File dependencies allow you to directly add a set of files to a configuration, without first adding them to a repository. This can be useful if you cannot, or do not want to, place certain files in a repository. Or if you do not want to use any repositories at all for storing your dependencies.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>File dependency</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153925Z" creationid="huanghaohang" creationdate="20190527T153925Z">
@@ -15640,6 +15680,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130931Z" creationid="huanghaohang" creationdate="20170919T130931Z">
         <seg>有关任务依赖的详细信息，请参阅&lt;a0&gt;&lt;c1&gt;Task&lt;/c1&gt;&lt;/a0&gt;的 API。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For more information see the API documentation for &lt;a0&gt;&lt;c1&gt;ProjectDependency&lt;/c1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190601T112323Z" creationid="huanghaohang" creationdate="20190601T112323Z">
+        <seg>详细信息请参阅&lt;a0&gt;&lt;c1&gt;ProjectDependency&lt;/c1&gt;&lt;/a0&gt;的 API 文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16240,6 +16288,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T135300Z" creationid="huanghaohang" creationdate="20180712T135300Z">
         <seg>Gradle 默认值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle distinguishes between external dependencies and dependencies on projects which are part of the same multi-project build. For the latter you can declare &lt;e0&gt;Project Dependencies&lt;/e0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190601T112301Z" creationid="huanghaohang" creationdate="20190601T112125Z">
+        <seg>对于多项目构建，Gradle 能区分外部依赖与作为多项目构建的一部分的某个子项目上的依赖。对于后者，你可以声明&lt;e0&gt;项目依赖&lt;/e0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17148,6 +17204,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In the current release client modules have one limitation. Let's say your project is a library and you want this library to be uploaded to your company's Maven or Ivy repository. Gradle uploads the jars of your project to the company repository together with the XML descriptor file of the dependencies. If you use client modules the dependency declaration in the XML descriptor file is not correct. We will improve this in a future release of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190601T112105Z" creationid="huanghaohang" creationdate="20190531T051832Z">
+        <seg>当前版本的客户端模块中有一个限制。假设你的项目是一个库，你想要将这个库上传到公司的 Maven 或 Ivy 仓库，Gradle 会将项目的 jar 包与依赖的 XML 描述符文件一起上传到公司仓库中。如果你使用了客户端模块，那么 XML 描述符文件中的依赖声明就会不正确。我们会在 Gradle 的未来版本中改善这一点。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In the example above, the content of the "&lt;c0&gt;src/readme&lt;/c0&gt;" directory will be included in the distribution (along with the files in the "&lt;c1&gt;src/dist/main&lt;/c1&gt;" directory which are added by default).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T061322Z" creationid="huanghaohang" creationdate="20190128T061322Z">
@@ -18040,6 +18104,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T042054Z" creationid="95" creationdate="20170722T042054Z">
         <seg>多项目构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multi-project builds are discussed in&lt;a0&gt;Chapter 56, &lt;i1&gt;Multi-project Builds&lt;/i1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190601T112408Z" creationid="huanghaohang" creationdate="20190601T112408Z">
+        <seg>多项目构建将在&lt;a0&gt;第 56 章，《&lt;i1&gt;多项目构建&lt;/i1&gt;》&lt;/a0&gt;中进行详述。</seg>
       </tuv>
     </tu>
     <tu>
