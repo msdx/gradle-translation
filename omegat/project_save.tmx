@@ -11188,8 +11188,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>Basically, in most of the cases excluding the transitive dependency should be done per configuration. This way the dependency declaration is more explicit. It is also more accurate because a per-dependency exclude rule does not guarantee the given transitive dependency does not show up in the configuration. For example, some other dependency, which does not have any exclude rules, might pull in that unwanted transitive dependency.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T133514Z" creationid="huanghaohang" creationdate="20190602T114331Z">
-        <seg>基本上，大多数情况下，排除依赖应该对每个配置进行处理。 这样，依赖性声明就更为明确。 由于每个依赖关系排除规则不保证给定的传递依赖性不会显示在配置中，因此它更准确。 例如，某些其他依赖关系(不含任何排除规则)可能会导致此不需要的传递依赖关系。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140012Z" creationid="huanghaohang" creationdate="20190602T114331Z">
+        <seg>基本上，大多数情况下，应该对配置排除依赖，这样依赖声明就更加明确。它也更加准确，因为对依赖的排除规则不保证给定的传递依赖不会显示在配置中。例如，其他某些不含任何排除规则的依赖可能会带上那个不需要的传递依赖。</seg>
       </tuv>
     </tu>
     <tu>
