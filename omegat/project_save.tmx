@@ -17138,8 +17138,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If you define an exclude for a particular configuration, the excluded transitive dependency will be filtered for all dependencies when resolving this configuration or any inheriting configuration. If you want to exclude a transitive dependency from all your configurations you can use the Groovy spread-dot operator to express this in a concise way, as shown in the example. When defining an exclude, you can specify either only the organization or only the module name or both. Have also a look at the API documentation of &lt;a0&gt;&lt;c1&gt;Dependency&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Configuration&lt;/c3&gt;&lt;/a2&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T105701Z" creationid="huanghaohang" creationdate="20190602T105701Z">
-        <seg>If you define an exclude for a particular configuration, the excluded transitive dependency will be filtered for all dependencies when resolving this configuration or any inheriting configuration. If you want to exclude a transitive dependency from all your configurations you can use the Groovy spread-dot operator to express this in a concise way, as shown in the example. When defining an exclude, you can specify either only the organization or only the module name or both. Have also a look at the API documentation of &lt;a0&gt;&lt;c1&gt;Dependency&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Configuration&lt;/c3&gt;&lt;/a2&gt;.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T112946Z" creationid="huanghaohang" creationdate="20190602T105701Z">
+        <seg>如果你为一个特定配置定义了排除，那么解析这个配置或任何继承的配置时，所有依赖的被排除的传递依赖都会被过滤掉。如果你要从所有配置中排除传递依赖，那么可以使用一种简明的方式，使用 Groovy 的 spread-dot 运算符来表示此操作，如示例中所示。定义排除时，你可以只指定组织或只指定模块名称，或者两者都指定。另请查看 &lt;a0&gt;&lt;c1&gt;Dependency&lt;/c1&gt;&lt;/a0&gt; 和 &lt;a2&gt;&lt;c3&gt;Configuration&lt;/c3&gt;&lt;/a2&gt; 的 API 文档。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18284,6 +18284,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T025216Z" creationid="huanghaohang" creationdate="20181210T025216Z">
         <seg>None</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Not every transitive dependency can be excluded - some transitive dependencies might be essential for correct runtime behavior of the application. Generally, one can exclude transitive dependencies that are either not required by runtime or that are guaranteed to be available on the target environment/platform.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T113218Z" creationid="huanghaohang" creationdate="20190602T112947Z">
+        <seg>并非每个传递依赖都可以排除_某些传递依赖可能对于入驻正确的运行时行为至关重要。通常，可以排除的传递依赖，是在运行时不需要，或者是保证在目标环境或平台上可用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20020,6 +20028,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031841Z" creationid="huanghaohang" creationdate="20170927T031841Z">
         <seg>快捷符号</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Should you exclude per-dependency or per-configuration? It turns out that in majority of cases you want to use the per-configuration exclusion. Here are the some exemplary reasons why one might want to exclude a transitive dependency. Bear in mind that for some of those use cases there are better solutions than exclusions!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T113324Z" creationid="huanghaohang" creationdate="20190602T113324Z">
+        <seg>Should you exclude per-dependency or per-configuration? It turns out that in majority of cases you want to use the per-configuration exclusion. Here are the some exemplary reasons why one might want to exclude a transitive dependency. Bear in mind that for some of those use cases there are better solutions than exclusions!</seg>
       </tuv>
     </tu>
     <tu>
