@@ -6620,6 +6620,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6.7. Ivy repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T040835Z" creationid="huanghaohang" creationdate="20190603T040835Z">
+        <seg>Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.6. Repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T160211Z" creationid="huanghaohang" creationdate="20190602T160211Z">
@@ -15418,6 +15426,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.33. Flat repository resolver</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T040556Z" creationid="huanghaohang" creationdate="20190603T040556Z">
+        <seg>示例 50.33. 平面仓库解析器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.4. Module dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160752Z" creationid="huanghaohang" creationdate="20190527T160752Z">
@@ -17124,8 +17140,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Gradle uses the same logic as Maven to identify the location of your local Maven cache. If a local repository location is defined in a &lt;c0&gt;settings.xml&lt;/c0&gt;, this location will be used. The &lt;c1&gt;settings.xml&lt;/c1&gt; in &lt;c2&gt;&lt;e3&gt;&lt;c4&gt;USER_HOME&lt;/c4&gt;&lt;/e3&gt;/.m2&lt;/c2&gt; takes precedence over the &lt;c5&gt;settings.xml&lt;/c5&gt; in &lt;c6&gt;&lt;e7&gt;&lt;c8&gt;M2_HOME&lt;/c8&gt;&lt;/e7&gt;/conf&lt;/c6&gt;. If no &lt;c9&gt;settings.xml&lt;/c9&gt; is available, Gradle uses the default location &lt;c10&gt;&lt;e11&gt;&lt;c12&gt;USER_HOME&lt;/c12&gt;&lt;/e11&gt;/.m2/repository&lt;/c10&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033554Z" creationid="huanghaohang" creationdate="20190603T033554Z">
-        <seg>Gradle 使用与 Maven 相同的逻辑来标识本地 Maven 缓存的位置。如果在 &lt;c0&gt;settings.xml&lt;/c0&gt; 中定义了本地仓库位置，那么将使用此位置。 &lt;c2&gt;&lt;e3&gt;&lt;e3&gt;&lt;c4&gt;USER_HOME&lt;/c4&gt;&lt;/e3&gt;/.m2&lt;/c2&gt; 中的 &lt;c1&gt;settings.xml&lt;/c1&gt; 优先级高于 &lt;c6&gt;&lt;c6&gt;&lt;e7&gt;&lt;c8&gt;M2_HOME&lt;/c8&gt;&lt;/e7&gt;/conf&lt;/c6&gt; 中的 &lt;c5&gt;settings.xml&lt;/c5&gt;。如果没有 &lt;c9&gt;settings.xml&lt;/c9&gt; 可用，Gradle将使用默认位置 &lt;c10&gt;&lt;e11&gt;&lt;c12&gt;USER_HOME&lt;/c12&gt;&lt;/e11&gt;/.m2/repository&lt;/c10&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T040833Z" creationid="huanghaohang" creationdate="20190603T033554Z">
+        <seg>Gradle 使用与 Maven 相同的逻辑来标识本地 Maven 缓存的位置。如果在 &lt;c0&gt;settings.xml&lt;/c0&gt; 中定义了本地仓库位置，那么将使用此位置。 &lt;c2&gt;&lt;e3&gt;&lt;c4&gt;USER_HOME&lt;/c4&gt;&lt;/e3&gt;/.m2&lt;/c2&gt; 中的 &lt;c1&gt;settings.xml&lt;/c1&gt; 优先级高于 &lt;c6&gt;&lt;e7&gt;&lt;c8&gt;M2_HOME&lt;/c8&gt;&lt;/e7&gt;/conf&lt;/c6&gt; 中的 &lt;c5&gt;settings.xml&lt;/c5&gt;。如果没有 &lt;c9&gt;settings.xml&lt;/c9&gt; 可用，Gradle将使用默认位置 &lt;c10&gt;&lt;e11&gt;&lt;c12&gt;USER_HOME&lt;/c12&gt;&lt;/e11&gt;/.m2/repository&lt;/c10&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17740,8 +17756,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If you want to use a (flat) filesystem directory as a repository, simply type:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T040447Z" creationid="huanghaohang" creationdate="20190603T040447Z">
-        <seg>如果你想要把一个（平面）文件系统目录作为仓库使用，只需输入：</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T040522Z" creationid="huanghaohang" creationdate="20190603T040447Z">
+        <seg>如果想要把一个（平面）文件系统目录用作仓库，只需简单输入：</seg>
       </tuv>
     </tu>
     <tu>
@@ -25366,6 +25382,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This adds repositories which look into one or more directories for finding dependencies. If you only work with flat directory resolvers you don't need to set all attributes of a dependency. See &lt;a0&gt;Section 50.4.8, “Optional attributes”&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041009Z" creationid="huanghaohang" creationdate="20190603T040614Z">
+        <seg>这将添加一些在一个或多个目录查找依赖的仓库。如果你只使用平面目录解析器，那么不需要设置依赖的所有属性。请参阅 &lt;a0&gt;第 50.4.8 节，《可选属性》&lt;/a0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This also applies the Java plugin to your project. Running &lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt; will compile, test and WAR your project. Gradle will look for the source files to include in the WAR file in &lt;c2&gt;src/main/webapp&lt;/c2&gt;. Your compiled classes, and their runtime dependencies are also included in the WAR file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T005149Z" creationid="huanghaohang" creationdate="20170909T004741Z">
@@ -30850,6 +30874,14 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependency_management.html#para:dependencies_with_empty_attributes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T040602Z" creationid="huanghaohang" creationdate="20190603T040602Z">
+        <seg>dependency_management.html#para:dependencies_with_empty_attributes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependency_management.html#sec:Introduction</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190410T003939Z" creationid="huanghaohang" creationdate="20190410T003939Z">
@@ -31216,6 +31248,14 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dirs &lt;s0&gt;'lib'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T040557Z" creationid="huanghaohang" creationdate="20190603T040557Z">
+        <seg>dirs &lt;s0&gt;'lib'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dirs &lt;s0&gt;'repos'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T153709Z" creationid="95" creationdate="20170731T153709Z">
@@ -31228,6 +31268,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154119Z" creationid="95" creationdate="20170731T154119Z">
         <seg>dirs &lt;s15&gt;'repos'&lt;/s15&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dirs &lt;s1&gt;'lib1'&lt;/s1&gt;, &lt;s2&gt;'lib2'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T040559Z" creationid="huanghaohang" creationdate="20190603T040559Z">
+        <seg>dirs &lt;s1&gt;'lib1'&lt;/s1&gt;, &lt;s2&gt;'lib2'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
