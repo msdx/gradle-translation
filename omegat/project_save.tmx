@@ -474,6 +474,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.artifacts.repositories.IvyArtifactRepository.html#org.gradle.api.artifacts.repositories.IvyArtifactRepository:layout(java.lang.String, groovy.lang.Closure)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041509Z" creationid="huanghaohang" creationdate="20190603T041509Z">
+        <seg>../dsl/org.gradle.api.artifacts.repositories.IvyArtifactRepository.html#org.gradle.api.artifacts.repositories.IvyArtifactRepository:layout(java.lang.String, groovy.lang.Closure)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.distribution.DistributionContainer.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T093714Z" creationid="huanghaohang" creationdate="20190124T093714Z">
@@ -6630,8 +6638,8 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       <tuv lang="EN-US">
         <seg>50.6.7.2. Defining a named layout for an Ivy repository</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041257Z" creationid="huanghaohang" creationdate="20190603T041157Z">
-        <seg>50.6.7.2. 为 Ivy 仓库定义指定布局</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041336Z" creationid="huanghaohang" creationdate="20190603T041157Z">
+        <seg>50.6.7.2. 为 Ivy 仓库定义指定名称的布局</seg>
       </tuv>
     </tu>
     <tu>
@@ -15454,6 +15462,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041115Z" creationid="huanghaohang" creationdate="20190603T041115Z">
         <seg>示例 50.34. Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.35. Ivy repository with named layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041505Z" creationid="huanghaohang" creationdate="20190603T041505Z">
+        <seg>示例50.35. 使用指定名称的布局的 Ivy 仓库</seg>
       </tuv>
     </tu>
     <tu>
@@ -26606,6 +26622,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Valid named layout values are &lt;c0&gt;'gradle'&lt;/c0&gt; (the default), &lt;c1&gt;'maven'&lt;/c1&gt; and &lt;c2&gt;'ivy'&lt;/c2&gt;. See &lt;a3&gt;&lt;c4&gt;IvyArtifactRepository.layout()&lt;/c4&gt;&lt;/a3&gt; for details of these named layouts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041658Z" creationid="huanghaohang" creationdate="20190603T041658Z">
+        <seg>布局名称的有效值为 &lt;c0&gt;'gradle'&lt;/c0&gt; （默认值）,&lt;c1&gt;'maven'&lt;/c1&gt; 和 &lt;c2&gt;'ivy'&lt;/c2&gt;。有关这些指定的布局，请参阅 &lt;a3&gt;&lt;c4&gt;IvyArtifactRepository.layout()&lt;/c4&gt;&lt;/a3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Value of the current used JVM</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180314T094323Z" creationid="haohang" creationdate="20180314T094323Z">
@@ -27744,8 +27768,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>You can specify that your repository conforms to the Ivy or Maven default layout by using a named layout.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041237Z" creationid="huanghaohang" creationdate="20190603T041205Z">
-        <seg>通过使用指定的布局，可以指定存储库符合Ivy或Maven缺省布局。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041433Z" creationid="huanghaohang" creationdate="20190603T041205Z">
+        <seg>通过使用指定名称的布局，可以指定仓库遵循 Ivy 或 Maven 的默认布局。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34618,6 +34642,14 @@ dependencies {</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085356Z" creationid="huanghaohang" creationdate="20181012T085356Z">
         <seg>language = System.getProperty(&lt;s0&gt;"sonar.language"&lt;/s0&gt;, &lt;s1&gt;"java"&lt;/s1&gt;)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>layout &lt;s1&gt;"maven"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041507Z" creationid="huanghaohang" creationdate="20190603T041507Z">
+        <seg>layout &lt;s1&gt;"maven"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
