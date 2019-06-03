@@ -6596,6 +6596,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6.5.1. Accessing password protected Maven repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T034004Z" creationid="huanghaohang" creationdate="20190603T033915Z">
+        <seg>50.6.5.1. 访问受密码保护的 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.6.5. Maven repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033559Z" creationid="huanghaohang" creationdate="20190603T033559Z">
@@ -7982,6 +7990,14 @@ apply(map)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Look for POMs and artifacts, such as JARs, here&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033843Z" creationid="huanghaohang" creationdate="20190603T033843Z">
+        <seg>&lt;s0&gt;// Look for POMs and artifacts, such as JARs, here&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// URL can refer to a local directory&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T045145Z" creationid="huanghaohang" creationdate="20170908T045145Z">
@@ -8514,6 +8530,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075017Z" creationid="huanghaohang" creationdate="20171015T075017Z">
         <seg>&lt;s2&gt;// Copy a single file&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Look for artifacts here if not found at the above location&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033845Z" creationid="huanghaohang" creationdate="20190603T033845Z">
+        <seg>&lt;s2&gt;// Look for artifacts here if not found at the above location&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15370,6 +15394,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.31. Adding additional Maven repositories for JAR files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033842Z" creationid="huanghaohang" creationdate="20190603T033842Z">
+        <seg>示例 50.31. 为 JAR 文件添加额外的 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.32. Accessing password protected Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T034059Z" creationid="huanghaohang" creationdate="20190603T034059Z">
+        <seg>示例 50.32. 访问受密码保护的 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.4. Module dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160752Z" creationid="huanghaohang" creationdate="20190527T160752Z">
@@ -17090,6 +17130,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle will look at the first URL for the POM and the JAR. If the JAR can't be found there, the artifact URLs are used to look for JARs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033945Z" creationid="huanghaohang" creationdate="20190603T033913Z">
+        <seg>Gradle 将会在第一个 URL 查找 POM 和 JAR 文件。如果那里找不到 JAR，那么会使用工件 URL 来查找 JAR。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle's build scripts are written in Groovy, not XML. But unlike other approaches this is not for simply exposing the raw scripting power of a dynamic language. That would just lead to a very difficult to maintain build. The whole design of Gradle is oriented towards being used as a language, not as a rigid framework. And Groovy is our glue that allows you to tell your individual story with the abstractions Gradle (or you) provide. Gradle provides some standard stories but they are not privileged in any form. This is for us a major distinguishing features compared to other declarative build systems. Our Groovy support is also not just some simple coating sugar layer. The whole Gradle API is fully groovynized. Only by that using Groovy is the fun and productivity gain it can be.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T065134Z" creationid="95" creationdate="20170723T063603Z">
@@ -18094,6 +18142,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T154519Z" creationid="95" creationdate="20190201T154519Z">
         <seg>它具有以下功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is advisable to keep your username and password in &lt;c0&gt;gradle.properties&lt;/c0&gt; rather than directly in the build file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T034142Z" creationid="huanghaohang" creationdate="20190603T034142Z">
+        <seg>建议把你的用户名和密码写在 &lt;c0&gt;gradle.properties&lt;/c0&gt; 中，而不是直接写在构建文件上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25566,6 +25622,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To access a Maven repository which uses basic authentication, you specify the username and password to use when you define the repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T034049Z" creationid="huanghaohang" creationdate="20190603T034049Z">
+        <seg>要访问一个使用基本认证的 Maven 仓库，请在定义该仓库时指定要使用的用户名和密码：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To access a configuration:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153612Z" creationid="huanghaohang" creationdate="20190527T153612Z">
@@ -29090,6 +29154,22 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180318T005946Z" creationid="huanghaohang" creationdate="20180318T005946Z">
         <seg>archivesBaseName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifactUrls &lt;s3&gt;"http://repo.mycompany.com/jars"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033845Z" creationid="huanghaohang" creationdate="20190603T033845Z">
+        <seg>artifactUrls &lt;s3&gt;"http://repo.mycompany.com/jars"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifactUrls &lt;s4&gt;"http://repo.mycompany.com/jars2"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033846Z" creationid="huanghaohang" creationdate="20190603T033846Z">
+        <seg>artifactUrls &lt;s4&gt;"http://repo.mycompany.com/jars2"&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -35323,6 +35403,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>password &lt;s1&gt;'password'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T034100Z" creationid="huanghaohang" creationdate="20190603T034100Z">
+        <seg>password &lt;s1&gt;'password'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>password &lt;s2&gt;'password'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030851Z" creationid="huanghaohang" creationdate="20190603T030851Z">
@@ -39972,10 +40060,26 @@ test {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>url &lt;s1&gt;"http://repo2.mycompany.com/maven2"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033844Z" creationid="huanghaohang" creationdate="20190603T033844Z">
+        <seg>url &lt;s1&gt;"http://repo2.mycompany.com/maven2"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>url &lt;s2&gt;"http://repo.mycompany.com"&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050456Z" creationid="huanghaohang" creationdate="20170908T050456Z">
         <seg>url &lt;s2&gt;"http://repo.mycompany.com"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url &lt;s2&gt;"http://repo.mycompany.com/maven2"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T034102Z" creationid="huanghaohang" creationdate="20190603T034102Z">
+        <seg>url &lt;s2&gt;"http://repo.mycompany.com/maven2"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -40068,6 +40172,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050451Z" creationid="huanghaohang" creationdate="20170908T050451Z">
         <seg>username &lt;s0&gt;"username"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>username &lt;s0&gt;'user'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T034100Z" creationid="huanghaohang" creationdate="20190603T034100Z">
+        <seg>username &lt;s0&gt;'user'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
