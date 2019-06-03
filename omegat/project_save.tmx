@@ -11388,6 +11388,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Authentication schemes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030319Z" creationid="huanghaohang" creationdate="20190603T030319Z">
+        <seg>认证方案</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Automatic configuration of groovyClasspath</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T133203Z" creationid="huanghaohang" creationdate="20180712T133203Z">
@@ -15266,6 +15274,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.25. Declaring a Maven and Ivy repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030655Z" creationid="huanghaohang" creationdate="20190603T030655Z">
+        <seg>示例50.25. 声明 Maven 和 Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.3. Configuration of a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153654Z" creationid="huanghaohang" creationdate="20190527T153654Z">
@@ -17418,6 +17434,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If authentication is required for a repository, the relevant credentials can be provided. The following example shows how to provide username/password-based authentication for SFTP repositories:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030703Z" creationid="huanghaohang" creationdate="20190603T030703Z">
+        <seg>If authentication is required for a repository, the relevant credentials can be provided. The following example shows how to provide username/password-based authentication for SFTP repositories:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If something's not working for you, posting a question or problem report to the forums is the fastest way to get help. It's also the place to post improvement suggestions or new ideas. The development team frequently posts news items and announces releases via the forum, making it a great way to stay up to date with the latest Gradle developments.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T122322Z" creationid="95" creationdate="20170723T122322Z">
@@ -18532,8 +18556,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Maven and Ivy repositories support the use of various transport protocols. At the moment the following protocols are supported:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030146Z" creationid="huanghaohang" creationdate="20190603T030146Z">
-        <seg>Maven and Ivy repositories support the use of various transport protocols. At the moment the following protocols are supported:</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030257Z" creationid="huanghaohang" creationdate="20190603T030146Z">
+        <seg>Maven 和 Ivy 仓库支持使用各种传输协议，当前支持以下协议：</seg>
       </tuv>
     </tu>
     <tu>
@@ -21742,6 +21766,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025802Z" creationid="huanghaohang" creationdate="20190603T025802Z">
         <seg>表 50.2. 仓库类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Table 50.3. Repository transport protocols</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030307Z" creationid="huanghaohang" creationdate="20190603T030307Z">
+        <seg>表50.3 仓库传输协议</seg>
       </tuv>
     </tu>
     <tu>
@@ -25546,6 +25578,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094613Z" creationid="haohang" creationdate="20180326T094530Z">
         <seg>要定义一个新的源集，你只需在 &lt;c0&gt;sourceSets {}&lt;/c0&gt; 块引用它。示例如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To define a repository use the &lt;c0&gt;repositories&lt;/c0&gt; configuration block. Within the &lt;c1&gt;repositories&lt;/c1&gt; closure, a Maven repository is declared with &lt;c2&gt;maven&lt;/c2&gt;. An Ivy repository is declared with &lt;c3&gt;ivy&lt;/c3&gt;. The transport protocol is part of the URL definition for a repository. The following build script demonstrates how to create a HTTP-based Maven and Ivy repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030640Z" creationid="huanghaohang" creationdate="20190603T030401Z">
+        <seg>要定义仓库，请使用 &lt;c0&gt;repositories&lt;/c0&gt; 配置块。在 &lt;c1&gt;repositories&lt;/c1&gt; 闭包中，使用 &lt;c2&gt;maven&lt;/c2&gt; 声明 Maven 仓库，使用 &lt;c3&gt;ivy&lt;/c3&gt; 声明Ivy 仓库。传输协议是仓库 URL 定义的一部分。以下构建脚本演示了如何创建基于 HTTP 的 Maven 和 Ivy 仓库：</seg>
       </tuv>
     </tu>
     <tu>
@@ -31626,6 +31666,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030321Z" creationid="huanghaohang" creationdate="20190603T030321Z">
+        <seg>file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>file(&lt;s12&gt;'src'&lt;/s12&gt;).listFiles().findAll {it.name.endsWith(&lt;s13&gt;'.zip'&lt;/s13&gt;)}.collect { zipTree(it) }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134057Z" creationid="huanghaohang" creationdate="20171002T134057Z">
@@ -32516,6 +32564,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030327Z" creationid="huanghaohang" creationdate="20190603T030327Z">
+        <seg>http</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://checkstyle.sourceforge.net/index.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144401Z" creationid="huanghaohang" creationdate="20180207T144401Z">
@@ -32840,6 +32896,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T144622Z" creationid="huanghaohang" creationdate="20180416T144622Z">
         <seg>httpPort</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030332Z" creationid="huanghaohang" creationdate="20190603T030332Z">
+        <seg>https</seg>
       </tuv>
     </tu>
     <tu>
@@ -34771,6 +34835,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221911Z" creationid="huanghaohang" creationdate="20180105T221911Z">
         <seg>没有日志选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>none</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030326Z" creationid="huanghaohang" creationdate="20190603T030326Z">
+        <seg>无</seg>
       </tuv>
     </tu>
     <tu>
@@ -37363,6 +37435,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sftp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030359Z" creationid="huanghaohang" creationdate="20190603T030359Z">
+        <seg>sftp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>shared/</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154458Z" creationid="95" creationdate="20170731T154458Z">
@@ -39672,6 +39752,14 @@ test {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>url &lt;s1&gt;"http://repo.mycompany.com/repo"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030656Z" creationid="huanghaohang" creationdate="20190603T030656Z">
+        <seg>url &lt;s1&gt;"http://repo.mycompany.com/repo"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>url &lt;s2&gt;"http://repo.mycompany.com"&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050456Z" creationid="huanghaohang" creationdate="20170908T050456Z">
@@ -39792,6 +39880,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092208Z" creationid="huanghaohang" creationdate="20190124T092208Z">
         <seg>username, password</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>username/password</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030330Z" creationid="huanghaohang" creationdate="20190603T030330Z">
+        <seg>用户名/密码</seg>
       </tuv>
     </tu>
     <tu>
