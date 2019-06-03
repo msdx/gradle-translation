@@ -17050,6 +17050,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle uses the same logic as Maven to identify the location of your local Maven cache. If a local repository location is defined in a &lt;c0&gt;settings.xml&lt;/c0&gt;, this location will be used. The &lt;c1&gt;settings.xml&lt;/c1&gt; in &lt;c2&gt;&lt;e3&gt;&lt;c4&gt;USER_HOME&lt;/c4&gt;&lt;/e3&gt;/.m2&lt;/c2&gt; takes precedence over the &lt;c5&gt;settings.xml&lt;/c5&gt; in &lt;c6&gt;&lt;e7&gt;&lt;c8&gt;M2_HOME&lt;/c8&gt;&lt;/e7&gt;/conf&lt;/c6&gt;. If no &lt;c9&gt;settings.xml&lt;/c9&gt; is available, Gradle uses the default location &lt;c10&gt;&lt;e11&gt;&lt;c12&gt;USER_HOME&lt;/c12&gt;&lt;/e11&gt;/.m2/repository&lt;/c10&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033554Z" creationid="huanghaohang" creationdate="20190603T033554Z">
+        <seg>Gradle 使用与 Maven 相同的逻辑来标识本地 Maven 缓存的位置。如果在 &lt;c0&gt;settings.xml&lt;/c0&gt; 中定义了本地仓库位置，那么将使用此位置。 &lt;c2&gt;&lt;e3&gt;&lt;e3&gt;&lt;c4&gt;USER_HOME&lt;/c4&gt;&lt;/e3&gt;/.m2&lt;/c2&gt; 中的 &lt;c1&gt;settings.xml&lt;/c1&gt; 优先级高于 &lt;c6&gt;&lt;c6&gt;&lt;e7&gt;&lt;c8&gt;M2_HOME&lt;/c8&gt;&lt;/e7&gt;/conf&lt;/c6&gt; 中的 &lt;c5&gt;settings.xml&lt;/c5&gt;。如果没有 &lt;c9&gt;settings.xml&lt;/c9&gt; 可用，Gradle将使用默认位置 &lt;c10&gt;&lt;e11&gt;&lt;c12&gt;USER_HOME&lt;/c12&gt;&lt;/e11&gt;/.m2/repository&lt;/c10&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle uses whichever JDK it finds in your path (to check, use &lt;s0&gt;&lt;c1&gt;java -version&lt;/c1&gt;&lt;/s0&gt;). Alternatively, you can set the &lt;c2&gt;JAVA_HOME&lt;/c2&gt; environment variable to point to the install directory of the desired JDK.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114331Z" creationid="95" creationdate="20170723T114023Z">
@@ -34705,6 +34713,16 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051008Z" creationid="huanghaohang" creationdate="20170908T051008Z">
         <seg>mavenDeployer {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>mavenLocal()
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031705Z" creationid="huanghaohang" creationdate="20190603T031705Z">
+        <seg>mavenLocal()
+}</seg>
       </tuv>
     </tu>
     <tu>
