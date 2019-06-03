@@ -6588,6 +6588,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6.4. Local Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031601Z" creationid="huanghaohang" creationdate="20190603T031601Z">
+        <seg>50.6.4. 本地 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.6. Repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T160211Z" creationid="huanghaohang" creationdate="20190602T160211Z">
@@ -7236,6 +7244,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T095112Z" creationid="haohang" creationdate="20180320T095112Z">
         <seg>&lt;a0&gt;&lt;c1&gt;SourceSetOutput&lt;/c1&gt;&lt;/a0&gt; （只读）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Bintray&lt;/a0&gt;'s JCenter is an up-to-date collection of all popular Maven OSS artifacts, including artifacts published directly to Bintray.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031456Z" creationid="huanghaohang" creationdate="20190603T031456Z">
+        <seg>&lt;a0&gt;Bintray&lt;/a0&gt; 的 JCenter 是所有流行的 Maven OSS 工件（包括直接发布到 Bintray 的工件）的最新集合。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15314,6 +15330,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.28. Adding Bintray's JCenter Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031544Z" creationid="huanghaohang" creationdate="20190603T031544Z">
+        <seg>示例 50.28. 添加 Bintray 的 Jcenter Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.29. Adding the local Maven cache as a repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031704Z" creationid="huanghaohang" creationdate="20190603T031704Z">
+        <seg>示例 50.29. 将本地 Maven 缓存添加为仓库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.3. Configuration of a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153654Z" creationid="huanghaohang" creationdate="20190527T153654Z">
@@ -18886,6 +18918,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092150Z" creationid="huanghaohang" creationdate="20190124T092150Z">
         <seg>通知服务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now Gradle will look for your dependencies in the JCenter repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031549Z" creationid="huanghaohang" creationdate="20190603T031549Z">
+        <seg>现在 Gradle 将会在 JCenter 仓库中查找你的依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25510,6 +25550,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To add the JCenter Maven repository (&lt;a0&gt;http://jcenter.bintray.com&lt;/a0&gt;) simply add this to your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031523Z" creationid="huanghaohang" creationdate="20190603T031523Z">
+        <seg>若要添加 JCenter Maven 仓库（&lt;a0&gt;http://jcenter.bintray.com&lt;/a0&gt;），只需添加下面的内容到你的构建脚本中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To add the central Maven 2 repository (&lt;a0&gt;http://repo1.maven.org/maven2&lt;/a0&gt;) simply add this to your build script:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030933Z" creationid="huanghaohang" creationdate="20190603T030933Z">
@@ -25994,6 +26042,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002702Z" creationid="huanghaohang" creationdate="20170909T002407Z">
         <seg>要使用groovy编译任务，还必须声明使用的Groovy版本以及可以在哪里找到Groovy库。你可以通过在&lt;c0&gt;groovy&lt;/c0&gt;配置中添加依赖来实现。&lt;c1&gt;compile&lt;/c1&gt;配置会继承于它，因此当编译Groovy和Java源码时，groovy库会被包含在类路径中。以下例子，我们将使用公共Maven仓库中的Groovy 2.2.0版本：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the local Maven cache as a repository you can do:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031646Z" creationid="huanghaohang" creationdate="20190603T031646Z">
+        <seg>要把本地的 Maven 缓存用作仓库，你可以这样操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -32772,6 +32828,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://jcenter.bintray.com</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031457Z" creationid="huanghaohang" creationdate="20190603T031457Z">
+        <seg>http://jcenter.bintray.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://junit.org</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T154530Z" creationid="95" creationdate="20190201T154530Z">
@@ -34132,6 +34196,16 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T062924Z" creationid="haohang" creationdate="20180312T062924Z">
         <seg>javadoc</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>jcenter()
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031545Z" creationid="huanghaohang" creationdate="20190603T031545Z">
+        <seg>jcenter()
+}</seg>
       </tuv>
     </tu>
     <tu>
