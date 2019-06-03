@@ -6564,6 +6564,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6. Repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T160211Z" creationid="huanghaohang" creationdate="20190602T160211Z">
+        <seg>50.6. 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141832Z" creationid="huanghaohang" creationdate="20190411T141832Z">
@@ -16850,6 +16858,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle repository management, based on Apache Ivy, gives you a lot of freedom regarding repository layout and retrieval policies. Additionally Gradle provides various convenience method to add pre-configured repositories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T160419Z" creationid="huanghaohang" creationdate="20190602T160419Z">
+        <seg>基于Apache Ivy 的 Gradle 仓库管理对仓库布局和检索策略的有很大的灵活性。 此外，Gradle 还提供了多种便捷的方法来添加预配置的仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle requires a Java JDK or JRE to be installed. Gradle requires a Java version 6 or higher. Gradle ships with its own Groovy library, therefore no Groovy needs to be installed. Any existing Groovy installation is ignored by Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114013Z" creationid="95" creationdate="20170723T114013Z">
@@ -25498,6 +25514,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T150603Z" creationid="huanghaohang" creationdate="20170918T150109Z">
         <seg>为了提高响应速度，Gradle默认情况下会缓存所有已编译的脚本，包括所有构建脚本，初始化脚本和其他脚本。当你第一次运行项目构建时，Gradle会创建一个&lt;c0&gt;.gradle&lt;/c0&gt;目录用于存放已编译的脚本。下次运行此构建时，如果脚本上次编译之后没有更改，则Gradle将使用已编译的脚本。否则该脚本会被重新编译，并把新版本存储在缓存中。如果你使用 &lt;c1&gt;--recompile-scripts&lt;/c1&gt;选项来执行Gradle，那么会放弃所缓存的脚本，然后重新编译脚本并将其存在缓存中。通过这种方式，你就可以强制Gradle重新生成缓存。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To learn more about the API of the configuration class see the API documentation: &lt;a0&gt;&lt;c1&gt;Configuration&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T160203Z" creationid="huanghaohang" creationdate="20190602T160203Z">
+        <seg>想了解更多关于这个配置类的 API，请参阅 API 文档：&lt;a0&gt;&lt;c1&gt;Configuration&lt;/c1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
