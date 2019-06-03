@@ -6572,6 +6572,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6.2. Maven central repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030925Z" creationid="huanghaohang" creationdate="20190603T030925Z">
+        <seg>50.6.2. Maven 中央仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.6. Repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T160211Z" creationid="huanghaohang" creationdate="20190602T160211Z">
@@ -15282,6 +15290,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.26. Providing credentials to a Maven and Ivy repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030848Z" creationid="huanghaohang" creationdate="20190603T030848Z">
+        <seg>示例50.26. 向 Maven 和 Ivy 仓库提供凭证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.3. Configuration of a configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153654Z" creationid="huanghaohang" creationdate="20190527T153654Z">
@@ -17436,8 +17452,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If authentication is required for a repository, the relevant credentials can be provided. The following example shows how to provide username/password-based authentication for SFTP repositories:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030703Z" creationid="huanghaohang" creationdate="20190603T030703Z">
-        <seg>If authentication is required for a repository, the relevant credentials can be provided. The following example shows how to provide username/password-based authentication for SFTP repositories:</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030832Z" creationid="huanghaohang" creationdate="20190603T030703Z">
+        <seg>如果仓库需要认证，那么可以提供相关的凭证。以下示例展示了如何为 SFTP 仓库提供基于用户名/密码的认证：</seg>
       </tuv>
     </tu>
     <tu>
@@ -25470,6 +25486,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To add the central Maven 2 repository (&lt;a0&gt;http://repo1.maven.org/maven2&lt;/a0&gt;) simply add this to your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030933Z" creationid="huanghaohang" creationdate="20190603T030933Z">
+        <seg>若要添加中央 Maven 2 仓库（&lt;a0&gt;http://repo1.maven.org/maven2&lt;/a0&gt;），只需添加下面的代码到你的构建脚本中：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To analyze a project hierarchy, apply the Sonar Runner plugin to the root project of the hierarchy. Typically (but not necessarily) this will be the root project of the Gradle build. Information pertaining to the analysis as a whole, like server and database connections settings, have to be configured in the &lt;c0&gt;sonarRunner&lt;/c0&gt; block of this project. Any Sonar properties set on the command line also apply to this project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042737Z" creationid="huanghaohang" creationdate="20181202T042737Z">
@@ -32740,6 +32764,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://repo1.maven.org/maven2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030926Z" creationid="huanghaohang" creationdate="20190603T030926Z">
+        <seg>http://repo1.maven.org/maven2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://svn.apache.org/viewvc/ant/core/trunk/src/main/org/apache/tools/ant/util/ProxySetup.java?view=markup&amp;pathrev=556977</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T073542Z" creationid="huanghaohang" creationdate="20180130T073542Z">
@@ -35131,6 +35163,22 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050453Z" creationid="huanghaohang" creationdate="20170908T050453Z">
         <seg>password &lt;s1&gt;"pw"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>password &lt;s2&gt;'password'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030851Z" creationid="huanghaohang" creationdate="20190603T030851Z">
+        <seg>password &lt;s2&gt;'password'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>password &lt;s5&gt;'password'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030946Z" creationid="huanghaohang" creationdate="20190603T030942Z">
+        <seg>password &lt;s5&gt;'password'&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -39744,6 +39792,14 @@ test {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>url &lt;s0&gt;"sftp://repo.mycompany.com:22/maven2"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030850Z" creationid="huanghaohang" creationdate="20190603T030850Z">
+        <seg>url &lt;s0&gt;"sftp://repo.mycompany.com:22/maven2"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>url &lt;s1&gt;"../local-repo"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T045148Z" creationid="huanghaohang" creationdate="20170908T045148Z">
@@ -39764,6 +39820,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050456Z" creationid="huanghaohang" creationdate="20170908T050456Z">
         <seg>url &lt;s2&gt;"http://repo.mycompany.com"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url &lt;s3&gt;"sftp://repo.mycompany.com:22/repo"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030852Z" creationid="huanghaohang" creationdate="20190603T030852Z">
+        <seg>url &lt;s3&gt;"sftp://repo.mycompany.com:22/repo"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -39848,6 +39912,22 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050451Z" creationid="huanghaohang" creationdate="20170908T050451Z">
         <seg>username &lt;s0&gt;"username"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>username &lt;s1&gt;'user'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030850Z" creationid="huanghaohang" creationdate="20190603T030850Z">
+        <seg>username &lt;s1&gt;'user'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>username &lt;s4&gt;'user'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030852Z" creationid="huanghaohang" creationdate="20190603T030852Z">
+        <seg>username &lt;s4&gt;'user'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
