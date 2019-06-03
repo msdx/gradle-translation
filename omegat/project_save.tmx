@@ -6620,10 +6620,26 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6.7.1. Defining an Ivy repository with a standard layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041107Z" creationid="huanghaohang" creationdate="20190603T041107Z">
+        <seg>50.6.7.1. 使用标准布局定义 Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.6.7.2. Defining a named layout for an Ivy repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041257Z" creationid="huanghaohang" creationdate="20190603T041157Z">
+        <seg>50.6.7.2. 为 Ivy 仓库定义指定布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.6.7. Ivy repositories</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T040835Z" creationid="huanghaohang" creationdate="20190603T040835Z">
-        <seg>Ivy 仓库</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041013Z" creationid="huanghaohang" creationdate="20190603T040835Z">
+        <seg>50.6.7. Ivy 仓库</seg>
       </tuv>
     </tu>
     <tu>
@@ -15430,6 +15446,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T040556Z" creationid="huanghaohang" creationdate="20190603T040556Z">
         <seg>示例 50.33. 平面仓库解析器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.34. Ivy repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041115Z" creationid="huanghaohang" creationdate="20190603T041115Z">
+        <seg>示例 50.34. Ivy 仓库</seg>
       </tuv>
     </tu>
     <tu>
@@ -27714,6 +27738,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T060549Z" creationid="haohang" creationdate="20180330T060157Z">
         <seg>你可以指定在执行了一定数量的测试类之后，重新启动测试进程。这是一个很有用的替代方案，可以让你的测试进程有非常大的堆内存。&lt;c0&gt;forkEvery&lt;/c0&gt; 属性指定了要在测试进程中执行的最大测试类的数量。默认是在每个测试进程中执行的测试数量不限。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can specify that your repository conforms to the Ivy or Maven default layout by using a named layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041237Z" creationid="huanghaohang" creationdate="20190603T041205Z">
+        <seg>通过使用指定的布局，可以指定存储库符合Ivy或Maven缺省布局。</seg>
       </tuv>
     </tu>
     <tu>
