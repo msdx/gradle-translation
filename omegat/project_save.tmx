@@ -27414,6 +27414,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You may configure any number of repositories, each of which is treated independently by Gradle. If Gradle finds a module descriptor in a particular repository, it will attempt to download all of the artifacts for that module from &lt;s0&gt;&lt;e1&gt;the same repository&lt;/e1&gt;&lt;/s0&gt;. Although module meta-data and module artifacts must be located in the same repository, it is possible to compose a single repository of multiple URLs, giving multiple locations to search for meta-data files and jar files.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025742Z" creationid="huanghaohang" creationdate="20190603T025742Z">
+        <seg>你可以配置任意数量的仓库，每个仓库都会被 Gradle 独立处理。如果 Gradle 在一个特定的仓库中找到模块描述符，那么它将尝试从 &lt;s0&gt;&lt;e1&gt;同一仓库&lt;/e1&gt;&lt;/s0&gt;中下载该模块的所有工件。虽然模块元数据和模块工件必须位于同一仓库中，但也可能单个仓库由多个 URL 组成，同时提供多个位置来搜索元数据文件和 jar 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You may want to start the daemon in &lt;c0&gt;--foreground&lt;/c0&gt; mode to observe how the build is executed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025704Z" creationid="huanghaohang" creationdate="20180120T025704Z">
