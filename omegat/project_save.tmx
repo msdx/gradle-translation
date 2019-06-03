@@ -6564,6 +6564,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6.1. Supported repository transport protocols</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030124Z" creationid="huanghaohang" creationdate="20190603T030124Z">
+        <seg>50.6.1. 支持的仓库传输协议</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.6. Repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T160211Z" creationid="huanghaohang" creationdate="20190602T160211Z">
@@ -10028,6 +10036,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A Maven repository. Can be located on the local filesystem or at some remote location.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025946Z" creationid="huanghaohang" creationdate="20190603T025946Z">
+        <seg>一个 Maven 仓库。 可以位于本地文件系统上，或在某个远程位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A Sonar property value set via a system property overrides any value set in a build script (for the same property). When analyzing a project hierarchy, values set via system properties apply to the root project of the analyzed hierarchy.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T051415Z" creationid="huanghaohang" creationdate="20181202T051415Z">
@@ -10156,10 +10172,26 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A pre-configured repository that looks for dependencies in Bintray's JCenter.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025902Z" creationid="huanghaohang" creationdate="20190603T025902Z">
+        <seg>一个在 Bintray 的 Jcenter 中查找依赖的预配置仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A pre-configured repository that looks for dependencies in Maven Central.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025837Z" creationid="huanghaohang" creationdate="20190603T025837Z">
         <seg>一个在 Maven Cemtral 中查找依赖的预配置仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A pre-configured repository that looks for dependencies in the local Maven repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025912Z" creationid="huanghaohang" creationdate="20190603T025912Z">
+        <seg>一个在本地 Maven 仓库中查找依赖的预配置仓库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10208,6 +10240,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T011938Z" creationid="huanghaohang" creationdate="20180107T011720Z">
         <seg>一种简单的在构建文件中打印日志的方法是把消息写到标准输出中。Gradle 会把写到标准输出的所有内容重定向到它的日志系统的 &lt;c0&gt;QUIET&lt;/c0&gt; 级别中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A simple repository on the local filesystem. Does not support any meta-data formats.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030103Z" creationid="huanghaohang" creationdate="20190603T030040Z">
+        <seg>一个在本地文件系统上的简单仓库。不支持任何元数据格式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10944,6 +10984,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042110Z" creationid="huanghaohang" creationdate="20180406T042110Z">
         <seg>一个 HTML 测试报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An Ivy repository. Can be located on the local filesystem or at some remote location.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030001Z" creationid="huanghaohang" creationdate="20190603T030001Z">
+        <seg>一个 Ivy 仓库。 可以位于本地文件系统上，或在某个远程位置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15986,6 +16034,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Flat directory repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030034Z" creationid="huanghaohang" creationdate="20190603T030034Z">
+        <seg>Flat 目录仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For Java teams which share also Python or Ruby knowledge or are happy to learn it, the above arguments don't apply. The Gradle design is well-suited for creating another build script engine in JRuby or Jython. It just doesn't have the highest priority for us at the moment. We happily support any community effort to create additional build script engines.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072131Z" creationid="95" creationdate="20170723T071728Z">
@@ -17986,6 +18042,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Ivy repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025949Z" creationid="huanghaohang" creationdate="20190603T025949Z">
+        <seg>Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>JDepend</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T142645Z" creationid="huanghaohang" creationdate="20180516T142645Z">
@@ -18458,10 +18522,42 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Maven JCenter repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025847Z" creationid="huanghaohang" creationdate="20190603T025847Z">
+        <seg>Maven JCenter 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maven and Ivy repositories support the use of various transport protocols. At the moment the following protocols are supported:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030146Z" creationid="huanghaohang" creationdate="20190603T030146Z">
+        <seg>Maven and Ivy repositories support the use of various transport protocols. At the moment the following protocols are supported:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Maven central repository</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025809Z" creationid="huanghaohang" creationdate="20190603T025809Z">
         <seg>Maven 中央仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maven local repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025906Z" creationid="huanghaohang" creationdate="20190603T025906Z">
+        <seg>Maven 本地仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025915Z" creationid="huanghaohang" creationdate="20190603T025915Z">
+        <seg>Maven 仓库</seg>
       </tuv>
     </tu>
     <tu>
@@ -30514,10 +30610,26 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:flat_dir_resolver</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030002Z" creationid="huanghaohang" creationdate="20190603T030002Z">
+        <seg>dependency_management.html#sec:flat_dir_resolver</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependency_management.html#sec:how_to_declare_your_dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T043915Z" creationid="huanghaohang" creationdate="20170908T043915Z">
         <seg>dependency_management.html#sec:how_to_declare_your_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:ivy_repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025947Z" creationid="huanghaohang" creationdate="20190603T025947Z">
+        <seg>dependency_management.html#sec:ivy_repositories</seg>
       </tuv>
     </tu>
     <tu>
@@ -30590,6 +30702,30 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025804Z" creationid="huanghaohang" creationdate="20190603T025804Z">
         <seg>dependency_management.html#sub:maven_central</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:maven_jcenter</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025840Z" creationid="huanghaohang" creationdate="20190603T025840Z">
+        <seg>dependency_management.html#sub:maven_jcenter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:maven_local</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025903Z" creationid="huanghaohang" creationdate="20190603T025903Z">
+        <seg>dependency_management.html#sub:maven_local</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sub:maven_repo</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T025913Z" creationid="huanghaohang" creationdate="20190603T025913Z">
+        <seg>dependency_management.html#sub:maven_repo</seg>
       </tuv>
     </tu>
     <tu>
