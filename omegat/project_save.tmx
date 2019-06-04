@@ -13314,6 +13314,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each &lt;c0&gt;artifact&lt;/c0&gt; or &lt;c1&gt;ivy&lt;/c1&gt; specified for a repository adds an &lt;s2&gt;&lt;e3&gt;additional&lt;/e3&gt;&lt;/s2&gt; pattern to use. The patterns are used in the order that they are defined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T024629Z" creationid="huanghaohang" creationdate="20190604T024629Z">
+        <seg>一个仓库指定的每个 &lt;c0&gt;artifact&lt;/c0&gt; 或 &lt;c1&gt;ivy&lt;/c1&gt; 都添加了一个要使用的 &lt;s2&gt;&lt;e3&gt;其他&lt;/e3&gt;&lt;/s2&gt; 模式。这些模式按照它们被定义的顺序使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each closure has a &lt;c0&gt;delegate&lt;/c0&gt; object, which Groovy uses to look up variable and method references which are not local variables or parameters of the closure. Gradle uses this for &lt;e1&gt;configuration closures&lt;/e1&gt;, where the &lt;c2&gt;delegate&lt;/c2&gt; object is set to the object to be configured.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153230Z" creationid="huanghaohang" creationdate="20170914T153230Z">
