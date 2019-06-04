@@ -15482,6 +15482,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.36. Ivy repository with pattern layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T023841Z" creationid="huanghaohang" creationdate="20190604T023841Z">
+        <seg>示例 50.36. 使用模式而已的 Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.4. Module dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160752Z" creationid="huanghaohang" creationdate="20190527T160752Z">
@@ -25878,6 +25886,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To define an Ivy repository which fetches Ivy files and artifacts from different locations, you can define separate patterns to use to locate the Ivy files and artifacts:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T024308Z" creationid="huanghaohang" creationdate="20190604T024308Z">
+        <seg>要定义一个从不同的位置获取 Ivy 文件和工件的 Ivy 仓库，你可以定义用于查找 Ivy 文件和工件的单独模式：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To define an Ivy repository with a non-standard layout, you can define a 'pattern' layout for the repository:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T023814Z" creationid="huanghaohang" creationdate="20190604T023814Z">
@@ -29266,6 +29282,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180318T005946Z" creationid="huanghaohang" creationdate="20180318T005946Z">
         <seg>archivesBaseName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifact &lt;s2&gt;"[module]/[revision]/[type]/[artifact].[ext]"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T023843Z" creationid="huanghaohang" creationdate="20190604T023843Z">
+        <seg>artifact &lt;s2&gt;"[module]/[revision]/[type]/[artifact].[ext]"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -34666,6 +34690,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041507Z" creationid="huanghaohang" creationdate="20190603T041507Z">
         <seg>layout &lt;s1&gt;"maven"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>layout &lt;s1&gt;"pattern"&lt;/s1&gt;, {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T023842Z" creationid="huanghaohang" creationdate="20190604T023842Z">
+        <seg>layout &lt;s1&gt;"pattern"&lt;/s1&gt;, {</seg>
       </tuv>
     </tu>
     <tu>
