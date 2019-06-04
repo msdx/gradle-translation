@@ -17848,6 +17848,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If the dependency is declared as a dynamic version (like &lt;c0&gt;1.+&lt;/c0&gt;), Gradle will resolve this to the newest available static version (like &lt;c1&gt;1.2&lt;/c1&gt;) in the repository. For Maven repositories, this is done using the &lt;c2&gt;maven-metadata.xml&lt;/c2&gt; file, while for Ivy repositories this is done by directory listing.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T032615Z" creationid="huanghaohang" creationdate="20190604T032314Z">
+        <seg>如果依赖被声明为一个动态版本（如 &lt;c0&gt;1.+&lt;/c0&gt;），Gradle 将会把它解析为仓库中最新的静态版本（如 &lt;c1&gt;1.2&lt;/c1&gt;）。对于 Maven 存储库，它是通过 &lt;c2&gt;maven-metadata.xml&lt;/c2&gt; 文件来实现的；而对于 Ivy 存储库，则是通过目录列表来实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If the module descriptor is a POM file that has a parent POM declared, Gradle will recursively attempt to resolve each of the parent modules for the POM.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T032618Z" creationid="huanghaohang" creationdate="20190604T032618Z">
+        <seg>如果模块描述符是一个具有的父 POM 文件声明的 POM 文件，Gradle 将以递归方式尝试为该 POM 文件解析每个父模块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the rules for skipping a task can't be expressed with predicate, you can use the &lt;a0&gt;&lt;c1&gt;StopExecutionException&lt;/c1&gt;&lt;/a0&gt;. If this exception is thrown by an action, the further execution of this action as well as the execution of any following action of this task is skipped. The build continues with executing the next task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084828Z" creationid="huanghaohang" creationdate="20170922T084210Z">
