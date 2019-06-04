@@ -19298,6 +19298,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Optionally, a repository with pattern layout can have its 'organisation' part laid out in Maven style, with forward slashes replacing dots as separators. For example, the organisation &lt;c0&gt;my.company&lt;/c0&gt; would then be represented as &lt;c1&gt;my/company&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025104Z" creationid="huanghaohang" creationdate="20190604T024731Z">
+        <seg>作为可选的功能，一个使用模式布局的仓库可以让它的“组织”部分使用是Maven 风格，以斜杠替换点作为分隔符。例如，组织 &lt;c0&gt;my.company&lt;/c0&gt; 将表示为 &lt;c1&gt;my/company&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Or a remote Ivy repository:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044905Z" creationid="huanghaohang" creationdate="20170908T044905Z">
@@ -29302,10 +29310,26 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>artifact &lt;s2&gt;"3rd-party-artifacts/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T024711Z" creationid="huanghaohang" creationdate="20190604T024711Z">
+        <seg>artifact &lt;s2&gt;"3rd-party-artifacts/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifact &lt;s2&gt;"[module]/[revision]/[type]/[artifact].[ext]"&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T023843Z" creationid="huanghaohang" creationdate="20190604T023843Z">
         <seg>artifact &lt;s2&gt;"[module]/[revision]/[type]/[artifact].[ext]"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifact &lt;s3&gt;"company-artifacts/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T024712Z" creationid="huanghaohang" creationdate="20190604T024712Z">
+        <seg>artifact &lt;s3&gt;"company-artifacts/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -34100,6 +34124,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072433Z" creationid="haohang" creationdate="20170720T072433Z">
         <seg>introduction.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ivy &lt;s4&gt;"ivy-files/[organisation]/[module]/[revision]/ivy.xml"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T024722Z" creationid="huanghaohang" creationdate="20190604T024722Z">
+        <seg>ivy &lt;s4&gt;"ivy-files/[organisation]/[module]/[revision]/ivy.xml"&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
