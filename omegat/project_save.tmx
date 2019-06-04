@@ -17048,6 +17048,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Given a required dependency, Gradle first attempts to resolve the &lt;s0&gt;&lt;e1&gt;module&lt;/e1&gt;&lt;/s0&gt; for that dependency. Each repository is inspected in order, searching first for a &lt;s2&gt;&lt;e3&gt;module descriptor&lt;/e3&gt;&lt;/s2&gt; file (POM or Ivy file) that indicates the presence of that module. If no module descriptor is found, Gradle will search for the presence of the primary &lt;s4&gt;&lt;e5&gt;module artifact&lt;/e5&gt;&lt;/s4&gt; file indicating that the module exists in the repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T032312Z" creationid="huanghaohang" creationdate="20190604T032312Z">
+        <seg>给定一个所需要的依赖，Gradle 首先尝试解析该依赖的&lt;s0&gt;&lt;e1&gt;模块&lt;/e1&gt;&lt;/s0&gt;。每个仓库都按顺序进行检查，首先搜索指示该模块存在的 &lt;s2&gt;&lt;e3&gt;模块描述符&lt;/e3&gt;&lt;/s2&gt; 文件（POM 或 Ivy 文件）。如果没找到模块描述符，Gradle 将搜索表示模块存在于仓库中的主要 &lt;s4&gt;&lt;e5&gt;模块工件&lt;/e5&gt;&lt;/s4&gt; 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Given that the project name is "&lt;c0&gt;myproject&lt;/c0&gt;" and version "&lt;c1&gt;1.2&lt;/c1&gt;", running "&lt;s2&gt;&lt;c3&gt;gradle customDistZip&lt;/c3&gt;&lt;/s2&gt;" will produce a ZIP file named "&lt;c4&gt;myproject-custom-1.2.zip&lt;/c4&gt;".</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T060902Z" creationid="huanghaohang" creationdate="20190128T011911Z">
