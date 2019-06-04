@@ -16616,6 +16616,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Force versions can also be used to deal with rogue metadata of transitive dependencies. If a transitive dependency has poor quality metadata that leads to problems at dependency resolution time, you can force Gradle to use a newer, fixed version of this dependency. For an example, see &lt;a0&gt;&lt;c1&gt;ResolutionStrategy&lt;/c1&gt;&lt;/a0&gt;. Note that 'dependency resolve rules' (outlined below) provide a more powerful mechanism for replacing a broken module dependency. See &lt;a2&gt;Section 50.8.2.3, “Blacklisting a particular version with a replacement”&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T034854Z" creationid="huanghaohang" creationdate="20190604T034854Z">
+        <seg>强制版本也可用于处理传递依赖的恶意元数据。如果传递依赖的元数据质量有问题，导致依赖解析时出现问题，那么可以强制 Gradle 使用这个依赖较新的修复版本。有关示例，请参见 &lt;a0&gt;&lt;c1&gt;ResolutionStrategy&lt;/c1&gt;&lt;/a0&gt;。注意，“依赖解析规则”（见下文）提供了一种更强大的机制来取代已损坏的模块依赖。请参阅 &lt;a2&gt;第 50.8.2.3 节，《将特定版本列入黑名单并替换》&lt;/a2&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Forcing a module version tells Gradle to always use a specific version for given dependency (transitive or not), overriding any version specified in a published module descriptor. This can be very useful when tackling version conflicts - for more information see &lt;a0&gt;Section 50.2.3, “Resolve version conflicts”&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T034334Z" creationid="huanghaohang" creationdate="20190604T033920Z">
@@ -31340,6 +31348,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190410T003939Z" creationid="huanghaohang" creationdate="20190410T003939Z">
         <seg>dependency_management.html#sec:Introduction</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#sec:blacklisting_version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T034336Z" creationid="huanghaohang" creationdate="20190604T034336Z">
+        <seg>dependency_management.html#sec:blacklisting_version</seg>
       </tuv>
     </tu>
     <tu>
