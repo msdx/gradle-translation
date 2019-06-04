@@ -6652,10 +6652,26 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6.7.4. Accessing password protected Ivy repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025141Z" creationid="huanghaohang" creationdate="20190604T025141Z">
+        <seg>50.6.7.4. 访问受密码保护的 Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.6.7. Ivy repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T041013Z" creationid="huanghaohang" creationdate="20190603T040835Z">
         <seg>50.6.7. Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.6.8. Working with repositories</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025239Z" creationid="huanghaohang" creationdate="20190604T025239Z">
+        <seg>50.6.8. 使用仓库</seg>
       </tuv>
     </tu>
     <tu>
@@ -15506,10 +15522,42 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.38. Ivy repository with Maven compatible layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025121Z" creationid="huanghaohang" creationdate="20190604T025121Z">
+        <seg>示例50.38. 使用 Maven 兼容布局的 Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.39. Ivy repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025225Z" creationid="huanghaohang" creationdate="20190604T025225Z">
+        <seg>示例 50.39. Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.4. Module dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160752Z" creationid="huanghaohang" creationdate="20190527T160752Z">
         <seg>示例 50.4. 模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.40. Accessing a repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025309Z" creationid="huanghaohang" creationdate="20190604T025255Z">
+        <seg>示例 50.40. 访问一个仓库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.41. Configuration of a repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025328Z" creationid="huanghaohang" creationdate="20190604T025311Z">
+        <seg>示例 50.41. 仓库配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -25758,6 +25806,22 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To access a repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025306Z" creationid="huanghaohang" creationdate="20190604T025247Z">
+        <seg>要访问一个仓库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To access an Ivy repository which uses basic authentication, you specify the username and password to use when you define the repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025220Z" creationid="huanghaohang" creationdate="20190604T025220Z">
+        <seg>要访问一个使用基本认证的 Ivy 仓库，请在定义该仓库时指定要使用的用户名和密码：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To add a dependency, the corresponding task does not need to exist.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T160246Z" creationid="95" creationdate="20170726T160246Z">
@@ -25858,6 +25922,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153640Z" creationid="huanghaohang" creationdate="20190527T153632Z">
         <seg>如果要配置一个配置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To configure a repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025302Z" creationid="huanghaohang" creationdate="20190604T025302Z">
+        <seg>要配置一个仓库：</seg>
       </tuv>
     </tu>
     <tu>
@@ -29322,6 +29394,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T023843Z" creationid="huanghaohang" creationdate="20190604T023843Z">
         <seg>artifact &lt;s2&gt;"[module]/[revision]/[type]/[artifact].[ext]"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifact &lt;s2&gt;"[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025122Z" creationid="huanghaohang" creationdate="20190604T025122Z">
+        <seg>artifact &lt;s2&gt;"[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -34908,6 +34988,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>m2compatible = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025125Z" creationid="huanghaohang" creationdate="20190604T025125Z">
+        <seg>m2compatible = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>main {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133544Z" creationid="huanghaohang" creationdate="20170913T133544Z">
@@ -36853,6 +36941,22 @@ println project.name</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100203Z" creationid="huanghaohang" creationdate="20180130T100203Z">
         <seg>println relativePath(processResources.destinationDir)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println repositories.localRepository.name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025256Z" creationid="huanghaohang" creationdate="20190604T025256Z">
+        <seg>println repositories.localRepository.name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println repositories[&lt;s0&gt;'localRepository'&lt;/s0&gt;].name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025257Z" creationid="huanghaohang" creationdate="20190604T025257Z">
+        <seg>println repositories[&lt;s0&gt;'localRepository'&lt;/s0&gt;].name</seg>
       </tuv>
     </tu>
     <tu>
@@ -40264,6 +40368,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030850Z" creationid="huanghaohang" creationdate="20190603T030850Z">
         <seg>url &lt;s0&gt;"sftp://repo.mycompany.com:22/maven2"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url &lt;s0&gt;'http://repo.mycompany.com'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025226Z" creationid="huanghaohang" creationdate="20190604T025226Z">
+        <seg>url &lt;s0&gt;'http://repo.mycompany.com'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
