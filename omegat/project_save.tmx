@@ -6746,6 +6746,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.8.1. Forcing a particular module version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033918Z" creationid="huanghaohang" creationdate="20190604T033918Z">
+        <seg>50.8.1. 强制使用特定模块版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.8. Fine-tuning the dependency resolution process</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033506Z" creationid="huanghaohang" creationdate="20190604T033447Z">
@@ -16608,6 +16616,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Forcing a module version tells Gradle to always use a specific version for given dependency (transitive or not), overriding any version specified in a published module descriptor. This can be very useful when tackling version conflicts - for more information see &lt;a0&gt;Section 50.2.3, “Resolve version conflicts”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T034334Z" creationid="huanghaohang" creationdate="20190604T033920Z">
+        <seg>强制使用一个模块版本，是指示 Gradle 对于给定的依赖（传递或非传递），始终使用一个特定的版本，并覆盖在发布的模块描述符中所指定的任何版本。当处理版本冲突时，这非常有用——有关详细信息，请参阅 &lt;a0&gt;第 50.2.3 节，《解决版本冲突》&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Free and open source</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T065551Z" creationid="95" creationdate="20170723T065551Z">
@@ -25368,6 +25384,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232523Z" creationid="huanghaohang" creationdate="20171206T232523Z">
         <seg>你可以在归档任务上设置很多属性。它们在&lt;a0&gt;表16.1“存档任务 - 命名属性”&lt;/a0&gt;中有列出。例如，你可以更改归档的名称：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are a number of ways that you can influence how Gradle resolves dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033903Z" creationid="huanghaohang" creationdate="20190604T033903Z">
+        <seg>有许多种方式可以影响到 Gradle 的依赖解析。</seg>
       </tuv>
     </tu>
     <tu>
