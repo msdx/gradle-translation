@@ -262,6 +262,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N1513E</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025810Z" creationid="huanghaohang" creationdate="20190604T025810Z">
+        <seg>#ftn.N1513E</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160758Z" creationid="huanghaohang" creationdate="20190527T160758Z">
@@ -13378,6 +13386,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each repository can have its own layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025808Z" creationid="huanghaohang" creationdate="20190604T025808Z">
+        <seg>每个仓库都可以有其自己的布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each task has an &lt;c0&gt;inputs&lt;/c0&gt; and &lt;c1&gt;outputs&lt;/c1&gt; property, which you use to declare the inputs and outputs of the task. Below, we have changed our example to declare that it takes the source XML file as an input and produces output to a destination directory. Let's run it a couple of times.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T003846Z" creationid="huanghaohang" creationdate="20170922T093754Z">
@@ -18702,6 +18718,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143504Z" creationid="huanghaohang" creationdate="20180416T143504Z">
         <seg>假设你已经有了 &lt;c0&gt;application.xml中&lt;/c0&gt; 并且希望使用它而不是去配置 &lt;c1&gt;ear.deploymentDescriptor&lt;/c1&gt; 代码段，那么就要把 &lt;c2&gt;META-INF/application.xml&lt;/c2&gt; 放在你源文件夹中的正确位置（请参阅 &lt;c3&gt;appDirName&lt;/c3&gt; 属性）。这样现有的文件内容将被使用，而 &lt;c4&gt;ear.deploymentDescriptor&lt;/c4&gt; 中的显式配置则会被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's say, you declare a dependency on the &lt;c0&gt;junit:junit:3.8.2&lt;/c0&gt; library. Now how does Gradle find it in the repositories? Somehow the dependency information has to be mapped to a path. In contrast to Maven, where this path is fixed, with Gradle you can define a pattern that defines what the path will look like. Here are some examples: &lt;s1&gt;[&lt;a2&gt;16&lt;/a2&gt;]&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T030327Z" creationid="huanghaohang" creationdate="20190604T030327Z">
+        <seg>比如说，你声明了一个对 &lt;c0&gt;junit:jun:3.8.2&lt;/c0&gt; 库的依赖。现在 Gradle 是怎么在仓库中找到它的呢？依赖信息是必须映射到路径上的。相比于固定路径的 Maven，Gradle 可以定义一个模式，这个模式定义了路径的表示形式。这里有一些例子：&lt;s1&gt;[&lt;a2&gt;16&lt;/a2&gt;]&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -24946,6 +24970,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040854Z" creationid="huanghaohang" creationdate="20190123T040854Z">
         <seg>要生成报告的所有项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The protocol sftp currently only supports username/password-based authentication.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025803Z" creationid="huanghaohang" creationdate="20190604T025803Z">
+        <seg>sftp 协议当前仅支持基于用户名/密码的认证。</seg>
       </tuv>
     </tu>
     <tu>
