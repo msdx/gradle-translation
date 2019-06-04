@@ -19064,6 +19064,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Modules declared by a module descriptor file (Ivy or POM file) are preferred over modules that have an artifact file only.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033032Z" creationid="huanghaohang" creationdate="20190604T033032Z">
+        <seg>由模块描述符文件（Ivy 或 POM 文件）声明的模块优先于只有一个工件文件的模块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Modules from earlier repositories are preferred over modules in later repositories.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033123Z" creationid="huanghaohang" creationdate="20190604T033123Z">
+        <seg>先声明的仓库的模块优先于后面的仓库的模块。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>More about Tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180201T021639Z" creationid="huanghaohang" creationdate="20180201T021639Z">
@@ -27320,6 +27336,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T141759Z" creationid="huanghaohang" creationdate="20180407T141525Z">
         <seg>当 IDEA 插件遇到 Scala 项目时，它会添加额外的配置以使该项目能够与 IDEA 直接配合使用。具体来说，该插件添加了一个 Scala facet 和一个与项目类路径上的 Scala 版本相匹配 Scala 编译器库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the dependency is declared by a static version and a module descriptor file is found in a repository, there is no need to continue searching later repositories and the remainder of the process is short-circuited.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033318Z" creationid="huanghaohang" creationdate="20190604T033318Z">
+        <seg>当依赖声明为静态版本，并且在仓库中找到模块描述符文件时，将不再需要继续搜索后面的仓库，这个过程的其余部分是短路的。</seg>
       </tuv>
     </tu>
     <tu>
