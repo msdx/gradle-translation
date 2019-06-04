@@ -6746,6 +6746,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.8. Fine-tuning the dependency resolution process</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033506Z" creationid="huanghaohang" creationdate="20190604T033447Z">
+        <seg>50.8. 微调依赖解析过程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -10990,6 +10998,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150718Z" creationid="huanghaohang" creationdate="20181201T150718Z">
         <seg>可以利用 Gradle 的所有脚本特性根据需要去配置 Sonar Runner。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All of the artifacts for the module are then requested from the &lt;s0&gt;&lt;e1&gt;same repository&lt;/e1&gt;&lt;/s0&gt; that was chosen in the process above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033409Z" creationid="huanghaohang" creationdate="20190604T033409Z">
+        <seg>然后将从上面的过程所选择的 &lt;s0&gt;&lt;e1&gt;同一个仓库&lt;/e1&gt;&lt;/s0&gt; 中请求这个模块的所有工件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18132,6 +18148,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T135120Z" creationid="huanghaohang" creationdate="20180108T134044Z">
         <seg>一般来说，构建工具的敏捷行为总是方便的。如果你尝试在你的本地构建中使用守护进程的话，那么你将很难再回到 Gradle 的常规使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In most cases, Gradle's default dependency management will resolve the dependencies that you want in your build. In some cases, however, it can be necessary to tweak dependency resolution to ensure that your build receives exactly the right dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033837Z" creationid="huanghaohang" creationdate="20190604T033458Z">
+        <seg>在大多数情况下，Gradle 默认的依赖管理会解析你构建中所需要的依赖。但是，在某些情况下，可能需要轻微调整依赖解析，以确保你的构建能精确得到正确的依赖。</seg>
       </tuv>
     </tu>
     <tu>
