@@ -6676,6 +6676,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.6.9. More about Ivy resolvers</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025359Z" creationid="huanghaohang" creationdate="20190604T025359Z">
+        <seg>50.6.9. 更多关于 Ivy 解析器的信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.6. Repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T160211Z" creationid="huanghaohang" creationdate="20190602T160211Z">
@@ -17306,6 +17314,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle, thanks to Ivy under its hood, is extremely flexible regarding repositories:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025634Z" creationid="huanghaohang" creationdate="20190604T025634Z">
+        <seg>Gradle 得益于其幕后的 Ivy，它在仓库方面非常灵活。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Groovy</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T063538Z" creationid="95" creationdate="20170723T063538Z">
@@ -25190,6 +25206,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There are many options for the protocol to communicate with the repository (e.g. filesystem, http, ssh, sftp ...)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025746Z" creationid="huanghaohang" creationdate="20190604T025746Z">
+        <seg>与仓库通信的协议有许多选择（比如文件系统，http，ssh，sftp……）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There are many situation when you want to use the latest version of a particular dependency, or the latest in a range of versions. This can be a requirement during development, or you may be developing a library that is designed to work with a range of dependency versions. You can easily depend on these constantly changing dependencies by using a &lt;s0&gt;&lt;e1&gt;dynamic version&lt;/e1&gt;&lt;/s0&gt;. A dynamic version can be either a version range (e.g. &lt;c2&gt;2.+&lt;/c2&gt;) or it can be a placeholder for the latest version available (e.g. &lt;c3&gt;latest.integration&lt;/c3&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190521T025111Z" creationid="huanghaohang" creationdate="20190422T133110Z">
@@ -31488,10 +31512,28 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dirs &lt;s1&gt;'lib'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025340Z" creationid="huanghaohang" creationdate="20190604T025340Z">
+        <seg>dirs &lt;s1&gt;'lib'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dirs &lt;s1&gt;'lib1'&lt;/s1&gt;, &lt;s2&gt;'lib2'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T040559Z" creationid="huanghaohang" creationdate="20190603T040559Z">
         <seg>dirs &lt;s1&gt;'lib1'&lt;/s1&gt;, &lt;s2&gt;'lib2'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dirs &lt;s2&gt;'lib'&lt;/s2&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025343Z" creationid="huanghaohang" creationdate="20190604T025343Z">
+        <seg>dirs &lt;s2&gt;'lib'&lt;/s2&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -34886,6 +34928,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>localRepository {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025339Z" creationid="huanghaohang" creationdate="20190604T025339Z">
+        <seg>localRepository {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>logger.quiet(&lt;s0&gt;'An info log message which is always logged.'&lt;/s0&gt;)
 logger.error(&lt;s1&gt;'An error log message.'&lt;/s1&gt;)
 logger.warn(&lt;s2&gt;'A warning log message.'&lt;/s2&gt;)
@@ -35383,6 +35433,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132126Z" creationid="huanghaohang" creationdate="20170913T132126Z">
         <seg>name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name &lt;s0&gt;'localRepository'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025336Z" creationid="huanghaohang" creationdate="20190604T025336Z">
+        <seg>name &lt;s0&gt;'localRepository'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -41220,6 +41278,30 @@ configurations.compile {</seg>
         <seg>}
 }
 configurations.compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+repositories {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025338Z" creationid="huanghaohang" creationdate="20190604T025338Z">
+        <seg>}
+}
+repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+repositories.localRepository {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025341Z" creationid="huanghaohang" creationdate="20190604T025341Z">
+        <seg>}
+}
+repositories.localRepository {</seg>
       </tuv>
     </tu>
     <tu>
