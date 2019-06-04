@@ -16408,6 +16408,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a dynamic version, a 'higher' static version is preferred over a 'lower' version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T032940Z" creationid="huanghaohang" creationdate="20190604T032940Z">
+        <seg>对于动态版本，“较高”的静态版本优先于“较低”的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For above sorts of workflows, it is important that the startup cost of invoking Gradle is as small as possible.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133759Z" creationid="huanghaohang" creationdate="20180108T133759Z">
@@ -17858,8 +17866,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If the module descriptor is a POM file that has a parent POM declared, Gradle will recursively attempt to resolve each of the parent modules for the POM.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T032618Z" creationid="huanghaohang" creationdate="20190604T032618Z">
-        <seg>如果模块描述符是一个具有的父 POM 文件声明的 POM 文件，Gradle 将以递归方式尝试为该 POM 文件解析每个父模块。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T032722Z" creationid="huanghaohang" creationdate="20190604T032618Z">
+        <seg>如果模块描述符是一个有父 POM 声明的 POM 文件，Gradle 将以递归方式尝试解析该 POM 文件的每个父模块。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19388,6 +19396,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T160140Z" creationid="huanghaohang" creationdate="20190602T160140Z">
         <seg>一旦一个配置被配置，那它就是不可变的了。如果去修改它或它的某个依赖的状态就会引发异常。你始终可以复制已经解析的配置，这个复制的配置处于未解析状态，并且可以重新解析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Once each repository has been inspected for the module, Gradle will choose the 'best' one to use. This is done using the following criteria:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T032915Z" creationid="huanghaohang" creationdate="20190604T032915Z">
+        <seg>在对每个仓库进行模块检查后，Gradle 会选择使用“最好的”那个仓库。它使用以下标准完成的：</seg>
       </tuv>
     </tu>
     <tu>
