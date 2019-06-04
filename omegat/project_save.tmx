@@ -1610,6 +1610,28 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>// Maven2 layout (if a repository is marked as Maven2 compatible, the organization (group) is split into subfolders according to the dots.)
+someroot/[organisation]/[module]/[revision]/[module]-[revision].[ext]
+
+// Typical layout for an Ivy repository (the organization is not split into subfolder)
+someroot/[organisation]/[module]/[revision]/[type]s/[artifact].[ext]
+
+// Simple layout (the organization is not used, no nested folders.)
+someroot/[artifact]-[revision].[ext]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T030330Z" creationid="huanghaohang" creationdate="20190604T030330Z">
+        <seg>// Maven2 layout (if a repository is marked as Maven2 compatible, the organization (group) is split into subfolders according to the dots.)
+someroot/[organisation]/[module]/[revision]/[module]-[revision].[ext]
+
+// Typical layout for an Ivy repository (the organization is not split into subfolder)
+someroot/[organisation]/[module]/[revision]/[type]s/[artifact].[ext]
+
+// Simple layout (the organization is not used, no nested folders.)
+someroot/[artifact]-[revision].[ext]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072430Z" creationid="haohang" creationdate="20170720T072430Z">
@@ -11156,6 +11178,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An overview of which Resolvers are offered by Ivy and thus also by Gradle can be found &lt;a0&gt;here&lt;/a0&gt;. With Gradle you just don't configure them via XML but directly via their API.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T031441Z" creationid="huanghaohang" creationdate="20190604T031441Z">
+        <seg>其中由 Ivy（也因此由 Gradle）提供的解析器，它的概述可以在&lt;a0&gt;这里&lt;/a0&gt;找到。通过 Gradle，你只是不通过 XML 进行配置，而是通过它们的 API。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Analyzes a project hierarchy and stores the results in the Sonar database.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085533Z" creationid="huanghaohang" creationdate="20181012T085533Z">
@@ -15582,6 +15612,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025328Z" creationid="huanghaohang" creationdate="20190604T025311Z">
         <seg>示例 50.41. 仓库配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.42. Definition of a custom repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T030429Z" creationid="huanghaohang" creationdate="20190604T030429Z">
+        <seg>示例 50.42. 定制仓库的定义</seg>
       </tuv>
     </tu>
     <tu>
@@ -25886,6 +25924,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To add any kind of repository (you can pretty easy write your own ones) you can do:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T030416Z" creationid="huanghaohang" creationdate="20190604T030416Z">
+        <seg>要添加任何一种仓库（你可以很方便地编写自己的仓库），你可以这样做：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To add some files as a dependency for a configuration, you simply pass a &lt;a0&gt;file collection&lt;/a0&gt; as a dependency:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T105443Z" creationid="huanghaohang" creationdate="20190602T105443Z">
@@ -29466,6 +29512,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T024712Z" creationid="huanghaohang" creationdate="20190604T024712Z">
         <seg>artifact &lt;s3&gt;"company-artifacts/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifactPattern &lt;s1&gt;"$projectDir/repo/[organisation]/[module]-[revision](-[classifier]).[ext]"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T030438Z" creationid="huanghaohang" creationdate="20190604T030438Z">
+        <seg>artifactPattern &lt;s1&gt;"$projectDir/repo/[organisation]/[module]-[revision](-[classifier]).[ext]"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -33150,6 +33204,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://ant.apache.org/ivy/history/latest-milestone/settings/resolvers.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T030450Z" creationid="huanghaohang" creationdate="20190604T030450Z">
+        <seg>http://ant.apache.org/ivy/history/latest-milestone/settings/resolvers.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://bintray.com</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031050Z" creationid="huanghaohang" creationdate="20190603T031050Z">
@@ -34302,6 +34364,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T143845Z" creationid="huanghaohang" creationdate="20180207T143845Z">
         <seg>ivy-publish</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ivyPattern &lt;s0&gt;"$projectDir/repo/[organisation]/[module]-ivy-[revision].xml"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T030437Z" creationid="huanghaohang" creationdate="20190604T030437Z">
+        <seg>ivyPattern &lt;s0&gt;"$projectDir/repo/[organisation]/[module]-ivy-[revision].xml"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
