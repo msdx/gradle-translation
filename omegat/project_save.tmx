@@ -18299,8 +18299,16 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>In some corporate environments, the list of module versions that can be declared in Gradle builds is maintained and audited externally. Dependency resolve rules provide a neat implementation of this pattern:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T020045Z" creationid="huanghaohang" creationdate="20190605T020045Z">
-        <seg>在某些企业环境中，可以在 Gradle 构建中声明的模块版本列表，是在外部进行维护和审计的。依赖解析规则提供了这种模式的整洁实现:</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T020344Z" creationid="huanghaohang" creationdate="20190605T020045Z">
+        <seg>在某些企业环境中，可以在 Gradle 构建中声明的模块版本列表，是在外部进行维护和审计的。依赖解析规则提供了这种模式的整洁实现：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the build script, the developer declares dependencies with the module group and name, but uses a placeholder version, for example: '&lt;c0&gt;default&lt;/c0&gt;'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T020425Z" creationid="huanghaohang" creationdate="20190605T020425Z">
+        <seg>在构建脚本中，开发人员使用模块组和名称声明依赖，但版本使用占位符，例如：“&lt;c0&gt;default&lt;/c0&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22713,6 +22721,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T154715Z" creationid="95" creationdate="20190201T154715Z">
         <seg>“&lt;c0&gt;scala-library&lt;/c0&gt;”构建初始化类型不是可推断的，它必须显式指定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The 'default' version is resolved to a specific version via a dependency resolve rule, which looks up the version in a corporate catalog of approved modules.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022439Z" creationid="huanghaohang" creationdate="20190605T022439Z">
+        <seg>这个“default”版本通过依赖解析规则被解析为一个特定的版本，该规则将在一个已核准模块的共同目录中查找该版本。</seg>
       </tuv>
     </tu>
     <tu>
