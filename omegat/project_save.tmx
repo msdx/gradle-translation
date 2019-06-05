@@ -10463,6 +10463,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A binary store of resolved module meta-data, including the results of resolving dynamic versions, module descriptors, and artifacts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041919Z" creationid="huanghaohang" creationdate="20190605T041919Z">
+        <seg>解析的模块元数据的二进制存储，包括解析动态版本、 模块描述符和工件的结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A build depending on both &lt;c0&gt;module-a&lt;/c0&gt; and &lt;c1&gt;module-b&lt;/c1&gt; will obtain different versions of libraries within the releasable unit.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T015317Z" creationid="huanghaohang" creationdate="20190605T015317Z">
@@ -21441,6 +21449,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144357Z" creationid="huanghaohang" creationdate="20180207T144357Z">
         <seg>在构建的生命周期中，把本地公告中有关你感兴趣的事件发送到你的桌面。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Separating the storage of downloaded artifacts from the cache metadata permits us to do some very powerful things with our cache that would be difficult with a transparent, file-only cache layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T042429Z" creationid="huanghaohang" creationdate="20190605T042429Z">
+        <seg>从下载的工件的存储中分离出缓存的元数据，使我们能够对比缓存执行一些非常强大的操作，而如果使用一个透明的只有文件的缓存布局则会很困难。</seg>
       </tuv>
     </tu>
     <tu>
