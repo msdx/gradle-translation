@@ -23195,8 +23195,16 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The &lt;c0&gt;--offline&lt;/c0&gt; command line switch tells Gradle to always use dependency modules from the cache, regardless if they are due to be checked again. When running with offline, Gradle will never attempt to access the network to perform dependency resolution. If required modules are not present in the dependency cache, build execution will fail.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T145647Z" creationid="huanghaohang" creationdate="20190605T145243Z">
-        <seg>&lt;c0&gt;--offline&lt;/c0&gt; 命令行开关指示 Gradle 始终使用缓存中的依赖模块，而不考虑是否要再检查。在使用离线模式运行时，Gradle 将不会尝试访问网络来执行依赖解析。如果所需的模块在依赖缓存中不存在，构建执行就会失败。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T150249Z" creationid="huanghaohang" creationdate="20190605T145243Z">
+        <seg>&lt;c0&gt;--offline&lt;/c0&gt; 命令行开关告诉 Gradle 始终使用缓存中的依赖模块，而不考虑是否要再检查。在使用离线模式运行时，Gradle 将不会尝试访问网络来执行依赖解析。如果所需的模块在依赖缓存中不存在，构建执行就会失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;--refresh-dependencies&lt;/c0&gt; option tells Gradle to ignore all cached entries for resolved modules and artifacts. A fresh resolve will be performed against all configured repositories, with dynamic versions recalculated, modules refreshed, and artifacts downloaded. However, where possible Gradle will check if the previously downloaded artifacts are valid before downloading again. This is done by comparing published SHA1 values in the repository with the SHA1 values for existing downloaded artifacts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T150829Z" creationid="huanghaohang" creationdate="20190605T150226Z">
+        <seg>&lt;c0&gt;--refresh-dependencies&lt;/c0&gt; 选项告诉 Gradle 忽略已解析的模块和工件的所有缓存条目。所有已配置的仓库都会执行新的解析，并重新计算动态版本，刷新模块及下载工件。但是，在可能的情况下，Gradle 会检查之前下载的工件是否有效，然后再下载。这是通过比较仓库中已发布的 SHA1 值和现在已下载好的工件的 SHA1 值来完成的。</seg>
       </tuv>
     </tu>
     <tu>
