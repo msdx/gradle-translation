@@ -6770,6 +6770,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.8.2.3. Blacklisting a particular version with a replacement</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022728Z" creationid="huanghaohang" creationdate="20190605T022728Z">
+        <seg>50.8.2.3. 通过替换把特定版本加入黑名单</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.8.2. Using dependency resolve rules</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T034903Z" creationid="huanghaohang" creationdate="20190604T034903Z">
@@ -8535,6 +8543,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.version == &lt;s1&gt;'default'&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022639Z" creationid="huanghaohang" creationdate="20190605T022639Z">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.version == &lt;s1&gt;'default'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.tools.ant.filters.FixCrLfFilter
 &lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
 
@@ -8761,6 +8777,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;//some custom logic that resolves the default version into a specific version&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022642Z" creationid="huanghaohang" creationdate="20190605T022642Z">
+        <seg>&lt;s2&gt;//some custom logic that resolves the default version into a specific version&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;if&lt;/s2&gt; (true) { &lt;s3&gt;throw&lt;/s3&gt; &lt;s4&gt;new&lt;/s4&gt; StopExecutionException() }
 }
 task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
@@ -8769,6 +8793,16 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
         <seg>&lt;s2&gt;if&lt;/s2&gt; (true) { &lt;s3&gt;throw&lt;/s3&gt; &lt;s4&gt;new&lt;/s4&gt; StopExecutionException() }
 }
 task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s3&gt;"1.0"&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022643Z" creationid="huanghaohang" creationdate="20190605T022643Z">
+        <seg>&lt;s3&gt;"1.0"&lt;/s3&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -15753,6 +15787,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.44. Using a custom versioning scheme</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022637Z" creationid="huanghaohang" creationdate="20190605T022637Z">
+        <seg>示例 50.44. 使用自定义的版本方案</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.5. Artifact only notation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044310Z" creationid="huanghaohang" creationdate="20190531T044310Z">
@@ -22727,8 +22769,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The 'default' version is resolved to a specific version via a dependency resolve rule, which looks up the version in a corporate catalog of approved modules.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022439Z" creationid="huanghaohang" creationdate="20190605T022439Z">
-        <seg>这个“default”版本通过依赖解析规则被解析为一个特定的版本，该规则将在一个已核准模块的共同目录中查找该版本。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022550Z" creationid="huanghaohang" creationdate="20190605T022439Z">
+        <seg>这个“default”版本通过依赖解析规则被解析为一个特定的版本，该规则将在一个已核准模块的公司目录中查找该版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26089,6 +26131,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T030945Z" creationid="huanghaohang" creationdate="20170910T030945Z">
         <seg>该报告列出了配置阶段和任务执行的总体时间和详细信息。配置和任务执行的时间会先从大到小排序。任务执行的结果还表明是否有任务被跳过（及跳过原因），或者是否有任务什么都没做却没被跳过。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This rule implementation can be neatly encapsulated in a corporate plugin, and shared across all builds within the organisation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022624Z" creationid="huanghaohang" creationdate="20190605T022545Z">
+        <seg>该规则的实现可以灵活地封装在一个公司插件中，并在组织内的所有构建中共享。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31331,6 +31381,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def version = findDefaultVersionInCatalog(details.requested.group, details.requested.name)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022639Z" creationid="huanghaohang" creationdate="20190605T022639Z">
+        <seg>def version = findDefaultVersionInCatalog(details.requested.group, details.requested.name)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>default</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053914Z" creationid="haohang" creationdate="20180313T053914Z">
@@ -31843,6 +31901,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T015345Z" creationid="huanghaohang" creationdate="20190605T015345Z">
         <seg>details.useVersion &lt;s2&gt;'1.4'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>details.useVersion version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022640Z" creationid="huanghaohang" creationdate="20190605T022640Z">
+        <seg>details.useVersion version</seg>
       </tuv>
     </tu>
     <tu>
@@ -41567,6 +41633,20 @@ artifacts {</seg>
 }
 
 artifacts {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+def findDefaultVersionInCatalog(String group, String name) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022641Z" creationid="huanghaohang" creationdate="20190605T022641Z">
+        <seg>}
+}
+
+def findDefaultVersionInCatalog(String group, String name) {</seg>
       </tuv>
     </tu>
     <tu>
