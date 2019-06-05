@@ -17045,6 +17045,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For many projects there is not one right set of dependencies (as more or less imposed by the POM format).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T152131Z" creationid="huanghaohang" creationdate="20190605T152131Z">
+        <seg>对于许多项目而言，没有一组正确依赖（因 POM 格式的影响会多或少）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For more advanced uses, you can define a task dependency using a closure. When evaluated, the closure is passed the task whose dependencies are being calculated. The closure should return a single &lt;c0&gt;Task&lt;/c0&gt; or collection of &lt;c1&gt;Task&lt;/c1&gt; objects, which are then treated as dependencies of the task. The following example adds a dependency from &lt;c2&gt;taskX&lt;/c2&gt; to all the tasks in the project whose name starts with &lt;c3&gt;lib&lt;/c3&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130910Z" creationid="huanghaohang" creationdate="20170919T130910Z">
