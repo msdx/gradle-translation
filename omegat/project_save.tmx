@@ -6866,6 +6866,22 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.9.2.1. Offline</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T145234Z" creationid="huanghaohang" creationdate="20190605T145234Z">
+        <seg>50.9.2.1. 离线</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>50.9.2. Command line options to override caching</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T145231Z" creationid="huanghaohang" creationdate="20190605T145231Z">
+        <seg>50.9.2. 覆盖缓存的命令行选项</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.9. The dependency cache</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041039Z" creationid="huanghaohang" creationdate="20190605T041039Z">
@@ -23157,6 +23173,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T124952Z" creationid="huanghaohang" creationdate="20171126T124952Z">
         <seg>&lt;a0&gt;&lt;c1&gt;Sync&lt;/c1&gt;&lt;/a0&gt; 任务扩展了 &lt;c2&gt;Copy&lt;/c2&gt; 任务。当它执行时，它会将源文件复制到目标目录中，然后从目标目录中删除它没有复制的所有文件。这可以用于执行诸如安装应用程序，创建归档文件的分解（解压）副本，或维护项目依赖的副本等。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;--offline&lt;/c0&gt; command line switch tells Gradle to always use dependency modules from the cache, regardless if they are due to be checked again. When running with offline, Gradle will never attempt to access the network to perform dependency resolution. If required modules are not present in the dependency cache, build execution will fail.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T145647Z" creationid="huanghaohang" creationdate="20190605T145243Z">
+        <seg>&lt;c0&gt;--offline&lt;/c0&gt; 命令行开关指示 Gradle 始终使用缓存中的依赖模块，而不考虑是否要再检查。在使用离线模式运行时，Gradle 将不会尝试访问网络来执行依赖解析。如果所需的模块在依赖缓存中不存在，构建执行就会失败。</seg>
       </tuv>
     </tu>
     <tu>
