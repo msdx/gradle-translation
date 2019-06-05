@@ -19805,6 +19805,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>One piece of module metadata that Gradle understands is a module's &lt;s0&gt;&lt;e1&gt;status scheme&lt;/e1&gt;&lt;/s0&gt;. This concept, also known from Ivy, models the different levels of maturity that a module transitions through over time. The default status scheme, ordered from least to most mature status, is &lt;c2&gt;integration&lt;/c2&gt;, &lt;c3&gt;milestone&lt;/c3&gt;, &lt;c4&gt;release&lt;/c4&gt;. Apart from a status scheme, a module also has a (current) &lt;s5&gt;&lt;e6&gt;status&lt;/e6&gt;&lt;/s5&gt;, which must be one of the values in its status scheme. If not specified in the (Ivy) descriptor, the status defaults to &lt;c7&gt;integration&lt;/c7&gt; for Ivy modules and Maven snapshot modules, and &lt;c8&gt;release&lt;/c8&gt; for Maven modules that aren't snapshots.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T034857Z" creationid="huanghaohang" creationdate="20190605T034857Z">
+        <seg>Gradle 理解的其中一个模块元数据是模块的 &lt;s0&gt;&lt;e1&gt;状态方案&lt;/e1&gt;&lt;/s0&gt;。 这个概念也可以从 Ivy 中了解到，对随时间推移模块的不同成熟度级别进行建模。默认的状态方案，从最不成熟到最成熟排序，分别为 &lt;c2&gt;integration&lt;/c2&gt;，&lt;c3&gt;milestone&lt;/c3&gt; 和 &lt;c4&gt;release&lt;/c4&gt;。 除状态方案外，模块还有一个（当前）&lt;s5&gt;&lt;e6&gt;状态&lt;/e6&gt;&lt;/s5&gt;，它必须是状态方案中的值之一。如果没有在（Ivy）描述符中指定，那么对于 Ivy 模块和 Maven 快照模块，它的值是 &lt;c7&gt;integration&lt;/c7&gt;；而对于不是快照的 Maven 模块，它的值是 &lt;c8&gt;release&lt;/c8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>One use for source sets is to group source files into logical groups which describe their purpose. For example, you might use a source set to define an integration test suite, or you might use separate source sets to define the API and implementation classes of your project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T061021Z" creationid="haohang" creationdate="20180312T061021Z">
