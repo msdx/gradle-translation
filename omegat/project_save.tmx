@@ -18307,6 +18307,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In example below, imagine that version &lt;c0&gt;1.2.1&lt;/c0&gt; contains important fixes and should always be used in preference to &lt;c1&gt;1.2&lt;/c1&gt;. The rule provided will enforce just this: any time version &lt;c2&gt;1.2&lt;/c2&gt; is encountered it will be replaced with &lt;c3&gt;1.2.1&lt;/c3&gt;. Note that this is different from a forced version as described above, in that any other versions of this module would not be affected. This means that the 'newest' conflict resolution strategy would still select version &lt;c4&gt;1.3&lt;/c4&gt; if this version was also pulled transitively.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T024355Z" creationid="huanghaohang" creationdate="20190605T024355Z">
+        <seg>在下面的示例中，假设版本 &lt;c0&gt;1.2.1&lt;/c0&gt; 包含了重要的修复，并且应该始终优先于 &lt;c1&gt;1.2&lt;/c1&gt; 使用。提供的规则将仅强制执行如下操作：在任何时间，遇到了版本 &lt;c2&gt;1.2&lt;/c2&gt; 时，都把它替换为 &lt;c3&gt;1.2.1&lt;/c3&gt;。请注意，这与上面描述的强制版本有所区别，因为这个模块的其他版本都不受影响。这意味着，如果版本 &lt;c4&gt;1.3&lt;/c4&gt; 也由于依赖传递被获取到，那么"最新的"冲突解决策略还是会选择这个新的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In future the daemon will offer more features:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180109T135840Z" creationid="huanghaohang" creationdate="20180109T135840Z">
