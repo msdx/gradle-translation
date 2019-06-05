@@ -6794,6 +6794,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.8.3. Enabling Ivy dynamic resolve mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025017Z" creationid="huanghaohang" creationdate="20190605T025017Z">
+        <seg>50.8.3. 启用 Ivy 动态解析模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.8. Fine-tuning the dependency resolution process</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033506Z" creationid="huanghaohang" creationdate="20190604T033447Z">
@@ -8559,6 +8567,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.name == &lt;s1&gt;'groovy-all'&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025002Z" creationid="huanghaohang" creationdate="20190605T025002Z">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.name == &lt;s1&gt;'groovy-all'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.version == &lt;s1&gt;'default'&lt;/s1&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022639Z" creationid="huanghaohang" creationdate="20190605T022639Z">
@@ -8793,6 +8809,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;//prefer 'groovy' over 'groovy-all':&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025003Z" creationid="huanghaohang" creationdate="20190605T025003Z">
+        <seg>&lt;s2&gt;//prefer 'groovy' over 'groovy-all':&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;//some custom logic that resolves the default version into a specific version&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022642Z" creationid="huanghaohang" creationdate="20190605T022642Z">
@@ -8927,6 +8951,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s4&gt;if&lt;/s4&gt; (details.requested.name == &lt;s5&gt;'log4j'&lt;/s5&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025004Z" creationid="huanghaohang" creationdate="20190605T025004Z">
+        <seg>&lt;s4&gt;if&lt;/s4&gt; (details.requested.name == &lt;s5&gt;'log4j'&lt;/s5&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s4&gt;public&lt;/s4&gt; &lt;s5&gt;void&lt;/s5&gt; beforeExecute(Task task) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144027Z" creationid="huanghaohang" creationdate="20180107T144027Z">
@@ -8989,6 +9021,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T132410Z" creationid="huanghaohang" creationdate="20170917T132410Z">
         <seg>&lt;s6&gt;// do something&lt;/s6&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s6&gt;//prefer 'log4j-over-slf4j' over 'log4j', with fixed version:&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025005Z" creationid="huanghaohang" creationdate="20190605T025005Z">
+        <seg>&lt;s6&gt;//prefer 'log4j-over-slf4j' over 'log4j', with fixed version:&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -15843,6 +15883,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.46. Changing dependency group and/or name at the resolution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025001Z" creationid="huanghaohang" creationdate="20190605T025001Z">
+        <seg>示例 50.46. 在解析中更改依赖组及名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.5. Artifact only notation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044310Z" creationid="huanghaohang" creationdate="20190531T044310Z">
@@ -17599,6 +17647,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033945Z" creationid="huanghaohang" creationdate="20190603T033913Z">
         <seg>Gradle 将会在第一个 URL 查找 POM 和 JAR 文件。如果那里找不到 JAR，那么会使用工件 URL 来查找 JAR。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle's Ivy repository implementations support the equivalent to Ivy's dynamic resolve mode. Normally, Gradle will use the &lt;c0&gt;rev&lt;/c0&gt; attribute for each dependency definition included in an &lt;c1&gt;ivy.xml&lt;/c1&gt; file. In dynamic resolve mode, Gradle will instead prefer the &lt;c2&gt;revConstraint&lt;/c2&gt; attribute over the &lt;c3&gt;rev&lt;/c3&gt; attribute for a given dependency definition. If the &lt;c4&gt;revConstraint&lt;/c4&gt; attribute is not present, the &lt;c5&gt;rev&lt;/c5&gt; attribute is used instead.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025611Z" creationid="huanghaohang" creationdate="20190605T025611Z">
+        <seg>Gradle 的 Ivy 仓库实现支持相当于 Ivy 的动态解析模式。通常情况下，Gradle 将 &lt;c0&gt;rev&lt;/c0&gt; 属性用于 &lt;c1&gt;ivy.xml&lt;/c1&gt; 文件中包含的每个依赖定义。在动态解析模式下，对于一个给定的依赖定义，Gradle 对 &lt;c2&gt;revConstraint&lt;/c2&gt; 属性的使用优先于 &lt;c3&gt;rev&lt;/c3&gt; 属性。如果 &lt;c4&gt;revConstraint&lt;/c4&gt; 属性不存在，则使用 &lt;c5&gt;rev&lt;/c5&gt; 属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31949,6 +32005,22 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111946Z" creationid="huanghaohang" creationdate="20180406T111946Z">
         <seg>details.exclude()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>details.useTarget &lt;s7&gt;"org.slf4j:log4j-over-slf4j:1.7.5"&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025006Z" creationid="huanghaohang" creationdate="20190605T025006Z">
+        <seg>details.useTarget &lt;s7&gt;"org.slf4j:log4j-over-slf4j:1.7.5"&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>details.useTarget group: details.requested.group, name: &lt;s3&gt;'groovy'&lt;/s3&gt;, version: details.requested.version</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025004Z" creationid="huanghaohang" creationdate="20190605T025004Z">
+        <seg>details.useTarget group: details.requested.group, name: &lt;s3&gt;'groovy'&lt;/s3&gt;, version: details.requested.version</seg>
       </tuv>
     </tu>
     <tu>
