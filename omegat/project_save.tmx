@@ -6834,6 +6834,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.9.1.3. Artifact reuse</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T083547Z" creationid="huanghaohang" creationdate="20190605T083547Z">
+        <seg>50.9.1.3. 工件复用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.9.1. Key features of the Gradle dependency cache</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T042757Z" creationid="huanghaohang" creationdate="20190605T042757Z">
@@ -11971,6 +11979,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T010859Z" creationid="huanghaohang" creationdate="20170923T004834Z">
         <seg>在第一次执行任务之前，Gradle会获取输入的快照。此快照包含一组输入文件和每个文件的内容的散列。然后Gradle执行任务。如果任务成功完成，则Gradle会对输出进行快照。此快照包含一组输出文件和每个文件的内容的散列。 Gradle会保存这两个快照，用于这个任务下一次的执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Before downloading an artifact, Gradle tries to determine the checksum of the required artifact by downloading the sha file associated with that artifact. If the checksum can be retrieved, an artifact is not downloaded if an artifact already exists with the same id and checksum. If the checksum cannot be retrieved from the remote server, the artifact will be downloaded (and ignored if it matches an existing artifact).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T143729Z" creationid="huanghaohang" creationdate="20190605T083552Z">
+        <seg>在下载工件前，Gradle 试图通过下载与该工件关联的 sha 文件来确定所需工件的校验和。如果校验和可以获取得到，并且已经存在有相同 id 和校验和的工件，就不会再去下载为个工件。如果无法从远程服务器中获取校验和，则下载这个工件（并且如果它与现有工件相匹配就忽略掉）。</seg>
       </tuv>
     </tu>
     <tu>
