@@ -6850,6 +6850,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.9.1.5. Cache Locking</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T144841Z" creationid="huanghaohang" creationdate="20190605T144841Z">
+        <seg>50.9.1.5. 缓存锁</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.9.1. Key features of the Gradle dependency cache</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T042757Z" creationid="huanghaohang" creationdate="20190605T042757Z">
@@ -23909,6 +23917,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041405Z" creationid="huanghaohang" creationdate="20190605T041405Z">
         <seg>Gradle 依赖缓存由两种关键类型的存储组成：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Gradle dependency cache uses file-based locking to ensure that it can safely be used by multiple Gradle processes concurrently. The lock is held whenever the binary meta-data store is being read or written, but is released for slow operations such as downloading remote artifacts.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T145203Z" creationid="huanghaohang" creationdate="20190605T144845Z">
+        <seg>Gradle 依赖缓存使用基于文件的锁，以确保可安全地由多个 Gradle 进程并行使用。每当正在读取或写入二进制元数据存储时，就会持有锁，但是会对诸如下载远程工件之类的慢操作时会释放锁。</seg>
       </tuv>
     </tu>
     <tu>
