@@ -13517,6 +13517,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Dependency resolution will fail if the required artifacts are not available in any repository specified by the build, regardless whether the local cache has retrieved this artifact from a different repository. Repository independence allows builds to be isolated from each other in an advanced way that no build tool has done before. This is a key feature to create builds that are reliable and reproducible in any environment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T083537Z" creationid="huanghaohang" creationdate="20190605T083537Z">
+        <seg>如果所需的构件，在构建所指定的任何仓库中都不可用，无论本地缓存是否已经从其他的仓库中获取到这个构件，依赖解析都会失败。仓库独立能够使构建之间用一种先进的方法彼此隔离，以前从没有构建工具能够做到。这是一个关键的功能，使得能够在任何环境中创建可靠且可复制的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dependency resolve rules are an &lt;a0&gt;incubating&lt;/a0&gt; feature introduced in Gradle 1.4 which give you fine-grained control over the version selected for a particular dependency.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T143248Z" creationid="huanghaohang" creationdate="20190411T142942Z">
