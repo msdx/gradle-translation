@@ -6818,6 +6818,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.9. The dependency cache</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041039Z" creationid="huanghaohang" creationdate="20190605T041039Z">
+        <seg>50.9. 依赖缓存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -8711,6 +8719,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;if&lt;/s1&gt; (details.id.group == &lt;s2&gt;"air.birds"&lt;/s2&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041009Z" creationid="huanghaohang" creationdate="20190605T041009Z">
+        <seg>&lt;s1&gt;if&lt;/s1&gt; (details.id.group == &lt;s2&gt;"air.birds"&lt;/s2&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;if&lt;/s1&gt; (file.isFile()) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153800Z" creationid="95" creationdate="20170728T153800Z">
@@ -9573,6 +9589,30 @@ classpath = [classes]</seg>
         <seg>&gt; gradle -q list
 compiling classes
 classpath = [classes]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q listBirds
+albatros-2.0.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041021Z" creationid="huanghaohang" creationdate="20190605T041021Z">
+        <seg>&gt; gradle -q listBirds
+albatros-2.0.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q listFish
+tuna-1.5.jar
+
+tuna-1.4.jar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T040725Z" creationid="huanghaohang" creationdate="20190605T040725Z">
+        <seg>&gt; gradle -q listFish
+tuna-1.5.jar
+
+tuna-1.4.jar</seg>
       </tuv>
     </tu>
     <tu>
@@ -15941,6 +15981,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 50.49. Custom status scheme</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041003Z" creationid="huanghaohang" creationdate="20190605T040955Z">
+        <seg>示例 50.49. 自定义状态模式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 50.5. Artifact only notation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044310Z" creationid="huanghaohang" creationdate="20190531T044310Z">
@@ -20153,6 +20201,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150358Z" creationid="huanghaohang" creationdate="20170927T150358Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q list&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q listBirds&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041018Z" creationid="huanghaohang" creationdate="20190605T041018Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q listBirds&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q listFish&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T040721Z" creationid="huanghaohang" creationdate="20190605T040721Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q listFish&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -25325,6 +25389,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T142242Z" creationid="huanghaohang" creationdate="20180408T142242Z">
         <seg>web 应用程序源目录的名称，相当于项目目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The next example demonstrates &lt;c0&gt;latest&lt;/c0&gt; selectors based on a custom status scheme declared in a module metadata rule:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T040954Z" creationid="huanghaohang" creationdate="20190605T040954Z">
+        <seg>下一个示例基于模块的元数据规则中声明的自定义状态模式，来演示 &lt;c0&gt;latest&lt;/c0&gt; 选择器：</seg>
       </tuv>
     </tu>
     <tu>
@@ -31193,6 +31265,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>components {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041005Z" creationid="huanghaohang" creationdate="20190605T041005Z">
+        <seg>components {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>config/checkstyle/checkstyle.xml</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T140011Z" creationid="huanghaohang" creationdate="20180516T140011Z">
@@ -31205,6 +31285,36 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T142026Z" creationid="huanghaohang" creationdate="20180516T142026Z">
         <seg>config/codenarc/codenarc.xml</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>config1 &lt;s0&gt;"sea.fish:tuna:latest.integration"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T040718Z" creationid="huanghaohang" creationdate="20190605T040718Z">
+        <seg>config1 &lt;s0&gt;"sea.fish:tuna:latest.integration"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>config2 &lt;s1&gt;"sea.fish:tuna:latest.release"&lt;/s1&gt;
+}
+
+task listFish &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T040718Z" creationid="huanghaohang" creationdate="20190605T040718Z">
+        <seg>config2 &lt;s1&gt;"sea.fish:tuna:latest.release"&lt;/s1&gt;
+}
+
+task listFish &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>config3 &lt;s0&gt;"air.birds:albatros:latest.silver"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041004Z" creationid="huanghaohang" creationdate="20190605T041004Z">
+        <seg>config3 &lt;s0&gt;"air.birds:albatros:latest.silver"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -31272,6 +31382,34 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T051155Z" creationid="huanghaohang" creationdate="20190531T051155Z">
         <seg>configurations.compile.each { File file -&gt; println file.name }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.config1.each { println it.name }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T040719Z" creationid="huanghaohang" creationdate="20190605T040719Z">
+        <seg>configurations.config1.each { println it.name }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.config2.each { println it.name}
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T040720Z" creationid="huanghaohang" creationdate="20190605T040720Z">
+        <seg>configurations.config2.each { println it.name}
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>configurations.config3.each { println it.name }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041011Z" creationid="huanghaohang" creationdate="20190605T041011Z">
+        <seg>configurations.config3.each { println it.name }
 }</seg>
       </tuv>
     </tu>
@@ -32075,6 +32213,14 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>details.statusScheme = [&lt;s3&gt;"bronze"&lt;/s3&gt;, &lt;s4&gt;"silver"&lt;/s4&gt;, &lt;s5&gt;"gold"&lt;/s5&gt;, &lt;s6&gt;"platinum"&lt;/s6&gt;]</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041010Z" creationid="huanghaohang" creationdate="20190605T041010Z">
+        <seg>details.statusScheme = [&lt;s3&gt;"bronze"&lt;/s3&gt;, &lt;s4&gt;"silver"&lt;/s4&gt;, &lt;s5&gt;"gold"&lt;/s5&gt;, &lt;s6&gt;"platinum"&lt;/s6&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>details.useTarget &lt;s7&gt;"org.slf4j:log4j-over-slf4j:1.7.5"&lt;/s7&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025006Z" creationid="huanghaohang" creationdate="20190605T025006Z">
@@ -32379,6 +32525,14 @@ api:libs - Builds the JAR</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093255Z" creationid="huanghaohang" creationdate="20180715T093255Z">
         <seg>dumpOnExit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>eachComponent { ComponentMetadataDetails details -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041009Z" creationid="huanghaohang" creationdate="20190605T041009Z">
+        <seg>eachComponent { ComponentMetadataDetails details -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -41939,6 +42093,20 @@ task groupPing {</seg>
 }
 
 task groupPing {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+task listBirds &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041011Z" creationid="huanghaohang" creationdate="20190605T041011Z">
+        <seg>}
+}
+
+task listBirds &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
