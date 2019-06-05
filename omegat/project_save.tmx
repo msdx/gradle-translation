@@ -6890,6 +6890,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.9.3. Fine-tuned control over dependency caching</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T150838Z" creationid="huanghaohang" creationdate="20190605T150838Z">
+        <seg>50.9.3. 依赖缓存的微调控制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.9. The dependency cache</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041039Z" creationid="huanghaohang" creationdate="20190605T041039Z">
@@ -12183,6 +12191,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>By default, Gradle caches dynamic versions for 24 hours. To change how long Gradle will cache the resolved version for a dynamic version, use:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T151144Z" creationid="huanghaohang" creationdate="20190605T151144Z">
+        <seg>默认情况下，Gradle 缓存动态版本的时间为 24 小时。如果要更改 Gradle 对动态版本解析到的版本的缓存时间，请使用：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>By default, Gradle does not define any repositories. You need to define at least one before you can use external dependencies. One option is use the Maven central repository:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044736Z" creationid="huanghaohang" creationdate="20170908T044736Z">
@@ -16129,6 +16145,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044310Z" creationid="huanghaohang" creationdate="20190531T044310Z">
         <seg>示例50.5. 仅工件表示法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.50. Dynamic version cache control</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T151202Z" creationid="huanghaohang" creationdate="20190605T151202Z">
+        <seg>示例 50.50. 动态版本缓存控制</seg>
       </tuv>
     </tu>
     <tu>
@@ -28685,6 +28709,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T124802Z" creationid="95" creationdate="20170730T124802Z">
         <seg>更多的信息请参阅《&lt;a0&gt;第八章，&lt;i1&gt;依赖管理基础&lt;/i1&gt;&lt;/a0&gt;》</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can fine-tune certain aspects of caching using the &lt;c0&gt;ResolutionStrategy&lt;/c0&gt; for a configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T150947Z" creationid="huanghaohang" creationdate="20190605T150846Z">
+        <seg>你可以在配置中使用 &lt;c0&gt;ResolutionStrategy&lt;/c0&gt; 对缓存的某些方面进行微调。</seg>
       </tuv>
     </tu>
     <tu>
