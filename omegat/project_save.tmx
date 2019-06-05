@@ -6874,6 +6874,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.9.2.2. Refresh</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T145715Z" creationid="huanghaohang" creationdate="20190605T145715Z">
+        <seg>50.9.2.2. 刷新</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.9.2. Command line options to override caching</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T145231Z" creationid="huanghaohang" creationdate="20190605T145231Z">
@@ -11923,6 +11931,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T024949Z" creationid="huanghaohang" creationdate="20190605T024949Z">
         <seg>有时候，可以用一个完全不同的模块来替换所请求的模块依赖。示例包括，使用 “&lt;c0&gt;groovy&lt;/c0&gt;” 代替 “&lt;c1&gt;groovy-all&lt;/c1&gt;”，或使用 “&lt;c2&gt;log4j-over-slf4j&lt;/c2&gt;” 代替 “&lt;c3&gt;log4j&lt;/c3&gt;”。从 Gradle 1.5 起，你可以使用依赖解析规则来进行这些替换：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At times, the Gradle Dependency Cache can be out of sync with the actual state of the configured repositories. Perhaps a repository was initially misconfigured, or perhaps a "non-changing" module was published incorrectly. To refresh all dependencies in the dependency cache, use the &lt;c0&gt;--refresh-dependencies&lt;/c0&gt; option on the command line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T150052Z" creationid="huanghaohang" creationdate="20190605T150052Z">
+        <seg>有时，Gradle 依赖缓存可能会与已配置仓库的实际状态不同步。也许一个仓库的最初配置有误，或者是没有正确发布“无更改”模块。要刷新依赖缓存中的所有依赖，请在命令行上使用 &lt;c0&gt;--refresh-dependencies&lt;/c0&gt; 选项。</seg>
       </tuv>
     </tu>
     <tu>
