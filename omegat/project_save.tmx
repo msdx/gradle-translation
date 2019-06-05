@@ -6772,8 +6772,8 @@ someroot/[artifact]-[revision].[ext]</seg>
       <tuv lang="EN-US">
         <seg>50.8.2.3. Blacklisting a particular version with a replacement</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022857Z" creationid="huanghaohang" creationdate="20190605T022728Z">
-        <seg>50.8.2.3. 把特定版本加入黑名单并替换</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T024458Z" creationid="huanghaohang" creationdate="20190605T022728Z">
+        <seg>50.8.2.3. 通过替换把特定版本列入黑名单</seg>
       </tuv>
     </tu>
     <tu>
@@ -8539,6 +8539,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T015341Z" creationid="huanghaohang" creationdate="20190605T015341Z">
         <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.group == &lt;s1&gt;'org.gradle'&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.group == &lt;s1&gt;'org.software'&lt;/s1&gt; &amp;&amp; details.requested.name == &lt;s2&gt;'some-library'&lt;/s2&gt; &amp;&amp; details.requested.version == &lt;s3&gt;'1.2'&lt;/s3&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T024459Z" creationid="huanghaohang" creationdate="20190605T024459Z">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (details.requested.group == &lt;s1&gt;'org.software'&lt;/s1&gt; &amp;&amp; details.requested.name == &lt;s2&gt;'some-library'&lt;/s2&gt; &amp;&amp; details.requested.version == &lt;s3&gt;'1.2'&lt;/s3&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -15799,6 +15807,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022637Z" creationid="huanghaohang" creationdate="20190605T022637Z">
         <seg>示例 50.44. 使用自定义的版本方案</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.45. Blacklisting a version with a replacement</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T024434Z" creationid="huanghaohang" creationdate="20190605T024434Z">
+        <seg>示例 50.45. 通过替换把版本列入黑名单</seg>
       </tuv>
     </tu>
     <tu>
