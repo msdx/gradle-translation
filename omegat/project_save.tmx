@@ -10527,6 +10527,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A module's status and status scheme are taken into consideration when a &lt;c0&gt;latest&lt;/c0&gt; version selector is resolved. Specifically, &lt;c1&gt;latest.someStatus&lt;/c1&gt; will resolve to the highest module version that has status &lt;c2&gt;someStatus&lt;/c2&gt; or a more mature status. For example, with the default status scheme in place, &lt;c3&gt;latest.integration&lt;/c3&gt; will select the highest module version regardless of its status (because &lt;c4&gt;integration&lt;/c4&gt; is the least mature status), whereas &lt;c5&gt;latest.release&lt;/c5&gt; will select the highest module version with status &lt;c6&gt;release&lt;/c6&gt;. Here is what this looks like in code:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T035549Z" creationid="huanghaohang" creationdate="20190605T034907Z">
+        <seg>一个模块的状态及状态模式，会在解析 &lt;c0&gt;latest&lt;/c0&gt; 版本选择器时考虑到。具体而言，&lt;c1&gt;latest.someStatus&lt;/c1&gt; 会解析成有着 &lt;c2&gt;someStatus&lt;/c2&gt; 或更成熟状态的最高模块版本。例如，如果其他地方存在默认的状态模式，那么 &lt;c3&gt;latest.integration&lt;/c3&gt; 将选择最高的模块版本，而不考虑其状态（因为 &lt;c4&gt;integration&lt;/c4&gt; 是成熟度最低的状态），而&lt;c5&gt;latest.release&lt;/c5&gt;将选择&lt;c6&gt;release&lt;/c6&gt;状态的最高模块版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A one element set with the project the plugin was applied to.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040842Z" creationid="huanghaohang" creationdate="20190123T040842Z">
@@ -19807,8 +19815,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>One piece of module metadata that Gradle understands is a module's &lt;s0&gt;&lt;e1&gt;status scheme&lt;/e1&gt;&lt;/s0&gt;. This concept, also known from Ivy, models the different levels of maturity that a module transitions through over time. The default status scheme, ordered from least to most mature status, is &lt;c2&gt;integration&lt;/c2&gt;, &lt;c3&gt;milestone&lt;/c3&gt;, &lt;c4&gt;release&lt;/c4&gt;. Apart from a status scheme, a module also has a (current) &lt;s5&gt;&lt;e6&gt;status&lt;/e6&gt;&lt;/s5&gt;, which must be one of the values in its status scheme. If not specified in the (Ivy) descriptor, the status defaults to &lt;c7&gt;integration&lt;/c7&gt; for Ivy modules and Maven snapshot modules, and &lt;c8&gt;release&lt;/c8&gt; for Maven modules that aren't snapshots.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T034857Z" creationid="huanghaohang" creationdate="20190605T034857Z">
-        <seg>Gradle 理解的其中一个模块元数据是模块的 &lt;s0&gt;&lt;e1&gt;状态方案&lt;/e1&gt;&lt;/s0&gt;。 这个概念也可以从 Ivy 中了解到，对随时间推移模块的不同成熟度级别进行建模。默认的状态方案，从最不成熟到最成熟排序，分别为 &lt;c2&gt;integration&lt;/c2&gt;，&lt;c3&gt;milestone&lt;/c3&gt; 和 &lt;c4&gt;release&lt;/c4&gt;。 除状态方案外，模块还有一个（当前）&lt;s5&gt;&lt;e6&gt;状态&lt;/e6&gt;&lt;/s5&gt;，它必须是状态方案中的值之一。如果没有在（Ivy）描述符中指定，那么对于 Ivy 模块和 Maven 快照模块，它的值是 &lt;c7&gt;integration&lt;/c7&gt;；而对于不是快照的 Maven 模块，它的值是 &lt;c8&gt;release&lt;/c8&gt;。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T035001Z" creationid="huanghaohang" creationdate="20190605T034857Z">
+        <seg>Gradle 理解的其中一个模块元数据是模块的 &lt;s0&gt;&lt;e1&gt;状态方案&lt;/e1&gt;&lt;/s0&gt;。 这个概念也可以从 Ivy 中了解到，对随时间推移模块的不同成熟度级别进行建模。默认的状态方案，从最不成熟到最成熟排序，分别为 &lt;c2&gt;integration&lt;/c2&gt;，&lt;c3&gt;milestone&lt;/c3&gt; 和 &lt;c4&gt;release&lt;/c4&gt;。 除状态方案外，模块还有一个（当前）&lt;s5&gt;&lt;e6&gt;状态&lt;/e6&gt;&lt;/s5&gt;，它必须是状态方案中的值之一。如果没有在（Ivy）描述符中指定， Ivy 模块和 Maven 快照模块的状态默认是 &lt;c7&gt;integration&lt;/c7&gt;，而不是快照的 Maven 模块则默认为 &lt;c8&gt;release&lt;/c8&gt;。</seg>
       </tuv>
     </tu>
     <tu>
