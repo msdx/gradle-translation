@@ -10559,6 +10559,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A file-based store of downloaded artifacts, including binaries like jars as well as raw downloaded meta-data like POM files and Ivy files. The storage path for a downloaded artifact includes the SHA1 checksum, meaning that 2 artifacts with the same name but different content can easily be cached.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041827Z" creationid="huanghaohang" creationdate="20190605T041827Z">
+        <seg>基于文件的下载工件存储，包括了像 jar 这样的二进制文件，以及像 POM 文件及 Ivy 文件这样的原始下载的元数据。下载的工件的存储路径包含了 SHA1 校验和，它意味着可以很容易地缓存两个名称相同但内容不同的工件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A list of available Sonar properties can be found in the &lt;a0&gt;Sonar documentation&lt;/a0&gt;. Note that for most of these properties, the Sonar plugin's object model has an equivalent property, and it isn't necessary to use a &lt;c1&gt;withGlobalProperties&lt;/c1&gt; or &lt;c2&gt;withProjectProperties&lt;/c2&gt; hook. For configuring a third-party Sonar plugin, consult the plugin's documentation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T084754Z" creationid="huanghaohang" creationdate="20180816T135524Z">
