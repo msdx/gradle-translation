@@ -6842,6 +6842,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.9.1.4. Checksum based storage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T144045Z" creationid="huanghaohang" creationdate="20190605T144045Z">
+        <seg>50.9.1.4. 基于校验和的存储</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.9.1. Key features of the Gradle dependency cache</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T042757Z" creationid="huanghaohang" creationdate="20190605T042757Z">
@@ -11747,6 +11755,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025119Z" creationid="95" creationdate="20170729T024301Z">
         <seg>正如我们后面会详细描述的的（见&lt;a0&gt;第五十五章，&lt;i1&gt;构建的生命周期&lt;/i1&gt;&lt;/a0&gt;），Gradle有一个配置阶段和一个执行阶段。在配置阶段后，Gradle会了解所有应该执行的任务。Gradle提供了一个钩子来让你使用这些信息。一个使用场景是，可以检查某个发布任务是否在这些要执行的任务当中。借由此，您可以为一些变量进行不同的赋值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As well as considering artifacts downloaded from a different repository, Gradle will also attempt to reuse artifacts found in the local Maven Repository. If a candidate artifact has been downloaded by Maven, Gradle will use this artifact if it can be verified to match the checksum declared by the remote server.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T144037Z" creationid="huanghaohang" creationdate="20190605T143750Z">
+        <seg>在考虑从其他仓库下载的工件时，Gradle 还将尝试复用在本地 Maven 仓库中找到的工件。如果某个候选工件已经通过 Maven 下载，并且它可以验证和远程服务器定义的校验和相匹配，Gradle 就会使用此工件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18969,6 +18985,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190210T104429Z" creationid="95" creationdate="20190210T103914Z">
         <seg>具有讽刺意味的是，以丰富的开源组件库著称的语言，Java竟然没有库或者版本的概念。在Java中，没有标准的方法来告知JVM你正在使用Hibernate V3.0.5，也没有标准的方法来表示 &lt;c0&gt;foo-1.0.jar&lt;/c0&gt; 依赖于 &lt;c1&gt;bar-2.0.jar&lt;/c1&gt;。 这导致了外部的解决方案通常都会基于构建工具。 目前最受欢迎的解决方案是Maven和Ivy。 Maven提供了完整的构建系统，而Ivy则只着眼于依赖管理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is possible for different repositories to provide a different binary artifact in response to the same artifact identifier. This is often the case with Maven SNAPSHOT artifacts, but can also be true for any artifact which is republished without changing it's identifier. By caching artifacts based on their SHA1 checksum, Gradle is able to maintain multiple versions of the same artifact. This means that when resolving against one repository Gradle will never overwrite the cached artifact file from a different repository. This is done without requiring a separate artifact file store per repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T144838Z" creationid="huanghaohang" creationdate="20190605T144838Z">
+        <seg>对于相同的工件标识，不同的仓库可能会提供不同的二进制工件。这种情况常见的是 Maven SNAPSHOT 工件，但是对于任何工件，都可以不更改其标识而重新发布。通过缓存基于 SHA1 校验和的工件，Gradle 能够维护同一工件的多个版本。意味着，当解析一个仓库时，Gradle 不会从其他仓库中覆盖已缓存的工件文件。它不需要一个单独的工件文件在每个仓库都存储就可以做到。</seg>
       </tuv>
     </tu>
     <tu>
