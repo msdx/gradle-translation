@@ -6772,8 +6772,8 @@ someroot/[artifact]-[revision].[ext]</seg>
       <tuv lang="EN-US">
         <seg>50.8.2.3. Blacklisting a particular version with a replacement</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022728Z" creationid="huanghaohang" creationdate="20190605T022728Z">
-        <seg>50.8.2.3. 通过替换把特定版本加入黑名单</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022857Z" creationid="huanghaohang" creationdate="20190605T022728Z">
+        <seg>50.8.2.3. 把特定版本加入黑名单并替换</seg>
       </tuv>
     </tu>
     <tu>
@@ -13343,6 +13343,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T015335Z" creationid="huanghaohang" creationdate="20190605T015335Z">
         <seg>依赖解析规则使你能够在构建中强制指定可发布单元。设想一下，一个可发布单元，由有 “org.gradle” 组的所有库定义。我们可以强制所有这些库使用一致的版本：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dependency resolve rules provide a mechanism for blacklisting a particular version of a dependency and providing a replacement version. This can be useful if a certain dependency version is broken and should not be used, where a dependency resolve rule causes this version to be replaced with a known good version. One example of a broken module is one that declares a dependency on a library that cannot be found in any of the public repositories, but there are many other reasons why a particular module version is unwanted and a different version is preferred.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T023815Z" creationid="huanghaohang" creationdate="20190605T022849Z">
+        <seg>依赖解析规则提供了一种机制，用于将特定版本的依赖列入黑名单并提供替换版本。 如果某个依赖版本已损坏且不应使用，那么这就会很有用，因为依赖解析规则可以将这个版本替换为已知的好的版本。有关损坏模块的例子有，在一个库上所声明的依赖在任何公共仓库中都找不到。但是为什么不能使用特定的模块版本，而更希望另一个不同的版本，还有许多其他原因。</seg>
       </tuv>
     </tu>
     <tu>
