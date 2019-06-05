@@ -6802,6 +6802,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.8.4. Component metadata rules</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025848Z" creationid="huanghaohang" creationdate="20190605T025848Z">
+        <seg>50.8.4. 组件元数据规则</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.8. Fine-tuning the dependency resolution process</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033506Z" creationid="huanghaohang" creationdate="20190604T033447Z">
@@ -8043,6 +8051,16 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134315Z" creationid="huanghaohang" creationdate="20171002T134315Z">
         <seg>&lt;s0&gt;// Add some source directories use String paths&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Can enable dynamic resolve mode when you define the repository&lt;/s0&gt;
+repositories {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025836Z" creationid="huanghaohang" creationdate="20190605T025836Z">
+        <seg>&lt;s0&gt;// Can enable dynamic resolve mode when you define the repository&lt;/s0&gt;
+repositories {</seg>
       </tuv>
     </tu>
     <tu>
@@ -13635,6 +13653,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each module (also called &lt;s0&gt;&lt;e1&gt;component&lt;/e1&gt;&lt;/s0&gt;) has metadata associated with it, such as its group, name, version, dependencies, and so on. This metadata typically originates in the module's descriptor. Metadata rules allow certain parts of a module's metadata to be manipulated from within the build script. They take effect after a module's descriptor has been downloaded, but before it has been selected among all candidate versions. This makes metadata rules another instrument for customizing dependency resolution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T033443Z" creationid="huanghaohang" creationdate="20190605T025858Z">
+        <seg>每个模块（也称为&lt;s0&gt;&lt;e1&gt;组件&lt;/e1&gt;&lt;/s0&gt;），都有与其相关的元数据，比如说组、名称、版本、依赖，等等。这些元数据通常来源于模块的描述符。元数据规则能够在构建脚本中处理模块元数据的某些部分。它们在模块的描述符下载之后，但在所有候选版本之间选择它之前生效。这使得元数据规则成为自定义依赖解析方案的另一种手段。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each project in the hierarchy has its own project configuration. Common values can be set from a parent build script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T152821Z" creationid="huanghaohang" creationdate="20180811T152821Z">
@@ -15887,6 +15913,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025001Z" creationid="huanghaohang" creationdate="20190605T025001Z">
         <seg>示例 50.46. 在解析中更改依赖组及名称</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 50.47. Enabling dynamic resolve mode</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025829Z" creationid="huanghaohang" creationdate="20190605T025829Z">
+        <seg>示例 50.47. 启用动态解析模式</seg>
       </tuv>
     </tu>
     <tu>
@@ -38244,6 +38278,24 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>resolve.dynamicMode = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025837Z" creationid="huanghaohang" creationdate="20190605T025837Z">
+        <seg>resolve.dynamicMode = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>resolve.dynamicMode = true
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025842Z" creationid="huanghaohang" creationdate="20190605T025842Z">
+        <seg>resolve.dynamicMode = true
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>resources</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T100914Z" creationid="haohang" creationdate="20180320T100914Z">
@@ -41719,6 +41771,22 @@ webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144952Z" creationid="95" creationdate="20170724T144952Z">
         <seg>}
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+&lt;s2&gt;// Can use a rule instead to enable (or disable) dynamic resolve mode for all repositories&lt;/s2&gt;
+repositories.withType(IvyArtifactRepository) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025838Z" creationid="huanghaohang" creationdate="20190605T025838Z">
+        <seg>}
+}
+
+&lt;s2&gt;// Can use a rule instead to enable (or disable) dynamic resolve mode for all repositories&lt;/s2&gt;
+repositories.withType(IvyArtifactRepository) {</seg>
       </tuv>
     </tu>
     <tu>
