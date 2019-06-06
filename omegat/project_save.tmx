@@ -26649,6 +26649,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is a reason why some projects prefer to store their libraries in their version control system. This approach is fully supported by Gradle. The libraries can be stored in a flat directory without any XML module descriptor files. Yet Gradle offers complete transitive dependency management. You can use either client module dependencies to express the dependency relations, or artifact dependencies in case a first level dependency has no transitive dependencies. People can check out such a project from svn and have everything necessary to build it.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T010312Z" creationid="huanghaohang" creationdate="20190606T000943Z">
+        <seg>这也是为什么一些项目希望将他们的库存在其版本控制系统中的原因。这种做法 Gradle 完全支持。库可以存在没有任何 XML 模块描述符文件的平面目录中，但 Gradle 提供了完整的传递依赖管理。你可以使用客户端模块依赖来表达依赖关系，或者是使用工件依赖，以防第一级依赖没有传递依赖。人们可以从 svn 中检出这样的项目，并具有构建它所需的的一切。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is all you need to define a Java project. This will apply the Java plugin to your project, which adds a number of tasks to your project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012839Z" creationid="95" creationdate="20170730T012607Z">
