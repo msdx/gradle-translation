@@ -18541,6 +18541,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you are working with a distributed version control system like Git you probably don't want to use the version control system to store libraries as people check out the whole history. But even here the flexibility of Gradle can make your life easier. For example you can use a shared flat directory without XML descriptors and yet you can have full transitive dependency management as described above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T014736Z" creationid="huanghaohang" creationdate="20190606T010319Z">
+        <seg>如果你正在使用像 Git 一样的分布式版本控制系统，由于人们会检出整个历史，那么你可能不希望使用版本控制系统来保存这些库。但即使是这样，Gradle 的灵活性也可以让你更轻松。例如，你可以使用不带 XML 描述符的共享平面目录，但是却能如上所述有完整的传递依赖管理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you declare a module dependency, Gradle looks for a corresponding module descriptor file (&lt;c0&gt;pom.xml&lt;/c0&gt; or &lt;c1&gt;ivy.xml&lt;/c1&gt;) in the repositories. If such a module descriptor file exists, it is parsed and the artifacts of this module (e.g. &lt;c2&gt;hibernate-3.0.5.jar&lt;/c2&gt;) as well as its dependencies (e.g. cglib) are downloaded. If no such module descriptor file exists, Gradle looks for a file called &lt;c3&gt;hibernate-3.0.5.jar&lt;/c3&gt; to retrieve. In Maven, a module can have one and only one artifact. In Gradle and Ivy, a module can have multiple artifacts. Each artifact can have a different set of dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190528T022308Z" creationid="huanghaohang" creationdate="20190528T021912Z">
