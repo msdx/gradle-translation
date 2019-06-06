@@ -7042,6 +7042,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>51.5. More about project libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T085444Z" creationid="huanghaohang" creationdate="20190606T085444Z">
+        <seg>51.5. 关于项目库的更多信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -18865,6 +18873,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T140504Z" creationid="95" creationdate="20190131T140504Z">
         <seg>如果你的项目生成要在分发中的文件，比如文档，你可以通过把它们添加到&lt;c0&gt;applicationDistribution&lt;/c0&gt;副本规范来将这些文件添加到分发中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If your project is supposed to be used as a library, you need to define what are the artifacts of this library and what are the dependencies of these artifacts. The Java plugin adds a &lt;c0&gt;runtime&lt;/c0&gt; configuration for this purpose, with the implicit assumption that the &lt;c1&gt;runtime&lt;/c1&gt; dependencies are the dependencies of the artifact you want to publish. Of course this is fully customizable. You can add your own custom configuration or let the existing configurations extend from other configurations. You might have different group of artifacts which have a different set of dependencies. This mechanism is very powerful and flexible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T085943Z" creationid="huanghaohang" creationdate="20190606T085943Z">
+        <seg>如果你的项目是作为一个库使用，那么你需要定义这个库的工件以及这些工件的依赖。Java 插件为此添加了一个 &lt;c0&gt;runtime&lt;/c0&gt; 配置，并隐式地假定 &lt;c1&gt;runtime&lt;/c1&gt; 依赖是你要发布的工件的依赖。当然，这是可以完全自定义的。你可以添加自己的自定义配置，或者让现有的配置从其他配置中扩展。你可以有不同组的工件，并且这些工件有不同的依赖。这一机制非常强大和灵活。</seg>
       </tuv>
     </tu>
     <tu>
