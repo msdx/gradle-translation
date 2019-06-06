@@ -7034,6 +7034,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>51.4. Publishing artifacts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075810Z" creationid="huanghaohang" creationdate="20190606T075810Z">
+        <seg>51.4. 发布工件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -28257,6 +28265,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We have said that there is a specific upload task for each configuration. But before you can do an upload, you have to configure the upload task and define where to publish the artifacts to. The repositories you have defined (as described in &lt;a0&gt;Section 50.6, “Repositories”&lt;/a0&gt;) are not automatically used for uploading. In fact, some of those repositories allow only for artifact downloading. Here is an example how you can configure the upload task of a configuration:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T080201Z" creationid="huanghaohang" creationdate="20190606T075838Z">
+        <seg>我们说过，每个配置都有一个特定的上传任务。但是在执行上传之前，你必须配置上传任务，并定义这些工件要发布到的位置。你所定义的仓库（如&lt;a0&gt;第 50.6 节，《仓库》&lt;/a0&gt;中所述）不会自动地用于上传。实际上，有些仓库仅允许下载工件。以下是有关如何对配置的上传任务进行配置的例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We plan to add much more to the existing reports and create additional ones in future releases of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T035942Z" creationid="huanghaohang" creationdate="20190123T035942Z">
@@ -30764,6 +30780,16 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125724Z" creationid="95" creationdate="20170803T125724Z">
         <seg>archives dist
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>archives file: generate.destFile, name: &lt;s1&gt;'my-artifact'&lt;/s1&gt;, type: &lt;s2&gt;'text'&lt;/s2&gt;, builtBy: generate
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075758Z" creationid="huanghaohang" creationdate="20190606T075758Z">
+        <seg>archives file: generate.destFile, name: &lt;s1&gt;'my-artifact'&lt;/s1&gt;, type: &lt;s2&gt;'text'&lt;/s2&gt;, builtBy: generate
 }</seg>
       </tuv>
     </tu>
@@ -41094,6 +41120,14 @@ task copy(overwrite: true) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T143713Z" creationid="huanghaohang" creationdate="20190602T143713Z">
         <seg>task files &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task generate(type:  MyTaskType) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075755Z" creationid="huanghaohang" creationdate="20190606T075755Z">
+        <seg>task generate(type:  MyTaskType) {</seg>
       </tuv>
     </tu>
     <tu>
