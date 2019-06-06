@@ -18653,6 +18653,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If an upload repository is defined with multiple patterns, Gradle must choose a pattern to use for uploading each file. By default, Gradle will upload to the pattern defined by the &lt;c0&gt;url&lt;/c0&gt; parameter, combined with the optional &lt;c1&gt;layout&lt;/c1&gt; parameter. If no &lt;c2&gt;url&lt;/c2&gt; parameter is supplied, then Gradle will use the first defined &lt;c3&gt;artifactPattern&lt;/c3&gt; for uploading, or the first defined &lt;c4&gt;ivyPattern&lt;/c4&gt; for uploading Ivy files, if this is set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T085305Z" creationid="huanghaohang" creationdate="20190606T085305Z">
+        <seg>如果一个上传仓库定义了多个模式，Gradle 必须选择用于上传每个文件的模式。默认情况下，Gradle 会上传到由 &lt;c0&gt;url&lt;/c0&gt; 及可选的 &lt;c1&gt;layout&lt;/c1&gt; 参数一起定义的模式。如果没有提供 &lt;c2&gt;url&lt;/c2&gt; 参数，Gradle 将使用第一个定义的 &lt;c3&gt;artifactPattern&lt;/c3&gt; 进行上传；或者对于上传 Ivy 文件，将使用第一个定义的&lt;c4&gt;ivyPattern&lt;/c4&gt;（如果有设置）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If any of these properties is empty the trailing &lt;c0&gt;-&lt;/c0&gt; is not added to the name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232752Z" creationid="huanghaohang" creationdate="20171206T232752Z">
