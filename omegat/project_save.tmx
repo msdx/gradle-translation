@@ -270,6 +270,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N1537C</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T152857Z" creationid="huanghaohang" creationdate="20190605T152857Z">
+        <seg>#ftn.N1537C</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160758Z" creationid="huanghaohang" creationdate="20190527T160758Z">
@@ -19097,6 +19105,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190210T104429Z" creationid="95" creationdate="20190210T103914Z">
         <seg>具有讽刺意味的是，以丰富的开源组件库著称的语言，Java竟然没有库或者版本的概念。在Java中，没有标准的方法来告知JVM你正在使用Hibernate V3.0.5，也没有标准的方法来表示 &lt;c0&gt;foo-1.0.jar&lt;/c0&gt; 依赖于 &lt;c1&gt;bar-2.0.jar&lt;/c1&gt;。 这导致了外部的解决方案通常都会基于构建工具。 目前最受欢迎的解决方案是Maven和Ivy。 Maven提供了完整的构建系统，而Ivy则只着眼于依赖管理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is not a big deal to set-up a custom repository. &lt;s0&gt;[&lt;a1&gt;17&lt;/a1&gt;]&lt;/s0&gt; But it can be tedious, to keep it up to date. For a new version, you have always to create the new XML descriptor and the directories. And your custom repository is another infrastructure element which might have downtimes and needs to be updated. To enable historical builds, you need to keep all the past libraries and you need a backup. It is another layer of indirection. Another source of information you have to lookup. All this is not really a big deal but in its sum it has an impact. Repository Manager like Artifactory or Nexus make this easier. But for example open source projects don't usually have a host for those products. This is changing with new services like &lt;a2&gt;Bintray&lt;/a2&gt; that let developers host and distribute their release binaries using a self-service repository platform. Bintray also supports sharing approved artifacts though the &lt;a3&gt;JCenter&lt;/a3&gt; public repository to provide a single resolution address for all popular OSS java artifacts (see &lt;a4&gt;Section 50.6.3, “Maven JCenter repository”&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T000929Z" creationid="huanghaohang" creationdate="20190606T000929Z">
+        <seg>设置一个自定义的仓库并不算什么，&lt;s0&gt;[&lt;a1&gt;17&lt;/a1&gt;]&lt;/s0&gt; 但想让这个仓库保持最新的态可能就会很烦人。对于一个新的版本，总是要创建新的 XML 描述符和目录。你的自定义仓库是另一个基础结构元素，可能会宕机，并且需要进行更新。 要启用历史构建，你需要保留所有之前的库，并且需要备份。这是另一个间接层，你必须查找的另一个信息源。所有这些都不是大问题，但累加起来就有影响了。仓库管理器（如 Artifactory 或 Nexus ）把这些事情变得轻松些。但是，举个例子，开源项目通常没有主机用于这些产品。而通过一些新服务，这种状况也改了，比如 &lt;a2&gt;Bintray&lt;/a2&gt; ，它可以让开发者使用自助服务仓库平台来托管和分发他们发布的二进制文件。通过 &lt;a3&gt;JCenter&lt;/a3&gt; 公共仓库，Bintray 还支持共享通过他们审核的工件，为所有常用的 OSS Java 工件提供一个单一的解析地址（请参阅 &lt;a4&gt;第 50.6.3 节，《Maven JCenter 仓库》&lt;/a4&gt;)。</seg>
       </tuv>
     </tu>
     <tu>
