@@ -142,6 +142,38 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#N14D1D</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T020444Z" creationid="huanghaohang" creationdate="20190606T020444Z">
+        <seg>#N14D1D</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#N14D3B</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T021210Z" creationid="huanghaohang" creationdate="20190606T021210Z">
+        <seg>#N14D3B</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#N1513E</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T021225Z" creationid="huanghaohang" creationdate="20190606T021225Z">
+        <seg>#N1513E</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>#N1537C</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T021302Z" creationid="huanghaohang" creationdate="20190606T021302Z">
+        <seg>#N1537C</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#ftn.N100BF</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T070853Z" creationid="95" creationdate="20170723T070853Z">
@@ -8605,6 +8637,38 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143220Z" creationid="huanghaohang" creationdate="20180408T143220Z">
         <seg>&lt;s0&gt;[&lt;a1&gt;13&lt;/a1&gt;]&lt;/s0&gt;&lt;c2&gt;runtime&lt;/c2&gt; 配置继承自 &lt;c3&gt;compile&lt;/c3&gt; 配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;14&lt;/a1&gt;] &lt;/s0&gt;Gradle supports partial multiproject builds (see &lt;a2&gt;Chapter 56, &lt;i3&gt;Multi-project Builds&lt;/i3&gt;&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T021209Z" creationid="huanghaohang" creationdate="20190606T021209Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;14&lt;/a1&gt;] &lt;/s0&gt;Gradle 支持部分多项目构建（参见&lt;a2&gt;第 56 章，《&lt;i3&gt;多项目构建&lt;/i3&gt;》&lt;/a2&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;15&lt;/a1&gt;] &lt;/s0&gt; &lt;a2&gt;http://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-project-relationships.html&lt;/a2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T021223Z" creationid="huanghaohang" creationdate="20190606T021223Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;15&lt;/a1&gt;] &lt;/s0&gt; &lt;a2&gt;http://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-project-relationships.html&lt;/a2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;16&lt;/a1&gt;] &lt;/s0&gt;At &lt;a2&gt;http://ant.apache.org/ivy/history/latest-milestone/concept.html&lt;/a2&gt; you can learn more about ivy patterns.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T021301Z" creationid="huanghaohang" creationdate="20190606T021301Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;16&lt;/a1&gt;] &lt;/s0&gt;在 &lt;a2&gt;http://ant.apache.org/ivy/history/latest-milestone/concept.html&lt;/a2&gt;，你可以了解到更多有关 ivy 模式的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;17&lt;/a1&gt;] &lt;/s0&gt;If you want to shield your project from the downtimes of Maven Central things get more complicated. You probably want to set-up a repository proxy for this. In an enterprise environment this is rather common. For an open source project it looks like overkill.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T021615Z" creationid="huanghaohang" creationdate="20190606T021615Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;17&lt;/a1&gt;] &lt;/s0&gt;如果你想在 Maven 中央仓库宕机时保护你的项目，事情会变得更复杂些。你可能想要为此设置一个仓库代理。在企业环境中，这种情况相当普遍。而对于开源项目，看起来就有些小题大做了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26099,8 +26163,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The trick is to use only artifact dependencies and group them in lists. That way you have somehow expressed, what are your first level dependencies and what are transitive dependencies (see &lt;a0&gt;Section 50.4.8, “Optional attributes”&lt;/a0&gt;). But the draw-back is, that for the Gradle dependency management all dependencies are considered first level dependencies. The dependency reports don't show your real dependency graph and the &lt;c1&gt;compile&lt;/c1&gt; task uses all dependencies, not just the first level dependencies. All in all, your build is less maintainable and reliable than it could be when using client modules. And you don't gain anything.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T020401Z" creationid="huanghaohang" creationdate="20190606T020401Z">
-        <seg>这个诀窍就是只使用工件依赖，并在列表中对它们分组。对于这种方法，你要以某种方式来表示你的第一级依赖是什么，传递依赖又是什么（请参阅&lt;a0&gt;第 50.4.8 节，《可选属性》&lt;/a0&gt;）。但缺点是，对于 Gradle 依赖管理而言，所有的依赖都会被当作是第一级依赖。依赖报告不会显示你实际上的依赖关系图，并且 &lt;c1&gt;compile&lt;/c1&gt; 任务会使用所有的依赖，而不仅仅是第一级依赖。总之，比起使用客户端模块，你的构建的可维护性和可靠性都很差，而不会有其他好处。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T021105Z" creationid="huanghaohang" creationdate="20190606T020401Z">
+        <seg>这个诀窍是只使用工件依赖，并在列表中对它们分组。使用这种方法，你要以某种方式来表达你的第一级依赖是什么，传递依赖又是什么（请参阅&lt;a0&gt;第 50.4.8 节，《可选属性》&lt;/a0&gt;）。而缺点是，对于 Gradle 依赖管理而言，所有依赖都会被当作是第一级依赖。依赖报告不会显示你实际上的依赖关系图，并且 &lt;c1&gt;compile&lt;/c1&gt; 任务会使用所有依赖，而不仅仅是第一级的。总之，比起使用客户端模块，你的构建可维护性和可靠性都很差，而不会有其他好处。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34363,6 +34427,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://ant.apache.org/ivy/history/latest-milestone/concept.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T021226Z" creationid="huanghaohang" creationdate="20190606T021226Z">
+        <seg>http://ant.apache.org/ivy/history/latest-milestone/concept.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://ant.apache.org/ivy/history/latest-milestone/settings/resolvers.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T030450Z" creationid="huanghaohang" creationdate="20190604T030450Z">
@@ -34375,6 +34447,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031050Z" creationid="huanghaohang" creationdate="20190603T031050Z">
         <seg>http://bintray.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-project-relationships.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T021212Z" creationid="huanghaohang" creationdate="20190606T021212Z">
+        <seg>http://books.sonatype.com/mvnref-book/reference/pom-relationships-sect-project-relationships.html</seg>
       </tuv>
     </tu>
     <tu>
