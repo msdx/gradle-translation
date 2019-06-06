@@ -7018,6 +7018,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>51.3.2. File artifacts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075354Z" creationid="huanghaohang" creationdate="20190606T075354Z">
+        <seg>51.3.2. 文件工件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>51.3. Declaring artifacts</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075113Z" creationid="huanghaohang" creationdate="20190606T075113Z">
@@ -16365,6 +16373,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 51.1. Defining an artifact using an archive task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075217Z" creationid="huanghaohang" creationdate="20190606T075217Z">
+        <seg>示例 51.1. 使用归档任务定义一个工件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 51.2. Defining an artifact using a file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075436Z" creationid="huanghaohang" creationdate="20190606T075436Z">
+        <seg>示例 51.2. 使用文件定义工件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -19257,6 +19281,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150849Z" creationid="huanghaohang" creationdate="20170927T150849Z">
         <seg>要注意的一个地方是，一个文件集合的内容是懒评估的，它只在需要的时候才计算。这意味着你可以创建一个&lt;c0&gt;FileCollection&lt;/c0&gt; 对象来表示一些会在以后才创建的文件，比方说在一些任务中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is important to note that the custom archives you are creating as part of your build are not automatically assigned to any configuration. You have to explicitly do this assignment.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075350Z" creationid="huanghaohang" creationdate="20190606T075350Z">
+        <seg>请务必注意，你所创建的作为构建一部分的自定义归档不会自动分配给任何配置，必须进行显式的指定。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28881,6 +28913,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also use a file to define an artifact:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075404Z" creationid="huanghaohang" creationdate="20190606T075404Z">
+        <seg>你也可以使用文件来定义工件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also use customization options that the &lt;a0&gt;&lt;c1&gt;Ear&lt;/c1&gt;&lt;/a0&gt; task provides, such as &lt;c2&gt;from&lt;/c2&gt; and &lt;c3&gt;metaInf&lt;/c3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T143126Z" creationid="huanghaohang" creationdate="20180416T143126Z">
@@ -29227,8 +29267,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>You can use an archive task to define an artifact:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075140Z" creationid="huanghaohang" creationdate="20190606T075140Z">
-        <seg>你可以使用一个归档任务来定义工件：</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075200Z" creationid="huanghaohang" creationdate="20190606T075140Z">
+        <seg>你可以使用归档任务来定义工件：</seg>
       </tuv>
     </tu>
     <tu>
@@ -30692,6 +30732,26 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125724Z" creationid="95" creationdate="20170803T125724Z">
         <seg>archives dist
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>archives myJar
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075219Z" creationid="huanghaohang" creationdate="20190606T075219Z">
+        <seg>archives myJar
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>archives someFile
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075443Z" creationid="huanghaohang" creationdate="20190606T075443Z">
+        <seg>archives someFile
 }</seg>
       </tuv>
     </tu>
@@ -32357,6 +32417,18 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145820Z" creationid="huanghaohang" creationdate="20170918T145820Z">
         <seg>def pos = configure(&lt;s0&gt;new&lt;/s0&gt; java.text.FieldPosition(&lt;s1&gt;10&lt;/s1&gt;)) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def someFile = file(&lt;s0&gt;'build/somefile.txt'&lt;/s0&gt;)
+
+artifacts {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075437Z" creationid="huanghaohang" creationdate="20190606T075437Z">
+        <seg>def someFile = file(&lt;s0&gt;'build/somefile.txt'&lt;/s0&gt;)
+
+artifacts {</seg>
       </tuv>
     </tu>
     <tu>
@@ -41112,6 +41184,18 @@ myCopy {</seg>
         <seg>task myCopy(type: Copy)
 
 myCopy {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task myJar(type: Jar)
+
+artifacts {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075218Z" creationid="huanghaohang" creationdate="20190606T075218Z">
+        <seg>task myJar(type: Jar)
+
+artifacts {</seg>
       </tuv>
     </tu>
     <tu>
