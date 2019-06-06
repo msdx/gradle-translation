@@ -29049,6 +29049,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You could also have a mixed strategy. If your main concern is bad metadata in the POM file and maintaining custom XML descriptors, &lt;s0&gt;&lt;e1&gt;Client Modules&lt;/e1&gt;&lt;/s0&gt; offer an alternative. But you can of course still use Maven2 repo and your custom repository as a repository for &lt;s2&gt;&lt;e3&gt;jars only&lt;/e3&gt;&lt;/s2&gt; and still enjoy &lt;s4&gt;&lt;e5&gt;transitive&lt;/e5&gt;&lt;/s4&gt; dependency management. Or you can only provide client modules for POMs with bad metadata. For the jars and the correct POMs you still use the remote repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T015421Z" creationid="huanghaohang" creationdate="20190606T014757Z">
+        <seg>你也可以使用混合策略。如果你主要关注的是 POM 文件中的错误元数据以及维护自定义的 XML 描述符，&lt;s0&gt;&lt;e1&gt;客户端模块&lt;/e1&gt;&lt;/s0&gt;提供了一种替代方案。但你还是可以将 Maven2 仓库和自定义仓库用作 &lt;s2&gt;&lt;e3&gt;只放 jar&lt;/e3&gt;&lt;/s2&gt; 的仓库，并且仍然可以使用&lt;s4&gt;&lt;e5&gt;传递&lt;/e5&gt;&lt;/s4&gt;依赖管理。或者，你也可以只为带有错误元数据的 POM 提供客户端模块，而对于 jar 和正确的 POM 依然使用远程仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You don't want to expose people who want to build your project, to the downtimes or sometimes very long response times of Maven Central.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T152843Z" creationid="huanghaohang" creationdate="20190605T152843Z">
