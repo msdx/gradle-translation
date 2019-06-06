@@ -6402,6 +6402,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>50.10.1. Implicit transitive dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T015427Z" creationid="huanghaohang" creationdate="20190606T015427Z">
+        <seg>50.10.1. 隐式传递依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>50.10. Strategies for transitive dependency management</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T151359Z" creationid="huanghaohang" creationdate="20190605T151359Z">
@@ -26089,6 +26097,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The trick is to use only artifact dependencies and group them in lists. That way you have somehow expressed, what are your first level dependencies and what are transitive dependencies (see &lt;a0&gt;Section 50.4.8, “Optional attributes”&lt;/a0&gt;). But the draw-back is, that for the Gradle dependency management all dependencies are considered first level dependencies. The dependency reports don't show your real dependency graph and the &lt;c1&gt;compile&lt;/c1&gt; task uses all dependencies, not just the first level dependencies. All in all, your build is less maintainable and reliable than it could be when using client modules. And you don't gain anything.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T020401Z" creationid="huanghaohang" creationdate="20190606T020401Z">
+        <seg>这个诀窍就是只使用工件依赖，并在列表中对它们分组。对于这种方法，你要以某种方式来表示你的第一级依赖是什么，传递依赖又是什么（请参阅&lt;a0&gt;第 50.4.8 节，《可选属性》&lt;/a0&gt;）。但缺点是，对于 Gradle 依赖管理而言，所有的依赖都会被当作是第一级依赖。依赖报告不会显示你实际上的依赖关系图，并且 &lt;c1&gt;compile&lt;/c1&gt; 任务会使用所有的依赖，而不仅仅是第一级依赖。总之，比起使用客户端模块，你的构建的可维护性和可靠性都很差，而不会有其他好处。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The user guide (HTML and PDF).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114522Z" creationid="95" creationdate="20170723T114522Z">
@@ -26349,6 +26365,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124601Z" creationid="huanghaohang" creationdate="20170919T124601Z">
         <seg>还有一种配置任务的方式。它也保留了上下文，可以说是可读性最强的。它是我们通常最喜欢的方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is another way to deal with transitive dependencies &lt;s0&gt;&lt;e1&gt;without&lt;/e1&gt;&lt;/s0&gt; XML descriptor files. You can do this with Gradle, but we don't recommend it. We mention it for the sake of completeness and comparison with other build tools.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T015647Z" creationid="huanghaohang" creationdate="20190606T015430Z">
+        <seg>还有一种处理传递依赖 &lt;s0&gt;&lt;e1&gt;不带&lt;/e1&gt;&lt;/s0&gt; XML 描述符文件的方法。你可以用 Gradle 来做，但是我们不推荐。之所以提到它，是为了完整性以及与其他构建工具作比较。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32259,6 +32283,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T040602Z" creationid="huanghaohang" creationdate="20190603T040602Z">
         <seg>dependency_management.html#para:dependencies_with_empty_attributes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependency_management.html#para:notation_collections</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T015650Z" creationid="huanghaohang" creationdate="20190606T015650Z">
+        <seg>dependency_management.html#para:notation_collections</seg>
       </tuv>
     </tu>
     <tu>
