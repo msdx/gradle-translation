@@ -16389,6 +16389,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 51.3. Customizing an artifact</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075535Z" creationid="huanghaohang" creationdate="20190606T075535Z">
+        <seg>示例 51.3. 自定义工件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 51.4. Map syntax for defining an artifact using a file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075754Z" creationid="huanghaohang" creationdate="20190606T075754Z">
+        <seg>示例 51.4. 用于使用文件定义工件的映射语法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -18145,6 +18161,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T114331Z" creationid="95" creationdate="20170723T114023Z">
         <seg>Gradle会使用在您的path环境变量中找到的JDK（可以使用&lt;s0&gt;&lt;c1&gt;java -version&lt;/c1&gt;&lt;/s0&gt;命令来检查自己的JDK版本）。 另外，您也可以设置 &lt;c2&gt;JAVA_HOME&lt;/c2&gt; 环境变量来指向你想要的JDK的安装目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle will figure out the properties of the artifact based on the name of the file. You can customize these properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075530Z" creationid="huanghaohang" creationdate="20190606T075530Z">
+        <seg>Gradle 将基于文件的名字确定工件的属性。你可以自定义这些属性：</seg>
       </tuv>
     </tu>
     <tu>
@@ -26545,6 +26569,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is a map-based syntax for defining an artifact using a file. The map must include a &lt;c0&gt;file&lt;/c0&gt; entry that defines the file. The map may include other artifact properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075729Z" creationid="huanghaohang" creationdate="20190606T075729Z">
+        <seg>有基于映射的语法来定义使用文件的工件。这个映射必须饮食一个 &lt;c0&gt;file&lt;/c0&gt; 条目，它可能还包含其他的工件属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is a shortcut form for declaring external dependencies, which uses a string of the form &lt;c0&gt;"&lt;e1&gt;&lt;c2&gt;group&lt;/c2&gt;&lt;/e1&gt;:&lt;e3&gt;&lt;c4&gt;name&lt;/c4&gt;&lt;/e3&gt;:&lt;e5&gt;&lt;c6&gt;version&lt;/c6&gt;&lt;/e5&gt;"&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T043854Z" creationid="huanghaohang" creationdate="20170908T043854Z">
@@ -30757,6 +30789,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>archives(myTask.destFile) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075537Z" creationid="huanghaohang" creationdate="20190606T075537Z">
+        <seg>archives(myTask.destFile) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>archivesBaseName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180318T005946Z" creationid="huanghaohang" creationdate="20180318T005946Z">
@@ -31299,6 +31339,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T105522Z" creationid="huanghaohang" creationdate="20190602T105522Z">
         <seg>builtBy &lt;s1&gt;'compile'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>builtBy myTask</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075539Z" creationid="huanghaohang" creationdate="20190606T075539Z">
+        <seg>builtBy myTask</seg>
       </tuv>
     </tu>
     <tu>
@@ -32929,6 +32977,20 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085711Z" creationid="huanghaohang" creationdate="20170922T085711Z">
         <seg>destDir.mkdirs()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>destFile = file(&lt;s0&gt;'build/somefile.txt'&lt;/s0&gt;)
+}
+
+artifacts {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075536Z" creationid="huanghaohang" creationdate="20190606T075536Z">
+        <seg>destFile = file(&lt;s0&gt;'build/somefile.txt'&lt;/s0&gt;)
+}
+
+artifacts {</seg>
       </tuv>
     </tu>
     <tu>
@@ -37038,6 +37100,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025336Z" creationid="huanghaohang" creationdate="20190604T025336Z">
         <seg>name &lt;s0&gt;'localRepository'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name &lt;s1&gt;'my-artifact'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075537Z" creationid="huanghaohang" creationdate="20190606T075537Z">
+        <seg>name &lt;s1&gt;'my-artifact'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -41208,6 +41278,14 @@ artifacts {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task myTask(type:  MyTaskType) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075535Z" creationid="huanghaohang" creationdate="20190606T075535Z">
+        <seg>task myTask(type:  MyTaskType) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task nestedSpecs(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060919Z" creationid="huanghaohang" creationdate="20171126T060919Z">
@@ -42033,6 +42111,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092157Z" creationid="huanghaohang" creationdate="20190124T092157Z">
         <seg>twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>type &lt;s2&gt;'text'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075538Z" creationid="huanghaohang" creationdate="20190606T075538Z">
+        <seg>type &lt;s2&gt;'text'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
