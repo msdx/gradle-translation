@@ -586,6 +586,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.plugins.MavenPluginConvention.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060726Z" creationid="huanghaohang" creationdate="20190607T060726Z">
+        <seg>../dsl/org.gradle.api.plugins.MavenPluginConvention.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.plugins.ProjectReportsPluginConvention.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T041003Z" creationid="huanghaohang" creationdate="20190123T041003Z">
@@ -1422,6 +1430,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141913Z" creationid="huanghaohang" creationdate="20190602T141913Z">
         <seg>../javadoc/org/gradle/api/artifacts/ResolvableDependencies.html#getResolutionResult()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/maven/Conf2ScopeMappingContainer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060557Z" creationid="huanghaohang" creationdate="20190607T060557Z">
+        <seg>../javadoc/org/gradle/api/artifacts/maven/Conf2ScopeMappingContainer.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -7086,6 +7102,14 @@ someroot/[artifact]-[revision].[ext]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060412Z" creationid="huanghaohang" creationdate="20190607T060412Z">
         <seg>52.4. 约定属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>52.5. Convention methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060755Z" creationid="huanghaohang" creationdate="20190607T060755Z">
+        <seg>52.5. 约定方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -13279,6 +13303,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Conf2ScopeMappingContainer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060601Z" creationid="huanghaohang" creationdate="20190607T060601Z">
+        <seg>Conf2ScopeMappingContainer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T142301Z" creationid="huanghaohang" creationdate="20181201T142301Z">
@@ -19361,6 +19393,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130233Z" creationid="huanghaohang" creationdate="20170919T130203Z">
         <seg>可以使用一个&lt;c0&gt;Task&lt;/c0&gt;对象而不是任务名称来定义依赖，如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Instructions for mapping Gradle configurations to Maven scopes. See &lt;a0&gt;Section 52.6.4.2, “Dependency mapping”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060725Z" creationid="huanghaohang" creationdate="20190607T060725Z">
+        <seg>将 Gradle 配置映射到 Maven 范围的说明。见&lt;a0&gt;第 52.6.4.2 节，《依赖映射》&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25905,6 +25945,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The directory where the generated POMs are written to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060555Z" creationid="huanghaohang" creationdate="20190607T060555Z">
+        <seg>生成的 POM 的写入目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The distribution plugin facilitates building archives that serve as distributions of the project. Distribution archives typically contain then executable application and other supporting files, such as documentation.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T093700Z" creationid="huanghaohang" creationdate="20190124T093251Z">
@@ -26069,6 +26117,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180314T094609Z" creationid="haohang" creationdate="20180314T094609Z">
         <seg>包含在所有 JAR 文件中的清单。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The maven plugin provides a factory method for creating a POM. This is useful if you need a POM without the context of uploading to a Maven repo.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060908Z" creationid="huanghaohang" creationdate="20190607T060908Z">
+        <seg>Maven 插件提供了用于创建 POM 的工厂方法，如果你在不上传到 Maven 仓库的情况下需要 POM 文件，这个工厂方法将非常有用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26941,6 +26997,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T144810Z" creationid="huanghaohang" creationdate="20180416T144810Z">
         <seg>这些属性都由一个 &lt;a0&gt;&lt;c1&gt;JettyPluginConvention&lt;/c1&gt;&lt;/a0&gt; 公约对象提供。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These properties are provided by a &lt;a0&gt;&lt;c1&gt;MavenPluginConvention&lt;/c1&gt;&lt;/a0&gt; convention object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060745Z" creationid="huanghaohang" creationdate="20190607T060745Z">
+        <seg>这些属性由一个&lt;a0&gt;&lt;c1&gt;MavenPluginConvention&lt;/c1&gt;&lt;/a0&gt; 约定对象提供。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32311,6 +32375,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>conf2ScopeMappings</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060556Z" creationid="huanghaohang" creationdate="20190607T060556Z">
+        <seg>conf2ScopeMappings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>config/checkstyle/checkstyle.xml</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T140011Z" creationid="huanghaohang" creationdate="20180516T140011Z">
@@ -37166,6 +37238,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>maven_plugin.html#sub:dependency_mapping</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060616Z" creationid="huanghaohang" creationdate="20190607T060616Z">
+        <seg>maven_plugin.html#sub:dependency_mapping</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>maven_plugin.html#sub:installing_to_the_local_repository</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T091515Z" creationid="huanghaohang" creationdate="20190606T091515Z">
@@ -37398,6 +37478,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154455Z" creationid="95" creationdate="20170731T154455Z">
         <seg>multiproject/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>n/a</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060605Z" creationid="huanghaohang" creationdate="20190607T060605Z">
+        <seg>n/a</seg>
       </tuv>
     </tu>
     <tu>
