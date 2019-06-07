@@ -14341,6 +14341,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Element</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093634Z" creationid="huanghaohang" creationdate="20190607T093634Z">
+        <seg>元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Enables new incubating mode that makes Gradle selective when configuring projects. Only relevant projects are configured which results in faster builds for large multi-projects. See &lt;a0&gt;Section 56.1.1.1, “Configuration on demand”&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T020534Z" creationid="huanghaohang" creationdate="20180126T020534Z">
@@ -19165,6 +19173,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In Maven you can define repositories and optionally snapshot repositories. If no snapshot repository is defined, releases and snapshots are both deployed to the &lt;c0&gt;repository&lt;/c0&gt; element. Otherwise snapshots are deployed to the &lt;c1&gt;snapshotRepository&lt;/c1&gt; element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093610Z" creationid="huanghaohang" creationdate="20190607T093610Z">
+        <seg>在 Maven 中，你可以定义普通仓库和可选的快照仓库。如果没有定义快照仓库，那么发行版和快照都会部署到 &lt;c0&gt;repository&lt;/c0&gt; 元素中。否则，快照将部署到 &lt;c1&gt;snapshotRepository&lt;/c1&gt; 元素。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In a command-line shell, enter into the containing directory and execute the build script by running &lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T145113Z" creationid="95" creationdate="20170724T144952Z">
@@ -20001,6 +20017,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221513Z" creationid="huanghaohang" creationdate="20180105T221513Z">
         <seg>级别</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Library</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093618Z" creationid="huanghaohang" creationdate="20190607T093618Z">
+        <seg>库</seg>
       </tuv>
     </tu>
     <tu>
@@ -21577,6 +21601,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040323Z" creationid="huanghaohang" creationdate="20190123T040323Z">
         <seg>PropertyReportTask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Protocol</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093613Z" creationid="huanghaohang" creationdate="20190607T093613Z">
+        <seg>协议</seg>
       </tuv>
     </tu>
     <tu>
@@ -34895,6 +34927,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ftp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093626Z" creationid="huanghaohang" creationdate="20190607T093626Z">
+        <seg>ftp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>generate&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;GrammarSource</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T013610Z" creationid="huanghaohang" creationdate="20190123T013610Z">
@@ -37846,6 +37886,46 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>org.apache.maven.wagon:wagon-ftp:2.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093627Z" creationid="huanghaohang" creationdate="20190607T093627Z">
+        <seg>org.apache.maven.wagon:wagon-ftp:2.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.maven.wagon:wagon-http:2.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093619Z" creationid="huanghaohang" creationdate="20190607T093619Z">
+        <seg>org.apache.maven.wagon:wagon-http:2.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.maven.wagon:wagon-ssh-external:2.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093625Z" creationid="huanghaohang" creationdate="20190607T093625Z">
+        <seg>org.apache.maven.wagon:wagon-ssh-external:2.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.maven.wagon:wagon-ssh:2.2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093624Z" creationid="huanghaohang" creationdate="20190607T093624Z">
+        <seg>org.apache.maven.wagon:wagon-ssh:2.2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>org.apache.maven.wagon:wagon-webdav:1.0-beta-2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093630Z" creationid="huanghaohang" creationdate="20190607T093630Z">
+        <seg>org.apache.maven.wagon:wagon-webdav:1.0-beta-2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>org.gradle.configureondemand</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T013325Z" creationid="huanghaohang" creationdate="20180126T013325Z">
@@ -40090,6 +40170,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>root</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093636Z" creationid="huanghaohang" creationdate="20190607T093636Z">
+        <seg>root</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>rootProject {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092742Z" creationid="huanghaohang" creationdate="20190124T092742Z">
@@ -41432,6 +41520,22 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T011250Z" creationid="huanghaohang" creationdate="20180407T011250Z">
         <seg>srcDirs = [&lt;s1&gt;'test/scala'&lt;/s1&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ssh</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093623Z" creationid="huanghaohang" creationdate="20190607T093623Z">
+        <seg>ssh</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ssh-external</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093625Z" creationid="huanghaohang" creationdate="20190607T093625Z">
+        <seg>ssh-external</seg>
       </tuv>
     </tu>
     <tu>
@@ -43367,6 +43471,14 @@ webapp:properties - Displays the properties of project ':webapp'.
 tasks - Displays the tasks runnable from root project 'projectReports' (some of the displayed tasks may belong to subprojects).
 api:tasks - Displays the tasks runnable from project ':api'.
 webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>webdav</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093628Z" creationid="huanghaohang" creationdate="20190607T093628Z">
+        <seg>webdav</seg>
       </tuv>
     </tu>
     <tu>
