@@ -19325,6 +19325,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Installs the associated artifacts to the local Maven cache, including Maven metadata generation. By default the install task is associated with the &lt;c0&gt;archives&lt;/c0&gt; configuration. This configuration has by default only the default jar as an element. To learn more about installing to the local repository, see: &lt;a1&gt;Section 52.6.3, “Installing to the local repository”&lt;/a1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060345Z" creationid="huanghaohang" creationdate="20190607T060345Z">
+        <seg>将相关的工件安装到本地的 Maven 缓存，包括Maven 元数据的生成。默认情况下，安装任务是与 &lt;c0&gt;archives&lt;/c0&gt; 配置相关联的。这个配置在默认情况下只将默认的 jar 作为元素。要了解有关安装到本地仓库的更多信息，请参阅：&lt;a1&gt;第 52.6.3 节，《安装到本地存储库》&lt;/a1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Instead of using a task name, you can define a dependency using a &lt;c0&gt;Task&lt;/c0&gt; object, as shown in this example:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130233Z" creationid="huanghaohang" creationdate="20170919T130203Z">
