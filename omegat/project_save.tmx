@@ -25225,6 +25225,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Maven plugin adds an &lt;c0&gt;install&lt;/c0&gt; task to your project. This task depends on all the archives task of the &lt;c1&gt;archives&lt;/c1&gt; configuration. It installs those archives to your local Maven repository. If the default location for the local repository is redefined in a Maven &lt;c2&gt;settings.xml&lt;/c2&gt;, this is considered by this task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T094506Z" creationid="huanghaohang" creationdate="20190607T094506Z">
+        <seg>Maven 插件向项目添加 &lt;c0&gt;install&lt;/c0&gt; 任务。这个任务依赖于 &lt;c1&gt;archives&lt;/c1&gt; 配置的所有归档任务。它将这些归档安装到本地 Maven 仓库中。Maven &lt;c2&gt;settings.xml&lt;/c2&gt; 中是否重新定义了本地仓库的默认位置，该任务也会考虑到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Maven plugin adds support for deploying artifacts to Maven repositories.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T091146Z" creationid="huanghaohang" creationdate="20190606T091146Z">
