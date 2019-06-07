@@ -7162,6 +7162,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>52.6.4. Maven POM generation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T094522Z" creationid="huanghaohang" creationdate="20190607T094522Z">
+        <seg>52.6.4. Maven POM 生成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>52.6. Interacting with Maven repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T062521Z" creationid="huanghaohang" creationdate="20190607T062521Z">
@@ -28917,6 +28925,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T020554Z" creationid="huanghaohang" creationdate="20180126T020554Z">
         <seg>配置之后，Gradle 将在试验性的并行模式下运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When deploying an artifact to a Maven repository, Gradle automatically generates a POM for it. The &lt;c0&gt;groupId&lt;/c0&gt;, &lt;c1&gt;artifactId&lt;/c1&gt;, &lt;c2&gt;version&lt;/c2&gt; and &lt;c3&gt;packaging&lt;/c3&gt; elements used for the POM default to the values shown in the table below. The &lt;c4&gt;dependency&lt;/c4&gt; elements are created from the project's dependency declarations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T094839Z" creationid="huanghaohang" creationdate="20190607T094839Z">
+        <seg>当部署一个工件到 Maven 仓库时，Gradle 会自动为它生成一个 POM。下表展示了用于 POM 的 &lt;c0&gt;groupId&lt;/c0&gt;、&lt;c1&gt;artifactId&lt;/c1&gt;、 &lt;c2&gt;version&lt;/c2&gt; 和 &lt;c3&gt;package&lt;/c3&gt; 元素的默认值。&lt;c4&gt;dependency&lt;/c4&gt; 元素则是根据项目的依赖声明来创建的。</seg>
       </tuv>
     </tu>
     <tu>
