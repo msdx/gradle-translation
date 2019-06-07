@@ -16621,6 +16621,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 52.4. Upload of file via SSH</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T092636Z" creationid="huanghaohang" creationdate="20190607T092636Z">
+        <seg>示例 52.4. 通过 SSH 上传文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -23517,6 +23525,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 52.4. Configuration elements of the MavenDeployer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T092727Z" creationid="huanghaohang" creationdate="20190607T092727Z">
+        <seg>表 52.4. MavenDeployer 的配置元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tar</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133905Z" creationid="huanghaohang" creationdate="20190127T133905Z">
@@ -26797,6 +26813,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033903Z" creationid="huanghaohang" creationdate="20190604T033903Z">
         <seg>有许多种方式可以影响到 Gradle 的依赖解析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There are many configuration options for the Maven deployer. The configuration is done via a Groovy builder. All the elements of this tree are Java beans. To configure the simple attributes you pass a map to the bean elements. To add another bean elements to its parent, you use a closure. In the example above &lt;s0&gt;&lt;e1&gt;repository&lt;/e1&gt;&lt;/s0&gt; and &lt;s2&gt;&lt;e3&gt;authentication&lt;/e3&gt;&lt;/s2&gt; are such bean elements. &lt;a4&gt;Table 52.4, “Configuration elements of the MavenDeployer”&lt;/a4&gt; lists the available bean elements and a link to the javadoc of the corresponding class. In the javadoc you can see the possible attributes you can set for a particular element.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093352Z" creationid="huanghaohang" creationdate="20190607T093352Z">
+        <seg>Maven 部署器有许多配置选项，配置通过 Groovy 构建器完成。配置树的所有元素都是 Java bean。你可以传一个 map 到 bean 元素来配置简单的属性。如果要将其他 bean 元素添加到其 parent，可以使用闭包。在上面的示例中，&lt;s0&gt;&lt;e1&gt;repository&lt;/e1&gt;&lt;/s0&gt; 和 &lt;s2&gt;&lt;e3&gt;authentication&lt;/e3&gt;&lt;/s2&gt; 都是这样的 bean 元素。&lt;a4&gt;表 52.4，“MavenDeployer的配置元素”&lt;/a4&gt; 列出了可用的 bean 元素以及对应类的 javadoc 链接。在 javadoc 中，你可以查看能够为特定元素设置的属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31451,6 +31475,14 @@ task fooJar(type: Jar) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>authentication(userName: &lt;s2&gt;"me"&lt;/s2&gt;, password: &lt;s3&gt;"myPassword"&lt;/s3&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T092648Z" creationid="huanghaohang" creationdate="20190607T092648Z">
+        <seg>authentication(userName: &lt;s2&gt;"me"&lt;/s2&gt;, password: &lt;s3&gt;"myPassword"&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>auto-generated</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093254Z" creationid="huanghaohang" creationdate="20180715T093254Z">
@@ -32541,6 +32573,14 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>configuration = configurations.deployerJars</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T092646Z" creationid="huanghaohang" creationdate="20190607T092646Z">
+        <seg>configuration = configurations.deployerJars</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>configurations {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084251Z" creationid="huanghaohang" creationdate="20180105T084251Z">
@@ -33351,6 +33391,34 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142953Z" creationid="huanghaohang" creationdate="20180416T142953Z">
         <seg>deploy project(&lt;s3&gt;':war'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>deployerJars
+}
+
+repositories {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T092639Z" creationid="huanghaohang" creationdate="20190607T092639Z">
+        <seg>deployerJars
+}
+
+repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>deployerJars &lt;s0&gt;"org.apache.maven.wagon:wagon-ssh:2.2"&lt;/s0&gt;
+}
+
+uploadArchives {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T092644Z" creationid="huanghaohang" creationdate="20190607T092644Z">
+        <seg>deployerJars &lt;s0&gt;"org.apache.maven.wagon:wagon-ssh:2.2"&lt;/s0&gt;
+}
+
+uploadArchives {</seg>
       </tuv>
     </tu>
     <tu>
@@ -37382,6 +37450,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>maven_plugin.html#deployerConfig</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T092652Z" creationid="huanghaohang" creationdate="20190607T092652Z">
+        <seg>maven_plugin.html#deployerConfig</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>maven_plugin.html#sub:dependency_mapping</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060616Z" creationid="huanghaohang" creationdate="20190607T060616Z">
@@ -39904,10 +39980,26 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>repositories.mavenDeployer {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T092645Z" creationid="huanghaohang" creationdate="20190607T092645Z">
+        <seg>repositories.mavenDeployer {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>repository(url: &lt;s1&gt;"file://localhost/tmp/myRepo/"&lt;/s1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051022Z" creationid="huanghaohang" creationdate="20170908T051022Z">
         <seg>repository(url: &lt;s1&gt;"file://localhost/tmp/myRepo/"&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>repository(url: &lt;s1&gt;"scp://repos.mycompany.com/releases"&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T092646Z" creationid="huanghaohang" creationdate="20190607T092646Z">
+        <seg>repository(url: &lt;s1&gt;"scp://repos.mycompany.com/releases"&lt;/s1&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
