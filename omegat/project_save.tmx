@@ -7074,6 +7074,22 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>52.3. Dependency management</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060352Z" creationid="huanghaohang" creationdate="20190607T060352Z">
+        <seg>52.3. 依赖管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>52.4. Convention properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060412Z" creationid="huanghaohang" creationdate="20190607T060412Z">
+        <seg>52.4. 约定属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -17053,6 +17069,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>File (read-only)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060518Z" creationid="huanghaohang" creationdate="20190607T060518Z">
+        <seg>文件(只读)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>File collections</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T093018Z" creationid="huanghaohang" creationdate="20180218T093018Z">
@@ -23357,6 +23381,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 52.2. Maven plugin - properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060425Z" creationid="huanghaohang" creationdate="20190607T060425Z">
+        <seg>表 52.2. Maven 插件——属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tar</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133905Z" creationid="huanghaohang" creationdate="20190127T133905Z">
@@ -24993,10 +25025,26 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Maven plugin defines the following convention properties:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060420Z" creationid="huanghaohang" creationdate="20190607T060420Z">
+        <seg>Maven 插件定义了下列约定属性：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Maven plugin defines the following tasks:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T091224Z" creationid="huanghaohang" creationdate="20190606T091224Z">
         <seg>Maven 插件定义了以下任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Maven plugin does not define any dependency configurations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060408Z" creationid="huanghaohang" creationdate="20190607T060408Z">
+        <seg>Maven 插件没有定义任何依赖配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26165,6 +26213,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150603Z" creationid="huanghaohang" creationdate="20170927T150603Z">
         <seg>任务的输出文件会被包含在文件集合中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path of the directory to write the generated POMs, relative to the build directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060509Z" creationid="huanghaohang" creationdate="20190607T060509Z">
+        <seg>用于写入生成的 POM 的文件夹路径，相对于构建目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37920,6 +37976,30 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190205T070036Z" creationid="huanghaohang" creationdate="20190205T070036Z">
         <seg>pmd_plugin.html#N136D9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pomDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060510Z" creationid="huanghaohang" creationdate="20190607T060510Z">
+        <seg>pomDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pomDirName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060433Z" creationid="huanghaohang" creationdate="20190607T060433Z">
+        <seg>pomDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>poms</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060438Z" creationid="huanghaohang" creationdate="20190607T060438Z">
+        <seg>poms</seg>
       </tuv>
     </tu>
     <tu>
