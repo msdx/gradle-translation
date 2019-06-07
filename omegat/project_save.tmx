@@ -29089,6 +29089,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you set &lt;c0&gt;archiveTask.baseName&lt;/c0&gt; to a value other than the default, make sure to set &lt;c1&gt;uploadTask.repositories.mavenDeployer.pom.artifactId&lt;/c1&gt; to the same value. Otherwise, the project at hand may be referenced with the wrong artifact ID from generated POMs for other projects in the same build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T100418Z" creationid="huanghaohang" creationdate="20190607T100103Z">
+        <seg>当你把 &lt;c0&gt;archiveTask.baseName&lt;/c0&gt; 设置为非默认值时，请确保将 &lt;c1&gt;uploadTask.repositories.mavenDeployer.pom.artifactId&lt;/c1&gt; 设置为相同的值。否则在同一个构建中，其他项目引用到的这个项目所生成的 POM 的 artifact ID 可能会有误。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you specify tasks on the command-line, you don't have to provide the full name of the task. You only need to provide enough of the task name to uniquely identify the task. For example, in the sample build above, you can execute task &lt;c0&gt;dist&lt;/c0&gt; by running &lt;s1&gt;&lt;c2&gt;gradle d&lt;/c2&gt;&lt;/s1&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T112734Z" creationid="huanghaohang" creationdate="20170909T112734Z">
