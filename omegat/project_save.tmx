@@ -7130,6 +7130,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>52.6.2. Deploying to a Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T074735Z" creationid="huanghaohang" creationdate="20190607T074735Z">
+        <seg>52.6.2. 部署到 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>52.6. Interacting with Maven repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T062521Z" creationid="huanghaohang" creationdate="20190607T062521Z">
@@ -14021,6 +14029,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Deploying to a Maven repository is only half the fun if you don't have a POM. Fortunately Gradle can generate this POM for you using the dependency information it has.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T074730Z" creationid="huanghaohang" creationdate="20190607T074730Z">
+        <seg>如果你没有 POM，部署到 Maven 仓库只有一半的乐趣。幸运的是 Gradle 可以使用它的依赖信息为你生成这个 POM。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Deploys your web application to a Jetty web container embedded in the build. See also &lt;a0&gt;Chapter 10, &lt;i1&gt;Web Application Quickstart&lt;/i1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T143404Z" creationid="huanghaohang" creationdate="20180207T143256Z">
@@ -19873,6 +19889,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T130644Z" creationid="95" creationdate="20170730T124722Z">
         <seg>让我们来添加一些依赖。在这里，我们将声明我们的生产类对commons collection具有编译时依赖，我们的测试类对junit具有需要编译时依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's assume your project produces just the default jar file. Now you want to deploy this jar file to a remote Maven repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T074820Z" creationid="huanghaohang" creationdate="20190607T074820Z">
+        <seg>让我们假设你的项目只生成默认的 jar 文件，现在你想将这个 jar 文件部署到远程 Maven 仓库。</seg>
       </tuv>
     </tu>
     <tu>
