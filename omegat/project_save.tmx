@@ -326,6 +326,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N15574</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T075001Z" creationid="huanghaohang" creationdate="20190607T075001Z">
+        <seg>#ftn.N15574</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160758Z" creationid="huanghaohang" creationdate="20190527T160758Z">
@@ -16605,6 +16613,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 52.3. Upload of file to remote Maven repository</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T074826Z" creationid="huanghaohang" creationdate="20190607T074826Z">
+        <seg>示例 52.3. 上传文件到远程 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -23493,6 +23509,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Table 52.3. Protocol jars for Maven deployment</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T074959Z" creationid="huanghaohang" creationdate="20190607T074959Z">
+        <seg>表 52.3. Maven 部署的协议 jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Tar</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T133905Z" creationid="huanghaohang" creationdate="20190127T133905Z">
@@ -23725,6 +23749,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093301Z" creationid="huanghaohang" creationdate="20180130T093301Z">
         <seg>归功于 Gradle 的默认导入（见《&lt;a0&gt;附录 E，&lt;i1&gt;现有的 IDE 支持和如何应对不支持的情况&lt;/i1&gt;&lt;/a0&gt;》），你也可以这样写：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>That is all. Calling the &lt;c0&gt;uploadArchives&lt;/c0&gt; task will generate the POM and deploys the artifact and the POM to the specified repository.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T074908Z" creationid="huanghaohang" creationdate="20190607T074908Z">
+        <seg>调用 &lt;c0&gt;uploadArchives&lt;/c0&gt; 任务将生成 POM，并将工件和 POM 部署到指定的仓库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26965,6 +26997,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T154458Z" creationid="95" creationdate="20170728T153845Z">
         <seg>在构建脚本中您可以利用Ant做更多的事情，更多细节请参阅 &lt;a0&gt;第十七章，&lt;i1&gt;在Gradle中使用Ant&lt;/i1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>There is some more work to do if you need support for other protocols than &lt;c0&gt;file&lt;/c0&gt;. In this case the native Maven code we delegate to needs additional libraries. Which libraries depend on the protocol you need. The available protocols and the corresponding libraries are listed in &lt;a1&gt;Table 52.3, “Protocol jars for Maven deployment”&lt;/a1&gt; (those libraries have again transitive dependencies which have transitive dependencies). &lt;s2&gt;[&lt;a3&gt;19&lt;/a3&gt;]&lt;/s2&gt; For example to use the ssh protocol you can do:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T092631Z" creationid="huanghaohang" creationdate="20190607T092631Z">
+        <seg>如果你需要对 &lt;c0&gt;file&lt;/c0&gt; 以外的其他协议支持，那么还要再做一些事情。在这种情况下，我们委派的本地 Maven 代码需要其他的库。具体是哪些库，则取决于你需要的协议。&lt;a1&gt;表 52.3，“用于Maven部署的协议 jar”&lt;/a1&gt; 中列出了可用的协议和相应的库（这些库有传递依赖，而这些依赖也有其自己的传递依赖）。 &lt;s2&gt;[&lt;a3&gt;19&lt;/a3&gt;]&lt;/s2&gt; 例如，要使用 SSH 协议，你可以执行以下操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -37362,6 +37402,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T085307Z" creationid="huanghaohang" creationdate="20190606T085307Z">
         <seg>maven_plugin.html#uploading_to_maven_repositories</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>maven_plugin.html#wagonLibs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T074939Z" creationid="huanghaohang" creationdate="20190607T074939Z">
+        <seg>maven_plugin.html#wagonLibs</seg>
       </tuv>
     </tu>
     <tu>
