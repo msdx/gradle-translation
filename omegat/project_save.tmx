@@ -16677,6 +16677,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 52.7. Modifying auto-generated content</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111040Z" creationid="huanghaohang" creationdate="20190607T111040Z">
+        <seg>示例 52.7. 修改自动生成的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -19093,6 +19101,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have more than one artifact to publish, things work a little bit differently. See&lt;a0&gt;Section 52.6.4.1, “Multiple artifacts per project”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111219Z" creationid="huanghaohang" creationdate="20190607T111219Z">
+        <seg>如果要发布多个工件，那么要做的事情会有些不同。请参阅&lt;a0&gt;第 52.6.4.1 节，“每个项目多个工件”&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you haven't had to deal with the curse of conflicting versions of jars on a classpath, here is a small anecdote of the fun that awaits you. In a large project with 30 submodules, adding a dependency to a subproject changed the order of a classpath, swapping Spring 2.5 for an older 2.4 version. While the build continued to work, developers were starting to notice all sorts of surprising (and surprisingly awful) bugs in production. Worse yet, this unintentional downgrade of Spring introduced several security vulnerabilities into the system, which now required a full security audit throughout the organization.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190316T124940Z" creationid="95" creationdate="20190316T124940Z">
@@ -20553,6 +20569,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143437Z" creationid="huanghaohang" creationdate="20170911T143437Z">
         <seg>请注意，这个命令会被一直阻塞直到Gradle GUI被关闭。在*nix下，最好是将其作为后台任务运行（&lt;s0&gt;&lt;s1&gt;gradle --gui＆&lt;/s1&gt;&lt;/s0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Note: &lt;c0&gt;groupId&lt;/c0&gt;, &lt;c1&gt;artifactId&lt;/c1&gt;, &lt;c2&gt;version&lt;/c2&gt;, and &lt;c3&gt;packaging&lt;/c3&gt; should always be set directly on the &lt;c4&gt;pom&lt;/c4&gt; object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111033Z" creationid="huanghaohang" creationdate="20190607T111033Z">
+        <seg>注：&lt;c0&gt;groupId&lt;/c0&gt;、&lt;c1&gt;artifactId&lt;/c1&gt;、&lt;c2&gt;version&lt;/c2&gt; 和 &lt;c3&gt;packaging&lt;/c3&gt; 应该始终在 &lt;c4&gt;pom&lt;/c4&gt; 对象上直接设置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27793,6 +27817,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To customize the settings for the Maven installer (see&lt;a0&gt;Section 52.6.3, “Installing to the local repository”&lt;/a0&gt;), you can do:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111304Z" creationid="huanghaohang" creationdate="20190607T111304Z">
+        <seg>要自定义 Maven 安装器（见&lt;a0&gt;第 52.6.3 节，“安装到本地仓库”&lt;/a0&gt;)的设置，你可以：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To deal with problems due to version conflicts, reports with dependency graphs are also very helpful. Such reports are another feature of dependency management.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T143358Z" creationid="huanghaohang" creationdate="20190411T143358Z">
@@ -33087,6 +33119,20 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def installer = install.repositories.mavenInstaller
+def deployer = uploadArchives.repositories.mavenDeployer
+
+[installer, deployer]*.pom*.whenConfigured {pom -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111042Z" creationid="huanghaohang" creationdate="20190607T111042Z">
+        <seg>def installer = install.repositories.mavenInstaller
+def deployer = uploadArchives.repositories.mavenDeployer
+
+[installer, deployer]*.pom*.whenConfigured {pom -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def mountains = &lt;s4&gt;new&lt;/s4&gt; XmlParser().parse(srcFile)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085712Z" creationid="huanghaohang" creationdate="20170922T085712Z">
@@ -37698,6 +37744,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>maven_plugin.html#sub:multiple_artifacts_per_project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111057Z" creationid="huanghaohang" creationdate="20190607T111057Z">
+        <seg>maven_plugin.html#sub:multiple_artifacts_per_project</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>maven_plugin.html#uploading_to_maven_repositories</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T085307Z" creationid="huanghaohang" creationdate="20190606T085307Z">
@@ -38620,6 +38674,16 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T100716Z" creationid="huanghaohang" creationdate="20190607T100716Z">
         <seg>pom.artifactId = &lt;s2&gt;'myMavenName'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pom.dependencies.find {dep -&gt; dep.groupId == &lt;s0&gt;'group3'&lt;/s0&gt; &amp;&amp; dep.artifactId == &lt;s1&gt;'runtime'&lt;/s1&gt; }.optional = true
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111056Z" creationid="huanghaohang" creationdate="20190607T111056Z">
+        <seg>pom.dependencies.find {dep -&gt; dep.groupId == &lt;s0&gt;'group3'&lt;/s0&gt; &amp;&amp; dep.artifactId == &lt;s1&gt;'runtime'&lt;/s1&gt; }.optional = true
+}</seg>
       </tuv>
     </tu>
     <tu>
