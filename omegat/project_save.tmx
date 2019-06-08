@@ -1466,6 +1466,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/artifacts/maven/PomFilterContainer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T084753Z" creationid="huanghaohang" creationdate="20190608T084753Z">
+        <seg>../javadoc/org/gradle/api/artifacts/maven/PomFilterContainer.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/artifacts/result/ResolutionResult.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141914Z" creationid="huanghaohang" creationdate="20190602T141914Z">
@@ -16701,6 +16709,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 52.9. Generation of multiple poms</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T084748Z" creationid="huanghaohang" creationdate="20190608T084748Z">
+        <seg>示例 52.9. 多个 pom 的生成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -30073,6 +30089,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You need to declare a filter for each artifact you want to publish. This filter defines a boolean expression for which Gradle artifact it accepts. Each filter has a POM associated with it which you can configure. To learn more about this have a look at &lt;a0&gt;&lt;c1&gt;PomFilterContainer&lt;/c1&gt;&lt;/a0&gt; and its associated classes.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T085151Z" creationid="huanghaohang" creationdate="20190608T085151Z">
+        <seg>你需要为每个要发布的工件声明一个过滤器，这个过滤器定义了其接受 Gradle 工件的布尔表达式。每个过滤器都有一个与之关联的 POM，通过它你可以进行配置。要了解更多信息，请查看 &lt;a0&gt;&lt;c1&gt;PomFilterContainer&lt;/c1&gt;&lt;/a0&gt; 及其关联的类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You often need to locate the tasks that you have defined in the build file, for example, to configure them or use them for dependencies. There are a number of ways of doing this. Firstly, each task is available as a property of the project, using the task name as the property name:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T121712Z" creationid="huanghaohang" creationdate="20170919T121712Z">
@@ -30269,6 +30293,22 @@ No dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T080210Z" creationid="huanghaohang" creationdate="20190606T080210Z">
         <seg>add project.repositories.fileRepo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>addFilter(&lt;s1&gt;'api'&lt;/s1&gt;) {artifact, file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T084749Z" creationid="huanghaohang" creationdate="20190608T084749Z">
+        <seg>addFilter(&lt;s1&gt;'api'&lt;/s1&gt;) {artifact, file -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>addFilter(&lt;s3&gt;'service'&lt;/s3&gt;) {artifact, file -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T084751Z" creationid="huanghaohang" creationdate="20190608T084751Z">
+        <seg>addFilter(&lt;s3&gt;'service'&lt;/s3&gt;) {artifact, file -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -31507,6 +31547,22 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T024712Z" creationid="huanghaohang" creationdate="20190604T024712Z">
         <seg>artifact &lt;s3&gt;"company-artifacts/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifact.name == &lt;s2&gt;'api'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T084750Z" creationid="huanghaohang" creationdate="20190608T084750Z">
+        <seg>artifact.name == &lt;s2&gt;'api'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>artifact.name == &lt;s4&gt;'service'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T084751Z" creationid="huanghaohang" creationdate="20190608T084751Z">
+        <seg>artifact.name == &lt;s4&gt;'service'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -38698,6 +38754,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T061317Z" creationid="huanghaohang" creationdate="20190607T061317Z">
         <seg>pom {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pom(&lt;s5&gt;'api'&lt;/s5&gt;).version = &lt;s6&gt;'mySpecialMavenVersion'&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T084752Z" creationid="huanghaohang" creationdate="20190608T084752Z">
+        <seg>pom(&lt;s5&gt;'api'&lt;/s5&gt;).version = &lt;s6&gt;'mySpecialMavenVersion'&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
