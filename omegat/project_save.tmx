@@ -1210,6 +1210,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.plugins.signing.Sign.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T134519Z" creationid="huanghaohang" creationdate="20190608T134519Z">
+        <seg>../dsl/org.gradle.plugins.signing.Sign.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.testing.jacoco.plugins.JacocoPluginExtension.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T134815Z" creationid="huanghaohang" creationdate="20180712T134815Z">
@@ -16997,6 +17005,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 53.2. Signing a configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T134450Z" creationid="huanghaohang" creationdate="20190608T134450Z">
+        <seg>示例53.2. 签署配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -28077,6 +28093,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002355Z" creationid="huanghaohang" creationdate="20170909T002355Z">
         <seg>如果还没有应用Java插件，那么Java插件也会被应用到项目中。 Groovy插件分别扩展了&lt;c0&gt;compile&lt;/c0&gt;任务，以在&lt;c1&gt;src/main/groovy&lt;/c1&gt;目录中查找源文件；以及&lt;c2&gt;compileTest&lt;/c2&gt;任务，以在&lt;c3&gt;src/test/groovy&lt;/c3&gt;目录中查找测试源文件。编译任务会把这些目录加到编译中，因此也意味着可以在项目里混合编译java和groovy。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This will create a task (of type &lt;a0&gt;&lt;c1&gt;Sign&lt;/c1&gt;&lt;/a0&gt;) in your project named “&lt;c2&gt;signArchives&lt;/c2&gt;”, that will build any &lt;c3&gt;archives&lt;/c3&gt; artifacts (if needed) and then generate signatures for them. The signature files will be placed alongside the artifacts being signed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T135013Z" creationid="huanghaohang" creationdate="20190608T135013Z">
+        <seg>这将在你的项目中创建一个名为“&lt;c2&gt;signArchives&lt;/c2&gt;”的任务（&lt;a0&gt;&lt;c1&gt;Sign&lt;/c1&gt;&lt;/a0&gt;类型），这个任务会构建所有&lt;c3&gt;archives&lt;/c3&gt;的artifacts（如果需要），然后为它们生成签名。签名文件将和正在签名的工件放在一起。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41742,10 +41766,28 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sign configurations.archives
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T134509Z" creationid="huanghaohang" creationdate="20190608T134509Z">
+        <seg>sign configurations.archives
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>signing</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090000Z" creationid="huanghaohang" creationdate="20180211T090000Z">
         <seg>signing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>signing {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T134505Z" creationid="huanghaohang" creationdate="20190608T134505Z">
+        <seg>signing {</seg>
       </tuv>
     </tu>
     <tu>
