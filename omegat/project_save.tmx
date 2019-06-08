@@ -7330,10 +7330,26 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>53.1. Usage</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T130401Z" creationid="huanghaohang" creationdate="20190608T130401Z">
+        <seg>53.1. 用法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>53.2.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T095332Z" creationid="huanghaohang" creationdate="20190608T095332Z">
         <seg>53.2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>53.2. Signatory credentials</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T130504Z" creationid="huanghaohang" creationdate="20190608T130504Z">
+        <seg>53.2. 签名凭证</seg>
       </tuv>
     </tu>
     <tu>
@@ -16933,6 +16949,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 53.1. Using the Signing plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T130430Z" creationid="huanghaohang" creationdate="20190608T130430Z">
+        <seg>示例 53.1. 使用 Signing 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -19577,6 +19601,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033837Z" creationid="huanghaohang" creationdate="20190604T033458Z">
         <seg>在大多数情况下，Gradle 默认的依赖管理会解析你构建中所需要的依赖。但是，在某些情况下，可能需要轻微调整依赖解析，以确保你的构建能精确得到正确的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In order to create PGP signatures, you will need a key pair (instructions on creating a key pair using the &lt;a0&gt;GnuPG tools&lt;/a0&gt; can be found in the &lt;a1&gt;GnuPG HOWTOs&lt;/a1&gt;). You need to provide the signing plugin with your key information, which means three things:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T131939Z" creationid="huanghaohang" creationdate="20190608T131939Z">
+        <seg>要创建 PGP 签名，你需要一个密钥对（有关使用 &lt;a0&gt;GnuPG 工具&lt;/a0&gt;创建密钥对的介绍可以在 &lt;a1&gt;GnuPG HOWTOs&lt;/a1&gt;中找到）。你需要向签名插件提供你的密钥信息，即如下三项事情：</seg>
       </tuv>
     </tu>
     <tu>
@@ -27049,6 +27081,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The signing plugin currently only provides support for generating &lt;a0&gt;PGP signatures&lt;/a0&gt; (which is the signature format &lt;a1&gt;required for publication to the Maven Central Repository&lt;/a1&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T130358Z" creationid="huanghaohang" creationdate="20190608T130358Z">
+        <seg>签名插件当前只支持 &lt;a0&gt;PGP 签名&lt;/a0&gt;（这是&lt;a1&gt;发布到 Maven 中央仓库所需的&lt;/a1&gt;签名格式）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The skip Sonar analysis for a particular subproject, set &lt;c0&gt;sonarRunner.skipProject&lt;/c0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042927Z" creationid="huanghaohang" creationdate="20181202T042927Z">
@@ -28509,6 +28549,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010153Z" creationid="huanghaohang" creationdate="20180407T010153Z">
         <seg>要使用 Scala 插件，请在构建脚本中包含以下语句：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To use the Signing plugin, include in your build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T130421Z" creationid="huanghaohang" creationdate="20190608T130421Z">
+        <seg>要使用 Signing 插件，请在构建脚本中包含：</seg>
       </tuv>
     </tu>
     <tu>
@@ -31645,6 +31693,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T010157Z" creationid="huanghaohang" creationdate="20180407T010157Z">
         <seg>apply plugin: &lt;s0&gt;'scala'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'signing'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T130431Z" creationid="huanghaohang" creationdate="20190608T130431Z">
+        <seg>apply plugin: &lt;s0&gt;'signing'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -36237,6 +36293,22 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://www.gnupg.org/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T130506Z" creationid="huanghaohang" creationdate="20190608T130506Z">
+        <seg>http://www.gnupg.org/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://www.gnupg.org/documentation/howtos.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T130515Z" creationid="huanghaohang" creationdate="20190608T130515Z">
+        <seg>http://www.gnupg.org/documentation/howtos.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://www.gradle.org/contribute</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T142045Z" creationid="95" creationdate="20170721T142045Z">
@@ -36285,6 +36357,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>http://www.pgpi.org/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T130252Z" creationid="huanghaohang" creationdate="20190608T130252Z">
+        <seg>http://www.pgpi.org/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>http://www.scala-lang.org/docu/files/tools/fsc.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T020439Z" creationid="huanghaohang" creationdate="20180407T020439Z">
@@ -36329,6 +36409,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030332Z" creationid="huanghaohang" creationdate="20190603T030332Z">
         <seg>https</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>https://docs.sonatype.org/display/Repository/Central+Sync+Requirements</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T130301Z" creationid="huanghaohang" creationdate="20190608T130301Z">
+        <seg>https://docs.sonatype.org/display/Repository/Central+Sync+Requirements</seg>
       </tuv>
     </tu>
     <tu>
