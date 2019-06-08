@@ -7362,6 +7362,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>53.3.1. Signing Configurations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T134025Z" creationid="huanghaohang" creationdate="20190608T134025Z">
+        <seg>53.3.1. 签名配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>53.3. Specifying what to sign</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133104Z" creationid="huanghaohang" creationdate="20190608T133104Z">
@@ -19985,6 +19993,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084830Z" creationid="huanghaohang" creationdate="20180105T084830Z">
         <seg>它也可以用于一个依赖于 Gradle 任务的 Ant 目标：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is common to want to sign the artifacts of a configuration. For example, the &lt;a0&gt;Java plugin&lt;/a0&gt; configures a jar to built and this jar artifact is added to the &lt;c1&gt;archives&lt;/c1&gt; configuration. Using the Signing DSL, you can specify that all of the artifacts of this configuration should be signed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T134431Z" creationid="huanghaohang" creationdate="20190608T134431Z">
+        <seg>想对配置中的工件进行签名是很常见的情况。例如，&lt;a0&gt;Java 插件&lt;/a0&gt;配置了要构建的 jar，并把这个 jar 文件添加到 &lt;c1&gt;archives&lt;/c1&gt; 配置。通过使用 Signing DSL，你可以指定这个配置的所有工件都应该被签名。</seg>
       </tuv>
     </tu>
     <tu>
