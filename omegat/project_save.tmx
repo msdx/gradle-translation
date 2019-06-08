@@ -26145,6 +26145,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The absolute path to the secret key ring file containing your private key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T132154Z" creationid="huanghaohang" creationdate="20190608T132154Z">
+        <seg>包含私钥的密钥环文件的绝对路径。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The appendix portion of the archive file name.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233159Z" creationid="huanghaohang" creationdate="20171206T233159Z">
@@ -26865,6 +26873,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The passphrase used to protect your private key.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T132223Z" creationid="huanghaohang" creationdate="20190608T132223Z">
+        <seg>用来保护你的私钥的密码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The path of the directory to write the generated POMs, relative to the build directory.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T060509Z" creationid="huanghaohang" creationdate="20190607T060509Z">
@@ -26997,6 +27013,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025803Z" creationid="huanghaohang" creationdate="20190604T025803Z">
         <seg>sftp 协议当前仅支持基于用户名/密码的认证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The public key ID (an 8 character hexadecimal string).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T131953Z" creationid="huanghaohang" creationdate="20190608T131953Z">
+        <seg>公钥 ID（一个 8 位字符的十六进制字符串）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27557,6 +27581,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170905T152131Z" creationid="95" creationdate="20170905T151718Z">
         <seg>这些传入的文件构成了这个项目的依赖。Gradle可以让你告诉它你项目的依赖是什么，以便它处理查找这些依赖，以及把它们加入构建。这些依赖可能需要从远程的Maven或Ivy仓库中下载，或者位于本地目录中，或是需要由同一个多项目构建的其他子项目来构建。这个过程我们称之为 &lt;e0&gt;依赖解析&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>These items must be supplied as the property projects &lt;c0&gt;signing.keyId&lt;/c0&gt;, &lt;c1&gt;signing.password&lt;/c1&gt; and &lt;c2&gt;signing.secretKeyRingFile&lt;/c2&gt; respectively. Given the personal and private nature of these values, a good practice is to store them in the user &lt;c3&gt;gradle.properties&lt;/c3&gt; file (described in &lt;a4&gt;Section 14.2, “Gradle properties and system properties”&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T132525Z" creationid="huanghaohang" creationdate="20190608T132525Z">
+        <seg>这些事项必须分别作为属性项目 &lt;c0&gt;signing.keyId&lt;/c0&gt;，&lt;c1&gt;signing.password&lt;/c1&gt; 和 &lt;c2&gt;signing.secretKeyRingFile&lt;/c2&gt; 提供。考虑到这些值的个人及私人性质，较好的做法是把它们存储在用户 &lt;c3&gt;gradle.properties&lt;/c3&gt; 文件中（&lt;a4&gt;第 14.2 节，《Gradle 属性和系统属性》&lt;/a4&gt;中所述）。</seg>
       </tuv>
     </tu>
     <tu>
