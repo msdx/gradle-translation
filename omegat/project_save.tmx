@@ -7178,6 +7178,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>52.6.4.2. Dependency mapping</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T085154Z" creationid="huanghaohang" creationdate="20190608T085154Z">
+        <seg>52.6.4.2. 依赖映射</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>52.6.4. Maven POM generation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T094522Z" creationid="huanghaohang" creationdate="20190607T094522Z">
@@ -25357,6 +25365,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T091146Z" creationid="huanghaohang" creationdate="20190606T091146Z">
         <seg>Maven 插件添加了将项目部署到 Maven 仓库的支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The Maven plugin configures the default mapping between the Gradle configurations added by the Java and War plugin and the Maven scopes. Most of the time you don't need to touch this and you can safely skip this section. The mapping works like the following. You can map a configuration to one and only one scope. Different configurations can be mapped to one or different scopes. One can assign also a priority to a particular configuration-to-scope mapping. Have a look at &lt;a0&gt;&lt;c1&gt;Conf2ScopeMappingContainer&lt;/c1&gt;&lt;/a0&gt; to learn more. To access the mapping configuration you can say:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T090849Z" creationid="huanghaohang" creationdate="20190608T085210Z">
+        <seg>Maven 插件配置了由 Java 和 War 插件添加的 Gradle 配置与 Maven 作用域之间的默认映射。大多数时候，你不需要去接触它，并且你可以安全跳过本节内容。映射过程如下。你可以把一个配置只映射到一个作用域上，也可以将不同的配置映射到一个或多个作用域上。另外，还可以对特定的配置与作用域的映射指定优先级。你可以参考 &lt;a0&gt;&lt;c1&gt;Conf2ScopeMappingContainer&lt;/c1&gt;&lt;/a0&gt; 来了解更多信息。要访问映射配置，你可以：</seg>
       </tuv>
     </tu>
     <tu>
