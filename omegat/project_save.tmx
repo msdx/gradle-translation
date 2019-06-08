@@ -19253,6 +19253,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If specifying this information in the user &lt;c0&gt;gradle.properties&lt;/c0&gt; file is not feasible for your environment, you can source the information however you need to and set the project properties manually.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133037Z" creationid="huanghaohang" creationdate="20190608T133037Z">
+        <seg>如果在用户的 &lt;c0&gt;gradle.properties&lt;/c0&gt; 文件中指定的信息不适合你的环境，你可以读取需要的这些信息并手动设置项目属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If the Java plugin is also applied to your project, a new task named &lt;c0&gt;jacocoTestReport&lt;/c0&gt; is created that depends on the &lt;c1&gt;test&lt;/c1&gt; task. The report is available at &lt;c2&gt;&lt;e3&gt;&lt;c4&gt;$buildDir&lt;/c4&gt;&lt;/e3&gt;/reports/jacoco/test&lt;/c2&gt;. By default, a HTML report is generated.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T134811Z" creationid="huanghaohang" creationdate="20180712T133917Z">
@@ -41606,6 +41614,18 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090000Z" creationid="huanghaohang" creationdate="20180211T090000Z">
         <seg>signing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>signing.keyId=24875D73
+signing.password=secret
+signing.secretKeyRingFile=/Users/me/.gnupg/secring.gpg</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T132535Z" creationid="huanghaohang" creationdate="20190608T132535Z">
+        <seg>signing.keyId=24875D73
+signing.password=secret
+signing.secretKeyRingFile=/Users/me/.gnupg/secring.gpg</seg>
       </tuv>
     </tu>
     <tu>
