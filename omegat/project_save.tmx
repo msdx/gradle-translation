@@ -1744,6 +1744,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>// Use Java 6's console to read from the console (no good for a CI environment)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133041Z" creationid="huanghaohang" creationdate="20190608T133041Z">
+        <seg>// Use Java 6's console to read from the console (no good for a CI environment)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072430Z" creationid="haohang" creationdate="20170720T072430Z">
@@ -7354,6 +7362,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>53.3. Specifying what to sign</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133104Z" creationid="huanghaohang" creationdate="20190608T133104Z">
+        <seg>53.3. 指定要签名的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -12335,6 +12351,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As well as configuring how things are to be signed (i.e. the signatory configuration), you must also specify what is to be signed. The Signing plugin provides a DSL that allows you to specify the tasks and/or configurations that should be signed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T134019Z" creationid="huanghaohang" creationdate="20190608T134019Z">
+        <seg>除了配置内容要如何签名（即签名配置），你还必须指定要签名哪些文件。Signing 插件提供了一个 DSL，能够让你指定应签名的任务和配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As well as considering artifacts downloaded from a different repository, Gradle will also attempt to reuse artifacts found in the local Maven Repository. If a candidate artifact has been downloaded by Maven, Gradle will use this artifact if it can be verified to match the checksum declared by the remote server.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T144037Z" creationid="huanghaohang" creationdate="20190605T143750Z">
@@ -13763,6 +13787,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T032009Z" creationid="huanghaohang" creationdate="20180131T032009Z">
         <seg>考虑一下有另一个任务使用到类文件的情况。如果这个任务被配置为使用 &lt;c0&gt;sourceSets.main.output.classesDir&lt;/c0&gt; 的值，那么在这里修改它就会同时更新 &lt;c1&gt;compileJava&lt;/c1&gt; 任务和那另一个任务，不管它的值是什么时候改的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Console console = System.console()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133042Z" creationid="huanghaohang" creationdate="20190608T133042Z">
+        <seg>Console console = System.console()</seg>
       </tuv>
     </tu>
     <tu>
@@ -30775,6 +30807,30 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>allprojects { ext."signing.keyId" = id }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133048Z" creationid="huanghaohang" creationdate="20190608T133048Z">
+        <seg>allprojects { ext."signing.keyId" = id }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>allprojects { ext."signing.password" = password }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133049Z" creationid="huanghaohang" creationdate="20190608T133049Z">
+        <seg>allprojects { ext."signing.password" = password }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>allprojects { ext."signing.secretKeyRingFile" = file }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133048Z" creationid="huanghaohang" creationdate="20190608T133048Z">
+        <seg>allprojects { ext."signing.secretKeyRingFile" = file }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>an empty manifest</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180318T010648Z" creationid="huanghaohang" creationdate="20180318T010648Z">
@@ -33405,6 +33461,22 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>console.printf "\nThanks.\n\n"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133052Z" creationid="huanghaohang" creationdate="20190608T133052Z">
+        <seg>console.printf "\nThanks.\n\n"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>console.printf "\n\nWe have to sign some things in this build.\n\nPlease enter your signing details.\n\n"</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133044Z" creationid="huanghaohang" creationdate="20190608T133044Z">
+        <seg>console.printf "\n\nWe have to sign some things in this build.\n\nPlease enter your signing details.\n\n"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>contents {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190128T061245Z" creationid="huanghaohang" creationdate="20190128T061245Z">
@@ -33583,6 +33655,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def file = console.readLine("PGP Secret Key Ring File (absolute path): ")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133046Z" creationid="huanghaohang" creationdate="20190608T133046Z">
+        <seg>def file = console.readLine("PGP Secret Key Ring File (absolute path): ")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def files = file(&lt;s0&gt;'../antLoadfileResources'&lt;/s0&gt;).listFiles().sort()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153757Z" creationid="95" creationdate="20170728T153757Z">
@@ -33595,6 +33675,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085714Z" creationid="huanghaohang" creationdate="20170922T085714Z">
         <seg>def height = mountain.height[&lt;s6&gt;0&lt;/s6&gt;].text()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def id = console.readLine("PGP Key Id: ")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133046Z" creationid="huanghaohang" creationdate="20190608T133046Z">
+        <seg>def id = console.readLine("PGP Key Id: ")</seg>
       </tuv>
     </tu>
     <tu>
@@ -33625,6 +33713,14 @@ def deployer = uploadArchives.repositories.mavenDeployer
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085713Z" creationid="huanghaohang" creationdate="20170922T085713Z">
         <seg>def name = mountain.name[&lt;s5&gt;0&lt;/s5&gt;].text()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def password = console.readPassword("PGP Private Key Password: ")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133047Z" creationid="huanghaohang" creationdate="20190608T133047Z">
+        <seg>def password = console.readPassword("PGP Private Key Password: ")</seg>
       </tuv>
     </tu>
     <tu>
@@ -36629,6 +36725,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>if (taskGraph.allTasks.any { it instanceof Sign }) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133040Z" creationid="huanghaohang" creationdate="20190608T133040Z">
+        <seg>if (taskGraph.allTasks.any { it instanceof Sign }) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>img/commandLineTutorialTasks.png</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031101Z" creationid="huanghaohang" creationdate="20170909T031101Z">
@@ -36713,6 +36817,18 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T140302Z" creationid="huanghaohang" creationdate="20180408T140302Z">
         <seg>img/warPluginTasks.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>import org.gradle.plugins.signing.Sign
+
+gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133039Z" creationid="huanghaohang" creationdate="20190608T133039Z">
+        <seg>import org.gradle.plugins.signing.Sign
+
+gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
       </tuv>
     </tu>
     <tu>
