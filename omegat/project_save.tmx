@@ -7162,6 +7162,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>52.6.4.1. Multiple artifacts per project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111414Z" creationid="huanghaohang" creationdate="20190607T111414Z">
+        <seg>52.6.4.1. 每个项目多个构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>52.6.4. Maven POM generation</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T094522Z" creationid="huanghaohang" creationdate="20190607T094522Z">
@@ -16685,6 +16693,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 52.8. Customization of Maven installer</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111339Z" creationid="huanghaohang" creationdate="20190607T111339Z">
+        <seg>示例 52.8. Maven 安装器的自定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -20273,6 +20289,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030257Z" creationid="huanghaohang" creationdate="20190603T030146Z">
         <seg>Maven 和 Ivy 仓库支持使用各种传输协议，当前支持以下协议：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Maven can only deal with one artifact per project. This is reflected in the structure of the Maven POM. We think there are many situations where it makes sense to have more than one artifact per project. In such a case you need to generate multiple POMs. In such a case you have to explicitly declare each artifact you want to publish to a Maven repository. The &lt;a0&gt;&lt;c1&gt;MavenDeployer&lt;/c1&gt;&lt;/a0&gt; and the MavenInstaller both provide an API for this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T084736Z" creationid="huanghaohang" creationdate="20190608T084736Z">
+        <seg>Maven 对每个项目只能处理一个工件，这反映在 Maven POM 的结构中。我们认为，在许多情况下，每个项目有一个以上的工件是有意义的。在这种情况下，你需要生成多个 POM。在这种情况下，你必须显式声明要发布到 Maven 仓库的每个工件。&lt;a0&gt;&lt;c1&gt;MavenDeployer&lt;/c1&gt;&lt;/a0&gt; 和 MavenInstaller 都为此提供了 API：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36419,6 +36443,14 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>install {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111340Z" creationid="huanghaohang" creationdate="20190607T111340Z">
+        <seg>install {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>install&lt;e0&gt;&lt;c1&gt;${distribution.name.capitalize()}&lt;/c1&gt;&lt;/e0&gt;Dist</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134019Z" creationid="huanghaohang" creationdate="20190127T134019Z">
@@ -38670,6 +38702,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>pom.artifactId = &lt;s1&gt;'myName'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111342Z" creationid="huanghaohang" creationdate="20190607T111342Z">
+        <seg>pom.artifactId = &lt;s1&gt;'myName'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>pom.artifactId = &lt;s2&gt;'myMavenName'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T100716Z" creationid="huanghaohang" creationdate="20190607T100716Z">
@@ -38692,6 +38732,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T100906Z" creationid="huanghaohang" creationdate="20190607T100906Z">
         <seg>pom.project {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>pom.version = &lt;s0&gt;'1.0Maven'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111342Z" creationid="huanghaohang" creationdate="20190607T111342Z">
+        <seg>pom.version = &lt;s0&gt;'1.0Maven'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -40400,6 +40448,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T092645Z" creationid="huanghaohang" creationdate="20190607T092645Z">
         <seg>repositories.mavenDeployer {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>repositories.mavenInstaller {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111341Z" creationid="huanghaohang" creationdate="20190607T111341Z">
+        <seg>repositories.mavenInstaller {</seg>
       </tuv>
     </tu>
     <tu>
