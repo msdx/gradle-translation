@@ -7386,6 +7386,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>53.3.3. Conditional Signing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T140804Z" creationid="huanghaohang" creationdate="20190608T140804Z">
+        <seg>53.3.3. 条件签名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>53.3. Specifying what to sign</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133104Z" creationid="huanghaohang" creationdate="20190608T133104Z">
@@ -11153,6 +11161,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124752Z" creationid="huanghaohang" creationdate="20170912T124752Z">
         <seg>构建脚本可以包含任何Groovy语言元素。 &lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;]&lt;/s0&gt; Gradle假定每个构建脚本都是使用UTF-8编码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A common usage pattern is to only sign build artifacts under certain conditions. For example, you may not wish to sign artifacts for non release versions. To achieve this, you can specify that signing is only required under certain conditions.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T161151Z" creationid="huanghaohang" creationdate="20190608T140827Z">
+        <seg>常见的用法模式是只在特定条件下才签名构建工件。例如，你可能不想对非发丰版的工件。 要实现此目的，您可以指定仅在特定条件下才需要签署。</seg>
       </tuv>
     </tu>
     <tu>
