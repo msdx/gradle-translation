@@ -16661,6 +16661,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 52.10. Accessing a mapping configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T090854Z" creationid="huanghaohang" creationdate="20190608T090854Z">
+        <seg>示例 52.10. 访问映射配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 52.2. Creating a stand alone pom.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T061315Z" creationid="huanghaohang" creationdate="20190607T061315Z">
@@ -18281,6 +18289,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190601T112301Z" creationid="huanghaohang" creationdate="20190601T112125Z">
         <seg>对于多项目构建，Gradle 能区分外部依赖与作为多项目构建的一部分的某个子项目上的依赖。对于后者，你可以声明&lt;e0&gt;项目依赖&lt;/e0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle exclude rules are converted to Maven excludes if possible. Such a conversion is possible if in the Gradle exclude rule the group as well as the module name is specified (as Maven needs both in contrast to Ivy). Per-configuration excludes are also included in the Maven POM, if they are convertible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T091248Z" creationid="huanghaohang" creationdate="20190608T091248Z">
+        <seg>如果有可能，Gradle 的排除规会转换为 Maven 的排除规则。如果在 Gradle 排除规则中指定了组及模块名称的话（与 Ivy 相反，Maven对这两个都需要），那么这种转换是可能的。对配置的排除规则如果可以被转换的话，也会包含在 Maven POM 中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39672,6 +39688,16 @@ println ant.references[&lt;s0&gt;'antPath'&lt;/s0&gt;]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println conf2ScopeMappings.mappings
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T090900Z" creationid="huanghaohang" creationdate="20190608T090900Z">
+        <seg>println conf2ScopeMappings.mappings
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println configurations.compile.name
 println configurations[&lt;s0&gt;'compile'&lt;/s0&gt;].name</seg>
       </tuv>
@@ -42552,6 +42578,14 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025423Z" creationid="huanghaohang" creationdate="20180107T025423Z">
         <seg>task logInfo {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task mappings &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T090855Z" creationid="huanghaohang" creationdate="20190608T090855Z">
+        <seg>task mappings &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
