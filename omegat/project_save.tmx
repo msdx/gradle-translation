@@ -7378,6 +7378,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>53.3.2. Signing Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T135049Z" creationid="huanghaohang" creationdate="20190608T135049Z">
+        <seg>53.3.2. 签名任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>53.3. Specifying what to sign</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133104Z" creationid="huanghaohang" creationdate="20190608T133104Z">
@@ -10985,6 +10993,32 @@ Total time: 1 secs</seg>
 [ant:echo] Hello, from Ant
 :intro
 Hello, from Gradle
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle signArchives
+:compileJava
+:processResources
+:classes
+:jar
+:signArchives
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T135045Z" creationid="huanghaohang" creationdate="20190608T135045Z">
+        <seg>&gt; gradle signArchives
+:compileJava
+:processResources
+:classes
+:jar
+:signArchives
 
 BUILD SUCCESSFUL
 
@@ -17021,6 +17055,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 53.4. Signing a task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T135233Z" creationid="huanghaohang" creationdate="20190608T135233Z">
+        <seg>示例 53.4. 签名任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -19701,6 +19743,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In some cases the artifact that you need to sign may not be part of a configuration. In this case you can directly sign the task that produces the artifact to sign.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T135223Z" creationid="huanghaohang" creationdate="20190608T135223Z">
+        <seg>在某些情况下，你需要签名的工件可能不在配置中。在这种情况下，你可以直接对生成要签名的工件的任务进行签名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In some corporate environments, the list of module versions that can be declared in Gradle builds is maintained and audited externally. Dependency resolve rules provide a neat implementation of this pattern:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T020344Z" creationid="huanghaohang" creationdate="20190605T020045Z">
@@ -21745,6 +21795,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084643Z" creationid="huanghaohang" creationdate="20180105T084643Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle intro&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle signArchives&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T135043Z" creationid="huanghaohang" creationdate="20190608T135043Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle signArchives&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -28113,6 +28171,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This will create a task (of type &lt;a0&gt;&lt;c1&gt;Sign&lt;/c1&gt;&lt;/a0&gt;) in your project named “&lt;c2&gt;signStuffZip&lt;/c2&gt;”, that will build the input task's archive (if needed) and then sign it. The signature file will be placed alongside the artifact being signed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T140212Z" creationid="huanghaohang" creationdate="20190608T140212Z">
+        <seg>这将在你的项目创建一个名为“&lt;c2&gt;signStuffZip&lt;/c2&gt;”的（&lt;a0&gt;&lt;c1&gt;Sign&lt;/c1&gt;&lt;/a0&gt;类型） 的任务，这个任务会构建输入任务的archive（如果需要），并进行签字。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This works for &lt;s0&gt;&lt;e1&gt;any&lt;/e1&gt;&lt;/s0&gt; task. Line 3 of the example is just a shortcut for the &lt;c2&gt;tasks.getByName()&lt;/c2&gt; method. It is important to note that if you pass a closure to the &lt;c3&gt;getByName()&lt;/c3&gt; method, this closure is applied to &lt;s4&gt;&lt;e5&gt;configure&lt;/e5&gt;&lt;/s4&gt; the task, not when the task executes.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T124903Z" creationid="huanghaohang" creationdate="20170919T124629Z">
@@ -32299,6 +32365,14 @@ task fooJar(type: Jar) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>baseName = &lt;s0&gt;"stuff"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T135235Z" creationid="huanghaohang" creationdate="20190608T135235Z">
+        <seg>baseName = &lt;s0&gt;"stuff"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>baseName = &lt;s0&gt;'my-name'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T143519Z" creationid="95" creationdate="20190131T143519Z">
@@ -35527,6 +35601,20 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132955Z" creationid="huanghaohang" creationdate="20170913T132955Z">
         <seg>from &lt;s1&gt;"source"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>from &lt;s1&gt;"src/stuff"&lt;/s1&gt;
+}
+
+signing {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T135236Z" creationid="huanghaohang" creationdate="20190608T135236Z">
+        <seg>from &lt;s1&gt;"src/stuff"&lt;/s1&gt;
+}
+
+signing {</seg>
       </tuv>
     </tu>
     <tu>
@@ -41784,6 +41872,16 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sign stuffZip
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T135241Z" creationid="huanghaohang" creationdate="20190608T135241Z">
+        <seg>sign stuffZip
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>signing</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090000Z" creationid="huanghaohang" creationdate="20180211T090000Z">
@@ -43308,6 +43406,14 @@ artifacts {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060236Z" creationid="huanghaohang" creationdate="20171126T060236Z">
         <seg>task rename(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task stuffZip (type: Zip) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T135234Z" creationid="huanghaohang" creationdate="20190608T135234Z">
+        <seg>task stuffZip (type: Zip) {</seg>
       </tuv>
     </tu>
     <tu>
