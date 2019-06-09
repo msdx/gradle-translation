@@ -7410,6 +7410,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>53.4. Publishing the signatures</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T005625Z" creationid="huanghaohang" creationdate="20190609T005625Z">
+        <seg>53.4. 发布签名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -29699,6 +29707,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153315Z" creationid="huanghaohang" creationdate="20180811T153315Z">
         <seg>当一次只设置一个属性时，等效属性的语法更加简洁：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When specifying what is to be signed via the Signing DSL, the resultant signature artifacts are automatically added to the &lt;c0&gt;signatures&lt;/c0&gt; and &lt;c1&gt;archives&lt;/c1&gt; dependency configurations. This means that if you want to upload your signatures to your distribution repository along with the artifacts you simply execute the &lt;c2&gt;uploadArchives&lt;/c2&gt; task as normal.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T010054Z" creationid="huanghaohang" creationdate="20190609T010054Z">
+        <seg>当通过 Signing DSL 指定要签名的内容时，会自动将生成的签名工件添加到 &lt;c0&gt;signatures&lt;/c0&gt; 和 &lt;c1&gt;archives&lt;/c1&gt; 依赖配置中。这意味着，如果你想要将签名随工件一起上传到分发仓库，正常来讲，你只需要简单地执行 &lt;c2&gt;uploadArchives&lt;/c2&gt; 任务就可以了。</seg>
       </tuv>
     </tu>
     <tu>
