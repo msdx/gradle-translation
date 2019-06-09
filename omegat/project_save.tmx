@@ -1074,6 +1074,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.language.objectivec.ObjectiveCSourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052323Z" creationid="huanghaohang" creationdate="20190609T052323Z">
+        <seg>../dsl/org.gradle.language.objectivec.ObjectiveCSourceSet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.language.objectivecpp.ObjectiveCppSourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052551Z" creationid="huanghaohang" creationdate="20190609T052551Z">
+        <seg>../dsl/org.gradle.language.objectivecpp.ObjectiveCppSourceSet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.NativeBinary.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T024528Z" creationid="huanghaohang" creationdate="20190609T024528Z">
@@ -7610,10 +7626,34 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.5.4. Objective-C sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052215Z" creationid="huanghaohang" creationdate="20190609T052159Z">
+        <seg>54.5.4. Objective-C 源码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>54.5.5. Objective-C++ sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052453Z" creationid="huanghaohang" creationdate="20190609T052453Z">
+        <seg>54.5.5. Objective-C++ 源码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.5. Language support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T033438Z" creationid="huanghaohang" creationdate="20190609T033438Z">
         <seg>54.5. 语言支持</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>54.6. Configuring the compiler, assembler and linker</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052651Z" creationid="huanghaohang" creationdate="20190609T052651Z">
+        <seg>54.6. 配置编译器、汇编器和连接器</seg>
       </tuv>
     </tu>
     <tu>
@@ -13263,8 +13303,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>C sources to be included in a native binary are provided via a &lt;a0&gt;&lt;c1&gt;CSourceSet&lt;/c1&gt;&lt;/a0&gt;, which defines a set of C source files and optionally a set of exported header files (for a library). By default, for any named component the &lt;a2&gt;&lt;c3&gt;CSourceSet&lt;/c3&gt;&lt;/a2&gt; contains &lt;c4&gt;.c&lt;/c4&gt; source files in &lt;c5&gt;src/${name}/c&lt;/c5&gt;, and header files in &lt;c6&gt;src/${name}/headers&lt;/c6&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051531Z" creationid="huanghaohang" creationdate="20190609T051531Z">
-        <seg>把 C 源码包含到本机二进制文件中，是通过 &lt;a0&gt;&lt;c1&gt;CSourceSet&lt;/c1&gt;&lt;/a0&gt; 来实现的，它定义了一组 C 源文件以及可选的一组导出的头文件（用于库）。默认情况下，对于任何指定的组件，&lt;a2&gt;&lt;c3&gt;CSourceSet&lt;/c3&gt;&lt;/a2&gt; 包含了在 &lt;c5&gt;src/${name}/c&lt;/c5&gt; 中的 &lt;c4&gt;.c&lt;/c4&gt; 源文件，以及在 &lt;c6&gt;src/${name}/headers&lt;/c6&gt; 中的头文件。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052151Z" creationid="huanghaohang" creationdate="20190609T051531Z">
+        <seg>把 C 源码包含到本机二进制文件中，是通过 &lt;a0&gt;&lt;c1&gt;CSourceSet&lt;/c1&gt;&lt;/a0&gt; 来实现的，它定义了一组 C 源文件以及可选的一组导出的头文件（用于库）。默认情况下，对于任何命名的组件，&lt;a2&gt;&lt;c3&gt;CSourceSet&lt;/c3&gt;&lt;/a2&gt; 包含了在 &lt;c5&gt;src/${name}/c&lt;/c5&gt; 中的 &lt;c4&gt;.c&lt;/c4&gt; 源文件，以及在 &lt;c6&gt;src/${name}/headers&lt;/c6&gt; 中的头文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13287,8 +13327,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>C++ sources to be included in a native binary are provided via a &lt;a0&gt;&lt;c1&gt;CppSourceSet&lt;/c1&gt;&lt;/a0&gt;, which defines a set of C++ source files and optionally a set of exported header files (for a library). By default, for any named component the &lt;a2&gt;&lt;c3&gt;CppSourceSet&lt;/c3&gt;&lt;/a2&gt; contains &lt;c4&gt;.cpp&lt;/c4&gt; source files in &lt;c5&gt;src/${name}/cpp&lt;/c5&gt;, and header files in &lt;c6&gt;src/${name}/headers&lt;/c6&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T043137Z" creationid="huanghaohang" creationdate="20190609T042908Z">
-        <seg>把 C++ 源码包含到本机二进制文件中，是通过 &lt;a0&gt;&lt;c1&gt;CppSourceSet&lt;/c1&gt;&lt;/a0&gt; 来实现的，它定义了一组 C++ 源文件以及可选的一组导出的头文件（用于库）。默认情况下，对于任何指定的组件，&lt;a2&gt;&lt;c3&gt;CppSourceSet&lt;/c3&gt;&lt;/a2&gt; 包含了在 &lt;c5&gt;src/${name}/cpp&lt;/c5&gt; 中的 &lt;c4&gt;.cpp&lt;/c4&gt; 源文件，以及在 &lt;c6&gt;src/${name}/headers&lt;/c6&gt; 中的头文件。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052157Z" creationid="huanghaohang" creationdate="20190609T042908Z">
+        <seg>把 C++ 源码包含到本机二进制文件中，是通过 &lt;a0&gt;&lt;c1&gt;CppSourceSet&lt;/c1&gt;&lt;/a0&gt; 来实现的，它定义了一组 C++ 源文件以及可选的一组导出的头文件（用于库）。默认情况下，对于任何命名的组件，&lt;a2&gt;&lt;c3&gt;CppSourceSet&lt;/c3&gt;&lt;/a2&gt; 包含了在 &lt;c5&gt;src/${name}/cpp&lt;/c5&gt; 中的 &lt;c4&gt;.cpp&lt;/c4&gt; 源文件，以及在 &lt;c6&gt;src/${name}/headers&lt;/c6&gt; 中的头文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14943,6 +14983,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T024629Z" creationid="huanghaohang" creationdate="20190604T024629Z">
         <seg>一个仓库指定的每个 &lt;c0&gt;artifact&lt;/c0&gt; 或 &lt;c1&gt;ivy&lt;/c1&gt; 都添加了一个要使用的 &lt;s2&gt;&lt;e3&gt;其他&lt;/e3&gt;&lt;/s2&gt; 模式。这些模式按照它们被定义的顺序使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each binary to be produced is associated with a set of compiler and linker settings, which include command-line arguments as well as macro definitions. These settings can be applied to all binaries, an individual binary, or selectively to a group of binaries based on some criteria.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053217Z" creationid="huanghaohang" creationdate="20190609T053217Z">
+        <seg>要生成的每个二进制文件都与一组编译器和链接器设置相关联，这些设置包括命令行参数以及宏定义。这些设置可以应用于所有的二进制文件，单个二进制文件，或者根据某些条件有选择地应用于一组二进制文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17551,6 +17599,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051850Z" creationid="huanghaohang" creationdate="20190609T051850Z">
         <seg>示例 54.7. 'assembler' 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.8. The 'objective-c' plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052321Z" creationid="huanghaohang" creationdate="20190609T052321Z">
+        <seg>示例 54.8. 'objective-c' 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.9. The 'objective-cpp' plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052544Z" creationid="huanghaohang" creationdate="20190609T052544Z">
+        <seg>示例 54.9. 'objective-cpp' 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -21739,10 +21803,42 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Objective-C language support is provided by means of the &lt;c0&gt;'objective-c'&lt;/c0&gt; plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052309Z" creationid="huanghaohang" creationdate="20190609T052309Z">
+        <seg>Objective-C 语言的支持是通过 &lt;c0&gt;'objective-c'&lt;/c0&gt; 插件提供的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Objective-C sources to be included in a native binary are provided via a &lt;a0&gt;&lt;c1&gt;ObjectiveCSourceSet&lt;/c1&gt;&lt;/a0&gt;, which defines a set of Objective-C source files. By default, for any named component the &lt;a2&gt;&lt;c3&gt;ObjectiveCSourceSet&lt;/c3&gt;&lt;/a2&gt; contains &lt;c4&gt;.m&lt;/c4&gt; source files under &lt;c5&gt;src/${name}/objectiveC&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052446Z" creationid="huanghaohang" creationdate="20190609T052446Z">
+        <seg>把 Objective-C 源码包含到本机二进制文件中，是通过 &lt;a0&gt;&lt;c1&gt;ObjectiveCSourceSet&lt;/c1&gt;&lt;/a0&gt; 来实现的，它定义了一组 Objective-C 源文件。默认情况下，对于任何命名的组件，&lt;a2&gt;&lt;c3&gt;ObjectiveCSourceSet&lt;/c3&gt;&lt;/a2&gt; 包含了在 &lt;c5&gt;src/${name}/objectiveC&lt;/c5&gt; 中的 &lt;c4&gt;.m&lt;/c4&gt; 源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Objective-C++</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T021823Z" creationid="huanghaohang" creationdate="20190609T021823Z">
         <seg>Objective-C++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Objective-C++ language support is provided by means of the &lt;c0&gt;'objective-cpp'&lt;/c0&gt; plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052533Z" creationid="huanghaohang" creationdate="20190609T052533Z">
+        <seg>Objective-C++ 语言的支持是通过 &lt;c0&gt;'objective-cpp'&lt;/c0&gt; 插件提供的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Objective-C++ sources to be included in a native binary are provided via a &lt;a0&gt;&lt;c1&gt;ObjectiveCppSourceSet&lt;/c1&gt;&lt;/a0&gt;, which defines a set of Objective-C++ source files. By default, for any named component the &lt;a2&gt;&lt;c3&gt;ObjectiveCppSourceSet&lt;/c3&gt;&lt;/a2&gt; contains &lt;c4&gt;.mm&lt;/c4&gt; source files under &lt;c5&gt;src/${name}/objectiveCpp&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052811Z" creationid="huanghaohang" creationdate="20190609T052635Z">
+        <seg>把 Objective-C++ 源码包含到本机二进制文件中，是通过 &lt;a0&gt;&lt;c1&gt;ObjectiveCppSourceSet&lt;/c1&gt;&lt;/a0&gt; 来实现的，其定义了一组 Objective-C++ 源文件。默认情况下，对于任何命名的组件，&lt;a2&gt;&lt;c3&gt;ObjectiveCppSourceSet&lt;/c3&gt;&lt;/a2&gt; 包含了在 &lt;c5&gt;src/${name}/objectiveCpp&lt;/c5&gt; 中的 &lt;c4&gt;.mm&lt;/c4&gt; 源文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32763,6 +32859,22 @@ uploadArchives {</seg>
         <seg>apply plugin: &lt;s0&gt;'maven'&lt;/s0&gt;
 
 uploadArchives {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'objective-c'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052322Z" creationid="huanghaohang" creationdate="20190609T052322Z">
+        <seg>apply plugin: &lt;s0&gt;'objective-c'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'objective-cpp'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T052545Z" creationid="huanghaohang" creationdate="20190609T052545Z">
+        <seg>apply plugin: &lt;s0&gt;'objective-cpp'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
