@@ -17459,6 +17459,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.4. C++ source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T043353Z" creationid="huanghaohang" creationdate="20190609T043353Z">
+        <seg>示例 54.4. C++ 源码集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -18223,6 +18231,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T032940Z" creationid="huanghaohang" creationdate="20190604T032940Z">
         <seg>对于动态版本，“较高”的静态版本优先于“较低”的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a library named 'main', files in &lt;c0&gt;src/main/headers&lt;/c0&gt; are considered the “public” or “exported” headers. Header files that should not be exported (but are used internally) should be placed inside the &lt;c1&gt;src/main/cpp&lt;/c1&gt; directory (though be aware that such header files should always be referenced in a manner relative to the file including them).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051237Z" creationid="huanghaohang" creationdate="20190609T043410Z">
+        <seg>对于名为“main”的库，&lt;c0&gt;src/main/headers&lt;/c0&gt; 中的文件都被视为“public”或“exported”头。不应导出（但内部使用）的头文件应放在 &lt;c1&gt;src/main/cpp&lt;/c1&gt; 目录内（不过请注意，应该始终以包含它们的文件的相对路径这样一种方式来引用这些头文件）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30447,6 +30463,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>While the &lt;c0&gt;cpp&lt;/c0&gt; plugin defines these default locations for each &lt;a1&gt;&lt;c2&gt;CppSourceSet&lt;/c2&gt;&lt;/a1&gt;, it is possible to extend or override these defaults to allow for a different project layout.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T043345Z" creationid="huanghaohang" creationdate="20190609T043345Z">
+        <seg>当 &lt;c0&gt;cpp&lt;/c0&gt; 插件为每个 &lt;a1&gt;&lt;c2&gt;CppSourceSet&lt;/c2&gt;&lt;/a1&gt; 定义了这些默认的位置时，可以扩展或重写这些默认值实现不同的项目布局。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>While the strategies introduced above are usually enough to solve most conflicts, Gradle provides more fine-grained mechanisms to resolve version conflicts:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190316T131247Z" creationid="95" creationdate="20190316T131247Z">
@@ -34387,6 +34411,14 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>cpp {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T043357Z" creationid="huanghaohang" creationdate="20190609T043357Z">
+        <seg>cpp {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>credentials {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050447Z" creationid="huanghaohang" creationdate="20170908T050447Z">
@@ -37823,6 +37855,14 @@ tree = fileTree(dir: &lt;s17&gt;'src'&lt;/s17&gt;, include: &lt;s18&gt;'**/*.jav
 tree = fileTree(dir: &lt;s12&gt;'src'&lt;/s12&gt;, include: &lt;s13&gt;'**/*.java'&lt;/s13&gt;)
 tree = fileTree(dir: &lt;s14&gt;'src'&lt;/s14&gt;, includes: [&lt;s15&gt;'**/*.java'&lt;/s15&gt;, &lt;s16&gt;'**/*.xml'&lt;/s16&gt;])
 tree = fileTree(dir: &lt;s17&gt;'src'&lt;/s17&gt;, include: &lt;s18&gt;'**/*.java'&lt;/s18&gt;, exclude: &lt;s19&gt;'**/*test*/**'&lt;/s19&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include &lt;s1&gt;"**/*.cpp"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T043406Z" creationid="huanghaohang" creationdate="20190609T043406Z">
+        <seg>include &lt;s1&gt;"**/*.cpp"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -43312,6 +43352,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>source {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T043358Z" creationid="huanghaohang" creationdate="20190609T043358Z">
+        <seg>source {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>source { file(&lt;s6&gt;'src/test/'&lt;/s6&gt;).listFiles() }
 }</seg>
       </tuv>
@@ -43466,6 +43514,14 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sources {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T043356Z" creationid="huanghaohang" creationdate="20190609T043356Z">
+        <seg>sources {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>springVersion = &lt;s1&gt;"3.1.0.RELEASE"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133530Z" creationid="huanghaohang" creationdate="20170913T133530Z">
@@ -43606,6 +43662,14 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T011146Z" creationid="huanghaohang" creationdate="20180407T011146Z">
         <seg>src/test/scala</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDir &lt;s0&gt;"src/source"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T043359Z" creationid="huanghaohang" creationdate="20190609T043359Z">
+        <seg>srcDir &lt;s0&gt;"src/source"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
