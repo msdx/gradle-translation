@@ -27583,6 +27583,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The various native binary plugins add support for building native software components, such as executables or shared libraries, from C++, C and other languages. While many excellent build tools exist for this space of software development, Gradle offers developers it's trademark power and flexibility together with the dependency management practices more traditionally found in the JVM development space.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T012203Z" creationid="huanghaohang" creationdate="20190609T012203Z">
+        <seg>各种本机二进制插件添加了对从 C++，C 和其他语言构建本机软件组件（如可执行文件或共享库）的支持。 尽管在软件开发方面已经有许多出色的构建工具，但是 Gradle 向开发者提供了它的强大特征和灵活性，以及在 JVM 开发上更传统的依赖管理实践。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The version of a library must be easy to recognize in the filename. While the version of a jar is usually in the Manifest file, it isn't readily apparent when you are inspecting a project. If someone asks you to look at a collection of 20 jar files, which would you prefer? A collection of files with names like &lt;c0&gt;commons-beanutils-1.3.jar&lt;/c0&gt; or a collection of files with names like &lt;c1&gt;spring.jar&lt;/c1&gt;? If dependencies have file names with version numbers it is much easier to quickly identify the versions of your dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190210T145956Z" creationid="95" creationdate="20190210T145510Z">
