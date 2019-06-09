@@ -1218,6 +1218,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.plugins.signing.SigningExtension.html#org.gradle.plugins.signing.SigningExtension:signPom(org.gradle.api.artifacts.maven.MavenDeployment, groovy.lang.Closure)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T010141Z" creationid="huanghaohang" creationdate="20190609T010141Z">
+        <seg>../dsl/org.gradle.plugins.signing.SigningExtension.html#org.gradle.plugins.signing.SigningExtension:signPom(org.gradle.api.artifacts.maven.MavenDeployment, groovy.lang.Closure)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.testing.jacoco.plugins.JacocoPluginExtension.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T134815Z" creationid="huanghaohang" creationdate="20180712T134815Z">
@@ -7414,6 +7422,14 @@ someroot/[artifact]-[revision].[ext]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T005625Z" creationid="huanghaohang" creationdate="20190609T005625Z">
         <seg>53.4. 发布签名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>53.5. Signing POM files</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T010057Z" creationid="huanghaohang" creationdate="20190609T010057Z">
+        <seg>53.5. 签名 POM 文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -29659,6 +29675,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T094839Z" creationid="huanghaohang" creationdate="20190607T094839Z">
         <seg>当部署一个工件到 Maven 仓库时，Gradle 会自动为它生成一个 POM。下表展示了用于 POM 的 &lt;c0&gt;groupId&lt;/c0&gt;、&lt;c1&gt;artifactId&lt;/c1&gt;、 &lt;c2&gt;version&lt;/c2&gt; 和 &lt;c3&gt;package&lt;/c3&gt; 元素的默认值。&lt;c4&gt;dependency&lt;/c4&gt; 元素则是根据项目的依赖声明来创建的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When deploying signatures for your artifacts to a Maven repository, you will also want to sign the published POM file. The signing plugin adds a &lt;c0&gt;signing.signPom()&lt;/c0&gt; (see: &lt;a1&gt;&lt;c2&gt;SigningExtension.signPom()&lt;/c2&gt;&lt;/a1&gt;) method that can be used in the &lt;c3&gt;beforeDeployment()&lt;/c3&gt; block in your upload task configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T010402Z" creationid="huanghaohang" creationdate="20190609T010402Z">
+        <seg>在将工件签名部署签名到 Maven 仓库时，你还希望对发布的 POM 文件也进行签名。签名插件添加了一个 &lt;c0&gt;signing.signPom()&lt;/c0&gt; （请参见： &lt;a1&gt; &lt;c2&gt;SigningExtension.signPom()&lt;/c2&gt;&lt;/a1&gt;）方法，这个方法可以在你的上传任务配置的 &lt;c3&gt;beforeDeployment()&lt;/c3&gt; 块中使用。</seg>
       </tuv>
     </tu>
     <tu>
