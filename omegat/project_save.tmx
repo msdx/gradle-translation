@@ -18235,6 +18235,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For each executable binary produced, the &lt;c0&gt;cpp&lt;/c0&gt; plugin provides an &lt;c1&gt;install${binary.name}&lt;/c1&gt; task, which creates a development install of the executable, along with the shared libraries it requires. This allows you to run the executable without needing to install the shared libraries in their final locations.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T033416Z" creationid="huanghaohang" creationdate="20190609T033416Z">
+        <seg>对于生成的每个可执行二进制文件，&lt;c0&gt;cpp&lt;/c0&gt; 插件提供了 &lt;c1&gt;install${binary.name}&lt;/c1&gt; 任务，该任务将创建可执行文件的开发安装，以及它所需要的共享库。 它允许你在不需要在其最终位置安装共享库的情况下运行可执行文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For each extra distribution set you add to the project, the distribution plugin adds the following tasks:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190127T134001Z" creationid="huanghaohang" creationdate="20190127T134001Z">
