@@ -17323,6 +17323,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.2. Defining executable components</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030734Z" creationid="huanghaohang" creationdate="20190609T030734Z">
+        <seg>示例 54.2. 定义可执行组件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -19991,6 +19999,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T135120Z" creationid="huanghaohang" creationdate="20180108T134044Z">
         <seg>一般来说，构建工具的敏捷行为总是方便的。如果你尝试在你的本地构建中使用守护进程的话，那么你将很难再回到 Gradle 的常规使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In many cases, more than one native binary can be produced for a component. These binaries may vary based on the tool chain used to build, the compiler/linker flags supplied, the dependencies provided, or additional source files provided. Each native binary produced for a component is referred to as &lt;c0&gt;variant&lt;/c0&gt;. Binary variants are discussed in detail below.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T031233Z" creationid="huanghaohang" creationdate="20190609T030806Z">
+        <seg>在许多情况下，一个组件可以生成多个本机二进制文件。基于用于构建的工具链，提供的编译器或链接器标志，提供的依赖或其他源文件，这些二进制文件可能会有变化。一个组件生成的每个本机二进制都称为 &lt;c0&gt;variant&lt;/c0&gt;。二进制文件变体下面再进行详细讨论。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35715,6 +35731,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>executables {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030737Z" creationid="huanghaohang" creationdate="20190609T030737Z">
+        <seg>executables {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>executionData run</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093758Z" creationid="huanghaohang" creationdate="20180715T093758Z">
@@ -38915,6 +38939,16 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133544Z" creationid="huanghaohang" creationdate="20170913T133544Z">
         <seg>main {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>main {}
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030739Z" creationid="huanghaohang" creationdate="20190609T030739Z">
+        <seg>main {}
+}</seg>
       </tuv>
     </tu>
     <tu>
