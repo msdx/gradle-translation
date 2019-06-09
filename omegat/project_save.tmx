@@ -1050,6 +1050,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.language.cpp.CppSourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T042716Z" creationid="huanghaohang" creationdate="20190609T042716Z">
+        <seg>../dsl/org.gradle.language.cpp.CppSourceSet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.NativeBinary.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T024528Z" creationid="huanghaohang" creationdate="20190609T024528Z">
@@ -7562,6 +7570,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.5.1. C++ sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T042559Z" creationid="huanghaohang" creationdate="20190609T042559Z">
+        <seg>54.4.1. C++ 源代码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.5. Language support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T033438Z" creationid="huanghaohang" creationdate="20190609T033438Z">
@@ -13197,6 +13213,22 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C++ language support is provided by means of the &lt;c0&gt;'cpp'&lt;/c0&gt; plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T042649Z" creationid="huanghaohang" creationdate="20190609T042649Z">
+        <seg>C++ 语言支持通过 &lt;c0&gt;'cpp'&lt;/c0&gt; 插件提供。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C++ sources to be included in a native binary are provided via a &lt;a0&gt;&lt;c1&gt;CppSourceSet&lt;/c1&gt;&lt;/a0&gt;, which defines a set of C++ source files and optionally a set of exported header files (for a library). By default, for any named component the &lt;a2&gt;&lt;c3&gt;CppSourceSet&lt;/c3&gt;&lt;/a2&gt; contains &lt;c4&gt;.cpp&lt;/c4&gt; source files in &lt;c5&gt;src/${name}/cpp&lt;/c5&gt;, and header files in &lt;c6&gt;src/${name}/headers&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T042908Z" creationid="huanghaohang" creationdate="20190609T042908Z">
+        <seg>把 C++ 源码包含到原生二进制文件中，是通过一个 &lt;a0&gt;&lt;c1&gt;CppSourceSet&lt;/c1&gt;&lt;/a0&gt;来实现的，它定义了一个C++源文件集以及（可选的）一个可导出的头文件（用于library）集默认情况下，对于任何命名的组件，&lt;a2&gt;&lt;c3&gt;CppSourceSet&lt;/c3&gt;&lt;/a2&gt;包含了在&lt;c5&gt;src/${name}/cpp&lt;/c5&gt;中的&lt;c4&gt;.cpp&lt;/c4&gt;源文件，和在&lt;c6&gt;src/${name}/headers&lt;/c6&gt;中的头文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Caching</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T034115Z" creationid="huanghaohang" creationdate="20180131T034115Z">
@@ -17415,6 +17447,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030734Z" creationid="huanghaohang" creationdate="20190609T030734Z">
         <seg>示例 54.2. 定义可执行组件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.3. The 'cpp' plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T042713Z" creationid="huanghaohang" creationdate="20190609T042713Z">
+        <seg>示例 54.3. 'cpp' 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -32269,6 +32309,14 @@ sonar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T141758Z" creationid="huanghaohang" creationdate="20180516T141758Z">
         <seg>apply plugin: &lt;s0&gt;'codenarc'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'cpp'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T042715Z" creationid="huanghaohang" creationdate="20190609T042715Z">
+        <seg>apply plugin: &lt;s0&gt;'cpp'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
