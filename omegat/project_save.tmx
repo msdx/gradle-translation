@@ -1050,6 +1050,30 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.NativeBinary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T024528Z" creationid="huanghaohang" creationdate="20190609T024528Z">
+        <seg>../dsl/org.gradle.nativebinaries.NativeBinary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.NativeExecutable.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T024527Z" creationid="huanghaohang" creationdate="20190609T024527Z">
+        <seg>../dsl/org.gradle.nativebinaries.NativeExecutable.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.NativeLibrary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T024528Z" creationid="huanghaohang" creationdate="20190609T024528Z">
+        <seg>../dsl/org.gradle.nativebinaries.NativeLibrary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.plugins.ear.Ear.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125232Z" creationid="huanghaohang" creationdate="20171126T125232Z">
@@ -1718,6 +1742,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T095504Z" creationid="haohang" creationdate="20180326T095504Z">
         <seg>../javadoc/org/gradle/external/javadoc/StandardJavadocDocletOptions.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/language/base/FunctionalSourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T024530Z" creationid="huanghaohang" creationdate="20190609T024530Z">
+        <seg>../javadoc/org/gradle/language/base/FunctionalSourceSet.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -7482,6 +7514,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.3. Component model</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T024526Z" creationid="huanghaohang" creationdate="20190609T024526Z">
+        <seg>54.3. 组件模型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -11377,6 +11417,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T035710Z" creationid="huanghaohang" creationdate="20190605T034907Z">
         <seg>一个模块的状态及状态模式，会在解析 &lt;c0&gt;latest&lt;/c0&gt; 版本选择器时考虑到。具体而言，&lt;c1&gt;latest.someStatus&lt;/c1&gt; 会解析成有着 &lt;c2&gt;someStatus&lt;/c2&gt; 或更成熟状态的最高模块版本。例如，如果其他地方存在默认的状态模式，那么 &lt;c3&gt;latest.integration&lt;/c3&gt; 将选择最高的模块版本，而不考虑其状态（因为 &lt;c4&gt;integration&lt;/c4&gt; 是成熟度最低的状态），而 &lt;c5&gt;latest.release&lt;/c5&gt; 将选择 &lt;c6&gt;release&lt;/c6&gt; 状态的最高模块版本。以下是在代码中的表现：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A native binary project defines a set of &lt;a0&gt;&lt;c1&gt;NativeExecutable&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;NativeLibrary&lt;/c3&gt;&lt;/a2&gt; components, each of which Gradle maps to a number of &lt;a4&gt;&lt;c5&gt;NativeBinary&lt;/c5&gt;&lt;/a4&gt; outputs. For each &lt;c6&gt;executable&lt;/c6&gt; or &lt;c7&gt;library&lt;/c7&gt; defined, Gradle adds a &lt;a8&gt;&lt;c9&gt;FunctionalSourceSet&lt;/c9&gt;&lt;/a8&gt; with the same name. Each of these functional source sets will contain a language-specific source set for each of the languages supported by the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030333Z" creationid="huanghaohang" creationdate="20190609T030333Z">
+        <seg>本机二进制项目定义了一组 &lt;a0&gt;&lt;c1&gt;NativeExecutable&lt;/c1&gt;&lt;/a0&gt; 和 &lt;a2&gt;&lt;c3&gt;NativeLibrary&lt;/c3&gt;&lt;/a2&gt; 组件，每个组件 Gradle 都映射到大量的 &lt;a4&gt;&lt;c5&gt;NativeBinary&lt;/c5&gt;&lt;/a4&gt; 输出。对于定义的每个 &lt;c6&gt;executable&lt;/c6&gt; 或 &lt;c7&gt;library&lt;/c7&gt; ，Gradle 会添加有相同名称的 &lt;a8&gt;&lt;c9&gt;FunctionalSourceSet&lt;/c9&gt;&lt;/a8&gt; 。每一个功能源码集都将针对项目所支持的每一种语言包含特定语言的源码集。</seg>
       </tuv>
     </tu>
     <tu>
