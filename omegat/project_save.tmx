@@ -12629,6 +12629,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assembly</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T021843Z" creationid="huanghaohang" creationdate="20190609T021843Z">
+        <seg>Assembly</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assuming a local Sonar server with out-of-the-box settings is up and running, no further mandatory configuration is required. Execute &lt;s0&gt;&lt;c1&gt;gradle sonarRunner&lt;/c1&gt;&lt;/s0&gt; and wait until the build has completed, then open the web page indicated at the bottom of the Sonar Runner output. You should now be able to browse the analysis results.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T020003Z" creationid="huanghaohang" creationdate="20181202T015510Z">
@@ -13001,6 +13009,22 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T031931Z" creationid="huanghaohang" creationdate="20170922T030758Z">
         <seg>通过使用“必须在之后运行”的排序规则，你可以指定&lt;c0&gt;taskB&lt;/c0&gt;必须总是运行在&lt;c1&gt;taskA&lt;/c1&gt;之后，无论&lt;c2&gt;taskA&lt;/c2&gt;和&lt;c3&gt;taskB&lt;/c3&gt;这两者在什么时候调度执行。这被表示为&lt;c4&gt;taskB.mustRunAfter(taskA)&lt;/c4&gt;。 “应该运行”的排序规则与其类似，但没有那么严格，因为它在两种情况下会被忽略：首先，如果使用该规则引入了排序循环；其次，当使用并行执行时，一个任务除了应该在之后运行这个条件之外，它的所有依赖都已经满足，那么这个任务就会运行，不管它的“应该在之后运行”的依赖关系是否已经运行或。当对任务的排序倾向于更快的反馈时，你应该使用“应该在之后运行”的规则，它对于排序很有帮助但不会严格要求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T021815Z" creationid="huanghaohang" creationdate="20190609T021815Z">
+        <seg>C</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C++</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T021820Z" creationid="huanghaohang" creationdate="20190609T021820Z">
+        <seg>C++</seg>
       </tuv>
     </tu>
     <tu>
@@ -21251,6 +21275,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Objective-C</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T021822Z" creationid="huanghaohang" creationdate="20190609T021822Z">
+        <seg>Objective-C</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Objective-C++</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T021823Z" creationid="huanghaohang" creationdate="20190609T021823Z">
+        <seg>Objective-C++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Obtaining information about your build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233945Z" creationid="huanghaohang" creationdate="20171206T233945Z">
@@ -26963,6 +27003,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180124T145004Z" creationid="huanghaohang" creationdate="20180124T145004Z">
         <seg>下面的属性可以用于配置 Gradle 构建环境：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The following source languages are currently supported:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T021814Z" creationid="huanghaohang" creationdate="20190609T021814Z">
+        <seg>当前支持以下源语言：</seg>
       </tuv>
     </tu>
     <tu>
