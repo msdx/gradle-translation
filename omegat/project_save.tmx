@@ -7538,6 +7538,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.4. Tasks</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T031239Z" creationid="huanghaohang" creationdate="20190609T031239Z">
+        <seg>54.4. 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -18127,6 +18135,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180120T025344Z" creationid="huanghaohang" creationdate="20180120T025344Z">
         <seg>对于命令行的用法，可以看看专题《&lt;a0&gt;附录 D，&lt;i1&gt;Gradle 命令行&lt;/i1&gt;&lt;/a0&gt;》。如果你已经厌倦了一次又一次地使用相同的命令行选项，可以看《&lt;a2&gt;第 20.1 节，“通过 gradle.properties 配置构建环境”&lt;/a2&gt;》。这一章节包含了有关如何以一种"持久化"的方式配置守护进程某些行为（包括默认情况下开启守护进程）的信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For each &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; that can be produced by a build, a single &lt;e2&gt;lifecycle task&lt;/e2&gt; is constructed that can be used to create that binary, together with a set of other tasks that do the actual work of compiling, linking or assembling the binary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T031949Z" creationid="huanghaohang" creationdate="20190609T031949Z">
+        <seg>对于由构建产生的每一个 &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt;，我们构造了一个&lt;e2&gt;生命周期任务&lt;/e2&gt;，以及一组其他任务用于创建该二进制文件。这组任务执行编译，链接或组装二进制文件的实际工作。</seg>
       </tuv>
     </tu>
     <tu>
