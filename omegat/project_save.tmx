@@ -1130,6 +1130,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.ToolChain.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053302Z" creationid="huanghaohang" creationdate="20190609T053302Z">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.ToolChain.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.plugins.ear.Ear.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125232Z" creationid="huanghaohang" creationdate="20171126T125232Z">
@@ -9047,6 +9055,14 @@ tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Define a preprocessor macro for every binary&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053254Z" creationid="huanghaohang" creationdate="20190609T053254Z">
+        <seg>&lt;s0&gt;// Define a preprocessor macro for every binary&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
       </tuv>
@@ -9743,6 +9759,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Define toolchain-specific compiler and linker options&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053255Z" creationid="huanghaohang" creationdate="20190609T053255Z">
+        <seg>&lt;s2&gt;// Define toolchain-specific compiler and linker options&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;// Look for artifacts here if not found at the above location&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033845Z" creationid="huanghaohang" creationdate="20190603T033845Z">
@@ -9869,6 +9893,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025306Z" creationid="95" creationdate="20170729T025306Z">
         <seg>&lt;s3&gt;if&lt;/s3&gt; (taskGraph.hasTask(release)) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s3&gt;if&lt;/s3&gt; (toolChain in Gcc) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053256Z" creationid="huanghaohang" creationdate="20190609T053256Z">
+        <seg>&lt;s3&gt;if&lt;/s3&gt; (toolChain in Gcc) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -10057,6 +10089,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075029Z" creationid="huanghaohang" creationdate="20171015T075029Z">
         <seg>&lt;s8&gt;// Determine the destination directory later&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s8&gt;if&lt;/s8&gt; (toolChain in VisualCpp) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053258Z" creationid="huanghaohang" creationdate="20190609T053258Z">
+        <seg>&lt;s8&gt;if&lt;/s8&gt; (toolChain in VisualCpp) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -17551,6 +17591,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030611Z" creationid="huanghaohang" creationdate="20190609T030611Z">
         <seg>示例 54.1. 定义库组件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.10. Settings that apply to all binaries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053252Z" creationid="huanghaohang" creationdate="20190609T053252Z">
+        <seg>示例 54.10. 应用于所有二进制文件的设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -33447,6 +33495,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>binaries.all {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053253Z" creationid="huanghaohang" creationdate="20190609T053253Z">
+        <seg>binaries.all {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035013Z" creationid="haohang" creationdate="20180313T035013Z">
@@ -34655,6 +34711,30 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T043357Z" creationid="huanghaohang" creationdate="20190609T043357Z">
         <seg>cpp {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cppCompiler.args &lt;s4&gt;"-O2"&lt;/s4&gt;, &lt;s5&gt;"-fno-access-control"&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053257Z" creationid="huanghaohang" creationdate="20190609T053257Z">
+        <seg>cppCompiler.args &lt;s4&gt;"-O2"&lt;/s4&gt;, &lt;s5&gt;"-fno-access-control"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cppCompiler.args &lt;s9&gt;"/Zi"&lt;/s9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053259Z" creationid="huanghaohang" creationdate="20190609T053259Z">
+        <seg>cppCompiler.args &lt;s9&gt;"/Zi"&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cppCompiler.define &lt;s1&gt;"NDEBUG"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053255Z" creationid="huanghaohang" creationdate="20190609T053255Z">
+        <seg>cppCompiler.define &lt;s1&gt;"NDEBUG"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -39333,6 +39413,22 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T061319Z" creationid="huanghaohang" creationdate="20190607T061319Z">
         <seg>licenses {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>linker.args &lt;s10&gt;"/DEBUG"&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053259Z" creationid="huanghaohang" creationdate="20190609T053259Z">
+        <seg>linker.args &lt;s10&gt;"/DEBUG"&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>linker.args &lt;s6&gt;"-Xlinker"&lt;/s6&gt;, &lt;s7&gt;"-S"&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053257Z" creationid="huanghaohang" creationdate="20190609T053257Z">
+        <seg>linker.args &lt;s6&gt;"-Xlinker"&lt;/s6&gt;, &lt;s7&gt;"-S"&lt;/s7&gt;</seg>
       </tuv>
     </tu>
     <tu>
