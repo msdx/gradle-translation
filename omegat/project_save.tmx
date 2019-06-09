@@ -1074,6 +1074,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.SharedLibraryBinary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030334Z" creationid="huanghaohang" creationdate="20190609T030334Z">
+        <seg>../dsl/org.gradle.nativebinaries.SharedLibraryBinary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.StaticLibraryBinary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030335Z" creationid="huanghaohang" creationdate="20190609T030335Z">
+        <seg>../dsl/org.gradle.nativebinaries.StaticLibraryBinary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.plugins.ear.Ear.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125232Z" creationid="huanghaohang" creationdate="20171126T125232Z">
@@ -17299,6 +17315,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.1. Defining a library component</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030611Z" creationid="huanghaohang" creationdate="20190609T030611Z">
+        <seg>示例 54.1. 定义库组件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -28687,6 +28711,22 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To build an executable binary, an &lt;a0&gt;&lt;c1&gt;NativeExecutable&lt;/c1&gt;&lt;/a0&gt; component is added to the &lt;c2&gt;executables&lt;/c2&gt; container and associated with a set of sources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030729Z" creationid="huanghaohang" creationdate="20190609T030729Z">
+        <seg>要构建可执行的二进制文件，请将 &lt;a0&gt;&lt;c1&gt;Executable&lt;/c1&gt;&lt;/a0&gt; 组件添加到 &lt;c2&gt;executables&lt;/c2&gt; 容器中，并关联到一组源码上。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To build either a static or shared native library binary, a &lt;a0&gt;&lt;c1&gt;NativeLibrary&lt;/c1&gt;&lt;/a0&gt; component is added to the &lt;c2&gt;libraries&lt;/c2&gt; container. Each &lt;c3&gt;library&lt;/c3&gt; component can produce at least one &lt;a4&gt;&lt;c5&gt;SharedLibraryBinary&lt;/c5&gt;&lt;/a4&gt; and at least one &lt;a6&gt;&lt;c7&gt;StaticLibraryBinary&lt;/c7&gt;&lt;/a6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030559Z" creationid="huanghaohang" creationdate="20190609T030559Z">
+        <seg>要构建静态或共享本机库二进制文件，请将 &lt;a0&gt;&lt;c1&gt;NativeLibrary&lt;/c1&gt;&lt;/a0&gt; 组件添加到 &lt;c2&gt;libraries&lt;/c2&gt; 容器中。每个 &lt;c3&gt;library&lt;/c3&gt; 组件都可以生成至少一个 &lt;a4&gt;&lt;c5&gt;SharedLibraryBinary&lt;/c5&gt;&lt;/a4&gt; 和至少一个 &lt;a6&gt;&lt;c7&gt;StaticLibraryBinary&lt;/c7&gt;&lt;/a6&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To change the log level for standard out or error during task execution, tasks also provide a &lt;a0&gt;&lt;c1&gt;LoggingManager&lt;/c1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025401Z" creationid="huanghaohang" creationdate="20180107T025401Z">
@@ -36689,6 +36729,16 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>hello {}
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030615Z" creationid="huanghaohang" creationdate="20190609T030615Z">
+        <seg>hello {}
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>html.destination &lt;s0&gt;"${buildDir}/jacocoHtml"&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093011Z" creationid="huanghaohang" creationdate="20180715T093011Z">
@@ -38683,6 +38733,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142956Z" creationid="huanghaohang" creationdate="20180416T142956Z">
         <seg>libDirName &lt;s11&gt;'APP-INF/lib'&lt;/s11&gt;  &lt;s12&gt;// put dependency libraries into APP-INF/lib inside the generated EAR;&lt;/s12&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>libraries {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030612Z" creationid="huanghaohang" creationdate="20190609T030612Z">
+        <seg>libraries {</seg>
       </tuv>
     </tu>
     <tu>
