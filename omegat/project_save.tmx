@@ -1050,6 +1050,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.language.c.CSourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051335Z" creationid="huanghaohang" creationdate="20190609T051335Z">
+        <seg>../dsl/org.gradle.language.c.CSourceSet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.language.cpp.CppSourceSet.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T042716Z" creationid="huanghaohang" creationdate="20190609T042716Z">
@@ -7578,6 +7586,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.5.2. C sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051255Z" creationid="huanghaohang" creationdate="20190609T051255Z">
+        <seg>54.5.2. C 源码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.5. Language support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T033438Z" creationid="huanghaohang" creationdate="20190609T033438Z">
@@ -13205,6 +13221,22 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>C language support is provided by means of the &lt;c0&gt;'c'&lt;/c0&gt; plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051314Z" creationid="huanghaohang" creationdate="20190609T051314Z">
+        <seg>C 语言支持是通过 &lt;c0&gt;'c'&lt;/c0&gt; 插件来提供的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>C sources to be included in a native binary are provided via a &lt;a0&gt;&lt;c1&gt;CSourceSet&lt;/c1&gt;&lt;/a0&gt;, which defines a set of C source files and optionally a set of exported header files (for a library). By default, for any named component the &lt;a2&gt;&lt;c3&gt;CSourceSet&lt;/c3&gt;&lt;/a2&gt; contains &lt;c4&gt;.c&lt;/c4&gt; source files in &lt;c5&gt;src/${name}/c&lt;/c5&gt;, and header files in &lt;c6&gt;src/${name}/headers&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051531Z" creationid="huanghaohang" creationdate="20190609T051531Z">
+        <seg>把 C 源码包含到本机二进制文件中，是通过 &lt;a0&gt;&lt;c1&gt;CSourceSet&lt;/c1&gt;&lt;/a0&gt; 来实现的，它定义了一组 C 源文件以及可选的一组导出的头文件（用于库）。默认情况下，对于任何指定的组件，&lt;a2&gt;&lt;c3&gt;CSourceSet&lt;/c3&gt;&lt;/a2&gt; 包含了在 &lt;c5&gt;src/${name}/c&lt;/c5&gt; 中的 &lt;c4&gt;.c&lt;/c4&gt; 源文件，以及在 &lt;c6&gt;src/${name}/headers&lt;/c6&gt; 中的头文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>C++</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T021820Z" creationid="huanghaohang" creationdate="20190609T021820Z">
@@ -17463,6 +17495,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T043353Z" creationid="huanghaohang" creationdate="20190609T043353Z">
         <seg>示例 54.4. C++ 源码集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.5. The 'c' plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051331Z" creationid="huanghaohang" creationdate="20190609T051331Z">
+        <seg>示例 54.5. 'C' 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -32317,6 +32357,14 @@ sonar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T233137Z" creationid="95" creationdate="20190201T233137Z">
         <seg>apply plugin: &lt;s0&gt;'build-dashboard'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'c'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051333Z" creationid="huanghaohang" creationdate="20190609T051333Z">
+        <seg>apply plugin: &lt;s0&gt;'c'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
