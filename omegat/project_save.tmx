@@ -12879,6 +12879,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>As with other source types, you can configure the location of the windows resources that should in included in the binary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013411Z" creationid="huanghaohang" creationdate="20190610T013411Z">
+        <seg>与其他源码类型一样，你可以配置应该包含在二进制文件中的 windows 资源的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>As you can see, you can either use a reference to an existing repository or create a new repository. As described in &lt;a0&gt;Section 50.6.9, “More about Ivy resolvers”&lt;/a0&gt;, you can use all the Ivy resolvers suitable for the purpose of uploading.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T084807Z" creationid="huanghaohang" creationdate="20190606T084807Z">
@@ -17697,6 +17705,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012935Z" creationid="huanghaohang" creationdate="20190610T012935Z">
         <seg>示例 54.14. 'windows-resources' 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.15. Configuring the location of Windows resource sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013420Z" creationid="huanghaohang" creationdate="20190610T013420Z">
+        <seg>示例 54.15. 配置 Windows 资源源文件的位置</seg>
       </tuv>
     </tu>
     <tu>
@@ -31105,6 +31121,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You are able to construct a resource-only library by providing Windows Resource sources with no other language sources, and configure the linker as appropriate:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013738Z" creationid="huanghaohang" creationdate="20190610T013430Z">
+        <seg>你能够通过提供不包含其他语言源码的 Windows Resource 源文件，来构造纯资源库，并根据需要配置链接器︰  </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can access Ant types in the same way that you access tasks, using the name of the type as the method name. The method call returns the Ant data type, which you can then use directly in your build script. In the following example, we create an Ant &lt;c0&gt;path&lt;/c0&gt; object, then iterate over the contents of it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T091117Z" creationid="huanghaohang" creationdate="20171219T090833Z">
@@ -33709,6 +33733,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090212Z" creationid="huanghaohang" creationdate="20180211T090212Z">
         <seg>build-init</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build-resource-only-dll.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013423Z" creationid="huanghaohang" creationdate="20190610T013423Z">
+        <seg>build-resource-only-dll.gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -37553,6 +37585,14 @@ systemProp.system=systemValue</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030615Z" creationid="huanghaohang" creationdate="20190609T030615Z">
         <seg>hello {}
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>helloRes {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013424Z" creationid="huanghaohang" creationdate="20190610T013424Z">
+        <seg>helloRes {</seg>
       </tuv>
     </tu>
     <tu>
@@ -42574,6 +42614,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>rc {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013425Z" creationid="huanghaohang" creationdate="20190610T013425Z">
+        <seg>rc {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>releases</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093650Z" creationid="huanghaohang" creationdate="20190607T093650Z">
@@ -44280,6 +44328,22 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T101221Z" creationid="haohang" creationdate="20180326T101221Z">
         <seg>srcDirs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDirs &lt;s0&gt;"src/hello/rc"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013426Z" creationid="huanghaohang" creationdate="20190610T013426Z">
+        <seg>srcDirs &lt;s0&gt;"src/hello/rc"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>srcDirs &lt;s1&gt;"src/hello/headers"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013428Z" creationid="huanghaohang" creationdate="20190610T013428Z">
+        <seg>srcDirs &lt;s1&gt;"src/hello/headers"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
