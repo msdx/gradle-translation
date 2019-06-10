@@ -1138,6 +1138,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.language.PreprocessingTool.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013914Z" creationid="huanghaohang" creationdate="20190610T013914Z">
+        <seg>../dsl/org.gradle.nativebinaries.language.PreprocessingTool.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.toolchain.ToolChain.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053302Z" creationid="huanghaohang" creationdate="20190609T053302Z">
@@ -17717,6 +17725,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.16. Building a resource-only dll</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013910Z" creationid="huanghaohang" creationdate="20190610T013910Z">
+        <seg>示例 54.16. 构建纯资源 dll</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.2. Defining executable components</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030734Z" creationid="huanghaohang" creationdate="20190609T030734Z">
@@ -27701,6 +27717,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T093245Z" creationid="huanghaohang" creationdate="20190124T093245Z">
         <seg>分发插件目前是一个&lt;a0&gt;试验性&lt;/a0&gt;插件。注意，在以后的 Gradle 版本中，其 DSL 和其他配置可能会有变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The example above also demonstrates the mechanism of passing extra command-line arguments to the resource compiler. The &lt;c0&gt;rcCompiler&lt;/c0&gt; extension is of type &lt;a1&gt;&lt;c2&gt;PreprocessingTool&lt;/c2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022223Z" creationid="huanghaohang" creationdate="20190610T022223Z">
+        <seg>上面的示例还说明了将额外的命令行参数传给资源编译器的机制。&lt;c0&gt;rcCompiler&lt;/c0&gt; 扩展的类型为 &lt;a1&gt;&lt;c2&gt;PreprocessingTool&lt;/c2&gt;&lt;/a1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39667,6 +39691,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>linker.args &lt;s1&gt;"/noentry"&lt;/s1&gt;, &lt;s2&gt;"/machine:x86"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013911Z" creationid="huanghaohang" creationdate="20190610T013911Z">
+        <seg>linker.args &lt;s1&gt;"/noentry"&lt;/s1&gt;, &lt;s2&gt;"/machine:x86"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>linker.args &lt;s6&gt;"-Xlinker"&lt;/s6&gt;, &lt;s7&gt;"-S"&lt;/s7&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053257Z" creationid="huanghaohang" creationdate="20190609T053257Z">
@@ -42618,6 +42650,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013425Z" creationid="huanghaohang" creationdate="20190610T013425Z">
         <seg>rc {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rcCompiler.args &lt;s0&gt;"/v"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013910Z" creationid="huanghaohang" creationdate="20190610T013910Z">
+        <seg>rcCompiler.args &lt;s0&gt;"/v"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
