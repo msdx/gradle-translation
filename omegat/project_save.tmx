@@ -7722,6 +7722,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.9.1. Build types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035144Z" creationid="huanghaohang" creationdate="20190610T035144Z">
+        <seg>54.9.1. 构建类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.9. Native Binary Variants</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023058Z" creationid="huanghaohang" creationdate="20190610T023058Z">
@@ -11571,6 +11579,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T012634Z" creationid="huanghaohang" creationdate="20190123T012525Z">
         <seg>&lt;a0&gt;完全覆盖&lt;/a0&gt;会导致现有的所有内容被丢弃，从而丢失直接在 IDE 中进行的任何更改。&lt;c1&gt;beforeMerged&lt;/c1&gt; 钩子使得可以只覆盖现有内容的某些部分。以下示例为从 &lt;c2&gt;Module&lt;/c2&gt; 域对象中删除现有的所有依赖：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A &lt;c0&gt;build type&lt;/c0&gt; determines various non-functional aspects of a binary, such as whether debug information is included, or what optimisation level the binary is compiled with. Typical build types are 'debug' and 'release', but a project is free to define any set of build types.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035426Z" creationid="huanghaohang" creationdate="20190610T035426Z">
+        <seg>&lt;c0&gt;build type&lt;/c0&gt; 决定了二进制文件的各种非功能性方面，例如是否包含调试信息，或使用什么样的优化级别来编译。典型的构建类型为“debug”和“release”，但项目可以自由定义任意的一组构建类型。</seg>
       </tuv>
     </tu>
     <tu>
