@@ -23189,6 +23189,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Presently, a &lt;c0&gt;Platform&lt;/c0&gt; consists of a defined operating system and architecture. As we continue to develop the native binary support in Gradle, the concept of Platform will be extended to include things like C-runtime version, Windows SDK, ABI, etc. Sophisticated builds may use the extensibility of Gradle to apply additional attributes to each platform, which can then be queried to specify particular includes, preprocessor macros or compiler arguments for a native binary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T045608Z" creationid="huanghaohang" creationdate="20190610T045608Z">
+        <seg>目前，一个 &lt;c0&gt;Platform&lt;/c0&gt; 由一个定义的操作系统和架构组成。随着我们继续开发 Gradle 的本机二进制支持，将扩展平台的概念，包含诸如 C-runtime 版本，Windows SDK，ABI 等等之类的内容。复杂的构建可能会使用 Gradle 的可扩展性把附加属性应用于每个平台，然后可以查询这些属性，以便指定一个本机二进制文件的特定包含，预处理器宏或编译器参数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Production ANTLR grammar files.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T013742Z" creationid="huanghaohang" creationdate="20190123T013742Z">
