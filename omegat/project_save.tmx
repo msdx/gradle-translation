@@ -7698,6 +7698,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.8.1. Dependencies within the same project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022413Z" creationid="huanghaohang" creationdate="20190610T022413Z">
+        <seg>54.8.1. 同一项目的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.8. Library Dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022229Z" creationid="huanghaohang" creationdate="20190610T022229Z">
@@ -11795,6 +11803,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170721T140853Z" creationid="95" creationdate="20170721T140853Z">
         <seg>丰富的领域模型来描述您的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A set of sources may depend on header files provided by another binary component within the same project. A common example is a native executable component that uses functions provided by a separate native library component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022559Z" creationid="huanghaohang" creationdate="20190610T022559Z">
+        <seg>一组源可能依赖于同一项目中另一个二进制组件提供的头文件。一个常见的示例是，一个本机可执行组件使用了单独的本机库组件提供的功能。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24185,6 +24201,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T021853Z" creationid="95" creationdate="20170722T021853Z">
         <seg>构建结构化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Such a library dependency can be easily provided to source set associated with the &lt;c0&gt;executable&lt;/c0&gt; component:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022734Z" creationid="huanghaohang" creationdate="20190610T022734Z">
+        <seg>这样的库依赖可以很方便地提供给与 &lt;c0&gt;executable&lt;/c0&gt; 组件相关联的源集：</seg>
       </tuv>
     </tu>
     <tu>
