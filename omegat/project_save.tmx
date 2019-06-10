@@ -1090,6 +1090,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.language.rc.WindowsResourceSet.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012936Z" creationid="huanghaohang" creationdate="20190610T012936Z">
+        <seg>../dsl/org.gradle.language.rc.WindowsResourceSet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.NativeBinary.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T024528Z" creationid="huanghaohang" creationdate="20190609T024528Z">
@@ -17685,6 +17693,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.14. The 'windows-resources' plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012935Z" creationid="huanghaohang" creationdate="20190610T012935Z">
+        <seg>示例 54.14. 'windows-resources' 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.2. Defining executable components</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030734Z" creationid="huanghaohang" creationdate="20190609T030734Z">
@@ -30921,6 +30937,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Windows resources to be included in a native binary are provided via a &lt;a0&gt;&lt;c1&gt;WindowsResourceSet&lt;/c1&gt;&lt;/a0&gt;, which defines a set of Windows Resource source files. By default, for any named component the &lt;a2&gt;&lt;c3&gt;WindowsResourceSet&lt;/c3&gt;&lt;/a2&gt; contains &lt;c4&gt;.rc&lt;/c4&gt; source files under &lt;c5&gt;src/${name}/rc&lt;/c5&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013235Z" creationid="huanghaohang" creationdate="20190610T013235Z">
+        <seg>把 Windows 资源包含到本机二进制文件中，是通过 &lt;a0&gt;&lt;c1&gt;WindowsResourceSet&lt;/c1&gt;&lt;/a0&gt; 来实现的，其定义了一组 Windows Resource 源文件。默认情况下，对于任何已命名的组件，&lt;a2&gt;&lt;c3&gt;WindowsResourceSet&lt;/c3&gt;&lt;/a2&gt; 包含了在 &lt;c5&gt;src/${name}/rc&lt;/c5&gt; 中的 &lt;c4&gt;.rc&lt;/c4&gt; 源文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Windows, Mac OS X, Ubuntu</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092248Z" creationid="huanghaohang" creationdate="20190124T092248Z">
@@ -33093,6 +33117,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T004620Z" creationid="huanghaohang" creationdate="20170909T004620Z">
         <seg>apply plugin: &lt;s0&gt;'war'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'windows-resources'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012936Z" creationid="huanghaohang" creationdate="20190610T012936Z">
+        <seg>apply plugin: &lt;s0&gt;'windows-resources'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
