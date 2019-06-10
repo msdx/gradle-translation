@@ -9063,6 +9063,16 @@ tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// For any shared library binaries built with Visual C++, define the DLL_EXPORT macro&lt;/s0&gt;
+binaries.withType(SharedLibraryBinary) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012011Z" creationid="huanghaohang" creationdate="20190610T012011Z">
+        <seg>&lt;s0&gt;// For any shared library binaries built with Visual C++, define the DLL_EXPORT macro&lt;/s0&gt;
+binaries.withType(SharedLibraryBinary) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Iterable gets an each() method&lt;/s0&gt;
 configurations.runtime.each { File f -&gt; println f }</seg>
       </tuv>
@@ -9707,6 +9717,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011925Z" creationid="huanghaohang" creationdate="20170923T011925Z">
         <seg>&lt;s1&gt;if&lt;/s1&gt; (taskName.startsWith(&lt;s2&gt;"ping"&lt;/s2&gt;)) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s1&gt;if&lt;/s1&gt; (toolChain in VisualCpp) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012012Z" creationid="huanghaohang" creationdate="20190610T012012Z">
+        <seg>&lt;s1&gt;if&lt;/s1&gt; (toolChain in VisualCpp) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -15027,6 +15045,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each binary is associated with a particular &lt;a0&gt;&lt;c1&gt;ToolChain&lt;/c1&gt;&lt;/a0&gt;, allowing settings to be targeted based on this value.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T011943Z" creationid="huanghaohang" creationdate="20190610T011943Z">
+        <seg>每个二进制文件都与特定的 &lt;a0&gt;&lt;c1&gt;ToolChain&lt;/c1&gt;&lt;/a0&gt; 关联，允许设置基于此值进行针对性的配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Each binary to be produced is associated with a set of compiler and linker settings, which include command-line arguments as well as macro definitions. These settings can be applied to all binaries, an individual binary, or selectively to a group of binaries based on some criteria.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053217Z" creationid="huanghaohang" creationdate="20190609T053217Z">
@@ -17603,6 +17629,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.11. Settings that apply to all shared libraries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012010Z" creationid="huanghaohang" creationdate="20190610T012010Z">
+        <seg>示例 54.11. 应用于所有共享库的设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.2. Defining executable components</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030734Z" creationid="huanghaohang" creationdate="20190609T030734Z">
@@ -18735,6 +18769,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190205T070351Z" creationid="huanghaohang" creationdate="20190205T070351Z">
         <seg>还需要考虑的事情</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Furthermore, it is possible to specify settings that apply to all binaries produces for a particular &lt;c0&gt;executable&lt;/c0&gt; or &lt;c1&gt;library&lt;/c1&gt; component:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012112Z" creationid="huanghaohang" creationdate="20190610T012112Z">
+        <seg>此外，还可以指定设置应用于某个特定的 &lt;c0&gt;executable&lt;/c0&gt; 或 &lt;c1&gt;library&lt;/c1&gt; 组件产生的所有二进制文件：</seg>
       </tuv>
     </tu>
     <tu>
@@ -20759,6 +20801,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T134431Z" creationid="huanghaohang" creationdate="20190608T134431Z">
         <seg>想对配置中的工件进行签名是很常见的情况。例如，&lt;a0&gt;Java 插件&lt;/a0&gt;配置了要构建的 jar，并把这个 jar 文件添加到 &lt;c1&gt;archives&lt;/c1&gt; 配置。通过使用 Signing DSL，你可以指定这个配置的所有工件都应该被签名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is easy to apply settings to all binaries of a particular type:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012004Z" creationid="huanghaohang" creationdate="20190610T012004Z">
+        <seg>让设置应用于特定类型的所有二进制文件很容易：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33763,6 +33813,22 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051619Z" creationid="huanghaohang" creationdate="20190609T051619Z">
         <seg>c {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cCompiler.args &lt;s2&gt;"/Zi"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012012Z" creationid="huanghaohang" creationdate="20190610T012012Z">
+        <seg>cCompiler.args &lt;s2&gt;"/Zi"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cCompiler.define &lt;s3&gt;"DLL_EXPORT"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012013Z" creationid="huanghaohang" creationdate="20190610T012013Z">
+        <seg>cCompiler.define &lt;s3&gt;"DLL_EXPORT"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
