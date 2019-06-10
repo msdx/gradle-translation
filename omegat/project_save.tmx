@@ -9675,6 +9675,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (toolChain in Gcc &amp;&amp; buildType == buildTypes.debug) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035731Z" creationid="huanghaohang" creationdate="20190610T035731Z">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (toolChain in Gcc &amp;&amp; buildType == buildTypes.debug) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;if&lt;/s0&gt; (toolChain in VisualCpp) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012143Z" creationid="huanghaohang" creationdate="20190610T012143Z">
@@ -9953,6 +9961,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022642Z" creationid="huanghaohang" creationdate="20190605T022642Z">
         <seg>&lt;s2&gt;//some custom logic that resolves the default version into a specific version&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (toolChain in VisualCpp &amp;&amp; buildType == buildTypes.debug) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035732Z" creationid="huanghaohang" creationdate="20190610T035732Z">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (toolChain in VisualCpp &amp;&amp; buildType == buildTypes.debug) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -17869,6 +17885,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.20. Defining build types</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035433Z" creationid="huanghaohang" creationdate="20190610T035433Z">
+        <seg>示例 54.20. 定义构建类型</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.21. Configuring debug binaries</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035729Z" creationid="huanghaohang" creationdate="20190610T035729Z">
+        <seg>示例 54.21. 配置调试的二进制文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.3. The 'cpp' plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T042713Z" creationid="huanghaohang" creationdate="20190609T042713Z">
@@ -18673,6 +18705,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072131Z" creationid="95" creationdate="20170723T071728Z">
         <seg>对于分享Python或Ruby知识并且乐于学习它们的Java团队来说，上面的论据并不适用。Gradle设计非常适全于在JRuby或Jython中创建另一种构建脚本引擎。目前我们并没有最高的优先级，我们很高兴任何社区来努力创建其他的构建脚本引擎。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a build type, a Gradle project will typically define a set of compiler/linker flags per tool chain.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035711Z" creationid="huanghaohang" creationdate="20190610T035711Z">
+        <seg>对于一个构建类型，一个 Gradle 项目通常会为每个工具链定义一组编译器或链接器标志。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20289,6 +20329,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030832Z" creationid="huanghaohang" creationdate="20190603T030703Z">
         <seg>如果仓库需要认证，那么可以提供相关的凭证。以下示例展示了如何为 SFTP 仓库提供基于用户名/密码的认证：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no build types are defined in a project, then a single, default build type called 'debug' is added.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035551Z" creationid="huanghaohang" creationdate="20190610T035551Z">
+        <seg>如果在项目中未定义任何构建类型，那么会添加一个默认的“debug”构建类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34049,6 +34097,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>buildTypes {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035434Z" creationid="huanghaohang" creationdate="20190610T035434Z">
+        <seg>buildTypes {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>build_announcements_plugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144200Z" creationid="huanghaohang" creationdate="20180207T144200Z">
@@ -35133,6 +35189,22 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>cppCompiler.args &lt;s1&gt;"-g"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035732Z" creationid="huanghaohang" creationdate="20190610T035732Z">
+        <seg>cppCompiler.args &lt;s1&gt;"-g"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cppCompiler.args &lt;s3&gt;'/Zi'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035733Z" creationid="huanghaohang" creationdate="20190610T035733Z">
+        <seg>cppCompiler.args &lt;s3&gt;'/Zi'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>cppCompiler.args &lt;s4&gt;"-O2"&lt;/s4&gt;, &lt;s5&gt;"-fno-access-control"&lt;/s5&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053257Z" creationid="huanghaohang" creationdate="20190609T053257Z">
@@ -35169,6 +35241,14 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023024Z" creationid="huanghaohang" creationdate="20190610T023024Z">
         <seg>cppCompiler.define &lt;s4&gt;"DLL_EXPORT"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cppCompiler.define &lt;s4&gt;'DEBUG'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035734Z" creationid="huanghaohang" creationdate="20190610T035734Z">
+        <seg>cppCompiler.define &lt;s4&gt;'DEBUG'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -35275,6 +35355,14 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085305Z" creationid="huanghaohang" creationdate="20181012T085305Z">
         <seg>database.username</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>debug</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035435Z" creationid="huanghaohang" creationdate="20190610T035435Z">
+        <seg>debug</seg>
       </tuv>
     </tu>
     <tu>
@@ -39899,6 +39987,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>linker.args &lt;s5&gt;'/DEBUG'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035736Z" creationid="huanghaohang" creationdate="20190610T035736Z">
+        <seg>linker.args &lt;s5&gt;'/DEBUG'&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>linker.args &lt;s6&gt;"-Xlinker"&lt;/s6&gt;, &lt;s7&gt;"-S"&lt;/s7&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053257Z" creationid="huanghaohang" creationdate="20190609T053257Z">
@@ -40306,6 +40402,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T053848Z" creationid="huanghaohang" creationdate="20180407T053848Z">
         <seg>memoryMaximumSize = &lt;s0&gt;'1g'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>model {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035434Z" creationid="huanghaohang" creationdate="20190610T035434Z">
+        <seg>model {</seg>
       </tuv>
     </tu>
     <tu>
@@ -42898,6 +43002,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013910Z" creationid="huanghaohang" creationdate="20190610T013910Z">
         <seg>rcCompiler.args &lt;s0&gt;"/v"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>release</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035439Z" creationid="huanghaohang" creationdate="20190610T035439Z">
+        <seg>release</seg>
       </tuv>
     </tu>
     <tu>
