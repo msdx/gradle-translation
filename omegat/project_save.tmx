@@ -24413,6 +24413,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>So for GCC running on linux, the supported target platforms are 'linux/x86' and 'linux/x86_64'. For GCC running on Windows via Cygwin, platforms 'windows/x86' and 'windows/x86_64' are supported. (The Cygwin POSIX runtime is not yet modelled as part of the platform, but will be in the future.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T092343Z" creationid="huanghaohang" creationdate="20190610T092343Z">
+        <seg>所以对于在 linux 上运行的 GCC，支持的目标平台为“linux/x86”和“linux/x86_64”；而对于在 Windows 上通过 Cygwin 运行的 GCC，支持的平台则为“windows/x86”和“windows/x86_64”。（Cygwin POSIX 运行时还不能模块为平台的一部分，但以后会实现。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Software development plugins</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180517T035011Z" creationid="huanghaohang" creationdate="20180517T035011Z">
