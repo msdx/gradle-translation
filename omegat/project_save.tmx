@@ -7666,6 +7666,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.10.3. Cross-compiling with GCC</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093551Z" creationid="huanghaohang" creationdate="20190610T093538Z">
+        <seg>54.10.3. 使用 GCC 进行交叉编译</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.10. Tool chains</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084502Z" creationid="huanghaohang" creationdate="20190610T084502Z">
@@ -14383,6 +14391,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Collections.replaceAll(args, &lt;s1&gt;"CUSTOM"&lt;/s1&gt;, &lt;s2&gt;"-DFRENCH"&lt;/s2&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093528Z" creationid="huanghaohang" creationdate="20190610T093528Z">
+        <seg>Collections.replaceAll(args, &lt;s1&gt;"CUSTOM"&lt;/s1&gt;, &lt;s2&gt;"-DFRENCH"&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Command Line</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T234030Z" creationid="huanghaohang" creationdate="20171206T234030Z">
@@ -14945,6 +14961,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T142548Z" creationid="huanghaohang" creationdate="20190602T142548Z">
         <seg>为你的用例定制创建高级的依赖报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cross-compiling is possible with the &lt;a0&gt;&lt;c1&gt;Gcc&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Clang&lt;/c3&gt;&lt;/a2&gt; tool chains, by adding support for additional target platforms. This is done by specifying a target platform for a toolchain. For each targetted platform a custom configuration can be specified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093636Z" creationid="huanghaohang" creationdate="20190610T093636Z">
+        <seg>Cross-compiling is possible with the &lt;a0&gt;&lt;c1&gt;Gcc&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Clang&lt;/c3&gt;&lt;/a2&gt; tool chains, by adding support for additional target platforms. This is done by specifying a target platform for a toolchain. For each targetted platform a custom configuration can be specified.</seg>
       </tuv>
     </tu>
     <tu>
@@ -18145,6 +18169,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084909Z" creationid="huanghaohang" creationdate="20190610T084909Z">
         <seg>示例 54.26. 定义工具链</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.27. Reconfigure tool arguments</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093522Z" creationid="huanghaohang" creationdate="20190610T093522Z">
+        <seg>示例 54.27. 重新配置工具参数</seg>
       </tuv>
     </tu>
     <tu>
@@ -33935,6 +33967,30 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>args &lt;&lt; &lt;s0&gt;"-DFRENCH"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093523Z" creationid="huanghaohang" creationdate="20190610T093523Z">
+        <seg>args &lt;&lt; &lt;s0&gt;"-DFRENCH"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>args.remove &lt;s3&gt;"CUSTOM"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093531Z" creationid="huanghaohang" creationdate="20190610T093531Z">
+        <seg>args.remove &lt;s3&gt;"CUSTOM"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>args.remove &lt;s4&gt;"CUSTOM"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093533Z" creationid="huanghaohang" creationdate="20190610T093533Z">
+        <seg>args.remove &lt;s4&gt;"CUSTOM"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>artifact &lt;s2&gt;"3rd-party-artifacts/[organisation]/[module]/[revision]/[artifact]-[revision].[ext]"&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T024711Z" creationid="huanghaohang" creationdate="20190604T024711Z">
@@ -34649,6 +34705,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>cCompiler.withArguments { args -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093527Z" creationid="huanghaohang" creationdate="20190610T093527Z">
+        <seg>cCompiler.withArguments { args -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>check</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014613Z" creationid="95" creationdate="20170730T014613Z">
@@ -34741,6 +34805,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084917Z" creationid="huanghaohang" creationdate="20190610T084917Z">
         <seg>clang(Clang)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>clang(Clang){</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093524Z" creationid="huanghaohang" creationdate="20190610T093524Z">
+        <seg>clang(Clang){</seg>
       </tuv>
     </tu>
     <tu>
@@ -35673,6 +35745,14 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035734Z" creationid="huanghaohang" creationdate="20190610T035734Z">
         <seg>cppCompiler.define &lt;s4&gt;'DEBUG'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cppCompiler.withArguments { args -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093523Z" creationid="huanghaohang" creationdate="20190610T093523Z">
+        <seg>cppCompiler.withArguments { args -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -40479,6 +40559,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053257Z" creationid="huanghaohang" creationdate="20190609T053257Z">
         <seg>linker.args &lt;s6&gt;"-Xlinker"&lt;/s6&gt;, &lt;s7&gt;"-S"&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>linker.withArguments { args -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093529Z" creationid="huanghaohang" creationdate="20190610T093529Z">
+        <seg>linker.withArguments { args -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -45360,6 +45448,14 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T135032Z" creationid="95" creationdate="20190131T135032Z">
         <seg>startScripts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>staticLibArchiver.withArguments { args -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093532Z" creationid="huanghaohang" creationdate="20190610T093532Z">
+        <seg>staticLibArchiver.withArguments { args -&gt;</seg>
       </tuv>
     </tu>
     <tu>
