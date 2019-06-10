@@ -1138,6 +1138,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.VisualCpp.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012537Z" creationid="huanghaohang" creationdate="20190610T012537Z">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.VisualCpp.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.plugins.ear.Ear.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T125232Z" creationid="huanghaohang" creationdate="20171126T125232Z">
@@ -7666,6 +7674,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.7. Windows Resources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012536Z" creationid="huanghaohang" creationdate="20190610T012536Z">
+        <seg>54.7. Windows Resources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -9059,6 +9075,14 @@ tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053254Z" creationid="huanghaohang" creationdate="20190609T053254Z">
         <seg>&lt;s0&gt;// Define a preprocessor macro for every binary&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Define a preprocessor macro that only applies to shared libraries&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012520Z" creationid="huanghaohang" creationdate="20190610T012520Z">
+        <seg>&lt;s0&gt;// Define a preprocessor macro that only applies to shared libraries&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -17649,6 +17673,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012141Z" creationid="huanghaohang" creationdate="20190610T012141Z">
         <seg>示例 54.12. 应用于“main”可执行组件所产生的所有二进制文件的设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.13. Settings that apply only to shared libraries produced for the 'main' library component</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012518Z" creationid="huanghaohang" creationdate="20190610T012518Z">
+        <seg>示例 54.13. 仅应用于“main” library 组件所产生的共享库的设置</seg>
       </tuv>
     </tu>
     <tu>
@@ -30721,6 +30753,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When using the &lt;a0&gt;&lt;c1&gt;VisualCpp&lt;/c1&gt;&lt;/a0&gt; tool chain, Gradle is able to compile Window Resource (&lt;c2&gt;rc&lt;/c2&gt;) files and link them into a native binary. This functionality is provided by the &lt;c3&gt;'windows-resources'&lt;/c3&gt; plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012928Z" creationid="huanghaohang" creationdate="20190610T012545Z">
+        <seg>使用 &lt;a0&gt;&lt;c1&gt;VisualCpp&lt;/c1&gt;&lt;/a0&gt; 工具链时， Gradle 能够编译 Window Resource（&lt;c2&gt;rc&lt;/c2&gt;）文件，并将它们链接到本机二进制文件。 这个功能是由 &lt;c3&gt;'windows-resources'&lt;/c3&gt; 插件提供的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you define a new source set, the Java plugin adds some dependency configurations for the source set, as shown in &lt;a0&gt;Table 23.6, “Java plugin - source set dependency configurations”&lt;/a0&gt;. You can use these configurations to define the compile and runtime dependencies of the source set.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094833Z" creationid="haohang" creationdate="20180326T094833Z">
@@ -33601,6 +33641,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>binaries.withType(SharedLibraryBinary) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012519Z" creationid="huanghaohang" creationdate="20190610T012519Z">
+        <seg>binaries.withType(SharedLibraryBinary) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035013Z" creationid="haohang" creationdate="20180313T035013Z">
@@ -34841,6 +34889,14 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053259Z" creationid="huanghaohang" creationdate="20190609T053259Z">
         <seg>cppCompiler.args &lt;s9&gt;"/Zi"&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cppCompiler.define &lt;s1&gt;"DLL_EXPORT"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012521Z" creationid="huanghaohang" creationdate="20190610T012521Z">
+        <seg>cppCompiler.define &lt;s1&gt;"DLL_EXPORT"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
