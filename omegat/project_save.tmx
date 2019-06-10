@@ -31041,6 +31041,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When a set of build types, target platforms, and flavors is defined for a component, a &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; model element is created for every possible combination of these. However, in many cases it is not possible to build a particular variant, perhaps because no tool chain is available to build for a particular platform.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084041Z" creationid="huanghaohang" creationdate="20190610T084041Z">
+        <seg>当为一个组件定义了一组构建类型，目标平台，以及风格时，将会为它们的每种可能的组合创建一个 &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; 模型元素。然而，在许多情况下，无法构建特定的变体，可能的原因是没有可用于某个特定平台的构建的工具链。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When configured, Gradle will run in incubating parallel mode.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T020554Z" creationid="huanghaohang" creationdate="20180126T020554Z">
