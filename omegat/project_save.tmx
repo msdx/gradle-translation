@@ -20637,6 +20637,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If no target platforms are defined for a project, then all binaries are built to target a default platform named 'current'. This default platform does not specify any &lt;c0&gt;architecture&lt;/c0&gt; or &lt;c1&gt;operatingSystem&lt;/c1&gt; value, hence using the default values of the first available tool chain.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T092658Z" creationid="huanghaohang" creationdate="20190610T092658Z">
+        <seg>如果没有为项目定义目标平台，那么所有的二进制文件将针对默认平台“current”进行构建。这个默认平台不指定任何的 &lt;c0&gt;architecture&lt;/c0&gt; 或 &lt;c1&gt;operatingSystem&lt;/c1&gt; 值，因此会使用第一个可用工具链的默认值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If someone wants to use your project as a library, she simply needs to declare on which configuration of the dependency to depend on. A Gradle dependency offers the &lt;c0&gt;configuration&lt;/c0&gt; property to declare this. If this is not specified, the &lt;c1&gt;default&lt;/c1&gt; configuration is used (see &lt;a2&gt;Section 50.4.9, “Dependency configurations”&lt;/a2&gt;). Using your project as a library can either happen from within a multi-project build or by retrieving your project from a repository. In the latter case, an &lt;c3&gt;ivy.xml&lt;/c3&gt; descriptor in the repository is supposed to contain all the necessary information. If you work with Maven repositories you don't have the flexibility as described above. For how to publish to a Maven repository, see the section &lt;a4&gt;Section 52.6, “Interacting with Maven repositories”&lt;/a4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T090813Z" creationid="huanghaohang" creationdate="20190606T090813Z">
