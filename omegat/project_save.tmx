@@ -7746,6 +7746,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.9.3. Flavor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T052200Z" creationid="huanghaohang" creationdate="20190610T052200Z">
+        <seg>54.9.3. 风格</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.9. Native Binary Variants</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023058Z" creationid="huanghaohang" creationdate="20190610T023058Z">
@@ -15273,6 +15281,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153230Z" creationid="huanghaohang" creationdate="20170914T153230Z">
         <seg>每一个闭包都有一个&lt;c0&gt;委托&lt;/c0&gt;对象，Groovy使用它来查找不是局部变量或闭包参数的变量和方法引用。 Gradle使用它来作为&lt;e1&gt;配置闭包&lt;/e1&gt;，把&lt;c2&gt;委托&lt;/c2&gt;对象设置为被配置的对象。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Each component can have a set of named &lt;c0&gt;flavors&lt;/c0&gt;, and a separate binary variant can be produced for each flavor. While the &lt;c1&gt;build type&lt;/c1&gt; and &lt;c2&gt;target platform&lt;/c2&gt; variant dimensions have a defined meaning in Gradle, each project is free to define any number of flavors and apply meaning to them in any way.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T052548Z" creationid="huanghaohang" creationdate="20190610T052206Z">
+        <seg>每个组件都可以有一组命名的 &lt;c0&gt;flavor&lt;/c0&gt;，并且可以为每种风格生成单独的二进制变体。虽然 &lt;c1&gt;build type&lt;/c1&gt; 和 &lt;c2&gt;target platform&lt;/c2&gt; 变体维度在 Gradle 中是有定义的含义的，但每个项目都可以自由地定义任意数量的风格，并以任意的方式对它们应用含义。</seg>
       </tuv>
     </tu>
     <tu>
