@@ -7706,10 +7706,26 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.8.2. Project Dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022919Z" creationid="huanghaohang" creationdate="20190610T022919Z">
+        <seg>54.8.2. 项目依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.8. Library Dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022229Z" creationid="huanghaohang" creationdate="20190610T022229Z">
         <seg>54.8. 库依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>54.9. Native Binary Variants</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023058Z" creationid="huanghaohang" creationdate="20190610T023058Z">
+        <seg>54.9. 本地二进制变体</seg>
       </tuv>
     </tu>
     <tu>
@@ -9857,6 +9873,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// For any shared library binaries built with Visual C++, define the DLL_EXPORT macro&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023021Z" creationid="huanghaohang" creationdate="20190610T023021Z">
+        <seg>&lt;s2&gt;// For any shared library binaries built with Visual C++, define the DLL_EXPORT macro&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;// Look for artifacts here if not found at the above location&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033845Z" creationid="huanghaohang" creationdate="20190603T033845Z">
@@ -9991,6 +10015,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053256Z" creationid="huanghaohang" creationdate="20190609T053256Z">
         <seg>&lt;s3&gt;if&lt;/s3&gt; (toolChain in Gcc) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s3&gt;if&lt;/s3&gt; (toolChain in VisualCpp) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023023Z" creationid="huanghaohang" creationdate="20190610T023023Z">
+        <seg>&lt;s3&gt;if&lt;/s3&gt; (toolChain in VisualCpp) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -17797,6 +17829,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.19. Declaring project dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023016Z" creationid="huanghaohang" creationdate="20190610T023016Z">
+        <seg>示例 54.19. 定义项目依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.2. Defining executable components</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030734Z" creationid="huanghaohang" creationdate="20190609T030734Z">
@@ -18621,6 +18661,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a component produced in a different Gradle project, the notation is similar.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023013Z" creationid="huanghaohang" creationdate="20190610T023013Z">
+        <seg>对于在不同的 Gradle 项目产生的组件，表示方法是类似的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a dynamic version, a 'higher' static version is preferred over a 'lower' version.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T032940Z" creationid="huanghaohang" creationdate="20190604T032940Z">
@@ -18705,6 +18753,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T033416Z" creationid="huanghaohang" creationdate="20190609T033416Z">
         <seg>对于生成的每个可执行二进制文件，&lt;c0&gt;cpp&lt;/c0&gt; 插件提供了 &lt;c1&gt;install${binary.name}&lt;/c1&gt; 任务，该任务将创建可执行文件的开发安装，以及它所需要的共享库。 它允许你在不需要在其最终位置安装共享库的情况下运行可执行文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For each executable or library defined, Gradle is able to build a number of different native binary variants. Examples of different variants include debug vs release binaries, 32-bit vs 64-bit binaries, and binaries produced with different custom preprocessor flags.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023527Z" creationid="huanghaohang" creationdate="20190610T023527Z">
+        <seg>对于每个定义的可执行文件或库，Gradle 能够构建多个不同的本机二进制变体。这样的示例包括调试与发布的二进制文件，32位与64位的二进制文件，以及使用不同的自定义预处理器标志生成的二进制文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33249,10 +33305,26 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s1&gt;"cpp"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023018Z" creationid="huanghaohang" creationdate="20190610T023018Z">
+        <seg>apply plugin: &lt;s1&gt;"cpp"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s1&gt;'eclipse-wtp'&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124424Z" creationid="95" creationdate="20170803T124424Z">
         <seg>apply plugin: &lt;s1&gt;'eclipse-wtp'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s6&gt;"cpp"&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023035Z" creationid="huanghaohang" creationdate="20190610T023035Z">
+        <seg>apply plugin: &lt;s6&gt;"cpp"&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -35065,6 +35137,14 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053255Z" creationid="huanghaohang" creationdate="20190609T053255Z">
         <seg>cppCompiler.define &lt;s1&gt;"NDEBUG"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cppCompiler.define &lt;s4&gt;"DLL_EXPORT"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023024Z" creationid="huanghaohang" creationdate="20190610T023024Z">
+        <seg>cppCompiler.define &lt;s4&gt;"DLL_EXPORT"&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -39707,6 +39787,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>lib project: &lt;s7&gt;':lib'&lt;/s7&gt;, library: &lt;s8&gt;'main'&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023036Z" creationid="huanghaohang" creationdate="20190610T023036Z">
+        <seg>lib project: &lt;s7&gt;':lib'&lt;/s7&gt;, library: &lt;s8&gt;'main'&lt;/s8&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>libDirName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145913Z" creationid="huanghaohang" creationdate="20180415T145913Z">
@@ -39925,6 +40013,14 @@ println &lt;s0&gt;'A message which is logged at INFO level'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133544Z" creationid="huanghaohang" creationdate="20170913T133544Z">
         <seg>main {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>main {}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023019Z" creationid="huanghaohang" creationdate="20190610T023019Z">
+        <seg>main {}</seg>
       </tuv>
     </tu>
     <tu>
@@ -42290,6 +42386,14 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T151332Z" creationid="huanghaohang" creationdate="20180811T151332Z">
         <seg>project {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project(&lt;s0&gt;":lib"&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023017Z" creationid="huanghaohang" creationdate="20190610T023017Z">
+        <seg>project(&lt;s0&gt;":lib"&lt;/s0&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -46837,6 +46941,20 @@ project(&lt;s3&gt;'projectB'&lt;/s3&gt;) {</seg>
 }
 
 project(&lt;s3&gt;'projectB'&lt;/s3&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+project(&lt;s5&gt;":exe"&lt;/s5&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023033Z" creationid="huanghaohang" creationdate="20190610T023033Z">
+        <seg>}
+}
+
+project(&lt;s5&gt;":exe"&lt;/s5&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
