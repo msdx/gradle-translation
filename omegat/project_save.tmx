@@ -7634,6 +7634,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.10. Tool chains</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084502Z" creationid="huanghaohang" creationdate="20190610T084502Z">
+        <seg>54.10. 工具链</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.2. Tool chain support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T021858Z" creationid="huanghaohang" creationdate="20190609T021858Z">
@@ -11987,6 +11995,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030103Z" creationid="huanghaohang" creationdate="20190603T030040Z">
         <seg>一个在本地文件系统上的简单仓库。不支持任何元数据格式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A single build may utilize different tool chains to build variants for different platforms. To this end, the core 'native-binary' plugins will attempt to locate and make available supported tool chains. However, the set of tool chains for a project may also be explicitly defined, allowing additional cross-compilers to be configured as well as allowing the install directories to be specified.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084821Z" creationid="huanghaohang" creationdate="20190610T084821Z">
+        <seg>单个构建可以利用不同的工具链来构建不同平台的变体。为此，核心的“本机二进制”插件将尝试查找并提供受支持的工具链。不过，一个项目里的工具链集也可以被显式定义，允许配置其他交叉编译器，同时允许指定安装目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31059,8 +31075,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>When a set of build types, target platforms, and flavors is defined for a component, a &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; model element is created for every possible combination of these. However, in many cases it is not possible to build a particular variant, perhaps because no tool chain is available to build for a particular platform.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084349Z" creationid="huanghaohang" creationdate="20190610T084041Z">
-        <seg>当为一个组件定义了一组构建类型，目标平台，以及风格时，将会为它们的每种可能的组合创建一个 &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; 模型元素。然而，在许多情况下无法构建特定的变体，可能的原因是没有可用于某个特定平台构建的工具链。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084445Z" creationid="huanghaohang" creationdate="20190610T084041Z">
+        <seg>当为一个组件定义了一组构建类型，目标平台及风格时，将会为它们的每种可能的组合创建一个 &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; 模型元素。然而，在许多情况下无法构建特定的变体，可能的原因是没有可用于某个特定平台的构建的工具链。</seg>
       </tuv>
     </tu>
     <tu>
