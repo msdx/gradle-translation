@@ -1146,6 +1146,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.platform.Platform.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T044343Z" creationid="huanghaohang" creationdate="20190610T044343Z">
+        <seg>../dsl/org.gradle.nativebinaries.platform.Platform.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.toolchain.ToolChain.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053302Z" creationid="huanghaohang" creationdate="20190609T053302Z">
@@ -7730,6 +7738,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.9.2. Platform</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T044341Z" creationid="huanghaohang" creationdate="20190610T044341Z">
+        <seg>54.9.2. 平台</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.9. Native Binary Variants</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023058Z" creationid="huanghaohang" creationdate="20190610T023058Z">
@@ -12691,6 +12707,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190531T044521Z" creationid="huanghaohang" creationdate="20190531T044313Z">
         <seg>仅工件表示法将创建只下载具有指定扩展名的工件文件的模块依赖，而忽略现有的模块描述符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An executable or library can be built to run on different operating systems and cpu architectures, with a variant being produced for each platform. Gradle defines each OS/architecture combination as a &lt;a0&gt;&lt;c1&gt;Platform&lt;/c1&gt;&lt;/a0&gt;, and a project may define any number of platforms. If no platforms are defined in a project, then a single, default platform 'current' is added.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T044701Z" creationid="huanghaohang" creationdate="20190610T044701Z">
+        <seg>通过为每个平台生成一个变体，能够使可执行文件或库构建为可以运行在不同的操作系统及 CPU 架构上。Gradle 把每个操作系统/架构的组合定义为一个 &lt;a0&gt;&lt;c1&gt;Platform&lt;/c1&gt;&lt;/a0&gt;，并且一个项目可以定义任意多个平台。如果在项目中没有定义平台，则会添加一个默认的 'current' 平台。</seg>
       </tuv>
     </tu>
     <tu>
