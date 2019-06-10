@@ -9119,6 +9119,14 @@ tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Each executable binary produced uses the 'hello' static library binary&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022901Z" creationid="huanghaohang" creationdate="20190610T022901Z">
+        <seg>&lt;s0&gt;// Each executable binary produced uses the 'hello' static library binary&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// For any shared library binaries built with Visual C++, define the DLL_EXPORT macro&lt;/s0&gt;
 binaries.withType(SharedLibraryBinary) {</seg>
       </tuv>
@@ -12547,6 +12555,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023159Z" creationid="huanghaohang" creationdate="20181202T023159Z">
         <seg>作为选择，也可以从命令行设置 Sonar 属性。更多信息请参见《&lt;a0&gt;第35.6节，“从命令行配置声纳设置”&lt;/a0&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Alternatively, a library dependency can be provided directly to the &lt;c0&gt;ExecutableBinary&lt;/c0&gt; for the &lt;c1&gt;executable&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022847Z" creationid="huanghaohang" creationdate="20190610T022847Z">
+        <seg>另外，一个库依赖可以直接提供给 &lt;c1&gt;executable&lt;/c1&gt; 的 &lt;c0&gt;ExecutableBinary&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17761,6 +17777,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013910Z" creationid="huanghaohang" creationdate="20190610T013910Z">
         <seg>示例 54.16. 构建纯资源 dll</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.17. Providing a library dependency to the source set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022759Z" creationid="huanghaohang" creationdate="20190610T022759Z">
+        <seg>示例 54.17. 向源集提供库依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.18. Providing a library dependency to the binary</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022900Z" creationid="huanghaohang" creationdate="20190610T022900Z">
+        <seg>示例 54.18. 向二进制文件提供库依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -39655,6 +39687,22 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145916Z" creationid="huanghaohang" creationdate="20180415T145916Z">
         <seg>lib</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>lib libraries.hello</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022800Z" creationid="huanghaohang" creationdate="20190610T022800Z">
+        <seg>lib libraries.hello</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>lib libraries.hello.&lt;s1&gt;static&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022911Z" creationid="huanghaohang" creationdate="20190610T022911Z">
+        <seg>lib libraries.hello.&lt;s1&gt;static&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
