@@ -18781,6 +18781,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a given variant, Gradle will attempt to find a &lt;a0&gt;&lt;c1&gt;ToolChain&lt;/c1&gt;&lt;/a0&gt; that is able to build for the target platform. Available tool chains are searched in the order defined. See the &lt;a2&gt;tool chain&lt;/a2&gt; section below for more details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T052151Z" creationid="huanghaohang" creationdate="20190610T052151Z">
+        <seg>对于给定的变体，Gradle 将尝试查找能够为目标平台构建的 &lt;a0&gt;&lt;c1&gt;ToolChain&lt;/c1&gt;&lt;/a0&gt; 。所有可用的工具链将按照定义的顺序进行查找。更多细节请参阅下面的&lt;a2&gt;工具链&lt;/a2&gt;部分。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a library named 'main', files in &lt;c0&gt;src/main/headers&lt;/c0&gt; are considered the “public” or “exported” headers. Header files that should not be exported (but are used internally) should be placed inside the &lt;c1&gt;src/main/c&lt;/c1&gt; directory (though be aware that such header files should always be referenced in a manner relative to the file including them).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051715Z" creationid="huanghaohang" creationdate="20190609T051715Z">
