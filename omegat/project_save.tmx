@@ -13047,6 +13047,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Architectures</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T085907Z" creationid="huanghaohang" creationdate="20190610T085907Z">
+        <seg>架构</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Artifacts (e.g. jars) produced by this project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T053909Z" creationid="haohang" creationdate="20180313T053909Z">
@@ -27977,6 +27985,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The core Gradle tool chains are able to target the following architectures out of the box. In each case, the tool chain will target the current operating system. See the next section for information on cross-compiling for other operating systems.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T085852Z" creationid="huanghaohang" creationdate="20190610T085852Z">
+        <seg>核心 Gradle 工具链对以下的架构能够开箱即用。在每种情况中，工具链都将针对当前的操作系统。有关其他操作系统交叉编译的信息，请参阅下一节。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The declarative language lies on top of a general purpose task graph, which you can fully leverage in your builds. It provides utmost flexibility to adapt Gradle to your unique needs.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170722T021842Z" creationid="95" creationdate="20170722T021842Z">
@@ -31181,6 +31197,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132523Z" creationid="huanghaohang" creationdate="20170913T132523Z">
         <seg>当Gradle执行脚本时，它会将脚本编译成一个实现&lt;a0&gt;&lt;c1&gt;Script&lt;/c1&gt;&lt;/a0&gt;接口的类。这意味着&lt;c2&gt;Script&lt;/c2&gt;接口声明的所有属性和方法都可以在你的脚本中使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When a platform does not define an architecture or operating system, the default target of the tool chain is assumed. So if a platform does not define a value for &lt;c0&gt;operatingSystem&lt;/c0&gt;, Gradle will find the first available tool chain that can build for the specified &lt;c1&gt;architecture&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T085652Z" creationid="huanghaohang" creationdate="20190610T085400Z">
+        <seg>当一个平台没有定义架构或操作系统时，会假定工具链的默认目标。所以如果平台没有为 &lt;c0&gt;operatingSystem&lt;/c0&gt; 定义值的话，Gradle 将找到第一个可以为指定的 &lt;c1&gt;architecture&lt;/c1&gt; 构建的可用工具链。</seg>
       </tuv>
     </tu>
     <tu>
@@ -47461,6 +47485,22 @@ webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T045622Z" creationid="huanghaohang" creationdate="20190610T045622Z">
         <seg>x6&lt;s2&gt;4&lt;/s2&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x86, x86_64</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T085908Z" creationid="huanghaohang" creationdate="20190610T085908Z">
+        <seg>x86, x86_64</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>x86, x86_64, ia-64</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T085923Z" creationid="huanghaohang" creationdate="20190610T085923Z">
+        <seg>x86, x86_64, ia-64</seg>
       </tuv>
     </tu>
     <tu>
