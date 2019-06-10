@@ -19989,6 +19989,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle provides a &lt;e0&gt;hook&lt;/e0&gt; that allows the build author to control the exact set of arguments passed to a tool chain executable. This enables the build author to work around any limitations in Gradle, or assumptions that Gradle makes. The arguments hook should be seen as a 'last-resort' mechanism, with preference given to truly modelling the underlying domain.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T093502Z" creationid="huanghaohang" creationdate="20190610T092713Z">
+        <seg>Gradle 提供了一个&lt;e0&gt;钩子&lt;/e0&gt;，允许构建者控制传给可执行的工具链的确切参数集。这使得构建者能够围绕 Gradle 中的任何限制或做出的假定去使用。这个参数钩子应该被当作是一种“最后手段”的机制，我们更倾向于对基本领域真正地进行建模。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle provides different notations for module dependencies. There is a string notation and a map notation. A module dependency has an API which allows for further configuration. Have a look at &lt;a0&gt;&lt;c1&gt;ExternalModuleDependency&lt;/c1&gt;&lt;/a0&gt; to learn all about the API. This API provides properties and configuration methods. Via the string notation you can define a subset of the properties. With the map notation you can define all properties. To have access to the complete API, either with the map or with the string notation, you can assign a single dependency to a configuration together with a closure.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190528T021906Z" creationid="huanghaohang" creationdate="20190527T161253Z">
