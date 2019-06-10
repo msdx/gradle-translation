@@ -18037,6 +18037,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.25. Building all possible variants</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084309Z" creationid="huanghaohang" creationdate="20190610T084309Z">
+        <seg>示例 54.25. 构建所有可能的变体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.3. The 'cpp' plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T042713Z" creationid="huanghaohang" creationdate="20190609T042713Z">
@@ -20457,6 +20465,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T020016Z" creationid="huanghaohang" creationdate="20180407T020016Z">
         <seg>如果在 &lt;c1&gt;classpath&lt;/c1&gt; 中找到 &lt;c0&gt;scala-library&lt;/c0&gt; Jar ，并且该项目已经在至少一个仓库中声明了它，那么相应的 &lt;c2&gt;scala-compiler&lt;/c2&gt; 的仓库依赖将添加到 &lt;c3&gt;scalaClasspath&lt;/c3&gt; 中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If a binary variant cannot be built for any reason, then the &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; associated with that variant will not be &lt;c2&gt;buildable&lt;/c2&gt;. It is possible to use this property to create a task to generate all possible variants on a particular machine.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084304Z" creationid="huanghaohang" creationdate="20190610T084304Z">
+        <seg>如果一个二进制变体因为某种原因而不能构建，那么与之关联的 &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; 将不再是 &lt;c2&gt;buildable&lt;/c2&gt;。可以使用这个属性来创建一个任务，生成在特定机器上所有可能的变体。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31043,8 +31059,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>When a set of build types, target platforms, and flavors is defined for a component, a &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; model element is created for every possible combination of these. However, in many cases it is not possible to build a particular variant, perhaps because no tool chain is available to build for a particular platform.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084041Z" creationid="huanghaohang" creationdate="20190610T084041Z">
-        <seg>当为一个组件定义了一组构建类型，目标平台，以及风格时，将会为它们的每种可能的组合创建一个 &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; 模型元素。然而，在许多情况下，无法构建特定的变体，可能的原因是没有可用于某个特定平台的构建的工具链。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084349Z" creationid="huanghaohang" creationdate="20190610T084041Z">
+        <seg>当为一个组件定义了一组构建类型，目标平台，以及风格时，将会为它们的每种可能的组合创建一个 &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; 模型元素。然而，在许多情况下无法构建特定的变体，可能的原因是没有可用于某个特定平台构建的工具链。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36135,6 +36151,14 @@ task clean &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>dependsOn binaries.withType(ExecutableBinary).matching {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084311Z" creationid="huanghaohang" creationdate="20190610T084311Z">
+        <seg>dependsOn binaries.withType(ExecutableBinary).matching {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>dependsOn pingServer1, pingServer2
 }</seg>
       </tuv>
@@ -39489,6 +39513,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072433Z" creationid="haohang" creationdate="20170720T072433Z">
         <seg>introduction.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>it.buildable</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084312Z" creationid="huanghaohang" creationdate="20190610T084312Z">
+        <seg>it.buildable</seg>
       </tuv>
     </tu>
     <tu>
@@ -45272,6 +45304,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111941Z" creationid="huanghaohang" creationdate="20180406T111941Z">
         <seg>task barJar(type: Jar) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task buildAllExecutables {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084310Z" creationid="huanghaohang" creationdate="20190610T084310Z">
+        <seg>task buildAllExecutables {</seg>
       </tuv>
     </tu>
     <tu>
