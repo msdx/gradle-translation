@@ -13159,6 +13159,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>At this stage, it is completely up to the build script to configure the relevant compiler/linker flags for each build type. Future versions of Gradle will automatically include the appropriate debug flags for any 'debug' build type, and may be aware of various levels of optimisation as well.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T044337Z" creationid="huanghaohang" creationdate="20190610T044337Z">
+        <seg>在这个阶段，完全由构建脚本来为每个构建类型配置相关的编译器或链接器标志。未来版本的 Gradle 将自动为任何 'debug' 构建类型包含相应的调试标志，并且还可能了解各个优化级别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>At times a completely different module can serve as a replacement for a requested module dependency. Examples include using '&lt;c0&gt;groovy&lt;/c0&gt;' in place of '&lt;c1&gt;groovy-all&lt;/c1&gt;', or using '&lt;c2&gt;log4j-over-slf4j&lt;/c2&gt;' instead of '&lt;c3&gt;log4j&lt;/c3&gt;'. Starting with Gradle 1.5 you can make these substitutions using dependency resolve rules:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T024949Z" creationid="huanghaohang" creationdate="20190605T024949Z">
