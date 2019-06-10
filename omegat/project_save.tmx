@@ -13263,6 +13263,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Binaries produced by Gradle can be differentiated on &lt;a0&gt;build type&lt;/a0&gt;, &lt;a1&gt;platform&lt;/a1&gt; and &lt;a2&gt;flavor&lt;/a2&gt;. For each of these 'variant dimensions', it is possible to specify a set of available values as well as target each component at one, some or all of these. For example, a plugin may define a range of support platforms, but you may choose to only target Windows-x86 for a particular component.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035139Z" creationid="huanghaohang" creationdate="20190610T035139Z">
+        <seg>由 Gradle 生成的二进制文件可以在&lt;a0&gt;构建类型&lt;/a0&gt;，&lt;a1&gt;平台&lt;/a1&gt; 和&lt;a2&gt;风格&lt;/a2&gt;上区分。对于这些“变体维度”中的每个维度，可以指定一组可用值，也可以针对每一个组件指定这里的一个、多个或全部的值。比如，插件可能定义了一系列支持的平台，但你可以对某个特定组件选择只针对 Windows-x86 构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Both &lt;c0&gt;println&lt;/c0&gt; statements print out the same property. The first uses auto-delegation to the &lt;c1&gt;Project&lt;/c1&gt; object, for properties not defined in the build script. The other statement uses the &lt;c2&gt;project&lt;/c2&gt; property available to any build script, which returns the associated &lt;c3&gt;Project&lt;/c3&gt; object. Only if you define a property or a method which has the same name as a member of the &lt;c4&gt;Project&lt;/c4&gt; object, you need to use the &lt;c5&gt;project&lt;/c5&gt; property.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T131937Z" creationid="huanghaohang" creationdate="20170912T130332Z">
@@ -40566,6 +40574,30 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T142859Z" creationid="huanghaohang" creationdate="20180205T142859Z">
         <seg>nativeBinaries.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>nativeBinaries.html#native_binaries:build_type</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023528Z" creationid="huanghaohang" creationdate="20190610T023528Z">
+        <seg>nativeBinaries.html#native_binaries:build_type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>nativeBinaries.html#native_binaries:flavor</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023533Z" creationid="huanghaohang" creationdate="20190610T023533Z">
+        <seg>nativeBinaries.html#native_binaries:flavor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>nativeBinaries.html#native_binaries:platform</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023529Z" creationid="huanghaohang" creationdate="20190610T023529Z">
+        <seg>nativeBinaries.html#native_binaries:platform</seg>
       </tuv>
     </tu>
     <tu>
