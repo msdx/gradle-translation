@@ -1138,6 +1138,30 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.TargetedNativeComponent.html#org.gradle.nativebinaries.TargetedNativeComponent:targetBuildTypes(java.lang.String[])</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T053643Z" creationid="huanghaohang" creationdate="20190610T053643Z">
+        <seg>../dsl/org.gradle.nativebinaries.TargetedNativeComponent.html#org.gradle.nativebinaries.TargetedNativeComponent:targetBuildTypes(java.lang.String[])</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.TargetedNativeComponent.html#org.gradle.nativebinaries.TargetedNativeComponent:targetFlavors(java.lang.String[])</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T053650Z" creationid="huanghaohang" creationdate="20190610T053650Z">
+        <seg>../dsl/org.gradle.nativebinaries.TargetedNativeComponent.html#org.gradle.nativebinaries.TargetedNativeComponent:targetFlavors(java.lang.String[])</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.TargetedNativeComponent.html#org.gradle.nativebinaries.TargetedNativeComponent:targetPlatforms(java.lang.String[])</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T053330Z" creationid="huanghaohang" creationdate="20190610T053330Z">
+        <seg>../dsl/org.gradle.nativebinaries.TargetedNativeComponent.html#org.gradle.nativebinaries.TargetedNativeComponent:targetPlatforms(java.lang.String[])</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.language.PreprocessingTool.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013914Z" creationid="huanghaohang" creationdate="20190610T013914Z">
@@ -7762,6 +7786,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.9.5. Building all possible variants</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T053728Z" creationid="huanghaohang" creationdate="20190610T053728Z">
+        <seg>54.9.5. 构建所有可能的变体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.9. Native Binary Variants</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023058Z" creationid="huanghaohang" creationdate="20190610T023058Z">
@@ -11931,6 +11963,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031802Z" creationid="huanghaohang" creationdate="20170927T031802Z">
         <seg>快速任务定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A similar mechanism exists for selecting &lt;a0&gt;&lt;c1&gt;TargetedNativeComponent.targetBuildTypes()&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;TargetedNativeComponent.targetFlavors()&lt;/c3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T053717Z" creationid="huanghaohang" creationdate="20190610T053717Z">
+        <seg>在选择 &lt;a0&gt;&lt;c1&gt;TargetedNativeComponent.targetBuildTypes()&lt;/c1&gt;&lt;/a0&gt; 和&lt;a2&gt;&lt;c3&gt;TargetedNativeComponent.targetFlavors()&lt;/c3&gt;&lt;/a2&gt;上也存在着类似的机制。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20201,6 +20241,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083650Z" creationid="huanghaohang" creationdate="20170922T083325Z">
         <seg>这里我们把一个&lt;c0&gt;Copy&lt;/c0&gt;类型的任务替换为一个简单的任务。当创建这个简单任务时，你必须把&lt;c1&gt;overwrite&lt;/c1&gt;属性设置为true。否则，Gradle会抛出一个异常，称这个名称的任务已经存在。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here you can see that the &lt;a0&gt;&lt;c1&gt;TargetedNativeComponent.targetPlatforms()&lt;/c1&gt;&lt;/a0&gt; method is used to select the set of platforms to target for &lt;c2&gt;executables.main&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T053623Z" creationid="huanghaohang" creationdate="20190610T053341Z">
+        <seg>在这里你可以看到 &lt;a0&gt;&lt;c1&gt;TargetedNativeComponent.targetPlatforms()&lt;/c1&gt;&lt;/a0&gt; 方法被用于为 &lt;c2&gt;executables.main&lt;/c2&gt;选择一组目标平台。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45176,6 +45224,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180314T094343Z" creationid="haohang" creationdate="20180314T094343Z">
         <seg>targetCompatibility</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>targetPlatforms &lt;s0&gt;"x86"&lt;/s0&gt;, &lt;s1&gt;"x64"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T053329Z" creationid="huanghaohang" creationdate="20190610T053329Z">
+        <seg>targetPlatforms &lt;s0&gt;"x86"&lt;/s0&gt;, &lt;s1&gt;"x64"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
