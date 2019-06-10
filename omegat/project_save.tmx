@@ -1178,6 +1178,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.Clang.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084858Z" creationid="huanghaohang" creationdate="20190610T084858Z">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.Clang.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.Gcc.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084855Z" creationid="huanghaohang" creationdate="20190610T084855Z">
+        <seg>../dsl/org.gradle.nativebinaries.toolchain.Gcc.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.toolchain.ToolChain.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053302Z" creationid="huanghaohang" creationdate="20190609T053302Z">
@@ -7634,6 +7650,22 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.10.1. Defining tool chains</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084849Z" creationid="huanghaohang" creationdate="20190610T084849Z">
+        <seg>54.10.1. 定义工具链</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>54.10.2. Using tool chains</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T085050Z" creationid="huanghaohang" creationdate="20190610T085050Z">
+        <seg>54.10.2. 使用工具链</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.10. Tool chains</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084502Z" creationid="huanghaohang" creationdate="20190610T084502Z">
@@ -9305,6 +9337,14 @@ apply(map)</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Specify the installDir if Visual Studio cannot be located by default&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084911Z" creationid="huanghaohang" creationdate="20190610T084911Z">
+        <seg>&lt;s0&gt;// Specify the installDir if Visual Studio cannot be located by default&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// URL can refer to a local directory&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T045145Z" creationid="huanghaohang" creationdate="20170908T045145Z">
@@ -9865,6 +9905,14 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s1&gt;// installDir "C:/Apps/Microsoft Visual Studio 10.0"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084913Z" creationid="huanghaohang" creationdate="20190610T084913Z">
+        <seg>&lt;s1&gt;// installDir "C:/Apps/Microsoft Visual Studio 10.0"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s1&gt;&lt;target&lt;/s1&gt; &lt;s2&gt;name&lt;/s2&gt;=&lt;s3&gt;"hello"&lt;/s3&gt; &lt;s4&gt;depends&lt;/s4&gt;=&lt;s5&gt;"intro"&lt;/s5&gt;&lt;s6&gt;&gt;&lt;/s6&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084838Z" creationid="huanghaohang" creationdate="20180105T084838Z">
@@ -9981,6 +10029,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T033845Z" creationid="huanghaohang" creationdate="20190603T033845Z">
         <seg>&lt;s2&gt;// Look for artifacts here if not found at the above location&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Uncomment to use a GCC install that is not in the PATH&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084915Z" creationid="huanghaohang" creationdate="20190610T084915Z">
+        <seg>&lt;s2&gt;// Uncomment to use a GCC install that is not in the PATH&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10103,6 +10159,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T044005Z" creationid="huanghaohang" creationdate="20180406T044005Z">
         <seg>&lt;s3&gt;// Include the results from the `test` task in all subprojects&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s3&gt;// path "/usr/bin/gcc"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084915Z" creationid="huanghaohang" creationdate="20190610T084915Z">
+        <seg>&lt;s3&gt;// path "/usr/bin/gcc"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12001,8 +12065,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>A single build may utilize different tool chains to build variants for different platforms. To this end, the core 'native-binary' plugins will attempt to locate and make available supported tool chains. However, the set of tool chains for a project may also be explicitly defined, allowing additional cross-compilers to be configured as well as allowing the install directories to be specified.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084821Z" creationid="huanghaohang" creationdate="20190610T084821Z">
-        <seg>单个构建可以利用不同的工具链来构建不同平台的变体。为此，核心的“本机二进制”插件将尝试查找并提供受支持的工具链。不过，一个项目里的工具链集也可以被显式定义，允许配置其他交叉编译器，同时允许指定安装目录。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084835Z" creationid="huanghaohang" creationdate="20190610T084821Z">
+        <seg>单个构建可以利用不同的工具链来构建不同平台的变体。为此，核心的“本机二进制”插件将尝试查找并提供受支持的工具链。不过，一个项目里的工具链集也可以被显式定义，允许配置其他交叉编译器以及指定安装目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15429,6 +15493,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Each tool chain implementation allows for a certain degree of configuration (see the API documentation for more details).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T085043Z" creationid="huanghaohang" creationdate="20190610T085043Z">
+        <seg>每个工具链的实现都允许一定程度的配置（更多细节请参阅 API 文档）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Ear</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180415T145127Z" creationid="huanghaohang" creationdate="20180415T145127Z">
@@ -18061,6 +18133,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.26. Defining tool chains</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084909Z" creationid="huanghaohang" creationdate="20190610T084909Z">
+        <seg>示例 54.26. 定义工具链</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.3. The 'cpp' plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T042713Z" creationid="huanghaohang" creationdate="20190609T042713Z">
@@ -19257,6 +19337,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143525Z" creationid="huanghaohang" creationdate="20170911T143525Z">
         <seg>GUI 任务树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gcc</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084857Z" creationid="huanghaohang" creationdate="20190610T084857Z">
+        <seg>Gcc</seg>
       </tuv>
     </tu>
     <tu>
@@ -21353,6 +21441,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T000929Z" creationid="huanghaohang" creationdate="20190606T000929Z">
         <seg>设置一个自定义的仓库并不算什么，&lt;s0&gt;[&lt;a1&gt;17&lt;/a1&gt;]&lt;/s0&gt; 但想让这个仓库保持最新的态可能就会很烦人。对于一个新的版本，总是要创建新的 XML 描述符和目录。你的自定义仓库是另一个基础结构元素，可能会宕机，并且需要进行更新。 要启用历史构建，你需要保留所有之前的库，并且需要备份。这是另一个间接层，你必须查找的另一个信息源。所有这些都不是大问题，但累加起来就有影响了。仓库管理器（如 Artifactory 或 Nexus ）把这些事情变得轻松些。但是，举个例子，开源项目通常没有主机用于这些产品。而通过一些新服务，这种状况也改了，比如 &lt;a2&gt;Bintray&lt;/a2&gt; ，它可以让开发者使用自助服务仓库平台来托管和分发他们发布的二进制文件。通过 &lt;a3&gt;JCenter&lt;/a3&gt; 公共仓库，Bintray 还支持共享通过他们审核的工件，为所有常用的 OSS Java 工件提供一个单一的解析地址（请参阅 &lt;a4&gt;第 50.6.3 节，《Maven JCenter 仓库》&lt;/a4&gt;)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It is not necessary or possible to specify the tool chain that should be used to build. For a given variant, Gradle will attempt to locate a &lt;a0&gt;&lt;c1&gt;ToolChain&lt;/c1&gt;&lt;/a0&gt; that is able to build for the target platform. Available tool chains are searched in the order defined.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T085358Z" creationid="huanghaohang" creationdate="20190610T085358Z">
+        <seg>我们没有必要也不可能指定应该用于构建的工具链。对于给定的变体，Gradle 将尝试查找能够为目标平台构建的 &lt;a0&gt;&lt;c1&gt;ToolChain&lt;/c1&gt;&lt;/a0&gt; 。可用的工具链是按定义的顺序来查找的。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28777,6 +28873,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The supported tool chain types are:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084854Z" creationid="huanghaohang" creationdate="20190610T084854Z">
+        <seg>支持的工具链类型有︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The task has an &lt;c0&gt;ignoreFailures&lt;/c0&gt; property to control the behavior when tests fail. Test always executes every test that it detects. It stops the build afterwards if &lt;c1&gt;ignoreFailures&lt;/c1&gt; is false and there are failing tests. The default value of &lt;c2&gt;ignoreFailures&lt;/c2&gt; is false.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T062254Z" creationid="haohang" creationdate="20180330T060550Z">
@@ -30781,6 +30885,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T022507Z" creationid="huanghaohang" creationdate="20190609T022507Z">
         <seg>Visual C++</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>VisualCpp</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084901Z" creationid="huanghaohang" creationdate="20190610T084901Z">
+        <seg>VisualCpp</seg>
       </tuv>
     </tu>
     <tu>
@@ -34577,6 +34689,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>clang(Clang)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084917Z" creationid="huanghaohang" creationdate="20190610T084917Z">
+        <seg>clang(Clang)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>classDumpFile = file(&lt;s1&gt;"$buildDir/jacoco/classpathdumps"&lt;/s1&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093223Z" creationid="huanghaohang" creationdate="20180715T093223Z">
@@ -37759,6 +37879,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093626Z" creationid="huanghaohang" creationdate="20190607T093626Z">
         <seg>ftp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>gcc(Gcc) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084914Z" creationid="huanghaohang" creationdate="20190610T084914Z">
+        <seg>gcc(Gcc) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -46089,6 +46217,14 @@ test {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>toolChains {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084909Z" creationid="huanghaohang" creationdate="20190610T084909Z">
+        <seg>toolChains {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>toolVersion = &lt;s0&gt;"0.6.2.201302030002"&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180712T135243Z" creationid="huanghaohang" creationdate="20180712T135243Z">
@@ -46895,6 +47031,14 @@ signing {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180211T090639Z" creationid="huanghaohang" creationdate="20180211T090639Z">
         <seg>visual-studio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>visualCpp(VisualCpp) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084911Z" creationid="huanghaohang" creationdate="20190610T084911Z">
+        <seg>visualCpp(VisualCpp) {</seg>
       </tuv>
     </tu>
     <tu>
