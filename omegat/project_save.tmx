@@ -7682,6 +7682,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.11. Visual Studio IDE integration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T030847Z" creationid="huanghaohang" creationdate="20190611T030847Z">
+        <seg>54.11. Visual Studio IDE 集成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.2. Tool chain support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T021858Z" creationid="huanghaohang" creationdate="20190609T021858Z">
@@ -19941,6 +19949,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle has the ability to generate Visual Studio project and solution files for the native components defined in your build. This ability is added by the &lt;c0&gt;visual-studio&lt;/c0&gt; plugin. For a multi-project build, all projects with native components should have this plugin applied.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T031023Z" creationid="huanghaohang" creationdate="20190611T031023Z">
+        <seg>Gradle 能够为构建中定义的本机组件生成 Visual Studio 项目和解决方案文件。这个功能是通过 &lt;c0&gt;visual-studio&lt;/c0&gt; 插件添加的。对于多项目构建，所有有本机组件的项目都应该应用这个插件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle is an open source project, and is licensed under the &lt;a0&gt;ASL&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T065609Z" creationid="95" creationdate="20170723T065609Z">
@@ -31365,6 +31381,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T010054Z" creationid="huanghaohang" creationdate="20190609T010054Z">
         <seg>当通过 Signing DSL 指定要签名的内容时，会自动将生成的签名工件添加到 &lt;c0&gt;signatures&lt;/c0&gt; 和 &lt;c1&gt;archives&lt;/c1&gt; 依赖配置中。这意味着，如果你想要将签名随工件一起上传到分发仓库，正常来讲，你只需要简单地执行 &lt;c2&gt;uploadArchives&lt;/c2&gt; 任务就可以了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When the &lt;c0&gt;visual-studio&lt;/c0&gt; plugin is applied, a task name &lt;c1&gt;${component.name}VisualStudio&lt;/c1&gt; is created for each defined component. This task will generate a Visual Studio Solution file for the named component. This solution will include a Visual Studio Project for that component, as well as linking to project files for each depended-on binary.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T031446Z" creationid="huanghaohang" creationdate="20190611T031446Z">
+        <seg>应用 &lt;c0&gt;visual-studio&lt;/c0&gt; 插件时，会为每个定义的组件创建名称为 &lt;c1&gt;${component.name}VisualStudio&lt;/c1&gt; 的任务。这个任务将为所命名的组件一个 Visual Studio Solution 文件。这个解决方案将包含该组件的 Visual Studio Project，以及链接至每个依赖二进制文件的项目文件。</seg>
       </tuv>
     </tu>
     <tu>
