@@ -342,6 +342,22 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#include &lt;CUnit/Basic.h&gt;
+#include "gradle_cunit_register.h"
+#include "test_operators.h"
+
+int suite_init(void) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032629Z" creationid="huanghaohang" creationdate="20190611T032629Z">
+        <seg>#include &lt;CUnit/Basic.h&gt;
+#include "gradle_cunit_register.h"
+#include "test_operators.h"
+
+int suite_init(void) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T160758Z" creationid="huanghaohang" creationdate="20190527T160758Z">
@@ -1138,6 +1154,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.nativebinaries.ProjectNativeBinary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032738Z" creationid="huanghaohang" creationdate="20190611T032738Z">
+        <seg>../dsl/org.gradle.nativebinaries.ProjectNativeBinary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.nativebinaries.SharedLibraryBinary.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T030334Z" creationid="huanghaohang" creationdate="20190609T030334Z">
@@ -1918,6 +1942,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T032056Z" creationid="huanghaohang" creationdate="20190609T032056Z">
         <seg>../javadoc/org/gradle/nativebinaries/ExecutableBinary.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/nativebinaries/test/TestSuiteExecutableBinary.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032758Z" creationid="huanghaohang" creationdate="20190611T032758Z">
+        <seg>../javadoc/org/gradle/nativebinaries/test/TestSuiteExecutableBinary.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -7718,6 +7750,14 @@ someroot/[artifact]-[revision].[ext]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T031852Z" creationid="huanghaohang" creationdate="20190611T031852Z">
         <seg>54.12.1. CUnit 源码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>54.12.2. Building CUnit executables</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032737Z" creationid="huanghaohang" creationdate="20190611T032737Z">
+        <seg>54.12.2. 构建 CUnit 可执行文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -13807,6 +13847,32 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>CU_add_test(pSuiteMath, "test_minus", test_minus);
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032633Z" creationid="huanghaohang" creationdate="20190611T032633Z">
+        <seg>CU_add_test(pSuiteMath, "test_minus", test_minus);
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CU_add_test(pSuiteMath, "test_plus", test_plus);</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032632Z" creationid="huanghaohang" creationdate="20190611T032632Z">
+        <seg>CU_add_test(pSuiteMath, "test_plus", test_plus);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CU_pSuite pSuiteMath = CU_add_suite("operator tests", suite_init, suite_clean);</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032631Z" creationid="huanghaohang" creationdate="20190611T032631Z">
+        <seg>CU_pSuite pSuiteMath = CU_add_suite("operator tests", suite_init, suite_clean);</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Caching</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T034115Z" creationid="huanghaohang" creationdate="20180131T034115Z">
@@ -15449,6 +15515,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T140814Z" creationid="huanghaohang" creationdate="20180407T140637Z">
         <seg>由于依赖分析的开销，进行清理编译或者是在较大的代码更改之后进行编译可能耗时比基于 Ant 的编译器要更长。对于 CI 构建和发布构建，我们目前推荐使用基于 Ant 的编译器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Due to this mechanism, your CUnit sources may not contain a &lt;c0&gt;main&lt;/c0&gt; method since this will clash with the method provided by Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032725Z" creationid="huanghaohang" creationdate="20190611T032725Z">
+        <seg>由于这一机制，你的 CUnit 源码可能不包含 &lt;c0&gt;main&lt;/c0&gt;方法，因为这会与 Gradle 所提供的方法冲突。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18233,6 +18307,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T024955Z" creationid="huanghaohang" creationdate="20190611T024955Z">
         <seg>示例54.28. 定义目标平台</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 54.29. Registering CUnit tests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032617Z" creationid="huanghaohang" creationdate="20190611T032617Z">
+        <seg>示例 54.29. 注册 CUnit 测试</seg>
       </tuv>
     </tu>
     <tu>
@@ -43994,6 +44076,34 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>return 0;
+}
+
+int suite_clean(void) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032630Z" creationid="huanghaohang" creationdate="20190611T032630Z">
+        <seg>return 0;
+}
+
+int suite_clean(void) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>return 0;
+}
+
+void gradle_cunit_register() {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032630Z" creationid="huanghaohang" creationdate="20190611T032630Z">
+        <seg>return 0;
+}
+
+void gradle_cunit_register() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>root</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093636Z" creationid="huanghaohang" creationdate="20190607T093636Z">
@@ -45640,6 +45750,14 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124423Z" creationid="95" creationdate="20170803T124423Z">
         <seg>subprojects {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>suite_operators.c</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032628Z" creationid="huanghaohang" creationdate="20190611T032628Z">
+        <seg>suite_operators.c</seg>
       </tuv>
     </tu>
     <tu>
