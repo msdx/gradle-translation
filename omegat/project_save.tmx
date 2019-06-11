@@ -8078,6 +8078,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.1. Build phases</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T102632Z" creationid="huanghaohang" creationdate="20190611T102632Z">
+        <seg>55.1. 构建阶段</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -12043,6 +12051,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T023100Z" creationid="huanghaohang" creationdate="20170927T150857Z">
         <seg>一个&lt;e0&gt;文件树&lt;/e0&gt;是一个按层次结构排列的文件集合。 例如，文件树可能表示一个目录树或ZIP 文件的内容。它通过&lt;a1&gt;&lt;c2&gt;FileTree&lt;/c2&gt;&lt;/a1&gt; 接口来表示。&lt;c3&gt;FileTree&lt;/c3&gt; 接口继承自 &lt;c4&gt;FileCollection&lt;/c4&gt;，因此你可以像处理文件集一样来处理文件树。Gradle中的几个对象都实现了 &lt;c5&gt;FileTree&lt;/c5&gt; 接口，如&lt;a6&gt;源码集&lt;/a6&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A Gradle build has three distinct phases.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T102741Z" creationid="huanghaohang" creationdate="20190611T102741Z">
+        <seg>Gradle 构建有三个不同的阶段。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20527,6 +20543,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle supports single and multi-project builds. During the initialization phase, Gradle determines which projects are going to take part in the build, and creates a &lt;a0&gt;&lt;c1&gt;Project&lt;/c1&gt;&lt;/a0&gt; instance for each of these projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T102900Z" creationid="huanghaohang" creationdate="20190611T102900Z">
+        <seg>Gradle 支持单项目及多项目的构建。在初始化阶段，Gradle 确定哪些项目是需要构建的，并为每个项目创建一个 &lt;a0&gt;&lt;c1&gt;Project&lt;/c1&gt;&lt;/a0&gt; 实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle takes your dependency declarations and repository definitions and attempts to download all of your dependencies by a process called &lt;s0&gt;&lt;e1&gt;dependency resolution&lt;/e1&gt;&lt;/s0&gt;. Below is a brief outline of how this process works.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T031806Z" creationid="huanghaohang" creationdate="20190604T031503Z">
@@ -21731,6 +21755,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T213731Z" creationid="95" creationdate="20190131T213731Z">
         <seg>InitBuild</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Initialization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T102744Z" creationid="huanghaohang" creationdate="20190611T102744Z">
+        <seg>初始化</seg>
       </tuv>
     </tu>
     <tu>
