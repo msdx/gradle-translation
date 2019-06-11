@@ -7714,6 +7714,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.12.1. CUnit sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T031852Z" creationid="huanghaohang" creationdate="20190611T031852Z">
+        <seg>54.12.1. CUnit 源码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.12. CUnit support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T031701Z" creationid="huanghaohang" creationdate="20190611T031701Z">
@@ -20205,6 +20213,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle will create a &lt;a0&gt;&lt;c1&gt;CSourceSet&lt;/c1&gt;&lt;/a0&gt; named 'cunit' for each &lt;a2&gt;&lt;c3&gt;CUnitTestSuite&lt;/c3&gt;&lt;/a2&gt; component in the project. This source set should contain the cunit test files for the component sources. Source files can be located in the conventional location (&lt;c4&gt;src/${component.name}Test/cunit&lt;/c4&gt;) or can be configured like any other source set.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032145Z" creationid="huanghaohang" creationdate="20190611T032145Z">
+        <seg>Gradle 将为项目中的每个 &lt;a2&gt;&lt;c3&gt;CUnitTestSuite&lt;/c3&gt;&lt;/a2&gt; 组件创建名为“cunit”的 &lt;a0&gt;&lt;c1&gt;CSourceSet&lt;/c1&gt;&lt;/a0&gt;。这个源码集应该包含组件源码的 cunit 测试文件。源码文件可以位于约定位置（&lt;c4&gt;src/${component.name}Test/cunit&lt;/c4&gt;），也可以像其他源集一样进行配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle will figure out the properties of the artifact based on the name of the file. You can customize these properties:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T075530Z" creationid="huanghaohang" creationdate="20190606T075530Z">
@@ -26777,6 +26793,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Gradle &lt;c0&gt;cunit&lt;/c0&gt; plugin provides support for compiling and executing CUnit tests in your native-binary project. For each &lt;a1&gt;&lt;c2&gt;NativeExecutable&lt;/c2&gt;&lt;/a1&gt; and &lt;a3&gt;&lt;c4&gt;NativeLibrary&lt;/c4&gt;&lt;/a3&gt; defined in your project, Gradle will create a matching &lt;a5&gt;&lt;c6&gt;CUnitTestSuite&lt;/c6&gt;&lt;/a5&gt; component, named &lt;c7&gt;${component.name}Test&lt;/c7&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T031847Z" creationid="huanghaohang" creationdate="20190611T031847Z">
+        <seg>Gradle &lt;c0&gt;cunit&lt;/c0&gt; 插件支持在本机二进制项目中编译和执行 CUnit 测试。对于项目中定义的每个 &lt;a1&gt;&lt;c2&gt;NativeExecutable&lt;/c2&gt;&lt;/a1&gt; 和 &lt;a3&gt;&lt;c4&gt;NativeLibrary&lt;/c4&gt;&lt;/a3&gt; ，Gradle 将创建一个匹配的 &lt;a5&gt;&lt;c6&gt;CUnitTestSuite&lt;/c6&gt;&lt;/a5&gt; 组件，名为 &lt;c7&gt;${component.name}Test&lt;/c7&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Gradle Build Init plugin can be used to bootstrap the process of creating a new Gradle build. It supports creating brand new projects of different types as well as converting existing builds (e.g. An Apache Maven build) to be Gradle builds.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T212924Z" creationid="95" creationdate="20190131T145832Z">
@@ -28509,6 +28533,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030619Z" creationid="95" creationdate="20170729T030619Z">
         <seg>在这里，很重要的一点是，&lt;c0&gt;whenReady&lt;/c0&gt; 会在发布任务执行&lt;s1&gt;&lt;e2&gt;之前&lt;/e2&gt;&lt;/s1&gt;影响到它。即使这个发布任务不是 &lt;s3&gt;&lt;e4&gt;主要的&lt;/e4&gt;&lt;/s3&gt; （即传给 &lt;s5&gt;&lt;s6&gt;gradle&lt;/s6&gt;&lt;/s5&gt; 命令行的任务），这一点也同样有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The job of initialising the CUnit test registry and executing the tests is performed by Gradle, via some generated CUnit launcher sources. Gradle will expect and call a function with the signature &lt;c0&gt;void gradle_cunit_register()&lt;/c0&gt; that you can use to configure the actual CUnit suites and tests to execute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T032611Z" creationid="huanghaohang" creationdate="20190611T032611Z">
+        <seg>初始化 CUnit 测试注册和执行测试的作业都由 Gradle 通过某些生成的 CUnit 启动源码来执行。Gradle 将认定并调用一个 &lt;c0&gt;void gradle_cunit_register()&lt;/c0&gt; 函数，这个函数你可以用于配置要执行的实际的 CUnit 套件及测试。</seg>
       </tuv>
     </tu>
     <tu>
