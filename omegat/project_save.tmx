@@ -7762,6 +7762,14 @@ someroot/[artifact]-[revision].[ext]</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>54.12.3. Running CUnit tests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T085929Z" creationid="huanghaohang" creationdate="20190611T085929Z">
+        <seg>54.12.3. 运行 CUnit 测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>54.12. CUnit support</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T031701Z" creationid="huanghaohang" creationdate="20190611T031701Z">
@@ -10193,6 +10201,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T022642Z" creationid="huanghaohang" creationdate="20190605T022642Z">
         <seg>&lt;s2&gt;//some custom logic that resolves the default version into a specific version&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (flavor == flavors.failing) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T061718Z" creationid="huanghaohang" creationdate="20190611T061718Z">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (flavor == flavors.failing) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -13603,6 +13619,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T131937Z" creationid="huanghaohang" creationdate="20170912T130332Z">
         <seg>这两个&lt;c0&gt;println&lt;/c0&gt;语句打印出相同的属性。在构建脚本中未定义的属性，第一次使用时会自动委派到&lt;c1&gt;Project&lt;/c1&gt;对象。另一个语句使用了可用于任何构建脚本的&lt;c2&gt;project&lt;/c2&gt;属性，这个属性返回关联的&lt;c3&gt;Project&lt;/c3&gt;对象。只有当你定义的属性或方法与这个&lt;c4&gt;Project&lt;/c4&gt;对象的成员方法或变量重名时，你才需要使用&lt;c5&gt;project&lt;/c5&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Both the CUnit sources provided by your project and the generated launcher require the core CUnit headers and libraries. Presently, this library dependency must be provided by your project for each &lt;a0&gt;&lt;c1&gt;TestSuiteExecutableBinary&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T085925Z" creationid="huanghaohang" creationdate="20190611T085732Z">
+        <seg>你的项目及生成的启动器所提供的两种 CUnit 源码，都需要核心的 CUnit 头文件和库。目前，这个库依赖项必须由你的项目为每个 &lt;a0&gt;&lt;c1&gt;TestSuiteExecutableBinary&lt;/c1&gt;&lt;/a0&gt; 提供。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18335,6 +18359,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 54.30. Registering CUnit tests</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T061714Z" creationid="huanghaohang" creationdate="20190611T061714Z">
+        <seg>示例 54.30. 注册 CUnit 测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 54.4. C++ source set</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T043353Z" creationid="huanghaohang" creationdate="20190609T043353Z">
@@ -19243,6 +19275,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T031949Z" creationid="huanghaohang" creationdate="20190609T031949Z">
         <seg>对于由构建产生的每一个 &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt;，我们构造了一个&lt;e2&gt;生命周期任务&lt;/e2&gt;，以及一组其他任务用于创建该二进制文件。这组任务执行编译，链接或组装二进制文件的实际工作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For each &lt;a0&gt;&lt;c1&gt;TestSuiteExecutableBinary&lt;/c1&gt;&lt;/a0&gt;, Gradle will create a task to execute this binary, which will run all of the registered CUnit tests. The generated test results will be located in the &lt;c2&gt;&lt;e3&gt;&lt;c4&gt;${build.dir}&lt;/c4&gt;&lt;/e3&gt;/test-results&lt;/c2&gt; directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T090211Z" creationid="huanghaohang" creationdate="20190611T090211Z">
+        <seg>对于每个 &lt;a0&gt;&lt;c1&gt;TestSuiteExecutableBinary&lt;/c1&gt;&lt;/a0&gt;， Gradle 将创建一个任务来执行此二进制文件，这个任务将运行所有已注册的 CUnit 测试。 生成的测试结果将位于 &lt;c2&gt;&lt;c2&gt;&lt;e3&gt;&lt;c4&gt;&lt;c4&gt;{build.dir}&lt;/c4&gt;&lt;/e3&gt;/test-results&lt;/c2&gt; 目录中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34643,6 +34683,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>binaries.withType(TestSuiteExecutableBinary) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T061716Z" creationid="huanghaohang" creationdate="20190611T061716Z">
+        <seg>binaries.withType(TestSuiteExecutableBinary) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035013Z" creationid="haohang" creationdate="20180313T035013Z">
@@ -34935,6 +34983,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012013Z" creationid="huanghaohang" creationdate="20190610T012013Z">
         <seg>cCompiler.define &lt;s3&gt;"DLL_EXPORT"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>cCompiler.define &lt;s3&gt;"PLUS_BROKEN"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T061720Z" creationid="huanghaohang" creationdate="20190611T061720Z">
+        <seg>cCompiler.define &lt;s3&gt;"PLUS_BROKEN"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -40689,6 +40745,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022911Z" creationid="huanghaohang" creationdate="20190610T022911Z">
         <seg>lib libraries.hello.&lt;s1&gt;static&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>lib library: &lt;s0&gt;"cunit"&lt;/s0&gt;, linkage: &lt;s1&gt;"static"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T061717Z" creationid="huanghaohang" creationdate="20190611T061717Z">
+        <seg>lib library: &lt;s0&gt;"cunit"&lt;/s0&gt;, linkage: &lt;s1&gt;"static"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
