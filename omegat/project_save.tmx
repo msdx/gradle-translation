@@ -31643,6 +31643,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>We said earlier, that the core of Gradle is a language for dependency based programming. In Gradle terms this means that you can define tasks and dependencies between tasks. Gradle guarantees that these tasks are executed in the order of their dependencies, and that each task is executed only once. Those tasks form a &lt;a0&gt;Directed Acyclic Graph&lt;/a0&gt;. There are build tools that build up such a dependency graph as they execute their tasks. Gradle builds the complete dependency graph &lt;s1&gt;&lt;e2&gt;before&lt;/e2&gt;&lt;/s1&gt; any task is executed. This lies at the heart of Gradle and makes many things possible which would not be possible otherwise.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T102452Z" creationid="huanghaohang" creationdate="20190611T102452Z">
+        <seg>我们之前说过，Gradle 的核心是一种基于依赖编程的语言。用 Gradle 的话说，这意味着你可以定义任务以及任务之间的依赖。Gradle 保证这些任务按其依赖的顺序执行，并且每个任务只执行一次。这些任务形成一个 &lt;a0&gt;有向无环图&lt;/a0&gt;。有许多构建工具在执行任务时生成了一个这样的依赖图。Gradle 则是在执行所有任务&lt;s1&gt;&lt;e2&gt;之前&lt;/e2&gt;&lt;/s1&gt; 生成这个完整的依赖图。这就是 Gradle 的核心，并且它使得许多事情由不可能变得可能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>We saw in the example above that the Java plugins adds a task named &lt;c0&gt;compileJava&lt;/c0&gt; that has a property named &lt;c1&gt;destinationDir&lt;/c1&gt; (that configures where the compiled Java source should be placed). The Java plugin defaults this property to point to &lt;c2&gt;build/classes/main&lt;/c2&gt; in the project directory. This is an example of convention-over-configuration via a &lt;s3&gt;&lt;e4&gt;reasonable default&lt;/e4&gt;&lt;/s3&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T022533Z" creationid="huanghaohang" creationdate="20180131T022533Z">
@@ -39233,6 +39241,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180207T144522Z" creationid="huanghaohang" creationdate="20180207T144522Z">
         <seg>http://eclipse.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>http://en.wikipedia.org/wiki/Directed_acyclic_graph</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T101734Z" creationid="huanghaohang" creationdate="20190611T101734Z">
+        <seg>http://en.wikipedia.org/wiki/Directed_acyclic_graph</seg>
       </tuv>
     </tu>
     <tu>
