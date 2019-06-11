@@ -11823,6 +11823,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A &lt;a0&gt;&lt;c1&gt;CUnitTestSuite&lt;/c1&gt;&lt;/a0&gt; component has an associated &lt;a2&gt;&lt;c3&gt;NativeExecutable&lt;/c3&gt;&lt;/a2&gt; or &lt;a4&gt;&lt;c5&gt;NativeLibrary&lt;/c5&gt;&lt;/a4&gt; component. For each &lt;a6&gt;&lt;c7&gt;ProjectNativeBinary&lt;/c7&gt;&lt;/a6&gt; configured for the main component, a matching &lt;a8&gt;&lt;c9&gt;TestSuiteExecutableBinary&lt;/c9&gt;&lt;/a8&gt; will be configured on the test suite component. These test suite binaries can be configured in a similar way to any other binary instance:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T061706Z" creationid="huanghaohang" creationdate="20190611T061706Z">
+        <seg>一个 &lt;a0&gt;&lt;c1&gt;CUnitTestSuite&lt;/c1&gt;&lt;/a0&gt; 组件有一个相关联的 &lt;a2&gt;&lt;c3&gt;NativeExecutable&lt;/c3&gt;&lt;/a2&gt; 或 &lt;a4&gt;&lt;c5&gt;NativeLibrary&lt;/c5&gt;&lt;/a4&gt; 组件。对于为主组件配置的每一个 &lt;a6&gt;&lt;c7&gt;ProjectNativeBinary&lt;/c7&gt;&lt;/a6&gt;，在测试套件组件上都会配置一个匹配的 &lt;a8&gt;&lt;c9&gt;TestSuiteExecutableBinary&lt;/c9&gt;&lt;/a8&gt; 。这些测试套件二进制文件可以使用一种与其他二进制实例类似的方式来配置：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A &lt;a0&gt;complete overwrite&lt;/a0&gt; causes all existing content to be discarded, thereby losing any changes made directly in the IDE. Alternatively, the &lt;c1&gt;beforeMerged&lt;/c1&gt; hook makes it possible to overwrite just certain parts of the existing content. The following example removes all existing dependencies from the &lt;c2&gt;Classpath&lt;/c2&gt; domain object:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084059Z" creationid="huanghaohang" creationdate="20181210T084059Z">
