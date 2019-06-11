@@ -15783,6 +15783,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>During this phase the project objects are configured. The build scripts of &lt;s0&gt;&lt;e1&gt;all&lt;/e1&gt;&lt;/s0&gt; projects which are part of the build are executed. Gradle 1.4 introduces an &lt;a2&gt;incubating&lt;/a2&gt; opt-in feature called &lt;e3&gt;configuration on demand&lt;/e3&gt;. In this mode, Gradle configures only relevant projects (see &lt;a4&gt;Section 56.1.1.1, “Configuration on demand”&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T104354Z" creationid="huanghaohang" creationdate="20190611T104354Z">
+        <seg>在这一阶段，对项目对象进行配置。属于构建部分的&lt;s0&gt;&lt;e1&gt;所有&lt;/e1&gt;&lt;/s0&gt;项目的构建脚本都会被执行。Gradle 1.4引入了一个&lt;a2&gt;试验性&lt;/a2&gt;的选择性加入功能，叫做&lt;e3&gt;按需配置&lt;/e3&gt;。在这个模式下，Gradle 只会配置相关的项目（请参阅 &lt;a4&gt;第 56.1.1.1 节，“按需配置”&lt;/a4&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Dynamic configuration from Gradle build scripts</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T150635Z" creationid="huanghaohang" creationdate="20181201T150635Z">
