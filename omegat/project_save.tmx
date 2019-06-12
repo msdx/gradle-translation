@@ -8118,6 +8118,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.3.2.2. Flat layouts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T152529Z" creationid="huanghaohang" creationdate="20190612T152529Z">
+        <seg>55.3.2.2. 扁平布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>55.3.2. Building the tree</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T151006Z" creationid="huanghaohang" creationdate="20190612T151006Z">
@@ -18761,6 +18769,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 55.3. Flat layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T152539Z" creationid="huanghaohang" creationdate="20190612T152539Z">
+        <seg>示例 55.3. 扁平布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -26801,6 +26817,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T152511Z" creationid="huanghaohang" creationdate="20190612T152511Z">
         <seg>&lt;c0&gt;include&lt;/c0&gt; 方法把项目路径作为参数。项目路径被假定为等于物理文件系统相对路径。例如，默认情况下，路径“services:api”会映射到文件夹“services/api”（相对于根项目）。你只需要指定树的叶。这意味着包含路径“services:hotels:api”将导致创建三个项目：“services”，“services:hotels”和“services:hotels:api”。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;includeFlat&lt;/c0&gt; method takes directory names as an argument. Those directories need to exist as siblings of the root project directory. The location of those directories are considered as child projects of the root project in the multi-project tree.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T152746Z" creationid="huanghaohang" creationdate="20190612T152746Z">
+        <seg>&lt;c0&gt;includeFlat&lt;/c0&gt; 方法以目录名称为参数。这些目录需要作为根项目目录的同级存在，它们的位置会被视为多项目树中根项目的子项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40261,6 +40285,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T041839Z" creationid="huanghaohang" creationdate="20180406T041839Z">
         <seg>includeCategories &lt;s0&gt;'org.gradle.junit.CategoryA'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>includeFlat &lt;s0&gt;'project3'&lt;/s0&gt;, &lt;s1&gt;'project4'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T152541Z" creationid="huanghaohang" creationdate="20190612T152541Z">
+        <seg>includeFlat &lt;s0&gt;'project3'&lt;/s0&gt;, &lt;s1&gt;'project4'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
