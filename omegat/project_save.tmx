@@ -586,6 +586,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.initialization.Settings.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145531Z" creationid="huanghaohang" creationdate="20190612T145531Z">
+        <seg>../dsl/org.gradle.api.initialization.Settings.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.invocation.Gradle.html#org.gradle.api.invocation.Gradle:useLogger(java.lang.Object)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025722Z" creationid="huanghaohang" creationdate="20180107T025722Z">
@@ -8094,6 +8102,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.3. Multi-project builds</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145721Z" creationid="huanghaohang" creationdate="20190612T145721Z">
+        <seg>55.3. 多项目构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -11993,6 +12009,32 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle test
+This is executed during the initialization phase.
+This is executed during the configuration phase.
+This is also executed during the configuration phase.
+:test
+This is executed during the execution phase.
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145525Z" creationid="huanghaohang" creationdate="20190612T145525Z">
+        <seg>&gt; gradle test
+This is executed during the initialization phase.
+This is executed during the configuration phase.
+This is also executed during the configuration phase.
+:test
+This is executed during the execution phase.
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle transform
 :transform
 Transforming source file.</seg>
@@ -12243,6 +12285,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T035710Z" creationid="huanghaohang" creationdate="20190605T034907Z">
         <seg>一个模块的状态及状态模式，会在解析 &lt;c0&gt;latest&lt;/c0&gt; 版本选择器时考虑到。具体而言，&lt;c1&gt;latest.someStatus&lt;/c1&gt; 会解析成有着 &lt;c2&gt;someStatus&lt;/c2&gt; 或更成熟状态的最高模块版本。例如，如果其他地方存在默认的状态模式，那么 &lt;c3&gt;latest.integration&lt;/c3&gt; 将选择最高的模块版本，而不考虑其状态（因为 &lt;c4&gt;integration&lt;/c4&gt; 是成熟度最低的状态），而 &lt;c5&gt;latest.release&lt;/c5&gt; 将选择 &lt;c6&gt;release&lt;/c6&gt; 状态的最高模块版本。以下是在代码中的表现：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A multi-project build is a build where you build more than one project during a single execution of Gradle. You have to declare the projects taking part in the multiproject build in the settings file. There is much more to say about multi-project builds in the chapter dedicated to this topic (see &lt;a0&gt;Chapter 56, &lt;i1&gt;Multi-project Builds&lt;/i1&gt;&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T150035Z" creationid="huanghaohang" creationdate="20190612T150035Z">
+        <seg>多项目构建是指在一个 Gradle 执行中构建多个项目的构建。你必须在设置文件中声明参与多项目构建的项目。关于多项目构建，在专门讨论这一主题的章节中还有更多的介绍（参见《&lt;a0&gt;第五十六章，&lt;i1&gt;多项目构建&lt;/i1&gt;&lt;/a0&gt;》）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18671,6 +18721,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 55.1. Single project build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145512Z" creationid="huanghaohang" creationdate="20190612T145512Z">
+        <seg>示例 55.1. 单项目构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -19427,6 +19485,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T072131Z" creationid="95" creationdate="20170723T071728Z">
         <seg>对于分享Python或Ruby知识并且乐于学习它们的Java团队来说，上面的论据并不适用。Gradle设计非常适全于在JRuby或Jython中创建另一种构建脚本引擎。目前我们并没有最高的优先级，我们很高兴任何社区来努力创建其他的构建脚本引擎。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a build script, the property access and method calls are delegated to a project object. Similarly property access and method calls within the settings file is delegated to a settings object. Have a look at &lt;a0&gt;&lt;c1&gt;Settings&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145715Z" creationid="huanghaohang" creationdate="20190612T145715Z">
+        <seg>对于一个构建脚本，属性访问和方法调用会委托给一个项目对象。同样，设置文件中的属性访问和方法调用也会委派给设置对象。可以看一下 &lt;a0&gt;&lt;c1&gt;Settings&lt;/c1&gt;&lt;/a0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23819,6 +23885,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T140516Z" creationid="huanghaohang" creationdate="20190608T140516Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle signStuffZip&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle test&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145539Z" creationid="huanghaohang" creationdate="20190612T145523Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle test&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -43044,6 +43118,26 @@ task intro(dependsOn: hello) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'This is executed during the configuration phase.'&lt;/s0&gt;
+
+task configured {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145514Z" creationid="huanghaohang" creationdate="20190612T145514Z">
+        <seg>println &lt;s0&gt;'This is executed during the configuration phase.'&lt;/s0&gt;
+
+task configured {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;'This is executed during the initialization phase.'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145513Z" creationid="huanghaohang" creationdate="20190612T145513Z">
+        <seg>println &lt;s0&gt;'This is executed during the initialization phase.'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s0&gt;'This should not be printed if the task is disabled.'&lt;/s0&gt;
 }
 disableMe.enabled = false</seg>
@@ -43240,6 +43334,20 @@ hello.doLast {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'This is also executed during the configuration phase.'&lt;/s1&gt;
+}
+
+task test &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145514Z" creationid="huanghaohang" creationdate="20190612T145514Z">
+        <seg>println &lt;s1&gt;'This is also executed during the configuration phase.'&lt;/s1&gt;
+}
+
+task test &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;'compiling unit tests'&lt;/s1&gt;
 }
 
@@ -43396,6 +43504,16 @@ hello &lt;&lt; {</seg>
         <seg>println &lt;s2&gt;'Hello Mars'&lt;/s2&gt;
 }
 hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s2&gt;'This is executed during the execution phase.'&lt;/s2&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145515Z" creationid="huanghaohang" creationdate="20190612T145515Z">
+        <seg>println &lt;s2&gt;'This is executed during the execution phase.'&lt;/s2&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
