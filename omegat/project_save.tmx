@@ -21281,6 +21281,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If a &lt;c0&gt;settings.gradle&lt;/c0&gt; file is found, Gradle checks if the current project is part of the multiproject hierarchy defined in the found &lt;c1&gt;settings.gradle&lt;/c1&gt; file. If not, the build is executed as a single project build. Otherwise a multiproject build is executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T161034Z" creationid="huanghaohang" creationdate="20190612T154114Z">
+        <seg>如果找到了&lt;c0&gt;settings.gradle&lt;/c0&gt; 文件，那么 Gradle 会检查当前项目是否为所找到的&lt;c1&gt;settings.gradle&lt;/c1&gt; 文件中定义的多项目层次结构的一部分。如果不是，这个构建还是作为单项目构建执行；否则作为多项目构建执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If a binary variant cannot be built for any reason, then the &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; associated with that variant will not be &lt;c2&gt;buildable&lt;/c2&gt;. It is possible to use this property to create a task to generate all possible variants on a particular machine.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084304Z" creationid="huanghaohang" creationdate="20190610T084304Z">
@@ -21317,6 +21325,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030832Z" creationid="huanghaohang" creationdate="20190603T030703Z">
         <seg>如果仓库需要认证，那么可以提供相关的凭证。以下示例展示了如何为 SFTP 仓库提供基于用户名/密码的认证：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no &lt;c0&gt;settings.gradle&lt;/c0&gt; file is found, the build is executed as a single project build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153828Z" creationid="huanghaohang" creationdate="20190612T153828Z">
+        <seg>如果还是没有找到&lt;c0&gt;settings.gradle&lt;/c0&gt;文件，那么会将这个构建作为一个单项目构建来执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If no &lt;c0&gt;settings.gradle&lt;/c0&gt; is found, it searches the parent directories for the existence of a &lt;c1&gt;settings.gradle&lt;/c1&gt; file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153747Z" creationid="huanghaohang" creationdate="20190612T153747Z">
+        <seg>如果找不到&lt;c0&gt;settings.gradle&lt;/c0&gt;，它将在父目录里搜索&lt;c1&gt;settings.gradle&lt;/c1&gt;文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22221,6 +22245,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060218Z" creationid="huanghaohang" creationdate="20171031T071359Z">
         <seg>在可能的情况下，最好是使用 &lt;c0&gt;Copy&lt;/c0&gt; 任务，因为它支持增量构建和任务依赖关系推理，而不需要你的额外付出。该 &lt;c1&gt;copy()&lt;/c1&gt; 方法可以作为一个任务的实现的 &lt;s2&gt;&lt;e3&gt;一部分&lt;/e3&gt;&lt;/s2&gt; 来复制文件。也就是说，这个复制方法旨在用于自定义任务（&lt;a4&gt;《第五十七章，&lt;i5&gt;编写自定义任务类&lt;/i5&gt;》&lt;/a4&gt;)中，需要把文件复制作为其中一部分功能的时候。在这种情况下，自定义任务应充分声明与复制操作相关的输入和输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>It searches for a &lt;c0&gt;settings.gradle&lt;/c0&gt; in a directory called &lt;c1&gt;master&lt;/c1&gt; which has the same nesting level as the current dir.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153712Z" creationid="huanghaohang" creationdate="20190612T153712Z">
+        <seg>它在名为 &lt;c1&gt;master&lt;/c1&gt; 的目录中搜索 &lt;c0&gt;settings.gradle&lt;/c0&gt;，该目录与当前目录有相同的嵌套级别。</seg>
       </tuv>
     </tu>
     <tu>
