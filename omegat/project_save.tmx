@@ -8110,6 +8110,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.3.2.1. Hierarchical layouts</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T151457Z" creationid="huanghaohang" creationdate="20190612T151457Z">
+        <seg>55.3.2.1. 分层布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>55.3.2. Building the tree</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T151006Z" creationid="huanghaohang" creationdate="20190612T151006Z">
@@ -18745,6 +18753,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 55.2. Hierarchical layout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T151514Z" creationid="huanghaohang" creationdate="20190612T151514Z">
+        <seg>示例 55.2. 分层布局</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -21749,6 +21765,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120437Z" creationid="huanghaohang" creationdate="20170918T151706Z">
         <seg>在入门教程（《&lt;a0&gt;第六章，&lt;i1&gt;构建脚本基础&lt;/i1&gt;&lt;/a0&gt;》）中，你已经学会了如何创建简单的任务。之后你还学习了如何在向任务添加额外的行为。你也已经学会了如何创建任务之间的依赖。这都是简单的任务。但是Gradle将任务的概念推得更深远。 Gradle支持&lt;e2&gt;增强任务&lt;/e2&gt;，也就是有自己的属性和方法的任务。这是真正的与你所使用的Ant目标（target）的不同之处。这些增强的任务可以由你或者是Gradle提供。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the settings file you can use a set of methods to build the project tree. Hierarchical and flat physical layouts get special support.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T151510Z" creationid="huanghaohang" creationdate="20190612T151450Z">
+        <seg>在设置文件中，你可以使用一组方法来构建项目树。其中，分层和扁平的物理布局有特别的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26769,6 +26793,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T075000Z" creationid="huanghaohang" creationdate="20171002T135621Z">
         <seg>该&lt;c0&gt;from()&lt;/c0&gt;方法接受和&lt;a1&gt;files()&lt;/a1&gt;方法一样的参数。当参数解析为目录时，该目录下的所有内容（除了该目录本身）将递归复制到目标目录中。当参数解析为文件时，该文件将被复制到目标目录中。当参数解析为不存在的文件时，该参数将被忽略。如果参数是一个任务，则复制任务的输出文件（即任务创建的文件），并将任务自动添加为&lt;c2&gt;Copy&lt;/c2&gt;任务的依赖项。该&lt;c3&gt;into()&lt;/c3&gt;接受和&lt;a4&gt;file()&lt;/a4&gt;方法一样的参数。这是另一个例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;include&lt;/c0&gt; method takes project paths as arguments. The project path is assumed to be equal to the relative physical file system path. For example, a path 'services:api' is mapped by default to a folder 'services/api' (relative from the project root). You only need to specify the leaves of the tree. This means that the inclusion of the path 'services:hotels:api' will result in creating 3 projects: 'services', 'services:hotels' and 'services:hotels:api'.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T152511Z" creationid="huanghaohang" creationdate="20190612T152511Z">
+        <seg>&lt;c0&gt;include&lt;/c0&gt; 方法把项目路径作为参数。项目路径被假定为等于物理文件系统相对路径。例如，默认情况下，路径“services:api”会映射到文件夹“services/api”（相对于根项目）。你只需要指定树的叶。这意味着包含路径“services:hotels:api”将导致创建三个项目：“services”，“services:hotels”和“services:hotels:api”。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40103,6 +40135,14 @@ gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T123539Z" creationid="95" creationdate="20170803T123539Z">
         <seg>include &lt;s0&gt;"shared"&lt;/s0&gt;, &lt;s1&gt;"api"&lt;/s1&gt;, &lt;s2&gt;"services:webservice"&lt;/s2&gt;, &lt;s3&gt;"services:shared"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include &lt;s0&gt;'project1'&lt;/s0&gt;, &lt;s1&gt;'project2:child'&lt;/s1&gt;, &lt;s2&gt;'project3:child1'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T151519Z" creationid="huanghaohang" creationdate="20190612T151519Z">
+        <seg>include &lt;s0&gt;'project1'&lt;/s0&gt;, &lt;s1&gt;'project2:child'&lt;/s1&gt;, &lt;s2&gt;'project3:child1'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
