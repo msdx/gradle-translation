@@ -342,6 +342,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N15E8A</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153333Z" creationid="huanghaohang" creationdate="20190612T153333Z">
+        <seg>#ftn.N15E8A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#include &lt;CUnit/Basic.h&gt;
 #include "gradle_cunit_register.h"
 #include "test_operators.h"
@@ -1806,6 +1814,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T100047Z" creationid="haohang" creationdate="20180320T100047Z">
         <seg>../javadoc/org/gradle/api/file/SourceDirectorySet.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/initialization/ProjectDescriptor.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153218Z" creationid="huanghaohang" creationdate="20190612T153218Z">
+        <seg>../javadoc/org/gradle/api/initialization/ProjectDescriptor.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -8146,6 +8162,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145721Z" creationid="huanghaohang" creationdate="20190612T145721Z">
         <seg>55.3. 多项目构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>55.4. Initialization</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153236Z" creationid="huanghaohang" creationdate="20190612T153236Z">
+        <seg>55.4. 初始化</seg>
       </tuv>
     </tu>
     <tu>
@@ -18793,6 +18817,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 55.5. Modification of elements of the project tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153100Z" creationid="huanghaohang" creationdate="20190612T153100Z">
+        <seg>示例 55.5. 修改项目树中的元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -20913,6 +20945,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Have a look at &lt;a0&gt;&lt;c1&gt;ProjectDescriptor&lt;/c1&gt;&lt;/a0&gt; for more details.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153228Z" creationid="huanghaohang" creationdate="20190612T153228Z">
+        <seg>更多信息请参阅 &lt;a0&gt;&lt;c1&gt;ProjectDescriptor&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Have a look at &lt;a0&gt;&lt;c1&gt;TaskContainer&lt;/c1&gt;&lt;/a0&gt; for more options for locating tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T122048Z" creationid="huanghaohang" creationdate="20170919T122048Z">
@@ -21069,6 +21109,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T044633Z" creationid="huanghaohang" creationdate="20170908T044250Z">
         <seg>Gradle是如何找到外部依赖的文件的呢？它通过在一个&lt;e0&gt;仓库&lt;/e0&gt;去查找它们。仓库只是文件的一个集合，由&lt;c1&gt;group&lt;/c1&gt;， &lt;c2&gt;name&lt;/c2&gt;和&lt;c3&gt;version&lt;/c3&gt;来组织。 Gradle支持几种不同的仓库格式，例如Maven和Ivy；以及访问仓库的几种不同方法，例如使用本地文件系统或HTTP。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>How does Gradle know whether to do a single or multiproject build? If you trigger a multiproject build from the directory where the settings file is, things are easy. But Gradle also allows you to execute the build from within any subproject taking part in the build. &lt;s0&gt;[&lt;a1&gt;20&lt;/a1&gt;]&lt;/s0&gt; If you execute Gradle from within a project that has no &lt;c2&gt;settings.gradle&lt;/c2&gt; file, Gradle does the following:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153610Z" creationid="huanghaohang" creationdate="20190612T153610Z">
+        <seg>Gradle 是怎么知道要构建单个或多项目呢？如果你在一个有设置文件的目录中触发多项目构建，那么情况很简单。但 Gradle 也允许你在参与构建的任意子项目中执行构建。&lt;s0&gt;[&lt;a1&gt;20&lt;/a1&gt;]&lt;/s0&gt; 如果你在没有 &lt;c2&gt;settings.gradle&lt;/c2&gt; 文件的项目中执行 Gradle，Gradle 将执行以下操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -31631,8 +31679,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>Using this descriptor you can change the name, project directory and build file of a project.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153040Z" creationid="huanghaohang" creationdate="20190612T153040Z">
-        <seg>通过使用这个描述符，你可以更改项目的名称、项目目录和构建文件。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153154Z" creationid="huanghaohang" creationdate="20190612T153040Z">
+        <seg>通过使用这个描述符，你可以更改项目的名称、目录和构建文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45038,6 +45086,18 @@ void gradle_cunit_register() {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092742Z" creationid="huanghaohang" creationdate="20190124T092742Z">
         <seg>rootProject {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rootProject.name = &lt;s0&gt;'main'&lt;/s0&gt;
+project(&lt;s1&gt;':projectA'&lt;/s1&gt;).projectDir = &lt;s2&gt;new&lt;/s2&gt; File(settingsDir, &lt;s3&gt;'../my-project-a'&lt;/s3&gt;)
+project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gradle'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153214Z" creationid="huanghaohang" creationdate="20190612T153214Z">
+        <seg>rootProject.name = &lt;s0&gt;'main'&lt;/s0&gt;
+project(&lt;s1&gt;':projectA'&lt;/s1&gt;).projectDir = &lt;s2&gt;new&lt;/s2&gt; File(settingsDir, &lt;s3&gt;'../my-project-a'&lt;/s3&gt;)
+project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gradle'&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
