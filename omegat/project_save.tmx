@@ -8134,6 +8134,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.3.3. Modifying elements of the project tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T152825Z" creationid="huanghaohang" creationdate="20190612T152825Z">
+        <seg>55.3.3. 修改项目树元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>55.3. Multi-project builds</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145721Z" creationid="huanghaohang" creationdate="20190612T145721Z">
@@ -18777,6 +18785,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 55.4. Modification of elements of the project tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T152957Z" creationid="huanghaohang" creationdate="20190612T152957Z">
+        <seg>示例 55.4. 修改项目树中的元素</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -29229,6 +29245,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The multi-project tree created in the settings file is made up of so called &lt;e0&gt;project descriptors&lt;/e0&gt;. You can modify these descriptors in the settings file at any time. To access a descriptor you can do:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T152952Z" creationid="huanghaohang" creationdate="20190612T152952Z">
+        <seg>在设置文件中创建的多项目树由所谓的&lt;e0&gt;项目描述符&lt;/e0&gt;组成。你可以随时修改设置文件中的这些描述符。你可以这样访问一个描述符：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The name and version of the project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T100452Z" creationid="haohang" creationdate="20180326T100452Z">
@@ -31601,6 +31625,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T093039Z" creationid="huanghaohang" creationdate="20180218T093039Z">
         <seg>使用归档的内容作为文件树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using this descriptor you can change the name, project directory and build file of a project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153040Z" creationid="huanghaohang" creationdate="20190612T153040Z">
+        <seg>通过使用这个描述符，你可以更改项目的名称、项目目录和构建文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44146,6 +44178,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025257Z" creationid="huanghaohang" creationdate="20190604T025257Z">
         <seg>println repositories[&lt;s0&gt;'localRepository'&lt;/s0&gt;].name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println rootProject.name
+println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T152959Z" creationid="huanghaohang" creationdate="20190612T152959Z">
+        <seg>println rootProject.name
+println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
     </tu>
     <tu>
