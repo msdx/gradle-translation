@@ -8102,6 +8102,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.3.1. Project locations</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T150143Z" creationid="huanghaohang" creationdate="20190612T150143Z">
+        <seg>55.3.1. 项目位置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>55.3. Multi-project builds</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145721Z" creationid="huanghaohang" creationdate="20190612T145721Z">
@@ -22881,6 +22889,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Multi-project builds are always represented by a tree with a single root. Each element in the tree represents a project. A project has a path which denotes the position of the project in the multi-project build tree. In majority of cases the project path is consistent with the physical location of the project in the file system. However, this behavior is configurable. The project tree is created in the &lt;c0&gt;settings.gradle&lt;/c0&gt; file. By default it is assumed that the location of the settings file is also the location of the root project. But you can redefine the location of the root project in the settings file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T150956Z" creationid="huanghaohang" creationdate="20190612T150956Z">
+        <seg>多项目构建总是由一个具有单个根节点的树表示。树中的每个元素都表示一个项目。 项目具有表示项目在多项目构建树中的位置的路径。 在大多数情况下，项目路径与文件系统中项目的物理位置一致。 但是，此行为是可配置的。 将在 &lt;c0&gt;settings.gradle&lt;/c0&gt; 文件中创建项目树。 缺省情况下，假定设置文件的位置也是根项目的位置。 但是，您可以在设置文件中重新定义根项目的位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Multi-project builds are discussed in&lt;a0&gt;Chapter 56, &lt;i1&gt;Multi-project Builds&lt;/i1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190601T112408Z" creationid="huanghaohang" creationdate="20190601T112408Z">
@@ -29527,8 +29543,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The settings file gets executed during the initialization phase. A multiproject build must have a &lt;c0&gt;settings.gradle&lt;/c0&gt; file in the root project of the multiproject hierarchy. It is required because in the settings file it is defined, which projects are taking part in the multi-project build (see &lt;a1&gt;Chapter 56, &lt;i2&gt;Multi-project Builds&lt;/i2&gt;&lt;/a1&gt;). For a single-project build, a settings file is optional. You might need it for example, to add libraries to your build script classpath (see &lt;a3&gt;Chapter 59, &lt;i4&gt;Organizing Build Logic&lt;/i4&gt;&lt;/a3&gt;). Let's first do some introspection with a single project build:</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145509Z" creationid="huanghaohang" creationdate="20190612T145509Z">
-        <seg>这个设置文件会在初始化阶段执行。多项目构建必须在这个多项目的层次结构的根项目下有一个 &lt;c0&gt;settings.gradle&lt;/c0&gt; 文件。这个文件是必不可少的，因为在这个设置文件中，定义了哪些项目会加处多项目构建（见《&lt;a1&gt;第五十六章， &lt;i2&gt;多项目构建&lt;/i2&gt;&lt;/a1&gt;》）。对于单项目构建，有没有设置文件都可以。例如，你可能需要它将一些库添加到构建脚本类路径中（见《&lt;a3&gt;第五十九章，&lt;i4&gt;组织构建逻辑&lt;/i4&gt;&lt;/a3&gt;》）。我们先来看一个单项目的构建：</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T150132Z" creationid="huanghaohang" creationdate="20190612T145509Z">
+        <seg>这个设置文件会在初始化阶段执行。多项目构建必须在这个多项目的层次结构的根项目下有一个 &lt;c0&gt;settings.gradle&lt;/c0&gt; 文件。这个文件是必不可少的，因为在这个设置文件中，定义了哪些项目会加处多项目构建（见《&lt;a1&gt;第五十六章，&lt;i2&gt;多项目构建&lt;/i2&gt;&lt;/a1&gt;》）。对于单项目构建，有没有设置文件都可以。例如，你可能需要它将一些库添加到构建脚本类路径中（见《&lt;a3&gt;第五十九章，&lt;i4&gt;组织构建逻辑&lt;/i4&gt;&lt;/a3&gt;》）。我们先来看一个单项目的构建：</seg>
       </tuv>
     </tu>
     <tu>
