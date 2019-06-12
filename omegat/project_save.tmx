@@ -8086,6 +8086,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.2. Settings file</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T142853Z" creationid="huanghaohang" creationdate="20190612T142853Z">
+        <seg>55.2. 设置文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -13787,6 +13795,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031022Z" creationid="huanghaohang" creationdate="20170909T031022Z">
         <seg>下面定义了四个任务，其中&lt;c0&gt;dist&lt;/c0&gt;和&lt;c1&gt;test&lt;/c1&gt;都依赖于&lt;c2&gt;compile&lt;/c2&gt;任务。对于这个构建脚本，运行&lt;s3&gt;&lt;c4&gt;gradle dist test&lt;/c4&gt;&lt;/s3&gt;只会使&lt;c5&gt;compile&lt;/c5&gt;任务被执行一次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Beside the build script files, Gradle defines a settings file. The settings file is determined by Gradle via a naming convention. The default name for this file is &lt;c0&gt;settings.gradle&lt;/c0&gt;. Later in this chapter we explain how Gradle looks for a settings file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T143136Z" creationid="huanghaohang" creationdate="20190612T143136Z">
+        <seg>在构建脚本文件旁边，Gradle 定义了一个设置文件。这个设置文件是 Gradle 通过命名约定来决定的，它的默认名称是 &lt;c0&gt;settings.gradle&lt;/c0&gt;。在本章中，稍后我们会解释 Gradle 是如何查找设置文件的。</seg>
       </tuv>
     </tu>
     <tu>
