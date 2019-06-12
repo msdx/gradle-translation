@@ -29451,6 +29451,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The settings file gets executed during the initialization phase. A multiproject build must have a &lt;c0&gt;settings.gradle&lt;/c0&gt; file in the root project of the multiproject hierarchy. It is required because in the settings file it is defined, which projects are taking part in the multi-project build (see &lt;a1&gt;Chapter 56, &lt;i2&gt;Multi-project Builds&lt;/i2&gt;&lt;/a1&gt;). For a single-project build, a settings file is optional. You might need it for example, to add libraries to your build script classpath (see &lt;a3&gt;Chapter 59, &lt;i4&gt;Organizing Build Logic&lt;/i4&gt;&lt;/a3&gt;). Let's first do some introspection with a single project build:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145509Z" creationid="huanghaohang" creationdate="20190612T145509Z">
+        <seg>这个设置文件会在初始化阶段执行。多项目构建必须在这个多项目的层次结构的根项目下有一个 &lt;c0&gt;settings.gradle&lt;/c0&gt; 文件。这个文件是必不可少的，因为在这个设置文件中，定义了哪些项目会加处多项目构建（见《&lt;a1&gt;第五十六章， &lt;i2&gt;多项目构建&lt;/i2&gt;&lt;/a1&gt;》）。对于单项目构建，有没有设置文件都可以。例如，你可能需要它将一些库添加到构建脚本类路径中（见《&lt;a3&gt;第五十九章，&lt;i4&gt;组织构建逻辑&lt;/i4&gt;&lt;/a3&gt;》）。我们先来看一个单项目的构建：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The signing plugin adds the ability to digitally sign built files and artifacts. These digital signatures can then be used to prove who built the artifact the signature is attached to as well as other information such as when the signature was generated.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T130251Z" creationid="huanghaohang" creationdate="20190608T130251Z">
