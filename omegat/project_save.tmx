@@ -8110,6 +8110,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.3.2. Building the tree</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T151006Z" creationid="huanghaohang" creationdate="20190612T151006Z">
+        <seg>55.3.2. 构建树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>55.3. Multi-project builds</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T145721Z" creationid="huanghaohang" creationdate="20190612T145721Z">
@@ -22891,8 +22899,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Multi-project builds are always represented by a tree with a single root. Each element in the tree represents a project. A project has a path which denotes the position of the project in the multi-project build tree. In majority of cases the project path is consistent with the physical location of the project in the file system. However, this behavior is configurable. The project tree is created in the &lt;c0&gt;settings.gradle&lt;/c0&gt; file. By default it is assumed that the location of the settings file is also the location of the root project. But you can redefine the location of the root project in the settings file.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T150956Z" creationid="huanghaohang" creationdate="20190612T150956Z">
-        <seg>多项目构建总是由一个具有单个根节点的树表示。树中的每个元素都表示一个项目。 项目具有表示项目在多项目构建树中的位置的路径。 在大多数情况下，项目路径与文件系统中项目的物理位置一致。 但是，此行为是可配置的。 将在 &lt;c0&gt;settings.gradle&lt;/c0&gt; 文件中创建项目树。 缺省情况下，假定设置文件的位置也是根项目的位置。 但是，您可以在设置文件中重新定义根项目的位置。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T151252Z" creationid="huanghaohang" creationdate="20190612T150956Z">
+        <seg>多项目构建总是由一个具有单个根节点的树表示。树中的每个元素都表示一个项目。一个项目有一个路径，表示其在多项目构建树中的位置。在大多数情况下，项目路径与文件系统中项目的物理位置一致。但是，这种行为是可配置的。项目树在 &lt;c0&gt;settings.gradle&lt;/c0&gt; 文件中创建。默认情况下它假定设置文件的位置也是根项目的位置，但你可以在设置文件中重新定义根项目的位置。</seg>
       </tuv>
     </tu>
     <tu>
