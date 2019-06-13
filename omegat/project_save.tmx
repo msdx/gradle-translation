@@ -190,6 +190,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#N15E8A</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152659Z" creationid="huanghaohang" creationdate="20190613T152659Z">
+        <seg>#N15E8A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#ftn.N100BF</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T070853Z" creationid="95" creationdate="20170723T070853Z">
@@ -10103,6 +10111,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;[&lt;a1&gt;20&lt;/a1&gt;] &lt;/s0&gt;Gradle supports partial multiproject builds (see &lt;a2&gt;Chapter 56, &lt;i3&gt;Multi-project Builds&lt;/i3&gt;&lt;/a2&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152830Z" creationid="huanghaohang" creationdate="20190613T152759Z">
+        <seg>&lt;s0&gt;[&lt;a1&gt;20&lt;/a1&gt;] &lt;/s0&gt;Gradle 支持部分多项目构建（参见《&lt;a2&gt;第五十六章，&lt;i3&gt;多项目构建&lt;/i3&gt;&lt;/a2&gt;》）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;[&lt;a1&gt;2&lt;/a1&gt;] &lt;/s0&gt;There are command line switches to change this behavior. See &lt;a2&gt;Appendix D, &lt;i3&gt;Gradle Command Line&lt;/i3&gt;&lt;/a2&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T031034Z" creationid="95" creationdate="20170729T030917Z">
@@ -10265,6 +10281,20 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
 
 Logger slf4jLogger = LoggerFactory.getLogger(&lt;s2&gt;'some-logger'&lt;/s2&gt;)
 slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;throw&lt;/s0&gt; &lt;s1&gt;new&lt;/s1&gt; RuntimeException(&lt;s2&gt;'broken'&lt;/s2&gt;)
+}
+
+gradle.taskGraph.beforeTask { Task task -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152622Z" creationid="huanghaohang" creationdate="20190613T152622Z">
+        <seg>&lt;s0&gt;throw&lt;/s0&gt; &lt;s1&gt;new&lt;/s1&gt; RuntimeException(&lt;s2&gt;'broken'&lt;/s2&gt;)
+}
+
+gradle.taskGraph.beforeTask { Task task -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -10703,6 +10733,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s4&gt;if&lt;/s4&gt; (state.failure) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152623Z" creationid="huanghaohang" creationdate="20190613T152623Z">
+        <seg>&lt;s4&gt;if&lt;/s4&gt; (state.failure) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s4&gt;public&lt;/s4&gt; &lt;s5&gt;void&lt;/s5&gt; beforeExecute(Task task) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144027Z" creationid="huanghaohang" creationdate="20180107T144027Z">
@@ -10773,6 +10811,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T025005Z" creationid="huanghaohang" creationdate="20190605T025005Z">
         <seg>&lt;s6&gt;//prefer 'log4j-over-slf4j' over 'log4j', with fixed version:&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s6&gt;else&lt;/s6&gt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152625Z" creationid="huanghaohang" creationdate="20190613T152625Z">
+        <seg>&lt;s6&gt;else&lt;/s6&gt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -11011,6 +11057,22 @@ asDynamicObject: org.gradle.api.internal.ExtensibleDynamicObject@12345
 baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@12345
 buildDir: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build
 buildFile: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q broken
+executing task ':ok' ...
+done
+executing task ':broken' ...
+FAILED</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152637Z" creationid="huanghaohang" creationdate="20190613T152637Z">
+        <seg>&gt; gradle -q broken
+executing task ':ok' ...
+done
+executing task ':broken' ...
+FAILED</seg>
       </tuv>
     </tu>
     <tu>
@@ -23837,6 +23899,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q broken&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152629Z" creationid="huanghaohang" creationdate="20190613T152629Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q broken&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q check&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130255Z" creationid="huanghaohang" creationdate="20170912T130255Z">
@@ -33077,6 +33147,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T050945Z" creationid="huanghaohang" creationdate="20170908T050945Z">
         <seg>当然，你也可以发布到Maven仓库。语法略有不同。&lt;s0&gt;[&lt;a1&gt;4&lt;/a1&gt;]&lt;/s0&gt;请注意，你需要应用Maven插件才能发布到Maven存储库。在这种情况下，Gradle也会生成&lt;c2&gt;pom.xml&lt;/c2&gt;并上传。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can also use a &lt;a0&gt;&lt;c1&gt;TaskExecutionListener&lt;/c1&gt;&lt;/a0&gt; to the &lt;a2&gt;&lt;c3&gt;TaskExecutionGraph&lt;/c3&gt;&lt;/a2&gt; to receive these events.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152657Z" creationid="huanghaohang" creationdate="20190613T152657Z">
+        <seg>你也可以对 &lt;a2&gt;&lt;c3&gt;TaskExecutionGraph&lt;/c3&gt;&lt;/a2&gt; 使用一个 &lt;a0&gt;&lt;c1&gt;TaskExecutionListener&lt;/c1&gt;&lt;/a0&gt; 来接收这些事件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44238,6 +44316,20 @@ taskZ.shouldRunAfter taskX</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;"executing $task ..."&lt;/s3&gt;
+}
+
+gradle.taskGraph.afterTask { Task task, TaskState state -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152623Z" creationid="huanghaohang" creationdate="20190613T152623Z">
+        <seg>println &lt;s3&gt;"executing $task ..."&lt;/s3&gt;
+}
+
+gradle.taskGraph.afterTask { Task task, TaskState state -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s3&gt;'Default Running!'&lt;/s3&gt;
 }
 
@@ -44336,6 +44428,14 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s5&gt;"FAILED"&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152624Z" creationid="huanghaohang" creationdate="20190613T152624Z">
+        <seg>println &lt;s5&gt;"FAILED"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s5&gt;"I'm fond of $file.name"&lt;/s5&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T023512Z" creationid="95" creationdate="20170729T023512Z">
@@ -44376,6 +44476,14 @@ taskX.finalizedBy taskY</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084839Z" creationid="huanghaohang" creationdate="20170922T084839Z">
         <seg>println &lt;s6&gt;'I am not affected'&lt;/s6&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s7&gt;"done"&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152626Z" creationid="huanghaohang" creationdate="20190613T152626Z">
+        <seg>println &lt;s7&gt;"done"&lt;/s7&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -47680,6 +47788,18 @@ artifacts {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060919Z" creationid="huanghaohang" creationdate="20171126T060919Z">
         <seg>task nestedSpecs(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task ok
+
+task broken(dependsOn: ok) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152619Z" creationid="huanghaohang" creationdate="20190613T152619Z">
+        <seg>task ok
+
+task broken(dependsOn: ok) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
