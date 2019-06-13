@@ -19665,6 +19665,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For a single project build, the workflow of the &lt;s0&gt;&lt;e1&gt;after initialization&lt;/e1&gt;&lt;/s0&gt; phases are pretty simple. The build script is executed against the project object that was created during the initialization phase. Then Gradle looks for tasks with names equal to those passed as command line arguments. If these task names exist, they are executed as a separate build in the order you have passed them. The configuration and execution for multi-project builds is discussed in &lt;a2&gt;Chapter 56, &lt;i3&gt;Multi-project Builds&lt;/i3&gt;&lt;/a2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145126Z" creationid="huanghaohang" creationdate="20190613T145126Z">
+        <seg>对于单项目构建， &lt;s0&gt;&lt;e1&gt;初始化后&lt;/e1&gt;&lt;/s0&gt; 阶段的工作流程相当简单。构建脚本会针对初始化阶段期间创建的项目对象执行。然后 Gradle 会查找与作为命令行参数传进来的名称相同的任务名。如果这些任务名存在，那么会按参数的顺序将这些任务作为单独的构建执行。关于多项目构建的配置与执行，在《&lt;a2&gt;第五十六章，&lt;i3&gt;多项目构建&lt;/i3&gt;&lt;/a2&gt;》中有论述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For a task to be “signable”, it must produce an archive of some type. Tasks that do this are the &lt;a0&gt;&lt;c1&gt;Tar&lt;/c1&gt;&lt;/a0&gt;, &lt;a2&gt;&lt;c3&gt;Zip&lt;/c3&gt;&lt;/a2&gt;, &lt;a4&gt;&lt;c5&gt;Jar&lt;/c5&gt;&lt;/a4&gt;, &lt;a6&gt;&lt;c7&gt;War&lt;/c7&gt;&lt;/a6&gt; and &lt;a8&gt;&lt;c9&gt;Ear&lt;/c9&gt;&lt;/a8&gt; tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T140750Z" creationid="huanghaohang" creationdate="20190608T140750Z">
