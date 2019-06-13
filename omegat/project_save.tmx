@@ -602,6 +602,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.invocation.Gradle.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150833Z" creationid="huanghaohang" creationdate="20190613T150833Z">
+        <seg>../dsl/org.gradle.api.invocation.Gradle.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.invocation.Gradle.html#org.gradle.api.invocation.Gradle:useLogger(java.lang.Object)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025722Z" creationid="huanghaohang" creationdate="20180107T025722Z">
@@ -8190,6 +8198,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.6.2. Task creation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150903Z" creationid="huanghaohang" creationdate="20190613T150903Z">
+        <seg>55.6.2. 任务创建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>55.6. Responding to the lifecycle in the build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145132Z" creationid="huanghaohang" creationdate="20190613T145132Z">
@@ -10167,6 +10183,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (projectState.failure) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150829Z" creationid="huanghaohang" creationdate="20190613T150829Z">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (projectState.failure) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;if&lt;/s0&gt; (toolChain in Gcc &amp;&amp; buildType == buildTypes.debug) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035731Z" creationid="huanghaohang" creationdate="20190610T035731Z">
@@ -11695,6 +11719,20 @@ Running tests for project ':projectA'</seg>
         <seg>&gt; gradle -q test
 Adding test task to project ':projectA'
 Running tests for project ':projectA'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q test
+Evaluation of root project 'buildProjectEvaluateEvents' succeeded
+Evaluation of project ':projectA' succeeded
+Evaluation of project ':projectB' FAILED</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150832Z" creationid="huanghaohang" creationdate="20190613T150832Z">
+        <seg>&gt; gradle -q test
+Evaluation of root project 'buildProjectEvaluateEvents' succeeded
+Evaluation of project ':projectA' succeeded
+Evaluation of project ':projectB' FAILED</seg>
       </tuv>
     </tu>
     <tu>
@@ -18881,6 +18919,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145903Z" creationid="huanghaohang" creationdate="20190613T145903Z">
         <seg>示例 55.6. 向每个包含某些属性集的项目添加测试任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 55.7. Notifications</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150827Z" creationid="huanghaohang" creationdate="20190613T150827Z">
+        <seg>示例 55.7. 通知</seg>
       </tuv>
     </tu>
     <tu>
@@ -29281,6 +29327,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following example sets the &lt;c0&gt;srcDir&lt;/c0&gt; property of each task as it is created.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T151221Z" creationid="huanghaohang" creationdate="20190613T151221Z">
+        <seg>下面的示例是在每个任务创建之前设置 &lt;c0&gt;srcDir&lt;/c0&gt; 属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following properties can alternatively be set from the command line, as task parameters of the &lt;c0&gt;sonarAnalyze&lt;/c0&gt; task. A task parameter will override any corresponding value set in the build script.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181012T085258Z" creationid="huanghaohang" creationdate="20181012T084818Z">
@@ -32849,6 +32903,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also add a &lt;a0&gt;&lt;c1&gt;ProjectEvaluationListener&lt;/c1&gt;&lt;/a0&gt; to the &lt;a2&gt;&lt;c3&gt;Gradle&lt;/c3&gt;&lt;/a2&gt; to receive these events.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150900Z" creationid="huanghaohang" creationdate="20190613T150900Z">
+        <seg>你也可以将一个 &lt;a0&gt;&lt;c1&gt;ProjectEvaluationListener&lt;/c1&gt;&lt;/a0&gt; 添加到 &lt;a2&gt;&lt;c3&gt;Gradle&lt;/c3&gt;&lt;/a2&gt; 中，来接收这些事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also add properties directly to your project object via the &lt;c0&gt;-P&lt;/c0&gt; command line option. For more exotic use cases you can even pass properties &lt;s1&gt;&lt;e2&gt;directly&lt;/e2&gt;&lt;/s1&gt; to the project object via system and environment properties. For example if you run a build on a continuous integration server where you have no admin rights for the &lt;s3&gt;&lt;e4&gt;machine&lt;/e4&gt;&lt;/s3&gt;. Your build script needs properties which values should not be seen by others. Therefore you can't use the &lt;c5&gt;-P&lt;/c5&gt; option. In this case you can add an environment property in the project administration section (invisible to normal users). &lt;s6&gt;[&lt;a7&gt;6&lt;/a7&gt;]&lt;/s6&gt; If the environment property follows the pattern &lt;c8&gt;ORG_GRADLE_PROJECT_&lt;e9&gt;&lt;c10&gt;propertyName&lt;/c10&gt;&lt;/e9&gt;=somevalue&lt;/c8&gt;, &lt;c11&gt;propertyName&lt;/c11&gt; is added to your project object. We also support the same mechanism for system properties. The only difference is the pattern, which is &lt;c12&gt;org.gradle.project.&lt;e13&gt;&lt;c14&gt;propertyName&lt;/c14&gt;&lt;/e13&gt;&lt;/c12&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T134625Z" creationid="huanghaohang" creationdate="20170917T133700Z">
@@ -33181,6 +33243,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T022954Z" creationid="huanghaohang" creationdate="20190606T022954Z">
         <seg>你可以阅读&lt;a0&gt;第 64 章《，&lt;i1&gt;Ivy 发布（新）&lt;/i1&gt;》&lt;/a0&gt;及&lt;a2&gt;第 65 章，《&lt;i3&gt;Maven 发布（新）&lt;/i3&gt;》&lt;/a2&gt;中新发布插件的内容。请尝试它们，并向我们反馈。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can receive a notification immediately after a task is added to a project. This can be used to set some default values or add behaviour before the task is made available in the build file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T151207Z" creationid="huanghaohang" creationdate="20190613T151207Z">
+        <seg>你可以在有任务添加到项目后立即收到通知。这可以用来在构建文件中的任务可用之前，设置一些默认值或添加行为。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39329,6 +39399,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>gradle.afterProject {project, projectState -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150829Z" creationid="huanghaohang" creationdate="20190613T150829Z">
+        <seg>gradle.afterProject {project, projectState -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>gradle.properties</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135020Z" creationid="huanghaohang" creationdate="20170917T135020Z">
@@ -43636,6 +43714,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;"Evaluation of $project FAILED"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150830Z" creationid="huanghaohang" creationdate="20190613T150830Z">
+        <seg>println &lt;s1&gt;"Evaluation of $project FAILED"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;"Greetings from the $hello.name task."&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -44000,6 +44086,14 @@ taskZ.shouldRunAfter taskX</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153804Z" creationid="95" creationdate="20170728T153804Z">
         <seg>println &lt;s3&gt;"${ant.properties[file.name]}"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;"Evaluation of $project succeeded"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150831Z" creationid="huanghaohang" creationdate="20190613T150831Z">
+        <seg>println &lt;s3&gt;"Evaluation of $project succeeded"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
