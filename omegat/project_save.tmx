@@ -8182,6 +8182,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.6.1. Project evaluation</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145502Z" creationid="huanghaohang" creationdate="20190613T145502Z">
+        <seg>55.6.1. 项目评估</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>55.6. Responding to the lifecycle in the build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145132Z" creationid="huanghaohang" creationdate="20190613T145132Z">
@@ -13925,6 +13933,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T031022Z" creationid="huanghaohang" creationdate="20170909T031022Z">
         <seg>下面定义了四个任务，其中&lt;c0&gt;dist&lt;/c0&gt;和&lt;c1&gt;test&lt;/c1&gt;都依赖于&lt;c2&gt;compile&lt;/c2&gt;任务。对于这个构建脚本，运行&lt;s3&gt;&lt;c4&gt;gradle dist test&lt;/c4&gt;&lt;/s3&gt;只会使&lt;c5&gt;compile&lt;/c5&gt;任务被执行一次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Below is an example which adds a &lt;c0&gt;test&lt;/c0&gt; task to each project with the &lt;c1&gt;hasTests&lt;/c1&gt; property set to true.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145815Z" creationid="huanghaohang" creationdate="20190613T145815Z">
+        <seg>下面是将一个 &lt;c0&gt;test&lt;/c0&gt; 任务添加到每个 &lt;c1&gt;hasTests&lt;/c1&gt; 属性为 true 的项目中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33113,6 +33129,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T022954Z" creationid="huanghaohang" creationdate="20190606T022954Z">
         <seg>你可以阅读&lt;a0&gt;第 64 章《，&lt;i1&gt;Ivy 发布（新）&lt;/i1&gt;》&lt;/a0&gt;及&lt;a2&gt;第 65 章，《&lt;i3&gt;Maven 发布（新）&lt;/i3&gt;》&lt;/a2&gt;中新发布插件的内容。请尝试它们，并向我们反馈。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can receive a notification immediately before and after a project is evaluated. This can be used to do things like performing additional configuration once all the definitions in a build script have been applied, or for some custom logging or profiling.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145724Z" creationid="huanghaohang" creationdate="20190613T145724Z">
+        <seg>你可以在评估项目前后立刻接收通知。这可以用来做一些事情，比如一旦应用了构建脚本中的所有定义，就执行额外的配置；或者是做一些自定义的日志记录或分析。</seg>
       </tuv>
     </tu>
     <tu>
