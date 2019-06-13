@@ -8136,8 +8136,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>55.3.2.2. Flat layouts</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T152529Z" creationid="huanghaohang" creationdate="20190612T152529Z">
-        <seg>55.3.2.2. 扁平布局</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143619Z" creationid="huanghaohang" creationdate="20190612T152529Z">
+        <seg>55.3.2.2. 平面布局</seg>
       </tuv>
     </tu>
     <tu>
@@ -8170,6 +8170,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153236Z" creationid="huanghaohang" creationdate="20190612T153236Z">
         <seg>55.4. 初始化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>55.5. Configuration and execution of a single project build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143657Z" creationid="huanghaohang" creationdate="20190613T143657Z">
+        <seg>55.5. 单项目构建的配置和执行</seg>
       </tuv>
     </tu>
     <tu>
@@ -18803,8 +18811,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Example 55.3. Flat layout</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T152539Z" creationid="huanghaohang" creationdate="20190612T152539Z">
-        <seg>示例 55.3. 扁平布局</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143630Z" creationid="huanghaohang" creationdate="20190612T152539Z">
+        <seg>示例 55.3. 平面布局</seg>
       </tuv>
     </tu>
     <tu>
@@ -21875,8 +21883,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>In the settings file you can use a set of methods to build the project tree. Hierarchical and flat physical layouts get special support.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143306Z" creationid="huanghaohang" creationdate="20190612T151450Z">
-        <seg>在设置文件中，你可以使用一组方法来构建项目树。其中，层次和扁平的物理布局有特别的支持。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143639Z" creationid="huanghaohang" creationdate="20190612T151450Z">
+        <seg>在设置文件中，你可以使用一组方法来构建项目树。其中，层次和平面的物理布局有特别的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28727,8 +28735,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>The auto search for a settings file does only work for multi-project builds with a physical hierarchical or flat layout. For a flat layout you must additionally obey to the naming convention described above. Gradle supports arbitrary physical layouts for a multiproject build. But for such arbitrary layouts you need to execute the build from the directory where the settings file is located. For how to run partial builds from the root see &lt;a0&gt;Section 56.4, “Running tasks by their absolute path”&lt;/a0&gt;. In our next release we want to enable partial builds from subprojects by specifying the location of the settings file as a command line parameter. Gradle creates Project objects for every project taking part in the build. For a single project build this is only one project. For a multi-project build these are the projects specified in Settings object (plus the root project). Each project object has by default a name equals to the name of its top level directory. Every project except the root project has a parent project and might have child projects.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143612Z" creationid="huanghaohang" creationdate="20190613T143612Z">
-        <seg>自动搜索设置文件只适用于具有物理上的层次结构或平面布局的多项目构建。对于平面布局，您还必须遵循上述命名约定。 Gradle支持多项目构建的任意物理布局。 但是，对于此类任意布局，您需要从设置文件所在的目录执行构建。 有关如何从root用户运行部分构建，请参阅 &lt;a0&gt;Section 56.4， "Running tasks by the absolute path"&lt;/a0&gt;。 在下一个发行版中，我们希望通过将设置文件的位置指定为命令行参数来启用子项目的部分构建。 Gradle为参与构建的每个项目创建项目对象。 对于单个项目，此构建仅为一个项目。 对于多项目构建，这些是在"设置"对象(加上根项目)中指定的项目。 缺省情况下，每个项目对象的名称都等于其顶级目录的名称。 除根项目之外的每个项目都有父项目，并且可能具有子项目。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T144603Z" creationid="huanghaohang" creationdate="20190613T143612Z">
+        <seg>自动搜索设置文件只适用于具有物理上的层次结构或平面布局的多项目构建。对于平面布局，你还必须遵循上面所述的命名约定。Gradle 支持多项目构建的任意物理布局。但是，对于这种任意布局，你需要从设置文件所在的目录执行构建。有关如何从根目录运行部分构建，请参阅《&lt;a0&gt;第56.4节，使用任务的绝对路径运行任务）&lt;/a0&gt;。在下个发行版中，我们希望通过在命令行参数中指定设置文件的路径，来从子项目中启用部分构建。Gradle 为参与构建的每个项目创建项目对象。对于单项目构建而言，它是一个项目对象。而对于多项目构建，它们是 Settings 对象指定的所有项目对象（加上根项目对象）。默认情况下，每个项目对象的名称是其顶级目录的名称。除根项目之外，每个项目都有父项目，并且可能还有子项目。</seg>
       </tuv>
     </tu>
     <tu>
