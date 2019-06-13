@@ -22213,6 +22213,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>It is also possible to receive notifications when any project is evaluated. This example performs some custom logging of project evaluation. Notice that the &lt;c0&gt;afterProject&lt;/c0&gt; notification is received regardless of whether the project evaluates successfully or fails with an exception.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150823Z" creationid="huanghaohang" creationdate="20190613T150823Z">
+        <seg>你也可以在每一个项目评估之后都收到通知。下面的例子是执行项目评估的一些自定义日志记录。注意，无论项目评估是成功还是因异常而失败，都会收到 &lt;c0&gt;afterProject&lt;/c0&gt; 通知。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It is common to want to sign the artifacts of a configuration. For example, the &lt;a0&gt;Java plugin&lt;/a0&gt; configures a jar to built and this jar artifact is added to the &lt;c1&gt;archives&lt;/c1&gt; configuration. Using the Signing DSL, you can specify that all of the artifacts of this configuration should be signed.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T134431Z" creationid="huanghaohang" creationdate="20190608T134431Z">
@@ -30589,6 +30597,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170727T141645Z" creationid="95" creationdate="20170727T141349Z">
         <seg>这使得代码很易于阅读，尤其是当使用插件所提供的任务时（例如 &lt;c0&gt;compile&lt;/c0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This example uses method &lt;c0&gt;Project.afterEvaluate()&lt;/c0&gt; to add a closure which is executed after the project is evaluated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150538Z" creationid="huanghaohang" creationdate="20190613T150538Z">
+        <seg>这个例子使用了 &lt;c0&gt;Project.afterEvaluate()&lt;/c0&gt; 方法来添加一个在项目评估之后执行的闭包。</seg>
       </tuv>
     </tu>
     <tu>
