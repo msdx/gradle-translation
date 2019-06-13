@@ -8128,8 +8128,8 @@ Total time: 1 secs</seg>
       <tuv lang="EN-US">
         <seg>55.3.2.1. Hierarchical layouts</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T151457Z" creationid="huanghaohang" creationdate="20190612T151457Z">
-        <seg>55.3.2.1. 分层布局</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143317Z" creationid="huanghaohang" creationdate="20190612T151457Z">
+        <seg>55.3.2.1. 层次布局</seg>
       </tuv>
     </tu>
     <tu>
@@ -21875,8 +21875,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>In the settings file you can use a set of methods to build the project tree. Hierarchical and flat physical layouts get special support.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T151510Z" creationid="huanghaohang" creationdate="20190612T151450Z">
-        <seg>在设置文件中，你可以使用一组方法来构建项目树。其中，分层和扁平的物理布局有特别的支持。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143306Z" creationid="huanghaohang" creationdate="20190612T151450Z">
+        <seg>在设置文件中，你可以使用一组方法来构建项目树。其中，层次和扁平的物理布局有特别的支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28721,6 +28721,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T140626Z" creationid="huanghaohang" creationdate="20171126T140030Z">
         <seg>归档任务与 &lt;c0&gt;Copy&lt;/c0&gt; 任务的使用方式完全一样，并且实现了同样的 &lt;c1&gt;CopySpec&lt;/c1&gt; 接口。像使用 &lt;c2&gt;Copy&lt;/c2&gt; 任务一样，你需要使用 &lt;c3&gt;from()&lt;/c3&gt; 方法指定输入文件，并且可以选择使用 &lt;c4&gt;into()&lt;/c4&gt; 方法来指定它们在归档中结束的位置。你可以过滤文件内容，重命名文件以及进行通过复制规范可以做的其他事情。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The auto search for a settings file does only work for multi-project builds with a physical hierarchical or flat layout. For a flat layout you must additionally obey to the naming convention described above. Gradle supports arbitrary physical layouts for a multiproject build. But for such arbitrary layouts you need to execute the build from the directory where the settings file is located. For how to run partial builds from the root see &lt;a0&gt;Section 56.4, “Running tasks by their absolute path”&lt;/a0&gt;. In our next release we want to enable partial builds from subprojects by specifying the location of the settings file as a command line parameter. Gradle creates Project objects for every project taking part in the build. For a single project build this is only one project. For a multi-project build these are the projects specified in Settings object (plus the root project). Each project object has by default a name equals to the name of its top level directory. Every project except the root project has a parent project and might have child projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143612Z" creationid="huanghaohang" creationdate="20190613T143612Z">
+        <seg>自动搜索设置文件只适用于具有物理上的层次结构或平面布局的多项目构建。对于平面布局，您还必须遵循上述命名约定。 Gradle支持多项目构建的任意物理布局。 但是，对于此类任意布局，您需要从设置文件所在的目录执行构建。 有关如何从root用户运行部分构建，请参阅 &lt;a0&gt;Section 56.4， "Running tasks by the absolute path"&lt;/a0&gt;。 在下一个发行版中，我们希望通过将设置文件的位置指定为命令行参数来启用子项目的部分构建。 Gradle为参与构建的每个项目创建项目对象。 对于单个项目，此构建仅为一个项目。 对于多项目构建，这些是在"设置"对象(加上根项目)中指定的项目。 缺省情况下，每个项目对象的名称都等于其顶级目录的名称。 除根项目之外的每个项目都有父项目，并且可能具有子项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42272,6 +42280,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T013334Z" creationid="huanghaohang" creationdate="20180126T013334Z">
         <seg>multi_project_builds.html#sec:configuration_on_demand</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi_project_builds.html#sec:running_partial_build_from_the_root</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143320Z" creationid="huanghaohang" creationdate="20190613T143320Z">
+        <seg>multi_project_builds.html#sec:running_partial_build_from_the_root</seg>
       </tuv>
     </tu>
     <tu>
