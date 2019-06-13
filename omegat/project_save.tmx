@@ -8182,6 +8182,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>55.6. Responding to the lifecycle in the build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145132Z" creationid="huanghaohang" creationdate="20190613T145132Z">
+        <seg>55.6. 构建脚本生命周期的响应</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -33417,6 +33425,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T152254Z" creationid="huanghaohang" creationdate="20190605T152228Z">
         <seg>你希望正确地处理 Maven 中央仓 POM 文件中错误的元数据。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Your build script can receive notifications as the build progresses through its lifecycle. These notifications generally take 2 forms: You can either implement a particular listener interface, or you can provide a closure to execute when the notification is fired. The examples below use closures. For details on how to use the listener interfaces, refer to the API documentation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145454Z" creationid="huanghaohang" creationdate="20190613T145454Z">
+        <seg>构建脚本可以在构建过程通过其生命周期时接收通知。这些通知通常采用两种形式：你可以实现一个特定的监听器接口，或提供一个用于在触发通知时执行的闭包。以下是使用闭包的例子。有关如何使用监听器接口的详细信息，请参阅 API 文档。</seg>
       </tuv>
     </tu>
     <tu>
