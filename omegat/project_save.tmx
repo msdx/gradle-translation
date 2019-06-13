@@ -10159,6 +10159,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (project.hasTests) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145905Z" creationid="huanghaohang" creationdate="20190613T145905Z">
+        <seg>&lt;s0&gt;if&lt;/s0&gt; (project.hasTests) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;if&lt;/s0&gt; (toolChain in Gcc &amp;&amp; buildType == buildTypes.debug) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035731Z" creationid="huanghaohang" creationdate="20190610T035731Z">
@@ -11675,6 +11683,18 @@ clean - Deletes the build directory (build)
 api:clean - Deletes the build directory (build)
 webapp:clean - Deletes the build directory (build)
 dists - Builds the distribution [api:libs, webapp:libs]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q test
+Adding test task to project ':projectA'
+Running tests for project ':projectA'</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150017Z" creationid="huanghaohang" creationdate="20190613T150017Z">
+        <seg>&gt; gradle -q test
+Adding test task to project ':projectA'
+Running tests for project ':projectA'</seg>
       </tuv>
     </tu>
     <tu>
@@ -18857,6 +18877,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 55.6. Adding of test task to each project which has certain property set</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145903Z" creationid="huanghaohang" creationdate="20190613T145903Z">
+        <seg>示例 55.6. 向每个包含某些属性集的项目添加测试任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -23957,6 +23985,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T011710Z" creationid="huanghaohang" creationdate="20170910T011710Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q tasks&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q test&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T150015Z" creationid="huanghaohang" creationdate="20190613T150015Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q test&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -33661,6 +33697,14 @@ No dependencies</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>afterEvaluate { project -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145904Z" creationid="huanghaohang" creationdate="20190613T145904Z">
+        <seg>afterEvaluate { project -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>all*.exclude group: &lt;s1&gt;'org.gradle.test.excludes'&lt;/s1&gt;, module: &lt;s2&gt;'reports'&lt;/s2&gt;
 }
 
@@ -33735,6 +33779,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T142801Z" creationid="huanghaohang" creationdate="20190602T142801Z">
         <seg>alllife configurations.sealife</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>allprojects {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145904Z" creationid="huanghaohang" creationdate="20190613T145904Z">
+        <seg>allprojects {</seg>
       </tuv>
     </tu>
     <tu>
@@ -39501,6 +39553,14 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>hasTests = true</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145912Z" creationid="huanghaohang" creationdate="20190613T145912Z">
+        <seg>hasTests = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>headers.srcDir &lt;s2&gt;"lib/cunit/2.1-2/include"&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T090225Z" creationid="huanghaohang" creationdate="20190611T090225Z">
@@ -43552,6 +43612,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;"Adding test task to $project"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145907Z" creationid="huanghaohang" creationdate="20190613T145907Z">
+        <seg>println &lt;s1&gt;"Adding test task to $project"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;"Greetings from the $hello.name task."&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -43924,6 +43992,14 @@ taskZ.shouldRunAfter taskX</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T011928Z" creationid="huanghaohang" creationdate="20170923T011928Z">
         <seg>println &lt;s3&gt;"Pinging: "&lt;/s3&gt; + (taskName - &lt;s4&gt;'ping'&lt;/s4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;"Running tests for $project"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145910Z" creationid="huanghaohang" creationdate="20190613T145910Z">
+        <seg>println &lt;s3&gt;"Running tests for $project"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -44564,10 +44640,26 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project.task(&lt;s2&gt;'test'&lt;/s2&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145909Z" creationid="huanghaohang" creationdate="20190613T145909Z">
+        <seg>project.task(&lt;s2&gt;'test'&lt;/s2&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project.version</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233200Z" creationid="huanghaohang" creationdate="20171206T233200Z">
         <seg>project.version</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>projectA.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145911Z" creationid="huanghaohang" creationdate="20190613T145911Z">
+        <seg>projectA.gradle</seg>
       </tuv>
     </tu>
     <tu>
