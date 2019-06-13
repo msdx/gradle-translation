@@ -18795,8 +18795,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Example 55.2. Hierarchical layout</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T151514Z" creationid="huanghaohang" creationdate="20190612T151514Z">
-        <seg>示例 55.2. 分层布局</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143233Z" creationid="huanghaohang" creationdate="20190612T151514Z">
+        <seg>示例 55.2. 层次布局</seg>
       </tuv>
     </tu>
     <tu>
@@ -33529,6 +33529,22 @@ compile
 
 testCompile
 No dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a multiproject build, if the &lt;c0&gt;settings.gradle&lt;/c0&gt; file does define a multiproject hierarchy.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143203Z" creationid="huanghaohang" creationdate="20190613T143203Z">
+        <seg>如果 &lt;c0&gt;settings.gradle&lt;/c0&gt; 文件定义了多项目的层次结构，作为多项目构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>a single project build, if the &lt;c0&gt;settings.gradle&lt;/c0&gt; file does not define a multiproject hierarchy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143143Z" creationid="huanghaohang" creationdate="20190613T143143Z">
+        <seg>如果 &lt;c0&gt;settings.gradle&lt;/c0&gt; 文件没有定义多项目的层次结构，作为单项目构建</seg>
       </tuv>
     </tu>
     <tu>
