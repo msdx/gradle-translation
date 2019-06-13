@@ -32077,6 +32077,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>What is the purpose of this behavior? Somehow Gradle has to find out, whether the project you are into, is a subproject of a multiproject build or not. Of course, if it is a subproject, only the subproject and its dependent projects are build. But Gradle needs to create the build configuration for the whole multiproject build (see &lt;a0&gt;Chapter 56, &lt;i1&gt;Multi-project Builds&lt;/i1&gt;&lt;/a0&gt;). Via the &lt;c2&gt;-u&lt;/c2&gt; command line option, you can tell Gradle not to look in the parent hierarchy for a &lt;c3&gt;settings.gradle&lt;/c3&gt; file. The current project is then always build as a single project build. If the current project contains a &lt;c4&gt;settings.gradle&lt;/c4&gt; file, the &lt;c5&gt;-u&lt;/c5&gt; option has no meaning. Such a build is always executed as:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143055Z" creationid="huanghaohang" creationdate="20190613T143055Z">
+        <seg>这种行为的目的是什么？无论你进入的项目是否为多项目构建的子项目，Gradle 都必须查明该项目是否为多项目构建的子项目。当然，如果它是子项目，那么就只构建子项目及其依赖的项目。但是 Gradle 需要为整个多项目构建创建构建配置（请参阅《&lt;a0&gt;第五十六章，&lt;i1&gt;多项目构建&lt;/i1&gt;&lt;/a0&gt;》）。通过 &lt;c2&gt;-u&lt;/c2&gt; 命令行选项，你可以告诉 Gradle 不要在父层次结构中查找 &lt;c3&gt;settings.gradle&lt;/c3&gt; 文件。然后，当前项目将始终作为单项目进行构建。如果当前项目包含了 &lt;c4&gt;settings.gradle&lt;/c4&gt; 文件，那么 &lt;c5&gt;-u&lt;/c5&gt; 选项将没有意义。这样的构建始终这样执行：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>What plugins do</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180517T034753Z" creationid="huanghaohang" creationdate="20180517T034753Z">
