@@ -1770,6 +1770,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/execution/TaskExecutionGraph.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152351Z" creationid="huanghaohang" creationdate="20190613T152351Z">
+        <seg>../javadoc/org/gradle/api/execution/TaskExecutionGraph.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/execution/TaskExecutionGraphListener.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144457Z" creationid="huanghaohang" creationdate="20180107T144457Z">
@@ -8218,6 +8226,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T151401Z" creationid="huanghaohang" creationdate="20190613T151401Z">
         <seg>55.6.3. 任务执行图准备</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>55.6.4. Task execution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152419Z" creationid="huanghaohang" creationdate="20190613T152419Z">
+        <seg>55.6.4. 任务执行</seg>
       </tuv>
     </tu>
     <tu>
@@ -18965,6 +18981,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 55.9. Logging of start and end of each task execution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152618Z" creationid="huanghaohang" creationdate="20190613T152618Z">
+        <seg>示例55.9. 在每个任务执行开始及结束时打印日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -29369,6 +29393,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The following example logs the start and end of each task execution. Notice that the &lt;c0&gt;afterTask&lt;/c0&gt; notification is received regardless of whether the task completes successfully or fails with an exception.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152550Z" creationid="huanghaohang" creationdate="20190613T152550Z">
+        <seg>下面示例展示了在每个任务执行开始及结束时打印日志。注意，无论任务是成功完成还是异常失败，都会收到 &lt;c0&gt;afterTask&lt;/c0&gt; 通知。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The following example sets the &lt;c0&gt;srcDir&lt;/c0&gt; property of each task as it is created.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T151221Z" creationid="huanghaohang" creationdate="20190613T151221Z">
@@ -32953,6 +32985,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can also add a &lt;a0&gt;&lt;c1&gt;TaskExecutionGraphListener&lt;/c1&gt;&lt;/a0&gt; to the &lt;a2&gt;&lt;c3&gt;TaskExecutionGraph&lt;/c3&gt;&lt;/a2&gt; to receive these events.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152403Z" creationid="huanghaohang" creationdate="20190613T152403Z">
+        <seg>你也可以向 &lt;a2&gt;&lt;c3&gt;TaskExecutionGraph&lt;/c3&gt;&lt;/a2&gt; 添加一个 &lt;a0&gt;&lt;c1&gt;TaskExecutionGraphListener&lt;/c1&gt;&lt;/a0&gt; 来接收这些事件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can also add an &lt;a0&gt;&lt;c1&gt;Action&lt;/c1&gt;&lt;/a0&gt; to a &lt;a2&gt;&lt;c3&gt;TaskContainer&lt;/c3&gt;&lt;/a2&gt; to receive these events.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T151343Z" creationid="huanghaohang" creationdate="20190613T151343Z">
@@ -33317,6 +33357,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145724Z" creationid="huanghaohang" creationdate="20190613T145724Z">
         <seg>你可以在评估项目前后立刻接收通知。这可以用来做一些事情，比如一旦应用了构建脚本中的所有定义，就执行额外的配置；或者是做一些自定义的日志记录或分析。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can receive a notification immediately before and after any task is executed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152440Z" creationid="huanghaohang" creationdate="20190613T152440Z">
+        <seg>你可以在任何任务执行前马上收到通知。</seg>
       </tuv>
     </tu>
     <tu>
