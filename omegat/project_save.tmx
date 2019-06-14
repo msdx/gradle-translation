@@ -24683,6 +24683,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Project in the directory where the build is executed is also configured, but only when Gradle is executed without any tasks. This way the default tasks behave correctly when projects are configured on demand.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T153657Z" creationid="huanghaohang" creationdate="20190614T153429Z">
+        <seg>执行构建的所在目录的项目也会被配置，但是只在没有任何任务的情况下执行 Gradle 时。这种方式当项目按需配置时，默认任务会正常运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Project layout</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180517T130022Z" creationid="huanghaohang" creationdate="20180517T130022Z">
@@ -24999,6 +25007,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T143344Z" creationid="huanghaohang" creationdate="20180516T143344Z">
         <seg>守护进程的重用和过期</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Root project is always configured. This way the typical common configuration is supported (allprojects or subprojects script blocks).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T153426Z" creationid="huanghaohang" creationdate="20190614T153426Z">
+        <seg>根项目始终会被配置。这种方式支持典型的公共配置（allprojects 或subprojects 脚本块）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30147,6 +30163,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T101233Z" creationid="haohang" creationdate="20180320T101233Z">
         <seg>包含此源集资源的源目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The standard project dependencies are supported and makes relevant projects configured. If project A has a compile dependency on project B then building A causes configuration of both projects: A and B.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T153817Z" creationid="huanghaohang" creationdate="20190614T153817Z">
+        <seg>标准项目的依赖被支持，并且使相关的项目也被配置。如果项目 A 对项目 B 有编译依赖，那么构建 A 的时候也会导致这两个项目的配置。</seg>
       </tuv>
     </tu>
     <tu>
