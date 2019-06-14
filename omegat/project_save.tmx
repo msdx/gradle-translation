@@ -15325,6 +15325,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configuration on demand mode attempts to configure only projects that are relevant for requested tasks. This way, the configuration time of a large multi-project build is greatly improved. In the long term, this mode will become the default mode, possibly the only mode for Gradle build execution. The configuration on demand feature is incubating so not every build is guaranteed to work correctly. The feature should work very well for multi-project builds that have decoupled projects (&lt;a0&gt;Section 56.9, “Decoupled Projects”&lt;/a0&gt;). In configuration on demand mode projects are configured as follows:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T153318Z" creationid="huanghaohang" creationdate="20190614T153318Z">
+        <seg>按需配置模式尝试只配置与所请求的任务相关的项目，这样就大大地改善了大型多项目构建的配置时间。长远来看，这种模式将成为默认模式，可能会是 Gradle 构建执行的唯一模式。按需配置功能还处于试验性阶段，因此无法保证每个构建都能正确。对于解耦的多项目构建（《&lt;a0&gt;第56.9节，解耦项目&lt;/a0&gt;》），这个功能部件应该非常有效。在按需配置的模式中，项目配置如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuration shared between subprojects can be configured in a &lt;c0&gt;subprojects&lt;/c0&gt; block.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T042845Z" creationid="huanghaohang" creationdate="20181202T042845Z">
@@ -42754,6 +42762,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T013334Z" creationid="huanghaohang" creationdate="20180126T013334Z">
         <seg>multi_project_builds.html#sec:configuration_on_demand</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi_project_builds.html#sec:decoupled_projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T152722Z" creationid="huanghaohang" creationdate="20190614T152722Z">
+        <seg>multi_project_builds.html#sec:decoupled_projects</seg>
       </tuv>
     </tu>
     <tu>
