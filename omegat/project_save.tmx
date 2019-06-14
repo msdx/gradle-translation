@@ -11370,6 +11370,18 @@ Greetings from the hello task.</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154825Z" creationid="huanghaohang" creationdate="20190614T154825Z">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
 configuring root project 'configureProjectUsingScript'
 hello from other script</seg>
       </tuv>
@@ -15121,6 +15133,18 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153950Z" creationid="huanghaohang" creationdate="20190527T153950Z">
         <seg>客户端模块依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Closure cl = { task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
+task hello &lt;&lt; cl
+project(&lt;s1&gt;':bluewhale'&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154821Z" creationid="huanghaohang" creationdate="20190614T154821Z">
+        <seg>Closure cl = { task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
+task hello &lt;&lt; cl
+project(&lt;s1&gt;':bluewhale'&lt;/s1&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -19155,6 +19179,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.2. Build script of water (parent) project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154820Z" creationid="huanghaohang" creationdate="20190614T154820Z">
+        <seg>示例 56.2. water（父）项目的构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -20783,6 +20815,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072244Z" creationid="haohang" creationdate="20170720T072244Z">
         <seg>Gradle 用户指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle allows you to access any project of the multi-project build from any build script. The Project API provides a method called &lt;c0&gt;project()&lt;/c0&gt;, which takes a path as an argument and returns the Project object for this path. The capability to configure a project build from any build script we call &lt;e1&gt;cross project configuration&lt;/e1&gt;. Gradle implements this via &lt;e2&gt;configuration injection&lt;/e2&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155248Z" creationid="huanghaohang" creationdate="20190614T155248Z">
+        <seg>Gradle 允许你从任何构建脚本中访问多项目构建的任何项目。Project API 提供了一个叫做 &lt;c0&gt;project()&lt;/c0&gt; 的方法，它将路径作为参数，返回此路径的 Project 对象。这种从任何构建脚本中配置项目构建的功能，我们称之为&lt;e1&gt;跨项目配置&lt;/e1&gt;。Gradle 通过&lt;e2&gt;配置注入&lt;/e2&gt;来实现它。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24109,8 +24149,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="95" changedate="20170724T145842Z" creationid="95" creationdate="20170724T145842Z">
-        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154830Z" creationid="95" creationdate="20170724T145842Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q hello&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -47836,6 +47876,16 @@ println tasks.getByPath(&lt;s1&gt;'hello'&lt;/s1&gt;).path
 println tasks.getByPath(&lt;s2&gt;':hello'&lt;/s2&gt;).path
 println tasks.getByPath(&lt;s3&gt;'projectA:hello'&lt;/s3&gt;).path
 println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task hello &lt;&lt; cl
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154822Z" creationid="huanghaohang" creationdate="20190614T154822Z">
+        <seg>task hello &lt;&lt; cl
+}</seg>
       </tuv>
     </tu>
     <tu>
