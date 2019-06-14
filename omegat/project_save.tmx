@@ -8254,6 +8254,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.1.1. Configuration and execution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T151729Z" creationid="huanghaohang" creationdate="20190614T151729Z">
+        <seg>56.1.1. 配置和执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>56.1. Cross project configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T151526Z" creationid="huanghaohang" creationdate="20190614T151526Z">
+        <seg>56.1. 跨项目配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -8918,6 +8934,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072520Z" creationid="haohang" creationdate="20170720T072520Z">
         <seg>&lt;a0&gt;上一章&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;目录&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;下一章&lt;/a4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Section 55.1, “Build phases”&lt;/a0&gt; describes the phases of every Gradle build. Let's zoom into configuration and execution phases of a multi-project build. The configuration of all projects happens before any task is executed. This means that when a single task, from a single project is requested, &lt;s1&gt;&lt;e2&gt;all&lt;/e2&gt;&lt;/s1&gt; projects of multi-project build are configured first. The reason every project needs to be configured is to support the flexibility of accessing and changing any part of Gradle project model.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T152200Z" creationid="huanghaohang" creationdate="20190614T152200Z">
+        <seg>《&lt;a0&gt;第55.1节，构建阶段&lt;/a0&gt;》描述了每个 Gradle 构建的阶段。让我们放大多项目构建的配置和执行阶段。在执行任何任务之前，会进行所有项目的配置。这意味着，当请求一个项目里的某个任务时，首先会配置多项目构建的&lt;s1&gt;&lt;e2&gt;所有&lt;/e2&gt;&lt;/s1&gt;项目。所有项目需要配置的原因是为了支持灵活地访问及更改 Gradle 项目模型的任何部分。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22859,6 +22883,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's start with a very simple multi-project build. After all Gradle is a general purpose build tool at its core, so the projects don't have to be java projects. Our first examples are about marine life.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T151727Z" creationid="huanghaohang" creationdate="20190614T151727Z">
+        <seg>让我们从一个非常简单的多项目构建开始。毕竟 Gradle 核心上是一个通用的构建工具，因此所构建的项目不一定得是 Java 项目。我们的第一个例子是关于海洋生物的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's take a closer look at the &lt;c0&gt;sonarRunner.sonarProperties {}&lt;/c0&gt; block. As we have already seen in the examples, the &lt;c1&gt;property()&lt;/c1&gt; method allows to set new properties or override existing ones. Furthermore, all properties that have been configured up to this point, including all properties preconfigured by Gradle, are available via the &lt;c2&gt;properties&lt;/c2&gt; accessor.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T044516Z" creationid="huanghaohang" creationdate="20181202T043631Z">
@@ -36065,6 +36097,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144044Z" creationid="huanghaohang" creationdate="20180107T144044Z">
         <seg>build_lifecycle.html#build_lifecycle_events</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>build_lifecycle.html#sec:build_phases</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T151731Z" creationid="huanghaohang" creationdate="20190614T151731Z">
+        <seg>build_lifecycle.html#sec:build_phases</seg>
       </tuv>
     </tu>
     <tu>
