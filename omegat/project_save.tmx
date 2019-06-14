@@ -8254,6 +8254,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.1.1.1. Configuration on demand</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T152205Z" creationid="huanghaohang" creationdate="20190614T152205Z">
+        <seg>56.1.1.1. 按需配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.1.1. Configuration and execution</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T151729Z" creationid="huanghaohang" creationdate="20190614T151729Z">
@@ -15305,6 +15313,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T092153Z" creationid="huanghaohang" creationdate="20190124T092153Z">
         <seg>配置属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuration injection feature and access to the complete project model are possible because every project is configured before the execution phase. Yet, this approach may not be the most efficient in a very large multi-project builds. There are Gradle builds with a hierarchy of hundreds of subprojects. Configuration time of huge multi-project builds may become noticeable. Scalability is an important requirement for Gradle. Hence, starting from version 1.4 new incubating 'configuration on demand' mode is introduced.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T152721Z" creationid="huanghaohang" creationdate="20190614T152721Z">
+        <seg>由于每个项目都在执行阶段开始之前配置，所以可以做到配置注入功能以及对完整项目模型的访问。然而，在一个非常大的多项目构建中，这种方法可能不是最有效的。有一些 Gradle 构建，它们在层次结构上会有上百个的子项目。对于大型的多项目，构建的配置时间可能会变得很明显。可扩展性是 Gradle 的一项重要需求，因此从 V1.4 开始，新引入了一个试验性的“按需配置”模式。</seg>
       </tuv>
     </tu>
     <tu>
