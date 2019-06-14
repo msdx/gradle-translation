@@ -8270,6 +8270,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.1.2. Defining common behavior</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154310Z" creationid="huanghaohang" creationdate="20190614T154310Z">
+        <seg>56.1.2. 定义共同行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.1. Cross project configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T151526Z" creationid="huanghaohang" creationdate="20190614T151526Z">
@@ -9971,6 +9979,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093822Z" creationid="huanghaohang" creationdate="20180715T093822Z">
         <seg>&lt;s0&gt;&lt;e1&gt;注：&lt;/e1&gt; &lt;/s0&gt;此示例中的代码可以在 Gradle 的二进制分发包及源代码分发包中的 &lt;c2&gt;samples/testing/jacoco/application&lt;/c2&gt; 中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/firstExample/water&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154522Z" creationid="huanghaohang" creationdate="20190614T154522Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在 Gradle 的二进制及源码分发包的&lt;c2&gt;samples/userguide/multiproject/firstExample/water&lt;/c2&gt; 中找到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13563,6 +13579,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>And where is the build script for the &lt;c0&gt;bluewhale&lt;/c0&gt; project? In Gradle build scripts are optional. Obviously for a single project build, a project without a build script doesn't make much sense. For multiproject builds the situation is different. Let's look at the build script for the &lt;c1&gt;water&lt;/c1&gt; project and execute it:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154800Z" creationid="huanghaohang" creationdate="20190614T154800Z">
+        <seg>那么，&lt;c0&gt;bluewhale&lt;/c0&gt; 项目的构建脚本在哪里呢？在 Gradle 中，构建脚本是可选的。显然，对于单项目构建而言，没有构建脚本的项目没有多大意义。但对于多项目构建，情况就不同了。让我们看看 &lt;c1&gt;water&lt;/c1&gt; 项目的构建脚本并执行它：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Another typical per-project configuration is the programming language to be analyzed. Note that Sonar can only analyze one language per project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T153244Z" creationid="huanghaohang" creationdate="20180811T153244Z">
@@ -16303,6 +16327,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T085043Z" creationid="huanghaohang" creationdate="20190610T085043Z">
         <seg>每个工具链的实现都允许一定程度的配置（更多细节请参阅 API 文档）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Eager to try out this new feature? To configure on demand with every build run see &lt;a0&gt;Section 20.1, “Configuring the build environment via gradle.properties”&lt;/a0&gt;. To configure on demand just for given build please see &lt;a1&gt;Appendix D, &lt;i2&gt;Gradle Command Line&lt;/i2&gt;&lt;/a1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154247Z" creationid="huanghaohang" creationdate="20190614T154247Z">
+        <seg>想试试这个新功能吗？要在每次构建时都按需配置，请参阅《&lt;a0&gt;第20.1节，通过 gradle.properties 配置构建环境&lt;/a0&gt;》。 只对给定的构建按需配置，请参阅《&lt;a1&gt;附录D，&lt;i2&gt;Gradle 命令行&lt;/i2&gt;&lt;/a1&gt;》。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19111,6 +19143,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152618Z" creationid="huanghaohang" creationdate="20190613T152618Z">
         <seg>示例55.9. 在每个任务执行开始及结束时打印日志</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.1. Multi-project tree - water &amp; bluewhale projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154421Z" creationid="huanghaohang" creationdate="20190614T154421Z">
+        <seg>示例 56.1. 多项目树——water &amp; bluewhale 项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -26919,6 +26959,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Task requested via task path from the command line (or Tooling API) causes the relevant project configured. Building 'projectA:projectB:someTask' causes configuration of projectB.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154124Z" creationid="huanghaohang" creationdate="20190614T154124Z">
+        <seg>通过从命令行（或 Tooling API）中的任务路径所请求的任务将导致相关的项目被配置。构建 'projectA:projectB:someTask' 会使项目 B 被配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Task rules</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180201T021751Z" creationid="huanghaohang" creationdate="20180201T021751Z">
@@ -30191,6 +30239,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The task dependencies declared via task path are supported and cause relevant projects configured. Example: someTask.dependsOn(":someOtherProject:someOtherTask")</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T153919Z" creationid="huanghaohang" creationdate="20190614T153919Z">
+        <seg>通过任务路径定义的任务依赖也被支持，并且会导致相关的项目被配置。示例：someTask.dependsOn(":someOtherProject:someOtherTask")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The task has an &lt;c0&gt;ignoreFailures&lt;/c0&gt; property to control the behavior when tests fail. Test always executes every test that it detects. It stops the build afterwards if &lt;c1&gt;ignoreFailures&lt;/c1&gt; is false and there are failing tests. The default value of &lt;c2&gt;ignoreFailures&lt;/c2&gt; is false.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T062254Z" creationid="haohang" creationdate="20180330T060550Z">
@@ -32371,6 +32427,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T080201Z" creationid="huanghaohang" creationdate="20190606T075838Z">
         <seg>我们说过，每个配置都有一个特定的上传任务。但是在执行上传之前，你必须配置上传任务，并定义这些工件要发布到的位置。你所定义的仓库（如&lt;a0&gt;第 50.6 节，《仓库》&lt;/a0&gt;中所述）不会自动地用于上传。实际上，有些仓库仅允许下载工件。以下是有关如何对配置的上传任务进行配置的例子：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We have the following project tree. This is a multi-project build with a root project &lt;c0&gt;water&lt;/c0&gt; and a subproject &lt;c1&gt;bluewhale&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154359Z" creationid="huanghaohang" creationdate="20190614T154359Z">
+        <seg>我们有以下项目树。 它是一个多项目构建，有一个根项目 &lt;c0&gt;water&lt;/c0&gt; 和子项目 &lt;c1&gt;bluewhale&lt;/c1&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35897,6 +35961,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T061716Z" creationid="huanghaohang" creationdate="20190611T061716Z">
         <seg>binaries.withType(TestSuiteExecutableBinary) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>bluewhale/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154425Z" creationid="huanghaohang" creationdate="20190614T154425Z">
+        <seg>bluewhale/</seg>
       </tuv>
     </tu>
     <tu>
@@ -40809,6 +40881,14 @@ gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T123539Z" creationid="95" creationdate="20170803T123539Z">
         <seg>include &lt;s0&gt;"shared"&lt;/s0&gt;, &lt;s1&gt;"api"&lt;/s1&gt;, &lt;s2&gt;"services:webservice"&lt;/s2&gt;, &lt;s3&gt;"services:shared"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include &lt;s0&gt;'bluewhale'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154536Z" creationid="huanghaohang" creationdate="20190614T154536Z">
+        <seg>include &lt;s0&gt;'bluewhale'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -49233,6 +49313,14 @@ signing {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181201T142203Z" creationid="huanghaohang" creationdate="20181201T142203Z">
         <seg>war_plugin.html#sec:default_settings</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>water/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154422Z" creationid="huanghaohang" creationdate="20190614T154422Z">
+        <seg>water/</seg>
       </tuv>
     </tu>
     <tu>
