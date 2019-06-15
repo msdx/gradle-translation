@@ -8302,6 +8302,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.2.3.1. Filtering by name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143603Z" creationid="huanghaohang" creationdate="20190615T143603Z">
+        <seg>56.2.3.1. 按名称过滤</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>56.2.3. Project filtering</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143436Z" creationid="huanghaohang" creationdate="20190615T143436Z">
+        <seg>56.2.3. 项目过滤</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.2. Subproject configuration</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142106Z" creationid="huanghaohang" creationdate="20190615T142106Z">
@@ -10015,10 +10031,26 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/addTropical/water&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143722Z" creationid="huanghaohang" creationdate="20190615T143722Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在 Gradle 的二进制及源码分发包的 &lt;c2&gt;samples/userguide/multiproject/addTropical/water&lt;/c2&gt; 中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/firstExample/water&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154522Z" creationid="huanghaohang" creationdate="20190614T154522Z">
         <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在 Gradle 的二进制及源码分发包的&lt;c2&gt;samples/userguide/multiproject/firstExample/water&lt;/c2&gt; 中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/spreadSpecifics/water&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143015Z" creationid="huanghaohang" creationdate="20190615T143015Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在 Gradle 的二进制及源码分发包的&lt;c2&gt;samples/userguide/multiproject/spreadSpecifics/water&lt;/c2&gt; 中找到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11429,6 +11461,28 @@ I'm bluewhale
 - I'm the largest animal that has ever lived on this planet.
 I'm krill
 - I depend on water</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
+- I'm the largest animal that has ever lived on this planet.
+I'm krill
+- I depend on water
+- The weight of my species in summer is twice as heavy as all human beings.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143056Z" creationid="huanghaohang" creationdate="20190615T143056Z">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
+- I'm the largest animal that has ever lived on this planet.
+I'm krill
+- I depend on water
+- The weight of my species in summer is twice as heavy as all human beings.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19307,6 +19361,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142642Z" creationid="huanghaohang" creationdate="20190615T142642Z">
         <seg>示例 56.6. 定义特定项目的特定行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.7. Defining specific behaviour for project krill</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142858Z" creationid="huanghaohang" creationdate="20190615T142858Z">
+        <seg>示例 56.7. 为 krill 项目定义特定行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.8. Adding custom behaviour to some projects (filtered by project name)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143633Z" creationid="huanghaohang" creationdate="20190615T143633Z">
+        <seg>示例 56.8. 将自定义行为添加到某些项目中（按项目名称过滤）</seg>
       </tuv>
     </tu>
     <tu>
@@ -31723,6 +31793,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To show more of the power of configuration injection, let's add another project called &lt;c0&gt;tropicalFish&lt;/c0&gt; and add more behavior to the build via the build script of the &lt;c1&gt;water&lt;/c1&gt; project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143554Z" creationid="huanghaohang" creationdate="20190615T143554Z">
+        <seg>要体现配置注入的更强大之处，让我们添加另一个项目 &lt;c0&gt;tropicalFish&lt;/c0&gt;，并通过 &lt;c1&gt;water&lt;/c1&gt; 项目的构建脚本向这个构建添加更多的行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To specify a "must run after" or "should run after" ordering between 2 tasks, you use the &lt;a0&gt;&lt;c1&gt;Task.mustRunAfter()&lt;/c1&gt;&lt;/a0&gt; and &lt;a2&gt;&lt;c3&gt;Task.shouldRunAfter()&lt;/c3&gt;&lt;/a2&gt; methods. These method accept a task instance, a task name or any other input accepted by &lt;a4&gt;&lt;c5&gt;Task.dependsOn()&lt;/c5&gt;&lt;/a4&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T040157Z" creationid="huanghaohang" creationdate="20170922T040157Z">
@@ -36185,6 +36263,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>bluewhale/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143017Z" creationid="huanghaohang" creationdate="20190615T143017Z">
+        <seg>bluewhale/build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>build</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035013Z" creationid="haohang" creationdate="20180313T035013Z">
@@ -40283,6 +40369,22 @@ project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>hello.doLast {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143031Z" creationid="huanghaohang" creationdate="20190615T143031Z">
+        <seg>hello.doLast {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>hello.doLast { println &lt;s0&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s0&gt; }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143023Z" creationid="huanghaohang" creationdate="20190615T143023Z">
+        <seg>hello.doLast { println &lt;s0&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s0&gt; }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>helloRes {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T013424Z" creationid="huanghaohang" creationdate="20190610T013424Z">
@@ -42301,6 +42403,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>krill/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143030Z" creationid="huanghaohang" creationdate="20190615T143030Z">
+        <seg>krill/build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>language = &lt;s0&gt;"grvy"&lt;/s0&gt; &lt;s1&gt;// set language to Groovy&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -44060,6 +44170,16 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093258Z" creationid="huanghaohang" creationdate="20180715T093258Z">
         <seg>port</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;"- The weight of my species in summer is twice as heavy as all human beings."&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143042Z" creationid="huanghaohang" creationdate="20190615T143042Z">
+        <seg>println &lt;s0&gt;"- The weight of my species in summer is twice as heavy as all human beings."&lt;/s0&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -48739,6 +48859,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153657Z" creationid="huanghaohang" creationdate="20190527T153657Z">
         <seg>transitive = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tropicalFish/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143645Z" creationid="huanghaohang" creationdate="20190615T143645Z">
+        <seg>tropicalFish/</seg>
       </tuv>
     </tu>
     <tu>
