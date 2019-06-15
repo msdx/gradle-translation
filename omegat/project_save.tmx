@@ -8334,6 +8334,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.3. Execution rules for multi-project builds</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T151329Z" creationid="huanghaohang" creationdate="20190615T151329Z">
+        <seg>56.3. 多项目构建的执行规则</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -33193,6 +33201,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T012928Z" creationid="huanghaohang" creationdate="20190610T012545Z">
         <seg>使用 &lt;a0&gt;&lt;c1&gt;VisualCpp&lt;/c1&gt;&lt;/a0&gt; 工具链时， Gradle 能够编译 Window Resource（&lt;c2&gt;rc&lt;/c2&gt;）文件，并将它们链接到本机二进制文件。 这个功能是由 &lt;c3&gt;'windows-resources'&lt;/c3&gt; 插件提供的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When we have executed the &lt;c0&gt;hello&lt;/c0&gt; task from the root project dir things behaved in an intuitive way. All the &lt;c1&gt;hello&lt;/c1&gt; tasks of the different projects were executed. Let's switch to the &lt;c2&gt;bluewhale&lt;/c2&gt; dir and see what happens if we execute Gradle from there.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T161714Z" creationid="huanghaohang" creationdate="20190615T161714Z">
+        <seg>当我们从根项目目录执行了 &lt;c0&gt;hello&lt;/c0&gt; 任务时，会以一种直观的方式表现出来。不同项目中的所有 &lt;c1&gt;hello&lt;/c1&gt; 任务都被执行了。让我们切换到 &lt;c2&gt;bluewhale&lt;/c2&gt; 目录，看看如果我们在那里执行 Gradle，会发生什么。</seg>
       </tuv>
     </tu>
     <tu>
