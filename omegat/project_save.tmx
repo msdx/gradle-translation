@@ -10695,6 +10695,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (project.arctic) { doLast {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T145020Z" creationid="huanghaohang" creationdate="20190615T145020Z">
+        <seg>&lt;s2&gt;if&lt;/s2&gt; (project.arctic) { doLast {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;if&lt;/s2&gt; (toolChain in VisualCpp &amp;&amp; buildType == buildTypes.debug) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035732Z" creationid="huanghaohang" creationdate="20190610T035732Z">
@@ -11485,6 +11493,36 @@ I'm krill
 - I depend on water
 - I love to spend time in the arctic waters.
 - The weight of my species in summer is twice as heavy as all human beings.
+I'm tropicalFish
+- I depend on water</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
+- I'm the largest animal that has ever lived on this planet.
+- I love to spend time in the arctic waters.
+I'm krill
+- I depend on water
+- The weight of my species in summer is twice as heavy as all human beings.
+- I love to spend time in the arctic waters.
+I'm tropicalFish
+- I depend on water</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T145043Z" creationid="huanghaohang" creationdate="20190615T145043Z">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
+- I'm the largest animal that has ever lived on this planet.
+- I love to spend time in the arctic waters.
+I'm krill
+- I depend on water
+- The weight of my species in summer is twice as heavy as all human beings.
+- I love to spend time in the arctic waters.
 I'm tropicalFish
 - I depend on water</seg>
       </tuv>
@@ -22423,6 +22461,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T020344Z" creationid="huanghaohang" creationdate="20190605T020045Z">
         <seg>在某些企业环境中，可以在 Gradle 构建中声明的模块版本列表，是在外部进行维护和审计的。依赖解析规则提供了这种模式的整洁实现：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In the build file of the &lt;c0&gt;water&lt;/c0&gt; project we use an &lt;c1&gt;afterEvaluate&lt;/c1&gt; notification. This means that the closure we are passing gets evaluated &lt;s2&gt;&lt;e3&gt;after&lt;/e3&gt;&lt;/s2&gt; the build scripts of the subproject are evaluated. As the property &lt;c4&gt;arctic&lt;/c4&gt; is set in those build scripts, we have to do it this way. You will find more on this topic in &lt;a5&gt;Section 56.6, “Dependencies - Which dependencies?”&lt;/a5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T151322Z" creationid="huanghaohang" creationdate="20190615T151322Z">
+        <seg>在 &lt;c0&gt;water&lt;/c0&gt; 项目的构建文件中，我们使用了一个 &lt;c1&gt;afterEvaluate&lt;/c1&gt; 通知。这意味着，我们所传的闭包将在子项目的构建脚本评估&lt;s2&gt;&lt;e3&gt;之后&lt;/e3&gt;&lt;/s2&gt;才进行评估。由于属性 &lt;c4&gt;arctic&lt;/c4&gt; 设置在这些构建脚本中，所以我们必须这样做。在《&lt;a5&gt;第56.6节，依赖——哪些依赖？&lt;/a5&gt;》中，你可以看到更多有关这个主题的信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34495,6 +34541,14 @@ No dependencies</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>afterEvaluate { Project project -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T145020Z" creationid="huanghaohang" creationdate="20190615T145020Z">
+        <seg>afterEvaluate { Project project -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>afterEvaluate { project -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145904Z" creationid="huanghaohang" creationdate="20190613T145904Z">
@@ -38845,6 +38899,14 @@ artifacts {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>doLast {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T145019Z" creationid="huanghaohang" creationdate="20190615T145019Z">
+        <seg>doLast {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>doLast{</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124927Z" creationid="huanghaohang" creationdate="20171015T124927Z">
@@ -39349,6 +39411,34 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051621Z" creationid="huanghaohang" creationdate="20190609T051621Z">
         <seg>exportedHeaders {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.arctic = false</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T145018Z" creationid="huanghaohang" creationdate="20190615T145018Z">
+        <seg>ext.arctic = false</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.arctic = true
+hello.doLast {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T145016Z" creationid="huanghaohang" creationdate="20190615T145016Z">
+        <seg>ext.arctic = true
+hello.doLast {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.arctic = true
+hello.doLast { println &lt;s0&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s0&gt; }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T145015Z" creationid="huanghaohang" creationdate="20190615T145015Z">
+        <seg>ext.arctic = true
+hello.doLast { println &lt;s0&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s0&gt; }</seg>
       </tuv>
     </tu>
     <tu>
@@ -43338,6 +43428,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>multi_project_builds.html#sec:dependencies_which_dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T145136Z" creationid="huanghaohang" creationdate="20190615T145136Z">
+        <seg>multi_project_builds.html#sec:dependencies_which_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>multi_project_builds.html#sec:running_partial_build_from_the_root</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T143320Z" creationid="huanghaohang" creationdate="20190613T143320Z">
@@ -45006,6 +45104,14 @@ gradle.taskGraph.afterTask { Task task, TaskState state -&gt;</seg>
 }
 
 gradle.taskGraph.afterTask { Task task, TaskState state -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;'- I love to spend time in the arctic waters.'&lt;/s3&gt; }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T145022Z" creationid="huanghaohang" creationdate="20190615T145022Z">
+        <seg>println &lt;s3&gt;'- I love to spend time in the arctic waters.'&lt;/s3&gt; }</seg>
       </tuv>
     </tu>
     <tu>
@@ -48967,6 +49073,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143645Z" creationid="huanghaohang" creationdate="20190615T143645Z">
         <seg>tropicalFish/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tropicalFish/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T145017Z" creationid="huanghaohang" creationdate="20190615T145017Z">
+        <seg>tropicalFish/build.gradle</seg>
       </tuv>
     </tu>
     <tu>
