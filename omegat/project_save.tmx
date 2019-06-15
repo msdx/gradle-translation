@@ -8310,6 +8310,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.2.3.2. Filtering by properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143950Z" creationid="huanghaohang" creationdate="20190615T143950Z">
+        <seg>56.2.3.2. 通过属性过滤</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.2.3. Project filtering</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143436Z" creationid="huanghaohang" creationdate="20190615T143436Z">
@@ -11441,6 +11449,36 @@ I'm bluewhale</seg>
         <seg>&gt; gradle -q hello
 I'm water
 I'm bluewhale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
+- I love to spend time in the arctic waters.
+- I'm the largest animal that has ever lived on this planet.
+I'm krill
+- I depend on water
+- I love to spend time in the arctic waters.
+- The weight of my species in summer is twice as heavy as all human beings.
+I'm tropicalFish
+- I depend on water</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143748Z" creationid="huanghaohang" creationdate="20190615T143748Z">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
+- I love to spend time in the arctic waters.
+- I'm the largest animal that has ever lived on this planet.
+I'm krill
+- I depend on water
+- I love to spend time in the arctic waters.
+- The weight of my species in summer is twice as heavy as all human beings.
+I'm tropicalFish
+- I depend on water</seg>
       </tuv>
     </tu>
     <tu>
@@ -27553,6 +27591,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;configure()&lt;/c0&gt; method takes a list as an argument and applies the configuration to the projects in this list.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143941Z" creationid="huanghaohang" creationdate="20190615T143941Z">
+        <seg>&lt;c0&gt;configure()&lt;/c0&gt;方法接受一个 list 作为参数，并将配置应用到这个 list 里的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The &lt;c0&gt;default&lt;/c0&gt; configuration of a module contains undesired artifacts. Rather than depending on the whole configuration, a dependency on just the desired artifacts is declared.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190530T095014Z" creationid="huanghaohang" creationdate="20190530T094751Z">
@@ -32437,6 +32483,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180218T093039Z" creationid="huanghaohang" creationdate="20180218T093039Z">
         <seg>使用归档的内容作为文件树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using the project name for filtering is one option. Using extra project properties is another. (See &lt;a0&gt;Section 13.4.2, “Extra properties”&lt;/a0&gt; for more information on extra properties.)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T144828Z" creationid="huanghaohang" creationdate="20190615T144828Z">
+        <seg>我们可以选择使用项目的名称，或者是额外的项目属性来进行过滤。（请参阅《&lt;a0&gt;第13.4.2节，额外属性&lt;/a0&gt; &gt;，以获取有关额外属性的更多信息。)</seg>
       </tuv>
     </tu>
     <tu>
@@ -40341,12 +40395,34 @@ systemProp.system=systemValue</seg>
       <tuv lang="EN-US">
         <seg>hello &lt;&lt; {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}
 }
+configure(subprojects.findAll {it.name != &lt;s2&gt;'tropicalFish'&lt;/s2&gt;}) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143725Z" creationid="huanghaohang" creationdate="20190615T143725Z">
+        <seg>hello &lt;&lt; {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}
+}
+configure(subprojects.findAll {it.name != &lt;s2&gt;'tropicalFish'&lt;/s2&gt;}) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>hello &lt;&lt; {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}
+}
 project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142643Z" creationid="huanghaohang" creationdate="20190615T142643Z">
         <seg>hello &lt;&lt; {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}
 }
 project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>hello &lt;&lt; {println &lt;s3&gt;'- I love to spend time in the arctic waters.'&lt;/s3&gt;}
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143726Z" creationid="huanghaohang" creationdate="20190615T143726Z">
+        <seg>hello &lt;&lt; {println &lt;s3&gt;'- I love to spend time in the arctic waters.'&lt;/s3&gt;}
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -41233,6 +41309,14 @@ gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155552Z" creationid="huanghaohang" creationdate="20190614T155552Z">
         <seg>include &lt;s0&gt;'bluewhale'&lt;/s0&gt;, &lt;s1&gt;'krill'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include &lt;s0&gt;'bluewhale'&lt;/s0&gt;, &lt;s1&gt;'krill'&lt;/s1&gt;, &lt;s2&gt;'tropicalFish'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143724Z" creationid="huanghaohang" creationdate="20190615T143724Z">
+        <seg>include &lt;s0&gt;'bluewhale'&lt;/s0&gt;, &lt;s1&gt;'krill'&lt;/s1&gt;, &lt;s2&gt;'tropicalFish'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
