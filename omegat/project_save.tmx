@@ -9983,6 +9983,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/addKrill/water&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155551Z" creationid="huanghaohang" creationdate="20190614T155551Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在 Gradle 的二进制及源码分发包的 &lt;c2&gt;samples/userguide/multiproject/firstExample/water&lt;/c2&gt; 中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/firstExample/water&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154522Z" creationid="huanghaohang" creationdate="20190614T154522Z">
@@ -11377,6 +11385,20 @@ I'm bluewhale</seg>
         <seg>&gt; gradle -q hello
 I'm water
 I'm bluewhale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+I'm krill</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155646Z" creationid="huanghaohang" creationdate="20190614T155646Z">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+I'm krill</seg>
       </tuv>
     </tu>
     <tu>
@@ -19187,6 +19209,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.3. Multi-project tree - water, bluewhale &amp; krill projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155531Z" creationid="huanghaohang" creationdate="20190614T155531Z">
+        <seg>示例 56.3. 多项目树——water &amp; bluewhale &amp; krill 项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.4. Water project build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155643Z" creationid="huanghaohang" creationdate="20190614T155643Z">
+        <seg>示例 56.4. Water 项目构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -22491,6 +22529,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Is this cool or is this cool? And how does this work? The Project API provides a property &lt;c0&gt;allprojects&lt;/c0&gt; which returns a list with the current project and all its subprojects underneath it. If you call &lt;c1&gt;allprojects&lt;/c1&gt; with a closure, the statements of the closure are delegated to the projects associated with &lt;c2&gt; allprojects&lt;/c2&gt;. You could also do an iteration via &lt;c3&gt;allprojects.each&lt;/c3&gt;, but that would be more verbose.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T141624Z" creationid="huanghaohang" creationdate="20190615T141624Z">
+        <seg>是刚才那个酷还是现在这个酷？它又是怎么实现的呢？ 项目API提供了属性 &lt;c0&gt;allproject&lt;/c0&gt; ，该属性返回包含当前项目及其下面的所有子项目的列表。 如果您将 &lt;c1&gt;allprojecta&lt;/c1&gt; 称为关闭，那么关闭的语句将委派给与 &lt;c2&gt; allprojectl&lt;/c2&gt;相关联的项目。 您还可以通过 &lt;c3&gt;allprojects.每种&lt;/c3&gt;执行迭代，但这将更详细。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>It also leverages the &lt;c0&gt;wrapper&lt;/c0&gt; task from the Wrapper plugin (see &lt;a1&gt;Chapter 48, &lt;i2&gt;Wrapper Plugin&lt;/i2&gt;&lt;/a1&gt;), which means that the Gradle Wrapper will also be installed into the project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T213650Z" creationid="95" creationdate="20190131T213650Z">
@@ -23655,6 +23701,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154408Z" creationid="95" creationdate="20170731T154408Z">
         <seg>现在让我们来看一个典型的多项目构建。以下是这个项目的布局：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now we rewrite the &lt;c0&gt;water&lt;/c0&gt; build script and boil it down to a single line.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155630Z" creationid="huanghaohang" creationdate="20190614T155630Z">
+        <seg>现在我们改写 &lt;c0&gt;water&lt;/c0&gt; 的构建脚本，并把它归结成为一行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40941,6 +40995,14 @@ gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>include &lt;s0&gt;'bluewhale'&lt;/s0&gt;, &lt;s1&gt;'krill'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155552Z" creationid="huanghaohang" creationdate="20190614T155552Z">
+        <seg>include &lt;s0&gt;'bluewhale'&lt;/s0&gt;, &lt;s1&gt;'krill'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>include &lt;s0&gt;'project1'&lt;/s0&gt;, &lt;s1&gt;'project2:child'&lt;/s1&gt;, &lt;s2&gt;'project3:child1'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T151519Z" creationid="huanghaohang" creationdate="20190612T151519Z">
@@ -42095,6 +42157,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T053848Z" creationid="huanghaohang" creationdate="20180407T053848Z">
         <seg>jvmArgs = [&lt;s1&gt;'-XX:MaxPermSize=512m'&lt;/s1&gt;]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>krill/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155538Z" creationid="huanghaohang" creationdate="20190614T155538Z">
+        <seg>krill/</seg>
       </tuv>
     </tu>
     <tu>
@@ -47902,6 +47972,16 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170726T155315Z" creationid="95" creationdate="20170726T155315Z">
         <seg>task hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task hello &lt;&lt; { task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155644Z" creationid="huanghaohang" creationdate="20190614T155644Z">
+        <seg>task hello &lt;&lt; { task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
+}</seg>
       </tuv>
     </tu>
     <tu>
