@@ -11417,6 +11417,26 @@ I'm bluewhale</seg>
 I'm water
 I'm bluewhale
 - I depend on water
+- I'm the largest animal that has ever lived on this planet.
+I'm krill
+- I depend on water</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142646Z" creationid="huanghaohang" creationdate="20190615T142646Z">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
+- I'm the largest animal that has ever lived on this planet.
+I'm krill
+- I depend on water</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
 I'm krill
 - I depend on water</seg>
       </tuv>
@@ -13883,6 +13903,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T214545Z" creationid="95" creationdate="20190131T214344Z">
         <seg>由于此插件当前是 &lt;a0&gt;实验性&lt;/a0&gt;阶段，因此目前仅支持3种构建初始化类型。 在未来的Gradle发行版中，将会添加更多的类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As we have said, we usually prefer to put project specific behavior into the build script of this project. Let's refactor and also add some project specific behavior to the &lt;c0&gt;krill&lt;/c0&gt; project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142845Z" creationid="huanghaohang" creationdate="20190615T142845Z">
+        <seg>正如前面所说，我们通常倾向于将特定于项目的行为放入该项目的构建脚本中。让我们重构并将一些项目特定行为添加到 &lt;c0&gt;krill&lt;/c0&gt; 项目中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19271,6 +19299,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142147Z" creationid="huanghaohang" creationdate="20190615T142147Z">
         <seg>示例 56.5. 定义所有项目以及子项目的共同行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.6. Defining specific behaviour for particular project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142642Z" creationid="huanghaohang" creationdate="20190615T142642Z">
+        <seg>示例 56.6. 定义特定项目的特定行为</seg>
       </tuv>
     </tu>
     <tu>
@@ -40217,6 +40253,18 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>hello &lt;&lt; {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}
+}
+project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142643Z" creationid="huanghaohang" creationdate="20190615T142643Z">
+        <seg>hello &lt;&lt; {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}
+}
+project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>hello {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051619Z" creationid="huanghaohang" creationdate="20190609T051619Z">
@@ -44672,6 +44720,16 @@ taskZ.shouldRunAfter taskX</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170728T153804Z" creationid="95" creationdate="20170728T153804Z">
         <seg>println &lt;s3&gt;"${ant.properties[file.name]}"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142645Z" creationid="huanghaohang" creationdate="20190615T142645Z">
+        <seg>println &lt;s3&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s3&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
