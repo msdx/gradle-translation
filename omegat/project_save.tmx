@@ -8286,6 +8286,30 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.2.1. Defining common behavior</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142121Z" creationid="huanghaohang" creationdate="20190615T142121Z">
+        <seg>56.1.2. 定义共同行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>56.2.2. Adding specific behavior</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142211Z" creationid="huanghaohang" creationdate="20190615T142211Z">
+        <seg>56.2.2. 添加特定行为</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>56.2. Subproject configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142106Z" creationid="huanghaohang" creationdate="20190615T142106Z">
+        <seg>56.2. 子项目配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -11385,6 +11409,24 @@ I'm bluewhale</seg>
         <seg>&gt; gradle -q hello
 I'm water
 I'm bluewhale</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
+I'm krill
+- I depend on water</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142152Z" creationid="huanghaohang" creationdate="20190615T142152Z">
+        <seg>&gt; gradle -q hello
+I'm water
+I'm bluewhale
+- I depend on water
+I'm krill
+- I depend on water</seg>
       </tuv>
     </tu>
     <tu>
@@ -19221,6 +19263,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155643Z" creationid="huanghaohang" creationdate="20190614T155643Z">
         <seg>示例 56.4. Water 项目构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.5. Defining common behaviour of all projects and subprojects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142147Z" creationid="huanghaohang" creationdate="20190615T142147Z">
+        <seg>示例 56.5. 定义所有项目以及子项目的共同行为</seg>
       </tuv>
     </tu>
     <tu>
@@ -28821,6 +28871,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Project API also provides a property for accessing the subprojects only.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142116Z" creationid="huanghaohang" creationdate="20190615T142116Z">
+        <seg>Project API 还提供了一个属性只用于访问子项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Project Report Plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190205T070418Z" creationid="huanghaohang" creationdate="20190205T070407Z">
@@ -33305,6 +33363,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125305Z" creationid="95" creationdate="20170803T125256Z">
         <seg>你可以向同一个构建的项目之间添加依赖关系，这样，某个项目中的 JAR 文件就能用于编译另一个项目了。在 &lt;c0&gt;api&lt;/c0&gt;项目的构建文件里，我们让它依赖 &lt;c1&gt;shared&lt;/c1&gt; 项目所生成的JAR文件。由于这个依赖关系，Gradle会确保 &lt;c2&gt;shared&lt;/c2&gt;项目总是在 &lt;c3&gt;api&lt;/c3&gt;项目之前构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can add specific behavior on top of the common behavior. Usually we put the project specific behavior in the build script of the project where we want to apply this specific behavior. But as we have already seen, we don't have to do it this way. We could add project specific behavior for the &lt;c0&gt;bluewhale&lt;/c0&gt; project like this:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142617Z" creationid="huanghaohang" creationdate="20190615T142617Z">
+        <seg>你可以在共同行为的上面再添加特定行为。通常我们会把项目的特定行为放在要应用该行为的项目的构建脚本里。但正如我们已经看到的，我们可以不这样做。我们可以这样为 &lt;c0&gt;bluewhale&lt;/c0&gt; 项目添加项目的特定行为：</seg>
       </tuv>
     </tu>
     <tu>
@@ -40137,6 +40203,16 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T090225Z" creationid="huanghaohang" creationdate="20190611T090225Z">
         <seg>headers.srcDir &lt;s2&gt;"lib/cunit/2.1-2/include"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>hello &lt;&lt; {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142150Z" creationid="huanghaohang" creationdate="20190615T142150Z">
+        <seg>hello &lt;&lt; {println &lt;s1&gt;"- I depend on water"&lt;/s1&gt;}
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -47990,6 +48066,18 @@ println tasks.getByPath(&lt;s4&gt;':projectA:hello'&lt;/s4&gt;).path</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155644Z" creationid="huanghaohang" creationdate="20190614T155644Z">
         <seg>task hello &lt;&lt; { task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task hello &lt;&lt; {task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
+}
+subprojects {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142148Z" creationid="huanghaohang" creationdate="20190615T142148Z">
+        <seg>task hello &lt;&lt; {task -&gt; println &lt;s0&gt;"I'm $task.project.name"&lt;/s0&gt; }
+}
+subprojects {</seg>
       </tuv>
     </tu>
     <tu>
