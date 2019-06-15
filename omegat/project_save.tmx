@@ -11466,6 +11466,22 @@ Greetings from the hello task.</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>&gt; gradle -q hello
+I'm bluewhale
+- I depend on water
+- I'm the largest animal that has ever lived on this planet.
+- I love to spend time in the arctic waters.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T161741Z" creationid="huanghaohang" creationdate="20190615T161741Z">
+        <seg>&gt; gradle -q hello
+I'm bluewhale
+- I depend on water
+- I'm the largest animal that has ever lived on this planet.
+- I love to spend time in the arctic waters.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
 I'm water
 I'm bluewhale</seg>
       </tuv>
@@ -19413,6 +19429,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154421Z" creationid="huanghaohang" creationdate="20190614T154421Z">
         <seg>示例 56.1. 多项目树——water &amp; bluewhale 项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.10. Running build from subproject</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T161733Z" creationid="huanghaohang" creationdate="20190615T161733Z">
+        <seg>示例 56.10. 从子项目运行构建</seg>
       </tuv>
     </tu>
     <tu>
@@ -29545,6 +29569,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180115T142750Z" creationid="huanghaohang" creationdate="20180114T155211Z">
         <seg>基本思想是，Gradle 命令会 fork 一个守护进程执行实际的构建。Gradle 命令的后续调用将重用守护进程，以避免启动开销。有时我们不能使用现有的守护进程，是因为它正忙或者它的 java 版本或 jvm 参数不同。关于何时会 fork 新的守护进程的具体细节，请阅读下面的专题。守护进程将在空闲 3 小时后自动失效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The basic rule behind Gradle's behavior is simple. Gradle looks down the hierarchy, starting with the &lt;s0&gt;&lt;e1&gt;current dir&lt;/e1&gt;&lt;/s0&gt;, for tasks with the name &lt;c2&gt;hello&lt;/c2&gt; an executes them. One thing is very important to note. Gradle &lt;s3&gt;&lt;e4&gt;always&lt;/e4&gt;&lt;/s3&gt; evaluates &lt;s5&gt;&lt;e6&gt;every&lt;/e6&gt;&lt;/s5&gt; project of the multi-project build and creates all existing task objects. Then, according to the task name arguments and the current dir, Gradle filters the tasks which should be executed. Because of Gradle's cross project configuration &lt;s7&gt;&lt;e8&gt;every&lt;/e8&gt;&lt;/s7&gt; project has to be evaluated before &lt;s9&gt;&lt;e10&gt;any&lt;/e10&gt;&lt;/s9&gt; task gets executed. We will have a closer look at this in the next section. Let's now have our last marine example. Let's add a task to &lt;c11&gt;bluewhale&lt;/c11&gt; and &lt;c12&gt;krill&lt;/c12&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T162419Z" creationid="huanghaohang" creationdate="20190615T162419Z">
+        <seg>Gradle 的行为背后的基本规则很简单。Gradle 从&lt;s0&gt;&lt;e1&gt;当前目录&lt;/e1&gt;&lt;/s0&gt;开始，按层次结构往下查找名为 &lt;c2&gt;hello&lt;/c2&gt; 的任务并执行它们。有一件事很重要。Gradle &lt;s3&gt;&lt;e4&gt;始终&lt;/e4&gt;&lt;/s3&gt;评估多项目构建的&lt;s5&gt;&lt;e6&gt;每一个&lt;/e6&gt;&lt;/s5&gt;项目，并创建所有存在的任务对象。然后，根据任务名称参数和当前目录， Gradle 过滤出应该执行的任务。由于 Gradle 的跨项目配置，&lt;s7&gt;&lt;e8&gt;每个&lt;/e8&gt;&lt;/s7&gt;项目都必须在执行&lt;s9&gt;&lt;e10&gt;任何&lt;/e10&gt;&lt;/s9&gt;任务之前先评估。我们将在下一节仔细研究这一点。现在让我们看看最后一个 marine 的例子。 我们先将任务添加到 &lt;c11&gt;bluewhale&lt;/c11&gt; 和 &lt;c12&gt;krill&lt;/c12&gt;。</seg>
       </tuv>
     </tu>
     <tu>
