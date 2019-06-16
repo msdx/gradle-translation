@@ -11133,6 +11133,28 @@ using build file 'build.gradle' in 'subdir'.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q :hello :krill:hello hello
+I'm water
+I'm krill
+- I depend on water
+- The weight of my species in summer is twice as heavy as all human beings.
+- I love to spend time in the arctic waters.
+I'm tropicalFish
+- I depend on water</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T111248Z" creationid="huanghaohang" creationdate="20190616T111248Z">
+        <seg>&gt; gradle -q :hello :krill:hello hello
+I'm water
+I'm krill
+- I depend on water
+- The weight of my species in summer is twice as heavy as all human beings.
+- I love to spend time in the arctic waters.
+I'm tropicalFish
+- I depend on water</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q a
 source dir is src/main/java</seg>
       </tuv>
@@ -19509,6 +19531,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.13. Running tasks by their absolute path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T111226Z" creationid="huanghaohang" creationdate="20190616T111226Z">
+        <seg>示例 56.13. 按绝对路径运行任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154820Z" creationid="huanghaohang" creationdate="20190614T154820Z">
@@ -24441,6 +24471,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T114306Z" creationid="huanghaohang" creationdate="20170909T114306Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q -p subdir hello&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q :hello :krill:hello hello&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T111313Z" creationid="huanghaohang" creationdate="20190616T111230Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q :hello :krill:hello hello&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -29701,6 +29739,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190201T232934Z" creationid="95" creationdate="20190201T232934Z">
         <seg>构建仪表盘插件目前是一个&lt;a0&gt;试验性&lt;/a0&gt;插件。注意，在以后的 Gradle 版本中，其 DSL 和其他配置可能会有变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The build is executed from the &lt;c0&gt;tropicalFish&lt;/c0&gt; project. We execute the &lt;c1&gt;hello&lt;/c1&gt; tasks of the &lt;c2&gt;water&lt;/c2&gt;, the &lt;c3&gt;krill&lt;/c3&gt; and the &lt;c4&gt;tropicalFish&lt;/c4&gt; project. The first two tasks are specified by there absolute path, the last task is executed on the name matching mechanism described above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T112128Z" creationid="huanghaohang" creationdate="20190616T112128Z">
+        <seg>构建从 &lt;c0&gt;tropicalFish&lt;/c0&gt; 项目执行。我们执行了 &lt;c2&gt;water&lt;/c2&gt;， &lt;c1&gt;hello&lt;/c1&gt; 及 &lt;c4&gt;tropicalFish&lt;/c4&gt; 这三个项目的 &lt;c1&gt;hello&lt;/c1&gt; 任务。 前两个任务由其绝对路径指定，最后一个任务通过上面所述的名称匹配机制执行。</seg>
       </tuv>
     </tu>
     <tu>
