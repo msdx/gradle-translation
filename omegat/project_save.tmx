@@ -11217,6 +11217,18 @@ Producing message:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q action
+Producing message:
+Consuming message: Watch the order of execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141054Z" creationid="huanghaohang" creationdate="20190616T141054Z">
+        <seg>&gt; gradle -q action
+Producing message:
+Consuming message: Watch the order of execution.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q allFiles
 orca-1.0.jar
 shark-1.0.jar
@@ -19607,6 +19619,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.15. Dependencies and execution order</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T140810Z" creationid="huanghaohang" creationdate="20190616T140758Z">
+        <seg>示例 56.15. 依赖和执行顺序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154820Z" creationid="huanghaohang" creationdate="20190614T154820Z">
@@ -24171,6 +24191,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155630Z" creationid="huanghaohang" creationdate="20190614T155630Z">
         <seg>现在我们改写 &lt;c0&gt;water&lt;/c0&gt; 的构建脚本，并把它归结成为一行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now we take the air out of this hack. We simply switch to the &lt;c0&gt;consumer&lt;/c0&gt; dir and execute the build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141242Z" creationid="huanghaohang" creationdate="20190616T141242Z">
+        <seg>现在我们来看这个技巧。我们简单地切换到 &lt;c0&gt;consumer&lt;/c0&gt; 目录并执行构建。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34795,6 +34823,22 @@ No dependencies</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>aProducer/</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T140811Z" creationid="huanghaohang" creationdate="20190616T140811Z">
+        <seg>aProducer/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>aProducer/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T140815Z" creationid="huanghaohang" creationdate="20190616T140815Z">
+        <seg>aProducer/build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>add project.repositories.fileRepo</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T080210Z" creationid="huanghaohang" creationdate="20190606T080210Z">
@@ -41769,6 +41813,14 @@ gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143724Z" creationid="huanghaohang" creationdate="20190615T143724Z">
         <seg>include &lt;s0&gt;'bluewhale'&lt;/s0&gt;, &lt;s1&gt;'krill'&lt;/s1&gt;, &lt;s2&gt;'tropicalFish'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include &lt;s0&gt;'consumer'&lt;/s0&gt;, &lt;s1&gt;'aProducer'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T140812Z" creationid="huanghaohang" creationdate="20190616T140812Z">
+        <seg>include &lt;s0&gt;'consumer'&lt;/s0&gt;, &lt;s1&gt;'aProducer'&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
