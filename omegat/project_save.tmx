@@ -30103,6 +30103,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The default &lt;s0&gt;&lt;e1&gt;evaluation&lt;/e1&gt;&lt;/s0&gt; order of the projects is alphanumeric (for the same nesting level). Therefore the &lt;c2&gt;consumer&lt;/c2&gt; project is evaluated before the &lt;c3&gt;producer&lt;/c3&gt; project and the &lt;c4&gt;key&lt;/c4&gt; value of the &lt;c5&gt;producer&lt;/c5&gt; is set &lt;s6&gt;&lt;e7&gt;after&lt;/e7&gt;&lt;/s6&gt; it is read by the &lt;c8&gt;consumer&lt;/c8&gt; project. Gradle offers a solution for this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153646Z" creationid="huanghaohang" creationdate="20190616T153646Z">
+        <seg>项目的默认&lt;s0&gt;&lt;e1&gt;评估&lt;/e1&gt;&lt;/s0&gt;顺序是字母数字（对于同一嵌套级别）。因此，&lt;c2&gt;consumer&lt;/c2&gt; 项目评估会在 &lt;c3&gt;producer&lt;/c3&gt; 项目之前，并且 &lt;c5&gt;producer&lt;/c5&gt; 的 &lt;c4&gt;key&lt;/c4&gt; 值在它被 &lt;c8&gt;consumer&lt;/c8&gt; 项目读取&lt;s6&gt;&lt;e7&gt;之后&lt;/e7&gt;&lt;/s6&gt;设置。Gradle 为此提供了一个解决方案。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The default behavior of the Ear task is to copy the content of &lt;c0&gt;src/main/application&lt;/c0&gt; to the root of the archive. If your &lt;c1&gt;application&lt;/c1&gt; directory doesn't contain a &lt;c2&gt;META-INF/application.xml&lt;/c2&gt; deployment descriptor then one will be generated for you.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180416T142915Z" creationid="huanghaohang" creationdate="20180416T142705Z">
