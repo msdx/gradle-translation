@@ -11206,6 +11206,16 @@ source dir is src/main/java</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>&gt; gradle -q action
+Consuming message: null</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141351Z" creationid="huanghaohang" creationdate="20190616T141351Z">
+        <seg>&gt; gradle -q action
+Consuming message: null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q action
 Consuming message: null
 Producing message:</seg>
       </tuv>
@@ -19627,6 +19637,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.16. Dependencies and execution order</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141259Z" creationid="huanghaohang" creationdate="20190616T141259Z">
+        <seg>示例 56.16. 依赖和执行顺序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154820Z" creationid="huanghaohang" creationdate="20190614T154820Z">
@@ -20439,6 +20457,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030034Z" creationid="huanghaohang" creationdate="20190603T030034Z">
         <seg>Flat 目录仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For Gradle the two &lt;c0&gt;action&lt;/c0&gt; tasks are just not related. If you execute the build from the &lt;c1&gt;messages&lt;/c1&gt; project Gradle executes them both because they have the same name and they are down the hierarchy. In the last example only one &lt;c2&gt;action&lt;/c2&gt; was down the hierarchy and therefore it was the only task that got executed. We need something better than this hack.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141717Z" creationid="huanghaohang" creationdate="20190616T141717Z">
+        <seg>对于 Gradle 而言，这两个 &lt;c0&gt;action&lt;/c0&gt; 任务没有关联。如果你从 &lt;c1&gt;messages&lt;/c1&gt; 项目执行构建，Gradle 将同时执行它们两个，因为它们有相同的名称并且都在层次结构下。在最后一个示例中，只有一个 &lt;c2&gt;action&lt;/c2&gt; 是在这个层次结构下，因此它是唯一一个被执行的任务。我们需要比这种方式更好的实现。</seg>
       </tuv>
     </tu>
     <tu>
