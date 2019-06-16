@@ -8342,6 +8342,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.4. Running tasks by their absolute path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T110555Z" creationid="huanghaohang" creationdate="20190616T110555Z">
+        <seg>56.4. 按绝对路径运行任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -14117,6 +14125,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T010757Z" creationid="95" creationdate="20170729T031316Z">
         <seg>如你所见，Gradle是一个通用的构建工具。你在构建脚本中实现的几乎任何内容它都能够构建。它开箱即用，但是需要你在构建脚本中先写好代码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>As we have seen, you can run a multi-project build by entering any subproject dir and execute the build from there. All matching task names of the project hierarchy starting with the current dir are executed. But Gradle also offers to execute tasks by their absolute path (see also &lt;a0&gt;Section 56.5, “Project and task paths”&lt;/a0&gt;):</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T111218Z" creationid="huanghaohang" creationdate="20190616T111218Z">
+        <seg>如我们所见，你可以通过进入任意的子项目目录并从该处执行构建来运行多项目构建。从当前目录开始的项目层次结构中，所有名字匹配的任务都会被执行。不过 Gradle 也提供了按绝对路径来执行任务的方式（另请参阅《&lt;a0&gt;第56.5节，项目和任务路径&lt;/a0&gt;》）：</seg>
       </tuv>
     </tu>
     <tu>
@@ -43592,6 +43608,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T145136Z" creationid="huanghaohang" creationdate="20190615T145136Z">
         <seg>multi_project_builds.html#sec:dependencies_which_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi_project_builds.html#sec:project_and_task_paths</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T110615Z" creationid="huanghaohang" creationdate="20190616T110615Z">
+        <seg>multi_project_builds.html#sec:project_and_task_paths</seg>
       </tuv>
     </tu>
     <tu>
