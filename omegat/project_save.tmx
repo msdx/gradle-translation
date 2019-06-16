@@ -24395,6 +24395,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Originally Gradle has used the &lt;c0&gt;'/'&lt;/c0&gt; character as a natural path separator. With the introduction of directory tasks (see &lt;a1&gt;Section 14.1, “Directory creation”&lt;/a1&gt;) this was no longer possible, as the name of the directory task contains the &lt;c2&gt;'/'&lt;/c2&gt; character.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T135956Z" creationid="huanghaohang" creationdate="20190616T135956Z">
+        <seg>最初 Gradle 使用 &lt;c0&gt;“/”&lt;/c0&gt; 字符作为自然路径分隔符。在引入目录任务（见《&lt;a1&gt;第14.1节，目录创建&lt;/a1&gt;)》就不能再这样做了，因为目录任务的名称包含 &lt;c2&gt;“/”&lt;/c2&gt; 字符。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>OsgiManifest</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T030218Z" creationid="huanghaohang" creationdate="20181203T030218Z">
