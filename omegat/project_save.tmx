@@ -29689,6 +29689,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The build is executed from the &lt;c0&gt;water&lt;/c0&gt; project. Neither &lt;c1&gt;water&lt;/c1&gt; nor &lt;c2&gt;tropicalFish&lt;/c2&gt; have a task with the name &lt;c3&gt;distanceToIceberg&lt;/c3&gt;. Gradle does not care. The simple rule mentioned already above is: Execute all tasks down the hierarchy which have this name. Only complain if there is &lt;s4&gt;&lt;e5&gt;no&lt;/e5&gt;&lt;/s4&gt; such task!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T110543Z" creationid="huanghaohang" creationdate="20190616T110543Z">
+        <seg>构建从 &lt;c0&gt;water&lt;/c0&gt; 项目执行。&lt;c1&gt;water&lt;/c1&gt; 和 &lt;c2&gt;tropicalFish&lt;/c2&gt; 都没有一个叫 &lt;c3&gt;distanceToIceberg&lt;/c3&gt;的任务，但 Gradle 不关心这个问题。上面提到的简单规则是：执行这个层次结构下叫这个名字的所有任务。如果&lt;s4&gt;&lt;e5&gt;没有&lt;/e5&gt;&lt;/s4&gt;这样的任务，只能报错！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The built-in dependencyInsight task is a part of the 'Help' tasks group. The task needs to configured with the dependency and the configuration. The report looks for the dependencies that match the specified dependency spec in the specified configuration. If java related plugin is applied, the dependencyInsight task is pre-configured with 'compile' configuration because typically it's the compile dependencies we are interested in. You should specify the dependency you are interested in via the command line '--dependency' option. If you don't like the defaults you may select the configuration via '--configuration' option. For more information see &lt;a0&gt;&lt;c1&gt;DependencyInsightReportTask&lt;/c1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T023244Z" creationid="huanghaohang" creationdate="20170910T022607Z">
