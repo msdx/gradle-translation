@@ -8366,6 +8366,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.6.1.2. Declaring dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141720Z" creationid="huanghaohang" creationdate="20190616T141720Z">
+        <seg>56.6.1.2. 声明依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.6.1. Execution dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T140157Z" creationid="huanghaohang" creationdate="20190616T140157Z">
@@ -10099,6 +10107,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T140252Z" creationid="huanghaohang" creationdate="20190616T140252Z">
         <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在 Gradle 二进制和源码分发包的 &lt;c2&gt;samples/userguide/multiproject/dependencies/firstMessages/messages&lt;/c2&gt; 中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/multiproject/dependencies/messagesWithDependencies/messages&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141815Z" creationid="huanghaohang" creationdate="20190616T141815Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在 Gradle 二进制和源码分发包的 &lt;c2&gt;samples/userguide/multiproject/dependencies/messagesWithDependencies/messages&lt;/c2&gt; 中找到。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19645,6 +19661,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.17. Declaring dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141728Z" creationid="huanghaohang" creationdate="20190616T141728Z">
+        <seg>示例 56.17. 声明依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.18. Declaring dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141939Z" creationid="huanghaohang" creationdate="20190616T141939Z">
+        <seg>示例 56.18. 声明依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154820Z" creationid="huanghaohang" creationdate="20190614T154820Z">
@@ -25801,6 +25833,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013354Z" creationid="huanghaohang" creationdate="20170919T013354Z">
         <seg>运行和测试您的安装</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Running this from the &lt;c0&gt;consumer&lt;/c0&gt; directory gives:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141933Z" creationid="huanghaohang" creationdate="20190616T141933Z">
+        <seg>从&lt;c0&gt;consumer&lt;/c0&gt;目录运行将得到：</seg>
       </tuv>
     </tu>
     <tu>
@@ -33165,6 +33205,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012344Z" creationid="95" creationdate="20170730T012101Z">
         <seg>在后续章节中，我们有深入介绍与Java插件，依赖管理以及多项目构建的相关的许多例子。在本章里，我们还是先了解一下使用Java插件来构建Java项目的基本用法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We have now declared that the &lt;c0&gt;action&lt;/c0&gt; task in the &lt;c1&gt;consumer&lt;/c1&gt; project has an &lt;s2&gt;&lt;e3&gt;execution dependency&lt;/e3&gt;&lt;/s2&gt; on the &lt;c4&gt;action&lt;/c4&gt; task on the &lt;c5&gt;producer&lt;/c5&gt; project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T152537Z" creationid="huanghaohang" creationdate="20190616T152537Z">
+        <seg>我们现在声明了 &lt;c1&gt;consumer&lt;/c1&gt; 项目的 &lt;c0&gt;action&lt;/c0&gt; 任务对 &lt;c5&gt;producer&lt;/c5&gt; 项目的 &lt;c4&gt;action&lt;/c4&gt; 任务有&lt;s2&gt;&lt;e3&gt;执行依赖&lt;/e3&gt;&lt;/s2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46074,6 +46122,16 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println(&lt;s1&gt;"Consuming message: ${rootProject.producerMessage}"&lt;/s1&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141819Z" creationid="huanghaohang" creationdate="20190616T141819Z">
+        <seg>println(&lt;s1&gt;"Consuming message: ${rootProject.producerMessage}"&lt;/s1&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>process&lt;e0&gt;&lt;c1&gt;SourceSet&lt;/c1&gt;&lt;/e0&gt;Resources</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180312T073412Z" creationid="haohang" creationdate="20180312T073412Z">
@@ -48694,6 +48752,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T140255Z" creationid="huanghaohang" creationdate="20190616T140255Z">
         <seg>task action &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task action(dependsOn: &lt;s0&gt;":producer:action"&lt;/s0&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141816Z" creationid="huanghaohang" creationdate="20190616T141816Z">
+        <seg>task action(dependsOn: &lt;s0&gt;":producer:action"&lt;/s0&gt;) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
