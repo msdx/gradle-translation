@@ -12991,6 +12991,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>A project path has the following pattern: It starts always with a colon, which denotes the root project. The root project is the only project in a path that is not specified by its name. The path &lt;c0&gt;:bluewhale&lt;/c0&gt; corresponds to the file system path &lt;c1&gt;water/bluewhale&lt;/c1&gt; in the case of the example above.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T135533Z" creationid="huanghaohang" creationdate="20190616T135533Z">
+        <seg>项目路径具有以下模式：它始终以冒号开头，表示根项目。根项目是路径中唯一不由其名称指定的项目。路径 &lt;c0&gt;:bluewhale&lt;/c0&gt; 对应于上面示例中的文件系统路径 &lt;c1&gt;water/bluewhale&lt;/c1&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>A project's configurations are managed by a &lt;c0&gt;configurations&lt;/c0&gt; object. The closure you pass to the configurations object is applied against its API. To learn more about this API have a look at &lt;a1&gt;&lt;c2&gt;ConfigurationContainer&lt;/c2&gt;&lt;/a1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190527T153532Z" creationid="huanghaohang" creationdate="20190521T125042Z">
@@ -30483,6 +30491,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T132223Z" creationid="huanghaohang" creationdate="20190608T132223Z">
         <seg>用来保护你的私钥的密码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The path of a task is simply its project path plus the task name. For example &lt;c0&gt; :bluewhale:hello&lt;/c0&gt;. Within a project you can address a task of the same project just by its name. This is interpreted as a relative path.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T135754Z" creationid="huanghaohang" creationdate="20190616T135754Z">
+        <seg>任务的路径只是它的项目路径加上任务名称。 例如 &lt;c0&gt; :bluewhale:hello&lt;/c0&gt;。在项目中，您可以通过任务的名称来处理同一项目的任务，这被解释为相对路径。</seg>
       </tuv>
     </tu>
     <tu>
