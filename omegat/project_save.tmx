@@ -8390,6 +8390,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.6.2. Configuration time dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T152844Z" creationid="huanghaohang" creationdate="20190616T152844Z">
+        <seg>56.6.2. 配置时依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.6. Dependencies - Which dependencies?</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T140008Z" creationid="huanghaohang" creationdate="20190616T140008Z">
@@ -11379,6 +11387,28 @@ The class directory exists. I can operate</seg>
         <seg>&gt; gradle -q configure
 1
 5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q consume
+Consuming message: null</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153155Z" creationid="huanghaohang" creationdate="20190616T153155Z">
+        <seg>&gt; gradle -q consume
+Consuming message: null</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q consume
+Producing message:
+Consuming message: Watch the order of execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T152801Z" creationid="huanghaohang" creationdate="20190616T152801Z">
+        <seg>&gt; gradle -q consume
+Producing message:
+Consuming message: Watch the order of execution.</seg>
       </tuv>
     </tu>
     <tu>
@@ -19685,10 +19715,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.19. Cross project task dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T152754Z" creationid="huanghaohang" creationdate="20190616T152754Z">
+        <seg>示例 56.19. 跨项目任务依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154820Z" creationid="huanghaohang" creationdate="20190614T154820Z">
         <seg>示例 56.2. water（父）项目的构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.20. Configuration time dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153140Z" creationid="huanghaohang" creationdate="20190616T153140Z">
+        <seg>示例 56.20. 配置时依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -23541,6 +23587,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Let's have one more example with our producer-consumer build before we enter &lt;s0&gt;&lt;e1&gt;Java&lt;/e1&gt;&lt;/s0&gt; land. We add a property to the producer project and create now a configuration time dependency from consumer on producer.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153137Z" creationid="huanghaohang" creationdate="20190616T153137Z">
+        <seg>在进入 &lt;s0&gt;&lt;e1&gt;Java&lt;/e1&gt;&lt;/s0&gt; 领域之前，让我们再使用生产者——消费者构建的例子。我们添加一个属性到生产者项目，并且现在创建一个消费者对生产者的配置时间依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Let's look at a simple example. To use the Java plugin, add the following to your build file:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T012442Z" creationid="95" creationdate="20170730T012442Z">
@@ -24729,6 +24783,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145827Z" creationid="huanghaohang" creationdate="20170918T145827Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q configure&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q consume&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T152800Z" creationid="huanghaohang" creationdate="20190616T152800Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q consume&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -38427,6 +38489,18 @@ def deployer = uploadArchives.repositories.mavenDeployer
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def message = rootProject.producerMessage
+
+task consume &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153141Z" creationid="huanghaohang" creationdate="20190616T153141Z">
+        <seg>def message = rootProject.producerMessage
+
+task consume &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def mountains = &lt;s4&gt;new&lt;/s4&gt; XmlParser().parse(srcFile)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085712Z" creationid="huanghaohang" creationdate="20170922T085712Z">
@@ -46118,6 +46192,16 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println(&lt;s0&gt;"Consuming message: "&lt;/s0&gt; + message)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153143Z" creationid="huanghaohang" creationdate="20190616T153143Z">
+        <seg>println(&lt;s0&gt;"Consuming message: "&lt;/s0&gt; + message)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println(&lt;s0&gt;"Consuming message: ${rootProject.producerMessage}"&lt;/s0&gt;)
 }</seg>
       </tuv>
@@ -47004,6 +47088,14 @@ project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gr
         <seg>rootProject.name = &lt;s0&gt;'main'&lt;/s0&gt;
 project(&lt;s1&gt;':projectA'&lt;/s1&gt;).projectDir = &lt;s2&gt;new&lt;/s2&gt; File(settingsDir, &lt;s3&gt;'../my-project-a'&lt;/s3&gt;)
 project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gradle'&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>rootProject.producerMessage = &lt;s0&gt;'Watch the order of evaluation.'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153144Z" creationid="huanghaohang" creationdate="20190616T153144Z">
+        <seg>rootProject.producerMessage = &lt;s0&gt;'Watch the order of evaluation.'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -48844,6 +48936,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task consume(dependsOn: &lt;s0&gt;':producer:produce'&lt;/s0&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T152756Z" creationid="huanghaohang" creationdate="20190616T152756Z">
+        <seg>task consume(dependsOn: &lt;s0&gt;':producer:produce'&lt;/s0&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task copy &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T152838Z" creationid="huanghaohang" creationdate="20190602T152838Z">
@@ -49228,6 +49328,14 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135023Z" creationid="huanghaohang" creationdate="20170917T135023Z">
         <seg>task printProps &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task produce &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T152757Z" creationid="huanghaohang" creationdate="20190616T152757Z">
+        <seg>task produce &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
