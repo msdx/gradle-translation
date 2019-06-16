@@ -11377,6 +11377,18 @@ testCompile
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q distanceToIceberg
+20 nautical miles
+5 nautical miles</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T162449Z" creationid="huanghaohang" creationdate="20190615T162449Z">
+        <seg>&gt; gradle -q distanceToIceberg
+20 nautical miles
+5 nautical miles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q distribution
 We build the zip with version=1.0-SNAPSHOT</seg>
       </tuv>
@@ -12361,6 +12373,30 @@ Total time: 1 secs</seg>
 :jar
 :startScripts
 :distZip
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle distanceToIceberg
+:bluewhale:distanceToIceberg
+20 nautical miles
+:krill:distanceToIceberg
+5 nautical miles
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T162621Z" creationid="huanghaohang" creationdate="20190615T162621Z">
+        <seg>&gt; gradle distanceToIceberg
+:bluewhale:distanceToIceberg
+20 nautical miles
+:krill:distanceToIceberg
+5 nautical miles
 
 BUILD SUCCESSFUL
 
@@ -19441,6 +19477,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.11. Evaluation and execution of projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T162428Z" creationid="huanghaohang" creationdate="20190615T162428Z">
+        <seg>示例 56.11. 项目的评估和执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.12. Evaluation and execution of projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T162542Z" creationid="huanghaohang" creationdate="20190615T162542Z">
+        <seg>示例 56.12. 项目的评估和执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.2. Build script of water (parent) project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T154820Z" creationid="huanghaohang" creationdate="20190614T154820Z">
@@ -21725,6 +21777,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002815Z" creationid="huanghaohang" creationdate="20170909T002815Z">
         <seg>这里是我们的完整构建文件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Here the output without the &lt;c0&gt;-q&lt;/c0&gt; option:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T162535Z" creationid="huanghaohang" creationdate="20190615T162535Z">
+        <seg>不使用 &lt;c0&gt;-q&lt;/c0&gt; 选项的输出结果︰</seg>
       </tuv>
     </tu>
     <tu>
@@ -24473,6 +24533,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q distanceToIceberg&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T162446Z" creationid="huanghaohang" creationdate="20190615T162446Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q distanceToIceberg&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q distribution&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025320Z" creationid="95" creationdate="20170729T025320Z">
@@ -24765,6 +24833,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T141041Z" creationid="95" creationdate="20190131T141041Z">
         <seg>&lt;s0&gt; &lt;c1&gt;gradle distZip&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle distanceToIceberg&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T162619Z" creationid="huanghaohang" creationdate="20190615T162619Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle distanceToIceberg&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -39472,6 +39548,34 @@ sourceSets {</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>ext.arctic = true
+hello &lt;&lt; { println &lt;s0&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s0&gt; }
+
+task distanceToIceberg &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T162430Z" creationid="huanghaohang" creationdate="20190615T162430Z">
+        <seg>ext.arctic = true
+hello &lt;&lt; { println &lt;s0&gt;"- I'm the largest animal that has ever lived on this planet."&lt;/s0&gt; }
+
+task distanceToIceberg &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.arctic = true
+hello &lt;&lt; { println &lt;s0&gt;"- The weight of my species in summer is twice as heavy as all human beings."&lt;/s0&gt; }
+
+task distanceToIceberg &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T162441Z" creationid="huanghaohang" creationdate="20190615T162441Z">
+        <seg>ext.arctic = true
+hello &lt;&lt; { println &lt;s0&gt;"- The weight of my species in summer is twice as heavy as all human beings."&lt;/s0&gt; }
+
+task distanceToIceberg &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.arctic = true
 hello.doLast {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T145016Z" creationid="huanghaohang" creationdate="20190615T145016Z">
@@ -44782,6 +44886,26 @@ tasks.create(name: &lt;s2&gt;'copy'&lt;/s2&gt;, type: Copy) {</seg>
 }
 
 tasks.create(name: &lt;s2&gt;'copy'&lt;/s2&gt;, type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'20 nautical miles'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T162431Z" creationid="huanghaohang" creationdate="20190615T162431Z">
+        <seg>println &lt;s1&gt;'20 nautical miles'&lt;/s1&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'5 nautical miles'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T162441Z" creationid="huanghaohang" creationdate="20190615T162441Z">
+        <seg>println &lt;s1&gt;'5 nautical miles'&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
