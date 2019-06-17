@@ -24493,6 +24493,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>On the same nesting level the configuration order depends on the alphanumeric position. The most common use case is to have multi-project builds that share a common lifecycle (e.g. all projects use the Java plugin). If you declare with &lt;c0&gt;dependsOn&lt;/c0&gt; a &lt;s1&gt;&lt;e2&gt;execution dependency&lt;/e2&gt;&lt;/s1&gt; between different projects, the default behavior of this method is to create also a &lt;s3&gt;&lt;e4&gt;configuration&lt;/e4&gt;&lt;/s3&gt; dependency between the two projects. Therefore it is likely that you don't have to define configuration dependencies explicitly.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T150248Z" creationid="huanghaohang" creationdate="20190617T150248Z">
+        <seg>嵌套级别相同时，配置顺序取决于字母数字位置。最常见的用例是共享公共生命周期的多项目构建（例如，所有项目都使用 Java 插件）。如果通过 &lt;c0&gt;&lt;s1&gt;dependsOn&lt;/c0&gt;&lt;s1&gt; 声明了不同项目之间的&lt;e2&gt;执行依赖&lt;/e2&gt;&lt;/s1&gt;，该方法的默认行为也会创建两个项目之间的&lt;s3&gt;&lt;e4&gt;配置&lt;/e4&gt;&lt;/s3&gt;依赖。因此，你可能不需要显式定义配置依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Once a configuration is resolved it is immutable. Changing its state or the state of one of its dependencies will cause an exception. You can always copy a resolved configuration. The copied configuration is in the unresolved state and can be freshly resolved.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T160140Z" creationid="huanghaohang" creationdate="20190602T160140Z">
