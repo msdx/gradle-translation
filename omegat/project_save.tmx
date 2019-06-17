@@ -30081,6 +30081,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The command &lt;c0&gt;evaluationDependsOn&lt;/c0&gt; triggers the evaluation of &lt;c1&gt;producer&lt;/c1&gt; &lt;s2&gt;&lt;e3&gt;before&lt;/e3&gt;&lt;/s2&gt; &lt;c4&gt;consumer&lt;/c4&gt; is evaluated. The example is a bit contrived for the sake of showing the mechanism. In &lt;s5&gt;&lt;e6&gt;this&lt;/e6&gt;&lt;/s5&gt; case there would be an easier solution by reading the key property at execution time.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T145231Z" creationid="huanghaohang" creationdate="20190617T145231Z">
+        <seg>命令 &lt;c0&gt;evaluationDependsOn&lt;/c0&gt; 触发 &lt;c1&gt;producer&lt;/c1&gt; 在 &lt;c4&gt;consumer&lt;/c4&gt; &lt;s2&gt;&lt;e3&gt;之前&lt;/e3&gt;&lt;/s2&gt; 进行评估。这个例子是特意展示这个机制的。&lt;s5&gt;&lt;e6&gt;这种&lt;/e6&gt;&lt;/s5&gt;情况下，通过在执行时读取关键属性，会是一种更简单的解决方案。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The content of the generated visual studio files can be modified via programmatic hooks, provided by the &lt;c0&gt;visualStudio&lt;/c0&gt; extension. Take a look at the 'visual-studio' sample, or see &lt;a1&gt;&lt;c2&gt;VisualStudioExtension.getProjects()&lt;/c2&gt;&lt;/a1&gt; and &lt;a3&gt;&lt;c4&gt;VisualStudioExtension.getSolutions()&lt;/c4&gt;&lt;/a3&gt; for more details.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T031656Z" creationid="huanghaohang" creationdate="20190611T031656Z">
