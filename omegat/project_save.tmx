@@ -26789,6 +26789,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Such and other dependency patterns are daily bread in the problem space of multi-project builds. If a build system does not support such patterns, you either can't solve your problem or you need to do ugly hacks which are hard to maintain and massively afflict your productivity as a build master.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T155035Z" creationid="huanghaohang" creationdate="20190617T155035Z">
+        <seg>Such and other dependency patterns are daily bread in the problem space of multi-project builds. If a build system does not support such patterns, you either can't solve your problem or you need to do ugly hacks which are hard to maintain and massively afflict your productivity as a build master.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Summary</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233809Z" creationid="huanghaohang" creationdate="20171206T233809Z">
@@ -33405,6 +33413,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T120825Z" creationid="huanghaohang" creationdate="20170919T120825Z">
         <seg>在《&lt;a0&gt;第六章，&lt;i1&gt;构建脚本基础&lt;/i1&gt;&lt;/a0&gt; 》中我们已经看到如何通过关键字这种风格来定义任务。这种风格有一些变式，可能你在一些具体的场景中会需要。例如，在表达式中不能使用这种关键字风格。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We have an interesting set of dependencies. Obviously the &lt;c0&gt;date&lt;/c0&gt; and &lt;c1&gt;hello&lt;/c1&gt; projects have a &lt;s2&gt;&lt;e3&gt;configuration&lt;/e3&gt;&lt;/s2&gt; dependency on &lt;c4&gt;webDist&lt;/c4&gt;, as all the build logic for the webapp projects is injected by &lt;c5&gt;webDist&lt;/c5&gt;. The &lt;s6&gt;&lt;e7&gt;execution&lt;/e7&gt;&lt;/s6&gt; dependency is in the other direction, as &lt;c8&gt;webDist&lt;/c8&gt; depends on the build artifacts of &lt;c9&gt;date&lt;/c9&gt; and &lt;c10&gt;hello&lt;/c10&gt;. There is even a third dependency. &lt;c11&gt;webDist&lt;/c11&gt; has a &lt;s12&gt;&lt;e13&gt;configuration&lt;/e13&gt;&lt;/s12&gt; dependency on &lt;c14&gt;date&lt;/c14&gt; and &lt;c15&gt;hello&lt;/c15&gt; because it needs to know the &lt;c16&gt;archivePath&lt;/c16&gt;. But it asks for this information at &lt;s17&gt;&lt;e18&gt;execution time&lt;/e18&gt;&lt;/s17&gt;. Therefore we have no circular dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T155558Z" creationid="huanghaohang" creationdate="20190617T155032Z">
+        <seg>我们有一套有意思的依赖。显然，&lt;c0&gt;date&lt;/c0&gt; 和 &lt;c1&gt;hello&lt;/c1&gt; 项目都对 &lt;c4&gt;webDist&lt;/c4&gt; 有&lt;s2&gt;&lt;e3&gt;配置&lt;/e3&gt;&lt;/s2&gt;依赖，因为 web 应用程序项目的所有构建逻辑都由 &lt;c5&gt;webDist&lt;/c5&gt; 注入。&lt;s6&gt;&lt;e7&gt;执行&lt;/e7&gt;&lt;/s6&gt;依赖则反过来，因为 &lt;c8&gt;webDist&lt;/c8&gt; 依赖于 &lt;c9&gt;date&lt;/c9&gt; 和 &lt;c10&gt;hello&lt;/c10&gt; 的构建工件。这里甚至还有第三个依赖。&lt;c11&gt;webDist&lt;/c11&gt; 对 &lt;c14&gt;date&lt;/c14&gt; 和 &lt;c15&gt;hello&lt;/c15&gt; 有&lt;s12&gt;&lt;e13&gt;配置&lt;/e13&gt;&lt;/s12&gt;依赖，因为它需要知道 &lt;c16&gt;archivePath&lt;/c16&gt;。但是，它会在&lt;s17&gt;&lt;e18&gt;执行时&lt;/e18&gt;&lt;/s17&gt;才要求提供该信息。因此，我们没有循环依赖。</seg>
       </tuv>
     </tu>
     <tu>
