@@ -15839,6 +15839,14 @@ project(&lt;s1&gt;':bluewhale'&lt;/s1&gt;) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Configuration dependencies are very different to execution dependencies. Configuration dependencies are between projects whereas execution dependencies are always resolved to task dependencies. Another difference is that always all projects are configured, even when you start the build from a subproject. The default configuration order is top down, which is usually what is needed.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T145607Z" creationid="huanghaohang" creationdate="20190617T145315Z">
+        <seg>配置依赖与执行依赖有很大不同。配置依赖是项目之间的，而执行依赖则总是被解析为任务依赖。另一个区别是，所有项目总是都会被配置，即使你是从子项目启动构建的。默认的配置顺序是通常所需要的从顶至下的顺序。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Configuration injection feature and access to the complete project model are possible because every project is configured before the execution phase. Yet, this approach may not be the most efficient in a very large multi-project builds. There are Gradle builds with a hierarchy of hundreds of subprojects. Configuration time of huge multi-project builds may become noticeable. Scalability is an important requirement for Gradle. Hence, starting from version 1.4 new incubating 'configuration on demand' mode is introduced.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T152721Z" creationid="huanghaohang" creationdate="20190614T152721Z">
@@ -19753,6 +19761,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153655Z" creationid="huanghaohang" creationdate="20190616T153655Z">
         <seg>示例 56.21. 配置时依赖——evaluationDependsOn</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.22. Configuration time dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T145251Z" creationid="huanghaohang" creationdate="20190617T145251Z">
+        <seg>示例 56.22. 配置时依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -32157,6 +32173,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T025401Z" creationid="huanghaohang" creationdate="20180107T025401Z">
         <seg>为能在任务执行过程中更改标准输出或错误的日志级别，任务也提供了一个 &lt;a0&gt;&lt;c1&gt;LoggingManager&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To change the the default configuration order to be bottom up, That means that a project configuration depends on the configuration of its child projects, the &lt;c0&gt;evaluationDependsOnChildren()&lt;/c0&gt; method can be used.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T145703Z" creationid="huanghaohang" creationdate="20190617T145703Z">
+        <seg>如果要把默认配置的顺序改为从下到上，这意味着一个项目的配置将会依赖于它的子项目的配置，可以使用 &lt;c0&gt;evaluationDependsOnChildren()&lt;/c0&gt; 方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48992,6 +49016,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145818Z" creationid="huanghaohang" creationdate="20170918T145818Z">
         <seg>task configure &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task consume &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T145254Z" creationid="huanghaohang" creationdate="20190617T145254Z">
+        <seg>task consume &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
