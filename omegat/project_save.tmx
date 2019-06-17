@@ -11392,6 +11392,16 @@ The class directory exists. I can operate</seg>
     <tu>
       <tuv lang="EN-US">
         <seg>&gt; gradle -q consume
+Consuming message: Watch the order of evaluation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153659Z" creationid="huanghaohang" creationdate="20190616T153659Z">
+        <seg>&gt; gradle -q consume
+Consuming message: Watch the order of evaluation.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q consume
 Consuming message: null</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153155Z" creationid="huanghaohang" creationdate="20190616T153155Z">
@@ -19735,6 +19745,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153140Z" creationid="huanghaohang" creationdate="20190616T153140Z">
         <seg>示例 56.20. 配置时依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 56.21. Configuration time dependencies - evaluationDependsOn</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153655Z" creationid="huanghaohang" creationdate="20190616T153655Z">
+        <seg>示例 56.21. 配置时依赖——evaluationDependsOn</seg>
       </tuv>
     </tu>
     <tu>
@@ -39843,6 +39861,22 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>evaluationDependsOn(&lt;s0&gt;':producer'&lt;/s0&gt;)
+
+def message = rootProject.producerMessage
+
+task consume &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153657Z" creationid="huanghaohang" creationdate="20190616T153657Z">
+        <seg>evaluationDependsOn(&lt;s0&gt;':producer'&lt;/s0&gt;)
+
+def message = rootProject.producerMessage
+
+task consume &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>exclude &lt;s1&gt;'**/*staging*'&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060921Z" creationid="huanghaohang" creationdate="20171126T060921Z">
@@ -46225,6 +46259,16 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083320Z" creationid="huanghaohang" creationdate="20170922T083320Z">
         <seg>println(&lt;s0&gt;'I am the new one.'&lt;/s0&gt;)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println(&lt;s1&gt;"Consuming message: "&lt;/s1&gt; + message)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T153658Z" creationid="huanghaohang" creationdate="20190616T153658Z">
+        <seg>println(&lt;s1&gt;"Consuming message: "&lt;/s1&gt; + message)
 }</seg>
       </tuv>
     </tu>
