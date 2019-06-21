@@ -29393,6 +29393,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Java plugin adds per default a jar to your project libraries which contains all the classes. In this example we create an &lt;s0&gt;&lt;e1&gt;additional&lt;/e1&gt;&lt;/s0&gt; library containing only the interfaces of the &lt;c2&gt;api&lt;/c2&gt; project. We assign this library to a new &lt;s3&gt;&lt;e4&gt;dependency configuration&lt;/e4&gt;&lt;/s3&gt;. For the person service we declare that the project should be compiled only against the &lt;c5&gt;api&lt;/c5&gt; interfaces but tested with all classes from &lt;c6&gt;api&lt;/c6&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T142356Z" creationid="huanghaohang" creationdate="20190621T142356Z">
+        <seg>Java 插件将每个默认的 jar 添加到包含所有类的项目库中。在这个例子中，我们创建了一个&lt;s0&gt;&lt;e1&gt;额外的&lt;/e1&gt;&lt;/s0&gt;库，它只包含 &lt;c2&gt;api&lt;/c2&gt; 项目的接口。 我们把这个库指定给一个新的&lt;s3&gt;&lt;e4&gt;依赖配置&lt;/e4&gt;&lt;/s3&gt;。对于 person service，我们声明这个项目应该只针对 &lt;c5&gt;api&lt;/c5&gt; 接口进行编译，但使用 &lt;c6&gt;api&lt;/c6&gt; 中的所有类进行测试。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The Java plugin adds quite a few tasks to your project. However, there are only a handful of tasks that you will need to use to build the project. The most commonly used task is the &lt;c0&gt;build&lt;/c0&gt; task, which does a full build of the project. When you run &lt;s1&gt;&lt;c2&gt;gradle build&lt;/c2&gt;&lt;/s1&gt;, Gradle will compile and test your code, and create a JAR file containing your main classes and resources:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014234Z" creationid="95" creationdate="20170730T013856Z">
