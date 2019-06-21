@@ -8470,6 +8470,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.9. Decoupled Projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T145926Z" creationid="huanghaohang" creationdate="20190621T145926Z">
+        <seg>56.9. 解耦的项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -21625,6 +21633,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072244Z" creationid="haohang" creationdate="20170720T072244Z">
         <seg>Gradle 用户指南</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle allows any project to access any other project during both the configuration and execution phases. While this provides a great deal of power and flexibility to the build author, it also limits the flexibility that Gradle has when building those projects. For instance, this tight &lt;s0&gt;&lt;e1&gt;coupling&lt;/e1&gt;&lt;/s0&gt; of projects effectively prevents Gradle from building multiple projects in parallel, or from substituting a pre-built artifact in place of a project dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T150640Z" creationid="huanghaohang" creationdate="20190621T150640Z">
+        <seg>Gradle 允许任何项目在配置和执行阶段期间访问其他项目。虽然这为构建作者提供了很大的控制性和灵活性，但也限制了 Gradle 在构建这些项目时本身所具有的灵活性。例如，项目的紧&lt;s0&gt;&lt;e1&gt;耦合&lt;/e1&gt;&lt;/s0&gt;会阻碍 Gradle 以并行方式构建多项目，或阻碍以预构建的工件替代项目依赖。</seg>
       </tuv>
     </tu>
     <tu>
