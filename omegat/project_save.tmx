@@ -22341,6 +22341,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>How does the parallel execution work? First, you need to tell Gradle to use the parallel mode. You can use the command line argument (&lt;a0&gt;Appendix D, &lt;i1&gt;Gradle Command Line&lt;/i1&gt;&lt;/a0&gt;) or configure your build environment (&lt;a2&gt;Section 20.1, “Configuring the build environment via gradle.properties”&lt;/a2&gt;). Unless you provide specific number of parallel threads Gradle attempts to choose the right number based on available CPU cores. Every parallel worker exclusively owns a given project while executing a task. This means that 2 tasks from the same project are never executed in parallel. Therefore only multi-project builds can take advantage of parallel execution. Task dependencies are fully supported and parallel workers will start executing upstream tasks first. Bear in mind that the alphabetical scheduling of decoupled tasks, known from the sequential execution, does not really work in parallel mode. You need to make sure the task dependencies are declared correctly to avoid ordering issues.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T145922Z" creationid="huanghaohang" creationdate="20190621T145922Z">
+        <seg>并行执行是怎么做的？首先，你需要告诉 Gradle 使用并行模式。你可以使用命令行参数（《&lt;a0&gt;附录D，&lt;i1&gt;Gradle 命令行&lt;/i1&gt;&lt;/a0&gt;》），或者是配置你的构建环境（《&lt;a2&gt;第20.1节，通过 gradle.properties 配置构建环境&lt;/a2&gt;》）。除非你指定并行线程的个数，否则 Gradle 将根据可用的 CPU 内核来选择正确的线程数。当执行一个任务时，每个并行的工作线程都专用于一个给定的项目。这意味着同一项目中的两个任务永远不会并行执行。因此，只有多项目构建可以利用并行执行。并行执行完全支持任务依赖，并且并行线程将首先开始执行上游任务。记住，解耦的任务按字母顺序调度，且顺序执行，并不是真正的以并行模式执行。你需要确保正确声明了任务依赖，以避免排序问题。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>How to declare your dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190411T141820Z" creationid="huanghaohang" creationdate="20190411T141820Z">
@@ -25785,6 +25793,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180811T151318Z" creationid="huanghaohang" creationdate="20180715T100246Z">
         <seg>项目设置决定了项目的分析方式。默认配置非常适合分析标准的 Java 项目，并且可以通过多种方式进行自定义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Project-level up-to-date checks.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T144403Z" creationid="huanghaohang" creationdate="20190621T144403Z">
+        <seg>项目级别的最新检查。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33325,6 +33341,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T031916Z" creationid="huanghaohang" creationdate="20170927T031916Z">
         <seg>使用方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Using pre-built artifacts in the place of building dependent projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T144418Z" creationid="huanghaohang" creationdate="20190621T144418Z">
+        <seg>在构建依赖项目时使用预构建的工件。</seg>
       </tuv>
     </tu>
     <tu>
