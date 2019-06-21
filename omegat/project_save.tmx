@@ -19869,6 +19869,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.26. Fine grained control over dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162736Z" creationid="huanghaohang" creationdate="20190617T162736Z">
+        <seg>示例 56.26. 对依赖的细粒度控制</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.3. Multi-project tree - water, bluewhale &amp; krill projects</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155531Z" creationid="huanghaohang" creationdate="20190614T155531Z">
@@ -22657,6 +22665,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T014736Z" creationid="huanghaohang" creationdate="20190606T010319Z">
         <seg>如果你正在使用像 Git 一样的分布式版本控制系统，由于人们会检出整个历史，那么你可能不希望使用版本控制系统来保存这些库。但即使是这样，Gradle 的灵活性也可以让你更轻松。例如，你可以使用不带 XML 描述符的共享平面目录，但是却能如上所述有完整的传递依赖管理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you come from Maven land you might be perfectly happy with this. If you come from Ivy land, you might expect some more fine grained control. Gradle offers this to you:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162643Z" creationid="huanghaohang" creationdate="20190617T162643Z">
+        <seg>如果你是从 Maven 转过来的，你会对这一点很满意的。如果你是从 Ivy 转过来，你可能还想要一些更细粒度的控制。Gradle 向你提供了这种控制：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36909,6 +36925,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>artifacts {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162743Z" creationid="huanghaohang" creationdate="20190617T162743Z">
+        <seg>artifacts {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>assemble</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170730T014424Z" creationid="95" creationdate="20170730T014424Z">
@@ -37075,6 +37099,14 @@ println myZip.archiveName</seg>
 }
 
 println myZip.archiveName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>baseName = &lt;s5&gt;'api-spi'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162740Z" creationid="huanghaohang" creationdate="20190617T162740Z">
+        <seg>baseName = &lt;s5&gt;'api-spi'&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -38067,6 +38099,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile project(&lt;s4&gt;':shared'&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162739Z" creationid="huanghaohang" creationdate="20190617T162739Z">
+        <seg>compile project(&lt;s4&gt;':shared'&lt;/s4&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile project(&lt;s5&gt;':shared'&lt;/s5&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T160636Z" creationid="huanghaohang" creationdate="20190617T160636Z">
@@ -38083,12 +38123,28 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile project(&lt;s8&gt;':shared'&lt;/s8&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162746Z" creationid="huanghaohang" creationdate="20190617T162746Z">
+        <seg>compile project(&lt;s8&gt;':shared'&lt;/s8&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile project(path: &lt;s0&gt;':api'&lt;/s0&gt;, configuration: &lt;s1&gt;'spi'&lt;/s1&gt;)
 }</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141554Z" creationid="huanghaohang" creationdate="20190602T141554Z">
         <seg>compile project(path: &lt;s0&gt;':api'&lt;/s0&gt;, configuration: &lt;s1&gt;'spi'&lt;/s1&gt;)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile project(path: &lt;s9&gt;':api'&lt;/s9&gt;, configuration: &lt;s10&gt;'spi'&lt;/s10&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162746Z" creationid="huanghaohang" creationdate="20190617T162746Z">
+        <seg>compile project(path: &lt;s9&gt;':api'&lt;/s9&gt;, configuration: &lt;s10&gt;'spi'&lt;/s10&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -39269,6 +39325,14 @@ task clean &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084311Z" creationid="huanghaohang" creationdate="20190610T084311Z">
         <seg>dependsOn binaries.withType(ExecutableBinary).matching {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependsOn classes</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162741Z" creationid="huanghaohang" creationdate="20190617T162741Z">
+        <seg>dependsOn classes</seg>
       </tuv>
     </tu>
     <tu>
@@ -40877,6 +40941,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>from sourceSets.main.output</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162742Z" creationid="huanghaohang" creationdate="20190617T162742Z">
+        <seg>from sourceSets.main.output</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>from spiJar.archivePath</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125720Z" creationid="95" creationdate="20170803T125720Z">
@@ -42465,6 +42537,14 @@ tree.visit {element -&gt;</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T082309Z" creationid="huanghaohang" creationdate="20170922T082309Z">
         <seg>include(&lt;s3&gt;'**/*.txt'&lt;/s3&gt;, &lt;s4&gt;'**/*.xml'&lt;/s4&gt;, &lt;s5&gt;'**/*.properties'&lt;/s5&gt;)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>include(&lt;s6&gt;'org/gradle/sample/api/**'&lt;/s6&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162742Z" creationid="huanghaohang" creationdate="20190617T162742Z">
+        <seg>include(&lt;s6&gt;'org/gradle/sample/api/**'&lt;/s6&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -48796,6 +48876,22 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>spi</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162738Z" creationid="huanghaohang" creationdate="20190617T162738Z">
+        <seg>spi</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>spi spiJar</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162744Z" creationid="huanghaohang" creationdate="20190617T162744Z">
+        <seg>spi spiJar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>springVersion = &lt;s1&gt;"3.1.0.RELEASE"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133530Z" creationid="huanghaohang" creationdate="20170913T133530Z">
@@ -49816,6 +49912,14 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task spiJar(type: Jar) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162739Z" creationid="huanghaohang" creationdate="20190617T162739Z">
+        <seg>task spiJar(type: Jar) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task stuffZip (type: Zip) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T135234Z" creationid="huanghaohang" creationdate="20190608T135234Z">
@@ -50084,6 +50188,14 @@ test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&g
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T015522Z" creationid="huanghaohang" creationdate="20180407T015522Z">
         <seg>testCompile &lt;s0&gt;"org.scala-lang:scala-library:2.11.1"&lt;/s0&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testCompile &lt;s11&gt;"junit:junit:4.11"&lt;/s11&gt;, project(&lt;s12&gt;':api'&lt;/s12&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162748Z" creationid="huanghaohang" creationdate="20190617T162748Z">
+        <seg>testCompile &lt;s11&gt;"junit:junit:4.11"&lt;/s11&gt;, project(&lt;s12&gt;':api'&lt;/s12&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -51044,6 +51156,20 @@ signing {</seg>
         <seg>version = &lt;s2&gt;'1.0'&lt;/s2&gt;
 }
 
+project(&lt;s3&gt;':api'&lt;/s3&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162737Z" creationid="huanghaohang" creationdate="20190617T162737Z">
+        <seg>version = &lt;s2&gt;'1.0'&lt;/s2&gt;
+}
+
+project(&lt;s3&gt;':api'&lt;/s3&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>version = &lt;s2&gt;'1.0'&lt;/s2&gt;
+}
+
 subprojects {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T150906Z" creationid="huanghaohang" creationdate="20190617T150906Z">
@@ -51737,6 +51863,20 @@ project(&lt;s6&gt;':services:personService'&lt;/s6&gt;) {</seg>
 }
 
 project(&lt;s6&gt;':services:personService'&lt;/s6&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+project(&lt;s7&gt;':services:personService'&lt;/s7&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T162745Z" creationid="huanghaohang" creationdate="20190617T162745Z">
+        <seg>}
+}
+
+project(&lt;s7&gt;':services:personService'&lt;/s7&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
