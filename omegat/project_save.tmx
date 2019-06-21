@@ -8438,10 +8438,26 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.7.1. Disabling the build of dependency projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T142412Z" creationid="huanghaohang" creationdate="20190621T142412Z">
+        <seg>56.7.1. 禁用依赖项目的构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.7. Project lib dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T155929Z" creationid="huanghaohang" creationdate="20190617T155929Z">
         <seg>56.7. 项目库依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>56.8. Parallel project execution</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T142656Z" creationid="huanghaohang" creationdate="20190621T142656Z">
+        <seg>56.8. 并行项目执行</seg>
       </tuv>
     </tu>
     <tu>
@@ -26693,6 +26709,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Sometimes you don't want depended on projects to be built when doing a partial build. To disable the build of the depended on projects you can run Gradle with the &lt;c0&gt;-a&lt;/c0&gt; option.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T142649Z" creationid="huanghaohang" creationdate="20190621T142649Z">
+        <seg>有时在进行局部构建的时候，你不希望依赖的项目也进行构建。如果想禁用依赖项目的构建，可以在运行 Gradle 的时候使用 &lt;c0&gt;-a&lt;/c0&gt; 选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Sometimes you want the library files of a subset of the configuration dependencies (e.g. of a single dependency).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T143505Z" creationid="huanghaohang" creationdate="20190602T143505Z">
@@ -34157,6 +34181,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190204T003605Z" creationid="95" creationdate="20190204T003605Z">
         <seg>由于成千上万相互依赖的开源组件各有一系列版本和不兼容性，依赖管理常常导致问题的复杂性增加。 当一个构建的依赖树变得笨拙时，你的构建工具不应强制你对依赖管理采取单一、不灵活的方法。 一个正确的构建系统必须设计得灵活，而Gradle可以处理任何情况。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>With more and more CPU cores available on developer desktops and CI servers, it is important that Gradle is able to fully utilise these processing resources. More specifically, the parallel execution attempts to:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T142813Z" creationid="huanghaohang" creationdate="20190621T142813Z">
+        <seg>随着在开发人员的台式机和 CI 服务器上，有越来越多的 CPU 内核可用，Gradle 能够充分利用这些处理资源就很重要。更具体地说，并行执行将尝试：</seg>
       </tuv>
     </tu>
     <tu>
