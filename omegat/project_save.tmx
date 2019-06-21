@@ -9146,6 +9146,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Section 56.1.1.1, “Configuration on demand”&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T144308Z" creationid="huanghaohang" creationdate="20190621T144308Z">
+        <seg>&lt;a0&gt;第 56.1.1.1 节，“按需配置”&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Snarl&lt;/a0&gt; (Windows)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190124T085703Z" creationid="huanghaohang" creationdate="20190124T085703Z">
@@ -15947,6 +15955,14 @@ project(&lt;s1&gt;':bluewhale'&lt;/s1&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T152721Z" creationid="huanghaohang" creationdate="20190614T152721Z">
         <seg>由于每个项目都在执行阶段开始之前配置，所以可以做到配置注入功能以及对完整项目模型的访问。然而，在一个非常大的多项目构建中，这种方法可能不是最有效的。有一些 Gradle 构建，它们在层次结构上会有上百个的子项目。对于大型的多项目，构建的配置时间可能会变得很明显。可扩展性是 Gradle 的一项重要需求，因此从 V1.4 开始，新引入了一个试验性的“按需配置”模式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Configuration of projects in parallel.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T144325Z" creationid="huanghaohang" creationdate="20190621T144325Z">
+        <seg>并行配置项目。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25913,6 +25929,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T221920Z" creationid="huanghaohang" creationdate="20180105T221920Z">
         <seg>QUIET 及更高</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Re-use of configuration for unchanged projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T144355Z" creationid="huanghaohang" creationdate="20190621T144355Z">
+        <seg>对不变的项目复用配置。</seg>
       </tuv>
     </tu>
     <tu>
