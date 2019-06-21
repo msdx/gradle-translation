@@ -33097,6 +33097,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Two projects are said to be &lt;s0&gt;&lt;e1&gt;decoupled&lt;/e1&gt;&lt;/s0&gt; if they do not directly access each other's project model. Decoupled projects may only interact in terms of declared dependencies: project dependencies (&lt;a2&gt;Section 50.4.3, “Project dependencies”&lt;/a2&gt;) and/or task dependencies (&lt;a3&gt;Section 6.5, “Task dependencies”&lt;/a3&gt;). Any other form of project interaction (i.e. by modifying another project object or by reading a value from another project object) causes the projects to be coupled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T151123Z" creationid="huanghaohang" creationdate="20190621T150659Z">
+        <seg>如果两个项目不直接访问彼此的项目模型，那么它们就被认为是&lt;s0&gt;&lt;e1&gt;解耦的&lt;/e1&gt;&lt;/s0&gt;。解耦的项目可能只在声明依赖方面会互相影响：项目依赖（《&lt;a2&gt;第50.4.3节，项目依赖&lt;/a2&gt;》），或者是任务依赖（《&lt;a3&gt;第6.5节，任务依赖&lt;/a3&gt;》）。任何其他形式的项目交互（即通过修改另一个项目对象或从另一个项目对象中读值)都会导致项目耦合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132109Z" creationid="huanghaohang" creationdate="20170913T132109Z">
@@ -44604,6 +44612,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180126T013334Z" creationid="huanghaohang" creationdate="20180126T013334Z">
         <seg>multi_project_builds.html#sec:configuration_on_demand</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi_project_builds.html#sec:cross_project_configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T150703Z" creationid="huanghaohang" creationdate="20190621T150703Z">
+        <seg>multi_project_builds.html#sec:cross_project_configuration</seg>
       </tuv>
     </tu>
     <tu>
