@@ -1986,6 +1986,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/tasks/testing/Test.html#setMaxParallelForks(int)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T142938Z" creationid="huanghaohang" creationdate="20190621T142938Z">
+        <seg>../javadoc/org/gradle/api/tasks/testing/Test.html#setMaxParallelForks(int)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/tasks/testing/TestFilter.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131644Z" creationid="huanghaohang" creationdate="20180405T131644Z">
@@ -14025,6 +14033,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Although Gradle already offers parallel test execution via &lt;a0&gt;&lt;c1&gt;Test.setMaxParallelForks()&lt;/c1&gt;&lt;/a0&gt; the feature described in this section is parallel execution at a project level. Parallel execution is an incubating feature. Please use it and let us know how it works for you.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T143405Z" creationid="huanghaohang" creationdate="20190621T143405Z">
+        <seg>虽然 Gradle 已通过 &lt;a0&gt;&lt;c1&gt;Test.setMaxParallelForks()&lt;/c1&gt;&lt;/a0&gt; 提供了并行测试执行，本节中描述的功能是项目级别的并行执行。并行执行是一个实验性的功能，请使用它，并让我们知道它是如何为你处理的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Amongst other things, Gradle supports the same builder syntax as polyglot Maven. To learn more about the Gradle Maven POM object, see &lt;a0&gt;&lt;c1&gt;MavenPom&lt;/c1&gt;&lt;/a0&gt;. See also: &lt;a2&gt;&lt;c3&gt;MavenPluginConvention&lt;/c3&gt;&lt;/a2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T062501Z" creationid="huanghaohang" creationdate="20190607T062501Z">
@@ -25813,6 +25829,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Provide faster feedback for execution of small projects without awaiting completion of other projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T142935Z" creationid="huanghaohang" creationdate="20190621T142935Z">
+        <seg>更快地反馈小项目的执行，而不必等待其他项目的完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Provide the authentication domain via the &lt;c0&gt;http.auth.ntlm.domain&lt;/c0&gt; system property.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T080944Z" creationid="huanghaohang" creationdate="20180130T080944Z">
@@ -25889,6 +25913,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T090738Z" creationid="huanghaohang" creationdate="20190611T090738Z">
         <seg>实时反馈测试的执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reduce total build time for a multi-project build where execution is IO bound or otherwise does not consume all available CPU resources.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T142858Z" creationid="huanghaohang" creationdate="20190621T142858Z">
+        <seg>通过让执行进行 IO 绑定，或者是其他不消耗所有可用资源的方式，减少多项目构建的总构建时间。</seg>
       </tuv>
     </tu>
     <tu>
