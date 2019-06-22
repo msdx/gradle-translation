@@ -11259,6 +11259,44 @@ build completed</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -a :api:build
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T141017Z" creationid="huanghaohang" creationdate="20190622T141017Z">
+        <seg>&gt; gradle -a :api:build
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q
 Default Cleaning!
 Default Running!</seg>
@@ -20011,6 +20049,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.28. Partial Build and Test Single Project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T141013Z" creationid="huanghaohang" creationdate="20190622T141013Z">
+        <seg>示例 56.28. 部分构建和测试单个项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.3. Multi-project tree - water, bluewhale &amp; krill projects</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155531Z" creationid="huanghaohang" creationdate="20190614T155531Z">
@@ -22851,6 +22897,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If you have just gotten the latest version of source from your version control system which included changes in other projects that :api depends on, you might want to not only build all the projects you depend on, but test them as well. The &lt;c0&gt;buildNeeded&lt;/c0&gt; task also tests all the projects from the project lib dependencies of the testRuntime configuration.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T141649Z" creationid="huanghaohang" creationdate="20190622T141649Z">
+        <seg>如果你刚从版本控制系统中获取到最新的代码，其中包含了 :api 所依赖的其他项目的修改，那么你可能不只想构建所依赖的所有项目，还要对其进行测试。&lt;c0&gt;buildNeeded&lt;/c0&gt; 任务也用于测试 testRuntime 配置中项目库依赖所配置的所有项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If you have more than one artifact to publish, things work a little bit differently. See&lt;a0&gt;Section 52.6.4.1, “Multiple artifacts per project”&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T111219Z" creationid="huanghaohang" creationdate="20190607T111219Z">
@@ -25023,6 +25077,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144039Z" creationid="huanghaohang" creationdate="20180107T144039Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -I init.gradle build&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -a :api:build&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T141015Z" creationid="huanghaohang" creationdate="20190622T141015Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle :api:build&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
