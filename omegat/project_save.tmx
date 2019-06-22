@@ -14593,6 +14593,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Assume you are working on a single project, the :api project. You have been making changes, but have not built the entire project since performing a clean. You want to build any necessary supporting jars, but only perform code quality and unit tests on the project you have changed. The &lt;c0&gt;build&lt;/c0&gt; task does this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T135451Z" creationid="huanghaohang" creationdate="20190622T135451Z">
+        <seg>假设你正在处理 :api 这一个项目，你做了一些修改，但由于执行了 clean 以来还没有构建整个项目。你希望构建所有必需的支持 jar，但只对这个做了修改的项目执行代码质量和单元测试，这正是 &lt;c0&gt;build&lt;/c0&gt; 任务执行的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Assuming a local Sonar server with out-of-the-box settings is up and running, no further mandatory configuration is required. Execute &lt;s0&gt;&lt;c1&gt;gradle sonarRunner&lt;/c1&gt;&lt;/s0&gt; and wait until the build has completed, then open the web page indicated at the bottom of the Sonar Runner output. You should now be able to browse the analysis results.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T020003Z" creationid="huanghaohang" creationdate="20181202T015510Z">
@@ -23921,6 +23929,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T130234Z" creationid="huanghaohang" creationdate="20170912T130234Z">
         <seg>下面我们试试看访问&lt;c1&gt;Project&lt;/c1&gt;对象的&lt;c0&gt;name&lt;/c0&gt;属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's use the project structure shown in &lt;a0&gt;Example 56.25, “Project lib dependencies”&lt;/a0&gt;. In this example :services:personservice depends on both :api and :shared. The :api project also depends on :shared.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T135048Z" creationid="huanghaohang" creationdate="20190622T135048Z">
+        <seg>我们使用&lt;a0&gt;示例 56.25，项目库依赖&lt;/a0&gt;中显示的项目结构。在此示例中，:services:personservice 依赖于 :api 和 :shared。:api 项目还依赖于:shared。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44636,6 +44652,14 @@ war {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125334Z" creationid="95" creationdate="20170803T125334Z">
         <seg>multi_project_builds.html#disable_dependency_projects</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>multi_project_builds.html#javadependencies_2</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T134905Z" creationid="huanghaohang" creationdate="20190622T134905Z">
+        <seg>multi_project_builds.html#javadependencies_2</seg>
       </tuv>
     </tu>
     <tu>
