@@ -8318,6 +8318,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.10. Multi-Project Building and Testing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T134613Z" creationid="huanghaohang" creationdate="20190622T134613Z">
+        <seg>56.10. 多项目构建和测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.2.1. Defining common behavior</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142121Z" creationid="huanghaohang" creationdate="20190615T142121Z">
@@ -28405,6 +28413,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T082323Z" creationid="huanghaohang" creationdate="20181210T082323Z">
         <seg>&lt;c0&gt;beforeMerged&lt;/c0&gt;的钩子会使用一个表示现有文件的域对象执行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;build&lt;/c0&gt; task of the Java plugin is typically used to compile, test, and perform code style checks (if the CodeQuality plugin is used) of a single project. In multi-project builds you may often want to do all of these tasks across a range of projects. The &lt;c1&gt;buildNeeded&lt;/c1&gt; and &lt;c2&gt;buildDependents&lt;/c2&gt; tasks can help with this.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T134901Z" creationid="huanghaohang" creationdate="20190622T134901Z">
+        <seg>Java 插件的 &lt;c0&gt;build&lt;/c0&gt; 任务通常用于一个项目的编译、测试和执行代码风格检查（如果使用了 CodeQuality 插件的话)。在多项目构建中，你可能经常想在一系列项目中执行所有这些任务。&lt;c1&gt;buildNeeded&lt;/c1&gt; 和 &lt;c2&gt;buildDependents&lt;/c2&gt; 任务能够帮助完成这一点。</seg>
       </tuv>
     </tu>
     <tu>
