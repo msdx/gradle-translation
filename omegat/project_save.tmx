@@ -12539,6 +12539,70 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle :api:buildNeeded
+:shared:compileJava
+:shared:processResources
+:shared:classes
+:shared:jar
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+:shared:assemble
+:shared:compileTestJava
+:shared:processTestResources
+:shared:testClasses
+:shared:test
+:shared:check
+:shared:build
+:shared:buildNeeded
+:api:buildNeeded
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T141708Z" creationid="huanghaohang" creationdate="20190622T141708Z">
+        <seg>&gt; gradle :api:buildNeeded
+:shared:compileJava
+:shared:processResources
+:shared:classes
+:shared:jar
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+:shared:assemble
+:shared:compileTestJava
+:shared:processTestResources
+:shared:testClasses
+:shared:test
+:shared:check
+:shared:build
+:shared:buildNeeded
+:api:buildNeeded
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle build
 :compileJava
 :processResources
@@ -20057,6 +20121,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 56.29. Build and Test Depended On Projects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T141703Z" creationid="huanghaohang" creationdate="20190622T141703Z">
+        <seg>示例 56.29. 构建和测试所依赖的项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 56.3. Multi-project tree - water, bluewhale &amp; krill projects</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190614T155531Z" creationid="huanghaohang" creationdate="20190614T155531Z">
@@ -25493,6 +25565,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T135459Z" creationid="huanghaohang" creationdate="20190622T135459Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle :api:build&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle :api:buildNeeded&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T141706Z" creationid="huanghaohang" creationdate="20190622T141706Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle: api:buildNeeded&lt;/c1&gt; &lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -34617,6 +34697,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T082548Z" creationid="huanghaohang" creationdate="20181210T082548Z">
         <seg>XmlProvider</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You also might want to refactor some part of the :api project that is used in other projects. If you make these types of changes, it is not sufficient to test just the :api project, you also need to test all projects that depend on the :api project. The &lt;c0&gt;buildDependents&lt;/c0&gt; task also tests all the projects that have a project lib dependency (in the testRuntime configuration) on the specified project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T142300Z" creationid="huanghaohang" creationdate="20190622T142300Z">
+        <seg>你还可能想要重构 :api 项目中被其他项目使用的部分内容。如果你做这一类的修改，那么只测试 :api 项目是不够的，你还需要测试依赖于 :api 项目的所有项目。&lt;c0&gt;buildDependents&lt;/c0&gt; 任务也用于测试依赖于（在 testRuntime 配置中）指定项目上的所有项目。</seg>
       </tuv>
     </tu>
     <tu>
