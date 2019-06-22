@@ -32241,6 +32241,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means that using any form of shared build script logic or configuration injection (&lt;c0&gt;allprojects&lt;/c0&gt;, &lt;c1&gt;subprojects&lt;/c1&gt;, etc.) will cause your projects to be coupled. As we extend the concept of project decoupling and provide features that take advantage of decoupled projects, we will also introduce new features to help you to solve common use cases (like configuration injection) without causing your projects to be coupled.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T134609Z" creationid="huanghaohang" creationdate="20190622T134609Z">
+        <seg>这意味着使用任何形式的共享构建脚本逻辑或配置注入(&lt;c0&gt;allproject&lt;/c0&gt;，&lt;c1&gt;subprojects&lt;/c1&gt;等）都会导致你的项目耦合。当我们扩展项目解耦的概念，并提供利用去耦项目的功能时，我们也将引入新功能来帮助你解决常见的情况（如配置注入）而不会导致项目耦合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This mechanism has been superseded by 'Test Filtering', described above.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131828Z" creationid="huanghaohang" creationdate="20180405T131828Z">
