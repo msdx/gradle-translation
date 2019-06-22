@@ -13315,8 +13315,8 @@ Transforming source file.</seg>
       <tuv lang="EN-US">
         <seg>A very common way for projects to be coupled is by using configuration injection (&lt;a0&gt;Section 56.1, “Cross project configuration”&lt;/a0&gt;). It may not be immediately apparent, but using key Gradle features like the &lt;c1&gt;allprojects&lt;/c1&gt; and &lt;c2&gt;subprojects&lt;/c2&gt; keywords automatically cause your projects to be coupled. This is because these keywords are used in a &lt;c3&gt;build.gradle&lt;/c3&gt; file, which defines a project. Often this is a "root project" that does nothing more than define common configuration, but as far as Gradle is concerned this root project is still a fully-fledged project, and by using &lt;c4&gt;allprojects&lt;/c4&gt; that project is effectively coupled to all other projects.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T152200Z" creationid="huanghaohang" creationdate="20190621T152200Z">
-        <seg>通过使用配置注入（《&lt;a0&gt;第56.1节，跨项目配置&lt;/a0&gt;》），是一种很常见的使项目耦合的方式。它可能不明显，但是使用关键的 Gradle 功能如 &lt;c1&gt;allprojects&lt;/c1&gt; 和 &lt;c2&gt;subproject&lt;/c2&gt; 关键字，会自动导致你的项目耦合。这是因为这些关键字在定义项目的 &lt;c3&gt;build.gradle&lt;/c3&gt; 文件中使用。而通常这是一个“根项目”，它只定义公共配置而不执行其他操作，但对 Gradle 而言这个根项目仍然是一个完全成熟的项目，并且通过使用 &lt;c4&gt;allprojects&lt;/c4&gt;， 该项目实际上就和所有其他项目耦合了。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T120545Z" creationid="huanghaohang" creationdate="20190621T152200Z">
+        <seg>通过使用配置注入（《&lt;a0&gt;第56.1节，跨项目配置&lt;/a0&gt;》），是一种很常见的使项目耦合的方式。它可能不明显，但是使用关键的 Gradle 功能如 &lt;c1&gt;allprojects&lt;/c1&gt; 和 &lt;c2&gt;subproject&lt;/c2&gt; 关键字，会自动导致你的项目耦合。这是因为这些关键字在定义项目的 &lt;c3&gt;build.gradle&lt;/c3&gt; 文件中使用。而通常这是一个“根项目”，它只定义公共配置而不执行其他操作，但对 Gradle 而言这个根项目仍然是一个完全成熟的项目，并且通过使用 &lt;c4&gt;allprojects&lt;/c4&gt;，该项目实际上就和所有其他项目耦合了。</seg>
       </tuv>
     </tu>
     <tu>
