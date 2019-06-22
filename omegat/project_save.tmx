@@ -8326,6 +8326,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>56.11. Property and method inheritance</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T142655Z" creationid="huanghaohang" creationdate="20190622T142655Z">
+        <seg>56.11. 属性和方法的继承</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>56.2.1. Defining common behavior</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T142121Z" creationid="huanghaohang" creationdate="20190615T142121Z">
@@ -12531,6 +12539,78 @@ Total time: 1 secs</seg>
 :api:test
 :api:check
 :api:build
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle :api:buildDependents
+:shared:compileJava
+:shared:processResources
+:shared:classes
+:shared:jar
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+:services:personService:compileJava
+:services:personService:processResources
+:services:personService:classes
+:services:personService:jar
+:services:personService:assemble
+:services:personService:compileTestJava
+:services:personService:processTestResources
+:services:personService:testClasses
+:services:personService:test
+:services:personService:check
+:services:personService:build
+:services:personService:buildDependents
+:api:buildDependents
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T142339Z" creationid="huanghaohang" creationdate="20190622T142339Z">
+        <seg>&gt; gradle :api:buildDependents
+:shared:compileJava
+:shared:processResources
+:shared:classes
+:shared:jar
+:api:compileJava
+:api:processResources
+:api:classes
+:api:jar
+:api:assemble
+:api:compileTestJava
+:api:processTestResources
+:api:testClasses
+:api:test
+:api:check
+:api:build
+:services:personService:compileJava
+:services:personService:processResources
+:services:personService:classes
+:services:personService:jar
+:services:personService:assemble
+:services:personService:compileTestJava
+:services:personService:processTestResources
+:services:personService:testClasses
+:services:personService:test
+:services:personService:check
+:services:personService:build
+:services:personService:buildDependents
+:api:buildDependents
 
 BUILD SUCCESSFUL
 
@@ -20929,6 +21009,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Finally, you may want to build and test everything in all projects. Any task you run in the root project folder will cause that same named task to be run on all the children. So you can just run &lt;c0&gt;gradle build&lt;/c0&gt; to build and test all projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T142650Z" creationid="huanghaohang" creationdate="20190622T142351Z">
+        <seg>最后，你可能想要构建和测试所有项目中的所有内容。在根项目文件夹中运行的任何任务，都会导致所有子项目中的同名任务也被运行。因此，你可以只运行 &lt;c0&gt;gradle build&lt;/c0&gt; 来构建和测试所有项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>FindBugs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180516T142321Z" creationid="huanghaohang" creationdate="20180516T142321Z">
@@ -25573,6 +25661,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T135459Z" creationid="huanghaohang" creationdate="20190622T135459Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle :api:build&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle :api:buildDependents&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190622T142336Z" creationid="huanghaohang" creationdate="20190622T142336Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle :api:buildDependents&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
