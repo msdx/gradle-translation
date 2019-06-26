@@ -22339,8 +22339,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Gradle supports two types of task. One such type is the simple task, where you define the task with an action closure. We have seen these in &lt;a0&gt;Chapter 6, &lt;i1&gt;Build Script Basics&lt;/i1&gt;&lt;/a0&gt;. For this type of task, the action closure determines the behaviour of the task. This type of task is good for implementing one-off tasks in your build script.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190626T145025Z" creationid="huanghaohang" creationdate="20190626T144615Z">
-        <seg>Gradle 支持两种类型的任务。一种是简单任务，你可以使用一个动作闭包来定义它。我们在《&lt;a0&gt;第六章，&lt;i1&gt;构建脚本基础&lt;/i1&gt;&lt;/a0&gt;》中已经看到过。对于这种类型的任务，动作闭包确定了任务的行为，便于实现构建脚本中只执行一次的任务。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190626T145138Z" creationid="huanghaohang" creationdate="20190626T144615Z">
+        <seg>Gradle 支持两种类型的任务。一种是简单任务，你可以使用一个动作闭包来定义它。我们在《&lt;a0&gt;第六章，&lt;i1&gt;构建脚本基础&lt;/i1&gt;&lt;/a0&gt;》中已经看到过。对于这种类型的任务，动作闭包确定了任务的行为。这种类型的任务便于实现构建脚本中只执行一次的任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30781,6 +30781,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The behaviour and properties of an enhanced task is defined by the task's class. When you declare an enhanced task, you specify the type, or class of the task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190626T145224Z" creationid="huanghaohang" creationdate="20190626T145224Z">
+        <seg>The behaviour and properties of an enhanced task is defined by the task's class. When you declare an enhanced task, you specify the type, or class of the task.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The binary sources. This is for reference only. If you want to build Gradle you need to download the source distribution or checkout the sources from the source repository. See the &lt;a0&gt;Gradle web site&lt;/a0&gt; for details.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170723T115048Z" creationid="95" creationdate="20170723T115048Z">
@@ -31537,6 +31545,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T040954Z" creationid="huanghaohang" creationdate="20190605T040954Z">
         <seg>下一个示例基于模块的元数据规则中声明的自定义状态模式，来演示 &lt;c0&gt;latest&lt;/c0&gt; 选择器：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The other type of task is the enhanced task, where the behaviour is built into the task, and the task provides some properties which you can use to configure the behaviour. We have seen these in &lt;a0&gt;Chapter 15, &lt;i1&gt;More about Tasks&lt;/i1&gt;&lt;/a0&gt;. Most Gradle plugins use enhanced tasks. With enhanced tasks, you don't need to implement the task behaviour as you do with simple tasks. You simply declare the task and configure the task using its properties. In this way, enhanced tasks let you reuse a piece of behaviour in many different places, possibly across different builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190626T145637Z" creationid="huanghaohang" creationdate="20190626T145126Z">
+        <seg>另一种是增强任务，它把行为建立在任务中，并且任务提供了一些属性用于配置行为。我们在《&lt;a0&gt;第十五章，&lt;i1&gt;有关任务的详细信息&lt;/i1&gt;&lt;/a0&gt;》中看到过。大多数 Gradle 插件使用增强任务。通过增强任务，你不需要像使用简单任务一样实现任务行为。你只需要简单地声明该任务，并使用其属性来配置它。通过这种方式，增强任务允许让你在许多不同位置，甚至是跨不同构建，来复用某个行为。</seg>
       </tuv>
     </tu>
     <tu>
