@@ -22337,6 +22337,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle supports two types of task. One such type is the simple task, where you define the task with an action closure. We have seen these in &lt;a0&gt;Chapter 6, &lt;i1&gt;Build Script Basics&lt;/i1&gt;&lt;/a0&gt;. For this type of task, the action closure determines the behaviour of the task. This type of task is good for implementing one-off tasks in your build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190626T144615Z" creationid="huanghaohang" creationdate="20190626T144615Z">
+        <seg>Gradle supports two types of task. One such type is the simple task, where you define the task with an action closure. We have seen these in &lt;a0&gt;Chapter 6, &lt;i1&gt;Build Script Basics&lt;/i1&gt;&lt;/a0&gt;. For this type of task, the action closure determines the behaviour of the task. This type of task is good for implementing one-off tasks in your build script.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle takes your dependency declarations and repository definitions and attempts to download all of your dependencies by a process called &lt;s0&gt;&lt;e1&gt;dependency resolution&lt;/e1&gt;&lt;/s0&gt;. Below is a brief outline of how this process works.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T031806Z" creationid="huanghaohang" creationdate="20190604T031503Z">
