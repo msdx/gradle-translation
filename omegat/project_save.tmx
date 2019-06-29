@@ -9378,6 +9378,14 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;c0&gt;buildSrc&lt;/c0&gt; project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190629T151058Z" creationid="huanghaohang" creationdate="20190629T151058Z">
+        <seg>&lt;c0&gt;buildSrc&lt;/c0&gt; 项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;c0&gt;check&lt;/c0&gt; and &lt;c1&gt;assemble&lt;/c1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035041Z" creationid="haohang" creationdate="20180313T035041Z">
@@ -35385,6 +35393,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T141834Z" creationid="huanghaohang" creationdate="20190602T141627Z">
         <seg>你可以从命令行生成依赖报告（请参阅 &lt;a0&gt;第11.6.4节，《列示项目依赖》&lt;/a0&gt;）。在项目报告插件的帮助下（请参阅 &lt;a1&gt;第41章，《&lt;i2&gt;项目报告插件&lt;/i2&gt;》&lt;/a1&gt;) ，你的构建能够创建这样一个报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can include the task class directly in the build script. This has the benefit that the task class is automatically compiled and included in the classpath of the build script without you having to do anything. However, the task class is not visible outside the build script, and so you cannot reuse the task class outside the build script it is defined in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190629T151042Z" creationid="huanghaohang" creationdate="20190629T151042Z">
+        <seg>你可以直接在构建脚本中包含任务类。这样做的好处是，你不需要再另外做什么，这个任务类就会自动编译并包含在构建脚本的类路径中。但是在构建脚本之外，这个任务类是不可见的，因此你无法在定义这个它的构建脚本以外的地方复用这个任务类。</seg>
       </tuv>
     </tu>
     <tu>
