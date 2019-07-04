@@ -27017,6 +27017,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>See &lt;a0&gt;Chapter 59, &lt;i1&gt;Organizing Build Logic&lt;/i1&gt;&lt;/a0&gt; for more details about the &lt;c2&gt;buildSrc&lt;/c2&gt; project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190704T150431Z" creationid="huanghaohang" creationdate="20190704T150431Z">
+        <seg>有关&lt;c2&gt;buildSrc&lt;/c2&gt; 项目的更详细信息，请参阅《&lt;a0&gt;第五十九章，&lt;i1&gt;组织构建逻辑&lt;/i1&gt;&lt;/a0&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Section 56.7.1, “Disabling the build of dependency projects”&lt;/a0&gt; for how to disable this functionality.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T125439Z" creationid="95" creationdate="20170803T125335Z">
@@ -27397,6 +27405,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T150007Z" creationid="huanghaohang" creationdate="20170911T150007Z">
         <seg>堆栈跟踪输出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Standalone project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190704T150433Z" creationid="huanghaohang" creationdate="20190704T150433Z">
+        <seg>独立项目</seg>
       </tuv>
     </tu>
     <tu>
@@ -35257,6 +35273,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145326Z" creationid="huanghaohang" creationdate="20170918T145326Z">
         <seg>你可以使用外部构建脚本来配置当前项目。所有的Gradle构建语言都可以在外部脚本中使用，甚至你也可以从外部脚本应用其他脚本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can create a separate project for your task class. This project produces and publishes a JAR which you can then use in multiple builds and share with others. Generally, this JAR might include some custom plugins, or bundle several related task classes into a single library. Or some combination of the two.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190704T153804Z" creationid="huanghaohang" creationdate="20190704T153804Z">
+        <seg>你可以为你的任务类创建单独的项目。这个项目会生成和发布一个 JAR，你可以在多个构建中使用并分享出去。通常，这个 JAR 可能包含一些定制插件，或者将多个相关任务类捆绑到一个库中，或两者皆有。</seg>
       </tuv>
     </tu>
     <tu>
