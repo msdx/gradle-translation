@@ -32879,6 +32879,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This task doesn't do anything useful, so let's add some behaviour. To do so, we add a method to the task and mark it with the &lt;a0&gt;&lt;c1&gt;TaskAction&lt;/c1&gt;&lt;/a0&gt; annotation. Gradle will call the method when the task executes. You don't have to use a method to define the behaviour for the task. You could, for instance, call &lt;c2&gt;doFirst()&lt;/c2&gt; or &lt;c3&gt;doLast()&lt;/c3&gt; with a closure in the task constructor to add behaviour.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190705T142758Z" creationid="huanghaohang" creationdate="20190705T142758Z">
+        <seg>这个任务不执行任何有用的操作，所以我们来添加一些行为。为此，我们向任务添加一个方法，并使用 &lt;a0&gt;&lt;c1&gt;TaskAction&lt;/c1&gt;&lt;/a0&gt; 注解标记它。当任务执行时，Gradle 将调用这个方法。你不必使用方法来定义任务的行为。比如，你可以在任务构造方法中调用 &lt;c2&gt;doFirst()&lt;/c2&gt; 或 &lt;c3&gt;doLast()&lt;/c3&gt; 并传入一个闭包来添加行为。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This task is extremely useful for investigating the dependency resolution, finding out where certain dependencies are coming from and why certain versions are selected. For more information please see &lt;a0&gt;&lt;c1&gt;DependencyInsightReportTask&lt;/c1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T022455Z" creationid="huanghaohang" creationdate="20170910T022209Z">
