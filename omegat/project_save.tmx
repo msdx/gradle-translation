@@ -35529,8 +35529,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>You can put the source for the task class in the &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;rootProjectDir&lt;/c2&gt;&lt;/e1&gt;/buildSrc/src/main/groovy&lt;/c0&gt; directory. Gradle will take care of compiling and testing the task class and making it available on the classpath of the build script. The task class is visible to every build script used by the build. However, it is not visible outside the build, and so you cannot reuse the task class outside the build it is defined in. Using the &lt;c3&gt;buildSrc&lt;/c3&gt; project approach keeps separate the task declaration - that is, what the task should do - from the task implementation - that is, how the task does it.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190704T150411Z" creationid="huanghaohang" creationdate="20190704T150411Z">
-        <seg>您可以将任务类的源码放在 &lt;c0&gt;&lt;c0&gt;&lt;e1&gt;&lt;c2&gt;rootProjectDir&lt;/c2&gt;&lt;/e1&gt;/buildSrc/src/main/rootvy&lt;/c0&gt; 目录中。Gradle 将会编译和测试这个任务类，并使其在构建脚本的类路径中可用。这个任务类对该构建所使用的每个构建脚本都可见。然而，它在构建外部不可见，因此你无法在定义这个任务类的构建之外的其他地方来复用它。使用 &lt;c3&gt;buildSrc&lt;/c3&gt; 项目方法能够保持任务声明——即任务应该做什么，与任务实现——即任务是怎么做的之间相互独立。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190704T154508Z" creationid="huanghaohang" creationdate="20190704T150411Z">
+        <seg>您可以将任务类的源码放在 &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;rootProjectDir&lt;/c2&gt;&lt;/e1&gt;/buildSrc/src/main/rootvy&lt;/c0&gt; 目录中。Gradle 将会编译和测试这个任务类，并使其在构建脚本的类路径中可用。这个任务类对该构建所使用的每个构建脚本都可见。然而，它在构建外部不可见，因此你无法在定义这个任务类的构建之外的其他地方来复用它。使用 &lt;c3&gt;buildSrc&lt;/c3&gt; 项目方法能够保持任务声明——即任务应该做什么，与任务实现——即任务是怎么做的之间相互独立。</seg>
       </tuv>
     </tu>
     <tu>
