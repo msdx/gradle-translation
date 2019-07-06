@@ -11017,6 +11017,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;@TaskAction&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190705T142810Z" creationid="huanghaohang" creationdate="20190705T142810Z">
+        <seg>&lt;s2&gt;@TaskAction&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;if&lt;/s2&gt; (flavor == flavors.failing) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T061718Z" creationid="huanghaohang" creationdate="20190611T061718Z">
@@ -12095,6 +12103,16 @@ hello from other script</seg>
         <seg>&gt; gradle -q hello
 configuring root project 'configureProjectUsingScript'
 hello from other script</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+hello from GreetingTask</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190705T142814Z" creationid="huanghaohang" creationdate="20190705T142814Z">
+        <seg>&gt; gradle -q hello
+hello from GreetingTask</seg>
       </tuv>
     </tu>
     <tu>
@@ -20427,6 +20445,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 57.2. A hello world task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190705T142808Z" creationid="huanghaohang" creationdate="20190705T142808Z">
+        <seg>示例 57.2. 一个 hello world 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -24279,6 +24305,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072307Z" creationid="haohang" creationdate="20170720T072307Z">
         <seg>法律公告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's add a property to the task, so we can customize it. Tasks are simply POGOs, and when you declare a task, you can set the properties or call methods on the task object. Here we add a &lt;c0&gt;greeting&lt;/c0&gt; property, and set the value when we declare the &lt;c1&gt;greeting&lt;/c1&gt; task.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122309Z" creationid="huanghaohang" creationdate="20190706T122309Z">
+        <seg>Let's add a property to the task, so we can customize it. Tasks are simply POGOs, and when you declare a task, you can set the properties or call methods on the task object. Here we add a &lt;c0&gt;greeting&lt;/c0&gt; property, and set the value when we declare the &lt;c1&gt;greeting&lt;/c1&gt; task.</seg>
       </tuv>
     </tu>
     <tu>
@@ -39635,6 +39669,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def greet() {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190705T142811Z" creationid="huanghaohang" creationdate="20190705T142811Z">
+        <seg>def greet() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def height = mountain.height[&lt;s6&gt;0&lt;/s6&gt;].text()</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T085714Z" creationid="huanghaohang" creationdate="20170922T085714Z">
@@ -47100,6 +47142,14 @@ task other &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;'hello from GreetingTask'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190705T142812Z" creationid="huanghaohang" creationdate="20190705T142812Z">
+        <seg>println &lt;s3&gt;'hello from GreetingTask'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s3&gt;'lib2'&lt;/s3&gt;
 }
 
@@ -50582,6 +50632,18 @@ subprojects {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144945Z" creationid="95" creationdate="20170724T144945Z">
         <seg>task hello {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task hello(type: GreetingTask)
+
+&lt;s0&gt;class&lt;/s0&gt; GreetingTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190705T142809Z" creationid="huanghaohang" creationdate="20190705T142809Z">
+        <seg>task hello(type: GreetingTask)
+
+&lt;s0&gt;class&lt;/s0&gt; GreetingTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
       </tuv>
     </tu>
     <tu>
