@@ -20505,6 +20505,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 57.4. A build for a custom task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122919Z" creationid="huanghaohang" creationdate="20190706T122919Z">
+        <seg>示例 57.4. 自定义任务的构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -25149,6 +25157,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190616T141242Z" creationid="huanghaohang" creationdate="20190616T141242Z">
         <seg>现在我们来看这个技巧。我们简单地切换到 &lt;c0&gt;consumer&lt;/c0&gt; 目录并执行构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Now we will move our task to a standalone project, so we can publish it and share it with others. This project is simply a Groovy project that produces a JAR containing the task class. Here is a simple build script for the project. It applies the Groovy plugin, and adds the Gradle API as a compile-time dependency.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122909Z" creationid="huanghaohang" creationdate="20190706T122909Z">
+        <seg>现在我们将任务移到一个独立的项目中，这样我们就可以发布它，并与他人共享。这个项目只是一个 Groovy 项目，其将生成包含任务类的 JAR。以下是该项目的一个简单的构建脚本。它应用了 Groovy 插件，并将 Gradle API 添加为编译时依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37135,6 +37151,18 @@ eclipse.wtp.facet.file.withXml { provider -&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T001700Z" creationid="huanghaohang" creationdate="20170909T001700Z">
         <seg>apply plugin: &lt;s0&gt;'groovy'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s0&gt;'groovy'&lt;/s0&gt;
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122927Z" creationid="huanghaohang" creationdate="20190706T122927Z">
+        <seg>apply plugin: &lt;s0&gt;'groovy'&lt;/s0&gt;
+
+dependencies {</seg>
       </tuv>
     </tu>
     <tu>
