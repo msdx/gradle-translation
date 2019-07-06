@@ -8638,6 +8638,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>57.4.2. Which inputs are considered out of date?</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T135135Z" creationid="huanghaohang" creationdate="20190706T135118Z">
+        <seg>57.4.2. 哪些输入是被视为过时的？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>57.4. Incremental tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T124015Z" creationid="huanghaohang" creationdate="20190706T124015Z">
@@ -10455,6 +10463,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/userguide/tasks/incrementalTask&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T135015Z" creationid="huanghaohang" creationdate="20190706T135015Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注︰&lt;/e1&gt; &lt;/s0&gt;此示例的代码可以在 Gradle 的二进制及源码分发包的 &lt;c2&gt;samples/userguide/tasks/incrementalTask&lt;/c2&gt; 中找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/webApplication/quickstart&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T004659Z" creationid="huanghaohang" creationdate="20170909T004659Z">
@@ -10741,6 +10757,14 @@ sourceSets {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T124009Z" creationid="huanghaohang" creationdate="20190706T124009Z">
         <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingTaskTest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; IncrementalReverseTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134812Z" creationid="huanghaohang" creationdate="20190706T134812Z">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; IncrementalReverseTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
       </tuv>
     </tu>
     <tu>
@@ -11147,6 +11171,14 @@ task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;@InputDirectory&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134812Z" creationid="huanghaohang" creationdate="20190706T134812Z">
+        <seg>&lt;s2&gt;@InputDirectory&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;@TaskAction&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190705T142810Z" creationid="huanghaohang" creationdate="20190705T142810Z">
@@ -11249,6 +11281,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s3&gt;@OutputDirectory&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134814Z" creationid="huanghaohang" creationdate="20190706T134814Z">
+        <seg>&lt;s3&gt;@OutputDirectory&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s3&gt;if&lt;/s3&gt; (taskGraph.hasTask(release)) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025306Z" creationid="95" creationdate="20170729T025306Z">
@@ -11317,6 +11357,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T024505Z" creationid="huanghaohang" creationdate="20190605T024505Z">
         <seg>&lt;s4&gt;//prefer different version which contains some necessary fixes&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s4&gt;@Input&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134815Z" creationid="huanghaohang" creationdate="20190706T134815Z">
+        <seg>&lt;s4&gt;@Input&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11393,6 +11441,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s5&gt;@TaskAction&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134816Z" creationid="huanghaohang" creationdate="20190706T134816Z">
+        <seg>&lt;s5&gt;@TaskAction&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s5&gt;if&lt;/s5&gt; (details.key == &lt;s6&gt;'foo'&lt;/s6&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111944Z" creationid="huanghaohang" creationdate="20180406T111944Z">
@@ -11447,6 +11503,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T090229Z" creationid="huanghaohang" creationdate="20190611T090229Z">
         <seg>&lt;s6&gt;if&lt;/s6&gt; (flavor == flavors.failing) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s6&gt;void&lt;/s6&gt; execute(IncrementalTaskInputs inputs) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134817Z" creationid="huanghaohang" creationdate="20190706T134817Z">
+        <seg>&lt;s6&gt;void&lt;/s6&gt; execute(IncrementalTaskInputs inputs) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -13827,6 +13891,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084835Z" creationid="huanghaohang" creationdate="20190610T084821Z">
         <seg>单个构建可以利用不同的工具链来构建不同平台的变体。为此，核心的“本机二进制”插件将尝试查找并提供受支持的工具链。不过，一个项目里的工具链集也可以被显式定义，允许配置其他交叉编译器以及指定安装目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>A task may only contain a single incremental task action.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T135124Z" creationid="huanghaohang" creationdate="20190706T135117Z">
+        <seg>一个任务可能只包含一个增量任务操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20651,6 +20723,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 57.8. Defining an incremental task action</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134811Z" creationid="huanghaohang" creationdate="20190706T134811Z">
+        <seg>示例 57.8. 定义增量任务操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -21503,6 +21583,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T051237Z" creationid="huanghaohang" creationdate="20190609T043410Z">
         <seg>对于名为“main”的库，&lt;c0&gt;src/main/headers&lt;/c0&gt; 中的文件都被视为“public”或“exported”头。不应导出（但内部使用）的头文件应放在 &lt;c1&gt;src/main/cpp&lt;/c1&gt; 目录内（不过请注意，应该始终以包含它们的文件的相对路径这样一种方式来引用这些头文件）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For a simple transformer task like this, the task action simply needs to generate output files for any out-of-date inputs, and delete output files for any removed inputs.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T135110Z" creationid="huanghaohang" creationdate="20190706T135110Z">
+        <seg>对于像这样的简单转换任务，任务操作只需要对任何过时的输入生成输出文件，并删除任何已移除的输入的输出文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39967,6 +40055,22 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def File inputDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134813Z" creationid="huanghaohang" creationdate="20190706T134813Z">
+        <seg>def File inputDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def File outputDir</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134814Z" creationid="huanghaohang" creationdate="20190706T134814Z">
+        <seg>def File outputDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def classesDir = &lt;s0&gt;new&lt;/s0&gt; File(&lt;s1&gt;'build/classes'&lt;/s1&gt;)
 
 task resources &lt;&lt; {</seg>
@@ -40043,6 +40147,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133046Z" creationid="huanghaohang" creationdate="20190608T133046Z">
         <seg>def id = console.readLine("PGP Key Id: ")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def inputProperty</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134816Z" creationid="huanghaohang" creationdate="20190706T134816Z">
+        <seg>def inputProperty</seg>
       </tuv>
     </tu>
     <tu>
@@ -40129,6 +40241,22 @@ artifacts {</seg>
         <seg>def someFile = file(&lt;s0&gt;'build/somefile.txt'&lt;/s0&gt;)
 
 artifacts {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def targetFile = &lt;s10&gt;new&lt;/s10&gt; File(outputDir, change.file.name)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134821Z" creationid="huanghaohang" creationdate="20190706T134821Z">
+        <seg>def targetFile = &lt;s10&gt;new&lt;/s10&gt; File(outputDir, change.file.name)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def targetFile = &lt;s12&gt;new&lt;/s12&gt; File(outputDir, change.file.name)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134823Z" creationid="huanghaohang" creationdate="20190706T134823Z">
+        <seg>def targetFile = &lt;s12&gt;new&lt;/s12&gt; File(outputDir, change.file.name)</seg>
       </tuv>
     </tu>
     <tu>
@@ -43919,6 +44047,22 @@ tree.visit {element -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>inputs.outOfDate { change -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134819Z" creationid="huanghaohang" creationdate="20190706T134819Z">
+        <seg>inputs.outOfDate { change -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>inputs.removed { change -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134822Z" creationid="huanghaohang" creationdate="20190706T134822Z">
+        <seg>inputs.removed { change -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>install</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T091233Z" creationid="huanghaohang" creationdate="20190606T091233Z">
@@ -47008,6 +47152,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s11&gt;"removed: ${change.file.name}"&lt;/s11&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134823Z" creationid="huanghaohang" creationdate="20190706T134823Z">
+        <seg>println &lt;s11&gt;"removed: ${change.file.name}"&lt;/s11&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s11&gt;'build completed'&lt;/s11&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144032Z" creationid="huanghaohang" creationdate="20180107T144032Z">
@@ -47660,6 +47812,14 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s9&gt;"out of date: ${change.file.name}"&lt;/s9&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134820Z" creationid="huanghaohang" creationdate="20190706T134820Z">
+        <seg>println &lt;s9&gt;"out of date: ${change.file.name}"&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println System.properties[&lt;s0&gt;'system'&lt;/s0&gt;]
 }</seg>
       </tuv>
@@ -47814,6 +47974,14 @@ def different = collection - files(&lt;s4&gt;'src/file3.txt'&lt;/s4&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122514Z" creationid="huanghaohang" creationdate="20190706T122514Z">
         <seg>println greeting</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println inputs.incremental ? &lt;s7&gt;"CHANGED inputs considered out of date"&lt;/s7&gt; : &lt;s8&gt;"ALL inputs considered out of date"&lt;/s8&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134818Z" creationid="huanghaohang" creationdate="20190706T134818Z">
+        <seg>println inputs.incremental ? &lt;s7&gt;"CHANGED inputs considered out of date"&lt;/s7&gt; : &lt;s8&gt;"ALL inputs considered out of date"&lt;/s8&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -50698,6 +50866,22 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180314T094343Z" creationid="haohang" creationdate="20180314T094343Z">
         <seg>targetCompatibility</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>targetFile.delete()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134827Z" creationid="huanghaohang" creationdate="20190706T134827Z">
+        <seg>targetFile.delete()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>targetFile.text = change.file.text.reverse()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134821Z" creationid="huanghaohang" creationdate="20190706T134821Z">
+        <seg>targetFile.text = change.file.text.reverse()</seg>
       </tuv>
     </tu>
     <tu>
