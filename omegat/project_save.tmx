@@ -8574,6 +8574,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>57.3.1. Using your task class in another project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T123407Z" creationid="huanghaohang" creationdate="20190706T123407Z">
+        <seg>57.3.1. 在另一个项目中使用你的任务类</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>57.3. A standalone project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122543Z" creationid="huanghaohang" creationdate="20190706T122543Z">
@@ -10771,6 +10779,24 @@ slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)<
 
 Logger slf4jLogger = LoggerFactory.getLogger(&lt;s2&gt;'some-logger'&lt;/s2&gt;)
 slf4jLogger.info(&lt;s3&gt;'An info log message logged using SLF4j'&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;package&lt;/s0&gt; org.gradle
+
+&lt;s1&gt;import&lt;/s1&gt; org.gradle.api.DefaultTask
+&lt;s2&gt;import&lt;/s2&gt; org.gradle.api.tasks.TaskAction
+
+&lt;s3&gt;class&lt;/s3&gt; GreetingTask &lt;s4&gt;extends&lt;/s4&gt; DefaultTask {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T123357Z" creationid="huanghaohang" creationdate="20190706T123357Z">
+        <seg>&lt;s0&gt;package&lt;/s0&gt; org.gradle
+
+&lt;s1&gt;import&lt;/s1&gt; org.gradle.api.DefaultTask
+&lt;s2&gt;import&lt;/s2&gt; org.gradle.api.tasks.TaskAction
+
+&lt;s3&gt;class&lt;/s3&gt; GreetingTask &lt;s4&gt;extends&lt;/s4&gt; DefaultTask {</seg>
       </tuv>
     </tu>
     <tu>
@@ -20517,6 +20543,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122933Z" creationid="huanghaohang" creationdate="20190706T122919Z">
         <seg>示例 57.4. 一个自定义任务的构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 57.5. A custom task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T123351Z" creationid="huanghaohang" creationdate="20190706T123351Z">
+        <seg>示例 57.5. 自定义任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -33509,6 +33543,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use a task class in a build script, you need to add the class to the build script's classpath. To do this, you use a &lt;c0&gt;buildscript { }&lt;/c0&gt; block, as described in &lt;a1&gt;Section 59.5, “External dependencies for the build script”&lt;/a1&gt;. The following example shows how you might do this when the JAR containing the task class has been published to a local repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T123727Z" creationid="huanghaohang" creationdate="20190706T123727Z">
+        <seg>要在一个构建脚本中使用一个任务类，你需要将这个类添加到构建脚本的类路径中。要做到这一点，请使用《&lt;a1&gt;第 59.5 节，“构建脚本的外部依赖”&lt;/a1&gt;》中所述的 &lt;c0&gt;buildscript { }&lt;/c0&gt; 块。以下示例展示了当包含任务类的 JAR 已发布到本地存储库时，你可以如何操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use the &lt;c0&gt;Copy&lt;/c0&gt; task, you must provide a set of source files to copy, and a destination directory to copy the files to. You may also specify how to transform the files as they are copied. You do all this using a &lt;e1&gt;copy spec&lt;/e1&gt;. A copy spec is represented by the &lt;a2&gt;&lt;c3&gt;CopySpec&lt;/c3&gt;&lt;/a2&gt; interface. The &lt;c4&gt;Copy&lt;/c4&gt; task implements this interface. You specify the source files using the &lt;a5&gt;&lt;c6&gt;CopySpec.from()&lt;/c6&gt;&lt;/a5&gt; method. To specify the destination directory, use the &lt;a7&gt;&lt;c8&gt;CopySpec.into()&lt;/c8&gt;&lt;/a7&gt; method.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T135552Z" creationid="huanghaohang" creationdate="20171002T135552Z">
@@ -34449,6 +34491,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T160609Z" creationid="huanghaohang" creationdate="20190617T160609Z">
         <seg>我们有这些项目：&lt;c0&gt;shared&lt;/c0&gt;，&lt;c1&gt;api&lt;/c1&gt; 和 &lt;c2&gt;personService&lt;/c2&gt;。&lt;c3&gt;personService&lt;/c3&gt; 对其他两个项目有一个库依赖，&lt;c4&gt;api&lt;/c4&gt; 对 &lt;c5&gt;shared&lt;/c5&gt;上有一个库依赖。&lt;s6&gt;[&lt;a7&gt;22&lt;/a7&gt;]&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>We just follow the convention for where the source for the task class should go.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T123341Z" creationid="huanghaohang" creationdate="20190706T123341Z">
+        <seg>我们只是按照约定将任务类的源码放在对应的位置。.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49998,6 +50048,14 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T121649Z" creationid="huanghaohang" creationdate="20180406T121649Z">
         <seg>src/main/groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>src/main/groovy/org/gradle/GreetingTask.groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T123352Z" creationid="huanghaohang" creationdate="20190706T123352Z">
+        <seg>src/main/groovy/org/gradle/GreetingTask.groovy</seg>
       </tuv>
     </tu>
     <tu>
