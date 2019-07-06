@@ -8574,6 +8574,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>57.3. A standalone project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122543Z" creationid="huanghaohang" creationdate="20190706T122543Z">
+        <seg>57.3. 独立项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -10119,6 +10127,22 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Use the default greeting&lt;/s0&gt;
+task hello(type: GreetingTask)
+
+&lt;s1&gt;// Customize the greeting&lt;/s1&gt;
+task greeting(type: GreetingTask) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122511Z" creationid="huanghaohang" creationdate="20190706T122511Z">
+        <seg>&lt;s0&gt;// Use the default greeting&lt;/s0&gt;
+task hello(type: GreetingTask)
+
+&lt;s1&gt;// Customize the greeting&lt;/s1&gt;
+task greeting(type: GreetingTask) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Using a getter method&lt;/s0&gt;
 println project.buildDir
 println getProject().getBuildDir()
@@ -11289,6 +11313,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s6&gt;@TaskAction&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122513Z" creationid="huanghaohang" creationdate="20190706T122513Z">
+        <seg>&lt;s6&gt;@TaskAction&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s6&gt;else&lt;/s6&gt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152625Z" creationid="huanghaohang" creationdate="20190613T152625Z">
@@ -12113,6 +12145,18 @@ hello from GreetingTask</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190705T142814Z" creationid="huanghaohang" creationdate="20190705T142814Z">
         <seg>&gt; gradle -q hello
 hello from GreetingTask</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello greeting
+hello from GreetingTask
+greetings from GreetingTask</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122518Z" creationid="huanghaohang" creationdate="20190706T122518Z">
+        <seg>&gt; gradle -q hello greeting
+hello from GreetingTask
+greetings from GreetingTask</seg>
       </tuv>
     </tu>
     <tu>
@@ -20453,6 +20497,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 57.3. A customizable hello world task</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122510Z" creationid="huanghaohang" creationdate="20190706T122313Z">
+        <seg>示例 57.3. 一个自定义的 hello world 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -24311,8 +24363,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>Let's add a property to the task, so we can customize it. Tasks are simply POGOs, and when you declare a task, you can set the properties or call methods on the task object. Here we add a &lt;c0&gt;greeting&lt;/c0&gt; property, and set the value when we declare the &lt;c1&gt;greeting&lt;/c1&gt; task.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122309Z" creationid="huanghaohang" creationdate="20190706T122309Z">
-        <seg>Let's add a property to the task, so we can customize it. Tasks are simply POGOs, and when you declare a task, you can set the properties or call methods on the task object. Here we add a &lt;c0&gt;greeting&lt;/c0&gt; property, and set the value when we declare the &lt;c1&gt;greeting&lt;/c1&gt; task.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122457Z" creationid="huanghaohang" creationdate="20190706T122309Z">
+        <seg>让我们添加一个属性到任务中，这样我们就可以自定义它。任务只是 POGO，当你声明一个任务时，可以在这个任务对象上设置属性或调用方法。这里我们添加了一个 &lt;c0&gt;greeting&lt;/c0&gt; 属性，并在声明 &lt;c1&gt;greeting&lt;/c1&gt; 任务时设置它的值。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25657,6 +25709,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T043839Z" creationid="huanghaohang" creationdate="20170923T043839Z">
         <seg>&lt;s0&gt; &lt;c1&gt;Gradle q groupPing&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q hello greeting&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122517Z" creationid="huanghaohang" creationdate="20190706T122517Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q hello greeting&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -27577,6 +27637,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171216T022449Z" creationid="huanghaohang" creationdate="20171216T022449Z">
         <seg>String greeting = &lt;s0&gt;'hello from Ant'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>String greeting = &lt;s5&gt;'hello from GreetingTask'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122512Z" creationid="huanghaohang" creationdate="20190706T122512Z">
+        <seg>String greeting = &lt;s5&gt;'hello from GreetingTask'&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -42123,6 +42191,20 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>greeting = &lt;s2&gt;'greetings from GreetingTask'&lt;/s2&gt;
+}
+
+&lt;s3&gt;class&lt;/s3&gt; GreetingTask &lt;s4&gt;extends&lt;/s4&gt; DefaultTask {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122511Z" creationid="huanghaohang" creationdate="20190706T122511Z">
+        <seg>greeting = &lt;s2&gt;'greetings from GreetingTask'&lt;/s2&gt;
+}
+
+&lt;s3&gt;class&lt;/s3&gt; GreetingTask &lt;s4&gt;extends&lt;/s4&gt; DefaultTask {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>groovy</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180205T140842Z" creationid="huanghaohang" creationdate="20180205T140842Z">
@@ -47420,6 +47502,14 @@ def different = collection - files(&lt;s4&gt;'src/file3.txt'&lt;/s4&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135025Z" creationid="huanghaohang" creationdate="20170917T135025Z">
         <seg>println gradlePropertiesProp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println greeting</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122514Z" creationid="huanghaohang" creationdate="20190706T122514Z">
+        <seg>println greeting</seg>
       </tuv>
     </tu>
     <tu>
