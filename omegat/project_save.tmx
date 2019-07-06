@@ -1098,6 +1098,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.incremental.IncrementalTaskInputs.html#org.gradle.api.tasks.incremental.IncrementalTaskInputs:outOfDate(org.gradle.api.Action)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134535Z" creationid="huanghaohang" creationdate="20190706T134535Z">
+        <seg>../dsl/org.gradle.api.tasks.incremental.IncrementalTaskInputs.html#org.gradle.api.tasks.incremental.IncrementalTaskInputs:outOfDate(org.gradle.api.Action)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.incremental.IncrementalTaskInputs.html#org.gradle.api.tasks.incremental.IncrementalTaskInputs:removed(org.gradle.api.Action)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134541Z" creationid="huanghaohang" creationdate="20190706T134541Z">
+        <seg>../dsl/org.gradle.api.tasks.incremental.IncrementalTaskInputs.html#org.gradle.api.tasks.incremental.IncrementalTaskInputs:removed(org.gradle.api.Action)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.javadoc.Groovydoc.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T120914Z" creationid="huanghaohang" creationdate="20180406T120914Z">
@@ -23501,8 +23517,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>If you'd like to optimise your build so that only out-of-date inputs are processed, you can do so with an &lt;e0&gt;incremental task&lt;/e0&gt;.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134040Z" creationid="huanghaohang" creationdate="20190706T134040Z">
-        <seg>如果你想优化你的构建，以便只处理过期的输入，你可以使用&lt;e0&gt;增量任务&lt;/e0&gt;执行此操作。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134547Z" creationid="huanghaohang" creationdate="20190706T134040Z">
+        <seg>如果你想优化你的构建，以便只处理已过时的输入，你可以使用&lt;e0&gt;增量任务&lt;/e0&gt;执行此操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31739,6 +31755,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T030619Z" creationid="95" creationdate="20170729T030619Z">
         <seg>在这里，很重要的一点是，&lt;c0&gt;whenReady&lt;/c0&gt; 会在发布任务执行&lt;s1&gt;&lt;e2&gt;之前&lt;/e2&gt;&lt;/s1&gt;影响到它。即使这个发布任务不是 &lt;s3&gt;&lt;e4&gt;主要的&lt;/e4&gt;&lt;/s3&gt; （即传给 &lt;s5&gt;&lt;s6&gt;gradle&lt;/s6&gt;&lt;/s5&gt; 命令行的任务），这一点也同样有效。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The incremental task action may supply an &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.outOfDate()&lt;/c1&gt;&lt;/a0&gt; action for processing any input file that is out-of-date, and a &lt;a2&gt;&lt;c3&gt;IncrementalTaskInputs.removed()&lt;/c3&gt;&lt;/a2&gt; action that executes for any input file that has been removed since the previous execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134800Z" creationid="huanghaohang" creationdate="20190706T134800Z">
+        <seg>这个增量任务操作可以提供一个 &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.outOfDate()&lt;/c1&gt;&lt;/a0&gt; 操作来处理所有过时的输入文件，以及一个对自上次执行以来已经被删除的文件执行的 &lt;a2&gt;&lt;c3&gt;IncrementalTaskInputs.removed()&lt;/c3&gt;&lt;/a2&gt; 操作。</seg>
       </tuv>
     </tu>
     <tu>
