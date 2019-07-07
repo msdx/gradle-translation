@@ -12671,6 +12671,22 @@ removed: 3.txt</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q removeOutput incrementalReverse
+ALL inputs considered out of date
+out of date: 1.txt
+out of date: 2.txt
+out of date: 3.txt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T143022Z" creationid="huanghaohang" creationdate="20190707T143022Z">
+        <seg>&gt; gradle -q removeOutput incrementalReverse
+ALL inputs considered out of date
+out of date: 1.txt
+out of date: 2.txt
+out of date: 3.txt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q runFailingOperatorsTestCUnitExe
 
 There were test failures:</seg>
@@ -20805,6 +20821,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 57.13. Running the incremental task with an output file removed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T143006Z" creationid="huanghaohang" creationdate="20190707T143006Z">
+        <seg>示例 57.13. 当输出文件被删除时运行增量任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 57.2. A hello world task</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190705T142808Z" creationid="huanghaohang" creationdate="20190705T142808Z">
@@ -26305,6 +26329,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T142532Z" creationid="huanghaohang" creationdate="20190707T142532Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q removeInput incrementalReverse&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q removeOutput incrementalReverse&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T143017Z" creationid="huanghaohang" creationdate="20190707T143017Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q removeOutput incrementalReverse&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -35169,6 +35201,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When a task input property modified, Gradle is not able to determine how this property impacted the task outputs, so all input files are assumed to be out of date. So similar to the changed output file example, &lt;s0&gt;&lt;e1&gt;all&lt;/e1&gt;&lt;/s0&gt; input files are reported to the &lt;a2&gt;&lt;c3&gt;IncrementalTaskInputs.outOfDate()&lt;/c3&gt;&lt;/a2&gt; action, and no input files are reported to the &lt;a4&gt;&lt;c5&gt;IncrementalTaskInputs.removed()&lt;/c5&gt;&lt;/a4&gt; action:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T143228Z" creationid="huanghaohang" creationdate="20190707T143228Z">
+        <seg>当修改任务的输入属性时，Gradle 无法确定该属性对任务的输出会有怎样的影响，因此将假定所有输入文件都已过时。所以与更改输出文件的示例类似，&lt;s0&gt;&lt;e1&gt;所有的&lt;/e1&gt;&lt;/s0&gt;输入文件将报告给 &lt;a2&gt;&lt;c3&gt;IncrementalTaskInputs.outOfDate()&lt;/c3&gt;&lt;/a2&gt; 操作，并且不会向 &lt;a4&gt;&lt;c5&gt;IncrementalTaskInputs.removal()&lt;/c5&gt;&lt;/a4&gt; 操作报告任何输入文件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When an existing input file is removed, then re-executing the task results that file being reported to &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.removed()&lt;/c1&gt;&lt;/a0&gt;:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T142515Z" creationid="huanghaohang" creationdate="20190707T142515Z">
@@ -42093,6 +42133,16 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T030321Z" creationid="huanghaohang" creationdate="20190603T030321Z">
         <seg>file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>file(&lt;s0&gt;"$buildDir/outputs/1.txt"&lt;/s0&gt;).delete()
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T143008Z" creationid="huanghaohang" creationdate="20190707T143008Z">
+        <seg>file(&lt;s0&gt;"$buildDir/outputs/1.txt"&lt;/s0&gt;).delete()
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -51762,6 +51812,14 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T142526Z" creationid="huanghaohang" creationdate="20190707T142526Z">
         <seg>task removeInput() &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task removeOutput() &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T143007Z" creationid="huanghaohang" creationdate="20190707T143007Z">
+        <seg>task removeOutput() &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
