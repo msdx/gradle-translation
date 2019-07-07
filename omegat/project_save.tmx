@@ -34927,6 +34927,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When Gradle has history of a previous task execution, and the only changes to the task execution context since that execution are to input files, then Gradle is able to determine which input files need to be reprocessed by the task. In this case, the &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.outOfDate()&lt;/c1&gt;&lt;/a0&gt; action will be executed for any input file that was &lt;s2&gt;&lt;e3&gt;added&lt;/e3&gt;&lt;/s2&gt; or &lt;s4&gt;&lt;e5&gt;modified&lt;/e5&gt;&lt;/s4&gt;, and the &lt;a6&gt;&lt;c7&gt;IncrementalTaskInputs.removed()&lt;/c7&gt;&lt;/a6&gt; action will be executed for any &lt;s8&gt;&lt;e9&gt;removed&lt;/e9&gt;&lt;/s8&gt; input file.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T140254Z" creationid="huanghaohang" creationdate="20190706T135144Z">
+        <seg>当 Gradle 有了前一次任务执行的历史，并且从那一次执行之后任务执行的上下文中只有输入有修改，那么 Gradle 就能够确定这个任务需要重新处理哪些文件。在这种情况下，将对&lt;s2&gt;&lt;s2&gt;&lt;e3&gt;已添加的&lt;/e3&gt;&lt;/s2&gt;或&lt;s4&gt;&lt;e5&gt;已修改的&lt;/e5&gt;&lt;/s4&gt;的输入文件执行 &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.outOfDate()&lt;/c1&gt;&lt;/a0&gt; 操作，并且对任何&lt;s8&gt;&lt;e9&gt;已移除的&lt;/e9&gt;&lt;/s8&gt;输入文件执行 &lt;a6&gt;&lt;c7&gt;IncrementalTaskInputs.removal()&lt;/c7&gt;&lt;/a6&gt; 操作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When a platform does not define an architecture or operating system, the default target of the tool chain is assumed. So if a platform does not define a value for &lt;c0&gt;operatingSystem&lt;/c0&gt;, Gradle will find the first available tool chain that can build for the specified &lt;c1&gt;architecture&lt;/c1&gt;.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T085652Z" creationid="huanghaohang" creationdate="20190610T085400Z">
