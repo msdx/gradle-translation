@@ -1098,6 +1098,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.incremental.IncrementalTaskInputs.html#org.gradle.api.tasks.incremental.IncrementalTaskInputs:incremental</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T141013Z" creationid="huanghaohang" creationdate="20190707T141013Z">
+        <seg>../dsl/org.gradle.api.tasks.incremental.IncrementalTaskInputs.html#org.gradle.api.tasks.incremental.IncrementalTaskInputs:incremental</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.incremental.IncrementalTaskInputs.html#org.gradle.api.tasks.incremental.IncrementalTaskInputs:outOfDate(org.gradle.api.Action)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134535Z" creationid="huanghaohang" creationdate="20190706T134535Z">
@@ -8646,6 +8654,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>57.4.3. An incremental task in action</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T141141Z" creationid="huanghaohang" creationdate="20190707T141141Z">
+        <seg>57.4.3. 增量任务的操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>57.4. Incremental tasks</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T124015Z" creationid="huanghaohang" creationdate="20190706T124015Z">
@@ -14695,6 +14711,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>An &lt;c0&gt;upToDateWhen&lt;/c0&gt; criteria added to the task returns &lt;c1&gt;false&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T140704Z" creationid="huanghaohang" creationdate="20190707T140704Z">
+        <seg>添加到任务的 &lt;c0&gt;upToDateWhen&lt;/c0&gt; 条件返回 &lt;c1&gt;false&lt;/c1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>An HTML test report.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T042110Z" creationid="huanghaohang" creationdate="20180406T042110Z">
@@ -14739,6 +14763,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T043615Z" creationid="huanghaohang" creationdate="20170908T043428Z">
         <seg>一个外部依赖使用&lt;c0&gt;group&lt;/c0&gt;, &lt;c1&gt;name&lt;/c1&gt; 和 &lt;c2&gt;version&lt;/c2&gt; 属性来定义。根据你所使用的仓库类型不同， &lt;c3&gt;group&lt;/c3&gt; 和 &lt;c4&gt;version&lt;/c4&gt; 可能是可选的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>An input property has changed since the previous execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T140732Z" creationid="huanghaohang" creationdate="20190707T140732Z">
+        <seg>自上次执行以来，输入属性已有修改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23171,6 +23203,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>However, there are many cases where Gradle is unable to determine which input files need to be reprocessed. Examples include:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T140358Z" creationid="huanghaohang" creationdate="20190707T140358Z">
+        <seg>然而，有许多情况下，Gradle 还是无法确定需要重新处理哪些输入文件。包括比如：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>HtmlDependencyReportTask</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040039Z" creationid="huanghaohang" creationdate="20190123T040039Z">
@@ -23759,6 +23799,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133939Z" creationid="huanghaohang" creationdate="20180108T133939Z">
         <seg>此外，如果可以相对较快地建立 Gradle 模型，用户界面可以提供一些有趣的功能。例如，守护进程可能对以下情况有用：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In any of these cases, Gradle will consider all of the input files to be &lt;c0&gt;outOfDate&lt;/c0&gt;. The &lt;a1&gt;&lt;c2&gt;IncrementalTaskInputs.outOfDate()&lt;/c2&gt;&lt;/a1&gt; action will be executed for every input file, and the &lt;a3&gt;&lt;c4&gt;IncrementalTaskInputs.removed()&lt;/c4&gt;&lt;/a3&gt; action will not be executed at all.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T141012Z" creationid="huanghaohang" creationdate="20190707T141012Z">
+        <seg>在以上所述的任一情况下，Gradle 将把所有输入文件视为 &lt;c0&gt;outOfDate&lt;/c0&gt;，然后会对每个输入文件执行 &lt;a1&gt;&lt;c2&gt;IncrementalTaskInputs.outOfDate()&lt;/c2&gt;&lt;/a1&gt; 操作，并且将不再执行 &lt;a3&gt;&lt;c4&gt;IncrementalTaskInputs.removremoval()&lt;/c4&gt;&lt;/a3&gt; 操作。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25599,6 +25647,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T140516Z" creationid="95" creationdate="20190131T140319Z">
         <seg>&lt;c0&gt;applicationDistribution&lt;/c0&gt;是插件添加的约定属性之一，它是一个 &lt;a1&gt;&lt;c2&gt;CopySpec&lt;/c2&gt;&lt;/a1&gt;。这个副本规范在 &lt;c3&gt;installApp&lt;/c3&gt; 和 &lt;c4&gt;distZip&lt;/c4&gt; 任务中会用到，作为要包含在分发中的内容的描述。在分发中，以上将启动脚本复制到 &lt;c5&gt;bin&lt;/c5&gt; 目录和 &lt;c6&gt;lib&lt;/c6&gt; 的必要jar中，也会复制 &lt;c7&gt;src/dist&lt;/c7&gt; 目录中的所有文件。如果要在分发中包含任何的静态文件，只需要把它们放在 &lt;c8&gt;src/dist&lt;/c8&gt; 目录中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One or more output files have changed since the previous execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T140829Z" creationid="huanghaohang" creationdate="20190707T140750Z">
+        <seg>自上次执行以来，一有个或多个的输出文件已更改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32815,6 +32871,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>There is no history available from a previous execution.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T140755Z" creationid="huanghaohang" creationdate="20190707T140530Z">
+        <seg>没有自上次执行以来的有效历史记录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>There is some more work to do if you need support for other protocols than &lt;c0&gt;file&lt;/c0&gt;. In this case the native Maven code we delegate to needs additional libraries. Which libraries depend on the protocol you need. The available protocols and the corresponding libraries are listed in &lt;a1&gt;Table 52.3, “Protocol jars for Maven deployment”&lt;/a1&gt; (those libraries have again transitive dependencies which have transitive dependencies). &lt;s2&gt;[&lt;a3&gt;19&lt;/a3&gt;]&lt;/s2&gt; For example to use the ssh protocol you can do:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T092631Z" creationid="huanghaohang" creationdate="20190607T092631Z">
@@ -35511,6 +35575,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You are building with a different version of Gradle. Currently, Gradle does not use task history from a different version.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T140629Z" creationid="huanghaohang" creationdate="20190707T140629Z">
+        <seg>你正在使用不同版本的 Gradle 构建。Gradle 目前不使用来自不同版本的任务历史记录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can access Ant types in the same way that you access tasks, using the name of the type as the method name. The method call returns the Ant data type, which you can then use directly in your build script. In the following example, we create an Ant &lt;c0&gt;path&lt;/c0&gt; object, then iterate over the contents of it.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171219T091117Z" creationid="huanghaohang" creationdate="20171219T090833Z">
@@ -35747,6 +35819,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T113349Z" creationid="huanghaohang" creationdate="20170909T113349Z">
         <seg>在使用&lt;c0&gt;-x&lt;/c0&gt;命令行选项时，依然可以使用这些缩写。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can check if Gradle was able to determine the incremental changes to input files with &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.isIncremental()&lt;/c1&gt;&lt;/a0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T141120Z" creationid="huanghaohang" creationdate="20190707T141120Z">
+        <seg>你可以使用 &lt;a0&gt;&lt;c1&gt;IncrementalTaskInputs.isIncremental()&lt;/c1&gt;&lt;/a0&gt; 来检查 Gradle 是否能够确定输入文件的增量更改。</seg>
       </tuv>
     </tu>
     <tu>
