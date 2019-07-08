@@ -11723,6 +11723,22 @@ systemValue</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q -PtaskInputProperty=changed incrementalReverse
+ALL inputs considered out of date
+out of date: 1.txt
+out of date: 2.txt
+out of date: 3.txt</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T143256Z" creationid="huanghaohang" creationdate="20190707T143256Z">
+        <seg>&gt; gradle -q -PtaskInputProperty=changed incrementalReverse
+ALL inputs considered out of date
+out of date: 1.txt
+out of date: 2.txt
+out of date: 3.txt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q -b subdir/myproject.gradle hello
 using build file 'myproject.gradle' in 'subdir'.</seg>
       </tuv>
@@ -16339,6 +16355,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Chapter 61. The Gradle Wrapper</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T143320Z" creationid="huanghaohang" creationdate="20190707T143320Z">
+        <seg>第六十一章. Gradle 包装器</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Chapter 62. Embedding Gradle</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190606T021654Z" creationid="huanghaohang" creationdate="20190606T021654Z">
@@ -20825,6 +20849,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T143006Z" creationid="huanghaohang" creationdate="20190707T143006Z">
         <seg>示例 57.13. 当输出文件被删除时运行增量任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 57.14. Running the incremental task with an input property changed</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T143247Z" creationid="huanghaohang" creationdate="20190707T143247Z">
+        <seg>示例 57.14. 当输入属性被更改时运行增量任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -26009,6 +26041,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170917T135035Z" creationid="huanghaohang" creationdate="20170917T135035Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q -PcommandLineProjectProp=commandLineProjectPropValue -Dorg.gradle.project.systemProjectProp=systemPropertyValue printProps&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q -PtaskInputProperty=changed incrementalReverse&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T143253Z" creationid="huanghaohang" creationdate="20190707T143253Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q -PtaskInputProperty=changed incrementalReverse&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
