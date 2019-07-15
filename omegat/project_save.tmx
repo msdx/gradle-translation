@@ -36641,6 +36641,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can implement a custom plugin in any language you like, provided the implementation ends up compiled as bytecode. For the examples here, we are going to use Groovy as the implementation language. You could use Java or Scala instead, if you want.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190715T154107Z" creationid="huanghaohang" creationdate="20190715T154107Z">
+        <seg>你可以任选一种自己喜欢的语言来实现自定义插件，只要这个实现最终能够被编译成字节码。这里我们以 Groovy 为例，如果需要，你也可以使用 Java 或 Scala。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can include the task class directly in the build script. This has the benefit that the task class is automatically compiled and included in the classpath of the build script without you having to do anything. However, the task class is not visible outside the build script, and so you cannot reuse the task class outside the build script it is defined in.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190629T151042Z" creationid="huanghaohang" creationdate="20190629T151042Z">
