@@ -36665,6 +36665,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can include the source for the plugin directly in the build script. This has the benefit that the plugin is automatically compiled and included in the classpath of the build script without you having to do anything. However, the plugin is not visible outside the build script, and so you cannot reuse the plugin outside the build script it is defined in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190717T133441Z" creationid="huanghaohang" creationdate="20190717T133441Z">
+        <seg>你可以直接在构建脚本中包含插件源码。好处是你不需要再做什么，这个插件就会自动编译并加入构建脚本的类路径中。然而，在这个构建脚本之外，插件是不可见的，因此你不能够在你定义这个插件的脚本以外的地方来复用它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can include the task class directly in the build script. This has the benefit that the task class is automatically compiled and included in the classpath of the build script without you having to do anything. However, the task class is not visible outside the build script, and so you cannot reuse the task class outside the build script it is defined in.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190629T151042Z" creationid="huanghaohang" creationdate="20190629T151042Z">
