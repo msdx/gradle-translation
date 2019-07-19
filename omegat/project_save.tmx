@@ -28071,8 +28071,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="EN-US">
         <seg>See &lt;a0&gt;Chapter 59, &lt;i1&gt;Organizing Build Logic&lt;/i1&gt;&lt;/a0&gt; for more details about the &lt;c2&gt;buildSrc&lt;/c2&gt; project.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190704T150431Z" creationid="huanghaohang" creationdate="20190704T150431Z">
-        <seg>有关&lt;c2&gt;buildSrc&lt;/c2&gt; 项目的更详细信息，请参阅《&lt;a0&gt;第五十九章，&lt;i1&gt;组织构建逻辑&lt;/i1&gt;&lt;/a0&gt;》。</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T115043Z" creationid="huanghaohang" creationdate="20190704T150431Z">
+        <seg>有关 &lt;c2&gt;buildSrc&lt;/c2&gt; 项目的更详细信息，请参阅《&lt;a0&gt;第五十九章，&lt;i1&gt;组织构建逻辑&lt;/i1&gt;&lt;/a0&gt;》。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36717,6 +36717,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T125742Z" creationid="huanghaohang" creationdate="20170923T125742Z">
         <seg>你可以把任何对象传给&lt;c0&gt;file()&lt;/c0&gt;方法，它将尝试将该值转换为一个绝对路径的&lt;c1&gt;File&lt;/c1&gt;对象。通常你会传一个&lt;c2&gt;String&lt;/c2&gt;或&lt;c3&gt;File&lt;/c3&gt;实例给它。如果这个路径是一个绝对路径，它会被用来构造一个&lt;c4&gt;文件&lt;/c4&gt;实例。否则，会通过将项目目录的路径添加到所提供的路径的前面来构建&lt;c5&gt;File&lt;/c5&gt;实例。该&lt;c6&gt;file()&lt;/c6&gt;方法也可以识别URL，如&lt;c7&gt;file:/some/path.xml&lt;/c7&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can put the source for the plugin in the &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;rootProjectDir&lt;/c2&gt;&lt;/e1&gt;/buildSrc/src/main/groovy&lt;/c0&gt; directory. Gradle will take care of compiling and testing the plugin and making it available on the classpath of the build script. The plugin is visible to every build script used by the build. However, it is not visible outside the build, and so you cannot reuse the plugin outside the build it is defined in.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190717T133748Z" creationid="huanghaohang" creationdate="20190717T133748Z">
+        <seg>你可以将插件源码放在 &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;rootProjectDir&lt;/c2&gt;&lt;/e1&gt;/buildSrc/src/main/rootvy&lt;/c0&gt; 目录中。Gradle 将负责编译和测试插件，并使其在构建脚本的类路径中可用。该插件对构建所使用的每个构建脚本都是可见的。但是，它在构建外部不可见，因此你无法在定义它的构建之外的地方复用这个插件。</seg>
       </tuv>
     </tu>
     <tu>
