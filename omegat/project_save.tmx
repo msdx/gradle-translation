@@ -25711,6 +25711,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Most plugins need to obtain some configuration from the build script. One method for doing this is to use &lt;e0&gt;extension objects&lt;/e0&gt;. The Gradle &lt;a1&gt;&lt;c2&gt;Project&lt;/c2&gt;&lt;/a1&gt; has an associated &lt;a3&gt;&lt;c4&gt;ExtensionContainer&lt;/c4&gt;&lt;/a3&gt; object that helps keep track of all the settings and properties being passed to plugins. You can capture user input by telling the extension container about your plugin. To capture input, simply add a Java Bean compliant class into the extension container's list of extensions. Groovy is a good language choice for a plugin because plain old Groovy objects contain all the getter and setter methods that a Java Bean requires.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155631Z" creationid="huanghaohang" creationdate="20190719T155631Z">
+        <seg>大多数插件需要从构建脚本获取一些配置。其中一种实现的方法是使用&lt;e0&gt;扩展对象&lt;/e0&gt;。Gradle &lt;a1&gt;&lt;c2&gt;Project&lt;/c2&gt;&lt;/a1&gt; 有一个相关联的 &lt;a3&gt;&lt;c4&gt;ExtensionContainer&lt;/c4&gt;&lt;/a3&gt; 对象，该对象能帮助跟踪传给插件的所有设置和属性。你可以通过告知扩展容器有关插件的信息来捕获用户输入。只要将符合 Java Bean 的类添加到扩展容器的扩展列表中，你就可以获取输入。对于一个插件而言，Groovy 是一种不错的语言选择，因为普通的旧 Groovy 对象就包含了 Java Bean 需要的所有 getter 和 setter 方法。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Most projects are not completely self-contained. They need files built by other projects in order to be compiled or tested and so on. For example, in order to use Hibernate in my project, I need to include some Hibernate jars in the classpath when I compile my source. To run my tests, I might also need to include some additional jars in the test classpath, such as a particular JDBC driver or the Ehcache jars.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170905T150016Z" creationid="95" creationdate="20170905T150016Z">
