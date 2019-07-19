@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.2.0_0_10666" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.0_0_e0e1b4cc8" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -24317,6 +24317,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In our examples, we will start with the plugin in the build script, to keep things simple. Then we will look at creating a standalone project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150215Z" creationid="huanghaohang" creationdate="20190719T150215Z">
+        <seg>在我们的例子中，我们将从在构建脚本中定义插件开始，以保持简单。随后我们会着眼于创建一个独立的项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In our examples, we will start with the task class in the build script, to keep things simple. Then we will look at creating a standalone project.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190704T153941Z" creationid="huanghaohang" creationdate="20190704T153941Z">
@@ -36509,6 +36517,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T145326Z" creationid="huanghaohang" creationdate="20170918T145326Z">
         <seg>你可以使用外部构建脚本来配置当前项目。所有的Gradle构建语言都可以在外部脚本中使用，甚至你也可以从外部脚本应用其他脚本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can create a separate project for your plugin. This project produces and publishes a JAR which you can then use in multiple builds and share with others. Generally, this JAR might include some custom plugins, or bundle several related task classes into a single library. Or some combination of the two.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150002Z" creationid="huanghaohang" creationdate="20190719T150002Z">
+        <seg>你可以为你的插件创建单独的项目。这个项目会生成和发布一个 JAR，随后你可以在多个构建中使用它并分享出去。通常，这个 JAR 可能包含一些自定义插件，或者将多个相关的任务类捆绑到一个库中，或两者皆有。</seg>
       </tuv>
     </tu>
     <tu>
