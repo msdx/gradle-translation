@@ -11601,10 +11601,26 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s3&gt;void&lt;/s3&gt; apply(Project project) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155821Z" creationid="huanghaohang" creationdate="20190719T155821Z">
+        <seg>&lt;s3&gt;void&lt;/s3&gt; apply(Project project) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s4&gt;'org.mycomp.package2'&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181203T033558Z" creationid="huanghaohang" creationdate="20181203T033558Z">
         <seg>&lt;s4&gt;'org.mycomp.package2'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s4&gt;// Add the 'greeting' extension object&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155822Z" creationid="huanghaohang" creationdate="20190719T155822Z">
+        <seg>&lt;s4&gt;// Add the 'greeting' extension object&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11741,6 +11757,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111944Z" creationid="huanghaohang" creationdate="20180406T111944Z">
         <seg>&lt;s5&gt;if&lt;/s5&gt; (details.key == &lt;s6&gt;'foo'&lt;/s6&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s6&gt;// Add a task that uses the configuration&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155824Z" creationid="huanghaohang" creationdate="20190719T155824Z">
+        <seg>&lt;s6&gt;// Add a task that uses the configuration&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12453,6 +12477,16 @@ Greetings from the hello task.</seg>
         <seg>&gt; gradle -q hello
 Hello world!
 Greetings from the hello task.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+Hi from Gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155829Z" creationid="huanghaohang" creationdate="20190719T155829Z">
+        <seg>&gt; gradle -q hello
+Hi from Gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -21247,6 +21281,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 58.2. A custom plugin extension</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155819Z" creationid="huanghaohang" creationdate="20190719T155819Z">
+        <seg>示例 58.2. 一个自定义插件扩展</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -24551,6 +24593,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this example, &lt;c0&gt;GreetingPluginExtension&lt;/c0&gt; is a plain old Groovy object with a field called &lt;c1&gt;message&lt;/c1&gt;. The extension object is added to the plugin list with the name &lt;c2&gt;greeting&lt;/c2&gt;. This object then becomes available as a project property with the same name as the extension object.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T160318Z" creationid="huanghaohang" creationdate="20190719T155917Z">
+        <seg>在这个示例中，&lt;c0&gt;GreetingPluginExtension&lt;/c0&gt; 是一个普通的旧 Groovy 对象，它有一个叫 &lt;c1&gt;message&lt;/c1&gt;的字段。这个扩展对象以 &lt;c2&gt;greeting&lt;/c2&gt; 名字添加到插件列表中。然后该对象变为一个有效的项目属性，属性名称与这个扩展对象相同。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this example, an &lt;c0&gt;ext&lt;/c0&gt; block adds two extra properties to the &lt;c1&gt;project&lt;/c1&gt; object. Additionally, a property named &lt;c2&gt;purpose&lt;/c2&gt; is added to each source set by setting &lt;c3&gt;ext.purpose&lt;/c3&gt; to &lt;c4&gt;null&lt;/c4&gt; (&lt;c5&gt;null&lt;/c5&gt; is a permissible value). Once the properties have been added, they can be read and set like predefined properties.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T135016Z" creationid="huanghaohang" creationdate="20170913T133607Z">
@@ -25195,6 +25245,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T122457Z" creationid="huanghaohang" creationdate="20190706T122309Z">
         <seg>让我们添加一个属性到任务中，这样我们就可以自定义它。任务只是 POGO，当你声明一个任务时，可以在这个任务对象上设置属性或调用方法。这里我们添加了一个 &lt;c0&gt;greeting&lt;/c0&gt; 属性，并在声明 &lt;c1&gt;greeting&lt;/c1&gt; 任务时设置它的值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Let's add a simple extension object to the project. Here we add a &lt;c0&gt;greeting&lt;/c0&gt; extension object to the project, which allows you to configure the greeting.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155753Z" creationid="huanghaohang" creationdate="20190719T155753Z">
+        <seg>让我们向项目添加一个简单的扩展对象。这里我们向项目添加了一个 &lt;c0&gt;greeting&lt;/c0&gt; 扩展对象，它可以让从外配置问候语。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38657,6 +38715,22 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: GreetingPlugin
+
+greeting.message = &lt;s0&gt;'Hi from Gradle'&lt;/s0&gt;
+
+&lt;s1&gt;class&lt;/s1&gt; GreetingPlugin &lt;s2&gt;implements&lt;/s2&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155820Z" creationid="huanghaohang" creationdate="20190719T155820Z">
+        <seg>apply plugin: GreetingPlugin
+
+greeting.message = &lt;s0&gt;'Hi from Gradle'&lt;/s0&gt;
+
+&lt;s1&gt;class&lt;/s1&gt; GreetingPlugin &lt;s2&gt;implements&lt;/s2&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: JavaPlugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093314Z" creationid="huanghaohang" creationdate="20180130T093314Z">
@@ -41019,6 +41093,16 @@ task listFish &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134814Z" creationid="huanghaohang" creationdate="20190706T134814Z">
         <seg>def File outputDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def String message = &lt;s9&gt;'Hello from GreetingPlugin'&lt;/s9&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155827Z" creationid="huanghaohang" creationdate="20190719T155827Z">
+        <seg>def String message = &lt;s9&gt;'Hello from GreetingPlugin'&lt;/s9&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -49158,6 +49242,14 @@ println project.name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println project.greeting.message</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155825Z" creationid="huanghaohang" creationdate="20190719T155825Z">
+        <seg>println project.greeting.message</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println relativePath(compileJava.destinationDir)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T100202Z" creationid="huanghaohang" creationdate="20180130T100202Z">
@@ -49406,6 +49498,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project.extensions.create(&lt;s5&gt;"greeting"&lt;/s5&gt;, GreetingPluginExtension)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155823Z" creationid="huanghaohang" creationdate="20190719T155823Z">
+        <seg>project.extensions.create(&lt;s5&gt;"greeting"&lt;/s5&gt;, GreetingPluginExtension)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project.group</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T094947Z" creationid="huanghaohang" creationdate="20190607T094947Z">
@@ -49476,6 +49576,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150923Z" creationid="huanghaohang" creationdate="20190719T150923Z">
         <seg>project.task(&lt;s3&gt;'hello'&lt;/s3&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.task(&lt;s7&gt;'hello'&lt;/s7&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155824Z" creationid="huanghaohang" creationdate="20190719T155824Z">
+        <seg>project.task(&lt;s7&gt;'hello'&lt;/s7&gt;) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -54383,6 +54491,20 @@ sourceSets.all {</seg>
 
 &lt;s2&gt;// Iterate over the source sets&lt;/s2&gt;
 sourceSets.all {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+&lt;s8&gt;class&lt;/s8&gt; GreetingPluginExtension {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155826Z" creationid="huanghaohang" creationdate="20190719T155826Z">
+        <seg>}
+}
+
+&lt;s8&gt;class&lt;/s8&gt; GreetingPluginExtension {</seg>
       </tuv>
     </tu>
     <tu>
