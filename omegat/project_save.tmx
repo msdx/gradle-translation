@@ -2002,6 +2002,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/plugins/ExtensionContainer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T151051Z" creationid="huanghaohang" creationdate="20190719T151051Z">
+        <seg>../javadoc/org/gradle/api/plugins/ExtensionContainer.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/plugins/JavaPlugin.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T092944Z" creationid="huanghaohang" creationdate="20180130T092944Z">
@@ -8918,6 +8926,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>58.3. Getting input from the build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T151049Z" creationid="huanghaohang" creationdate="20190719T151049Z">
+        <seg>58.3. 从构建中获取输入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -11495,6 +11511,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;void&lt;/s2&gt; apply(Project project) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150922Z" creationid="huanghaohang" creationdate="20190719T150922Z">
+        <seg>&lt;s2&gt;void&lt;/s2&gt; apply(Project project) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s3&gt;"1.0"&lt;/s3&gt;
 }</seg>
       </tuv>
@@ -12397,6 +12421,16 @@ Hello Venus
 Hello Earth
 Hello Mars
 Hello Jupiter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q hello
+Hello from the GreetingPlugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150926Z" creationid="huanghaohang" creationdate="20190719T150926Z">
+        <seg>&gt; gradle -q hello
+Hello from the GreetingPlugin</seg>
       </tuv>
     </tu>
     <tu>
@@ -21205,6 +21239,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 58.1. A custom plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150920Z" creationid="huanghaohang" creationdate="20190719T150920Z">
+        <seg>示例 58.1. 自定义插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -26169,6 +26211,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T035609Z" creationid="huanghaohang" creationdate="20190605T034857Z">
         <seg>Gradle 理解的其中一个模块元数据是模块的 &lt;s0&gt;&lt;e1&gt;状态方案&lt;/e1&gt;&lt;/s0&gt;。 这个概念也可以从 Ivy 中了解到，对随时间推移模块的不同成熟度级别进行建模。默认的状态方案，按从最低到最高的成熟度排序，分别为 &lt;c2&gt;integration&lt;/c2&gt;，&lt;c3&gt;milestone&lt;/c3&gt; 和 &lt;c4&gt;release&lt;/c4&gt;。 除状态方案外，模块还有一个（当前）&lt;s5&gt;&lt;e6&gt;状态&lt;/e6&gt;&lt;/s5&gt;，它必须是状态方案中的值之一。如果没有在（Ivy）描述符中指定， Ivy 模块和 Maven 快照模块的状态默认是 &lt;c7&gt;integration&lt;/c7&gt;，而不是快照的 Maven 模块则默认为 &lt;c8&gt;release&lt;/c8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>One thing to note is that a new instance of a given plugin is created for each project it is applied to.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T151041Z" creationid="huanghaohang" creationdate="20190719T151041Z">
+        <seg>需要注意的一点是，对于一个给定的插件，每一个应用它的项目都会创建一个新的实例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38587,6 +38637,18 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: GreetingPlugin
+
+&lt;s0&gt;class&lt;/s0&gt; GreetingPlugin &lt;s1&gt;implements&lt;/s1&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150921Z" creationid="huanghaohang" creationdate="20190719T150921Z">
+        <seg>apply plugin: GreetingPlugin
+
+&lt;s0&gt;class&lt;/s0&gt; GreetingPlugin &lt;s1&gt;implements&lt;/s1&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: JavaPlugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093314Z" creationid="huanghaohang" creationdate="20180130T093314Z">
@@ -48742,6 +48804,14 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s4&gt;"Hello from the GreetingPlugin"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150924Z" creationid="huanghaohang" creationdate="20190719T150924Z">
+        <seg>println &lt;s4&gt;"Hello from the GreetingPlugin"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s4&gt;"I'm not a default task!"&lt;/s4&gt;
 }</seg>
       </tuv>
@@ -49390,6 +49460,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145909Z" creationid="huanghaohang" creationdate="20190613T145909Z">
         <seg>project.task(&lt;s2&gt;'test'&lt;/s2&gt;) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.task(&lt;s3&gt;'hello'&lt;/s3&gt;) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150923Z" creationid="huanghaohang" creationdate="20190719T150923Z">
+        <seg>project.task(&lt;s3&gt;'hello'&lt;/s3&gt;) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
