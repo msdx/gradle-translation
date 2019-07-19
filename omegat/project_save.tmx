@@ -1754,6 +1754,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/Plugin.html#apply(T)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150236Z" creationid="huanghaohang" creationdate="20190719T150236Z">
+        <seg>../javadoc/org/gradle/api/Plugin.html#apply(T)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../javadoc/org/gradle/api/ProjectEvaluationListener.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144456Z" creationid="huanghaohang" creationdate="20180107T144456Z">
@@ -8898,6 +8906,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190715T154119Z" creationid="huanghaohang" creationdate="20190715T154119Z">
         <seg>58.1. 打包插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>58.2. Writing a simple plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150224Z" creationid="huanghaohang" creationdate="20190719T150224Z">
+        <seg>58.2. 编写一个简单的插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -34221,6 +34237,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T094908Z" creationid="haohang" creationdate="20180320T094745Z">
         <seg>要配置一个现有的源集，你只需要使用上面的其中一种访问方法来设置源集的属性。这些属性将在下文中进行介绍。以下是配置main 的 Java 和资源目录的示例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To create a custom plugin, you need to write an implementation of &lt;a0&gt;&lt;c1&gt;Plugin&lt;/c1&gt;&lt;/a0&gt;. Gradle instantiates the plugin and calls the plugin instance's &lt;a2&gt;&lt;c3&gt;Plugin.apply()&lt;/c3&gt;&lt;/a2&gt; method when the plugin is used with a project. The project object is passed as a parameter, which the plugin can use to configure the project however it needs to. The following sample contains a greeting plugin, which adds a &lt;c4&gt;hello&lt;/c4&gt; task to the project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150917Z" creationid="huanghaohang" creationdate="20190719T150917Z">
+        <seg>要创建自定义插件，你需要编写一个 &lt;a0&gt;&lt;c1&gt;Plugin&lt;/c1&gt;&lt;/a0&gt; 的实现。当插件用于项目时， Gradle 将实例化插件并调用插件实例的 &lt;a2&gt;&lt;c3&gt;Plugin.apply()&lt;/c3&gt;&lt;/a2&gt; 方法。项目对象将作为参数传进去，插件可使用该参数来配置项目。以下示例包含了一个 greeting 插件，其向项目添加了一个 &lt;c4&gt;hello&lt;/c4&gt; 任务。</seg>
       </tuv>
     </tu>
     <tu>
