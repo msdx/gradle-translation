@@ -26209,6 +26209,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Oftentimes, you have several related properties you need to specify on a single plugin. Gradle adds a configuration closure block for each extension object, so you can group settings together. The following example shows you how this works.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190726T151600Z" creationid="huanghaohang" creationdate="20190726T151600Z">
+        <seg>通常情况下，你会有几个相关联的属性需要在一个插件上指定。Gradle 为每个扩展对象添加了一个配置闭包块，因此你可以把这些设置分组。下面是其如何使用的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>On the other hand, finalizer tasks are not executed if the finalized task didn't do any work, for example due to failed task dependency or if it's considered up to date.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170923T044611Z" creationid="huanghaohang" creationdate="20170923T044301Z">
