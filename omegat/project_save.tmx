@@ -11049,6 +11049,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingToFileTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151153Z" creationid="huanghaohang" creationdate="20190727T151153Z">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingToFileTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;class&lt;/s0&gt; IncrementalReverseTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134812Z" creationid="huanghaohang" creationdate="20190706T134812Z">
@@ -21313,6 +21321,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 58.4. Evaluating file properties lazily</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151152Z" creationid="huanghaohang" creationdate="20190727T151152Z">
+        <seg>示例 58.4. 文件属性的惰性评估</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -21933,6 +21949,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T150909Z" creationid="huanghaohang" creationdate="20190617T150909Z">
         <seg>File explodedDist = mkdir(&lt;s5&gt;"$buildDir/explodedDist"&lt;/s5&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File getDestination() {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151155Z" creationid="huanghaohang" creationdate="20190727T151155Z">
+        <seg>File getDestination() {</seg>
       </tuv>
     </tu>
     <tu>
@@ -41217,6 +41241,14 @@ task copy(type: Copy) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def destination</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151154Z" creationid="huanghaohang" creationdate="20190727T151154Z">
+        <seg>def destination</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def docs = file(&lt;s0&gt;"$buildDir/docs"&lt;/s0&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T140539Z" creationid="95" creationdate="20190131T140539Z">
@@ -41229,6 +41261,14 @@ task copy(type: Copy) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190608T133046Z" creationid="huanghaohang" creationdate="20190608T133046Z">
         <seg>def file = console.readLine("PGP Secret Key Ring File (absolute path): ")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>def file = getDestination()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151157Z" creationid="huanghaohang" creationdate="20190727T151157Z">
+        <seg>def file = getDestination()</seg>
       </tuv>
     </tu>
     <tu>
@@ -41969,6 +42009,20 @@ artifacts {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093239Z" creationid="huanghaohang" creationdate="20180715T093239Z">
         <seg>destPath</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>destination = { project.greetingFile }
+}
+
+task sayGreeting(dependsOn: greet) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151159Z" creationid="huanghaohang" creationdate="20190727T151159Z">
+        <seg>destination = { project.greetingFile }
+}
+
+task sayGreeting(dependsOn: greet) &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -42989,6 +43043,22 @@ task printTaskProperties &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T023513Z" creationid="95" creationdate="20170729T023513Z">
         <seg>file(dir).listFiles({file -&gt; file.isFile() } as FileFilter).sort()
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>file.parentFile.mkdirs()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151157Z" creationid="huanghaohang" creationdate="20190727T151157Z">
+        <seg>file.parentFile.mkdirs()</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>file.write &lt;s3&gt;"Hello!"&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151158Z" creationid="huanghaohang" creationdate="20190727T151158Z">
+        <seg>file.write &lt;s3&gt;"Hello!"&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -49614,6 +49684,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project.file(destination)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151156Z" creationid="huanghaohang" creationdate="20190727T151156Z">
+        <seg>project.file(destination)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project.group</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T094947Z" creationid="huanghaohang" creationdate="20190607T094947Z">
@@ -54803,6 +54881,20 @@ task explodedDist(dependsOn: assemble) &lt;&lt; {</seg>
 }
 
 task explodedDist(dependsOn: assemble) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+task greet(type: GreetingToFileTask) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151158Z" creationid="huanghaohang" creationdate="20190727T151158Z">
+        <seg>}
+}
+
+task greet(type: GreetingToFileTask) {</seg>
       </tuv>
     </tu>
     <tu>
