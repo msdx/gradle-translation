@@ -13031,6 +13031,16 @@ There were test failures:</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle -q sayGreeting
+Hello!</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151215Z" creationid="huanghaohang" creationdate="20190727T151215Z">
+        <seg>&gt; gradle -q sayGreeting
+Hello!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle -q show
 build/classes/main
 build/resources/main</seg>
@@ -24665,6 +24675,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In this example, we configure the &lt;c0&gt;greet&lt;/c0&gt; task &lt;c1&gt;destination&lt;/c1&gt; property as a closure, which is evaluated with the &lt;a2&gt;&lt;c3&gt;Project.file()&lt;/c3&gt;&lt;/a2&gt; method to turn the return value of the closure into a file object at the last minute. You will notice that in the example above we specify the &lt;c4&gt;greetingFile&lt;/c4&gt; property value after we have configured to use it for the task. This kind of lazy evaluation is a key benefit of accepting any value when setting a file property, then resolving that value when reading the property.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T152842Z" creationid="huanghaohang" creationdate="20190727T151307Z">
+        <seg>在这个例子中，我们将 &lt;c0&gt;greet&lt;/c0&gt; 任务的 &lt;c1&gt;destination&lt;/c1&gt; 属性作为闭包配置，它将在最后通过 &lt;a2&gt;&lt;c3&gt;Project.file()&lt;/c3&gt;&lt;/a2&gt; 方法将闭包中的返回值转换为一个文件对象。你会注意到，在上面例子中，我们是配置在任务中使用 &lt;c4&gt;greettingFile&lt;/c4&gt; 属性之后才指定它的值。这种惰性求值的主要好处是在设置文件属性时它能够接收任何值，然后在读取属性时才解析这个值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In this example, we only want to require signing if we are building a release version and we are going to publish it. Because we are inspecting the task graph to determine if we are going to be publishing, we must set the &lt;c0&gt;signing.required&lt;/c0&gt; property to a closure to defer the evaluation. See &lt;a1&gt;&lt;c2&gt;SigningExtension.setRequired()&lt;/c2&gt;&lt;/a1&gt; for more information.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T005622Z" creationid="huanghaohang" creationdate="20190609T005622Z">
@@ -26877,6 +26895,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190707T143017Z" creationid="huanghaohang" creationdate="20190707T143017Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q removeOutput incrementalReverse&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q sayGreeting&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151214Z" creationid="huanghaohang" creationdate="20190727T151214Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q sayGreeting&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -49274,6 +49300,20 @@ FileTree filtered = tree.matching {</seg>
 
 &lt;s1&gt;// Filter a tree&lt;/s1&gt;
 FileTree filtered = tree.matching {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println file(greetingFile).text
+}
+
+ext.greetingFile = &lt;s4&gt;"$buildDir/hello.txt"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151201Z" creationid="huanghaohang" creationdate="20190727T151201Z">
+        <seg>println file(greetingFile).text
+}
+
+ext.greetingFile = &lt;s4&gt;"$buildDir/hello.txt"&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
