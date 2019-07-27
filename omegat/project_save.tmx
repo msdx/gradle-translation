@@ -8934,6 +8934,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>58.4. Working with files in custom tasks and plugins</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T150556Z" creationid="huanghaohang" creationdate="20190727T150556Z">
+        <seg>58.4. 在自定义任务和插件中使用文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -35883,6 +35891,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180108T133647Z" creationid="huanghaohang" creationdate="20180108T133647Z">
         <seg>当开发一个 web 应用程序中，应用程序会被组装多次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When developing custom tasks and plugins, it's a good idea to be very flexible when accepting input configuration for file locations. To do this, you can leverage the &lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt; method to resolve values to files as late as possible.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151124Z" creationid="huanghaohang" creationdate="20190727T151124Z">
+        <seg>在开发自定义任务和插件时，文件位置如果能够配置将使插件非常灵活。为此，你可以利用 &lt;a0&gt;&lt;c1&gt;Project.file()&lt;/c1&gt;&lt;/a0&gt; 方法尽可能晚地将值解析为文件。</seg>
       </tuv>
     </tu>
     <tu>
