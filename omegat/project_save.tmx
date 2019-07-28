@@ -8942,6 +8942,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>58.5.1. Using your plugin in another project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T153739Z" creationid="huanghaohang" creationdate="20190727T153739Z">
+        <seg>58.5.1. 在另一个项目中使用你的插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>58.5. A standalone project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T152917Z" creationid="huanghaohang" creationdate="20190727T152917Z">
@@ -21355,6 +21363,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 58.6. Wiring for a custom plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T153524Z" creationid="huanghaohang" creationdate="20190727T153524Z">
+        <seg>示例 58.6. 连接自定义插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -26103,6 +26119,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170803T124825Z" creationid="95" creationdate="20170803T124431Z">
         <seg>注意，我们的例子对每一个子项目都应用了Java插件。这意味着，在前一节我们所看到的任务和配置，在每一个子项目中都是可用的。因此，你可以通过在根项目目录中运行&lt;s0&gt;&lt;c1&gt;gradle build&lt;/c1&gt;&lt;/s0&gt;，对所有的项目编译，测试并打成JAR包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notice that the properties filename matches the plugin's name and is placed in the resources folder, and that the &lt;c0&gt;implementation-class&lt;/c0&gt; property identifies the &lt;a1&gt;&lt;c2&gt;Plugin&lt;/c2&gt;&lt;/a1&gt; implementation class.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T153729Z" creationid="huanghaohang" creationdate="20190727T153729Z">
+        <seg>注意，属性的文件名要和插件名相匹配，放在资源文件夹里，并且 &lt;c0&gt;implementation-class&lt;/c0&gt; 属性要指定 &lt;a1&gt;&lt;c2&gt;Plugin&lt;/c2&gt;&lt;/a1&gt; 的实现类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45027,6 +45051,14 @@ project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>implementation-class=org.gradle.GreetingPlugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T153526Z" creationid="huanghaohang" creationdate="20190727T153526Z">
+        <seg>implementation-class=org.gradle.GreetingPlugin</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>import org.gradle.plugins.signing.Sign
 
 gradle.taskGraph.whenReady { taskGraph -&gt;</seg>
@@ -51936,6 +51968,14 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T052951Z" creationid="haohang" creationdate="20180313T052951Z">
         <seg>src/main/resources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>src/main/resources/META-INF/gradle-plugins/greeting.properties</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T153525Z" creationid="huanghaohang" creationdate="20190727T153525Z">
+        <seg>src/main/resources/META-INF/gradle-plugins/greeting.properties</seg>
       </tuv>
     </tu>
     <tu>
