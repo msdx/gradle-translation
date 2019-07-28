@@ -474,6 +474,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.NamedDomainObjectContainer.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131223Z" creationid="huanghaohang" creationdate="20190728T131223Z">
+        <seg>../dsl/org.gradle.api.NamedDomainObjectContainer.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.Project.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170912T124806Z" creationid="huanghaohang" creationdate="20170912T124806Z">
@@ -494,6 +502,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T051255Z" creationid="huanghaohang" creationdate="20170908T051255Z">
         <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:configurations(groovy.lang.Closure)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:container(java.lang.Class)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131016Z" creationid="huanghaohang" creationdate="20190728T131016Z">
+        <seg>../dsl/org.gradle.api.Project.html#org.gradle.api.Project:container(java.lang.Class)</seg>
       </tuv>
     </tu>
     <tu>
@@ -8950,10 +8966,26 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>58.5.2. Writing tests for your plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130741Z" creationid="huanghaohang" creationdate="20190728T130741Z">
+        <seg>58.5.2. 为插件编写测试</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>58.5. A standalone project</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T152917Z" creationid="huanghaohang" creationdate="20190727T152917Z">
         <seg>58.5. 独立项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>58.6. Maintaining multiple domain objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130908Z" creationid="huanghaohang" creationdate="20190728T130908Z">
+        <seg>58.6. 维护多个域对象</seg>
       </tuv>
     </tu>
     <tu>
@@ -11047,6 +11079,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingPluginTest {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130850Z" creationid="huanghaohang" creationdate="20190728T130850Z">
+        <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingPluginTest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;class&lt;/s0&gt; GreetingTask &lt;s1&gt;extends&lt;/s1&gt; DefaultTask {
 }</seg>
       </tuv>
@@ -11543,6 +11583,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;public&lt;/s2&gt; &lt;s3&gt;void&lt;/s3&gt; greeterPluginAddsGreetingTaskToProject() {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130851Z" creationid="huanghaohang" creationdate="20190728T130851Z">
+        <seg>&lt;s2&gt;public&lt;/s2&gt; &lt;s3&gt;void&lt;/s3&gt; greeterPluginAddsGreetingTaskToProject() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;void&lt;/s2&gt; apply(Project project) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T150922Z" creationid="huanghaohang" creationdate="20190719T150922Z">
@@ -11893,6 +11941,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s7&gt;final&lt;/s7&gt; String name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131003Z" creationid="huanghaohang" creationdate="20190728T131003Z">
+        <seg>&lt;s7&gt;final&lt;/s7&gt; String name</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s7&gt;public&lt;/s7&gt; &lt;s8&gt;void&lt;/s8&gt; afterExecute(Task task, TaskState state) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180107T144029Z" creationid="huanghaohang" creationdate="20180107T144029Z">
@@ -11913,6 +11969,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053258Z" creationid="huanghaohang" creationdate="20190609T053258Z">
         <seg>&lt;s8&gt;if&lt;/s8&gt; (toolChain in VisualCpp) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s8&gt;this&lt;/s8&gt;.name = name</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131008Z" creationid="huanghaohang" creationdate="20190728T131008Z">
+        <seg>&lt;s8&gt;this&lt;/s8&gt;.name = name</seg>
       </tuv>
     </tu>
     <tu>
@@ -12203,6 +12267,20 @@ asDynamicObject: org.gradle.api.internal.ExtensibleDynamicObject@12345
 baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@12345
 buildDir: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build
 buildFile: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q books
+developerGuide -&gt; /home/user/gradle/samples/userguide/organizeBuildLogic/customPluginWithDomainObjectContainer/src/docs/developerGuide
+quickStart -&gt; /home/user/gradle/samples/userguide/organizeBuildLogic/customPluginWithDomainObjectContainer/src/docs/quick-start
+userGuide -&gt; /home/user/gradle/samples/userguide/organizeBuildLogic/customPluginWithDomainObjectContainer/src/docs/userGuide</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131013Z" creationid="huanghaohang" creationdate="20190728T131013Z">
+        <seg>&gt; gradle -q books
+developerGuide -&gt; /home/user/gradle/samples/userguide/organizeBuildLogic/customPluginWithDomainObjectContainer/src/docs/developerGuide
+quickStart -&gt; /home/user/gradle/samples/userguide/organizeBuildLogic/customPluginWithDomainObjectContainer/src/docs/quick-start
+userGuide -&gt; /home/user/gradle/samples/userguide/organizeBuildLogic/customPluginWithDomainObjectContainer/src/docs/userGuide</seg>
       </tuv>
     </tu>
     <tu>
@@ -15899,6 +15977,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T035139Z" creationid="huanghaohang" creationdate="20190610T035139Z">
         <seg>由 Gradle 生成的二进制文件可以在&lt;a0&gt;构建类型&lt;/a0&gt;，&lt;a1&gt;平台&lt;/a1&gt; 和&lt;a2&gt;风格&lt;/a2&gt;上区分。对于这些“变体维度”中的每个维度，可以指定一组可用值，也可以针对每一个组件指定这里的一个、多个或全部的值。比如，插件可能定义了一系列支持的平台，但你可以对某个特定组件选择只针对 Windows-x86 构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Book(String name) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131006Z" creationid="huanghaohang" creationdate="20190728T131006Z">
+        <seg>Book(String name) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -21371,6 +21457,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 58.7. Using a custom plugin in another project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130732Z" creationid="huanghaohang" creationdate="20190728T130732Z">
+        <seg>示例 58.7. 在另一个项目中使用一个自定义插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 58.8. Testing a custom plugin</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130840Z" creationid="huanghaohang" creationdate="20190728T130840Z">
+        <seg>示例 58.8. 测试自定义插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 58.9. Managing domain objects</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130953Z" creationid="huanghaohang" creationdate="20190728T130953Z">
+        <seg>示例 58.9. 管理域对象</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -21999,6 +22109,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190727T151155Z" creationid="huanghaohang" creationdate="20190727T151155Z">
         <seg>File getDestination() {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File sourceFile</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131004Z" creationid="huanghaohang" creationdate="20190728T131004Z">
+        <seg>File sourceFile</seg>
       </tuv>
     </tu>
     <tu>
@@ -23335,6 +23453,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180124T144616Z" creationid="huanghaohang" creationdate="20180124T144616Z">
         <seg>Gradle提供了几个选项，可以很容易地配置用于执行构建的 Java 进程。尽管可以通过 GRADLE_OPTS 或 JAVA_OPTS 在本地环境中配置这些设置，但是如果某些设置，像 JVM 内存设置，Java home，守护进程开启/关闭等特定设置可以提交到 VCS 的话会更有用，这样整个团队就能使用一致的环境。为你的构建建立一个一致的环境就像将这些设置放入一个 &lt;c0&gt;gradle.properties&lt;/c0&gt; 文件一样简单。这些配置将按以下顺序被应用（以防一个选项在多个位置都有配置时只有最后一个生效）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gradle provides some utility classes for maintaining collections of object, which work well with the Gradle build language.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130949Z" creationid="huanghaohang" creationdate="20190728T130949Z">
+        <seg>Gradle 提供了一些维护对象集合的实用工具类，能够良好地在 Gradle 构建语言中使用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26679,6 +26805,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170910T023445Z" creationid="huanghaohang" creationdate="20170910T023445Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q api:properties&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q books&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131012Z" creationid="huanghaohang" creationdate="20190728T131012Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q books&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -30205,6 +30339,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093001Z" creationid="huanghaohang" creationdate="20180712T135532Z">
         <seg>&lt;a0&gt;&lt;c1&gt;JacocoReport&lt;/c1&gt;&lt;/a0&gt; 任务可以生成不同格式的代码覆盖率报告。它实现了标准的 Gradle 类型 &lt;a2&gt;&lt;c3&gt;Reporting&lt;/c3&gt;&lt;/a2&gt;，并向外暴露了一个 &lt;a4&gt;&lt;c5&gt;JacocoReportsContainer&lt;/c5&gt;&lt;/a4&gt; 类型的报告容器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;a0&gt;&lt;c1&gt;Project.container()&lt;/c1&gt;&lt;/a0&gt; methods create instances of &lt;a2&gt;&lt;c3&gt;NamedDomainObjectContainer&lt;/c3&gt;&lt;/a2&gt;, that have many useful methods for managing and configuring the objects. In order to use a type with any of the &lt;c4&gt;project.container&lt;/c4&gt; methods, it MUST expose a property named “&lt;c5&gt;name&lt;/c5&gt;” as the unique, and constant, name for the object. The &lt;c6&gt;project.container(Class)&lt;/c6&gt; variant of the container method creates new instances by attempting to invoke the constructor of the class that takes a single string argument, which is the desired name of the object. See the above link for &lt;c7&gt;project.container&lt;/c7&gt; method variants that allow custom instantiation strategies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T132115Z" creationid="huanghaohang" creationdate="20190728T132115Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;Project.container()&lt;/c1&gt;&lt;/a0&gt; 方法创建了 &lt;a2&gt;&lt;c3&gt;NamedDomainObjectContainer&lt;/c3&gt;&lt;/a2&gt;的实例，这些实例有许多用于管理和配置对象的有用方法。为能使用任意一种 &lt;c4&gt;project.container&lt;/c4&gt; 方法的类型，必须公开一个“&lt;c5&gt;name&lt;/c5&gt;”属性，作为对象的唯一且不变的名称。容器方法的 &lt;c6&gt;project.container(Class)&lt;/c6&gt; 变体通过尝试调用该类只有一个 string 参数的构造函数来创建新实例，该参数是这个对象所想要的名称。请参阅以上链接，以查看 &lt;c7&gt;project.container&lt;/c7&gt; 允许自定义实例化策略的重载方法。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37241,6 +37383,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use the &lt;a0&gt;&lt;c1&gt;ProjectBuilder&lt;/c1&gt;&lt;/a0&gt; class to create &lt;a2&gt;&lt;c3&gt;Project&lt;/c3&gt;&lt;/a2&gt; instances to use when you test your plugin implementation.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130837Z" creationid="huanghaohang" creationdate="20190728T130742Z">
+        <seg>你可以使用 &lt;a0&gt;&lt;c1&gt;ProjectBuilder&lt;/c1&gt;&lt;/a0&gt; 类来创建 &lt;a2&gt;&lt;c3&gt;Project&lt;/c3&gt;&lt;/a2&gt; 实例，以在测试插件的实现时使用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use the &lt;a0&gt;&lt;c1&gt;ProjectBuilder&lt;/c1&gt;&lt;/a0&gt; class to create &lt;a2&gt;&lt;c3&gt;Project&lt;/c3&gt;&lt;/a2&gt; instances to use when you test your task class.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T124001Z" creationid="huanghaohang" creationdate="20190706T124001Z">
@@ -38883,6 +39033,18 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: DocumentationPlugin
+
+books {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130954Z" creationid="huanghaohang" creationdate="20190728T130954Z">
+        <seg>apply plugin: DocumentationPlugin
+
+books {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: GreetingPlugin
 
 &lt;s0&gt;class&lt;/s0&gt; GreetingPlugin &lt;s1&gt;implements&lt;/s1&gt; Plugin&lt;Project&gt; {</seg>
@@ -39377,6 +39539,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>assertTrue(project.tasks.hello &lt;s5&gt;instanceof&lt;/s5&gt; GreetingTask)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130853Z" creationid="huanghaohang" creationdate="20190728T130853Z">
+        <seg>assertTrue(project.tasks.hello &lt;s5&gt;instanceof&lt;/s5&gt; GreetingTask)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>assertTrue(task &lt;s5&gt;instanceof&lt;/s5&gt; GreetingTask)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T124013Z" creationid="huanghaohang" creationdate="20190706T124013Z">
@@ -39607,6 +39777,22 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190615T143017Z" creationid="huanghaohang" creationdate="20190615T143017Z">
         <seg>bluewhale/build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>books.all {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131001Z" creationid="huanghaohang" creationdate="20190728T131001Z">
+        <seg>books.all {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>books.each { book -&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130958Z" creationid="huanghaohang" creationdate="20190728T130958Z">
+        <seg>books.each { book -&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -41299,6 +41485,14 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def books = project.container(Book)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131000Z" creationid="huanghaohang" creationdate="20190728T131000Z">
+        <seg>def books = project.container(Book)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def classesDir = &lt;s0&gt;new&lt;/s0&gt; File(&lt;s1&gt;'build/classes'&lt;/s1&gt;)
 
 task resources &lt;&lt; {</seg>
@@ -42201,6 +42395,14 @@ task sayGreeting(dependsOn: greet) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111944Z" creationid="huanghaohang" creationdate="20180406T111944Z">
         <seg>details.value = baseValue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>developerGuide {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130957Z" creationid="huanghaohang" creationdate="20190728T130957Z">
+        <seg>developerGuide {</seg>
       </tuv>
     </tu>
     <tu>
@@ -48608,6 +48810,14 @@ task taskY &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;"$book.name -&gt; $book.sourceFile"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130959Z" creationid="huanghaohang" creationdate="20190728T130959Z">
+        <seg>println &lt;s1&gt;"$book.name -&gt; $book.sourceFile"&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;"Adding test task to $project"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T145907Z" creationid="huanghaohang" creationdate="20190613T145907Z">
@@ -49780,10 +49990,26 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>project.apply plugin: &lt;s4&gt;'greeting'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130851Z" creationid="huanghaohang" creationdate="20190728T130851Z">
+        <seg>project.apply plugin: &lt;s4&gt;'greeting'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>project.description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181202T023745Z" creationid="huanghaohang" creationdate="20181202T023745Z">
         <seg>project.description</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>project.extensions.books = books</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131002Z" creationid="huanghaohang" creationdate="20190728T131002Z">
+        <seg>project.extensions.books = books</seg>
       </tuv>
     </tu>
     <tu>
@@ -50232,6 +50458,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T133548Z" creationid="huanghaohang" creationdate="20170913T133548Z">
         <seg>purpose = &lt;s5&gt;"production"&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>quickStart {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130954Z" creationid="huanghaohang" creationdate="20190728T130954Z">
+        <seg>quickStart {</seg>
       </tuv>
     </tu>
     <tu>
@@ -51728,6 +51962,22 @@ jar {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>sourceFile = file(&lt;s0&gt;'src/docs/quick-start'&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130955Z" creationid="huanghaohang" creationdate="20190728T130955Z">
+        <seg>sourceFile = file(&lt;s0&gt;'src/docs/quick-start'&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>sourceFile = project.file(&lt;s5&gt;"src/docs/$name"&lt;/s5&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131001Z" creationid="huanghaohang" creationdate="20190728T131001Z">
+        <seg>sourceFile = project.file(&lt;s5&gt;"src/docs/$name"&lt;/s5&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>sourceSets</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T062344Z" creationid="haohang" creationdate="20180313T062344Z">
@@ -52016,6 +52266,14 @@ jar {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T121721Z" creationid="huanghaohang" creationdate="20180406T121721Z">
         <seg>src/test/groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>src/test/groovy/org/gradle/GreetingPluginTest.groovy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130841Z" creationid="huanghaohang" creationdate="20190728T130841Z">
+        <seg>src/test/groovy/org/gradle/GreetingPluginTest.groovy</seg>
       </tuv>
     </tu>
     <tu>
@@ -54087,6 +54345,14 @@ test {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>userGuide {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130956Z" creationid="huanghaohang" creationdate="20190728T130956Z">
+        <seg>userGuide {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>userguide.css</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20170720T072246Z" creationid="haohang" creationdate="20170720T072246Z">
@@ -54812,6 +55078,34 @@ sourceSets.all {</seg>
         <seg>}
 }
 
+&lt;s2&gt;class&lt;/s2&gt; DocumentationPlugin &lt;s3&gt;implements&lt;/s3&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130959Z" creationid="huanghaohang" creationdate="20190728T130959Z">
+        <seg>}
+}
+
+&lt;s2&gt;class&lt;/s2&gt; DocumentationPlugin &lt;s3&gt;implements&lt;/s3&gt; Plugin&lt;Project&gt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+&lt;s6&gt;class&lt;/s6&gt; Book {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T131003Z" creationid="huanghaohang" creationdate="20190728T131003Z">
+        <seg>}
+}
+
+&lt;s6&gt;class&lt;/s6&gt; Book {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
 &lt;s8&gt;class&lt;/s8&gt; GreetingPluginExtension {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190719T155826Z" creationid="huanghaohang" creationdate="20190719T155826Z">
@@ -54980,6 +55274,20 @@ repositories {</seg>
         <seg>}
 }
 
+task books &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130958Z" creationid="huanghaohang" creationdate="20190728T130958Z">
+        <seg>}
+}
+
+task books &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
 task compile &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T105523Z" creationid="huanghaohang" creationdate="20190602T105523Z">
@@ -55113,6 +55421,18 @@ uploadArchives {</seg>
 }
 
 uploadArchives {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+apply plugin: &lt;s4&gt;'greeting'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130734Z" creationid="huanghaohang" creationdate="20190728T130734Z">
+        <seg>}
+}
+apply plugin: &lt;s4&gt;'greeting'&lt;/s4&gt;</seg>
       </tuv>
     </tu>
     <tu>
