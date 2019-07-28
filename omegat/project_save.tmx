@@ -34769,6 +34769,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>To use a plugin in a build script, you need to add the plugin classes to the build script's classpath. To do this, you use a &lt;c0&gt;buildscript { }&lt;/c0&gt; block, as described in &lt;a1&gt;Section 59.5, “External dependencies for the build script”&lt;/a1&gt;. The following example shows how you might do this when the JAR containing the plugin has been published to a local repository:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190728T130711Z" creationid="huanghaohang" creationdate="20190728T130711Z">
+        <seg>要在构建脚本中使用一个插件，你需要将这个插件添加到构建脚本的类路径中。对此，你可以使用《&lt;a1&gt;第 59.5 节，“构建脚本的外部依赖”&lt;/a1&gt;》中所述的 &lt;c0&gt;buildscript { }&lt;/c0&gt; 块。以下示例展示了当包含插件的 JAR 已经发布到本地仓库时，如何执行此操作：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>To use a task class in a build script, you need to add the class to the build script's classpath. To do this, you use a &lt;c0&gt;buildscript { }&lt;/c0&gt; block, as described in &lt;a1&gt;Section 59.5, “External dependencies for the build script”&lt;/a1&gt;. The following example shows how you might do this when the JAR containing the task class has been published to a local repository:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T123727Z" creationid="huanghaohang" creationdate="20190706T123727Z">
