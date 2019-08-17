@@ -23425,6 +23425,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Gradle offers a variety of ways to organize your build logic. First of all you can put your build logic directly in the action closure of a task. If a couple of tasks share the same logic you can extract this logic into a method. If multiple projects of a multi-project build share some logic you can define this method in the parent project. If the build logic gets too complex for being properly modeled by methods you want have an OO Model. &lt;s0&gt;[&lt;a1&gt;25&lt;/a1&gt;]&lt;/s0&gt; Gradle makes this very easy. Just drop your classes in a certain directory and Gradle automatically compiles them and puts them in the classpath of your build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T142503Z" creationid="huanghaohang" creationdate="20190817T142503Z">
+        <seg>Gradle提供了多种方法来组织构建逻辑。首先，你可以直接将构建逻辑置于任务的操作闭包中。如果有多个任务使用相同的逻辑，那么可以将这段逻辑抽取到一个方法中。如果多项目构建的多个项目有相同的逻辑，你可以把这个方法定义在父项目中。如果构建逻辑过于复杂，无法通过方法进行正确建模，你就要使用面向对象模型了。&lt;s0&gt;[&lt;a1&gt;25&lt;/a1&gt;]&lt;/s0&gt;这对 Gradle 来说很简单，只需要把你的类放到某个目录中，Gradle 就会自动编译它们并将它们加入构建脚本的类路径中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Gradle offers multiple ways to skip the execution of a task.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T083659Z" creationid="huanghaohang" creationdate="20170922T083659Z">
