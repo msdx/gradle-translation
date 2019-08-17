@@ -9674,10 +9674,26 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;&lt;c1&gt;buildSrc&lt;/c1&gt; project&lt;/a0&gt;. Drop the source for your build classes into a certain directory and Gradle automatically compiles them and includes them in the classpath of your build script.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T144007Z" creationid="huanghaohang" creationdate="20190817T144007Z">
+        <seg>&lt;a0&gt;&lt;c1&gt;buildSrc&lt;/c1&gt; 项目&lt;/a0&gt;。把构建类的源码放到特定目录中， Gradle 会自动编译它们，并将它们包含在构建脚本的类路径中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;Bintray&lt;/a0&gt;'s JCenter is an up-to-date collection of all popular Maven OSS artifacts, including artifacts published directly to Bintray.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190603T031456Z" creationid="huanghaohang" creationdate="20190603T031456Z">
         <seg>&lt;a0&gt;Bintray&lt;/a0&gt; 的 JCenter 是所有流行的 Maven OSS 工件（包括直接发布到 Bintray 的工件）的最新集合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Configuration injection&lt;/a0&gt;. In a multi-project build, a project (usually the root project) can inject properties and methods into another project.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T143928Z" creationid="huanghaohang" creationdate="20190817T143920Z">
+        <seg>&lt;a0&gt;配置注入&lt;/a0&gt;。在多项目构建中，一个项目（通常是根项目）可以将属性和方法注入到另一个项目中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9734,6 +9750,14 @@ Type</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190621T144308Z" creationid="huanghaohang" creationdate="20190621T144308Z">
         <seg>&lt;a0&gt;第 56.1.1.1 节，“按需配置”&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Shared scripts&lt;/a0&gt;. Define common configuration in an external build, and apply the script to multiple projects, possibly across different builds.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T144139Z" creationid="huanghaohang" creationdate="20190817T144139Z">
+        <seg>&lt;a0&gt;共享脚本&lt;/a0&gt;。在外部构建中定义公共配置，然后把这个脚本应用于多个项目，这些项目可能在不同的构建中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48176,6 +48200,14 @@ binaries.withType(TestSuiteExecutableBinary) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>organizing_build_logic.html#sec:build_sources</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T143924Z" creationid="huanghaohang" creationdate="20190817T143924Z">
+        <seg>organizing_build_logic.html#sec:build_sources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>organizing_build_logic.html#sec:external_dependencies</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180130T093450Z" creationid="huanghaohang" creationdate="20180130T093450Z">
@@ -48188,6 +48220,14 @@ binaries.withType(TestSuiteExecutableBinary) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T142859Z" creationid="huanghaohang" creationdate="20190817T142859Z">
         <seg>organizing_build_logic.html#sec:inherited_properties_and_methods</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>organizing_build_logic.html#sec:injected_configuration</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T143835Z" creationid="huanghaohang" creationdate="20190817T143835Z">
+        <seg>organizing_build_logic.html#sec:injected_configuration</seg>
       </tuv>
     </tu>
     <tu>
