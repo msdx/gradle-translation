@@ -9698,6 +9698,30 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Custom plugins&lt;/a0&gt;. Put your build logic into a custom plugin, and apply that plugin to multiple projects. The plugin must be in the classpath of your build script. You can achieve this either by using &lt;a1&gt;&lt;c2&gt;build sources&lt;/c2&gt;&lt;/a1&gt; or by adding an &lt;a3&gt;external library&lt;/a3&gt; that contains the plugin.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T144334Z" creationid="huanghaohang" creationdate="20190817T144334Z">
+        <seg>&lt;a0&gt;自定义插件&lt;/a0&gt;。把构建逻辑放到自定义插件中，并将该插件应用于多个项目。插件必须在构建脚本的类路径中，你可以通过使用 &lt;a1&gt;&lt;c2&gt;build sources&lt;/c2&gt;&lt;/a1&gt; 或通过添加包含插件的 &lt;a3&gt;外部库&lt;/a3&gt; 来实现。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Custom tasks&lt;/a0&gt;. Put your build logic into a custom task, and reuse that task in multiple places.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T144221Z" creationid="huanghaohang" creationdate="20190817T144221Z">
+        <seg>&lt;a0&gt;自定义任务&lt;/a0&gt;。把构建逻辑放到一个自定义任务中，并在多个地方复用该任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;a0&gt;Execute an external build&lt;/a0&gt;. Execute another Gradle build from the current build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T144417Z" creationid="huanghaohang" creationdate="20190817T144417Z">
+        <seg>&lt;a0&gt;执行外部构建&lt;/a0&gt;。从当前构建执行另一个 Gradle 构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;a0&gt;GCC&lt;/a0&gt; with &lt;a1&gt;Cywin 32&lt;/a1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T024150Z" creationid="huanghaohang" creationdate="20190609T024150Z">
@@ -48204,6 +48228,14 @@ binaries.withType(TestSuiteExecutableBinary) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T143924Z" creationid="huanghaohang" creationdate="20190817T143924Z">
         <seg>organizing_build_logic.html#sec:build_sources</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>organizing_build_logic.html#sec:external_build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T144341Z" creationid="huanghaohang" creationdate="20190817T144341Z">
+        <seg>organizing_build_logic.html#sec:external_build</seg>
       </tuv>
     </tu>
     <tu>
