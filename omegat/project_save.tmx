@@ -10547,6 +10547,22 @@ tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Define an extra property&lt;/s0&gt;
+ext.srcDirName = &lt;s1&gt;'src/java'&lt;/s1&gt;
+
+&lt;s2&gt;// Define a method&lt;/s2&gt;
+def getSrcDir(project) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145007Z" creationid="huanghaohang" creationdate="20190817T145007Z">
+        <seg>&lt;s0&gt;// Define an extra property&lt;/s0&gt;
+ext.srcDirName = &lt;s1&gt;'src/java'&lt;/s1&gt;
+
+&lt;s2&gt;// Define a method&lt;/s2&gt;
+def getSrcDir(project) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Each executable binary produced uses the 'hello' static library binary&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T022901Z" creationid="huanghaohang" creationdate="20190610T022901Z">
@@ -10659,6 +10675,14 @@ compile {</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171002T134048Z" creationid="huanghaohang" creationdate="20171002T134048Z">
         <seg>&lt;s0&gt;// Use a File object to specify the source directory&lt;/s0&gt;
 compile {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Use inherited property&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145011Z" creationid="huanghaohang" creationdate="20190817T145011Z">
+        <seg>&lt;s0&gt;// Use inherited property&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -11599,6 +11623,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Use inherited method&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145012Z" creationid="huanghaohang" creationdate="20190817T145012Z">
+        <seg>&lt;s2&gt;// Use inherited method&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;// do something&lt;/s2&gt;
 }
 task compile(dependsOn: &lt;s3&gt;'resources'&lt;/s3&gt;) &lt;&lt; {</seg>
@@ -11805,6 +11837,16 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T023023Z" creationid="huanghaohang" creationdate="20190610T023023Z">
         <seg>&lt;s3&gt;if&lt;/s3&gt; (toolChain in VisualCpp) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s3&gt;return&lt;/s3&gt; project.file(srcDirName)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145008Z" creationid="huanghaohang" creationdate="20190817T145008Z">
+        <seg>&lt;s3&gt;return&lt;/s3&gt; project.file(srcDirName)
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -13281,6 +13323,18 @@ build/output/classes</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T022600Z" creationid="huanghaohang" creationdate="20180131T022600Z">
         <seg>&gt; gradle -q show
 build/output/classes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q show
+srcDirName: src/java
+srcDir: child/src/java</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145017Z" creationid="huanghaohang" creationdate="20190817T145017Z">
+        <seg>&gt; gradle -q show
+srcDirName: src/java
+srcDir: child/src/java</seg>
       </tuv>
     </tu>
     <tu>
@@ -21625,6 +21679,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 59.1. Using inherited properties and methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145006Z" creationid="huanghaohang" creationdate="20190817T145006Z">
+        <seg>示例59.1. 使用继承的属性和方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -22269,6 +22331,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170927T150349Z" creationid="huanghaohang" creationdate="20170927T150349Z">
         <seg>File srcDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File srcDir = getSrcDir(project)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145013Z" creationid="huanghaohang" creationdate="20190817T145013Z">
+        <seg>File srcDir = getSrcDir(project)</seg>
       </tuv>
     </tu>
     <tu>
@@ -40469,6 +40539,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>child/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145009Z" creationid="huanghaohang" creationdate="20190817T145009Z">
+        <seg>child/build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>clang(Clang)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084917Z" creationid="huanghaohang" creationdate="20190610T084917Z">
@@ -49282,6 +49360,14 @@ task test(dependsOn: [compile, compileTest]) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s1&gt;'srcDirName: '&lt;/s1&gt; + srcDirName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145012Z" creationid="huanghaohang" creationdate="20190817T145012Z">
+        <seg>println &lt;s1&gt;'srcDirName: '&lt;/s1&gt; + srcDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s1&gt;'taskX'&lt;/s1&gt;
 }
 task taskY &lt;&lt; {</seg>
@@ -49652,6 +49738,16 @@ task notALib &lt;&lt; {</seg>
 }
 
 task notALib &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s3&gt;'srcDir: '&lt;/s3&gt; + rootProject.relativePath(srcDir)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145015Z" creationid="huanghaohang" creationdate="20190817T145015Z">
+        <seg>println &lt;s3&gt;'srcDir: '&lt;/s3&gt; + rootProject.relativePath(srcDir)
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -53522,6 +53618,14 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171126T060236Z" creationid="huanghaohang" creationdate="20171126T060236Z">
         <seg>task rename(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>task show &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145009Z" creationid="huanghaohang" creationdate="20190817T145009Z">
+        <seg>task show &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
