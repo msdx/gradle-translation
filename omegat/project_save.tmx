@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.0_0_e0e1b4cc8" segtype="sentence" srclang="EN-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.3.1_0_99222d65" segtype="sentence" srclang="EN-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -9062,6 +9062,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>59.3. Build sources in the &lt;c0&gt;buildSrc&lt;/c0&gt; project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132710Z" creationid="huanghaohang" creationdate="20191201T132710Z">
+        <seg>59.3. 在 &lt;c0&gt;buildSrc&lt;/c0&gt; 项目中的构建源码</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -10539,6 +10547,14 @@ tree = fileTree(&lt;s9&gt;'src'&lt;/s9&gt;) {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Define a new property&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132523Z" creationid="huanghaohang" creationdate="20191201T132523Z">
+        <seg>&lt;s0&gt;// Define a new property&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;// Define a preprocessor macro for every binary&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053254Z" creationid="huanghaohang" creationdate="20190609T053254Z">
@@ -10691,6 +10707,18 @@ compile {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145011Z" creationid="huanghaohang" creationdate="20190817T145011Z">
         <seg>&lt;s0&gt;// Use inherited property&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s0&gt;// Use injected property and method. Here, we override the injected value&lt;/s0&gt;
+srcDirName = &lt;s1&gt;'java'&lt;/s1&gt;
+def dir = srcDir()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132534Z" creationid="huanghaohang" creationdate="20191201T132534Z">
+        <seg>&lt;s0&gt;// Use injected property and method. Here, we override the injected value&lt;/s0&gt;
+srcDirName = &lt;s1&gt;'java'&lt;/s1&gt;
+def dir = srcDir()</seg>
       </tuv>
     </tu>
     <tu>
@@ -11591,6 +11619,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s2&gt;// Define a method using a closure as the method body&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132524Z" creationid="huanghaohang" creationdate="20191201T132524Z">
+        <seg>&lt;s2&gt;// Define a method using a closure as the method body&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s2&gt;// Define toolchain-specific compiler and linker options&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190609T053255Z" creationid="huanghaohang" creationdate="20190609T053255Z">
@@ -11797,6 +11833,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171015T124928Z" creationid="huanghaohang" creationdate="20171015T124928Z">
         <seg>&lt;s3&gt;// Copy the output of copyTask&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;s3&gt;// Define a task&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132526Z" creationid="huanghaohang" creationdate="20191201T132526Z">
+        <seg>&lt;s3&gt;// Define a task&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -13331,6 +13375,26 @@ build/output/classes</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180131T022600Z" creationid="huanghaohang" creationdate="20180131T022600Z">
         <seg>&gt; gradle -q show
 build/output/classes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q show
+project: :child1
+srcDirName: java
+srcDir: child1/java
+project: :child2
+srcDirName: src/java/legacy
+srcDir: child2/src/java/legacy</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132542Z" creationid="huanghaohang" creationdate="20191201T132542Z">
+        <seg>&gt; gradle -q show
+project: :child1
+srcDirName: java
+srcDir: child1/java
+project: :child2
+srcDirName: src/java/legacy
+srcDir: child2/src/java/legacy</seg>
       </tuv>
     </tu>
     <tu>
@@ -21695,6 +21759,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 59.2. Using injected properties and methods</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132522Z" creationid="huanghaohang" creationdate="20191201T132522Z">
+        <seg>示例 59.2. 使用注入的属性和方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -22347,6 +22419,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145013Z" creationid="huanghaohang" creationdate="20190817T145013Z">
         <seg>File srcDir = getSrcDir(project)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File srcDir = srcDir()</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132528Z" creationid="huanghaohang" creationdate="20191201T132528Z">
+        <seg>File srcDir = srcDir()</seg>
       </tuv>
     </tu>
     <tu>
@@ -36581,6 +36661,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>When you run Gradle, it checks for the existence of a directory called &lt;c0&gt;buildSrc&lt;/c0&gt;. Gradle then automatically compiles and tests this code and puts it in the classpath of your build script. You don't need to provide any further instruction. This can be a good place to add your custom tasks and plugins.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T133653Z" creationid="huanghaohang" creationdate="20191201T133653Z">
+        <seg>当你运行 Gradle 时，它会检查 &lt;c0&gt;buildSrc&lt;/c0&gt; 目录是否存在。如果存在，Gradle 会自动编译和测试其代码，并将它加到构建脚本的类路径中。你不需要提供任何进一步的指示信息。这可能是添加自定义任务和插件的好地方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>When you run the &lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt; command, it looks for a build file in the current directory. You can use the &lt;c2&gt;-b&lt;/c2&gt; option to select another build file. If you use &lt;c3&gt;-b&lt;/c3&gt; option then &lt;c4&gt;settings.gradle&lt;/c4&gt; file is not used. Example:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T113705Z" creationid="huanghaohang" creationdate="20170909T113421Z">
@@ -37719,8 +37807,8 @@ Description</seg>
       <tuv lang="EN-US">
         <seg>You can use the configuration injection technique discussed in &lt;a0&gt;Section 56.1, “Cross project configuration”&lt;/a0&gt; and &lt;a1&gt;Section 56.2, “Subproject configuration”&lt;/a1&gt; to inject properties and methods into various projects. This is generally a better option than inheritance, for a number of reasons: The injection is explicit in the build script, You can inject different logic into different projects, And you can inject any kind of configuration such as repositories, plug-ins, tasks, and so on. The following sample shows how this works.</seg>
       </tuv>
-      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190925T162422Z" creationid="huanghaohang" creationdate="20190925T162422Z">
-        <seg>You can use the configuration injection technique discussed in &lt;a0&gt;Section 56.1, “Cross project configuration”&lt;/a0&gt; and &lt;a1&gt;Section 56.2, “Subproject configuration”&lt;/a1&gt; to inject properties and methods into various projects. This is generally a better option than inheritance, for a number of reasons: The injection is explicit in the build script, You can inject different logic into different projects, And you can inject any kind of configuration such as repositories, plug-ins, tasks, and so on. The following sample shows how this works.</seg>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132512Z" creationid="huanghaohang" creationdate="20190925T162422Z">
+        <seg>你可以使用在&lt;a0&gt;第 56.1 节，《跨项目配置》&lt;/a0&gt;和&lt;a1&gt;第 56.2 节，《子项目配置》&lt;/a1&gt; 中所论述的配置注入技术，将属性和方法注入到各个项目中。通常来说，它是比继承更好的选择，原因如下：在构建脚本中，注入是显式的，你可以将不同的逻辑注入到不同的项目，并且可以注入任何类型的配置，如仓库，插件，任务等等。以下是关于注入的示例。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40559,6 +40647,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190817T145009Z" creationid="huanghaohang" creationdate="20190817T145009Z">
         <seg>child/build.gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>child1/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132532Z" creationid="huanghaohang" creationdate="20191201T132532Z">
+        <seg>child1/build.gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -43573,6 +43669,32 @@ task printTaskProperties &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T111609Z" creationid="huanghaohang" creationdate="20180406T111609Z">
         <seg>ext.sharedManifest = manifest {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.srcDir = { file(srcDirName) }</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132525Z" creationid="huanghaohang" creationdate="20191201T132525Z">
+        <seg>ext.srcDir = { file(srcDirName) }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.srcDirName = &lt;s1&gt;'src/java'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132524Z" creationid="huanghaohang" creationdate="20191201T132524Z">
+        <seg>ext.srcDirName = &lt;s1&gt;'src/java'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ext.srcDirName = &lt;s9&gt;"$srcDirName/legacy"&lt;/s9&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132531Z" creationid="huanghaohang" creationdate="20191201T132531Z">
+        <seg>ext.srcDirName = &lt;s9&gt;"$srcDirName/legacy"&lt;/s9&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -49818,6 +49940,14 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s4&gt;'project: '&lt;/s4&gt; + project.path</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132526Z" creationid="huanghaohang" creationdate="20191201T132526Z">
+        <seg>println &lt;s4&gt;'project: '&lt;/s4&gt; + project.path</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s4&gt;'taskY'&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T130158Z" creationid="huanghaohang" creationdate="20170919T130158Z">
@@ -49850,6 +49980,14 @@ taskX.finalizedBy taskY</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s5&gt;'srcDirName: '&lt;/s5&gt; + srcDirName</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132527Z" creationid="huanghaohang" creationdate="20191201T132527Z">
+        <seg>println &lt;s5&gt;'srcDirName: '&lt;/s5&gt; + srcDirName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s6&gt;"$element.relativePath =&gt; $element.file"&lt;/s6&gt;
 }</seg>
       </tuv>
@@ -49874,6 +50012,14 @@ taskX.finalizedBy taskY</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170922T084839Z" creationid="huanghaohang" creationdate="20170922T084839Z">
         <seg>println &lt;s6&gt;'I am not affected'&lt;/s6&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s6&gt;'srcDir: '&lt;/s6&gt; + rootProject.relativePath(srcDir)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132528Z" creationid="huanghaohang" creationdate="20191201T132528Z">
+        <seg>println &lt;s6&gt;'srcDir: '&lt;/s6&gt; + rootProject.relativePath(srcDir)</seg>
       </tuv>
     </tu>
     <tu>
@@ -55523,6 +55669,22 @@ sourceSets.all {</seg>
 }
 
 &lt;s6&gt;class&lt;/s6&gt; Book {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+&lt;s7&gt;// Inject special case configuration into a particular project&lt;/s7&gt;
+project(&lt;s8&gt;':child2'&lt;/s8&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T132531Z" creationid="huanghaohang" creationdate="20191201T132531Z">
+        <seg>}
+}
+
+&lt;s7&gt;// Inject special case configuration into a particular project&lt;/s7&gt;
+project(&lt;s8&gt;':child2'&lt;/s8&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
