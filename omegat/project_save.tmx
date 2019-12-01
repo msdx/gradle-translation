@@ -21767,6 +21767,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 59.3. Custom buildSrc build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T134735Z" creationid="huanghaohang" creationdate="20191201T134735Z">
+        <seg>示例 59.3. 自定义 buildSrc 构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -30825,6 +30833,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190202T153522Z" creationid="95" creationdate="20190202T153217Z">
         <seg>&lt;c0&gt;buildDashboard&lt;/c0&gt; 任务不依赖于任何其他任务。 它只聚合在构建运行过程中独立执行的报告任务。 要生成构建仪表盘，只需在要执行的任务列表中包含 &lt;c1&gt;buildDashboard&lt;/c1&gt; 任务。 例如，&lt;s2&gt;&lt;c3&gt;gradle buildDashboard build&lt;/c3&gt;&lt;/s2&gt; 将为 &lt;c4&gt;build&lt;/c4&gt; 任务所依赖的所有报告任务生成仪表盘。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The &lt;c0&gt;buildSrc&lt;/c0&gt; project can be a multi-project build. This works like any other regular Gradle multi-project build. However, you need to make all of the projects that you wish be on the classpath of the actual build &lt;c1&gt;runtime&lt;/c1&gt; dependencies of the root project in &lt;c2&gt;buildSrc&lt;/c2&gt;. You can do this by adding this to the configuration of each project you wish to export:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135428Z" creationid="huanghaohang" creationdate="20191201T135428Z">
+        <seg>&lt;c0&gt;buildSrc&lt;/c0&gt; 项目可以是一个多项目构建，就像其他常规 Gradle 多项目构建。但是，你需要使你想要的所有项目，在 &lt;c2&gt;buildSrc&lt;/c2&gt; 根项目的实际构建 &lt;c1&gt;runtime&lt;/c1&gt; 依赖的类路径上。你可以通过把它添加到每一个想要导出的项目的配置上来完成：</seg>
       </tuv>
     </tu>
     <tu>
@@ -40385,6 +40401,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035132Z" creationid="haohang" creationdate="20180313T035132Z">
         <seg>buildNeeded</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>buildSrc/build.gradle</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T134736Z" creationid="huanghaohang" creationdate="20191201T134736Z">
+        <seg>buildSrc/build.gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -54133,6 +54157,16 @@ test.systemProperty(&lt;s2&gt;'some.prop'&lt;/s2&gt;, &lt;s3&gt;'value'&lt;/s3&g
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180407T015522Z" creationid="huanghaohang" creationdate="20180407T015522Z">
         <seg>testCompile &lt;s0&gt;"org.scala-lang:scala-library:2.11.1"&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>testCompile &lt;s0&gt;'junit:junit:4.11'&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T134737Z" creationid="huanghaohang" creationdate="20191201T134737Z">
+        <seg>testCompile &lt;s0&gt;'junit:junit:4.11'&lt;/s0&gt;
 }</seg>
       </tuv>
     </tu>
