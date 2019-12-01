@@ -22895,6 +22895,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For multi-project builds there can be only one &lt;c0&gt;buildSrc&lt;/c0&gt; directory, which has to be in the root project directory.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T133755Z" creationid="huanghaohang" creationdate="20191201T133755Z">
+        <seg>对于多项目构建，只能有一个在根项目目录中的 &lt;c0&gt;buildSrc&lt;/c0&gt; 目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For now, we will look at defining some simple tasks in a build with one project. Later chapters will look at working with multiple projects and more about working with projects and tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T143910Z" creationid="95" creationdate="20170724T143910Z">
@@ -25987,6 +25995,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T104635Z" creationid="huanghaohang" creationdate="20180406T104635Z">
         <seg>List&lt;File&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Listed below is the default build script that Gradle applies to the &lt;c0&gt;buildSrc&lt;/c0&gt; project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T133850Z" creationid="huanghaohang" creationdate="20191201T133850Z">
+        <seg>下面列出的是 Gradle 应用到 &lt;c0&gt;buildSrc&lt;/c0&gt; 项目的默认构建脚本。</seg>
       </tuv>
     </tu>
     <tu>
