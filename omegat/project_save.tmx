@@ -22335,6 +22335,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Figure 59.1. Default buildSrc build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T133911Z" creationid="huanghaohang" creationdate="20191201T133852Z">
+        <seg>图 59.1. 默认的 buildSrc 构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>File</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170913T132209Z" creationid="huanghaohang" creationdate="20170913T132209Z">
@@ -24707,6 +24715,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190316T124940Z" creationid="95" creationdate="20190316T124940Z">
         <seg>如果你还没有处理过在类路径中 jar 包版本冲突的麻烦，这里有一个小趣闻等着你。在一个有30个子模块的大型项目中，向子项目添加的一个依赖改变了类路径的顺序，Spring 2.5与老的2.4版本 顺序被调换了。虽然可以继续构建，开发者会开始注意到在生产中出现了各种令人惊讶（和惊人可怕）的bug。然而，更糟糕的是，无意降低版本的Spring向系统引入了几个安全缺陷，现在需要整个组织进行全面的安全审计。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>If you need more flexibility, you can provide your own &lt;c0&gt;build.gradle&lt;/c0&gt;. Gradle applies the default build script regardless of whether there is one specified. This means you only need to declare the extra things you need. Below is an example. Notice that this example does not need to declare a dependency on the Gradle API, as this is done by the default build script:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T134728Z" creationid="huanghaohang" creationdate="20191201T134233Z">
+        <seg>如果你想更灵活，那么可以提供自己的 &lt;c0&gt;build.gradle&lt;/c0&gt;。Gradle 会应用默认的构建脚本，不管是否另有脚本被指定。这意味着你只需要声明你所需要的额外内容。以下是一个例子。请注意，此示例不需要声明对 Gradle API 的依赖，因为这已由默认的构建脚本完成：</seg>
       </tuv>
     </tu>
     <tu>
@@ -34709,6 +34725,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This means that you can just put you build source code in this directory and stick to the layout convention for a Java/Groovy project (see &lt;a0&gt;Table 23.4, “Java plugin - default project layout”&lt;/a0&gt;).</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T134204Z" creationid="huanghaohang" creationdate="20191201T134204Z">
+        <seg>这意味着你只需将构建源代码放到这个目录当中，并保持 Java/Groovy 项目的布局约定（见&lt;a0&gt;表 23.4，“Java 插件——默认项目布局”&lt;/a0&gt;）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This mechanism has been superseded by 'Test Filtering', described above.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131828Z" creationid="huanghaohang" creationdate="20180405T131828Z">
@@ -38855,6 +38879,16 @@ webapp:libs - Builds the JAR [api:libs]</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170918T150052Z" creationid="huanghaohang" creationdate="20170918T150052Z">
         <seg>apply from: &lt;s3&gt;'other.gradle'&lt;/s3&gt;, to: pos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>apply plugin: 'groovy'
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T133916Z" creationid="huanghaohang" creationdate="20191201T133916Z">
+        <seg>apply plugin: 'groovy'
+dependencies {</seg>
       </tuv>
     </tu>
     <tu>
@@ -46819,6 +46853,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T094843Z" creationid="haohang" creationdate="20180326T094843Z">
         <seg>java_plugin.html#java_source_set_tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>java_plugin.html#javalayout</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T133926Z" creationid="huanghaohang" creationdate="20191201T133926Z">
+        <seg>java_plugin.html#javalayout</seg>
       </tuv>
     </tu>
     <tu>
