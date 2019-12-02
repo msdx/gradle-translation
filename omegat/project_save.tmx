@@ -962,6 +962,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>../dsl/org.gradle.api.tasks.GradleBuild.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135557Z" creationid="huanghaohang" creationdate="20191201T135557Z">
+        <seg>../dsl/org.gradle.api.tasks.GradleBuild.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>../dsl/org.gradle.api.tasks.GroovySourceSet.html</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T234948Z" creationid="huanghaohang" creationdate="20180406T234948Z">
@@ -1990,6 +1998,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190612T153218Z" creationid="huanghaohang" creationdate="20190612T153218Z">
         <seg>../javadoc/org/gradle/api/initialization/ProjectDescriptor.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>../javadoc/org/gradle/api/initialization/dsl/ScriptHandler.html</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T140938Z" creationid="huanghaohang" creationdate="20191201T140938Z">
+        <seg>../javadoc/org/gradle/api/initialization/dsl/ScriptHandler.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -9070,6 +9086,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>59.4. Running another Gradle build from a build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135545Z" creationid="huanghaohang" creationdate="20191201T135545Z">
+        <seg>59.4. 从一个构建中运行另一个 Gradle 构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>59.5. External dependencies for the build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135726Z" creationid="huanghaohang" creationdate="20191201T135726Z">
+        <seg>59.5. 构建脚本的外部依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -10899,6 +10931,14 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/multiProjectBuildSrc&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135533Z" creationid="huanghaohang" creationdate="20191201T135533Z">
+        <seg>&lt;s0&gt;&lt;e1&gt;注意：&lt;/e1&gt;&lt;/s0&gt; 此示例的代码可以在 Gradle 的二进制文件或源码中的 &lt;c2&gt;samples/multiProjectBuildSrc&lt;/c2&gt; 里找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;&lt;e1&gt;Note:&lt;/e1&gt;&lt;/s0&gt; The code for this example can be found at &lt;c2&gt;samples/native-binaries/cunit&lt;/c2&gt; which is in both the binary and source distributions of Gradle.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190611T090424Z" creationid="huanghaohang" creationdate="20190611T090424Z">
@@ -12519,6 +12559,16 @@ executing task ':ok' ...
 done
 executing task ':broken' ...
 FAILED</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q build
+hello from the other build.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135719Z" creationid="huanghaohang" creationdate="20191201T135719Z">
+        <seg>&gt; gradle -q build
+hello from the other build.</seg>
       </tuv>
     </tu>
     <tu>
@@ -21775,6 +21825,30 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 59.4. Adding subprojects to the root buildSrc project</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135440Z" creationid="huanghaohang" creationdate="20191201T135440Z">
+        <seg>示例 59.4. 将子项目添加到根 buildSrc 项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 59.5. Running another build from a build</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135703Z" creationid="huanghaohang" creationdate="20191201T135703Z">
+        <seg>示例 59.5. 从一个构建运行另一个构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 59.6. Declaring external dependencies for the build script</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T140933Z" creationid="huanghaohang" creationdate="20191201T140933Z">
+        <seg>示例 59.6. 声明构建脚本的外部依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -24783,6 +24857,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>If your build script needs to use external libraries, you can add them to the script's classpath in the build script itself. You do this using the &lt;c0&gt;buildscript()&lt;/c0&gt; method, passing in a closure which declares the build script classpath.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T140926Z" creationid="huanghaohang" creationdate="20191201T140926Z">
+        <seg>如果构建脚本需要使用外部库，那么可以将它们添加到构建脚本本身的脚本类路径中。你可以通过使用 &lt;c0&gt;buildscript()&lt;/c0&gt; 方法，并传入一个声明构建脚本类路径的闭包来完成。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>If your project generates files to be included in the distribution, e.g. documentation, you can add these files to the distribution by adding to the &lt;c0&gt;applicationDistribution&lt;/c0&gt; copy spec.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20190131T140504Z" creationid="95" creationdate="20190131T140504Z">
@@ -27195,6 +27277,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190613T152629Z" creationid="huanghaohang" creationdate="20190613T152629Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q broken&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q build&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135714Z" creationid="huanghaohang" creationdate="20191201T135714Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q build&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -37813,6 +37903,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can use the &lt;a0&gt;&lt;c1&gt;GradleBuild&lt;/c1&gt;&lt;/a0&gt; task. You can use either of the &lt;c2&gt;dir&lt;/c2&gt; or &lt;c3&gt;buildFile&lt;/c3&gt; properties to specify which build to execute, and the &lt;c4&gt;tasks&lt;/c4&gt; property to specify which tasks to execute.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135658Z" creationid="huanghaohang" creationdate="20191201T135658Z">
+        <seg>你可以使用 &lt;a0&gt;&lt;c1&gt;GradleBuild&lt;/c1&gt;&lt;/a0&gt; 任务。你可以使用 &lt;c2&gt;dir&lt;/c2&gt; 或 &lt;c3&gt;buildFile&lt;/c3&gt; 属性来指定要执行的构建，以及使用 &lt;c4&gt;tasks&lt;/c4&gt; 属性来指定要执行的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can use the &lt;a0&gt;&lt;c1&gt;Project.copySpec()&lt;/c1&gt;&lt;/a0&gt; method to share content between archives.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T233427Z" creationid="huanghaohang" creationdate="20171206T233427Z">
@@ -40397,6 +40495,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>buildFile = &lt;s0&gt;'other.gradle'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135705Z" creationid="huanghaohang" creationdate="20191201T135705Z">
+        <seg>buildFile = &lt;s0&gt;'other.gradle'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>buildNeeded</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180313T035132Z" creationid="haohang" creationdate="20180313T035132Z">
@@ -40827,6 +40933,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180408T143128Z" creationid="huanghaohang" creationdate="20180408T143128Z">
         <seg>classpath fileTree(&lt;s15&gt;'additionalLibs'&lt;/s15&gt;) &lt;s16&gt;// adds a file-set to the WEB-INF/lib dir.&lt;/s16&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classpath group: &lt;s0&gt;'commons-codec'&lt;/s0&gt;, name: &lt;s1&gt;'commons-codec'&lt;/s1&gt;, version: &lt;s2&gt;'1.2'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T140936Z" creationid="huanghaohang" creationdate="20191201T140936Z">
+        <seg>classpath group: &lt;s0&gt;'commons-codec'&lt;/s0&gt;, name: &lt;s1&gt;'commons-codec'&lt;/s1&gt;, version: &lt;s2&gt;'1.2'&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -49166,6 +49280,16 @@ task hello &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>println &lt;s0&gt;"hello from the other build."&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135707Z" creationid="huanghaohang" creationdate="20191201T135707Z">
+        <seg>println &lt;s0&gt;"hello from the other build."&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>println &lt;s0&gt;"hello"&lt;/s0&gt;
 }
 
@@ -51442,6 +51566,14 @@ void gradle_cunit_register() {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>rootProject.dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135444Z" creationid="huanghaohang" creationdate="20191201T135444Z">
+        <seg>rootProject.dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>rootProject.name = &lt;s0&gt;'main'&lt;/s0&gt;
 project(&lt;s1&gt;':projectA'&lt;/s1&gt;).projectDir = &lt;s2&gt;new&lt;/s2&gt; File(settingsDir, &lt;s3&gt;'../my-project-a'&lt;/s3&gt;)
 project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gradle'&lt;/s5&gt;</seg>
@@ -51605,6 +51737,16 @@ project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gr
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190602T140742Z" creationid="huanghaohang" creationdate="20190602T140742Z">
         <seg>runtime name: &lt;s2&gt;'testng'&lt;/s2&gt; 
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>runtime project(path)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135447Z" creationid="huanghaohang" creationdate="20191201T135447Z">
+        <seg>runtime project(path)
 }</seg>
       </tuv>
     </tu>
@@ -53370,6 +53512,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>task build(type: GradleBuild) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135704Z" creationid="huanghaohang" creationdate="20191201T135704Z">
+        <seg>task build(type: GradleBuild) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>task buildAllExecutables {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190610T084310Z" creationid="huanghaohang" creationdate="20190610T084310Z">
@@ -54010,6 +54160,16 @@ println &lt;s1&gt;"source dir is $a.srcDir"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040332Z" creationid="huanghaohang" creationdate="20190123T040332Z">
         <seg>taskReport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>tasks = [&lt;s1&gt;'hello'&lt;/s1&gt;]
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191201T135707Z" creationid="huanghaohang" creationdate="20191201T135707Z">
+        <seg>tasks = [&lt;s1&gt;'hello'&lt;/s1&gt;]
+}</seg>
       </tuv>
     </tu>
     <tu>
