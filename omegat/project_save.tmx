@@ -32959,6 +32959,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The closure passed to the &lt;c0&gt;buildscript()&lt;/c0&gt; method configures a &lt;a1&gt;&lt;c2&gt;ScriptHandler&lt;/c2&gt;&lt;/a1&gt; instance. You declare the build script classpath by adding dependencies to the &lt;c3&gt;classpath&lt;/c3&gt; configuration. This is the same way you declare, for example, the Java compilation classpath. You can use any of the dependency types described in &lt;a4&gt;Section 50.4, “How to declare your dependencies”&lt;/a4&gt;, except project dependencies.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T140358Z" creationid="huanghaohang" creationdate="20191202T140358Z">
+        <seg>The closure passed to the &lt;c0&gt;buildscript()&lt;/c0&gt; method configures a &lt;a1&gt;&lt;c2&gt;ScriptHandler&lt;/c2&gt;&lt;/a1&gt; instance. You declare the build script classpath by adding dependencies to the &lt;c3&gt;classpath&lt;/c3&gt; configuration. This is the same way you declare, for example, the Java compilation classpath. You can use any of the dependency types described in &lt;a4&gt;Section 50.4, “How to declare your dependencies”&lt;/a4&gt;, except project dependencies.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The command &lt;c0&gt;evaluationDependsOn&lt;/c0&gt; triggers the evaluation of &lt;c1&gt;producer&lt;/c1&gt; &lt;s2&gt;&lt;e3&gt;before&lt;/e3&gt;&lt;/s2&gt; &lt;c4&gt;consumer&lt;/c4&gt; is evaluated. The example is a bit contrived for the sake of showing the mechanism. In &lt;s5&gt;&lt;e6&gt;this&lt;/e6&gt;&lt;/s5&gt; case there would be an easier solution by reading the key property at execution time.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T145231Z" creationid="huanghaohang" creationdate="20190617T145231Z">
