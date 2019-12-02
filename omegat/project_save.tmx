@@ -430,6 +430,14 @@
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>#ftn.N1699D</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141150Z" creationid="huanghaohang" creationdate="20191202T141150Z">
+        <seg>#ftn.N1699D</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>#include &lt;CUnit/Basic.h&gt;
 #include "gradle_cunit_register.h"
 #include "test_operators.h"
@@ -9102,6 +9110,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>59.6. Ant optional dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141146Z" creationid="huanghaohang" creationdate="20191202T141146Z">
+        <seg>59.6. Ant 可选依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>6.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170919T013442Z" creationid="huanghaohang" creationdate="20170919T013442Z">
@@ -11421,6 +11437,18 @@ sourceSets {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.commons.codec.binary.Base6&lt;s1&gt;4&lt;/s1&gt;
+
+buildscript {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141052Z" creationid="huanghaohang" creationdate="20191202T141052Z">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.commons.codec.binary.Base6&lt;s1&gt;4&lt;/s1&gt;
+
+buildscript {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.tools.ant.filters.FixCrLfFilter
 &lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
 
@@ -12779,6 +12807,16 @@ We build the zip with version=1.0-SNAPSHOT</seg>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025321Z" creationid="95" creationdate="20170729T025321Z">
         <seg>&gt; gradle -q distribution
 We build the zip with version=1.0-SNAPSHOT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&gt; gradle -q encode
+aGVsbG8gd29ybGQK</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141100Z" creationid="huanghaohang" creationdate="20191202T141100Z">
+        <seg>&gt; gradle -q encode
+aGVsbG8gd29ybGQK</seg>
       </tuv>
     </tu>
     <tu>
@@ -21849,6 +21887,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 59.7. A build script with external dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141049Z" creationid="huanghaohang" creationdate="20191202T141049Z">
+        <seg>示例 59.7. 具有外部依赖的构建脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Example 59.8. Ant optional dependencies</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141254Z" creationid="huanghaohang" creationdate="20191202T141254Z">
+        <seg>示例 59.8. Ant 的可选依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 6.1. The first build script</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T144942Z" creationid="95" creationdate="20170724T144942Z">
@@ -22993,6 +23047,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>For multi-project builds, the dependencies declared in the a project's build script, are available to the build scripts of all sub-projects.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141141Z" creationid="huanghaohang" creationdate="20191202T141141Z">
+        <seg>对于多项目构建，定义在一个项目的构建脚本中的依赖，可用于所有子项目的构建脚本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>For now, we will look at defining some simple tasks in a build with one project. Later chapters will look at working with multiple projects and more about working with projects and tasks.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170724T143910Z" creationid="95" creationdate="20170724T143910Z">
@@ -23013,6 +23075,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180715T093919Z" creationid="huanghaohang" creationdate="20180715T093850Z">
         <seg>对于同时也应用了 Java 插件的项目，JaCoCo 插件会自动添加以下任务：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>For reasons we don't fully understand yet, external dependencies are not picked up by Ant's optional tasks. But you can easily do it in another way. &lt;s0&gt;[&lt;a1&gt;26&lt;/a1&gt;]&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141250Z" creationid="huanghaohang" creationdate="20191202T141250Z">
+        <seg>出于我们尚未完全理解的原因，Ant 的可选任务不会选取外部依赖，但你可以很容易地用用另一种方式来实现。&lt;s0&gt;[&lt;a1&gt;26&lt;/a1&gt;]&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -27381,6 +27451,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T025320Z" creationid="95" creationdate="20170729T025320Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle -q distribution&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q encode&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141058Z" creationid="huanghaohang" creationdate="20191202T141058Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q encode&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -34815,6 +34893,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>This is also nice example for the usage of client modules. The POM file in Maven Central for the ant-commons-net task does not provide the right information for this use case.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141728Z" creationid="huanghaohang" creationdate="20191202T141728Z">
+        <seg>This is also nice example for the usage of client modules. The POM file in Maven Central for the ant-commons-net task does not provide the right information for this use case.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>This is equivalent to running &lt;s0&gt;&lt;c1&gt;gradle clean run&lt;/c1&gt;&lt;/s0&gt;. In a multi-project build every subproject can have its own specific default tasks. If a subproject does not specify default tasks, the default tasks of the parent project are used (if defined).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170729T024222Z" creationid="95" creationdate="20170729T023929Z">
@@ -38575,6 +38661,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>ant {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141258Z" creationid="huanghaohang" creationdate="20191202T141258Z">
+        <seg>ant {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>ant.buildDir = buildDir
 ant.properties.buildDir = buildDir
 ant.properties[&lt;s0&gt;'buildDir'&lt;/s0&gt;] = buildDir
@@ -40919,6 +41013,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>classname: &lt;s4&gt;'org.apache.tools.ant.taskdefs.optional.net.FTP'&lt;/s4&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141300Z" creationid="huanghaohang" creationdate="20191202T141300Z">
+        <seg>classname: &lt;s4&gt;'org.apache.tools.ant.taskdefs.optional.net.FTP'&lt;/s4&gt;,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>classpath</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180326T100235Z" creationid="haohang" creationdate="20180326T100235Z">
@@ -40969,6 +41071,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>classpath group: &lt;s2&gt;'commons-codec'&lt;/s2&gt;, name: &lt;s3&gt;'commons-codec'&lt;/s3&gt;, version: &lt;s4&gt;'1.2'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141052Z" creationid="huanghaohang" creationdate="20191202T141052Z">
+        <seg>classpath group: &lt;s2&gt;'commons-codec'&lt;/s2&gt;, name: &lt;s3&gt;'commons-codec'&lt;/s3&gt;, version: &lt;s4&gt;'1.2'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>classpath {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T083830Z" creationid="huanghaohang" creationdate="20180105T083830Z">
@@ -40989,6 +41099,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20181210T084115Z" creationid="huanghaohang" creationdate="20181210T084115Z">
         <seg>classpath.entries.removeAll { entry -&gt; entry.kind == &lt;s0&gt;'lib'&lt;/s0&gt; || entry.kind == &lt;s1&gt;'var'&lt;/s1&gt; }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>classpath: configurations.ftpAntTask.asPath)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141301Z" creationid="huanghaohang" creationdate="20191202T141301Z">
+        <seg>classpath: configurations.ftpAntTask.asPath)</seg>
       </tuv>
     </tu>
     <tu>
@@ -42117,6 +42235,14 @@ task listFish &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>def &lt;s5&gt;byte&lt;/s5&gt;[] encodedString = &lt;s6&gt;new&lt;/s6&gt; Base6&lt;s7&gt;4&lt;/s7&gt;().encode(&lt;s8&gt;'hello world\n'&lt;/s8&gt;.getBytes())</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141054Z" creationid="huanghaohang" creationdate="20191202T141054Z">
+        <seg>def &lt;s5&gt;byte&lt;/s5&gt;[] encodedString = &lt;s6&gt;new&lt;/s6&gt; Base6&lt;s7&gt;4&lt;/s7&gt;().encode(&lt;s8&gt;'hello world\n'&lt;/s8&gt;.getBytes())</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>def File inputDir</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134813Z" creationid="huanghaohang" creationdate="20190706T134813Z">
@@ -42399,6 +42525,14 @@ task clean &lt;&lt; {</seg>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170914T153240Z" creationid="huanghaohang" creationdate="20170914T153240Z">
         <seg>delegate.compile(&lt;s1&gt;'junit:junit:4.11'&lt;/s1&gt;)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>dependencies &lt;s2&gt;"oro:oro:2.0.8:jar"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141257Z" creationid="huanghaohang" creationdate="20191202T141257Z">
+        <seg>dependencies &lt;s2&gt;"oro:oro:2.0.8:jar"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -44111,6 +44245,14 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>fileset(dir: &lt;s8&gt;"htdocs/manual"&lt;/s8&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141303Z" creationid="huanghaohang" creationdate="20191202T141303Z">
+        <seg>fileset(dir: &lt;s8&gt;"htdocs/manual"&lt;/s8&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>filter {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180405T131636Z" creationid="huanghaohang" creationdate="20180405T131636Z">
@@ -44569,6 +44711,36 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190607T093626Z" creationid="huanghaohang" creationdate="20190607T093626Z">
         <seg>ftp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ftp(server: &lt;s5&gt;"ftp.apache.org"&lt;/s5&gt;, userid: &lt;s6&gt;"anonymous"&lt;/s6&gt;, password: &lt;s7&gt;"me@myorg.com"&lt;/s7&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141301Z" creationid="huanghaohang" creationdate="20191202T141301Z">
+        <seg>ftp(server: &lt;s5&gt;"ftp.apache.org"&lt;/s5&gt;, userid: &lt;s6&gt;"anonymous"&lt;/s6&gt;, password: &lt;s7&gt;"me@myorg.com"&lt;/s7&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ftpAntTask
+}
+
+dependencies {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141255Z" creationid="huanghaohang" creationdate="20191202T141255Z">
+        <seg>ftpAntTask
+}
+
+dependencies {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ftpAntTask(&lt;s0&gt;"org.apache.ant:ant-commons-net:1.9.3"&lt;/s0&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141255Z" creationid="huanghaohang" creationdate="20191202T141255Z">
+        <seg>ftpAntTask(&lt;s0&gt;"org.apache.ant:ant-commons-net:1.9.3"&lt;/s0&gt;) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -47940,6 +48112,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>module(&lt;s1&gt;"commons-net:commons-net:1.4.1"&lt;/s1&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141256Z" creationid="huanghaohang" creationdate="20191202T141256Z">
+        <seg>module(&lt;s1&gt;"commons-net:commons-net:1.4.1"&lt;/s1&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>module(&lt;s5&gt;'org.apache.ant:ant:1.9.3'&lt;/s5&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180406T123342Z" creationid="huanghaohang" creationdate="20180406T123342Z">
@@ -50266,6 +50446,16 @@ taskX.finalizedBy taskY</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190706T134820Z" creationid="huanghaohang" creationdate="20190706T134820Z">
         <seg>println &lt;s9&gt;"out of date: ${change.file.name}"&lt;/s9&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>println &lt;s9&gt;new&lt;/s9&gt; String(encodedString)
+}</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141055Z" creationid="huanghaohang" creationdate="20191202T141055Z">
+        <seg>println &lt;s9&gt;new&lt;/s9&gt; String(encodedString)
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -54180,6 +54370,14 @@ println &lt;s1&gt;"source dir is $a.srcDir"&lt;/s1&gt;</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>taskdef(name: &lt;s3&gt;'ftp'&lt;/s3&gt;,</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141259Z" creationid="huanghaohang" creationdate="20191202T141259Z">
+        <seg>taskdef(name: &lt;s3&gt;'ftp'&lt;/s3&gt;,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>tasks = [&lt;s1&gt;'hello'&lt;/s1&gt;]
 }</seg>
       </tuv>
@@ -56156,6 +56354,20 @@ task compile &lt;&lt; {</seg>
         <seg>}
 }
 
+task encode &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141053Z" creationid="huanghaohang" creationdate="20191202T141053Z">
+        <seg>}
+}
+
+task encode &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
 task explodedDist(dependsOn: assemble) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T150908Z" creationid="huanghaohang" creationdate="20190617T150908Z">
@@ -56163,6 +56375,20 @@ task explodedDist(dependsOn: assemble) &lt;&lt; {</seg>
 }
 
 task explodedDist(dependsOn: assemble) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+task ftp &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20191202T141258Z" creationid="huanghaohang" creationdate="20191202T141258Z">
+        <seg>}
+}
+
+task ftp &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
