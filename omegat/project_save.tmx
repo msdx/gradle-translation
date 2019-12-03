@@ -18175,6 +18175,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Define machine specific details, such as where JDKs are installed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191203T142346Z" creationid="huanghaohang" creationdate="20191203T142346Z">
+        <seg>定义机器的一些特定信息，比如 JDK 的安装位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Defines the root directory of your Gradle project (typically where build.gradle is located).</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170911T150003Z" creationid="huanghaohang" creationdate="20170911T145903Z">
@@ -28567,6 +28575,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Register build listeners. External tools that wish to listen to Gradle events might find this useful.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191203T142417Z" creationid="huanghaohang" creationdate="20191203T142417Z">
+        <seg>注册构建监听器。这对一些希望能够监听 Gradle 事件的外部工具会很有用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Register build loggers. You might wish to customize how Gradle logs the events that it generates.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191203T142534Z" creationid="huanghaohang" creationdate="20191203T142424Z">
+        <seg>注册构建记录器。你可能希望自定义 Gradle 对生成的事件的日志打印。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Removes all Eclipse configuration files</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20181210T025841Z" creationid="huanghaohang" creationdate="20181210T025841Z">
@@ -29709,6 +29733,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171206T233809Z" creationid="huanghaohang" creationdate="20171206T233809Z">
         <seg>总结</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Supply personal information about the user that is required by the build, such as repository or database authentication credentials.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191203T142326Z" creationid="huanghaohang" creationdate="20191203T142326Z">
+        <seg>提供构建所需要的有关用户的个人信息，比如仓库或数据库认证凭证。</seg>
       </tuv>
     </tu>
     <tu>
