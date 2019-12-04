@@ -28543,6 +28543,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Put a file called &lt;c0&gt;init.gradle&lt;/c0&gt; in the &lt;c1&gt;&lt;e2&gt;&lt;c3&gt;USER_HOME&lt;/c3&gt;&lt;/e2&gt;/.gradle/&lt;/c1&gt; directory.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191204T122414Z" creationid="huanghaohang" creationdate="20191204T122414Z">
+        <seg>把一个 &lt;c0&gt;init.gradle&lt;/c0&gt; 文件放到 &lt;c1&gt;&lt;e2&gt;&lt;c3&gt;USER_HOME&lt;/c3&gt;&lt;/e2&gt;/.gradle/&lt;/c1&gt; 目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Put a file that ends with &lt;c0&gt;.gradle&lt;/c0&gt; in the &lt;c1&gt;&lt;e2&gt;&lt;c3&gt;USER_HOME&lt;/c3&gt;&lt;/e2&gt;/.gradle/init.d/&lt;/c1&gt; directory.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191204T122639Z" creationid="huanghaohang" creationdate="20191204T122639Z">
+        <seg>把一个以目 &lt;c0&gt;.gradle&lt;/c0&gt; 结尾的文件放到 &lt;c1&gt;&lt;e2&gt;&lt;c3&gt;USER_HOME&lt;/c3&gt;&lt;/e2&gt;/.gradle/init.d/&lt;/c1&gt; 目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QUIET</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180105T221521Z" creationid="huanghaohang" creationdate="20180105T221521Z">
@@ -29563,6 +29579,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180126T013331Z" creationid="huanghaohang" creationdate="20180126T013320Z">
         <seg>指定用于守护进程的 jvmargs。该设置对调整内存设置特别有用。目前的默认设置是在内存方面非常大方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Specify a file on the command line. The command line option is &lt;c0&gt;-I&lt;/c0&gt; or &lt;c1&gt;--init-script&lt;/c1&gt; followed by the path to the script. The command line option can appear more than once, each time adding another init script.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191204T122344Z" creationid="huanghaohang" creationdate="20191204T122344Z">
+        <seg>在命令行上指定文件。命令行选项为 &lt;c0&gt;-I&lt;/c0&gt; 或 &lt;c1&gt;--init-script&lt;/c1&gt;，后跟脚本路径。这个命令行选项可以出现多次，每次在其后添加另一个 init 脚本。</seg>
       </tuv>
     </tu>
     <tu>
