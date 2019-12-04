@@ -24735,6 +24735,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If more than one init script is found they will all be executed, in the order specified above. Scripts in a given directory are executed in alphabetical order. This allows, for example, a tool to specify an init script on the command line and the user to put one in their home directory for defining the environment and both scripts will run when Gradle is executed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191204T135735Z" creationid="huanghaohang" creationdate="20191204T135735Z">
+        <seg>如果 Gradle 找到了多个初始化脚本，那么将按照上面指定的顺序执行这些脚本。而给定目录的脚本，则按照字母顺序执行。这样使得一个工具可以在命令行上指定初始化脚本，并且用户可以放一个初始化脚本在他们的主目录中用于定义环境，而当 Gradle 执行时，这两个脚本会运行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If no &lt;c0&gt;settings.gradle&lt;/c0&gt; file is found, the build is executed as a single project build.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190612T153828Z" creationid="huanghaohang" creationdate="20190612T153828Z">
