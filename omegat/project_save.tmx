@@ -9406,6 +9406,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>60.4. External dependencies for the init script</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T150436Z" creationid="huanghaohang" creationdate="20191206T150436Z">
+        <seg>60.4. 初始化脚本的外部依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171014T124851Z" creationid="huanghaohang" creationdate="20171014T124851Z">
@@ -12357,6 +12365,18 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180107T144031Z" creationid="huanghaohang" creationdate="20180107T144031Z">
         <seg>&lt;s9&gt;public&lt;/s9&gt; &lt;s10&gt;void&lt;/s10&gt; buildFinished(BuildResult result) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; gradle --init-script init.gradle -q showRepos
+All repos:
+[MavenLocal, MavenRepo]</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143651Z" creationid="huanghaohang" creationdate="20191206T143651Z">
+        <seg>&gt; gradle --init-script init.gradle -q showRepos
+All repos:
+[MavenLocal, MavenRepo]</seg>
       </tuv>
     </tu>
     <tu>
@@ -22119,6 +22139,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 60.1. Using init script to perform extra configuration before projects are evaluated</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143626Z" creationid="huanghaohang" creationdate="20191206T143626Z">
+        <seg>示例 60.1. 使用初始化脚本在项目评估之前执行额外的配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -27371,6 +27399,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180407T020031Z" creationid="huanghaohang" creationdate="20180407T020031Z">
         <seg>否则，该任务将执行失败，并提示无法推断 &lt;c0&gt;scalaClasspath&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle --init-script init.gradle -q showRepos&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143650Z" creationid="huanghaohang" creationdate="20191206T143650Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle --init-script init.gradle -q showRepos&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -38215,8 +38251,8 @@ Description</seg>
       <tuv lang="en-US">
         <seg>You can use an init script to configure the projects in the build. This works in a similar way to configuring projects in a multi-project build. The following sample shows how to perform extra configuration from an init script &lt;s0&gt;&lt;e1&gt;before&lt;/e1&gt;&lt;/s0&gt; the projects are evaluated. This sample uses this feature to configure an extra repository to be used only for certain environments.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143601Z" creationid="huanghaohang" creationdate="20191206T143601Z">
-        <seg>你可以在构建中使用初始化脚本配置项目，类似于在多项目构建中配置项目。以下的例子展示了如何在项目被评估 &lt;s0&gt;&lt;e1&gt;之前&lt;/e1&gt;&lt;/s0&gt; 从初始化脚本中执行额外的配置。这个示例使用此功能来配置一个额外的仓库，仅用于特定环境。</seg>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143612Z" creationid="huanghaohang" creationdate="20191206T143601Z">
+        <seg>你可以在构建中使用初始化脚本配置项目，类似于在多项目构建中配置项目。以下的例子展示了如何在项目被评估 &lt;s0&gt;&lt;e1&gt;之前&lt;/e1&gt;&lt;/s0&gt; 从初始化脚本中执行额外的配置。这个示例使用此功能来配置一个额外仅用于特定环境的仓库。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48190,10 +48226,32 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>mavenCentral()
+}
+
+task showRepos &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143630Z" creationid="huanghaohang" creationdate="20191206T143630Z">
+        <seg>mavenCentral()
+}
+
+task showRepos &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>mavenDeployer {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170908T051008Z" creationid="huanghaohang" creationdate="20170908T051008Z">
         <seg>mavenDeployer {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>mavenLocal()</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143641Z" creationid="huanghaohang" creationdate="20191206T143641Z">
+        <seg>mavenLocal()</seg>
       </tuv>
     </tu>
     <tu>
@@ -49654,6 +49712,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>println &lt;s0&gt;"All repos:"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143638Z" creationid="huanghaohang" creationdate="20191206T143638Z">
+        <seg>println &lt;s0&gt;"All repos:"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>println &lt;s0&gt;"Hello, world!"&lt;/s0&gt;
 }  
 
@@ -50971,6 +51037,16 @@ println project.name</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180130T100203Z" creationid="huanghaohang" creationdate="20180130T100203Z">
         <seg>println relativePath(processResources.destinationDir)
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>println repositories.collect { it.name }
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143639Z" creationid="huanghaohang" creationdate="20191206T143639Z">
+        <seg>println repositories.collect { it.name }
 }</seg>
       </tuv>
     </tu>
