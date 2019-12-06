@@ -9390,6 +9390,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>60.3.1. Configuring projects from an init script</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143116Z" creationid="huanghaohang" creationdate="20191206T143116Z">
+        <seg>60.3.1. 从一个初始化脚本中配置项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>60.3. Writing an init script</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191204T135745Z" creationid="huanghaohang" creationdate="20191204T135745Z">
+        <seg>60.3. 写一个初始化脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171014T124851Z" creationid="huanghaohang" creationdate="20171014T124851Z">
@@ -18595,6 +18611,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190610T052548Z" creationid="huanghaohang" creationdate="20190610T052206Z">
         <seg>每个组件都可以有一组命名的 &lt;c0&gt;flavor&lt;/c0&gt;，并且可以为每种风格生成单独的二进制变体。虽然 &lt;c1&gt;build type&lt;/c1&gt; 和 &lt;c2&gt;target platform&lt;/c2&gt; 变体维度在 Gradle 中是有定义的含义的，但每个项目都可以自由地定义任意数量的风格，并以任意的方式对它们应用含义。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Each init script also implements the &lt;a0&gt;&lt;c1&gt;Script&lt;/c1&gt;&lt;/a0&gt; interface.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143135Z" creationid="huanghaohang" creationdate="20191206T143049Z">
+        <seg>每个初始化脚本也都实现了 &lt;a0&gt;&lt;c1&gt;Script&lt;/c1&gt;&lt;/a0&gt; 接口。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29359,6 +29383,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Similar to a Gradle build script, an init script is a groovy script. Each init script has a &lt;a0&gt;&lt;c1&gt;Gradle&lt;/c1&gt;&lt;/a0&gt; instance associated with it. Any property reference and method call in the init script will delegate to this &lt;c2&gt;Gradle&lt;/c2&gt; instance.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143037Z" creationid="huanghaohang" creationdate="20191204T135747Z">
+        <seg>与 Gradle 构建脚本类似，初始化脚本也是一个 groovy 脚本。每个初始化脚本都有一个与之关联的 &lt;a0&gt;&lt;c1&gt;Gradle&lt;/c1&gt;&lt;/a0&gt; 实例，在这个初始化脚本中的任何属性引用和方法调用，都会委派给这个 &lt;c2&gt;Gradle&lt;/c2&gt; 实例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Similarly, settings can be specified to target binaries for a component that are of a particular type: eg all &lt;c0&gt;shared libraries&lt;/c0&gt; for the &lt;c1&gt;main library&lt;/c1&gt; component.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190610T012459Z" creationid="huanghaohang" creationdate="20190610T012459Z">
@@ -38177,6 +38209,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190606T075200Z" creationid="huanghaohang" creationdate="20190606T075140Z">
         <seg>你可以使用归档任务来定义工件：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can use an init script to configure the projects in the build. This works in a similar way to configuring projects in a multi-project build. The following sample shows how to perform extra configuration from an init script &lt;s0&gt;&lt;e1&gt;before&lt;/e1&gt;&lt;/s0&gt; the projects are evaluated. This sample uses this feature to configure an extra repository to be used only for certain environments.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T143601Z" creationid="huanghaohang" creationdate="20191206T143601Z">
+        <seg>你可以在构建中使用初始化脚本配置项目，类似于在多项目构建中配置项目。以下的例子展示了如何在项目被评估 &lt;s0&gt;&lt;e1&gt;之前&lt;/e1&gt;&lt;/s0&gt; 从初始化脚本中执行额外的配置。这个示例使用此功能来配置一个额外的仓库，仅用于特定环境。</seg>
       </tuv>
     </tu>
     <tu>
