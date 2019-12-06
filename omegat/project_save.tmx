@@ -9414,6 +9414,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>60.5. Init script plugins</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151133Z" creationid="huanghaohang" creationdate="20191206T151133Z">
+        <seg>60.5. 初始化脚本插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171014T124851Z" creationid="huanghaohang" creationdate="20171014T124851Z">
@@ -11627,6 +11635,14 @@ gradle.taskGraph.beforeTask { Task task -&gt;</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;s11&gt;// add the enterprise repository&lt;/s11&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151222Z" creationid="huanghaohang" creationdate="20191206T151222Z">
+        <seg>&lt;s11&gt;// add the enterprise repository&lt;/s11&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;s12&gt;if&lt;/s12&gt; (result.failure != null) {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180107T144034Z" creationid="huanghaohang" creationdate="20180107T144034Z">
@@ -11939,6 +11955,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;s2&gt;private&lt;/s2&gt; &lt;s3&gt;static&lt;/s3&gt; String ENTERPRISE_REPOSITORY_URL = &lt;s4&gt;"http://repo.gradle.org/gradle/repo"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151215Z" creationid="huanghaohang" creationdate="20191206T151215Z">
+        <seg>&lt;s2&gt;private&lt;/s2&gt; &lt;s3&gt;static&lt;/s3&gt; String ENTERPRISE_REPOSITORY_URL = &lt;s4&gt;"http://repo.gradle.org/gradle/repo"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;s2&gt;public&lt;/s2&gt; &lt;s3&gt;void&lt;/s3&gt; canAddTaskToProject() {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190706T124011Z" creationid="huanghaohang" creationdate="20190706T124011Z">
@@ -12231,6 +12255,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;s5&gt;void&lt;/s5&gt; apply(Gradle gradle) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151216Z" creationid="huanghaohang" creationdate="20191206T151216Z">
+        <seg>&lt;s5&gt;void&lt;/s5&gt; apply(Gradle gradle) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;s6&gt;// Add a task that uses the configuration&lt;/s6&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190719T155824Z" creationid="huanghaohang" creationdate="20190719T155824Z">
@@ -12243,6 +12275,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171015T075027Z" creationid="huanghaohang" creationdate="20171015T075027Z">
         <seg>&lt;s6&gt;// Copy the contents of a Zip file&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;s6&gt;// ONLY USE ENTERPRISE REPO FOR DEPENDENCIES&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151217Z" creationid="huanghaohang" creationdate="20191206T151217Z">
+        <seg>&lt;s6&gt;// ONLY USE ENTERPRISE REPO FOR DEPENDENCIES&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -12305,6 +12345,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;s7&gt;//remove all repositories not pointing to the enterprise repository url&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151219Z" creationid="huanghaohang" creationdate="20191206T151219Z">
+        <seg>&lt;s7&gt;//remove all repositories not pointing to the enterprise repository url&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;s7&gt;&lt;/target&gt;&lt;/s7&gt;
 &lt;s8&gt;&lt;/project&gt;&lt;/s8&gt;</seg>
       </tuv>
@@ -12347,6 +12395,14 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;s8&gt;if&lt;/s8&gt; (!(repo &lt;s9&gt;instanceof&lt;/s9&gt; MavenArtifactRepository) || repo.url.toString() != ENTERPRISE_REPOSITORY_URL) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151220Z" creationid="huanghaohang" creationdate="20191206T151220Z">
+        <seg>&lt;s8&gt;if&lt;/s8&gt; (!(repo &lt;s9&gt;instanceof&lt;/s9&gt; MavenArtifactRepository) || repo.url.toString() != ENTERPRISE_REPOSITORY_URL) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;s8&gt;if&lt;/s8&gt; (toolChain in VisualCpp) {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190609T053258Z" creationid="huanghaohang" creationdate="20190609T053258Z">
@@ -12377,6 +12433,16 @@ task myTask(dependsOn: &lt;s5&gt;'compile'&lt;/s5&gt;) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180107T144031Z" creationid="huanghaohang" creationdate="20180107T144031Z">
         <seg>&lt;s9&gt;public&lt;/s9&gt; &lt;s10&gt;void&lt;/s10&gt; buildFinished(BuildResult result) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; gradle --init-script init.gradle -q doNothing
+2 / 5</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151121Z" creationid="huanghaohang" creationdate="20191206T151121Z">
+        <seg>&gt; gradle --init-script init.gradle -q doNothing
+2 / 5</seg>
       </tuv>
     </tu>
     <tu>
@@ -12471,6 +12537,16 @@ Default Running!</seg>
         <seg>&gt; gradle -q
 Default Cleaning!
 Default Running!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; gradle -q -I init.gradle showRepositories
+repository: STANDARD_ENTERPRISE_REPO ('http://repo.gradle.org/gradle/repo')</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151248Z" creationid="huanghaohang" creationdate="20191206T151248Z">
+        <seg>&gt; gradle -q -I init.gradle showRepositories
+repository: STANDARD_ENTERPRISE_REPO ('http://repo.gradle.org/gradle/repo')</seg>
       </tuv>
     </tu>
     <tu>
@@ -22175,6 +22251,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 60.4. Using plugins in init scripts</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151212Z" creationid="huanghaohang" creationdate="20191206T151212Z">
+        <seg>示例 60.4. 在初始化脚本中使用插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -27479,6 +27563,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q -I init.gradle showRepositories&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151238Z" creationid="huanghaohang" creationdate="20191206T151238Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -I init.gradle showRepositories&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q -PcommandLineProjectProp=commandLineProjectPropValue -Dorg.gradle.project.systemProjectProp=systemPropertyValue printProps&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170917T135035Z" creationid="huanghaohang" creationdate="20170917T135035Z">
@@ -29467,6 +29559,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190609T011025Z" creationid="huanghaohang" creationdate="20190609T011025Z">
         <seg>签名 POM 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Similar to a Gradle build script or a Gradle settings file, plugins can be applied on init scripts.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151203Z" creationid="huanghaohang" creationdate="20191206T151203Z">
+        <seg>与 Gradle 构建脚本类似，插件也可以应用在初始化脚本上。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34149,6 +34249,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The plugin in the sample init scripts ensures, that only a specified repository is used when running the build.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151405Z" creationid="huanghaohang" creationdate="20191206T151405Z">
+        <seg>这个在示例的初始化脚本中的插件，确保了当执行构建时只使用一个指定的仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The plugin provides objects modeling the sections of the metadata files that are generated by Gradle. The generation lifecycle is as follows:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190121T160715Z" creationid="huanghaohang" creationdate="20190121T155942Z">
@@ -37029,6 +37137,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When applying plugins within the init script, Gradle instantiates the plugin and calls the plugin instance's &lt;a0&gt;&lt;c1&gt;Plugin.apply()&lt;/c1&gt;&lt;/a0&gt; method. The &lt;c2&gt;gradle&lt;/c2&gt; object is passed as a parameter, which can be used to configure all aspects of a build. Of course, the applied plugin can be resolved as external dependency as described in &lt;a3&gt;Section 60.4, “External dependencies for the init script”&lt;/a3&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151703Z" creationid="huanghaohang" creationdate="20191206T151703Z">
+        <seg>当在初始化脚本中应用插件时，Gradle 将实例化插件并调用插件实例的 &lt;a0&gt;&lt;c1&gt;Plugin.apply()&lt;/c1&gt;&lt;/a0&gt; 方法。然后 &lt;c2&gt;gradle&lt;/c2&gt; 对象作为参数传入，用于配置构建的所有方面。当然，应用的插件也可以解析为外部依赖，如&lt;a3&gt;第 60.4 节，《初始化脚本的外部依赖》&lt;/a3&gt;中所述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When configured, Gradle will run in incubating parallel mode.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180126T020554Z" creationid="huanghaohang" creationdate="20180126T020554Z">
@@ -38797,6 +38913,14 @@ No dependencies</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>all { ArtifactRepository repo -&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151219Z" creationid="huanghaohang" creationdate="20191206T151219Z">
+        <seg>all { ArtifactRepository repo -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>all*.exclude group: &lt;s1&gt;'org.gradle.test.excludes'&lt;/s1&gt;, module: &lt;s2&gt;'reports'&lt;/s2&gt;
 }
 
@@ -40089,6 +40213,18 @@ greeting.message = &lt;s0&gt;'Hi from Gradle'&lt;/s0&gt;
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20190130T233616Z" creationid="95" creationdate="20190130T233616Z">
         <seg>apply plugin:&lt;s0&gt;'application'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>apply plugin:EnterpriseRepositoryPlugin
+
+&lt;s0&gt;class&lt;/s0&gt; EnterpriseRepositoryPlugin &lt;s1&gt;implements&lt;/s1&gt; Plugin&lt;Gradle&gt; {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151215Z" creationid="huanghaohang" creationdate="20191206T151215Z">
+        <seg>apply plugin:EnterpriseRepositoryPlugin
+
+&lt;s0&gt;class&lt;/s0&gt; EnterpriseRepositoryPlugin &lt;s1&gt;implements&lt;/s1&gt; Plugin&lt;Gradle&gt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -45241,6 +45377,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>gradle.allprojects{ project -&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151217Z" creationid="huanghaohang" creationdate="20191206T151217Z">
+        <seg>gradle.allprojects{ project -&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>gradle.properties</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170917T135020Z" creationid="huanghaohang" creationdate="20170917T135020Z">
@@ -46763,6 +46907,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190730T152644Z" creationid="huanghaohang" creationdate="20190730T152644Z">
         <seg>init_scripts.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>init_scripts.html#sec:custom_classpath</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151408Z" creationid="huanghaohang" creationdate="20191206T151408Z">
+        <seg>init_scripts.html#sec:custom_classpath</seg>
       </tuv>
     </tu>
     <tu>
@@ -48834,6 +48986,14 @@ war {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>name &lt;s12&gt;"STANDARD_ENTERPRISE_REPO"&lt;/s12&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151223Z" creationid="huanghaohang" creationdate="20191206T151223Z">
+        <seg>name &lt;s12&gt;"STANDARD_ENTERPRISE_REPO"&lt;/s12&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>name &lt;s1&gt;'The Apache Software License, Version 2.0'&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190607T061320Z" creationid="huanghaohang" creationdate="20190607T061320Z">
@@ -49884,6 +50044,14 @@ repositories({ println &lt;s2&gt;"in a closure"&lt;/s2&gt; })</seg>
 }
 repositories() { println &lt;s1&gt;"in a closure"&lt;/s1&gt; }
 repositories({ println &lt;s2&gt;"in a closure"&lt;/s2&gt; })</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>println &lt;s0&gt;"repository: ${it.name} ('${it.url}')"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151230Z" creationid="huanghaohang" creationdate="20191206T151230Z">
+        <seg>println &lt;s0&gt;"repository: ${it.name} ('${it.url}')"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -51396,6 +51564,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>project.logger.lifecycle &lt;s10&gt;"Repository ${repo.url} removed. Only $ENTERPRISE_REPOSITORY_URL is allowed"&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151221Z" creationid="huanghaohang" creationdate="20191206T151221Z">
+        <seg>project.logger.lifecycle &lt;s10&gt;"Repository ${repo.url} removed. Only $ENTERPRISE_REPOSITORY_URL is allowed"&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>project.modulePaths.clear()</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190123T012758Z" creationid="huanghaohang" creationdate="20190123T012758Z">
@@ -51426,6 +51602,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20181202T023747Z" creationid="huanghaohang" creationdate="20181202T023747Z">
         <seg>project.projectDir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>project.repositories {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151218Z" creationid="huanghaohang" creationdate="20191206T151218Z">
+        <seg>project.repositories {</seg>
       </tuv>
     </tu>
     <tu>
@@ -51860,6 +52044,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>remove repo</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151221Z" creationid="huanghaohang" creationdate="20191206T151221Z">
+        <seg>remove repo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>rename &lt;s6&gt;'(.+)-staging-(.+)'&lt;/s6&gt;, &lt;s7&gt;'$1$2'&lt;/s7&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171126T060242Z" creationid="huanghaohang" creationdate="20171126T060242Z">
@@ -51970,6 +52162,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>repositories.each{</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151228Z" creationid="huanghaohang" creationdate="20191206T151228Z">
+        <seg>repositories.each{</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>repositories.mavenDeployer {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190607T092645Z" creationid="huanghaohang" creationdate="20190607T092645Z">
@@ -51982,6 +52182,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190607T111341Z" creationid="huanghaohang" creationdate="20190607T111341Z">
         <seg>repositories.mavenInstaller {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>repositories{</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151224Z" creationid="huanghaohang" creationdate="20191206T151224Z">
+        <seg>repositories{</seg>
       </tuv>
     </tu>
     <tu>
@@ -54614,6 +54822,14 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>task showRepositories &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151227Z" creationid="huanghaohang" creationdate="20191206T151227Z">
+        <seg>task showRepositories &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>task spiJar(type: Jar) {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190617T162739Z" creationid="huanghaohang" creationdate="20190617T162739Z">
@@ -55725,6 +55941,14 @@ test {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180811T152257Z" creationid="huanghaohang" creationdate="20180811T152257Z">
         <seg>url = &lt;s2&gt;"jdbc:mysql://my.server.com/sonar"&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>url ENTERPRISE_REPOSITORY_URL</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151223Z" creationid="huanghaohang" creationdate="20191206T151223Z">
+        <seg>url ENTERPRISE_REPOSITORY_URL</seg>
       </tuv>
     </tu>
     <tu>
