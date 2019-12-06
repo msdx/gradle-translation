@@ -25163,6 +25163,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In &lt;a0&gt;Section 59.5, “External dependencies for the build script”&lt;/a0&gt; is was explained how to add external dependencies to a build script. Init scripts can similarly have external dependencies defined. You do this using the &lt;c1&gt;initscript()&lt;/c1&gt; method, passing in a closure which declares the init script classpath.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T150729Z" creationid="huanghaohang" creationdate="20191206T150729Z">
+        <seg>在 &lt;a0&gt;第 59.5 节，《构建脚本的外部依赖》&lt;/a0&gt; 中，已经解释了如何向构建脚本添加外部依赖。初始化脚本同样可以定义外部依赖。通过使用 &lt;c1&gt;initscript()&lt;/c1&gt; 方法，传入一个声明了初始化脚本类路径的闭包就可以了。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In Gradle a dependency can have different configurations (as your project can have different configurations). If you don't specify anything explicitly, Gradle uses the default configuration of the dependency. For dependencies from a Maven repository, the default configuration is the only available one anyway. If you work with Ivy repositories and want to declare a non-default configuration for your dependency you have to use the map notation and declare:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190602T141431Z" creationid="huanghaohang" creationdate="20190602T141431Z">
