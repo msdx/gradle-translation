@@ -11529,6 +11529,18 @@ buildscript {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.commons.math.fraction.Fraction
+
+initscript {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151032Z" creationid="huanghaohang" creationdate="20191206T151032Z">
+        <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.commons.math.fraction.Fraction
+
+initscript {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;s0&gt;import&lt;/s0&gt; org.apache.tools.ant.filters.FixCrLfFilter
 &lt;s1&gt;import&lt;/s1&gt; org.apache.tools.ant.filters.ReplaceTokens
 
@@ -22147,6 +22159,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 60.2. Declaring external dependencies for an init script</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T150735Z" creationid="huanghaohang" creationdate="20191206T150735Z">
+        <seg>示例 60.2. 声明构建脚本的外部依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 60.3. An init script with external dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151031Z" creationid="huanghaohang" creationdate="20191206T151031Z">
+        <seg>示例 60.3. 具有外部依赖的初始化脚本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -24383,6 +24411,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191202T141044Z" creationid="huanghaohang" creationdate="20191202T140723Z">
         <seg>声明了构建脚本类路径后，你可以在构建脚本中使用这些类，就像使用其他在类路径上的类一样。以下示例是在上一示例的基础上，增加了使用构建脚本类路径中的类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Having declared the init script classpath, you can use the classes in your init script as you would any other classes on the classpath. The following example adds to the previous example, and uses classes from the init script classpath.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151004Z" creationid="huanghaohang" creationdate="20191206T151004Z">
+        <seg>声明了初始化脚本类路径后，你可以在初始化脚本中使用这些类，就像使用其他在类路径上的类一样。以下示例是在上一示例的基础上，增加了使用初始化脚本类路径中的类。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27407,6 +27443,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180407T020031Z" creationid="huanghaohang" creationdate="20180407T020031Z">
         <seg>否则，该任务将执行失败，并提示无法推断 &lt;c0&gt;scalaClasspath&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle --init-script init.gradle -q doNothing&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151118Z" creationid="huanghaohang" creationdate="20191206T151118Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle --init-script init.gradle -q doNothing&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -33301,6 +33345,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191202T140718Z" creationid="huanghaohang" creationdate="20191202T140358Z">
         <seg>这个传给 &lt;c0&gt;buildscript()&lt;/c0&gt; 方法的闭包配置了一个 &lt;a1&gt;&lt;c2&gt;ScriptHandler&lt;/c2&gt;&lt;/a1&gt; 实例。你可以通过将依赖添加到 &lt;c3&gt;classpath&lt;/c3&gt; 配置的方式来声明构建脚本类路径。这与 Java 编译类路径的声明方式是一样的。你可以使用&lt;a4&gt;第 50.4 节，《如何声明你的依赖》&lt;/a4&gt;中描述的除项目依赖之外的任何依赖类型。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The closure passed to the &lt;c0&gt;initscript()&lt;/c0&gt; method configures a &lt;a1&gt;&lt;c2&gt;ScriptHandler&lt;/c2&gt;&lt;/a1&gt; instance. You declare the init script classpath by adding dependencies to the &lt;c3&gt;classpath&lt;/c3&gt; configuration. This is the same way you declare, for example, the Java compilation classpath. You can use any of the dependency types described in &lt;a4&gt;Section 50.4, “How to declare your dependencies”&lt;/a4&gt;, except project dependencies.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T150922Z" creationid="huanghaohang" creationdate="20191206T150922Z">
+        <seg>这个传给 &lt;c0&gt;initscript()&lt;/c0&gt; 方法的闭包配置了一个 &lt;a1&gt;&lt;c2&gt;ScriptHandler&lt;/c2&gt;&lt;/a1&gt; 实例。你可以通过将依赖添加到 &lt;c3&gt;classpath&lt;/c3&gt; 配置的方式来声明初始化脚本类路径。这与 Java 编译类路径的声明方式是一样的。你可以使用&lt;a4&gt;第 50.4 节，《如何声明你的依赖》&lt;/a4&gt;中描述的除项目依赖之外的任何依赖类型。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41331,6 +41383,22 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>classpath group: &lt;s0&gt;'org.apache.commons'&lt;/s0&gt;, name: &lt;s1&gt;'commons-math'&lt;/s1&gt;, version: &lt;s2&gt;'2.0'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T150738Z" creationid="huanghaohang" creationdate="20191206T150738Z">
+        <seg>classpath group: &lt;s0&gt;'org.apache.commons'&lt;/s0&gt;, name: &lt;s1&gt;'commons-math'&lt;/s1&gt;, version: &lt;s2&gt;'2.0'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>classpath group: &lt;s1&gt;'org.apache.commons'&lt;/s1&gt;, name: &lt;s2&gt;'commons-math'&lt;/s2&gt;, version: &lt;s3&gt;'2.0'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151039Z" creationid="huanghaohang" creationdate="20191206T151039Z">
+        <seg>classpath group: &lt;s1&gt;'org.apache.commons'&lt;/s1&gt;, name: &lt;s2&gt;'commons-math'&lt;/s2&gt;, version: &lt;s3&gt;'2.0'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>classpath group: &lt;s1&gt;'org.gradle'&lt;/s1&gt;, name: &lt;s2&gt;'customPlugin'&lt;/s2&gt;, version: &lt;s3&gt;'1.0-SNAPSHOT'&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190706T123742Z" creationid="huanghaohang" creationdate="20190706T123742Z">
@@ -46703,6 +46771,14 @@ tree.visit {element -&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180416T143000Z" creationid="huanghaohang" creationdate="20180416T143000Z">
         <seg>initializeInOrder = true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>initscript {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T150736Z" creationid="huanghaohang" creationdate="20191206T150736Z">
+        <seg>initscript {</seg>
       </tuv>
     </tu>
     <tu>
@@ -56543,6 +56619,20 @@ libraries {</seg>
 }
 
 libraries {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>}
+}
+
+println Fraction.ONE_FIFTH.multiply(&lt;s4&gt;2&lt;/s4&gt;)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191206T151040Z" creationid="huanghaohang" creationdate="20191206T151040Z">
+        <seg>}
+}
+
+println Fraction.ONE_FIFTH.multiply(&lt;s4&gt;2&lt;/s4&gt;)</seg>
       </tuv>
     </tu>
     <tu>
