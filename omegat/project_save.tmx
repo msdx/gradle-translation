@@ -32097,6 +32097,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The Gradle Wrapper (henceforth referred to as the “wrapper”) is the preferred way of starting a Gradle build. The wrapper is a batch script on Windows, and a shell script for other operating systems. When you start a Gradle build via the wrapper, Gradle will be automatically downloaded and used to run the build.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191207T133322Z" creationid="huanghaohang" creationdate="20191207T133322Z">
+        <seg>Gradle Wrapper（下称“包装器”）是启动 Gradle 构建的首选方法。 包装器是 Windows上的批处理脚本，以及用于其他操作系统的 shell 脚本。 当您通过包装程序启动 Gradle 构建时， Gradle 将自动下载并用于运行构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The Gradle Wrapper allows you to execute Gradle builds on machines where Gradle is not installed. This is useful for example for some continuous integration servers. It is also useful for an open source project to keep the barrier low for building it. The wrapper is also very interesting for the enterprise. It is a zero administration approach for the client machines. It also enforces the usage of a particular Gradle version thus minimizing support issues.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170723T065536Z" creationid="95" creationdate="20170723T065536Z">
