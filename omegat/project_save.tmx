@@ -22259,6 +22259,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 61.1. Wrapper task</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130037Z" creationid="huanghaohang" creationdate="20191219T130037Z">
+        <seg>示例 61.1. Wrapper 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -38565,6 +38573,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171216T022441Z" creationid="huanghaohang" creationdate="20171216T022027Z">
         <seg>通过调用 &lt;c0&gt;AntBuilder&lt;/c0&gt; 实例上的一个方法，可以来执行一个 Ant 任务。你可以把任务名称作为方法名称来使用。例如，通过调用 &lt;c2&gt;ant.echo()&lt;/c2&gt; 方法执行 Ant &lt;c1&gt;echo&lt;/c1&gt; 任务。Ant 任务的属性将作为 Map 参数传递给这个方法。下面是执行 &lt;c3&gt;echo&lt;/c3&gt; 任务的一个例子。请注意，我们也可以混合使用 Groovy 代码和 Ant 任务标记，这会很强大。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You install the wrapper into your project by adding and configuring a &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt; task in your build script, and then executing it.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130028Z" creationid="huanghaohang" creationdate="20191219T130028Z">
+        <seg>你可以通过在你的构建脚本中添加一个 &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt; 任务并配置，然后执行它。</seg>
       </tuv>
     </tu>
     <tu>
