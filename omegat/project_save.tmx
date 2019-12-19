@@ -9422,6 +9422,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>61.1. Configuration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T135517Z" creationid="huanghaohang" creationdate="20191219T135517Z">
+        <seg>60.1. 配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171014T124851Z" creationid="huanghaohang" creationdate="20171014T124851Z">
@@ -15447,6 +15455,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>After such an execution you find the following new or updated files in your project directory (in case the default configuration of the wrapper task is used).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130142Z" creationid="huanghaohang" creationdate="20191219T130142Z">
+        <seg>执行之后，你会在你的项目目录中发现以下新生成或更新的文件（在使用的 wrapper 任务为默认配置的情况下）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Again, this defines a task called &lt;c0&gt;hello&lt;/c0&gt; with a single closure to execute. We will use this task definition style throughout the user guide.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170726T155544Z" creationid="95" creationdate="20170726T155319Z">
@@ -15579,6 +15595,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190128T061229Z" creationid="huanghaohang" creationdate="20190128T061229Z">
         <seg>“&lt;c0&gt;src/&lt;e1&gt;&lt;c2&gt;$distribution.name&lt;/c2&gt;&lt;/e1&gt;/dist&lt;/c0&gt;”目录中的所有文件都会被自动包含在分发中。你可以通过配置作为容器中的一部分的&lt;a3&gt;&lt;c4&gt;Distribution&lt;/c4&gt;&lt;/a3&gt;对象来添加其他文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All of these files &lt;s0&gt;&lt;e1&gt;should&lt;/e1&gt;&lt;/s0&gt; be submitted to your version control system. This only needs to be done once. After these files have been added to the project, the project should then be built with the added &lt;s2&gt;&lt;s3&gt;gradlew&lt;/s3&gt;&lt;/s2&gt; command. The &lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; command can be used &lt;s6&gt;&lt;e7&gt;exactly&lt;/e7&gt;&lt;/s6&gt; the same way as the &lt;s8&gt;&lt;s9&gt;gradle&lt;/s9&gt;&lt;/s8&gt; command.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T135250Z" creationid="huanghaohang" creationdate="20191219T135250Z">
+        <seg>所有这些文件都 &lt;s0&gt;&lt;e1&gt;应该&lt;/e1&gt;&lt;/s0&gt; 提交到版本控制系统中。这只需要做一次。在将这些文件添加到项目之后，应该使用所添加的 &lt;s2&gt;&lt;s3&gt;gradlew&lt;/s3&gt;&lt;/s2&gt; 命令来构建项目。&lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; 命令可以和 &lt;s8&gt;&lt;s9&gt;gradle&lt;/s9&gt;&lt;/s8&gt; 命令&lt;s6&gt;&lt;e7&gt;完全&lt;/e7&gt;&lt;/s6&gt;一样地使用。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22267,6 +22291,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 61.2. Wrapper generated files</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130148Z" creationid="huanghaohang" creationdate="20191219T130148Z">
+        <seg>示例 61.2. 包装器生成的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -25163,6 +25195,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you run Gradle with &lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt;, the wrapper checks if a Gradle distribution for the wrapper is available. If not it tries to download it, otherwise it delegates to the &lt;s2&gt;&lt;s3&gt;gradle&lt;/s3&gt;&lt;/s2&gt; command of this distribution with all the arguments passed originally to the &lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; command.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T135731Z" creationid="huanghaohang" creationdate="20191219T135519Z">
+        <seg>如果你使用 &lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt; 运行 Gradle ，那么包装器会检查要使用的 Gradle 分发是否可用。如果不可用，会尝试下载它，可用的话会将传给 &lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; 命令的所有参数都委托给这个分发包的 &lt;s2&gt;&lt;s3&gt;gradle&lt;/s3&gt;&lt;/s2&gt; 命令。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you run this from your Gradle project working directory, you should see a tree of tasks.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170911T143505Z" creationid="huanghaohang" creationdate="20170911T143505Z">
@@ -25175,6 +25215,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170724T151624Z" creationid="95" creationdate="20170724T151624Z">
         <seg>如果你认为它看上去和Ant的目标很像，那就对了。Gradle的任务相当于Ant的目标。但是，正如你所见，它们更加强大。我们使用与Ant不同的术语，是因为我们认为&lt;s0&gt;&lt;e1&gt;任务&lt;/e1&gt;&lt;/s0&gt;这个词比&lt;s2&gt;&lt;e3&gt;目标&lt;/e3&gt;&lt;/s2&gt;的含义更丰富。不过不幸的是，这也导致了与Ant的术语冲突。Ant会调用它自己的一些命令，比如像&lt;c4&gt;javac&lt;/c4&gt; 或是 &lt;c5&gt;copy&lt;/c5&gt;任务。因为，当我们讨论任务时，&lt;s6&gt;&lt;e7&gt;通常&lt;/e7&gt;&lt;/s6&gt;指的是Gradle的任务，相当于Ant的目标。当我们讨论Ant 的任务时，我们会明确地说是 &lt;s8&gt;&lt;e9&gt;ant 任务&lt;/e9&gt;&lt;/s8&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you want to switch to a new version of Gradle you don't need to rerun the wrapper task. It is good enough to change the respective entry in the &lt;c0&gt;gradle-wrapper.properties&lt;/c0&gt; file. But if there is for example an improvement in the gradle-wrapper functionality you need to regenerate the wrapper files.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T135512Z" creationid="huanghaohang" creationdate="20191219T135512Z">
+        <seg>如果要切换到新版本的 Gradle，不用重新运行包装器任务，只要修改 &lt;c0&gt;gradle-wrapper.properties&lt;/c0&gt; 文件中的相应属性就可以了。但是，如果有例如 gradle 包装器功能提升的情况的话，你还是需要重新生成包装器文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37353,6 +37401,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When you configure the &lt;c0&gt;Wrapper&lt;/c0&gt; task, you can specify the Gradle version you wish to use. The &lt;s1&gt;&lt;s2&gt;gradlew&lt;/s2&gt;&lt;/s1&gt; command will download the appropriate distribution from the Gradle repository. Alternatively, you can specify the download URL of the Gradle distribution. The &lt;s3&gt;&lt;s4&gt;gradlew&lt;/s4&gt;&lt;/s3&gt; command will use this URL to download the distribution. If you specify neither a Gradle version or download URL, the &lt;s5&gt;&lt;s6&gt;gradlew&lt;/s6&gt;&lt;/s5&gt; command will by default download whichever version of Gradle was used to generate the wrapper files.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T140050Z" creationid="huanghaohang" creationdate="20191219T140050Z">
+        <seg>配置 &lt;c0&gt;Wrapper&lt;/c0&gt; 任务时，可以指定要使用的 Gradle 版本。&lt;s1&gt;&lt;s2&gt;gradlew&lt;/s2&gt;&lt;/s1&gt; 命令将从 Gradle 仓库下载相应的分发。另外，你也可以指定 Gradle 分发包的下载 URL，&lt;s3&gt;&lt;s4&gt;gradlew&lt;/s4&gt;&lt;/s3&gt; 命令将使用这个 URL 下载分发。如果你没有指定 Gradle 版本或下载 URL，那么 &lt;s5&gt;&lt;s6&gt;gradlew&lt;/s6&gt;&lt;/s5&gt; 命令默认情况下将下载生成了包装器文件的 Gradle 版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When you define a new source set, the Java plugin adds some dependency configurations for the source set, as shown in &lt;a0&gt;Table 23.6, “Java plugin - source set dependency configurations”&lt;/a0&gt;. You can use these configurations to define the compile and runtime dependencies of the source set.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20180326T094833Z" creationid="haohang" creationdate="20180326T094833Z">
@@ -45401,6 +45457,22 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>gradle-wrapper.jar</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130154Z" creationid="huanghaohang" creationdate="20191219T130154Z">
+        <seg>gradle-wrapper.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gradle-wrapper.properties</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130208Z" creationid="huanghaohang" creationdate="20191219T130208Z">
+        <seg>gradle-wrapper.properties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>gradle.afterProject {project, projectState -&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190613T150829Z" creationid="huanghaohang" creationdate="20190613T150829Z">
@@ -45425,6 +45497,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>gradle/wrapper/</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130153Z" creationid="huanghaohang" creationdate="20191219T130153Z">
+        <seg>gradle/wrapper/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>gradlePropertiesProp=gradlePropertiesValue
 systemProjectProp=shouldBeOverWrittenBySystemProp
 envProjectProp=shouldBeOverWrittenByEnvProp
@@ -45435,6 +45515,16 @@ systemProp.system=systemValue</seg>
 systemProjectProp=shouldBeOverWrittenBySystemProp
 envProjectProp=shouldBeOverWrittenByEnvProp
 systemProp.system=systemValue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gradleVersion = &lt;s0&gt;'1.4'&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130039Z" creationid="huanghaohang" creationdate="20191219T130039Z">
+        <seg>gradleVersion = &lt;s0&gt;'1.4'&lt;/s0&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -45491,6 +45581,22 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20190201T155540Z" creationid="95" creationdate="20190201T155540Z">
         <seg>gradle_wrapper.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gradlew</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130151Z" creationid="huanghaohang" creationdate="20191219T130151Z">
+        <seg>gradlew</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gradlew.bat</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130152Z" creationid="huanghaohang" creationdate="20191219T130152Z">
+        <seg>gradlew.bat</seg>
       </tuv>
     </tu>
     <tu>
@@ -53026,6 +53132,14 @@ signing.secretKeyRingFile=/Users/me/.gnupg/secring.gpg</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>simple/</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130149Z" creationid="huanghaohang" creationdate="20191219T130149Z">
+        <seg>simple/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>skip = true</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180811T153058Z" creationid="huanghaohang" creationdate="20180811T153058Z">
@@ -54938,6 +55052,14 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170726T155757Z" creationid="95" creationdate="20170726T155757Z">
         <seg>task upper &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>task wrapper(type: Wrapper) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130038Z" creationid="huanghaohang" creationdate="20191219T130038Z">
+        <seg>task wrapper(type: Wrapper) {</seg>
       </tuv>
     </tu>
     <tu>
