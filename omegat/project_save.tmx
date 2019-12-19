@@ -34649,6 +34649,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The wrapper is something you &lt;s0&gt;&lt;e1&gt;should&lt;/e1&gt;&lt;/s0&gt; check into version control. By distributing the wrapper with your project, anyone can work with it without needing to install Gradle beforehand. Even better, users of the build are guaranteed to use the version of Gradle that the build was designed to work with. Of course, this is also great for &lt;a2&gt;continuous integration&lt;/a2&gt; servers (i.e. servers that regularly build your project) as it requires no configuration on the server.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T125935Z" creationid="huanghaohang" creationdate="20191219T125935Z">
+        <seg>你 &lt;s0&gt;&lt;e1&gt;应该&lt;/e1&gt;&lt;/s0&gt; 将包装器纳入版本控制。通过将包装器分发到项目中，任何人都可以在未安装 Gradle 的情况下使用它。更好的效果是能让用户使用这个构建所设计的 Gradle 版本。当然，这对于 &lt;a2&gt;连续集成&lt;/a2&gt; 服务器（即定期构建项目的服务器）也很重要，因为它不需要在服务器上进行配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The wrapper plugin adds the following tasks to the project:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20190201T155955Z" creationid="95" creationdate="20190201T155955Z">
