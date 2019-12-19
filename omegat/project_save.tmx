@@ -23363,6 +23363,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For the details on how to configure the wrapper, see &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T140104Z" creationid="huanghaohang" creationdate="20191219T140104Z">
+        <seg>有关如何配置包装器的详细信息，请参见 &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For the examples below we have the following dependencies setup:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190602T142751Z" creationid="huanghaohang" creationdate="20190602T142751Z">
@@ -25143,6 +25151,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190602T112946Z" creationid="huanghaohang" creationdate="20190602T105701Z">
         <seg>如果你为一个特定配置定义了排除，那么解析这个配置或任何继承的配置时，所有依赖的被排除的传递依赖都会被过滤掉。如果你要从所有配置中排除传递依赖，那么可以使用一种简明的方式，使用 Groovy 的 spread-dot 运算符来表示此操作，如示例中所示。定义排除时，你可以只指定组织或只指定模块名称，或者两者都指定。另请查看 &lt;a0&gt;&lt;c1&gt;Dependency&lt;/c1&gt;&lt;/a0&gt; 和 &lt;a2&gt;&lt;c3&gt;Configuration&lt;/c3&gt;&lt;/a2&gt; 的 API 文档。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you don't want any download to happen when your project is build via &lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt;, simply add the Gradle distribution zip to your version control at the location specified by your wrapper configuration. A relative URL is supported - you can specify a distribution file relative to the location of &lt;c2&gt;gradle-wrapper.properties&lt;/c2&gt; file.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T141246Z" creationid="huanghaohang" creationdate="20191219T140107Z">
+        <seg>如果你不想项目在通过 &lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt; 构建时进行下载，那么只需将 Gradle 分发包的 zip 文件添加到版本控制中包装器配置所指定的位置上。它支持相对 URL——你可以通过相对于 &lt;c2&gt;gradle-wrapper.properties&lt;/c2&gt; 文件的位置指定一个分发文件。</seg>
       </tuv>
     </tu>
     <tu>
