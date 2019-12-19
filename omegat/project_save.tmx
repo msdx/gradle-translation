@@ -9430,6 +9430,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>61.2. Unix file permissions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T141303Z" creationid="huanghaohang" creationdate="20191219T141303Z">
+        <seg>61.2. Unix 文件权限</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171014T124851Z" creationid="huanghaohang" creationdate="20171014T124851Z">
@@ -25131,6 +25139,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you build via the wrapper, any existing Gradle distribution installed on the machine is ignored.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T141301Z" creationid="huanghaohang" creationdate="20191219T141301Z">
+        <seg>如果你通过包装器构建，这台机器上已安装的任何 Gradle 分发包都会被忽略。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you come from Maven land you might be perfectly happy with this. If you come from Ivy land, you might expect some more fine grained control. Gradle offers this to you:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190617T162643Z" creationid="huanghaohang" creationdate="20190617T162643Z">
@@ -33293,6 +33309,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180408T140131Z" creationid="huanghaohang" creationdate="20180408T140131Z">
         <seg>War 插件扩展了 Java插件，以添加对组装 Web 应用程序 WAR 文件的支持。它禁用 Java 插件默认的 JAR 归档生成，并添加一个默认的 WAR 归档任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Wrapper task adds appropriate file permissions to allow the execution for the gradlew *NIX command. Subversion preserves this file permission. We are not sure how other version control systems deal with this. What should always work is to execute &lt;c0&gt;sh gradlew&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T141558Z" creationid="huanghaohang" creationdate="20191219T141558Z">
+        <seg>Wrapper 任务添加了相应的文件权限，以允许 gradlew *NIX 命令的执行。Subversion 会保留此文件权限。我们不确定其他版本控制系统是如何处理这一问题的，所以能让它始终可以使用的方法是执行 &lt;c0&gt;sh gradlew&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
