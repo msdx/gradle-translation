@@ -14831,6 +14831,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A fundamental characteristic of the tooling API is that it operates in a version independent way. This means that you can use the same API to work with different target versions of Gradle. The tooling API is Gradle wrapper aware and, by default, uses the same target Gradle version as that used by the wrapper-powered project.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191220T142659Z" creationid="huanghaohang" creationdate="20191220T142659Z">
+        <seg>这个 tooling API 的基本特征是它以独立于版本的方式运行。这意味着你可以使用同一 API 来处理不同目标g版本的 Gradle。Toolin API 是能感知到 Gradle 包装器的，默认情况下，它使用与包装器驱动的项目相同的 Gradle 版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A list of available Sonar properties can be found in the &lt;a0&gt;Sonar documentation&lt;/a0&gt;. Note that for most of these properties, the Sonar plugin's object model has an equivalent property, and it isn't necessary to use a &lt;c1&gt;withGlobalProperties&lt;/c1&gt; or &lt;c2&gt;withProjectProperties&lt;/c2&gt; hook. For configuring a third-party Sonar plugin, consult the plugin's documentation.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20181012T084754Z" creationid="huanghaohang" creationdate="20180816T135524Z">
