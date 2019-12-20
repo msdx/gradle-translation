@@ -31401,6 +31401,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The 1.0 milestone 3 release brought a new API called the tooling API, which you can use for embedding Gradle. This API allows you to execute and monitor builds, and to query Gradle about the details of a build. The main audience for this API is IDE, CI server, other UI authors, or integration testing of your Gradle plugins. However, it is open for anyone who needs to embed Gradle in their application.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191220T142116Z" creationid="huanghaohang" creationdate="20191220T142116Z">
+        <seg>1.0 里程碑 3 发行版带来了新 API，叫 tooling API，可用于嵌入 Gradle。这个 API 允许你执行和监视构建，以及向 Gradle 查询有关构建的细节。它的主要受众是 IDE，CI 服务器，其他的 UI 作者或你的 Gradle 插件的集成测试。不过，它是向所有需要在其应用程序中嵌入 Gradle 的人开放的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The &lt;a0&gt;&lt;c1&gt;JacocoReport&lt;/c1&gt;&lt;/a0&gt; task can be used to generate code coverage reports in different formats. It implements the standard Gradle type &lt;a2&gt;&lt;c3&gt;Reporting&lt;/c3&gt;&lt;/a2&gt; and exposes a report container of type &lt;a4&gt;&lt;c5&gt;JacocoReportsContainer&lt;/c5&gt;&lt;/a4&gt;.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180715T093001Z" creationid="huanghaohang" creationdate="20180712T135532Z">
