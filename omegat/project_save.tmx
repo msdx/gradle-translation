@@ -29803,6 +29803,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Some features that the tooling API provides today:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191220T142714Z" creationid="huanghaohang" creationdate="20191220T142714Z">
+        <seg>目前这个 tooling API 提供了以下这些功能：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Some other types of things you can pass to &lt;c0&gt;files()&lt;/c0&gt;:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170927T150454Z" creationid="huanghaohang" creationdate="20170927T150415Z">
@@ -36345,6 +36353,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Tooling API can download and install the appropriate Gradle version, similar to the wrapper. Bear in mind that the tooling API is wrapper aware so you should not need to configure a Gradle distribution directly.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191220T143053Z" creationid="huanghaohang" creationdate="20191220T143053Z">
+        <seg>Tooling API 可以下载并安装相应的 Gradle 版本，类似于包装器。请记住，tooling API 是有包装器感知的，因此你不应该直接配置 Gradle 分发包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Top level element that enables configuration of the Eclipse plugin in a DSL-friendly fashion</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20181210T061707Z" creationid="huanghaohang" creationdate="20181210T030129Z">
@@ -38273,6 +38289,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can execute a build, and listen to stdout and stderr logging and progress (e.g. the stuff shown in the 'status bar' when you run on the command line).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191220T142951Z" creationid="huanghaohang" creationdate="20191220T142951Z">
+        <seg>你可以执行构建，并且监听标准输出和错误输出的日志和进度（例如当你在命令上运行时显示在“状态栏”上的内容）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can execute multiple tasks in a single build by listing each of the tasks on the command-line. For example, the command &lt;s0&gt;&lt;c1&gt;gradle compile test&lt;/c1&gt;&lt;/s0&gt; will execute the &lt;c2&gt;compile&lt;/c2&gt; and &lt;c3&gt;test&lt;/c3&gt; tasks. Gradle will execute the tasks in the order that they are listed on the command-line, and will also execute the dependencies for each task. Each task is executed once only, regardless of how it came to be included in the build: whether it was specified on the command-line, or it a dependency of another task, or both. Let's look at an example.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170909T030834Z" creationid="huanghaohang" creationdate="20170909T030834Z">
@@ -38421,6 +38445,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190704T154508Z" creationid="huanghaohang" creationdate="20190704T150411Z">
         <seg>您可以将任务类的源码放在 &lt;c0&gt;&lt;e1&gt;&lt;c2&gt;rootProjectDir&lt;/c2&gt;&lt;/e1&gt;/buildSrc/src/main/rootvy&lt;/c0&gt; 目录中。Gradle 将会编译和测试这个任务类，并使其在构建脚本的类路径中可用。这个任务类对该构建所使用的每个构建脚本都可见。然而，它在构建外部不可见，因此你无法在定义这个任务类的构建之外的其他地方来复用它。使用 &lt;c3&gt;buildSrc&lt;/c3&gt; 项目方法能够保持任务声明——即任务应该做什么，与任务实现——即任务是怎么做的之间相互独立。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can query Gradle for the details of a build, including the project hierarchy and the project dependencies, external dependencies (including source and javadoc jars), source directories and tasks of each project.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191220T142902Z" creationid="huanghaohang" creationdate="20191220T142715Z">
+        <seg>你可以查询 Gradle 关于构建的详细信息，包括项目层次结构和项目依赖，外部依赖（包括源代码及 javadoc jars），每一个项目的源代码目录和任务。</seg>
       </tuv>
     </tu>
     <tu>
