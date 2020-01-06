@@ -25331,6 +25331,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you're embedding Gradle and you're looking for exact set of dependencies the tooling API Jar requires please look at one of the samples in &lt;c0&gt;$gradleHome/samples/toolingApi&lt;/c0&gt;. The dependencies are declared in the Gradle build scripts. You can also find the repository declarations where the Jars are obtained from.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200106T152503Z" creationid="huanghaohang" creationdate="20200106T152503Z">
+        <seg>如果你正在嵌入 Gradle，并且正在寻找 tooling API 所需要的确切依赖，那么请查看 &lt;c0&gt;$gradleHome/samples/toolingApi&lt;/c0&gt; 中的样本。依赖是在 Gradle 构建脚本中声明的。你还可以找到获取 Jar 的仓库声明。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If your Java application requires a specific set of JVM settings or system properties, you can configure the &lt;c0&gt;applicationDefaultJvmArgs&lt;/c0&gt; property. These JVM arguments are applied to the &lt;c1&gt;run&lt;/c1&gt; task and also considered in the generated start scripts of your distribution.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20190131T134908Z" creationid="95" creationdate="20190131T134243Z">
