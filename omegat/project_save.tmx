@@ -9446,6 +9446,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>62.2. Tooling API and the Gradle Build Daemon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191231T123016Z" creationid="huanghaohang" creationdate="20191231T123016Z">
+        <seg>62.2. Tooling API 及 Gradle 构建守护进程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171014T124851Z" creationid="huanghaohang" creationdate="20171014T124851Z">
@@ -27205,8 +27213,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="en-US">
         <seg>Notifications when things in the build change, so that UIs and models can be updated. For example, your Eclipse or IDEA project will update immediately, in the background.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191231T122718Z" creationid="huanghaohang" creationdate="20191231T122718Z">
-        <seg>Notifications when things in the build change, so that UIs and models can be updated. For example, your Eclipse or IDEA project will update immediately, in the background.</seg>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191231T122910Z" creationid="huanghaohang" creationdate="20191231T122718Z">
+        <seg>当构建中的内容有变化时进行通知，以便可以更新 UI 和模型。例如，Eclipse 或 IDEA 项目将在后台立即更新。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28539,6 +28547,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please take a look at &lt;a0&gt;Chapter 19, &lt;i1&gt;The Gradle Daemon&lt;/i1&gt;&lt;/a0&gt;. The Tooling API uses the daemon all the time, e.g. you cannot officially use the Tooling API without the daemon. This means that subsequent calls to the Tooling API, be it model building requests or task executing requests can be executed in the same long-living process. &lt;a2&gt;Chapter 19, &lt;i3&gt;The Gradle Daemon&lt;/i3&gt;&lt;/a2&gt; contains more details about the daemon, specifically information on situations when new daemons are forked.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200106T151131Z" creationid="huanghaohang" creationdate="20200106T151131Z">
+        <seg>请查看《&lt;a0&gt;第 19 章，&lt;i1&gt;Gradle 守护进程&lt;/i1&gt;&lt;/a0&gt;》。Tooling API 全程使用守护进程，举例来说，没有守护进程，你就不能正式使用 Tooling API。这意味着后续调用 Tooling API 时，都会在同一个长期存活的进程中执行构建请求或任务执行请求的模型。《&lt;a2&gt;第 19 章，&lt;i3&gt;Gradle 守护进程&lt;/i3&gt;&lt;/a2&gt;》包含了有关守护进程的更多详细内容，特别是有关派生新守护程序情况的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20181210T025213Z" creationid="huanghaohang" creationdate="20181210T025213Z">
@@ -28783,6 +28799,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180811T153053Z" creationid="huanghaohang" creationdate="20180811T153053Z">
         <seg>项目也可以单独配置。例如，设置 &lt;c0&gt;skip&lt;/c0&gt; 属性为&lt;c1&gt;true&lt;/c1&gt; 以防止一个项目（及其子项目）被分析。所跳过的项目不会显示在 Sonar Web 界面中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Prompting for and managing user credentials.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191231T123002Z" creationid="huanghaohang" creationdate="20191231T123002Z">
+        <seg>对用户凭据的输入提示和管理。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36837,6 +36861,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190603T041658Z" creationid="huanghaohang" creationdate="20190603T041658Z">
         <seg>布局名称的有效值为 &lt;c0&gt;'gradle'&lt;/c0&gt; （默认值）,&lt;c1&gt;'maven'&lt;/c1&gt; 和 &lt;c2&gt;'ivy'&lt;/c2&gt;。有关这些指定的布局，请参阅 &lt;a3&gt;&lt;c4&gt;IvyArtifactRepository.layout()&lt;/c4&gt;&lt;/a3&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Validating and prompting for user supplied configuration.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191231T122921Z" creationid="huanghaohang" creationdate="20191231T122921Z">
+        <seg>对用户提供的配置进行验证和输入提示。</seg>
       </tuv>
     </tu>
     <tu>
