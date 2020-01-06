@@ -2242,6 +2242,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>../javadoc/org/gradle/tooling/GradleConnector.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200106T151206Z" creationid="huanghaohang" creationdate="20200106T151206Z">
+        <seg>../javadoc/org/gradle/tooling/GradleConnector.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>// Maven2 layout (if a repository is marked as Maven2 compatible, the organization (group) is split into subfolders according to the dots.)
 someroot/[organisation]/[module]/[revision]/[module]-[revision].[ext]
 
@@ -9450,6 +9458,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191231T123016Z" creationid="huanghaohang" creationdate="20191231T123016Z">
         <seg>62.2. Tooling API 及 Gradle 构建守护进程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>62.3. Quickstart</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200106T151204Z" creationid="huanghaohang" creationdate="20200106T151204Z">
+        <seg>62.3. 快速入门</seg>
       </tuv>
     </tu>
     <tu>
@@ -29783,6 +29799,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190706T133114Z" creationid="huanghaohang" creationdate="20190706T133114Z">
         <seg>从上面所述的实现的引入（在 Gradle 1.6 发布周期的早期）以来，Gradle 社区内部的讨论中就产生了一些出色的想法，将有关任务实现者的更改信息暴露到下面所述内容中。因此，这个功能的 API 几乎可以肯定将在即将推出的版本中进行更改。但是，请对当前的实现做实现，并与 Gradle 社区分享你的经验。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Since the tooling API is an interface for a programmer most of the documentation lives in the Javadoc. This is exactly our intention - we don't expect this chapter to grow very much. Instead we will add more code samples and improve the Javadoc documentation. The main entry point to the tooling API is the &lt;a0&gt;&lt;c1&gt;GradleConnector&lt;/c1&gt;&lt;/a0&gt;. You can navigate from there and find code samples and other instructions. Pretty effective way of learning how to use the tooling API is checking out and running the &lt;s2&gt;&lt;e3&gt;samples&lt;/e3&gt;&lt;/s2&gt; that live in &lt;c4&gt;$gradleHome/samples/toolingApi&lt;/c4&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200106T152233Z" creationid="huanghaohang" creationdate="20200106T152233Z">
+        <seg>由于Tooling API 是面向程序员的接口，因此大部分的文档都在 Javadoc 中。这正是我们的目的——我们不希望本章节内容篇幅太大。相反，我们将添加更多的代码示例并改进 Javadoc 文档。Tooling API 的主要入口点是 &lt;a0&gt;&lt;c1&gt;GradleConnector&lt;/c1&gt;&lt;/a0&gt;。你可以从该处浏览并找到代码示例及其他说明。学习如何使用Tooling API 的有效方法是检出并运行 &lt;c4&gt;$gradleHome/samples/toolingApi&lt;/c4&gt; 中的 &lt;s2&gt;&lt;e3&gt;示例&lt;/e3&gt;&lt;/s2&gt;。</seg>
       </tuv>
     </tu>
     <tu>
