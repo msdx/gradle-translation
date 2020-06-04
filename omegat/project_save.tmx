@@ -14687,6 +14687,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A Gradle build with a build executed by another tool such as Apache Ant, Apache Maven or something else (i.e. migrating to Gradle).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200604T152324Z" creationid="huanghaohang" creationdate="20200604T152324Z">
+        <seg>由 Apache Ant，Apache Maven 或其他工具执行的 Gradle 构建（即迁移到 Gradle）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A Gradle plugin packages up reusable pieces of build logic, which can be used across many different projects and builds. Gradle allows you to implement your own custom plugins, so you can reuse your build logic, and share it with others.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190715T153304Z" creationid="huanghaohang" creationdate="20190715T153304Z">
@@ -14747,6 +14755,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170912T124752Z" creationid="huanghaohang" creationdate="20170912T124752Z">
         <seg>构建脚本可以包含任何Groovy语言元素。 &lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;]&lt;/s0&gt; Gradle假定每个构建脚本都是使用UTF-8编码。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A build with a newer version of Gradle than it's currently using (i.e. upgrading the Gradle version).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200604T152308Z" creationid="huanghaohang" creationdate="20200604T152308Z">
+        <seg>比当前所使用的 Gradle 版本更新的版本的构建（即升级 Gradle 版本）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16755,6 +16771,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170721T135020Z" creationid="95" creationdate="20170721T134611Z">
         <seg>但我们不会去限定你。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By comparing builds in these scenarios you can make an informed decision about the Gradle upgrade, migration to Gradle or build change by understanding the differences in the outcomes. The comparison process produces a HTML report outlining which outcomes were found to be identical and identifying the differences between non-identical outcomes.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200604T152647Z" creationid="huanghaohang" creationdate="20200604T152404Z">
+        <seg>通过比较这些场景中的构建，通过了解结果中的差异，你可以对 Gradle 升级，迁移到 Gradle 或构建更改做出明智的决策。比较过程会生成一份 HTML 报告，其中概述发现了哪些结果是相同的，并确定不同结果之间的差异。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34677,6 +34701,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180406T042748Z" creationid="huanghaohang" creationdate="20180406T042748Z">
         <seg>与 Ant Junit report 任务兼容的 XML 格式的结果。许多工具都支持这一格式，比如 CI 服务器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The same Gradle build, with the same version, before and after a change to the build (i.e. testing build changes).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200604T152425Z" creationid="huanghaohang" creationdate="20200604T152351Z">
+        <seg>同样的 Gradle 构建，同样的版本，但是比较构建前后的变化（即测试构建产生的更改）。</seg>
       </tuv>
     </tu>
     <tu>
