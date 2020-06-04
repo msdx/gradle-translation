@@ -9470,6 +9470,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>63.1. Definition of terms</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200604T152649Z" creationid="huanghaohang" creationdate="20200604T152649Z">
+        <seg>63.1. 术语定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171014T124851Z" creationid="huanghaohang" creationdate="20171014T124851Z">
@@ -25699,6 +25707,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the context of build comparison, a build is not necessarily a Gradle build. It can be any invokable “process” that produces observable “outcomes”. At least one of the builds in a comparison will be a Gradle build.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200604T152900Z" creationid="huanghaohang" creationdate="20200604T152713Z">
+        <seg>在构建比较的上下文中，一个构建不一定是一个 Gradle 构建。它可以是任何可调用的“进程”，产生可观察的“结果”。在比较中，至少有一个构建将是 Gradle 构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the current release client modules have one limitation. Let's say your project is a library and you want this library to be uploaded to your company's Maven or Ivy repository. Gradle uploads the jars of your project to the company repository together with the XML descriptor file of the dependencies. If you use client modules the dependency declaration in the XML descriptor file is not correct. We will improve this in a future release of Gradle.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190601T112105Z" creationid="huanghaohang" creationdate="20190531T051832Z">
@@ -34117,6 +34133,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20181203T033842Z" creationid="huanghaohang" creationdate="20181203T033842Z">
         <seg>instruction 调用的第一个参数是属性的键，其他参数构成了值。 Gradle 使用 &lt;c0&gt;,&lt;/c0&gt; 分隔符对它们进行连接。要了解有关可用的 instruction 的更多信息，请查看 &lt;a1&gt;BND 工具&lt;/a1&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following are the terms used for build comparison and their definitions.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200604T152704Z" creationid="huanghaohang" creationdate="20200604T152704Z">
+        <seg>以下是用于构建比较的术语及其定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -57663,6 +57687,14 @@ task0.dependsOn task2, task3</seg>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190607T061322Z" creationid="huanghaohang" creationdate="20190607T061322Z">
         <seg>}.writeTo(&lt;s4&gt;"$buildDir/newpom.xml"&lt;/s4&gt;)
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>“Build”</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20200604T152721Z" creationid="huanghaohang" creationdate="20200604T152712Z">
+        <seg>“构建”</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
