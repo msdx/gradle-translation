@@ -33713,6 +33713,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The build that is being compared to the source build, typically the “proposed” build. In other words, the right hand side of the comparison.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210506T140629Z" creationid="huanghaohang" creationdate="20210506T140629Z">
+        <seg>与源构建进行比较的构建，通常是“建议”的构建。换句话说，也就是构建比较的右边。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The built-in dependencyInsight task is a part of the 'Help' tasks group. The task needs to configured with the dependency and the configuration. The report looks for the dependencies that match the specified dependency spec in the specified configuration. If java related plugin is applied, the dependencyInsight task is pre-configured with 'compile' configuration because typically it's the compile dependencies we are interested in. You should specify the dependency you are interested in via the command line '--dependency' option. If you don't like the defaults you may select the configuration via '--configuration' option. For more information see &lt;a0&gt;&lt;c1&gt;DependencyInsightReportTask&lt;/c1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170910T023244Z" creationid="huanghaohang" creationdate="20170910T022607Z">
