@@ -14759,6 +14759,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A build outcome is uncompared if a logical equivalent from the other build cannot be found (e.g. a build produces a zip file that the other build does not).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210508T154822Z" creationid="huanghaohang" creationdate="20210508T154822Z">
+        <seg>如果无法从其他构建中找到逻辑等价物（比如一个构建产生了一个zip文件，而其他的构建不会），那么这个构建结果就是不可比的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A build script can contain any Groovy language element. &lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;]&lt;/s0&gt; Gradle assumes that each build script is encoded using UTF-8.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170912T124752Z" creationid="huanghaohang" creationdate="20170912T124752Z">
@@ -57775,6 +57783,14 @@ task0.dependsOn task2, task3</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210506T140008Z" creationid="huanghaohang" creationdate="20210506T140008Z">
         <seg>“目标构建”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>“Uncompared Build Outcome”</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210508T154538Z" creationid="huanghaohang" creationdate="20210508T154538Z">
+        <seg>“未比较的构建结果”</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
