@@ -14767,6 +14767,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A build outcome that cannot be understood by the host build. This can occur when the source or target build is a newer Gradle version than the host build and that Gradle version exposes new outcome types. Unknown build outcomes can be compared in so far as they can be identified to be logically equivalent to an unknown build outcome in the other build, but no meaningful comparison of what the build outcome actually is can be performed. Using the latest Gradle version for the host build will avoid encountering unknown build outcomes.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210508T155600Z" creationid="huanghaohang" creationdate="20210508T155600Z">
+        <seg>主机构建无法理解的构建结果。当源构建或目标构建是比主机构建更新的 Gradle 版本且 Gradle 版本有新增加的结果类型时，就会有这种情况。目前为止，未知的构建结果是可以被比较的，因为它们可以确定与其他构建的未知构建结果是否为逻辑等价物，但无法对其实际执行的构建结果进行有意义的比较。对主机构建使用最新的 Gradle 版本将避免遇到未知的构建结果。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A build script can contain any Groovy language element. &lt;s0&gt;[&lt;a1&gt;5&lt;/a1&gt;]&lt;/s0&gt; Gradle assumes that each build script is encoded using UTF-8.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170912T124752Z" creationid="huanghaohang" creationdate="20170912T124752Z">
@@ -57791,6 +57799,14 @@ task0.dependsOn task2, task3</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210508T154538Z" creationid="huanghaohang" creationdate="20210508T154538Z">
         <seg>“未比较的构建结果”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>“Unknown Build Outcome”</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210508T154838Z" creationid="huanghaohang" creationdate="20210508T154838Z">
+        <seg>“未知的构建结果”</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
