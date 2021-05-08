@@ -32441,6 +32441,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The Gradle build that executes the comparison process. It may be the same project as either the “target” or “source” build or may be a completely separate project. It does not need to be the same Gradle version as the “source” or “target” builds. The host build must be run with Gradle 1.2 or newer.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210508T154424Z" creationid="huanghaohang" creationdate="20210508T154424Z">
+        <seg>执行比较过程的 Gradle 构建。它可能与“目标”或“源”构建相同的项目，也可能是一个完全独立的项目。它不需要与“源”或“目标”构建相同的 Gradle 版本。主机构建必须运行在 Gradle 1.2 或更高的版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The Gradle cache does not allow the local cache to hide problems and creating mysterious and difficult to debug behavior that has been a challenge with many build tools. This new behavior is implemented in a bandwidth and storage efficient way. In doing so, Gradle enables reliable and reproducible enterprise builds.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190605T042725Z" creationid="huanghaohang" creationdate="20190605T042725Z">
