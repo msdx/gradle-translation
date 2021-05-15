@@ -810,6 +810,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.plugins.buildcomparison.gradle.CompareGradleBuilds.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210513T142353Z" creationid="huanghaohang" creationdate="20210513T142353Z">
+        <seg>../dsl/org.gradle.api.plugins.buildcomparison.gradle.CompareGradleBuilds.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>../dsl/org.gradle.api.plugins.jetty.JettyPluginConvention.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180416T144800Z" creationid="huanghaohang" creationdate="20180416T144800Z">
@@ -9498,6 +9506,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210508T155611Z" creationid="huanghaohang" creationdate="20210508T155611Z">
         <seg>63.2. 当前功能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>63.3. Comparing Gradle Builds</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210513T142350Z" creationid="huanghaohang" creationdate="20210513T142350Z">
+        <seg>63.3. 比较Gradle构建</seg>
       </tuv>
     </tu>
     <tu>
@@ -31805,6 +31821,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20180326T100614Z" creationid="haohang" creationdate="20180326T100556Z">
         <seg>&lt;c0&gt;clean&lt;/c0&gt; 任务是 &lt;a1&gt;&lt;c2&gt;Delete&lt;/c2&gt;&lt;/a1&gt; 的一个实例。它只是删除由 &lt;c3&gt;dir&lt;/c3&gt; 属性表示的目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The &lt;c0&gt;compare-gradle-builds&lt;/c0&gt; plugin can be used to facilitate a comparison between two Gradle builds. The plugin adds a &lt;a1&gt;&lt;c2&gt;CompareGradleBuilds&lt;/c2&gt;&lt;/a1&gt; task named “&lt;c3&gt;compareGradleBuilds&lt;/c3&gt;” to the project. The configuration of this task specifies what is to be compared. By default, it is configured to compare the current build with itself using the current Gradle version by executing the tasks: “&lt;c4&gt;clean assemble&lt;/c4&gt;”.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T133042Z" creationid="huanghaohang" creationdate="20210515T133042Z">
+        <seg>The &lt;c0&gt;compare-gradle-builds&lt;/c0&gt; plugin can be used to facilitate a comparison between two Gradle builds. The plugin adds a &lt;a1&gt;&lt;c2&gt;CompareGradleBuilds&lt;/c2&gt;&lt;/a1&gt; task named “&lt;c3&gt;compareGradleBuilds&lt;/c3&gt;” to the project. The configuration of this task specifies what is to be compared. By default, it is configured to compare the current build with itself using the current Gradle version by executing the tasks: “&lt;c4&gt;clean assemble&lt;/c4&gt;”.</seg>
       </tuv>
     </tu>
     <tu>
