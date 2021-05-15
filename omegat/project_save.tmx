@@ -9510,6 +9510,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>63.3.1. Trying Gradle upgrades</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140326Z" creationid="huanghaohang" creationdate="20210515T140326Z">
+        <seg>63.3.1. 尝试 Gradle 升级</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>63.3. Comparing Gradle Builds</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210513T142350Z" creationid="huanghaohang" creationdate="20210513T142350Z">
@@ -34217,6 +34225,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The example above configures a comparison between two different projects using two different Gradle versions.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140324Z" creationid="huanghaohang" creationdate="20210515T140219Z">
+        <seg>以上示例配置了两个使用了不同的Gradle版本的项目之间的比较。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The example above will apply the supplied configuration to all &lt;c0&gt;executable&lt;/c0&gt; binaries built.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190610T012225Z" creationid="huanghaohang" creationdate="20190610T012225Z">
@@ -35897,6 +35913,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This task can be configured to change what is compared.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140203Z" creationid="huanghaohang" creationdate="20210515T140203Z">
+        <seg>可以通过配置这个任务来更改所比较的内容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This task doesn't do anything useful, so let's add some behaviour. To do so, we add a method to the task and mark it with the &lt;a0&gt;&lt;c1&gt;TaskAction&lt;/c1&gt;&lt;/a0&gt; annotation. Gradle will call the method when the task executes. You don't have to use a method to define the behaviour for the task. You could, for instance, call &lt;c2&gt;doFirst()&lt;/c2&gt; or &lt;c3&gt;doLast()&lt;/c3&gt; with a closure in the task constructor to add behaviour.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190705T142758Z" creationid="huanghaohang" creationdate="20190705T142758Z">
@@ -36405,6 +36429,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170724T144931Z" creationid="95" creationdate="20170724T144931Z">
         <seg>试着创建一个叫 &lt;c0&gt;build.gradle&lt;/c0&gt;的构建脚本，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To try your current build with a different Gradle version, simply add the following to the &lt;c0&gt;build.gradle&lt;/c0&gt; of the &lt;e1&gt;root project&lt;/e1&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140513Z" creationid="huanghaohang" creationdate="20210515T140513Z">
+        <seg>想尝试对你当前的构建使用一个不同的Gradle版本，只需要对 &lt;e1&gt;根项目&lt;/e1&gt;的 &lt;c0&gt;build.gradle&lt;/c0&gt; 添加以下的配置。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39009,6 +39041,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can use the build comparison functionality to very quickly try a new Gradle version with your build.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140429Z" creationid="huanghaohang" creationdate="20210515T140429Z">
+        <seg>你可以使用这个构建比较功能来快速尝试在你的构建中使用新的Gradle版本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can use the command line switches shown in &lt;a0&gt;Table 18.2, “Log level command-line options”&lt;/a0&gt; to choose different log levels. In &lt;a1&gt;Table 18.3, “Stacktrace command-line options”&lt;/a1&gt; you find the command line switches which affect stacktrace logging.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180105T221857Z" creationid="huanghaohang" creationdate="20180105T221741Z">
@@ -40075,6 +40115,26 @@ webapp:libs - Builds the JAR [api:libs]</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170918T150052Z" creationid="huanghaohang" creationdate="20170918T150052Z">
         <seg>apply from: &lt;s3&gt;'other.gradle'&lt;/s3&gt;, to: pos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>apply plugin: 'compare-gradle-builds'</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140049Z" creationid="huanghaohang" creationdate="20210515T140049Z">
+        <seg>apply plugin: 'compare-gradle-builds'</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>apply plugin: 'compare-gradle-builds'
+
+compareGradleBuilds {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140515Z" creationid="huanghaohang" creationdate="20210515T140515Z">
+        <seg>apply plugin: 'compare-gradle-builds'
+
+compareGradleBuilds {</seg>
       </tuv>
     </tu>
     <tu>
@@ -42317,6 +42377,14 @@ println myZip.archiveName</seg>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170927T150356Z" creationid="huanghaohang" creationdate="20170927T150356Z">
         <seg>collection.collect { relativePath(it) }.sort().each { println it }
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>compareGradleBuilds {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140204Z" creationid="huanghaohang" creationdate="20210515T140204Z">
+        <seg>compareGradleBuilds {</seg>
       </tuv>
     </tu>
     <tu>
@@ -45963,6 +46031,22 @@ systemProp.system=systemValue</seg>
 systemProjectProp=shouldBeOverWrittenBySystemProp
 envProjectProp=shouldBeOverWrittenByEnvProp
 systemProp.system=systemValue</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gradleVersion "1.1"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140207Z" creationid="huanghaohang" creationdate="20210515T140207Z">
+        <seg>gradleVersion "1.1"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gradleVersion "1.2"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140218Z" creationid="huanghaohang" creationdate="20210515T140218Z">
+        <seg>gradleVersion "1.2"</seg>
       </tuv>
     </tu>
     <tu>
@@ -52288,6 +52372,22 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>projectDir "/projects/project-a"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140206Z" creationid="huanghaohang" creationdate="20210515T140206Z">
+        <seg>projectDir "/projects/project-a"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>projectDir "/projects/project-b"</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140210Z" creationid="huanghaohang" creationdate="20210515T140210Z">
+        <seg>projectDir "/projects/project-b"</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>projectName</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180318T010018Z" creationid="huanghaohang" creationdate="20180318T010018Z">
@@ -54112,6 +54212,14 @@ compile {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>sourceBuild {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140205Z" creationid="huanghaohang" creationdate="20210515T140205Z">
+        <seg>sourceBuild {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>sourceCompatibility</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20180314T094218Z" creationid="haohang" creationdate="20180314T094218Z">
@@ -54828,6 +54936,24 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190611T025007Z" creationid="huanghaohang" creationdate="20190611T025007Z">
         <seg>target(&lt;s3&gt;"sparc"&lt;/s3&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>targetBuild {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140210Z" creationid="huanghaohang" creationdate="20210515T140210Z">
+        <seg>targetBuild {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>targetBuild.gradleVersion = "«gradle version»"
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140532Z" creationid="huanghaohang" creationdate="20210515T140532Z">
+        <seg>targetBuild.gradleVersion = "«gradle version»"
+}</seg>
       </tuv>
     </tu>
     <tu>
