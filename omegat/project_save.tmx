@@ -9526,6 +9526,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>63.3.3. Which archives are compared?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T141354Z" creationid="huanghaohang" creationdate="20210515T141354Z">
+        <seg>63.3.3. 哪些归档文件会被比较？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>63.3. Comparing Gradle Builds</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210513T142350Z" creationid="huanghaohang" creationdate="20210513T142350Z">
@@ -23343,6 +23351,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170908T051234Z" creationid="huanghaohang" creationdate="20170908T051234Z">
         <seg>有关依赖解析的所有细节，请参阅《&lt;a0&gt;第五十章，&lt;i1&gt;依赖管理&lt;/i1&gt;&lt;/a0&gt;》；而关于构件发布则请参阅《&lt;a2&gt;第五十一章， &lt;i3&gt;发布构件&lt;/i3&gt;&lt;/a2&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For an archive to be a candidate for comparison, it must be added as an artifact of the archives configuration. Take a look at &lt;a0&gt;Chapter 51, &lt;i1&gt;Publishing artifacts&lt;/i1&gt;&lt;/a0&gt; for more information on how to configure and add artifacts.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T141425Z" creationid="huanghaohang" creationdate="20210515T141425Z">
+        <seg>对于要用于比较的归档文件，必须将其添加为归档配置的工件。 有关如何配置和添加工件的更多信息，请参阅 &lt;a0&gt;第 51 章 &lt;i1&gt;发布工件&lt;/i1&gt;&lt;/a0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38601,6 +38617,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can configure the task to not fail on compared outcome differences by setting the &lt;c0&gt;ignoreFailures&lt;/c0&gt; property to true.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T141340Z" creationid="huanghaohang" creationdate="20210515T141340Z">
+        <seg>你也可以通过设置&lt;c0&gt;ignoreFailures&lt;/c0&gt;属性为true，来配置构建结果不同时任务不失败。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can create a separate project for your plugin. This project produces and publishes a JAR which you can then use in multiple builds and share with others. Generally, this JAR might include some custom plugins, or bundle several related task classes into a single library. Or some combination of the two.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190719T150002Z" creationid="huanghaohang" creationdate="20190719T150002Z">
@@ -47207,6 +47231,16 @@ project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190608T133040Z" creationid="huanghaohang" creationdate="20190608T133040Z">
         <seg>if (taskGraph.allTasks.any { it instanceof Sign }) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ignoreFailures = true
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T141342Z" creationid="huanghaohang" creationdate="20210515T141342Z">
+        <seg>ignoreFailures = true
+}</seg>
       </tuv>
     </tu>
     <tu>
