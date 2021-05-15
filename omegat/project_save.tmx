@@ -9518,6 +9518,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>63.3.2. The comparison “result”</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140819Z" creationid="huanghaohang" creationdate="20210515T140819Z">
+        <seg>63.3.2. 比较“结果”</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>63.3. Comparing Gradle Builds</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210513T142350Z" creationid="huanghaohang" creationdate="20210513T142350Z">
@@ -25299,6 +25307,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If there are any differences between the &lt;e0&gt;compared outcomes&lt;/e0&gt;, the task will fail. The location of the HTML report providing insight into the comparison will be given. If all compared outcomes are found to be identical, and there are no uncompared outcomes, and there are no unknown build outcomes the task will succeed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T141303Z" creationid="huanghaohang" creationdate="20210515T141303Z">
+        <seg>如果在&lt;e0&gt;比较结果&lt;/e0&gt;之间存在任何的差异，那么任务就会失败，然后会给出一个对比较深入分析的HTML报告的位置。如果所有比较结果都相同，并且没有未比较的结果和未知的构建结果，那么这个任务就会执行成功。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If versions are unclear you can introduce subtle bugs which are very hard to find. For example there might be a project which uses Hibernate 2.5. Think about a developer who decides to install version 3.0.5 of Hibernate on her machine to fix a critical security bug but forgets to notify others in the team of this change. She may address the security bug successfully, but she also may have introduced subtle bugs into a codebase that was using a now-deprecated feature from Hibernate. Weeks later there is an exception on the integration machine which can't be reproduced on anyone's machine. Multiple developers then spend days on this issue only finally realising that the error would have easy to uncover if they knew that Hibernate had been upgraded from 2.5 to 3.0.5.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20190315T162408Z" creationid="95" creationdate="20190210T145957Z">
@@ -35149,6 +35165,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20190201T155527Z" creationid="95" creationdate="20190201T155527Z">
         <seg>包装器插件目前是一个&lt;a0&gt;试验性&lt;/a0&gt;插件。注意，在以后的 Gradle 版本中，其 DSL 和其他配置可能会有变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Then simply execute the &lt;s0&gt;&lt;s1&gt;compareGradleBuilds&lt;/s1&gt;&lt;/s0&gt; task. You will see the console output of the “source” and “target” builds as they are executing.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210515T140807Z" creationid="huanghaohang" creationdate="20210515T140807Z">
+        <seg>然后，简单地执行&lt;s0&gt;&lt;s1&gt;compareGradleBuilds&lt;/s1&gt;&lt;/s0&gt;任务。当它们执行的时候，你将会看到“源”构建和“目标”构建的控制台输出。</seg>
       </tuv>
     </tu>
     <tu>
