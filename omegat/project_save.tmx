@@ -706,6 +706,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.artifacts.repositories.IvyArtifactRepository.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155135Z" creationid="huanghaohang" creationdate="20210516T155135Z">
+        <seg>../dsl/org.gradle.api.artifacts.repositories.IvyArtifactRepository.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>../dsl/org.gradle.api.artifacts.repositories.IvyArtifactRepository.html#org.gradle.api.artifacts.repositories.IvyArtifactRepository:layout(java.lang.String, groovy.lang.Closure)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190603T041509Z" creationid="huanghaohang" creationdate="20190603T041509Z">
@@ -942,6 +950,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20181012T085519Z" creationid="huanghaohang" creationdate="20181012T085519Z">
         <seg>../dsl/org.gradle.api.plugins.sonar.SonarAnalyze.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.publish.PublishingExtension.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155124Z" creationid="huanghaohang" creationdate="20210516T155124Z">
+        <seg>../dsl/org.gradle.api.publish.PublishingExtension.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.publish.ivy.IvyPublication.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155125Z" creationid="huanghaohang" creationdate="20210516T155125Z">
+        <seg>../dsl/org.gradle.api.publish.ivy.IvyPublication.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -9538,6 +9562,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210513T142350Z" creationid="huanghaohang" creationdate="20210513T142350Z">
         <seg>63.3. 比较Gradle构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>64.1. The “&lt;c0&gt;ivy-publish&lt;/c0&gt;” Plugin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155049Z" creationid="huanghaohang" creationdate="20210516T155049Z">
+        <seg>64.1. “&lt;c0&gt;ivy-publish&lt;/c0&gt;”插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -33721,6 +33753,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The ability to publish in the Ivy format is provided by the “&lt;c0&gt;ivy-publish&lt;/c0&gt;” plugin.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155122Z" creationid="huanghaohang" creationdate="20210516T155122Z">
+        <seg>这种使用 Ivy 格式发布的功能是由“&lt;c0&gt;ivy-publish&lt;/c0&gt;”插件提供的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The absolute path of the generated archive.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171206T232813Z" creationid="huanghaohang" creationdate="20171206T232813Z">
@@ -35213,6 +35253,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20190201T155527Z" creationid="95" creationdate="20190201T155527Z">
         <seg>包装器插件目前是一个&lt;a0&gt;试验性&lt;/a0&gt;插件。注意，在以后的 Gradle 版本中，其 DSL 和其他配置可能会有变化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The “&lt;c0&gt;publishing&lt;/c0&gt;” plugin creates an extension on the project named “&lt;c1&gt;publishing&lt;/c1&gt;” of type &lt;a2&gt;&lt;c3&gt;PublishingExtension&lt;/c3&gt;&lt;/a2&gt;. This extension provides a container of named publications and a container of named repositories. The “&lt;c4&gt;ivy-publish&lt;/c4&gt;” plugin works with &lt;a5&gt;&lt;c6&gt;IvyPublication&lt;/c6&gt;&lt;/a5&gt; publications and &lt;a7&gt;&lt;c8&gt;IvyArtifactRepository&lt;/c8&gt;&lt;/a7&gt; repositories.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155533Z" creationid="huanghaohang" creationdate="20210516T155533Z">
+        <seg>“&lt;c0&gt;publishing&lt;/c0&gt;”在project上创建了一个名为“&lt;c1&gt;publishing&lt;/c1&gt;” 的&lt;a2&gt;&lt;c3&gt;PublishingExtension&lt;/c3&gt;&lt;/a2&gt;类型的扩展。这个扩展提供了两个容器，一个叫publications，一个叫repositories。“&lt;c4&gt;ivy-publish&lt;/c4&gt;”适用于&lt;a5&gt;&lt;c6&gt;IvyPublication&lt;/c6&gt;&lt;/a5&gt; publications 和 &lt;a7&gt;&lt;c8&gt;IvyArtifactRepository&lt;/c8&gt;&lt;/a7&gt; repositories。</seg>
       </tuv>
     </tu>
     <tu>
