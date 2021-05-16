@@ -970,6 +970,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.publish.ivy.tasks.GenerateIvyDescriptor.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155610Z" creationid="huanghaohang" creationdate="20210516T155610Z">
+        <seg>../dsl/org.gradle.api.publish.ivy.tasks.GenerateIvyDescriptor.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.publish.ivy.tasks.PublishToIvyRepository.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155703Z" creationid="huanghaohang" creationdate="20210516T155703Z">
+        <seg>../dsl/org.gradle.api.publish.ivy.tasks.PublishToIvyRepository.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>../dsl/org.gradle.api.reporting.GenerateBuildDashboard.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20190202T153740Z" creationid="95" creationdate="20190202T153740Z">
@@ -16231,6 +16247,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Applies the “&lt;c0&gt;publishing&lt;/c0&gt;” plugin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155607Z" creationid="huanghaohang" creationdate="20210516T155607Z">
+        <seg> 应用“&lt;c0&gt;publishing&lt;/c0&gt;”插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Applying a plugin to the project allows the plugin to extend the project's capabilities. It can do things such as:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180130T100023Z" creationid="huanghaohang" creationdate="20180130T095955Z">
@@ -16251,6 +16275,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20190201T233405Z" creationid="95" creationdate="20190201T233204Z">
         <seg>应用插件会将 &lt;c0&gt;buildDashboard&lt;/c0&gt; 任务添加到项目。 此任务将聚合了在构建中从 &lt;s3&gt;&lt;e4&gt;所有项目&lt;/e4&gt;&lt;/s3&gt; 实现了 &lt;a1&gt;&lt;c2&gt;报告&lt;/c2&gt;&lt;/a1&gt; 接口的所有任务的报告。 它通常仅应用于根项目。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Applying the “&lt;c0&gt;ivy-publish&lt;/c0&gt;” plugin does the following:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155557Z" creationid="huanghaohang" creationdate="20210516T155557Z">
+        <seg>应用“&lt;c0&gt;ivy-publish&lt;/c0&gt;”插件将会执行以下操作：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19247,6 +19279,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180105T221520Z" creationid="huanghaohang" creationdate="20180105T221520Z">
         <seg>错误消息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Establishes a rule to automatically create a &lt;a0&gt;&lt;c1&gt;GenerateIvyDescriptor&lt;/c1&gt;&lt;/a0&gt; task for each &lt;a2&gt;&lt;c3&gt;IvyPublication&lt;/c3&gt;&lt;/a2&gt; added (see &lt;a4&gt;Section 64.2, “Publications”&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155701Z" creationid="huanghaohang" creationdate="20210516T155701Z">
+        <seg>建立一个规则来为每个添加的&lt;a2&gt;&lt;c3&gt;IvyPublication&lt;/c3&gt; &lt;/a2&gt;自动创建 &lt;a0&gt; &lt;c1&gt;GenerateIvyDescriptor&lt;/c1&gt;&lt;/a0&gt;任务（见《&lt;a4&gt;第 64.2节，“发布”&lt;/a4&gt;》）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Establishes a rule to automatically create a &lt;a0&gt;&lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt; task for the combination of each &lt;a2&gt;&lt;c3&gt;IvyPublication&lt;/c3&gt;&lt;/a2&gt; added (see &lt;a4&gt;Section 64.2, “Publications”&lt;/a4&gt;), with each &lt;a5&gt;&lt;c6&gt;IvyArtifactRepository&lt;/c6&gt;&lt;/a5&gt; added (see &lt;a7&gt;Section 64.3, “Repositories”&lt;/a7&gt;).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155902Z" creationid="huanghaohang" creationdate="20210516T155902Z">
+        <seg>建立一个规则来为添加的每一个&lt;a2&gt;&lt;c3&gt;IvyPublication&lt;/c3&gt;&lt;/a2&gt;（见《&lt;a4&gt;第 64.2节，“发布”&lt;/a4&gt;》）和&lt;a5&gt;&lt;c6&gt;IvyArtifactRepository&lt;/c6&gt;&lt;/a5&gt;（见《&lt;a4&gt;第 64.3 节，“仓库”&lt;/a4&gt;》）的组合自动创建&lt;a0&gt; &lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt;任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22559,6 +22607,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191219T130148Z" creationid="huanghaohang" creationdate="20191219T130148Z">
         <seg>示例 61.2. 包装器生成的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 64.1. Applying the “ivy-publish” plugin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155543Z" creationid="huanghaohang" creationdate="20210516T155543Z">
+        <seg>示例 64.1. 应用“ivy-publish”插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -40585,6 +40641,14 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>apply plugin: &lt;s0&gt;'ivy-publish'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155544Z" creationid="huanghaohang" creationdate="20210516T155544Z">
+        <seg>apply plugin: &lt;s0&gt;'ivy-publish'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012452Z" creationid="95" creationdate="20170730T012452Z">
@@ -52824,6 +52888,22 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180207T143843Z" creationid="huanghaohang" creationdate="20180207T143843Z">
         <seg>publishing_ivy.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>publishing_ivy.html#publishing_ivy:publications</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155613Z" creationid="huanghaohang" creationdate="20210516T155613Z">
+        <seg>publishing_ivy.html#publishing_ivy:publications</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>publishing_ivy.html#publishing_ivy:repositories</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155714Z" creationid="huanghaohang" creationdate="20210516T155714Z">
+        <seg>publishing_ivy.html#publishing_ivy:repositories</seg>
       </tuv>
     </tu>
     <tu>
