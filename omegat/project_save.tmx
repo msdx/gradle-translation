@@ -23571,6 +23571,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For each custom artifact, it is possible to specify the &lt;c0&gt;name&lt;/c0&gt;, &lt;c1&gt;extension&lt;/c1&gt;, &lt;c2&gt;type&lt;/c2&gt;, &lt;c3&gt;classifier&lt;/c3&gt; and &lt;c4&gt;conf&lt;/c4&gt; values to use for publication. Note that each artifacts must have a unique name/classifier/extension combination.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153418Z" creationid="huanghaohang" creationdate="20210518T153418Z">
+        <seg>对于每个自定义的项目，在发布时可以指定&lt;c0&gt;name&lt;/c0&gt;、&lt;c1&gt;extension&lt;/c1&gt;、&lt;c2&gt;type&lt;/c2&gt;、&lt;c3&gt;classifier&lt;/c3&gt;和&lt;c4&gt;conf&lt;/c4&gt;的值。注意，每个工件必须有一个唯一的 name/classifier/extension 组合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For each executable binary produced, the &lt;c0&gt;cpp&lt;/c0&gt; plugin provides an &lt;c1&gt;install${binary.name}&lt;/c1&gt; task, which creates a development install of the executable, along with the shared libraries it requires. This allows you to run the executable without needing to install the shared libraries in their final locations.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190609T033416Z" creationid="huanghaohang" creationdate="20190609T033416Z">
