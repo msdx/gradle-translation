@@ -9622,6 +9622,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>64.2.3. Identity values for the published project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153537Z" creationid="huanghaohang" creationdate="20210518T153537Z">
+        <seg>64.2.3. 已发布项目的标识值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>64.2. Publications</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155908Z" creationid="huanghaohang" creationdate="20210516T155908Z">
@@ -18157,6 +18165,14 @@ project(&lt;s1&gt;':bluewhale'&lt;/s1&gt;) {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Configure custom artifacts as follows:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153435Z" creationid="huanghaohang" creationdate="20210518T153435Z">
+        <seg>如下所示配置自定义工件︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Configured a &lt;c0&gt;main&lt;/c0&gt; source set with default (i.e. conventional) values for properties</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180131T024850Z" creationid="huanghaohang" creationdate="20180131T024850Z">
@@ -22687,6 +22703,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150742Z" creationid="huanghaohang" creationdate="20210518T150742Z">
         <seg>示例 64.2. 将java 模块发布到 Ivy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 64.3. Publishing additional artifact to Ivy</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153450Z" creationid="huanghaohang" creationdate="20210518T153450Z">
+        <seg>示例64.3. 将其他工件发布到Ivy</seg>
       </tuv>
     </tu>
     <tu>
@@ -30059,6 +30083,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>See &lt;a0&gt;&lt;c1&gt;IvyPublication&lt;/c1&gt;&lt;/a0&gt; for more detailed documentation on how artifacts can be customized.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153526Z" creationid="huanghaohang" creationdate="20210518T153526Z">
+        <seg>关于如何自定义工件的更详细文档，请参阅&lt;a0&gt;&lt;c1&gt;IvyPublication&lt;/c1&gt; &lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>See &lt;a0&gt;&lt;c1&gt;JDependExtension&lt;/c1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180516T142812Z" creationid="huanghaohang" creationdate="20180516T142812Z">
@@ -34725,6 +34757,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180107T011709Z" creationid="huanghaohang" creationdate="20180107T011709Z">
         <seg>打印完整的栈跟踪信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The generated Ivy module descriptor file contains an &lt;c0&gt;&lt;info&gt;&lt;/c0&gt; tag that identifies the module. The default identity values are derived from the following project properties:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153723Z" creationid="huanghaohang" creationdate="20210518T153723Z">
+        <seg>生成的Ivy模块描述符文件包含了标识模块的&lt;c0&gt;&lt;info&gt;&lt;/c0&gt;标记。默认的标识值取自以下这些项目属性︰</seg>
       </tuv>
     </tu>
     <tu>
@@ -41431,6 +41471,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>artifact(sourceJar) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153455Z" creationid="huanghaohang" creationdate="20210518T153455Z">
+        <seg>artifact(sourceJar) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>artifact.name == &lt;s2&gt;'api'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190608T084750Z" creationid="huanghaohang" creationdate="20190608T084750Z">
@@ -42441,6 +42489,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>classifier &lt;s0&gt;"source"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153453Z" creationid="huanghaohang" creationdate="20210518T153453Z">
+        <seg>classifier &lt;s0&gt;"source"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>classifier = &lt;s4&gt;'src'&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171206T232600Z" creationid="huanghaohang" creationdate="20171206T232600Z">
@@ -43123,6 +43179,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190605T041005Z" creationid="huanghaohang" creationdate="20190605T041005Z">
         <seg>components {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>conf &lt;s2&gt;"runtime"&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153458Z" creationid="huanghaohang" creationdate="20210518T153458Z">
+        <seg>conf &lt;s2&gt;"runtime"&lt;/s2&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -46103,6 +46167,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>from sourceSets.main.java</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153452Z" creationid="huanghaohang" creationdate="20210518T153452Z">
+        <seg>from sourceSets.main.java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>from sourceSets.main.output</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190617T162742Z" creationid="huanghaohang" creationdate="20190617T162742Z">
@@ -48459,6 +48531,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170908T044949Z" creationid="huanghaohang" creationdate="20170908T044949Z">
         <seg>ivy {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ivy(IvyPublication) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153455Z" creationid="huanghaohang" creationdate="20210518T153455Z">
+        <seg>ivy(IvyPublication) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -53092,6 +53172,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>publishing {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153454Z" creationid="huanghaohang" creationdate="20210518T153454Z">
+        <seg>publishing {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>publishing_ivy.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180207T143843Z" creationid="huanghaohang" creationdate="20180207T143843Z">
@@ -56008,6 +56096,14 @@ task broken(dependsOn: ok) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>task sourceJar(type: Jar) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153451Z" creationid="huanghaohang" creationdate="20210518T153451Z">
+        <seg>task sourceJar(type: Jar) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>task spiJar(type: Jar) {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190617T162739Z" creationid="huanghaohang" creationdate="20190617T162739Z">
@@ -56951,6 +57047,14 @@ test {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190124T092157Z" creationid="huanghaohang" creationdate="20190124T092157Z">
         <seg>twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>type &lt;s1&gt;"source"&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153456Z" creationid="huanghaohang" creationdate="20210518T153456Z">
+        <seg>type &lt;s1&gt;"source"&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
