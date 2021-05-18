@@ -23723,6 +23723,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For the “&lt;c0&gt;ivy-publish&lt;/c0&gt;” plugin to have any effect, a &lt;a1&gt;&lt;c2&gt;IvyPublication&lt;/c2&gt;&lt;/a1&gt; must be added to the set of publications. This publication determines which artifacts are actually published as well as the details included in the associated Ivy module descriptor file. A publication can be configured by adding components, customizing artifacts, and by modifying the generated module descriptor file directly.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150405Z" creationid="huanghaohang" creationdate="20210518T150405Z">
+        <seg>要使“&lt;c0&gt;ivy-publish&lt;/c0&gt;”插件起作用，必须将一个 &lt;a1&gt;&lt;c2&gt;IvyPublication&lt;/c2&gt;&lt;/a1&gt; 添加到publications集合里。这个publications决定了实际要发布的工件，以及在关联的Ivy模块描述符文件中包含的详细信息。通过添加组件，自定义工件以及直接修改生成的模块描述符文件，可以配置一个publication。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Force versions can also be used to deal with rogue metadata of transitive dependencies. If a transitive dependency has poor quality metadata that leads to problems at dependency resolution time, you can force Gradle to use a newer, fixed version of this dependency. For an example, see &lt;a0&gt;&lt;c1&gt;ResolutionStrategy&lt;/c1&gt;&lt;/a0&gt;. Note that 'dependency resolve rules' (outlined below) provide a more powerful mechanism for replacing a broken module dependency. See &lt;a2&gt;Section 50.8.2.3, “Blacklisting a particular version with a replacement”&lt;/a2&gt;.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190604T034854Z" creationid="huanghaohang" creationdate="20190604T034854Z">
