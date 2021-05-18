@@ -9614,6 +9614,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>64.2.2. Publishing custom artifacts</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150752Z" creationid="huanghaohang" creationdate="20210518T150752Z">
+        <seg>64.2.2. 发布自定义工件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>64.2. Publications</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155908Z" creationid="huanghaohang" creationdate="20210516T155908Z">
@@ -18747,6 +18755,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Dependencies from 'runtime' configuration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150638Z" creationid="huanghaohang" creationdate="20210518T150638Z">
+        <seg>“runtime”配置的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Dependency Management</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190410T003930Z" creationid="huanghaohang" creationdate="20190410T003930Z">
@@ -22667,6 +22683,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 64.2. Publishing a java module to Ivy</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150742Z" creationid="huanghaohang" creationdate="20210518T150742Z">
+        <seg>示例 64.2. 将java 模块发布到 Ivy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -23959,6 +23983,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190607T100648Z" creationid="huanghaohang" creationdate="20190607T100648Z">
         <seg>生成的 POM 可以在 &lt;c0&gt;&lt;buildDir&gt;/poms&lt;/c0&gt; 中找到。它们可以通过 &lt;a1&gt;&lt;c2&gt;MavenPom&lt;/c2&gt;&lt;/a1&gt; API 进一步自定义。比如，你可能希望部署到 Maven 仓库的工件版本或名称与 Gradle 生成的工件不同。要自定义这些内容，你可以这样做：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Generated jar file</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150631Z" creationid="huanghaohang" creationdate="20210518T150631Z">
+        <seg>生成的 jar 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Generated war file</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150645Z" creationid="huanghaohang" creationdate="20210518T150645Z">
+        <seg>生成的 war 文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -26067,6 +26107,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the following example, artifacts and runtime dependencies are taken from the `java` component, which is added by the &lt;c0&gt;Java Plugin&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150722Z" creationid="huanghaohang" creationdate="20210518T150722Z">
+        <seg>在以下示例中，工件和运行时依赖都来自由 &lt;c0&gt;Java Plugin&lt;/c0&gt; 添加的 “java” 组件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the following example, execution of the &lt;c0&gt;distribution&lt;/c0&gt; and &lt;c1&gt;release&lt;/c1&gt; tasks results in different value of the &lt;c2&gt;version&lt;/c2&gt; variable.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170729T025155Z" creationid="95" creationdate="20170729T025155Z">
@@ -26407,6 +26455,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180105T084830Z" creationid="huanghaohang" creationdate="20180105T084830Z">
         <seg>它也可以用于一个依赖于 Gradle 任务的 Ant 目标：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is also possible to explicitly configure artifacts to be included in the publication. Artifacts are commonly supplied as raw files, or as instances of &lt;a0&gt;&lt;c1&gt;AbstractArchiveTask&lt;/c1&gt;&lt;/a0&gt; (e.g. Jar, Zip).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153254Z" creationid="huanghaohang" creationdate="20210518T153254Z">
+        <seg>我们还可以显式地配置要被包含在publication的工件。这些工件通常是以原始文件，或者是 &lt;a0&gt;&lt;c1&gt;AbstractArchiveTask&lt;/c1&gt;&lt;/a0&gt;的实例（如Jar, Zip）的方式来提供。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27471,6 +27527,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190124T092000Z" creationid="huanghaohang" creationdate="20190124T092000Z">
         <seg>接下来，配置你所选择的通知服务（请参阅下表，了解可用的配置属性）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>No dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150701Z" creationid="huanghaohang" creationdate="20210518T150701Z">
+        <seg>没有依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -37569,6 +37633,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>War Plugin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150641Z" creationid="huanghaohang" creationdate="20210518T150641Z">
+        <seg>War 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>War plugin - tasks</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180408T140301Z" creationid="huanghaohang" creationdate="20180408T140301Z">
@@ -45965,6 +46037,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>from components.java</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150746Z" creationid="huanghaohang" creationdate="20210518T150746Z">
+        <seg>from components.java</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>from configurations.runtime</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170803T125721Z" creationid="95" creationdate="20170803T125721Z">
@@ -48379,6 +48459,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180207T143845Z" creationid="huanghaohang" creationdate="20180207T143845Z">
         <seg>ivy-publish</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ivyJava(IvyPublication) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150745Z" creationid="huanghaohang" creationdate="20210518T150745Z">
+        <seg>ivyJava(IvyPublication) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -52988,6 +53076,14 @@ println project(&lt;s0&gt;':projectA'&lt;/s0&gt;).name</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>publications {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150744Z" creationid="huanghaohang" creationdate="20210518T150744Z">
+        <seg>publications {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>publishing_ivy.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180207T143843Z" creationid="huanghaohang" creationdate="20180207T143843Z">
@@ -57357,6 +57453,14 @@ subprojects {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190614T154422Z" creationid="huanghaohang" creationdate="20190614T154422Z">
         <seg>water/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>web</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150640Z" creationid="huanghaohang" creationdate="20210518T150640Z">
+        <seg>web</seg>
       </tuv>
     </tu>
     <tu>
