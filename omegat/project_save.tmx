@@ -24915,6 +24915,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Gradle will handle any valid Unicode character for organisation, module and revision (as well as artifact name, extension and classifier). The only values that are explicitly prohibited are '&lt;c0&gt;\&lt;/c0&gt;', '&lt;c1&gt;/&lt;/c1&gt;' and any ISO control character. The supplied values are validated early in publication.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20211001T045854Z" creationid="huanghaohang" creationdate="20211001T045854Z">
+        <seg>Gradle will handle any valid Unicode character for organisation, module and revision (as well as artifact name, extension and classifier). The only values that are explicitly prohibited are '&lt;c0&gt;\&lt;/c0&gt;', '&lt;c1&gt;/&lt;/c1&gt;' and any ISO control character. The supplied values are validated early in publication.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Gradle will look at the first URL for the POM and the JAR. If the JAR can't be found there, the artifact URLs are used to look for JARs.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190603T033945Z" creationid="huanghaohang" creationdate="20190603T033913Z">
