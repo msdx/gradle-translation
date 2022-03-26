@@ -1002,6 +1002,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.publish.PublishingExtension.html#org.gradle.api.publish.PublishingExtension:repositories</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141354Z" creationid="huanghaohang" creationdate="20220326T141354Z">
+        <seg>../dsl/org.gradle.api.publish.PublishingExtension.html#org.gradle.api.publish.PublishingExtension:repositories</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>../dsl/org.gradle.api.publish.ivy.IvyModuleDescriptor.html#org.gradle.api.publish.ivy.IvyModuleDescriptor:withXml(org.gradle.api.Action)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T110810Z" creationid="huanghaohang" creationdate="20220326T110810Z">
@@ -9690,6 +9698,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155908Z" creationid="huanghaohang" creationdate="20210516T155908Z">
         <seg>64.2. 发布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>64.3. Repositories</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141352Z" creationid="huanghaohang" creationdate="20220326T141352Z">
+        <seg>64.3. 仓库</seg>
       </tuv>
     </tu>
     <tu>
@@ -22843,6 +22859,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 64.7. Declaring repositories to publish to</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141706Z" creationid="huanghaohang" creationdate="20220326T141706Z">
+        <seg>示例 64.7. 声明要发布到的仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -29599,6 +29623,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T150042Z" creationid="huanghaohang" creationdate="20210517T161511Z">
         <seg>Publication对象描述了要创建的发布内容的结构和配置。Publications是通过任务发布到仓库的，发布对象的配置明确地决定了要发布的内容。一个项目的所有publications都会在&lt;a0&gt;&lt;c1&gt;PublishingExtension.getPublications()&lt;/c1&gt;&lt;/a0&gt;容器中定义，每一个publication在项目中都具有唯一名称。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Publications are published to repositories. The repositories to publish to are defined by the &lt;a0&gt;&lt;c1&gt;PublishingExtension.getRepositories()&lt;/c1&gt;&lt;/a0&gt; container.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141559Z" creationid="huanghaohang" creationdate="20220326T141357Z">
+        <seg>要发布的内容会被发布到仓库中。用于发布的仓库由 &lt;a0&gt;&lt;c1&gt;PublishingExtension.getRepositories()&lt;/c1&gt;&lt;/a0&gt; 容器定义。</seg>
       </tuv>
     </tu>
     <tu>
