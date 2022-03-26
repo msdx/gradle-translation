@@ -22811,6 +22811,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 64.5. Customizing the module descriptor file</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T105921Z" creationid="huanghaohang" creationdate="20220326T105921Z">
+        <seg>示例 64.5. 自定义模块描述符文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -26311,6 +26319,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170910T031935Z" creationid="huanghaohang" creationdate="20170910T031935Z">
         <seg>在本章中，你已经学到了许多可以从命令行做的事情。关于&lt;s0&gt;&lt;s1&gt;gradle这&lt;/s1&gt;&lt;/s0&gt;命令的更多信息，可以参考《&lt;a2&gt;附录D，&lt;i3&gt;Gradle命令行&lt;/i3&gt;&lt;/a2&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this example we are adding a 'description' element to the generated Ivy dependency descriptor, but this this hook, allows you to modify any aspect of the generated descriptor. For example, you could replace the version range for a dependency with the actual version used to produce the build.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T110224Z" creationid="huanghaohang" creationdate="20220326T110224Z">
+        <seg>In this example we are adding a 'description' element to the generated Ivy dependency descriptor, but this this hook, allows you to modify any aspect of the generated descriptor. For example, you could replace the version range for a dependency with the actual version used to produce the build.</seg>
       </tuv>
     </tu>
     <tu>
@@ -41759,6 +41775,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>asNode().info[&lt;s0&gt;0&lt;/s0&gt;].appendNode(&lt;s1&gt;'description'&lt;/s1&gt;, &lt;s2&gt;'A demonstration of ivy descriptor customization'&lt;/s2&gt;)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T105930Z" creationid="huanghaohang" creationdate="20220326T105930Z">
+        <seg>asNode().info[&lt;s0&gt;0&lt;/s0&gt;].appendNode(&lt;s1&gt;'description'&lt;/s1&gt;, &lt;s2&gt;'A demonstration of ivy descriptor customization'&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>assemble</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T014424Z" creationid="95" creationdate="20170730T014424Z">
@@ -44699,6 +44723,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153823Z" creationid="huanghaohang" creationdate="20210518T153823Z">
         <seg>descriptor.status = &lt;s3&gt;'milestone'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>descriptor.withXml {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T105929Z" creationid="huanghaohang" creationdate="20220326T105929Z">
+        <seg>descriptor.withXml {</seg>
       </tuv>
     </tu>
     <tu>
@@ -48667,6 +48699,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180207T143845Z" creationid="huanghaohang" creationdate="20180207T143845Z">
         <seg>ivy-publish</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>ivyCustom(IvyPublication) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T105928Z" creationid="huanghaohang" creationdate="20220326T105928Z">
+        <seg>ivyCustom(IvyPublication) {</seg>
       </tuv>
     </tu>
     <tu>
