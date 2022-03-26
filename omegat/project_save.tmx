@@ -9678,6 +9678,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>64.2.5. Publishing multiple modules</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T111329Z" creationid="huanghaohang" creationdate="20220326T111329Z">
+        <seg>64.2.5. 多模块发布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>64.2. Publications</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155908Z" creationid="huanghaohang" creationdate="20210516T155908Z">
@@ -30611,6 +30619,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sometimes it's useful to publish multiple modules from your Gradle build, without creating a separate Gradle subproject. An example is publishing a separate API and implementation jar for your library. With Gradle this is simple:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T111336Z" creationid="huanghaohang" creationdate="20220326T111336Z">
+        <seg>Sometimes it's useful to publish multiple modules from your Gradle build, without creating a separate Gradle subproject. An example is publishing a separate API and implementation jar for your library. With Gradle this is simple:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sometimes you are interested in which tasks are executed in which order for a given set of tasks specified on the command line, but you don't want the tasks to be executed. You can use the &lt;c0&gt;-m&lt;/c0&gt; option for this. For example &lt;s1&gt;&lt;c2&gt;gradle -m clean compile&lt;/c2&gt;&lt;/s1&gt; shows you all tasks to be executed as part of the &lt;c3&gt;clean&lt;/c3&gt; and &lt;c4&gt;compile&lt;/c4&gt; tasks. This is complementary to the &lt;c5&gt;tasks&lt;/c5&gt; task, which shows you the tasks which are available for execution.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170910T031744Z" creationid="huanghaohang" creationdate="20170910T031431Z">
@@ -34917,6 +34933,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153723Z" creationid="huanghaohang" creationdate="20210518T153723Z">
         <seg>生成的Ivy模块描述符文件包含了标识模块的&lt;c0&gt;&lt;info&gt;&lt;/c0&gt;标记。默认的标识值取自以下这些项目属性︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The identifier (organisation, module, revision) of the published module is an exception; these values cannot be modified in the descriptor using the `withXML` hook.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T111318Z" creationid="huanghaohang" creationdate="20220326T111318Z">
+        <seg>已发布模块的标识符（organisation，module，revision）则除外；不能使用“withXML”钩子来修改描述符中的这些值。</seg>
       </tuv>
     </tu>
     <tu>
