@@ -16759,6 +16759,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>At times, the module descriptor file generated from the project information will need to be tweaked before publishing. The “&lt;c0&gt;ivy-publish&lt;/c0&gt;” plugin provides a hook to allow such modification.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T105252Z" creationid="huanghaohang" creationdate="20220326T105252Z">
+        <seg>At times, the module descriptor file generated from the project information will need to be tweaked before publishing. The “&lt;c0&gt;ivy-publish&lt;/c0&gt;” plugin provides a hook to allow such modification.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Authentication schemes</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190603T030319Z" creationid="huanghaohang" creationdate="20190603T030319Z">
@@ -24917,8 +24925,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="en-US">
         <seg>Gradle will handle any valid Unicode character for organisation, module and revision (as well as artifact name, extension and classifier). The only values that are explicitly prohibited are '&lt;c0&gt;\&lt;/c0&gt;', '&lt;c1&gt;/&lt;/c1&gt;' and any ISO control character. The supplied values are validated early in publication.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T105248Z" creationid="huanghaohang" creationdate="20211001T045854Z">
-        <seg>Gradle 将处理 organisation，module 和 revision 的任何有效 Unicode 字符 （以及 artifact 名称，扩展名和 classifier）。唯一明确禁止的是“ "&lt;c0&gt;\&lt;/c0&gt;"，“&lt;c1&gt;/&lt;/c1&gt;" 和任何 ISO 控制字符。 在发布时，将验证提供的值。</seg>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T105521Z" creationid="huanghaohang" creationdate="20211001T045854Z">
+        <seg>Gradle 将处理 organisation，module 和 revision 的任何有效 Unicode 字符 （以及工件名称，扩展名和 classifier）。唯一明确禁止的是“ &lt;c0&gt;\&lt;/c0&gt;”，“&lt;c1&gt;/&lt;/c1&gt;”和以及所有的 ISO 控制字符。这些提供的值w会在发布过程的早期进行验证。</seg>
       </tuv>
     </tu>
     <tu>
