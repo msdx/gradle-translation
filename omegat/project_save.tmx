@@ -22835,6 +22835,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 64.6. Publishing multiple modules from a single project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141022Z" creationid="huanghaohang" creationdate="20220326T141022Z">
+        <seg>示例 64.6. 从单项目中发布多个模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -25527,6 +25535,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190610T084304Z" creationid="huanghaohang" creationdate="20190610T084304Z">
         <seg>如果一个二进制变体因为某种原因而不能构建，那么与之关联的 &lt;a0&gt;&lt;c1&gt;NativeBinary&lt;/c1&gt;&lt;/a0&gt; 将不再是 &lt;c2&gt;buildable&lt;/c2&gt;。可以使用这个属性来创建一个任务，生成在特定机器上所有可能的变体。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If a project defines multiple publications then Gradle will publish each of these to the defined repositories. Each publication must be given a unique identity as described above.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141339Z" creationid="huanghaohang" creationdate="20220326T141156Z">
+        <seg>如果一个项目定义了多个发布，那么 Gradle 会将每个发布都发布到定义的仓库中。每个发布都必须x给定如上所述的唯一标识。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40549,6 +40565,14 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>api(IvyPublication) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141037Z" creationid="huanghaohang" creationdate="20220326T141037Z">
+        <seg>api(IvyPublication) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>api/</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170731T154455Z" creationid="95" creationdate="20170731T154455Z">
@@ -41975,6 +41999,14 @@ task fooJar(type: Jar) {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171206T233116Z" creationid="huanghaohang" creationdate="20171206T233116Z">
         <seg>baseName</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>baseName &lt;s0&gt;"publishing-api"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141028Z" creationid="huanghaohang" creationdate="20220326T141028Z">
+        <seg>baseName &lt;s0&gt;"publishing-api"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -45559,6 +45591,14 @@ task consume &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>exclude &lt;s1&gt;'**/impl/**'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141030Z" creationid="huanghaohang" creationdate="20220326T141030Z">
+        <seg>exclude &lt;s1&gt;'**/impl/**'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>exclude module: &lt;s4&gt;'shared'&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190602T105652Z" creationid="huanghaohang" creationdate="20190602T105652Z">
@@ -47965,6 +48005,14 @@ project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>impl(IvyPublication) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141032Z" creationid="huanghaohang" creationdate="20220326T141032Z">
+        <seg>impl(IvyPublication) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>implementation-class=org.gradle.GreetingPlugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190727T153526Z" creationid="huanghaohang" creationdate="20190727T153526Z">
@@ -50030,6 +50078,22 @@ task showRepos &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>module &lt;s3&gt;'project2-impl'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141049Z" creationid="huanghaohang" creationdate="20220326T141049Z">
+        <seg>module &lt;s3&gt;'project2-impl'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>module &lt;s6&gt;'project2-api'&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141039Z" creationid="huanghaohang" creationdate="20220326T141039Z">
+        <seg>module &lt;s6&gt;'project2-api'&lt;/s6&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>module(&lt;s1&gt;"commons-net:commons-net:1.4.1"&lt;/s1&gt;) {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20191202T141256Z" creationid="huanghaohang" creationdate="20191202T141256Z">
@@ -50778,6 +50842,22 @@ binaries.withType(TestSuiteExecutableBinary) {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153819Z" creationid="huanghaohang" creationdate="20210518T153819Z">
         <seg>organisation &lt;s0&gt;'org.gradle.sample'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>organisation &lt;s2&gt;'org.gradle.sample.impl'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141048Z" creationid="huanghaohang" creationdate="20220326T141048Z">
+        <seg>organisation &lt;s2&gt;'org.gradle.sample.impl'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>organisation &lt;s5&gt;'org.gradle.sample'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141038Z" creationid="huanghaohang" creationdate="20220326T141038Z">
+        <seg>organisation &lt;s5&gt;'org.gradle.sample'&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -53812,6 +53892,22 @@ void gradle_cunit_register() {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>revision &lt;s4&gt;'2.3'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141043Z" creationid="huanghaohang" creationdate="20220326T141043Z">
+        <seg>revision &lt;s2&gt;'1.1'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>revision &lt;s7&gt;'2'&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141051Z" creationid="huanghaohang" creationdate="20220326T141051Z">
+        <seg>revision &lt;s7&gt;'2'&lt;/s7&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>root</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190607T093636Z" creationid="huanghaohang" creationdate="20190607T093636Z">
@@ -55796,6 +55892,14 @@ uploadArchives {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171015T075014Z" creationid="huanghaohang" creationdate="20171015T075014Z">
         <seg>task anotherCopyTask(type: Copy) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>task apiJar(type: Jar) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141025Z" creationid="huanghaohang" creationdate="20220326T141025Z">
+        <seg>task apiJar(type: Jar) {</seg>
       </tuv>
     </tu>
     <tu>
