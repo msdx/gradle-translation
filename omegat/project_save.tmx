@@ -39755,6 +39755,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>You can specify where the generated Ivy file will be located by setting the &lt;c0&gt;destination&lt;/c0&gt; property on the generate task. By default this file is generated to &lt;c1&gt;build/publications/«&lt;s2&gt;&lt;e3&gt;NAME OF PUBLICATION&lt;/e3&gt;&lt;/s2&gt;»/ivy.xml&lt;/c1&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T041553Z" creationid="huanghaohang" creationdate="20220327T041553Z">
+        <seg>通过设置生成任务上的 &lt;c0&gt;destination&lt;/c0&gt; 属性，你可以指定生成的 Ivy 文件的位置。默认情况下，该文件会生成到 &lt;c1&gt;build/publications/«&lt;s2&gt;&lt;e3&gt;发布内容的名称&lt;/e3&gt;&lt;/s2&gt;»/ivy.xml&lt;/c1&gt;中。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>You can specify whether or not to execute your tests in parallel. Gradle provides parallel test execution by running multiple test processes concurrently. Each test process executes only a single test at a time, so you generally don't need to do anything special to your tests to take advantage of this. The &lt;c0&gt;maxParallelForks&lt;/c0&gt; property specifies the maximum number of test processes to run at any given time. The default is 1, that is, do not execute the tests in parallel.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180330T055339Z" creationid="haohang" creationdate="20180330T055339Z">
