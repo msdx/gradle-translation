@@ -10110,6 +10110,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>65.2.3. Identity values in the generated POM</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T133432Z" creationid="huanghaohang" creationdate="20220327T133432Z">
+        <seg>65.2.3. 生成的POM中的标识值</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>65.2. Publications</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T130226Z" creationid="huanghaohang" creationdate="20220327T130226Z">
@@ -31547,6 +31555,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>See &lt;a0&gt;&lt;c1&gt;MavenPublication&lt;/c1&gt;&lt;/a0&gt; for more detailed documentation on how artifacts can be customized.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T133401Z" creationid="huanghaohang" creationdate="20220327T133401Z">
+        <seg>关于如何自定义工件的更详细的文档，请参阅&lt;a0&gt;&lt;c1&gt;MavenPublication&lt;/c1&gt;&lt;/a0&gt; 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>See &lt;a0&gt;&lt;c1&gt;PmdExtension&lt;/c1&gt;&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180516T143250Z" creationid="huanghaohang" creationdate="20180516T143250Z">
@@ -35581,6 +35597,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171126T140626Z" creationid="huanghaohang" creationdate="20171126T140030Z">
         <seg>归档任务与 &lt;c0&gt;Copy&lt;/c0&gt; 任务的使用方式完全一样，并且实现了同样的 &lt;c1&gt;CopySpec&lt;/c1&gt; 接口。像使用 &lt;c2&gt;Copy&lt;/c2&gt; 任务一样，你需要使用 &lt;c3&gt;from()&lt;/c3&gt; 方法指定输入文件，并且可以选择使用 &lt;c4&gt;into()&lt;/c4&gt; 方法来指定它们在归档中结束的位置。你可以过滤文件内容，重命名文件以及进行通过复制规范可以做的其他事情。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The attributes of the generated &lt;c0&gt;POM&lt;/c0&gt; file will contain identity values derived from the following project properties:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T133458Z" creationid="huanghaohang" creationdate="20220327T133458Z">
+        <seg>生成的 &lt;c0&gt;POM&lt;/c0&gt; 文件的属性中，包含了从以下项目属性中导出来的标识值：</seg>
       </tuv>
     </tu>
     <tu>
