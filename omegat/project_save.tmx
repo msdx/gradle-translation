@@ -9718,6 +9718,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>64.4.1. The “&lt;c0&gt;publish&lt;/c0&gt;” lifecycle task</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T033227Z" creationid="huanghaohang" creationdate="20220327T033227Z">
+        <seg>64.4.1.  “&lt;c0&gt;publish&lt;/c0&gt;”的生命周期任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>64.4. Performing a publish</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T031543Z" creationid="huanghaohang" creationdate="20220327T031543Z">
@@ -14817,6 +14825,34 @@ Total time: 1 secs</seg>
 [ant:echo] Hello, from Ant
 :intro
 Hello, from Gradle
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; gradle publishIvyJavaPublicationToIvyRepository
+:generateDescriptorFileForIvyJavaPublication
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar
+:publishIvyJavaPublicationToIvyRepository
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T033156Z" creationid="huanghaohang" creationdate="20220327T033156Z">
+        <seg>&gt; gradle publishIvyJavaPublicationToIvyRepository
+:generateDescriptorFileForIvyJavaPublication
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar
+:publishIvyJavaPublicationToIvyRepository
 
 BUILD SUCCESSFUL
 
@@ -22887,6 +22923,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T033113Z" creationid="huanghaohang" creationdate="20220327T033113Z">
         <seg>示例 64.8. 选择发布特定的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 64.9. Publishing all publications via the “publish” lifecycle task</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T033251Z" creationid="huanghaohang" creationdate="20220327T033251Z">
+        <seg>示例 64.9. 通过“publish”的生命周期任务发布所有要发布的内容</seg>
       </tuv>
     </tu>
     <tu>
