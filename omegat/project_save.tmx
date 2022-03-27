@@ -22951,6 +22951,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Example 64.11. Publishing a java module</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T044912Z" creationid="huanghaohang" creationdate="20220327T044912Z">
+        <seg>示例 64.11. 发布一个 java 模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Example 64.2. Publishing a java module to Ivy</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20210518T150742Z" creationid="huanghaohang" creationdate="20210518T150742Z">
@@ -35653,6 +35661,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The result is that the following artifacts will be published for each project:</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045140Z" creationid="huanghaohang" creationdate="20220327T045140Z">
+        <seg>结果是将为每个项目发表以下工件︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The result of resolving a dynamic version (e.g. &lt;c0&gt;1.+&lt;/c0&gt;) to a concrete version (e.g. &lt;c1&gt;1.2&lt;/c1&gt;).</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T070933Z" creationid="huanghaohang" creationdate="20190605T043219Z">
@@ -41649,6 +41665,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>apply plugin: &lt;s1&gt;'ivy-publish'&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T044914Z" creationid="huanghaohang" creationdate="20220327T044914Z">
+        <seg>apply plugin: &lt;s1&gt;'ivy-publish'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>apply plugin: &lt;s3&gt;'war'&lt;/s3&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T150907Z" creationid="huanghaohang" creationdate="20190617T150907Z">
@@ -42155,6 +42179,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220326T105930Z" creationid="huanghaohang" creationdate="20220326T105930Z">
         <seg>asNode().info[&lt;s0&gt;0&lt;/s0&gt;].appendNode(&lt;s1&gt;'description'&lt;/s1&gt;, &lt;s2&gt;'A demonstration of ivy descriptor customization'&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>asNode().info[&lt;s16&gt;0&lt;/s16&gt;].appendNode(&lt;s17&gt;'description'&lt;/s17&gt;, description)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045010Z" creationid="huanghaohang" creationdate="20220327T045010Z">
+        <seg>asNode().info[&lt;s16&gt;0&lt;/s16&gt;].appendNode(&lt;s17&gt;'description'&lt;/s17&gt;, description)</seg>
       </tuv>
     </tu>
     <tu>
@@ -43017,6 +43049,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>classifier &lt;s4&gt;"source"&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T044926Z" creationid="huanghaohang" creationdate="20220327T044926Z">
+        <seg>classifier &lt;s4&gt;"source"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>classifier = &lt;s4&gt;'src'&lt;/s4&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171206T232600Z" creationid="huanghaohang" creationdate="20171206T232600Z">
@@ -43421,6 +43461,14 @@ println myZip.archiveName</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>compile &lt;s11&gt;'commons-collections:commons-collections:3.1'&lt;/s11&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045003Z" creationid="huanghaohang" creationdate="20220327T045003Z">
+        <seg>compile &lt;s11&gt;'commons-collections:commons-collections:3.1'&lt;/s11&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>compile &lt;s2&gt;'org.codehaus.groovy:groovy-all:2.3.3'&lt;/s2&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170909T002852Z" creationid="huanghaohang" creationdate="20170909T002852Z">
@@ -43433,6 +43481,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T150908Z" creationid="huanghaohang" creationdate="20190617T150908Z">
         <seg>compile &lt;s4&gt;"javax.servlet:servlet-api:2.5"&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>compile &lt;s7&gt;'junit:junit:4.11'&lt;/s7&gt;, project(&lt;s8&gt;':project2'&lt;/s8&gt;)</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T044957Z" creationid="huanghaohang" creationdate="20220327T044957Z">
+        <seg>compile &lt;s7&gt;'junit:junit:4.11'&lt;/s7&gt;, project(&lt;s8&gt;':project2'&lt;/s8&gt;)</seg>
       </tuv>
     </tu>
     <tu>
@@ -43699,6 +43755,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T041005Z" creationid="huanghaohang" creationdate="20190605T041005Z">
         <seg>components {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>conf &lt;s15&gt;"runtime"&lt;/s15&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045009Z" creationid="huanghaohang" creationdate="20220327T045009Z">
+        <seg>conf &lt;s15&gt;"runtime"&lt;/s15&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -45079,6 +45143,14 @@ uploadArchives {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>description = &lt;s10&gt;"The second project"&lt;/s10&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045002Z" creationid="huanghaohang" creationdate="20220327T045002Z">
+        <seg>description = &lt;s10&gt;"The second project"&lt;/s10&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>description = &lt;s1&gt;'compile classpath'&lt;/s1&gt;
 }</seg>
       </tuv>
@@ -45099,6 +45171,14 @@ uploadArchives {</seg>
 &lt;s22&gt;//      libraryDirectory = "APP-INF/lib"  // not needed, because setting libDirName above did this for us&lt;/s22&gt;
 &lt;s23&gt;//      module("my.jar", "java")  // wouldn't deploy since my.jar isn't a deploy dependency&lt;/s23&gt;
 &lt;s24&gt;//      webModule("my.war", "/")  // wouldn't deploy since my.war isn't a deploy dependency&lt;/s24&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>description = &lt;s6&gt;"The first project"&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T044935Z" creationid="huanghaohang" creationdate="20220327T044935Z">
+        <seg>description = &lt;s6&gt;"The first project"&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -47345,6 +47425,14 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T150901Z" creationid="huanghaohang" creationdate="20190617T150901Z">
         <seg>group = &lt;s1&gt;'org.gradle.sample'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>group = &lt;s3&gt;'org.gradle.sample'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T044920Z" creationid="huanghaohang" creationdate="20220327T044920Z">
+        <seg>group = &lt;s3&gt;'org.gradle.sample'&lt;/s3&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -57707,6 +57795,14 @@ test {</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>type &lt;s14&gt;"source"&lt;/s14&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045007Z" creationid="huanghaohang" creationdate="20220327T045007Z">
+        <seg>type &lt;s14&gt;"source"&lt;/s14&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>type &lt;s1&gt;"source"&lt;/s1&gt;</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20210518T153456Z" creationid="huanghaohang" creationdate="20210518T153456Z">
@@ -57799,6 +57895,14 @@ test {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T025226Z" creationid="huanghaohang" creationdate="20190604T025226Z">
         <seg>url &lt;s0&gt;'http://repo.mycompany.com'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>url &lt;s12&gt;"${rootProject.buildDir}/repo"&lt;/s12&gt; &lt;s13&gt;// change to point to your repo, e.g. http://my.org/repo&lt;/s13&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045006Z" creationid="huanghaohang" creationdate="20220327T045006Z">
+        <seg>url &lt;s12&gt;"${rootProject.buildDir}/repo"&lt;/s12&gt; &lt;s13&gt;// change to point to your repo, e.g. http://my.org/repo&lt;/s13&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -58876,6 +58980,20 @@ project(&lt;s5&gt;":exe"&lt;/s5&gt;) {</seg>
         <seg>}
 }
 
+project(&lt;s5&gt;":project1"&lt;/s5&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T044927Z" creationid="huanghaohang" creationdate="20220327T044927Z">
+        <seg>}
+}
+
+project(&lt;s5&gt;":project1"&lt;/s5&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
 project(&lt;s6&gt;':services:personService'&lt;/s6&gt;) {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190617T160637Z" creationid="huanghaohang" creationdate="20190617T160637Z">
@@ -58904,6 +59022,20 @@ project(&lt;s7&gt;':services:personService'&lt;/s7&gt;) {</seg>
         <seg>}
 }
 
+project(&lt;s9&gt;":project2"&lt;/s9&gt;) {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045001Z" creationid="huanghaohang" creationdate="20220327T045001Z">
+        <seg>}
+}
+
+project(&lt;s9&gt;":project2"&lt;/s9&gt;) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
 repositories {</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="95" changedate="20170731T154103Z" creationid="95" creationdate="20170731T154103Z">
@@ -58911,6 +59043,20 @@ repositories {</seg>
 }
 
 repositories {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>}
+}
+
+subprojects {</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045005Z" creationid="huanghaohang" creationdate="20220327T045005Z">
+        <seg>}
+}
+
+subprojects {</seg>
       </tuv>
     </tu>
     <tu>
