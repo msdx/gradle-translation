@@ -15991,6 +15991,22 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A.3. Sample &lt;c0&gt;customPlugin&lt;/c0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060018Z" creationid="huanghaohang" creationdate="20220327T060018Z">
+        <seg>A.3. 示例 &lt;c0&gt;customPlugin&lt;/c0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A.4. Sample &lt;c0&gt;java/multiproject&lt;/c0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060026Z" creationid="huanghaohang" creationdate="20220327T060026Z">
+        <seg>A.4. f示例 &lt;c0&gt;java/multiproject&lt;/c0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>ANTLR grammar files for the given source set.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190123T013804Z" creationid="huanghaohang" creationdate="20190123T013804Z">
@@ -17471,6 +17487,30 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>B. Potential Traps</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060114Z" creationid="huanghaohang" creationdate="20220327T060114Z">
+        <seg>B. 潜在陷阱</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>B.1. Groovy script variables</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060131Z" creationid="huanghaohang" creationdate="20220327T060131Z">
+        <seg>B.1. Groovy 脚本变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>B.2. Configuration and execution phase</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060143Z" creationid="huanghaohang" creationdate="20220327T060143Z">
+        <seg>B.2. 配置和执行阶段</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Base plugins</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180517T035023Z" creationid="huanghaohang" creationdate="20180517T035023Z">
@@ -17907,6 +17947,30 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190609T052157Z" creationid="huanghaohang" creationdate="20190609T042908Z">
         <seg>把 C++ 源码包含到本机二进制文件中，是通过 &lt;a0&gt;&lt;c1&gt;CppSourceSet&lt;/c1&gt;&lt;/a0&gt; 来实现的，它定义了一组 C++ 源文件以及可选的一组导出的头文件（用于库）。默认情况下，对于任何命名的组件，&lt;a2&gt;&lt;c3&gt;CppSourceSet&lt;/c3&gt;&lt;/a2&gt; 包含了在 &lt;c5&gt;src/${name}/cpp&lt;/c5&gt; 中的 &lt;c4&gt;.cpp&lt;/c4&gt; 源文件，以及在 &lt;c6&gt;src/${name}/headers&lt;/c6&gt; 中的头文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>C. The Feature Lifecycle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060154Z" creationid="huanghaohang" creationdate="20220327T060154Z">
+        <seg>C. 功能生命周期</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>C.1. States</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060207Z" creationid="huanghaohang" creationdate="20220327T060207Z">
+        <seg>C.1. 状态</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>C.2. Backwards Compatibility Policy</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060226Z" creationid="huanghaohang" creationdate="20220327T060226Z">
+        <seg>C.2. 向后兼容策略</seg>
       </tuv>
     </tu>
     <tu>
@@ -19383,6 +19447,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190205T070336Z" creationid="huanghaohang" creationdate="20190205T070336Z">
         <seg>自定义生成的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>D. Gradle Command Line</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060238Z" creationid="huanghaohang" creationdate="20220327T060238Z">
+        <seg>D. Gradle命令行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>D.1. Daemon command-line options:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060307Z" creationid="huanghaohang" creationdate="20220327T060307Z">
+        <seg>D.1. 守护程序命令行选项：</seg>
       </tuv>
     </tu>
     <tu>
@@ -47125,6 +47205,22 @@ task printTaskProperties &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>feature_lifecycle.html#N17469</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060159Z" creationid="huanghaohang" creationdate="20220327T060159Z">
+        <seg>feature_lifecycle.html#N17469</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>feature_lifecycle.html#backwards_compatibility</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060212Z" creationid="huanghaohang" creationdate="20220327T060212Z">
+        <seg>feature_lifecycle.html#backwards_compatibility</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>feature_lifecycle.html#sec:incubating_state</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170923T043854Z" creationid="huanghaohang" creationdate="20170923T043854Z">
@@ -48045,6 +48141,22 @@ systemProp.system=systemValue</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170729T030916Z" creationid="95" creationdate="20170729T030916Z">
         <seg>gradle_command_line.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gradle_command_line.html#N176AF</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060326Z" creationid="huanghaohang" creationdate="20220327T060326Z">
+        <seg>gradle_command_line.html#N176AF</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gradle_command_line.html#daemon_cli</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060240Z" creationid="huanghaohang" creationdate="20220327T060240Z">
+        <seg>gradle_command_line.html#daemon_cli</seg>
       </tuv>
     </tu>
     <tu>
@@ -52782,6 +52894,30 @@ dependencies {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>potential_traps.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060028Z" creationid="huanghaohang" creationdate="20220327T060028Z">
+        <seg>potential_traps.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>potential_traps.html#sec:configuration_and_execution_phase</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060133Z" creationid="huanghaohang" creationdate="20220327T060133Z">
+        <seg>potential_traps.html#sec:configuration_and_execution_phase</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>potential_traps.html#sec:groovy_script_variables</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060117Z" creationid="huanghaohang" creationdate="20220327T060117Z">
+        <seg>potential_traps.html#sec:groovy_script_variables</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>println &lt;s0&gt;"- The weight of my species in summer is twice as heavy as all human beings."&lt;/s0&gt;
 }</seg>
       </tuv>
@@ -55614,6 +55750,14 @@ project(&lt;s4&gt;':projectA'&lt;/s4&gt;).buildFileName = &lt;s5&gt;'projectA.gr
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T055956Z" creationid="huanghaohang" creationdate="20220327T055956Z">
         <seg>sample_list.html#-483118767</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sample_list.html#1527440619</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T060021Z" creationid="huanghaohang" creationdate="20220327T060021Z">
+        <seg>sample_list.html#1527440619</seg>
       </tuv>
     </tu>
     <tu>
