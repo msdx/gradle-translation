@@ -28007,6 +28007,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>Note that the &lt;c0&gt;«PUBLICATION-TIME-STAMP»&lt;/c0&gt; in this example Ivy module descriptor will be the timestamp of when the descriptor was generated.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045722Z" creationid="huanghaohang" creationdate="20220327T045722Z">
+        <seg>注意：在这个例子中，Ivy 模块描述符中的&lt;c0&gt;«发布时间戳»&lt;/c0&gt;将是描述符文件生成时的时间戳。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Note that this command blocks until the Gradle GUI is closed. Under *nix it is probably preferable to run this as a background task (&lt;s0&gt;&lt;s1&gt;gradle --gui&amp;&lt;/s1&gt;&lt;/s0&gt;)</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170911T143437Z" creationid="huanghaohang" creationdate="20170911T143437Z">
@@ -33501,6 +33509,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The Ivy module descriptor file: &lt;c0&gt;ivy-1.0.xml&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045149Z" creationid="huanghaohang" creationdate="20220327T045149Z">
+        <seg>Ivy 模块描述符文件︰&lt;c0&gt;ivy-1.0.xml&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The JDepend Plugin</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190205T070022Z" creationid="huanghaohang" creationdate="20190205T070022Z">
@@ -35573,6 +35589,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>The primary “jar” artifact for the java component: &lt;c0&gt;project1-1.0.jar&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045158Z" creationid="huanghaohang" creationdate="20220327T045158Z">
+        <seg>Java 组件的主要“jar”工件︰&lt;c0&gt;project1-1.0.jar&lt;/c0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>The project report defines the following convention properties:</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190123T040440Z" creationid="huanghaohang" creationdate="20190123T040440Z">
@@ -35801,6 +35825,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="haohang" changedate="20180320T101233Z" creationid="haohang" creationdate="20180320T101233Z">
         <seg>包含此源集资源的源目录。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>The source “jar” artifact that has been explicitly configured:&lt;c0&gt;project1-1.0-source.jar&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045216Z" creationid="huanghaohang" creationdate="20220327T045216Z">
+        <seg>已显式配置的源码“jar”工件︰&lt;c0&gt;project1-1.0-source.jar&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38489,6 +38521,14 @@ Description</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20170908T024330Z" creationid="haohang" creationdate="20170908T013315Z">
         <seg>这里做了些什么？这个构建脚本说明了关于项目的一些事情。首先，它指出，Hibernate core 3.6.7.Final是编项目的生产源代码所必需的。同时也暗指了，运行时还需要使用Hibernate core及其依赖。构建脚本还指出，编译项目的测试时需要4.0或以上的junit。它还告诉Gradle在Maven中央存储库中查找所需的任何依赖。以下各节内容会进行详细介绍。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>When &lt;c0&gt;project1&lt;/c0&gt; is published, the module descriptor (i.e. the &lt;c1&gt;ivy.xml&lt;/c1&gt; file) that is produced will look like…</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T045408Z" creationid="huanghaohang" creationdate="20220327T045408Z">
+        <seg>当&lt;c0&gt;project1&lt;/c0&gt;发布时，生成的模块描述符（即&lt;c1&gt;ivy.xml&lt;/c1&gt;文件）将类似于……</seg>
       </tuv>
     </tu>
     <tu>
