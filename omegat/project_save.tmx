@@ -1066,6 +1066,22 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.publish.maven.tasks.GenerateMavenPom.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T125252Z" creationid="huanghaohang" creationdate="20220327T125252Z">
+        <seg>../dsl/org.gradle.api.publish.maven.tasks.GenerateMavenPom.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.publish.maven.tasks.PublishToMavenRepository.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T125505Z" creationid="huanghaohang" creationdate="20220327T125505Z">
+        <seg>../dsl/org.gradle.api.publish.maven.tasks.PublishToMavenRepository.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>../dsl/org.gradle.api.reporting.GenerateBuildDashboard.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20190202T153740Z" creationid="95" creationdate="20190202T153740Z">
@@ -17095,6 +17111,14 @@ Transforming source file.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Applying the “&lt;c0&gt;maven-publish&lt;/c0&gt;” plugin does the following:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T125248Z" creationid="huanghaohang" creationdate="20220327T125248Z">
+        <seg>应用“&lt;c0&gt;maven-publish&lt;/c0&gt;”插件将执行以下操作：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Architectures</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190610T085907Z" creationid="huanghaohang" creationdate="20190610T085907Z">
@@ -20347,10 +20371,26 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Establishes a rule to automatically create a &lt;a0&gt;&lt;c1&gt;GenerateMavenPom&lt;/c1&gt;&lt;/a0&gt; task for each &lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt;&lt;/a2&gt; added (see &lt;a4&gt;Section 65.2, “Publications”&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T125442Z" creationid="huanghaohang" creationdate="20220327T125442Z">
+        <seg>建立一个规则来为每个添加的&lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt; &lt;/a2&gt;自动创建 &lt;a0&gt; &lt;c1&gt;GenerateMavenPom&lt;/c1&gt;&lt;/a0&gt;任务（见《&lt;a4&gt;第 65.2 节，“发布”&lt;/a4&gt;》）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Establishes a rule to automatically create a &lt;a0&gt;&lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt; task for the combination of each &lt;a2&gt;&lt;c3&gt;IvyPublication&lt;/c3&gt;&lt;/a2&gt; added (see &lt;a4&gt;Section 64.2, “Publications”&lt;/a4&gt;), with each &lt;a5&gt;&lt;c6&gt;IvyArtifactRepository&lt;/c6&gt;&lt;/a5&gt; added (see &lt;a7&gt;Section 64.3, “Repositories”&lt;/a7&gt;).</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155902Z" creationid="huanghaohang" creationdate="20210516T155902Z">
         <seg>建立一个规则来为添加的每一个&lt;a2&gt;&lt;c3&gt;IvyPublication&lt;/c3&gt;&lt;/a2&gt;（见《&lt;a4&gt;第 64.2节，“发布”&lt;/a4&gt;》）和&lt;a5&gt;&lt;c6&gt;IvyArtifactRepository&lt;/c6&gt;&lt;/a5&gt;（见《&lt;a4&gt;第 64.3 节，“仓库”&lt;/a4&gt;》）的组合自动创建&lt;a0&gt; &lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt;任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Establishes a rule to automatically create a &lt;a0&gt;&lt;c1&gt;PublishToMavenRepository&lt;/c1&gt;&lt;/a0&gt; task for the combination of each &lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt;&lt;/a2&gt; added (see &lt;a4&gt;Section 65.2, “Publications”&lt;/a4&gt;), with each &lt;a5&gt;&lt;c6&gt;MavenArtifactRepository&lt;/c6&gt;&lt;/a5&gt; added (see &lt;a7&gt;Section 65.3, “Repositories”&lt;/a7&gt;).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T125835Z" creationid="huanghaohang" creationdate="20220327T125835Z">
+        <seg>建立一个规则，来为添加的每一个&lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt; &lt;/a2&gt;（见《&lt;a4&gt;第 65.2 节，“发布”&lt;/a4&gt;》）及 &lt;a5&gt;&lt;c6&gt;MavenArtifactRepository&lt;/c6&gt;&lt;/a5&gt; (见《&lt;a7&gt;第 65.3 节， “仓库”&lt;/a7&gt;》）的组合，自动创建 &lt;a0&gt; &lt;c1&gt;PublishToMavenRepository&lt;/c1&gt;&lt;/a0&gt;任务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23759,6 +23799,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T033251Z" creationid="huanghaohang" creationdate="20220327T033251Z">
         <seg>示例 64.9. 通过“publish”的生命周期任务发布所有要发布的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 65.1. Applying the 'maven-publish' plugin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T125209Z" creationid="huanghaohang" creationdate="20220327T125209Z">
+        <seg>示例 65.1. 应用“maven-publish”插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -42617,6 +42665,14 @@ uploadArchives {</seg>
         <seg>apply plugin: &lt;s0&gt;'maven'&lt;/s0&gt;
 
 uploadArchives {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>apply plugin: &lt;s0&gt;'maven-publish'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T125227Z" creationid="huanghaohang" creationdate="20220327T125227Z">
+        <seg>apply plugin: &lt;s0&gt;'maven-publish'&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
