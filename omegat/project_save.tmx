@@ -738,6 +738,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.artifacts.dsl.RepositoryHandler.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141746Z" creationid="huanghaohang" creationdate="20220326T141746Z">
+        <seg>../dsl/org.gradle.api.artifacts.dsl.RepositoryHandler.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>../dsl/org.gradle.api.artifacts.repositories.IvyArtifactRepository.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210516T155135Z" creationid="huanghaohang" creationdate="20210516T155135Z">
@@ -29629,8 +29637,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="en-US">
         <seg>Publications are published to repositories. The repositories to publish to are defined by the &lt;a0&gt;&lt;c1&gt;PublishingExtension.getRepositories()&lt;/c1&gt;&lt;/a0&gt; container.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141559Z" creationid="huanghaohang" creationdate="20220326T141357Z">
-        <seg>要发布的内容会被发布到仓库中。用于发布的仓库由 &lt;a0&gt;&lt;c1&gt;PublishingExtension.getRepositories()&lt;/c1&gt;&lt;/a0&gt; 容器定义。</seg>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141729Z" creationid="huanghaohang" creationdate="20220326T141357Z">
+        <seg>要发布的内容会被发布到仓库中。要发布到的仓库由 &lt;a0&gt;&lt;c1&gt;PublishingExtension.getRepositories()&lt;/c1&gt;&lt;/a0&gt; 容器定义。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32869,6 +32877,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170723T114530Z" creationid="95" creationdate="20170723T114530Z">
         <seg>DSL参考指南。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The DSL used to declare repositories for publishing is the same DSL that is used to declare repositories for dependencies (&lt;a0&gt;&lt;c1&gt;RepositoryHandler&lt;/c1&gt;&lt;/a0&gt;). However, in the context of Ivy publication only the repositories created by the &lt;c2&gt;ivy()&lt;/c2&gt; methods can be used as publication destinations. You cannot publish an &lt;c3&gt;IvyPublication&lt;/c3&gt; to a Maven repository for example.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T031536Z" creationid="huanghaohang" creationdate="20220327T031536Z">
+        <seg>声明发布仓库的 DSL 和声明依赖仓库的 DSL （&lt;a0&gt;&lt;c1&gt;RepositoryHandler&lt;/c1&gt;&lt;/a0&gt;）是一样的。然而，在 Ivy 发布的场景中，只能通过 &lt;c2&gt;ivy()&lt;/c2&gt; 方法创建的仓库才可以作为发布的目标地方。比如，你不能把一个 &lt;c3&gt;IvyPublication&lt;/c3&gt; 发布到一个 Maven 仓库中。</seg>
       </tuv>
     </tu>
     <tu>
@@ -57471,6 +57487,14 @@ test {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190607T094949Z" creationid="huanghaohang" creationdate="20190607T094949Z">
         <seg>uploadTask.repositories.mavenDeployer.pom.artifactId (if set) or archiveTask.baseName.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>url &lt;s0&gt;"$buildDir/repo"&lt;/s0&gt; &lt;s1&gt;// change to point to your repo, e.g. http://my.org/repo&lt;/s1&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141744Z" creationid="huanghaohang" creationdate="20220326T141744Z">
+        <seg>url &lt;s0&gt;"$buildDir/repo"&lt;/s0&gt; &lt;s1&gt;// change to point to your repo, e.g. http://my.org/repo&lt;/s1&gt;</seg>
       </tuv>
     </tu>
     <tu>
