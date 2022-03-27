@@ -23875,6 +23875,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 65.3. Adding additional artifact to a MavenPublication</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T132958Z" creationid="huanghaohang" creationdate="20220327T132958Z">
+        <seg>示例65.3. 向MavenPublication 添加其他的工件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -43195,6 +43203,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>artifact sourceJar {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T133001Z" creationid="huanghaohang" creationdate="20220327T133001Z">
+        <seg>artifact sourceJar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>artifact(sourceJar) {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153455Z" creationid="huanghaohang" creationdate="20210518T153455Z">
@@ -44241,6 +44257,14 @@ println myZip.archiveName</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153453Z" creationid="huanghaohang" creationdate="20210518T153453Z">
         <seg>classifier &lt;s0&gt;"source"&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>classifier &lt;s0&gt;"sources"&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T133006Z" creationid="huanghaohang" creationdate="20220327T133006Z">
+        <seg>classifier &lt;s0&gt;"sources"&lt;/s0&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -48055,6 +48079,20 @@ println myZip.archiveName</seg>
       <tuv lang="zh-CN" changeid="haohang" changedate="20180326T095353Z" creationid="haohang" creationdate="20180326T095353Z">
         <seg>from sourceSets.intTest.output
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>from sourceSets.main.allJava
+}
+
+publishing {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T133000Z" creationid="huanghaohang" creationdate="20220327T133000Z">
+        <seg>from sourceSets.main.allJava
+}
+
+publishing {</seg>
       </tuv>
     </tu>
     <tu>
