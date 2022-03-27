@@ -9734,6 +9734,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>64.5. Generating the Ivy module descriptor file without publishing</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T040514Z" creationid="huanghaohang" creationdate="20220327T040514Z">
+        <seg>64.5. 生成 Ivy 模块的描述符文件而不发布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20171014T124851Z" creationid="huanghaohang" creationdate="20171014T124851Z">
@@ -14833,6 +14841,36 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>&gt; gradle publish
+:generateDescriptorFileForIvyJavaPublication
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar
+:publishIvyJavaPublicationToIvyRepository
+:publish
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T040448Z" creationid="huanghaohang" creationdate="20220327T040448Z">
+        <seg>&gt; gradle publish
+:generateDescriptorFileForIvyJavaPublication
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar
+:publishIvyJavaPublicationToIvyRepository
+:publish
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>&gt; gradle publishIvyJavaPublicationToIvyRepository
 :generateDescriptorFileForIvyJavaPublication
 :compileJava UP-TO-DATE
@@ -16839,6 +16877,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190605T024949Z" creationid="huanghaohang" creationdate="20190605T024949Z">
         <seg>有时候，可以用一个完全不同的模块来替换所请求的模块依赖。示例包括，使用 “&lt;c0&gt;groovy&lt;/c0&gt;” 代替 “&lt;c1&gt;groovy-all&lt;/c1&gt;”，或使用 “&lt;c2&gt;log4j-over-slf4j&lt;/c2&gt;” 代替 “&lt;c3&gt;log4j&lt;/c3&gt;”。从 Gradle 1.5 起，你可以使用依赖解析规则来进行这些替换：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>At times it is useful to generate the Ivy module descriptor file (normally &lt;c0&gt;ivy.xml&lt;/c0&gt;) without publishing your module to an Ivy repository. Since descriptor file generation is performed by a separate task, this is very easy to do.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T040721Z" creationid="huanghaohang" creationdate="20220327T040721Z">
+        <seg>有时候，我们需要在不发布模块到 Ivy 仓库的情况下，生成 Ivy 模块描述符文件（通常是&lt;c0&gt;ivy.xml&lt;/c0&gt;）。由于描述符文件的生成是由一个单独的任务执行的，所以要实现它就很简单。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26239,6 +26285,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="EN-US">
+        <seg>In more concrete terms, executing this task will execute all &lt;a0&gt;&lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt; tasks in the project. This is usually the most convenient way to perform a publish.</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T040424Z" creationid="huanghaohang" creationdate="20220327T040424Z">
+        <seg>更具体而言，执行这个任务将会执行项目中的所有 &lt;a0&gt;&lt;c1&gt;PublishToIvyRepository&lt;/c1&gt;&lt;/a0&gt; 任务。这通常是执行发布的最方便的方式。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>In most cases, Gradle's default dependency management will resolve the dependencies that you want in your build. In some cases, however, it can be necessary to tweak dependency resolution to ensure that your build receives exactly the right dependencies.</seg>
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20190604T033837Z" creationid="huanghaohang" creationdate="20190604T033458Z">
@@ -29083,6 +29137,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20180105T084643Z" creationid="huanghaohang" creationdate="20180105T084643Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle intro&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle publish&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="ZH-CN" changeid="huanghaohang" changedate="20220327T040436Z" creationid="huanghaohang" creationdate="20220327T040436Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle publish&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
