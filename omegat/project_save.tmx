@@ -2242,6 +2242,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>../javadoc/org/gradle/api/publish/maven/tasks/PublishToMavenLocal.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T125838Z" creationid="huanghaohang" creationdate="20220327T125838Z">
+        <seg>../javadoc/org/gradle/api/publish/maven/tasks/PublishToMavenLocal.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>../javadoc/org/gradle/api/tasks/JavaExec.html#setDebug(boolean)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20190130T233853Z" creationid="95" creationdate="20190130T233853Z">
@@ -20373,8 +20381,8 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       <tuv lang="en-US">
         <seg>Establishes a rule to automatically create a &lt;a0&gt;&lt;c1&gt;GenerateMavenPom&lt;/c1&gt;&lt;/a0&gt; task for each &lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt;&lt;/a2&gt; added (see &lt;a4&gt;Section 65.2, “Publications”&lt;/a4&gt;).</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T125442Z" creationid="huanghaohang" creationdate="20220327T125442Z">
-        <seg>建立一个规则来为每个添加的&lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt; &lt;/a2&gt;自动创建 &lt;a0&gt; &lt;c1&gt;GenerateMavenPom&lt;/c1&gt;&lt;/a0&gt;任务（见《&lt;a4&gt;第 65.2 节，“发布”&lt;/a4&gt;》）。</seg>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T130106Z" creationid="huanghaohang" creationdate="20220327T125442Z">
+        <seg>建立一个规则来为每个添加的&lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt; &lt;/a2&gt;自动创建一个 &lt;a0&gt; &lt;c1&gt;GenerateMavenPom&lt;/c1&gt;&lt;/a0&gt;任务（见《&lt;a4&gt;第 65.2 节，“发布”&lt;/a4&gt;》）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20387,10 +20395,18 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Establishes a rule to automatically create a &lt;a0&gt;&lt;c1&gt;PublishToMavenLocal&lt;/c1&gt;&lt;/a0&gt; task for each &lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt;&lt;/a2&gt; added (see&lt;a4&gt;Section 65.2, “Publications”&lt;/a4&gt;).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T130036Z" creationid="huanghaohang" creationdate="20220327T130036Z">
+        <seg>建立一个规则，来为添加的每个 &lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt;&lt;/a2&gt; （请参见《&lt;a4&gt;第 65.2 节，“发布”&lt;/a4&gt;》）自动创建一个 &lt;a0&gt;&lt;c1&gt;PublishToMavenLocal&lt;/c1&gt;&lt;/a0&gt; 任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Establishes a rule to automatically create a &lt;a0&gt;&lt;c1&gt;PublishToMavenRepository&lt;/c1&gt;&lt;/a0&gt; task for the combination of each &lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt;&lt;/a2&gt; added (see &lt;a4&gt;Section 65.2, “Publications”&lt;/a4&gt;), with each &lt;a5&gt;&lt;c6&gt;MavenArtifactRepository&lt;/c6&gt;&lt;/a5&gt; added (see &lt;a7&gt;Section 65.3, “Repositories”&lt;/a7&gt;).</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T125835Z" creationid="huanghaohang" creationdate="20220327T125835Z">
-        <seg>建立一个规则，来为添加的每一个&lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt; &lt;/a2&gt;（见《&lt;a4&gt;第 65.2 节，“发布”&lt;/a4&gt;》）及 &lt;a5&gt;&lt;c6&gt;MavenArtifactRepository&lt;/c6&gt;&lt;/a5&gt; (见《&lt;a7&gt;第 65.3 节， “仓库”&lt;/a7&gt;》）的组合，自动创建 &lt;a0&gt; &lt;c1&gt;PublishToMavenRepository&lt;/c1&gt;&lt;/a0&gt;任务。</seg>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T130051Z" creationid="huanghaohang" creationdate="20220327T125835Z">
+        <seg>建立一个规则，来为添加的每一个&lt;a2&gt;&lt;c3&gt;MavenPublication&lt;/c3&gt; &lt;/a2&gt;（见《&lt;a4&gt;第 65.2 节，“发布”&lt;/a4&gt;》）及 &lt;a5&gt;&lt;c6&gt;MavenArtifactRepository&lt;/c6&gt;&lt;/a5&gt; (见《&lt;a7&gt;第 65.3 节， “仓库”&lt;/a7&gt;》）的组合，自动创建一个 &lt;a0&gt; &lt;c1&gt;PublishToMavenRepository&lt;/c1&gt;&lt;/a0&gt;任务。</seg>
       </tuv>
     </tu>
     <tu>
