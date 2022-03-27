@@ -22883,6 +22883,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 64.8. Choosing a particular publication to publish</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T033113Z" creationid="huanghaohang" creationdate="20220327T033113Z">
+        <seg>示例 64.8. 选择发布特定的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -29031,6 +29039,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180105T084643Z" creationid="huanghaohang" creationdate="20180105T084643Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle intro&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle publishIvyJavaPublicationToIvyRepository&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T033149Z" creationid="huanghaohang" creationdate="20220327T033149Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle publishIvyJavaPublicationToIvyRepository&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -41251,6 +41267,26 @@ apply plugin: &lt;s1&gt;'eclipse'&lt;/s1&gt;
 sourceCompatibility = &lt;s2&gt;1.5&lt;/s2&gt;
 version = &lt;s3&gt;'1.0'&lt;/s3&gt;
 jar {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'ivy-publish'&lt;/s1&gt;
+
+group = &lt;s2&gt;'org.gradle.sample'&lt;/s2&gt;
+version = &lt;s3&gt;'1.0'&lt;/s3&gt;
+
+publishing {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T033116Z" creationid="huanghaohang" creationdate="20220327T033116Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'ivy-publish'&lt;/s1&gt;
+
+group = &lt;s2&gt;'org.gradle.sample'&lt;/s2&gt;
+version = &lt;s3&gt;'1.0'&lt;/s3&gt;
+
+publishing {</seg>
       </tuv>
     </tu>
     <tu>
@@ -57607,6 +57643,14 @@ test {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190603T030852Z" creationid="huanghaohang" creationdate="20190603T030852Z">
         <seg>url &lt;s3&gt;"sftp://repo.mycompany.com:22/repo"&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>url &lt;s4&gt;"$buildDir/repo"&lt;/s4&gt; &lt;s5&gt;// change to point to your repo, e.g. http://my.org/repo&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T033136Z" creationid="huanghaohang" creationdate="20220327T033136Z">
+        <seg>url &lt;s4&gt;"$buildDir/repo"&lt;/s4&gt; &lt;s5&gt;// change to point to your repo, e.g. http://my.org/repo&lt;/s5&gt;</seg>
       </tuv>
     </tu>
     <tu>
