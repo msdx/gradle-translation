@@ -36585,6 +36585,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The only Unicode values that are explicitly prohibited are '&lt;c0&gt;\&lt;/c0&gt;', '&lt;c1&gt;/&lt;/c1&gt;' and any ISO control character. Supplied values are validated early in publication.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T011009Z" creationid="huanghaohang" creationdate="20220328T011009Z">
+        <seg>唯一明确禁止使用的 Unicode 值是“”&lt;c0&gt;\&lt;/c0&gt;”、“&lt;c1&gt;/&lt;/c1&gt;”以及所有的 ISO 控制字符。提供的值会在发布的早期阶段进行验证。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The other type of task is the enhanced task, where the behaviour is built into the task, and the task provides some properties which you can use to configure the behaviour. We have seen these in &lt;a0&gt;Chapter 15, &lt;i1&gt;More about Tasks&lt;/i1&gt;&lt;/a0&gt;. Most Gradle plugins use enhanced tasks. With enhanced tasks, you don't need to implement the task behaviour as you do with simple tasks. You simply declare the task and configure the task using its properties. In this way, enhanced tasks let you reuse a piece of behaviour in many different places, possibly across different builds.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190626T145637Z" creationid="huanghaohang" creationdate="20190626T145126Z">
