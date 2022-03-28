@@ -23947,6 +23947,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 65.5. Modifying the POM file</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T011236Z" creationid="huanghaohang" creationdate="20220328T011236Z">
+        <seg>示例 65.5. 修改 POM 文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -27527,6 +27535,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170910T031935Z" creationid="huanghaohang" creationdate="20170910T031935Z">
         <seg>在本章中，你已经学到了许多可以从命令行做的事情。关于&lt;s0&gt;&lt;s1&gt;gradle这&lt;/s1&gt;&lt;/s0&gt;命令的更多信息，可以参考《&lt;a2&gt;附录D，&lt;i3&gt;Gradle命令行&lt;/i3&gt;&lt;/a2&gt;》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this example we are adding a 'description' element for the generated POM. With this hook, you can modify any aspect of the POM. For example, you could replace the version range for a dependency with the actual version used to produce the build.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T011526Z" creationid="huanghaohang" creationdate="20220328T011526Z">
+        <seg>在这个例子中我们为生成的 POM 添加了一个“description”元素。通过这个钩子，你可以修改 POM 的任何方面的内容。例如，你可以把一个依赖的版本范围修改为用于生成构建的实际版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -43499,6 +43515,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>asNode().appendNode(&lt;s0&gt;'description'&lt;/s0&gt;, &lt;s1&gt;'A demonstration of maven POM customization'&lt;/s1&gt;)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T011251Z" creationid="huanghaohang" creationdate="20220328T011251Z">
+        <seg>asNode().appendNode(&lt;s0&gt;'description'&lt;/s0&gt;, &lt;s1&gt;'A demonstration of maven POM customization'&lt;/s1&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>asNode().info[&lt;s0&gt;0&lt;/s0&gt;].appendNode(&lt;s1&gt;'description'&lt;/s1&gt;, &lt;s2&gt;'A demonstration of ivy descriptor customization'&lt;/s2&gt;)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T105930Z" creationid="huanghaohang" creationdate="20220326T105930Z">
@@ -51854,6 +51878,14 @@ task showRepos &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>mavenCustom(MavenPublication) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T011239Z" creationid="huanghaohang" creationdate="20220328T011239Z">
+        <seg>mavenCustom(MavenPublication) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>mavenDeployer {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20170908T051008Z" creationid="huanghaohang" creationdate="20170908T051008Z">
@@ -53368,6 +53400,14 @@ dependencies {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190607T100715Z" creationid="huanghaohang" creationdate="20190607T100715Z">
         <seg>pom.version = &lt;s1&gt;'1.0Maven'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>pom.withXml {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T011240Z" creationid="huanghaohang" creationdate="20220328T011240Z">
+        <seg>pom.withXml {</seg>
       </tuv>
     </tu>
     <tu>
