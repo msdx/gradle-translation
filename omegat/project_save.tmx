@@ -10134,6 +10134,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>65.2.5. Publishing multiple modules</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012004Z" creationid="huanghaohang" creationdate="20220328T012004Z">
+        <seg>65.2.5. 发布多个模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>65.2. Publications</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T130226Z" creationid="huanghaohang" creationdate="20220327T130226Z">
@@ -10146,6 +10154,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T055722Z" creationid="huanghaohang" creationdate="20220327T055722Z">
         <seg>65.3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>65.3. Repositories</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012026Z" creationid="huanghaohang" creationdate="20220328T012026Z">
+        <seg>65.3. 仓库</seg>
       </tuv>
     </tu>
     <tu>
@@ -23963,6 +23979,22 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 65.6. Publishing multiple modules from a single project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012011Z" creationid="huanghaohang" creationdate="20220328T012011Z">
+        <seg>示例 65.6. 从单项目中发布多个模块</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 65.7. Declaring repositories to publish to</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012033Z" creationid="huanghaohang" creationdate="20220328T012033Z">
+        <seg>示例 65.7. 声明要发布到的仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 7.1. Using the Java plugin</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170730T012449Z" creationid="95" creationdate="20170730T012449Z">
@@ -34249,6 +34281,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The DSL used to declare repositories for publication is the same DSL that is used to declare repositories to consume dependencies from, &lt;a0&gt;&lt;c1&gt;RepositoryHandler&lt;/c1&gt;&lt;/a0&gt;. However, in the context of Maven publication only &lt;a2&gt;&lt;c3&gt;MavenArtifactRepository&lt;/c3&gt;&lt;/a2&gt; repositories can be used for publication.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T014222Z" creationid="huanghaohang" creationdate="20220328T014222Z">
+        <seg>The DSL used to declare repositories for publication is the same DSL that is used to declare repositories to consume dependencies from, &lt;a0&gt;&lt;c1&gt;RepositoryHandler&lt;/c1&gt;&lt;/a0&gt;. However, in the context of Maven publication only &lt;a2&gt;&lt;c3&gt;MavenArtifactRepository&lt;/c3&gt;&lt;/a2&gt; repositories can be used for publication.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The DSL used to declare repositories for publishing is the same DSL that is used to declare repositories for dependencies (&lt;a0&gt;&lt;c1&gt;RepositoryHandler&lt;/c1&gt;&lt;/a0&gt;). However, in the context of Ivy publication only the repositories created by the &lt;c2&gt;ivy()&lt;/c2&gt; methods can be used as publication destinations. You cannot publish an &lt;c3&gt;IvyPublication&lt;/c3&gt; to a Maven repository for example.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T031536Z" creationid="huanghaohang" creationdate="20220327T031536Z">
@@ -42221,6 +42261,14 @@ ant.references[&lt;s3&gt;'classpath'&lt;/s3&gt;] = ant.path(location: &lt;s4&gt;
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>api(MavenPublication) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012017Z" creationid="huanghaohang" creationdate="20220328T012017Z">
+        <seg>api(MavenPublication) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>api/</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20170731T154455Z" creationid="95" creationdate="20170731T154455Z">
@@ -43355,6 +43403,14 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>artifact apiJar</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012020Z" creationid="huanghaohang" creationdate="20220328T012020Z">
+        <seg>artifact apiJar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>artifact sourceJar {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T133001Z" creationid="huanghaohang" creationdate="20220327T133001Z">
@@ -43399,6 +43455,22 @@ task applicationCodeCoverageReport(type:JacocoReport){</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T133721Z" creationid="huanghaohang" creationdate="20220327T133721Z">
         <seg>artifactId &lt;s1&gt;'project1-sample'&lt;/s1&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>artifactId &lt;s3&gt;'project2-impl'&lt;/s3&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012015Z" creationid="huanghaohang" creationdate="20220328T012015Z">
+        <seg>artifactId &lt;s3&gt;'project2-impl'&lt;/s3&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>artifactId &lt;s6&gt;'project2-api'&lt;/s6&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012018Z" creationid="huanghaohang" creationdate="20220328T012018Z">
+        <seg>artifactId &lt;s6&gt;'project2-api'&lt;/s6&gt;</seg>
       </tuv>
     </tu>
     <tu>
@@ -48967,6 +49039,22 @@ systemProp.system=systemValue</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>groupId &lt;s2&gt;'org.gradle.sample.impl'&lt;/s2&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012014Z" creationid="huanghaohang" creationdate="20220328T012014Z">
+        <seg>groupId &lt;s2&gt;'org.gradle.sample.impl'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>groupId &lt;s5&gt;'org.gradle.sample'&lt;/s5&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012017Z" creationid="huanghaohang" creationdate="20220328T012017Z">
+        <seg>groupId &lt;s5&gt;'org.gradle.sample'&lt;/s5&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>growl</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190124T092215Z" creationid="huanghaohang" creationdate="20190124T092215Z">
@@ -49963,6 +50051,14 @@ project(&lt;s2&gt;':bluewhale'&lt;/s2&gt;).hello &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T141032Z" creationid="huanghaohang" creationdate="20220326T141032Z">
         <seg>impl(IvyPublication) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>impl(MavenPublication) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012013Z" creationid="huanghaohang" creationdate="20220328T012013Z">
+        <seg>impl(MavenPublication) {</seg>
       </tuv>
     </tu>
     <tu>
@@ -59973,6 +60069,22 @@ test {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T133725Z" creationid="huanghaohang" creationdate="20220327T133725Z">
         <seg>version &lt;s2&gt;'1.1'&lt;/s2&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>version &lt;s4&gt;'2.3'&lt;/s4&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012016Z" creationid="huanghaohang" creationdate="20220328T012016Z">
+        <seg>version &lt;s4&gt;'2.3'&lt;/s4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>version &lt;s7&gt;'2'&lt;/s7&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T012019Z" creationid="huanghaohang" creationdate="20220328T012019Z">
+        <seg>version &lt;s7&gt;'2'&lt;/s7&gt;</seg>
       </tuv>
     </tu>
     <tu>
