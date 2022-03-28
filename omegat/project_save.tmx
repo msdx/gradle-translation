@@ -1058,6 +1058,14 @@ Make the impossible possible, make the possible easy and make the easy elegant.
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.publish.maven.MavenPom.html#org.gradle.api.publish.maven.MavenPom:withXml(org.gradle.api.Action)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T011528Z" creationid="huanghaohang" creationdate="20220328T011528Z">
+        <seg>../dsl/org.gradle.api.publish.maven.MavenPom.html#org.gradle.api.publish.maven.MavenPom:withXml(org.gradle.api.Action)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>../dsl/org.gradle.api.publish.maven.MavenPublication.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T124119Z" creationid="huanghaohang" creationdate="20220327T124119Z">
@@ -27979,6 +27987,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It is possible to modify virtually any aspect of the created POM should you need to. This means that it is also possible to modify the POM in such a way that it is no longer a valid Maven Pom, so care must be taken when using this feature.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T011803Z" creationid="huanghaohang" creationdate="20220328T011803Z">
+        <seg>如果需要，几乎可以修改所创建POM的任何方面的内容。这意味着，你也可能把一个 POM 修改成无效的 Maven Pom，因此在使用这一功能时必须小心。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is possible to modify virtually any aspect of the created descriptor should you need to. This means that it is also possible to modify the descriptor in such a way that it is no longer a valid Ivy module descriptor, so care must be taken when using this feature.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220326T111220Z" creationid="huanghaohang" creationdate="20220326T110832Z">
@@ -31639,6 +31655,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180516T142812Z" creationid="huanghaohang" creationdate="20180516T142812Z">
         <seg>请参阅 &lt;a0&gt;&lt;c1&gt;JDependExtension&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See &lt;a0&gt;&lt;c1&gt;MavenPom.withXml()&lt;/c1&gt;&lt;/a0&gt; for the relevant API reference documentation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T011537Z" creationid="huanghaohang" creationdate="20220328T011537Z">
+        <seg>相关的 API 参考文档，请参阅&lt;a0&gt;&lt;c1&gt;MavenPom.withXml()&lt;/c1&gt;&lt;/a0&gt; 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36389,6 +36413,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20210518T153723Z" creationid="huanghaohang" creationdate="20210518T153723Z">
         <seg>生成的Ivy模块描述符文件包含了标识模块的&lt;c0&gt;&lt;info&gt;&lt;/c0&gt;标记。默认的标识值取自以下这些项目属性︰</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The identifier (groupId, artifactId, version) of the published module is an exception; these values cannot be modified in the POM using the `withXML` hook.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T011942Z" creationid="huanghaohang" creationdate="20220328T011942Z">
+        <seg>已发布模块的标识符（groupId，artifac，version）则是一个例外；这些值不能在POM中使用“withXML”钩子修改。</seg>
       </tuv>
     </tu>
     <tu>
