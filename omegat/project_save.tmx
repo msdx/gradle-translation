@@ -10206,6 +10206,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>65.6. Generating the POM file without publishing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T024026Z" creationid="huanghaohang" creationdate="20220328T024026Z">
+        <seg>65.6. 生成POM文件而不发布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>7.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20171014T124851Z" creationid="huanghaohang" creationdate="20171014T124851Z">
@@ -17639,6 +17647,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190605T024949Z" creationid="huanghaohang" creationdate="20190605T024949Z">
         <seg>有时候，可以用一个完全不同的模块来替换所请求的模块依赖。示例包括，使用 “&lt;c0&gt;groovy&lt;/c0&gt;” 代替 “&lt;c1&gt;groovy-all&lt;/c1&gt;”，或使用 “&lt;c2&gt;log4j-over-slf4j&lt;/c2&gt;” 代替 “&lt;c3&gt;log4j&lt;/c3&gt;”。从 Gradle 1.5 起，你可以使用依赖解析规则来进行这些替换：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>At times it is useful to generate a Maven POM file for a module without actually publishing. Since POM generation is performed by a separate task, it is very easy to do so.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T024211Z" creationid="huanghaohang" creationdate="20220328T024211Z">
+        <seg>有时候我们会需要在实际上不发布的情况下，为模块生成一个 Maven POM 文件。由于POM生成是由单独的任务执行的，因此这样做很简单。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37273,6 +37289,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190614T153919Z" creationid="huanghaohang" creationdate="20190614T153919Z">
         <seg>通过任务路径定义的任务依赖也被支持，并且会导致相关的项目被配置。示例：someTask.dependsOn(":someOtherProject:someOtherTask")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The task for generating the POM file is of type &lt;a0&gt;&lt;c1&gt;GenerateMavenPom&lt;/c1&gt;&lt;/a0&gt;, and it is given a name based on the name of the publication: "&lt;c2&gt;generatePomFileFor«&lt;s3&gt;&lt;e4&gt;NAME OF PUBLICATION&lt;/e4&gt;&lt;/s3&gt;»Publication&lt;/c2&gt;". So in the example below, where the publication is named "&lt;c5&gt;mavenCustom&lt;/c5&gt;", the task will be named "&lt;c6&gt;generatePomFileForMavenCustomPublication&lt;/c6&gt;".</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T024422Z" creationid="huanghaohang" creationdate="20220328T024422Z">
+        <seg>生成 POM 文件的任务为 &lt;a0&gt;&lt;c1&gt;GenerateMavenPom&lt;/c1&gt;&lt;/a0&gt; 类型，并且根据发布的名称它被命名为：“&lt;c2&gt;generatePomFileFor«&lt;s3&gt;&lt;e4&gt;PUBLICATION 的名称&lt;/e4&gt;&lt;/s3&gt;»发布&lt;/c2&gt;”。因此，在下面的示例中，如果发布名为“&lt;c5&gt;mavenCustom&lt;/c5&gt;”，则任务将命名为“&lt;c6&gt;generatePomFileForMavenCustomPublication&lt;/c6&gt;”。</seg>
       </tuv>
     </tu>
     <tu>
