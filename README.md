@@ -1,7 +1,7 @@
 Gradle 翻译
 ===
 
-此项目为 Gradle 翻译项目，使用 OmegaT 辅助翻译软件，目前翻译版本为 Gradle 2.0。翻译的章节，将合并到 [msdx/gradledoc](https://github.com/msdx/gradledoc) 项目当中。
+此项目为 Gradle 翻译项目，使用 OmegaT 辅助翻译软件，目前翻译版本为 Gradle 2.14.1。翻译的章节，将合并到 [msdx/gradledoc](https://github.com/msdx/gradledoc) 项目当中。
 
 
 加入翻译
@@ -9,7 +9,7 @@ Gradle 翻译
 
 **1.下载并安装OmegaT**
 
-你可以从OmegaT官网上下载，或者从我的百度网盘中下载，地址如下：http://pan.baidu.com/s/1c0pMOPa
+你可以从OmegaT官网上下载：https://omegat.org/download。
 
 **2.加入本项目**
 
@@ -29,7 +29,7 @@ Gradle 翻译
 
 翻译计划
 ---
-目前在翻译2.0版本，翻译完成后，打tag，然后升级到2.14，继续翻译，以此类推。
+目前在翻译2.14.1版本，翻译完成后，打tag，然后升级到3.0，继续翻译，以此类推。
 
 由于使用了计算机辅助翻译软件，有翻译记忆库，更新版本的翻译效率会提高很多。
 
