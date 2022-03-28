@@ -10118,6 +10118,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>65.2.4. Modifying the generated POM</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T011018Z" creationid="huanghaohang" creationdate="20220328T011018Z">
+        <seg>65.2.4. 修改生成的 POM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>65.2. Publications</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T130226Z" creationid="huanghaohang" creationdate="20220327T130226Z">
@@ -17547,6 +17555,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190605T150052Z" creationid="huanghaohang" creationdate="20190605T150052Z">
         <seg>有时，Gradle 依赖缓存可能会与已配置仓库的实际状态不同步。也许一个仓库的最初配置有误，或者是没有正确发布“无更改”模块。要刷新依赖缓存中的所有依赖，请在命令行上使用 &lt;c0&gt;--refresh-dependencies&lt;/c0&gt; 选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>At times, the POM file generated from the project information will need to be tweaked before publishing. The “&lt;c0&gt;maven-publish&lt;/c0&gt;” plugin provides a hook to allow such modification.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T011230Z" creationid="huanghaohang" creationdate="20220328T011230Z">
+        <seg>有时候，从项目信息生成的 POM 文件需要在发布前进行调整。“&lt;c0&gt;maven-publish&lt;/c0&gt;”插件提供了一个钩子以允许这样的修改。</seg>
       </tuv>
     </tu>
     <tu>
