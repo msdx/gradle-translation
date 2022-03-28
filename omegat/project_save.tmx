@@ -37543,6 +37543,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The “&lt;c0&gt;maven-publish&lt;/c0&gt;” plugin leverages some experimental support for late plugin configuration, and any &lt;c1&gt;GenerateMavenPom&lt;/c1&gt; tasks will not be constructed until the publishing extension is configured. The simplest way to ensure that the publishing plugin is configured when you attempt to access the &lt;c2&gt;GenerateMavenPom&lt;/c2&gt; task is to place the access inside a &lt;c3&gt;publishing&lt;/c3&gt; block, as the example above demonstrates.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T025335Z" creationid="huanghaohang" creationdate="20220328T025335Z">
+        <seg>“&lt;c0&gt;maven-publish&lt;/c0&gt;”插件利用了后期插件配置的一些实验性的支持，在发布扩展配置前，不会构造 &lt;c1&gt;GenerateMavenPom&lt;/c1&gt; 任务。确保在你尝试访问 &lt;c2&gt;GenerateM&lt;/c2&gt; 任务时，发布插件已经配置的最简单的方法是将访问放在 &lt;c3&gt;publishing&lt;/c3&gt; 块中，如上面的例子中所示。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The “&lt;c0&gt;publish&lt;/c0&gt;” plugin (that the “&lt;c1&gt;ivy-publish&lt;/c1&gt;” plugin implicitly applies) adds a lifecycle task that can be used to publish all publications to all applicable repositories named “&lt;c2&gt;publish&lt;/c2&gt;”.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T040250Z" creationid="huanghaohang" creationdate="20220327T040250Z">
