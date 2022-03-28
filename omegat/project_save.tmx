@@ -10190,6 +10190,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>65.5. Publishing to Maven Local</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T015609Z" creationid="huanghaohang" creationdate="20220328T015609Z">
+        <seg>65.5. 发布到Maven本地库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>65.6.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T055743Z" creationid="huanghaohang" creationdate="20220327T055743Z">
@@ -25021,6 +25029,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180406T041811Z" creationid="huanghaohang" creationdate="20180405T155943Z">
         <seg>为对 JUnit 的测试类和方法进行分组，JUnit 4.8 引入了类别的概念。 &lt;s0&gt;[&lt;a1&gt;9&lt;/a1&gt;]&lt;/s0&gt;&lt;c2&gt;test&lt;/c2&gt; 任务允许指定要包含和排除的 JUnit 类别。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For integration with a local Maven installation, it is sometimes useful to publish the module into the local .m2 repository. In Maven parlance, this is referred to as 'installing' the module. The “&lt;c0&gt;maven-publish&lt;/c0&gt;” plugin makes this easy to do by automatically creating a &lt;a1&gt;&lt;c2&gt;PublishToMavenLocal&lt;/c2&gt;&lt;/a1&gt; task for each &lt;a3&gt;&lt;c4&gt;MavenPublication&lt;/c4&gt;&lt;/a3&gt; in the &lt;c5&gt;publishing.publications&lt;/c5&gt; container. Each of these tasks is wired into the &lt;c6&gt;publishToMavenLocal&lt;/c6&gt; lifecycle task. You do not need to have `mavenLocal` in your `publishing.repositories` section.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T023743Z" creationid="huanghaohang" creationdate="20220328T023743Z">
+        <seg>为了与本地 Maven 安装集成，有时将模块发布到本地 .m2 仓库中会很有用。在 Maven 用语中，这称为“安装”模块。“&lt;c0&gt;maven-publish&lt;/c0&gt;”插件通过为&lt;c5&gt;publishing.publications&lt;/c5&gt;容器中的每个&lt;a3&gt;&lt;c4&gt;MavenPublication&lt;/c4&gt;&lt;/a3&gt;任务，自动创建一个&lt;a1&gt;&lt;c2&gt;PublishToMavenLocal&lt;/c2&gt;&lt;/a1&gt;任务，使得它很容易实现。其中每一个任务都连接到&lt;c6&gt;publishToMavenLocal&lt;/c6&gt;生命周期任务中。你不需要在“publishing.repositories”代码段中使用“mavenLocal”。</seg>
       </tuv>
     </tu>
     <tu>
