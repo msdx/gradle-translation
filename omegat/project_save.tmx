@@ -15337,6 +15337,24 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&gt; gradle generatePomFileForMavenCustomPublication
+:generatePomFileForMavenCustomPublication
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T024454Z" creationid="huanghaohang" creationdate="20220328T024454Z">
+        <seg>&gt; gradle generatePomFileForMavenCustomPublication
+:generatePomFileForMavenCustomPublication
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&gt; gradle hello
 :hello
 [ant:echo] Hello, from Ant
@@ -16751,6 +16769,14 @@ Transforming source file.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="95" changedate="20190131T214329Z" creationid="95" creationdate="20190131T214329Z">
         <seg>所有构建设置类型都包括 Gradle Wrapper 的设置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All details of the publishing model are still considered in POM generation, including &lt;c0&gt;components&lt;/c0&gt;`, custom &lt;c1&gt;artifacts&lt;/c1&gt;, and any modifications made via &lt;c2&gt;pom.withXml&lt;/c2&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T025049Z" creationid="huanghaohang" creationdate="20220328T025049Z">
+        <seg>发布模型的所有细节仍然要在 POM 生成中考虑，包括&lt;c0&gt;compon&lt;/c0&gt;，自定义&lt;c1&gt;artifacts&lt;/c1&gt;，以及通过&lt;c2&gt;pom.withXml&lt;/c2&gt;所做的任何修改。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24039,6 +24065,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 65.10. Generate a POM file without publishing</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T024437Z" creationid="huanghaohang" creationdate="20220328T024437Z">
+        <seg>示例 65.10. 生成POM文件而不发布</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 65.2. Adding a MavenPublication for a java component</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T132502Z" creationid="huanghaohang" creationdate="20220327T132502Z">
@@ -30419,6 +30453,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T041619Z" creationid="huanghaohang" creationdate="20220327T041619Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle generateDescriptorFileForIvyCustomPublication&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle generatePomFileForMavenCustomPublication&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T024450Z" creationid="huanghaohang" creationdate="20220328T024450Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle generatePomFileForMavenCustomPublication&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -46921,6 +46963,14 @@ artifacts {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>destination = file(&lt;s0&gt;"$buildDir/generated-pom.xml"&lt;/s0&gt;)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T024445Z" creationid="huanghaohang" creationdate="20220328T024445Z">
+        <seg>destination = file(&lt;s0&gt;"$buildDir/generated-pom.xml"&lt;/s0&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>destination = { project.greetingFile }
 }
 
@@ -59122,6 +59172,14 @@ task lib1 &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T041612Z" creationid="huanghaohang" creationdate="20220327T041612Z">
         <seg>tasks.generateDescriptorFileForIvyCustomPublication {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>tasks.generatePomFileForMavenCustomPublication {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T024443Z" creationid="huanghaohang" creationdate="20220328T024443Z">
+        <seg>tasks.generatePomFileForMavenCustomPublication {</seg>
       </tuv>
     </tu>
     <tu>
