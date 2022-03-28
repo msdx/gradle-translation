@@ -28683,6 +28683,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Maven restricts 'groupId' and 'artifactId' to a limited character set (&lt;c0&gt;[A-Za-z0-9_\\-.]+&lt;/c0&gt;) and Gradle enforces this restriction. For 'version' (as well as artifact 'extension' and 'classifier'), Gradle will handle any valid Unicode character.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T010812Z" creationid="huanghaohang" creationdate="20220328T010812Z">
+        <seg>Maven 将“groupId”和“artifactId”限制为有限的字符集（&lt;c0&gt;[A-Za-z0-9_\\-.]+&lt;/c0&gt;），并且 Gradle 强制执行该限制。对于“version”（以及工件的“extension”和“classifier”），只要是有效的Unicode字符，Gradle 都会处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>MavenDeployer</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20190607T093638Z" creationid="huanghaohang" creationdate="20190607T093638Z">
