@@ -422,10 +422,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Gradle's build scripts are written in Groovy, not XML. But unlike other approaches this is not for simply exposing the raw scripting power of a dynamic language. That would just lead to a very difficult to maintain build. The whole design of Gradle is oriented towards being used as a language, not as a rigid framework. And Groovy is our glue that allows you to tell your individual story with the abstractions Gradle (or you) provide. Gradle provides some standard stories but they are not privileged in any form. This is for us a major distinguishing feature compared to other declarative build systems. Our Groovy support is not just sugar coating. The whole Gradle API is fully Groovy-ized. Adding Groovy results in an enjoyable and productive experience.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T150805Z" creationid="huanghaohang" creationdate="20220328T150805Z">
+        <seg>Gradle 的构建脚本是使用 Groovy 来编写的，而不是 XML。但是与其他方法不同，这不只是简单地展示动态语言的原始脚本能力，那样只会导致构建难以维护。Gradle的整个设计是面向作为一门语言使用的，而不是作为一个僵化的框架。并且 Groovy 是我们的粘合剂，可以使你通过使用Gradle（或你）所提供的抽象概念，来讲述你的个人故事。Gradle 提供了一些标准的故事，但它们没有任何特权。与其他的声明式构建系统相比，这对于我们来说是一个主要的区别特征。我们的 Groovy 支持也不只是简单的糖衣，整个的 Gradle API 都是完全的 Groovy 化的。添加 Groovy 会带来乐趣而富有成效的体验。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Gradle's support for multi-project build is outstanding. Project dependencies are first class citizens. We allow you to model the project relationships in a multi-project build as they really are for your problem domain. Gradle follows your layout not vice versa.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T144317Z" creationid="huanghaohang" creationdate="20220328T144317Z">
         <seg>Gradle对多项目构建的支持非常出色。项目依赖是第一公民。我们允许你在一个多项目构建中为项目关系进行建模，因为它们真的适用于你的问题域。Gradle遵循你的布局，而不是布局遵循Gradle。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Groovy</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T150037Z" creationid="huanghaohang" creationdate="20220328T150037Z">
+        <seg>Groovy</seg>
       </tuv>
     </tu>
     <tu>
