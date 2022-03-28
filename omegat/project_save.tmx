@@ -15501,6 +15501,36 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&gt; gradle publish
+:generatePomFileForMavenJavaPublication
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar
+:publishMavenJavaPublicationToMavenRepository
+:publish
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T015150Z" creationid="huanghaohang" creationdate="20220328T015150Z">
+        <seg>&gt; gradle publish
+:generatePomFileForMavenJavaPublication
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:jar
+:publishMavenJavaPublicationToMavenRepository
+:publish
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&gt; gradle publishIvyJavaPublicationToIvyRepository
 :generateDescriptorFileForIvyJavaPublication
 :compileJava UP-TO-DATE
@@ -32003,6 +32033,14 @@ myCopy.include(&lt;s2&gt;'**/*.txt'&lt;/s2&gt;, &lt;s3&gt;'**/*.xml'&lt;/s3&gt;,
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>So in this example a single &lt;a0&gt;&lt;c1&gt;PublishToMavenRepository&lt;/c1&gt;&lt;/a0&gt; task is be added, named '&lt;c2&gt;publishMavenJavaPublicationToMavenRepository&lt;/c2&gt;'. This task is wired into the &lt;c3&gt;publish&lt;/c3&gt; lifecycle task. Executing &lt;c4&gt;gradle publish&lt;/c4&gt; builds the POM file and all of the artifacts to be published, and transfers them to the repository.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T015558Z" creationid="huanghaohang" creationdate="20220328T015558Z">
+        <seg>因此，在这个例子中，添加了一个 &lt;a0&gt;&lt;c1&gt;PublishToMavenRepository&lt;/c1&gt;&lt;/a0&gt; 任务，命名为“ &lt;c2&gt;publishMavenJavaPublicationToMavenRepository&lt;/c2&gt;”，这个任务会被连接到&lt;c3&gt;publish&lt;/c3&gt;生命周期任务中。执行 &lt;c4&gt;gradle publish&lt;/c4&gt;会构建 POM 文件和所有要发布的工件，并将它们传到仓库。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Software development plugins</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20180517T035011Z" creationid="huanghaohang" creationdate="20180517T035011Z">
@@ -42922,6 +42960,26 @@ publishing {</seg>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220327T033116Z" creationid="huanghaohang" creationdate="20220327T033116Z">
         <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
 apply plugin: &lt;s1&gt;'ivy-publish'&lt;/s1&gt;
+
+group = &lt;s2&gt;'org.gradle.sample'&lt;/s2&gt;
+version = &lt;s3&gt;'1.0'&lt;/s3&gt;
+
+publishing {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'maven-publish'&lt;/s1&gt;
+
+group = &lt;s2&gt;'org.gradle.sample'&lt;/s2&gt;
+version = &lt;s3&gt;'1.0'&lt;/s3&gt;
+
+publishing {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T015144Z" creationid="huanghaohang" creationdate="20220328T015144Z">
+        <seg>apply plugin: &lt;s0&gt;'java'&lt;/s0&gt;
+apply plugin: &lt;s1&gt;'maven-publish'&lt;/s1&gt;
 
 group = &lt;s2&gt;'org.gradle.sample'&lt;/s2&gt;
 version = &lt;s3&gt;'1.0'&lt;/s3&gt;
