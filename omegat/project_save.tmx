@@ -2062,6 +2062,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When executed with &lt;c0&gt;--continue&lt;/c0&gt;, Gradle will execute &lt;s1&gt;&lt;e2&gt;every&lt;/e2&gt;&lt;/s1&gt; task to be executed where all of the dependencies for that task completed without failure, instead of stopping as soon as the first failure is encountered. Each of the encountered failures will be reported at the end of the build.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123835Z" creationid="huanghaohang" creationdate="20220329T123835Z">
+        <seg>当使用 &lt;c0&gt;--continue&lt;/c0&gt; 参数执行时，Gradle 将执行&lt;s1&gt;&lt;e2&gt;所有&lt;/e2&gt;&lt;/s1&gt;要执行的任务，这些任务的所有依赖任务都会完成而且不失败，而不是一出现错误就停止。所有失败的信息将在构建结束时报告出来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When should I not use the Gradle Daemon?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154943Z" creationid="huanghaohang" creationdate="20220328T154943Z">
