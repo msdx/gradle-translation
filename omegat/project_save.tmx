@@ -150,6 +150,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#sec:show_task_details</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132424Z" creationid="huanghaohang" creationdate="20220329T132424Z">
+        <seg>#sec:show_task_details</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#sec:special_feature_of_gradle</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T104758Z" creationid="huanghaohang" creationdate="20220328T104758Z">
@@ -606,6 +614,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>4.7.3. Show task usage details</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132430Z" creationid="huanghaohang" creationdate="20220329T132430Z">
+        <seg>4.7.3. 显示任务帮助信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>4.7. Obtaining information about your build</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131232Z" creationid="huanghaohang" creationdate="20220329T131232Z">
@@ -1008,6 +1024,40 @@ tasks - Displays the tasks runnable from root project 'projectReports' (some of 
 To see all tasks and more detail, run gradle tasks --all
 
 To see more detail about a task, run gradle help --task &lt;task&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; gradle -q tasks --all
+
+------------------------------------------------------------
+All tasks runnable from root project
+------------------------------------------------------------
+
+Default tasks: dists
+
+Build tasks
+-----------
+clean - Deletes the build directory (build)
+api:clean - Deletes the build directory (build)
+webapp:clean - Deletes the build directory (build)
+dists - Builds the distribution [api:libs, webapp:libs]</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132406Z" creationid="huanghaohang" creationdate="20220329T132406Z">
+        <seg>&gt; gradle -q tasks --all
+
+------------------------------------------------------------
+All tasks runnable from root project
+------------------------------------------------------------
+
+Default tasks: dists
+
+Build tasks
+-----------
+clean - Deletes the build directory (build)
+api:clean - Deletes the build directory (build)
+webapp:clean - Deletes the build directory (build)
+dists - Builds the distribution [api:libs, webapp:libs]</seg>
       </tuv>
     </tu>
     <tu>
@@ -1458,6 +1508,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132107Z" creationid="huanghaohang" creationdate="20220329T132107Z">
         <seg>示例 4.11. 更改任务报告的内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 4.12. Obtaining more information about tasks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132357Z" creationid="huanghaohang" creationdate="20220329T132357Z">
+        <seg>示例 4.12. 获取任务的更多相关信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -2054,6 +2112,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q tasks --all&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132359Z" creationid="huanghaohang" creationdate="20220329T132359Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q tasks --all&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q tasks&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131843Z" creationid="huanghaohang" creationdate="20220329T131843Z">
@@ -2162,6 +2228,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T155228Z" creationid="huanghaohang" creationdate="20220328T155228Z">
         <seg>仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle help --task someTask&lt;/c1&gt;&lt;/s0&gt; gives you detailed information about a specific task or multiple tasks matching the given task name in your multiproject build. Below is an example of this detailed information:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132738Z" creationid="huanghaohang" creationdate="20220329T132738Z">
+        <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle help --task someTask&lt;/c1&gt;&lt;/s0&gt; 可以向你提供有关指定任务或是在多项目构建中与所指定的任务名称相匹配的所有任务的详细信息。如下所示：</seg>
       </tuv>
     </tu>
     <tu>
@@ -2702,6 +2776,16 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>api:compile - Compiles the source files
+webapp:libs - Builds the JAR [api:libs]</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132409Z" creationid="huanghaohang" creationdate="20220329T132409Z">
+        <seg>api:compile - Compiles the source files
+webapp:libs - Builds the JAR [api:libs]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>artifact_dependencies_tutorial.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T034429Z" creationid="huanghaohang" creationdate="20220328T034429Z">
@@ -2874,6 +2958,16 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132110Z" creationid="huanghaohang" creationdate="20220329T132110Z">
         <seg>dists {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>docs - Builds the documentation
+api:libs - Builds the JAR</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132406Z" creationid="huanghaohang" creationdate="20220329T132406Z">
+        <seg>docs - Builds the documentation
+api:libs - Builds the JAR</seg>
       </tuv>
     </tu>
     <tu>
@@ -3498,6 +3592,84 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T033002Z" creationid="huanghaohang" creationdate="20220328T033002Z">
         <seg>userguide.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>webapp:compile - Compiles the source files
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build. [incubating]
+wrapper - Generates Gradle wrapper files. [incubating]
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'projectReports'.
+api:buildEnvironment - Displays all buildscript dependencies declared in project ':api'.
+webapp:buildEnvironment - Displays all buildscript dependencies declared in project ':webapp'.
+components - Displays the components produced by root project 'projectReports'. [incubating]
+api:components - Displays the components produced by project ':api'. [incubating]
+webapp:components - Displays the components produced by project ':webapp'. [incubating]
+dependencies - Displays all dependencies declared in root project 'projectReports'.
+api:dependencies - Displays all dependencies declared in project ':api'.
+webapp:dependencies - Displays all dependencies declared in project ':webapp'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'projectReports'.
+api:dependencyInsight - Displays the insight into a specific dependency in project ':api'.
+webapp:dependencyInsight - Displays the insight into a specific dependency in project ':webapp'.
+help - Displays a help message.
+api:help - Displays a help message.
+webapp:help - Displays a help message.
+model - Displays the configuration model of root project 'projectReports'. [incubating]
+api:model - Displays the configuration model of project ':api'. [incubating]
+webapp:model - Displays the configuration model of project ':webapp'. [incubating]
+projects - Displays the sub-projects of root project 'projectReports'.
+api:projects - Displays the sub-projects of project ':api'.
+webapp:projects - Displays the sub-projects of project ':webapp'.
+properties - Displays the properties of root project 'projectReports'.
+api:properties - Displays the properties of project ':api'.
+webapp:properties - Displays the properties of project ':webapp'.
+tasks - Displays the tasks runnable from root project 'projectReports' (some of the displayed tasks may belong to subprojects).
+api:tasks - Displays the tasks runnable from project ':api'.
+webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132418Z" creationid="huanghaohang" creationdate="20220329T132418Z">
+        <seg>webapp:compile - Compiles the source files
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build. [incubating]
+wrapper - Generates Gradle wrapper files. [incubating]
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'projectReports'.
+api:buildEnvironment - Displays all buildscript dependencies declared in project ':api'.
+webapp:buildEnvironment - Displays all buildscript dependencies declared in project ':webapp'.
+components - Displays the components produced by root project 'projectReports'. [incubating]
+api:components - Displays the components produced by project ':api'. [incubating]
+webapp:components - Displays the components produced by project ':webapp'. [incubating]
+dependencies - Displays all dependencies declared in root project 'projectReports'.
+api:dependencies - Displays all dependencies declared in project ':api'.
+webapp:dependencies - Displays all dependencies declared in project ':webapp'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'projectReports'.
+api:dependencyInsight - Displays the insight into a specific dependency in project ':api'.
+webapp:dependencyInsight - Displays the insight into a specific dependency in project ':webapp'.
+help - Displays a help message.
+api:help - Displays a help message.
+webapp:help - Displays a help message.
+model - Displays the configuration model of root project 'projectReports'. [incubating]
+api:model - Displays the configuration model of project ':api'. [incubating]
+webapp:model - Displays the configuration model of project ':webapp'. [incubating]
+projects - Displays the sub-projects of root project 'projectReports'.
+api:projects - Displays the sub-projects of project ':api'.
+webapp:projects - Displays the sub-projects of project ':webapp'.
+properties - Displays the properties of root project 'projectReports'.
+api:properties - Displays the properties of project ':api'.
+webapp:properties - Displays the properties of project ':webapp'.
+tasks - Displays the tasks runnable from root project 'projectReports' (some of the displayed tasks may belong to subprojects).
+api:tasks - Displays the tasks runnable from project ':api'.
+webapp:tasks - Displays the tasks runnable from project ':webapp'.</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
