@@ -1454,6 +1454,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If a task fails, any subsequent tasks that were depending on it will not be executed, as it is not safe to do so. For example, tests will not run if there is a compilation failure in the code under test; because the test task will depend on the compilation task (either directly or indirectly).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123910Z" creationid="huanghaohang" creationdate="20220329T123910Z">
+        <seg>如果任务失败了，则依赖于它的所有后续任务将不会被执行，因为那样做是不安全的。例如，如果在测试代码中存在编译失败，测试将不会运行;因为测试任务会（直接或间接地）依赖于编译任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In &lt;a0&gt;Chapter 2, &lt;i1&gt;Overview&lt;/i1&gt;&lt;/a0&gt; you will find a detailed overview of Gradle. Otherwise, the &lt;a2&gt;tutorials&lt;/a2&gt; are waiting, have fun :)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T103845Z" creationid="huanghaohang" creationdate="20220328T103845Z">
@@ -2064,8 +2072,8 @@ Total time: 1 secs</seg>
       <tuv lang="en-US">
         <seg>When executed with &lt;c0&gt;--continue&lt;/c0&gt;, Gradle will execute &lt;s1&gt;&lt;e2&gt;every&lt;/e2&gt;&lt;/s1&gt; task to be executed where all of the dependencies for that task completed without failure, instead of stopping as soon as the first failure is encountered. Each of the encountered failures will be reported at the end of the build.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123835Z" creationid="huanghaohang" creationdate="20220329T123835Z">
-        <seg>当使用 &lt;c0&gt;--continue&lt;/c0&gt; 参数执行时，Gradle 将执行&lt;s1&gt;&lt;e2&gt;所有&lt;/e2&gt;&lt;/s1&gt;要执行的任务，这些任务的所有依赖任务都会完成而且不失败，而不是一出现错误就停止。所有失败的信息将在构建结束时报告出来。</seg>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T124104Z" creationid="huanghaohang" creationdate="20220329T123835Z">
+        <seg>当使用 &lt;c0&gt;--continue&lt;/c0&gt; 参数执行时，Gradle 将执行&lt;s1&gt;&lt;e2&gt;所有&lt;/e2&gt;&lt;/s1&gt;要执行的，并且它们的所有依赖任务都能完成且未失败的任务，而不是一出现错误就停止。所有失败的信息将在构建结束时报告出来。</seg>
       </tuv>
     </tu>
     <tu>
