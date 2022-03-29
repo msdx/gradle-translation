@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#sec:continue_build_on_failure</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123128Z" creationid="huanghaohang" creationdate="20220329T123128Z">
+        <seg>#sec:continue_build_on_failure</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#sec:excluding_tasks_from_the_command_line</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122702Z" creationid="huanghaohang" creationdate="20220329T122702Z">
@@ -466,6 +474,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154448Z" creationid="huanghaohang" creationdate="20220328T154448Z">
         <seg>4.3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>4.3. Continuing the build when a failure occurs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123137Z" creationid="huanghaohang" creationdate="20220329T123137Z">
+        <seg>4.3. 失败后继续构建</seg>
       </tuv>
     </tu>
     <tu>
@@ -890,6 +906,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122427Z" creationid="huanghaohang" creationdate="20220329T122334Z">
         <seg>下面定义了四个任务，其中 &lt;c0&gt;dist&lt;/c0&gt; 和 &lt;c1&gt;test&lt;/c1&gt; 都依赖于 &lt;c2&gt;compile&lt;/c2&gt; 任务。对于这个构建脚本，运行&lt;s3&gt;&lt;c4&gt;gradle dist test&lt;/c4&gt;&lt;/s3&gt;只会使 &lt;c5&gt;compile&lt;/c5&gt; 任务被执行一次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By default, Gradle will abort execution and fail the build as soon as any task fails. This allows the build to complete sooner, but hides other failures that would have occurred. In order to discover as many failures as possible in a single build execution, you can use the &lt;c0&gt;--continue&lt;/c0&gt; option.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123427Z" creationid="huanghaohang" creationdate="20220329T123205Z">
+        <seg>默认情况下，只要有任务失败，Gradle 就将中断执行让构建失败。这样做会使构建更快地结束，但也会让其他可能发生的失败不被发现。为了在单个构建执行中发现尽可能多的失败，你可以使用 &lt;c0&gt;--continue&lt;/c0&gt; 选项。</seg>
       </tuv>
     </tu>
     <tu>
