@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#sec:excluding_tasks_from_the_command_line</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122702Z" creationid="huanghaohang" creationdate="20220329T122702Z">
+        <seg>#sec:excluding_tasks_from_the_command_line</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#sec:special_feature_of_gradle</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T104758Z" creationid="huanghaohang" creationdate="20220328T104758Z">
@@ -446,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>4.2. Excluding tasks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122706Z" creationid="huanghaohang" creationdate="20220329T122706Z">
+        <seg>4.2. 排除任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>4.3.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154448Z" creationid="huanghaohang" creationdate="20220328T154448Z">
@@ -750,6 +766,62 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&gt; gradle dist -x test
+:compile
+compiling source
+:dist
+building the distribution
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122756Z" creationid="huanghaohang" creationdate="20220329T122756Z">
+        <seg>&gt; gradle dist -x test
+:compile
+compiling source
+:dist
+building the distribution
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; gradle dist test
+:compile
+compiling source
+:compileTest
+compiling unit tests
+:test
+running unit tests
+:dist
+building the distribution
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122512Z" creationid="huanghaohang" creationdate="20220329T122512Z">
+        <seg>&gt; gradle dist test
+:compile
+compiling source
+:compileTest
+compiling unit tests
+:test
+running unit tests
+:dist
+building the distribution
+
+BUILD SUCCESSFUL
+
+Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A rich domain model for describing your build.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T103824Z" creationid="huanghaohang" creationdate="20220328T103824Z">
@@ -816,8 +888,8 @@
       <tuv lang="en-US">
         <seg>Below four tasks are defined. Both &lt;c0&gt;dist&lt;/c0&gt; and &lt;c1&gt;test&lt;/c1&gt; depend on the &lt;c2&gt;compile&lt;/c2&gt; task. Running &lt;s3&gt;&lt;c4&gt;gradle dist test&lt;/c4&gt;&lt;/s3&gt; for this build script results in the &lt;c5&gt;compile&lt;/c5&gt; task being executed only once.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122334Z" creationid="huanghaohang" creationdate="20220329T122334Z">
-        <seg>下面定义了四个任务，其中&lt;c0&gt;dist&lt;/c0&gt;和&lt;c1&gt;test&lt;/c1&gt;都依赖于&lt;c2&gt;compile&lt;/c2&gt;任务。对于这个构建脚本，运行&lt;s3&gt;&lt;c4&gt;gradle dist test&lt;/c4&gt;&lt;/s3&gt;只会使&lt;c5&gt;compile&lt;/c5&gt;任务被执行一次。</seg>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122427Z" creationid="huanghaohang" creationdate="20220329T122334Z">
+        <seg>下面定义了四个任务，其中 &lt;c0&gt;dist&lt;/c0&gt; 和 &lt;c1&gt;test&lt;/c1&gt; 都依赖于 &lt;c2&gt;compile&lt;/c2&gt; 任务。对于这个构建脚本，运行&lt;s3&gt;&lt;c4&gt;gradle dist test&lt;/c4&gt;&lt;/s3&gt;只会使 &lt;c5&gt;compile&lt;/c5&gt; 任务被执行一次。</seg>
       </tuv>
     </tu>
     <tu>
@@ -990,6 +1062,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Each task is executed only once, so &lt;s0&gt;&lt;c1&gt;gradle test test&lt;/c1&gt;&lt;/s0&gt; is exactly the same as &lt;s2&gt;&lt;c3&gt;gradle test&lt;/c3&gt;&lt;/s2&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122701Z" creationid="huanghaohang" creationdate="20220329T122521Z">
+        <seg>每个任务只执行一次，所以执行 &lt;s0&gt;&lt;c1&gt;gradle test test&lt;/c1&gt;&lt;/s0&gt; 与执行 &lt;s2&gt;&lt;c3&gt;gradle test&lt;/c3&gt;&lt;/s2&gt; 是完全一样的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Ease of migration</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T145411Z" creationid="huanghaohang" creationdate="20220328T145411Z">
@@ -1018,6 +1098,22 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154421Z" creationid="huanghaohang" creationdate="20220328T154421Z">
         <seg>环境变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 4.1. Executing multiple tasks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122456Z" creationid="huanghaohang" creationdate="20220329T122456Z">
+        <seg>示例 4.1. 执行多个任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 4.2. Excluding tasks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122745Z" creationid="huanghaohang" creationdate="20220329T122745Z">
+        <seg>示例 4.2. 排除任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -1090,6 +1186,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T104745Z" creationid="huanghaohang" creationdate="20220328T104745Z">
         <seg>特性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Figure 4.1. Task dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122440Z" creationid="huanghaohang" creationdate="20220329T122440Z">
+        <seg>图4.1. 任务依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -1470,6 +1574,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle dist -x test&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122748Z" creationid="huanghaohang" creationdate="20220329T122748Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle dist -x test&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle dist test&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122506Z" creationid="huanghaohang" creationdate="20220329T122506Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle dist test&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Overview</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T034317Z" creationid="huanghaohang" creationdate="20220328T034317Z">
@@ -1618,6 +1738,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T155438Z" creationid="huanghaohang" creationdate="20220328T155438Z">
         <seg>任务树</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Task dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122444Z" creationid="huanghaohang" creationdate="20220329T122444Z">
+        <seg>任务依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -1950,10 +2078,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can exclude a task from being executed using the &lt;c0&gt;-x&lt;/c0&gt; command-line option and providing the name of the task to exclude. Let's try this with the sample build file above.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122737Z" creationid="huanghaohang" creationdate="20220329T122737Z">
+        <seg>你可以使用 &lt;c0&gt;-x&lt;/c0&gt; 命令行选项加上任务名称来排除某些会被执行的任务。让我们用上面的例子来演示一下。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can execute multiple tasks in a single build by listing each of the tasks on the command-line. For example, the command &lt;s0&gt;&lt;c1&gt;gradle compile test&lt;/c1&gt;&lt;/s0&gt; will execute the &lt;c2&gt;compile&lt;/c2&gt; and &lt;c3&gt;test&lt;/c3&gt; tasks. Gradle will execute the tasks in the order that they are listed on the command-line, and will also execute the dependencies for each task. Each task is executed once only, regardless of how it came to be included in the build: whether it was specified on the command-line, or as a dependency of another task, or both. Let's look at an example.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122315Z" creationid="huanghaohang" creationdate="20220329T122315Z">
         <seg>通过在命令行中列出每个任务，你可以在单个构建中执行多个任务。例如，&lt;s0&gt;&lt;c1&gt;gradle compile test&lt;/c1&gt;&lt;/s0&gt; 命令将执行 &lt;c2&gt;compile&lt;/c2&gt; 和 &lt;c3&gt;test&lt;/c3&gt; 任务。Gradle 将按照命令行中的顺序依次执行这些任务以及每一个任务所依赖的其他任务。每个任务只会被执行一次，无论它们是如何被包含在构建中的：即无论是在命令行中指定的，还是另一个任务的依赖，抑或两者都有。来看下面的例子。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can see from the output of this example, that the &lt;c0&gt;test&lt;/c0&gt; task is not executed, even though it is a dependency of the &lt;c1&gt;dist&lt;/c1&gt; task. You will also notice that the &lt;c2&gt;test&lt;/c2&gt; task's dependencies, such as &lt;c3&gt;compileTest&lt;/c3&gt; are not executed either. Those dependencies of &lt;c4&gt;test&lt;/c4&gt; that are required by another task, such as &lt;c5&gt;compile&lt;/c5&gt;, are still executed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123126Z" creationid="huanghaohang" creationdate="20220329T122801Z">
+        <seg>你可以从本例的输出中看出，&lt;c0&gt;test&lt;/c0&gt; 任务并不执行，即使它是 &lt;c1&gt;dist&lt;/c1&gt; 任务的依赖。你也可能同时注意到 &lt;c2&gt;test&lt;/c2&gt; 任务所依赖的任务，如&lt;c3&gt;compileTest&lt;/c3&gt;也一样没有执行。而&lt;c4&gt;test&lt;/c4&gt;所依赖的同时也是其他任务所需要的任务，如&lt;c5&gt;compile&lt;/c5&gt;，则仍然被执行。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2034,6 +2178,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T032956Z" creationid="huanghaohang" creationdate="20220328T032956Z">
         <seg>base.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>build.gradle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122457Z" creationid="huanghaohang" creationdate="20220329T122457Z">
+        <seg>build.gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -2302,6 +2454,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>img/commandLineTutorialTasks.png</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122445Z" creationid="huanghaohang" creationdate="20220329T122445Z">
+        <seg>img/commandLineTutorialTasks.png</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>installation.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T034406Z" creationid="huanghaohang" creationdate="20220328T034406Z">
@@ -2422,6 +2582,58 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>println &lt;s0&gt;'compiling source'&lt;/s0&gt;
+}
+
+task compileTest(dependsOn: compile) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122459Z" creationid="huanghaohang" creationdate="20220329T122459Z">
+        <seg>println &lt;s0&gt;'compiling source'&lt;/s0&gt;
+}
+
+task compileTest(dependsOn: compile) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>println &lt;s1&gt;'compiling unit tests'&lt;/s1&gt;
+}
+
+task test(dependsOn: [compile, compileTest]) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122501Z" creationid="huanghaohang" creationdate="20220329T122501Z">
+        <seg>println &lt;s1&gt;'compiling unit tests'&lt;/s1&gt;
+}
+
+task test(dependsOn: [compile, compileTest]) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>println &lt;s2&gt;'running unit tests'&lt;/s2&gt;
+}
+
+task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122502Z" creationid="huanghaohang" creationdate="20220329T122502Z">
+        <seg>println &lt;s2&gt;'running unit tests'&lt;/s2&gt;
+}
+
+task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>println &lt;s3&gt;'building the distribution'&lt;/s3&gt;
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122504Z" creationid="huanghaohang" creationdate="20220329T122504Z">
+        <seg>println &lt;s3&gt;'building the distribution'&lt;/s3&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>pt01.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T033011Z" creationid="huanghaohang" creationdate="20220328T033011Z">
@@ -2450,6 +2662,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T032658Z" creationid="huanghaohang" creationdate="20220328T032658Z">
         <seg>publishing_maven.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>task compile &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122458Z" creationid="huanghaohang" creationdate="20220329T122458Z">
+        <seg>task compile &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
