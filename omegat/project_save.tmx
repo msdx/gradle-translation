@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#sec:dependency_insight</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T134354Z" creationid="huanghaohang" creationdate="20220329T134354Z">
+        <seg>#sec:dependency_insight</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#sec:excluding_tasks_from_the_command_line</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122702Z" creationid="huanghaohang" creationdate="20220329T122702Z">
@@ -186,6 +194,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T151520Z" creationid="huanghaohang" creationdate="20220328T151520Z">
         <seg>#sec:why_groovy</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.tasks.diagnostics.DependencyInsightReportTask.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T134621Z" creationid="huanghaohang" creationdate="20220329T134621Z">
+        <seg>../dsl/org.gradle.api.tasks.diagnostics.DependencyInsightReportTask.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -650,6 +666,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133403Z" creationid="huanghaohang" creationdate="20220329T133403Z">
         <seg>4.7.5. 列出项目 buildscript 的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>4.7.6. Getting the insight into a particular dependency</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T134452Z" creationid="huanghaohang" creationdate="20220329T134452Z">
+        <seg>4.7.6. 深入了解一个特定的依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -1190,6 +1214,18 @@ dists - Builds the distribution [api:libs, webapp:libs]</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&gt; gradle -q webapp:dependencyInsight --dependency groovy --configuration compile
+org.codehaus.groovy:groovy-all:2.4.4
+\--- project :api</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T134619Z" creationid="huanghaohang" creationdate="20220329T134619Z">
+        <seg>&gt; gradle -q webapp:dependencyInsight --dependency groovy --configuration compile
+org.codehaus.groovy:groovy-all:2.4.4
+\--- project :api</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&gt; gradle cT
 :compile
 compiling source
@@ -1680,6 +1716,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133309Z" creationid="huanghaohang" creationdate="20220329T133309Z">
         <seg>示例 4.15. 按配置过滤依赖报告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 4.16. Getting the insight into a particular dependency</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T134559Z" creationid="huanghaohang" creationdate="20220329T134559Z">
+        <seg>示例4.16. 深入了解特定的依赖</seg>
       </tuv>
     </tu>
     <tu>
@@ -2316,6 +2360,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q webapp:dependencyInsight --dependency groovy --configuration compile&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T134617Z" creationid="huanghaohang" creationdate="20220329T134617Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q webapp:dependencyInsight --dependency groovy --configuration compile&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle cT&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T125246Z" creationid="huanghaohang" creationdate="20220329T125246Z">
@@ -2422,8 +2474,8 @@ Group</seg>
       <tuv lang="en-US">
         <seg>Running &lt;s0&gt;&lt;c1&gt;gradle buildEnvironment&lt;/c1&gt;&lt;/s0&gt; visualises the buildscript dependencies of the selected project, similarly to how &lt;s2&gt;&lt;c3&gt;gradle dependencies&lt;/c3&gt;&lt;/s2&gt; visualises the dependencies of the software being built.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T134352Z" creationid="huanghaohang" creationdate="20220329T134352Z">
-        <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle buildEnvironment&lt;/c1&gt;&lt;/s0&gt; 会可视化所选项目的 buildscript 依赖项，类似于 &lt;s2&gt;&lt;c3&gt;gradle dependencies&lt;/c3&gt;&lt;/s2&gt; 可视化正在构建的软件的依赖项。</seg>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T134457Z" creationid="huanghaohang" creationdate="20220329T134352Z">
+        <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle buildEnvironment&lt;/c1&gt;&lt;/s0&gt; 会可视化所选项目的 buildscript 依赖，类似于 &lt;s2&gt;&lt;c3&gt;gradle dependencies&lt;/c3&gt;&lt;/s2&gt; 可视化正在构建的软件的依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2432,6 +2484,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133051Z" creationid="huanghaohang" creationdate="20220329T132956Z">
         <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle dependencies&lt;/c1&gt;&lt;/s0&gt; 会为你列出所选项目的依赖，并按配置细分。对于每个配置，它的直接和传递依赖会按树型结构展示出来。以下是此报告的示例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle dependencyInsight&lt;/c1&gt;&lt;/s0&gt; gives you an insight into a particular dependency (or dependencies) that match specified input. Below is an example of this report:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T134613Z" creationid="huanghaohang" creationdate="20220329T134545Z">
+        <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle dependencyInsight&lt;/c1&gt;&lt;/s0&gt; 会让你深入了解与指定的输入内容相匹配的特定依赖（或多个依赖）。如下是此报告的示例：</seg>
       </tuv>
     </tu>
     <tu>
@@ -2728,6 +2788,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This task is extremely useful for investigating the dependency resolution, finding out where certain dependencies are coming from and why certain versions are selected. For more information please see the &lt;a0&gt;&lt;c1&gt;DependencyInsightReportTask&lt;/c1&gt;&lt;/a0&gt; class in the API documentation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T134829Z" creationid="huanghaohang" creationdate="20220329T134829Z">
+        <seg>这一任务对于调查依赖解析、找出某些依赖的来源，以及选择某些版本的原因来说非常有用。有关更多信息，请参阅&lt;a0&gt;&lt;c1&gt;DependencyInsightReportTask&lt;/c1&gt;&lt;/a0&gt;。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This user guide, like Gradle itself, is under very active development. Some parts of Gradle aren't documented as completely as they need to be. Some of the content presented won't be entirely clear or will assume that you know more about Gradle than you do. We need your help to improve this user guide. You can find out more about contributing to the documentation at the &lt;a0&gt;Gradle web site&lt;/a0&gt;.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T104244Z" creationid="huanghaohang" creationdate="20220328T104244Z">
@@ -3004,6 +3072,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T121138Z" creationid="huanghaohang" creationdate="20220329T121138Z">
         <seg>你可以通过 &lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt; 命令来运行 Gradle。输入 &lt;s2&gt;&lt;s3&gt;gradle -v&lt;/s3&gt;&lt;/s2&gt; 就可以检查 Gradle 是否正确安装。该命令会输出 Gradle 的版本，以及本地环境配置（groovy 和 JVM 版本等等）。所显示的 Gradle 版本应与你下载的发行包相匹配。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>\--- compile</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T134620Z" creationid="huanghaohang" creationdate="20220329T134620Z">
+        <seg>\--- compile</seg>
       </tuv>
     </tu>
     <tu>
