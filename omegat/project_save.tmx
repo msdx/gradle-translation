@@ -46,6 +46,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#N10108</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T120714Z" creationid="huanghaohang" creationdate="20220329T120714Z">
+        <seg>#N10108</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>#N10118</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T120919Z" creationid="huanghaohang" creationdate="20220329T120919Z">
+        <seg>#N10118</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#ftn.N100C4</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T152219Z" creationid="huanghaohang" creationdate="20220328T152219Z">
@@ -342,10 +358,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>3.4. Environment variables</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T120719Z" creationid="huanghaohang" creationdate="20220329T120719Z">
+        <seg>3.4. 环境变量</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>3.5.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154422Z" creationid="huanghaohang" creationdate="20220328T154422Z">
         <seg>3.5.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>3.5. Running and testing your installation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T120926Z" creationid="huanghaohang" creationdate="20220329T120926Z">
+        <seg>3.5. 运行和测试安装</seg>
       </tuv>
     </tu>
     <tu>
@@ -1018,6 +1050,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T153655Z" creationid="huanghaohang" creationdate="20220328T153302Z">
         <seg>对于具有 Python 或 Ruby 知识或渴望学习它们的 Java 开发人员来说，上述的论点并不适用。Gradle 设计非常适全于在 JRuby 或 Jython 中创建另一种构建脚本引擎。它只是目前对我们来说不是最高优先级。我们很乐意支持任何社区来努力创建其他的构建脚本引擎。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For running Gradle, firstly add the environment variable &lt;c0&gt;GRADLE_HOME&lt;/c0&gt;. This should point to the unpacked files from the Gradle website. Next add &lt;c1&gt;&lt;e2&gt;&lt;c3&gt;GRADLE_HOME&lt;/c3&gt;&lt;/e2&gt;/bin&lt;/c1&gt; to your &lt;c4&gt;PATH&lt;/c4&gt; environment variable. Usually, this is sufficient to run Gradle.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T120913Z" creationid="huanghaohang" creationdate="20220329T120913Z">
+        <seg>要运行 Gradle，请先添加环境变量 &lt;c0&gt;GRADLE_HOME&lt;/c0&gt;。它应该指向 Gradle 网站上解压缩的文件。接下来，将 &lt;c1&gt;&lt;e2&gt;&lt;c3&gt;GRADLE_HOME&lt;/c3&gt;&lt;/e2&gt;/bin&lt;/c1&gt; 添加到 &lt;c4&gt;PATH&lt;/c4&gt; 环境变量中。通常，这样就可以运行 Gradle 了。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1818,6 +1858,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T120306Z" creationid="huanghaohang" creationdate="20220329T120306Z">
         <seg>你可以从&lt;a0&gt;Gradle 官方网站&lt;/a0&gt;上下载Gradle的发行包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You run Gradle via the &lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt; command. To check if Gradle is properly installed just type &lt;s2&gt;&lt;s3&gt;gradle -v&lt;/s3&gt;&lt;/s2&gt;. The output shows the Gradle version and also the local environment configuration (Groovy, JVM version, OS, etc.). The displayed Gradle version should match the distribution you have downloaded.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T121138Z" creationid="huanghaohang" creationdate="20220329T121138Z">
+        <seg>你可以通过 &lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt; 命令来运行 Gradle。输入 &lt;s2&gt;&lt;s3&gt;gradle -v&lt;/s3&gt;&lt;/s2&gt; 就可以检查 Gradle 是否正确安装。该命令会输出 Gradle 的版本，以及本地环境配置（groovy 和 JVM 版本等等）。所显示的 Gradle 版本应与你下载的发行包相匹配。</seg>
       </tuv>
     </tu>
     <tu>
