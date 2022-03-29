@@ -86,6 +86,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#N1025F</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131454Z" creationid="huanghaohang" creationdate="20220329T131454Z">
+        <seg>#N1025F</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#ftn.N100C4</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T152219Z" creationid="huanghaohang" creationdate="20220328T152219Z">
@@ -106,6 +114,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122702Z" creationid="huanghaohang" creationdate="20220329T122702Z">
         <seg>#sec:excluding_tasks_from_the_command_line</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>#sec:listing_tasks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131733Z" creationid="huanghaohang" creationdate="20220329T131733Z">
+        <seg>#sec:listing_tasks</seg>
       </tuv>
     </tu>
     <tu>
@@ -574,6 +590,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>4.7.1. Listing projects</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131523Z" creationid="huanghaohang" creationdate="20220329T131523Z">
+        <seg>4.7.1. 列出项目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>4.7.2. Listing tasks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131739Z" creationid="huanghaohang" creationdate="20220329T131739Z">
+        <seg>4.7.2. 列出任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>4.7. Obtaining information about your build</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131232Z" creationid="huanghaohang" creationdate="20220329T131232Z">
@@ -876,6 +908,110 @@ using build file 'build.gradle' in 'subdir'.</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&gt; gradle -q projects
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+Root project 'projectReports'
++--- Project ':api' - The shared API for the application
+\--- Project ':webapp' - The Web application implementation
+
+To see a list of the tasks of a project, run gradle &lt;project-path&gt;:tasks
+For example, try running gradle :api:tasks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131608Z" creationid="huanghaohang" creationdate="20220329T131608Z">
+        <seg>&gt; gradle -q projects
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+Root project 'projectReports'
++--- Project ':api' - The shared API for the application
+\--- Project ':webapp' - The Web application implementation
+
+To see a list of the tasks of a project, run gradle &lt;project-path&gt;:tasks
+For example, try running gradle :api:tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; gradle -q tasks
+
+------------------------------------------------------------
+All tasks runnable from root project
+------------------------------------------------------------
+
+Default tasks: dists
+
+Build tasks
+-----------
+clean - Deletes the build directory (build)
+dists - Builds the distribution
+libs - Builds the JAR
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build. [incubating]
+wrapper - Generates Gradle wrapper files. [incubating]
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'projectReports'.
+components - Displays the components produced by root project 'projectReports'. [incubating]
+dependencies - Displays all dependencies declared in root project 'projectReports'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'projectReports'.
+help - Displays a help message.
+model - Displays the configuration model of root project 'projectReports'. [incubating]
+projects - Displays the sub-projects of root project 'projectReports'.
+properties - Displays the properties of root project 'projectReports'.
+tasks - Displays the tasks runnable from root project 'projectReports' (some of the displayed tasks may belong to subprojects).
+
+To see all tasks and more detail, run gradle tasks --all
+
+To see more detail about a task, run gradle help --task &lt;task&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131859Z" creationid="huanghaohang" creationdate="20220329T131859Z">
+        <seg>&gt; gradle -q tasks
+
+------------------------------------------------------------
+All tasks runnable from root project
+------------------------------------------------------------
+
+Default tasks: dists
+
+Build tasks
+-----------
+clean - Deletes the build directory (build)
+dists - Builds the distribution
+libs - Builds the JAR
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build. [incubating]
+wrapper - Generates Gradle wrapper files. [incubating]
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'projectReports'.
+components - Displays the components produced by root project 'projectReports'. [incubating]
+dependencies - Displays all dependencies declared in root project 'projectReports'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'projectReports'.
+help - Displays a help message.
+model - Displays the configuration model of root project 'projectReports'. [incubating]
+projects - Displays the sub-projects of root project 'projectReports'.
+properties - Displays the properties of root project 'projectReports'.
+tasks - Displays the tasks runnable from root project 'projectReports' (some of the displayed tasks may belong to subprojects).
+
+To see all tasks and more detail, run gradle tasks --all
+
+To see more detail about a task, run gradle help --task &lt;task&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&gt; gradle cT
 :compile
 compiling source
@@ -1082,6 +1218,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123427Z" creationid="huanghaohang" creationdate="20220329T123205Z">
         <seg>默认情况下，只要有任务失败，Gradle 就将中断执行让构建失败。这样做会使构建更快地结束，但也会让其他可能发生的失败不被发现。为了在单个构建执行中发现尽可能多的失败，你可以使用 &lt;c0&gt;--continue&lt;/c0&gt; 选项。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By default, this report shows only those tasks which have been assigned to a task group. You can do this by setting the &lt;c0&gt;group&lt;/c0&gt; property for the task. You can also set the &lt;c1&gt;description&lt;/c1&gt; property, to provide a description to be included in the report.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131916Z" creationid="huanghaohang" creationdate="20220329T131916Z">
+        <seg>默认情况下，此报告仅显示已分配给任务组的任务。你可以通过为任务设置&lt;c0&gt;group&lt;/c0&gt;属性来实现它。你也可以通过设置&lt;c1&gt;description&lt;/c1&gt;属性，来提供包含在报告中的描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1302,6 +1446,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 4.10. Obtaining information about tasks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131839Z" creationid="huanghaohang" creationdate="20220329T131839Z">
+        <seg>示例4.10. 获取任务的相关信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 4.2. Excluding tasks</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122745Z" creationid="huanghaohang" creationdate="20220329T122745Z">
@@ -1346,6 +1498,22 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T130659Z" creationid="huanghaohang" creationdate="20220329T130659Z">
         <seg>示例 4.7. 强制运行任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 4.8. Obtaining information about projects</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131555Z" creationid="huanghaohang" creationdate="20220329T131555Z">
+        <seg>示例4.8. 获取项目的相关信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 4.9. Providing a description for a project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131730Z" creationid="huanghaohang" creationdate="20220329T131730Z">
+        <seg>示例4.9. 提供项目描述信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -1686,6 +1854,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In addition to the built-in tasks shown below, you can also use the &lt;a0&gt;project report plugin&lt;/a0&gt; to add tasks to your project which will generate these reports.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131450Z" creationid="huanghaohang" creationdate="20220329T131450Z">
+        <seg>除了下面所示的内置任务之外，还可以使用&lt;a0&gt;项目报告插件&lt;/a0&gt;将一些任务添加到项目中，以生成这些报告。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In that case, you might argue why we don't just use Java as the language for build scripts. We think this is a valid question. It would have the highest transparency for your team and the lowest learning curve, but because of the limitations of Java, such a build language would not be as nice, expressive and powerful as it could be. &lt;s0&gt;[&lt;a1&gt;1&lt;/a1&gt;]&lt;/s0&gt; Languages like Python, Groovy or Ruby do a much better job here. We have chosen Groovy as it offers by far the greatest transparency for Java people. Its base syntax is the same as Java's as well as its type system, its package structure and other things. Groovy provides much more on top of that, but with the common foundation of Java.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T153238Z" creationid="huanghaohang" creationdate="20220328T153238Z">
@@ -1862,6 +2038,22 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q projects&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131558Z" creationid="huanghaohang" creationdate="20220329T131558Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q projects&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q tasks&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131843Z" creationid="huanghaohang" creationdate="20220329T131843Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q tasks&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle cT&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T125246Z" creationid="huanghaohang" creationdate="20220329T125246Z">
@@ -1962,6 +2154,22 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T155228Z" creationid="huanghaohang" creationdate="20220328T155228Z">
         <seg>仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle projects&lt;/c1&gt;&lt;/s0&gt; gives you a list of the sub-projects of the selected project, displayed in a hierarchy. Here is an example:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131542Z" creationid="huanghaohang" creationdate="20220329T131542Z">
+        <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle projects&lt;/c1&gt;&lt;/s0&gt; 会为你按子项目的层次结构显示出项目列表，如下所示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt; gives you a list of the main tasks of the selected project. This report shows the default tasks for the project, if any, and a description for each task. Below is an example of this report:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131832Z" creationid="huanghaohang" creationdate="20220329T131832Z">
+        <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle tasks&lt;/c1&gt;&lt;/s0&gt; 会为你列出所选项目的主要任务。报告会显示项目的默认任务（如果有配置默认任务的话），以及每个任务的说明。以下是关于该报告的示例：</seg>
       </tuv>
     </tu>
     <tu>
@@ -2170,6 +2378,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T111641Z" creationid="huanghaohang" creationdate="20220328T111641Z">
         <seg>声明性语言位于通用任务图之上，你可以在构建中充分利用它。它提供了极大的灵活性，使 Gradle 能适应你的独特需求。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The report shows the description of each project, if specified. You can provide a description for a project by setting the &lt;c0&gt;description&lt;/c0&gt; property:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131723Z" creationid="huanghaohang" creationdate="20220329T131613Z">
+        <seg>这个报告会显示每一个项目的描述信息，如果你有配置的话。你可以通过设置 &lt;c0&gt;description&lt;/c0&gt; 属性来提供项目的描述信息：</seg>
       </tuv>
     </tu>
     <tu>
@@ -2622,6 +2838,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>description = &lt;s0&gt;'The shared API for the application'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131732Z" creationid="huanghaohang" creationdate="20220329T131732Z">
+        <seg>description = &lt;s0&gt;'The shared API for the application'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>docs.css</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T032957Z" creationid="huanghaohang" creationdate="20220328T032957Z">
@@ -3008,6 +3232,14 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122504Z" creationid="huanghaohang" creationdate="20220329T122504Z">
         <seg>println &lt;s3&gt;'building the distribution'&lt;/s3&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>project_reports_plugin.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131417Z" creationid="huanghaohang" creationdate="20220329T131417Z">
+        <seg>project_reports_plugin.html</seg>
       </tuv>
     </tu>
     <tu>
