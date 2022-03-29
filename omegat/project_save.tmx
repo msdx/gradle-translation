@@ -2740,6 +2740,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The built-in dependencyInsight task is a part of the 'Help' tasks group. The task needs to configured with the dependency and the configuration. The report looks for the dependencies that match the specified dependency spec in the specified configuration. If Java related plugin is applied, the dependencyInsight task is pre-configured with 'compile' configuration because typically it's the compile dependencies we are interested in. You should specify the dependency you are interested in via the command line '--dependency' option. If you don't like the defaults you may select the configuration via '--configuration' option. For more information see the &lt;a0&gt;&lt;c1&gt;DependencyInsightReportTask&lt;/c1&gt;&lt;/a0&gt; class in the API documentation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T135408Z" creationid="huanghaohang" creationdate="20220329T135408Z">
+        <seg>内置的 dependencyInsight 任务是“Help”任务组的一部分。该任务需要配置依赖和配置信息。报告将在指定的配置中查找与指定依赖相匹配的依赖。如果应用了 java 相关的插件，那么 dependencyInsight 任务是通过“compile”配置进行预配置的，因为通常来说，我们感兴趣的是编译的依赖。你应该通过命令行“--dependency”选项指定你感举的依赖。如果您不想要默认的配置，也可以通过“--configuration”选项来选择配置。更多信息请参阅 API 文档里的 &lt;a0&gt;&lt;c1&gt;DependencyInsightReportTask&lt;/c1&gt;&lt;/a0&gt; 类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The declarative language lies on top of a general purpose task graph, which you can fully leverage in your builds. It provides utmost flexibility to adapt Gradle to your unique needs.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T111641Z" creationid="huanghaohang" creationdate="20220328T111641Z">
