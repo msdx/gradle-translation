@@ -830,6 +830,16 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&gt; gradle --rerun-tasks doIt
+:doIt</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T130722Z" creationid="huanghaohang" creationdate="20220329T130722Z">
+        <seg>&gt; gradle --rerun-tasks doIt
+:doIt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&gt; gradle -q -b subdir/myproject.gradle hello
 using build file 'myproject.gradle' in 'subdir'.</seg>
       </tuv>
@@ -958,6 +968,16 @@ building the distribution
 BUILD SUCCESSFUL
 
 Total time: 1 secs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; gradle doIt
+:doIt UP-TO-DATE</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T130713Z" creationid="huanghaohang" creationdate="20220329T130713Z">
+        <seg>&gt; gradle doIt
+:doIt UP-TO-DATE</seg>
       </tuv>
     </tu>
     <tu>
@@ -1778,10 +1798,26 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Note that this will force &lt;s0&gt;&lt;e1&gt;all&lt;/e1&gt;&lt;/s0&gt; required tasks to execute, not just the ones you specify on the command line. It's a little like running a &lt;c2&gt;clean&lt;/c2&gt;, but without the build's generated output being deleted.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131218Z" creationid="huanghaohang" creationdate="20220329T130734Z">
+        <seg>请注意，这将强制执行&lt;s0&gt;&lt;e1&gt;所有&lt;/e1&gt;&lt;/s0&gt;必需的任务，而不仅仅是你在命令行上指定的任务。这有点像运行一个 &lt;c2&gt;clean&lt;/c2&gt;，但不删除构建生成的输出。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Obtaining information about your build</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154655Z" creationid="huanghaohang" creationdate="20220328T154655Z">
         <seg>获取构建的相关信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle --rerun-tasks doIt&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T130720Z" creationid="huanghaohang" creationdate="20220329T130720Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle --rerun-tasks doIt&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
@@ -1830,6 +1866,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122506Z" creationid="huanghaohang" creationdate="20220329T122506Z">
         <seg>&lt;s0&gt;&lt;c1&gt;gradle dist test&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle doIt&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T130711Z" creationid="huanghaohang" creationdate="20220329T130711Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle doIt&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
       </tuv>
     </tu>
     <tu>
