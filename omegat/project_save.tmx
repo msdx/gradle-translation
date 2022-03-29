@@ -1224,8 +1224,8 @@ Total time: 1 secs</seg>
       <tuv lang="en-US">
         <seg>By default, this report shows only those tasks which have been assigned to a task group. You can do this by setting the &lt;c0&gt;group&lt;/c0&gt; property for the task. You can also set the &lt;c1&gt;description&lt;/c1&gt; property, to provide a description to be included in the report.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131916Z" creationid="huanghaohang" creationdate="20220329T131916Z">
-        <seg>默认情况下，此报告仅显示已分配给任务组的任务。你可以通过为任务设置&lt;c0&gt;group&lt;/c0&gt;属性来实现它。你也可以通过设置&lt;c1&gt;description&lt;/c1&gt;属性，来提供包含在报告中的描述。</seg>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132054Z" creationid="huanghaohang" creationdate="20220329T131916Z">
+        <seg>默认情况下，此报告仅显示已分配给任务组的任务。你可以通过为任务设置&lt;c0&gt;group&lt;/c0&gt;属性来实现它。你也可以通过设置&lt;c1&gt;description&lt;/c1&gt;属性，来提供要包含在报告中的描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1450,6 +1450,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131839Z" creationid="huanghaohang" creationdate="20220329T131839Z">
         <seg>示例4.10. 获取任务的相关信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 4.11. Changing the content of the task report</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132107Z" creationid="huanghaohang" creationdate="20220329T132107Z">
+        <seg>示例 4.11. 更改任务报告的内容</seg>
       </tuv>
     </tu>
     <tu>
@@ -2662,6 +2670,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can obtain more information in the task listing using the &lt;c0&gt;--all&lt;/c0&gt; option. With this option, the task report lists all tasks in the project, grouped by main task, and the dependencies for each task. Here is an example:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132339Z" creationid="huanghaohang" creationdate="20220329T132339Z">
+        <seg>你可以使用 &lt;c0&gt;--all&lt;/c0&gt; 选项，来获取更多的任务信息。使用此选项时，任务报告将列出项目中的所有任务，按主要任务以及每一个任务的依赖进行分组。示例如下：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can see from the output of this example, that the &lt;c0&gt;test&lt;/c0&gt; task is not executed, even though it is a dependency of the &lt;c1&gt;dist&lt;/c1&gt; task. You will also notice that the &lt;c2&gt;test&lt;/c2&gt; task's dependencies, such as &lt;c3&gt;compileTest&lt;/c3&gt; are not executed either. Those dependencies of &lt;c4&gt;test&lt;/c4&gt; that are required by another task, such as &lt;c5&gt;compile&lt;/c5&gt;, are still executed.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123126Z" creationid="huanghaohang" creationdate="20220329T122801Z">
@@ -2838,10 +2854,26 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>description = &lt;s0&gt;'Builds the distribution'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132110Z" creationid="huanghaohang" creationdate="20220329T132110Z">
+        <seg>description = &lt;s0&gt;'Builds the distribution'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>description = &lt;s0&gt;'The shared API for the application'&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131732Z" creationid="huanghaohang" creationdate="20220329T131732Z">
         <seg>description = &lt;s0&gt;'The shared API for the application'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dists {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132110Z" creationid="huanghaohang" creationdate="20220329T132110Z">
+        <seg>dists {</seg>
       </tuv>
     </tu>
     <tu>
@@ -3002,6 +3034,16 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154719Z" creationid="huanghaohang" creationdate="20220328T154719Z">
         <seg>gradle_wrapper.html#using_wrapper_scripts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>group = &lt;s1&gt;'build'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132112Z" creationid="huanghaohang" creationdate="20220329T132112Z">
+        <seg>group = &lt;s1&gt;'build'&lt;/s1&gt;
+}</seg>
       </tuv>
     </tu>
     <tu>
