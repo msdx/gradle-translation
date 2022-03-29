@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#N1014A</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122052Z" creationid="huanghaohang" creationdate="20220329T122052Z">
+        <seg>#N1014A</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#ftn.N100C4</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T152219Z" creationid="huanghaohang" creationdate="20220328T152219Z">
@@ -418,6 +426,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154436Z" creationid="huanghaohang" creationdate="20220328T154436Z">
         <seg>4.1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>4.1. Executing multiple tasks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122056Z" creationid="huanghaohang" creationdate="20220329T122056Z">
+        <seg>4.1. 执行多个任务</seg>
       </tuv>
     </tu>
     <tu>
@@ -794,6 +810,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T111304Z" creationid="huanghaohang" creationdate="20220328T110654Z">
         <seg>Gradle 的核心是基于Groovy的丰富可扩展的域特定语言（DSL）。Gradle通过提供可以根据需要进行组合的声明性语言元素，将声明性构建提升到一个新的层次。这些元素还将为Java，Groovy，OSGi，Web和Scala项目提供基于约定的构建。更重要的是，这种声明性语言是可扩展的。可以通过添加你自己的新语言元素，或者是增加现有的元素，从而提供简洁，可维护以及易于理解的构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Below four tasks are defined. Both &lt;c0&gt;dist&lt;/c0&gt; and &lt;c1&gt;test&lt;/c1&gt; depend on the &lt;c2&gt;compile&lt;/c2&gt; task. Running &lt;s3&gt;&lt;c4&gt;gradle dist test&lt;/c4&gt;&lt;/s3&gt; for this build script results in the &lt;c5&gt;compile&lt;/c5&gt; task being executed only once.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122334Z" creationid="huanghaohang" creationdate="20220329T122334Z">
+        <seg>下面定义了四个任务，其中&lt;c0&gt;dist&lt;/c0&gt;和&lt;c1&gt;test&lt;/c1&gt;都依赖于&lt;c2&gt;compile&lt;/c2&gt;任务。对于这个构建脚本，运行&lt;s3&gt;&lt;c4&gt;gradle dist test&lt;/c4&gt;&lt;/s3&gt;只会使&lt;c5&gt;compile&lt;/c5&gt;任务被执行一次。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1922,6 +1946,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T120306Z" creationid="huanghaohang" creationdate="20220329T120306Z">
         <seg>你可以从&lt;a0&gt;Gradle 官方网站&lt;/a0&gt;上下载Gradle的发行包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can execute multiple tasks in a single build by listing each of the tasks on the command-line. For example, the command &lt;s0&gt;&lt;c1&gt;gradle compile test&lt;/c1&gt;&lt;/s0&gt; will execute the &lt;c2&gt;compile&lt;/c2&gt; and &lt;c3&gt;test&lt;/c3&gt; tasks. Gradle will execute the tasks in the order that they are listed on the command-line, and will also execute the dependencies for each task. Each task is executed once only, regardless of how it came to be included in the build: whether it was specified on the command-line, or as a dependency of another task, or both. Let's look at an example.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122315Z" creationid="huanghaohang" creationdate="20220329T122315Z">
+        <seg>通过在命令行中列出每个任务，你可以在单个构建中执行多个任务。例如，&lt;s0&gt;&lt;c1&gt;gradle compile test&lt;/c1&gt;&lt;/s0&gt; 命令将执行 &lt;c2&gt;compile&lt;/c2&gt; 和 &lt;c3&gt;test&lt;/c3&gt; 任务。Gradle 将按照命令行中的顺序依次执行这些任务以及每一个任务所依赖的其他任务。每个任务只会被执行一次，无论它们是如何被包含在构建中的：即无论是在命令行中指定的，还是另一个任务的依赖，抑或两者都有。来看下面的例子。</seg>
       </tuv>
     </tu>
     <tu>
