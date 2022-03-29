@@ -2378,6 +2378,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You may on occasion want to force Gradle to run all the tasks, ignoring any up-to-date checks. If that's the case, simply use the &lt;c0&gt;--rerun-tasks&lt;/c0&gt; option. Here's the output when running a task both without and with &lt;c1&gt;--rerun-tasks&lt;/c1&gt;:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T130404Z" creationid="huanghaohang" creationdate="20220329T130404Z">
+        <seg>你有时可能希望强制 Gradle 运行所有任务，而忽略任何最新检查。如果是这种情况，只需使用&lt;c0&gt;--rerun-tasks&lt;/c0&gt;选项。这是在没有和有 &lt;c1&gt;--rerun-tasks&lt;/c1&gt; 的情况下运行任务时的输出：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You run Gradle via the &lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt; command. To check if Gradle is properly installed just type &lt;s2&gt;&lt;s3&gt;gradle -v&lt;/s3&gt;&lt;/s2&gt;. The output shows the Gradle version and also the local environment configuration (Groovy, JVM version, OS, etc.). The displayed Gradle version should match the distribution you have downloaded.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T121138Z" creationid="huanghaohang" creationdate="20220329T121138Z">
