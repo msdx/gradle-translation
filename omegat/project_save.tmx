@@ -118,6 +118,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#sec:listing_buildscript_dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133317Z" creationid="huanghaohang" creationdate="20220329T133317Z">
+        <seg>#sec:listing_buildscript_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>#sec:listing_dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132848Z" creationid="huanghaohang" creationdate="20220329T132848Z">
+        <seg>#sec:listing_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#sec:listing_tasks</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131733Z" creationid="huanghaohang" creationdate="20220329T131733Z">
@@ -622,6 +638,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>4.7.4. Listing project dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132854Z" creationid="huanghaohang" creationdate="20220329T132854Z">
+        <seg>4.7.4. 列出项目依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>4.7.5. Listing project buildscript dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133403Z" creationid="huanghaohang" creationdate="20220329T133403Z">
+        <seg>4.7.5. 列出项目 buildscript 的依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>4.7. Obtaining information about your build</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131232Z" creationid="huanghaohang" creationdate="20220329T131232Z">
@@ -870,6 +902,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:api:libs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132752Z" creationid="huanghaohang" creationdate="20220329T132752Z">
+        <seg>:api:libs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:webapp:libs
+
+Type</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132753Z" creationid="huanghaohang" creationdate="20220329T132753Z">
+        <seg>:webapp:libs
+
+Type</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;a0&gt;Previous&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;Contents&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;Next&lt;/a4&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T035603Z" creationid="huanghaohang" creationdate="20220328T035603Z">
@@ -920,6 +972,82 @@ using build file 'build.gradle' in 'subdir'.</seg>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T125703Z" creationid="huanghaohang" creationdate="20220329T125703Z">
         <seg>&gt; gradle -q -p subdir hello
 using build file 'build.gradle' in 'subdir'.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; gradle -q api:dependencies --configuration testCompile
+
+------------------------------------------------------------
+Project :api - The shared API for the application
+------------------------------------------------------------
+
+testCompile
+\--- junit:junit:4.12</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133315Z" creationid="huanghaohang" creationdate="20220329T133315Z">
+        <seg>&gt; gradle -q api:dependencies --configuration testCompile
+
+------------------------------------------------------------
+Project :api - The shared API for the application
+------------------------------------------------------------
+
+testCompile
+\--- junit:junit:4.12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; gradle -q dependencies api:dependencies webapp:dependencies
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+No configurations
+
+------------------------------------------------------------
+Project :api - The shared API for the application
+------------------------------------------------------------
+
+compile
+\--- org.codehaus.groovy:groovy-all:2.4.4
+
+testCompile
+\--- junit:junit:4.12</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133107Z" creationid="huanghaohang" creationdate="20220329T133107Z">
+        <seg>&gt; gradle -q dependencies api:dependencies webapp:dependencies
+
+------------------------------------------------------------
+Root project
+------------------------------------------------------------
+
+No configurations
+
+------------------------------------------------------------
+Project :api - The shared API for the application
+------------------------------------------------------------
+
+compile
+\--- org.codehaus.groovy:groovy-all:2.4.4
+
+testCompile
+\--- junit:junit:4.12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; gradle -q help --task libs
+Detailed task information for libs
+
+Paths</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132751Z" creationid="huanghaohang" creationdate="20220329T132751Z">
+        <seg>&gt; gradle -q help --task libs
+Detailed task information for libs
+
+Paths</seg>
       </tuv>
     </tu>
     <tu>
@@ -1264,6 +1392,18 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Builds the JAR
+
+Group</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132801Z" creationid="huanghaohang" creationdate="20220329T132801Z">
+        <seg>Builds the JAR
+
+Group</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>By default, Gradle will abort execution and fail the build as soon as any task fails. This allows the build to complete sooner, but hides other failures that would have occurred. In order to discover as many failures as possible in a single build execution, you can use the &lt;c0&gt;--continue&lt;/c0&gt; option.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123427Z" creationid="huanghaohang" creationdate="20220329T123205Z">
@@ -1516,6 +1656,30 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132357Z" creationid="huanghaohang" creationdate="20220329T132357Z">
         <seg>示例 4.12. 获取任务的更多相关信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 4.13. Obtaining detailed help for tasks</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132746Z" creationid="huanghaohang" creationdate="20220329T132746Z">
+        <seg>示例4.13. 获取任务的帮助信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 4.14. Obtaining information about dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133059Z" creationid="huanghaohang" creationdate="20220329T133059Z">
+        <seg>示例 4.14. 获取依赖的相关信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 4.15. Filtering dependency report by configuration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133309Z" creationid="huanghaohang" creationdate="20220329T133309Z">
+        <seg>示例 4.15. 按配置过滤依赖报告</seg>
       </tuv>
     </tu>
     <tu>
@@ -2104,6 +2268,30 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q api:dependencies --configuration testCompile&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133314Z" creationid="huanghaohang" creationdate="20220329T133314Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q api:dependencies --configuration testCompile&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q dependencies api:dependencies webapp:dependencies&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133104Z" creationid="huanghaohang" creationdate="20220329T133104Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q dependencies api:dependencies webapp:dependencies&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q help --task libs&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132749Z" creationid="huanghaohang" creationdate="20220329T132749Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q help --task libs&lt;/c1&gt;&lt;/s0&gt;的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q projects&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131558Z" creationid="huanghaohang" creationdate="20220329T131558Z">
@@ -2232,6 +2420,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Running &lt;s0&gt;&lt;c1&gt;gradle dependencies&lt;/c1&gt;&lt;/s0&gt; gives you a list of the dependencies of the selected project, broken down by configuration. For each configuration, the direct and transitive dependencies of that configuration are shown in a tree. Below is an example of this report:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133051Z" creationid="huanghaohang" creationdate="20220329T132956Z">
+        <seg>运行 &lt;s0&gt;&lt;c1&gt;gradle dependencies&lt;/c1&gt;&lt;/s0&gt; 会为你列出所选项目的依赖，并按配置细分。对于每个配置，它的直接和传递依赖会按树型结构展示出来。以下是此报告的示例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Running &lt;s0&gt;&lt;c1&gt;gradle help --task someTask&lt;/c1&gt;&lt;/s0&gt; gives you detailed information about a specific task or multiple tasks matching the given task name in your multiproject build. Below is an example of this detailed information:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132738Z" creationid="huanghaohang" creationdate="20220329T132738Z">
@@ -2276,6 +2472,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T155447Z" creationid="huanghaohang" creationdate="20220328T155447Z">
         <seg>设置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Since a dependency report can get large, it can be useful to restrict the report to a particular configuration. This is achieved with the optional &lt;s0&gt;&lt;c1&gt;--configuration&lt;/c1&gt;&lt;/s0&gt; parameter:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133259Z" creationid="huanghaohang" creationdate="20220329T133114Z">
+        <seg>由于一份依赖报告可能会很大，因此将报告限定为特定配置会很有用，它通过可选的 &lt;s0&gt;&lt;c1&gt;--configuration&lt;/c1&gt;&lt;/s0&gt; 参数来实现：</seg>
       </tuv>
     </tu>
     <tu>
@@ -2332,6 +2536,18 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T034013Z" creationid="huanghaohang" creationdate="20220328T034013Z">
         <seg>目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Task (org.gradle.api.Task)
+
+Description</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132754Z" creationid="huanghaohang" creationdate="20220329T132754Z">
+        <seg>Task (org.gradle.api.Task)
+
+Description</seg>
       </tuv>
     </tu>
     <tu>
@@ -2492,6 +2708,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122051Z" creationid="huanghaohang" creationdate="20220329T122051Z">
         <seg>本章介绍了 Gradle 命令行的基础知识。正如你在前面章节所看到的，可以使用 &lt;s0&gt;&lt;s1&gt;gradle&lt;/s1&gt;&lt;/s0&gt; 命令来运行构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This information includes the full task path, the task type, possible commandline options and the description of the given task.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132847Z" creationid="huanghaohang" creationdate="20220329T132847Z">
+        <seg>该信息包括完整的任务路径，任务类型，可用的命令行选项以及给定任务的描述。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2776,6 +3000,46 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>\--- org.hamcrest:hamcrest-core:1.3</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133316Z" creationid="huanghaohang" creationdate="20220329T133316Z">
+        <seg>\--- org.hamcrest:hamcrest-core:1.3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>\--- org.hamcrest:hamcrest-core:1.3
+
+------------------------------------------------------------
+Project :webapp - The Web application implementation
+------------------------------------------------------------
+
+compile
++--- project :api
+|    \--- org.codehaus.groovy:groovy-all:2.4.4
+\--- commons-io:commons-io:1.2
+
+testCompile
+No dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133110Z" creationid="huanghaohang" creationdate="20220329T133110Z">
+        <seg>\--- org.hamcrest:hamcrest-core:1.3
+
+------------------------------------------------------------
+Project :webapp - The Web application implementation
+------------------------------------------------------------
+
+compile
++--- project :api
+|    \--- org.codehaus.groovy:groovy-all:2.4.4
+\--- commons-io:commons-io:1.2
+
+testCompile
+No dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>api:compile - Compiles the source files
 webapp:libs - Builds the JAR [api:libs]</seg>
       </tuv>
@@ -2854,6 +3118,14 @@ webapp:libs - Builds the JAR [api:libs]</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T032956Z" creationid="huanghaohang" creationdate="20220328T032956Z">
         <seg>base.css</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>build</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132802Z" creationid="huanghaohang" creationdate="20220329T132802Z">
+        <seg>build</seg>
       </tuv>
     </tu>
     <tu>
