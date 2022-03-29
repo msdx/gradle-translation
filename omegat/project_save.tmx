@@ -2666,6 +2666,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sometimes you are interested in which tasks are executed in which order for a given set of tasks specified on the command line, but you don't want the tasks to be executed. You can use the &lt;c0&gt;-m&lt;/c0&gt; option for this. For example, if you run “&lt;s1&gt;&lt;c2&gt;gradle -m clean compile&lt;/c2&gt;&lt;/s1&gt;”, you'll see all the tasks that would be executed as part of the &lt;c3&gt;clean&lt;/c3&gt; and &lt;c4&gt;compile&lt;/c4&gt; tasks. This is complementary to the &lt;c5&gt;tasks&lt;/c5&gt; task, which shows you the tasks which are available for execution.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T142015Z" creationid="huanghaohang" creationdate="20220329T142015Z">
+        <seg>有时候你可能想知道，以命令行指定的给定一组任务会以怎样的顺序去执行哪些任务，但你不希望任务被真的执行，就可以使用 &lt;c0&gt;-m&lt;/c0&gt; 这个选项。例如，如果你运行“&lt;s1&gt;&lt;c2&gt;gradle -m clean compile&lt;/c2&gt;&lt;/s1&gt;”，你会看到将作为 &lt;c3&gt;clean&lt;/c3&gt; 和 &lt;c4&gt;compile&lt;/c4&gt; 任务的一部分来执行的所有任务。这是对 &lt;c5&gt;tasks&lt;/c5&gt; 任务的补充，用于显示可以执行的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Stopping an existing Daemon</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154920Z" creationid="huanghaohang" creationdate="20220328T154920Z">
