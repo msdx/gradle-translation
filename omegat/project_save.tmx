@@ -166,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#sec:profiling_build</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T135718Z" creationid="huanghaohang" creationdate="20220329T135718Z">
+        <seg>#sec:profiling_build</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#sec:rerun_tasks</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T125703Z" creationid="huanghaohang" creationdate="20220329T125703Z">
@@ -694,6 +702,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>4.7.8. Profiling a build</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T135726Z" creationid="huanghaohang" creationdate="20220329T135726Z">
+        <seg>4.7.8. 分析构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>4.7. Obtaining information about your build</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131232Z" creationid="huanghaohang" creationdate="20220329T131232Z">
@@ -1034,6 +1050,40 @@ Project :api - The shared API for the application
 
 testCompile
 \--- junit:junit:4.12</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&gt; gradle -q api:properties
+
+------------------------------------------------------------
+Project :api - The shared API for the application
+------------------------------------------------------------
+
+allprojects: [project ':api']
+ant: org.gradle.api.internal.project.DefaultAntBuilder@12345
+antBuilderFactory: org.gradle.api.internal.project.DefaultAntBuilderFactory@12345
+artifacts: org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler_Decorated@12345
+asDynamicObject: DynamicObject for project ':api'
+baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@12345
+buildDir: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build
+buildFile: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build.gradle</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T135715Z" creationid="huanghaohang" creationdate="20220329T135715Z">
+        <seg>&gt; gradle -q api:properties
+
+------------------------------------------------------------
+Project :api - The shared API for the application
+------------------------------------------------------------
+
+allprojects: [project ':api']
+ant: org.gradle.api.internal.project.DefaultAntBuilder@12345
+antBuilderFactory: org.gradle.api.internal.project.DefaultAntBuilderFactory@12345
+artifacts: org.gradle.api.internal.artifacts.dsl.DefaultArtifactHandler_Decorated@12345
+asDynamicObject: DynamicObject for project ':api'
+baseClassLoaderScope: org.gradle.api.internal.initialization.DefaultClassLoaderScope@12345
+buildDir: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build
+buildFile: /home/user/gradle/samples/userguide/tutorial/projectReports/api/build.gradle</seg>
       </tuv>
     </tu>
     <tu>
@@ -1744,6 +1794,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 4.17. Information about properties</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T135704Z" creationid="huanghaohang" creationdate="20220329T135704Z">
+        <seg>示例 4.17. 有关属性的信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Example 4.2. Excluding tasks</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122745Z" creationid="huanghaohang" creationdate="20220329T122745Z">
@@ -2336,6 +2394,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q api:properties&lt;/c1&gt;&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T135708Z" creationid="huanghaohang" creationdate="20220329T135708Z">
+        <seg>&lt;s0&gt;&lt;c1&gt;gradle -q api:properties&lt;/c1&gt;&lt;/s0&gt; 的输出结果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Output of &lt;s0&gt;&lt;c1&gt;gradle -q dependencies api:dependencies webapp:dependencies&lt;/c1&gt;&lt;/s0&gt;</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T133104Z" creationid="huanghaohang" creationdate="20220329T133104Z">
@@ -2668,6 +2734,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The &lt;s0&gt;&lt;c1&gt;--profile&lt;/c1&gt;&lt;/s0&gt; command line option will record some useful timing information while your build is running and write a report to the &lt;c2&gt;build/reports/profile&lt;/c2&gt; directory. The report will be named using the time when the build was run.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T140025Z" creationid="huanghaohang" creationdate="20220329T135747Z">
+        <seg>使用 &lt;s0&gt;&lt;c1&gt;--profile&lt;/c1&gt;&lt;/s0&gt; 命令行选项会在运行构建时记录一些有用的时间信息，并把报告写入 &lt;c2&gt;build/reports/profile&lt;/c2&gt; 目录。报告将使用构建运行的时间命名。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The API documentation (Javadoc and Groovydoc).</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T120422Z" creationid="huanghaohang" creationdate="20220329T120422Z">
@@ -2816,6 +2890,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132847Z" creationid="huanghaohang" creationdate="20220329T132847Z">
         <seg>该信息包括完整的任务路径，任务类型，可用的命令行选项以及给定任务的描述。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This report lists summary times and details for both the configuration phase and task execution. The times for configuration and task execution are sorted with the most expensive operations first. The task execution results also indicate if any tasks were skipped (and the reason) or if tasks that were not skipped did no work.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T140441Z" creationid="huanghaohang" creationdate="20220329T140441Z">
+        <seg>该报告列出了配置阶段和任务执行的总体时间和详细信息。配置和任务执行的时间会按从慢到快排序。任务执行的结果还指示了是否有任务被跳过（及跳过原因），或者是否有未跳过的任务不起作用。</seg>
       </tuv>
     </tu>
     <tu>
