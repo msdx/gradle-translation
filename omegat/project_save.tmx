@@ -110,6 +110,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#sec:configuration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T135303Z" creationid="huanghaohang" creationdate="20220404T135303Z">
+        <seg>#sec:configuration</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#sec:continue_build_on_failure</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123128Z" creationid="huanghaohang" creationdate="20220329T123128Z">
@@ -834,6 +842,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154842Z" creationid="huanghaohang" creationdate="20220328T154842Z">
         <seg>5.3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>5.3. Configuration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T135310Z" creationid="huanghaohang" creationdate="20220404T135310Z">
+        <seg>5.3. 配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -1600,6 +1616,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>All of these files &lt;s0&gt;&lt;e1&gt;should&lt;/e1&gt;&lt;/s0&gt; be submitted to your version control system. This only needs to be done once. After these files have been added to the project, the project should then be built with the added &lt;s2&gt;&lt;s3&gt;gradlew&lt;/s3&gt;&lt;/s2&gt; command. The &lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; command can be used &lt;s6&gt;&lt;e7&gt;exactly&lt;/e7&gt;&lt;/s6&gt; the same way as the &lt;s8&gt;&lt;s9&gt;gradle&lt;/s9&gt;&lt;/s8&gt; command.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T135032Z" creationid="huanghaohang" creationdate="20220404T134830Z">
+        <seg>所有这些文件都 &lt;s0&gt;&lt;e1&gt;应该&lt;/e1&gt;&lt;/s0&gt; 提交到版本控制系统中。这只需要执行一次。在将这些文件添加到项目之后，应该使用所添加的 &lt;s2&gt;&lt;s3&gt;gradlew&lt;/s3&gt;&lt;/s2&gt; 命令来构建项目。&lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; 命令的使用方式与 &lt;s8&gt;&lt;s9&gt;gradle&lt;/s9&gt;&lt;/s8&gt; 命令&lt;s6&gt;&lt;e7&gt;完全&lt;/e7&gt;&lt;/s6&gt;一样。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Alternatively, you can use the &lt;c0&gt;-p&lt;/c0&gt; option to specify the project directory to use. For multi-project builds you should use &lt;c1&gt;-p&lt;/c1&gt; option instead of &lt;c2&gt;-b&lt;/c2&gt; option.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T125652Z" creationid="huanghaohang" creationdate="20220329T125652Z">
@@ -1644,6 +1668,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122427Z" creationid="huanghaohang" creationdate="20220329T122334Z">
         <seg>下面定义了四个任务，其中 &lt;c0&gt;dist&lt;/c0&gt; 和 &lt;c1&gt;test&lt;/c1&gt; 都依赖于 &lt;c2&gt;compile&lt;/c2&gt; 任务。对于这个构建脚本，运行&lt;s3&gt;&lt;c4&gt;gradle dist test&lt;/c4&gt;&lt;/s3&gt;只会使 &lt;c5&gt;compile&lt;/c5&gt; 任务被执行一次。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Build layout</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134809Z" creationid="huanghaohang" creationdate="20220404T134803Z">
+        <seg>构建布局</seg>
       </tuv>
     </tu>
     <tu>
@@ -2062,8 +2094,8 @@ Group</seg>
       <tuv lang="en-US">
         <seg>Example 5.3. Wrapper generated files</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134619Z" creationid="huanghaohang" creationdate="20220404T134619Z">
-        <seg>示例 61.2. 包装器生成的文件</seg>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134802Z" creationid="huanghaohang" creationdate="20220404T134619Z">
+        <seg>示例 5.3. 包装器生成的文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -2416,6 +2448,22 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T124233Z" creationid="huanghaohang" creationdate="20220329T123910Z">
         <seg>如果任务失败了，则依赖于它的所有后续任务都不会被执行，因为那样做是不安全的。例如，如果在测试代码中存在编译失败，测试就不会运行；因为测试任务会（直接或间接地）依赖于编译任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you run Gradle with &lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt;, the Wrapper checks if a Gradle distribution for the Wrapper is available. If so, it delegates to the &lt;s2&gt;&lt;s3&gt;gradle&lt;/s3&gt;&lt;/s2&gt; command of this distribution with all the arguments passed originally to the &lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; command. If it didn't find a Gradle distribution, it will download it first.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T135617Z" creationid="huanghaohang" creationdate="20220404T135617Z">
+        <seg>如果你使用 &lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt; 运行 Gradle ，那么包装器会检查要使用的 Gradle 分发包是否可用。如果可用，它会将最初传给 &lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; 命令的所有参数都委托给这个分发包的 &lt;s2&gt;&lt;s3&gt;gradle&lt;/s3&gt;&lt;/s2&gt; 命令。如果它没有找到 Gradle 分发包，它会先下载它。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you want to switch to a new version of Gradle you don't need to rerun the &lt;c0&gt;wrapper&lt;/c0&gt; task. It is good enough to change the respective entry in the &lt;c1&gt;gradle-wrapper.properties&lt;/c1&gt; file, but if you want to take advantage of new functionality in the Gradle wrapper, then you would need to regenerate the wrapper files.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T135301Z" creationid="huanghaohang" creationdate="20220404T135301Z">
+        <seg>如果要切换到新版本的 Gradle，不用重新运行包装器任务，只要修改 &lt;c0&gt;gradle-wrapper.properties&lt;/c0&gt; 文件中的相应属性就可以了。但是如果你想利用 Gradle 包装器的新功能的话，你还是需要重新生成包装器文件。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3812,6 +3860,30 @@ api:libs - Builds the JAR</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>gradle-wrapper.jar</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134812Z" creationid="huanghaohang" creationdate="20220404T134812Z">
+        <seg>gradle-wrapper.jar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gradle-wrapper.properties</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134813Z" creationid="huanghaohang" creationdate="20220404T134813Z">
+        <seg>gradle-wrapper.properties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gradle/wrapper/</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134811Z" creationid="huanghaohang" creationdate="20220404T134811Z">
+        <seg>gradle/wrapper/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>gradleVersion = &lt;s0&gt;'2.0'&lt;/s0&gt;
 }</seg>
       </tuv>
@@ -3930,6 +4002,22 @@ api:libs - Builds the JAR</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154719Z" creationid="huanghaohang" creationdate="20220328T154719Z">
         <seg>gradle_wrapper.html#using_wrapper_scripts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gradlew</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134810Z" creationid="huanghaohang" creationdate="20220404T134810Z">
+        <seg>gradlew</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>gradlew.bat</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134810Z" creationid="huanghaohang" creationdate="20220404T134810Z">
+        <seg>gradlew.bat</seg>
       </tuv>
     </tu>
     <tu>
@@ -4234,6 +4322,14 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T032658Z" creationid="huanghaohang" creationdate="20220328T032658Z">
         <seg>publishing_maven.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>simple/</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134806Z" creationid="huanghaohang" creationdate="20220404T134806Z">
+        <seg>simple/</seg>
       </tuv>
     </tu>
     <tu>
