@@ -230,6 +230,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#sec:wrapper_generation</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T132714Z" creationid="huanghaohang" creationdate="20220404T132714Z">
+        <seg>#sec:wrapper_generation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#using_wrapper_scripts</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T130738Z" creationid="huanghaohang" creationdate="20220404T130738Z">
@@ -806,6 +814,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>5.2. Adding the Wrapper to a project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T132727Z" creationid="huanghaohang" creationdate="20220404T132727Z">
+        <seg>5.2. 将包装器添加到项目中</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>5.3.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154842Z" creationid="huanghaohang" creationdate="20220328T154842Z">
@@ -1030,6 +1046,30 @@ Type</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T035603Z" creationid="huanghaohang" creationdate="20220328T035603Z">
         <seg>&lt;a0&gt;上一章&lt;/a0&gt;&lt;s1&gt;|&lt;/s1&gt;&lt;a2&gt;目录&lt;/a2&gt;&lt;s3&gt;|&lt;/s3&gt;&lt;a4&gt;下一章&lt;/a4&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;c0&gt;gradle/wrapper/gradle-wrapper.jar&lt;/c0&gt; (Wrapper JAR)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T132609Z" creationid="huanghaohang" creationdate="20220404T132609Z">
+        <seg>&lt;c0&gt;gradle/wrapper/gradle-wrapper.jar&lt;/c0&gt;（包装器 JAR）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;c0&gt;gradle/wrapper/gradle-wrapper.properties&lt;/c0&gt; (Wrapper properties)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T132624Z" creationid="huanghaohang" creationdate="20220404T132624Z">
+        <seg>&lt;c0&gt;gradle/wrapper/gradle-wrapper.properties&lt;/c0&gt;（包装器属性）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;c0&gt;gradlew.bat&lt;/c0&gt; (Windows batch file)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T132556Z" creationid="huanghaohang" creationdate="20220404T132556Z">
+        <seg>&lt;c0&gt;gradlew.bat&lt;/c0&gt;（Windows 批处理文件）</seg>
       </tuv>
     </tu>
     <tu>
@@ -2322,6 +2362,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you’re wondering where the Gradle distributions are stored, you’ll find them in your user home directory under &lt;c0&gt;$USER_HOME/.gradle/wrapper/dists&lt;/c0&gt;.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T132712Z" creationid="huanghaohang" creationdate="20220404T132712Z">
+        <seg>如果你想知道 Gradle 发行包的存储位置，你可以在用户主目录 &lt;c0&gt;$USER_HOME/.gradle/wrapper/dists&lt;/c0&gt; 下找到它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In &lt;a0&gt;Chapter 2, &lt;i1&gt;Overview&lt;/i1&gt;&lt;/a0&gt; you will find a detailed overview of Gradle. Otherwise, the &lt;a2&gt;tutorials&lt;/a2&gt; are waiting, have fun :)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T103845Z" creationid="huanghaohang" creationdate="20220328T103845Z">
@@ -2998,6 +3046,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The Wrapper is something you &lt;s0&gt;&lt;e1&gt;should&lt;/e1&gt;&lt;/s0&gt; check into version control. By distributing the Wrapper with your project, anyone can work with it without needing to install Gradle beforehand. Even better, users of the build are guaranteed to use the version of Gradle that the build was designed to work with. Of course, this is also great for &lt;a2&gt;continuous integration&lt;/a2&gt; servers (i.e. servers that regularly build your project) as it requires no configuration on the server.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T133019Z" creationid="huanghaohang" creationdate="20220404T133019Z">
+        <seg>你 &lt;s0&gt;&lt;e1&gt;应该&lt;/e1&gt;&lt;/s0&gt; 将包装器纳入版本控制。通过将包装器分发到项目中，任何人都可以在未安装 Gradle 的情况下使用它。更好的效果是能确保用户使用这个构建所设计的 Gradle 版本。当然，这对于 &lt;a2&gt;连续集成&lt;/a2&gt; 服务器（即定期构建项目的服务器）也很重要，因为它不需要在服务器上进行配置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The binary sources. This is for reference only. If you want to build Gradle you need to download the source distribution or checkout the sources from the source repository. See the &lt;a0&gt;Gradle web site&lt;/a0&gt; for details.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T120713Z" creationid="huanghaohang" creationdate="20220329T120713Z">
@@ -3346,6 +3402,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123126Z" creationid="huanghaohang" creationdate="20220329T122801Z">
         <seg>你可以从本例的输出中看出，&lt;c0&gt;test&lt;/c0&gt; 任务并不执行，即使它是 &lt;c1&gt;dist&lt;/c1&gt; 任务的依赖。你也可能同时注意到 &lt;c2&gt;test&lt;/c2&gt; 任务所依赖的任务，如&lt;c3&gt;compileTest&lt;/c3&gt;也一样没有执行。而&lt;c4&gt;test&lt;/c4&gt;所依赖的同时也是其他任务所需要的任务，如&lt;c5&gt;compile&lt;/c5&gt;，则仍然被执行。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You install the Wrapper into your project by running the &lt;c0&gt;wrapper&lt;/c0&gt; task. (This task is always available, even if you don't add it to your build). To specify a Gradle version use &lt;c1&gt;--gradle-version&lt;/c1&gt; on the command-line. You can also set the URL to download Gradle from directly via &lt;c2&gt;--gradle-distribution-url&lt;/c2&gt;. If no version or distribution URL is specified, the Wrapper will be configured to use the gradle version the &lt;c3&gt;wrapper&lt;/c3&gt; task is executed with. So if you run the &lt;c4&gt;wrapper&lt;/c4&gt; task with Gradle 2.4, then the Wrapper configuration will default to version 2.4.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T133753Z" creationid="huanghaohang" creationdate="20220404T133753Z">
+        <seg>通过运行 &lt;c0&gt;wrapper&lt;/c0&gt; 任务，包装器将被安装到项目中（此任务始终可用，即使它没有被添加到构建中）。要指定 Gradle 版本，请在命令上使用 &lt;c1&gt;--gradle-version&lt;/c1&gt;。你还可以直接通过 &lt;c2&gt;--gradle-distribution-url&lt;/c2&gt; 来设置下载 Gradle 的 URL。如果没有指定版本或分发 URL，包装器将被配置为执行 &lt;c3&gt;wrapper&lt;/c3&gt; 任务的 gradle 的版本。所以如果使用 Gradle 2.4 执行 &lt;c4&gt;wrapper&lt;/c4&gt; 任务，则包装器配置将默认为 2.4 版本。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3792,6 +3856,14 @@ api:libs - Builds the JAR</seg>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T132112Z" creationid="huanghaohang" creationdate="20220329T132112Z">
         <seg>group = &lt;s1&gt;'build'&lt;/s1&gt;
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>http://en.wikipedia.org/wiki/Continuous_integration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T132729Z" creationid="huanghaohang" creationdate="20220404T132729Z">
+        <seg>http://en.wikipedia.org/wiki/Continuous_integration</seg>
       </tuv>
     </tu>
     <tu>
