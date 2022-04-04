@@ -2460,6 +2460,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you don't want any download to happen when your project is built via &lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt;, simply add the Gradle distribution zip to your version control at the location specified by your Wrapper configuration. A relative URL is supported - you can specify a distribution file relative to the location of &lt;c2&gt;gradle-wrapper.properties&lt;/c2&gt; file.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T140217Z" creationid="huanghaohang" creationdate="20220404T140217Z">
+        <seg>如果你不想项目在通过 &lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt; 构建时进行下载，那么只需将 Gradle 分发包的 zip 文件添加到版本控制中包装器配置所指定的位置上。它支持相对 URL——你可以指定一个相对于 &lt;c2&gt;gradle-wrapper.properties&lt;/c2&gt; 文件的位置的分发文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you run Gradle with &lt;s0&gt;&lt;s1&gt;gradlew&lt;/s1&gt;&lt;/s0&gt;, the Wrapper checks if a Gradle distribution for the Wrapper is available. If so, it delegates to the &lt;s2&gt;&lt;s3&gt;gradle&lt;/s3&gt;&lt;/s2&gt; command of this distribution with all the arguments passed originally to the &lt;s4&gt;&lt;s5&gt;gradlew&lt;/s5&gt;&lt;/s4&gt; command. If it didn't find a Gradle distribution, it will download it first.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T135617Z" creationid="huanghaohang" creationdate="20220404T135617Z">
