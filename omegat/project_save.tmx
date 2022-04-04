@@ -230,6 +230,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#sec:verification</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T140240Z" creationid="huanghaohang" creationdate="20220404T140240Z">
+        <seg>#sec:verification</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#sec:why_groovy</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T151520Z" creationid="huanghaohang" creationdate="20220328T151520Z">
@@ -858,6 +866,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154846Z" creationid="huanghaohang" creationdate="20220328T154846Z">
         <seg>5.4.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>5.4. Verification of downloaded Gradle distributions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T140246Z" creationid="huanghaohang" creationdate="20220404T140246Z">
+        <seg>5.4. 验证下载的 Gradle 发行版</seg>
       </tuv>
     </tu>
     <tu>
@@ -2456,6 +2472,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T124233Z" creationid="huanghaohang" creationdate="20220329T123910Z">
         <seg>如果任务失败了，则依赖于它的所有后续任务都不会被执行，因为那样做是不安全的。例如，如果在测试代码中存在编译失败，测试就不会运行；因为测试任务会（直接或间接地）依赖于编译任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you build via the Wrapper, any existing Gradle distribution installed on the machine is ignored.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T140237Z" creationid="huanghaohang" creationdate="20220404T140237Z">
+        <seg>如果你通过包装器构建，这台机器上已安装的任何 Gradle 分发包都会被忽略。</seg>
       </tuv>
     </tu>
     <tu>
