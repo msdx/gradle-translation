@@ -3088,6 +3088,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The Wrapper can be further customized by adding and configuring a &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt; task in your build script, and then executing it.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134502Z" creationid="huanghaohang" creationdate="20220404T134502Z">
+        <seg>可以通过在构建脚本中添加和配置一个 &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt; 任务，然后执行它来进一步自定义包装器。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The Wrapper is something you &lt;s0&gt;&lt;e1&gt;should&lt;/e1&gt;&lt;/s0&gt; check into version control. By distributing the Wrapper with your project, anyone can work with it without needing to install Gradle beforehand. Even better, users of the build are guaranteed to use the version of Gradle that the build was designed to work with. Of course, this is also great for &lt;a2&gt;continuous integration&lt;/a2&gt; servers (i.e. servers that regularly build your project) as it requires no configuration on the server.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T133019Z" creationid="huanghaohang" creationdate="20220404T133019Z">
