@@ -1584,6 +1584,16 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&gt; shasum -a 256 gradle-2.4-all.zip
+371cb9fbebbe9880d147f59bab36d61eee122854ef8c9ee1ecf12b82368bcf10  gradle-2.4-all.zip</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T141703Z" creationid="huanghaohang" creationdate="20220404T141703Z">
+        <seg>&gt; shasum -a 256 gradle-2.4-all.zip
+371cb9fbebbe9880d147f59bab36d61eee122854ef8c9ee1ecf12b82368bcf10  gradle-2.4-all.zip</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A rich domain model for describing your build.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T103824Z" creationid="huanghaohang" creationdate="20220328T103824Z">
@@ -1612,6 +1622,14 @@ Total time: 1 secs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T155518Z" creationid="huanghaohang" creationdate="20220328T155518Z">
         <seg>通过代理访问网络</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add the returned hash sum to the &lt;c0&gt;gradle-wrapper.properties&lt;/c0&gt; using the &lt;c1&gt;distributionSha256Sum&lt;/c1&gt; property.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T141825Z" creationid="huanghaohang" creationdate="20220404T141825Z">
+        <seg>将返回的哈希值使用 &lt;c1&gt;distributionSha256Sum&lt;/c1&gt;属性添加到 &lt;c0&gt;gradle-wrapper.properties&lt;/c0&gt;。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2112,6 +2130,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134802Z" creationid="huanghaohang" creationdate="20220404T134619Z">
         <seg>示例 5.3. 包装器生成的文件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 5.4. Generating a SHA-256 hash</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T141701Z" creationid="huanghaohang" creationdate="20220404T141701Z">
+        <seg>示例 5.4. 生成 SHA-256 哈希值</seg>
       </tuv>
     </tu>
     <tu>
@@ -3316,6 +3342,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T104506Z" creationid="huanghaohang" creationdate="20220328T104506Z">
         <seg>在整个用户指南中，你会看到一些表示 Gradle 任务之间依赖关系的关系图。它们使用类似于 UML 依赖关系表示法的东西，这种表示法使用箭头，从一个任务指向它所依赖的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To enable this feature you'll want to first calculate the SHA-256 hash of a known Gradle distribution. You can generate a SHA-256 hash from Linux and OSX or Windows (via &lt;a0&gt;Cygwin&lt;/a0&gt;) with the &lt;s1&gt;&lt;s2&gt;shasum&lt;/s2&gt;&lt;/s1&gt; command.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T141639Z" creationid="huanghaohang" creationdate="20220404T141639Z">
+        <seg>要启用此功能，你需要首先计算已知 Gradle 分发包的 SHA-256 哈希值。可以使用 Linux 和 OSX 或 Windows（通过&lt;a0&gt;Cygwin&lt;/a0&gt;）的 &lt;s1&gt;&lt;s2&gt;shasum&lt;/s2&gt;&lt;/s1&gt; 命令生成 SHA-256 哈希值。</seg>
       </tuv>
     </tu>
     <tu>
