@@ -1778,6 +1778,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Each Wrapper is tied to a specific version of Gradle, so when you first run one of the commands above for a given Gradle version, it will download the corresponding Gradle distribution and use it to execute the build.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T131727Z" creationid="huanghaohang" creationdate="20220404T131727Z">
+        <seg>每个包装器都绑定到一个特定版本的 Gradle，因此当你首次为给定的 Gradle 版本运行上面的命令时，它将下载相应的 Gradle 发行版并使用它来执行构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Each task is executed only once, so &lt;s0&gt;&lt;c1&gt;gradle test test&lt;/c1&gt;&lt;/s0&gt; is exactly the same as &lt;s2&gt;&lt;c3&gt;gradle test&lt;/c3&gt;&lt;/s2&gt;.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122701Z" creationid="huanghaohang" creationdate="20220329T122521Z">
@@ -2042,6 +2050,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For completeness sake, and to ensure you don’t delete any important files, here are the files and directories in a Gradle project that make up the Wrapper:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T131850Z" creationid="huanghaohang" creationdate="20220404T131850Z">
+        <seg>For completeness sake, and to ensure you don’t delete any important files, here are the files and directories in a Gradle project that make up the Wrapper:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For running Gradle, firstly add the environment variable &lt;c0&gt;GRADLE_HOME&lt;/c0&gt;. This should point to the unpacked files from the Gradle website. Next add &lt;c1&gt;&lt;e2&gt;&lt;c3&gt;GRADLE_HOME&lt;/c3&gt;&lt;/e2&gt;/bin&lt;/c1&gt; to your &lt;c4&gt;PATH&lt;/c4&gt; environment variable. Usually, this is sufficient to run Gradle.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T120913Z" creationid="huanghaohang" creationdate="20220329T120913Z">
@@ -2254,6 +2270,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T034402Z" creationid="huanghaohang" creationdate="20220328T033920Z">
         <seg>一、关于 Gradle</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>IDEs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T131744Z" creationid="huanghaohang" creationdate="20220404T131744Z">
+        <seg>IDE</seg>
       </tuv>
     </tu>
     <tu>
@@ -2912,8 +2936,8 @@ Description</seg>
       <tuv lang="en-US">
         <seg>The Gradle Wrapper (henceforth referred to as the “Wrapper”) solves both these problems and is the preferred way of starting a Gradle build.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T130737Z" creationid="huanghaohang" creationdate="20220404T130737Z">
-        <seg>Gradle 包装器（以下称为“q包装器”）解决了这两个问题，并且它是启动 Gradle 构建的首选方式。</seg>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T131839Z" creationid="huanghaohang" creationdate="20220404T130737Z">
+        <seg>Gradle 包装器（以下称为“包装器”）解决了这两个问题，并且它是启动 Gradle 构建的首选方式。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3194,6 +3218,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T124305Z" creationid="huanghaohang" creationdate="20220329T123835Z">
         <seg>当使用 &lt;c0&gt;--continue&lt;/c0&gt; 参数执行时，Gradle 将执行&lt;s1&gt;&lt;e2&gt;所有&lt;/e2&gt;&lt;/s1&gt;要执行的、并且它们的所有依赖任务都能完成且未失败的任务，而不是一出现错误就停止。所有失败的信息将在构建结束时报告出来。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When importing a Gradle project via its wrapper, your IDE may ask to use the Gradle 'all' distribution. This is perfectly fine and helps the IDE provide code completion for the build files.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T131932Z" creationid="huanghaohang" creationdate="20220404T131826Z">
+        <seg>通过 Gradle 项目的包装器导入 Gradle 项目时，你的 IDE 可能会要求使用 Gradle “all”发行版。这完全没问题，可以帮助 IDE 为构建文件提供代码完成。</seg>
       </tuv>
     </tu>
     <tu>
