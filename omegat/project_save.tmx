@@ -2204,6 +2204,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For the details on how to configure the Wrapper, see the &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt; class in the API documentation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T135919Z" creationid="huanghaohang" creationdate="20220404T135919Z">
+        <seg>有关如何配置包装器的详细信息，请参阅 API 文档中的 &lt;a0&gt;&lt;c1&gt;Wrapper&lt;/c1&gt;&lt;/a0&gt; 类。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Forcing tasks to execute</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154552Z" creationid="huanghaohang" creationdate="20220328T154552Z">
@@ -3428,6 +3436,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154943Z" creationid="huanghaohang" creationdate="20220328T154943Z">
         <seg>什么时候不应该使用 Gradle 守护进程？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you configure the &lt;c0&gt;Wrapper&lt;/c0&gt; task, you can specify the Gradle version you wish to use. The &lt;s1&gt;&lt;s2&gt;gradlew&lt;/s2&gt;&lt;/s1&gt; command will download the appropriate distribution from the Gradle repository. Alternatively, you can specify the download URL of the Gradle distribution. The &lt;s3&gt;&lt;s4&gt;gradlew&lt;/s4&gt;&lt;/s3&gt; command will use this URL to download the distribution. If you specified neither a Gradle version nor download URL, the &lt;s5&gt;&lt;s6&gt;gradlew&lt;/s6&gt;&lt;/s5&gt; command will download whichever version of Gradle was used to generate the Wrapper files.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T135845Z" creationid="huanghaohang" creationdate="20220404T135845Z">
+        <seg>配置 &lt;c0&gt;Wrapper&lt;/c0&gt; 任务时，你可以指定要使用的 Gradle 版本。&lt;s1&gt;&lt;s2&gt;gradlew&lt;/s2&gt;&lt;/s1&gt; 命令将从 Gradle 仓库下载相应的分发包。另外，你也可以指定 Gradle 分发包的下载 URL，&lt;s3&gt;&lt;s4&gt;gradlew&lt;/s4&gt;&lt;/s3&gt; 命令会使用这个 URL 下载分发包。如果你没有指定 Gradle 版本或下载 URL，那么 &lt;s5&gt;&lt;s6&gt;gradlew&lt;/s6&gt;&lt;/s5&gt; 命令将下载生成了包装器文件的 Gradle 的版本。</seg>
       </tuv>
     </tu>
     <tu>
