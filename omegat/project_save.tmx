@@ -1592,6 +1592,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>After such an execution you find the following new or updated files in your project directory (in case the default configuration of the Wrapper task is used).</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134747Z" creationid="huanghaohang" creationdate="20220404T134615Z">
+        <seg>执行这一操作之后，你会在你的项目目录中发现以下新生成或更新的文件（在使用的 Wrapper 任务为默认配置的情况下）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Alternatively, you can use the &lt;c0&gt;-p&lt;/c0&gt; option to specify the project directory to use. For multi-project builds you should use &lt;c1&gt;-p&lt;/c1&gt; option instead of &lt;c2&gt;-b&lt;/c2&gt; option.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T125652Z" creationid="huanghaohang" creationdate="20220329T125652Z">
@@ -2040,6 +2048,22 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T133806Z" creationid="huanghaohang" creationdate="20220404T133806Z">
         <seg>示例 5.1. 运行包装器任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 5.2. Wrapper task</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134515Z" creationid="huanghaohang" creationdate="20220404T134515Z">
+        <seg>示例 5.2. 包装器任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 5.3. Wrapper generated files</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134619Z" creationid="huanghaohang" creationdate="20220404T134619Z">
+        <seg>示例 61.2. 包装器生成的文件</seg>
       </tuv>
     </tu>
     <tu>
@@ -3788,6 +3812,16 @@ api:libs - Builds the JAR</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>gradleVersion = &lt;s0&gt;'2.0'&lt;/s0&gt;
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134517Z" creationid="huanghaohang" creationdate="20220404T134517Z">
+        <seg>gradleVersion = &lt;s0&gt;'2.0'&lt;/s0&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>gradle_command_line.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T142029Z" creationid="huanghaohang" creationdate="20220329T142029Z">
@@ -4224,6 +4258,14 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T125600Z" creationid="huanghaohang" creationdate="20220329T125600Z">
         <seg>task hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>task wrapper(type: Wrapper) {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134516Z" creationid="huanghaohang" creationdate="20220404T134516Z">
+        <seg>task wrapper(type: Wrapper) {</seg>
       </tuv>
     </tu>
     <tu>
