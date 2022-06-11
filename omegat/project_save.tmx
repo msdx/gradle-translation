@@ -1122,6 +1122,30 @@ Type</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>&lt;c0&gt;/Users/&lt;username&gt;&lt;/c0&gt; (Mac OS X)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220611T152438Z" creationid="huanghaohang" creationdate="20220611T152438Z">
+        <seg>&lt;c0&gt;/Users/&lt;username&gt;&lt;/c0&gt; (Mac OS X)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;c0&gt;/home/&lt;username&gt;&lt;/c0&gt; (Linux)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220611T152449Z" creationid="huanghaohang" creationdate="20220611T152449Z">
+        <seg>&lt;c0&gt;/home/&lt;username&gt;&lt;/c0&gt; (Linux)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>&lt;c0&gt;C:\Users\&lt;username&gt;&lt;/c0&gt; (Windows Vista &amp; 7+)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220611T152436Z" creationid="huanghaohang" creationdate="20220611T152436Z">
+        <seg>&lt;c0&gt;C:\Users\&lt;username&gt;&lt;/c0&gt; (Windows Vista &amp; 7+)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;c0&gt;gradle/wrapper/gradle-wrapper.jar&lt;/c0&gt; (Wrapper JAR)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T132609Z" creationid="huanghaohang" creationdate="20220404T132609Z">
@@ -2578,6 +2602,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T124233Z" creationid="huanghaohang" creationdate="20220329T123910Z">
         <seg>如果任务失败了，则依赖于它的所有后续任务都不会被执行，因为那样做是不安全的。例如，如果在测试代码中存在编译失败，测试就不会运行；因为测试任务会（直接或间接地）依赖于编译任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If that file doesn’t exist, just create it using a text editor. You can find details of other ways to enable (and disable) the Daemon in the FAQ further down. That section also contains more detailed information on how the Daemon works.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220611T152458Z" creationid="huanghaohang" creationdate="20220611T152458Z">
+        <seg>If that file doesn’t exist, just create it using a text editor. You can find details of other ways to enable (and disable) the Daemon in the FAQ further down. That section also contains more detailed information on how the Daemon works.</seg>
       </tuv>
     </tu>
     <tu>
@@ -4402,6 +4434,14 @@ api:libs - Builds the JAR</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>org.gradle.daemon=true</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220611T152306Z" creationid="huanghaohang" creationdate="20220611T152306Z">
+        <seg>org.gradle.daemon=true</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>overview.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T034312Z" creationid="huanghaohang" creationdate="20220328T034312Z">
@@ -4564,6 +4604,14 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134516Z" creationid="huanghaohang" creationdate="20220404T134516Z">
         <seg>task wrapper(type: Wrapper) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>to the file &lt;c0&gt;«USER_HOME»/.gradle/gradle.properties&lt;/c0&gt;, where &lt;c1&gt;«USER_HOME»&lt;/c1&gt; is your home directory. That’s typically one of the following, depending on your platform:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220611T152425Z" creationid="huanghaohang" creationdate="20220611T152425Z">
+        <seg>到文件 &lt;c0&gt;«USER_HOME»/.gradle/gradle.properties&lt;/c0&gt;，其中 &lt;c1&gt;«USER_HOME»&lt;/c1&gt; 是你的主目录。它通常是以下之中的一种，具体取决于你的系统：</seg>
       </tuv>
     </tu>
     <tu>
