@@ -2438,6 +2438,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Gradle runs on the Java Virtual Machine (JVM) and uses several supporting libraries that require a non-trivial initialization time. As a result, it can sometimes seem a little slow to start. The solution to this problem is the Gradle &lt;e0&gt;Daemon&lt;/e0&gt;: a long-lived background process that executes your builds much more quickly than would otherwise be the case. We accomplish this by avoiding the expensive bootstrapping process as well as leveraging caching, by keeping data about your project in memory. Running Gradle builds with the Daemon is no different than without. Simply configure whether you want to use it or not - everything else is handled transparently by Gradle.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220611T151419Z" creationid="huanghaohang" creationdate="20220611T151419Z">
+        <seg>Gradle 在 Java 虚拟机 (JVM) 上运行，并使用多个需要大量初始化时间的支持库。因此，有时启动起来似乎有点慢。这个问题的解决方案是 Gradle&lt;e0&gt;守护进程&lt;/e0&gt;：一个长期存在的后台进程，可以比其他情况更快地执行您的构建。我们通过避免昂贵的引导过程以及利用缓存来实现这一点，方法是将有关项目的数据保存在内存中。使用 Daemon 运行 Gradle 构建与没有运行 Gradle 构建没有什么不同。只需配置是否要使用它——其他一切都由 Gradle 透明地处理。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Gradle scales</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T134613Z" creationid="huanghaohang" creationdate="20220328T134446Z">
