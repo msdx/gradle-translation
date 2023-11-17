@@ -1970,6 +1970,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>At the moment, we recommend that you leave the Daemon disabled for continuous integration servers as using a fresh runtime for each build is more reliable since the runtime is &lt;s0>&lt;e1>completely&lt;/e1>&lt;/s0> isolated from previously builds. Additionally, since the Daemon primarily acts to reduce build startup times, this isn't as critical in CI as it is on a developer's machine.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T163209Z" creationid="haohang" creationdate="20231117T163209Z">
+        <seg>At the moment, we recommend that you leave the Daemon disabled for continuous integration servers as using a fresh runtime for each build is more reliable since the runtime is &lt;s0>&lt;e1>completely&lt;/e1>&lt;/s0> isolated from previously builds. Additionally, since the Daemon primarily acts to reduce build startup times, this isn't as critical in CI as it is on a developer's machine.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Automatically chooses between snarl, growl, and notify-send depending on the current operating system.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145730Z" creationid="haohang" creationdate="20231117T145730Z">
@@ -2146,6 +2154,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T103246Z" creationid="huanghaohang" creationdate="20220328T103246Z">
         <seg>持续构建——Gradle 用户指南 2.14.1版</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Continuous integration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T163121Z" creationid="haohang" creationdate="20231117T163121Z">
+        <seg>持续集成</seg>
       </tuv>
     </tu>
     <tu>
