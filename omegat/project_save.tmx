@@ -118,6 +118,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#N1451F</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145736Z" creationid="haohang" creationdate="20231117T145736Z">
+        <seg>#N1451F</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#ftn.N100C4</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T152219Z" creationid="huanghaohang" creationdate="20220328T152219Z">
@@ -282,6 +290,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T130738Z" creationid="huanghaohang" creationdate="20220404T130738Z">
         <seg>#using_wrapper_scripts</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>../dsl/org.gradle.api.plugins.announce.AnnouncePluginExtension.html</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145749Z" creationid="haohang" creationdate="20231117T145749Z">
+        <seg>../dsl/org.gradle.api.plugins.announce.AnnouncePluginExtension.html</seg>
       </tuv>
     </tu>
     <tu>
@@ -634,6 +650,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T144730Z" creationid="haohang" creationdate="20231117T144730Z">
         <seg>36.2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>36.2. Configuration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145747Z" creationid="haohang" creationdate="20231117T145747Z">
+        <seg>36.2. 配置</seg>
       </tuv>
     </tu>
     <tu>
@@ -1826,6 +1850,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Automatically chooses between snarl, growl, and notify-send depending on the current operating system.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145730Z" creationid="haohang" creationdate="20231117T145730Z">
+        <seg>根据当前的操作系统自动选择 snarl、growl和notify-send。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Below four tasks are defined. Both &lt;c0&gt;dist&lt;/c0&gt; and &lt;c1&gt;test&lt;/c1&gt; depend on the &lt;c2&gt;compile&lt;/c2&gt; task. Running &lt;s3&gt;&lt;c4&gt;gradle dist test&lt;/c4&gt;&lt;/s3&gt; for this build script results in the &lt;c5&gt;compile&lt;/c5&gt; task being executed only once.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T122427Z" creationid="huanghaohang" creationdate="20220329T122334Z">
@@ -2902,6 +2934,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Mac OS X</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145555Z" creationid="haohang" creationdate="20231117T145555Z">
+        <seg>Mac OS X</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Many tasks, particularly those provided by Gradle itself, support &lt;a0&gt;incremental builds&lt;/a0&gt;. Such tasks can determine whether they need to run or not based on whether their inputs or outputs have changed since the last time they ran. You can easily identify incremental tasks when Gradle displays the text &lt;c1&gt;UP-TO-DATE&lt;/c1&gt; next to their name when executing a build.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T130140Z" creationid="huanghaohang" creationdate="20220329T125728Z">
@@ -3198,6 +3238,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Requires the notify-send package to be installed.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145632Z" creationid="haohang" creationdate="20231117T145632Z">
+        <seg>需要安装 notify-send 包。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Running &lt;s0&gt;&lt;c1&gt;gradle buildEnvironment&lt;/c1&gt;&lt;/s0&gt; visualises the buildscript dependencies of the selected project, similarly to how &lt;s2&gt;&lt;c3&gt;gradle dependencies&lt;/c3&gt;&lt;/s2&gt; visualises the dependencies of the software being built.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T134457Z" creationid="huanghaohang" creationdate="20220329T134352Z">
@@ -3258,6 +3306,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154429Z" creationid="huanghaohang" creationdate="20220328T154429Z">
         <seg>运行和测试安装</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See the &lt;a0&gt;&lt;c1&gt;AnnouncePluginExtension&lt;/c1&gt;&lt;/a0&gt; class in the API documentation.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T150004Z" creationid="haohang" creationdate="20231117T150004Z">
+        <seg>请查看 &lt;a0&gt;&lt;c1&gt;AnnounccePluginExtension&lt;/c1&gt;&lt;/a0&gt; 类在 API 文档中说明。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3746,6 +3802,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Ubuntu</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145559Z" creationid="haohang" creationdate="20231117T145559Z">
+        <seg>Ubuntu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Unix file permissions</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154901Z" creationid="huanghaohang" creationdate="20220328T154901Z">
@@ -3766,6 +3830,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T144717Z" creationid="haohang" creationdate="20231117T144717Z">
         <seg>用途</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use &lt;c0&gt;sudo apt-get install libnotify-bin&lt;/c0&gt; to install it.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145655Z" creationid="haohang" creationdate="20231117T145655Z">
+        <seg>使用 &lt;c0&gt;sudo apt-get install libnotify-bin&lt;/c0&gt; 进行安装。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3918,6 +3990,22 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T151606Z" creationid="huanghaohang" creationdate="20220328T104757Z">
         <seg>为什么选择 Groovy?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Windows</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145551Z" creationid="haohang" creationdate="20231117T145551Z">
+        <seg>Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Windows, Mac OS X, Ubuntu</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145658Z" creationid="haohang" creationdate="20231117T145658Z">
+        <seg>Windows, Mac OS X, Ubuntu</seg>
       </tuv>
     </tu>
     <tu>
@@ -4564,6 +4652,14 @@ api:libs - Builds the JAR</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>growl</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145553Z" creationid="haohang" creationdate="20231117T145553Z">
+        <seg>growl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>http://en.wikipedia.org/wiki/Continuous_integration</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T132729Z" creationid="huanghaohang" creationdate="20220404T132729Z">
@@ -4764,10 +4860,26 @@ api:libs - Builds the JAR</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>local</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145656Z" creationid="haohang" creationdate="20231117T145656Z">
+        <seg>local</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>manufactured viewport for HTML img</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T141231Z" creationid="huanghaohang" creationdate="20220329T141231Z">
         <seg>为 HTML img 制作的 viewport</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify-send</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145559Z" creationid="haohang" creationdate="20231117T145559Z">
+        <seg>notify-send</seg>
       </tuv>
     </tu>
     <tu>
