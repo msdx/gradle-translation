@@ -1046,6 +1046,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>6.1. Enabling the Daemon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T162320Z" creationid="haohang" creationdate="20231117T162320Z">
+        <seg>6.1. 启用守护程序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>6.1. Enabling the Daemon</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220611T151430Z" creationid="huanghaohang" creationdate="20220611T151430Z">
@@ -1062,10 +1070,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>6.2. Stopping an existing Daemon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T162336Z" creationid="haohang" creationdate="20231117T162336Z">
+        <seg>6.2. 停止现有的守护进程</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>6.3.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154922Z" creationid="huanghaohang" creationdate="20220328T154922Z">
         <seg>6.3.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>6.3. FAQ</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T162352Z" creationid="haohang" creationdate="20231117T162352Z">
+        <seg>6.3. 常见问题及解答</seg>
       </tuv>
     </tu>
     <tu>
@@ -1078,6 +1102,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>6.4. When should I not use the Gradle Daemon?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T162418Z" creationid="haohang" creationdate="20231117T162418Z">
+        <seg>6.4. 什么时候不应该使用 Gradle 守护进程？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>6.5.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154949Z" creationid="huanghaohang" creationdate="20220328T154949Z">
@@ -1086,10 +1118,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>6.5. Tools &amp; IDEs</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T162426Z" creationid="haohang" creationdate="20231117T162426Z">
+        <seg>6.5. 工具和 IDE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>6.6.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154957Z" creationid="huanghaohang" creationdate="20220328T154957Z">
         <seg>6.6.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>6.6. How does the Gradle Daemon make builds faster?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T162512Z" creationid="haohang" creationdate="20231117T162512Z">
+        <seg>6.6. Gradle 守护进程如何加快构建速度？</seg>
       </tuv>
     </tu>
     <tu>
@@ -2848,8 +2896,8 @@ Group</seg>
       <tuv lang="en-US">
         <seg>If that file doesn’t exist, just create it using a text editor. You can find details of other ways to enable (and disable) the Daemon in the FAQ further down. That section also contains more detailed information on how the Daemon works.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220611T152458Z" creationid="huanghaohang" creationdate="20220611T152458Z">
-        <seg>If that file doesn’t exist, just create it using a text editor. You can find details of other ways to enable (and disable) the Daemon in the FAQ further down. That section also contains more detailed information on how the Daemon works.</seg>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T162736Z" creationid="huanghaohang" creationdate="20220611T152458Z">
+        <seg>如果该文件不存在，那么只需使用文本编辑器创建该文件。 你可以进一步在常见问题及解答中找到其他启用（或禁用）守护进程的方法。 该部分内容还包含有关守护程序如何工作的更详细信息。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3106,6 +3154,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154655Z" creationid="huanghaohang" creationdate="20220328T154655Z">
         <seg>获取构建的相关信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Once you have globally enabled the Daemon in this way, all your builds will take advantage of the speed boost, regardless of the version of Gradle a particular build uses.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T162517Z" creationid="haohang" creationdate="20231117T162517Z">
+        <seg>Once you have globally enabled the Daemon in this way, all your builds will take advantage of the speed boost, regardless of the version of Gradle a particular build uses.</seg>
       </tuv>
     </tu>
     <tu>
