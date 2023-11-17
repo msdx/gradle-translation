@@ -1802,6 +1802,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Any</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145527Z" creationid="haohang" creationdate="20231117T145527Z">
+        <seg>任意</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Appendix D. Gradle Command Line</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T142455Z" creationid="huanghaohang" creationdate="20220329T142426Z">
@@ -1938,6 +1946,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154844Z" creationid="huanghaohang" creationdate="20220328T154844Z">
         <seg>配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Configuration Properties</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145505Z" creationid="haohang" creationdate="20231117T145505Z">
+        <seg>配置属性</seg>
       </tuv>
     </tu>
     <tu>
@@ -2130,6 +2146,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145218Z" creationid="haohang" creationdate="20231117T145218Z">
         <seg>示例 36.2. 配置 announce 插件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 36.3. Using the announce plugin</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145321Z" creationid="haohang" creationdate="20231117T145321Z">
+        <seg>示例 36.3. 使用 announce 插件</seg>
       </tuv>
     </tu>
     <tu>
@@ -2390,6 +2414,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Finally, send announcements with the &lt;c0&gt;announce&lt;/c0&gt; method:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145244Z" creationid="haohang" creationdate="20231117T145244Z">
+        <seg>最后，使用&lt;c0&gt;announce&lt;/c0&gt;方法发送公告：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For Java developers with Python or Ruby knowledge or the desire to learn them, the above arguments don't apply. The Gradle design is well-suited for creating another build script engine in JRuby or Jython. It just doesn't have the highest priority for us at the moment. We happily support any community effort to create additional build script engines.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T153655Z" creationid="huanghaohang" creationdate="20220328T153302Z">
@@ -2458,6 +2490,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T103338Z" creationid="huanghaohang" creationdate="20220328T103338Z">
         <seg>完全支持现有的Maven或Ivy仓库结构。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Further Information</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145517Z" creationid="haohang" creationdate="20231117T145517Z">
+        <seg>补充信息</seg>
       </tuv>
     </tu>
     <tu>
@@ -2926,10 +2966,26 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Notification Service</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145458Z" creationid="haohang" creationdate="20231117T145458Z">
+        <seg>通知服务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Obtaining information about your build</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154655Z" creationid="huanghaohang" creationdate="20220328T154655Z">
         <seg>获取构建的相关信息</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Operating System</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145459Z" creationid="haohang" creationdate="20231117T145459Z">
+        <seg>操作系统</seg>
       </tuv>
     </tu>
     <tu>
@@ -3294,6 +3350,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Table 36.1. Announce Plugin Notification Services</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145455Z" creationid="haohang" creationdate="20231117T145455Z">
+        <seg>表 36.1. Announce 插件通知服务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Task (org.gradle.api.Task)
 
 Description</seg>
@@ -3326,6 +3390,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154514Z" creationid="huanghaohang" creationdate="20220328T154514Z">
         <seg>任务名缩写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The &lt;c0&gt;announce&lt;/c0&gt; method takes two String arguments: The message to be sent, and the notification service to be used.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145356Z" creationid="haohang" creationdate="20231117T145356Z">
+        <seg>&lt;c0&gt;announce&lt;/c0&gt; 方法有两个 String 参数: 要发送的消息，以及要使用的通知服务。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3534,6 +3606,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T144850Z" creationid="haohang" creationdate="20231117T144850Z">
         <seg>支持以下通知系统：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following table lists supported notification services and their configuration properties.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145403Z" creationid="haohang" creationdate="20231117T145403Z">
+        <seg>下表列出了支持的通知服务以及它们的配置属性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3982,6 +4062,24 @@ No dependencies</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145227Z" creationid="haohang" creationdate="20231117T145227Z">
         <seg>announce {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>announce.announce(&lt;s1&gt;"helloWorld completed!"&lt;/s1&gt;, &lt;s2&gt;"twitter"&lt;/s2&gt;)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145331Z" creationid="haohang" creationdate="20231117T145331Z">
+        <seg>announce.announce(&lt;s1&gt;"helloWorld completed!"&lt;/s1&gt;, &lt;s2&gt;"twitter"&lt;/s2&gt;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>announce.announce(&lt;s3&gt;"helloWorld completed!"&lt;/s3&gt;, &lt;s4&gt;"local"&lt;/s4&gt;)
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145335Z" creationid="haohang" creationdate="20231117T145335Z">
+        <seg>announce.announce(&lt;s3&gt;"helloWorld completed!"&lt;/s3&gt;, &lt;s4&gt;"local"&lt;/s4&gt;)
+}</seg>
       </tuv>
     </tu>
     <tu>
@@ -4706,6 +4804,30 @@ api:libs - Builds the JAR</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>password = &lt;s1&gt;'myPassword'&lt;/s1&gt;
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145233Z" creationid="haohang" creationdate="20231117T145233Z">
+        <seg>password = &lt;s1&gt;'myPassword'&lt;/s1&gt;
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>println &lt;s0&gt;"Hello, world!"&lt;/s0&gt;
+}  
+
+helloWorld.doLast {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145329Z" creationid="haohang" creationdate="20231117T145329Z">
+        <seg>println &lt;s0&gt;"Hello, world!"&lt;/s0&gt;
+}  
+
+helloWorld.doLast {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>println &lt;s0&gt;"using build file '$buildFile.name' in '$buildFile.parentFile.name'."&lt;/s0&gt;
 }</seg>
       </tuv>
@@ -4816,6 +4938,14 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>snarl</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145550Z" creationid="haohang" creationdate="20231117T145550Z">
+        <seg>snarl</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>subdir/myproject.gradle</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T125559Z" creationid="huanghaohang" creationdate="20220329T125559Z">
@@ -4836,6 +4966,14 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T125600Z" creationid="huanghaohang" creationdate="20220329T125600Z">
         <seg>task hello &lt;&lt; {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>task helloWorld &lt;&lt; {</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145323Z" creationid="haohang" creationdate="20231117T145323Z">
+        <seg>task helloWorld &lt;&lt; {</seg>
       </tuv>
     </tu>
     <tu>
@@ -5000,6 +5138,14 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>twitter</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145531Z" creationid="haohang" creationdate="20231117T145518Z">
+        <seg>twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>userguide.css</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T032958Z" creationid="huanghaohang" creationdate="20220328T032958Z">
@@ -5012,6 +5158,22 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T033002Z" creationid="huanghaohang" creationdate="20220328T033002Z">
         <seg>userguide.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>username = &lt;s0&gt;'myId'&lt;/s0&gt;</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145231Z" creationid="haohang" creationdate="20231117T145231Z">
+        <seg>username = &lt;s0&gt;'myId'&lt;/s0&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>username, password</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145547Z" creationid="haohang" creationdate="20231117T145547Z">
+        <seg>username, password</seg>
       </tuv>
     </tu>
     <tu>
