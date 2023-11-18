@@ -134,6 +134,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#N10501</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T094358Z" creationid="haohang" creationdate="20231118T094358Z">
+        <seg>#N10501</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#N1449C</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T144920Z" creationid="haohang" creationdate="20231117T144920Z">
@@ -1154,6 +1162,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T043517Z" creationid="haohang" creationdate="20231118T043517Z">
         <seg>6.3.2. 如何禁用 Gradle 守护进程？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>6.3.3. How do I suppress the “please consider using the Gradle Daemon” message?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T094436Z" creationid="haohang" creationdate="20231118T094436Z">
+        <seg>6.3.3. 如何抑制“请考虑使用 Gradle 守护程序”消息？</seg>
       </tuv>
     </tu>
     <tu>
@@ -2826,6 +2842,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T144918Z" creationid="huanghaohang" creationdate="20220328T144918Z">
         <seg>Gradle 是第一个构建集成工具</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Gradle may emit a warning at the end of the build suggesting that you use the Gradle Daemon. To avoid this warning you can enable the Daemon via the methods above, or explicitly disable the Daemon. You can explicitly disable the Daemon by using the &lt;c0>--no-daemon&lt;/c0> command line switch as described above, or use one of the methods for enabling the Daemon mentioned above but using a value of &lt;c1>false&lt;/c1> for the &lt;c2>org.gradle.daemon&lt;/c2> property instead of &lt;c3>true&lt;/c3>.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T094810Z" creationid="haohang" creationdate="20231118T094810Z">
+        <seg>Gradle 可能在构建结束时发出警告，建议您使用 Gradle 守护进程。要避免此警告，您可以通过以上方法启用守护进程，或显式禁用守护进程。您可以使用如上所述的 &lt;c0>--no-daemon&lt;/c0> 命令行开关来显式地禁用守护进程，或使用上述的其中一种方法来启用守护进程，而不是将 &lt;c2>org.gradle.daemon&lt;/c2> 属性从&lt;c3>true&lt;/c3>设为 &lt;c1>false&lt;/c1>。</seg>
       </tuv>
     </tu>
     <tu>
