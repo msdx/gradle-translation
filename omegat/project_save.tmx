@@ -4082,6 +4082,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The “requested build environment” is typically constructed implicitly from aspects of the build client’s (e.g. Gradle command line client, IDE etc.) environment and explicitly via command line switches and settings. See &lt;a0>Chapter 11, &lt;i1>The Build Environment&lt;/i1>&lt;/a0> for details on how to specify and control the build environment.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105038Z" creationid="haohang" creationdate="20231118T105038Z">
+        <seg>“请求的构建环境”通常是从构建客户端（例如 Gradle 命令行客户端，IDE 等）环境的各个方面隐式构造的，并且可以通过命令行开关和设置来显式构造。请参阅《&lt;a0>第十一章 &lt;i1>构建环境&lt;/i1>&lt;/a0>》，以获取有关如何指定和控制构建环境的详细信息。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are several reasons why Gradle will create a new Daemon, instead of using one that is already running. The basic rule is that Gradle will start a new Daemon if there are no existing idle or compatible Daemons available. Gradle will kill any Daemon that has been idle for 3 hours or more, so you don't have to worry about cleaning them up manually.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T102512Z" creationid="haohang" creationdate="20231118T100950Z">
