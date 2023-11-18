@@ -318,6 +318,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(if not exist "%USERPROFILE%/.gradle" mkdir "%USERPROFILE%/.gradle") &amp;&amp; (echo org.gradle.daemon=true >> "%USERPROFILE%/.gradle/gradle.properties")</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T043031Z" creationid="haohang" creationdate="20231118T043031Z">
+        <seg>(if not exist "%USERPROFILE%/.gradle" mkdir "%USERPROFILE%/.gradle") &amp;&amp; (echo org.gradle.daemon=true >> "%USERPROFILE%/.gradle/gradle.properties")</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>../dsl/org.gradle.api.plugins.announce.AnnouncePluginExtension.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145749Z" creationid="haohang" creationdate="20231117T145749Z">
@@ -3246,10 +3254,26 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>On UNIX-like operating systems, the following Bash shell command will enable the Daemon for the current user:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T043140Z" creationid="haohang" creationdate="20231118T043107Z">
+        <seg>在类 UNIX 的操作系统上，以下 Bash shell 命令将为当前用户启用守护进程：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>On Windows, this command will enable the Daemon for the current user:</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T043026Z" creationid="haohang" creationdate="20231118T043026Z">
-        <seg>在 Windows 上，这条命令将为当前用户启用守护程序：</seg>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T043147Z" creationid="haohang" creationdate="20231118T043026Z">
+        <seg>在 Windows 上，这条命令将为当前用户启用守护进程：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Once the Daemon is enabled for a build environment in this way, all builds will implicitly use a Daemon.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T043135Z" creationid="haohang" creationdate="20231118T043135Z">
+        <seg>一旦以这种方式为构建环境启用了守护进程，那么所有构建都将隐式使用守护进程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3694,6 +3718,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154514Z" creationid="huanghaohang" creationdate="20220328T154514Z">
         <seg>任务名缩写</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The &lt;c0>--daemon&lt;/c0> and &lt;c1>--no-daemon&lt;/c1> command line switches enable and disable usage of the Daemon for individual build invocations when using the Gradle command line interface. Typically, it is more convenient to enable the Daemon for an environment (e.g. a user account) so that all builds use the Daemon without requiring to remember to supply the &lt;c2>--daemon&lt;/c2> switch.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T043459Z" creationid="haohang" creationdate="20231118T043459Z">
+        <seg>在使用 Gradle 命令行界面时，&lt;c0>--daemon&lt;/c0> 和 &lt;c1>--no-daemon&lt;/c1> 命令行开关分别用于启用和禁用守护进程，适用于单个构建调用。 通常更方便的做法是，为环境（例如用户帐户）启用守护进程，这样所有构建都会使用守护进程，而不需要记住提供 &lt;c2>--daemon&lt;/c2> 开关。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5390,6 +5422,14 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220611T152425Z" creationid="huanghaohang" creationdate="20220611T152425Z">
         <seg>到文件 &lt;c0>«USER_HOME»/.gradle/gradle.properties&lt;/c0>，其中 &lt;c1>«USER_HOME»&lt;/c1> 是你的主目录。它通常是以下之中的一种，具体取决于你的系统：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>touch ~/.gradle/gradle.properties &amp;&amp; echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T043110Z" creationid="haohang" creationdate="20231118T043110Z">
+        <seg>touch ~/.gradle/gradle.properties &amp;&amp; echo "org.gradle.daemon=true" >> ~/.gradle/gradle.properties</seg>
       </tuv>
     </tu>
     <tu>
