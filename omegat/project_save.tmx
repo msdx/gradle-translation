@@ -158,6 +158,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#N10565</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T115048Z" creationid="haohang" creationdate="20231118T115048Z">
+        <seg>#N10565</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#N1449C</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T144920Z" creationid="haohang" creationdate="20231117T144920Z">
@@ -1202,6 +1210,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T114652Z" creationid="haohang" creationdate="20231118T114652Z">
         <seg>6.3.5. 守护进程使用多少内存，我能给它多配置些吗？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>6.3.6. How can I stop a Daemon?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T115104Z" creationid="haohang" creationdate="20231118T115104Z">
+        <seg>6.3.6. 如何停止守护进程？</seg>
       </tuv>
     </tu>
     <tu>
@@ -2338,6 +2354,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T033644Z" creationid="huanghaohang" creationdate="20220328T033635Z">
         <seg>版权所有 © 2007-2015 Hans Dockter, Adam Murdoch</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Daemon processes will automatically terminate themselves after 3 hours of inactivity. If you wish to stop a Daemon process before this, you can either kill the process via your operating system or run the &lt;c0>gradle --stop&lt;/c0> command. The &lt;c1>--stop&lt;/c1> switch causes Gradle to request that &lt;s2>&lt;e3>all&lt;/e3>&lt;/s2> running Daemon processes, &lt;s4>&lt;e5>of the same Gradle version used to run the command&lt;/e5>&lt;/s4>, terminate themselves.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T115521Z" creationid="haohang" creationdate="20231118T115521Z">
+        <seg>守护进程将在不活动 3 小时后自动终止。如果要在此之前停止守护进程，那么可以通过操作系统来终止进程，或是通过运行 &lt;c0>gradle --stop&lt;/c0> 命令。&lt;c1>--stop&lt;/c1> 开关会使 Gradle 请求 &lt;s2>&lt;e3>所有&lt;/e3>&lt;/s2> 与 &lt;s4>&lt;e5>运行命令的 Gradle 相同版本的&lt;/e5>&lt;/s4>运行中的守护进程终止自己。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4246,6 +4270,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T141639Z" creationid="huanghaohang" creationdate="20220404T141639Z">
         <seg>要启用此功能，你需要首先计算已知 Gradle 分发包的 SHA-256 哈希值。可以使用 Linux 和 OSX 或 Windows（通过&lt;a0>Cygwin&lt;/a0>）的 &lt;s1>&lt;s2>shasum&lt;/s2>&lt;/s1> 命令生成 SHA-256 哈希值。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To increase the amount of memory the Daemon can use, specify the appropriate flags as part of the requested build environment. Please see &lt;a0>Chapter 11, &lt;i1>The Build Environment&lt;/i1>&lt;/a0> for details.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T115046Z" creationid="haohang" creationdate="20231118T115046Z">
+        <seg>要增加守护进程可以使用的内存量，可以指定适当的标志作为请求的构建环境的一部分。请参阅《&lt;a0>第十一章 &lt;i1>构建环境&lt;/i1>&lt;/a0>》以获取详细信息。</seg>
       </tuv>
     </tu>
     <tu>
