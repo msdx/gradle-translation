@@ -4058,6 +4058,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are several reasons why Gradle will create a new Daemon, instead of using one that is already running. The basic rule is that Gradle will start a new Daemon if there are no existing idle or compatible Daemons available. Gradle will kill any Daemon that has been idle for 3 hours or more, so you don't have to worry about cleaning them up manually.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T102104Z" creationid="haohang" creationdate="20231118T100950Z">
+        <seg>Gradle 创建新的而不是使用已在运行的守护进程的原因有几个。基本规则是，如果没有可用的空闲或兼容的守护程序， Gradle 就会启动一个新的守护进程。Gradle 会杀死任何已闲置 3 小时以上的守护进程，因此你不必担心需要手动清除它们。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are two recommended ways to enable the Daemon persistently for an environment:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T042422Z" creationid="haohang" creationdate="20231118T042422Z">
