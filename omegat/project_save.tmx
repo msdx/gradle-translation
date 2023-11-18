@@ -4026,6 +4026,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The boot classpath (i.e. the -Xbootclasspath argument)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105606Z" creationid="haohang" creationdate="20231118T105606Z">
+        <seg>引导类路径（即 -Xbootclasspath 参数）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The built-in dependencyInsight task is a part of the 'Help' tasks group. The task needs to configured with the dependency and the configuration. The report looks for the dependencies that match the specified dependency spec in the specified configuration. If Java related plugin is applied, the dependencyInsight task is pre-configured with 'compile' configuration because typically it's the compile dependencies we are interested in. You should specify the dependency you are interested in via the command line '--dependency' option. If you don't like the defaults you may select the configuration via '--configuration' option. For more information see the &lt;a0>&lt;c1>DependencyInsightReportTask&lt;/c1>&lt;/a0> class in the API documentation.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T135408Z" creationid="huanghaohang" creationdate="20220329T135408Z">
@@ -4042,6 +4050,22 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The following JVM attributes, controlled by startup arguments, are also effectively immutable. The corresponding attributes of the requested build environment and the Daemon’s environment must match exactly in order for a Daemon to be compatible.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105522Z" creationid="haohang" creationdate="20231118T105522Z">
+        <seg>以下 JVM 属性受启动参数控制，在实际上也是不可改的。请求的构建环境和守护进程环境的对应属性必须完全匹配，才能使守护进程兼容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following JVM system properties are effectively immutable. If the requested build environment requires any of these properties, with a different value than a Daemon’s JVM has for this property, the Daemon is not compatible.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105254Z" creationid="haohang" creationdate="20231118T105254Z">
+        <seg>以下 JVM 系统属性在实际上是不可改变的。如果请求的构建环境需要这些属性之一，并且其值与守护进程的 JVM 中该属性的值不同，那么守护进程就不兼容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The following notification systems are supported:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T144850Z" creationid="haohang" creationdate="20231117T144850Z">
@@ -4054,6 +4078,22 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145403Z" creationid="haohang" creationdate="20231117T145403Z">
         <seg>下表列出了支持的通知服务以及它们的配置属性。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The maximum heap size (i.e. the -Xmx JVM argument)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105548Z" creationid="haohang" creationdate="20231118T105548Z">
+        <seg>最大堆大小（即 -Xmx JVM 参数）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The minimum heap size (i.e. the -Xms JVM argument)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105558Z" creationid="haohang" creationdate="20231118T105558Z">
+        <seg>最小堆大小（即 -Xms JVM 参数）</seg>
       </tuv>
     </tu>
     <tu>
@@ -4078,6 +4118,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T120404Z" creationid="huanghaohang" creationdate="20220329T120404Z">
         <seg>用户指南（ HTML 和 PDF 两种版本）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The “assertion” status (i.e. the -ea argument)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105624Z" creationid="haohang" creationdate="20231118T105624Z">
+        <seg>"断言" 状态（即 -ea 自变量）</seg>
       </tuv>
     </tu>
     <tu>
@@ -4774,6 +4822,14 @@ webapp:libs - Builds the JAR [api:libs]</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>com.sun.management.jmxremote</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105307Z" creationid="haohang" creationdate="20231118T105307Z">
+        <seg>com.sun.management.jmxremote</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>compatible</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T102542Z" creationid="haohang" creationdate="20231118T102516Z">
@@ -4924,6 +4980,14 @@ api:libs - Builds the JAR</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T155616Z" creationid="huanghaohang" creationdate="20220328T155616Z">
         <seg>embedding.html#sec:embedding_quickstart</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>file.encoding</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105256Z" creationid="haohang" creationdate="20231118T105256Z">
+        <seg>file.encoding</seg>
       </tuv>
     </tu>
     <tu>
@@ -5312,6 +5376,62 @@ api:libs - Builds the JAR</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T035618Z" creationid="huanghaohang" creationdate="20220328T035618Z">
         <seg>introduction.html#N1004B</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>java.io.tmpdir</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105300Z" creationid="haohang" creationdate="20231118T105300Z">
+        <seg>java.io.tmpdir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>javax.net.ssl.keyStore</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105302Z" creationid="haohang" creationdate="20231118T105302Z">
+        <seg>javax.net.ssl.keyStore</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>javax.net.ssl.keyStorePassword</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105303Z" creationid="haohang" creationdate="20231118T105303Z">
+        <seg>javax.net.ssl.keyStorePassword</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>javax.net.ssl.keyStoreType</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105303Z" creationid="haohang" creationdate="20231118T105303Z">
+        <seg>javax.net.ssl.keyStoreType</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>javax.net.ssl.trustStore</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105304Z" creationid="haohang" creationdate="20231118T105304Z">
+        <seg>javax.net.ssl.trustStore</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>javax.net.ssl.trustStorePassword</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105305Z" creationid="haohang" creationdate="20231118T105305Z">
+        <seg>javax.net.ssl.trustStorePassword</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>javax.net.ssl.trustStoreType</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105305Z" creationid="haohang" creationdate="20231118T105305Z">
+        <seg>javax.net.ssl.trustStoreType</seg>
       </tuv>
     </tu>
     <tu>
@@ -5718,6 +5838,30 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145531Z" creationid="haohang" creationdate="20231117T145518Z">
         <seg>twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>user.country</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105258Z" creationid="haohang" creationdate="20231118T105258Z">
+        <seg>user.country</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>user.language</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105257Z" creationid="haohang" creationdate="20231118T105257Z">
+        <seg>user.language</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>user.variant</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105258Z" creationid="haohang" creationdate="20231118T105258Z">
+        <seg>user.variant</seg>
       </tuv>
     </tu>
     <tu>
