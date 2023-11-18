@@ -2918,6 +2918,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Gradle actively monitors heap usage and attempts to detect when a leak is starting to exhaust the available heap space in the daemon. When it detects a problem with heap space, the Gradle daemon will finish the currently running build and restart the daemon on the next build. This monitoring is enabled by default, but can be disabled by setting the &lt;c0>org.gradle.daemon.performance.enable-monitoring&lt;/c0> system property to false.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T122021Z" creationid="haohang" creationdate="20231118T122021Z">
+        <seg>Gradle 积极监控堆使用情况，并尝试检测内存泄漏是否开始耗尽守护进程中的可用堆空间。当它检测到堆空间有问题时，Gradle 守护进程将完成当前正在运行的构建，并在下一个构建上重新启动守护程序。此监控默认启用，但可以通过将 &lt;c0>org.gradle.daemon.performance.enable-monitory&lt;/c0> 系统属性设置为 false来禁用。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Gradle and Java version compatibility</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T155629Z" creationid="huanghaohang" creationdate="20220328T155629Z">
