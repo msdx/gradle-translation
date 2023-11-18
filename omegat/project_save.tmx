@@ -3086,6 +3086,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If the requested build environment does not specify a maximum heap size, the Daemon will use up to 1GB of heap. It will use your the JVM's default minimum heap size. 1GB is more than enough for most builds. Larger builds with hundreds of subprojects, lots of configuration, and source code may require, or perform better, with more memory.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T114920Z" creationid="haohang" creationdate="20231118T114920Z">
+        <seg>如果请求的构建环境未指定最大堆大小，那么守护进程最多使用 1GB 的堆内存。它将使用 JVM 默认的最小堆大小。1GB 对于大多数构建来说都是绰绰有余的。包含数以百计的子项目的更大的构建，大量的配置和源代码可能需要更多内存，或者使用更多内存能够提高性能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you build via the Wrapper, any existing Gradle distribution installed on the machine is ignored.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T140237Z" creationid="huanghaohang" creationdate="20220404T140237Z">
