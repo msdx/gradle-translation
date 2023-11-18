@@ -3686,6 +3686,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Some aspects of the requested build environment may not be met by an Daemon. If the Daemon is running with a Java 7 runtime, but the requested environment calls for Java 8 then the Daemon is not compatible and another must be started. Moreover, certain properties of a Java runtime cannot be changed once the JVM has started. It is not possible to change the memory allocation (e.g. &lt;c0>-Xmx1024m&lt;/c0>), default text encoding, default locale, etc of a running JVM.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T104131Z" creationid="haohang" creationdate="20231118T104131Z">
+        <seg>守护进程可能不满足请求的构建环境的某些方面。如果守护进程以 Java 7 运行时运行，但请求的环境调用 Java 8 ，那么守护进程就会不兼容，因而必须启动另一个守护进程。此外，在 JVM 启动后，无法更改 Java 运行时的某些属性。正在运行的 JVM，它的内存分配（例如 &lt;c0>-Xmx1024m&lt;/c0>），默认文本编码，默认语言环境等都是不可更改的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sometimes you are interested in which tasks are executed in which order for a given set of tasks specified on the command line, but you don't want the tasks to be executed. You can use the &lt;c0>-m&lt;/c0> option for this. For example, if you run “&lt;s1>&lt;c2>gradle -m clean compile&lt;/c2>&lt;/s1>”, you'll see all the tasks that would be executed as part of the &lt;c3>clean&lt;/c3> and &lt;c4>compile&lt;/c4> tasks. This is complementary to the &lt;c5>tasks&lt;/c5> task, which shows you the tasks which are available for execution.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T142015Z" creationid="huanghaohang" creationdate="20220329T142015Z">
