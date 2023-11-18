@@ -3746,6 +3746,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The &lt;c0>--no-daemon&lt;/c0> command line switch can be used to force that a Daemon not be used for that build. This is rarely used, but can sometimes be useful when debugging issues with certain builds or Gradle plugins. This command line switch has the &lt;s1>&lt;e2>highest&lt;/e2>&lt;/s1> precedence when considering the build environment.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T094356Z" creationid="haohang" creationdate="20231118T043713Z">
+        <seg>&lt;c0>--no-daemon&lt;/c0> 命令行开关可用于强制守护进程不用于该构建。它很少用到，但在使用特定构建或 Gradle 插件调试问题时，有时会很有用。该命令行开关在考虑构建环境时具有 &lt;s1>&lt;e2>最高&lt;/e2>&lt;/s1> 优先级。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The &lt;c0>announce&lt;/c0> method takes two String arguments: The message to be sent, and the notification service to be used.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145356Z" creationid="haohang" creationdate="20231117T145356Z">
