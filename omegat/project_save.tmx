@@ -1954,6 +1954,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A compatible Daemon is one that can (or can be made to) meet the requirements of the requested build environment. The Java runtime used to execute the build is an example aspect of the build environment. Another example is the set of JVM system properties required by the build runtime.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T102835Z" creationid="haohang" creationdate="20231118T102835Z">
+        <seg>一个兼容的守护进程是指能够（或能够被配置为）满足所请求的构建环境的需求的守护进程。执行构建的 Java 运行时是构建环境的一个例子。另一个例子是构建运行时所需的JVM 系统属性集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A daemon is a computer program that runs as a background process, rather than being under the direct control of an interactive user.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220611T151657Z" creationid="huanghaohang" creationdate="20220611T150925Z">
@@ -2036,8 +2044,8 @@ Total time: 1 secs</seg>
       <tuv lang="en-US">
         <seg>An idle Daemon is one that is not currently executing a build or doing other useful work.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T102409Z" creationid="haohang" creationdate="20231118T102409Z">
-        <seg>空闲的守护进程是当前未执行构建或未进行其他有用事情的守护进程。</seg>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T102505Z" creationid="haohang" creationdate="20231118T102409Z">
+        <seg>空闲的守护进程是指当前未执行构建或未进行其他有用工程的守护进程。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4068,8 +4076,8 @@ Description</seg>
       <tuv lang="en-US">
         <seg>There are several reasons why Gradle will create a new Daemon, instead of using one that is already running. The basic rule is that Gradle will start a new Daemon if there are no existing idle or compatible Daemons available. Gradle will kill any Daemon that has been idle for 3 hours or more, so you don't have to worry about cleaning them up manually.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T102104Z" creationid="haohang" creationdate="20231118T100950Z">
-        <seg>Gradle 创建新的而不是使用已在运行的守护进程的原因有几个。基本规则是，如果没有可用的空闲或兼容的守护程序， Gradle 就会启动一个新的守护进程。Gradle 会杀死任何已闲置 3 小时以上的守护进程，因此你不必担心需要手动清除它们。</seg>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T102512Z" creationid="haohang" creationdate="20231118T100950Z">
+        <seg>Gradle 创建新的而不是使用已在运行的守护进程的原因有几个。基本规则是，如果没有可用的空闲或兼容的守护程序， Gradle 就会启动一个新的守护进程。Gradle 会杀死任何已空闲 3 小时以上的守护进程，因此你不必担心需要手动清除它们。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4750,6 +4758,14 @@ webapp:libs - Builds the JAR [api:libs]</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>compatible</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T102542Z" creationid="haohang" creationdate="20231118T102516Z">
+        <seg>兼容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>continuous_build.html</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T034445Z" creationid="huanghaohang" creationdate="20220328T034445Z">
@@ -5166,8 +5182,8 @@ api:libs - Builds the JAR</seg>
       <tuv lang="en-US">
         <seg>idle</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T102310Z" creationid="haohang" creationdate="20231118T102310Z">
-        <seg>idle</seg>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T102539Z" creationid="haohang" creationdate="20231118T102310Z">
+        <seg>空闲</seg>
       </tuv>
     </tu>
     <tu>
