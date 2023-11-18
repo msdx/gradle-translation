@@ -1978,6 +1978,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As mentioned, the Daemon is a background process. You needn’t worry about a build up of Gradle processes on your machine, though: every Daemon stops after 3 hours of inactivity. If you want to explicitly stop a Daemon process for any reason, just use the command &lt;s0>&lt;c1>gradle --stop&lt;/c1>&lt;/s0>.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T041658Z" creationid="haohang" creationdate="20231118T041658Z">
+        <seg>如前所述，守护进程是后台进程。你不必担心在机器上建立 Gradle 进程，因为每个守护程序都会在不活动3小时后停止。如果由于一些原因要显式地停止守护进程，可以使用命令 &lt;s0>&lt;c1>gradle --stop&lt;/c1>&lt;/s0>。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>At the heart of Gradle lies a rich extensible Domain Specific Language (DSL) based on Groovy. Gradle pushes declarative builds to the next level by providing declarative language elements that you can assemble as you like. Those elements also provide build-by-convention support for Java, Groovy, OSGi, Web and Scala projects. Even more, this declarative language is extensible. Add your own new language elements or enhance the existing ones, thus providing concise, maintainable and comprehensible builds.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T111304Z" creationid="huanghaohang" creationdate="20220328T110654Z">
@@ -3918,6 +3926,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T104244Z" creationid="huanghaohang" creationdate="20220328T104244Z">
         <seg>与Gradle本身一样，本指南也在不断地更新。一些Gradle的内容并没有像它们所需要的那样完全地记录下来。有些内容并未完整描述，或者是假定了你对Gradle有一定的了解。我们需要你来帮助一起改进本用户指南。有关如何参与贡献文档的更多信息，可以在 &lt;a0>Gradle 官方网站&lt;/a0>上找到。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will terminate all Daemon processes that were started with the same version of Gradle used to execute the command. If you have the Java Development Kit (JDK) installed, you can easily verify that a Daemon has stopped by running the &lt;s0>&lt;s1>jps&lt;/s1>&lt;/s0> command. You’ll see any running Daemons listed with the name GradleDaemon.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T042215Z" creationid="haohang" creationdate="20231118T042215Z">
+        <seg>这将终止使用这一命令的Gradle 版本所启动的所有守护进程。如果你已安装 Java开发工具包（JDK），那么可以通过运行 &lt;s0>&lt;s1>jps&lt;/s1>&lt;/s0> 命令来轻松验证守护程序是否已停止。你将看到任何正在运行的守护程序都以 GradleDaemon 名字列出。</seg>
       </tuv>
     </tu>
     <tu>
