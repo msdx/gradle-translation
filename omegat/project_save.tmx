@@ -358,6 +358,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#what_can_go_wrong_with_daemon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T115523Z" creationid="haohang" creationdate="20231118T115523Z">
+        <seg>#what_can_go_wrong_with_daemon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(if not exist "%USERPROFILE%/.gradle" mkdir "%USERPROFILE%/.gradle") &amp;&amp; (echo org.gradle.daemon=true >> "%USERPROFILE%/.gradle/gradle.properties")</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T043031Z" creationid="haohang" creationdate="20231118T043031Z">
@@ -1218,6 +1226,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T115104Z" creationid="haohang" creationdate="20231118T115104Z">
         <seg>6.3.6. 如何停止守护进程？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>6.3.7. What can go wrong with Daemon?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T115602Z" creationid="haohang" creationdate="20231118T115602Z">
+        <seg>6.3.7. 守护进程可能出现什么问题？</seg>
       </tuv>
     </tu>
     <tu>
@@ -2310,6 +2326,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Considerable engineering effort has gone into making the Daemon robust, transparent and unobtrusive during day to day development. However, Daemon processes can occasionally be corrupted or exhausted. A Gradle build executes arbitrary code from multiple sources. While Gradle itself is designed for and heavily tested with the Daemon, user build scripts and third party plugins can destabilize the Daemon process through defects such as memory leaks or global state corruption.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T121344Z" creationid="haohang" creationdate="20231118T115612Z">
+        <seg>在日常开发中，大量的工程努力使守护进程变得健壮，透明和不显眼。然而，守护进程有时会受到破坏或耗尽。Gradle 构建从多个源执行任意代码。虽然 Gradle 本身为守护进程设计并进行了大量测试，但用户构建脚本和第三方插件可以通过诸如内存泄漏或全局状态损坏等缺陷而使守护进程变得不稳定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Continuing the build when a failure occurs</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154500Z" creationid="huanghaohang" creationdate="20220328T154500Z">
@@ -2886,6 +2910,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Gradle User Guide Version 2.14.1 (Single Page)</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T115856Z" creationid="haohang" creationdate="20231118T115856Z">
+        <seg>Gradle User Guide Version 2.14.1 (Single Page)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Gradle and Java version compatibility</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T155629Z" creationid="huanghaohang" creationdate="20220328T155629Z">
@@ -3242,6 +3274,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T155555Z" creationid="huanghaohang" creationdate="20220328T155555Z">
         <seg>Tooling API 简介</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is also possible to destabilize the Daemon (and build environment in general) by running builds that do not release resources correctly. This is a particularly poignant problem when using Microsoft Windows as it is less forgiving of programs that fail to close files after reading or writing.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T115902Z" creationid="haohang" creationdate="20231118T115902Z">
+        <seg>It is also possible to destabilize the Daemon (and build environment in general) by running builds that do not release resources correctly. This is a particularly poignant problem when using Microsoft Windows as it is less forgiving of programs that fail to close files after reading or writing.</seg>
       </tuv>
     </tu>
     <tu>
