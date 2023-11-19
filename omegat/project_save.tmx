@@ -1278,6 +1278,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>6.4. When should I not use the Gradle Daemon?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231119T115734Z" creationid="haohang" creationdate="20231119T115734Z">
+        <seg>6.4. 什么时候不应该使用 Gradle 守护进程？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>6.5.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154949Z" creationid="huanghaohang" creationdate="20220328T154949Z">
@@ -3314,6 +3322,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T121650Z" creationid="haohang" creationdate="20231118T115902Z">
         <seg>不正确释放资源的构建也有可能使守护进程（和总体的构建环境）变得不稳定。在使用 Microsoft Windows 时，这是一个特别突出的问题，因为它对在读取或写入之后未能关闭文件的程序不够宽容。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is recommended that the Daemon is used in all developer environments. It is recommend to &lt;s0>&lt;e1>not enable&lt;/e1>&lt;/s0> the Daemon for Continuous Integration and build server environments.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231119T115834Z" creationid="haohang" creationdate="20231119T115834Z">
+        <seg>建议在所有开发者环境中使用守护程序，而在持续集成和构建服务器环境中 &lt;s0>&lt;e1>不启用&lt;/e1>&lt;/s0> 它。</seg>
       </tuv>
     </tu>
     <tu>
