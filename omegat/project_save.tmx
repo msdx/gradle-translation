@@ -366,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#when_should_i_not_use_the_gradle_daemon</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231119T115421Z" creationid="haohang" creationdate="20231119T115421Z">
+        <seg>#when_should_i_not_use_the_gradle_daemon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(if not exist "%USERPROFILE%/.gradle" mkdir "%USERPROFILE%/.gradle") &amp;&amp; (echo org.gradle.daemon=true >> "%USERPROFILE%/.gradle/gradle.properties")</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T043031Z" creationid="haohang" creationdate="20231118T043031Z">
@@ -3152,8 +3160,8 @@ Group</seg>
       <tuv lang="en-US">
         <seg>If it is suspected that the Daemon process has become unstable, it can simply be killed. Recall that the &lt;c0>--no-daemon&lt;/c0> switch can be specified for a build to prevent use of the Daemon. This can be useful to diagnose whether or not the Daemon is actually the culprit of a problem.</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="haohang" changedate="20231118T122022Z" creationid="haohang" creationdate="20231118T122022Z">
-        <seg>If it is suspected that the Daemon process has become unstable, it can simply be killed. Recall that the &lt;c0>--no-daemon&lt;/c0> switch can be specified for a build to prevent use of the Daemon. This can be useful to diagnose whether or not the Daemon is actually the culprit of a problem.</seg>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231119T115720Z" creationid="haohang" creationdate="20231118T122022Z">
+        <seg>如果怀疑守护进程已变得不稳定，可以直接终止它。回忆一下，可以为构建指定 &lt;c0>--no-daemon&lt;/c0> 开关，以防止使用守护进程。这对于诊断守护进程是否问题的根本原因非常有用。</seg>
       </tuv>
     </tu>
     <tu>
