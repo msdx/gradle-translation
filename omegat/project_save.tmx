@@ -174,6 +174,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#N105A3</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T110940Z" creationid="haohang" creationdate="20231120T110940Z">
+        <seg>#N105A3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#N1449C</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T144920Z" creationid="haohang" creationdate="20231117T144920Z">
@@ -1329,6 +1337,14 @@
         <seg>6.6. How does the Gradle Daemon make builds faster?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T162512Z" creationid="haohang" creationdate="20231117T162512Z">
+        <seg>6.6. Gradle 守护进程如何加快构建速度？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>6.6. How does the Gradle Daemon make builds faster?</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T110945Z" creationid="haohang" creationdate="20231120T110945Z">
         <seg>6.6. Gradle 守护进程如何加快构建速度？</seg>
       </tuv>
     </tu>
@@ -3134,6 +3150,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However, unless you have explicitly enabled the Gradle Daemon for you environment your builds from the command line will not use the Gradle Daemon.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T110939Z" creationid="haohang" creationdate="20231120T110939Z">
+        <seg>但是，除非你明确为你环境启用了 Gradle 守护进程，否则你从命令行中构建就不会使用 Gradle 守护进程。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>I. About Gradle</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T034402Z" creationid="huanghaohang" creationdate="20220328T033920Z">
@@ -4062,6 +4086,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T142205Z" creationid="huanghaohang" creationdate="20220328T104714Z">
         <seg>Gradle 守护进程——Gradle 用户指南 2.14.1版</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Gradle Daemon is a &lt;s0>&lt;e1>long lived&lt;/e1>&lt;/s0> build process. In between builds it waits idly for the next build. This has the obvious benefit of only requiring Gradle to be loaded into memory once for multiple builds, as opposed to once for each build. This in itself is a significant performance optimization, but that's not where it stops.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T112621Z" creationid="haohang" creationdate="20231120T112621Z">
+        <seg>Gradle 守护进程是一个 &lt;s0>&lt;e1>长时间存在&lt;/e1>&lt;/s0> 构建进程。在构建之间，它会等待下一次构建。 这明显有一个好处，即在多个构建中只需要将 Gradle 加载到内存中一次 ，而不是每次构建都加载一次。 这本身就是一个显着的性能优化，但并不止于此。</seg>
       </tuv>
     </tu>
     <tu>
