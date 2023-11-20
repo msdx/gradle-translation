@@ -1150,6 +1150,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>5.1. Executing a build with the Wrapper</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T120823Z" creationid="haohang" creationdate="20231120T120823Z">
+        <seg>5.1. 使用 Wrapper 执行构建</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>5.1. Executing a build with the Wrapper</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T130748Z" creationid="huanghaohang" creationdate="20220404T130748Z">
@@ -1162,6 +1170,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154820Z" creationid="huanghaohang" creationdate="20220328T154820Z">
         <seg>5.2.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>5.2. Adding the Wrapper to a project</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T120830Z" creationid="haohang" creationdate="20231120T120830Z">
+        <seg>5.2. 将 Wrapper 添加到项目中</seg>
       </tuv>
     </tu>
     <tu>
@@ -1182,6 +1198,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>5.3. Configuration</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T120832Z" creationid="haohang" creationdate="20231120T120832Z">
+        <seg>5.3. 配置</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>5.3. Configuration</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T135310Z" creationid="huanghaohang" creationdate="20220404T135310Z">
@@ -1198,6 +1222,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>5.4. Verification of downloaded Gradle distributions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T120902Z" creationid="haohang" creationdate="20231120T120902Z">
+        <seg>5.4. 下载的 Gradle 分发版的验证</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>5.4. Verification of downloaded Gradle distributions</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T140246Z" creationid="huanghaohang" creationdate="20220404T140246Z">
@@ -1210,6 +1242,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154859Z" creationid="huanghaohang" creationdate="20220328T154859Z">
         <seg>5.5.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>5.5. Unix file permissions</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T120905Z" creationid="haohang" creationdate="20231120T120905Z">
+        <seg>5.5. Unix 文件权限</seg>
       </tuv>
     </tu>
     <tu>
@@ -4560,6 +4600,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The Groovy Plugin - Gradle User Guide Version 2.14.1</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T120945Z" creationid="haohang" creationdate="20231120T120945Z">
+        <seg>Groovy 插件——Gradle 用户指南 V2.14.1 版</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The Wrapper can be further customized by adding and configuring a &lt;a0>&lt;c1>Wrapper&lt;/c1>&lt;/a0> task in your build script, and then executing it.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134502Z" creationid="huanghaohang" creationdate="20220404T134502Z">
@@ -6238,6 +6286,24 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>simple/
+  gradlew
+  gradlew.bat
+  gradle/wrapper/
+    gradle-wrapper.jar
+    gradle-wrapper.properties</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T120912Z" creationid="haohang" creationdate="20231120T120912Z">
+        <seg>simple/
+  gradlew
+  gradlew.bat
+  gradle/wrapper/
+    gradle-wrapper.jar
+    gradle-wrapper.properties</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>snarl</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145550Z" creationid="haohang" creationdate="20231117T145550Z">
@@ -6330,6 +6396,18 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134516Z" creationid="huanghaohang" creationdate="20220404T134516Z">
         <seg>task wrapper(type: Wrapper) {</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>task wrapper(type: Wrapper) {
+    gradleVersion = &lt;s0>'2.0'&lt;/s0>
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T120910Z" creationid="haohang" creationdate="20231120T120910Z">
+        <seg>task wrapper(type: Wrapper) {
+    gradleVersion = &lt;s0>'2.0'&lt;/s0>
+}</seg>
       </tuv>
     </tu>
     <tu>
