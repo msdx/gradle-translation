@@ -2082,6 +2082,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A significant part of the story for modern JVM performance is runtime code optimization. For example, HotSpot (the JVM implementation provided by Oracle and used as the basis of OpenJDK) applies optimization to code while it is running. The optimization is progressive and not instantaneous. That is, the code is progressively optimized during execution which means that subsequent builds can be faster purely due to this optimization process. Experiments with HotSpot have shown that it takes somewhere between 5 and 10 builds for optimization to stabilize. The difference in perceived build time between the first build and the 10th for a Daemon can be quite dramatic.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T113302Z" creationid="haohang" creationdate="20231120T113302Z">
+        <seg>现代 JVM 性能的重要组成部分是运行时代码优化。例如，HotSpot（Oracle 提供的 JVM 实现，也是 OpenJDK 的基础）在代码运行时应用优化。优化是渐进的，而不是瞬时的。 即，代码在执行过程中逐渐被优化，这意味着后续构建可能仅因此优化过程就会变得更快。对 HotSpot 的实验表明，优化稳定只需要 5到10次构建。在使用守护进程的情况下，第一次构建与第十次构建之间的感知构建时间差异可能相当显著。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A very flexible general purpose build tool like Ant.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T101346Z" creationid="huanghaohang" creationdate="20220328T101346Z">
