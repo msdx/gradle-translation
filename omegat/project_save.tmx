@@ -2462,6 +2462,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Currently, the Daemon makes builds faster by effectively supporting in memory caching and by the JVM optimizer making the code faster. In future Gradle versions, the Daemon will become even smarter and perform work &lt;s0>&lt;e1>preemptively&lt;/e1>&lt;/s0>. It could, for example, start downloading dependencies immediately after the build script has been edited under the assumption that the build is about to be run and the newly changed or added dependencies will be required.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T114800Z" creationid="haohang" creationdate="20231120T113808Z">
+        <seg>当前，守护进程通过有效支持内存缓存和 JVM 优化器使代码更快，从而加快了构建速度。在将来的 Gradle 版本中，守护进程将变得更智能，会进行&lt;s0>&lt;e1>预测性&lt;/e1>&lt;/s0>的工作。例如，在构建脚本被编辑之后，基于构建即将运行、新修改或添加的依赖将被使用这样一种假设，它就会开始立即下载这些依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Daemon processes will automatically terminate themselves after 3 hours of inactivity. If you wish to stop a Daemon process before this, you can either kill the process via your operating system or run the &lt;c0>gradle --stop&lt;/c0> command. The &lt;c1>--stop&lt;/c1> switch causes Gradle to request that &lt;s2>&lt;e3>all&lt;/e3>&lt;/s2> running Daemon processes, &lt;s4>&lt;e5>of the same Gradle version used to run the command&lt;/e5>&lt;/s4>, terminate themselves.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T115521Z" creationid="haohang" creationdate="20231118T115521Z">
