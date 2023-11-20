@@ -4066,6 +4066,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The Daemon also allows more effective in memory caching across builds. For example, the classes needed by the build (e.g. plugins, build scripts) can be held in memory between builds. Similarly, Gradle can maintain in-memory caches of build data such as the hashes of task inputs and outputs, used for incremental building.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231120T113717Z" creationid="haohang" creationdate="20231120T113717Z">
+        <seg>守护进程还允许更有效地在构建之间进行内存缓存。例如，构建所需的类（如插件，构建脚本）可以在构建之间保存在内存中。同样，Gradle 还可以维护构建数据的内存缓存，例如任务输入和输出的hash值，用于增量构建。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The Daemon enables faster builds, which is particularly important when a human is sitting in front of the build. For CI builds, stability and predictability is of utmost importance. Using a fresh runtime (i.e. process) for each build is more reliable as the runtime is &lt;s0>&lt;e1>completely&lt;/e1>&lt;/s0> isolated from previous builds.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231120T110442Z" creationid="haohang" creationdate="20231120T110442Z">
