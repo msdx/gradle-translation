@@ -4800,6 +4800,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The main purpose of most projects is to build some files that are to be used outside the project. For example, if your project produces a Java library, you need to build a jar, and maybe a source jar and some documentation, and publish them somewhere.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T143814Z" creationid="haohang" creationdate="20231125T143814Z">
+        <seg>大多数项目的主要目的是构建一些在项目之外使用的文件。例如，如果你的项目是要生成一个 Java 库，你需要构建出一个 jar 文件，可能还需要一个源 jar 文件以及文档，然后把它们发布出去。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The maximum heap size (i.e. the -Xmx JVM argument)</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T105548Z" creationid="haohang" creationdate="20231118T105548Z">
@@ -4892,6 +4900,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231125T143054Z" creationid="haohang" creationdate="20231125T143054Z">
         <seg>这些传入的文件构成了这个项目的依赖。Gradle 可以让你告诉它你项目的依赖是什么，以便它处理查找这些依赖，以及把它们加入构建。这些依赖可能需要从远程的 Maven 或 Ivy 仓库中下载，或者位于本地目录中，或是需要由同一个多项目构建的其他子项目来构建。这个过程我们称之为 &lt;e0>依赖解析&lt;/e0>。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These outgoing files form the publications of the project. Gradle also takes care of this important work for you. You declare the publications of your project, and Gradle take care of building them and publishing them somewhere. Exactly what “publishing” means depends on what you want to do. You might want to copy the files to a local directory, or upload them to a remote Maven or Ivy repository. Or you might use the files in another project in the same multi-project build. We call this process &lt;e0>publication&lt;/e0>.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144019Z" creationid="haohang" creationdate="20231125T144019Z">
+        <seg>这些输出文件构成了项目的发布物。Gradle 也会为你处理这项重要工作。您声明项目的发布物，Gradle 就会负责构建它们并把它们发布到某个地方。“发布”的确切含义取决于您的需求。您可能想把一些文件拷贝到一个本地的目录，把它们上传到一个远程的 Maven 或 Ivy 仓库，或是在同一个多项目构建的另一个子项目中使用这些文件。这个过程，我们称之为&lt;e0>发布&lt;/e0>。</seg>
       </tuv>
     </tu>
     <tu>
