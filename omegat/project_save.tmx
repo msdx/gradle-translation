@@ -4004,6 +4004,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Often, the dependencies of a project will themselves have dependencies. For example, Hibernate core requires several other libraries to be present on the classpath with it runs. So, when Gradle runs the tests for your project, it also needs to find these dependencies and make them available. We call these &lt;e0>transitive dependencies&lt;/e0>.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T143656Z" creationid="haohang" creationdate="20231125T143656Z">
+        <seg>通常一个项目的依赖还会有它们自己本身的依赖。例如 Hibernate 核心类库在运行的时候就依赖于一些其他的类库。因此，当 Gradle运行你的项目的测试用例时，它也需要找到这些依赖并使其可用。我们把这个过程称为 &lt;e0>传递依赖&lt;/e0>。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>On UNIX-like operating systems, the following Bash shell command will enable the Daemon for the current user:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T043140Z" creationid="haohang" creationdate="20231118T043107Z">
