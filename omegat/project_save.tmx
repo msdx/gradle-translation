@@ -3964,6 +3964,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Note that this feature provides a major advantage over Ant. With Ant, you only have the ability to specify absolute or relative paths to specific jars to load. With Gradle, you simply declare the “names” of your dependencies, and other layers determine where to get those dependencies from. You can get similar behavior from Ant by adding Apache Ivy, but Gradle does it better.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T143602Z" creationid="haohang" creationdate="20231125T143602Z">
+        <seg>请注意，这个功能相对于 Ant 提供了一个重要的优势。使用 Ant，您只能指定要加载的特定 jar 的绝对或相对路径。而通过 Gradle，您只需声明依赖的“名称”，其他层会确定从何处获取这些依赖项。您可以通过添加 Apache Ivy 从 Ant 获得类似的行为，但 Gradle 对此实现得更好。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Note that this will force &lt;s0>&lt;e1>all&lt;/e1>&lt;/s0> required tasks to execute, not just the ones you specify on the command line. It's a little like running a &lt;c2>clean&lt;/c2>, but without the build's generated output being deleted.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131218Z" creationid="huanghaohang" creationdate="20220329T130734Z">
