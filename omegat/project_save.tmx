@@ -206,6 +206,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#N10620</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144949Z" creationid="haohang" creationdate="20231125T144949Z">
+        <seg>#N10620</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#N1449C</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T144920Z" creationid="haohang" creationdate="20231117T144920Z">
@@ -1598,6 +1606,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>7.4. External dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144951Z" creationid="haohang" creationdate="20231125T144951Z">
+        <seg>7.4. 外部依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>7.5.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T155226Z" creationid="huanghaohang" creationdate="20220328T155226Z">
@@ -2640,6 +2656,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>An external dependency is identified using &lt;c0>group&lt;/c0>, &lt;c1>name&lt;/c1> and &lt;c2>version&lt;/c2> attributes. Depending on which kind of repository you are using, &lt;c3>group&lt;/c3> and &lt;c4>version&lt;/c4> may be optional.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T145021Z" creationid="haohang" creationdate="20231125T145021Z">
+        <seg>一个外部依赖使用&lt;c0>group&lt;/c0>, &lt;c1>name&lt;/c1> 和 &lt;c2>version&lt;/c2> 属性来定义。根据你所使用的仓库类型不同， &lt;c3>group&lt;/c3> 和 &lt;c4>version&lt;/c4> 可能是可选的。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>An idle Daemon is one that is not currently executing a build or doing other useful work.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T102505Z" creationid="haohang" creationdate="20231118T102409Z">
@@ -3288,6 +3312,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144039Z" creationid="haohang" creationdate="20231125T144039Z">
         <seg>示例 7.1. 声明依赖</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 7.2. Definition of an external dependency</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T145013Z" creationid="haohang" creationdate="20231125T145013Z">
+        <seg>示例7.2. 外部依赖的定义</seg>
       </tuv>
     </tu>
     <tu>
@@ -4840,10 +4872,34 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The dependencies required by the production classes at runtime. By default, also includes the compile time dependencies.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144817Z" creationid="haohang" creationdate="20231125T144817Z">
+        <seg>运行时生产类所需的依赖。默认情况下，也包括了编译时依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The dependencies required to compile the production source of the project.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144812Z" creationid="haohang" creationdate="20231125T144812Z">
         <seg>编译项目的生产源码所需的依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The dependencies required to compile the test source of the project. By default, also includes the compiled production classes and the compile time dependencies.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144820Z" creationid="haohang" creationdate="20231125T144820Z">
+        <seg>编译项目测试源码所需的依赖。默认情况下，还包括了所编译的生产类和编译时依赖。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The dependencies required to run the tests. By default, also includes the compile, runtime and test compile dependencies.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144824Z" creationid="haohang" creationdate="20231125T144824Z">
+        <seg>运行测试所需的依赖。默认情况下，还包括编译，运行时及测试编译的依赖。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4920,6 +4976,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The shortcut form for declaring external dependencies looks like “&lt;c0>&lt;e1>&lt;c2>group&lt;/c2>&lt;/e1>:&lt;e3>&lt;c4>name&lt;/c4>&lt;/e3>:&lt;e5>&lt;c6>version&lt;/c6>&lt;/e5>&lt;/c0>”.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T145132Z" creationid="haohang" creationdate="20231125T145132Z">
+        <seg>The shortcut form for declaring external dependencies looks like “&lt;c0>&lt;e1>&lt;c2>group&lt;/c2>&lt;/e1>:&lt;e3>&lt;c4>name&lt;/c4>&lt;/e3>:&lt;e5>&lt;c6>version&lt;/c6>&lt;/e5>&lt;/c0>”.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The suppleness and richness of Gradle finally allows you to apply common design principles to your build. For example, it is very easy to compose your build from reusable pieces of build logic. Inline stuff where unnecessary indirections would be inappropriate. Don't be forced to tear apart what belongs together (e.g. in your project hierarchy). Avoid smells like shotgun changes or divergent change that turn your build into a maintenance nightmare. At last you can create a well structured, easily maintained, comprehensible build.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T112357Z" creationid="huanghaohang" creationdate="20220328T112357Z">
@@ -4972,6 +5036,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T042422Z" creationid="haohang" creationdate="20231118T042422Z">
         <seg>有两种推荐的方法可以在环境中持久性地启用守护进程：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are various types of dependencies that you can declare. One such type is an &lt;e0>external dependency&lt;/e0>. This is a dependency on some files built outside the current build, and stored in a repository of some kind, such as Maven central, or a corporate Maven or Ivy repository, or a directory in the local file system.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T145001Z" creationid="haohang" creationdate="20231125T145001Z">
+        <seg>你可以声明多种类型的依赖。其中一种这样的类型叫&lt;e0>外部依赖&lt;/e0>，它是依赖于在当前构建之外所生成的一些文件，并存储在某种存储库中，例如Maven Central，Maven私服，Ivy存储库，或者是本地文件系统中的某个目录。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5052,6 +5124,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T104506Z" creationid="huanghaohang" creationdate="20220328T104506Z">
         <seg>在整个用户指南中，你会看到一些表示 Gradle 任务之间依赖关系的关系图。它们使用类似于 UML 依赖关系表示法的东西，这种表示法使用箭头，从一个任务指向它所依赖的任务。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To define an external dependency, you add it to a dependency configuration:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T145005Z" creationid="haohang" creationdate="20231125T145005Z">
+        <seg>要定义外部依赖，你需要把一个依赖添加到依赖配置中：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5188,6 +5268,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231120T115205Z" creationid="haohang" creationdate="20231120T115205Z">
         <seg>使用 Gradle 图形用户界面—— Gradle 用户指南 2.14.1 版本</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Various plugins add further standard configurations. You can also define your own custom configurations to use in your build. Please see &lt;a0>Section 23.3, “Dependency configurations”&lt;/a0> for the details of defining and customizing dependency configurations.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144946Z" creationid="haohang" creationdate="20231125T144946Z">
+        <seg>各种插件添加了更多的标准配置。你也可以定义一些自定义配置以在构建中使用。有关定义和定制依赖配置的详细内容，请参见&lt;a0>第23.3节，“依赖配置”&lt;/a0>。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5786,6 +5874,26 @@ dependencies {
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T125711Z" creationid="huanghaohang" creationdate="20220329T125711Z">
         <seg>custom_tasks.html#incremental_tasks</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dependencies {
+    compile group: &lt;s0>'org.hibernate'&lt;/s0>, name: &lt;s1>'hibernate-core'&lt;/s1>, version: &lt;s2>'3.6.7.Final'&lt;/s2>
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T145015Z" creationid="haohang" creationdate="20231125T145015Z">
+        <seg>dependencies {
+    compile group: &lt;s0>'org.hibernate'&lt;/s0>, name: &lt;s1>'hibernate-core'&lt;/s1>, version: &lt;s2>'3.6.7.Final'&lt;/s2>
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dependency_management.html#sub:configurations</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144826Z" creationid="haohang" creationdate="20231125T144826Z">
+        <seg>dependency_management.html#sub:configurations</seg>
       </tuv>
     </tu>
     <tu>
@@ -6552,6 +6660,14 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>runtime</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144813Z" creationid="haohang" creationdate="20231125T144813Z">
+        <seg>runtime</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>simple/</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T134806Z" creationid="huanghaohang" creationdate="20220404T134806Z">
@@ -6682,6 +6798,22 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {
         <seg>task wrapper(type: Wrapper) {
     gradleVersion = &lt;s0>'2.0'&lt;/s0>
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>testCompile</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144818Z" creationid="haohang" creationdate="20231125T144818Z">
+        <seg>testCompile</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>testRuntime</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T144821Z" creationid="haohang" creationdate="20231125T144821Z">
+        <seg>testRuntime</seg>
       </tuv>
     </tu>
     <tu>
