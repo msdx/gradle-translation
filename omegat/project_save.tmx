@@ -3916,6 +3916,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Most projects are not completely self-contained. They need files built by other projects in order to be compiled or tested and so on. For example, in order to use Hibernate in my project, I need to include some Hibernate jars in the classpath when I compile my source. To run my tests, I might also need to include some additional jars in the test classpath, such as a particular JDBC driver or the Ehcache jars.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T142927Z" creationid="haohang" creationdate="20231125T142927Z">
+        <seg>大部分项目都不是完全独立的，它们需要其他项目所构建的一些文件来编译或测试等等。例如，如果我想在我的项目中使用Hibernate，我需要在编译代码时把一些 Hibernate 的 jar 文件包含到类路径中。如果要运行测试，可能还需要把一些其他的 jar 包包含到测试类路径中，比如特定的 JDBC 驱动或者是 Ehcache jar 文件。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Most tools require installation on your computer before you can use them. If the installation is easy, you may think that’s fine. But it can be an unnecessary burden on the users of the build. Equally importantly, will the user install the right version of the tool for the build? What if they’re building an old version of the software?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T130645Z" creationid="huanghaohang" creationdate="20220404T130645Z">
@@ -4864,6 +4872,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These incoming files form the dependencies of the project. Gradle allows you to tell it what the dependencies of your project are, so that it can take care of finding these dependencies, and making them available in your build. The dependencies might need to be downloaded from a remote Maven or Ivy repository, or located in a local directory, or may need to be built by another project in the same multi-project build. We call this process &lt;e0>dependency resolution&lt;/e0>.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T143054Z" creationid="haohang" creationdate="20231125T143054Z">
+        <seg>这些传入的文件构成了这个项目的依赖。Gradle 可以让你告诉它你项目的依赖是什么，以便它处理查找这些依赖，以及把它们加入构建。这些依赖可能需要从远程的 Maven 或 Ivy 仓库中下载，或者位于本地目录中，或是需要由同一个多项目构建的其他子项目来构建。这个过程我们称之为 &lt;e0>依赖解析&lt;/e0>。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This chapter introduces some of the basics of dependency management in Gradle.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231125T142606Z" creationid="haohang" creationdate="20231125T142606Z">
@@ -5098,8 +5114,8 @@ Description</seg>
       <tuv lang="en-US">
         <seg>Very roughly, dependency management is made up of two pieces. Firstly, Gradle needs to know about the things that your project needs to build or run, in order to find them. We call these incoming files the &lt;e0>dependencies&lt;/e0> of the project. Secondly, Gradle needs to build and upload the things that your project produces. We call these outgoing files the &lt;e1>publications&lt;/e1> of the project. Let's look at these two pieces in more detail:</seg>
       </tuv>
-      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T142805Z" creationid="haohang" creationdate="20231125T142805Z">
-        <seg>通俗来讲，依赖管理由两部分组成。首先，Gradle需要知道构建或运行你的项目所需要的东西，以便找到它们。 我们把这些传入的文件称为这个项目的 &lt;e0>依赖&lt;/e0>。其次，Gradle需要构建并且上传你的项目所产生的东西，我们把这些输出的文件称为项目的 &lt;e1>发布物&lt;/e1>。下面详细介绍这两部分：</seg>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231125T142935Z" creationid="haohang" creationdate="20231125T142805Z">
+        <seg>通俗来讲，依赖管理由两部分组成。首先，Gradle 需要知道构建或运行你的项目所需要的东西，以便找到它们。 我们把这些传入的文件称为这个项目的 &lt;e0>依赖&lt;/e0>。其次，Gradle 需要构建并且上传你的项目所产生的东西，我们把这些输出的文件称为项目的 &lt;e1>发布物&lt;/e1>。下面详细介绍这两部分：</seg>
       </tuv>
     </tu>
     <tu>
