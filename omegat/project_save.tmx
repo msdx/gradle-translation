@@ -3364,6 +3364,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 7.5. Usage of JCenter repository</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054431Z" creationid="haohang" creationdate="20231126T054431Z">
+        <seg>示例 7.5. 使用 JCenter 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Excluding tasks</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154445Z" creationid="huanghaohang" creationdate="20220328T154445Z">
@@ -4192,6 +4200,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054410Z" creationid="haohang" creationdate="20231126T054410Z">
         <seg>或 Bintray 的 JCenter：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Or a any other remote Maven repository:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054644Z" creationid="haohang" creationdate="20231126T054644Z">
+        <seg>或任何一个其他远程 Maven 仓库：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6740,6 +6756,18 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T032658Z" creationid="huanghaohang" creationdate="20220328T032658Z">
         <seg>publishing_maven.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>repositories {
+    jcenter()
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054504Z" creationid="haohang" creationdate="20231126T054504Z">
+        <seg>repositories {
+    jcenter()
+}</seg>
       </tuv>
     </tu>
     <tu>
