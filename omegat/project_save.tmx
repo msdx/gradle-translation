@@ -2804,6 +2804,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>By default, Gradle does not define any repositories. You need to define at least one before you can use external dependencies. One option is use the Maven central repository:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054320Z" creationid="haohang" creationdate="20231126T054320Z">
+        <seg>默认情况下，Gradle 没有定义任何仓库。需要你至少去定义一个，然后才能使用外部依赖。其中一个选项是使用 Maven 中央仓库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>By default, Gradle will abort execution and fail the build as soon as any task fails. This allows the build to complete sooner, but hides other failures that would have occurred. In order to discover as many failures as possible in a single build execution, you can use the &lt;c0>--continue&lt;/c0> option.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T123427Z" creationid="huanghaohang" creationdate="20220329T123205Z">
@@ -3344,6 +3352,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231126T053827Z" creationid="haohang" creationdate="20231126T053827Z">
         <seg>示例7.3. 外部依赖的快捷定义</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 7.4. Usage of Maven central repository</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054326Z" creationid="haohang" creationdate="20231126T054326Z">
+        <seg>示例7.4. 使用 Maven 中央仓库</seg>
       </tuv>
     </tu>
     <tu>
@@ -4168,6 +4184,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145459Z" creationid="haohang" creationdate="20231117T145459Z">
         <seg>操作系统</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Or Bintray's JCenter:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054410Z" creationid="haohang" creationdate="20231126T054410Z">
+        <seg>或 Bintray 的 JCenter：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6716,6 +6740,18 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T032658Z" creationid="huanghaohang" creationdate="20220328T032658Z">
         <seg>publishing_maven.html</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>repositories {
+    mavenCentral()
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054329Z" creationid="haohang" creationdate="20231126T054329Z">
+        <seg>repositories {
+    mavenCentral()
+}</seg>
       </tuv>
     </tu>
     <tu>
