@@ -278,6 +278,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#ftn.N106DC</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T055204Z" creationid="haohang" creationdate="20231126T055204Z">
+        <seg>#ftn.N106DC</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#sec:configuration</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220404T135303Z" creationid="huanghaohang" creationdate="20220404T135303Z">
@@ -3436,6 +3444,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example 7.9. Publishing to an Ivy repository</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T055049Z" creationid="haohang" creationdate="20231126T055049Z">
+        <seg>示例7.9. 发布到 Ivy 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Excluding tasks</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T154445Z" creationid="huanghaohang" creationdate="20220328T154445Z">
@@ -4200,6 +4216,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145458Z" creationid="haohang" creationdate="20231117T145458Z">
         <seg>通知服务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now, when you run &lt;s0>&lt;c1>gradle uploadArchives&lt;/c1>&lt;/s0>, Gradle will build and upload your Jar. Gradle will also generate and upload an &lt;c2>ivy.xml&lt;/c2> as well.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T055203Z" creationid="haohang" creationdate="20231126T055203Z">
+        <seg>现在，当你运行&lt;s0>&lt;c1>gradle uploadArchives&lt;/c1>&lt;/s0> 后，Gradle 将会构建你的 Jar 包，以及生成 &lt;c2>ivy.xml&lt;/c2> 并且一起上传。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5104,6 +5128,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The plugins do a pretty good job of defining the artifacts of a project, so you usually don't need to do anything special to tell Gradle what needs to be published. However, you do need to tell Gradle where to publish the artifacts. You do this by attaching repositories to the &lt;c0>uploadArchives&lt;/c0> task. Here's an example of publishing to a remote Ivy repository:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T055040Z" creationid="haohang" creationdate="20231126T055040Z">
+        <seg>插件对定义项目的构件提供了非常好的支持，所以通常无需再做其他事情来告诉 Gradle 需要发布什么。但是，你需要告诉 Gradle 发布到哪里。这就需要在 &lt;c0>uploadArchives&lt;/c0> 任务中添加一个仓库。以下是发布到远程 Ivy 仓库的一个示例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The report shows the description of each project, if specified. You can provide a description for a project by setting the &lt;c0>description&lt;/c0> property:</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T131723Z" creationid="huanghaohang" creationdate="20220329T131613Z">
@@ -5644,6 +5676,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054810Z" creationid="haohang" creationdate="20231126T054810Z">
         <seg>你还可以在本地文件系统上部署一个仓库，它对于 Maven 和 Ivy 仓库都支持。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also publish to Maven repositories. The syntax is slightly different.&lt;s0>[&lt;a1>3&lt;/a1>]&lt;/s0> Note that you also need to apply the Maven plugin in order to publish to a Maven repository. when this is in place, Gradle will generate and upload a &lt;c2>pom.xml&lt;/c2>.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T055318Z" creationid="haohang" creationdate="20231126T055318Z">
+        <seg>你也可以发布到 Maven 仓库，语法略有不同。&lt;s0>[&lt;a1>3&lt;/a1>]&lt;/s0>请注意，你需要应用 Maven 插件才能发布到 Maven 仓库。在这种情况下，Gradle 会生成 &lt;c2>pom.xml&lt;/c2> 并上传。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7252,6 +7292,34 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T145531Z" creationid="haohang" creationdate="20231117T145518Z">
         <seg>twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>uploadArchives {
+    repositories {
+        ivy {
+            credentials {
+                username &lt;s0>"username"&lt;/s0>
+                password &lt;s1>"pw"&lt;/s1>
+            }
+            url &lt;s2>"http://repo.mycompany.com"&lt;/s2>
+        }
+    }
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T055056Z" creationid="haohang" creationdate="20231126T055056Z">
+        <seg>uploadArchives {
+    repositories {
+        ivy {
+            credentials {
+                username &lt;s0>"username"&lt;/s0>
+                password &lt;s1>"pw"&lt;/s1>
+            }
+            url &lt;s2>"http://repo.mycompany.com"&lt;/s2>
+        }
+    }
+}</seg>
       </tuv>
     </tu>
     <tu>
