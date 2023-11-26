@@ -214,6 +214,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#N10660</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T053912Z" creationid="haohang" creationdate="20231126T053912Z">
+        <seg>#N10660</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#N1449C</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T144920Z" creationid="haohang" creationdate="20231117T144920Z">
@@ -1625,6 +1633,14 @@
         <seg>7.5. Repositories</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231120T123749Z" creationid="haohang" creationdate="20231120T123749Z">
+        <seg>7.5 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>7.5. Repositories</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T053916Z" creationid="haohang" creationdate="20231126T053916Z">
         <seg>7.5 仓库</seg>
       </tuv>
     </tu>
@@ -3700,6 +3716,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>How does Gradle find the files for external dependencies? Gradle looks for them in a &lt;e0>repository&lt;/e0>. A repository is really just a collection of files, organized by &lt;c1>group&lt;/c1>, &lt;c2>name&lt;/c2> and &lt;c3>version&lt;/c3>. Gradle understands several different repository formats, such as Maven and Ivy, and several different ways of accessing the repository, such as using the local file system or HTTP.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054211Z" creationid="haohang" creationdate="20231126T054211Z">
+        <seg>Gradle是如何找到外部依赖的文件的呢？它通过在一个&lt;e0>仓库&lt;/e0>去查找它们。一个仓库实际上只是一组按&lt;c1>group&lt;/c1>，&lt;c2>name&lt;/c2>和&lt;c3>version&lt;/c3>组织的文件。Gradle支持多种不同的仓库格式，例如 Maven 和 Ivy；并支持多种访问仓库的方法，例如使用本地文件系统或 HTTP。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>How does the Gradle Daemon make builds faster?</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T155007Z" creationid="huanghaohang" creationdate="20220328T155007Z">
@@ -5152,6 +5176,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To find out more about defining and working with dependencies, have a look at &lt;a0>Section 23.4, “How to declare your dependencies”&lt;/a0>.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T053911Z" creationid="haohang" creationdate="20231126T053911Z">
+        <seg>要了解有关定义和使用依赖的更多信息，请查看《&lt;a0>第23.4节，如何声明你的依赖&lt;/a0>》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To increase the amount of memory the Daemon can use, specify the appropriate flags as part of the requested build environment. Please see &lt;a0>Chapter 11, &lt;i1>The Build Environment&lt;/i1>&lt;/a0> for details.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T115046Z" creationid="haohang" creationdate="20231118T115046Z">
@@ -5887,6 +5919,18 @@ dependencies {
     <tu>
       <tuv lang="en-US">
         <seg>dependencies {
+    compile &lt;s0>'org.hibernate:hibernate-core:3.6.7.Final'&lt;/s0>
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T053832Z" creationid="haohang" creationdate="20231126T053832Z">
+        <seg>dependencies {
+    compile &lt;s0>'org.hibernate:hibernate-core:3.6.7.Final'&lt;/s0>
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dependencies {
     compile group: &lt;s0>'org.hibernate'&lt;/s0>, name: &lt;s1>'hibernate-core'&lt;/s1>, version: &lt;s2>'3.6.7.Final'&lt;/s2>
 }</seg>
       </tuv>
@@ -5894,6 +5938,14 @@ dependencies {
         <seg>dependencies {
     compile group: &lt;s0>'org.hibernate'&lt;/s0>, name: &lt;s1>'hibernate-core'&lt;/s1>, version: &lt;s2>'3.6.7.Final'&lt;/s2>
 }</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dependency_management.html#sec:how_to_declare_your_dependencies</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T053837Z" creationid="haohang" creationdate="20231126T053837Z">
+        <seg>dependency_management.html#sec:how_to_declare_your_dependencies</seg>
       </tuv>
     </tu>
     <tu>
