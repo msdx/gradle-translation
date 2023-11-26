@@ -222,6 +222,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>#N106B4</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054910Z" creationid="haohang" creationdate="20231126T054910Z">
+        <seg>#N106B4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>#N1449C</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231117T144920Z" creationid="haohang" creationdate="20231117T144920Z">
@@ -258,6 +266,14 @@
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T152219Z" creationid="huanghaohang" creationdate="20220328T152219Z">
         <seg>#ftn.N100C4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>#ftn.N106B9</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054915Z" creationid="haohang" creationdate="20231126T054915Z">
+        <seg>#ftn.N106B9</seg>
       </tuv>
     </tu>
     <tu>
@@ -1662,6 +1678,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>7.6. Publishing artifacts</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054914Z" creationid="haohang" creationdate="20231126T054914Z">
+        <seg>7.6. 发布构件</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>7.7.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T155235Z" creationid="huanghaohang" creationdate="20220328T155235Z">
@@ -2592,6 +2616,14 @@ Total time: 1 secs</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A project can have multiple repositories. Gradle will look for a dependency in each repository in the order they are specified, stopping at the first repository that contains the requested module.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054856Z" creationid="haohang" creationdate="20231126T054856Z">
+        <seg>一个项目可以有多个仓库。 Gradle 将按照指定的顺序在每个仓库中查找依赖，并在找到包含了所请求模块的第一个仓库后停止。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A rich domain model for describing your build.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T103824Z" creationid="huanghaohang" creationdate="20220328T103824Z">
@@ -3052,6 +3084,14 @@ Group</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Dependency configurations are also used to publish files.&lt;s0>[&lt;a1>2&lt;/a1>]&lt;/s0> We call these files &lt;e2>publication artifacts&lt;/e2>, or usually just &lt;e3>artifacts&lt;/e3>.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T055002Z" creationid="haohang" creationdate="20231126T055002Z">
+        <seg>依赖配置也用于发布文件。&lt;s0>[&lt;a1>2&lt;/a1>]&lt;/s0>我们称这些文件为&lt;e2>发布构件&lt;/e2>，通常也叫做&lt;e3>构件&lt;/e3>。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Different teams prefer different ways to manage their external dependencies. Gradle provides convenient support for any strategy. From transitive dependency management with remote Maven and Ivy repositories to jars or directories on the local file system.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220328T144908Z" creationid="huanghaohang" creationdate="20220328T144908Z">
@@ -3368,6 +3408,30 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054431Z" creationid="haohang" creationdate="20231126T054431Z">
         <seg>示例 7.5. 使用 JCenter 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 7.6. Usage of a remote Maven repository</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054657Z" creationid="haohang" creationdate="20231126T054657Z">
+        <seg>示例7.6. 使用远程的 Maven 仓库</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 7.7. Usage of a remote Ivy directory</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054722Z" creationid="haohang" creationdate="20231126T054722Z">
+        <seg>示例7.7. 使用远程 Ivy 目录</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example 7.8. Usage of a local Ivy directory</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054826Z" creationid="haohang" creationdate="20231126T054826Z">
+        <seg>示例7.8. 本地 Ivy 目录的使用</seg>
       </tuv>
     </tu>
     <tu>
@@ -4208,6 +4272,14 @@ Group</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054644Z" creationid="haohang" creationdate="20231126T054644Z">
         <seg>或任何一个其他远程 Maven 仓库：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Or a remote Ivy repository:</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054714Z" creationid="haohang" creationdate="20231126T054714Z">
+        <seg>或者是一个远程的 Ivy 仓库：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5224,6 +5296,14 @@ Description</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To find out more about defining and working with repositories, have a look at &lt;a0>Section 23.6, “Repositories”&lt;/a0>.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054909Z" creationid="haohang" creationdate="20231126T054909Z">
+        <seg>要了解有关定义和使用仓库的更多信息，请查看《&lt;a0>第23.6节，“仓库”&lt;/a0>》。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To increase the amount of memory the Daemon can use, specify the appropriate flags as part of the requested build environment. Please see &lt;a0>Chapter 11, &lt;i1>The Build Environment&lt;/i1>&lt;/a0> for details.</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231118T115046Z" creationid="haohang" creationdate="20231118T115046Z">
@@ -5556,6 +5636,14 @@ Description</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="huanghaohang" changedate="20220329T125236Z" creationid="huanghaohang" creationdate="20220329T125236Z">
         <seg>你也可以对驼峰命名的任务名称的每一个单词进行缩写。例如，你可以通过运行 &lt;s1>&lt;c2>gradle compTest&lt;/c2>&lt;/s1> 或 &lt;s3>&lt;c4>gradle cT&lt;/c4>&lt;/s3> 执行 &lt;c0>compileTest&lt;/c0> 任务</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also have repositories on the local file system. This works for both Maven and Ivy repositories.</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054810Z" creationid="haohang" creationdate="20231126T054810Z">
+        <seg>你还可以在本地文件系统上部署一个仓库，它对于 Maven 和 Ivy 仓库都支持。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5986,6 +6074,14 @@ dependencies {
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231126T053837Z" creationid="haohang" creationdate="20231126T053837Z">
         <seg>dependency_management.html#sec:how_to_declare_your_dependencies</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dependency_management.html#sec:repositories</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054858Z" creationid="haohang" creationdate="20231126T054858Z">
+        <seg>dependency_management.html#sec:repositories</seg>
       </tuv>
     </tu>
     <tu>
@@ -6761,12 +6857,62 @@ task dist(dependsOn: [compile, test]) &lt;&lt; {</seg>
     <tu>
       <tuv lang="en-US">
         <seg>repositories {
+    ivy {
+        &lt;s0>// URL can refer to a local directory&lt;/s0>
+        url &lt;s1>"../local-repo"&lt;/s1>
+    }
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054830Z" creationid="haohang" creationdate="20231126T054830Z">
+        <seg>repositories {
+    ivy {
+        &lt;s0>// URL can refer to a local directory&lt;/s0>
+        url &lt;s1>"../local-repo"&lt;/s1>
+    }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>repositories {
+    ivy {
+        url &lt;s0>"http://repo.mycompany.com/repo"&lt;/s0>
+    }
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054726Z" creationid="haohang" creationdate="20231126T054726Z">
+        <seg>repositories {
+    ivy {
+        url &lt;s0>"http://repo.mycompany.com/repo"&lt;/s0>
+    }
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>repositories {
     jcenter()
 }</seg>
       </tuv>
       <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054504Z" creationid="haohang" creationdate="20231126T054504Z">
         <seg>repositories {
     jcenter()
+}</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>repositories {
+    maven {
+        url &lt;s0>"http://repo.mycompany.com/maven2"&lt;/s0>
+    }
+}</seg>
+      </tuv>
+      <tuv lang="zh-CN" changeid="haohang" changedate="20231126T054708Z" creationid="haohang" creationdate="20231126T054708Z">
+        <seg>repositories {
+    maven {
+        url &lt;s0>"http://repo.mycompany.com/maven2"&lt;/s0>
+    }
 }</seg>
       </tuv>
     </tu>
